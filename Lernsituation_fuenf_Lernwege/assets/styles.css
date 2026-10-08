@@ -54,3 +54,8 @@ body .main .lesson-content :is(.material-access,.phase-materials) .material-grid
 body .main .lesson-content :is(.material-access,.phase-materials) .material-link{padding:6px 9px;font-size:.82rem;line-height:1.4;min-height:32px;align-items:center;gap:5px}
 body .main .lesson-content :is(.material-access,.phase-materials) .material-link b{padding:0;background:transparent;flex:none}
 @media print{.material-disclosure>summary{list-style:none}.material-disclosure-content{padding:0}}
+
+/* Gesperrte Lernphasen bleiben sichtbar, aber sind noch nicht erreichbar. */
+.phase-locked{opacity:.55;cursor:not-allowed}
+.stations .phase-locked .station-icon{background:#e2e8ec;color:#657681}
+.phase-gate p{margin:0 0 12px}
