@@ -1,0 +1,23 @@
+{
+  "mode": 1,
+  "allowStudentMode": false,
+  "moodle": {},
+  "media": {
+    "LS1.1-orientation": {
+      "src": "assets/images/LS1_1-orientation.png",
+      "alt": "Orientierung · LS 1.1"
+    },
+    "LS1.1-situation": {
+      "src": "assets/images/LS1_1-situation-preserved.png",
+      "alt": "Handlungssituation · Berufsrolle begründen"
+    }
+  },
+  "overrides": {},
+  "packageRevision": "LS1.1-schlank-modular-20261007",
+  "format": "SCORM 1.2",
+  "learningPaths": {
+    "1": {
+      "label": "Tradiert"
+    }
+  }
+}

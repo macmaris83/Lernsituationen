@@ -1,0 +1,51 @@
+/* Ausschließlich die Handlungssituationsseite. */
+body[data-page="handlungssituation.html"]{background:radial-gradient(ellipse at 15% 8%,#e4f7ff 0,transparent 52%),radial-gradient(ellipse at 94% 48%,#f1f6db 0,transparent 58%),#f5faff}
+body[data-page="handlungssituation.html"] .shell{background:rgba(255,255,255,.58);border:1px solid rgba(255,255,255,.94);box-shadow:0 18px 65px rgba(49,86,112,.09);backdrop-filter:blur(22px) saturate(130%);-webkit-backdrop-filter:blur(22px) saturate(130%)}
+body[data-page="handlungssituation.html"] :is(.card,.tools-bar,.page-footer){background:rgba(255,255,255,.58);border:1px solid rgba(255,255,255,.92);box-shadow:inset 0 1px 0 #ffffffea,0 9px 25px #244a6608;backdrop-filter:blur(18px) saturate(135%);-webkit-backdrop-filter:blur(18px) saturate(135%)}
+body[data-page="handlungssituation.html"] :is(button,.button,.material-link,.quiz-check>details>summary){border:1px solid #c1e9fc;box-shadow:inset 0 1px 0 #fff,0 5px 15px #17466508;background:linear-gradient(150deg,#ffffffed,#ffffff8c);backdrop-filter:blur(14px) saturate(140%);-webkit-backdrop-filter:blur(14px) saturate(140%);color:#234b67;transition:background .18s,box-shadow .18s,transform .18s}
+body[data-page="handlungssituation.html"] :is(button,.button,.material-link):hover{background:#ffffffef;box-shadow:inset 0 1px 0 #fff,0 8px 19px #17466512}
+body[data-page="handlungssituation.html"] :is(button,.button,.material-link):active{transform:translateY(1px)}
+body[data-page="handlungssituation.html"] :is(a,button,summary,input):focus-visible{outline:3px solid #009cd6;outline-offset:3px}
+body[data-page="handlungssituation.html"] .tools-bar{justify-content:flex-start;position:static;padding:10px 12px;border-radius:14px}
+body[data-page="handlungssituation.html"] .card{border-radius:20px}
+body[data-page="handlungssituation.html"] .material-access{background:linear-gradient(125deg,#ffffffdb,#eff7dd9c);border:1px solid #dceba7;border-radius:15px;padding:16px 18px;margin:18px 0}
+body[data-page="handlungssituation.html"] .material-access h2{font-size:1rem;margin:0 0 10px;color:#173a63}
+body[data-page="handlungssituation.html"] .material-access .material-grid{display:flex;flex-wrap:wrap;gap:8px}
+body[data-page="handlungssituation.html"] .material-access .material-link{display:inline-flex;flex-direction:row;align-items:center;gap:5px;min-width:0;padding:7px 10px;border-radius:12px;font-size:.82rem;line-height:1.4;text-decoration:none}
+body[data-page="handlungssituation.html"] .material-access .material-link b{font-size:inherit;flex:none}
+body[data-page="handlungssituation.html"] .material-access .material-link span{display:inline}
+body[data-page="handlungssituation.html"] .page-turn{display:flex;justify-content:space-between;gap:12px}
+body[data-page="handlungssituation.html"] .page-turn .button{border-radius:13px;padding:10px 15px}
+body[data-page="handlungssituation.html"] .page-turn .primary{background:linear-gradient(135deg,#00a8ddd9,#009bcfe8);border-color:#ffffff7a;color:#fff;box-shadow:inset 0 1px 0 #ffffff59,0 8px 19px #008bbf25}
+body[data-page="handlungssituation.html"] .quiz-check{background:#f5faffaa;border:1px solid #bce7fc;border-radius:15px;padding:14px;margin:20px 0;box-shadow:inset 0 1px 0 #fff;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.quiz-check h2{font-size:.78rem;letter-spacing:.045em;text-transform:uppercase;margin:0 0 12px;color:#173a63}
+.quiz-check>details{margin:6px 0}
+.quiz-check>details>summary{list-style:none;display:flex;align-items:center;justify-content:space-between;cursor:pointer;padding:10px 12px;border-radius:12px;font-size:.92rem;font-weight:650}
+.quiz-check>details>summary::-webkit-details-marker{display:none}
+.quiz-check>details>summary:after{content:'⌄';color:#009bd4;font-size:1rem}
+.quiz-check>details[open]>summary:after{content:'⌃'}
+.quiz-panel{padding:14px 8px 8px}
+.quiz-panel fieldset{border:0;padding:0;margin:0}
+.quiz-panel legend{font-size:1rem;font-weight:600;line-height:1.5;padding:0;margin:0 0 12px}
+.quiz-answer{display:flex;align-items:flex-start;gap:9px;padding:10px 12px;border:1px solid #d6e8f0;border-radius:12px;background:#ffffffb8;margin:7px 0;cursor:pointer;line-height:1.45;font-size:.92rem}
+.quiz-answer input{margin:4px 0 0;accent-color:#009bd4;flex:none}
+.quiz-answer:has(input:checked){border-color:#71cceb;background:#eaf8ffcc}
+.quiz-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.quiz-actions button{font-size:.88rem;padding:7px 12px;border-radius:11px}
+.quiz-feedback{font-size:.92rem;line-height:1.5;margin:12px 0 0;padding:10px 12px;background:#edf7fc;border-radius:10px}
+.quiz-feedback[data-result="correct"]{background:#eef6df;border-left:3px solid #809526}
+.quiz-feedback[data-result="wrong"]{background:#fff4e5;border-left:3px solid #c48c36}
+.quiz-progress{font-size:.85rem;color:#426178;margin:12px 0 0}
+.quiz-check details.quiz-hint{font-size:.88rem;margin-top:10px}
+.quiz-check details.quiz-hint summary{cursor:pointer;color:#287394}
+@media(max-width:600px){body[data-page="handlungssituation.html"] .material-access{padding:13px}.quiz-answer{padding:9px}.quiz-panel{padding-inline:1px}body[data-page="handlungssituation.html"] .page-turn .button{font-size:.85rem;padding:10px}}
+@media(prefers-reduced-motion:reduce){body[data-page="handlungssituation.html"] *{transition:none!important}}
+@media print{body[data-page="handlungssituation.html"]{background:#fff}body[data-page="handlungssituation.html"] :is(.shell,.card){background:#fff;box-shadow:none;backdrop-filter:none;border:0}.quiz-check{display:none}.material-access{break-inside:avoid}}
+
+/* Header und Lernweg bleiben in der Mastergestaltung; Glass nur für Inhaltsflächen. */
+@media screen{
+body[data-page="handlungssituation.html"] .tools-bar{justify-content:flex-start}
+body[data-page="handlungssituation.html"] .page-turn .button.primary:hover,
+body[data-page="handlungssituation.html"] .page-turn .button.primary:focus-visible{background:linear-gradient(135deg,#008dc7,#066b9a);color:#fff;border-color:#008dc7;box-shadow:inset 0 1px 0 #ffffff59,0 8px 19px #008bbf25}
+body[data-page="handlungssituation.html"] .page-turn .button.primary:active{background:linear-gradient(135deg,#007ead,#065e89);color:#fff;border-color:#007ead}
+}

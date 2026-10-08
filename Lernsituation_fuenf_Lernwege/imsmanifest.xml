@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="BRC_LG01_LS03_SCORM_V2" version="1.0">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="ORG_MAIN">
+    <organization identifier="ORG_MAIN" structure="hierarchical">
+      <title>Einen Business-Plan erstellen</title>
+      <item identifier="ITEM_MAIN" identifierref="BRC_LG01_LS03_RESOURCE" isvisible="true">
+        <title>Einen Business-Plan erstellen</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="BRC_LG01_LS03_RESOURCE" type="webcontent" href="scorm.html" adlcp:scormtype="sco">
+      <file href="Konfiguration.json"/><file href="assets/bbs1-aurich.svg"/><file href="assets/biocasa-szenen.jpg"/><file href="assets/export.js"/><file href="assets/footer-0.svg"/><file href="assets/footer-1.svg"/><file href="assets/footer-2.svg"/><file href="assets/footer-3.svg"/><file href="assets/footer-4.svg"/><file href="assets/footer-5.svg"/><file href="assets/footer-6.svg"/><file href="assets/goodnotes.png"/><file href="assets/handlungssituation.jpg"/><file href="assets/jszip.min.js"/><file href="assets/lehrbuch-icon.png"/><file href="assets/lg01.css"/><file href="assets/lg01.js"/><file href="assets/loept.png"/><file href="assets/material-pen-LICENSE.txt"/><file href="assets/material-pen.otf"/><file href="assets/material-views.css"/><file href="assets/moodle.svg"/><file href="assets/pako-LICENSE.txt"/><file href="assets/pako.min.js"/><file href="assets/phases.css"/><file href="assets/print.css"/><file href="assets/progress-core.js"/><file href="assets/progress.css"/><file href="assets/progress.js"/><file href="assets/review-layout.css"/><file href="assets/runtime.js"/><file href="assets/scorm-codec.js"/><file href="assets/scorm.js"/><file href="assets/situation.css"/><file href="assets/situation.js"/><file href="assets/styles.css"/><file href="assets/teacher.js"/><file href="bewerten.html"/><file href="druckansicht.html"/><file href="durchfuehren.html"/><file href="entscheiden.html"/><file href="erwartungshorizont.html"/><file href="goodnotes-share-W1.js"/><file href="goodnotes-share-W2.js"/><file href="goodnotes-share-W3.js"/><file href="goodnotes-share-W4.js"/><file href="goodnotes-share-W5.js"/><file href="goodnotes-share-data.js"/><file href="handlungssituation.html"/><file href="index.html"/><file href="informieren.html"/><file href="lehrkraft.html"/><file href="lesson-data.js"/><file href="m1.html"/><file href="m10.html"/><file href="m2.html"/><file href="m3.html"/><file href="m4.html"/><file href="m5.html"/><file href="m6.html"/><file href="m7.html"/><file href="m8.html"/><file href="m9.html"/><file href="media-map.js"/><file href="media-map.json"/><file href="mode-config.js"/><file href="package-data.js"/><file href="pdf/GoodNotes_LG01_LS03.pdf"/><file href="pdf/GoodNotes_LG01_LS03_W1.pdf"/><file href="pdf/GoodNotes_LG01_LS03_W2.pdf"/><file href="pdf/GoodNotes_LG01_LS03_W3.pdf"/><file href="pdf/GoodNotes_LG01_LS03_W4.pdf"/><file href="pdf/GoodNotes_LG01_LS03_W5.pdf"/><file href="pdf/LG01_LS03_Gesamtdruck_A4.pdf"/><file href="planen.html"/><file href="progress-meta.js"/><file href="reflektieren.html"/><file href="scorm.html"/><file href="start.html"/></resource>
+  </resources>
+</manifest>
