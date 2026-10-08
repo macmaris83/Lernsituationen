@@ -20,6 +20,26 @@ Mechanik-Blaupause für zukünftige Lernpfadübungen festgelegt.
 - Lehrkräfte-PIN, Fehlversuchsperre, Entwurfsspeicherung, Aufgaben- und Lösungsauswahl, Validierung und SCORM-Export erhalten.
 - Für neue eigenständige Übungen IDs und Browserspeicherschlüssel passend zur neuen Übung vergeben; nicht die Speicherstände einer anderen Übung wiederverwenden. Beim bestehenden Paket diese Werte nicht wegen Designänderungen ändern.
 
+## Verbindlicher Aufgabenstandard (aktuelle Nutzerpräzisierung)
+
+Für die gewünschten 30 Lernpfadübungen bedeutet „immer sechs“ ausdrücklich
+**sechs Antwortmöglichkeiten je MC-Aufgabe**, nicht sechs Aufgaben insgesamt oder
+je Stufe. Die Zahl der Aufgaben nicht aufgrund dieser Formulierung ändern.
+
+- Keine Cloze-/Lückentext-Aufgaben verwenden. Vorhandene Aufgaben dieser Art in fachlich passende Multiple-Choice-Aufgaben umarbeiten.
+- MC-Aufgaben als echte Mehrfachauswahl mit sechs eigenständigen Antwortmöglichkeiten erstellen. Eine oder mehrere Antworten können richtig sein; diese Möglichkeit in der Aufgabenanweisung klar benennen.
+- Aufgabe, Antwortschlüssel und Feedback fachlich aus der zugehörigen Lernsituation ableiten. Plausible Fehlvorstellungen als Distraktoren einsetzen; keine künstlich verlängerten Antworttexte oder offensichtlich absurde Alternativen.
+- Keine Lückentexte als MC tarnen. Kompetenz und Anforderungsniveau der ursprünglichen Aufgabe erhalten.
+- Jede Aufgabe auf sechs verschiedene Optionen, gültige Antwortindizes, Übereinstimmung von Schlüssel und Erklärung sowie funktionierende Auswertung prüfen.
+- Den bestehenden Lehrkräfte-Stil verwenden. Lernpfadübungen bleiben getrennt von Lernsituationen.
+- Die 30 fertigen SCORM-ZIPs sollen auf ausdrücklichen Nutzerwunsch in dessen Google Drive abgelegt werden. Dies ist eine autorisierte Zielaktion, sobald Quelldaten, Drive-Verbindung und Zielordner verfügbar sind. Keine Upload-Erfolge ohne Bestätigung des Werkzeugs behaupten.
+- Zur fachlichen Erstellung alle 30 Ausgangssituationen verwenden. Fehlende Inhalte nicht aus bloßen Titeln erfinden. Ein unzugängliches Sammelpaket oder fehlender Drive-Zugriff muss konkret benannt werden.
+
+Diese Vorgabe ist für die gewünschte Überarbeitung/Neuerstellung anzuwenden;
+der bisherige Ausgangsstand `Duales_System_verstehen` bleibt eine nachvollziehbare
+Mechanik-Blaupause. Bestehende geschützte Transferrollen nicht unbegründet verändern,
+um lediglich die Anzahl der Optionen zu erhöhen.
+
 ## Gestaltung des Lehrkräfte-Modus
 
 Die Form von `Lernsituation_tradiert/lehrkraft.html` und dessen `assets/styles.css`
