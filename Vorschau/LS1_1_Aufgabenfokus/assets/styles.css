@@ -124,3 +124,7 @@ body .lesson-content .phase-materials,body .lesson-content .material-access{back
 body[data-phase-layout] .assignment-frame.focus-card-complete,body.task-focus .assignment-frame.focus-card-complete:has(>.task-accordion[open]){background:#f3f8e7!important;border-color:#afca0b!important}
 .task-command-stack{display:block}.task-command-stack>p{display:block!important;margin:0 0 18px!important}.task-command-stack>p:last-child{margin-bottom:0!important}
 .task-original-preview{display:block;max-height:none!important;overflow:visible!important}
+
+/* Kein zusätzlicher Haken unter den Sozialform-Symbolen. */
+body[data-page="informieren.html"] .assignment-frame>.task-completion{display:none!important}
+body[data-page="informieren.html"] .task-done-check{left:auto;right:16px;top:14px;bottom:auto}
