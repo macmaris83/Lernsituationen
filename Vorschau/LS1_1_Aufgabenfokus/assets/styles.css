@@ -91,3 +91,14 @@ body.material-reading .navigation,body.material-reading .brand-header,body.mater
 .material-switch{display:flex;gap:6px;flex-wrap:nowrap;overflow:auto;padding:8px;margin-bottom:12px;border:1px solid #dcebb0;border-radius:10px;background:#f5f8e9}.material-switch a{font-size:.85rem;white-space:nowrap;padding:6px 9px;text-decoration:none}.material-switch a[aria-current]{font-weight:700;background:#e7efd1;border-radius:7px}
 body .lesson-content .phase-materials .material-grid{display:flex;flex-wrap:nowrap;overflow:auto}.phase-materials .material-link{flex:none;white-space:nowrap}
 @media(max-width:600px){.task-original-preview{padding:12px 40px 12px 95px;font-size:.94rem}.task-accordion:not([open])>.task-summary{left:10px;width:76px}.focus-symbol-strip{width:76px}.task-summary .focus-symbol-strip .assignment-kind,.task-summary .focus-symbol-strip .assignment-social{width:76px}.task-accordion[open] .focus-symbol-strip{gap:9px;flex-wrap:wrap}.task-accordion[open] .focus-symbol-strip .assignment-kind,.task-accordion[open] .focus-symbol-strip .assignment-social{width:auto;font-size:.68rem}}
+
+/* Originalkarte im Überblick; Fokus direkt unter dem Materialzugriff. */
+body.task-focus .shell{margin:0 auto;border-radius:0;border-top:0;box-shadow:none}
+body.task-focus .main{padding-top:0}
+body.task-focus .lesson-content{margin-top:0}
+body.task-focus .lesson-content .phase-materials,body.task-focus .lesson-content .material-access{position:sticky;top:0;z-index:90;margin:0 0 12px;padding:8px 12px;background:linear-gradient(120deg,#fff,#f3f8e7);border-radius:0 0 12px 12px}
+body.task-focus .assignment-frame:has(>.task-accordion[open]){scroll-margin-top:88px;margin-top:0!important}
+.task-original-preview .assignment-time{display:inline-flex!important;align-items:center;font-size:.85em;color:#647989}
+.task-original-preview .assignment-time svg{width:16px;height:16px;stroke:#009bd9;flex:none}
+body.task-focus .phase-mode{margin-top:0!important}
+@media(max-width:600px){body.task-focus .assignment-frame:has(>.task-accordion[open]){scroll-margin-top:84px}}
