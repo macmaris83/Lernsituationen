@@ -128,3 +128,8 @@ body[data-phase-layout] .assignment-frame.focus-card-complete,body.task-focus .a
 /* Kein zusätzlicher Haken unter den Sozialform-Symbolen. */
 body[data-page="informieren.html"] .assignment-frame>.task-completion{display:none!important}
 body[data-page="informieren.html"] .task-done-check{left:auto;right:16px;top:14px;bottom:auto}
+
+/* Ein einziger hellgrüner Materialzugriff zum Ausklappen. */
+.phase-materials>summary{cursor:pointer;font-weight:700;color:#173a63;font-size:1rem;padding:4px 0}
+.phase-materials[open]>summary{margin-bottom:10px}
+.station-check{display:none!important}
