@@ -52,22 +52,80 @@ window.SOZ_API={availableModes:modes,getState:()=>state,getSettings:()=>settings
 start();
 
 function compactMaterialAccess(){
+ document.querySelectorAll('.tools-bar details:has(.material-menu)').forEach(menu=>menu.remove());
  document.querySelectorAll('.lesson-content .material-access,.lesson-content .phase-materials').forEach(section=>{
-  if(section.querySelector('.material-disclosure'))return;
+  if(section.matches('details'))return;
   const heading=section.querySelector('h2');
   const links=section.querySelectorAll('.material-link');
   if(!heading||!links.length)return;
-  const details=document.createElement('details');details.className='material-disclosure';
-  const summary=document.createElement('summary');summary.textContent=heading.textContent+' · '+links.length+' Materialien';
-  heading.remove();
-  const content=document.createElement('div');content.className='material-disclosure-content';
-  while(section.firstChild)content.append(section.firstChild);
-  details.append(summary,content);section.append(details);
+  const details=document.createElement('details');details.className=section.className;details.open=true;
+  const summary=document.createElement('summary');summary.textContent=heading.textContent;
+  heading.remove();details.append(summary);
+  while(section.firstChild)details.append(section.firstChild);
+  section.replaceWith(details);
  });
 }
 compactMaterialAccess();
 const printMaterialStates=new Map();
-window.addEventListener('beforeprint',()=>{document.querySelectorAll('.material-disclosure').forEach(d=>{printMaterialStates.set(d,d.open);d.open=true;});});
+window.addEventListener('beforeprint',()=>{document.querySelectorAll('details.material-access,details.phase-materials').forEach(d=>{printMaterialStates.set(d,d.open);d.open=true;});});
 window.addEventListener('afterprint',()=>{printMaterialStates.forEach((open,d)=>{d.open=open;});printMaterialStates.clear();});
 
 })();
+
+/* Aufgabenfokus innerhalb der bestehenden Phasenseite. */
+(()=>{'use strict';
+const D=window.SOZPAED,P=window.SOZ_PROGRESS;
+if(!D||!P||document.body.dataset.teacher||!['informieren.html','planen.html','entscheiden.html','durchfuehren.html','bewerten.html','reflektieren.html'].includes(document.body.dataset.page))return;
+const returnTask=new URLSearchParams(location.search).get('aufgabe');const returnMode=window.SOZ_PROGRESS_META?.tasks[returnTask]?.mode;if(returnMode&&Number(document.body.dataset.mode)!==returnMode)window.SOZ_API.setMode(returnMode);
+const cards=[...document.querySelectorAll('.lesson-content .assignment-frame')];if(!cards.length)return;
+let active=null,interval=null,audio=null;const timers=new Map(),records=new Map();
+const svg='<svg class="focus-net" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,8 90,37 75,85 25,85 10,37" fill="#f1f6fa" stroke="#526e83" stroke-width="2.6"/><polygon points="50,23 76,42 66,73 34,73 24,42" fill="none" stroke="#7e96a7" stroke-width="2"/><path d="M50 51L90 37M50 51L75 85M50 51L25 85M50 51L10 37" stroke="#6e879a" stroke-width="2.4"/><path d="M50 51L50 8" stroke="#0078a8" stroke-width="7" stroke-linecap="round"/><circle cx="50" cy="8" r="5" fill="#0078a8"/></svg>';
+const clockSvg='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg>';
+function element(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text)e.textContent=text;return e;}
+function button(text,fn){const b=element('button','',text);b.type='button';b.addEventListener('click',fn);return b;}
+function prepareAudio(){try{const K=window.AudioContext||window.webkitAudioContext;if(K){audio||=new K();if(audio.state==='suspended')audio.resume().catch(()=>{});}}catch{}}
+function chime(r){if(!r.sound.checked||audio?.state!=='running')return;try{const now=audio.currentTime;[0,.38,.76].forEach(delay=>{[880,1320].forEach((frequency,i)=>{const o=audio.createOscillator(),g=audio.createGain();o.frequency.value=frequency;g.gain.setValueAtTime(0,now+delay);g.gain.linearRampToValueAtTime(i?.055:.11,now+delay+.015);g.gain.exponentialRampToValueAtTime(.001,now+delay+.32);o.connect(g);g.connect(audio.destination);o.start(now+delay);o.stop(now+delay+.34);});});}catch{}}
+function draw(r){const t=timers.get(r.card);if(!t)return;const ratio=1-t.remaining/t.total,mix=ratio<=.5?ratio*2:(ratio-.5)*2,a=ratio<=.5?[175,202,11]:[17,17,17],b=ratio<=.5?[17,17,17]:[180,35,24];r.time.textContent=String(Math.floor(t.remaining/60)).padStart(2,'0')+':'+String(t.remaining%60).padStart(2,'0');r.time.style.color='rgb('+a.map((v,i)=>Math.round(v+(b[i]-v)*mix)).join(',')+')';r.pause.hidden=t.remaining===0;r.pause.textContent=t.running?'Pause':'Fortsetzen';r.alarm.hidden=t.remaining>0;r.timerNote.textContent=t.remaining?'Die Zeit ist eine Orientierung. Du kannst pausieren und nach Ablauf weiterarbeiten.':'Orientierungszeit erreicht. Du kannst weiterarbeiten.';}
+function tick(r){const t=timers.get(r.card);if(!t?.running)return;const previous=t.remaining;t.remaining=Math.max(0,Math.ceil((t.deadline-Date.now())/1000));if(!t.remaining){t.running=false;if(previous>0)chime(r);}draw(r);}
+function pause(r){const t=timers.get(r.card);if(!t)return;tick(r);t.running=false;draw(r);}
+function start(r){const t=timers.get(r.card);if(!t||!t.remaining)return;t.deadline=Date.now()+t.remaining*1000;t.running=true;draw(r);}
+function restore(){for(const r of records.values())r.card.append(r.completion);document.querySelectorAll('[data-focus-suppressed]').forEach(e=>{e.classList.remove('focus-suppressed');delete e.dataset.focusSuppressed;});document.body.classList.remove('task-focus');}
+function suppress(e){e.dataset.focusSuppressed='';e.classList.add('focus-suppressed');}
+function close(focusSummary=true){if(!active)return;const r=active;pause(r);active=null;clearInterval(interval);interval=null;r.details.open=false;restore();if(focusSummary)r.summary.focus();}
+function open(r){if(active===r)return;try{sessionStorage.setItem('task-focus-return:'+D.id,JSON.stringify({page:document.body.dataset.page,task:r.card.dataset.taskId,number:r.card.dataset.taskNumber}));}catch{}close(false);active=r;r.details.open=true;r.card.querySelector('.focus-task-footer').insertBefore(r.completion,r.next);document.body.classList.add('task-focus');const content=document.querySelector('.lesson-content');for(const e of content.children){if(!e.contains(r.card)&&!e.matches('.material-access,.phase-materials'))suppress(e);}
+ for(const c of cards)if(c!==r.card)suppress(c);
+ document.querySelectorAll('.brand-header,.main>.navigation,.main>.tools-bar,.phase-mode-title,.page-footer').forEach(suppress);
+ const panel=r.card.closest('[data-mode-panel]');if(panel)for(const child of panel.children)if(!child.contains(r.card)&&child!==r.card)suppress(child);
+ draw(r);start(r);clearInterval(interval);interval=setInterval(()=>tick(r),200);r.summary.focus({preventScroll:true});if(!matchMedia('(prefers-reduced-motion: reduce)').matches){const h=r.card.getBoundingClientRect().height;r.card.animate([{height:(r.beforeHeight||h)+'px',overflow:'hidden'},{height:h+'px',overflow:'hidden'}],{duration:350,easing:'ease-out'});r.card.querySelector('.task-focus-panel').animate([{opacity:0,transform:'translateY(12px)'},{opacity:1,transform:'translateY(0)'}],{duration:350,easing:'ease-out'});}r.card.scrollIntoView({block:'start',behavior:'smooth'});}
+function nextRecord(r){const panel=r.card.closest('[data-mode-panel]');const list=cards.filter(c=>c.closest('[data-mode-panel]')===panel);return records.get(list[list.indexOf(r.card)+1]);}
+function refresh(r){r.next.disabled=!r.checkbox?.checked||r.checkbox.disabled||P.readOnly;r.summary.classList.toggle('focus-task-done',!!r.checkbox?.checked);r.card.classList.toggle('focus-card-complete',!!r.checkbox?.checked);r.doneMarker.hidden=!r.checkbox?.checked;}
+for(const card of cards){
+ const body=card.querySelector('.assignment-body'),completion=card.querySelector('[data-completion-label]'),checkbox=completion?.querySelector('input');if(!body||!checkbox)continue;
+ const number=card.querySelector('.assignment-number')||element('span','assignment-number',card.dataset.taskNumber||'');
+ const originalTime=card.querySelector('.assignment-time');const match=originalTime?.textContent.match(/(\d+)\s*Min/i);const seconds=match?Number(match[1])*60:0;
+ const details=element('details','task-accordion'),summary=element('summary','task-summary');const strip=element('span','focus-symbol-strip'),top=element('span','focus-symbol-top');top.append(number);const logo=card.querySelector('img.assignment-goodnotes');if(logo){const image=logo.cloneNode(true);image.classList.add('focus-goodnotes-logo');top.append(image);}strip.append(top);for(const icon of card.querySelectorAll('.assignment-kind,.assignment-social'))strip.append(icon);summary.append(strip);
+ const preview=element('span','task-preview',(body.querySelector('.assignment-command')||body.querySelector('p')||body).textContent.replace(/\s+/g,' ').trim().slice(0,140));
+ const opener=element('span','task-open-label','Bearbeiten');
+ const focus=element('div','task-focus-panel'),competence=element('aside','focus-competence');const copy=element('div','focus-competence-copy');copy.append(element('strong','','Fachkompetenz'),element('p','',D.competencies.find(c=>c.label==='Fachkompetenz')?.statement||''));competence.append(copy);const net=element('span','focus-net-wrap');net.innerHTML=svg;competence.append(net);focus.append(competence);
+ const tools=element('div','focus-toolbar'),back=button('Phasenübersicht',()=>close());tools.append(back);focus.append(tools);
+ const originalPreview=body.cloneNode(true);originalPreview.className='task-original-preview';const doneMarker=element('span','task-done-check','✓');doneMarker.setAttribute('aria-label','Aufgabe erledigt');doneMarker.setAttribute('role','img');const r={card,details,summary,checkbox,completion,originalPreview,doneMarker,next:null,sound:null};
+ if(seconds){timers.set(card,{total:seconds,remaining:seconds,running:false,deadline:0});const timer=element('div','focus-timer'),row=element('div','focus-timer-row'),icon=element('span','focus-clock');icon.innerHTML=clockSvg;const time=element('span','focus-countdown');time.setAttribute('role','timer');time.setAttribute('aria-label','Verbleibende Orientierungszeit');const pauseButton=button('Pause',()=>{prepareAudio();timers.get(card).running?pause(r):start(r);});row.append(icon,time,pauseButton);const note=element('p','focus-timer-note');const soundLabel=element('label','focus-sound'),sound=element('input');sound.type='checkbox';sound.checked=true;sound.addEventListener('change',()=>{if(sound.checked)prepareAudio();});soundLabel.append(sound,document.createTextNode(' 🔔'));soundLabel.title='Signalton ein- oder ausschalten';sound.setAttribute('aria-label','Signalton bei Zeitablauf');const alarm=element('p','focus-alarm');alarm.setAttribute('role','status');const bell=element('span','focus-bell','🔔');bell.setAttribute('aria-hidden','true');alarm.append(bell,document.createTextNode(' Orientierungszeit erreicht'));alarm.hidden=true;row.append(soundLabel);timer.append(row,note);tools.append(timer);Object.assign(r,{time,pause:pauseButton,sound,timerNote:note,alarm});draw(r);}
+ for(const paragraph of [...body.querySelectorAll('p')]){if(paragraph.querySelectorAll('strong.operator').length<2)continue;const parts=paragraph.innerHTML.split(/(?=<strong[^>]*class=["']operator["'][^>]*>[A-ZÄÖÜ])/);const stack=element('div','task-command-stack');for(const part of parts){if(!part.trim())continue;const line=element('p');line.innerHTML=part;stack.append(line);}paragraph.replaceWith(stack);}focus.append(body);
+ const help=element('aside','focus-ai-help');
+ const helpButton=button('KI-Hilfe öffnen',()=>{
+ let dialog=document.querySelector('.ais-help-dialog');
+ if(!dialog){dialog=element('dialog','ais-help-dialog');const heading=element('header','ais-help-heading');const title=element('strong','','KI-Hilfe · Löppt-Pilot');title.id='ais-help-title';dialog.setAttribute('aria-labelledby',title.id);heading.append(title,button('Schließen',()=>dialog.close()));const note=element('p','ais-help-note','Hilfe zur Selbsthilfe · Deine Lösung erarbeitest du selbst.');const iframe=element('iframe','ais-help-frame');iframe.title='AIS-Chat – KI-Hilfe zur Selbsthilfe';iframe.src='https://app.ais-chat.schule/ua/characters/2b7bdc3e-19fb-4b9d-baaf-4c17ad2b83d0/dialog?inviteCode=QLDYEBIV';const info=element('p','ais-help-info','Falls der Chat leer bleibt oder die Anmeldung nicht funktioniert, ist die Einbettung möglicherweise durch AIS oder die Moodle-App eingeschränkt.');dialog.append(heading,note,iframe,info);document.body.append(dialog);}dialog.showModal();
+ });const aiLogo=element('span','ais-chat-logo');aiLogo.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" width="142" height="32" viewBox="0 0 142 32" role="img" aria-label="AIS.chat"><title>AIS.chat</title><g fill="none" stroke="#4e248c" stroke-width="3.3" stroke-linecap="round"><rect x="3" y="5" width="20" height="8" rx="4"/><path d="M16 18h7M22 22h2"/></g><text x="33" y="25" fill="#4e248c" font-family="Arial,Helvetica,sans-serif" font-size="23">AIS.chat</text></svg>';helpButton.prepend(aiLogo);helpButton.title='Hilfe zur Selbsthilfe';help.append(helpButton);focus.append(help);
+ const solvedText=completion.querySelector('.sr-only');if(solvedText)solvedText.textContent='Aufgabe erledigt';const footer=element('div','focus-task-footer');const next=button('Zur nächsten Aufgabe →',()=>{if(!checkbox.checked||checkbox.disabled||P.readOnly)return;const n=nextRecord(r);if(n)open(n);else close();});next.className='focus-next';r.next=next;footer.append(back,completion,next);focus.append(footer);details.append(summary,focus);card.replaceChildren(details,originalPreview,completion,doneMarker);records.set(card,r);originalPreview.addEventListener('click',event=>{if(!event.target.closest('a,button,input,textarea,select')){if(r.sound?.checked)prepareAudio();r.beforeHeight=card.getBoundingClientRect().height;open(r);}});
+ summary.addEventListener('click',()=>{r.beforeHeight=card.getBoundingClientRect().height;if(r.sound?.checked)prepareAudio();});details.addEventListener('toggle',()=>{if(details.open)open(r);else if(active===r)close();});checkbox.addEventListener('click',event=>event.stopPropagation());checkbox.addEventListener('change',event=>{event.stopPropagation();refresh(r);});refresh(r);
+}
+for(const r of records.values())if(!nextRecord(r))r.next.textContent='Zur Phasenübersicht →';
+new MutationObserver(()=>close(false)).observe(document.body,{attributes:true,attributeFilter:['data-mode']});
+window.addEventListener('pagehide',()=>{if(active)pause(active);clearInterval(interval);});document.addEventListener('keydown',event=>{if(event.key==='Escape'&&active){event.preventDefault();close();}});
+window.addEventListener('beforeprint',()=>{close(false);for(const r of records.values())r.details.open=true;document.body.classList.add('focus-print');});window.addEventListener('afterprint',()=>{document.body.classList.remove('focus-print');for(const r of records.values())r.details.open=false;});
+const requested=new URLSearchParams(location.search).get('aufgabe');if(requested){const r=[...records.values()].find(r=>r.card.dataset.taskId===requested);if(r)open(r);}
+window.SOZ_TASK_FOCUS={close,refresh:()=>records.forEach(refresh)};window.SOZ_SCORM?.subscribe(()=>records.forEach(refresh));
+document.body.dataset.taskFocusReady='true';
+})();
+
+(()=>{const D=window.SOZPAED;if(!D||!/^m\d+\.html$/.test(document.body.dataset.page||''))return;document.body.classList.add('material-reading');const nav=document.createElement('nav');nav.className='material-switch';nav.setAttribute('aria-label','Andere Materialien');for(const name of Object.keys(D.pages).filter(n=>/^m\d+\.html$/.test(n))){const a=document.createElement('a');a.href=name;a.textContent=name.replace('.html','').toUpperCase();if(name===document.body.dataset.page)a.setAttribute('aria-current','page');nav.append(a);}const main=document.querySelector('.main');main?.prepend(nav);try{const saved=JSON.parse(sessionStorage.getItem('task-focus-return:'+D.id)||'null');if(saved&&['informieren.html','planen.html','entscheiden.html','durchfuehren.html','bewerten.html','reflektieren.html'].includes(saved.page)&&window.SOZ_PROGRESS_META.tasks[saved.task]){const a=document.createElement('a');a.className='button return-task';a.href=saved.page+'?aufgabe='+encodeURIComponent(saved.task);a.textContent='← Zurück zu Aufgabe '+saved.number;main?.prepend(a);}}catch{}})();

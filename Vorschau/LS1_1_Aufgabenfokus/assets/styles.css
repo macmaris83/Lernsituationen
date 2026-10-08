@@ -126,8 +126,8 @@ body[data-phase-layout] .assignment-frame.focus-card-complete,body.task-focus .a
 .task-original-preview{display:block;max-height:none!important;overflow:visible!important}
 
 /* Kein zusätzlicher Haken unter den Sozialform-Symbolen. */
-body[data-page="informieren.html"] .assignment-frame>.task-completion{display:none!important}
-body[data-page="informieren.html"] .task-done-check{left:auto;right:16px;top:14px;bottom:auto}
+body[data-phase-layout] .assignment-frame:has(>.task-accordion)>.task-completion{display:none!important}
+body[data-phase-layout] .assignment-frame:has(>.task-accordion)>.task-done-check{left:auto;right:16px;top:14px;bottom:auto}
 
 /* Ein einziger hellgrüner Materialzugriff zum Ausklappen. */
 .phase-materials>summary{cursor:pointer;font-weight:700;color:#173a63;font-size:1rem;padding:4px 0}
@@ -150,3 +150,5 @@ body[data-page="informieren.html"] .task-done-check{left:auto;right:16px;top:14p
 @media(max-width:450px){.focus-ai-help button{gap:9px;font-size:.8rem}.ais-chat-logo{width:101px}}
 
 .ais-chat-logo{display:inline-flex;align-items:center}.ais-chat-logo svg{display:block;width:100%;height:auto}
+
+body.material-reading .tools-bar,body.material-reading .phase-materials,body.material-reading .material-access{display:none!important}

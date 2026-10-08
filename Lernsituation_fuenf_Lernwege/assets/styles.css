@@ -59,3 +59,100 @@ body .main .lesson-content :is(.material-access,.phase-materials) .material-link
 .phase-locked{opacity:.55;cursor:not-allowed}
 .stations .phase-locked .station-icon{background:#e2e8ec;color:#657681}
 .phase-gate p{margin:0 0 12px}
+
+/* Aufgabenfokus: Akkordeon auf derselben Phasenseite. */
+.focus-suppressed{display:none!important}
+body[data-phase-layout] .assignment-frame:has(>.task-accordion){display:block!important;padding:0!important;grid-template-columns:none!important;overflow:visible}
+.task-summary{display:flex;align-items:center;gap:12px;padding:13px 16px;cursor:pointer;list-style:none;color:#173a63}.task-summary::-webkit-details-marker{display:none}.task-summary .assignment-number{flex:none;margin:0!important}.task-summary .assignment-kind,.task-summary .assignment-social{display:flex;flex-direction:row;align-items:center;gap:5px;width:auto;font-size:.75rem;line-height:1.3}.task-summary .assignment-kind svg,.task-summary .assignment-social svg{width:22px;height:22px;flex:none}.task-preview{min-width:0;flex:1;font-size:.88rem;line-height:1.45}.task-open-label{font-size:.78rem;font-weight:650;color:#007da8;white-space:nowrap}.task-open-label::after{content:' ▾'}.task-accordion[open]>.task-summary .task-preview{display:none}.task-accordion[open]>.task-summary .task-open-label{margin-left:auto}.task-accordion[open]>.task-summary .task-open-label::after{content:' ▴'}
+body.task-focus .assignment-frame:has(>.task-accordion[open]){border:2px solid #009bd9!important;border-left:6px solid #009bd9!important;border-radius:15px;background:linear-gradient(120deg,#fff,#eff8fc)!important;box-shadow:none}
+.task-focus-panel{padding:0 20px 18px}.focus-competence{display:flex;align-items:center;gap:8px;border:1px solid #dce5eb;border-radius:10px;background:#f8fafb;padding:9px 12px;margin:0 0 14px}.focus-competence-copy{flex:1;min-width:0}.focus-competence strong{font-size:.86rem;color:#173a63}.focus-competence p{font-size:.8rem;line-height:1.5;margin:4px 0 0;color:#365469}.focus-net{width:48px;height:48px;padding:4px;background:white;border:1px solid #a8becd;border-radius:8px;display:block}
+.focus-toolbar{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin:0 0 18px}.focus-toolbar>button,.focus-timer-row>button{background:transparent;border-color:transparent;box-shadow:none;color:#536d7b;font-size:.78rem;padding:6px 8px;min-height:36px}.focus-timer{max-width:290px}.focus-timer-row{display:flex;align-items:center;justify-content:flex-end;gap:8px}.focus-clock svg{width:26px;height:26px;color:#009bd9;display:block}.focus-countdown{font-size:1.6rem;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.2}.focus-timer-note,.focus-sound{font-size:.72rem;line-height:1.4;color:#58717e;text-align:right;margin:4px 0 0}.focus-sound{display:flex;justify-content:flex-end;align-items:center;gap:5px}.focus-sound input{width:14px;height:14px;accent-color:#009bd9}.focus-alarm{font-size:.78rem;color:#a62a20;margin:7px 0 0;text-align:right}.focus-bell{display:inline-block;transform-origin:50% 15%;animation:focus-ring .22s ease-in-out 12 alternate}@keyframes focus-ring{from{transform:rotate(-18deg)}to{transform:rotate(18deg)}}
+body.task-focus .assignment-body{font-size:1.1rem!important;line-height:1.65}.task-focus-panel .assignment-body .assignment-note{font-size:.82rem;color:#627b89;border-left:2px solid #d4e6ef;padding-left:10px;margin-top:16px!important}.task-focus-panel .assignment-body .book-reference{display:block!important;background:#f5f8f1!important;border:1px solid #dce5d4!important;border-radius:9px!important;padding:9px 12px!important;margin-top:16px!important;font-size:.78rem!important;color:#58714c}.task-focus-panel .book-line{font-size:.78rem!important}.task-focus-panel .assignment-time{display:none!important}
+.focus-help{margin-top:18px;background:#fffaf0;border:1px solid #eadab9;border-radius:12px;padding:10px 12px}.focus-help>summary{color:#79581d;font-size:.84rem;font-weight:650;cursor:pointer}.focus-help-content{padding-top:10px;font-size:.84rem}.focus-help-tier{background:#fffdf6;border:1px solid #ebcd96;border-radius:9px;padding:10px;margin:8px 0}.focus-help-tier>summary{cursor:pointer;color:#704509;font-weight:650}.focus-help-tier button{background:#ffe4b3;border-color:#d6a34b;color:#623e0b;font-size:.8rem;margin-top:8px}.focus-hint{font-size:.9rem}.focus-help-status{color:#704509;font-weight:700}.focus-local-note{font-size:.76rem;color:#627b89}.focus-workbook{border-top:1px solid #e1e8ed;padding-top:10px;margin-top:14px;font-size:.82rem}.focus-workbook>summary{cursor:pointer;color:#58717e;font-weight:600}.focus-workbook button{font-size:.8rem;margin-top:8px}.focus-workbook .assignment-goodnotes{width:24px;height:24px}
+.focus-task-footer{border-top:1px solid #e4ebef;margin-top:18px;padding-top:14px;display:flex;align-items:center;justify-content:space-between;gap:12px}.focus-task-footer .task-completion{position:static!important;display:flex!important;align-items:center;gap:7px;white-space:normal!important}.focus-task-footer .sr-only{position:static!important;clip:auto!important;clip-path:none!important;width:auto!important;height:auto!important;overflow:visible!important;font-size:.85rem}.focus-next{background:#009bd9;color:white;border-color:#009bd9;font-size:.86rem}.focus-next:hover:not(:disabled){background:#007cae;color:white}.focus-next:disabled{opacity:.5;cursor:not-allowed}
+@media(max-width:600px){.task-summary{padding:12px;gap:8px;flex-wrap:wrap}.task-summary .task-preview{flex-basis:60%;font-size:.82rem}.task-summary .assignment-social,.task-summary .assignment-kind{font-size:.7rem}.task-focus-panel{padding:0 12px 14px}.focus-toolbar{flex-wrap:wrap}.focus-timer{margin-left:auto}.focus-net{width:44px;height:44px}body.task-focus .assignment-body{font-size:1rem!important}.focus-task-footer{flex-wrap:wrap}.focus-next{margin-left:auto}.focus-competence p{font-size:.78rem}}
+@media(prefers-reduced-motion:reduce){.focus-bell{animation:none}}
+@media print{.task-summary .task-preview,.task-open-label,.focus-toolbar,.focus-help,.focus-workbook,.focus-task-footer,.focus-competence{display:none!important}.task-focus-panel{padding:0}.task-summary{padding:0}.task-accordion{break-inside:avoid}}
+
+body.task-focus .lesson-content .assignment-frame.focus-suppressed{display:none!important}
+body[data-phase-layout] .assignment-frame:has(>.task-accordion){position:relative;min-height:185px}
+.task-accordion:not([open])>.task-summary{position:absolute;left:14px;top:14px;width:82px;padding:0;display:block}
+.focus-symbol-strip{display:flex;flex-direction:column;align-items:center;gap:12px;width:82px}.focus-symbol-top{display:flex;align-items:center;gap:8px}.focus-goodnotes-logo{width:24px!important;height:24px!important;object-fit:contain}
+.task-summary .focus-symbol-strip .assignment-kind,.task-summary .focus-symbol-strip .assignment-social{flex-direction:column;align-items:center;width:82px;font-size:.65rem}.task-summary .focus-symbol-strip svg{width:29px;height:29px}
+.task-original-preview{padding:14px 52px 14px 110px;font-size:1rem;line-height:1.62;cursor:pointer}.task-original-preview p{margin:0}.task-original-preview .assignment-note{font-size:.9rem;margin-top:8px}.task-original-preview .book-reference{display:block;width:fit-content;margin-top:8px;padding:5px 8px;border:1px solid #c9dec9;border-radius:5px;background:#eef6ecc4;font-size:.74em}
+.assignment-frame:has(>.task-accordion[open])>.task-original-preview{display:none}
+.task-accordion[open] .focus-symbol-strip{flex-direction:row;width:auto;gap:18px}.task-accordion[open] .focus-symbol-strip .assignment-kind,.task-accordion[open] .focus-symbol-strip .assignment-social{flex-direction:row;width:auto;font-size:.75rem}
+.focus-task-footer .task-completion{width:auto!important;height:auto!important;padding:6px;border:0;background:transparent;box-shadow:none}.focus-task-footer .sr-only{white-space:normal!important;margin:0!important}
+.task-accordion[open]>.task-summary{border-bottom:1px solid #c9e5f0;margin-bottom:14px}
+body.task-focus .assignment-frame.focus-just-completed{border-color:#afca0b!important;box-shadow:0 0 0 2px #afca0b!important}
+.focus-sound{font-size:1rem;min-height:36px;cursor:pointer}.focus-sound input{width:18px;height:18px}
+body.material-reading .navigation,body.material-reading .brand-header,body.material-reading .page-footer,body.material-reading [data-share-workbook],body.material-reading .workbook-link{display:none!important}
+.return-task{position:fixed;right:max(18px,env(safe-area-inset-right));bottom:max(18px,env(safe-area-inset-bottom));z-index:1000;background:#f5f8e9;border:2px solid #afca0b;box-shadow:0 5px 22px #173a6330}.material-reading .main{padding-bottom:100px}
+.material-switch{display:flex;gap:6px;flex-wrap:nowrap;overflow:auto;padding:8px;margin-bottom:12px;border:1px solid #dcebb0;border-radius:10px;background:#f5f8e9}.material-switch a{font-size:.85rem;white-space:nowrap;padding:6px 9px;text-decoration:none}.material-switch a[aria-current]{font-weight:700;background:#e7efd1;border-radius:7px}
+body .lesson-content .phase-materials .material-grid{display:flex;flex-wrap:nowrap;overflow:auto}.phase-materials .material-link{flex:none;white-space:nowrap}
+@media(max-width:600px){.task-original-preview{padding:12px 40px 12px 95px;font-size:.94rem}.task-accordion:not([open])>.task-summary{left:10px;width:76px}.focus-symbol-strip{width:76px}.task-summary .focus-symbol-strip .assignment-kind,.task-summary .focus-symbol-strip .assignment-social{width:76px}.task-accordion[open] .focus-symbol-strip{gap:9px;flex-wrap:wrap}.task-accordion[open] .focus-symbol-strip .assignment-kind,.task-accordion[open] .focus-symbol-strip .assignment-social{width:auto;font-size:.68rem}}
+
+/* Originalkarte im Überblick; Fokus direkt unter dem Materialzugriff. */
+body.task-focus .shell{margin:0 auto;border-radius:0;border-top:0;box-shadow:none}
+body.task-focus .main{padding-top:0}
+body.task-focus .lesson-content{margin-top:0}
+body.task-focus .lesson-content .phase-materials,body.task-focus .lesson-content .material-access{position:sticky;top:0;z-index:90;margin:0 0 12px;padding:8px 12px;background:linear-gradient(120deg,#fff,#f3f8e7);border-radius:0 0 12px 12px}
+body.task-focus .assignment-frame:has(>.task-accordion[open]){scroll-margin-top:88px;margin-top:0!important}
+.task-original-preview .assignment-time{display:inline-flex!important;align-items:center;font-size:.85em;color:#647989}
+.task-original-preview .assignment-time svg{width:16px;height:16px;stroke:#009bd9;flex:none}
+body.task-focus .phase-mode{margin-top:0!important}
+@media(max-width:600px){body.task-focus .assignment-frame:has(>.task-accordion[open]){scroll-margin-top:84px}}
+
+/* Teilaufträge und klare gemeinsame Fußleiste. */
+.task-command-stack{display:grid;gap:14px}.task-command-stack p{margin:0!important;font-size:inherit;line-height:1.65}
+.focus-task-footer{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px}
+.focus-task-footer>button:first-child{justify-self:start;background:transparent;border-color:#cbdfe8;color:#173a63;font-size:.82rem}
+.focus-task-footer .task-completion{justify-self:center;margin:0}
+.focus-task-footer .focus-next{justify-self:end}
+.focus-toolbar{justify-content:flex-end}
+body[data-phase-layout] .assignment-frame.focus-card-complete,body.task-focus .assignment-frame.focus-card-complete:has(>.task-accordion[open]){border-color:#afca0b!important;background:linear-gradient(120deg,#fff,#f0f7dc)!important;box-shadow:0 0 0 1px #afca0b!important}
+.task-done-check{position:absolute;left:40px;bottom:12px;color:#597800;font-size:1.35rem;font-weight:800;line-height:1}
+.task-accordion[open]~.task-done-check{left:auto;right:16px;top:14px;bottom:auto}
+.task-original-preview{max-height:none!important;height:auto!important;overflow:visible!important;white-space:normal!important;text-overflow:clip!important;-webkit-line-clamp:unset!important}
+@media(max-width:600px){.focus-task-footer{grid-template-columns:1fr 1fr;gap:12px}.focus-task-footer .task-completion{grid-column:1/-1;grid-row:1;justify-self:center}.focus-task-footer>button:first-child{grid-column:1;grid-row:2}.focus-task-footer .focus-next{grid-column:2;grid-row:2;font-size:.78rem}.task-done-check{left:30px}}
+
+@media(max-width:600px){.focus-task-footer{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.focus-task-footer .task-completion{grid-column:2;grid-row:1;min-width:0;gap:4px}.focus-task-footer>button:first-child{grid-column:1;grid-row:1}.focus-task-footer .focus-next{grid-column:3;grid-row:1}.focus-task-footer>button{max-width:100%;padding:7px 5px;font-size:.72rem!important;white-space:normal;overflow-wrap:anywhere}.focus-task-footer .sr-only{font-size:.72rem!important}}
+
+/* Erledigt wird die ganze Karte markiert, nicht ihre Nummer. */
+.task-summary .assignment-number,.focus-task-done .assignment-number{box-shadow:none!important;outline:none!important;background:#009bd9!important;color:#fff!important}
+body .lesson-content .phase-materials,body .lesson-content .material-access{background:#f3f8e7!important}
+body[data-phase-layout] .assignment-frame.focus-card-complete,body.task-focus .assignment-frame.focus-card-complete:has(>.task-accordion[open]){background:#f3f8e7!important;border-color:#afca0b!important}
+.task-command-stack{display:block}.task-command-stack>p{display:block!important;margin:0 0 18px!important}.task-command-stack>p:last-child{margin-bottom:0!important}
+.task-original-preview{display:block;max-height:none!important;overflow:visible!important}
+
+/* Kein zusätzlicher Haken unter den Sozialform-Symbolen. */
+body[data-phase-layout] .assignment-frame:has(>.task-accordion)>.task-completion{display:none!important}
+body[data-phase-layout] .assignment-frame:has(>.task-accordion)>.task-done-check{left:auto;right:16px;top:14px;bottom:auto}
+
+/* Ein einziger hellgrüner Materialzugriff zum Ausklappen. */
+.phase-materials>summary{cursor:pointer;font-weight:700;color:#173a63;font-size:1rem;padding:4px 0}
+.phase-materials[open]>summary{margin-bottom:10px}
+.station-check{display:none!important}
+
+/* KI-Hilfe als einzelner lila Hilfestopp, ohne Wechsel in Safari. */
+.focus-ai-help{margin-top:18px;padding:14px;border:1px solid #c5b4e8;border-radius:12px;background:#f4effc;color:#492c75}
+.focus-ai-help>strong{color:#583388}.focus-ai-help p{font-size:.84rem;margin:8px 0 12px}.focus-ai-help button{background:#7040a0;border-color:#7040a0;color:#fff}.focus-ai-help button:hover{background:#593080}
+.ais-help-dialog{width:min(960px,96vw);height:90dvh;max-height:94dvh;padding:0;border:1px solid #bba4dd;border-radius:16px;background:#faf7ff;color:#492c75;overflow:hidden}
+.ais-help-dialog[open]{display:flex;flex-direction:column}.ais-help-dialog::backdrop{background:#23123799}
+.ais-help-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 16px;background:#7040a0;color:#fff}.ais-help-heading button{background:#fff;color:#583388;font-size:.85rem}
+.ais-help-note,.ais-help-info{margin:0;padding:10px 16px;font-size:.8rem}.ais-help-info{font-size:.72rem;color:#695a7b}.ais-help-frame{display:block;flex:1;min-height:0;width:100%;border:0;background:#fff}
+@media print{.focus-ai-help,.ais-help-dialog{display:none!important}}
+
+/* Kompakte KI-Hilfe: Logo und eine einzige Aktion. */
+.focus-ai-help{padding:0;border:0;background:transparent;margin-top:16px}
+.focus-ai-help button{display:inline-flex;align-items:center;gap:14px;background:#f4effc;border:1px solid #c5b4e8;color:#4e248c;padding:9px 14px;font-size:.85rem}
+.focus-ai-help button:hover{background:#e9def8;color:#4e248c}.ais-chat-logo{width:118px;height:auto;flex:none}
+@media(max-width:450px){.focus-ai-help button{gap:9px;font-size:.8rem}.ais-chat-logo{width:101px}}
+
+.ais-chat-logo{display:inline-flex;align-items:center}.ais-chat-logo svg{display:block;width:100%;height:auto}
+
+body .main .lesson-content :is(.material-access,.phase-materials) .material-grid{flex-wrap:nowrap;overflow-x:auto}
+
+body.material-reading .tools-bar,body.material-reading .phase-materials,body.material-reading .material-access{display:none!important}
+
+.material-access>summary{cursor:pointer;font-weight:700;color:#173a63;font-size:1rem;padding:4px 0}.material-access[open]>summary{margin-bottom:10px}
