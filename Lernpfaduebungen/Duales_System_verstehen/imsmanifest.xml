@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="GlobalBike_BFSdual_01_Duales_System_verstehen" version="30.1">
+<metadata><schema>ADL SCORM</schema><schemaversion>1.2</schemaversion></metadata>
+<organizations default="ORG"><organization identifier="ORG"><title>Lernpfadübung | Duales System verstehen</title><item identifier="TRAINING" identifierref="RES"><title>Lernpfadübung | Duales System verstehen · 30 Aufgaben · 12 Orientierung · 12 Anwendung · 6 Transfer</title></item></organization></organizations>
+<resources><resource identifier="RES" type="webcontent" adlcp:scormtype="sco" href="index.html"><file href="index.html" /><file href="style.css" /><file href="teacher-template.css" /><file href="data.js" /><file href="engine.js" /><file href="app.js" /><file href="assets/global-bike.svg" /><file href="assets/bbs.svg" /><file href="assets/teacher-bbs1-aurich.svg" /><file href="LEHRKRAFT-HINWEISE.html" /><file href="TESTPROTOKOLL.txt" /><file href="progress.js" /><file href="teacher-config.js" /><file href="teacher.js" /><file href="jszip.min.js" /></resource></resources>
+</manifest>

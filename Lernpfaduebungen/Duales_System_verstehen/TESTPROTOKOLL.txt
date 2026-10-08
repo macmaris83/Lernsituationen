@@ -1,0 +1,12 @@
+BBS 1 Aurich · Global Bike · BFSdual · LF 1 · PROTOTYP30
+
+Ziel: Lernfeld 1 „Die eigene Rolle im dualen System finden und das Unternehmen präsentieren“.
+Struktur: 12 Orientierung + 12 Anwendung + 6 Transfer = 30 Aufgaben.
+Kompetenzen: Fach, Personal, Sozial, Methoden und Medien sind in Orientierung und Anwendung jeweils mehrfach vertreten; im Transfer ist jeder Bereich mindestens einmal vertreten.
+Sprache: kurze Sätze, positive Aufgabenformulierung, keine wechselnde Negationslogik in den Antwortoptionen.
+Antwortlogik: Orientierung und Anwendung durchgängig Mehrfachauswahl mit mehreren richtigen Antworten.
+Transfer: 6 zusammenhängende Entscheidungen; mehrere fachlich tragfähige Wege, Bewertung der Konsistenz der Entscheidungskette.
+Kompetenznetz: vorher = Selbsteinschätzung zu Beginn, nachher = Selbsteinschätzung am Ende. Leistungsnachweise werden getrennt als letzter Stand gezeigt.
+Levelaufstieg: mindestens 66 % im jeweiligen Level.
+Logo: Global Bike Inc. lokal im Paket eingebunden.
+FIX 2026-09-21: Übergang Anwendung → Transfer geprüft; branchFrom=null wird beim ersten Transferkapitel robust ignoriert.

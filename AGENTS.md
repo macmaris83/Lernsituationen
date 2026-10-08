@@ -5,6 +5,12 @@ Die vom Nutzer freigegebene Gestaltung in `Lernsituation_tradiert` und
 Lernsituationen. Beide Vorlagen auf `main` enthalten die Umsetzung. Der Nutzer
 kann diesen Standard jederzeit ausdrücklich ändern.
 
+## Getrennte Vorlagentypen
+
+`Lernpfaduebungen/` ist ein eigener Vorlagentyp. Die nachfolgenden Regeln für
+Lernsituationen gelten nicht automatisch für Lernpfadübungen. Für diese gelten
+die gesonderten Vorgaben in `Lernpfaduebungen/AGENTS.md`.
+
 ## Aufgaben und Fokus
 
 - Originale Aufgabenstellungen vollständig anzeigen; keine Textkürzung oder zusätzliche Aufgabenüberschrift. Operatoren bleiben fett.
