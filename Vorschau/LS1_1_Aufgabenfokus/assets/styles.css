@@ -152,3 +152,17 @@ body[data-phase-layout] .assignment-frame:has(>.task-accordion)>.task-done-check
 .ais-chat-logo{display:inline-flex;align-items:center}.ais-chat-logo svg{display:block;width:100%;height:auto}
 
 body.material-reading .tools-bar,body.material-reading .phase-materials,body.material-reading .material-access{display:none!important}
+
+/* Geöffnete Kopfzeile bleibt ohne Zurück- oder Einklappaktion. */
+.task-accordion[open]>.task-summary{cursor:default}
+
+/* Fachkompetenz und kompletter Uhrbereich auf gemeinsamer Höhe. */
+.focus-task-heading{display:grid;grid-template-columns:minmax(0,1fr) 280px;align-items:start;gap:14px;margin-bottom:18px}
+.focus-task-heading .focus-competence{margin:0;min-width:0;padding:9px 10px}
+.focus-task-heading .focus-toolbar{margin:0;min-width:0;display:block}
+.focus-task-heading .focus-timer{max-width:none;width:100%;margin:0;padding:9px 0}
+.focus-task-heading .focus-timer-row{flex-wrap:nowrap}
+.focus-task-heading:not(:has(.focus-timer)){grid-template-columns:minmax(0,1fr)}
+.focus-task-heading:not(:has(.focus-timer)) .focus-toolbar{display:none}
+@media(max-width:600px){.focus-task-heading{grid-template-columns:minmax(0,1fr);gap:8px}.focus-task-heading .focus-timer{padding:4px 0}.focus-task-heading .focus-timer-note{max-width:290px;margin-left:auto}}
+@media print{.focus-task-heading{display:none!important}}
