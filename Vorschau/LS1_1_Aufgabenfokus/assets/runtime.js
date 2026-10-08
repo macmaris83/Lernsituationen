@@ -53,68 +53,62 @@ window.SOZ_API={availableModes:modes,getState:()=>state,getSettings:()=>settings
 start();
 })();
 
-
-(()=>{if(document.body.dataset.teacher)return;document.querySelectorAll('.lesson-content .phase-materials,.lesson-content .material-access').forEach(section=>{if(section.querySelector('.material-disclosure'))return;const heading=section.querySelector('h2');if(!heading)return;const details=document.createElement('details');details.className='material-disclosure';const summary=document.createElement('summary');summary.textContent=heading.textContent;heading.remove();details.append(summary);while(section.firstChild)details.append(section.firstChild);section.append(details);});})();
-
-/* Aufgabenfokus innerhalb der bestehenden Phasenseite. */
+/* Einfache Aufgabenauswahl mit ausdrücklicher Erledigt-Markierung. */
 (()=>{'use strict';
-const D=window.SOZPAED,P=window.SOZ_PROGRESS;
-if(!D||!P||document.body.dataset.teacher||!document.body.dataset.phaseLayout||document.body.dataset.page==='druckansicht.html')return;
-const cards=[...document.querySelectorAll('.lesson-content .assignment-frame')];if(!cards.length)return;
-let active=null,interval=null,audio=null;const timers=new Map(),records=new Map();
-const svg='<svg class="focus-net" viewBox="0 0 100 100" aria-hidden="true"><polygon points="50,8 90,37 75,85 25,85 10,37" fill="#f1f6fa" stroke="#526e83" stroke-width="2.6"/><polygon points="50,23 76,42 66,73 34,73 24,42" fill="none" stroke="#7e96a7" stroke-width="2"/><path d="M50 51L90 37M50 51L75 85M50 51L25 85M50 51L10 37" stroke="#6e879a" stroke-width="2.4"/><path d="M50 51L50 8" stroke="#0078a8" stroke-width="7" stroke-linecap="round"/><circle cx="50" cy="8" r="5" fill="#0078a8"/></svg>';
-const clockSvg='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg>';
-function element(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text)e.textContent=text;return e;}
-function button(text,fn){const b=element('button','',text);b.type='button';b.addEventListener('click',fn);return b;}
-function prepareAudio(){try{const K=window.AudioContext||window.webkitAudioContext;if(K){audio||=new K();if(audio.state==='suspended')audio.resume().catch(()=>{});}}catch{}}
-function chime(r){if(!r.sound.checked||audio?.state!=='running')return;try{const now=audio.currentTime;[0,.38,.76].forEach(delay=>{[880,1320].forEach((frequency,i)=>{const o=audio.createOscillator(),g=audio.createGain();o.frequency.value=frequency;g.gain.setValueAtTime(0,now+delay);g.gain.linearRampToValueAtTime(i?.055:.11,now+delay+.015);g.gain.exponentialRampToValueAtTime(.001,now+delay+.32);o.connect(g);g.connect(audio.destination);o.start(now+delay);o.stop(now+delay+.34);});});}catch{}}
-function draw(r){const t=timers.get(r.card);if(!t)return;const ratio=1-t.remaining/t.total,mix=ratio<=.5?ratio*2:(ratio-.5)*2,a=ratio<=.5?[175,202,11]:[17,17,17],b=ratio<=.5?[17,17,17]:[180,35,24];r.time.textContent=String(Math.floor(t.remaining/60)).padStart(2,'0')+':'+String(t.remaining%60).padStart(2,'0');r.time.style.color='rgb('+a.map((v,i)=>Math.round(v+(b[i]-v)*mix)).join(',')+')';r.pause.hidden=t.remaining===0;r.pause.textContent=t.running?'Pause':'Fortsetzen';r.alarm.hidden=t.remaining>0;r.timerNote.textContent=t.remaining?(r.demo?'Timer-Demo: 2 Minuten. Originalvorgabe: 30 Minuten. ':'')+'Die Zeit ist eine Orientierung. Du kannst pausieren und nach Ablauf weiterarbeiten.':'Orientierungszeit erreicht. Du kannst weiterarbeiten.';}
-function tick(r){const t=timers.get(r.card);if(!t?.running)return;const previous=t.remaining;t.remaining=Math.max(0,Math.ceil((t.deadline-Date.now())/1000));if(!t.remaining){t.running=false;if(previous>0)chime(r);}draw(r);}
-function pause(r){const t=timers.get(r.card);if(!t)return;tick(r);t.running=false;draw(r);}
-function start(r){const t=timers.get(r.card);if(!t||!t.remaining)return;t.deadline=Date.now()+t.remaining*1000;t.running=true;draw(r);}
-function restore(){document.querySelectorAll('[data-focus-suppressed]').forEach(e=>{e.classList.remove('focus-suppressed');delete e.dataset.focusSuppressed;});document.body.classList.remove('task-focus');document.querySelectorAll('[data-focus-original-label]').forEach(e=>{e.textContent=e.dataset.focusOriginalLabel;delete e.dataset.focusOriginalLabel;});}
-function suppress(e){e.dataset.focusSuppressed='';e.classList.add('focus-suppressed');}
-function close(focusSummary=true){if(!active)return;const r=active;pause(r);active=null;clearInterval(interval);interval=null;r.details.open=false;restore();if(focusSummary)r.summary.focus();}
-function open(r){if(active===r)return;close(false);active=r;r.details.open=true;document.body.classList.add('task-focus');document.querySelectorAll('[data-mode-label]').forEach(e=>{e.dataset.focusOriginalLabel=e.textContent;e.textContent='Aufgabenfokus';});const content=document.querySelector('.lesson-content');for(const e of content.children){if(!e.contains(r.card)&&!e.matches('.material-access,.phase-materials'))suppress(e);}
- for(const c of cards)if(c!==r.card)suppress(c);
- document.querySelectorAll('.main>.navigation,.main>.tools-bar,.phase-mode-title,.page-footer').forEach(suppress);
- const panel=r.card.closest('[data-mode-panel]');if(panel)for(const child of panel.children)if(!child.contains(r.card)&&child!==r.card)suppress(child);
- draw(r);start(r);clearInterval(interval);interval=setInterval(()=>tick(r),200);r.summary.focus({preventScroll:true});
- if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
-  const before=r.before;r.before=null;const height=r.card.getBoundingClientRect().height;
-  if(before){r.card.animate([{height:before.height+'px',overflow:'hidden'},{height:height+'px',overflow:'hidden'}],{duration:420,easing:'cubic-bezier(.22,1,.36,1)'});for(const {node,rect}of before.symbols){if(node.classList.contains('focus-symbol-top'))continue;const after=node.getBoundingClientRect();if(rect.width&&after.width)node.animate([{transform:'translate('+(rect.x-after.x)+'px,'+(rect.y-after.y)+'px)'},{transform:'translate(0,0)'}],{duration:420,easing:'cubic-bezier(.22,1,.36,1)'});}}
-  r.details.querySelector('.task-focus-panel').animate([{opacity:0,transform:'translateY(10px)'},{opacity:1,transform:'translateY(0)'}],{duration:420,easing:'ease-out'});
+if(document.body.dataset.teacher||!document.body.dataset.phaseLayout)return;
+const P=window.SOZ_PROGRESS;if(!P)return;
+for(const panel of document.querySelectorAll('section.task-card[data-mode-panel]')){
+ const cards=[...panel.querySelectorAll('.assignment-frame')];if(!cards.length)continue;
+ const checkbox=card=>card.querySelector('[data-task-complete]');
+ let selected=cards.find(card=>!checkbox(card)?.checked)||null;
+ const status=document.createElement('p');status.className='task-guide-status no-print';status.setAttribute('role','status');panel.append(status);
+ function draw(){for(const card of cards){const active=card===selected;card.classList.toggle('task-selected',active);card.setAttribute('aria-label','Aufgabe '+card.dataset.taskNumber+(active?' · ausgewählt':''));}status.textContent=selected?'Aufgabe '+selected.dataset.taskNumber+': Markiere sie als gelöst, wenn du sie bearbeitet hast.':'Alle Aufgaben dieses Lernwegs sind als gelöst markiert.';}
+ for(const card of cards){
+  card.tabIndex=0;card.setAttribute('role','group');
+  const input=checkbox(card),label=card.querySelector('[data-completion-label]');
+  const text=label?.querySelector('.sr-only');if(text){text.classList.add('task-solved-text');text.classList.remove('sr-only');text.textContent='Aufgabe gelöst';}
+  input?.setAttribute('aria-label','Aufgabe '+card.dataset.taskNumber+' als gelöst markieren');
+  const select=()=>{selected=card;draw();};
+  card.addEventListener('click',event=>{if(event.target.closest('a,button,input,label,details,textarea,select'))return;select();});
+  card.addEventListener('keydown',event=>{if(event.target===card&&(event.key==='Enter'||event.key===' ')){event.preventDefault();select();}});
+  input?.addEventListener('change',()=>{if(input.checked){const index=cards.indexOf(card);selected=cards.slice(index+1).find(c=>!checkbox(c)?.checked)||cards.find(c=>!checkbox(c)?.checked)||null;}else selected=card;draw();});
  }
- if(r.card.getBoundingClientRect().top<0)r.card.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+ draw();
 }
+document.body.dataset.taskGuideReady='true';
+})();
 
-function nextRecord(r){const panel=r.card.closest('[data-mode-panel]');const list=cards.filter(c=>c.closest('[data-mode-panel]')===panel);return records.get(list[list.indexOf(r.card)+1]);}
-function refresh(r){r.next.disabled=!r.checkbox?.checked||P.readOnly;r.summary.classList.toggle('focus-task-done',!!r.checkbox?.checked);}
-for(const card of cards){
- const body=card.querySelector('.assignment-body'),completion=card.querySelector('[data-completion-label]'),checkbox=completion?.querySelector('input');if(!body||!checkbox)continue;
- const number=card.querySelector('.assignment-number')||element('span','assignment-number',card.dataset.taskNumber||'');
- const originalTime=card.querySelector('.assignment-time');const match=originalTime?.textContent.match(/(\d+)\s*Min/i);const originalSeconds=match?Number(match[1])*60:0;const demo=document.body.dataset.page==='informieren.html'&&card.dataset.taskId==='0:1:1';const seconds=demo?120:originalSeconds;
- const details=element('details','task-accordion'),summary=element('summary','task-summary');const strip=element('span','focus-symbol-strip'),stripTop=element('span','focus-symbol-top');stripTop.append(number);const originalLogo=card.querySelector('img.assignment-goodnotes');if(originalLogo){const logo=originalLogo.cloneNode(true);logo.classList.add('focus-goodnotes-logo');stripTop.append(logo);}strip.append(stripTop);for(const icon of card.querySelectorAll('.assignment-kind,.assignment-social'))strip.append(icon);summary.append(strip);
- const preview=element('span','task-preview',(body.querySelector('.assignment-command')||body.querySelector('p')||body).textContent.replace(/\s+/g,' ').trim().slice(0,140));summary.append(preview);
- const opener=element('span','task-open-label','Bearbeiten');summary.append(opener);
- const focus=element('div','task-focus-panel'),competence=element('aside','focus-competence');const copy=element('div','focus-competence-copy');copy.append(element('strong','','Fachkompetenz'),element('p','',D.competencies.find(c=>c.label==='Fachkompetenz')?.statement||''));competence.append(copy);const net=element('span','focus-net-wrap');net.innerHTML=svg;competence.append(net);focus.append(competence);
- const tools=element('div','focus-toolbar'),back=button('← Zur Phasenübersicht',()=>close());tools.append(back);focus.append(tools);
- const r={card,details,summary,checkbox,next:null,sound:null,demo,strip,before:null};
- if(seconds){timers.set(card,{total:seconds,remaining:seconds,running:false,deadline:0});const timer=element('div','focus-timer'),row=element('div','focus-timer-row'),icon=element('span','focus-clock');icon.innerHTML=clockSvg;const time=element('span','focus-countdown');time.setAttribute('role','timer');time.setAttribute('aria-label','Verbleibende Orientierungszeit');const pauseButton=button('Pause',()=>{prepareAudio();timers.get(card).running?pause(r):start(r);});row.append(icon,time,pauseButton);const note=element('p','focus-timer-note');const soundLabel=element('label','focus-sound'),sound=element('input');sound.type='checkbox';sound.checked=true;sound.addEventListener('change',()=>{if(sound.checked)prepareAudio();});soundLabel.append(sound,document.createTextNode(' Signalton'));const alarm=element('p','focus-alarm');alarm.setAttribute('role','status');const bell=element('span','focus-bell','🔔');bell.setAttribute('aria-hidden','true');alarm.append(bell,document.createTextNode(' Orientierungszeit erreicht'));alarm.hidden=true;timer.append(row,note,soundLabel,alarm);tools.append(timer);Object.assign(r,{time,pause:pauseButton,sound,timerNote:note,alarm});draw(r);}
- focus.append(body);
- const help=element('details','focus-help'),helpSummary=element('summary','','Hilfestopps · Selbstständigkeit');help.append(helpSummary);const helpContent=element('div','focus-help-content');helpContent.append(element('p','','Beispielmodell: 3 Selbstständigkeitspunkte. Die höchste genutzte Hilfestufe zählt; fachliche Qualität wird separat bewertet.'));
- const aid=body.querySelector('.assignment-note')?.textContent.trim();const hints=['Lies den Arbeitsauftrag nochmals: Was sollst du konkret tun, und auf welches Material bezieht er sich?',aid||'Notiere zunächst die relevanten Materialstellen. Ordne sie den Teilaufträgen zu und prüfe, ob jede Aussage durch einen Beleg gestützt ist.','Formuliere zunächst einen Teil deiner Lösung: „Meine Aussage lautet …; als Beleg nutze ich …; daraus folgere ich …“. Ergänze den Ansatz passend zum Arbeitsauftrag.'];let highest=0;const helpStatus=element('p','focus-help-status','Selbstständigkeit: 3 von 3 Punkten');
- ['Denkimpuls','Strukturhilfe','Formulierungshilfe'].forEach((title,i)=>{const tier=element('details','focus-help-tier'),head=element('summary','',(i+1)+' · '+title+' · −'+(i+1)+' Selbstständigkeitspunkt'+(i?'e':''));const hint=element('p','focus-hint',hints[i]);hint.hidden=true;const use=button('Hilfestopp nutzen',()=>{highest=Math.max(highest,i+1);hint.hidden=false;use.hidden=true;helpStatus.textContent='Selbstständigkeit: '+(3-highest)+' von 3 Punkten · höchste genutzte Hilfestufe '+highest;});tier.append(head,use,hint);helpContent.append(tier);});helpContent.append(helpStatus,element('p','focus-local-note','Hilfen und Selbstständigkeitspunkte werden hier nicht an Moodle übertragen.'));help.append(helpContent);focus.append(help);
- const originalShare=card.querySelector('button[data-share-workbook]');const workbook=element('details','focus-workbook'),workbookTitle=element('summary','','? Arbeitsheft und Abgabe');workbook.append(workbookTitle);
- if(originalShare)workbook.append(originalShare);else if(D.workbook){const shareStatus=element('p','focus-local-note');shareStatus.setAttribute('role','status');const share=button('Arbeitsheft teilen · GoodNotes',async()=>{share.disabled=true;try{const response=await fetch(D.workbook,{credentials:'same-origin'});if(!response.ok)throw Error('Arbeitsheft nicht erreichbar');const file=new File([await response.arrayBuffer()],D.workbook.split('/').pop(),{type:'application/pdf'});if(navigator.canShare?.({files:[file]})){await navigator.share({files:[file],title:'Arbeitsheft · LS '+D.id});shareStatus.textContent='Arbeitsheft geteilt.';}else{window.SOZ_API.blobDownload(file,file.name);shareStatus.textContent='PDF heruntergeladen. Öffne sie in GoodNotes.';}}catch(error){shareStatus.textContent=error.name==='AbortError'?'Teilen abgebrochen.':'Arbeitsheft konnte nicht geteilt werden. Bitte erneut versuchen.';}finally{share.disabled=false;}});share.dataset.focusShare='';workbook.append(share,shareStatus);}
- workbook.append(element('p','','Bearbeite dein Arbeitsheft in GoodNotes. Exportiere dein Ergebnis als PDF und gib es in der zugehörigen Moodle-Aktivität „Aufgabe“ ab.'));const target=window.SOZ_API?.getSettings().moodle?.['product-submit'];if(target&&window.SOZ_API.safeURL(target)){const link=element('a','button','Zur Moodle-Abgabe');link.href=window.SOZ_API.safeURL(target);link.target='_blank';link.rel='noopener';workbook.append(link);}else workbook.append(element('p','focus-local-note','Eine Moodle-Abgabe muss im Kurs separat zugeordnet sein.'));focus.append(workbook);
- const footer=element('div','focus-task-footer');const next=button('Zur nächsten Aufgabe →',()=>{if(!checkbox.checked||P.readOnly)return;const n=nextRecord(r);if(n)open(n);else close();});next.className='focus-next';r.next=next;footer.append(completion,next);focus.append(footer);details.append(summary,focus);card.replaceChildren(details);records.set(card,r);
- summary.addEventListener('click',()=>{r.before={height:card.getBoundingClientRect().height,symbols:[...strip.children,...stripTop.children].map(node=>({node,rect:node.getBoundingClientRect()}))};if(r.sound?.checked)prepareAudio();});details.addEventListener('toggle',()=>{if(document.body.classList.contains('focus-print'))return;if(details.open)open(r);else if(active===r)close();});checkbox.addEventListener('change',()=>refresh(r));refresh(r);
+(()=>{'use strict';
+const D=window.SOZPAED;if(!D||document.body.dataset.teacher||document.body.dataset.page==='druckansicht.html')return;
+const key='soz-task-return:'+D.id+':'+location.pathname.replace(/[^/]+$/,'');let saved=null;
+try{saved=JSON.parse(sessionStorage.getItem(key)||'null');}catch{}
+const page=document.body.dataset.page,phases=['informieren','planen','entscheiden','durchfuehren','bewerten','reflektieren'];
+if(!document.body.dataset.phaseLayout){if(/^m\d+\.html$/.test(page||''))document.body.classList.add('material-reading');
+ if(/^m\d+\.html$/.test(page||'')&&saved&&phases.includes(saved.page.replace('.html',''))&&window.SOZ_PROGRESS_META.tasks[saved.task]){
+ const a=document.createElement('a');a.className='button return-task';a.textContent='← Zurück zu Aufgabe '+saved.number;a.href=saved.page+'?aufgabe='+encodeURIComponent(saved.task)+'#task-'+saved.task.replaceAll(':','-');document.querySelector('.main')?.prepend(a);}
+ return;
 }
-for(const r of records.values())if(!nextRecord(r))r.next.textContent='Zur Phasenübersicht →';
-new MutationObserver(()=>close(false)).observe(document.body,{attributes:true,attributeFilter:['data-mode']});
-window.addEventListener('pagehide',()=>{if(active)pause(active);clearInterval(interval);});document.addEventListener('keydown',event=>{if(event.key==='Escape'&&active){event.preventDefault();close();}});
-window.addEventListener('beforeprint',()=>{close(false);document.body.classList.add('focus-print');for(const r of records.values())r.details.open=true;});window.addEventListener('afterprint',()=>{document.body.classList.remove('focus-print');for(const r of records.values())r.details.open=false;});
-window.SOZ_TASK_FOCUS={close,refresh:()=>records.forEach(refresh)};window.SOZ_SCORM?.subscribe(()=>records.forEach(refresh));
-document.body.dataset.taskFocusReady='true';
+const clocks=new Map();let current=null,interval=null;const clockKey=key+':clocks';let savedClocks={};try{savedClocks=JSON.parse(sessionStorage.getItem(clockKey)||'{}');}catch{};function saveClocks(){try{sessionStorage.setItem(clockKey,JSON.stringify(Object.fromEntries([...clocks.values()].map(t=>[t.card.dataset.taskId,t.remaining]))));}catch{}}
+function paint(t){const f=1-t.remaining/t.total,m=f<=.5?f*2:(f-.5)*2,a=f<=.5?[175,202,11]:[17,17,17],b=f<=.5?[17,17,17]:[180,35,24];
+ t.display.textContent=String(Math.floor(t.remaining/60)).padStart(2,'0')+':'+String(t.remaining%60).padStart(2,'0');t.display.style.color='rgb('+a.map((v,i)=>Math.round(v+(b[i]-v)*m)).join(',')+')';t.pause.hidden=t.remaining===0;t.pause.textContent=t.running?'Pause':'Fortsetzen';t.note.textContent=t.remaining?'Die Zeit ist eine Orientierung. Du kannst pausieren und weiterarbeiten.':'🔔 Orientierungszeit erreicht. Du kannst weiterarbeiten.';}
+function tick(t){if(t.running){t.remaining=Math.max(0,Math.ceil((t.deadline-Date.now())/1000));if(!t.remaining)t.running=false;}paint(t);}
+function stop(){if(current){tick(current);current.running=false;paint(current);}clearInterval(interval);interval=null;saveClocks();}
+for(const card of document.querySelectorAll('.assignment-frame')){
+ card.id='task-'+card.dataset.taskId.replaceAll(':','-');
+ const match=card.querySelector('.assignment-time')?.textContent.match(/(\d+)\s*Min/i);if(!match)continue;
+ const total=Number(match[1])*60,holder=document.createElement('aside');holder.className='task-inline-timer no-print';holder.hidden=true;
+ const row=document.createElement('div');row.className='task-timer-row';row.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg>';
+ const display=document.createElement('span');display.className='task-timer-digits';display.setAttribute('role','timer');
+ const pause=document.createElement('button');pause.type='button';pause.textContent='Pause';row.append(display,pause);
+ const note=document.createElement('p');note.setAttribute('role','status');holder.append(row,note);card.append(holder);
+ const t={card,holder,display,pause,note,total,remaining:Number.isInteger(savedClocks[card.dataset.taskId])?Math.max(0,Math.min(total,savedClocks[card.dataset.taskId])):total,running:false,deadline:0};clocks.set(card,t);paint(t);
+ pause.addEventListener('click',()=>{if(t.running){tick(t);t.running=false;clearInterval(interval);interval=null;}else if(t.remaining){t.deadline=Date.now()+t.remaining*1000;t.running=true;interval=setInterval(()=>tick(t),200);}paint(t);});
+}
+function sync(){const card=[...document.querySelectorAll('.task-selected')].find(c=>!c.closest('[data-mode-panel]').hidden);const next=clocks.get(card)||null;if(current===next)return;stop();if(current)current.holder.hidden=true;current=next;
+ if(card)try{sessionStorage.setItem(key,JSON.stringify({page,task:card.dataset.taskId,number:card.dataset.taskNumber}));}catch{}
+ if(current){current.holder.hidden=false;if(current.remaining){current.deadline=Date.now()+current.remaining*1000;current.running=true;interval=setInterval(()=>tick(current),200);}paint(current);}
+}
+const requested=new URLSearchParams(location.search).get('aufgabe');
+if(requested){const card=[...document.querySelectorAll('.assignment-frame')].find(c=>c.dataset.taskId===requested);if(card){card.dispatchEvent(new MouseEvent('click',{bubbles:true}));requestAnimationFrame(()=>{card.scrollIntoView({block:'center'});card.focus({preventScroll:true});});}}
+new MutationObserver(sync).observe(document.querySelector('.lesson-content'),{subtree:true,attributes:true,attributeFilter:['class']});sync();window.addEventListener('pagehide',stop);document.body.dataset.taskReturnReady='true';
 })();
