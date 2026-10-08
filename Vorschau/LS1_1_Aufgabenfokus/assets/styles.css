@@ -148,3 +148,5 @@ body[data-page="informieren.html"] .task-done-check{left:auto;right:16px;top:14p
 .focus-ai-help button{display:inline-flex;align-items:center;gap:14px;background:#f4effc;border:1px solid #c5b4e8;color:#4e248c;padding:9px 14px;font-size:.85rem}
 .focus-ai-help button:hover{background:#e9def8;color:#4e248c}.ais-chat-logo{width:118px;height:auto;flex:none}
 @media(max-width:450px){.focus-ai-help button{gap:9px;font-size:.8rem}.ais-chat-logo{width:101px}}
+
+.ais-chat-logo{display:inline-flex;align-items:center}.ais-chat-logo svg{display:block;width:100%;height:auto}
