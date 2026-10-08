@@ -1,0 +1,326 @@
+{
+  "index.html": {
+    "htmlFile": "index.html",
+    "id": "LS1.1-Orientierung",
+    "pages": [],
+    "hasWorkSurface": false,
+    "label": "Orientierung",
+    "workSurfaces": []
+  },
+  "handlungssituation.html": {
+    "htmlFile": "handlungssituation.html",
+    "id": "LS1.1-Handlungssituation",
+    "pages": [],
+    "hasWorkSurface": false,
+    "label": "Handlungssituation",
+    "workSurfaces": []
+  },
+  "informieren.html": {
+    "htmlFile": "informieren.html",
+    "id": "LS1.1-Informieren",
+    "pages": [
+      2,
+      3
+    ],
+    "hasWorkSurface": true,
+    "label": "Informieren",
+    "workSurfaces": [
+      {
+        "page": 2,
+        "label": "Fall- und Facherschließung",
+        "source": {
+          "file": "Alle_Lernsituationen_LG1-7_ueberarbeitet.md",
+          "line": 272
+        },
+        "competencyIds": [
+          "LS1.1-F",
+          "LS1.1-D",
+          "LS1.1-M"
+        ]
+      },
+      {
+        "page": 3,
+        "label": "Freie Fallsicherung",
+        "source": {
+          "file": "Alle_Lernsituationen_LG1-7_ueberarbeitet.md",
+          "line": 272
+        },
+        "competencyIds": [
+          "LS1.1-F",
+          "LS1.1-D",
+          "LS1.1-M"
+        ]
+      }
+    ]
+  },
+  "planen.html": {
+    "htmlFile": "planen.html",
+    "id": "LS1.1-Planen",
+    "pages": [
+      4,
+      5
+    ],
+    "hasWorkSurface": true,
+    "label": "Planen",
+    "workSurfaces": [
+      {
+        "page": 4,
+        "label": "Arbeitsplan",
+        "source": {
+          "file": "Alle_Lernsituationen_LG1-7_ueberarbeitet.md",
+          "line": 430
+        },
+        "competencyIds": [
+          "LS1.1-M",
+          "LS1.1-S"
+        ]
+      },
+      {
+        "page": 5,
+        "label": "Planungsdokumentation",
+        "source": {
+          "file": "Alle_Lernsituationen_LG1-7_ueberarbeitet.md",
+          "line": 430
+        },
+        "competencyIds": [
+          "LS1.1-M",
+          "LS1.1-S"
+        ]
+      }
+    ]
+  },
+  "entscheiden.html": {
+    "htmlFile": "entscheiden.html",
+    "id": "LS1.1-Entscheiden",
+    "pages": [
+      6,
+      7
+    ],
+    "hasWorkSurface": true,
+    "label": "Entscheiden",
+    "workSurfaces": [
+      {
+        "page": 6,
+        "label": "Optionenvergleich",
+        "source": {
+          "file": "Alle_Lernsituationen_LG1-7_ueberarbeitet.md",
+          "line": 568
+        },
+        "competencyIds": [
+          "LS1.1-F",
+          "LS1.1-P",
+          "LS1.1-S"
+        ]
+      },
+      {
+        "page": 7,
+        "label": "Entscheidungsdokumentation",
+        "source": {
+          "file": "Alle_Lernsituationen_LG1-7_ueberarbeitet.md",
+          "line": 568
+        },
+        "competencyIds": [
+          "LS1.1-F",
+          "LS1.1-P",
+          "LS1.1-S"
+        ]
+      }
+    ]
+  },
+  "durchfuehren.html": {
+    "htmlFile": "durchfuehren.html",
+    "id": "LS1.1-Durchführen",
+    "pages": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "hasWorkSurface": true,
+    "label": "Durchführen",
+    "workSurfaces": [
+      {
+        "page": 8,
+        "label": "Produktentwurf",
+        "source": {
+          "file": "Alle_Lernsituationen_LG1-7_ueberarbeitet.md",
+          "line": 705
+        },
+        "competencyIds": [
+          "LS1.1-F",
+          "LS1.1-M",
+          "LS1.1-D"
+        ]
+      },
+      {
+        "page": 9,
+        "label": "Produktentwurf",
+        "source": {
+          "file": "Alle_Lernsituationen_LG1-7_ueberarbeitet.md",
+          "line": 705
+        },
+        "competencyIds": [
+          "LS1.1-F",
+          "LS1.1-M",
+          "LS1.1-D"
+        ]
+      },
+      {
+        "page": 10,
+        "label": "Produktentwurf",
+        "source": {
+          "file": "Alle_Lernsituationen_LG1-7_ueberarbeitet.md",
+          "line": 705
+        },
+        "competencyIds": [
+          "LS1.1-F",
+          "LS1.1-M",
+          "LS1.1-D"
+        ]
+      },
+      {
+        "page": 11,
+        "label": "Produktdokumentation",
+        "source": {
+          "file": "Alle_Lernsituationen_LG1-7_ueberarbeitet.md",
+          "line": 705
+        },
+        "competencyIds": [
+          "LS1.1-F",
+          "LS1.1-M",
+          "LS1.1-D"
+        ]
+      }
+    ]
+  },
+  "bewerten.html": {
+    "htmlFile": "bewerten.html",
+    "id": "LS1.1-Bewerten",
+    "pages": [
+      12
+    ],
+    "hasWorkSurface": true,
+    "label": "Bewerten",
+    "workSurfaces": [
+      {
+        "page": 12,
+        "label": "Kriteriencheck und Peerfeedback",
+        "source": {
+          "file": "Alle_Lernsituationen_LG1-7_ueberarbeitet.md",
+          "line": 859
+        },
+        "competencyIds": [
+          "LS1.1-F",
+          "LS1.1-S",
+          "LS1.1-D"
+        ]
+      }
+    ]
+  },
+  "reflektieren.html": {
+    "htmlFile": "reflektieren.html",
+    "id": "LS1.1-Reflektieren",
+    "pages": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "hasWorkSurface": true,
+    "label": "Reflektieren",
+    "workSurfaces": [
+      {
+        "page": 13,
+        "label": "Meine Lernbilanz",
+        "source": {
+          "file": "Alle_Lernsituationen_LG1-7_ueberarbeitet.md",
+          "line": 1008
+        },
+        "competencyIds": [
+          "LS1.1-P",
+          "LS1.1-F",
+          "LS1.1-S",
+          "LS1.1-M",
+          "LS1.1-D"
+        ]
+      },
+      {
+        "page": 14,
+        "label": "Meine Lernbilanz · Fortsetzung",
+        "source": {
+          "file": "Alle_Lernsituationen_LG1-7_ueberarbeitet.md",
+          "line": 1008
+        },
+        "competencyIds": [
+          "LS1.1-P",
+          "LS1.1-F",
+          "LS1.1-S",
+          "LS1.1-M",
+          "LS1.1-D"
+        ]
+      },
+      {
+        "page": 15,
+        "label": "Transfer und nächster Lernschritt",
+        "source": {
+          "file": "Alle_Lernsituationen_LG1-7_ueberarbeitet.md",
+          "line": 1008
+        },
+        "competencyIds": [
+          "LS1.1-P",
+          "LS1.1-F",
+          "LS1.1-S",
+          "LS1.1-M",
+          "LS1.1-D"
+        ]
+      },
+      {
+        "page": 16,
+        "label": "Mein Kompetenzcheck nach der Lernsituation",
+        "source": {
+          "file": "Alle_Lernsituationen_LG1-7_ueberarbeitet.md",
+          "line": 1008
+        },
+        "competencyIds": [
+          "LS1.1-F",
+          "LS1.1-P",
+          "LS1.1-S",
+          "LS1.1-M",
+          "LS1.1-D"
+        ]
+      }
+    ]
+  },
+  "m1.html": {
+    "htmlFile": "m1.html",
+    "id": "1.1-M1",
+    "pages": [],
+    "hasWorkSurface": false,
+    "label": "Teamsitzung zur Einarbeitung",
+    "workSurfaces": []
+  },
+  "m2.html": {
+    "htmlFile": "m2.html",
+    "id": "1.1-M2",
+    "pages": [],
+    "hasWorkSurface": false,
+    "label": "Pädagogik als Wissenschaft",
+    "workSurfaces": []
+  },
+  "m3.html": {
+    "htmlFile": "m3.html",
+    "id": "1.1-M3",
+    "pages": [],
+    "hasWorkSurface": false,
+    "label": "Wer übernimmt welche Aufgabe?",
+    "workSurfaces": []
+  },
+  "m4.html": {
+    "htmlFile": "m4.html",
+    "id": "1.1-M4",
+    "pages": [],
+    "hasWorkSurface": false,
+    "label": "Notizen aus dem Gruppenalltag",
+    "workSurfaces": []
+  }
+}

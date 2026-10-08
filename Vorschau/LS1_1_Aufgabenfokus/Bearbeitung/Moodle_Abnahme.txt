@@ -1,0 +1,19 @@
+MOODLE-ABNAHME
+
+Diese Pakete wurden mit einer SCORM-1.2-Schnittstellensimulation und in Chromium geprüft. Eine Abnahme in eurem tatsächlichen Moodle wurde nicht durchgeführt.
+
+Jedes Einzelpaket enthält genau eine Lernsituation als eigenständiges SCO. Das Manifest liegt direkt im ZIP-Hauptverzeichnis. Jede ZIP wird als eigene SCORM-Aktivität in Moodle importiert.
+
+Für die Abnahme eine SCORM-Aktivität mit einem Paket anlegen und mit einer Schülerrolle prüfen:
+1. Eine LS starten, Orientierung bestätigen, die drei Fragen bearbeiten und einige Aufgaben abhaken. Den Versuch verlassen und denselben Versuch wieder öffnen: Haken, Antworten und letzte Lernseite müssen wiederhergestellt werden.
+2. In „Reflektieren“ die fünf Einschätzungen nach der LS, Belege, Feedback und nächsten Schritt speichern. Im SCORM-Interaktionsbericht den Versuch öffnen und die gespeicherten Antworten kontrollieren. Es werden zwölf neutrale Reflexionseinträge übertragen; sie ergeben keine Note. Pro Freitextfeld sind 255 Zeichen vorgesehen.
+3. Alle Pflichtschritte einer LS abschließen und deren Abschlussstatus prüfen. Auch ein zweites Einzelpaket als eigene Aktivität starten; seine Lernstände müssen getrennt bleiben.
+4. Im Lehrkräftemodus einen Text und beide Symbol-Dropdowns ändern, speichern und SCORM exportieren. Den einzelnen Export in einer separaten Aktivität öffnen, erneut ändern und nochmals exportieren.
+5. Auf den verwendeten Tablets/Browsersystemen das Scrollen, die Bilddarstellung und den Druck prüfen. Die Browserprüfung deckte 768 und 390 Pixel breite Ansichten ab; dies ersetzt keinen Test auf einem physischen iPad.
+
+Moodle muss die Fortsetzung desselben Versuchs zulassen. Die Pakete melden „incomplete“ bzw. „completed“ und keine numerischen Punkte. Ein neuer Versuch ist ein neuer Lernstand. Die Darstellungs- und Abschlussoptionen der SCORM-Aktivität passend zum eigenen Kurs wählen.
+
+Offizielle Dokumentation zu SCORM-Berichten und Schülerantworten:
+https://docs.moodle.org/502/en/Using_SCORM
+
+Freie Einträge in Materialtabellen bleiben browserlokal. Für schriftliche Arbeitsergebnisse das GoodNotes-Arbeitsheft oder die vom Kurs bereitgestellte Moodle-Abgabe nutzen. Buchaufträge setzen die angegebenen Hobmair-Bände voraus; alle Materialverweise M1–M5 beziehen sich auf Seiten im Paket.

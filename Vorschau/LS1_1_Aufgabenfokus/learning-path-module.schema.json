@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Lernwegmodul LS1.1",
+  "type": "object",
+  "required": [
+    "schema",
+    "lesson",
+    "mode",
+    "label",
+    "phases"
+  ],
+  "properties": {
+    "schema": {
+      "const": 1
+    },
+    "lesson": {
+      "const": "1.1"
+    },
+    "mode": {
+      "type": "integer",
+      "minimum": 2,
+      "maximum": 99
+    },
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "phases": {
+      "type": "object",
+      "required": [
+        "informieren",
+        "planen",
+        "entscheiden",
+        "durchfuehren",
+        "bewerten",
+        "reflektieren"
+      ],
+      "properties": {
+        "informieren": {
+          "type": "object",
+          "required": [
+            "minutes",
+            "html"
+          ],
+          "properties": {
+            "minutes": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "html": {
+              "type": "string",
+              "description": "Eine section.task-card.phase-mode mit mindestens einem .assignment-frame; Struktur aus dem vorhandenen Lernweg übernehmen."
+            }
+          }
+        },
+        "planen": {
+          "type": "object",
+          "required": [
+            "minutes",
+            "html"
+          ],
+          "properties": {
+            "minutes": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "html": {
+              "type": "string",
+              "description": "Eine section.task-card.phase-mode mit mindestens einem .assignment-frame; Struktur aus dem vorhandenen Lernweg übernehmen."
+            }
+          }
+        },
+        "entscheiden": {
+          "type": "object",
+          "required": [
+            "minutes",
+            "html"
+          ],
+          "properties": {
+            "minutes": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "html": {
+              "type": "string",
+              "description": "Eine section.task-card.phase-mode mit mindestens einem .assignment-frame; Struktur aus dem vorhandenen Lernweg übernehmen."
+            }
+          }
+        },
+        "durchfuehren": {
+          "type": "object",
+          "required": [
+            "minutes",
+            "html"
+          ],
+          "properties": {
+            "minutes": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "html": {
+              "type": "string",
+              "description": "Eine section.task-card.phase-mode mit mindestens einem .assignment-frame; Struktur aus dem vorhandenen Lernweg übernehmen."
+            }
+          }
+        },
+        "bewerten": {
+          "type": "object",
+          "required": [
+            "minutes",
+            "html"
+          ],
+          "properties": {
+            "minutes": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "html": {
+              "type": "string",
+              "description": "Eine section.task-card.phase-mode mit mindestens einem .assignment-frame; Struktur aus dem vorhandenen Lernweg übernehmen."
+            }
+          }
+        },
+        "reflektieren": {
+          "type": "object",
+          "required": [
+            "minutes",
+            "html"
+          ],
+          "properties": {
+            "minutes": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "html": {
+              "type": "string",
+              "description": "Eine section.task-card.phase-mode mit mindestens einem .assignment-frame; Struktur aus dem vorhandenen Lernweg übernehmen."
+            }
+          }
+        }
+      }
+    }
+  }
+}

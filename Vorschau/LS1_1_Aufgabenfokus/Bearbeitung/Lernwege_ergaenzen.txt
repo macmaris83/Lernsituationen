@@ -1,0 +1,13 @@
+LERNWEGE ERGÄNZEN
+
+Ausgeliefert ist ausschließlich der tradierte Lernweg. Im Ordner „Bearbeitung“ liegt für jede LS eine JSON-Vorlage für einen weiteren Weg; sie ist noch nicht in die Lernansicht integriert.
+
+1. Im Lehrkräftemodus derselben LS unter „Lernweg ergänzen“ die passende JSON-Vorlage auswählen.
+2. Der neue Weg wird als Kopie der vorhandenen Aufgaben eingefügt. Mit dem Lernweg-Dropdown zwischen den Wegen wechseln und die Aufgaben im Editor anpassen.
+3. „Seitenänderung speichern“ und anschließend „SCORM exportieren“ wählen. Der Export enthält die gewählten Wege, Aufgaben, Symbole, Bezeichnungen, Zeitangaben und Bildzuordnungen. Ein exportiertes Paket lässt sich wieder bearbeiten und erneut exportieren.
+
+Die Vorlage enthält sechs Phasen mit jeweils einer Minutenangabe und einem HTML-Aufgabenabschnitt. „lesson“ muss zur LS gehören. Jede Lernwegnummer ist stabil und eindeutig; weitere Nummern können zwischen 2 und 99 vergeben werden. Für einen dritten Weg in einer weiteren Vorlage „mode“ auf 3 und „label“ auf dessen Namen setzen. Das jeweilige learning-path-module.schema.json beschreibt die Struktur.
+
+Die Wege verwenden dieselben Materialien, Bilder, Logos, Schriften, Editor- und SCORM-Dateien. Aufgaben und Lernstände werden nach Weg unterschieden. Änderungen an gemeinsam verwendeten Materialseiten gelten für alle Wege.
+
+Der Lehrkräftemodus exportiert die einzelne LS als eigenständiges SCORM-ZIP. Dieses kann separat in Moodle genutzt werden. Um eine geänderte LS wieder in das Lerngebietspaket einzusetzen, den gleichnamigen LS-Ordner durch die Dateien des einzelnen Exports ersetzen und alle neuen Dateien im Root-Manifest ergänzen. Bei neuen/entfernten Dateien muss die Dateiliste aktuell bleiben; HTML-Verweise sind relativ zum jeweiligen LS-Ordner.

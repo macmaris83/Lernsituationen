@@ -1,0 +1,1 @@
+Geplante Dateinamen, Bildplatz-IDs und Alternativtexte stehen in ../../media-map.json. Nach Zuordnung src setzen und das Paket mit paket_pflegen.py neu erzeugen. Platzhalter bleiben erhalten, solange src leer ist.

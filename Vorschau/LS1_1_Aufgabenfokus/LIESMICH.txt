@@ -1,0 +1,14 @@
+LS 1.1 – Berufsrolle begründen
+SCORM 1.2 · ein Lernobjekt pro Lernsituation
+
+In Moodle als Aktivität „Lernpaket (SCORM)“ hochladen. Nicht als Arbeitsmaterial IMS-Content.
+Aufgaben abhaken: Alle Aufträge der aktiven Stufe ergeben den Abschluss einer Phase. Orientierung wird ausdrücklich bestätigt; Handlungssituation nach drei korrekt geprüften Antworten abgeschlossen. Jeder Haken wird sofort an Moodle übermittelt.
+Beim Wiederöffnen desselben Versuchs werden Haken, Quizantworten, Unterrichtsstufe (wenn freigegeben) und letzte Lernseite geladen. Keine numerischen Punkte oder Noten werden vom Paket übermittelt.
+Schriftliche Arbeitsergebnisse bleiben in Goodnotes. Der Kompetenzcheck erfasst ausschließlich die Selbsteinschätzung nach der LS (1–4). Abschlusswerte, kurze Belege, Fremdfeedback und nächster Lernschritt werden im Moodle-Versuch gespeichert und beim Wiederöffnen geladen. Lesbare Berichtseinträge: SCORM-Berichte → Interaktionen; dort Antworten anzeigen und bei Bedarf herunterladen. Belege/Reflexionstexte: maximal 255 Zeichen pro Feld. Selbsteinschätzungen haben keine richtige/falsche Antwort und werden nicht benotet. Sonstige freie Materialeingaben bleiben browserlokal.
+Lehrkräftemodus: Texte, Moodle-Verknüpfungen, Bilder und Stufe bearbeiten; danach bearbeitetes SCORM-Paket herunterladen. Persönliche Fortschrittsdaten sind darin nicht enthalten.
+Lokale Vorschau: scorm.html öffnen. Ohne LMS-Verbindung wird der Fortschritt nur in diesem Browser gespeichert.
+Moodle-Empfehlungen und Abnahmetest siehe Bearbeitung/Moodle_Abnahme.txt in diesem Einzelpaket. Echtbetrieb in eurem Moodle muss noch geprüft werden.
+
+Erweiterung um Lernwege: Im Lehrkräftemodus unter „Lernweg ergänzen“ ein JSON-Modul importieren. learning-path-module.schema.json beschreibt das Format. Jede der sechs Phasen benötigt Minuten und eine vollständige Aufgaben-Section nach der vorhandenen HTML-Struktur. Bilder, Logos, Schriften, SCORM-Anbindung und Editor werden gemeinsam genutzt. Lernwegnummern bleiben stabil und unterscheiden Fortschrittsdaten. Nach dem Import prüfen, speichern und SCORM exportieren. Das ausgelieferte Paket enthält ausschließlich den tradierten Lernweg.
+Schlanker Export: Aus Moodle/HTTP werden die vorhandenen Paketdateien gelesen. Bei direkt lokal geöffneter HTML-Datei im Editor das entsprechende SCORM-ZIP auswählen. Bilder werden als einzelne Dateien verpackt.
+PDF: Die Druckansicht übernimmt den aktuell ausgewählten Lernweg, bearbeitete Inhalte und Medien. Browserdruck mit Hintergrundgrafiken aktivieren, Kopf-/Fußzeilen des Browsers ausschalten. Die beigefügte Gesamtdruck-PDF ist eine Momentaufnahme; nach Änderungen die Druckansicht neu drucken. GoodNotes nutzt das reduzierte Arbeitsheft mit Schullogo.
