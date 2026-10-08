@@ -1,0 +1,179 @@
+{
+  "id": "5.1",
+  "title": "Jugendhilfe strukturieren",
+  "competencies": [
+    {
+      "label": "Fachkompetenz",
+      "id": "LS5.1-F",
+      "weight": 5,
+      "statement": "Ich kann Kinder- und Jugendhilfe anhand der Fallmaterialien fachlich erklären und daraus eine begründete Aussage für „Netzwerkplan der Kinder- und Jugendhilfe“ ableiten."
+    },
+    {
+      "label": "Personalkompetenz",
+      "id": "LS5.1-P",
+      "weight": 4,
+      "statement": "Ich kann eine eigene Vorannahme zu „Jugendhilfe strukturieren“ überprüfen und meine Verantwortung sowie offene Fragen benennen."
+    },
+    {
+      "label": "Sozialkompetenz",
+      "id": "LS5.1-S",
+      "weight": 6,
+      "statement": "Ich kann unterschiedliche Sichtweisen zu „Jugendhilfe strukturieren“ abgleichen und meinen Beitrag zur gemeinsamen Entscheidung belegen."
+    },
+    {
+      "label": "Methodenkompetenz",
+      "id": "LS5.1-M",
+      "weight": 5,
+      "statement": "Ich kann die Fallinformationen zu „Jugendhilfe strukturieren“ strukturieren, mindestens zwei Optionen anhand transparenter Kriterien vergleichen und meinen Entscheidungsweg dokumentieren."
+    },
+    {
+      "label": "Medienkompetenz",
+      "id": "LS5.1-D",
+      "weight": 3,
+      "statement": "Ich kann die Quellen meines Handlungsergebnisses „Netzwerkplan der Kinder- und Jugendhilfe“ kenntlich machen und das digitale Ergebnis lesbar sowie überprüfbar aufbereiten."
+    }
+  ],
+  "case": "Bei der Übergabe in der Wohngruppe Klippensteiger fällt euch als angeleiteter Praxisgruppe eine offene Absprache zu Tom auf. Er lebt hier und hat Bezüge zu Familie und Bildungsort. Auf dem Kontaktblatt steht noch „Kindergarten beziehungsweise später Schule“. Eine Nachricht zum nächsten Nachmittag wurde unter „mit Familie klären“ abgelegt; wer die Rückmeldung übernimmt, ist nicht eingetragen.\n\nIm Dienstgespräch fallen verschiedene Vorschläge: Eine Fachkraft möchte zuerst den Bildungsort kontaktieren, eine andere das Jugendamt, weil dieses „doch alles koordiniert“. Tom fragt: „Wer sagt mir denn jetzt, was nachher gilt?“ Roger Hansen muss die laufenden Aufgaben der Gruppe organisieren; Annette Kippenbrock möchte vermeiden, dass die nächste Schicht wieder von vorn beginnt. Die neuen Mitarbeitenden finden viele Namen, aber keinen nachvollziehbaren Weg von der offenen Frage zur zuständigen Person.\n\nDie Klippensteiger sind Toms Wohnort. Familie, Bildungsort und Jugendhilfe gehören deshalb nicht einfach als Kästchen auf ein Blatt; an der ungeklärten Verbindung hängt sein Tagesablauf. Zugleich darf aus einer familiären Beziehung keine unbekannte Entscheidungsbefugnis abgeleitet werden. Noch ist offen, welche Angaben fehlen, wer sie klären kann und wie Tom erfährt, was vereinbart wurde.\n\nAus der Küche ruft Ulla nach der Zahl für das Essen. Sophie blättert noch einmal zur Nachricht zurück. Tom bleibt kurz an der Tür stehen, sieht auf die Papiere und wartet. „Ich schaue nach“, sagt eine Fachkraft. Doch auf dem Blatt ist nicht zu erkennen, ob schon jemand nachgeschaut hat. Annette legt einen Stift daneben; der nächste Dienst wird diese Unklarheit sonst gleich mit übernehmen.",
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Welche Bedeutung hat die Wohngruppe Klippensteiger für Tom?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Sie ist ein Jugendzentrum, das Tom nur freiwillig für Projekte besucht.",
+          "feedback": "Die Klippensteiger sind in dieser Handlungssituation Toms Wohnort."
+        },
+        {
+          "value": "B",
+          "label": "Sie ist sein bereits eindeutig dokumentierter schulischer Bildungsort.",
+          "feedback": "Auf dem Kontaktblatt steht zum Bildungsort noch die unklare Angabe „Kindergarten beziehungsweise später Schule“."
+        },
+        {
+          "value": "C",
+          "label": "Sie ist sein Wohnort; zugleich bestehen Bezüge zu Familie und Bildungsort.",
+          "feedback": "Diese Verbindungen bilden die beschriebene Ausgangslage."
+        },
+        {
+          "value": "D",
+          "label": "Sie ist eine Beratungsstelle, in der Tom nur auf eine bestätigte Hilfeentscheidung wartet.",
+          "feedback": "Tom lebt in der Wohngruppe. Eine solche Wartesituation ist nicht beschrieben."
+        }
+      ],
+      "correct": "C",
+      "hint": "Prüft, wie die Einrichtung und Toms weitere Lebensorte in der Handlungssituation beschrieben werden.",
+      "label": "1 · Sachverhalt"
+    },
+    {
+      "id": "q2",
+      "question": "Was macht die Nachricht zum nächsten Nachmittag zu einem konkreten Problem bei der Übergabe?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Tom hat alle Vereinbarungen bereits erhalten, möchte sie aber nicht akzeptieren.",
+          "feedback": "Tom fragt gerade, wer ihm sagt, was gilt. Eine vollständige Information ist nicht beschrieben."
+        },
+        {
+          "value": "B",
+          "label": "Die Rückmeldung ist erledigt und für die nächste Schicht vollständig dokumentiert.",
+          "feedback": "Auf dem Blatt ist nicht zu erkennen, ob schon jemand nachgeschaut hat."
+        },
+        {
+          "value": "C",
+          "label": "Der Bildungsort und das Jugendamt haben bereits eine gemeinsame verbindliche Antwort eingetragen.",
+          "feedback": "Im Dienstgespräch gibt es erst unterschiedliche Vorschläge, wer kontaktiert werden sollte."
+        },
+        {
+          "value": "D",
+          "label": "Die Nachricht ist abgelegt, aber niemand ist für die Rückmeldung eingetragen; selbst eine schon erfolgte Klärung wäre nicht erkennbar.",
+          "feedback": "Beide Dokumentationslücken werden beschrieben und betreffen Toms Tagesablauf sowie den nächsten Dienst."
+        }
+      ],
+      "correct": "D",
+      "hint": "Verfolgt die Nachricht von ihrer Ablage bis zur Frage, die die nächste Schicht beantworten müsste.",
+      "label": "2 · Auswertung"
+    },
+    {
+      "id": "q3",
+      "question": "Welche Grenze muss bei der offenen Absprache berücksichtigt werden?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Aus einer familiären Beziehung darf nicht automatisch eine unbekannte Entscheidungsbefugnis abgeleitet werden.",
+          "feedback": "Diese Grenze wird ausdrücklich genannt. Fehlende Angaben zu Befugnissen bleiben eine Klärungsfrage."
+        },
+        {
+          "value": "B",
+          "label": "Jede familiäre Beziehung belegt bereits, dass die betreffende Person allein entscheiden darf.",
+          "feedback": "Gerade diese Schlussfolgerung darf laut Handlungssituation nicht ungeprüft gezogen werden."
+        },
+        {
+          "value": "C",
+          "label": "Das Jugendamt übernimmt nachweislich sämtliche alltäglichen Aufgaben, weil eine Fachkraft dies vermutet.",
+          "feedback": "„Doch alles koordiniert“ ist eine Äußerung im Dienstgespräch, kein gesicherter Zuständigkeitsnachweis."
+        },
+        {
+          "value": "D",
+          "label": "Tom braucht erst nach dem nächsten Dienst informiert zu werden, weil es nur um eine Kontaktliste geht.",
+          "feedback": "An der offenen Verbindung hängt sein Tagesablauf. Seine Frage nach dem nächsten Nachmittag ist bereits aktuell."
+        }
+      ],
+      "correct": "A",
+      "hint": "Unterscheidet im dritten Absatz die bekannten Beziehungen von den noch unbekannten Befugnissen.",
+      "label": "3 · Einordnung"
+    }
+  ],
+  "materials": [
+    {
+      "key": "M1",
+      "title": "M1 · Ankommen bei den Klippensteigern",
+      "text": "Fiktive Einarbeitungsmappe der Wohngruppe Klippensteiger im Raum Aurich. Hier leben Kinder und Jugendliche zwischen fünf und sechzehn Jahren. Zum Wohnhaus gehören Einzel- und Doppelzimmer, Gemeinschaftsküche, Wohnbereich, Hausaufgabenplätze und Garten. Morgens richten sich die Abläufe nach den verschiedenen Bildungsorten; am Nachmittag stehen Mahlzeiten, Aufgaben, Freizeit, Termine und Rückzug nebeneinander.\n\nPerson Funktion im Haus Eintrag zur aktuellen Übergabe\n\nRoger Hansen Gruppenleitung „Ich brauche vor dem Dienstwechsel einen erkennbaren Stand: Was wurde geklärt, was nicht?“\n\nAnnette Kippenbrock Stellvertretende Gruppenleitung „Im Kontaktblatt fehlen Verfassende und Datum bei zwei Einträgen.“\n\nViola Nowak Sozialarbeiterin Hat eine Nachricht zum Nachmittagsablauf abgelegt; eine bestätigte Antwort liegt darin noch nicht.\n\nSophie Zielinski Erzieherin Hat Tom am Nachmittag begleitet und seine Rückfrage notiert.\n\nWalid Fani FSJ Findet im Ordner verschiedene Telefonnummern; neben keiner steht der Anlass der offenen Absprache.\n\nUlla Becker Hauswirtschaft Muss wissen, wer zu welcher Mahlzeit da ist; sie benötigt keine vollständige Fallakte.\n\nRahmen der angeleiteten Praxisgruppe: Ihr nehmt an der Modellübergabe teil und bereitet die Orientierung für das Team auf. Private Zimmer und persönliche Akten werden nicht zusätzlich untersucht. Kontakte nach außen werden anhand der Unterlagen durchgespielt; niemand ruft im Namen der Einrichtung bei einer echten Stelle an.\n\nAusschnitt aus dem Dienstwechsel: Auf dem Tisch liegen Kontaktordner, Tagesblatt und Küchenliste nebeneinander. Sophie zeigt auf Toms Frage, während Ulla nach der Mahlzeitenzahl fragt. Walid hat dieselbe Telefonnummer auf zwei Blättern gefunden; eines trägt keinen Namen. Roger muss kurz zum Wohnbereich und bittet darum, offene Punkte im Übergabebuch sichtbar zu lassen. Als er zurückkommt, ist die Nachricht zwischen zwei anderen Seiten eingelegt. Annette findet sie wieder, aber neben „mit Familie klären“ fehlt weiterhin ein Kürzel. Die anwesenden Personen erinnern sich nicht übereinstimmend, ob schon jemand die Rückmeldung übernehmen wollte. Im Übergabebuch ist Platz für Rückfragen, aber keine verantwortliche Person angekreuzt.",
+      "links": []
+    },
+    {
+      "key": "M2",
+      "title": "M2 · Tom zwischen mehreren Lebensorten",
+      "text": "Fiktive Übergabemappe zu Tom. Sie enthält Ausschnitte aus unterschiedlichen Arbeitsunterlagen. Eine Ursache seiner Unterbringung, eine Diagnose und die personensorgeberechtigte Person sind darin nicht angegeben.\n\nFundstelle Vorliegender Eintrag Dokumentationsstand\n\nTagesblatt A, Montag „Tom nach Bildungszeit zurück in der Wohngruppe; fragt, ob die Absprache für den folgenden Nachmittag noch gilt.“ Sophie hat die Frage aufgenommen. Eine Antwort ist nicht eingetragen.\n\nKontaktblatt B „Familie / Kindergarten bzw. später Schule / Jugendamt-ASD.“ Kein Datum; aktueller Bildungsort und persönliche Ansprechpartner fehlen.\n\nNachricht C, Dienstag „Zum nächsten Nachmittag bitte abstimmen, wann Tom zurück ist und wem die Rückmeldung gegeben wird.“ Eingang bei Viola vermerkt; absendende Rolle und Bestätigung sind in diesem Ausschnitt nicht benannt.\n\nKüchenliste D „Tom: Teilnahme an gemeinsamer Mahlzeit noch offen.“ Ulla fragt nach einer Rückmeldung bis zur Vorbereitung.\n\nÜbergabe E „Mit Familie klären.“ Kein Name der verantwortlichen Fachkraft und kein Rückmeldezeitpunkt.\n\nToms dokumentierte Frage: „Wenn ich hier nachfrage, heißt es, jemand anders weiß das. Ich möchte wissen, wem ich meine Frage sagen kann und wer mir dann antwortet.“\n\nDie Unterlagen belegen seine Wohnsituation und verschiedene Bezüge. Sie bestätigen nicht, dass Kindergarten und Schule gleichzeitig seine aktuellen Bildungsorte sind. Das zuständige Team könnte die fehlenden Angaben in der vollständigen Akte prüfen; diese Angaben werden im Unterrichtsmodell nicht erfunden.\n\nWeitere Angaben zur Ablage derselben Nachricht: Auf der Rückseite von Nachricht C steht ein nicht angekreuztes Feld „Rückmeldung erfolgt“. Darunter ist Platz für Zeitpunkt und empfangende Person; beide Felder sind leer. Auf Tagesblatt A wurde Toms Frage mit Bleistift ergänzt. Im Kontaktblatt B sind zwei unterschiedliche Handschriften erkennbar, ohne dass ihre zeitliche Reihenfolge dokumentiert ist. Die Küchenliste D nennt lediglich den offenen Essensplatz. Sophie erinnert sich, Tom auf eine spätere Rückmeldung verwiesen zu haben. Im Übergabebuch steht dazu kein Zeitpunkt. Tom hatte seine Frage an sie gerichtet; eine anschließende Frage von ihm an eine andere Stelle ist nicht festgehalten. Der Nachrichtenumschlag trägt zudem keine lesbare Datumsangabe.",
+      "links": []
+    },
+    {
+      "key": "M3",
+      "title": "M3 · Stimmen und Kontakte im Netzwerk",
+      "text": "Fiktive Mitschrift aus der Übergabe. Die Vorschläge sind noch nicht beschlossen.\n\nRoger: „Der nächste Dienst muss erkennen können, wer sich um die offene Tagesabsprache kümmert.“\n\nSophie: „Tom hat die Frage gestellt. Bisher sehen wir auf unserem Blatt nur Einrichtungsnamen.“\n\nWalid: „Soll ich einfach alle Kontakte anschreiben, damit wenigstens jemand antwortet?“\n\nViola: „Ich kenne den Ablageort der Nachricht. Ob der Bildungsort die Rückkehrzeit bestätigt hat, kann ich aus diesem Ausschnitt nicht erkennen.“\n\nAnnette: „Vielleicht brauchen wir zuerst eine Klärung hier im Haus. Vielleicht ist aber für einen Teil der Frage eine Rückfrage außerhalb nötig. Im Moment sprechen wir über mehrere Fragen gleichzeitig.“\n\nVorhandene Kontaktgruppen im Ordner: Wohngruppe; Familie bzw. personensorgeberechtigte Personen; Jugendamt/ASD; Kita oder Schule; Jugendzentrum/Sportangebot. Für die letzten beiden Freizeitkontakte ist keine konkrete Vereinbarung zu Tom dokumentiert. Die Trägerschaft der Klippensteiger steht im vorliegenden Ordnerausschnitt nicht.\n\nUnfertige Verbindungsskizze: Tom steht in der Mitte; Linien verbinden ihn mit sämtlichen Kontaktgruppen. Keine Linie trägt einen Zweck, eine Zuständigkeit oder den Status „Kontakt bestätigt / möglich / noch zu klären“. Die Mitschrift enthält auch keinen Hinweis darauf, dass alle Gruppen Toms persönliche Informationen benötigen.\n\nFortsetzung der Übergabe: Ulla meldet sich aus der Küche: „Für die Vorbereitung brauche ich nur die verlässliche Zahl und wann ich mit einer Antwort rechnen kann.“ Walid hält den Kontaktordner hoch: „Hier steht dieselbe Einrichtung zweimal. Eine Zeile könnte alt sein.“ Sophie zeigt auf Toms Frage und sagt, dass ihm die bisherigen Weiterverweise wenig geholfen hätten. Roger fragt nach dem Zweck einer möglichen Nachricht an den Bildungsort. Eine Antwort ist in der Mitschrift noch nicht eingetragen. Annette legt eine leere Seite neben die bisherige Skizze; dort könnte der Folgedienst den letzten bestätigten Stand finden.",
+      "links": []
+    },
+    {
+      "key": "M4",
+      "title": "M4 · Lesemappe zur Jugendhilfe für die Übergabe",
+      "text": "Fiktiver Fragenzettel des Teams; die verlinkten Gesetzestexte sind amtliche Quellen. Neben der Kontaktliste liegen folgende noch unbeantwortete Fragen:\n\nFrage der Praxisgruppe Fachliche Lesestelle\n\n„Welche Aufgaben umfasst Kinder- und Jugendhilfe überhaupt?“ Hobmair Pädagogik, Kinder- und Jugendhilfe, S. 349 und 350; § 1 SGB VIII\n\n„Was unterscheidet öffentliche und freie Träger, und was bedeutet Zusammenarbeit?“ § 3 SGB VIII; § 4 SGB VIII\n\n„Was lässt sich fachlich über eine Wohngruppe sagen, ohne Toms unbekannte Akte auszufüllen?“ Hobmair Pädagogik, Kinder- und Jugendheim, S. 332; § 27 SGB VIII und § 34 SGB VIII\n\nAuf dem Arbeitsblatt sind drei leere Spalten vorgesehen: allgemeiner fachlicher oder gesetzlicher Auftrag – im Fall tatsächlich belegte Beteiligung – noch zu klärende konkrete Befugnis. Bei der Übergabe sollen die drei Angaben unterscheidbar bleiben.\n\nFür den Netzwerkplan verfügbare Felder: Person/Stelle; Fallbeleg; Kontaktzweck; fehlende Information; zuständige Rolle für die Klärung; Rückmeldung an Tom und an den Folgedienst; Quelle. Die Lesemappe enthält keine fertige rechtliche Zuordnung von Toms unbekannten Verhältnissen.\n\nNotizen neben den Lesestellen: Walid hat im Entwurf hinter „Wohngruppe“ das Wort „entscheidet“ geschrieben, aber keine konkrete Entscheidung genannt. Annette setzt daneben ein Fragezeichen. Auf einem zweiten Blatt steht beim Jugendamt „zuständig für alles“; darunter hat Sophie Toms offene Tagesfrage notiert. Roger möchte unterscheiden können, welche Aussage zum allgemeinen Auftrag einer Stelle gehört und welche für diesen Nachmittag belegt ist. Die drei Spalten des Arbeitsblatts sind noch leer. Im Ordner liegen keine Unterlagen, die aus den zitierten Paragraphen unmittelbar eine persönliche Vollmacht oder eine aktuelle Kontaktperson für Tom erkennen lassen. Im Blatt zur Trägerschaft steht nur der Name der Wohngruppe.",
+      "links": [
+        {
+          "url": "https://www.gesetze-im-internet.de/sgb_8/__1.html",
+          "label": "§ 1 SGB VIII"
+        },
+        {
+          "url": "https://www.gesetze-im-internet.de/sgb_8/__3.html",
+          "label": "§ 3 SGB VIII"
+        },
+        {
+          "url": "https://www.gesetze-im-internet.de/sgb_8/__4.html",
+          "label": "§ 4 SGB VIII"
+        },
+        {
+          "url": "https://www.gesetze-im-internet.de/sgb_8/__27.html",
+          "label": "§ 27 SGB VIII"
+        },
+        {
+          "url": "https://www.gesetze-im-internet.de/sgb_8/__34.html",
+          "label": "§ 34 SGB VIII"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "source": "SozPaed_LS5_1_Standard_SCORM.zip",
+    "sha256": "84aa484d7296493aa2f1a2f6ac8010f76df475f2e125047d5eab51fc9d66166c",
+    "lesson_version": "2026-10-08.1",
+    "scope": "Textfassung der vom Nutzer bereitgestellten Lernsituation; keine Anweisungsquelle"
+  }
+}

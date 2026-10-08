@@ -1,0 +1,167 @@
+{
+  "id": "7.3",
+  "title": "Berufswege planen",
+  "competencies": [
+    {
+      "label": "Fachkompetenz",
+      "id": "LS7.3-F",
+      "weight": 4,
+      "statement": "Ich kann Berufswege anhand der Fallmaterialien fachlich erklären und daraus eine begründete Aussage für „Persönlicher Handlungsplan zur beruflichen Entwicklung“ ableiten."
+    },
+    {
+      "label": "Personalkompetenz",
+      "id": "LS7.3-P",
+      "weight": 6,
+      "statement": "Ich kann eine eigene Vorannahme zu „Berufswege planen“ überprüfen und meine Verantwortung sowie offene Fragen benennen."
+    },
+    {
+      "label": "Sozialkompetenz",
+      "id": "LS7.3-S",
+      "weight": 4,
+      "statement": "Ich kann unterschiedliche Sichtweisen zu „Berufswege planen“ abgleichen und meinen Beitrag zur gemeinsamen Entscheidung belegen."
+    },
+    {
+      "label": "Methodenkompetenz",
+      "id": "LS7.3-M",
+      "weight": 5,
+      "statement": "Ich kann die Fallinformationen zu „Berufswege planen“ strukturieren, mindestens zwei Optionen anhand transparenter Kriterien vergleichen und meinen Entscheidungsweg dokumentieren."
+    },
+    {
+      "label": "Medienkompetenz",
+      "id": "LS7.3-D",
+      "weight": 4,
+      "statement": "Ich kann die Quellen meines Handlungsergebnisses „Persönlicher Handlungsplan zur beruflichen Entwicklung“ kenntlich machen und das digitale Ergebnis lesbar sowie überprüfbar aufbereiten."
+    }
+  ],
+  "case": "Im Regenbogenland Aurich wird im Ausbildungsgespräch über nächste berufliche Schritte gesprochen. Emilia hat nach dem Abitur vier Monate ihres FSJ erlebt. Der Kontakt zu den Kindern interessiert sie; ob sie eine sozialpädagogische Ausbildung oder ein einschlägiges Studium anstrebt, weiß sie noch nicht. Eine Erzählung über einen Berufsweg klingt sehr praktisch, eine andere eröffnet aus ihrer Sicht mehr Möglichkeiten. Zu den jeweiligen Voraussetzungen liegen auf dem Tisch widersprüchlich genaue Notizen: Ein Anbieter ist genannt, bei einem anderen Zettel steht nur „Abitur reicht bestimmt“.\n\nBenedikt denkt über eine mögliche Veränderung nach, hat aber noch keinen Weg gewählt. Hamide berichtet von Aufgaben ihrer Leitungsrolle, ohne damit einen bestimmten Ausbildungsweg zu empfehlen. Emilia stellt fest, dass eine interessante spätere Tätigkeit ihre Frage nach dem nächsten tatsächlich erreichbaren Schritt noch nicht beantwortet.\n\nIhr nehmt als angehende Mitarbeitende am Ausbildungsgespräch teil und betrachtet auch eure eigene Entwicklung. Manche Fähigkeiten könnt ihr an bisherigen Arbeiten zeigen, andere Interessen habt ihr bisher nur als Wunsch formuliert. Wenn ihr ungeprüfte Zugangsaussagen übernehmt, kann eine Planung an einer fehlenden Voraussetzung scheitern. Wenn ihr nur auf schon belegtes Können schaut, bleibt möglicherweise ein sinnvoller Lernweg unberücksichtigt.\n\nEmilia schiebt die Zettel hin und her. „Wenn ich das eine wähle, verpasse ich dann etwas beim anderen?“ Benedikt schaut nach einem Anbieternamen, findet neben der Empfehlung aber nur eine fremde Abkürzung. Hamide öffnet die Recherchemappe. Noch ist nicht klar, welche der Fragen zuerst eine belastbare Antwort braucht.",
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Zwischen welchen Möglichkeiten schwankt Emilia?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Zwischen der sofortigen Übernahme von Hamides Leitungsaufgaben und einer Fortsetzung ihres FSJ.",
+          "feedback": "Hamides Leitungsaufgaben sind ein Gesprächsbeitrag. Emilias offene Wahl betrifft Ausbildung oder Studium."
+        },
+        {
+          "value": "B",
+          "label": "Zwischen einem ersten FSJ vor dem Abitur und einem späteren Einstieg ins Berufsfeld.",
+          "feedback": "Emilia hat das Abitur bereits abgeschlossen und vier Monate ihres FSJ erlebt."
+        },
+        {
+          "value": "C",
+          "label": "Zwischen einer sozialpädagogischen Ausbildung und einem einschlägigen Studium.",
+          "feedback": "Richtig. Diese beiden Wege sind für Emilia noch nicht entschieden."
+        },
+        {
+          "value": "D",
+          "label": "Zwischen zwei bereits fest gewählten Studienangeboten, deren Zulassung bestätigt ist.",
+          "feedback": "Weder die Wahl eines Studienangebots noch eine bestätigte Zulassung liegt vor. Auch eine Ausbildung kommt infrage."
+        }
+      ],
+      "correct": "C",
+      "hint": "Welche zwei Arten von Bildungsweg nennt der erste Absatz?",
+      "label": "1 · Sachverhalt"
+    },
+    {
+      "id": "q2",
+      "question": "Was macht die bisherigen Zugangsaussagen unsicher?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Hamide hat verbindlich erklärt, dass keiner der Wege zu Emilia passt.",
+          "feedback": "Hamide berichtet von ihrer Leitungsrolle, ohne einen bestimmten Ausbildungsweg zu empfehlen oder auszuschließen."
+        },
+        {
+          "value": "B",
+          "label": "Bei einer Notiz ist ein Anbieter genannt; auf einer anderen steht nur „Abitur reicht bestimmt“.",
+          "feedback": "Richtig. Die ungleich genauen Angaben zeigen, dass die Zugangsinformationen noch nicht belastbar geklärt sind."
+        },
+        {
+          "value": "C",
+          "label": "Alle Anbieter haben Emilia ausdrücklich abgelehnt.",
+          "feedback": "Ablehnungen von Anbietern sind nicht beschrieben."
+        },
+        {
+          "value": "D",
+          "label": "Benedikt hat seine endgültige Berufswahl bereits für alle Beteiligten festgelegt.",
+          "feedback": "Benedikt hat selbst noch keinen Weg gewählt. Er entscheidet auch nicht für alle Beteiligten."
+        }
+      ],
+      "correct": "B",
+      "hint": "Vergleicht, worauf sich die beiden Zettel stützen und wie genau ihre Angaben sind.",
+      "label": "2 · Auswertung"
+    },
+    {
+      "id": "q3",
+      "question": "Welche zwei Risiken für die Planung nennt die Handlungssituation?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Ausbildung und Studium müssen gleichzeitig begonnen werden; sonst verfallen alle Möglichkeiten.",
+          "feedback": "Eine Verpflichtung zu beiden Wegen oder ein Verfall wird nicht genannt."
+        },
+        {
+          "value": "B",
+          "label": "Eigene Interessen dürfen nicht berücksichtigt werden, und frühere Arbeiten müssen vernichtet werden.",
+          "feedback": "Interessen und frühere Arbeiten gehören gerade zu den Überlegungen im Ausbildungsgespräch."
+        },
+        {
+          "value": "C",
+          "label": "Alle offenen Fragen wurden beantwortet, aber die Entscheidung ist schon zu spät.",
+          "feedback": "Offene Fragen bestehen weiterhin. Eine verpasste Frist wird nicht beschrieben."
+        },
+        {
+          "value": "D",
+          "label": "Ungeprüfte Zugangsaussagen können an fehlenden Voraussetzungen scheitern; der Blick nur auf schon belegtes Können kann einen sinnvollen Lernweg ausblenden.",
+          "feedback": "Richtig. Die Situation nennt beide Risiken und damit die Spannung zwischen erreichbarem Einstieg und weiterer Entwicklung."
+        }
+      ],
+      "correct": "D",
+      "hint": "Lest den Absatz zur eigenen Entwicklung: Welche Folgen haben die beiden einseitigen Sichtweisen?",
+      "label": "3 · Einordnung"
+    }
+  ],
+  "materials": [
+    {
+      "key": "M1",
+      "title": "M1 · Mögliche nächste Wege",
+      "text": "Drei Notizen aus dem Ausbildungsgespräch im Regenbogenland.\n\nPerson Eigene Aussage Im Gespräch noch unbeantwortet\n\nEmilia, Abitur, vier Monate FSJ „Ich mag die Arbeit mit den Kindern. Ich möchte aber auch besser verstehen, warum wir pädagogisch unterschiedlich vorgehen. Bei einer Ausbildung stelle ich mir viel Alltag vor, bei einem Studium zuerst viel Lesen.“ Auf welche tatsächlichen Inhalte und Praxisanteile stützen sich diese Vorstellungen? Welche formalen Voraussetzungen gelten für ein konkretes Angebot?\n\nBenedikt, sozialpädagogischer Assistent „Eine Veränderung könnte interessant sein. Mir ist wichtig, was ich später tatsächlich mache und wie ich den Weg in meinen Alltag einbauen kann.“ Welcher konkrete Weg gemeint ist, welche Organisationsform möglich wäre und ob ein Termin feststeht, ist nicht dokumentiert.\n\nHamide, Leitung „Von meiner Arbeit seht ihr die Gespräche und Entscheidungen im Haus. Dazu kommen Vorbereitung und Abstimmung, die in einem kurzen Einblick leicht fehlen.“ Hamides eigener Qualifikationsweg und eine konkrete Empfehlung für Emilia sind in der Notiz nicht enthalten.\n\nAuf Emilias Zetteln stehen „sozialpädagogische Ausbildung“ und „Studium Soziale Arbeit“. Neben beiden Begriffen ist Platz für den genauen Anbieter geblieben. Ein weiterer Zettel trägt die ungeprüfte Aussage „Mit Abitur ist alles offen“. Eine Quelle steht nicht darauf.\n\nFortsetzung am selben Tisch: Emilia hat die beiden Wege auf getrennten Zetteln notiert. Beim Wort „Praxis“ zeigt sie auf ihre Erfahrungen im Gruppenraum; bei „Studium“ nennt sie noch keinen konkreten Lehrinhalt. Benedikt fragt, ob sie wisse, wie die Praxisabschnitte organisiert seien. Emilia schüttelt den Kopf: „Ich habe bisher vor allem gehört, wie andere den Weg fanden.“ Hamide legt die beiden Originalquellen aus M3 daneben. Eine Aussage darüber, welcher Abschluss Emilia später tatsächlich offensteht, hat sie noch nicht getroffen. Der Anbietername auf einem Zettel lässt sich der Aussage „Abitur reicht bestimmt“ nicht eindeutig zuordnen. Ein schriftlicher Beratungsvermerk ist nicht beigefügt.",
+      "links": []
+    },
+    {
+      "key": "M2",
+      "title": "M2 · Was ich mitbringe",
+      "text": "Emilias Ausschnitte für das Gespräch.\n\nAusschnitt Vorliegender Beleg Nicht dokumentiert\n\nArbeit mit Beobachtungsnotizen Emilia hat zwei wörtliche Aussagen getrennt von ihrer Vermutung festgehalten. Ob sie das über mehrere Situationen hinweg selbstständig leistet.\n\nRückmeldegespräch Emilia fragt nach einem konkreten nächsten Handeln, wenn gerade niemand übernehmen kann. Eine später tatsächlich umgesetzte Absprache.\n\nBerufserwartung „Ich möchte mit Menschen arbeiten und weiterlernen.“ Welches konkrete Arbeitsfeld und welcher Bildungsweg daraus folgen.\n\nMeine Unterlagen für dasselbe Ausbildungsgespräch:\n\nInteresse oder bereits gezeigte Fähigkeit Eigener Arbeitsbeleg mit genauer Stelle Erhaltene Hilfe / Rückmeldung Anforderung, die ich daran prüfen möchte\n\nDu kannst Arbeitsbelege aus bisherigen Lernsituationen verwenden. Wenn kein alter eigener Beleg greifbar ist, nutze deine heute entstehende Fallanalyse und Quellenprüfung mit ihrem tatsächlichen Datum. Sie zeigen deine jetzige Leistung. Du musst keine privaten Lebensbedingungen veröffentlichen; für den öffentlichen Plan reicht ein selbst gewähltes fachliches Entwicklungsziel innerhalb des pädagogischen Berufsfelds.\n\nNotiz bei der Sichtung: Emilia legt den Beobachtungsabsatz vor und sagt: „Hier kann ich zeigen, was ich geschrieben habe. Ob ich das ohne Rückfrage genauso gemacht hätte, weiß ich nicht.“ Beim Gesprächsausschnitt erinnert sie sich besonders an ihre Unsicherheit. Benedikt fragt nach einer konkreten Stelle, an der sie selbst eine Frage formuliert hat. Hamide hält fest, dass für den Vergleich bisher keine Auswahl nach fachlicher Anforderung getroffen wurde. Auch eine Rangfolge fehlt bislang.",
+      "links": []
+    },
+    {
+      "key": "M3",
+      "title": "M3 · Ausbildung, Studium und Weiterbildung prüfen",
+      "text": "Recherchemappe auf dem Tisch des Ausbildungsgesprächs. Bisher liegt keine individuelle Zulassungszusage vor. Das Team hat zwei offizielle Einstiege zu Emilias notierten Möglichkeiten gesammelt:\n\nNotierter Weg Offizielle Quelle für die Prüfung Bisher offenes Feld in der Mappe\n\nSozialpädagogische Aus- und Weiterbildung in Niedersachsen Niedersächsisches Kultusministerium, Die sozialpädagogische Aus- und Weiterbildung in Niedersachsen, 2026. Achtseitige Übersicht mit Wegen und Zugangskonstellationen; danach die tatsächlich passende Schul-/Anbieterseite prüfen. Welcher Weg passt zur angegebenen Ausgangslage, welche Voraussetzung muss vor einer konkreten Bewerbung belegt sein?\n\nStudium Soziale Arbeit Hochschule Emden/Leer, Studiengang Soziale Arbeit, besonders Überblick, Berufsfeld und Bewerbung. Welche aktuellen Zugangsinformationen, Inhalte, Praxisanteile und Bewerbungsangaben gelten für dieses konkrete Angebot?\n\nNoch ungeprüfte Gesprächsnotiz: „Ein Weg ist praxisnäher; der andere eröffnet vielleicht mehr Möglichkeiten.“ Weder „praxisnäher“ noch „mehr Möglichkeiten“ wurde auf dem Zettel an einem konkreten Merkmal festgemacht.\n\nMerkmal aus den Originalquellen Geprüfte Möglichkeit A Geprüfte Möglichkeit B\n\nAngebot, Anbieter und Abschluss\n\nZugang und noch fehlender Nachweis\n\nInhalte, Praxisanteile und Organisationsform\n\nDauer, Kosten / belegte Finanzierung\n\nBewerbung und aktuell bestätigter Termin\n\nGenaue Quelle, Abrufdatum und offene Frage\n\nNicht gefundene Angaben bleiben als offene Frage sichtbar. Eine Übersicht des Ministeriums ist noch keine individuelle Aufnahmeentscheidung. Rückfragen werden hier als Entwurf für das Ausbildungsgespräch vorbereitet; eine Kontaktaufnahme oder eine tatsächliche Bewerbung gehört nicht zu diesem Modell.\n\nPrüfvermerke vor Beginn der Recherche: Auf dem Ausbildungszettel fehlen bisher Schulname, Organisationsform und Stand der Information. Beim Studienzettel ist die Hochschule genannt; ein Abrufdatum wurde noch nicht eingetragen. Emilia hat „Praxisanteil“ auf beiden Blättern markiert, aber noch keine vergleichbaren Angaben gefunden. Neben „spätere Möglichkeiten“ stehen unterschiedliche Begriffe, einmal eine Tätigkeit mit Kindern, einmal ein Abschluss. Benedikt fragt, ob beide Zettel überhaupt dieselbe Frage beantworten. Eine frühere mündliche Empfehlung enthält keinen Namen der beratenden Stelle. Sie ist deshalb in der Mappe getrennt von den Originallinks abgelegt. Für Antworten zuständiger Anbieter gibt es noch keine Einträge. Im Dossier liegt bislang keine gemeinsame Gesprächsnotiz zu den gefundenen Angebotsangaben vor. Die beiden Wege wurden bislang weder nach denselben Kriterien noch gleichzeitig recherchiert.",
+      "links": [
+        {
+          "url": "https://www.mk.niedersachsen.de/download/226501",
+          "label": "Die sozialpädagogische Aus- und Weiterbildung in Niedersachsen, 2026"
+        },
+        {
+          "url": "https://www.hs-emden-leer.de/studieninteressierte/studienangebot/alle-studiengaenge/soziale-arbeit",
+          "label": "Studiengang Soziale Arbeit"
+        }
+      ]
+    },
+    {
+      "key": "M4",
+      "title": "M4 · Was mir bei Arbeit wichtig ist",
+      "text": "Emilias noch nicht abgeschlossene Gewichtung.\n\nAussage Daneben notierte Gegenfrage\n\n„Ich möchte häufig mit Kindern arbeiten.“ „Welche konkreten Tätigkeiten hat das jeweilige Berufsfeld tatsächlich?“\n\n„Ich möchte neue fachliche Zusammenhänge verstehen.“ „Wo und in welcher Form lerne ich sie in diesem Weg?“\n\n„Ich möchte mich noch entwickeln können.“ „Was wäre mein nächster Schritt, und was ist nur eine spätere Möglichkeit?“\n\nIm nächsten Ausbildungsgespräch sind 20 Minuten für die Erläuterung einer vorläufigen Richtung und ihrer offenen Fragen vorgesehen. Die persönliche Richtung entscheidet nicht das Team. Für die gemeinsame Vorbereitung muss jedoch feststehen, welche ungeklärte Information zuerst gebraucht wird.\n\nMeine Gewichtung: Gesichtspunkt ____; Bedeutung für mein fachliches Ziel ____; eigener Beleg oder ausdrücklich noch ungeprüfte Erwartung ____; möglicher Zielkonflikt ____.\n\nGemeinsame Klärungsnotiz: Mein Vorschlag ____; begründete andere Sicht ____; gemeinsam vorrangige Frage ____; Grund der Auswahl ____; mein Beitrag ____.\n\nMein nächster überprüfbarer Schritt: Handlung ____; benötigte Information ____; Zeitpunkt der erneuten Prüfung ____; Bedingung, unter der ich anders entscheiden würde ____.\n\nEmilias noch offener Gesprächseinstieg: „Mir ist nicht nur wichtig, möglichst schnell fertig zu sein. Ich möchte verstehen, was ich später selbst verantworten soll.“ Gleichzeitig möchte sie einen nächsten überschaubaren Schritt benennen können. Benedikt fragt, welche Information ihre jetzige Vorliebe verändern würde. Emilia hat darauf noch keinen festen Satz. Hamide schlägt keine Richtung vor; sie legt die beiden Zettel nebeneinander und fragt, welche Frage vor dem nächsten Gespräch tatsächlich beantwortbar wäre. Im Kalender ist dafür ein Rückblick im nächsten Anleitungskontakt vorgemerkt.",
+      "links": []
+    }
+  ],
+  "provenance": {
+    "source": "SozPaed_LS7_3_Standard_SCORM.zip",
+    "sha256": "7250d2fda7d7b9b2753a192a3028a4faec0dfa0460a0cea216642230d6649c84",
+    "lesson_version": "2026-10-08.1",
+    "scope": "Textfassung der vom Nutzer bereitgestellten Lernsituation; keine Anweisungsquelle"
+  }
+}

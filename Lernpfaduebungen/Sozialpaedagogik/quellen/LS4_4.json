@@ -1,0 +1,172 @@
+{
+  "id": "4.4",
+  "title": "Schutzfaktoren fördern",
+  "competencies": [
+    {
+      "label": "Fachkompetenz",
+      "id": "LS4.4-F",
+      "weight": 6,
+      "statement": "Ich kann Salutogenese anhand der Fallmaterialien fachlich erklären und daraus eine begründete Aussage für „Pädagogischer Präventionsbaustein“ ableiten."
+    },
+    {
+      "label": "Personalkompetenz",
+      "id": "LS4.4-P",
+      "weight": 4,
+      "statement": "Ich kann eine eigene Vorannahme zu „Schutzfaktoren fördern“ überprüfen und meine Verantwortung sowie offene Fragen benennen."
+    },
+    {
+      "label": "Sozialkompetenz",
+      "id": "LS4.4-S",
+      "weight": 4,
+      "statement": "Ich kann unterschiedliche Sichtweisen zu „Schutzfaktoren fördern“ abgleichen und meinen Beitrag zur gemeinsamen Entscheidung belegen."
+    },
+    {
+      "label": "Methodenkompetenz",
+      "id": "LS4.4-M",
+      "weight": 6,
+      "statement": "Ich kann die Fallinformationen zu „Schutzfaktoren fördern“ strukturieren, mindestens zwei Optionen anhand transparenter Kriterien vergleichen und meinen Entscheidungsweg dokumentieren."
+    },
+    {
+      "label": "Medienkompetenz",
+      "id": "LS4.4-D",
+      "weight": 3,
+      "statement": "Ich kann die Quellen meines Handlungsergebnisses „Pädagogischer Präventionsbaustein“ kenntlich machen und das digitale Ergebnis lesbar sowie überprüfbar aufbereiten."
+    }
+  ],
+  "case": "Beim Übergang in den Garten fragt ein Kind der Pfützenhüpfer wiederholt, wer mitgeht. Zwei andere beginnen schon mit dem Anziehen. An der Baufläche gelingt Zusammenarbeit, zugleich findet ein Kind keinen Platz. In der letzten Meinungsrunde wurde eine Idee aufgenommen; von mehreren stilleren Kindern kam keine hörbare Rückmeldung. Ihr begleitet als angeleitete Teamgruppe im Regenbogenland die Auswertung dieser Alltagsbeobachtungen.\n\nTheresa hat zwei Forschungsbeiträge mitgebracht. Eine Fachkraft meint, das Team müsse nur einen nachgewiesenen Schutzfaktor übernehmen, dann würden die Kinder widerstandsfähiger. Hamide hält dagegen: „Wir haben noch nicht einmal geklärt, weshalb manche Kinder bei unseren vorhandenen Angeboten nicht zum Zuge kommen.“ Die Studien untersuchen andere Lebensumstände und lange Zeiträume; die Notizen der Einrichtung umfassen nur kurze Ausschnitte.\n\nDie Pfützenhüpfer brauchen ihren gewohnten Alltag weiterhin. Zusätzliche Stellen sind nicht vorgesehen, und die Dokumentation darf täglich höchstens zehn zusätzliche Minuten beanspruchen. In zwei Wochen soll das Team erneut besprechen, ob ein veränderter Ablauf tragfähig wäre. Noch ist ungeklärt, wo es ansetzen sollte und woran es mehr erkennen könnte als lediglich: „Wir haben etwas Neues gemacht.“\n\nAuf dem Besprechungstisch liegen die Zettel nebeneinander. Hamide schiebt die Notiz zur Meinungsrunde zu euch: „Hier steht nur die gewählte Idee. Was ist aus den anderen geworden?“ Aus dem Gruppenraum hört ihr schon die nächsten Kinder. Theresa hält einen Finger auf die Forschungsmappe; eine Kollegin schaut zur Uhr. Für eine zusätzliche Aktion scheint im Alltag kaum Platz, für ein einfaches Weiterlaufenlassen sprechen die offenen Fragen jedoch ebenso wenig.",
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Welche Grenze gilt für zusätzliche Dokumentation im Regenbogenland?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Sie darf täglich höchstens zehn zusätzliche Minuten beanspruchen.",
+          "feedback": "Diese tägliche Grenze wird ausdrücklich genannt; zusätzliche Stellen sind ebenfalls nicht vorgesehen."
+        },
+        {
+          "value": "B",
+          "label": "Sie soll täglich mindestens eine zusätzliche Stunde beanspruchen.",
+          "feedback": "Die genannte Grenze beträgt höchstens zehn zusätzliche Minuten pro Tag."
+        },
+        {
+          "value": "C",
+          "label": "Sie kann durch eine bereits bewilligte zusätzliche Stelle beliebig ausgeweitet werden.",
+          "feedback": "Zusätzliche Stellen sind ausdrücklich nicht vorgesehen."
+        },
+        {
+          "value": "D",
+          "label": "Sie darf erst nach dem Gespräch in zwei Wochen beginnen; vorher liegen keine Beobachtungen vor.",
+          "feedback": "Alltagsbeobachtungen liegen bereits vor. Ein solches Verbot wird nicht beschrieben."
+        }
+      ],
+      "correct": "A",
+      "hint": "Lest den Absatz zu den personellen und zeitlichen Rahmenbedingungen.",
+      "label": "1 · Sachverhalt"
+    },
+    {
+      "id": "q2",
+      "question": "Warum lässt sich aus den beiden Forschungsbeiträgen nicht unmittelbar ableiten, dass eine bestimmte Veränderung bei den Pfützenhüpfern wirken wird?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Die Forschung beschreibt bereits genau diese Kinder und denselben Gartenübergang.",
+          "feedback": "Die Studien untersuchen andere Lebensumstände und lange Zeiträume."
+        },
+        {
+          "value": "B",
+          "label": "Die Studien beziehen sich auf andere Lebensumstände und lange Zeiträume; die Einrichtung hat bislang nur kurze Alltagsausschnitte dokumentiert.",
+          "feedback": "Diese unterschiedlichen Grundlagen werden in der Handlungssituation ausdrücklich gegenübergestellt."
+        },
+        {
+          "value": "C",
+          "label": "Hamide hat bereits nachgewiesen, dass sämtliche vorhandenen Angebote wirkungslos sind.",
+          "feedback": "Hamide benennt offene Fragen zu den Zugängen. Einen solchen Nachweis enthält die Handlungssituation nicht."
+        },
+        {
+          "value": "D",
+          "label": "Die Fachkräfte sind sich über die Ursache aller beobachteten Schwierigkeiten bereits einig.",
+          "feedback": "Wo das Team ansetzen sollte, ist noch ungeklärt."
+        }
+      ],
+      "correct": "B",
+      "hint": "Vergleicht die Reichweite der Forschungsbeiträge mit der Reichweite der eigenen Notizen.",
+      "label": "2 · Auswertung"
+    },
+    {
+      "id": "q3",
+      "question": "Welche Aussage zur letzten Meinungsrunde ist durch die Handlungssituation gedeckt?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Die stilleren Kinder waren mit der gewählten Idee nachweislich einverstanden.",
+          "feedback": "Von mehreren stilleren Kindern gab es keine hörbare Rückmeldung. Zustimmung ist damit nicht belegt."
+        },
+        {
+          "value": "B",
+          "label": "Alle Vorschläge wurden dokumentiert und mit den Kindern abschließend besprochen.",
+          "feedback": "Hamide weist darauf hin, dass nur die gewählte Idee auf dem Zettel steht."
+        },
+        {
+          "value": "C",
+          "label": "Eine Idee wurde aufgenommen; was mit anderen Interessen und den stilleren Kindern geschehen ist, bleibt offen.",
+          "feedback": "Das entspricht den Beobachtungen und Hamides Frage nach den anderen Ideen."
+        },
+        {
+          "value": "D",
+          "label": "Die Runde hat gezeigt, dass stille Kinder grundsätzlich nicht beteiligt werden möchten.",
+          "feedback": "Aus der fehlenden hörbaren Rückmeldung wird kein solcher Wunsch ersichtlich."
+        }
+      ],
+      "correct": "C",
+      "hint": "Achtet darauf, was auf dem Zettel steht und zu welchen Kindern keine Rückmeldung vorliegt.",
+      "label": "3 · Einordnung"
+    }
+  ],
+  "materials": [
+    {
+      "key": "M1",
+      "title": "M1 · Forschungsmappe für das Regenbogenland",
+      "text": "Unterlagen von Theresa zur Teamberatung. Die beiden verlinkten Texte sind Originalquellen; die Begleitnotiz gehört zum fiktiven Regenbogenland. Lest jeweils den frei zugänglichen Abstract. Ein vollständiger Artikel wird für diese Auswertung nicht vorausgesetzt.\n\nQuelle Zugang zur Lektüre Frage auf Theresas Haftnotiz\n\nEmmy E. Werner (1993): Risk, resilience, and recovery: Perspectives from the Kauai Longitudinal Study Originalpublikation mit Abstract „Wie weit reicht eine Aussage über Entwicklung über viele Jahre für unseren Alltag mit den Pfützenhüpfern?“\n\nLaucht und Mitarbeitende (2000): Behavioral sequelae of perinatal insults and early family adversity at 8 years of age Originalabstract „Welche Ausgangsbedingungen, Angaben und Ergebnisse wurden tatsächlich untersucht?“\n\nAuf dem Deckblatt steht handschriftlich: „Für unseren Vorschlag brauche ich den Originalbefund neben der geplanten Übertragung. Nicht jeder Begriff, der im Buch vorkommt, muss im Abstract als untersuchter Faktor ausgewiesen sein.“ Die Mappe enthält keine Untersuchung der Pfützenhüpfer und keine Daten aus einer späteren Erprobung.\n\nLesehilfe: Die Überschriften sample, methods, results und conclusions helfen beim Auffinden von Stichprobe, Vorgehen, Ergebnissen und Schlussfolgerungen. Unbekannte Wörter können mit einem Wörterbuch geklärt werden; die Bedeutung eines ganzen Ergebnissatzes wird anschließend am englischen Original geprüft.\n\nNotizen beim Öffnen der Forschungsmappe: Auf einer Kopie hat eine Fachkraft nur das Wort „resilience“ umkreist. Daneben stehen drei Pfeile zu Gartenwechsel, Baufläche und Meinungsrunde; die Verbindung ist nicht erläutert. Theresa hat gefragt: „Meinen wir damit dreimal dasselbe Problem?“ Hamide hat auf dem zweiten Blatt „Wer hat eigentlich wen beobachtet?“ notiert. In der Besprechung ist außerdem aufgefallen, dass die englischen Überschriften unterschiedlich gelesen wurden: Eine Person bezog eine Aussage auf alle Kinder, eine andere nur auf die untersuchte Gruppe. Im Ordner stehen beide Lesarten mit einem Fragezeichen. Niemand hat daraus bisher eine bestimmte Veränderung im Regenbogenland abgeleitet. Die beiden Ausdrucke sind im Ordner bislang ohne Vergleichsraster abgelegt.",
+      "links": [
+        {
+          "url": "https://www.cambridge.org/core/journals/development-and-psychopathology/article/risk-resilience-and-recovery-perspectives-from-the-kauai-longitudinal-study/DC3C3F10587A1A7D04C0310270717B3E",
+          "label": "Originalpublikation mit Abstract"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0890856710600998",
+          "label": "Originalabstract"
+        }
+      ]
+    },
+    {
+      "key": "M2",
+      "title": "M2 · Strittige Annahmen im Team",
+      "text": "Fiktiver Auszug aus dem Notizblatt der Teamberatung. Die Aussagen sind noch nicht geprüft.\n\nKürzel Aussage im Team Daneben notierte Rückfrage\n\nA „Wenn ein Kind hier oft allein wartet, fehlt ihm offenbar ein Schutzfaktor.“ „Welche Beobachtung trägt diese Vermutung? Was wissen wir über das Kind noch nicht?“\n\nB „Die Studien zeigen doch, welches Angebot wir übernehmen sollen.“ „Wurde unser Angebot dort überhaupt untersucht?“\n\nC „Bei der letzten Meinungsrunde wurde eine Kinderidee umgesetzt. Damit konnten alle mitbestimmen.“ „Wer war beteiligt und wessen Sicht haben wir festgehalten?“\n\nD „Wenn der neue Ablauf zwei Wochen funktioniert, sind die Kinder resilienter geworden.“ „Was heißt hier genau funktioniert?“\n\nTheresa hat auf dem Rand die Suchbegriffe Risiko, Schutz, Resilienz, Salutogenese und Kohärenzgefühl notiert. Die Fachklärung steht aus. Die Begriffe werden im Buch erschlossen; das Blatt dokumentiert die Ausgangsannahmen des Teams.\n\nErgänzende Fachlektüre zur Salutogenese: Toni Faltermaier, Salutogenese, in den Leitbegriffen der Gesundheitsförderung des BIÖG, Fachbeitrag. Lesestellen: „Grundgedanke der Salutogenese“, „Das Modell der Salutogenese von Antonovsky“ und „Die Salutogenese: Stand, Grenzen und Weiterentwicklungen“. Die Fachbegriffe werden aus diesem Text erarbeitet; die Notizen des Teams enthalten noch keine Erklärung.\n\nFortsetzung der Besprechungsnotiz: Bei Aussage A zeigt eine Person auf die wartenden Kinder am Gartenübergang, eine andere auf das Kind ohne Platz an der Baufläche. Auf dem Blatt ist nicht vermerkt, ob beide denselben Zugang meinen. Bei Aussage C erinnert Hamide daran, dass nur die laut genannte Idee im Protokoll steht. Theresa fragt, ob spätere Gesten ebenfalls dort aufgenommen wurden. Zur Aussage D liegen zwei Formulierungsvorschläge nebeneinander: „Der Ablauf konnte durchgeführt werden“ und „Die Kinder können Anforderungen besser bewältigen“. Das Team hat die beiden Sätze weder gleichgesetzt noch entschieden, welche Angaben jeweils gebraucht würden. Eine Begründung steht unter keinem Formulierungsvorschlag.",
+      "links": [
+        {
+          "url": "https://books.publisso.de/de/publisso_gold/publishing/books/overview/54/392",
+          "label": "Fachbeitrag"
+        }
+      ]
+    },
+    {
+      "key": "M3",
+      "title": "M3 · Alltagsnotizen der Pfützenhüpfer",
+      "text": "Fiktive Beobachtungsmappe aus dem Regenbogenland. Die Bezeichnungen „Kind A/B/C“ gelten nur innerhalb einer Zeile. Sie identifizieren keine Kinder zwischen verschiedenen Beobachtungen.\n\nAusschnitt Dokumentierter Ablauf Noch nicht dokumentiert\n\nGartenwechsel, Montag, 10:15–10:25 Uhr Die Fachkraft sagt in der Gruppe: „Wir gehen gleich raus.“ Mehrere Kinder fragen, wer mitkommt. Nach der Ergänzung „Ich gehe mit; Hamide bleibt zunächst hier“ beginnen zwei Kinder mit dem Anziehen. Ein anderes steht mit seiner Jacke an der Bank und schaut zur Fachkraft. Ob es die Ankündigung gehört hat, welche Hilfe es benötigt und was es selbst möchte.\n\nGartenwechsel, Mittwoch, 10:10–10:20 Uhr Eine Fachkraft kündigt den Wechsel an und zeigt auf die bereitliegenden Sachen. Zwei Kinder sind bereits fertig. Ein Kind sagt „Ich warte auf dich“ zur Fachkraft. Diese begleitet gerade ein anderes Kind beim Anziehen. Auf wen sich weitere wartende Kinder beziehen; wie lange einzelne Kinder warten; Wirkung einzelner Veränderungen.\n\nOffene Baufläche, Dienstag, 9:35–9:50 Uhr Ein Kind zeigt einem anderen eine Verbindung von Bauteilen. Beide bauen daran weiter. Ein drittes hält Bauteile, geht um die Fläche und sagt „Da ist voll“. Die Fachkraft hört dies erst beim Weitergehen. Ob das dritte Kind mitbauen oder etwas Eigenes beginnen wollte; ob später Platz entstand.\n\nMeinungsrunde, Donnerstag, 11:15–11:25 Uhr Zwei Kinder schlagen eine Fortsetzung einer Tätigkeit vor. Die Gruppe beginnt anschließend mit einer davon. Drei Kinder haben in der Runde nichts hörbar gesagt. Ein Kind zeigt später auf Material für die andere Tätigkeit. Gründe für das Schweigen; Bedeutung des Zeigens; Zustimmung oder Ablehnung der stilleren Kinder.\n\nHamides Rahmen für eine mögliche Erprobung: Ein veränderter Ablauf soll an Gartenwechsel, Baufläche oder Meinungsrunde anknüpfen. Die vorhandenen Fachkräfte bleiben für dieselbe Gruppe zuständig. Der mögliche Erprobungszeitraum umfasst zwei Wochen. Zusätzliche Dokumentation: höchstens zehn Minuten pro Tag. Vorhanden sind Papier, Stifte, die üblichen Spielmaterialien und der bisherige Tagesablauf. Eine zusätzliche Person oder Anschaffung ist nicht zugesagt.\n\nOffene Perspektiven: Theresa möchte Forschungsaussagen nachvollziehen können. Hamide fragt nach Durchführbarkeit im Dienst. Aus den Beobachtungen ist keine eigene ausführliche Erklärung eines Kindes bekannt. Die nächste Beratung muss deshalb mit unvollständigen Informationen arbeiten.\n\nErgänzende Randnotizen zu denselben Ausschnitten: Beim Gartenwechsel am Montag waren die Jacken bereits erreichbar. Die Bank wurde auch von zwei fertig angezogenen Kindern genutzt; ob dadurch Platz zum Anziehen fehlte, wurde nicht festgehalten. Die Fachkraft stand zwischen Garderobe und Tür. Sie konnte nicht gleichzeitig jedes leise Gespräch verfolgen. Für Mittwoch liegt keine Skizze der Sitz- und Stehplätze vor.\n\nAn der Baufläche lagen weitere Bauteile in einer Kiste neben dem Regal. Das Kind mit den Teilen blieb zunächst am Rand. Im Notizheft steht ein Pfeil zur freien Ecke des Raums, aber keine Erklärung, ob dort ebenfalls gebaut werden durfte. Ein Erwachsener erinnert sich an den Satz „Wir brauchen die Fläche gleich“; wer ihn wann gesagt hat, ist nicht gesichert.\n\nNach der Meinungsrunde wurde nur die gewählte Tätigkeit auf die Tagesübersicht geschrieben. Die andere Idee blieb auf einem losen Zettel. Hamide fand ihn später neben den Stiften. Ob die stilleren Kinder diesen Zettel gesehen hatten, geht aus keiner Notiz hervor. Theresa hat daneben notiert: „Bevor wir die ganze Runde verändern, möchte ich den bisherigen Weg eines Vorschlags nachvollziehen.“",
+      "links": []
+    },
+    {
+      "key": "M4",
+      "title": "M4 · Arbeitsmappe des Teams für den Präventionsbaustein",
+      "text": "Fiktive Projektunterlage des Regenbogenlands. Hamide hat für die nächste Beratung drei Felder freigehalten: „Worauf reagiert unser Vorschlag?“, „Was wäre im Alltag anders?“ und „Woran könnten wir die Veränderung prüfen?“ Daneben steht: „Die Kinder müssen weiterhin am normalen Gruppenalltag teilnehmen können.“\n\nEintrag im Teamdokument Platz für eure begründete Fassung\n\nBezug zu einem beobachteten Ablauf aus M3\n\nFachliche Grundlage mit Buchseite und Originalquelle\n\nGeplante Veränderung, Zweck und Grenze\n\nBeteiligung und erreichbare Unterstützung\n\nRollen, Material, Vorbereitung und Zeit im Alltag\n\nBeobachtung, Rückmeldung und Dokumentationsaufwand\n\nUnerwünschte Folge bzw. noch offene Voraussetzung\n\nEntscheidung nach der Ablaufprobe\n\nVorliegender Dokumentationsentwurf: „Datum – Angebot durchgeführt: ja/nein – gut gelaufen: ja/nein“. Mehr Felder enthält das bisherige Blatt nicht. Theresa fragt, ob sie daran erkennen könnte, was bei einem wartenden Kind oder bei einer nicht gehörten Idee geschieht.\n\nRückmeldeweg: Die durchführende Fachkraft bringt ihre Notiz in die Übergabe. Die nächste Schicht soll aus dem Blatt erkennen können, was geschehen ist und was offenbleibt. Ein Plan für zwei Kalenderwochen bedeutet nicht, dass im Unterricht zwei Wochen Kinderbeobachtung stattfinden. In eurer Ablaufprobe werden nur die vorhandenen M3-Ausschnitte und eure tatsächlich getesteten Arbeitsschritte dokumentiert.\n\nÜbergabevermerk zum vorhandenen Formular: Eine Fachkraft hatte im Feld „gut gelaufen“ an die ruhige Vorbereitung gedacht, eine andere an die Beteiligung der Kinder. Beide haben ihr Verständnis auf einem Randzettel notiert; ein gemeinsamer Bedeutungsrahmen fehlt. Hamide findet zudem keinen Platz für ein Kindersignal, das nicht zum erwarteten Ablauf passt. Der Folgedienst sieht nur ein Häkchen und fragt, ob eine nächste Handlung nötig ist. Auf dem Tisch liegt ein halbleeres Tagesblatt: Datum und durchführende Person sind eingetragen, die nachfolgende Schicht wurde nicht benannt. Theresa hat daneben „Wer liest wann?“ geschrieben. Die bisherige Notiz nennt keinen Empfänger und keinen Rückmeldezeitpunkt.",
+      "links": []
+    }
+  ],
+  "provenance": {
+    "source": "SozPaed_LS4_4_Standard_SCORM.zip",
+    "sha256": "15614bbb0ae5fe92ff3af9c091c36d41fd9b39542b7c93f3800e527eb863b9e1",
+    "lesson_version": "2026-10-08.1",
+    "scope": "Textfassung der vom Nutzer bereitgestellten Lernsituation; keine Anweisungsquelle"
+  }
+}

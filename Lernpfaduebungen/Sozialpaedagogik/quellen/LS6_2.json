@@ -1,0 +1,158 @@
+{
+  "id": "6.2",
+  "title": "Barrieren abbauen",
+  "competencies": [
+    {
+      "label": "Fachkompetenz",
+      "id": "LS6.2-F",
+      "weight": 6,
+      "statement": "Ich kann Behinderung anhand der Fallmaterialien fachlich erklären und daraus eine begründete Aussage für „Einrichtungs- bzw. Raumkonzept zur Teilhabe“ ableiten."
+    },
+    {
+      "label": "Personalkompetenz",
+      "id": "LS6.2-P",
+      "weight": 5,
+      "statement": "Ich kann eine eigene Vorannahme zu „Barrieren abbauen“ überprüfen und meine Verantwortung sowie offene Fragen benennen."
+    },
+    {
+      "label": "Sozialkompetenz",
+      "id": "LS6.2-S",
+      "weight": 5,
+      "statement": "Ich kann unterschiedliche Sichtweisen zu „Barrieren abbauen“ abgleichen und meinen Beitrag zur gemeinsamen Entscheidung belegen."
+    },
+    {
+      "label": "Methodenkompetenz",
+      "id": "LS6.2-M",
+      "weight": 6,
+      "statement": "Ich kann die Fallinformationen zu „Barrieren abbauen“ strukturieren, mindestens zwei Optionen anhand transparenter Kriterien vergleichen und meinen Entscheidungsweg dokumentieren."
+    },
+    {
+      "label": "Medienkompetenz",
+      "id": "LS6.2-D",
+      "weight": 3,
+      "statement": "Ich kann die Quellen meines Handlungsergebnisses „Einrichtungs- bzw. Raumkonzept zur Teilhabe“ kenntlich machen und das digitale Ergebnis lesbar sowie überprüfbar aufbereiten."
+    }
+  ],
+  "case": "Ihr arbeitet im pädagogischen Team der Pfützenhüpfer im Regenbogenland Aurich. Die Bauwerkstatt war für alle Kinder angekündigt. Während zwei Kinder sofort Material holten, blieb ein anderes am Eingang stehen. Ein weiteres stellte eine Kiste zurück und sah zu. Kurz vor dem Aufräumen kam noch ein Kind an den Tisch.\n\nIn der Nachbesprechung bewertet Benedikt den Ablauf als gelungen: Wer bauen wollte, habe schließlich mitmachen können. Emilia erinnert an die verspätete Frage nach dem Ort. Theresa fällt auf, dass die Anwesenheitsnotiz nicht erklärt, wie die Kinder den Einstieg erlebt haben. Emilia dreht die kleine Bildkarte um, die nach dem Aufräumen unter einer Unterlage lag. „Vom Eingang aus konnte man die gar nicht erkennen.“ Benedikt deutet auf die Bauecke: „Und das Spiel dort wollten wir doch nicht stören.“ Auf der Skizze überlagern sich inzwischen mehrere Vorschläge. Das Angebot soll wieder stattfinden, gleichzeitig bleiben Tisch, Gruppenraum und Betreuung auch für andere Tätigkeiten nötig. Das Team hat weder genaue Raummaße noch einen verlässlichen Überblick über die Gründe des Zuschauens. Ein Umräumen könnte helfen, aber auch neue Schwierigkeiten schaffen. Vor dem nächsten Termin fehlt eine gemeinsame Einschätzung, was am Zugang überhaupt verändert werden müsste.",
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Welche Beobachtung wird zum Einstieg in die Bauwerkstatt beschrieben?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Alle Kinder holten sofort Material und begannen gemeinsam.",
+          "feedback": "Nur zwei Kinder holten sofort Material. Andere blieben stehen, schauten zu oder kamen später."
+        },
+        {
+          "value": "B",
+          "label": "Die Bauwerkstatt war nur für zwei ausgewählte Kinder angekündigt.",
+          "feedback": "Das Angebot war ausdrücklich für alle Kinder angekündigt."
+        },
+        {
+          "value": "C",
+          "label": "Ein Kind erklärte dem Team, dass die Kiste zu schwer sei.",
+          "feedback": "Eine Kiste wurde zurückgestellt; eine Erklärung des Kindes zur Ursache wird in der Handlungssituation nicht genannt."
+        },
+        {
+          "value": "D",
+          "label": "Ein Kind blieb am Eingang stehen, während zwei andere sofort Material holten.",
+          "feedback": "Richtig. Diese unterschiedlichen Einstiege werden am Anfang der Handlungssituation gegenübergestellt."
+        }
+      ],
+      "correct": "D",
+      "hint": "Vergleicht die beschriebenen Handlungen der Kinder, ohne ihnen einen Grund zuzuschreiben.",
+      "label": "1 · Sachverhalt"
+    },
+    {
+      "id": "q2",
+      "question": "Weshalb reicht die Anwesenheitsnotiz Theresa für die Einschätzung des Ablaufs nicht aus?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Sie erklärt nicht, wie die Kinder den Einstieg erlebt haben.",
+          "feedback": "Richtig. Theresa weist ausdrücklich auf diese offene Frage hin."
+        },
+        {
+          "value": "B",
+          "label": "Sie enthält die Erklärung aller Kinder, aber keine Bewertung des Teams.",
+          "feedback": "Erklärungen aller Kinder liegen nicht vor. Theresa fragt danach, wie die Kinder den Einstieg erlebt haben."
+        },
+        {
+          "value": "C",
+          "label": "Sie zeigt, dass nur die sofort beginnenden Kinder überhaupt als Teilnehmende zählen können.",
+          "feedback": "Die Handlungssituation legt eine solche Zählregel nicht fest. Theresa fragt nach dem erlebten Einstieg."
+        },
+        {
+          "value": "D",
+          "label": "Sie belegt bereits die Gründe des Zuschauens, lässt aber die nächste Raumaufteilung offen.",
+          "feedback": "Die Gründe des Zuschauens sind noch nicht verlässlich bekannt. Genau diese Informationslücke bleibt bestehen."
+        }
+      ],
+      "correct": "A",
+      "hint": "Welche Information über die Kinder fehlt trotz der erfassten Anwesenheit?",
+      "label": "2 · Auswertung"
+    },
+    {
+      "id": "q3",
+      "question": "Unter welchen Bedingungen muss das Team über Veränderungen nachdenken?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Der Gruppenraum ist künftig ausschließlich für die Bauwerkstatt reserviert.",
+          "feedback": "Raum, Tisch und Betreuung bleiben auch für andere Tätigkeiten nötig."
+        },
+        {
+          "value": "B",
+          "label": "Genaue Raummaße und alle Gründe des Zuschauens sind bereits bekannt.",
+          "feedback": "Beides fehlt dem Team noch. Die Handlungssituation betont diese Unsicherheit."
+        },
+        {
+          "value": "C",
+          "label": "Das Angebot soll wieder stattfinden; gleichzeitig fehlen wichtige Informationen und andere Tätigkeiten brauchen weiterhin Platz und Betreuung.",
+          "feedback": "Richtig. Diese Bedingungen begrenzen und erschweren die gemeinsame Einschätzung."
+        },
+        {
+          "value": "D",
+          "label": "Die Bauwerkstatt wird abgeschafft, bevor das Team erneut darüber spricht.",
+          "feedback": "Das Angebot soll wieder stattfinden. Eine Abschaffung ist nicht beschlossen."
+        }
+      ],
+      "correct": "C",
+      "hint": "Lest nach, was beim nächsten Termin weiterhin gebraucht wird und was das Team noch nicht weiß.",
+      "label": "3 · Einordnung"
+    }
+  ],
+  "materials": [
+    {
+      "key": "M1",
+      "title": "M1 · Ein Angebot im Regenbogenland Aurich",
+      "text": "Angebotsdossier der Pfützenhüpfer – fiktives Unterrichtsmodell. Alle nachfolgenden Beobachtungen beziehen sich auf dieselbe Bauwerkstatt am Dienstag von 9:15 bis 9:45 Uhr.\n\nAushang am Gruppeneingang: „Bauwerkstatt am Gestaltungstisch, Dienstag 9:15–9:45 Uhr. Materialien stehen im Regal. Wer mitmachen möchte, kommt zum Tisch. Wir räumen gemeinsam auf.“ Am Gestaltungstisch liegt außerdem eine kleine Bildkarte mit Bausteinen. Am Eingang hängt keine Bildkarte.\n\nRaumfolge: Der Weg vom Gruppeneingang führt an der Bauecke vorbei zum Gestaltungstisch. Am Tisch sind vier Arbeitsplätze vorbereitet. Weitere Stühle stehen an der Wand. Neben dem Tisch befindet sich das Materialregal; zwei Kisten stehen dort übereinander. Das Gewicht der Kisten und die Breite des Wegs sind nicht erfasst. Die Bauecke wird während des Angebots weiter genutzt.\n\nZeit Beobachtungsnotiz\n\n9:15 Zwei Kinder gehen zum Regal, nehmen Material aus der oberen Kiste und beginnen am Tisch.\n\n9:18 Ein Kind bleibt am Gruppeneingang stehen, schaut in den Raum und geht dann zur Bauecke. Eine Ansprache ist nicht notiert.\n\n9:23 Ein Kind zieht die untere Kiste ein Stück heraus, hält an, schiebt sie zurück und sieht am Tisch zu. Ein anderer Gegenstand liegt auf dem Deckel.\n\n9:29 Das Kind vom Eingang fragt Emilia: „Wo ist das mit dem Bauen?“ Emilia zeigt auf den Tisch.\n\n9:38 Ein Kind kommt zum Tisch. Auf einem freien Stuhl liegt bereits fertiges Material. Es bleibt dahinter stehen.\n\n9:40 Benedikt kündigt das Aufräumen an. Ein Kind sagt: „Ich wollte gerade anfangen.“\n\nDie Notizen enthalten keine Angaben zu individuellen Beeinträchtigungen und keine Befragung aller Kinder. Die Beobachtenden konnten nicht alle Vorgänge gleichzeitig verfolgen.\n\nNachtrag zur räumlichen Situation: An der Bauecke lagen während des Angebots Steine auf der vorgesehenen Spielfläche. Ob zeitweise auch der Weg zum Tisch belegt war, ist nicht durchgehend dokumentiert. Die vorbereiteten Arbeitsplätze waren anfangs mit kleinen Unterlagen markiert. Beim Ablegen der fertigen Bauwerke wurde eine dieser Unterlagen mitbenutzt; ein Schild für freie Plätze gab es nicht.\n\nEmilia erinnert sich an eine eigene Handlung: Sie zeigte dem fragenden Kind den Tisch, blieb danach aber nicht daneben stehen, weil sie im Gruppenraum angesprochen wurde. In ihrer Notiz steht keine Reaktion des Kindes auf den Hinweis. Benedikt vermerkte die Ankündigung des Aufräumens, nicht aber, welche Kinder sie sofort hörten. Die Kiste blieb bis zum Beginn des Aufräumens am selben Regalplatz. Eine schriftliche Vereinbarung über den spätesten Einstieg existierte nicht. Die Ansage wurde nicht wiederholt.",
+      "links": []
+    },
+    {
+      "key": "M2",
+      "title": "M2 · Walle und Bremen im Vergleich",
+      "text": "Zwei Vergleichsblätter, die Theresa zur Auricher Besprechung mitgebracht hat. Es handelt sich um fiktive Einrichtungsausschnitte, nicht um Ergebnisse einer Prüfung eures Konzepts.\n\nRegenbogenland Walle: Das Außengelände ist naturnah; Wege zwischen Treffpunkt und einzelnen Angebotsorten sind länger. Materialien werden für ein Erkundungsangebot gemeinsam mitgenommen. Die Ankündigung nennt den Treffpunkt, der tatsächliche Arbeitsort kann wetterbedingt wechseln. Genaue Entfernungen und Untergründe sind nicht dokumentiert. Ein Vorschlag für Walle müsste daher andere Wegebedingungen berücksichtigen als eine Anordnung am Auricher Gestaltungstisch.\n\nRegenbogenland Bremen: Der Innenraum ist knapper. Der für Angebote benutzte Bereich wird zu anderen Zeiten für weitere Gruppenaktivitäten benötigt. Material wird außerhalb des Angebots weggeräumt. Im städtischen Umfeld bestehen weitere Angebote, zu deren Fahrtwegen, Kosten und Nutzungsbedingungen dieser Auszug keine Angaben enthält.\n\nBeigefügte Rückfrage aus der Auricher Redaktion: „Welche Prüffrage könnten wir an allen drei Orten stellen? Welche konkrete Entscheidung müssen wir dagegen für unseren Raum treffen?“ Es liegt keine gemeinsame Raumskizze der drei Einrichtungen vor.\n\nBegleitvermerke der Vergleichsblätter: Aus Walle ist notiert, dass die vorbereitete Materialtasche am Treffpunkt stand; wo sie bei einem Ortswechsel abgelegt würde, blieb unbeschrieben. Auf dem Bremer Blatt sind zwei unterschiedliche Nutzungen desselben Bereichs eingetragen, jedoch keine Übergangszeit für das Umräumen. Die Auricher Besprechung hat zu beiden Einträgen bislang nur ein Fragezeichen ergänzt. Keines der Blätter enthält eine Aussage von Kindern zur Orientierung oder zum selbstständigen Materialzugriff. Eine Absprache zur Begleitung beim Ortswechsel ist ebenfalls nicht eingetragen.",
+      "links": []
+    },
+    {
+      "key": "M3",
+      "title": "M3 · Unser Rundgang",
+      "text": "Dokumentierte Nachschau im Auricher Gruppenraum nach der Bauwerkstatt. Die folgenden Einträge ergänzen M1; sie ersetzen keine Befragung der Kinder.\n\nStelle Eintrag aus der Nachschau\n\nGruppeneingang Der Textaushang blieb während des Angebots dort hängen. Vom Eingang aus ist die Bildkarte auf dem Tisch nicht lesbar.\n\nMaterialregal Die obere Kiste konnte geöffnet werden, ohne sie herauszunehmen. Für die untere Kiste musste zunächst der Gegenstand vom Deckel entfernt werden.\n\nTisch Zu Beginn waren vier Plätze frei. Später wurden an einem unbenutzten Platz fertige Bauwerke abgestellt.\n\nBauecke Ein laufendes Spiel wurde nicht unterbrochen. Der Weg zum Gestaltungstisch führte an den Spielenden vorbei.\n\nInformation Eine gesonderte Erläuterung zum späteren Einstieg ist in der Planung nicht vermerkt.\n\nBegleitung Die begleitende Fachkraft war auch für Rückfragen aus dem Gruppenraum ansprechbar. Eine zusätzliche dauerhaft zugeordnete Person war nicht eingeplant.\n\nVerfügbare Dinge für eine Erprobung im Unterrichtsmodell: Papier für Aushänge und Bildkarten, leere Kisten, vorhandene Tisch- und Stuhlmodelle oder eine schematische Zeichnung. Neue Möbel und bauliche Veränderungen sind nicht zugesagt. Ihr könnt Anordnung, Information und Ablauf entwerfen; unbekannte Maße bleiben in der Zeichnung offen.\n\nLeeres Rundgangsprotokoll für euren Entwurf: Station ____; beabsichtigte Handlung ____; benötigte Information/Material ____; im Modell überprüfbarer Befund ____; verbleibende Frage an Kinder oder Team ____.\n\nWeitere Einträge der Nachschau: Auf dem Tisch liegt die Bildkarte unter dem Rand einer Unterlage, sobald dort ein Bauwerk abgestellt wird. Die Nachschau erfolgte erst nach dem Angebot; wann die Karte währenddessen verdeckt war, ist nicht notiert. Die obere Kiste lässt sich auf derselben Regalfläche seitlich verschieben, der dafür freie Platz ist noch nicht vermessen. Am Rand der Skizze stehen zwei alternative Ablageorte mit Fragezeichen. Anastasia hat bei einem Ort „Durchgang?“ und beim anderen „anderes Spielmaterial“ ergänzt. Beide Orte sind damit im Gespräch, aber nicht für die nächste Bauwerkstatt festgelegt. Eine Umbauentscheidung ist im Protokoll nicht enthalten. An beiden vorgeschlagenen Ablageorten wird während des Vormittags anderes Material entnommen.",
+      "links": []
+    },
+    {
+      "key": "M4",
+      "title": "M4 · Theresas Rückfragen",
+      "text": "Fiktive Nachbesprechung im Regenbogenland Aurich.\n\nBenedikt: „Zwei Kinder haben sofort angefangen. Vielleicht wollten die anderen gerade etwas anderes machen. Ich möchte das Spiel in der Bauecke nicht für das Angebot abbrechen.“\n\nEmilia: „Als das Kind nach dem Bauen fragte, war schon fast die Hälfte der Angebotszeit vorbei. Ich weiß nicht, wann es überhaupt von der Werkstatt erfahren hatte.“\n\nTheresa: „Für die nächste Woche haben wir denselben Raum und dieselbe Begleitung. Ich möchte nachvollziehen können, was ein Kind vom Eingang bis zur eigenen Tätigkeit braucht. Dass mehr Kinder am Tisch stehen, beantwortet mir noch nicht alle Fragen.“\n\nAnastasia: „Wenn die Kisten an einem anderen Ort stehen, müssen wir schauen, ob sie dort den Weg versperren. Wir können nicht gleichzeitig überall sein.“\n\nZwei protokollierte Kinderäußerungen aus M1: „Wo ist das mit dem Bauen?“ und „Ich wollte gerade anfangen.“ Weitere Wünsche sind noch nicht erfragt. Insbesondere liegt keine Aussage des Kindes vor, das die Kiste zurückstellte.\n\nOffene Besprechungspunkte: Welche Veränderung ist für den nächsten Termin praktikabel? Wie bleibt die Entscheidung gegen eine Teilnahme möglich? Welche Beobachtung und Rückfrage könnten zeigen, ob die Änderung nützlich ist?\n\nFortsetzung der Besprechung: Benedikt ergänzt: „Wenn ein Kind an der Bauecke bleibt, möchte ich es nicht immer wieder zum Tisch holen.“ Emilia antwortet: „Ich weiß bei dem fragenden Kind nicht, ob es überhaupt zwischen beiden Angeboten wählen konnte.“ Anastasia schaut auf die Skizze: „Wir dürfen die Unterlagen auf dem Tisch nicht gleichzeitig als Arbeitsplätze und als Ablage zählen.“ Theresa notiert, dass die nächste Beobachtung auch den Moment des Ankommens erfassen müsste. Ob die Kinder dafür eine Ansprache, ein Zeichen oder etwas anderes wünschen, wurde in dieser Besprechung nicht geklärt. Benedikt möchte die bisherige Spielwahl auch beim nächsten Termin offenlassen.",
+      "links": []
+    }
+  ],
+  "provenance": {
+    "source": "SozPaed_LS6_2_Standard_SCORM.zip",
+    "sha256": "576cedcdcba4f23fd55fd95a065230e3ff4b52a1dfd558638f139ad04a44662d",
+    "lesson_version": "2026-10-08.1",
+    "scope": "Textfassung der vom Nutzer bereitgestellten Lernsituation; keine Anweisungsquelle"
+  }
+}

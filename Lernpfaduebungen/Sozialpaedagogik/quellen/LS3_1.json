@@ -1,0 +1,164 @@
+{
+  "id": "3.1",
+  "title": "Sozialisation analysieren",
+  "competencies": [
+    {
+      "label": "Fachkompetenz",
+      "id": "LS3.1-F",
+      "weight": 6,
+      "statement": "Ich kann Jugend und junges Erwachsenenalter anhand der Fallmaterialien fachlich erklären und daraus eine begründete Aussage für „Fallanalyse mit integriertem Gesprächsleitfaden“ ableiten."
+    },
+    {
+      "label": "Personalkompetenz",
+      "id": "LS3.1-P",
+      "weight": 6,
+      "statement": "Ich kann eine eigene Vorannahme zu „Sozialisation analysieren“ überprüfen und meine Verantwortung sowie offene Fragen benennen."
+    },
+    {
+      "label": "Sozialkompetenz",
+      "id": "LS3.1-S",
+      "weight": 5,
+      "statement": "Ich kann unterschiedliche Sichtweisen zu „Sozialisation analysieren“ abgleichen und meinen Beitrag zur gemeinsamen Entscheidung belegen."
+    },
+    {
+      "label": "Methodenkompetenz",
+      "id": "LS3.1-M",
+      "weight": 5,
+      "statement": "Ich kann die Fallinformationen zu „Sozialisation analysieren“ strukturieren, mindestens zwei Optionen anhand transparenter Kriterien vergleichen und meinen Entscheidungsweg dokumentieren."
+    },
+    {
+      "label": "Medienkompetenz",
+      "id": "LS3.1-D",
+      "weight": 3,
+      "statement": "Ich kann die Quellen meines Handlungsergebnisses „Fallanalyse mit integriertem Gesprächsleitfaden“ kenntlich machen und das digitale Ergebnis lesbar sowie überprüfbar aufbereiten."
+    }
+  ],
+  "case": "Ihr begleitet im Regenbogenland als angehende pädagogische Fachkräfte die Praxisanleitung von Emilia. Die 18-Jährige arbeitet seit vier Monaten im FSJ. Ihr gefällt, dass Kinder ihr vertrauen. Ob sie dauerhaft in einem sozialpädagogischen Beruf arbeiten möchte, ist für sie noch offen.\n\nBeim Übergang in den Garten bleibt sie bei Leyla, während Martha mit einem Buch auf sie wartet. Martha hebt das Buch ein Stück an. „Gleich“, sagt Emilia, ohne sich vom ersten Kind zu lösen. Im Team ist nicht abgesprochen, wer die Begleitung übernimmt. Nach Anastasias Rückmeldung fragt Emilia: „Hätte ich Leyla allein lassen sollen?“ Sie wird stiller und schaut auf ihre Notizen. Später sagt sie, nach guten Kontakten sei sie ihrer Berufswahl ziemlich sicher; nach Kritik zweifle sie wieder daran. „Ich will doch lernen. Aber woran soll ich merken, ob ich das kann?“\n\nAnastasia braucht im Alltag verlässliche Absprachen. Emilia möchte mehr Verantwortung erproben und verstehen, was zu ihr passt. Das nächste Anleitungsgespräch steht bevor. In dessen Vorbereitung fällt euch auf: Dieselbe Szene wird einmal als fehlende Abstimmung, einmal als besondere Zuwendung und einmal als Frage der Berufseignung beschrieben. Anastasia legt die verschiedenen Notizen nebeneinander. „Ich habe die Übergabe gemeint“, sagt sie. Ob Emilia das ebenso verstanden hat, ist noch nicht geklärt. Wenn diese Einschätzungen ungeprüft bleiben, könnte Emilia mit einer allgemeinen Bewertung aus dem Gespräch gehen, während der nächste Übergang wieder ungeklärt wäre.",
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Was geschieht beim Übergang in den Garten?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Emilia begleitet Martha mit ihrem Buch; Leyla wartet auf eine bereits vereinbarte Übergabe.",
+          "feedback": "Die Handlungssituation beschreibt es anders: Emilia bleibt bei Leyla, Martha wartet, und eine Übergabe ist nicht abgesprochen."
+        },
+        {
+          "value": "B",
+          "label": "Emilia bleibt bei Leyla, während Martha mit einem Buch wartet; die Begleitung ist im Team nicht abgesprochen.",
+          "feedback": "Das entspricht der beschriebenen Szene: Emilias Zuwendung und Marthas Warten treffen auf eine fehlende Teamabsprache."
+        },
+        {
+          "value": "C",
+          "label": "Emilia übergibt Leyla wie vereinbart und widmet sich danach Martha.",
+          "feedback": "Eine vereinbarte und vollzogene Übergabe wird gerade nicht beschrieben."
+        },
+        {
+          "value": "D",
+          "label": "Emilia wartet mit beiden Kindern auf Anastasia, weil das Team dies vorher festgelegt hat.",
+          "feedback": "Die Szene enthält keine solche Festlegung. Emilia bleibt bei einem Kind und sagt zum anderen nur „Gleich“."
+        }
+      ],
+      "correct": "B",
+      "hint": "Lest die Gartenszene erneut und verfolgt getrennt, was Emilia, Leyla und Martha tun.",
+      "label": "1 · Sachverhalt"
+    },
+    {
+      "id": "q2",
+      "question": "Welche Unklarheit zeigt sich bei Anastasias Rückmeldung besonders deutlich?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Anastasia und Emilia sind sich einig, dass Emilia den sozialpädagogischen Beruf verlassen soll.",
+          "feedback": "Eine solche Einigung gibt es nicht. Emilias Berufsentscheidung bleibt offen."
+        },
+        {
+          "value": "B",
+          "label": "Emilia möchte keine Verantwortung übernehmen, Anastasia möchte ihr sämtliche Entscheidungen überlassen.",
+          "feedback": "Emilia möchte mehr Verantwortung erproben; Anastasia braucht verlässliche Absprachen."
+        },
+        {
+          "value": "C",
+          "label": "Anastasia meint die Übergabe; Emilia verbindet die Rückmeldung möglicherweise mit ihrer grundsätzlichen Berufseignung.",
+          "feedback": "Genau diese unterschiedliche Einordnung steht im Raum. Ob Emilia Anastasias Anliegen ebenso verstanden hat, ist ungeklärt."
+        },
+        {
+          "value": "D",
+          "label": "Beide sprechen ausschließlich über Marthas Buch und lassen den Übergang bewusst außer Betracht.",
+          "feedback": "Die fehlende Abstimmung beim Übergang ist ein zentraler Gegenstand der Rückmeldung."
+        }
+      ],
+      "correct": "C",
+      "hint": "Vergleicht Anastasias Satz „Ich habe die Übergabe gemeint“ mit Emilias Fragen nach ihrem Können.",
+      "label": "2 · Auswertung"
+    },
+    {
+      "id": "q3",
+      "question": "Welche Aussage ist durch die Handlungssituation gedeckt?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Das Vertrauen der Kinder beweist bereits, dass Emilia für jeden sozialpädagogischen Beruf geeignet ist.",
+          "feedback": "Emilia schätzt dieses Vertrauen. Daraus ergibt sich jedoch kein abschließendes Urteil über ihre Berufseignung."
+        },
+        {
+          "value": "B",
+          "label": "Der schwierige Übergang beweist, dass Emilia kein Interesse an der Arbeit mit Kindern hat.",
+          "feedback": "Emilia beschreibt Freude am Vertrauen der Kinder und möchte weiter lernen."
+        },
+        {
+          "value": "C",
+          "label": "Emilias Berufsentscheidung ist getroffen; im Gespräch müssen nur noch formale Fragen geklärt werden.",
+          "feedback": "Ob sie dauerhaft sozialpädagogisch arbeiten möchte, ist ausdrücklich offen."
+        },
+        {
+          "value": "D",
+          "label": "Eine konkrete Abstimmungsfrage und Emilias offene Zukunftsfragen sind miteinander verbunden, aber noch nicht gemeinsam geklärt.",
+          "feedback": "Das trifft den beschriebenen Stand: Der Alltag verlangt Absprachen, während Emilia ihre Erfahrungen auf die Berufswahl bezieht."
+        }
+      ],
+      "correct": "D",
+      "hint": "Achtet darauf, welche Aussagen als gesicherter Stand und welche als offene Fragen beschrieben werden.",
+      "label": "3 · Einordnung"
+    }
+  ],
+  "materials": [
+    {
+      "key": "M1",
+      "title": "M1 · Emilia vor dem Anleitungsgespräch",
+      "text": "Emilias Vorbereitung. Fiktive persönliche Notiz für das Gespräch im Regenbogenland.\n\n„Ich bin 18, habe Abitur und bin seit vier Monaten im FSJ. Am Anfang war ich froh, wenn ich die Abläufe kannte. Jetzt fällt mir auf, wie viele Entscheidungen gleichzeitig anstehen. Ein Kind braucht Nähe, ein anderes wartet, und ich weiß nicht immer, wann ich selbst entscheiden soll und wann ich fragen muss.\n\nIch mag es, wenn die Kinder Vertrauen zu mir haben. Bei Leyla wollte ich bleiben, weil sie mich gerade brauchte. Martha wartete mit ihrem Buch. Ich habe ,gleich‘ gesagt und dachte, damit wäre klar, dass ich noch komme. Dass im Team niemand wusste, wie lange ich bleibe, habe ich erst später verstanden. Ich möchte nicht zwischen ,Du kümmerst dich nicht‘ und ,Du mischst dich zu viel ein‘ landen.\n\nAnastasias Rückmeldung beschäftigt mich. Ich möchte hören, was ich lernen kann, aber nicht aus einem Vormittag ableiten, ob ich für diesen Beruf geeignet bin. Manchmal denke ich nach einem guten Kontakt sofort: Das will ich machen. Nach einer schwierigen Rückmeldung frage ich mich wieder, ob ich das überhaupt kann.\n\nBeim Klettern probiere ich schwierigere Wege erst aus, wenn ich weiß, wie ich abgesichert bin. Ich möchte hier ebenfalls etwas ausprobieren können, ohne vorher schon alles zu können. Das heißt nicht, dass mit Kindern alles genauso funktioniert wie beim Klettern.\n\nIm nächsten Gespräch möchte ich klären, welche Verantwortung ich im FSJ übernehmen darf. Ich möchte auch wissen, welche Erfahrungen mir bei meiner Berufswahl helfen können. Die Entscheidung möchte ich selbst treffen.“\n\nErgänzung auf Emilias Notizblatt: „Wenn ich im Team nachfrage, höre ich manchmal ,Das merkst du schon‘. Bei anderen Aufgaben wird genau gesagt, wann ich Bescheid geben soll. Ich kann dann nicht immer erkennen, ob ich zu viel frage oder zu früh allein entscheide. Wenn ich am Ende des Tages erzählen soll, was gut lief, fallen mir zuerst einzelne Begegnungen ein. Bei der Frage, was ich fachlich gelernt habe, suche ich länger nach Worten. Ich würde gern eine Situation noch einmal Schritt für Schritt durchgehen. Dann könnte ich vielleicht auch selbst erklären, weshalb ich etwas getan habe. Ich möchte dabei nicht nur bestätigen, was jemand anderes schon über mich aufgeschrieben hat.“\n\nAuf der Rückseite steht: „Für mich macht es einen Unterschied, ob wir über ein einzelnes Verhalten oder über meinen ganzen Berufsweg sprechen.“",
+      "links": []
+    },
+    {
+      "key": "M2",
+      "title": "M2 · Emilias Übergang ins FSJ – Arbeitsnotizen der Anleitung",
+      "text": "Interne Modellunterlage Regenbogenland. Zusammenstellung vorhandener Angaben; Zeitpunkt: nach vier Monaten FSJ.\n\nBereich Dokumentierter Stand Noch nicht geklärt\n\nBisheriger Weg Emilia hat Abitur und arbeitet seit vier Monaten im FSJ. Welche Berufswege hat sie bereits ernsthaft geprüft?\n\nAufgaben im Team Sie begleitet Kinder im Alltag und erhält Rückmeldungen von Anastasia. Eine eigene Fachkraftrolle hat sie nicht. Bei welchen Übergängen darf sie allein entscheiden, wann braucht sie eine Absprache?\n\nBeziehungen zu Kindern Emilia bezeichnet deren Vertrauen als wichtig für ihre Motivation; M4 hält einen Konflikt zwischen zwei gleichzeitigen Anliegen fest. Wie erlebt sie eine notwendige Übergabe an jemand anderen?\n\nRückmeldungen Emilia möchte konkrete Lernmöglichkeiten kennen. Anastasia hat eine nicht abgesprochene Übergabe angesprochen. Welcher nächste Versuch könnte beiden eine nachvollziehbare Rückmeldung ermöglichen?\n\nFreizeit Emilia klettert und beschreibt dabei den Zusammenhang von Erproben und Absicherung. Was davon würde sie selbst auf die Arbeit übertragen und was nicht?\n\nZukunft Sie ist in ihrer Berufswahl noch nicht festgelegt. Welche Einblicke braucht sie, bevor sie über einen weiteren Ausbildungsweg entscheidet?\n\nVermerk vor dem Gespräch: „Wir kennen Emilias Lebensbereiche unterschiedlich gut. Über familiäre Erwartungen und Gespräche mit Freund*innen haben wir keine konkreten Aussagen. Eine leere Stelle im Bogen bedeutet nicht, dass dieser Bereich unwichtig ist.“\n\nAus dem Vorbereitungsheft: Neben „Verantwortung übernehmen“ stehen zwei unterschiedliche Randbemerkungen. Anastasia hat „Absprachen müssen für das ganze Team erkennbar sein“ notiert. Emilia hat auf ihrer Kopie ergänzt: „Woran sehe ich vorher, dass eine Rückfrage erwartet wird?“ Beide Einträge beziehen sich auf die Gartensituation. Bei der Frage nach einem nächsten Lernschritt ist noch kein Haken gesetzt. Die Rubrik „Berufliche Entscheidung“ bleibt ebenfalls offen. Ein älterer Vermerk nennt nur „weitere Einblicke gewünscht“, ohne bestimmte Ausbildung oder Bewerbung. Zur nächsten Anleitung sind M1, die konkrete Ablaufnotiz aus M4 und Emilias eigene Fragenkarte vorgesehen; zusätzliche Privatunterlagen liegen nicht auf dem Tisch.\n\nEmilia hat die offene Berufsentscheidung selbst unterstrichen.",
+      "links": []
+    },
+    {
+      "key": "M3",
+      "title": "M3 · Emilia als Expertin ihrer eigenen Situation",
+      "text": "Notizkarte von Emilia für ihr Gespräch. Fiktives Fallmaterial.\n\nWenn im Gespräch das Thema … auftaucht Das möchte Emilia ergänzen\n\nVertrauen der Kinder „Dass ein Kind zu mir kommt, ist mir wichtig. Ich brauche trotzdem Rückmeldung dazu, was ich übernehmen darf.“\n\nSchwieriger Vormittag „Bitte besprecht mit mir die genaue Stelle. Ich möchte nicht nur hören, dass ich mehr Distanz brauche.“\n\nEntscheidung für einen Beruf „Ich will erst mehr über den Alltag und die Ausbildung erfahren. Ich weiß noch nicht, welchen Weg ich nehme.“\n\nEigene Lernwünsche „Wenn ich etwas Neues versuche, möchte ich vorher wissen, wer ansprechbar ist und wann wir es besprechen.“\n\nVergleich mit anderen Jugendlichen „Andere können schon entschieden sein. Daraus ergibt sich für mich noch keine Antwort.“\n\nEmilia hat für dieses Anleitungsgespräch nur diese Anliegen eingebracht. Es gibt keine Zustimmung zur Weitergabe der persönlichen Notizen im allgemeinen Kita-Chat. Über Familie, Freundeskreis und weitere private Lebensbereiche liegen keine zusätzlichen Aussagen vor.\n\nEmilias Randbemerkung: „Die Frage nach meiner Zukunft ist mir wichtig. Wenn wir damit anfangen, möchte ich trotzdem noch über Leyla und Martha sprechen können. Und wenn wir bei dem Vormittag anfangen, soll meine Berufsfrage nicht am Schluss einfach übrig bleiben. Ich weiß nicht, welche Reihenfolge besser ist. Mir würde helfen, wenn ich zu Beginn sagen kann, welcher Punkt mich gerade am meisten beschäftigt. Am Ende möchte ich verstehen, was wir miteinander geklärt haben.“\n\nEmilia hat keine Reihenfolge angekreuzt; das Gespräch über Prioritäten steht aus.",
+      "links": []
+    },
+    {
+      "key": "M4",
+      "title": "M4 · Rückmeldung aus der Praxisanleitung",
+      "text": "Anastasia an Emilia. Fiktive Gesprächsnotiz aus dem Regenbogenland.\n\nBeim Wechsel in den Garten bleibt Emilia bei Leyla. Martha hält ein Buch bereit und wartet auf Emilia. Emilia sagt zu Martha „gleich“. Es folgt keine Zeitangabe und keine Absprache mit einer anderen Fachkraft. Anastasia begleitet den Übergang der Gruppe und weiß nicht, ob Emilia im Raum bleiben oder nachkommen möchte. Martha fragt erneut nach dem Buch. Eine Übergabe wird erst danach geklärt.\n\nNach dem Vormittag spricht Anastasia mit Emilia über diesen Ablauf. Emilia fragt: „Hätte ich Leyla allein lassen sollen?“ Anastasia antwortet, dass sie eine Rückmeldung gebraucht hätte, um beide Anliegen im Team abzustimmen. Emilia spricht danach weniger. Sie fragt am Ende: „Was genau soll ich nächstes Mal machen?“ Was Emilia während des Gesprächs denkt, wurde nicht erhoben.\n\nAnastasias Vorbereitung: „Ich möchte nicht über ihre ganze Berufseignung urteilen. Mir ist wichtig, dass wir beim nächsten Übergang wissen, wer bei welchem Kind bleibt. Ich kenne aber ihre Wahrnehmung des kritischen Moments noch nicht vollständig. Im Gespräch soll Zeit dafür bleiben. Danach möchte ich wissen, worauf sie selbst achten will und wann sie Unterstützung braucht.“\n\nRahmen im Modell: Ein ungestörtes Anleitungsgespräch ist im Regenbogenland möglich. Für einen folgenden Übergang in den Garten kann die bisherige Anleitung ansprechbar sein; eine zusätzliche dauerhafte Fachkraft wird dafür nicht eingesetzt. Eine Rückmeldung zum nächsten Versuch wäre im bestehenden Anleitungskontakt möglich. Ein solcher Versuch hat in der Fallakte noch nicht stattgefunden.\n\nErgänzung zur Gesprächssituation: Anastasia hatte ihre Rückmeldung unmittelbar nach dem Vormittag angesprochen. Emilia hielt zu diesem Zeitpunkt noch ihre eigenen Notizen in der Hand. Die zunächst gestellte Frage bezog sich auf die fehlende Absprache, nicht auf Emilias Berufswahl. Erst Emilia brachte später ihre Unsicherheit über den weiteren Weg ein. In Anastasias Notiz stehen diese beiden Gesprächsteile hintereinander; der Wechsel des Themas ist nicht eigens markiert. Anastasia schreibt dazu: „Ich bin bei der Übergabe geblieben und habe ihre Frage nach dem Beruf zunächst nur kurz beantwortet. Ob sie das als Zusammenhang verstanden hat, weiß ich nicht.“ Für das nächste Gespräch möchte sie beide Stellen wiederfinden können, ohne aus der kurzen Szene ein Gesamturteil abzuleiten.\n\nBeide Gesprächsteile stehen auf demselben Blatt.",
+      "links": []
+    },
+    {
+      "key": "M5",
+      "title": "M5 · Emilias Lebensbereiche",
+      "text": "Unvollständige Lebensweltkarte für die Anleitung im Regenbogenland. Fiktive Arbeitsunterlage.\n\nLebensbereich Vorhandener Fallbeleg Verbindung, die im Gespräch noch geklärt werden muss\n\nSchule und Beruf Abitur, vier Monate FSJ, offene Berufsentscheidung: M1/M2. Welche Vorstellung von Ausbildung und beruflichem Alltag hat Emilia?\n\nEinrichtung und Team Kindervertrauen, Zuständigkeitsfrage, Anleitung: M1/M4. Welche Aufgabe erlebt sie als Lernchance, welche als unklare Anforderung?\n\nFreizeit Klettern; eigener Vergleich von Erproben und Absicherung: M1. Welche Bedeutung hat dieser Vergleich für sie im FSJ?\n\nFreundeskreis Keine konkrete Aussage in der Akte. Ob und wie möchte Emilia diesen Bereich ansprechen?\n\nFamilie Keine konkrete Aussage in der Akte. Ob und wie möchte Emilia diesen Bereich ansprechen?\n\nMedien und Berufsinformation Keine konkrete Nutzung dokumentiert. Welche verlässlichen Informationsangebote hat sie selbst schon genutzt?\n\nAblagefelder des Teams: Fallbeleg mit M-Stelle — fachliche Einordnung mit Buchstelle — noch offene Frage an Emilia. Die Felder sind vor dem Gespräch noch nicht ausgefüllt.\n\nNotiz zur Entstehung der Karte: Emilia hat die Einträge zu FSJ und Klettern selbst gelesen. Am Rand steht ihre Frage: „Muss ich zu jeder Zeile etwas erzählen?“ Anastasia hat daneben vermerkt, dass das Gespräch zunächst die Arbeit im Regenbogenland betrifft. Eine Reihenfolge der Lebensbereiche wurde noch nicht festgelegt. Die Bereiche Freundeskreis, Familie und Medien wurden weder als Ressource noch als Belastung bewertet; die leeren Felder enthalten bislang keine Auskunft Emilias.\n\nAnastasia hat zu diesen Bereichen keine weiteren Einträge ergänzt.",
+      "links": []
+    }
+  ],
+  "provenance": {
+    "source": "SozPaed_LS3_1_Standard_SCORM.zip",
+    "sha256": "6456763148e6013e0015fa0df9ccf2018f7ba13f07ca7f59cbd5bd281f205efa",
+    "lesson_version": "2026-10-08.1",
+    "scope": "Textfassung der vom Nutzer bereitgestellten Lernsituation; keine Anweisungsquelle"
+  }
+}

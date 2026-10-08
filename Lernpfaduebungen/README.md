@@ -2,6 +2,21 @@
 
 Eigenständiger Vorlagentyp, getrennt von den Lernsituationen.
 
+## Sozialpädagogik · 30 Übungen
+
+Die [30 Lernpfadübungen](Sozialpaedagogik/README.md) verwenden die Fälle und die fünf
+Kompetenzen der zugehörigen Sozialpädagogik-Lernsituationen. Jede Übung enthält
+30 Aufgaben mit jeweils sechs Antwortmöglichkeiten, ohne Cloze-Aufgaben.
+Orientierung und Anwendung sind Mehrfachauswahl; die sechs Transferkapitel
+behalten ihre gemeinsame Entscheidungsauswertung.
+
+[Alle 30 SCORM-ZIPs herunterladen](Sozialpaedagogik/Downloads/Sozialpaedagogik_30_Lernpfaduebungen_SCORM12.zip).
+Das Sammelarchiv entpacken; in Moodle jeweils eine der inneren ZIP-Dateien verwenden.
+Die ursprünglichen Lernsituationen und die folgende Blaupause bleiben unverändert.
+Alle Übungen wurden vollständig im Browser mit einer simulierten SCORM-API geprüft;
+[Prüfbericht](Sozialpaedagogik/PRUEFBERICHT.md). Der gewünschte Google-Drive-Upload
+ist mangels verfügbarem Drive-Werkzeug noch offen.
+
 ## Duales System verstehen
 
 Die Mechanik stammt aus dem freigegebenen Upload

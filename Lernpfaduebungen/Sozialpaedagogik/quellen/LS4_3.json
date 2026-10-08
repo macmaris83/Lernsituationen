@@ -1,0 +1,164 @@
+{
+  "id": "4.3",
+  "title": "Fallperspektiven koordinieren",
+  "competencies": [
+    {
+      "label": "Fachkompetenz",
+      "id": "LS4.3-F",
+      "weight": 6,
+      "statement": "Ich kann Trauma anhand der Fallmaterialien fachlich erklären und daraus eine begründete Aussage für „Netzwerk- und Hilfeplan“ ableiten."
+    },
+    {
+      "label": "Personalkompetenz",
+      "id": "LS4.3-P",
+      "weight": 5,
+      "statement": "Ich kann eine eigene Vorannahme zu „Fallperspektiven koordinieren“ überprüfen und meine Verantwortung sowie offene Fragen benennen."
+    },
+    {
+      "label": "Sozialkompetenz",
+      "id": "LS4.3-S",
+      "weight": 6,
+      "statement": "Ich kann unterschiedliche Sichtweisen zu „Fallperspektiven koordinieren“ abgleichen und meinen Beitrag zur gemeinsamen Entscheidung belegen."
+    },
+    {
+      "label": "Methodenkompetenz",
+      "id": "LS4.3-M",
+      "weight": 5,
+      "statement": "Ich kann die Fallinformationen zu „Fallperspektiven koordinieren“ strukturieren, mindestens zwei Optionen anhand transparenter Kriterien vergleichen und meinen Entscheidungsweg dokumentieren."
+    },
+    {
+      "label": "Medienkompetenz",
+      "id": "LS4.3-D",
+      "weight": 3,
+      "statement": "Ich kann die Quellen meines Handlungsergebnisses „Netzwerk- und Hilfeplan“ kenntlich machen und das digitale Ergebnis lesbar sowie überprüfbar aufbereiten."
+    }
+  ],
+  "case": "Ihr arbeitet als angehende pädagogische Fachkräfte in Paulas multiprofessionellem Fallnetzwerk mit. Den gemeinsamen Arbeitsort bildet die Fallkonferenz ihrer pädagogischen Alltagsbegleitung, der schulischen sozialpädagogischen Fachkraft, der pädagogischen Leitung und der psychologischen Beratung. Vor Beginn werden mehrere Blätter auf dem Tisch ausgelegt; Paulas kurze Fragenkarte liegt zunächst unter dem Beratungsbericht.\n\nIn zwei Wochen stehen ein anderer Arbeitsraum und ein gemeinsamer Gruppenauftrag an. Bei einem unangekündigten Raumwechsel blieb Paula zuletzt an der Tür stehen und zog sich zurück. In einer anderen Arbeitsphase beteiligte sie sich und kam nach einer vereinbarten Pause wieder dazu. In einem Zweiergespräch hat sie bereits einen Entwurf für die Gruppenarbeit gezeigt. „Das passt nicht zu dem einen Satz hier“, sagt die schulische Fachkraft und deutet auf die knappe Notiz über Paulas Rückzug. Die Fachpersonen ziehen aus ihren unterschiedlichen Kontakten noch keine gemeinsame Schlussfolgerung.\n\nPaula möchte mitmachen. Sie fragt, wer ihr Änderungen mitteilt, wo sie kurz Ruhe finden kann und wie sie danach zurückkommt. Sie möchte nicht, dass alle ihre persönliche Geschichte erneut erzählen. Aus einem Beratungskontakt liegt ein begrenzter Selbstbericht über einen miterlebten schweren Unfall vor; eine Diagnose ist in der Akte nicht dokumentiert.\n\nEine Fachperson drängt auf feste Rückkehrzeiten, eine andere auf vorher geklärte Informationswege. „Und wer ist erreichbar, wenn die vertraute Person fehlt?“, fragt die Leitung. Sie kann keine dauerhafte Einzelbegleitung zusagen. Wenn jede Person nur für ihren eigenen Kontakt eine Absprache trifft, könnte Paula beim nächsten Wechsel erneut unterschiedliche oder gar keine Antworten erhalten. Die Konferenz dauert 30 Minuten. Auf dem Tisch liegen mehrere Sichtweisen, aber noch kein gemeinsam tragfähiger Weg.",
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Welche Veränderung steht für Paula in zwei Wochen an?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Ein bereits beschlossener Wechsel in eine andere Einrichtung ohne Gruppenauftrag.",
+          "feedback": "Ein Einrichtungswechsel wird nicht beschrieben. Es geht um einen anderen Arbeitsraum und eine gemeinsame Aufgabe."
+        },
+        {
+          "value": "B",
+          "label": "Ein anderer Arbeitsraum und ein gemeinsamer Gruppenauftrag.",
+          "feedback": "Diese beiden bevorstehenden Veränderungen werden ausdrücklich genannt."
+        },
+        {
+          "value": "C",
+          "label": "Eine diagnostische Untersuchung, deren Ergebnis schon in der Akte steht.",
+          "feedback": "Eine Diagnose ist nicht dokumentiert. Ein solcher Termin wird nicht genannt."
+        },
+        {
+          "value": "D",
+          "label": "Die Beendigung aller Gruppenarbeiten, weil Paula nicht mehr mitmachen möchte.",
+          "feedback": "Paula möchte mitmachen und hat bereits einen Entwurf für die Gruppenarbeit gezeigt."
+        }
+      ],
+      "correct": "B",
+      "hint": "Sucht im zweiten Absatz die Angaben zu den nächsten zwei Wochen.",
+      "label": "1 · Sachverhalt"
+    },
+    {
+      "id": "q2",
+      "question": "Welche eigene Perspektive bringt Paula in die Ausgangslage ein?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Sie möchte, dass jede Fachperson ihre persönliche Geschichte noch einmal vollständig erzählt.",
+          "feedback": "Genau das möchte Paula nicht."
+        },
+        {
+          "value": "B",
+          "label": "Sie möchte nicht mehr an der Gruppe teilnehmen und lehnt jeden späteren Wiedereinstieg ab.",
+          "feedback": "Paula möchte mitmachen und fragt ausdrücklich nach einer Möglichkeit zur Rückkehr."
+        },
+        {
+          "value": "C",
+          "label": "Sie möchte mitmachen und wissen, wer Änderungen mitteilt, wo Ruhe möglich ist und wie sie zurückkommen kann.",
+          "feedback": "Das sind Paulas ausdrücklich genannte Anliegen."
+        },
+        {
+          "value": "D",
+          "label": "Sie hat bereits feste Rückkehrzeiten mit sämtlichen Fachpersonen vereinbart.",
+          "feedback": "Feste Rückkehrzeiten sind ein Vorschlag einer Fachperson; gemeinsame Absprachen fehlen noch."
+        }
+      ],
+      "correct": "C",
+      "hint": "Lest Paulas Fragen getrennt von den Vorschlägen der Fachpersonen.",
+      "label": "2 · Auswertung"
+    },
+    {
+      "id": "q3",
+      "question": "Welches Problem entsteht, wenn jede Fachperson nur für ihren eigenen Kontakt eine Absprache trifft?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Die Konferenz wird überflüssig, weil damit bereits ein gemeinsamer Weg gesichert ist.",
+          "feedback": "Einzelabsprachen ergeben laut Handlungssituation noch keinen gemeinsam tragfähigen Weg."
+        },
+        {
+          "value": "B",
+          "label": "Paula erhält dadurch automatisch eine dauerhafte Einzelbegleitung.",
+          "feedback": "Die Leitung kann eine solche Begleitung ausdrücklich nicht zusagen."
+        },
+        {
+          "value": "C",
+          "label": "Der dokumentierte Selbstbericht wird dadurch zu einer gesicherten Diagnose.",
+          "feedback": "Eine Absprache ersetzt keine diagnostische Klärung; in der Akte ist keine Diagnose dokumentiert."
+        },
+        {
+          "value": "D",
+          "label": "Paula könnte beim nächsten Wechsel unterschiedliche oder gar keine Antworten erhalten.",
+          "feedback": "Diese mögliche Folge ist ausdrücklich beschrieben und betrifft die Verlässlichkeit der Unterstützung."
+        }
+      ],
+      "correct": "D",
+      "hint": "Verfolgt im letzten Absatz, welche Folgen voneinander getrennte Absprachen für den nächsten Wechsel haben könnten.",
+      "label": "3 · Einordnung"
+    }
+  ],
+  "materials": [
+    {
+      "key": "M1",
+      "title": "M1 · Paula – Unterlagen zur Konferenz",
+      "text": "Paula – Fallunterlagen vor der gemeinsamen Konferenz\n\nFiktiver multiprofessioneller Modellfall. Die Unterlagen verbinden dokumentierte Begegnungen, Paulas eigene Aussagen und begrenzte Berichte der beteiligten Fachpersonen. Der Fall beschreibt die Zusammenarbeit ihrer pädagogischen Alltagsbegleitung, einer schulischen sozialpädagogischen Fachkraft, der pädagogischen Leitung und einer psychologischen Beratungsstelle. Eine Diagnose ist in der Akte nicht dokumentiert.\n\nDer aktuelle Anlass. In zwei Wochen stehen ein Wechsel des geplanten Arbeitsraums und ein gemeinsamer Gruppenauftrag an. Mehrere Beteiligte möchten Absprachen treffen, damit Paula teilnehmen kann und die Begleitung verlässlich bleibt. Die alltägliche pädagogische Unterstützung soll fortgeführt werden. Das Team ist uneinig, ob zuerst verbindliche Rückkehrregeln nach einer Pause vereinbart oder zunächst die Informations- und Rückmeldewege geklärt werden sollen. Für die Konferenz sind 30 Minuten eingeplant; zwei Wochen danach ist eine gemeinsame Rückmeldung vorgesehen. Außerhalb bestehender Kontakte kann niemand eine ständige Einzelbegleitung zusagen.\n\nPA1 – Notiz der Alltagsbegleitung, Montag, 10:05–10:20 Uhr. Zu Beginn einer begleiteten Arbeitsphase wird der Raum kurzfristig gewechselt. Die neue Information wird in den Raum gerufen, während mehrere Personen gleichzeitig sprechen. Paula bleibt an der Tür stehen und fragt: „Wer ist da drin?“ Auf „Komm einfach mit, wir müssen anfangen“ antwortet sie nicht. Sie geht an einen ruhigeren Platz im Flur. Die Fachkraft geht in Sichtweite, lässt Abstand und nennt, welche Personen im Raum sind. Paula fragt, ob die Tür offenbleiben könne. Nach einer kurzen Absprache kommt sie mit und bearbeitet zusammen mit der Fachkraft den Anfang des Auftrags. Sie bleibt bis zum vereinbarten Ende. Aus der Notiz geht nicht hervor, ob der Ortswechsel, die gleichzeitigen Stimmen oder eine andere Bedingung ausschlaggebend war.\n\nPA2 – Notiz der Alltagsbegleitung, Mittwoch, 10:00–10:18 Uhr. Der Arbeitsort, die anwesenden Personen und der erste Schritt wurden vorab angekündigt. Paula bringt Material mit und erklärt einer anderen Person eine Vorgehensweise. Als im angrenzenden Raum eine Tür laut zufällt, hält sie kurz inne, legt das Material ab und sagt: „Ich brauche kurz Pause.“ Die Fachkraft erinnert an den schon besprochenen Rückmeldepunkt. Paula geht zum vereinbarten ruhigeren Platz und kommt nach einem kurzen Hinweis zurück. Sie beendet den begonnenen Teilauftrag. Die Dauer der Pause wurde nicht exakt gemessen; die Notiz enthält keinen Beleg für eine generelle Unfähigkeit, Geräusche auszuhalten.\n\nPA3 – Notiz der schulischen sozialpädagogischen Fachkraft, Donnerstag. In einem kurzen Zweiergespräch wählt Paula ein Thema für den anstehenden Gruppenauftrag und zeigt einen bereits vorbereiteten Entwurf. Sie fragt, ob sie vor dem Gruppentreffen wissen könne, wer teilnehmen wird. Als die Fachkraft eine längere Erklärung beginnt, bittet Paula: „Bitte eins nach dem anderen.“ Sie schreibt drei Fragen auf: Wo findet das Treffen statt? Was mache ich, wenn ich kurz raus muss? Wer sagt mir Bescheid, wenn etwas geändert wird? Eine Vertretungsregel ist im bisherigen Ablauf nicht vermerkt.\n\nPA4 – Paulas eigene Sicht, mit ihr für die Konferenz festgehalten. „Ich möchte mitmachen. Wenn auf einmal etwas anders ist und alle gleichzeitig reden, weiß ich nicht mehr, was ich machen soll. Dann denken manche, ich will nicht. Ich will vorher wissen, wer da ist und was zuerst kommt. Wenn ich Pause sage, will ich nicht ausgefragt werden. Ich möchte wissen, mit wem ich danach zurückgehen kann. Und ich möchte nicht, dass alle meine ganze Geschichte noch einmal erzählen.“ Sie möchte ihre drei Fragen zunächst auf einer Karte vorlegen. Nach einer verständlichen Erklärung will sie selbst sagen können, welcher Vorschlag für sie passt. Sie bittet darum, vor einer Weitergabe ihrer persönlichen Angaben nach Zweck und beteiligten Personen zu fragen.\n\nPA5 – Begrenzter Hintergrundbericht der psychologischen Beratung. In einem Beratungskontakt berichtete Paula von einem schweren Verkehrsunfall, den sie vor einigen Monaten miterlebt habe. Sie habe damals große Angst gehabt und das Gefühl, nichts beeinflussen zu können. Nach ihrer eigenen Aussage erschrecke sie seitdem häufiger und vermeide es, über Einzelheiten zu sprechen. Die Beratungsfachkraft führt diese Angaben als Selbstbericht; sie hat die aktuelle Lernphase nicht beobachtet. Eine Untersuchung auf eine bestimmte Traumafolgestörung ist in dieser Fallakte nicht dokumentiert. Der Bericht enthält keine medizinischen Unfallakten und keine genaue Lebensgeschichte. Die Konferenz benötigt keine zusätzliche Schilderung des Unfalls, um verlässliche pädagogische Abläufe zu planen.\n\nPA6 – Ressource und bestehender Kontakt. Paula bereitet Material vor, kann einen Entwurf erklären und benennt konkrete Fragen sowie eine gewünschte Form der Beteiligung. Ein kurzer pädagogischer Rückblick und ein schulischer Zweierkontakt bestehen bereits. Für ein weiteres Beratungsgespräch kann die Beratungsstelle die Kontaktaufnahme klären; ein Termin ist noch nicht bestätigt. Ein Wechsel in eine andere Einrichtung ist nicht beschlossen.\n\nPA7 – Ungeklärte Punkte auf dem bisherigen Arbeitsblatt. Eine Person möchte eine feste Rückkehrzeit eintragen. Eine andere fragt, ob Paula zuerst wissen müsse, an wen sie sich wenden könne. Die Leitung weist darauf hin, dass eine vertraute Fachkraft nicht immer anwesend ist. Eine Vertretungsregel ist bisher nicht eingetragen. Noch wurde kein gemeinsamer Ablauf ausgewählt.\n\nWas für die Konferenz noch geklärt werden muss. Wer kündigt Änderungen an, wenn die vertraute Fachkraft fehlt? Welches Rückmeldesignal ist für Paula verständlich? Welche Informationen benötigt die jeweilige Rolle tatsächlich? Wie wird eine offene Beratungsfrage weitergegeben, ohne eine Aufnahmezusage zu behaupten? Welche Beobachtung kann zeigen, ob eine neue Absprache im Alltag anwendbar ist? Die bereits vorliegenden Aussagen erlauben eine fallbezogene pädagogische Planung; klinische Schlussfolgerungen bleiben Aufgabe qualifizierter Diagnostik.\n\nWeitere Einträge zu den bereits beschriebenen Kontakten\n\nZu PA1: Auf dem zunächst ausliegenden Plan stand noch der ursprüngliche Raum. Die Änderung wurde mündlich weitergegeben; ein aktualisierter schriftlicher Hinweis ist in der Notiz nicht erwähnt. Die Alltagsbegleitung hatte Paula bereits an der Tür gesehen, als sie bemerkte, dass mehrere Personen gleichzeitig sprachen. Später notierte sie sowohl Paulas Frage nach den Anwesenden als auch ihre Frage zur offenen Tür. Im kurzen Sammelvermerk für das Team stand zunächst nur „Raumwechsel schwierig“. Die beiden konkreten Fragen waren auf einem zweiten Blatt geblieben. Niemand hat im Nachhinein erhoben, welcher der verschiedenen Eindrücke für Paula den Ausschlag gab.\n\nZu PA2 und PA3: Auf dem angekündigten Ablaufzettel konnte Paula den Arbeitsort und den ersten Schritt wiederfinden. Die Alltagsbegleitung hatte den bereits verabredeten Rückmeldepunkt im eigenen Notizheft festgehalten. Der schulischen Fachkraft lag dieses Heft beim Zweiergespräch am Donnerstag nicht vor. Sie hörte daher Paulas Frage zur Pause, kannte aber den genauen Wortlaut der bestehenden Absprache nicht. Auf Paulas Entwurf für den Gruppenauftrag sind eigene Ergänzungen erkennbar. Diese werden im ersten Konferenzblatt nur als „Material vorbereitet“ erwähnt. Welche Verantwortung Paula bei der gemeinsamen Bearbeitung selbst übernehmen möchte, ist noch nicht ausdrücklich besprochen.\n\nZu PA4: Paula möchte ihre Fragenkarte beim Gespräch vor sich haben. Sie sagt: „Wenn ich nicht gleich etwas sage, heißt das nicht, dass ihr schon für mich entscheiden könnt.“ Bei einer längeren Erklärung möchte sie nachfragen können, ohne den ganzen Ablauf neu beginnen zu müssen. Ob sie die gesamte Konferenz oder zunächst einen bestimmten Abschnitt mitverfolgen möchte, ist auf dem Vorbereitungsblatt noch nicht eingetragen. Eine Fachperson hat „Fragen vorlesen“ an den Rand geschrieben. Eine andere fragt, wer sicherstellt, dass danach Zeit für Paulas eigene Stellungnahme bleibt. Beide Vermerke beziehen sich auf dieselbe vorhandene Karte, nicht auf neue persönliche Angaben.\n\nZur Weitergabe von PA5: Der begrenzte Beratungsbericht wurde als Hintergrundunterlage beigefügt. Im Inhaltsverzeichnis der Konferenzmappe ist er länger bezeichnet als die kurze Alltagsnotiz. Daraus geht jedoch keine Rangfolge seiner Bedeutung für den nächsten Gruppenauftrag hervor. Die Beratungsfachkraft möchte wissen, welcher Ausschnitt für welche offene Frage herangezogen werden soll. Sie war bei PA1 und PA2 nicht anwesend. Paula hat darum gebeten, dass ihre persönliche Geschichte nicht bei jeder Abstimmung erneut im Mittelpunkt steht. Über eine ausführliche Darstellung des Unfallgeschehens liegt keine zusätzliche Vereinbarung vor.\n\nZum Termin: Die Einladung an die Beteiligten nennt die gemeinsame Dauer, aber noch keine Reihenfolge der Themen. In der Materialliste stehen Fragenkarte, Alltagsnotizen, schulischer Beitrag und Beratungsbericht nebeneinander. Eine schriftliche Regelung für die spätere Vertretung fehlt weiterhin. Neue Rückmeldungen zum erst bevorstehenden Raumwechsel sind nicht vorhanden.",
+      "links": []
+    },
+    {
+      "key": "M2",
+      "title": "M2 · Beiträge der Beteiligten",
+      "text": "Vier Beiträge für die Konferenz zu Paula\n\nFiktive Vorabbeiträge zum Modellfall M1. Die Rollen kennen unterschiedliche Ausschnitte. Ihre Vorschläge sind noch keine gemeinsamen Vereinbarungen.\n\nBeitrag A – pädagogische Alltagsbegleitung. „Ich habe PA1 und PA2 beobachtet. Paula kam nach einer verständlichen Information beziehungsweise einer abgesprochenen Pause wieder in die Arbeitsphase. Ich möchte erreichen, dass sie eine Änderung vorher erfährt und nach einer Pause einen verlässlichen Rückmeldeweg hat. Aus meiner Sicht brauchen wir eine erreichbare Ansprechrolle und einen klaren Ablauf. Ich kenne den Beratungskontakt nicht aus eigener Beobachtung und kann keine Aussage über eine Diagnose machen. Wir können kurze Kontakte in den bisherigen Ablauf einbauen, aber keine durchgehende Einzelbegleitung übernehmen. Meine Frage ist, wie die Vertretung informiert wird, ohne unnötige persönliche Angaben weiterzugeben.“\n\nBeitrag B – schulische sozialpädagogische Fachkraft. „In PA3 konnte Paula selbst konkrete Fragen und einen vorbereiteten Entwurf einbringen. Ich möchte ihre Fragenkarte im Gespräch zuerst verständlich vorstellen lassen. Das ist aus meiner Sicht mehr als die Frage, ob sie eine Regel befolgt. Im schulischen Kontext kann ich einen kurzen vorbereitenden und einen auswertenden Kontakt anbieten. Die Alltagspause aus PA2 habe ich nicht beobachtet. Eine allgemeine Aussage, Paula könne Gruppen nicht aushalten, wäre mit meinem Kontakt nicht belegt. Wir müssen außerdem klären, wer Änderungen ankündigt, wenn ich nicht dabei bin.“\n\nBeitrag C – pädagogische Leitung. „Ich muss den vereinbarten Auftrag und die Erreichbarkeit im bestehenden Dienstablauf beachten. Eine vertraute Person kann nicht zu jeder Zeit anwesend sein. Ich möchte einen Ablauf, den auch eine Vertretung nachvollziehen kann. Eine für Paula verständliche Vertretungsregel kann vorbereitet werden. Eine neue dauerhafte Personalstelle oder der Wechsel einer Einrichtung sind damit nicht zugesagt. Mir wäre eine zeitlich überschaubare Erprobung wichtig. Ich habe keine eigene systematische Beobachtung ihrer Reaktion auf den angekündigten Raumwechsel; die vorhandenen Notizen dürfen wir nicht durch Erinnerungen an andere Situationen ersetzen.“\n\nBeitrag D – psychologische Beratungsfachkraft. „Meine Information PA5 stammt aus einem einzelnen Beratungskontakt und Paulas Selbstbericht. Die vorhandenen Angaben sind nicht das Ergebnis einer Untersuchung auf eine Traumafolgestörung. Ich habe Paulas aktuelle Arbeitsphase nicht selbst beobachtet. Ein weiteres Gespräch kann zur Klärung ihres Anliegens angefragt werden. Ob und wann es stattfinden kann, muss bestätigt werden. Für eine solche Anfrage brauche ich eine begrenzte Fragestellung; nicht automatisch jede Alltagsnotiz. Paula soll wissen, welche Information wofür weitergegeben werden soll. Persönliche Erlebnisse werden nicht in der Konferenz erneut ausgefragt.“\n\nPaulas Beitrag aus PA4 gehört zu allen vier Perspektiven. Sie möchte teilnehmen, Fragen vorlegen und einen nachvollziehbaren Rückweg nach einer Pause finden. Die Erwachsenen müssen sich damit auseinandersetzen, anstatt aus ihrer jeweiligen Rolle stellvertretend eine vollständige Sicht Paulas zu formulieren.\n\nRückfragen zwischen den Fachpersonen vor der Konferenz: Die Alltagsbegleitung fragt die schulische Fachkraft, ob Paula ihren vorbereiteten Entwurf selbst zeigen möchte. Diese kann bestätigen, dass Paula ihn im Zweierkontakt vorgestellt hat; über die Präsentation in der ganzen Runde haben beide noch nicht gesprochen. Die Leitung fragt nach dem bisherigen Pausenablauf. Dazu kann die Alltagsbegleitung den eigenen Kontakt erläutern, die schulische Fachkraft dagegen nur Paulas Fragen aus PA3. Auf dem gemeinsamen Blatt stehen beide Beiträge zunächst in derselben Spalte, ohne sichtbare Kennzeichnung der Herkunft.\n\nDie Beratungsfachkraft bittet um eine konkrete Fragestellung für eine mögliche erneute Kontaktaufnahme. Die Leitung antwortet, dass im nächsten Gruppentermin zunächst die vorhandenen pädagogischen Abläufe verlässlich sein müssten. Damit ist weder ein weiterer Beratungskontakt ausgeschlossen noch ein Termin bestätigt. Die Beteiligten haben bisher auch nicht festgelegt, wer Paula den Stand einer Anfrage rückmeldet.\n\nPaulas eigener Vermerk aus PA4 wird am Ende der Vorabbeiträge abgeheftet. Eine Fachperson schlägt vor, die Karte direkt an den Anfang zu legen. Eine andere möchte zuerst die Berichte hören, um den Ablauf besser einordnen zu können. In dieser Vorbereitung fällt noch keine gemeinsame Entscheidung zur Reihenfolge. Die geplante Konferenz soll diese unterschiedlichen Zugänge zusammenbringen; weitere Kontakte oder zusätzliche Personalressourcen wurden in den Rückfragen nicht zugesagt.\n\nDie Vorabbeiträge wurden nicht als fertiger Beschluss an Paula weitergegeben.",
+      "links": []
+    },
+    {
+      "key": "M3",
+      "title": "M3 · Offene Fragen vor dem nächsten Gruppentreffen",
+      "text": "Fiktive Ergänzung der Paula-Akte. Vorbereitung am gemeinsamen Besprechungstisch.\n\nPunkt im bevorstehenden Ablauf Bekannter Stand Noch offene Abstimmung\n\nRaum und Teilnehmende Ein Raumwechsel und ein gemeinsamer Auftrag stehen an; Paula fragt nach Ort und Personen. Wer bestätigt ihr die Information und meldet eine Änderung?\n\nBeginn des Auftrags Paula hat in PA3 einen eigenen Entwurf gezeigt; in PA1 kam die Änderung kurzfristig. Wie wird geklärt, welchen ersten Schritt sie erwartet?\n\nPause PA2 enthält eine abgesprochene Pause; ihre Dauer wurde nicht genau erfasst. Welches Signal, welche Ansprechrolle und welche Rückmeldung sind für diesen Termin tragfähig?\n\nRückkehr Paula fragt in PA4, mit wem sie zurückgehen kann. Was geschieht, wenn diese Person gerade nicht erreichbar ist?\n\nWeiterführender Kontakt Ein psychologischer Beratungskontakt hat stattgefunden. Zweck, Zuständigkeit und Termin einer erneuten Anfrage sind noch nicht bestätigt.\n\nPersönliche Angaben PA5 enthält einen begrenzten Selbstbericht; Paula möchte ihre Geschichte nicht mehrfach erzählen. Welche einzelne Information wird für welche Abstimmung tatsächlich benötigt?\n\nAuf dem Terminblatt: gemeinsame Konferenz 30 Minuten; Rückblick nach zwei Wochen. Die vier Fachpersonen bringen ihre bestehenden Kontakte ein. Für eine durchgehende zusätzliche Einzelbegleitung steht keine Zusage im Plan.\n\nBeigefügter Stand der Terminunterlagen: Auf dem gemeinsamen Kalenderblatt steht bereits „Gruppenauftrag“, daneben ein Fragezeichen beim Raum. Die konkrete Information zu den Anwesenden soll noch bestätigt werden. Auf Paulas eigener Karte ist dagegen nur Platz für ihre drei kurzen Fragen. Die Alltagsbegleitung hat den bisherigen Rückmeldepunkt separat notiert; die Leitung verfügt über die Angaben zur möglichen Vertretung, ohne dass schon ein Name für diesen Termin feststeht. Im Telefonvermerk der Beratungsstelle steht „Anliegen für erneuten Kontakt klären“. Keines dieser Blätter enthält eine Zusage zur dauerhaften Begleitung oder einen neuen diagnostischen Befund.\n\nDie Angaben zur Vertretung sind nicht auf Paulas Karte übertragen.",
+      "links": []
+    },
+    {
+      "key": "M4",
+      "title": "M4 · Absprachen im Hilfenetz",
+      "text": "Netzwerkkarte und Planprotokoll – Paula\n\nDie Karte bezieht sich auf den fiktiven Modellfall aus M1/M2. Paula und ihre eigene Sicht sind der Bezugspunkt. Bestätigte Kontakte sind Alltagsbegleitung, schulische sozialpädagogische Fachkraft, pädagogische Leitung und der einmalige psychologische Beratungskontakt. Ein weiterer Beratungstermin ist noch anzufragen.\n\nNetzwerkkarte: Für jede Verbindung werden Zweck, zulässiger Informationsumfang, zuständige Rolle und Rückmeldung eingetragen. Ein bestehender Kontakt, ein angefragter nächster Schritt und eine bestätigte Zusage erhalten unterschiedliche Kennzeichnungen. Eine neue Einrichtung oder eine nicht belegte Diagnose wird nicht in die Karte eingefügt.\n\nFallbeleg und Anliegen Ziel in verständlicher Sprache Vorgeschlagener nächster Schritt Zuständigkeit und Vertretung Paulas Beteiligung Status/Dissens Überprüfung und Rückmeldung\n\nRessourcenrahmen. Die Konferenz umfasst 30 Minuten. Bestehende kurze Vorbereitungs- und Rückblickkontakte können genutzt werden. Nach zwei Wochen ist eine gemeinsame Rückmeldung vorgesehen. Eine zusätzliche dauerhafte Einzelbegleitung steht nicht zur Verfügung. Für die Modellvereinbarung werden vor allem Informationsweg, Pause, Rückkehr und Vertretung geklärt. Eine weiterführende fachliche Anfrage braucht Zweck, Auftrag und tatsächlich bestätigten Kontakt.\n\nKennzeichnung im Plan: vorgeschlagen / im Modellgespräch vereinbart / noch anzufragen. Eine Rückmeldung aus der späteren Alltagserprobung ist noch nicht vorhanden.\n\nAbschlussfelder: Was wird im Modellgespräch gemeinsam getragen? __; welcher Einwand bleibt bestehen? __; welche Rolle klärt welche offene Voraussetzung? __; wer erläutert Paula den Stand? __; welcher Beobachtungshinweis und welche eigene Rückmeldung werden nach zwei Wochen gebraucht? __.\n\nAblage und Übergabe im bestehenden Netzwerk: Die Alltagsbegleitung hält ihre Beobachtungen im eigenen Verlaufsheft fest. Die schulische Fachkraft hat Paulas Fragen auf einer gesonderten Karte; die Leitung sammelt organisatorische Absprachen auf einem Terminblatt. Für die Konferenz liegen Kopien nebeneinander, eine gemeinsame Legende gibt es noch nicht. Die Beratungsstelle führt ihren Kontakt getrennt davon. In einem vorbereiteten Sammelblatt steht bei einem offenen Termin schon ein Häkchen, obwohl daneben „noch anfragen“ vermerkt ist. Die beteiligten Fachpersonen haben diesen Unterschied bisher nicht gemeinsam besprochen. Paula fragt, ob sie später dieselbe verständliche Zusammenfassung sehen kann, auf die sich die Erwachsenen beziehen. Eine Endfassung wurde ihr noch nicht gezeigt.\n\nDie Erwachsenennotizen verwenden teilweise längere Formulierungen als ihre eigene Fragenkarte.",
+      "links": []
+    },
+    {
+      "key": "M5",
+      "title": "M5 · Paulas Sicht im bisherigen Protokollentwurf",
+      "text": "Fiktiver, noch ungeprüfter Entwurf der Fallkonferenz-Unterlagen. Die folgenden Einträge stammen aus der Vorbereitung, nicht aus einer bereits erfolgten gemeinsamen Entscheidung.\n\nBisheriger Eintrag Daneben vermerkte Rückfrage\n\n„Bei Änderungen macht Paula nicht mit.“ „Wie passen PA2 und der vorbereitete Entwurf aus PA3 dazu?“\n\n„Die Vorgeschichte soll am Anfang vollständig vorgetragen werden.“ „Paula möchte nicht, dass ihre ganze Geschichte wiederholt wird. Welche Information wird hier überhaupt benötigt?“\n\n„Nach einer Pause geht sie zurück.“ „Wer ist ansprechbar? Wo steht, was bei einer Vertretung gilt?“\n\n„Beratung wird übernommen.“ „Es gab einen Kontakt. Ist eine neue Anfrage schon gestellt oder ein Termin bestätigt?“\n\n„Die Fachpersonen einigen sich, Paula wird anschließend informiert.“ „Ihre Fragenkarte aus PA4 liegt vor. Wann kann sie selbst Stellung nehmen?“\n\nPaulas Karte enthält weiterhin die drei Fragen aus PA3: Ort des Treffens, Vorgehen bei einer Pause und Mitteilung von Änderungen. Die Rückfragen im Entwurf sind noch nicht gemeinsam beantwortet.\n\nRandnotiz zum Entwurf: Die kurzen Sätze waren für eine schnelle Übersicht zusammengestellt worden. Dabei wurden die PA-Kennungen zunächst weggelassen. Die schulische Fachkraft kann den vorbereiteten Entwurf aus PA3 im ersten Eintrag nicht wiederfinden. Die Alltagsbegleitung vermisst die Rückkehr nach der abgesprochenen Pause. Paula hat die hier formulierten Aussagen noch nicht als gemeinsame Vereinbarung bestätigt. Auf der Rückseite befindet sich nur das Datum der geplanten Konferenz; ein Auswertungstermin ist dort noch nicht eingetragen.\n\nDie Rückfragen sind bislang nicht mit zuständigen Rollen verbunden.",
+      "links": []
+    }
+  ],
+  "provenance": {
+    "source": "SozPaed_LS4_3_Standard_SCORM.zip",
+    "sha256": "b81af33ba059c507c16ef37407a49bb236b95538740695faa76fbdfdd2c4782e",
+    "lesson_version": "2026-10-08.1",
+    "scope": "Textfassung der vom Nutzer bereitgestellten Lernsituation; keine Anweisungsquelle"
+  }
+}

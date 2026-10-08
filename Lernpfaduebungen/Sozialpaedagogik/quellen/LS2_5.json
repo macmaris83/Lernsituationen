@@ -1,0 +1,158 @@
+{
+  "id": "2.5",
+  "title": "Praxis auswerten",
+  "competencies": [
+    {
+      "label": "Fachkompetenz",
+      "id": "LS2.5-F",
+      "weight": 5,
+      "statement": "Ich kann Evaluation anhand der Fallmaterialien fachlich erklären und daraus eine begründete Aussage für „Reflexions- und Kompetenzbilanz“ ableiten."
+    },
+    {
+      "label": "Personalkompetenz",
+      "id": "LS2.5-P",
+      "weight": 6,
+      "statement": "Ich kann eine eigene Vorannahme zu „Praxis auswerten“ überprüfen und meine Verantwortung sowie offene Fragen benennen."
+    },
+    {
+      "label": "Sozialkompetenz",
+      "id": "LS2.5-S",
+      "weight": 4,
+      "statement": "Ich kann unterschiedliche Sichtweisen zu „Praxis auswerten“ abgleichen und meinen Beitrag zur gemeinsamen Entscheidung belegen."
+    },
+    {
+      "label": "Methodenkompetenz",
+      "id": "LS2.5-M",
+      "weight": 6,
+      "statement": "Ich kann die Fallinformationen zu „Praxis auswerten“ strukturieren, mindestens zwei Optionen anhand transparenter Kriterien vergleichen und meinen Entscheidungsweg dokumentieren."
+    },
+    {
+      "label": "Medienkompetenz",
+      "id": "LS2.5-D",
+      "weight": 3,
+      "statement": "Ich kann die Quellen meines Handlungsergebnisses „Reflexions- und Kompetenzbilanz“ kenntlich machen und das digitale Ergebnis lesbar sowie überprüfbar aufbereiten."
+    }
+  ],
+  "case": "Im Regenbogenland Aurich wertet ihr mit dem Team der Pfützenhüpfer ein offenes Bauangebot aus. Die Dokumentation liegt in der Gruppenmappe. Direkt nach dem Aufräumen hieß es: „Das hat gut geklappt.“ Auf dem Tisch stehen mehrere Türme; zwei Kinder möchten noch einmal bauen. Die Planung hatte jedoch auch vorgesehen, dass Kinder Bauweisen verändern und ihre Beobachtungen ausdrücken können. Ob alle Gelegenheit dazu hatten, ist in den Notizen unterschiedlich deutlich.\n\nEin Teammitglied möchte das Angebot unverändert wiederholen, ein anderes zuerst die Begleitung anpassen. Emilia erinnert sich daran, dass ein Kind erst nach einer Nachfrage Material genommen hat. Bei der Frage nach dem eigenen Anteil gehen die Einschätzungen ebenfalls auseinander: War das offene Bereitstellen hilfreich oder fehlte eine verständliche Einladung? Ihr gehört zum Auswertungsteam und merkt, dass eine Entscheidung über den nächsten Durchgang an denselben wenigen Notizen hängt. Im anschließenden Anleitungsgespräch fragt Emilia, woran sie selbst eigentlich erkennen könne, ob sie sich in ihrer Arbeit weiterentwickelt. Eine gemeinsame Grundlage für diese Urteile fehlt noch.\n\nEmilia legt ihren Zettel mit der Uhrzeit neben die fertigen Türme. „Das hier habe ich gehört“, sagt sie, „aber für den Schluss fehlt mir etwas.“ Die Begleitperson zeigt auf die Bauwerke: „Man sieht doch, dass etwas entstanden ist.“ Ihr sucht im Plan nach dem ursprünglichen Ziel. Zwischen dem sichtbaren Ergebnis und dem Urteil über das Lernen bleibt eine offene Stelle.",
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Was war neben dem Bauen in der Planung vorgesehen?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Dass alle Kinder gleich hohe Türme herstellen.",
+          "feedback": "Ein solches einheitliches Ergebnis wird nicht genannt. Die Planung bezog sich auf veränderte Bauweisen und das Ausdrücken von Beobachtungen."
+        },
+        {
+          "value": "B",
+          "label": "Dass Kinder Bauweisen verändern und ihre Beobachtungen ausdrücken können.",
+          "feedback": "Diese beiden Absichten stehen ausdrücklich in der Handlungssituation. Ob alle Kinder dazu Gelegenheit hatten, ist in den Notizen unterschiedlich deutlich."
+        },
+        {
+          "value": "C",
+          "label": "Dass Emilia jedem Kind das Material ohne Nachfrage zuteilt.",
+          "feedback": "Diese Vorgabe wird nicht beschrieben. Emilia erinnert sich an ein Kind, das erst nach einer Nachfrage Material nahm."
+        },
+        {
+          "value": "D",
+          "label": "Dass die Gruppe vor dem Aufräumen bereits eine gemeinsame Bewertung beschließt.",
+          "feedback": "Eine vorab beschlossene Bewertung ist nicht genannt. Nach dem Aufräumen steht zunächst das allgemeine Urteil „Das hat gut geklappt“ im Raum."
+        }
+      ],
+      "correct": "B",
+      "hint": "Sucht im Fall nach dem ursprünglichen Plan und unterscheidet ihn von den jetzt sichtbaren Bauwerken.",
+      "label": "1 · Sachverhalt"
+    },
+    {
+      "id": "q2",
+      "question": "Warum beantworten die fertigen Türme allein nicht alle Fragen der Auswertung?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Weil fertige Türme im Plan ausdrücklich verboten waren.",
+          "feedback": "Ein solches Verbot steht nicht im Fall. Die offene Frage betrifft die Gelegenheit zum Verändern und zum Ausdrücken von Beobachtungen."
+        },
+        {
+          "value": "B",
+          "label": "Weil keines der Kinder erneut bauen möchte.",
+          "feedback": "Zwei Kinder möchten ausdrücklich noch einmal bauen. Dieser Wunsch beantwortet jedoch nicht alle Fragen nach dem Lernprozess."
+        },
+        {
+          "value": "C",
+          "label": "Weil das Team schon sicher weiß, dass alle Kinder die geplanten Gelegenheiten genutzt haben.",
+          "feedback": "Genau das ist in den Notizen unterschiedlich deutlich. Eine sichere gemeinsame Feststellung gibt es noch nicht."
+        },
+        {
+          "value": "D",
+          "label": "Weil sie zeigen, dass etwas entstanden ist, aber nicht für alle Kinder die geplanten Lerngelegenheiten belegen.",
+          "feedback": "Die Szene stellt das sichtbare Ergebnis neben die noch unklare Gelegenheit zum Verändern und Beschreiben. Deshalb bleibt zwischen Bauwerk und Urteil eine offene Stelle."
+        }
+      ],
+      "correct": "D",
+      "hint": "Vergleicht den Hinweis auf die fertigen Werke mit den Absichten der Planung.",
+      "label": "2 · Auswertung"
+    },
+    {
+      "id": "q3",
+      "question": "Was fehlt dem Team für seine weiteren Urteile laut Handlungssituation?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Eine gemeinsame Grundlage für die Bewertung des Angebots und der eigenen Weiterentwicklung.",
+          "feedback": "Das Team bewertet den nächsten Durchgang unterschiedlich, und Emilia fragt nach ihrer eigenen Entwicklung. Für diese Urteile fehlt ausdrücklich eine gemeinsame Grundlage."
+        },
+        {
+          "value": "B",
+          "label": "Die Entscheidung, das Angebot unter allen Umständen unverändert zu wiederholen.",
+          "feedback": "Das ist nur der Wunsch eines Teammitglieds. Ein anderes möchte die Begleitung anpassen; eine gemeinsame Entscheidung steht aus."
+        },
+        {
+          "value": "C",
+          "label": "Der Nachweis, dass kein einziges Kind Material genutzt hat.",
+          "feedback": "Mehrere Türme stehen auf dem Tisch. Offen ist nicht die gesamte Materialnutzung, sondern wie die geplanten Gelegenheiten und die Begleitung einzuschätzen sind."
+        },
+        {
+          "value": "D",
+          "label": "Eine neue Einladung, damit das bereits ausgewertete Angebot erstmals stattfinden kann.",
+          "feedback": "Das Angebot hat stattgefunden und wird gerade ausgewertet. Zur Diskussion steht der nächste Durchgang und die Einschätzung des eigenen Anteils."
+        }
+      ],
+      "correct": "A",
+      "hint": "Lest die unterschiedlichen Wünsche für den nächsten Durchgang zusammen mit Emilias Frage im Anleitungsgespräch.",
+      "label": "3 · Einordnung"
+    }
+  ],
+  "materials": [
+    {
+      "key": "M1",
+      "title": "M1 · Unser Angebot im Rückblick",
+      "text": "Planungsauszug des Regenbogenlands, vor dem dokumentierten Modellvormittag. Das Bauangebot in M1/M2 ist eine gemeinsame Auswertungsgrundlage. Es ist nicht das behauptete Ergebnis eurer eigenen Planung aus LS 2.3.\n\nPlanungsfeld Vorab festgehaltener Stand\n\nAnlass Kinder beschäftigen sich in der Bauecke mit Türmen und verändern nach Einstürzen ihre Konstruktionen.\n\nGelegenheiten zum Lernen Unterschiedliche Bauweisen erproben; bei Bedarf verändern; eine Beobachtung durch Zeigen oder Sprechen ausdrücken.\n\nRahmen 9:15–9:35 Uhr, ein Bautisch im Gruppenraum, bekannte größere Steine in einer Kiste. Vier Kinder sind im Ausschnitt anwesend.\n\nEinstieg Material bereitstellen und zum Bauen einladen; kein fertiges Bauwerk als verpflichtende Vorlage.\n\nBeteiligung Kinder dürfen bauen oder zunächst zuschauen; ein späterer Einstieg soll möglich bleiben.\n\nBegleitung Bei einer Frage ansprechbar bleiben; die Kinder ihre Konstruktionen selbst verändern lassen.\n\nAbschluss Ein gemeinsamer kurzer Austausch, anschließend Material aufräumen.\n\nDokumentation Zeitpunkte einzelner Ereignisse, Äußerungen und auffällige Veränderungen festhalten. Ein Anfangsvergleich je Kind wurde nicht geplant.\n\nVerteilung im Modellteam: Eine Person begleitete das Angebot, Emilia unterstützte die Materialbereitstellung und notierte einzelne Äußerungen, eine weitere Person schrieb den Verlauf mit. In der Rückschau sind diese drei Quellen unterscheidbar. Welche Leistung ihr selbst erbracht habt, bezieht sich auf eure Arbeit an dieser Auswertung und den Methodenproben; die damalige Begleitung wird euch nicht zugeschrieben.\n\nLeeres Vergleichsfeld: Geplanter Bestandteil ____ · vorhandener Beleg ____ · abweichender Verlauf ____ · noch ungeklärte Ursache ____.\n\nVorbereitungsvermerke aus derselben Mappe: Die Materialkiste wurde vor Beginn an die Tischseite gestellt, von der die Begleitung den Raum betreten hatte. Im Plan war ihre genaue Position nicht festgelegt. Auch wer das Einladen übernimmt, wurde nur mündlich abgesprochen. Emilia erinnert sich an die Aufgabe, zusätzliche Steine erreichbar zu halten; eine Liste mit erwarteten Kinderäußerungen erhielt sie nicht.\n\nDie protokollierende Person hatte ein Blatt mit den Spalten Uhrzeit und Verlauf. Ein gesondertes Feld für den Abschluss fehlte. Die Begleitung hatte angenommen, im kurzen Gespräch am Ende werde sichtbar, was die Kinder bemerkt hätten. Ob Zeigen und Sprechen dabei dieselben Möglichkeiten bekommen würden, war vorab nicht besprochen worden. Eine Vertretung ist nicht eingeplant.",
+      "links": []
+    },
+    {
+      "key": "M2",
+      "title": "M2 · Rückmeldungen und Beobachtungen",
+      "text": "Dokumentationsmappe zum Bauangebot, fiktiver Modellverlauf. Die anonymisierten Kürzel K1–K4 bezeichnen vier Kinder in diesem Ausschnitt. Sie werden nicht mit anderen Kindern aus der Gruppenmappe gleichgesetzt.\n\nZeit/Quelle Festgehaltene Information\n\n9:15 · Verlaufsnotiz Die Begleitung stellt eine Steinkiste auf den Tisch und sagt: „Ihr könnt bauen.“ K1, K2 und K3 nehmen Steine. K4 steht etwas entfernt und schaut zum Tisch.\n\n9:17 · Verlaufsnotiz K1 setzt Steine übereinander. K2 legt zwei breite Steine nebeneinander. K3 holt einen weiteren Stein aus der Kiste. Die Reihenfolge der späteren Veränderungen wurde hier noch nicht festgehalten.\n\n9:20 · Verlaufsnotiz Nach Einstürzen verändern K1 und K2 ihre Unterlagen. Aus dem Tischbereich fällt der Satz: „Das breite muss unten.“ Die sprechende Person ist in dieser Notiz nicht zugeordnet.\n\n9:21 · Emilias Notiz K3 hält einen Stein hoch und schaut zur Begleitung. Die Begleitung hilft gerade am anderen Tischrand. Ob der Blickkontakt bemerkt wurde, steht nicht in der Notiz.\n\n9:24 · beide Notizen K4 fragt: „Darf ich auch Steine nehmen?“ Die Begleitung rückt die Kiste näher und reicht einige Steine. K4 setzt zwei Steine aufeinander und beginnt zu bauen.\n\n9:26 · Emilias Notiz K2 verändert die Unterlage erneut. K1 hält einen Turm mit einer Hand fest. Emilia schreibt später daneben: „Sie haben unterschiedliche Lösungen ausprobiert.“\n\n9:29 · Verlaufsnotiz Im gemeinsamen Gespräch spricht vor allem K1. K1 zeigt auf das eigene Bauwerk. Die Äußerungen der anderen Kinder sind nicht einzeln festgehalten; ob sie etwas zeigen konnten, ist nicht dokumentiert.\n\n9:35 · Abschlussnotiz Das Material wird gemeinsam aufgeräumt. Zwei Äußerungen sind festgehalten: „Noch mal bauen“ und „Ich wollte einen höheren Turm.“ Sie sind keiner Person zugeordnet.\n\nBeschreibung eines Bildausschnitts aus der Mappe: Auf dem Tisch stehen zwei Türme auf unterschiedlichen Unterlagen. Daneben liegen weitere Steine. Nur ein Zustand ist beschrieben, keine Bildfolge. Zeitpunkt, Urheberschaft beider Türme und vorausgehende Hilfen stehen nicht dabei. Ihr benötigt keine zusätzliche Fotodatei, um diese Dokumentationsangabe auszuwerten.\n\nRückmeldungen aus dem Team:\n\nBegleitperson, unmittelbar nach Ende: „Am Ende haben alle gebaut. Ich würde es wieder so machen.“\n\nEmilia: „K4 hat erst gefragt, ob die Steine auch genommen werden dürfen. Vielleicht war unsere Einladung nicht für alle verständlich.“\n\nProtokollperson: „Zum Zeigen und Erzählen am Ende habe ich wenig notiert. Ich weiß nicht mehr, ob es dazu bei allen kam.“\n\nFür einen zweiten Durchgang liegen keine Kinderbeobachtungen vor. Diese Mappe bildet einen einzelnen Verlauf ab.\n\nQuellenabgleich nach dem Angebot: Auf dem Verlaufsblatt wurde der Eintrag von 9:20 während des Bauens begonnen und nach dem Aufräumen um den Satz aus dem Tischbereich ergänzt. Die protokollierende Person sagt: „Den Wortlaut hatte ich noch im Kopf, aber ich konnte ihn nicht mehr sicher einer Person zuordnen.“ Emilias Zettel enthält dagegen bei 9:26 den Namen des Kindes, aber keine genaue Beschreibung der erneut veränderten Unterlage. Beide Blätter wurden vor der Besprechung nebeneinandergelegt; eine zusammenhängende Beobachtung jedes einzelnen Kindes entstand daraus nicht.\n\nZum Abschluss gibt es unterschiedliche Erinnerungen. Die Begleitperson meint, sie habe allen die Gelegenheit zum Erzählen gegeben. Die Protokollperson erinnert sich an K1s längeren Beitrag, kann die Wartezeit für die anderen jedoch nicht nennen. Emilia war während eines Teils des Gesprächs mit dem Einsammeln seitlich liegender Steine beschäftigt. Zu diesem Abschnitt schrieb sie nichts auf.\n\nNeben der Bildbeschreibung steht handschriftlich „Ergebnis gelungen“. Beim Nachfragen bezieht die schreibende Person das auf die stehen gebliebenen Türme. Ob damit die vorher benannten Lerngelegenheiten gemeint waren, hatte sie beim Beschriften nicht erläutert. Die Rückmeldungen zum erneuten Bauen und zum höheren Turm wurden erst später an dieses Blatt geheftet. Ihr genauer Äußerungsanlass blieb offen.",
+      "links": []
+    },
+    {
+      "key": "M3",
+      "title": "M3 · Wie tragfähig ist unsere Auswertung?",
+      "text": "Unfertige Auswertung im Teamordner. Drei Entwürfe für eine Schlussfolgerung wurden notiert:\n\nEntwurf Daneben notierte Rückfrage\n\n„Alle Kinder haben verstanden, wie ein Turm stabil wird.“ Wo ist das für jedes Kind belegt?\n\n„Das Angebot war für K4 nicht interessant.“ Wie passt das zum Verlauf ab 9:24?\n\n„Wir brauchen beim nächsten Mal einen anderen Abschluss.“ Welches Problem würde die Änderung lösen, und was müsste dann dokumentiert werden?\n\nRahmen für einen möglichen nächsten Durchgang: Wieder derselbe Gruppenraum, dieselbe Materialkiste und ein etwa zwanzigminütiges Angebotsfenster. Eine Person kann begleiten, eine andere ausgewählte Ereignisse protokollieren. Zusätzliche durchgehende Einzelbeobachtungen aller vier Kinder sind damit nicht zugesagt. Ein weiterer Durchgang ist noch nicht durchgeführt.\n\nUnsere Auswertungsfrage Benötigter Beleg Vorhanden in M2? Geplanter Erhebungsweg Möglicher Gegenbefund\n\nFür die Verfahrensprobe: Mit den vorhandenen Notizen lässt sich prüfen, ob euer künftiger Bogen eindeutige Einträge ermöglicht und welche Informationen er zusätzlich erheben müsste. Die ursprünglichen Notizen bleiben dabei dieselben. Eine Rollenprobe kann die Verständlichkeit einer Einladung oder Rückfrage untersuchen; sie erzeugt keine nachträglichen Antworten von K1–K4.\n\nStimmen zur nächsten Durchführung: Die Begleitung möchte nur eine gut umsetzbare Änderung: „Wenn wir gleichzeitig anders einladen, anderes Material nehmen und anders abschließen, verliere ich den Überblick.“ Emilia würde gern die Nachfrage nach dem Material genauer verfolgen. Die Protokollperson weist auf den kaum beschriebenen Abschluss hin. Im Team ist noch nicht entschieden, welches Problem zuerst untersucht werden soll. Eine Person möchte zusätzlich ein Foto; dazu steht auf dem Blatt die Rückfrage, welche bislang fehlende Information dieses Bild eigentlich liefern könnte. Ein Aufnahmezeitpunkt ist nicht notiert.",
+      "links": []
+    },
+    {
+      "key": "M4",
+      "title": "M4 · Emilia blickt auf ihre Entwicklung",
+      "text": "Ausschnitt aus dem Anleitungsgespräch im Regenbogenland Aurich.\n\nEmilia: „Ich bin nach dem Abitur ins FSJ gegangen, weil ich den Alltag kennenlernen wollte. Nach vier Monaten weiß ich mehr darüber, was mir Freude macht. Ob das mein Beruf wird, weiß ich noch nicht.“\n\nAnastasia: „Welche Rückmeldung hat dir geholfen, etwas anders zu machen?“\n\nEmilia: „Wenn ich weiß, auf welche Situation sich die Kritik bezieht. Bei ‚Du musst professioneller sein‘ weiß ich zuerst nicht, was ich ändern soll. Beim Klettern merke ich oft direkt, ob ein anderer Griff hilft; hier ist die Wirkung nicht immer so eindeutig.“\n\nAnastasia: „Was nimmst du aus dem Bauangebot mit?“\n\nEmilia: „Ich habe aufgeschrieben, wann K4 nach den Steinen gefragt hat. Im Abschluss habe ich eher zugehört, als mir einzelne Äußerungen zu merken. Erst bei der Besprechung fiel mir auf, dass uns da etwas fehlt.“\n\nAnastasia: „Was möchtest du beim nächsten Mal ausprobieren?“\n\nEmilia: „Eine Sache vorher genauer festlegen. Ich will aber auch mitbekommen, wenn etwas passiert, womit wir nicht gerechnet haben.“\n\nIm Gespräch wurde noch keine Berufswahl getroffen. Emilias Alter, Erwartungen außerhalb der Einrichtung und weitere Rückmeldungen sind hier nicht dokumentiert. Das Team kennt diesen Gesprächsausschnitt, nicht ihre gesamte Biografie. Die Anleitung bleibt ein Gespräch über konkrete Arbeitserfahrungen.\n\nFortsetzung derselben Gesprächsnotiz: Emilia legt ihre beiden Zettel nebeneinander. „Hier weiß ich noch genau, was gesagt wurde. Bei der anderen Stelle habe ich nur geschrieben, dass es gut lief.“ Anastasia fragt, woran Emilia beim nächsten Rückblick ihren eigenen Beitrag erkennen möchte. Emilia antwortet: „Nicht nur daran, dass ich dabei war. Ich möchte sagen können, welche Frage ich gestellt und was ich dann wirklich gehört habe.“\n\nBei der anschließenden Terminabsprache bleibt offen, welches nächste Angebot sie begleitet. Emilia möchte deshalb eine Notizform, die zu verschiedenen Tätigkeiten passen kann. Eine neue Beobachtung oder ein bereits erreichter Lernfortschritt wurde in diesem Gespräch noch nicht festgehalten.",
+      "links": []
+    }
+  ],
+  "provenance": {
+    "source": "SozPaed_LS2_5_Standard_SCORM.zip",
+    "sha256": "c0d16fcf14b13d53a58d00637aaa057df3f6addf1ae7808ec477196ce895d9f4",
+    "lesson_version": "2026-10-08.1",
+    "scope": "Textfassung der vom Nutzer bereitgestellten Lernsituation; keine Anweisungsquelle"
+  }
+}

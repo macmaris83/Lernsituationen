@@ -1,0 +1,158 @@
+{
+  "id": "7.4",
+  "title": "Kompetenzen bilanzieren",
+  "competencies": [
+    {
+      "label": "Fachkompetenz",
+      "id": "LS7.4-F",
+      "weight": 5,
+      "statement": "Ich kann Kompetenzbilanz anhand der Fallmaterialien fachlich erklären und daraus eine begründete Aussage für „Reflexions- und Kompetenzbilanz mit Transferfall“ ableiten."
+    },
+    {
+      "label": "Personalkompetenz",
+      "id": "LS7.4-P",
+      "weight": 6,
+      "statement": "Ich kann eine eigene Vorannahme zu „Kompetenzen bilanzieren“ überprüfen und meine Verantwortung sowie offene Fragen benennen."
+    },
+    {
+      "label": "Sozialkompetenz",
+      "id": "LS7.4-S",
+      "weight": 5,
+      "statement": "Ich kann unterschiedliche Sichtweisen zu „Kompetenzen bilanzieren“ abgleichen und meinen Beitrag zur gemeinsamen Entscheidung belegen."
+    },
+    {
+      "label": "Methodenkompetenz",
+      "id": "LS7.4-M",
+      "weight": 6,
+      "statement": "Ich kann die Fallinformationen zu „Kompetenzen bilanzieren“ strukturieren, mindestens zwei Optionen anhand transparenter Kriterien vergleichen und meinen Entscheidungsweg dokumentieren."
+    },
+    {
+      "label": "Medienkompetenz",
+      "id": "LS7.4-D",
+      "weight": 4,
+      "statement": "Ich kann die Quellen meines Handlungsergebnisses „Reflexions- und Kompetenzbilanz mit Transferfall“ kenntlich machen und das digitale Ergebnis lesbar sowie überprüfbar aufbereiten."
+    }
+  ],
+  "case": "Im Regenbogenland Aurich steht ein abschließendes Ausbildungsgespräch an. Ihr habt Arbeiten, Rückmeldungen und überarbeitete Fassungen aus den vergangenen Lernsituationen vor euch. Eine umfangreiche Gruppenplanung sieht überzeugend aus; der eigene Entscheidungsanteil lässt sich darin aber nicht sofort erkennen. Ein kürzerer Text zeigt dagegen genau, welche Begründung eine Person nach einer Rückfrage verändert hat. Welche Aussage über das eigene Können die Unterlagen tatsächlich tragen, ist noch ungeklärt.\n\nGleichzeitig gibt es bei den Pfützenhüpfern einen veränderten Bauvormittag. Das vertraute Angebot steht jetzt am Gestaltungstisch. Einige Kinder beginnen sofort, andere bleiben fern oder schauen nur zu. Zwei Teammitglieder schlagen unterschiedliche nächste Schritte vor. Eine frühere Angebotsplanung wirkt zunächst passend, erklärt aber nicht, weshalb Theo bei der bisherigen Bauecke bleibt und Martha sich trotz ihres Blicks auf die Karten nicht setzt.\n\nIm Ausbildungsgespräch wird damit mehr gebraucht als ein Verzeichnis fertiger Arbeiten. Wenn ihr eine frühere Lösung ungeprüft übernehmt, könnte eine neue Bedingung unberücksichtigt bleiben. Wenn jede Unsicherheit als fehlende Kompetenz gilt, verschwinden zugleich die Entscheidungen, die ihr bereits gut begründen könnt. Eure Unterlagen müssen diese Spannung aufklären können.\n\nEmilia hält eine überarbeitete Seite hoch. „Soll der erste Versuch wirklich mit ins Gespräch?“ Anastasia sucht im Ordner nach der ursprünglichen Stelle. Daneben liegt die neue Verlaufsnotiz aus der Bauecke. Ein vertrauter Vorschlag ist schnell ausgesprochen; dann fällt der Blick wieder auf Martha, die in der Beschreibung noch immer nicht am Tisch sitzt.",
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Was ist bei der umfangreichen Gruppenplanung zunächst schwer zu erkennen?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Der eigene Entscheidungsanteil innerhalb der Gruppenplanung.",
+          "feedback": "Richtig. Die Planung wirkt überzeugend, lässt den eigenen Entscheidungsanteil aber nicht sofort erkennen."
+        },
+        {
+          "value": "B",
+          "label": "Wie umfangreich die Gruppenplanung auf den ersten Blick wirkt.",
+          "feedback": "Die Planung wird ausdrücklich als umfangreich beschrieben. Offen bleibt, welcher eigene Entscheidungsanteil darin sichtbar wird."
+        },
+        {
+          "value": "C",
+          "label": "Ob die Gruppenplanung auf den ersten Blick überzeugend wirkt.",
+          "feedback": "Sie sieht bereits überzeugend aus. Das klärt aber noch nicht den eigenen Entscheidungsanteil."
+        },
+        {
+          "value": "D",
+          "label": "Ob der kürzere Text eine Veränderung nach einer Rückfrage zeigt.",
+          "feedback": "Diese Veränderung ist im kürzeren Text bereits erkennbar. Die Frage betrifft die umfangreiche Gruppenplanung."
+        }
+      ],
+      "correct": "A",
+      "hint": "Unterscheidet das überzeugende Ergebnis einer Gruppe von der darin erkennbaren Leistung einer einzelnen Person.",
+      "label": "1 · Sachverhalt"
+    },
+    {
+      "id": "q2",
+      "question": "Welche Beobachtung bleibt durch die frühere Angebotsplanung zunächst unerklärt?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Alle Kinder beginnen sofort und bitten gemeinsam um dasselbe neue Material.",
+          "feedback": "Die Kinder verhalten sich unterschiedlich. Eine gemeinsame Materialforderung wird nicht beschrieben."
+        },
+        {
+          "value": "B",
+          "label": "Theo und Martha haben dem Team bereits denselben Grund für ihr Verhalten genannt.",
+          "feedback": "Die Handlungssituation enthält keine solche gemeinsame Erklärung der beiden Kinder."
+        },
+        {
+          "value": "C",
+          "label": "Theo bleibt bei der bisherigen Bauecke; Martha setzt sich trotz ihres Blicks auf die Karten nicht.",
+          "feedback": "Richtig. Gerade diese Handlungen erklärt die zunächst passend wirkende frühere Planung noch nicht."
+        },
+        {
+          "value": "D",
+          "label": "Der Bauvormittag fällt aus, weil keine früheren Planungen vorhanden sind.",
+          "feedback": "Ein veränderter Bauvormittag und eine frühere Angebotsplanung liegen bereits vor."
+        }
+      ],
+      "correct": "C",
+      "hint": "Welche Handlungen passen noch nicht zur Annahme, die frühere Planung könne einfach übernommen werden?",
+      "label": "2 · Auswertung"
+    },
+    {
+      "id": "q3",
+      "question": "Welche Spannung muss das abschließende Ausbildungsgespräch aufklären?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Ob die umfangreichste Gruppenarbeit unabhängig von individuellen Beiträgen als wichtigster Nachweis gelten soll.",
+          "feedback": "Die Handlungssituation zeigt, dass Umfang allein den eigenen Anteil nicht erklärt. Zusätzlich geht es um neue Bedingungen und den Umgang mit Unsicherheit."
+        },
+        {
+          "value": "B",
+          "label": "Eine frühere Lösung kann neue Bedingungen übersehen; zugleich bedeutet nicht jede Unsicherheit, dass bereits gezeigte Kompetenz fehlt.",
+          "feedback": "Richtig. Beide Seiten der Spannung werden in der Handlungssituation ausdrücklich beschrieben."
+        },
+        {
+          "value": "C",
+          "label": "Ob frühere Entwürfe grundsätzlich weniger geeignet sind als spätere Fassungen.",
+          "feedback": "Ein allgemeiner Vorrang späterer Fassungen wird nicht genannt. Anastasia sucht die ursprüngliche Stelle, um die Arbeit nachvollziehen zu können."
+        },
+        {
+          "value": "D",
+          "label": "Ob ein umfangreicher Text unabhängig von seinem Inhalt immer mehr Können beweist.",
+          "feedback": "Die Handlungssituation zeigt gerade, dass auch ein kürzerer Text eine konkrete Veränderung sichtbar machen kann."
+        }
+      ],
+      "correct": "B",
+      "hint": "Vergleicht die beiden Wenn-Sätze über die Übernahme einer früheren Lösung und den Umgang mit Unsicherheit.",
+      "label": "3 · Einordnung"
+    }
+  ],
+  "materials": [
+    {
+      "key": "M1",
+      "title": "M1 · Meine ausgewählten Arbeiten",
+      "text": "Unterlagen für das abschließende Ausbildungsgespräch im Regenbogenland. Auf dem Tisch liegen drei Ausschnitte aus Emilias Modellmappe:\n\nKennung Vorliegender Auszug Eintrag zur Entstehung\n\nB1, Beobachtungsnotiz Erstfassung: „Das Kind hat keine Lust.“ Spätere Fassung: „Das Kind blieb neben dem Tisch stehen und fragte: ,Ist das schon fertig?‘“ Beide Fassungen tragen ein Datum. In der Rückmeldung steht die Bitte, sichtbare Handlung und Deutung zu unterscheiden.\n\nB2, Gruppenplanung Eine fertige Planung enthält Materialliste, Durchführung und Begründung. An der Materialliste steht Emilias Name; die Begründung hat keine zugeordneten Beiträge. Eine gemeinsame Abgabe ist belegt. Wer den fachlichen Vergleich der Möglichkeiten formuliert hat, ist offen.\n\nB3, Gesprächsprobe Eine Mitschrift enthält Emilias Rückfrage „Was genau soll ich dann tun?“ und eine anschließende Klärungsfrage zur Übernahme. Belegt ist eine Modellprobe. Eine spätere gelungene Übergabe im tatsächlichen Gruppenalltag steht nicht in den Unterlagen.\n\nMeine eigene Auswahl für das Gespräch:\n\nArbeit mit Datum / LS Genaue Stelle Mein nachweisbarer Anteil Hilfe, Rückmeldung oder andere Fassung Aussage, die ich damit prüfen möchte\n\nEigene Vorarbeiten können aus Unterricht und dokumentierten Rollenproben stammen. Du benötigst keinen realen Praktikumsbericht. Wenn ein früherer Beleg nicht vorliegt, verwende eine jetzt selbst erarbeitete Analyse aus dieser Lernsituation mit ihrem tatsächlichen Datum. Emilias Modellleistung wird nicht als deine frühere Leistung ausgegeben. Persönliche oder personenbezogene Einzelheiten können anonymisiert werden.\n\nAblagevermerke zu denselben drei Arbeiten: B1 liegt als Blatt mit einer durchgestrichenen ersten Formulierung vor. Die spätere Beobachtung wurde darunter ergänzt; das Datum der Rückmeldung steht am Rand. Auf B2 befinden sich Initialen neben Materialliste und Ablauf, jedoch keine neben dem Abschnitt „Warum dieses Angebot?“. Emilia hat in ihrer Vorbereitung notiert, dass sie sich an eine Diskussion erinnert, deren Verlauf nicht protokolliert wurde. Bei B3 steht „Probe im Unterricht“ über der Mitschrift. Eine Person hat Emilias Rückfrage wörtlich festgehalten; die Zusammenfassung des Gesprächsabschlusses stammt aus der Gruppe. Die Mappe enthält damit unterschiedliche Arten von Belegen, aber noch keine gemeinsame Auswahl für das Ausbildungsgespräch. Eine zusätzliche Bewertung liegt nicht bei.",
+      "links": []
+    },
+    {
+      "key": "M2",
+      "title": "M2 · Was ich nachweisen kann",
+      "text": "Noch ungeprüfte Bilanznotizen aus der Modellmappe. Neben B1 steht „Ich kann beschreiben, was ich gesehen habe“. Bei B2 steht „Ich kann Angebote selbstständig fachlich begründen“. Neben B3 hat Emilia „Ich kann Übergaben zuverlässig gestalten“ notiert. Den drei Sätzen wurde noch keine genaue tragende Stelle zugeordnet; eine Rückmeldung zu ihrer Reichweite fehlt.\n\nDein Arbeitsraster für das Ausbildungsgespräch: Maßstab sind die unveränderten Ich-Aussagen am Anfang dieser Lernsituation.\n\nKompetenz-ID Eigene Arbeit und genaue Stelle Sichtbare eigene Leistung Tatsächlich benötigte Hilfe Begründete Grenze / noch fehlender Nachweis\n\nLS7.4-F\n\nLS7.4-P\n\nLS7.4-S\n\nLS7.4-M\n\nLS7.4-D\n\nFrühere Arbeiten behalten zusätzlich ihre ursprüngliche LS- und Kompetenz-ID. Für eine heute ergänzte Erläuterung stehen Datum und Kennzeichnung „heutiger Rückblick“ bereit. Eine Gruppenabgabe allein enthält noch keine Zuordnung deines Anteils.\n\nRandnotizen zur ungeprüften Bilanz: Emilia hat B2 zuerst ausgewählt, weil die Planung am umfangreichsten aussieht. Bei B1 zögert sie: „Da sieht man ja noch meinen ersten Fehler.“ Benedikt fragt, weshalb gerade die Veränderung ausgeblendet werden solle. Bei B3 möchte Emilia wissen, ob eine gute Frage schon die gesamte Gesprächsführung belegt. Diese Fragen sind auf dem Bogen vermerkt; die drei Bilanzsätze wurden danach noch nicht verändert.",
+      "links": []
+    },
+    {
+      "key": "M3",
+      "title": "M3 · Ein neuer Vormittag bei den Pfützenhüpfern",
+      "text": "Verlaufsnotiz aus dem Regenbogenland Aurich. Teil A wird zuerst gelesen. Teil B bleibt bis zur gesicherten Erstentscheidung geschlossen.\n\nTeil A · Beim ersten Blick auf das Angebot\n\nDas vertraute Bauangebot steht heute am Gestaltungstisch. Die Kisten stehen neben dem Tisch; auf der Fläche liegen Bildkarten mit Bauideen. In der bisherigen Bauecke ist Theos angefangenes Bauwerk noch zu sehen. Theo bleibt dort stehen. Martha betrachtet eine Karte aus dem Abstand, setzt sich aber nicht. Zwei andere Kinder beginnen am Tisch und nehmen mehrere Bildkarten zu sich. Fabian kommt dazu und baut an einer begonnenen Konstruktion weiter.\n\nEine erwachsene Person sagt: „Vielleicht brauchen die anderen heute eine klare gemeinsame Anleitung.“ Eine zweite schlägt vor, die offene Gestaltung beizubehalten. Beide haben bisher vor allem notiert, wer am Tisch sitzt. Eine Erklärung des Platzwechsels ist in ihrer Notiz nicht festgehalten. Aus dem Fehlen dieser Notiz geht noch nicht hervor, was jedes einzelne Kind verstanden hat.\n\nDie verfügbaren Bauteile reichen für Tisch und bisherige Bauecke. Ein zweiter Satz Bildkarten liegt nicht bereit. Im nächsten Zeitabschnitt können die Erwachsenen in der Gruppe beobachten und mit einzelnen Kindern sprechen; eine zusätzliche dauerhafte Einzelbegleitung ist nicht vorgesehen. Bisher wurde weder ein Kind nach dem Grund für sein Abwarten gefragt noch die Nutzung der Karten gemeinsam besprochen.\n\nErgänzende Beobachtungsnotiz zu Teil A: Vom früheren Bauplatz aus ist die Tischfläche zu sehen. Die Karten liegen nicht gleichmäßig verteilt: Neben der begonnenen Konstruktion liegen mehrere, am freien Tischrand keine. Eine erwachsene Person notiert die Namen der sitzenden Kinder. Ob ein Kind im Stehen beobachtet, einen eigenen Bau fortsetzen möchte oder auf eine Karte wartet, hat auf ihrem Blatt keine eigene Spalte. Die andere Person schaut zwischen Tisch und Bauecke hin und her. Sie sagt: „Ich sehe mehrere Möglichkeiten, aber wir haben noch nicht gefragt.“ Theo berührt sein angefangenes Bauwerk und schaut zum Tisch. Martha bleibt stehen, während Fabian ein weiteres Teil ansetzt. Niemand hat zu diesem Zeitpunkt eine gemeinsame Erklärung zum Platzwechsel protokolliert.\n\nIn der bisherigen Angebotsmappe steht „Bauideen sichtbar bereitstellen“. Ein genauer Platz für die Karten ist dort nicht eingezeichnet. Die beiden Teammitglieder zeigen auf dieselbe Formulierung, verbinden damit aber unterschiedliche Vorstellungen: einmal Material auf dem Tisch, einmal Material, das jedes interessierte Kind selbst erreichen kann. Welche Deutung dem heutigen Aufbau zugrunde lag, wurde beim Vorbereiten nicht festgehalten.\n\nAblage für die Erstfassung: Datum/Datei ____; persönlicher Vorschlag ____; zwei tragende A-Belege ____; fachlicher Grund ____; stärkster Einwand ____; noch offene Frage ____.\n\nTeil B · Zusatznotiz – erst in Durchführen öffnen\n\nMartha sagt auf Nachfrage: „Ich dachte, die Karten gehören den beiden. Ich wollte auch eine.“ Theo bringt einen Stein aus seinem bestehenden Bauwerk und zeigt auf die noch freie Stelle in der Bauecke. Die Gruppenleitung ergänzt: „Wir haben heute den Platz gewechselt, aber den Kindern nicht gemeinsam erklärt, ob sie Angefangenes dort fortsetzen dürfen.“\n\nFabian baut zu diesem Zeitpunkt weiter am Tisch. Zu seiner Wahrnehmung liegt keine neue Aussage vor. Ob alle übrigen Kinder die Karten gleich verstanden haben, wurde nicht erfragt. Die Zusatznotiz enthält noch keine Entscheidung des Teams und keinen dokumentierten Erfolg einer veränderten Gestaltung.",
+      "links": []
+    },
+    {
+      "key": "M4",
+      "title": "M4 · Belege und Transfer beurteilen",
+      "text": "Prüffragen für das Ausbildungsgespräch. Für die Erläuterung eines ausgewählten eigenen Belegs und der Entscheidung zum Bauvormittag sind 20 Minuten vorgesehen. Die Originalstellen liegen zum Nachschlagen bereit. Eine frühere Fassung wird nicht durch eine spätere überschrieben.\n\nFrage auf dem Gesprächsbogen Nachweis / Rückfrage / Konsequenz\n\nWelche Aussage über mein Können stützt welche eigene Stelle?\n\nWelche Hilfe und welcher Anteil anderer Personen gehörten dazu?\n\nWelche bekannte Überlegung nutze ich beim Bauvormittag?\n\nWelche Bedingung ist gegenüber meiner früheren Arbeit anders?\n\nWas begründete meinen ersten Vorschlag aus Teil A?\n\nWelche konkrete B-Information verändert oder bestätigt welche Annahme?\n\nWas bleibt nach der zweiten Prüfung weiterhin ungewiss?\n\nEntscheidungsablage: Mein gesichertes Teil-A-Urteil ____; abweichendes Argument im Tandem ____; gemeinsamer Vorschlag und Grund ____; mein Beitrag ____; datierter späterer Prüfstand nach Teil B ____.\n\nPersönlicher Gesprächsabschluss: bereits gezeigte Leistung ____; noch nicht gedeckte Behauptung ____; nächster Lernschritt ____; Beleg, den ich dafür künftig benötigen würde ____.\n\nStand der Gesprächsvorbereitung: Emilia möchte die spätere Fassung ihrer Notiz zuerst zeigen. Anastasia fragt nach der ursprünglichen Stelle und der dazugehörigen Rückmeldung. Beide Dokumente liegen in der Mappe, sind aber noch nicht gegenseitig bezeichnet. Auf einem weiteren Blatt steht Emilias erster Vorschlag zum Bauvormittag; daneben ist Raum für den späteren Prüfstand frei. Hamide möchte nachvollziehen können, welche Änderung aus einer neuen Information entstand und welche lediglich aus einer anderen Formulierung. Die Reihenfolge der Gesprächsunterlagen wurde noch nicht festgelegt.",
+      "links": []
+    }
+  ],
+  "provenance": {
+    "source": "SozPaed_LS7_4_Standard_SCORM.zip",
+    "sha256": "9edeacc010af7d5be506e901a1d4b82183e75a829a6c7b27b796509d500a97e8",
+    "lesson_version": "2026-10-08.1",
+    "scope": "Textfassung der vom Nutzer bereitgestellten Lernsituation; keine Anweisungsquelle"
+  }
+}

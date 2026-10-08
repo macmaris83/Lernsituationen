@@ -1,0 +1,158 @@
+{
+  "id": "2.3",
+  "title": "Bildungsangebote planen",
+  "competencies": [
+    {
+      "label": "Fachkompetenz",
+      "id": "LS2.3-F",
+      "weight": 5,
+      "statement": "Ich kann Spiel anhand der Fallmaterialien fachlich erklären und daraus eine begründete Aussage für „Pädagogische Angebotsplanung“ ableiten."
+    },
+    {
+      "label": "Personalkompetenz",
+      "id": "LS2.3-P",
+      "weight": 4,
+      "statement": "Ich kann eine eigene Vorannahme zu „Bildungsangebote planen“ überprüfen und meine Verantwortung sowie offene Fragen benennen."
+    },
+    {
+      "label": "Sozialkompetenz",
+      "id": "LS2.3-S",
+      "weight": 4,
+      "statement": "Ich kann unterschiedliche Sichtweisen zu „Bildungsangebote planen“ abgleichen und meinen Beitrag zur gemeinsamen Entscheidung belegen."
+    },
+    {
+      "label": "Methodenkompetenz",
+      "id": "LS2.3-M",
+      "weight": 6,
+      "statement": "Ich kann die Fallinformationen zu „Bildungsangebote planen“ strukturieren, mindestens zwei Optionen anhand transparenter Kriterien vergleichen und meinen Entscheidungsweg dokumentieren."
+    },
+    {
+      "label": "Medienkompetenz",
+      "id": "LS2.3-D",
+      "weight": 3,
+      "statement": "Ich kann die Quellen meines Handlungsergebnisses „Pädagogische Angebotsplanung“ kenntlich machen und das digitale Ergebnis lesbar sowie überprüfbar aufbereiten."
+    }
+  ],
+  "case": "Ihr arbeitet mit Theresa bei den Pfützenhüpfern im Regenbogenland Aurich. Martha sucht im Bilderbuch nach Oberflächen und geht anschließend im Raum auf Entdeckungsreise. Gülcan fragt beim Wasserbehälter, ob ein anderer Gegenstand ebenfalls untergehen würde. Fabian verändert nach dem Einsturz seiner Ritterburg die Unterlage und baut weiter. Am nächsten Vormittag ist nur ein begleiteter Angebotsplatz frei.\n\nAuf dem Vorbereitungstisch liegt bereits eine schöne Bastelidee. Alle Kinder sollen dafür dieselben Schritte ausführen, damit am Ende etwas Vorzeigbares entsteht. Ein Teammitglied freut sich auf das Ergebnis; ein anderes kann in der Idee die Fragen der drei Kinder kaum wiederfinden. Gleichzeitig sind nicht beliebig viele Räume und Materialien verfügbar. Theresa erinnert daran, dass die laufende Ritterburg nicht einfach weggeräumt werden kann. Im Team steht noch offen, wie der begrenzte Angebotsplatz genutzt werden kann, sodass die Kinder an ihre eigene Beschäftigung anknüpfen und dabei tatsächlich etwas erkunden können.\n\nAuf dem Tisch rascheln die Stoffreste. „Die würden doch schön aussehen“, sagt jemand und legt zwei Farben zusammen. Ihr blättert zu Marthas Notiz; sie hatte nach dem Gefühl gefragt. Nebenan zeigt Fabian auf seine noch stehende Burg. Der Vormittag rückt näher, doch zwischen guter Vorbereitung und den eigenen Fragen der Kinder klafft noch eine Lücke.",
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Welche Verbindung zwischen Kind und Tätigkeit ist in der Handlungssituation beschrieben?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Martha untersucht, ob Gegenstände untergehen, während Gülcan ihre Ritterburg weiterbaut.",
+          "feedback": "Diese Tätigkeiten sind vertauscht: Gülcan fragt am Wasserbehälter nach dem Untergehen, Fabian verändert seine Burgunterlage."
+        },
+        {
+          "value": "B",
+          "label": "Fabian verändert nach dem Einsturz seiner Ritterburg die Unterlage und baut weiter.",
+          "feedback": "Diese Handlung wird ausdrücklich genannt. Marthas und Gülcans Beschäftigungen setzen jeweils an anderen Fragen an."
+        },
+        {
+          "value": "C",
+          "label": "Gülcan wählt Stoffreste für die gemeinsame Bastelidee aus.",
+          "feedback": "Gülcans Frage betrifft einen Gegenstand am Wasserbehälter. Die Stoffreste liegen auf dem Vorbereitungstisch; eine Auswahl Gülcans ist nicht beschrieben."
+        },
+        {
+          "value": "D",
+          "label": "Martha beendet ihre Entdeckungsreise, weil sie nur noch die fertige Bastelidee umsetzen möchte.",
+          "feedback": "Martha sucht im Bilderbuch nach Oberflächen und erkundet den Raum. Ein Wechsel zur fertigen Bastelidee wird nicht berichtet."
+        }
+      ],
+      "correct": "B",
+      "hint": "Ordnet den drei Kindern jeweils ihre eigene Beschäftigung zu.",
+      "label": "1 · Sachverhalt"
+    },
+    {
+      "id": "q2",
+      "question": "Warum ist die bereits vorbereitete Bastelidee im Team nicht selbstverständlich passend?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Weil die Kinder das geplante Ergebnis schon gemeinsam fertiggestellt haben.",
+          "feedback": "Das Angebot ist für den nächsten Vormittag vorbereitet. Ein bereits gemeinsam fertiggestelltes Ergebnis wird nicht beschrieben."
+        },
+        {
+          "value": "B",
+          "label": "Weil niemand im Team das mögliche Ergebnis ansprechend findet.",
+          "feedback": "Ein Teammitglied freut sich ausdrücklich auf das Ergebnis. Die Unsicherheit betrifft den Bezug zu den Fragen der Kinder."
+        },
+        {
+          "value": "C",
+          "label": "Weil gleiche vorgegebene Schritte zu einem vorzeigbaren Ergebnis die unterschiedlichen Fragen der Kinder bisher kaum aufgreifen.",
+          "feedback": "Diese Lücke benennt ein Teammitglied. Der Fall stellt das attraktive Ergebnis neben die eigenen Erkundungen der Kinder."
+        },
+        {
+          "value": "D",
+          "label": "Weil Theresa bereits beschlossen hat, am nächsten Vormittag kein Angebot zu ermöglichen.",
+          "feedback": "Ein solcher Beschluss liegt nicht vor. Die Nutzung des begrenzten Angebotsplatzes ist noch offen."
+        }
+      ],
+      "correct": "C",
+      "hint": "Vergleicht die geplanten Schritte der Bastelidee mit den bereits beobachteten Kinderfragen.",
+      "label": "2 · Auswertung"
+    },
+    {
+      "id": "q3",
+      "question": "Welche Bedingung begrenzt die Vorbereitung für den nächsten Vormittag?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Nur ein begleiteter Angebotsplatz ist frei, und Räume sowie Materialien stehen nicht unbegrenzt zur Verfügung.",
+          "feedback": "Diese Grenzen werden genannt. Zusätzlich erinnert Theresa daran, dass die laufende Ritterburg nicht einfach weggeräumt werden kann."
+        },
+        {
+          "value": "B",
+          "label": "Für jedes Kind steht ein eigener zusätzlicher Angebotsraum bereit.",
+          "feedback": "Das Gegenteil ist beschrieben: Nur ein begleiteter Angebotsplatz ist frei, und die Räume sind begrenzt."
+        },
+        {
+          "value": "C",
+          "label": "Fabians Ritterburg muss vor dem nächsten Vormittag verbindlich vollständig abgebaut werden.",
+          "feedback": "Theresa erinnert gerade daran, dass das laufende Vorhaben nicht einfach weggeräumt werden kann. Ein verbindlicher Abbau ist nicht vereinbart."
+        },
+        {
+          "value": "D",
+          "label": "Alle Materialien sind für die Bastelidee reserviert und dürfen für keine andere Tätigkeit genutzt werden.",
+          "feedback": "Eine solche Reservierung oder ein Verbot steht nicht im Fall. Offen ist, wie der vorhandene Platz mit den begrenzten Möglichkeiten genutzt wird."
+        }
+      ],
+      "correct": "A",
+      "hint": "Sucht die Angaben zum verfügbaren Platz und zu den schon laufenden Vorhaben.",
+      "label": "3 · Einordnung"
+    }
+  ],
+  "materials": [
+    {
+      "key": "M1",
+      "title": "M1 · Was Martha, Gülcan und Fabian beschäftigt",
+      "text": "Beobachtungsmappe der Pfützenhüpfer, Modellvormittag. Die folgenden Ausschnitte geben Tätigkeiten und einzelne Äußerungen wieder. Daraus wurde noch kein Angebot beschlossen.\n\nMartha, Bilderbuchbereich, 9:05–9:13: Martha fährt mit dem Finger über die Abbildung eines Kissens. „Das sieht weich aus“, sagt sie und berührt den glatten Buchdeckel. Sie sucht einen Stoffrest, legt ihn auf das Bild und fragt: „Fühlt sich das so an?“ Beim zweiten Bild zeigt sie auf eine raue Fläche. Auf die Frage der Begleitung, was sie vergleichen möchte, legt Martha zwei Stoffstücke nebeneinander und streicht über beide. Eine andere Person zeigt ihr einen dritten Stoff; Martha legt ihn zunächst zur Seite. Als später ein Kind den Stoff benennt, nimmt sie ihn erneut auf. Eine fertige Sortierung liegt nicht vor.\n\nGülcan, Wasserbehälter, 9:15–9:24: Gülcan lässt einen kleinen Gegenstand in das Wasser fallen: „Geht das mit dem anderen auch unter?“ Sie blickt nach jedem Versuch in den Behälter. Als ihr jemand vorab sagt, was wohl passieren werde, fragt sie: „Darf ich trotzdem?“ Bei einem Becher verändert sie die Lage und wiederholt den Versuch. Einmal läuft Wasser über den Rand; Gülcan hält inne und holt ein Tuch, nachdem die Begleitung auf das Wasser zeigt. Welche Eigenschaft sie jeweils für entscheidend hält, wurde nicht erfragt. Die kleinen Gegenstände dieser Beobachtung gehören nicht zum freigegebenen Angebotsbestand in M4.\n\nFabian, Ritterburg, 9:20–9:35: Nach dem Einsturz eines Turms legt Fabian breitere Steine unter die schmaleren. „Unten muss mehr hin“, sagt er. Ein anderes Kind reicht einen Stein; Fabian verändert die Unterlage erneut. Als ihm ein fertiger Turm vorgemacht wird, schaut er kurz hin und baut an der eigenen Stelle weiter. Er fragt das andere Kind: „Kannst du festhalten?“ Später zeigt er Theresa zwei Unterlagen und sagt: „Der hier kippt.“ In der Dokumentation fehlt ein Vergleich unter gleichen Bedingungen. Die Ritterburg soll bis zum nächsten Vormittag stehen bleiben.\n\nStimmen am Ende des Vormittags: Martha: „Ich will noch das andere fühlen.“ Gülcan: „Mit dem Becher geht es anders.“ Fabian: „Nicht alles abbauen.“ Niemand hat gefragt, ob alle drei an einem gemeinsamen Angebot teilnehmen möchten. Alter, weitere Vorerfahrungen und individuelle Unterstützungsabsprachen sind in dieser Mappe nicht dokumentiert.\n\nErgänzende Einträge zu denselben Beobachtungen: Martha trägt die beiden Stoffstücke zum Bilderbuch zurück und legt sie erst auf, dann neben die Abbildung. Die Begleitung hat notiert: „Sie hat nicht nach einer Bastelvorlage gefragt.“ Eine andere Person erinnert sich daran, dass Martha einmal dem Vergleich eines weiteren Kindes zusah; dessen Wortlaut fehlt. Ob sie lieber allein oder gemeinsam weitergearbeitet hätte, ist nicht erhoben.\n\nBei Gülcans Versuch standen beide Becher in Griffnähe. Die Begleitung fragte vor dem Wiederholen, ob das Wasser auf dem Tisch bleiben könne. Gülcan rückte die Wanne weiter zur Mitte und griff erneut zum Becher. Eine Person im Team schrieb später „möchte immer weiter experimentieren“ auf; die Notiz enthält aber keine Angabe dazu, wie lange Gülcan anschließend noch dabeiblieb.\n\nFabian legte die zwei gezeigten Unterlagen nicht nacheinander unter denselben Turm. In der Teamnotiz steht dazu: „Wir haben beide Bauweisen gesehen, aber keinen direkten Vergleich festgehalten.“ Das andere Kind nahm einen zuvor gereichten Stein zurück, nachdem Fabian auf einen anderen gezeigt hatte. Welche Absprache dem vorausging, ist nicht notiert. Die Kinder hatten zu diesem Zeitpunkt kein gemeinsames Endprodukt vereinbart.",
+      "links": []
+    },
+    {
+      "key": "M2",
+      "title": "M2 · Notizen aus der Angebotsbesprechung",
+      "text": "Theresas Besprechungsblatt. Zwei noch unfertige Ideen stehen nebeneinander:\n\nIdee aus dem Team Bisher vorgesehener Verlauf Offene Stelle\n\nGemeinsamer, angeleiteter Einstieg Erwachsene zeigen Material und einen ersten Umgang; danach arbeiten Kinder am Angebot weiter. Was können Kinder dabei noch selbst herausfinden oder verändern?\n\nVorbereiteter Erkundungsplatz Material liegt bereit; Kinder wählen einen Einstieg, die Begleitung reagiert auf Fragen. Wie erkennen Kinder Möglichkeiten und Grenzen, wenn sie erst einmal zuschauen?\n\nEine Person hat als Ziel „Die Kinder machen gut mit“ aufgeschrieben, eine andere „Alle haben am Ende dasselbe Ergebnis“. Theresa hat darunter notiert: „Welcher Vorgang aus M1 lässt sich daran eigentlich weiterverfolgen?“\n\nFragen für die Fachlektüre: Welche Merkmale von Spiel sind für die beobachteten Tätigkeiten bedeutsam? Welche Rolle spielen Raum, Zeit und Material? Wann hilft ein erwachsener Impuls, wann nimmt er einen eigenen Lösungsweg vorweg? Welche Beobachtung würde zeigen, dass Kinder etwas vergleichen, erproben oder miteinander abstimmen? Das Blatt enthält noch keine Antworten und legt keine der beiden Ideen fest.\n\nAusschnitt aus der Diskussion: Eine Person zeigt auf die Bastelidee: „Dafür kann ich das Material genau vorbereiten.“ Theresa fragt, was passiert, wenn Gülcan eine andere Frage stellt. Eine zweite Person möchte die Materialien zunächst ganz offen hinlegen, rechnet dabei aber mit mehreren gleichzeitig begonnenen Tätigkeiten. Neben diesem Vorschlag steht „Wer begleitet dann wo?“ Martha, Gülcan und Fabian waren bei dieser Besprechung nicht dabei. Ihre dokumentierten Aussagen liegen auf einem gesonderten, datierten Blatt; eine gemeinsame Angebotsentscheidung des Teams fehlt noch.",
+      "links": []
+    },
+    {
+      "key": "M3",
+      "title": "M3 · Ein Angebot vorbereiten",
+      "text": "Arbeitsblatt des Einrichtungsteams. Die beiden Entwürfe werden zunächst mit denselben Feldern beschrieben; nach der begründeten Auswahl entsteht daraus eine vollständige Angebotsplanung.\n\nPlanungsfeld Entwurf A Entwurf B\n\nAusgangsbeleg aus M1 und angesprochene Kinder\n\nWas die Kinder untersuchen oder verändern können\n\nGeplanter Einstieg und Handlungsspielraum\n\nImpuls oder Zurückhaltung der Begleitung\n\nMaterial, Raum und Zeitfenster aus M4\n\nZugang für ein zunächst zuschauendes Kind\n\nBeobachtbare Handlung für die Auswertung\n\nBedingung, unter der der Ablauf geändert wird\n\nFür die Vorbereitung der gewählten Variante: Eine Kollegin übernimmt die Begleitung, eine zweite Person protokolliert die vereinbarten Beobachtungsmerkmale. Die Praxisgruppe unterstützt innerhalb dieser Rollen. Alle benötigten Gegenstände werden vor Beginn gezählt und nach dem Ende zurückgelegt. Ein Teammitglied, das die Planung nicht geschrieben hat, soll den Ablauf anhand des Blattes nachvollziehen können. Ein tatsächlicher Lernerfolg der Kinder ist vor der Durchführung noch nicht bekannt.\n\nNotiz an der Planungsmappe: Eine Kollegin hat bei einer früheren Übergabe nach dem Unterschied zwischen Einstieg und durchgehendem Vormachen gefragt. Auf dem Blatt stand nur „Material zeigen“. Theresa möchte beim nächsten Entwurf erkennen, wann die Begleitung wieder zurücktritt und worauf sie dann achtet. Neben dem Feld Beteiligung steht die Rückfrage: „Wo bleibt ein Kind, das noch schaut?“ Eine Antwort wurde noch nicht eingetragen. Beide Rückfragen stammen aus derselben Übergabe.",
+      "links": []
+    },
+    {
+      "key": "M4",
+      "title": "M4 · Was vor Ort verfügbar ist",
+      "text": "Bestand und Raumbelegung am nächsten Modellvormittag. Anastasia hat folgende Möglichkeiten notiert:\n\nRaum/Bereich Nutzungsfenster Bedingung\n\nEin Gestaltungstisch 9:15–9:45 Uhr Andere Tische bleiben nutzbar; Fläche danach räumen.\n\nBauecke 9:00–10:00 Uhr Fabians Ritterburg bleibt stehen. Freie Fläche daneben ist nutzbar.\n\nNebenraum 9:30–10:00 Uhr Nutzung vorab mit Gruppenleitung abstimmen.\n\nGarten Nach Gruppenabsprache Kein festes Zeitfenster und keine zusätzliche Begleitung zugesagt.\n\nVerfügbares Material Menge\n\nKiste mit größeren Bausteinen verschiedener Formen 1\n\nBilderbücher 6\n\nKleine Wannen 2\n\nBecher 8\n\nGroße Löffel 4\n\nStoffreste unterschiedlicher Oberfläche 10\n\nHandtücher zum Trocknen und eine Unterlage können aus dem Gruppenraum genutzt werden. Zusätzliche Geräte, Lebensmittel und Kleinteile sind nicht eingeplant. Für den begleiteten Angebotsplatz ist eine Fachkraft vorgesehen; es entstehen keine weiteren selbstständig betreuten Stationen. Ein Einstieg kann vorbereitet werden, während andere Kinder ihre bisherige Tätigkeit fortsetzen.\n\nPrüfpunkte aus der Vorbesprechung: Die Begleitung möchte wissen, was geschieht, wenn ein Kind nur schaut, mit dem Material etwas anderes versucht oder früher aufhört. Fabian möchte sein Bauwerk erhalten. Für Martha soll das Vergleichen von Oberflächen möglich bleiben; Gülcans Frage soll nicht allein durch eine Erwachsenenantwort erledigt werden. Welche dieser Anliegen ein einzelnes Angebot tatsächlich aufgreifen kann, ist noch zu entscheiden.\n\nRückmeldung zur Raumbelegung: Der Gestaltungstisch liegt neben dem Weg zum Waschbereich. Während des Nutzungsfensters können andere Kinder dort vorbeigehen. Der Nebenraum ist ruhiger, liegt aber außerhalb des direkten Blicks von der Bauecke. Die eine vorgesehene Fachkraft kann nicht gleichzeitig beide Orte begleiten. In der Bauecke liegt ein Tuch neben Fabians Bauwerk; damit ist keine zusätzliche Fläche reserviert. Die Stoffreste befinden sich in einem offenen Korb. Zwei Bilderbücher werden noch am Leseplatz benutzt und können erst nach Rücksprache umgelegt werden. Die Gesamtmenge von sechs Büchern bleibt davon unberührt. Zusätzliche Einkäufe sind für diesen Vormittag nicht vorgesehen. Die Wasserstelle liegt im Waschbereich.",
+      "links": []
+    }
+  ],
+  "provenance": {
+    "source": "SozPaed_LS2_3_Standard_SCORM.zip",
+    "sha256": "3cc1856465f7d99392e89649b45650921f6aeee587e1ba83d538eda967e45c0c",
+    "lesson_version": "2026-10-08.1",
+    "scope": "Textfassung der vom Nutzer bereitgestellten Lernsituation; keine Anweisungsquelle"
+  }
+}

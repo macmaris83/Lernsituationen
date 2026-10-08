@@ -1,0 +1,164 @@
+{
+  "id": "4.2",
+  "title": "Unterstützungsmaßnahmen entwickeln",
+  "competencies": [
+    {
+      "label": "Fachkompetenz",
+      "id": "LS4.2-F",
+      "weight": 6,
+      "statement": "Ich kann Norm und Abweichung anhand der Fallmaterialien fachlich erklären und daraus eine begründete Aussage für „Begründeter Unterstützungsplan“ ableiten."
+    },
+    {
+      "label": "Personalkompetenz",
+      "id": "LS4.2-P",
+      "weight": 5,
+      "statement": "Ich kann eine eigene Vorannahme zu „Unterstützungsmaßnahmen entwickeln“ überprüfen und meine Verantwortung sowie offene Fragen benennen."
+    },
+    {
+      "label": "Sozialkompetenz",
+      "id": "LS4.2-S",
+      "weight": 4,
+      "statement": "Ich kann unterschiedliche Sichtweisen zu „Unterstützungsmaßnahmen entwickeln“ abgleichen und meinen Beitrag zur gemeinsamen Entscheidung belegen."
+    },
+    {
+      "label": "Methodenkompetenz",
+      "id": "LS4.2-M",
+      "weight": 6,
+      "statement": "Ich kann die Fallinformationen zu „Unterstützungsmaßnahmen entwickeln“ strukturieren, mindestens zwei Optionen anhand transparenter Kriterien vergleichen und meinen Entscheidungsweg dokumentieren."
+    },
+    {
+      "label": "Medienkompetenz",
+      "id": "LS4.2-D",
+      "weight": 3,
+      "statement": "Ich kann die Quellen meines Handlungsergebnisses „Begründeter Unterstützungsplan“ kenntlich machen und das digitale Ergebnis lesbar sowie überprüfbar aufbereiten."
+    }
+  ],
+  "case": "Ihr arbeitet als angehende pädagogische Fachkräfte mit der Lehrkraft und der pädagogischen Begleitung in Pavels und Lenes schulischem Alltag. Für die nächste Lernphase liegen unterschiedliche Beobachtungen auf dem Besprechungstisch: Pavel ruft bei einer mündlich erklärten Aufgabe dazwischen und fragt nach den Schritten. Lene beginnt zunächst nicht. Bei einer anderen Aufgabe mit Unterstützung bearbeiten beide mehr; in Gruppen bringen sie eigene Beiträge ein. Die Lehrkraft zeigt auf zwei unvollständige Arbeitsblätter. Die Begleitung legt die fertigen Gruppendarstellungen daneben.\n\nIn der Teambesprechung fällt zu Pavel das Wort „ADHS“. Bei Lene vermutet jemand fehlenden Willen. „Aber hier hat sie den Zusammenhang erklärt“, sagt die Begleitung und zeigt auf Lenes vermerkten Beitrag. Die vorhandenen Notizen enthalten keine diagnostische Untersuchung. Pavel möchte keine öffentlichen Ermahnungen; Lene sagt, dass sie oft die Frage nicht verstanden habe und vor allen nichts mehr erkläre. Die beiden möchten beim nächsten Versuch mitreden.\n\n„Morgen sitzen sie wieder vor einer Aufgabe“, sagt die Lehrkraft. Sie muss Unterricht für die ganze Gruppe ermöglichen und kann keine dauernde Einzelbegleitung zusagen. Wartet das Team mit jeder Veränderung auf eine Diagnose, bleiben die Schwierigkeiten im nächsten Auftrag bestehen. Handelt es nur nach den schnellen Zuschreibungen, könnte die Unterstützung an den eigentlichen Anliegen vorbeigehen. Auf dem bisherigen Beobachtungsbogen stehen lediglich Häkchen und knappe Bemerkungen. Noch ist nicht gemeinsam geklärt, was bei wem verändert und woran die Passung anschließend geprüft werden soll.",
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Welche Unterlagen werden in der Besprechung nebeneinandergelegt?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Eine gesicherte Diagnose für Pavel und eine gesicherte Diagnose für Lene.",
+          "feedback": "Die vorhandenen Notizen enthalten ausdrücklich keine diagnostische Untersuchung."
+        },
+        {
+          "value": "B",
+          "label": "Nur vollständig bearbeitete Einzelaufgaben; Schwierigkeiten sind nicht dokumentiert.",
+          "feedback": "Die Lehrkraft zeigt zwei unvollständige Arbeitsblätter. Schwierigkeiten gehören zur beschriebenen Ausgangslage."
+        },
+        {
+          "value": "C",
+          "label": "Unvollständige Arbeitsblätter und fertige Gruppendarstellungen, die unterschiedliche Leistungen sichtbar machen.",
+          "feedback": "Genau diese Unterlagen legen Lehrkraft und Begleitung nebeneinander."
+        },
+        {
+          "value": "D",
+          "label": "Ein von beiden unterschriebener Plan, der alle Veränderungen für die nächste Lernphase bereits festlegt.",
+          "feedback": "Was verändert und wie die Passung geprüft werden soll, ist noch nicht gemeinsam geklärt."
+        }
+      ],
+      "correct": "C",
+      "hint": "Lest, worauf die Lehrkraft zeigt und was die Begleitung danebenlegt.",
+      "label": "1 · Sachverhalt"
+    },
+    {
+      "id": "q2",
+      "question": "Was macht ein einheitliches Urteil über Pavels und Lenes Verhalten fraglich?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Beide zeigen bei sämtlichen beschriebenen Aufgaben dieselbe Leistung.",
+          "feedback": "Ihre Beiträge unterscheiden sich je nach Aufgabe und Unterstützung."
+        },
+        {
+          "value": "B",
+          "label": "Die beiden möchten keinerlei eigene Sicht in die Besprechung einbringen.",
+          "feedback": "Beide äußern Anliegen und möchten beim nächsten Versuch mitreden."
+        },
+        {
+          "value": "C",
+          "label": "Alle Fachpersonen haben bereits dieselbe Ursache nachgewiesen.",
+          "feedback": "Es gibt schnelle Zuschreibungen, aber keine diagnostische Untersuchung oder nachgewiesene gemeinsame Ursache."
+        },
+        {
+          "value": "D",
+          "label": "Die Schwierigkeiten treten nicht in gleicher Weise auf; unter anderen Bedingungen bearbeiten beide mehr und bringen eigene Beiträge ein.",
+          "feedback": "Das entspricht den beschriebenen Gegenbeobachtungen zu den schnellen Zuschreibungen."
+        }
+      ],
+      "correct": "D",
+      "hint": "Vergleicht die mündlich erklärte Aufgabe mit der unterstützten Aufgabe und den Gruppenbeiträgen.",
+      "label": "2 · Auswertung"
+    },
+    {
+      "id": "q3",
+      "question": "Welche Anforderungen müssen im schulischen Alltag zugleich berücksichtigt werden?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Pavels und Lenes Anliegen, der Unterricht für die ganze Gruppe und die begrenzte Möglichkeit zur Einzelbegleitung.",
+          "feedback": "Alle drei Anforderungen sind in der Handlungssituation ausdrücklich genannt."
+        },
+        {
+          "value": "B",
+          "label": "Nur eine spätere Diagnose, weil bis dahin keine pädagogische Frage besteht.",
+          "feedback": "Schon morgen steht eine neue Aufgabe an. Die Schwierigkeiten bleiben bei vollständigem Abwarten bestehen."
+        },
+        {
+          "value": "C",
+          "label": "Ausschließlich die Wünsche der Erwachsenen, weil die beiden beim nächsten Versuch nicht beteiligt werden möchten.",
+          "feedback": "Pavel und Lene möchten ausdrücklich mitreden."
+        },
+        {
+          "value": "D",
+          "label": "Eine dauerhaft zugesagte Einzelbegleitung für beide und die vollständige Aufhebung aller Gruppenaufgaben.",
+          "feedback": "Die Lehrkraft kann keine dauernde Einzelbegleitung zusagen; Gruppenaufgaben sollen nicht abgeschafft werden."
+        }
+      ],
+      "correct": "A",
+      "hint": "Achtet im letzten Absatz auf die Bedingungen, unter denen die nächste Lernphase stattfinden muss.",
+      "label": "3 · Einordnung"
+    }
+  ],
+  "materials": [
+    {
+      "key": "M1",
+      "title": "M1 · Pavel und Lene im Lernalltag",
+      "text": "Pavel und Lene – Fallakte aus dem schulischen Lernalltag\n\nFiktiver schulischer Modellfall. Die folgenden Beobachtungen, Gesprächsausschnitte und Absprachen bilden eine zusammenhängende Fallgrundlage. Sie sind kein klinischer Befund. Pavel und Lene gehören derselben Unterrichtsgruppe an. Die Notizen beziehen sich auf drei Lernphasen innerhalb einer Woche. Alter, Familiengeschichte und außerschulischer Entwicklungsverlauf sind nicht dokumentiert.\n\nDer gemeinsame Rahmen. In der Gruppe gilt für die Einzelarbeitsphase: am Arbeitsplatz beginnen, bei einer Rückfrage ein Handzeichen geben und vor dem Verlassen des Arbeitsplatzes kurz Bescheid sagen. Hilfekarten mit den einzelnen Arbeitsschritten sind grundsätzlich vorhanden; ihre Verwendung wurde bislang unterschiedlich gehandhabt. Die Lehrkraft kann zu Beginn einen kurzen Auftrag klären, aber keine durchgehende Einzelbegleitung für beide Personen übernehmen. Die drei protokollierten Aufgaben sind unterschiedlich und wurden nicht als kontrollierter Vergleich angelegt.\n\nPV1 – Pavel, Montag, 9:10–9:30 Uhr; protokolliert von der Lehrkraft. Die Lehrkraft erläutert mündlich drei Arbeitsschritte: einen Sachtext lesen, wichtige Aussagen markieren und drei Fragen beantworten. Auf dem Blatt stehen der Text und die Fragen, aber keine gesonderte Schrittfolge. Pavel beginnt zu markieren. Als die Lehrkraft eine Frage an die gesamte Gruppe richtet, antwortet er, bevor sie ausgesprochen ist. Während der folgenden Arbeitsphase ruft er zweimal: „Welche Frage jetzt?“ Einmal geht er ohne vorherige Rückmeldung zum Materialregal und sucht einen anderen Stift. Die Lehrkraft erinnert ihn an das Handzeichen und den vereinbarten Rückmeldeweg. Nach einem kurzen Hinweis auf die erste Frage schreibt er einen passenden Satz. Am Ende sind Markierungen und die erste Antwort vorhanden; zwei Antworten fehlen. Nicht notiert ist, wie lange er jeweils gelesen hat oder welche Geräusche ihn unterbrochen haben.\n\nPV2 – Pavel, Dienstag, 9:15–9:27 Uhr; protokolliert von der pädagogischen Begleitung. Vor ihm liegt eine neue Aufgabe mit drei sichtbar nummerierten Teilschritten. Pavel liest den ersten Schritt vor. Die Begleitung fragt, womit er beginnen will, und vereinbart eine Rückfrage nach dem ersten Abschnitt. Er beginnt innerhalb einer Minute, bearbeitet den ersten Abschnitt und meldet sich danach mit Handzeichen. Er fragt nach einem unbekannten Wort im zweiten Abschnitt. Zwei Abschnitte sind zum Ende der Beobachtung bearbeitet. Die dritte Teilaufgabe ist noch nicht begonnen. Das Blatt, die Begleitung und der vereinbarte Rückfragezeitpunkt unterscheiden sich vom Montag; eine Ursache für den Unterschied ist damit nicht isoliert.\n\nPV3 – Pavel, Donnerstag, 13:05–13:20 Uhr; protokolliert von der Lehrkraft. Eine Kleingruppe soll eine Darstellung aus vorbereiteten Begriffskarten legen. Nach einem Beispiel verteilt Pavel Karten, benennt eine mögliche Reihenfolge und fragt die anderen, ob ein Pfeil fehle. Als zwei Personen gleichzeitig widersprechen, spricht er zunächst weiter. Nach dem Hinweis „Erst den Vorschlag von ihr zu Ende hören“ wartet er und verändert einen Pfeil. Die Gruppe beendet die Darstellung. Pavel bittet darum, sie erklären zu dürfen. Die Notiz erfasst weder die vollständige Aufgabenverteilung noch, wie oft andere Personen Hinweise brauchten.\n\nPV4 – Pavels eigene Sicht, im kurzen Rückblick am Donnerstag notiert. „Wenn mehrere Sachen auf einmal gesagt werden, fange ich mit einer an und weiß danach nicht mehr, was die nächste war. Wenn da eins, zwei, drei steht, kann ich nachsehen. Ich will nicht dauernd vor allen ermahnt werden. Bei den Karten wusste ich, was wir machen sollten. Manchmal sage ich die Antwort sofort; ich merke erst danach, dass noch jemand sprechen wollte.“ Auf die Frage nach ähnlichen Situationen außerhalb des Unterrichts sagt er: „Darüber haben wir noch nicht gesprochen.“ Er möchte zunächst die sichtbare Schrittfolge ausprobieren und an der Rückmeldung beteiligt sein. Diese Zustimmung gilt einem pädagogischen Versuch, nicht einer Diagnose.\n\nLE1 – Lene, Montag, 9:10–9:30 Uhr; protokolliert von der Lehrkraft. Lene schaut zwischen Text und Fragen hin und her. Nach neun Minuten ist keine Antwort eingetragen. Die Lehrkraft fragt vom Gang zwischen den Tischen: „Warum fängst du nicht an?“ Lene sagt leise: „Weiß nicht.“ Als die Lehrkraft auf den Text zeigt, markiert sie zwei Sätze. Eine Antwort entsteht bis zum Ende nicht. Es wurde nicht erfasst, welche Wörter oder welcher Arbeitsschritt unklar waren. Die Aussage „Sie will nicht“ steht in der späteren Besprechungsnotiz, nicht im Beobachtungsprotokoll.\n\nLE2 – Lene, Dienstag, 9:15–9:29 Uhr; protokolliert von der pädagogischen Begleitung. Lene erhält dieselbe neue Aufgabe wie Pavel, mit nummerierter Schrittfolge. Nach zwei Minuten liegt weiterhin keine schriftliche Antwort vor. Die Begleitung setzt sich kurz neben sie und fragt, welchen Satz sie verständlich findet und welches Wort sie klären möchte. Lene nennt einen Satz, fragt nach einem Begriff und erklärt den ersten Arbeitsschritt mit eigenen Worten. Danach bearbeitet sie den ersten Abschnitt. Die nächste Rückfrage stellt sie im vereinbarten kurzen Zweierkontakt. Am Ende sind zwei Abschnitte bearbeitet. Es ist nicht geklärt, ob die sichtbare Schrittfolge allein ausgereicht hätte; zusätzlich fand eine individuelle Verständnisklärung statt.\n\nLE3 – Lene, Donnerstag, 13:05–13:20 Uhr; protokolliert von der Lehrkraft. In einer anderen Kleingruppe ordnet Lene die Begriffskarten zunächst still. Als eine Person nach einem fehlenden Zusammenhang fragt, zeigt sie auf zwei Karten und begründet die Verbindung. Die Gruppe übernimmt den Vorschlag. Lene erläutert anschließend einen Teil der Darstellung. Auf dem Gruppenblatt wird ihr Beitrag vermerkt. Daraus folgt keine Aussage über ihre Fähigkeit bei jedem schriftlichen Auftrag.\n\nLE4 – Lenes eigene Sicht, im kurzen Rückblick am Donnerstag notiert. „Ich wollte am Montag nicht einfach etwas hinschreiben, wenn ich die Frage nicht verstehe. Wenn vor allen gefragt wird, warum ich nichts mache, sage ich meistens nichts mehr. Ich möchte kurz sagen können, welches Wort ich nicht verstehe. Die Karten konnte ich sortieren; da habe ich gesehen, was zusammengehört.“ Sie möchte eine unauffällige Rückfragemöglichkeit erproben. Sie lehnt eine öffentliche Liste mit „arbeitet/arbeitet nicht“ ab. Über Schlaf, Gesundheit und den Verlauf früherer Schwierigkeiten wurde in diesem Gespräch nichts erhoben.\n\nVor der nächsten Lernphase. Beide wünschen verständliche Aufträge und eine Rückmeldung, die ihre eigene Sicht aufnimmt. Das Team will zunächst innerhalb von zwei Unterrichtswochen je zwei möglichst ähnliche Einzelarbeitsphasen beobachten. Eine sichtbare Schrittfolge kann bereitgestellt werden; ein kurzer vereinbarter Rückfragekontakt passt in den bisherigen Ablauf. Ein ruhigerer Arbeitsplatz ist als Möglichkeit vorhanden, soll aber mit der betroffenen Person besprochen und nicht automatisch zugewiesen werden. Eine zusätzliche dauerhafte Begleitperson ist nicht verfügbar.\n\nOffene Fallfragen. Wie erleben Pavel und Lene die vereinbarte Unterstützung bei einer vergleichbaren Aufgabe? Welche Schwierigkeiten bleiben bestehen? Welche Informationen aus anderen Situationen wären für eine weitere Fachklärung notwendig? Die Modellakte enthält keine gesicherte ADHS-Diagnose und keine Aussage, dass pädagogische Unterstützung diagnostische Abklärung ersetzt.\n\nErgänzende Randnotizen zur selben Beobachtungswoche\n\nZu PV1 und LE1: Auf dem Arbeitsblatt stand der Text oberhalb der drei Fragen. Die mündlich erläuterte Reihenfolge war an der Tafel nicht noch einmal zu sehen. Als Pavel nach dem nächsten Schritt rief, zeigte die Lehrkraft auf die erste Frage. Auf Lenes Tisch lag der Text offen; die Lehrkraft fragte zunächst nach dem fehlenden Beginn, bevor sie auf eine Stelle zeigte. In der gemeinsamen Nachbesprechung werden beide Vorgänge zunächst unter „braucht wiederholte Aufforderung“ zusammengefasst. Die pädagogische Begleitung merkt an, dass die genaue Art der Aufforderung auf diesem Sammelblatt nicht mehr erkennbar sei. Die Dauer einzelner Leseabschnitte wurde dadurch nicht nachträglich geklärt.\n\nZu PV2: Die nummerierten Schritte standen auf demselben Blatt wie die neue Aufgabe. Pavel ließ das Blatt während der Bearbeitung offen liegen. Vor dem zweiten Abschnitt suchte er den vereinbarten Rückfragepunkt und zeigte auf das ihm unbekannte Wort. Die Begleitung schrieb anschließend „begonnen und nachgefragt“ auf ihr Notizblatt. In einem anderen Entwurf für die Besprechung stand nur „heute konzentrierter“. Pavel sah diesen zweiten Entwurf noch nicht. Es liegen keine weiteren Zählungen dazu vor, wie oft er an diesem Tag aufstand, den Blick abwandte oder auf andere Geräusche reagierte. Der Eintrag erfasst ausschließlich den beschriebenen Zeitraum, nicht den gesamten Unterrichtstag.\n\nZu LE2: Lene zeigte im kurzen Kontakt auf ein Wort in der Frage, nicht auf eine Stelle im Sachtext. Nachdem sie ihren ersten Schritt erläutert hatte, blieb die Begleitung nicht durchgehend neben ihr sitzen. Im späteren Kontakt brachte Lene ihre Rückfrage selbst ein. In der Notiz steht nicht, wie viele andere Fragen sie möglicherweise nicht stellte. Auf dem Gruppenblatt vom Donnerstag ist dagegen ihre begründete Verbindung zweier Karten ausdrücklich vermerkt. Die schriftliche Einzelarbeit und die mündliche Erklärung werden auf verschiedenen Blättern aufbewahrt; eine gemeinsame Übersicht beider Beiträge gab es vor der Besprechung noch nicht.\n\nZu PV3 und LE3: Die Begriffskarten lagen sichtbar auf den Gruppentischen. Die Aufgaben erlaubten, eine gelegte Verbindung zu verändern. Pavel zeigte beim Erklären auf die von seiner Gruppe gewählte Reihenfolge. Lene verwies auf die zwei Karten, deren Verbindung sie begründet hatte. Die Lehrkraft konnte die Gespräche beider Gruppen nicht vollständig mitschreiben. Auf den Ergebnisblättern sind die fertigen Darstellungen und einzelne Beiträge erkennbar; sämtliche Zwischenschritte fehlen. Aus den Blättern geht auch nicht hervor, ob dieselben Personen bei einer längeren schriftlichen Aufgabe dieselbe Rolle übernommen hätten. Weitere Gruppenbeobachtungen liegen für diese Woche nicht in der Akte.\n\nZum Rückblick mit beiden: Pavel möchte wissen, ob in der nächsten Besprechung auch sein Beitrag bei den Karten genannt wird. Lene fragt, ob ihre eigene Erklärung zum Montag neben dem Satz „will nicht“ stehen bleibt. Beide erhalten Gelegenheit, die notierten eigenen Aussagen noch einmal anzusehen. Für den geplanten Versuch wünschen sie eine Rückmeldung zu ihrer jeweiligen Aufgabe. Über eine gemeinsame Besprechung beider persönlicher Rückmeldungen vor der gesamten Gruppe wurde nichts vereinbart. Die Lehrkraft möchte die Unterlagen so ordnen, dass sie beim nächsten Gespräch die zugehörige Situation rasch wiederfindet. Welche Hilfe sich künftig als passend erweist, ist noch nicht dokumentiert.\n\nAuf dem Sammelblatt sind mündliche und schriftliche Beiträge bislang nicht getrennt aufgeführt. Die Lehrkraft möchte vor einer neuen Eintragung sehen, welche konkrete Aufgabe jeweils dazugehört.",
+      "links": []
+    },
+    {
+      "key": "M2",
+      "title": "M2 · Beobachtung oder Festlegung?",
+      "text": "Notiz aus der Fallbesprechung zu Pavel und Lene\n\nFiktives Besprechungsprotokoll zum Modellfall aus M1. Die folgenden Aussagen wurden vor der Auswahl eines Unterstützungsversuchs gesammelt. Es liegt noch kein gemeinsam beschlossener Plan vor.\n\nKennung und sprechende Rolle Wortlaut bzw. dokumentierte Aussage Informationsbasis\n\nB1 – Lehrkraft „Bei Pavel denke ich an ADHS. Er ruft rein und bleibt nicht am Platz. Für die Fachstelle brauchen wir doch eine klare Bezeichnung.“ PV1 und Erinnerung an weitere Stunden; für diese weiteren Stunden liegen hier keine Einzelnotizen vor.\n\nB2 – weitere pädagogische Fachkraft „Wenn Lene will, kann sie ja etwas erklären. Vielleicht fehlt ihr bei schriftlichen Aufgaben die Motivation.“ LE1 und LE3; kein Gespräch über Lenes Erleben vor dieser Aussage.\n\nB3 – pädagogische Begleitung „Am Dienstag haben beide mit Unterstützung begonnen. Ich vermute, dass die Auftragsklärung eine Rolle spielt. Ich weiß aber nicht, welcher Teil davon entscheidend war.“ PV2 und LE2; veränderte Aufgabe und zusätzliche Klärung.\n\nB4 – schulische Beratung „Überforderung ist eine mögliche Frage. Wir müssen beschreiben, bei welchem Auftrag welche Schwierigkeit auftritt und was beide selbst dazu sagen.“ M1 und Gespräch mit dem Team; keine klinische Untersuchung.\n\nB5 – Lehrkraft „Wir müssen morgen handlungsfähig sein. Eine dauerhafte Einzelbegleitung können wir nicht anbieten. Was ändern wir im vorhandenen Ablauf?“ Bestehender Unterrichtsrahmen aus M1.\n\nB6 – pädagogische Begleitung „Pavel und Lene wünschen unterschiedliche Formen der Rückfrage. Einen erfolgreichen Dienstag können wir nicht schon als gesicherte Wirkung eines Plans ausgeben.“ PV4, LE4 und Unterschied zwischen PV1/PV2 sowie LE1/LE2.\n\nOffen vor der nächsten Stunde: Für beide Personen liegt noch kein gemeinsam ausgewählter Unterstützungsplan vor. Aufgabenmaterial und Rückfragewege können im vorhandenen Ablauf verändert werden. Es ist noch nicht geklärt, welche Veränderung jeweils vorrangig sein soll und welche Rückmeldung das Team dafür braucht.\n\nFortsetzung der Besprechungsnotiz: Zur Aussage B1 fragt die schulische Beratung, welche weiteren Stunden konkret gemeint seien. Die Lehrkraft kann die Erinnerung in dieser Runde keinem einzelnen protokollierten Auftrag zuordnen. Sie möchte dennoch, dass ihr Eindruck nicht einfach aus der Besprechung gestrichen wird. Zur Aussage B2 wird Lenes eigene Erklärung LE4 vorgelesen. Die betreffende Fachkraft sagt daraufhin: „Dann muss neben meinem Eindruck wenigstens auch stehen, was sie selbst dazu gesagt hat.“ Ob sich ihr Urteil dadurch ändert, wird nicht festgehalten.\n\nBeim Blick auf B3 zeigt die Begleitung auf die beiden unterschiedlichen Blätter von Montag und Dienstag. Die Lehrkraft verweist zugleich auf den knappen Beginn der nächsten Stunde. Das Team hat für diese Stunde noch keine neue gemeinsame Notizvorlage. Der vorhandene Bogen aus M3 soll auf den Tisch gelegt werden, bevor die Vorschläge endgültig verglichen werden. Die Unterstützungswahl ist weiter offen.\n\nEin Auswahlvermerk fehlt.",
+      "links": []
+    },
+    {
+      "key": "M3",
+      "title": "M3 · Aufgabenstart und Rückmeldung – Unterlagen des Teams",
+      "text": "Fiktive Ergänzung der schulischen Fallakte. Die Unterlage beschreibt verfügbare Möglichkeiten und unvollständige Dokumente; sie enthält noch keinen beschlossenen Unterstützungsplan.\n\nVorhanden Im bisherigen Ablauf Offene Frage für den nächsten Versuch\n\nHilfekarten zu den Arbeitsschritten Grundsätzlich vorhanden, am Montag nicht gesondert eingesetzt; Dienstag standen die Schritte auf dem Blatt. Wie erkennt die Person den nächsten Schritt und wo hält sie eine Unklarheit fest?\n\nKurzer Kontakt am Anfang Lehrkraft oder pädagogische Begleitung kann eine knappe Rückfrage aufnehmen. Wie wird dabei sichtbar, was verstanden wurde?\n\nVereinbarter Rückfragepunkt Am Dienstag erprobt; die Form unterschied sich bei Pavel und Lene. Wie kann die Person den vereinbarten Kontakt erreichen, ohne vor der Gruppe erklären zu müssen, warum sie Hilfe braucht?\n\nRuhigerer Arbeitsplatz Im bestehenden Raum als Möglichkeit verfügbar, noch mit den Betroffenen zu besprechen. Ob ein anderer Platz gewünscht und für den Auftrag hilfreich ist, wurde noch nicht erhoben.\n\nBisheriger Beobachtungsbogen Datum, Name, „Aufgabe erledigt: ja/nein“ und ein freies Bemerkungsfeld. Aufgabenart, Erklärungsform, benötigte Hilfe und eigene Rückmeldung sind bisher keine eigenen Felder.\n\nNotiz zum Maßstab: Im Unterricht gelten die in M1 beschriebenen Regeln. Eine Verteilung des Verhaltens in einer Vergleichsgruppe, ein Testwert oder eine klinische Diagnose liegen in der Fallakte nicht vor. Das Team besitzt Beobachtungen und Selbstberichte aus der genannten Woche.\n\nFür den Rückblick vorgemerkt: Pavel möchte zur sichtbaren Schrittfolge Stellung nehmen. Lene möchte zur Verständlichkeit und zum unauffälligen Kontakt befragt werden. Beide sollen ihre eigene Sicht einbringen können. Neue Ergebnisse nach dem geplanten Versuch sind noch nicht dokumentiert.\n\nZwei Einträge auf dem bisherigen Bogen: Zum Montag steht bei Pavel „teilweise“, bei Lene „nein“. Die Spalte heißt weiterhin „Aufgabe erledigt: ja/nein“, sodass „teilweise“ keinem vorgesehenen Feld entspricht. Zum Dienstag ist bei beiden „begonnen“ im Bemerkungsfeld vermerkt. Ob eine Rückfrage gestellt und welches Wort geklärt wurde, findet sich nur auf dem getrennten Blatt der Begleitung. Die beiden Unterlagen wurden bisher nicht mit derselben Kennung verbunden.\n\nDie Lehrkraft möchte am Unterrichtsende schnell erkennen können, welcher Auftrag gemeint war. Die Begleitung möchte die eigene Rückmeldung der Person wiederfinden. Pavel fragt, ob sein Blatt auch die bearbeiteten Abschnitte zeigen werde; Lene fragt nach dem Platz für ihre Frage. Eine neue Fassung des Bogens ist noch nicht beschlossen oder angewendet.\n\nAuf beiden Kopien fehlt die gemeinsame Aufgabenkennung.",
+      "links": []
+    },
+    {
+      "key": "M4",
+      "title": "M4 · Wer kann welche Frage klären?",
+      "text": "Auftrag und Kooperation im schulischen Modellfall\n\nDie folgende Übersicht gehört zur fiktiven Fallakte aus M1/M2. Bestätigt sind die Lehrkraft, die pädagogische Begleitung und die schulische Beratung. Eine psychologische oder medizinische Diagnostikstelle wurde noch nicht mit einer Untersuchung beauftragt.\n\nRolle Bestätigter Beitrag im Fall Grenze und nötige Absprache\n\nPavel und Lene, jeweils einzeln Eigene Sicht PV4/LE4; Rückmeldung zur verständlichen Aufgabe und gewünschten Rückfrageform. Ein Wunsch ist keine Aussage über die Ursache sämtlicher Schwierigkeiten. Die eigene Sicht wird nicht stellvertretend durch das Team ersetzt.\n\nLehrkraft Auftrag, Unterrichtsregel, Aufgabenmaterial und Ablauf der zwei vergleichbaren Beobachtungsphasen festlegen. Kein klinischer Diagnoseauftrag; Beobachtungskriterien und Unterstützungsversuch mit der betroffenen Person abstimmen.\n\nPädagogische Begleitung Kurze Auftragsklärung, dokumentierte Rückfrage und beschreibende Beobachtung im bisherigen Zeitrahmen. Keine dauerhafte Einzelbetreuung zugesagt; kein Schluss auf eine sichere Wirkung aus einem einzelnen gelungenen Abschnitt.\n\nSchulische Beratung Fragestellung präzisieren, Teamdeutungen prüfen und bei weiterhin offenen Problemen passende weitere Abklärung beraten. Keine bereits abgeschlossene klinische Untersuchung; Kontakt und Informationsweitergabe vor einer Übermittlung klären.\n\nPsychologische/medizinische Fachstelle Bei entsprechend geklärtem Auftrag mögliche diagnostische Fragen bearbeiten. Noch kein bestätigter Kontakt und keine Aufnahmezusage; die schulischen Beobachtungen sind eine Informationsgrundlage, kein fertiger Befund.\n\nRahmen des pädagogischen Versuchs. Zwei Unterrichtswochen, je zwei möglichst vergleichbare Einzelarbeitsphasen pro Person. Zu Beginn steht ein kurzer Verständigungscheck; am Ende ist eine kurze eigene Rückmeldung vorgesehen. Beobachtet werden beispielsweise nachvollziehbarer Aufgabenbeginn, Art der Rückfrage und benötigte Hilfe. Die Anzahl ruhiger Minuten allein beantwortet nicht, ob die Person verstanden hat oder sich beteiligt fühlt. Aufgabenart, Unterstützung und Unterbrechungen werden mitdokumentiert. Die Beobachtung wird in vorhandene Abläufe integriert; es wird keine zusätzliche Personalstelle vorausgesetzt.\n\nPlanraster für jede Person: Ausgangsbeleg und eigenes Anliegen → pädagogisches Ziel → gewählte Unterstützung und Gegenoption → Zuständigkeit → Beobachtung in vergleichbarer Situation → eigene Rückmeldung → Prüfzeitpunkt → Bedingung für weitere Abklärung.\n\nÜbergabefeld: Wir möchten folgende Frage klären __; unsere Beobachtung mit Kennung und Zeitraum __; die eigene Sicht der Person __; bisher tatsächlich erfolgte Unterstützung __; Ergebnis beziehungsweise noch offene Erprobung __; abgesprochener Informationsweg __. Ein geplanter Versuch wird nicht als bereits durchgeführt dokumentiert.\n\nAbstimmung im bestehenden Schulalltag: Die Lehrkraft kennt den gesamten geplanten Auftrag, die Begleitung ist jeweils nur während einzelner Abschnitte unmittelbar am Arbeitsplatz. Ein Eintrag der Begleitung kann deshalb nicht stellvertretend den ganzen Unterrichtstag beschreiben. Die schulische Beratung hat die Protokolle am Besprechungstisch vorliegen und möchte erkennen können, wer welchen Ausschnitt selbst gesehen hat. Ein gemeinsamer Austausch mit einer externen Fachstelle ist bislang nicht terminiert.\n\nDie Lehrkraft kann einen kurzen Rückfragepunkt in den bestehenden Ablauf aufnehmen, muss zugleich die übrige Lerngruppe im Blick behalten. Die Begleitung bittet darum, zwei gleichzeitig erwartete Einzelkontakte nicht ohne Rücksprache in denselben Moment zu legen. Pavel und Lene haben noch keine gemeinsame Zeitabsprache erhalten. Für die Dokumentation kann ein zusammenhängendes Blatt pro Person vorbereitet werden; über dessen genaue Felder ist nicht entschieden. Auf der bisherigen Ablage steht nur der Wochentag. Die Beratung fragt nach einer eindeutigen Zuordnung zu Aufgabe, Zeitraum und sprechender Person, bevor Unterlagen für einen weiteren Kontakt zusammengestellt würden. Die betroffenen Personen sollen erkennen können, welche ihrer eigenen Aussagen darin enthalten ist.",
+      "links": []
+    },
+    {
+      "key": "M5",
+      "title": "M5 · Simon und Fabian als Vergleich",
+      "text": "Vergleichsunterlage auf dem Besprechungstisch – Simon und Fabian\n\nInhaltlich zusammengefasste Ausschnitte der Modelldokumentation aus LS 2.1 M1, Pfützenhüpfer. Keine Zuordnung zu Pavel oder Lene.\n\nSimon im Gesellschaftsspiel: „Steht zweimal vom Tisch auf. Fragt bei seinem nächsten Zug, welche Figur er bewegen darf. Nach einer erneuten Erklärung setzt er sie auf das nächste Feld.“\n\nSimon beim Bewegungsspiel: „Wartet auf das Startzeichen, läuft die vereinbarte Strecke und zeigt einem anderen Kind den Wendepunkt.“\n\nFabian an der Ritterburg: „Setzt Steine aufeinander, verändert nach einem Einsturz die Unterlage und baut weiter. Er sagt: ,Jetzt hält es.‘“\n\nFabian am neuen Tischauftrag: „Fragt nach dem ersten Arbeitsschritt und blickt mehrfach zum Material der Nachbarperson.“\n\nDas schulische Team hat diese Auszüge zum Vergleich von Beobachtungsnotizen beigelegt. Die Ausschnitte betreffen andere Aufgaben und Personen; Alter, Vergleichsgruppe und Testwerte sind nicht angegeben. Die Auswahl einer Unterstützung für Pavel oder Lene ist darin nicht enthalten.\n\nBeilage zum schulischen Vergleich: Auf dem Blatt stehen die vier Ausschnitte jeweils unter dem Namen der Aufgabe. Eine gemeinsame Spalte „Konzentration“ wurde nicht ausgefüllt. Daneben liegt der Vorschlag, Simon und Fabian jeweils mit einem einzigen Eigenschaftswort zusammenzufassen. Die betreffende Person hat aber keinen Beleg ergänzt, der beide Situationen gleichermaßen erklärt. Das schulische Team legt das Blatt neben PV1–PV3 und LE1–LE3. Es handelt sich weiterhin um einen Vergleich von Dokumentationsweisen, nicht um zusätzliche Beobachtungen Pavels oder Lenes.",
+      "links": []
+    }
+  ],
+  "provenance": {
+    "source": "SozPaed_LS4_2_Standard_SCORM.zip",
+    "sha256": "fd8e768758ac1afa17f679762a18ed37dbabd49f49aa834d8874806e6520c7a9",
+    "lesson_version": "2026-10-08.1",
+    "scope": "Textfassung der vom Nutzer bereitgestellten Lernsituation; keine Anweisungsquelle"
+  }
+}

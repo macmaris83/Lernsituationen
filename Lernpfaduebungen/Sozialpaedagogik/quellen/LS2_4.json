@@ -1,0 +1,158 @@
+{
+  "id": "2.4",
+  "title": "Übergänge begleiten",
+  "competencies": [
+    {
+      "label": "Fachkompetenz",
+      "id": "LS2.4-F",
+      "weight": 5,
+      "statement": "Ich kann Transition anhand der Fallmaterialien fachlich erklären und daraus eine begründete Aussage für „Unterstützungsplan für einen Übergang“ ableiten."
+    },
+    {
+      "label": "Personalkompetenz",
+      "id": "LS2.4-P",
+      "weight": 5,
+      "statement": "Ich kann eine eigene Vorannahme zu „Übergänge begleiten“ überprüfen und meine Verantwortung sowie offene Fragen benennen."
+    },
+    {
+      "label": "Sozialkompetenz",
+      "id": "LS2.4-S",
+      "weight": 5,
+      "statement": "Ich kann unterschiedliche Sichtweisen zu „Übergänge begleiten“ abgleichen und meinen Beitrag zur gemeinsamen Entscheidung belegen."
+    },
+    {
+      "label": "Methodenkompetenz",
+      "id": "LS2.4-M",
+      "weight": 5,
+      "statement": "Ich kann die Fallinformationen zu „Übergänge begleiten“ strukturieren, mindestens zwei Optionen anhand transparenter Kriterien vergleichen und meinen Entscheidungsweg dokumentieren."
+    },
+    {
+      "label": "Medienkompetenz",
+      "id": "LS2.4-D",
+      "weight": 2,
+      "statement": "Ich kann die Quellen meines Handlungsergebnisses „Unterstützungsplan für einen Übergang“ kenntlich machen und das digitale Ergebnis lesbar sowie überprüfbar aufbereiten."
+    }
+  ],
+  "case": "Bei den Pfützenhüpfern im Regenbogenland Aurich steht Gülcans Wechsel in die Schule bevor. Im Team und in Gesprächen mit Erwachsenen ist viel von zuverlässiger Mitarbeit und den neuen Anforderungen die Rede. Gülcan fragt dagegen, was man dort ausprobieren kann und ob noch Zeit für eigene Fragen bleibt. In der Vorbereitungsliste stehen Termine und Zuständigkeiten; auf ihre Fragen findet sich bisher keine Antwort.\n\nIhr arbeitet mit Hamide und der Praxisgruppe an der Vorbereitung des Gruppenalltags. Theo hat seit der Geburt seiner Schwester ebenfalls Veränderungen erlebt; wie er sie empfindet, weiß das Team bislang kaum. Gleichzeitig erwägt Benedikt eine berufliche Veränderung, ohne dass ein Abschied feststeht. Manche im Team möchten möglichst früh Sicherheit vermitteln, andere fürchten Versprechen, die sich später nicht halten lassen. Gülcan fragt beim Experimentieren erneut nach der Schule. Die Erwachsenen möchten sie stärken, sind sich aber nicht einig, wie sie ihre Fragen und Wünsche in den nächsten Tagen aufgreifen können.\n\nHamide findet Gülcans kleines Fragenblatt zwischen zwei Terminnotizen. „Sie hat gefragt, ob ich das wirklich aufgeschrieben habe“, erzählt sie. Im selben Moment sucht eine Kollegin auf der Erwachsenenliste nach dem nächsten Gespräch. Für die Erwachsenen scheint vieles in Vorbereitung; für Gülcan ist noch nicht erkennbar, wann ihre eigene Frage wieder aufgegriffen wird.",
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Welche eigenen Fragen bringt Gülcan zu ihrem Schulwechsel ein?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Ob Benedikt ihre neue Lehrkraft wird und Theo mit in ihre Klasse kommt.",
+          "feedback": "Diese Fragen werden nicht berichtet. Gülcan fragt nach Ausprobieren und nach Zeit für eigene Fragen in der Schule."
+        },
+        {
+          "value": "B",
+          "label": "Ob ihr Fragenblatt die Terminliste der Erwachsenen ersetzen muss.",
+          "feedback": "Gülcan hat gefragt, ob ihre Frage wirklich aufgeschrieben wurde. Ein Ersetzen der Erwachsenenliste wird nicht verlangt."
+        },
+        {
+          "value": "C",
+          "label": "Ob der Wechsel bereits abgesagt wurde.",
+          "feedback": "Ein abgesagter Wechsel ist nicht beschrieben. Gülcan fragt nach dem, was sie in der Schule tun und fragen kann."
+        },
+        {
+          "value": "D",
+          "label": "Was man in der Schule ausprobieren kann und ob dort noch Zeit für eigene Fragen bleibt.",
+          "feedback": "Diese Anliegen werden ausdrücklich genannt. Sie stehen neben dem Erwachsenenblick auf Mitarbeit und neue Anforderungen."
+        }
+      ],
+      "correct": "D",
+      "hint": "Trennt Gülcans eigene Worte von den Themen, über die Erwachsene sprechen.",
+      "label": "1 · Sachverhalt"
+    },
+    {
+      "id": "q2",
+      "question": "Welchen Stand hat Benedikts mögliche berufliche Veränderung?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Er erwägt eine Veränderung; ein Abschied steht noch nicht fest.",
+          "feedback": "Dieser offene Stand wird ausdrücklich genannt. Ein sicherer Abschied oder ein fester Termin wäre durch den Fall nicht gedeckt."
+        },
+        {
+          "value": "B",
+          "label": "Er hat die Einrichtung bereits verlassen.",
+          "feedback": "Die Handlungssituation beschreibt nur, dass er eine Veränderung erwägt. Ein erfolgter Abschied wird nicht berichtet."
+        },
+        {
+          "value": "C",
+          "label": "Er hat verbindlich zugesagt, Gülcan nach ihrem Schulwechsel täglich zu begleiten.",
+          "feedback": "Eine solche Zusage ist nicht beschrieben. Die Erwachsenen sind gerade vorsichtig mit Versprechen, die sich später nicht halten lassen."
+        },
+        {
+          "value": "D",
+          "label": "Er hat dem Team einen festen Abschiedstermin mitgeteilt.",
+          "feedback": "Ein Abschied steht noch nicht fest. Die mögliche Veränderung darf daher nicht als bereits entschiedener Ablauf behandelt werden."
+        }
+      ],
+      "correct": "A",
+      "hint": "Achtet auf die Wörter, mit denen die Sicherheit dieser möglichen Veränderung beschrieben wird.",
+      "label": "2 · Auswertung"
+    },
+    {
+      "id": "q3",
+      "question": "Welche Lücke wird am Fragenblatt und an der Erwachsenenliste sichtbar?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Die Erwachsenen haben noch keine Termine oder Zuständigkeiten gesammelt.",
+          "feedback": "Die Vorbereitungsliste enthält bereits Termine und Zuständigkeiten. Gülcans Anliegen werden dadurch aber noch nicht erkennbar aufgegriffen."
+        },
+        {
+          "value": "B",
+          "label": "Gülcan hat erklärt, dass sie ihre Schulfragen nicht mehr besprechen möchte.",
+          "feedback": "Sie fragt beim Experimentieren erneut nach der Schule und nach dem Aufschreiben ihrer Frage. Ein Rückzug ihres Anliegens ist nicht beschrieben."
+        },
+        {
+          "value": "C",
+          "label": "Für Erwachsene ist vieles organisiert, für Gülcan ist aber noch nicht erkennbar, wann ihre eigene Frage aufgegriffen wird.",
+          "feedback": "Genau diese unterschiedliche Orientierung beschreibt das Ende der Szene. Ein vorhandener Terminplan beantwortet ihre Frage noch nicht."
+        },
+        {
+          "value": "D",
+          "label": "Das Team hat Gülcan bereits alle weiteren Schritte mit einer festen Zusage erklärt.",
+          "feedback": "Eine solche Erklärung liegt nicht vor. Das Team ist noch uneinig, wie ihre Fragen und Wünsche in den nächsten Tagen aufgegriffen werden können."
+        }
+      ],
+      "correct": "C",
+      "hint": "Vergleicht den Vorbereitungsstand aus Sicht der Erwachsenen mit dem, was Gülcan bisher erkennen kann.",
+      "label": "3 · Einordnung"
+    }
+  ],
+  "materials": [
+    {
+      "key": "M1",
+      "title": "M1 · Gülcan und Theo in Veränderung",
+      "text": "Gesprächs- und Beobachtungsnotizen aus dem Regenbogenland Aurich.\n\nGülcan – Schulübergang:\n\nAusschnitt Dokumentierter Verlauf\n\nG1 · Gespräch am Experimentiertisch Gülcan fragt: „Was macht man eigentlich in der Schule?“ Eine erwachsene Person antwortet, dass Aufgaben zuverlässig erledigt werden müssten. Gülcan fragt danach: „Gibt es da auch etwas zum Ausprobieren?“ Eine konkrete Auskunft dazu folgt nicht.\n\nG2 · Beim Aufräumen Gülcan nimmt einen Becher und sagt: „Das könnte ich denen zeigen.“ Auf die Frage, wem sie es zeigen möchte, sagt sie: „In der Schule.“ Ob bereits ein Besuch oder ein Austausch vereinbart wurde, steht nicht in der Mappe.\n\nG3 · Gespräch mit Hamide Hamide fragt, worauf Gülcan sich freue. Gülcan: „Ich will wissen, was man da macht. Aber wenn ich etwas nicht weiß, wen frage ich?“ Hamide notiert beide Fragen.\n\nG4 · Bei der nächsten Gesprächsrunde Als die Erwachsenen über Materialien für den Schulbeginn sprechen, sagt Gülcan: „Und meine Frage?“ Danach wird auf der Liste „Fragen der Kinder“ ergänzt; eine Bearbeitung ist noch nicht dokumentiert.\n\nWeitere Hinweise aus der Gruppenmappe: Gülcan stellt bei Experimenten Vergleichsfragen und möchte einen Versuch auch dann selbst durchführen, wenn jemand die Antwort schon nennt. Eine Befragung zu ihrem gesamten Erleben des Schulbeginns liegt nicht vor. Aus G1–G4 wurde keine Angstaussage oder Belastungsdiagnose abgeleitet.\n\nTheo – veränderter Familienalltag: Die Geburt seiner Schwester ist bekannt. Beim Wechsel von der Bauecke zum Essen legt Theo die Hand auf sein Bauwerk und bleibt zunächst sitzen. Als die Begleitung einen freien Platz für das Bauwerk zeigt, steht er auf und kommt mit. In einem anderen Ausschnitt beginnt er nach dem Essen erneut zu bauen. Ob diese Handlungen mit der Geburt zusammenhängen, ist nicht erhoben. Theo hat in den vorliegenden Notizen nichts über seine Schwester gesagt. Seine vertraute Beschäftigung und die eigene Familienperspektive sind daher zwei getrennte Informationsbereiche.\n\nErgänzung aus Hamides Gesprächsnotiz: Bei G3 liegt der benutzte Becher noch auf dem Tisch. Gülcan zeigt zunächst darauf, bevor sie nach einer Ansprechperson fragt. Hamide hat ihre Frage wörtlich auf einem kleinen Blatt festgehalten. Gülcan schaut beim Schreiben zu und fragt: „Steht meine Frage da?“ Hamide liest sie vor. Das Blatt wird später zur Erwachsenenliste gelegt; eine weitere Antwort ist noch nicht notiert.\n\nZu G4 erinnert sich ein Teammitglied: „Ich hatte schon beim Wort Schule an die Materialliste gedacht.“ Eine andere Person verweist auf Gülcans ersten Satz über das Ausprobieren. Beide waren bei unterschiedlichen Gesprächsausschnitten anwesend.\n\nBeim Essenswechsel mit Theo war der freie Platz für sein Bauwerk erreichbar, ohne dass andere Kinder ihre Bauten umstellen mussten. Theo zeigte beim Aufstehen noch einmal auf einen Stein am Rand. Die Begleitung ließ diesen liegen. Ob Theo dies als wichtige Vereinbarung verstand, wurde nicht erfragt; über das Erleben seiner Familienveränderung entsteht dadurch keine zusätzliche Auskunft.",
+      "links": []
+    },
+    {
+      "key": "M2",
+      "title": "M2 · Ein möglicher Abschied",
+      "text": "Offener Stand aus der Dienstbesprechung.\n\nBenedikt: „Ich beschäftige mich mit einer möglichen beruflichen Veränderung. Ich habe noch keine Entscheidung getroffen. Ein Termin steht nicht fest.“\n\nAnastasia: „Auf der Ablageliste steht schon ‚Abschiedsaktion‘. Das ist bisher eine Idee aus dem Team, keine beschlossene Veranstaltung.“\n\nHamide: „Wer sagt den Kindern etwas, wenn die Entscheidung fällt? Und wer sammelt ihre Fragen?“\n\nEin Teammitglied: „Vielleicht sollten wir jetzt schon eine Abschiedswoche vorbereiten, dann werden wir nicht überrascht.“\n\nEin anderes Teammitglied: „Wenn alles anders kommt, wäre das doch verwirrend.“\n\nStand der internen Liste: Benedikts mögliche Veränderung wurde besprochen; es gibt weder einen bestätigten Weggang noch ein Datum, eine Nachfolge oder eine Mitteilung an Familien. Die bereits bekannte Zusammenarbeit mit Benedikt findet weiter statt. Die Praxisgruppe kann diesen offenen Stand in einer Teambesprechung berücksichtigen, aber keine zusätzliche Entscheidung über ihn treffen.\n\nNachtrag zur Ablageliste: Neben „Abschiedsaktion“ steht kein Name. Benedikt war überrascht, den Begriff schon auf dem Blatt zu finden: „Ich habe nur über eine Möglichkeit gesprochen.“ Ein Teammitglied sagt, es habe die Zeile als Erinnerung für später gemeint. Hamide fragt, ob jemand die Liste bereits außerhalb der Besprechung gesehen habe. Dazu liegt keine sichere Auskunft vor. Die Liste bleibt zunächst bei den internen Unterlagen. Die Notiz trägt kein Datum.",
+      "links": []
+    },
+    {
+      "key": "M3",
+      "title": "M3 · Rahmen für die nächsten Tage",
+      "text": "Planungsausschnitt des Regenbogenlands. Die Angaben betreffen die Möglichkeiten der Kita; sie versprechen keinen bestimmten Ablauf der späteren Schule.\n\nVerfügbare Möglichkeit Stand im Modell Grenze oder offene Frage\n\nGespräch mit Gülcan am vertrauten Experimentiertisch Ein ruhiges Zeitfenster von etwa 20 Minuten kann mit Hamide abgestimmt werden. Welche Fragen möchte Gülcan dort tatsächlich ansprechen?\n\nKleine vorbereitete Runde im Gruppenraum Ein halbstündiges Fenster ist möglich; Bilderbücher, Papier, Stifte und bekannte Spielmaterialien sind vorhanden. Wer möchte teilnehmen? Welche Fragen benötigen später eine sachliche Auskunft?\n\nFragen sammeln und im Team klären Eine Fachkraft kann die Sammlung in der nächsten Dienstbesprechung aufgreifen. Welche Antworten sind in der Kita bekannt, welche müssen erst eingeholt werden?\n\nAustausch mit Familie beziehungsweise Schule Die zuständige Fachkraft kann einen Kontakt vorbereiten. Termin, konkrete Auskunft und Zustimmung sind noch nicht vereinbart.\n\nRückmeldung an Gülcan Beim nächsten vereinbarten Gespräch im Regenbogenland möglich. Wie erkennt Gülcan, welche Frage beantwortet wurde und welche noch offen ist?\n\nBisherige Erwachsenenliste: Material für den Schulbeginn besprechen; Zuständigkeit für ein Familiengespräch klären; Auskünfte zum Übergang bündeln. Daneben stehen Gülcans wörtliche Fragen aus M1 auf einem gesonderten Blatt. Eine Zusammenführung fehlt bislang.\n\nFür Theo bleibt der Erhalt des Bauwerks während des Essens als bereits dokumentierter Ablauf verfügbar. Eine Aussage über seine Gefühle zur Geburt wurde nicht nachgetragen. Für Benedikt gilt der offene Stand aus M2.\n\nAbstimmung zum Gruppenalltag: Hamide kann das kurze Gespräch am Experimentiertisch begleiten, wenn es nicht mit der Materialausgabe zusammenfällt. Die genaue Lage des Zeitfensters ist noch offen. Für die kleine Runde stehen Stühle und ein niedriger Tisch bereit; die Nutzung legt noch nicht fest, dass Gülcan dort über die Schule sprechen möchte. Eine Kollegin bietet an, auftauchende Sachfragen zu notieren, hat jedoch keine eigenen aktuellen Angaben zur aufnehmenden Schule vorliegen. Die Erwachsenenliste enthält eine freie Spalte „Rückmeldung erfolgt“. Bei Gülcans Fragen ist diese Spalte bislang leer. Ein Teammitglied möchte Antworten gesammelt zurückgeben, ein anderes auch dann kurz Rückmeldung geben, wenn eine Auskunft noch aussteht. Eine Wiedervorlage ist nicht eingetragen.",
+      "links": []
+    },
+    {
+      "key": "M4",
+      "title": "M4 · Gespräche und nächste Schritte",
+      "text": "Leeres Planungsblatt für die interne Abstimmung. Der Unterstützungsplan bezieht sich auf Gülcans Schulübergang. Theo und Benedikt bleiben Vergleichsbeispiele, mit denen das Team Grenzen einer Übertragung prüft.\n\nAnliegen mit Fallbeleg Vorgesehener Schritt im Regenbogenland Was Gülcan daran beeinflussen kann Zuständigkeit Anlass/Zeitpunkt Rückmeldung und offener Stand\n\nFür die Gesprächsprobe: Die Person in der Rolle Gülcans nutzt die dokumentierten Äußerungen G1–G4. Eine unbekannte Kinderantwort bleibt offen. Die Begleitperson kann nachfragen und mögliche Wege anbieten; sie darf keine Schulregel, keinen Schulbesuch und keine Zustimmung als bereits bestätigt darstellen. Eine dritte Person notiert Wortlaut, Reaktion der Begleitung und erkennbaren Einfluss der Kinderfrage.\n\nAuswertungszeile: Geplanter Schritt: ____ · in der Rollenprobe verständlich geworden: ____ · unbeantwortete Frage: ____ · vor realer Umsetzung zu klärende Bedingung: ____.\n\nAblage: Der Plan bleibt in der internen Gruppenmappe. Die Rückmeldung an Gülcan soll auch ohne Lesen des Teamdokuments verständlich sein. Wie diese Rückmeldung aussehen kann, legt ihr erst nach der fachlichen Prüfung eurer Entwürfe fest.\n\nOffene Übergabefrage: Hamide möchte den Plan auch dann lesen können, wenn sie beim vorbereitenden Gespräch nicht dabei war. Eine Kollegin bittet um einen erkennbaren Unterschied zwischen „wir fragen nach“ und „wir wissen es bereits“. Auf Gülcans Fragenblatt stehen die Fragen in ihrer ursprünglichen Reihenfolge. Ob diese Reihenfolge auch ihre persönliche Wichtigkeit abbildet, wurde nicht erfragt. Das Team hat noch keine Form ausgewählt, mit der eine später eingegangene Antwort am Fragenblatt sichtbar werden soll. Beide Blätter liegen bislang getrennt.",
+      "links": []
+    }
+  ],
+  "provenance": {
+    "source": "SozPaed_LS2_4_Standard_SCORM.zip",
+    "sha256": "09f70ca0d2652afb0dffd4352250f9bcfa84761b3d253c2eac1277ad04945e28",
+    "lesson_version": "2026-10-08.1",
+    "scope": "Textfassung der vom Nutzer bereitgestellten Lernsituation; keine Anweisungsquelle"
+  }
+}

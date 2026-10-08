@@ -1,0 +1,158 @@
+{
+  "id": "7.2",
+  "title": "Teamkommunikation gestalten",
+  "competencies": [
+    {
+      "label": "Fachkompetenz",
+      "id": "LS7.2-F",
+      "weight": 5,
+      "statement": "Ich kann professionelle Haltung anhand der Fallmaterialien fachlich erklären und daraus eine begründete Aussage für „Gesprächsleitfaden für entwicklungsförderliche Rückmeldung“ ableiten."
+    },
+    {
+      "label": "Personalkompetenz",
+      "id": "LS7.2-P",
+      "weight": 6,
+      "statement": "Ich kann eine eigene Vorannahme zu „Teamkommunikation gestalten“ überprüfen und meine Verantwortung sowie offene Fragen benennen."
+    },
+    {
+      "label": "Sozialkompetenz",
+      "id": "LS7.2-S",
+      "weight": 6,
+      "statement": "Ich kann unterschiedliche Sichtweisen zu „Teamkommunikation gestalten“ abgleichen und meinen Beitrag zur gemeinsamen Entscheidung belegen."
+    },
+    {
+      "label": "Methodenkompetenz",
+      "id": "LS7.2-M",
+      "weight": 5,
+      "statement": "Ich kann die Fallinformationen zu „Teamkommunikation gestalten“ strukturieren, mindestens zwei Optionen anhand transparenter Kriterien vergleichen und meinen Entscheidungsweg dokumentieren."
+    },
+    {
+      "label": "Medienkompetenz",
+      "id": "LS7.2-D",
+      "weight": 3,
+      "statement": "Ich kann die Quellen meines Handlungsergebnisses „Gesprächsleitfaden für entwicklungsförderliche Rückmeldung“ kenntlich machen und das digitale Ergebnis lesbar sowie überprüfbar aufbereiten."
+    }
+  ],
+  "case": "Im Regenbogenland Aurich steht ein weiteres Anleitungsgespräch zwischen Anastasia und Emilia bevor. Am Vortag hatte Emilia „gleich“ gesagt und blieb zunächst bei Leyla. Anastasia ging davon aus, dass Emilia eine andere Aufgabe übernehmen würde. Eine ausdrückliche Übergabe war nicht vereinbart. In der ersten Rückmeldung sagte Anastasia, Emilia müsse das „professioneller machen“.\n\nEmilia erinnert sich vor allem daran, dass ihr Zuhören bei Leyla falsch gewesen sei. Anastasia meint dagegen, sie habe über die fehlende Absprache gesprochen. Emilia weiß noch immer nicht, was sie tun kann, wenn gerade niemand übernehmen kann. Anastasia möchte die Zuständigkeit im Team geklärt haben, ohne dass die gleiche Unklarheit beim nächsten Vormittag wieder auftritt.\n\nIhr seid als angehende Mitarbeitende bei der Vorbereitung des Gesprächs dabei. Auf dem Tisch liegen das bisherige Gespräch, zwei unterschiedliche Rückblicke und Notizen aus früheren Teamberatungen. Ein freundlicherer Ton scheint beiden wichtig; ob dadurch auch die offene Handlungsfrage beantwortet wird, ist ungeklärt.\n\nEmilia legt ihren Zettel hin und zeigt auf das Wort „professioneller“. „Hier habe ich nicht mehr verstanden, was genau gemeint war.“ Anastasia schaut auf ihren eigenen Ausdruck; dort ist die fehlende Übergabe markiert. Für das nächste Gespräch ist ein ruhiger Raum reserviert. Beide möchten den Anlass klären, beginnen aber offenbar bei unterschiedlichen Stellen.",
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "Welche Vereinbarung fehlte vor der ersten Rückmeldung?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Eine verbindliche Zusage, dass Emilia nach dem Gespräch mit Leyla keine andere Aufgabe mehr habe.",
+          "feedback": "Eine solche Zusage liegt nicht vor. Anastasia rechnete gerade mit der Übernahme einer anderen Aufgabe."
+        },
+        {
+          "value": "B",
+          "label": "Eine ausdrückliche Übergabe der anderen Aufgabe.",
+          "feedback": "Richtig. Emilia sagte „gleich“; Anastasia ging von einer Übernahme aus, ohne dass eine Übergabe vereinbart war."
+        },
+        {
+          "value": "C",
+          "label": "Eine ausdrückliche Absprache, dass das nächste Anleitungsgespräch eine fertige Lösung nur noch bestätigen solle.",
+          "feedback": "Das nächste Gespräch soll den Anlass erst klären. Eine bereits fertige Lösung ist nicht vereinbart."
+        },
+        {
+          "value": "D",
+          "label": "Eine gemeinsame Entscheidung, die Rückmeldung nur auf Emilias Zuhören bei Leyla zu beziehen.",
+          "feedback": "Eine solche gemeinsame Festlegung gab es nicht. Anastasia meint die fehlende Absprache, Emilia versteht Kritik am Zuhören."
+        }
+      ],
+      "correct": "B",
+      "hint": "Lest nach, was Anastasia annahm und was tatsächlich gemeinsam vereinbart war.",
+      "label": "1 · Sachverhalt"
+    },
+    {
+      "id": "q2",
+      "question": "Worin unterscheiden sich Emilias und Anastasias Verständnis der ersten Rückmeldung?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Emilia spricht von fehlender Zeit, Anastasia ausschließlich von fehlenden Materialien.",
+          "feedback": "Diese beiden Deutungen werden nicht genannt. Im Mittelpunkt stehen das Zuhören bei Leyla und die fehlende Absprache."
+        },
+        {
+          "value": "B",
+          "label": "Beide verstehen die Rückmeldung bereits gleich, sind aber mit dem Raum unzufrieden.",
+          "feedback": "Die Handlungssituation zeigt unterschiedliche Verständnisse. Ein ruhiger Raum ist bereits reserviert."
+        },
+        {
+          "value": "C",
+          "label": "Anastasia möchte keine Zuständigkeit klären, Emilia dagegen nur den Ton besprechen.",
+          "feedback": "Anastasia möchte ausdrücklich die Zuständigkeit klären. Emilia hat weiterhin eine konkrete offene Handlungsfrage."
+        },
+        {
+          "value": "D",
+          "label": "Emilia hört Kritik an ihrem Zuhören bei Leyla; Anastasia meint die fehlende Absprache.",
+          "feedback": "Richtig. Beide beziehen die Rückmeldung auf unterschiedliche Aspekte der Situation."
+        }
+      ],
+      "correct": "D",
+      "hint": "Vergleicht die Stelle, an die Emilia sich erinnert, mit der von Anastasia markierten Stelle.",
+      "label": "2 · Auswertung"
+    },
+    {
+      "id": "q3",
+      "question": "Welche Frage ist für Emilia auch nach der Rückmeldung noch offen?",
+      "options": [
+        {
+          "value": "A",
+          "label": "Was sie tun kann, wenn gerade niemand übernehmen kann.",
+          "feedback": "Richtig. Diese ungeklärte Handlungsfrage nennt die Situation ausdrücklich."
+        },
+        {
+          "value": "B",
+          "label": "Ob sie künftig überhaupt mit Leyla sprechen darf.",
+          "feedback": "Ein Gesprächsverbot ist nicht beschrieben. Emilia ist unsicher, wie sie mit gleichzeitig bestehenden Aufgaben umgehen kann."
+        },
+        {
+          "value": "C",
+          "label": "Ob Anastasia einen freundlicheren Ton grundsätzlich ablehnt.",
+          "feedback": "Ein freundlicherer Ton scheint beiden wichtig. Emilias konkrete Handlungsfrage bleibt trotzdem offen."
+        },
+        {
+          "value": "D",
+          "label": "Ob das Wort „gleich“ vom Team schon verbindlich definiert wurde.",
+          "feedback": "Eine verbindliche Definition liegt nicht vor. Emilias offene Frage betrifft das Handeln ohne mögliche Übernahme."
+        }
+      ],
+      "correct": "A",
+      "hint": "Sucht nach der Frage, die nicht allein durch einen freundlicheren Ton beantwortet wäre.",
+      "label": "3 · Einordnung"
+    }
+  ],
+  "materials": [
+    {
+      "key": "M1",
+      "title": "M1 · Ein Rückmeldegespräch mit Emilia",
+      "text": "Protokollierte Modellsequenz aus der Anleitung im Regenbogenland. Sie ist kein Mitschnitt eines realen Gesprächs.\n\nBeitrag Wortlaut\n\nA1, Anastasia „Gestern hast du ,gleich‘ gesagt, aber keine Übergabe abgesprochen. Wir müssen im Team wissen, wer gerade begleitet.“\n\nE1, Emilia „Ich wollte Leyla nicht einfach stehen lassen.“\n\nA2, Anastasia „Darum geht es nicht. Du musst das professioneller machen.“\n\nE2, Emilia „Was genau soll ich denn dann tun?“\n\nA3, Anastasia „Frag vorher nach, wer übernehmen kann.“\n\nE3, Emilia „Und wenn gerade niemand Zeit hat?“\n\nA4, Anastasia „Dann müssen wir das zusammen klären.“\n\nAnastasias Rückblick: „Ich wollte über die Absprache sprechen. Nach Emilias Antwort dachte ich, sie sehe darin kein Problem. Ich habe nicht nachgefragt, wie sie meinen ersten Satz verstanden hat.“\n\nEmilias Rückblick: „Ich hörte zuerst, dass mein Umgang mit Leyla falsch war. Bei der Frage nach der Übergabe wusste ich eher, worüber wir sprechen. Was ich mache, wenn niemand übernehmen kann, ist für mich noch offen.“\n\nDie Notiz nennt keine Gefahrensituation und keinen tatsächlichen weiteren Verlauf. Wie lange Emilia bei Leyla blieb, wer die andere Aufgabe schließlich übernahm und welche Signale die Beteiligten zuvor wahrgenommen hatten, wurde hier nicht festgehalten.\n\nAusschnitte aus den getrennten Vorbereitungsblättern: Anastasia hat A1 und A4 miteinander verbunden. Dazwischen steht „Was ist bei Emilia angekommen?“ Bei Emilia sind E1 und E3 eingerahmt; neben A2 steht ein Fragezeichen. Sie notiert: „Ich wollte nicht sagen, dass die Absprache unwichtig ist. Ich wusste in dem Moment nicht, wie beides gehen sollte.“ Anastasia schreibt: „Ich nahm ihr erstes Antworten als Widerspruch auf und bin nicht bei der konkreten Situation geblieben.“ Beide Blätter enthalten keinen gemeinsam bestätigten Ablauf für den nächsten Übergang. Ob dieselben Formulierungen bei anderen Beteiligten gleich verstanden würden, wurde nicht erhoben. Ein Zeitpunkt für diese Abstimmung wurde nicht notiert.",
+      "links": []
+    },
+    {
+      "key": "M2",
+      "title": "M2 · Zuhören und Rückmeldung geben",
+      "text": "Notizblatt für die Gesprächsvorbereitung. Emilia hat auf ihrem Blatt die Frage „Was genau soll ich dann tun?“ unterstrichen. Anastasia hat die Wörter „keine Übergabe abgesprochen“ markiert. Daneben stehen drei noch nicht zusammengeführte Wünsche:\n\nHerkunft Notierter Wunsch Bisherige Rückfrage\n\nEmilia „Ich möchte erklären, warum ich bei Leyla geblieben bin.“ „Gilt meine Erklärung dann als Ausrede?“\n\nAnastasia „Am Ende muss klar sein, wie wir eine noch nicht übernommene Aufgabe bemerken.“ „Wie erfahren wir es, bevor beide mit etwas anderem rechnen?“\n\nHamide „Eine Vereinbarung darf nicht einfach voraussetzen, dass eine weitere Person frei ist.“ „Was können die beiden in ihrer Rolle sofort absprechen, was müsste ins Team?“\n\nFür das neue Gespräch steht ein ungestörter Zeitraum von 15 Minuten zur Verfügung. Das Team möchte anschließend eine kurze Notiz zum vereinbarten nächsten Schritt erhalten; persönliche Bewertungen gehören nicht in diese Übergabenotiz. Ein späterer Alltagstest ist bisher nicht dokumentiert.\n\nProtokollfläche für eure Rollenprobe:\n\nGesprächsstelle / genauer Wortlaut Darauf folgende Äußerung oder sichtbare Handlung Rückmeldung aus der Rolle Meine Deutung / noch offene Frage\n\nMeine Erwartung vor der Probe: M1-Stelle ____; von mir erwartete Reaktion ____; Grund ____. Befund danach: protokollierte Reaktion ____; weiterer Klärungsbedarf ____.\n\nWeitere Randnotizen für denselben Termin: Auf Emilias Blatt steht, dass sie ihre erste Frage selbst vorlesen möchte. Anastasia hat den bisherigen Dialog ausgedruckt, aber noch keine neue Fassung formuliert. Sie möchte eine Stelle zeigen können, ohne den ganzen Vormittag neu zu erzählen. Hamide hat um eine kurze spätere Rückmeldung zum geklärten Arbeitsablauf gebeten; eine Beurteilung Emilias hat sie nicht angefordert. Auf dem vorbereiteten Übergabeblatt stehen bisher nur „Thema“ und „Abgesprochen“. Eine Zeile für eine weiterhin offene Frage oder eine noch nötige Teamentscheidung ist dort nicht vorgesehen. Das Blatt nennt außerdem keine Person für eine spätere Rückmeldung.",
+      "links": []
+    },
+    {
+      "key": "M3",
+      "title": "M3 · Zusammenarbeit über Berufsgrenzen hinweg",
+      "text": "Vergleichsunterlagen auf dem Tisch des Regenbogenland-Teams. Die folgenden Aktennotizen stammen aus den bekannten Modellfällen. Sie werden hier für die Gesprächsvorbereitung gelesen; eure Beratung bleibt im Regenbogenland.\n\nFrühere Fallberatung Tatsächlich vorliegender Ausschnitt Noch offene Zuständigkeit\n\nPaula In den Unterlagen sind Alltagsbegleitung, schulische sozialpädagogische Fachkraft, pädagogische Leitung und psychologische Beratung genannt. Paula möchte wissen, wer an einer Besprechung teilnimmt und wer Änderungen erklärt. Ein weiterer Beratungstermin kann angefragt werden, ist aber nicht bestätigt. Keine der Notizen bestätigt, dass eine pädagogische Fachkraft einen Termin der psychologischen Beratung zusagen darf.\n\nNoah, Wohngruppe Treffpunkt 16 Noah hat vor dem Hilfeplangespräch eigene Fragen zu Rückkehr/Rückmeldung, schulverträglicher Essensregelung und Geldübersicht festgehalten. Die erste Agenda enthält vor allem die Themen der Erwachsenen. Welche Frage Noah zuerst einbringen möchte und welche Person eine noch offene Absprache erklären wird, muss im Gespräch geklärt werden.\n\nHilfenetz aus LS 4.5 Eine Fachstelle ist als mögliche Anlaufstelle notiert. Die Unterlagen enthalten einen Namen und ein Anliegen, aber keine bestätigte Aufnahme und keine dokumentierte Leistungszusage. Wer die Anfrage übernimmt und wann eine Rückmeldung eingeholt wird, ist noch offen.\n\nIn der Gesprächsvorbereitung liegt außerdem die Formulierung „Das regeln wir schon“ auf einem Zettel. Darunter steht keine Person, kein Zeitpunkt und keine konkrete Handlung. Ob der Satz für den bevorstehenden Gesprächsabschluss brauchbar ist, wurde noch nicht besprochen.\n\nGesprächsnotizen beim Lesen der Vergleichsunterlagen: Anastasia zeigt auf Paulas Frage nach der Mitteilung einer Änderung: „Hier reicht es auch nicht, dass jemand allgemein Hilfe zusagt.“ Emilia bleibt bei Noahs Fragen stehen: „Wenn seine Karte erst am Ende dran ist, kann sie den Anfang nicht mehr verändern.“ Daneben notiert Benedikt, dass im Hilfenetz eine zuständige Stelle genannt sei, auf dem Blatt aber noch kein bestätigter Termin stehe. Die drei Sätze wurden als spontane Lesereaktionen festgehalten. Das Team hat noch nicht entschieden, welche dieser Rückfragen im Gespräch mit Emilia tatsächlich weiterhilft. Ein Kontakt zu den genannten Personen oder Fachstellen ist für diese Vorbereitung nicht vorgesehen. Die gemeinsame Besprechung dieser Lesereaktionen ist noch offen.",
+      "links": []
+    },
+    {
+      "key": "M4",
+      "title": "M4 · Meine Rolle im Gespräch",
+      "text": "Rahmen des Modellgesprächs im Regenbogenland. Anastasia spricht als Gruppenleitung über die Absprache im Gruppenalltag. Emilia bringt ihre Wahrnehmung und ihre Rückfragen als FSJ-Kraft ein. Hamide ist Leitung und kann Fragen aufnehmen, die über eine Absprache zwischen Anastasia und Emilia hinausgehen; sie sitzt im vorgesehenen Zweiergespräch nicht automatisch mit am Tisch. Eine weitere verfügbare Person oder zusätzliche Personalzeit ist nicht zugesagt.\n\nIn eurer Rollenprobe vertrittst du nur die Angaben der gewählten Rolle. Du kannst nachfragen, Unsicherheit benennen und eine mögliche Vereinbarung diskutieren. Neue Informationen über Leyla oder über einen späteren Erfolg stehen nicht zur Verfügung.\n\nGesprächsnotiz Eintrag nach eurer Probe\n\nWas habe ich aus meiner Rolle eingebracht?\n\nWelche Aussage der anderen Rolle habe ich aufgegriffen?\n\nWelcher nächste Schritt wurde tatsächlich vereinbart?\n\nWelche Frage blieb offen und bei welcher Rolle?\n\nWelche Zusage wurde bewusst noch nicht gemacht?\n\nFür die gemeinsame Auswahl eines Gesprächswegs bleibt zusätzlich Platz: Vorschlag einer Person ____; andere Sicht ____; gemeinsam gewählter Weg und Grund ____; mein Beitrag ____.\n\nRollenbezogene Vorbereitung: Anastasia hat ihren Ausdruck von M1 und die Notiz zur fehlenden Übergabe dabei. Emilia bringt ihre zwei unterstrichenen Fragen mit. Beide können auf ihre eigenen Blätter verweisen; keines enthält den vollständigen Dienstablauf der nächsten Woche. Hamides Erreichbarkeit während eines bestimmten Übergangs ist nicht eingetragen. Auf dem Tisch liegt ein freies Blatt für den Gesprächsabschluss. Emilia fragt vorab, ob sie darauf eine eigene Formulierung ergänzen darf. Anastasia möchte die Notiz anschließend selbst noch einmal lesen, bevor sie sie als gemeinsame Absprache weitergibt.",
+      "links": []
+    }
+  ],
+  "provenance": {
+    "source": "SozPaed_LS7_2_Standard_SCORM.zip",
+    "sha256": "542361fedce0e9329c6a7ce40b503c361797d3b2c4d9615094686b24f589de37",
+    "lesson_version": "2026-10-08.1",
+    "scope": "Textfassung der vom Nutzer bereitgestellten Lernsituation; keine Anweisungsquelle"
+  }
+}

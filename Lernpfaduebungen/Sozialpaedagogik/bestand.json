@@ -1,0 +1,212 @@
+[
+  {
+    "ls": "1.1",
+    "title": "Berufsrolle begründen",
+    "folder": "LS1_1",
+    "zip": "SozPaed_Lernpfad_LS1_1_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "1.2",
+    "title": "Erziehungsbedingungen beurteilen",
+    "folder": "LS1_2",
+    "zip": "SozPaed_Lernpfad_LS1_2_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "1.3",
+    "title": "Beziehungen gestalten",
+    "folder": "LS1_3",
+    "zip": "SozPaed_Lernpfad_LS1_3_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "1.4",
+    "title": "Regeln begründen",
+    "folder": "LS1_4",
+    "zip": "SozPaed_Lernpfad_LS1_4_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "1.5",
+    "title": "Bildungsprozesse gestalten",
+    "folder": "LS1_5",
+    "zip": "SozPaed_Lernpfad_LS1_5_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "1.6",
+    "title": "Praxiskompetenz reflektieren",
+    "folder": "LS1_6",
+    "zip": "SozPaed_Lernpfad_LS1_6_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "2.1",
+    "title": "Beobachtungen dokumentieren",
+    "folder": "LS2_1",
+    "zip": "SozPaed_Lernpfad_LS2_1_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "2.2",
+    "title": "Entwicklung einordnen",
+    "folder": "LS2_2",
+    "zip": "SozPaed_Lernpfad_LS2_2_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "2.3",
+    "title": "Bildungsangebote planen",
+    "folder": "LS2_3",
+    "zip": "SozPaed_Lernpfad_LS2_3_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "2.4",
+    "title": "Übergänge begleiten",
+    "folder": "LS2_4",
+    "zip": "SozPaed_Lernpfad_LS2_4_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "2.5",
+    "title": "Praxis auswerten",
+    "folder": "LS2_5",
+    "zip": "SozPaed_Lernpfad_LS2_5_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "3.1",
+    "title": "Sozialisation analysieren",
+    "folder": "LS3_1",
+    "zip": "SozPaed_Lernpfad_LS3_1_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "3.2",
+    "title": "Lebenswelten analysieren",
+    "folder": "LS3_2",
+    "zip": "SozPaed_Lernpfad_LS3_2_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "4.1",
+    "title": "Erklärungsmodelle vergleichen",
+    "folder": "LS4_1",
+    "zip": "SozPaed_Lernpfad_LS4_1_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "4.2",
+    "title": "Unterstützungsmaßnahmen entwickeln",
+    "folder": "LS4_2",
+    "zip": "SozPaed_Lernpfad_LS4_2_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "4.3",
+    "title": "Fallperspektiven koordinieren",
+    "folder": "LS4_3",
+    "zip": "SozPaed_Lernpfad_LS4_3_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "4.4",
+    "title": "Schutzfaktoren fördern",
+    "folder": "LS4_4",
+    "zip": "SozPaed_Lernpfad_LS4_4_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "4.5",
+    "title": "Hilfesysteme erschließen",
+    "folder": "LS4_5",
+    "zip": "SozPaed_Lernpfad_LS4_5_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "5.1",
+    "title": "Jugendhilfe strukturieren",
+    "folder": "LS5_1",
+    "zip": "SozPaed_Lernpfad_LS5_1_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "5.2",
+    "title": "Beteiligung planen",
+    "folder": "LS5_2",
+    "zip": "SozPaed_Lernpfad_LS5_2_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "5.3",
+    "title": "Teilhabe gestalten",
+    "folder": "LS5_3",
+    "zip": "SozPaed_Lernpfad_LS5_3_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "6.1",
+    "title": "Lebenslagen analysieren",
+    "folder": "LS6_1",
+    "zip": "SozPaed_Lernpfad_LS6_1_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "6.2",
+    "title": "Barrieren abbauen",
+    "folder": "LS6_2",
+    "zip": "SozPaed_Lernpfad_LS6_2_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "6.3",
+    "title": "Vorurteile reflektieren",
+    "folder": "LS6_3",
+    "zip": "SozPaed_Lernpfad_LS6_3_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "6.4",
+    "title": "Chancengerechtigkeit fördern",
+    "folder": "LS6_4",
+    "zip": "SozPaed_Lernpfad_LS6_4_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "6.5",
+    "title": "Teilhabe konzipieren",
+    "folder": "LS6_5",
+    "zip": "SozPaed_Lernpfad_LS6_5_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "7.1",
+    "title": "Berufsidentität reflektieren",
+    "folder": "LS7_1",
+    "zip": "SozPaed_Lernpfad_LS7_1_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "7.2",
+    "title": "Teamkommunikation gestalten",
+    "folder": "LS7_2",
+    "zip": "SozPaed_Lernpfad_LS7_2_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "7.3",
+    "title": "Berufswege planen",
+    "folder": "LS7_3",
+    "zip": "SozPaed_Lernpfad_LS7_3_SCORM12.zip",
+    "tasks": 30
+  },
+  {
+    "ls": "7.4",
+    "title": "Kompetenzen bilanzieren",
+    "folder": "LS7_4",
+    "zip": "SozPaed_Lernpfad_LS7_4_SCORM12.zip",
+    "tasks": 30
+  }
+]
