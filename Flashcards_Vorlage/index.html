@@ -1,0 +1,230 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BioCasa – Flashcards Eine Unternehmensberatung besuchen</title>
+<style>
+/* Eigenständige Flashcards-Vorlage im Erscheinungsbild der Lernsituationen. */
+:root{--blue:#009bd9;--blue-deep:#087cb1;--green:#afca0b;--ink:#173a63;--muted:#536d7b;--line:#d6e6ed;--paper:#fff;--soft:#eff8fc;font-family:Avenir,'Segoe UI',Arial,sans-serif;color:#263d4a;font-size:16px;line-height:1.62}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(135deg,#e8f4f9,#f4f8e9);min-height:100vh}
+button,input,textarea{font:inherit}
+button{border:1px solid #abc8d5;border-radius:10px;padding:9px 14px;background:#fff;color:var(--ink);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:650;line-height:1.35}
+button:hover{background:#e8f6fd;border-color:var(--blue)}
+button:disabled{cursor:default;opacity:.55}
+button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,.card:focus-visible{outline:3px solid #e3b700;outline-offset:3px}
+a{color:#006a98;text-underline-offset:3px}
+img{max-width:100%;height:auto}
+h1,h2,h3{color:var(--ink);line-height:1.23;overflow-wrap:anywhere}
+h1{font-size:clamp(1.85rem,4.5vw,3rem);letter-spacing:-.025em;margin:8px 0 16px}
+h2{font-size:1.4rem;margin:10px 0 15px}
+h3{font-size:1.1rem;margin:22px 0 10px}
+p{margin:.65em 0 1em}
+.hidden{display:none!important}
+.shell{max-width:1000px;margin:26px auto;background:rgba(255,255,255,.86);border:1px solid #fff;border-radius:28px;box-shadow:0 16px 50px #2045581a;overflow:clip}
+.top{background:#2aa7d7;border-bottom:6px solid var(--green);padding:20px 34px;color:white}
+.brand{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{width:185px;height:51px;max-width:45%;object-fit:contain;margin-left:auto}
+.flash-logo{width:42px;height:42px;object-fit:contain;border-radius:10px}
+main{padding:25px 32px 12px}
+.hero,.stage,.teacher-card,.pinbox,.teacher-intro,.teacher-group{background:linear-gradient(140deg,#fff,#f4fafc);border:1px solid #dcebf1;border-radius:20px;padding:24px;margin:22px 0;box-shadow:0 7px 18px #264d6310}
+.hero{background:linear-gradient(120deg,#fff,#eaf7fd);margin-top:0}
+.hero p{color:var(--muted);font-size:1.06rem}
+.kicker{text-transform:uppercase;font-size:.76rem;font-weight:800;letter-spacing:.075em;color:#007da8;margin-bottom:9px}
+.progressbox{padding:14px 16px;background:#f3f8e7;border:1px solid #dce9b7;border-radius:14px;margin-top:20px}
+.bar{height:8px;background:#dde6cb;border-radius:99px;overflow:hidden}
+.bar>i{display:block;height:100%;width:0;background:var(--blue);transition:width .3s}
+.stats{display:flex;justify-content:space-between;gap:12px;font-size:.8rem;margin-top:7px;color:var(--muted);font-variant-numeric:tabular-nums}
+.modebox{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:12px;border:1px solid #dce9b7;border-radius:12px;background:#f3f8e7;margin:20px 0 24px}
+.modebtn,.smartbtn{font-size:.83rem;padding:9px 12px}
+.modebtn.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.mode-divider{width:1px;height:30px;background:#cbd9ac;margin:0 3px}
+.smartbtn.uncertain-stack{color:#79581d;background:#fff7e9;border-color:#eadab9}
+.smartbtn.secure-stack{color:#3f5b16;background:#f3f8e7;border-color:#bdce8f}
+.smartbtn.active{outline:2px solid currentColor;outline-offset:1px}
+.stack-count{min-width:22px;height:22px;display:inline-grid;place-items:center;background:#fff;border-radius:50%;font-size:.75rem}
+.topic-navigation{border:1.5px solid #173a63;background:linear-gradient(120deg,#fff,#eff8fb,#f6f8ef);padding:22px 18px 18px;border-radius:20px;margin:0 0 24px}
+.nav-heading{margin-bottom:24px;color:var(--ink)}
+.nav-heading .kicker{font-size:.65rem;margin-bottom:3px}
+.nav-heading strong{font-size:1.03rem}
+.tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;position:relative}
+.tabs:before{content:'';position:absolute;left:12%;right:12%;top:29px;height:2px;background:#d0dfe7}
+.tab{position:relative;display:flex;flex-direction:column;gap:6px;background:transparent;border:0;border-radius:10px;padding:5px;font-size:.78rem;text-align:center;color:#486474;min-width:0}
+.tab:hover{background:#e8f6fd}
+.tab.active{color:#0075a4}
+.topic-icon{width:52px;height:52px;border:5px solid #fff;box-shadow:0 3px 9px #315a7322;border-radius:50%;background:#e2edf2;display:grid;place-items:center;color:#547080;font-weight:750;font-size:1rem;flex-shrink:0}
+.tab.active .topic-icon{background:var(--blue);color:#fff}
+.tab small{font-size:.68rem;font-weight:400;color:#657b89}
+.stage{margin:22px 0}
+.meta{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:.8rem;flex-wrap:wrap}
+.card{margin:17px 0;perspective:1200px;cursor:pointer;border-radius:15px}
+.inner{display:grid;min-height:330px;transition:transform .5s cubic-bezier(.2,.78,.2,1);transform-style:preserve-3d}
+.card.flipped .inner{transform:rotateY(180deg)}
+.face{grid-area:1/1;min-width:0;min-height:330px;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:15px;padding:30px 24px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border:2px solid var(--blue);border-left:6px solid var(--blue);background:linear-gradient(120deg,#fff,#eff8fc)}
+.back{transform:rotateY(180deg);background:linear-gradient(120deg,#fff,#f3f8e7);border-color:#afca0b}
+.term{font-size:clamp(1.7rem,4.5vw,2.8rem);color:var(--ink);font-weight:750;line-height:1.23;letter-spacing:-.025em;margin:12px 0;overflow-wrap:anywhere;max-width:100%}
+.definition{font-size:1.1rem;line-height:1.65;max-width:100%;overflow-wrap:anywhere}
+.example{margin-top:18px;padding:14px 17px;border-left:4px solid var(--green);background:#f3f8e7;text-align:left;font-size:.94rem;overflow-wrap:anywhere;max-width:100%}
+.hint{color:var(--muted);font-size:.82rem;margin-top:16px;max-width:100%}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;border-top:1px solid #e4ebef;padding-top:16px}
+.actions button{padding:12px 18px;font-size:.9rem;border-radius:14px}
+.again{background:#fff7e9;border-color:#eadab9;color:#79581d}
+.know{background:#f3f8e7;border-color:#bdce8f;color:#3f5b16}
+.next{background:linear-gradient(135deg,#009bd9,#087cb1);border-color:#009bd9;color:#fff;padding:12px 18px;border-radius:14px;box-shadow:0 6px 16px #009bd929;margin-top:12px;width:100%;font-size:.9rem}
+.next:hover{background:#007cae;color:#fff}
+.finish{text-align:center}
+.chips{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:18px 0}
+.chip{padding:6px 11px;border-radius:20px;background:#edf5f8;color:var(--ink);font-size:.8rem;font-weight:650}
+.review{margin:20px auto 0;text-align:left}
+.review-item{padding:16px;margin:10px 0;border:1px solid #dce9b7;border-radius:14px;background:#f3f8e7;overflow-wrap:anywhere}
+.review-item b{display:block;margin-bottom:4px}
+.review-ok{padding:18px;border:1px solid #dce9b7;border-radius:14px;background:#f3f8e7}
+.finish-actions{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.repeat-all{background:var(--ink);border-color:var(--ink);box-shadow:none}
+.page-footer{padding:12px 32px 24px}
+.footer-icons{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-top:24px}
+.footer-icons>div{display:flex;gap:10px}
+.footer-icons img{width:50px;height:50px;display:block}
+.footer-icons>div:nth-child(2) img{width:92px}
+.utilitybar{display:flex;justify-content:flex-end;align-items:center;gap:18px;margin-top:14px;flex-wrap:wrap}
+.utility-btn{padding:0;border:0;background:transparent;font-size:.8rem;font-weight:400;color:#006a98;text-decoration:underline;text-underline-offset:3px;gap:6px}
+.utility-btn:hover{background:transparent;color:var(--ink)}
+.utility-btn svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+#pdfExport svg{color:#d92828}
+.teacher-panel{padding:25px 32px 12px}
+.teacher-intro{margin-top:0;background:linear-gradient(120deg,#fff,#eaf7fd)}
+.teacher-intro h1{margin-bottom:12px}
+.teacher-intro p{color:var(--muted);margin-bottom:0}
+.teacher-help{padding:14px 17px;border-left:4px solid var(--green);background:#f5f8e9;margin:18px 0;font-size:.9rem}
+.teacher-help ol{padding-left:20px;margin:8px 0 0}
+.teacher-help li{margin:7px 0}
+.teacher-note{font-size:.85rem;color:var(--muted)}
+.teacher-toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 18px}
+.teacher-primary{background:var(--ink);color:white;border-color:var(--ink)}
+.teacher-primary:hover{background:#244b78;color:#fff}
+.teacher-danger{color:var(--ink)}
+.teacher-group{padding:24px;margin:22px 0}
+.teacher-group>h3{margin:0 0 18px}
+.teacher-card{padding:16px;margin:12px 0;background:#fff;border-radius:12px;box-shadow:none}
+.teacher-card label{display:block;font-size:.85rem;font-weight:650;color:#365469;margin:10px 0 5px}
+.teacher-card input,.teacher-card textarea{width:100%;font:inherit;border:1px solid #9fbcca;border-radius:7px;background:#fff;color:#233e4e;padding:8px;max-width:100%}
+.teacher-card textarea{min-height:85px;resize:vertical}
+.pinbox{max-width:500px;margin:0 auto;text-align:left}
+.pinbox input{font-size:1.5rem;letter-spacing:.3em;text-align:center;width:180px;max-width:100%;padding:8px;border:1px solid #9fbcca;border-radius:7px;color:var(--ink)}
+.pin-error{color:#a62a20;min-height:24px;font-size:.85rem}
+.pin-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:12px}
+.pin-actions .next{width:auto;margin:0}
+.foot{font-size:.8rem;color:var(--muted);text-align:center}
+@media(max-width:720px){
+ .shell{margin:0;border-radius:0;border:0}
+ .top{padding:20px}.logo{max-width:65%}
+ main,.teacher-panel{padding:18px 16px 12px}
+ .hero,.stage,.teacher-group,.teacher-intro,.pinbox{padding:18px}
+ .hero p{font-size:1rem}
+ .topic-navigation{padding:16px}
+ .tabs{grid-template-columns:1fr 1fr;gap:14px 8px}
+ .tabs:before,.mode-divider{display:none}
+ .tab{font-size:.8rem}.topic-icon{width:48px;height:48px}
+ .modebtn{flex:1 1 120px}.smartbtn{flex:1 1 130px}
+ .face{padding:24px 16px}.inner,.face{min-height:300px}
+ .definition{font-size:1rem}.example{font-size:.9rem}
+ .finish-actions{grid-template-columns:1fr}
+ .page-footer{padding:12px 16px 20px}
+ .footer-icons{flex-wrap:wrap;justify-content:center}
+ .footer-icons>div:nth-child(2){order:3}
+}
+@media(max-width:400px){.actions{grid-template-columns:1fr}.stats{flex-wrap:wrap}.teacher-toolbar>button{width:100%}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}.inner,.bar>i{transition:none!important}}
+#pdfPrint{display:none}
+
+@media print{
+  @page{size:A4 landscape;margin:8mm}
+  html,body{background:#fff!important;min-height:0!important}
+  body>.shell{display:none!important}
+  #pdfPrint{display:block!important;color:#173a63;background:#fff;font-family:"Avenir Next",Avenir,"Segoe UI",Arial,sans-serif}
+  .print-header{display:flex;align-items:center;justify-content:space-between;gap:12mm;padding:5mm 7mm;background:#2aa7d7;border-bottom:2mm solid #afca0b;border-radius:5mm 5mm 0 0;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .print-header-left{display:flex;align-items:center;gap:4mm;color:#fff}
+  .print-header .print-flash-logo{width:16mm;height:16mm;border-radius:4mm;object-fit:cover}
+  .print-header .print-bbs-logo{width:58mm;height:auto}
+  .print-header h1{font-size:19pt;margin:0;line-height:1.05}
+  .print-header p{font-size:9.5pt;margin:1.4mm 0 0;opacity:.94}
+  .print-note{font-size:9pt;color:#5c6f79;margin:4mm 0 5mm}
+  .print-section{break-before:page}
+  .print-section.first{break-before:auto}
+  .print-section h2{font-size:14pt;margin:0 0 4mm;padding-bottom:2mm;border-bottom:.5mm solid #009bd9;color:#173a63}
+  .print-pair{display:grid;grid-template-columns:1fr 1fr;gap:5mm;margin:0 0 5mm;break-inside:avoid;page-break-inside:avoid}
+  .print-side{position:relative;min-height:48mm;padding:6mm;border:.35mm solid #d7e4e9;border-radius:4mm;background:#fff;display:flex;flex-direction:column;justify-content:center;box-shadow:none}
+  .print-front{border-top:1.7mm solid #009bd9}
+  .print-back{border-top:1.7mm solid #afca0b}
+  .print-side-label{position:absolute;top:3mm;right:4mm;font-size:7.5pt;text-transform:uppercase;letter-spacing:.08em;color:#748994;font-weight:700}
+  .print-kicker{font-size:8pt;text-transform:uppercase;letter-spacing:.10em;color:#009bd9;font-weight:800;margin-bottom:2mm}
+  .print-back .print-kicker{color:#789000}
+  .print-term{font-size:18pt;font-weight:800;line-height:1.08;margin:0}
+  .print-definition{font-size:11pt;font-weight:650;line-height:1.25;margin:0 0 3mm}
+  .print-context{font-size:9.5pt;line-height:1.28;padding:3mm 3.5mm;border-left:1.2mm solid #afca0b;background:#f8faec;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .print-num{position:absolute;bottom:2.7mm;right:4mm;font-size:7.5pt;color:#8b9aa2}
+}
+
+
+</style></head><body><div class="shell"><header class="top"><div class="brand"><img class="flash-logo" src="flashcards-logo.png" alt="Flashcards"><img class="logo" src="bbs1-aurich.svg" alt="Berufsbildende Schulen 1 Aurich"></div></header><main><section class="hero"><div><div class="kicker">BRC LG01 · LS02 · Flashcards</div><h1>Flashcards: Eine Unternehmensberatung besuchen</h1><p>30 zentrale Begriffe · BRC LG01 · LS02. Erst selbst erklären, dann Karte drehen – beliebig oft.</p></div><div class="progressbox"><div class="bar"><i id="bar"></i></div><div class="stats"><span id="count">0 / 0 bearbeitet</span><span id="secure">0 sicher</span></div></div></section><div class="modebox" aria-label="Trainingsrichtung und persönliche Kartenstapel"><button class="modebtn active" id="modeForward" type="button">Begriff → Kontext</button><button class="modebtn" id="modeReverse" type="button">Kontext → Fachbegriff</button><button class="modebtn" id="modeMixed" type="button">🔀 Gemischt</button><span class="mode-divider" aria-hidden="true"></span><button class="smartbtn uncertain-stack" id="stackUncertain" type="button" disabled title="Nur deine aktuell unsicheren Karten trainieren"><span>◇ Unsicher</span><span class="stack-count" id="uncertainCount">0</span></button><button class="smartbtn secure-stack" id="stackSecure" type="button" disabled title="Nur deine aktuell sicheren Karten trainieren"><span>✓ Sicher</span><span class="stack-count" id="secureCount">0</span></button></div><nav class="topic-navigation" aria-label="Themenbereiche der Flashcards"><div class="nav-heading"><div class="kicker">Dein Kartentraining</div><strong>Die vier Themenbereiche</strong></div><div class="tabs" id="tabs"></div></nav><section class="stage" id="stage"><div class="meta"><span id="station"></span><span id="cardNo"></span></div><div class="card" id="card" tabindex="0" role="button" aria-label="Karte drehen"><div class="inner"><div class="face front"><div class="kicker" id="frontKicker">Begriff</div><div class="term" id="term"></div><div class="definition hidden" id="frontContext"></div><div class="hint" id="frontHint">Erkläre den Begriff zunächst selbst. Klicke zum Umdrehen – du kannst die Karte beliebig oft wenden.</div></div><div class="face back"><div class="kicker" id="backKicker">Kurz erklärt</div><div class="term hidden" id="backTerm"></div><div class="definition" id="def"></div><div class="example" id="ex"></div></div></div></div><div class="actions hidden" id="actions"><button class="again" id="again">↻ Noch unsicher</button><button class="know" id="know">✓ Kann ich sicher</button></div><button class="next hidden" id="next">Nächste Karte →</button></section><section class="stage finish hidden" id="finish"><div class="kicker">Training abgeschlossen</div><h2>Dein Lernstand</h2><p id="result"></p><div class="chips" id="chips"></div><div class="review" id="review"></div><div class="finish-actions"><button class="next" id="retry">Unsichere Karten wiederholen</button><button class="next repeat-all" id="repeatAll">Alle Flashcards freiwillig wiederholen</button></div></section></main><section class="teacher-panel hidden" id="teacherPanel"><div id="pinView" class="pinbox"><div class="kicker">Lehrkräftemodus</div><h2>Flashcards bearbeiten</h2><p>PIN eingeben, um Begriffe, Antworten und BioCasa-Beispiele zu bearbeiten.</p><input id="pinInput" type="password" inputmode="numeric" maxlength="4" aria-label="PIN"><div class="pin-error" id="pinError"></div><div class="pin-actions"><button class="next" id="pinLogin" type="button">Anmelden</button><button id="teacherBack" type="button">← Zurück zu den Flashcards</button></div></div><div id="editorView" class="hidden"><section class="teacher-intro"><div class="kicker">BRC LG01 · LS02 · Flashcards</div><h1>Lehrkraftbereich</h1><p>Begriffe, Erklärungen und Beispiele bearbeiten und die Kartenfassung exportieren.</p></section><div class="teacher-help"><b>Unterricht vorbereiten</b><br>1. Begriff, Antwort oder BioCasa-Beispiel direkt in den Feldern ändern.<br>2. Mit <b>Änderungen übernehmen</b> die neue Version im aktuellen Paket testen.<br>3. Mit <b>Bearbeitete index.html herunterladen</b> die geänderte Datei speichern.<br>4. Das ursprüngliche SCORM-ZIP entpacken, die dortige <b>index.html</b> durch die heruntergeladene Datei ersetzen und den <b>Inhalt des Ordners</b> wieder als ZIP packen. <b>imsmanifest.xml muss direkt auf oberster ZIP-Ebene liegen.</b><br>5. Das neue ZIP in Moodle beim SCORM-Paket erneut hochladen/ersetzen.</div><p class="teacher-note">Die Änderungen werden bewusst nicht dauerhaft im Browser gespeichert. Für eine neue Moodle-Version muss die bearbeitete index.html exportiert und neu gezippt werden.</p><div class="teacher-toolbar"><button class="teacher-primary" id="applyEdits" type="button">Änderungen übernehmen</button><button class="teacher-secondary" id="downloadHtml" type="button">Bearbeitete index.html herunterladen</button><button class="teacher-secondary" id="resetEdits" type="button">Auf Ausgangsversion zurücksetzen</button><button class="teacher-danger" id="teacherClose" type="button">Lehrkräftemodus schließen</button></div><div id="editorCards"></div></div></section><footer class="page-footer"><div class="footer-icons"><div><a href="https://virtuelles-klassenbuch.de/" target="_blank" rel="noopener" aria-label="Virtuelles Klassenbuch"><img src="footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" target="_blank" rel="noopener" aria-label="IServ BBS 1 Aurich"><img src="footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div><a href="index.html" aria-label="Löppt – selbstorganisiertes Lernen"><img src="footer-2.svg" alt="Löppt – selbstorganisiertes Lernen"></a></div><div><a href="https://www.instagram.com/bbs1aurich/" target="_blank" rel="noopener" aria-label="Instagram"><img src="footer-3.svg" alt="Instagram"></a><a href="https://www.facebook.com/bbs1aurich/" target="_blank" rel="noopener" aria-label="Facebook"><img src="footer-4.svg" alt="Facebook"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" target="_blank" rel="noopener" aria-label="YouTube"><img src="footer-5.svg" alt="YouTube"></a><a href="https://www.bbs1-aurich.de/" target="_blank" rel="noopener" aria-label="Website der BBS 1 Aurich"><img src="footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></div><div class="utilitybar" id="utilityBar"><button class="utility-btn" id="pdfExport" type="button" title="Öffnet den Druckdialog – dort als PDF speichern" aria-label="Flashcards als PDF mit Vorder- und Rückseite exportieren"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3.75h7l3 3V20.25H7z"></path><path d="M14 3.75v3h3"></path><path d="M12 9.5v6"></path><path d="m9.75 13.25 2.25 2.25 2.25-2.25"></path></svg><span>PDF-Export</span></button><button class="utility-btn" id="teacherOpen" type="button" aria-label="Lehrkräftemodus öffnen"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5.5" y="10" width="13" height="10" rx="2.5"></rect><path d="M8.5 10V7.5a3.5 3.5 0 0 1 7 0V10"></path></svg><span>Lehrkraft</span></button></div></footer></div><section id="pdfPrint" aria-hidden="true"></section>
+<script>
+const groups=[{"name":"1 · Standort und Voraussetzungen","cards":[["Standortanalyse","Systematische Prüfung eines möglichen Betriebsorts anhand relevanter Kriterien.","Das Team untersucht die ehemalige Lebensmittelhalle in Aurich-Schirum."],["Standortfaktor","Eigenschaft eines Orts, die die betriebliche Tätigkeit beeinflusst.","Fläche, Anschlüsse, Mietkosten und Kühlmöglichkeiten beeinflussen die Standortwahl."],["Standorteignung","Passung eines Betriebsorts zu den konkreten Anforderungen des Vorhabens.","Zwei vorhandene Kühlräume sind noch kein Nachweis für Tiefkühleignung."],["Kaltmiete","Miete ohne zusätzlich abgerechnete Betriebs- und Nebenkosten.","Für die Halle werden 8.900 Euro Monatskaltmiete genannt."],["Kaution","Sicherheitsleistung zur Absicherung vereinbarter Ansprüche.","Das Team muss die im Fall verlangten 17.800 Euro zusätzlich einplanen."],["Reservierungszahlung","Zahlung für das zeitweise Freihalten eines Angebots nach vereinbarten Bedingungen.","Der Vermieter verlangt innerhalb von zwölf Tagen 2.500 Euro, die nicht erstattet werden."],["Qualifikationslücke","Abstand zwischen vorhandenen und benötigten Kenntnissen oder Fähigkeiten.","Fari kennt Rezepturen, hat aber keine dokumentierte industrielle HACCP-Erfahrung."]]},{"name":"2 · Stellen und Beratung","cards":[["Unternehmensberatung","Fachliche Unterstützung bei der Analyse und Lösung betrieblicher Fragen.","Berg & Macher bietet dem Gründungsteam ein Beratungsangebot."],["Beratungsbedarf","Fragen oder Probleme, für die zusätzliche Expertise benötigt wird.","Rechtsform, Steuern, Bau und Lebensmittelprozesse sind im Team noch nicht ausreichend geklärt."],["Beratungsbudget","Für Beratung verfügbare finanzielle Mittel.","Das Team kann 1.800 Euro für höchstens zwei vertiefte Termine einsetzen."],["Zuständigkeit","Zuordnung einer Aufgabe oder Entscheidung zu einer bestimmten Stelle.","Das Team ordnet jede offene Frage der passenden Fachstelle zu."],["Gewerbeanzeige","Mitteilung einer gewerblichen Tätigkeit an die zuständige Stelle.","Das Team trennt die Anzeige von weiteren notwendigen Prüfungen und Anträgen."],["Steuerliche Erfassung","Übermittlung der für die steuerliche Einordnung erforderlichen Angaben.","Steuerfragen werden im Gründungsfahrplan als eigener Arbeitsschritt geführt."],["Lebensmittelüberwachung","Zuständiger behördlicher Bereich zur Kontrolle lebensmittelrechtlicher Anforderungen.","Das Team klärt dort fallbezogene Fragen zur geplanten Lebensmittelproduktion."],["Bauaufsicht","Behördlicher Bereich zur Prüfung baurechtlicher Anforderungen.","Vor der Standortbindung muss die vorgesehene Hallennutzung geklärt werden."]]},{"name":"3 · Planung und Nachweise","cards":[["IHK","Industrie- und Handelskammer als Anlaufstelle für unternehmerische Orientierung und Beratung.","Das Team nutzt IHK-Informationen und unterscheidet sie von behördlichen Freigaben."],["Anzeige","Mitteilung eines Sachverhalts, die nicht automatisch eine Genehmigung ersetzt.","Die Gründer betrachten die Gewerbeanzeige nicht als Freigabe aller Betriebsprozesse."],["Genehmigung","Behördliche Erlaubnis für ein Vorhaben, soweit eine solche erforderlich ist.","Die Vermieteraussage ersetzt keine Prüfung durch die zuständige Stelle."],["Nachweis","Dokument oder überprüfbare Information, die eine Aussage belegt.","Das Team verlangt einen aktuellen schriftlichen Beleg zur konkreten Hallennutzung."],["Quellenprüfung","Bewertung von Herkunft, Aktualität und Aussagekraft einer Information.","Offizielle Fachstellen werden anders gewichtet als ein ungeprüfter Linkordner."],["Primärquelle","Information unmittelbar von der ursprünglichen oder zuständigen Stelle.","Das Team sucht eine fallbezogene Auskunft der zuständigen Behörde."],["HACCP","System zur Analyse von Gefahren und zur Steuerung kritischer Punkte der Lebensmittelsicherheit.","Faris Rezepturerfahrung ersetzt keine nachgewiesene Kompetenz für industrielle Lebensmittelprozesse."],["Gründungsfahrplan","Geordneter Plan der notwendigen Schritte bis zur Betriebsaufnahme.","Das Team verbindet Standortprüfung, Beratung, Anmeldungen und technische Vorbereitung."]]},{"name":"4 · Risiken und Entscheidung","cards":[["Maßnahmenplan","Plan mit konkreter Handlung, Verantwortung, Termin und überprüfbarem Ergebnis.","Jeder Schritt erhält Was, Warum, Wer, Stelle, Termin, Nachweis und Abhängigkeit."],["Abhängigkeit","Beziehung, bei der ein Schritt einen vorherigen Schritt oder Nachweis voraussetzt.","Eine Anlagenbestellung hängt von geklärten Anforderungen und Anschlusswerten ab."],["Frist","Zeitgrenze, bis zu der eine Handlung erfolgen soll oder muss.","Die Standortentscheidung muss die Reservierungsfrist von zwölf Tagen berücksichtigen."],["Meilenstein","Wichtiger überprüfbarer Zwischenstand eines Vorhabens.","Eine belegte Standortklärung bildet die Grundlage weiterer Investitionsentscheidungen."],["Wiedervorlage","Festgelegter Zeitpunkt für die erneute Prüfung einer offenen Angelegenheit.","Unbeantwortete Behördenfragen werden mit Termin und verantwortlicher Person verfolgt."],["Risikopriorisierung","Rangfolge von Risiken nach Bedeutung und Dringlichkeit.","Das Team bearbeitet die fristkritische Standortfrage vor weniger dringenden Beratungswünschen."],["Freigabeschwelle","Vorab bestimmte Voraussetzung für eine verbindliche Entscheidung.","Eine Reservierung wird erst empfohlen, wenn entscheidende Standortrisiken ausreichend geklärt sind."]]}];
+const initialGroups=groups.map(g=>({name:g.name,cards:g.cards.map(c=>[...c])}));
+const originalGroups=groups.map(g=>({name:g.name,cards:g.cards.map(c=>[...c])}));
+let gi=0,ci=0,seen=0,secure=0,uncertain=[],answered=false,mode='forward',cardDirection='forward',currentStack='all'; let dirStats={forward:{seen:0,secure:0},reverse:{seen:0,secure:0}}; let total=groups.reduce((s,g)=>s+g.cards.length,0); const cardStatus=new Map();
+const $=id=>document.getElementById(id);function scorm(){let a=window.API||window.parent?.API||window.top?.API;if(a){try{a.LMSInitialize('');a.LMSSetValue('cmi.core.lesson_status','incomplete');a.LMSCommit('')}catch(e){}}return a}const API12=scorm();
+function allCards(){return originalGroups.flatMap(g=>g.cards)}
+function stackCards(kind){return originalGroups.map(g=>({name:g.name,cards:g.cards.filter(c=>cardStatus.get(c[0])===kind).map(c=>[...c])})).filter(g=>g.cards.length)}
+function updateSmartButtons(){
+  const u=allCards().filter(c=>cardStatus.get(c[0])==='uncertain').length;
+  const k=allCards().filter(c=>cardStatus.get(c[0])==='secure').length;
+  $('uncertainCount').textContent=String(u);$('secureCount').textContent=String(k);
+  $('stackUncertain').disabled=u===0;$('stackSecure').disabled=k===0;
+  $('stackUncertain').classList.toggle('active',currentStack==='uncertain');
+  $('stackSecure').classList.toggle('active',currentStack==='secure');
+}
+function resetRun(){gi=0;ci=0;seen=0;secure=0;uncertain=[];answered=false;dirStats={forward:{seen:0,secure:0},reverse:{seen:0,secure:0}};total=groups.reduce((sum,g)=>sum+g.cards.length,0);$('finish').classList.add('hidden');$('stage').classList.remove('hidden');updateSmartButtons();render()}
+function restoreAllStack(){groups.splice(0,groups.length,...originalGroups.map(g=>({name:g.name,cards:g.cards.map(c=>[...c])})));currentStack='all';resetRun()}
+function startSmartStack(kind){
+  const selected=stackCards(kind);
+  if(!selected.length)return;
+  if(currentStack===kind){restoreAllStack();return}
+  groups.splice(0,groups.length,...selected);currentStack=kind;resetRun();
+}
+function rebuildCurrentStackAfterEdit(){
+  if(currentStack==='all'){groups.splice(0,groups.length,...originalGroups.map(g=>({name:g.name,cards:g.cards.map(c=>[...c])})));}
+  else{const selected=stackCards(currentStack);groups.splice(0,groups.length,...(selected.length?selected:originalGroups.map(g=>({name:g.name,cards:g.cards.map(c=>[...c])}))));if(!selected.length)currentStack='all'}
+  total=groups.reduce((sum,g)=>sum+g.cards.length,0);
+}
+function tabs(){ $('tabs').innerHTML=groups.map((g,i)=>`<button class="tab ${i===gi?'active':''}" data-i="${i}" ${i===gi?'aria-current="true"':''}><span class="topic-icon" aria-hidden="true">${i+1}</span><span>${escHtml(g.name.replace(/^\d+\s*·\s*/,''))}</span><small>${g.cards.length} Karten</small></button>`).join('');document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{gi=+b.dataset.i;ci=0;render()})}
+function render(){tabs();answered=false;cardDirection=mode==='mixed'?(Math.random()<.5?'forward':'reverse'):mode;$('card').classList.remove('flipped');$('actions').classList.add('hidden');$('next').classList.add('hidden');let g=groups[gi],c=g.cards[ci];$('station').textContent=g.name;$('cardNo').textContent=`Karte ${ci+1} von ${g.cards.length}`;if(cardDirection==='forward'){$('frontKicker').textContent='Fachbegriff';$('term').textContent=c[0];$('term').classList.remove('hidden');$('frontContext').classList.add('hidden');$('frontHint').textContent='Erkläre den Begriff zunächst selbst. Klicke zum Umdrehen – beliebig oft.';$('backKicker').textContent='Kurz erklärt';$('backTerm').classList.add('hidden');$('def').textContent=c[1];$('ex').innerHTML=`<b>BioCasa-Kontext:</b> ${c[2]}`;}else{$('frontKicker').textContent='BioCasa-Kontext';$('term').classList.add('hidden');$('frontContext').classList.remove('hidden');$('frontContext').textContent=c[2];$('frontHint').textContent='Welcher Fachbegriff steckt dahinter? Klicke zum Umdrehen – beliebig oft.';$('backKicker').textContent='Gesuchter Fachbegriff';$('backTerm').classList.remove('hidden');$('backTerm').textContent=c[0];$('def').textContent=c[1];$('ex').innerHTML='<b>Prüfe dich:</b> Passt der Fachbegriff wirklich zur beschriebenen BioCasa-Situation?';}update()}
+function flip(){const card=$('card');card.classList.toggle('flipped');if(card.classList.contains('flipped')&&!answered)$('actions').classList.remove('hidden')}
+$('card').onclick=flip;$('card').onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();flip()}};
+function rate(ok){if(answered)return;answered=true;seen++;dirStats[cardDirection].seen++;let card=groups[gi].cards[ci],term=card[0];if(ok){secure++;dirStats[cardDirection].secure++;cardStatus.set(term,'secure');uncertain=uncertain.filter(c=>!(c[0]===term&&c[3]===cardDirection))}else{cardStatus.set(term,'uncertain');uncertain=uncertain.filter(c=>!(c[0]===term&&c[3]===cardDirection));uncertain.push([...card,cardDirection])}$('actions').classList.add('hidden');$('next').classList.remove('hidden');updateSmartButtons();update()}
+$('again').onclick=()=>rate(false);$('know').onclick=()=>rate(true);$('next').onclick=()=>{if(ci<groups[gi].cards.length-1){ci++;render()}else if(gi<groups.length-1){gi++;ci=0;render()}else finish()};
+function update(){$('bar').style.width=`${Math.min(100,seen/total*100)}%`;$('count').textContent=`${seen} / ${total} bearbeitet`;$('secure').textContent=`${secure} sicher`;if(API12){try{API12.LMSSetValue('cmi.core.score.raw',String(Math.round(secure/Math.max(1,seen)*100)));API12.LMSCommit('')}catch(e){}}}
+function finish(){$('stage').classList.add('hidden');$('finish').classList.remove('hidden');let pct=Math.round(secure/Math.max(1,seen)*100);let f=dirStats.forward,r=dirStats.reverse;let diag=[];if(f.seen)diag.push(`Begriff → Kontext: <b>${f.secure}/${f.seen}</b> sicher`);if(r.seen)diag.push(`Kontext → Fachbegriff: <b>${r.secure}/${r.seen}</b> sicher`);$('result').innerHTML=`Du hast <b>${secure} von ${seen}</b> bearbeiteten Karten als sicher eingeschätzt (${pct} %).<br>${diag.join(' · ')}`;$('chips').innerHTML=groups.map(g=>`<span class="chip">${g.name}</span>`).join('');if(uncertain.length){let uniq=[...new Map(uncertain.map(c=>[c[0]+'|'+c[3],c])).values()];let reverseWeak=uniq.filter(c=>c[3]==='reverse').length,forwardWeak=uniq.filter(c=>c[3]==='forward').length;let note=reverseWeak>forwardWeak?'Du erkennst mehrere Fachbegriffe aus betrieblichen Situationen noch nicht sicher. Trainiere besonders <b>Kontext → Fachbegriff</b>.':forwardWeak>reverseWeak?'Du kennst mehrere Fachbegriffe noch nicht sicher genug in ihrer Bedeutung. Trainiere besonders <b>Begriff → Kontext</b>.':'Beide Trainingsrichtungen solltest du weiter festigen.';$('review').innerHTML=`<h3>Das solltest du unbedingt noch verstehen</h3><p>${note}</p>`+uniq.map(c=>`<div class="review-item"><b>${c[0]}</b>${c[1]}<br><small><b style="display:inline">BioCasa:</b> ${c[2]}</small><br><small>Unsicher in: ${c[3]==='reverse'?'Kontext → Fachbegriff':'Begriff → Kontext'}</small></div>`).join('');}else{$('review').innerHTML='<div class="review-ok">Du hast aktuell keinen Begriff als unsicher markiert. Nutze für einen anspruchsvolleren Durchgang den Modus „Kontext → Fachbegriff“ oder „Gemischt“.</div>';}$('retry').classList.toggle('hidden',uncertain.length===0);if(API12){try{API12.LMSSetValue('cmi.core.lesson_status','completed');API12.LMSSetValue('cmi.core.score.raw',String(pct));API12.LMSCommit('')}catch(e){}}}
+$('retry').onclick=()=>startSmartStack('uncertain');
+function setMode(m){mode=m;['Forward','Reverse','Mixed'].forEach(x=>$('mode'+x).classList.toggle('active',m===x.toLowerCase()));render()}
+$('modeForward').onclick=()=>setMode('forward');$('modeReverse').onclick=()=>setMode('reverse');$('modeMixed').onclick=()=>setMode('mixed');
+$('stackUncertain').onclick=()=>startSmartStack('uncertain');$('stackSecure').onclick=()=>startSmartStack('secure');
+$('repeatAll').onclick=restoreAllStack;
+function escAttr(v){return String(v).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function openTeacher(){document.querySelector('main').classList.add('hidden');$('utilityBar').classList.add('hidden');$('teacherPanel').classList.remove('hidden');$('pinView').classList.remove('hidden');$('editorView').classList.add('hidden');$('pinInput').value='';$('pinError').textContent='';setTimeout(()=>$('pinInput').focus(),0)}
+function closeTeacher(){$('teacherPanel').classList.add('hidden');document.querySelector('main').classList.remove('hidden');$('utilityBar').classList.remove('hidden');render()}
+function loginTeacher(){if($('pinInput').value==='0000'){$('pinView').classList.add('hidden');$('editorView').classList.remove('hidden');buildEditor()}else{$('pinError').textContent='PIN nicht korrekt.';$('pinInput').select()}}
+function buildEditor(){$('editorCards').innerHTML=originalGroups.map((g,gx)=>`<section class="teacher-group"><h3>${g.name}</h3>${g.cards.map((c,cx)=>`<div class="teacher-card" data-g="${gx}" data-c="${cx}"><label>Begriff</label><input data-f="0" value="${escAttr(c[0])}"><label>Antwort / Kurz erklärt</label><textarea data-f="1">${escAttr(c[1])}</textarea><label>BioCasa-Beispiel</label><textarea data-f="2">${escAttr(c[2])}</textarea></div>`).join('')}</section>`).join('')}
+function collectEdits(){document.querySelectorAll('.teacher-card').forEach(box=>{let g=+box.dataset.g,c=+box.dataset.c;box.querySelectorAll('[data-f]').forEach(el=>originalGroups[g].cards[c][+el.dataset.f]=el.value.trim())});rebuildCurrentStackAfterEdit()}
+function applyEdits(){collectEdits();cardStatus.clear();currentStack='all';groups.splice(0,groups.length,...originalGroups.map(g=>({name:g.name,cards:g.cards.map(c=>[...c])})));updateSmartButtons();alert('Änderungen übernommen. Die persönlichen Sicher/Unsicher-Stapel wurden zurückgesetzt, damit geänderte Begriffe neu eingeschätzt werden können.')}
+function resetEdits(){if(!confirm('Alle Änderungen auf die beim Öffnen dieser Paketversion enthaltenen Karten zurücksetzen?'))return;originalGroups.splice(0,originalGroups.length,...initialGroups.map(g=>({name:g.name,cards:g.cards.map(c=>[...c])})));cardStatus.clear();currentStack='all';groups.splice(0,groups.length,...originalGroups.map(g=>({name:g.name,cards:g.cards.map(c=>[...c])})));updateSmartButtons();buildEditor()}
+function downloadEditedHtml(){collectEdits();let copy=document.documentElement.cloneNode(true);copy.querySelector('main').classList.remove('hidden');copy.querySelector('#utilityBar').classList.remove('hidden');copy.querySelector('#teacherPanel').classList.add('hidden');copy.querySelector('#pinView').classList.remove('hidden');copy.querySelector('#editorView').classList.add('hidden');copy.querySelector('#editorCards').replaceChildren();copy.querySelector('#pdfPrint').replaceChildren();copy.querySelector('#pinInput').value='';let html='<!doctype html>\n'+copy.outerHTML;let start=html.indexOf('const groups=');let marker='const initialGroups=';let end=html.indexOf(marker,start);if(start<0||end<0){alert('Export konnte nicht vorbereitet werden.');return}let data='const groups='+JSON.stringify(originalGroups)+';\n';html=html.slice(0,start)+data+html.slice(end);let blob=new Blob([html],{type:'text/html;charset=utf-8'});let a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='index.html';document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500)}
+function escHtml(v){return String(v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#039;')}
+function buildPrintCards(){
+  let n=0;
+  const sections=originalGroups.map((g,gx)=>{
+    const cards=g.cards.map(c=>{n++;return `<article class="print-pair"><div class="print-side print-front"><span class="print-side-label">Vorderseite</span><div class="print-kicker">Fachbegriff</div><div class="print-term">${escHtml(c[0])}</div><span class="print-num">${n}</span></div><div class="print-side print-back"><span class="print-side-label">Rückseite</span><div class="print-kicker">Kurz erklärt</div><div class="print-definition">${escHtml(c[1])}</div><div class="print-context"><b>BioCasa-Kontext:</b> ${escHtml(c[2])}</div><span class="print-num">${n}</span></div></article>`}).join('');
+    return `<section class="print-section ${gx===0?'first':''}"><h2>${escHtml(g.name)}</h2>${cards}</section>`;
+  }).join('');
+  $('pdfPrint').innerHTML=`<div class="print-header"><div class="print-header-left"><img class="print-flash-logo" src="flashcards-logo.png" alt=""><div><h1>Flashcards: Eine Unternehmensberatung besuchen</h1><p>Vorderseite und Rückseite · BRC LG01 · LS02</p></div></div><img class="print-bbs-logo" src="bbs1-logo-weiss.png" alt="Berufsbildende Schulen 1 Aurich"></div><div class="print-note">PDF-Export: Jede Karte ist als Paar dargestellt – links die Vorderseite mit Fachbegriff, rechts die Rückseite mit Erklärung und BioCasa-Kontext.</div>${sections}`;
+}
+function exportPdf(){buildPrintCards();setTimeout(()=>window.print(),60)}
+$('pdfExport').onclick=exportPdf;
+$('teacherBack').onclick=closeTeacher;$('teacherOpen').onclick=openTeacher;$('teacherClose').onclick=closeTeacher;$('pinLogin').onclick=loginTeacher;$('pinInput').onkeydown=e=>{if(e.key==='Enter')loginTeacher()};$('applyEdits').onclick=applyEdits;$('downloadHtml').onclick=downloadEditedHtml;$('resetEdits').onclick=resetEdits;
+window.addEventListener('beforeunload',()=>{if(API12)try{API12.LMSFinish('')}catch(e){}});updateSmartButtons();render();
+</script></body></html>

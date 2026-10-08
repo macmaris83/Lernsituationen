@@ -1,0 +1,5 @@
+Sozialpädagogik – 30 Flashcards-SCORM-Einzelpakete, 360 Karten.
+
+Die Einzel-ZIPs können jeweils als eigene SCORM-Aktivität in Moodle hochgeladen werden. Die Sammel-ZIP vorher entpacken; sie ist selbst kein SCORM-Lernpaket. Paketuebersicht.csv ordnet LS, Titel und Dateinamen zu. Alle Pakete enthalten Quellenhinweise und einen Lehrkraftbereich im abgestimmten Design.
+
+Google Drive: Diese Dateien wurden lokal erstellt. Ein Drive-Upload ist ohne verbundenen Schreibzugriff nicht erfolgt.

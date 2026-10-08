@@ -1,0 +1,3 @@
+Alle 30 Pakete lokal geprüft: 360 Karten, Manifest-Dateien, JavaScript-Syntax, Browserstart und Logos, alle Trainingsrichtungen, Sicher-/Unsicher-Stapel, vollständiger Durchgang, SCORM-Abschluss und Selbsteinschätzungswert in einer Simulation, PIN und Lehrkraftbereich, Bearbeitung und erneutes Öffnen der exportierten HTML-Datei, 390/768-Pixel-Ansichten sowie Druckansicht mit 12 Kartenpaaren.
+
+Nicht durchgeführt: Prüfung im tatsächlichen Moodle; Google-Drive-Upload, da in dieser Sitzung kein Drive-Schreibzugriff verfügbar ist.
