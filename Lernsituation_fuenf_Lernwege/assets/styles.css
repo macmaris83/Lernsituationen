@@ -45,3 +45,12 @@ body[data-phase-layout] .assignment-frame.assignment-moodle{border:1px solid rgb
 body[data-phase-layout] .assignment-moodle .merged-moodle-link{border:0;background:transparent;box-shadow:none;padding:.6rem 0 0;margin:0}
 .assignment-moodle .merged-moodle-link>img{display:none}
 .orientation-competencies h3 strong{font-weight:750}
+
+/* Kompakter, per Tastatur bedienbarer Materialzugriff. */
+body .main .lesson-content :is(.material-access,.phase-materials){padding:6px 12px;margin:12px 0;border-radius:12px}
+.material-disclosure>summary{cursor:pointer;color:var(--ink);font-weight:700;font-size:.9rem;line-height:1.4;padding:6px 0;min-height:32px}
+.material-disclosure-content{padding:8px 0 4px}
+body .main .lesson-content :is(.material-access,.phase-materials) .material-grid{display:flex;flex-wrap:wrap;gap:6px}
+body .main .lesson-content :is(.material-access,.phase-materials) .material-link{padding:6px 9px;font-size:.82rem;line-height:1.4;min-height:32px;align-items:center;gap:5px}
+body .main .lesson-content :is(.material-access,.phase-materials) .material-link b{padding:0;background:transparent;flex:none}
+@media print{.material-disclosure>summary{list-style:none}.material-disclosure-content{padding:0}}

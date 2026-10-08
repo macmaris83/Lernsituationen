@@ -50,4 +50,24 @@ function start(){const page=document.body.dataset.page;const content=$('.lesson-
 $$('[data-assessment-widget]').forEach(assessmentUI);drawRadars();bindProgress();setMode(settings.mode,false);$$('[data-student-mode]').forEach(e=>e.addEventListener('change',()=>setMode(e.value)));renderMedia();bindMoodle();bindWork();$$('[data-share-workbook]').forEach(e=>e.addEventListener('click',shareWorkbook));$$('[data-print]').forEach(e=>e.addEventListener('click',()=>window.print()));status(assessmentStatus());$$('[data-release-material]').forEach(e=>e.addEventListener('click',()=>{const target=$('[data-delayed-material]');if(target){target.hidden=false;e.hidden=true;}}));window.SOZ_PROGRESS?.mount();status(assessmentStatus());window.SOZ_READY=true;}
 window.SOZ_API={getState:()=>state,getSettings:()=>settings,setMode,bindProgress,saveSettings,validateState,safeURL,blobDownload,loadScript,renderMedia,mediaHTML,escape,version,key,labels};
 start();
+
+function compactMaterialAccess(){
+ document.querySelectorAll('.lesson-content .material-access,.lesson-content .phase-materials').forEach(section=>{
+  if(section.querySelector('.material-disclosure'))return;
+  const heading=section.querySelector('h2');
+  const links=section.querySelectorAll('.material-link');
+  if(!heading||!links.length)return;
+  const details=document.createElement('details');details.className='material-disclosure';
+  const summary=document.createElement('summary');summary.textContent=heading.textContent+' · '+links.length+' Materialien';
+  heading.remove();
+  const content=document.createElement('div');content.className='material-disclosure-content';
+  while(section.firstChild)content.append(section.firstChild);
+  details.append(summary,content);section.append(details);
+ });
+}
+compactMaterialAccess();
+const printMaterialStates=new Map();
+window.addEventListener('beforeprint',()=>{document.querySelectorAll('.material-disclosure').forEach(d=>{printMaterialStates.set(d,d.open);d.open=true;});});
+window.addEventListener('afterprint',()=>{printMaterialStates.forEach((open,d)=>{d.open=open;});printMaterialStates.clear();});
+
 })();
