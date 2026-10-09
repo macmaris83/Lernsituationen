@@ -1,0 +1,19 @@
+{
+  "phaseBudgets": {
+    "informieren": 270,
+    "planen": 135,
+    "entscheiden": 135,
+    "durchfuehren": 180,
+    "bewerten": 45,
+    "reflektieren": 45
+  },
+  "minutesByMode": {
+    "informieren": {"1": [15, 35, 40, 25, 30, 45, 35, 25, 20], "2": [240, 30], "3": [35, 170, 25, 40], "4": [40, 110, 120], "5": [270]},
+    "planen": {"1": [40, 35, 40, 20], "2": [45, 90], "3": [40, 35, 40, 20], "4": [55, 80], "5": [135]},
+    "entscheiden": {"1": [20, 25, 40, 30, 20], "2": [70, 65], "3": [35, 45, 35, 20], "4": [90, 45], "5": [135]},
+    "durchfuehren": {"1": [125, 55], "2": [115, 15, 50], "3": [125, 55], "4": [85, 40, 10, 45], "5": [125, 55]},
+    "bewerten": {"1": [25, 15, 5], "2": [40, 5], "3": [35, 10], "4": [40, 5], "5": [35, 10]},
+    "reflektieren": {"1": [8, 8, 12, 10, 7], "2": [35, 10], "3": [35, 10], "4": [35, 10], "5": [35, 10]}
+  },
+  "rationale": "Zeiten nach fachlichem Umfang, Analyse-/Rechenaufwand, Dokumentation, gegenseitiger Prüfung und Abgabe verteilt. Bündelaufträge behalten eine entsprechend längere Orientierungszeit. Je Lernweg ergeben die Aufgaben exakt dieselbe Phasenzeit; die Wege sind Alternativen und werden nicht addiert. Wege 3 und 5 erhalten auf Nutzerwunsch dieselben Phasenbudgets als Orientierung. Gesamtumfang je Weg: 810 Minuten = 18 Unterrichtsstunden."
+}
