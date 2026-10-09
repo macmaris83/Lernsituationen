@@ -43,7 +43,29 @@ function saveClock(t){try{sessionStorage.setItem(t.key,JSON.stringify({total:t.t
     runtime = replace_once(runtime,
         'summary.append(strip);',
         r"const phaseForm=card.closest('[data-mode-panel]')?.querySelectorAll('.phase-meta p')[1];if(phaseForm&&!card.querySelector('.assignment-social')){const form=element('span','focus-phase-form');const icon=phaseForm.querySelector('svg');if(icon)form.append(icon.cloneNode(true));const formText=phaseForm.querySelector('span')?.textContent.replace(/^Arbeitsform:\s*/,'').trim();if(formText)form.append(element('span','',formText));strip.append(form);}summary.append(strip);")
-    return runtime
+    return runtime + MATERIAL_PHASE_NAV
+
+
+MATERIAL_PHASE_NAV = r"""
+/* Material access to the complete action cycle; retain the same-task shortcut. */
+(()=>{
+const D=window.SOZPAED;if(!D||!/^m\d+\.html$/.test(document.body.dataset.page||''))return;
+const main=document.querySelector('.main');if(!main)return;
+const phases=[['index.html','Orientierung'],['handlungssituation.html','Handlungssituation'],['informieren.html','Informieren'],['planen.html','Planen'],['entscheiden.html','Entscheiden'],['durchfuehren.html','Durchführen'],['bewerten.html','Bewerten'],['reflektieren.html','Reflektieren']];
+let saved;try{saved=JSON.parse(sessionStorage.getItem('task-focus-return:'+D.id)||'null');}catch{}
+const origin=phases.findIndex(([name])=>name===saved?.page),current=origin>=0?origin:2;
+const nav=document.createElement('nav');nav.className='material-phase-navigation';nav.setAttribute('aria-label','Vollständige Handlung');
+const heading=document.createElement('strong');heading.textContent='Phasenübersicht';nav.append(heading);
+const links=document.createElement('div');links.className='material-phase-links';
+function link(index,label){const a=document.createElement('a');a.className='button';a.href=phases[index][0];a.dataset.learningPage=phases[index][0];a.textContent=label||phases[index][1];return a;}
+phases.forEach((phase,index)=>links.append(link(index)));nav.append(links);
+main.querySelector('.material-switch')?.after(nav);
+const turn=document.createElement('nav');turn.className='material-phase-turn';turn.setAttribute('aria-label','Zurück oder weiter in der vollständigen Handlung');
+turn.append(link(current,'← Zurück · '+phases[current][1]));
+if(current<phases.length-1)turn.append(link(current+1,'Weiter · '+phases[current+1][1]+' →'));
+main.append(turn);window.SOZ_PROGRESS?.render();
+})();
+"""
 
 
 EXTRA_CSS = """
@@ -52,6 +74,13 @@ EXTRA_CSS = """
 .task-accordion[open] .focus-phase-form{display:flex}
 .focus-phase-form svg{width:24px;height:24px;flex:0 0 24px;color:#618500}
 .task-accordion[open] .focus-symbol-strip{min-width:0;max-width:100%}
+.material-phase-navigation{border:1px solid #b8dfee;background:#eef8fd;border-radius:12px;padding:10px 12px;margin-bottom:14px}
+.material-phase-navigation>strong{display:block;font-size:.8rem;color:#173a63;margin-bottom:7px}
+.material-phase-links{display:flex;gap:6px;overflow-x:auto}
+.material-phase-links .button{flex:none;white-space:nowrap;font-size:.8rem;padding:7px 10px}
+.material-phase-turn{display:flex;justify-content:space-between;gap:12px;margin:20px 0;flex-wrap:wrap}
+.material-phase-turn .button{background:#eaf7fd;border-color:#009bd9;color:#006a98}
+@media print{.material-phase-navigation,.material-phase-turn{display:none}}
 """
 
 
@@ -105,7 +134,7 @@ def main():
     # local ZIP export input are adopted from the approved template.
     for path in args.output.glob('*.html'):
         text=path.read_text()
-        text=re.sub(r'((?:assets/(?:runtime\.js|styles\.css|teacher\.js|progress-core\.js|progress\.js))|lesson-data\.js)(?:\?[^"\s]*)?',r'\1?v=businessplan-ui-20261009',text)
+        text=re.sub(r'((?:assets/(?:runtime\.js|styles\.css|teacher\.js|progress-core\.js|progress\.js))|lesson-data\.js)(?:\?[^"\s]*)?',r'\1?v=businessplan-ui-20261009-materialnav',text)
         if path.name=='lehrkraft.html':
             ref=(TEMPLATE/path.name).read_text()
             field=re.search(r'<label[^>]*>[^<]*<input[^>]*data-source-package[^>]*>.*?</label>',ref,re.S)

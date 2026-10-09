@@ -140,6 +140,30 @@ def main():
             page.get_by_role('button',name='Schließen',exact=True).click();assert page.locator('.task-accordion[open]').count()==1
             context.close();print('PASS: green/black/red timer, pause/resume, chime, material-only navigation, same-task return with retained time, AIS dialog mock',flush=True)
 
+            # Every material offers the complete action cycle without bypassing gates.
+            context=browser.new_context(viewport={'width':768,'height':1024});page=context.new_page()
+            for mode in range(1,6):
+                for material in range(1,11):
+                    page.goto(base+f'm{material}.html');unlock_phases(page,mode)
+                    assert page.locator('.material-phase-navigation:visible').count()==1
+                    assert page.locator('.material-phase-links a[href]').count()==8
+                    assert page.locator('.material-phase-turn a[href]').count()==2
+                    assert page.locator('.material-switch:visible').count()==1
+                    assert page.locator('[data-share-workbook]:visible').count()==0
+                    assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
+                    page.evaluate('''mode=>{const p=SOZ_PROGRESS.read();const id=Object.entries(SOZ_PROGRESS_META.tasks).find(([id,t])=>t.mode===mode&&t.phase==='informieren')[0];delete p.t[id];SOZ_PROGRESS.write(p);}''',mode)
+                    assert page.locator('.material-phase-links [data-learning-page="planen.html"]').get_attribute('aria-disabled')=='true'
+                    assert page.locator('.material-phase-turn a').last.get_attribute('aria-disabled')=='true'
+                    assert page.locator('.material-phase-turn a').first.get_attribute('href')=='informieren.html'
+            page.goto(base+'planen.html');page.wait_for_function("document.body.dataset.taskFocusReady==='true'");unlock_phases(page,1)
+            page.locator('.task-original-preview:visible').first.click()
+            page.goto(base+'m10.html');unlock_phases(page,1)
+            assert page.locator('.material-phase-turn a').first.get_attribute('href')=='planen.html'
+            assert page.locator('.material-phase-turn a').last.get_attribute('href')=='entscheiden.html'
+            page.locator('.material-phase-turn a').last.click();assert page.url.endswith('entscheiden.html')
+            page.goto(base+'m1.html');page.locator('.material-phase-links a[href="informieren.html"]').click();assert page.url.endswith('informieren.html')
+            context.close();print('PASS: all ten materials in five paths: complete phase navigation, contextual back/next, phase locks and real phase transitions',flush=True)
+
             # Teacher edit is the actual source used by the accordion and export.
             context=browser.new_context(viewport={'width':1024,'height':768},accept_downloads=True);page=context.new_page()
             page.goto(base+'lehrkraft.html')
