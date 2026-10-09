@@ -28,7 +28,8 @@ die gesonderten Vorgaben in `Lernpfaduebungen/AGENTS.md`.
 ## Materialien und KI-Hilfe
 
 - Genau ein hellgrünes Material-Akkordeon pro Phasenseite. Materiallinks in einer horizontalen Zeile; auf schmalen Displays horizontal scrollbar. Keine doppelte Materialauswahl in einer weiteren Leiste.
-- Auf Materialseiten keine acht Lernstationen, keine große Kopf-/Fußnavigation und keine GoodNotes-Teilen-Funktion. Genau eine hellgrüne Leiste zum Wechseln zwischen den vorhandenen Materialien.
+- Auf jeder Materialseite muss eine kompakte Phasenübersicht Zugang zu allen acht Stationen der vollständigen Handlung bieten. Zusätzlich müssen „Zurück“ zur Ausgangsphase und „Weiter“ zur folgenden Phase angeboten werden; die Ausgangsphase aus der zuletzt geöffneten Aufgabe übernehmen. Ohne vorherige Aufgabe Informieren als Ausgangspunkt nutzen. In der letzten Phase entfällt „Weiter“. Die bestehenden Phasensperren gelten auch für diese Materialnavigation und dürfen nicht umgangen werden.
+- Die Materialnavigation bleibt kompakt: keine große Kopf-/Fußnavigation und keine GoodNotes-Teilen-Funktion. Genau eine hellgrüne Leiste zum Wechseln zwischen den vorhandenen Materialien; die zusätzliche Phasenwahl und Zurück-/Weiter-Schaltflächen blau gestalten. Diese Vorgabe ersetzt das frühere Verbot der Phasenwahl auf Materialseiten und gilt für zukünftige Lernsituationen und SCORM-Paketaktualisierungen.
 - Ein schwebender Button unten rechts führt aus dem Material zur zuletzt geöffneten Aufgabe zurück; Phase, Aufgabe und Lernweg erhalten.
 - Eine kompakte lila KI-Hilfe: AIS.chat-Logo als direkt eingebettetes SVG im Button „KI-Hilfe öffnen“. Kein langer Erklärungstext neben der Aufgabe, keine drei Hilfestufen und keine alten Punkteabzüge.
 - Chat im eingebetteten Dialog auf derselben Seite öffnen; nicht automatisch Safari oder ein neues Browserfenster öffnen. Dialogtitel: „KI-Hilfe · Löppt-Pilot“, ausdrücklich mit ö und zwei p. Kurzer Hinweis im Dialog: „Hilfe zur Selbsthilfe · Deine Lösung erarbeitest du selbst.“
@@ -47,7 +48,8 @@ die gesonderten Vorgaben in `Lernpfaduebungen/AGENTS.md`.
 
 Bei Verhaltensänderungen im Browser prüfen: Aufgaben vollständig, Teilaufträge als
 Absätze, offener Kopf ohne Einklappaktion, manuelles Weiter, grüne Erledigt-Karten,
-Materialwechsel und Rücksprung mit korrektem Lernweg, gemeinsame Höhe von
+Materialwechsel und Rücksprung mit korrektem Lernweg, Phasenwahl und Zurück/Weiter
+auf allen Materialseiten einschließlich Phasensperren, gemeinsame Höhe von
 Fachkompetenz/Uhr auf Tabletbreite und keine Überbreite auf schmalen Displays.
 Freischaltung oben/unten und direkten gesperrten Aufruf prüfen. Bei Änderungen am
 Editor/Export gespeicherte Bearbeitung bis zum Export prüfen; bei Änderungen am
