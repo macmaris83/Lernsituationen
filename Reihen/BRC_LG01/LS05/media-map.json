@@ -1,14 +1,14 @@
 {
   "slots": {
     "orientation": {
-      "src": "",
-      "alt": "",
-      "label": "Orientierung · optionales Motiv"
+      "src": "assets/images/biocasa-ls05-orientation.png",
+      "alt": "Das Gründungsteam bespricht Unterlagen und ein Organigramm an einem Tisch.",
+      "label": "Orientierung · Ein Unternehmen gründen"
     },
     "situation": {
-      "src": "",
-      "alt": "",
-      "label": "Handlungssituation · optionales Motiv"
+      "src": "assets/images/biocasa-ls05-situation.png",
+      "alt": "Das Gründungsteam prüft mit einem Berater Gründungsunterlagen und Vertragsdokumente.",
+      "label": "Handlungssituation · Ein Unternehmen gründen"
     }
   }
 }

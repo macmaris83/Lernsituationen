@@ -1,0 +1,4049 @@
+{
+  "LS01": {
+    "orientationSignature": "497df6d0",
+    "tasks": [
+      {
+        "id": "0:1:1",
+        "signature": "2aa5a09f",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "IdentifizierenSieinM1daszentralebetrieblicheProblemundnennenSiemindestensdreimöglichewirtschaftlicheFolgen,wenndasGründerteamohneEinigungindasBeratungsgesprächgeht."
+      },
+      {
+        "id": "0:1:2",
+        "signature": "b75718c1",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "ArbeitenSieausM1undM2heraus,welchefachlichenStärken,persönlichenZieleundBefürchtungendievierGründerinnenundGründereinbringen.HaltenSieIhreErgebnisseindervorgegebenenStrukturfest:Person–Stärke/Ressource–Ziel–Befürchtung."
+      },
+      {
+        "id": "0:1:3",
+        "signature": "f81d1186",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "AnalysierenSiedieKundenimpulseinM3.ErmittelnSiezweiklarabgrenzbareKundenbedürfnisse,dieBioCasamiteinemerstenAngebotbesondersguterfüllenkönnte.TrennenSiedabeiBeobachtungenausdemMaterialvoneigenenVermutungen."
+      },
+      {
+        "id": "0:1:4",
+        "signature": "2fbba0c7",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "OrdnenSiedieAussagenausM1bisM4wirtschaftlichen,sozialenoderökologischenUnternehmenszielenzu.KennzeichnenSieaußerdem,obessichumeinSachzielodereinFormalzielhandelt."
+      },
+      {
+        "id": "0:1:5",
+        "signature": "083d10d8",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "AnalysierenSiemithilfevonM4dieInteressenderAnspruchsgruppen.ErläuternSiefürvierbesonderswichtigeAnspruchsgruppenjeweilseinenmöglichenBeitragzumUnternehmenundeinenmöglichenKonfliktmiteinemZieldesGründerteams."
+      },
+      {
+        "id": "0:1:6",
+        "signature": "147816f2",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "EinordnenSieBioCasamithilfevonM5hinsichtlichderBetriebsart.BegründenSie,weshalbandereEinordnungenfürdengeplantenSchwerpunktwenigerpassendsind."
+      },
+      {
+        "id": "0:1:7",
+        "signature": "15371142",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "VergleichenSiedieinM6dargestelltenLeistungsprozessedesIndustrieunternehmensNordfriesischeFeinkostwerkemitdengeplantenAbläufenbeiBioCasa.SkizzierenSieanschließendeineeinfacheProzesskettefürBioCasavomEinkaufbiszumZahlungseingang."
+      },
+      {
+        "id": "0:1:8",
+        "signature": "596ebc69",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "Zwischensicherung:JedeGruppegibteinemaximalzweiminütigeProblemdiagnoseab.DarinmüssendasgemeinsameKundenproblem,zweizentraleZielkonflikte,dieBetriebsartunddiegeplanteProzessketteerkennbarsein."
+      },
+      {
+        "id": "0:2:1",
+        "signature": "3513a519",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "AnalysierenSiezunächsteinzeln,woraneinegemeinsameGründungscheiternkönnte.BearbeitenSieanschließenddiefolgendenPakete.StimmenSienachjedemPaketIhreErgebnisseimTeamab;offenefachlicheFragenkönnenSiemitderLehrkraftklären."
+      },
+      {
+        "id": "0:2:2",
+        "signature": "049e44d5",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "GründerundKundschaft–M1bisM3:ArbeitenSiedieStärken,ZieleundBefürchtungendervierPersonenheraus.ErmittelnSiezweiunterscheidbareKundenbedürfnisseundnennenSiemindestensdreiwirtschaftlicheFolgeneinesBeratungsgesprächsohnegemeinsameAusrichtung.Leitfragen:WelchesProblembestehtimAlltagderKundschaft?WelcheGründerpositionunterstütztseineLösung,welcheerschwertdieEinigung?TrennenSieMaterialaussagenundeigeneAnnahmen."
+      },
+      {
+        "id": "0:2:3",
+        "signature": "85aae8a6",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "ZieleundInteressen–M1bisM4:OrdnenSiedieerkennbarenZielewirtschaftlichen,sozialenundökologischenBereichensowieSach-undFormalzielenzu.ErläuternSiefürvierwichtigeAnspruchsgruppenderenBeitragundeinenmöglichenKonfliktmitGründerzielen.Leitfrage:WelcheZusageaneineGruppekönntedieErfüllungeineranderenZusageerschweren?"
+      },
+      {
+        "id": "0:2:4",
+        "signature": "ee8d80d7",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "BetriebsartundAbläufe–M5undM6:BegründenSiedieEinordnungvonBioCasaundgrenzenSiediesevonwenigerpassendenBetriebsartenab.VergleichenSiedieAbläufederNordfriesischenFeinkostwerkemitdemgeplantenStartbetriebundskizzierenSieeinepassendeProzesskettebiszumZahlungseingang."
+      },
+      {
+        "id": "0:2:5",
+        "signature": "741329f3",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "WählbareStrukturhilfen:NutzenSiebeiBedarf„Person–Ressource–Ziel–Befürchtung“,„Anspruchsgruppe–Beitrag–Interesse–Konflikt“oder„Prozessschritt–AufgabebeiBioCasa–erforderlicheKontrolle“.DieFelderhelfenbeimOrdnen;dieEinträgeerarbeitenSieselbst.VerdichtenSieIhreAnalysezueinermaximalzweiminütigenProblemdiagnosemitKundenproblem,zweiZielkonflikten,BetriebsartundProzesskette."
+      },
+      {
+        "id": "0:3:1",
+        "signature": "f9ff2c88",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "AnalysierenSiedieAusgangslageundklärenSie,welcheInformationenausM1bisM6Siebenötigen,umeinegemeinsameGeschäftsideezuentwickeln."
+      },
+      {
+        "id": "0:3:2",
+        "signature": "f5f7b114",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "StellenSiesicher,dassIhrTeamfachlichbelastbareAussagenzuKundenproblemundZielgruppe,UnternehmenszielenundZielbeziehungen,Anspruchsgruppen,BetriebsartsowiegrundlegendenLeistungsprozessentreffenkann."
+      },
+      {
+        "id": "0:3:3",
+        "signature": "f7537247",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "EntscheidenSieselbst,wieSiedieMaterialienaufteilenundIhreErgebnissesichern.JedewesentlicheAussagemussaufeinMaterialodereinenachvollziehbareeigeneSchlussfolgerungzurückgeführtwerdenkönnen."
+      },
+      {
+        "id": "0:3:4",
+        "signature": "c1fd76c9",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "HaltenSiealsMeilenstein1einekompakteProblemdiagnosefest:Wasistbereitsgeklärt,wobestehenZielkonflikteundwelcheEntscheidungmussdasGründerteamtreffen?"
+      },
+      {
+        "id": "0:4:1",
+        "signature": "e3eb95f7",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "BeginnenSiemiteinemeigenen,KI-freienVerständnisdesGründungsproblems.EntscheidenSie,welcheMaterialienSiegemeinsam,arbeitsteiligoderzurGegenprüfungauswertenundwieSieBefundedokumentieren.AllefachlichenBereichemüssendurchdieAuswahlabgedecktwerden;ArbeitsteilungmussingemeinsamverstandeneErgebnissemünden."
+      },
+      {
+        "id": "0:4:2",
+        "signature": "7967180e",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "IhreAnalysemussdieunterschiedlichenRessourcen,ZieleundBefürchtungendervierGründerpersonenerklären,mindestensdreimöglichewirtschaftlicheFolgenfehlenderEinigungbenennenundzweiabgrenzbareKundenbedürfnisseausM3herausarbeiten.UnterscheidenSiegesicherteMaterialaussagen,ersteKundenhinweiseundeigeneAnnahmen."
+      },
+      {
+        "id": "0:4:3",
+        "signature": "dfab558d",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "OrdnenSiedieZielenachwirtschaftlichen,sozialenundökologischenAspektensowienachSach-undFormalzielen.UntersuchenSiebeivierwichtigenAnspruchsgruppenBeitrag,InteresseundmöglicheKonflikte.BegründenSiemithilfevonM5dieBetriebsartundvergleichenSiemitM6dieLeistungsprozesse.LeitenSieeineBioCasa-ProzesskettebiszumZahlungseingangab.DieFormIhrergemeinsamenProblemdiagnosewählenSieselbst;siesollKundenproblem,zweiZielkonflikteundProzesslogikknapperklärenkönnen."
+      },
+      {
+        "id": "0:5:1",
+        "signature": "de3b16ce",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "StartenSieKI-freimitderHandlungssituationundformulierenSieIhreigenesVerständnisdesProblems."
+      },
+      {
+        "id": "0:5:2",
+        "signature": "fe48761f",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "SichtenSieM1bisM6ineinerselbstgewähltenReihenfolge.EntscheidenSie,welcheMaterialienSieintensiv,arbeitsteiligodernurzurKontrollenutzen."
+      },
+      {
+        "id": "0:5:3",
+        "signature": "81750011",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "IhrfachlicherPflichtkern:Kundenproblem/Zielgruppe,wirtschaftliche–soziale–ökologischeZieleundZielbeziehungen,relevanteAnspruchsgruppen,BetriebsartsowiegrundlegendeLeistungsprozesse."
+      },
+      {
+        "id": "0:5:4",
+        "signature": "c4f33789",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "CheckpointA:DasTeamkanninhöchstensdreiMinutenerklären,welchesProblemBioCasalösenwill,welcheZielkonfliktebestehenundwelchefachlichenFragenvordemBeratungsgesprächgeklärtseinmüssen."
+      },
+      {
+        "id": "1:1:1",
+        "signature": "578fae9f",
+        "phase": "planen",
+        "mode": 1,
+        "text": "ErstellenSieeinenArbeitsplanfürdieAbstimmungdergemeinsamenGeschäftsidee.BerücksichtigenSiedabeimindestensfolgendeEntscheidungen:Kundenproblem,Zielgruppe,Nutzenversprechen,Startsortiment,Unternehmensziele,UmgangmitZielkonflikten,BetriebsartundgrundlegendeLeistungsprozesse."
+      },
+      {
+        "id": "1:1:2",
+        "signature": "59fa0f79",
+        "phase": "planen",
+        "mode": 1,
+        "text": "EntwickelnSieselbstständigaufderGrundlagederMaterialienvierPrüfkriterienfüreinetragfähigeLösung.MindestenseinKriteriummusssichaufwirtschaftlicheTragfähigkeit,einesaufKundenorientierung,einesaufUmsetzbarkeitundeinesaufdieInteressenwichtigerAnspruchsgruppenbeziehen."
+      },
+      {
+        "id": "1:1:3",
+        "signature": "ed45c510",
+        "phase": "planen",
+        "mode": 1,
+        "text": "ErstellenSiezunächstjezweimöglichewirtschaftliche,sozialeundökologischeZielformulierungenfürBioCasa.DieZielemüsseneindeutig,überprüfbarundmiteinemZeithorizontversehensein."
+      },
+      {
+        "id": "1:1:4",
+        "signature": "ec52b732",
+        "phase": "planen",
+        "mode": 1,
+        "text": "StellenSiedieBeziehungenzwischendenvorgeschlagenenZielendar.UnterscheidenSieZielharmonie,ZielkonfliktundZielneutralität."
+      },
+      {
+        "id": "1:2:1",
+        "signature": "0c27095d",
+        "phase": "planen",
+        "mode": 2,
+        "text": "PlanenSiedieAbstimmungderGeschäftsideeindreiArbeitspaketen:AngebotundZielgruppe,ZieleundInteressenausgleich,BetriebsartundUmsetzung.LegenSieinnerhalbdieserPaketeAufgaben,ZuständigkeitenundZwischenergebnissefest.NutzenSiebeiBedarfdieStruktur„Aufgabe–verantwortlich–benötigteInformation–fertigbis“."
+      },
+      {
+        "id": "1:2:2",
+        "signature": "9ed4d18c",
+        "phase": "planen",
+        "mode": 2,
+        "text": "EntwickelnSievierPrüfkriterienfürdiespätereVariantenentscheidung;Wirtschaftlichkeit,Kundenorientierung,UmsetzbarkeitundAnspruchsgruppenmüssenvertretensein.Leitfrage:WoranwürdenSieimkonkretenBioCasa-Fallerkennen,dasseineVariantediesesKriteriumerfüllt?"
+      },
+      {
+        "id": "1:2:3",
+        "signature": "5889754a",
+        "phase": "planen",
+        "mode": 2,
+        "text": "FormulierenSiejezweimöglichewirtschaftliche,sozialeundökologischeZiele.EinewählbareFormulierungshilfelautet:„Bis…soll…,überprüfbaran…“.EigeneZielwertekennzeichnenSiealsVorschläge.StellenSieZielharmonie,ZielkonfliktundZielneutralitätzwischenIhrenZielendar.DieLehrkraftunterstütztbeifachlichenZuordnungsfragen."
+      },
+      {
+        "id": "1:3:1",
+        "signature": "ac456bff",
+        "phase": "planen",
+        "mode": 3,
+        "text": "ErstellenSieeineneigenenArbeits-undZeitplanbiszurfertigenTischvorlage."
+      },
+      {
+        "id": "1:3:2",
+        "signature": "343ba518",
+        "phase": "planen",
+        "mode": 3,
+        "text": "EntwickelnSiegeeignetePrüfkriterienfüreinetragfähigeGeschäftsidee.Wirtschaftlichkeit,Kundenorientierung,UmsetzbarkeitundInteressenwichtigerAnspruchsgruppenmüssenberücksichtigtsein."
+      },
+      {
+        "id": "1:3:3",
+        "signature": "99b771d7",
+        "phase": "planen",
+        "mode": 3,
+        "text": "LegenSiefest,wieSieZielbeziehungensichtbarmachenundwieSiemitnochungeklärtenFragenumgehen."
+      },
+      {
+        "id": "1:3:4",
+        "signature": "cc1e7dba",
+        "phase": "planen",
+        "mode": 3,
+        "text": "GebenSieIhrenPlanineinemkurzenTeam-Checkfrei:Aufgaben,Verantwortlichkeiten,ZwischenproduktundPrüfterminmüssenerkennbarsein."
+      },
+      {
+        "id": "1:4:1",
+        "signature": "b989a05b",
+        "phase": "planen",
+        "mode": 4,
+        "text": "EntwickelnSieeineneigenenArbeitsplanfürdenWegvonwidersprüchlichenGründerpositionenzurgemeinsamenTischvorlage.LegenSieAufgaben,Zuständigkeiten,interneZeitabschnitteunddenUmgangmitInformationslückenfest.EntscheidenSie,wannkonzentrierteEinzelarbeit,AushandlungimTeamoderfachlicheBeratungsinnvollistundwelcherverfügbareLernortdazupasst.PlanenSiediebeidenuntenbeschriebenenCheckpointsundZeitzurÜberarbeitungein."
+      },
+      {
+        "id": "1:4:2",
+        "signature": "8ea29bf4",
+        "phase": "planen",
+        "mode": 4,
+        "text": "BestimmenSievierbegründeteKriterienfürdenVariantenvergleich,dieWirtschaftlichkeit,Kundenorientierung,UmsetzbarkeitundInteressenwichtigerAnspruchsgruppenabdecken.ErarbeitenSiejezweiüberprüfbare,terminiertewirtschaftliche,sozialeundökologischeZielvorschläge.StellenSiederenHarmonien,KonflikteundNeutralitätenineinerselbstgewähltenFormdar.LegenSiefest,wieIhrTeambeikonkurrierendenInteressenzueinembegründetenUrteilkommt.FehlendeSachkenntnisklärenSiegezieltmitdenMaterialien,Abschnitt7oderderLehrkraft."
+      },
+      {
+        "id": "1:5:1",
+        "signature": "94eb7f83",
+        "phase": "planen",
+        "mode": 5,
+        "text": "OrganisierenSieTeamgrößebzw.Rollen,Zeitbudget,ArbeitsphasenundDokumentationselbst."
+      },
+      {
+        "id": "1:5:2",
+        "signature": "00653bc8",
+        "phase": "planen",
+        "mode": 5,
+        "text": "LegenSieeigeneQualitätskriterienfürdiespätereTischvorlagefestundbestimmenSie,woranSieerkennen,dassIhreLösungfachlichtragfähigist."
+      },
+      {
+        "id": "1:5:3",
+        "signature": "6169afc3",
+        "phase": "planen",
+        "mode": 5,
+        "text": "AbdieserPhasedürfenSiebeiBedarfdenfreigegebenenKI-AssistentenalsCoachnutzen,z.B.umIhrenPlanaufLückenprüfenzulassen.EntscheidungenundfachlicheBegründungenbleibenIhreAufgabe."
+      },
+      {
+        "id": "1:5:4",
+        "signature": "a8e2138b",
+        "phase": "planen",
+        "mode": 5,
+        "text": "CheckpointB:IhrLernteamverfügtübereinenrealistischenPlanmitVerantwortlichkeiten,PrüfpunktenundeinemvereinbartenFertigstellungstermin."
+      },
+      {
+        "id": "2:1:1",
+        "signature": "44116659",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "DiskutierenSieausdenPerspektivendervierGründerinnenundGründerzweirealistischeVarianten:VarianteA:breiter,schnellerMarktstartmitfünfGerichtenundüberregionalemVertrieb;VarianteB:regionalerStartmitdreistandardisiertenGerichtenfüreineklareingegrenzteZielgruppe."
+      },
+      {
+        "id": "2:1:2",
+        "signature": "233d4cbf",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BeurteilenSiebeideVariantenanhandIhrervierPrüfkriterien."
+      },
+      {
+        "id": "2:1:3",
+        "signature": "8b9fc9de",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "EntwickelnSieselbstständigausIhrerBeurteilungeinegemeinsameAusrichtung.FallsSieElementebeiderVariantenverbinden,müssenSiedeutlichdarstellen,welcheBestandteileübernommenundwelcheverworfenwerden."
+      },
+      {
+        "id": "2:1:4",
+        "signature": "c1bb7ef4",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BegründenSie,wieIhrVorschlagdiezweiwichtigstenZielkonfliktelöstoderbewusstbegrenzt."
+      },
+      {
+        "id": "2:2:1",
+        "signature": "66d15d96",
+        "phase": "entscheiden",
+        "mode": 2,
+        "text": "BeurteilenSiedenbreiten,schnellenMarktstartmitfünfGerichtenundüberregionalemVertriebsowiedenregionalenStartmitdreistandardisiertenGerichtenfüreineeingegrenzteZielgruppeanhandIhrervierKriterien.StimmenSieIhreRollenimTeamabundvertretenSiediejeweiligenInteressenmaterialgestützt."
+      },
+      {
+        "id": "2:2:2",
+        "signature": "89842013",
+        "phase": "entscheiden",
+        "mode": 2,
+        "text": "AlsGesprächshilfekönnenSienutzen:„AusmeinerGründerperspektiveist…entscheidend,weil…;tragfähigwärefürmich…“.EntwickelnSieausdemVergleicheinegemeinsameAusrichtung.EineVerbindungbeiderVariantenistmöglich,wennübernommeneundverworfeneBestandteileklarbenanntwerden.BegründenSieKundenproblem,Zielgruppe,NutzenversprechenundStartumfangsowiedenUmgangmitmindestenszweiZielkonflikten.EinMehrheitsvotumalleinersetztdiefachlicheBegründungnicht."
+      },
+      {
+        "id": "2:3:1",
+        "signature": "d130ff86",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "EntwickelnSiemindestenszweirealistischeAusrichtungenfürBioCasaodernutzenSiedieindenMaterialienangelegtenVariantenalsAusgangspunkt."
+      },
+      {
+        "id": "2:3:2",
+        "signature": "f991e5d5",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "BeurteilenSiedieVariantenanhandIhrerKriterienundtreffenSieeinebegründeteTeamentscheidung."
+      },
+      {
+        "id": "2:3:3",
+        "signature": "357c489f",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "BegründenSieinsbesondere,wieSiemitmindestenszweiZielkonfliktenumgehen."
+      },
+      {
+        "id": "2:4:1",
+        "signature": "d1a504ba",
+        "phase": "entscheiden",
+        "mode": 4,
+        "text": "EntwickelnundvergleichenSiemindestenszweirealistischeAusrichtungenfürdenMarktstart.AlsAusgangspunktekönnenSiedenbreiten,schnellenStartmitfünfGerichtenundüberregionalemVertriebsowieeinenregionalenStartmitdreistandardisiertenGerichtennutzen.AndereAusrichtungenoderKombinationenbenötigendieselbefachlicheBegründung.PrüfenSieFolgenfürZielgruppe,Nutzenversprechen,Sortiment,ZielbeziehungenundAbläufe."
+      },
+      {
+        "id": "2:4:2",
+        "signature": "ebaf09af",
+        "phase": "entscheiden",
+        "mode": 4,
+        "text": "TreffenSieeinegemeinsameEntscheidunganhandIhrerKriterien.DokumentierenSie,warummindestenseineAlternativeverworfenwirdundwiemindestenszweiZielkonfliktegelöstoderbewusstbegrenztwerden.BeziehenSieallevierGründerperspektivenein;ungeklärteFragenbleibenausdrücklichoffen."
+      },
+      {
+        "id": "2:4:3",
+        "signature": "c57bf356",
+        "phase": "entscheiden",
+        "mode": 4,
+        "text": "VerbindlicherCheckpoint1–TragfähigkeitderGeschäftsidee:StellenSiederLehrkraftvorderAusarbeitungIhreEntscheidungmitKriterienvergleich,zweibearbeitetenZielkonfliktenundMaterialbelegenvor.ZeigenSie,weshalbBetriebsartundProzesskettezurgewähltenAusrichtungpassen.DieRückmeldungprüftfachlicheBegründungundinnereStimmigkeit;dieunternehmerischeWahlbleibtbeimTeam.BearbeitenSieerkannteWidersprüchevorderAusarbeitung."
+      },
+      {
+        "id": "2:5:1",
+        "signature": "ef6554a5",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "EntwickelnundvergleichenSieeigenständigsinnvollestrategischeAlternativenfürBioCasa."
+      },
+      {
+        "id": "2:5:2",
+        "signature": "061cd24f",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "TreffenSieeinebegründeteEntscheidung,diedieunterschiedlichenGründerperspektivensichtbarberücksichtigt."
+      },
+      {
+        "id": "2:5:3",
+        "signature": "0f9d1476",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "DokumentierenSienichtnurdiegewählteLösung,sondernauchmindestenseineverworfeneAlternativeunddenausschlaggebendenGrund."
+      },
+      {
+        "id": "3:1:1",
+        "signature": "2fa80218",
+        "phase": "durchfuehren",
+        "mode": 1,
+        "text": "SetzenSieIhreEntscheidungineinerpräzisenUnterlagefürdasErstgesprächmitBerg&Macherum.NutzenSieausschließlichInformationen,diesichausderHandlungssituation,denMaterialienundIhrenbegründetenEntscheidungenergeben.WidersprüchlicheodernochungeklärtePunktesindalsoffeneFragekenntlichzumachen.Handlungsergebnis:Tischvorlage„GemeinsameGeschäftsidee“"
+      },
+      {
+        "id": "3:2:1",
+        "signature": "68112b6a",
+        "phase": "durchfuehren",
+        "mode": 2,
+        "text": "ErstellenSiedieUnterlagefürBerg&Macher.NutzenSiealsGliederungshilfe:KundenproblemundAngebot–UnternehmenszieleundAnspruchsgruppen–BetriebsartundLeistungsprozesse–offeneBeratungsfragen.DieGestaltungundArbeitsaufteilungwählenSieselbst."
+      },
+      {
+        "id": "3:2:2",
+        "signature": "0a42631a",
+        "phase": "durchfuehren",
+        "mode": 2,
+        "text": "VerbindenSiedieTeilbeiträgezueinergemeinsamenGeschäftsidee.ÜberprüfbareZiele,nachvollziehbareZielbeziehungen,diebegründeteBetriebsartundderProzessvergleichmüssenerkennbarbleiben.KennzeichnenSieungeklärteAnnahmen;ergänzenSiekeinescheinbargesichertenAbsatz-oderKostendaten.Handlungsergebnis:Tischvorlage„GemeinsameGeschäftsidee“"
+      },
+      {
+        "id": "3:3:1",
+        "signature": "ee6f28fd",
+        "phase": "durchfuehren",
+        "mode": 3,
+        "text": "ErstellenSiedieTischvorlageso,dassBerg&MacherdarausKundenproblem,Zielgruppe,Nutzenversprechen,Unternehmensziele,wichtigeAnspruchsgruppen,Betriebsart,LeistungsprozesseundoffeneBeratungsfragenunmittelbarerkennenkann.FormundinterneAufgabenverteilungbestimmenSieselbst.Handlungsergebnis:Tischvorlage„GemeinsameGeschäftsidee“"
+      },
+      {
+        "id": "3:4:1",
+        "signature": "d223abd0",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "ErstellenSiedieTischvorlageineinemgeeignetenFormat.Aufbau,VisualisierungundWerkzeugebestimmenSieselbst.SiemussKundenproblem,Zielgruppe,Nutzenversprechen,messbarewirtschaftliche,sozialeundökologischeZiele,Anspruchsgruppen,UmgangmitZielkonflikten,begründeteBetriebsart,LeistungsprozesseundoffeneBeratungsfragenohnezusätzlichemündlicheErklärungvermitteln.KennzeichnenSieAnnahmenundInformationslückennachvollziehbar.Handlungsergebnis:Tischvorlage„GemeinsameGeschäftsidee“"
+      },
+      {
+        "id": "3:4:2",
+        "signature": "d7ad90cc",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "VerbindlicherCheckpoint2–BeratungstauglicherEntwurf:LegenSiederLehrkraftIhrenvollständigenEntwurfvor.PrüfenSiegemeinsamanIhrerVorlage,obKundenversprechen,ZieleundAbläufezusammenpassen,zentraleAnspruchsgruppensichtbarsindunddieProzesskettebiszumZahlungseingangreicht.HaltenSienotwendigeKorrekturenfestundplanenSiederenUmsetzung.EineoptionaleKI-NutzungisterstnacheigenemvollständigemEntwurfundnurgemäßAbschnitt11möglich."
+      },
+      {
+        "id": "3:5:1",
+        "signature": "32a0e31c",
+        "phase": "durchfuehren",
+        "mode": 5,
+        "text": "ErstellenSieeineprofessionelleTischvorlageineinemselbstgewähltengeeignetenFormat."
+      },
+      {
+        "id": "3:5:2",
+        "signature": "41678748",
+        "phase": "durchfuehren",
+        "mode": 5,
+        "text": "SieentscheidenüberAufbau,Visualisierung,RollenunddigitaleWerkzeuge."
+      },
+      {
+        "id": "3:5:3",
+        "signature": "7f8c45fd",
+        "phase": "durchfuehren",
+        "mode": 5,
+        "text": "Mindestanforderung:EineaußenstehendePersonmussdieGeschäftsidee,diewesentlichenZiele,diewichtigstenStakeholder,dieBetriebsart,dieProzesslogikunddieoffenenBeratungsfragenohnezusätzlicheErklärungverstehenkönnen."
+      },
+      {
+        "id": "4:1:1",
+        "signature": "82c2a030",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "TauschenSieIhrHandlungsergebnismiteineranderenGruppeundüberprüfenSieesanhandderfolgendenKriterien:"
+      },
+      {
+        "id": "4:1:2",
+        "signature": "d94f5b1e",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "DasKundenproblemunddieZielgruppesindeindeutigformuliert."
+      },
+      {
+        "id": "4:1:3",
+        "signature": "8d799b8b",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "DasNutzenversprechenunterscheidetBioCasanachvollziehbarvonAlternativen."
+      },
+      {
+        "id": "4:1:4",
+        "signature": "068f532b",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "DieZielesindwirtschaftlich,sozialundökologischausgewogenundüberprüfbar."
+      },
+      {
+        "id": "4:1:5",
+        "signature": "ae295d3b",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "ZentraleAnspruchsgruppenundihreInteressensindberücksichtigt."
+      },
+      {
+        "id": "4:1:6",
+        "signature": "a1918295",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "MindestenseinZielkonfliktwirdoffengelegtundbearbeitet."
+      },
+      {
+        "id": "4:1:7",
+        "signature": "d686e04e",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "DieEinordnungalsBetriebsartistfachlichbegründet."
+      },
+      {
+        "id": "4:1:8",
+        "signature": "62019ef9",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "DieProzesskettepasstzueinemproduzierendenUnternehmen."
+      },
+      {
+        "id": "4:1:9",
+        "signature": "976b44c9",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "AlleAussagensinduntereinanderwiderspruchsfrei."
+      },
+      {
+        "id": "4:1:10",
+        "signature": "82ad0362",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "OffeneFragenfürdieBeratungsindausdrücklichbenannt."
+      },
+      {
+        "id": "4:1:11",
+        "signature": "2144e9c0",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "GebenSiezweikonkreteStärkenundeinenkonkretenÜberarbeitungshinweis.ÜberarbeitenSieanschließendIhreeigeneFassung."
+      },
+      {
+        "id": "4:2:1",
+        "signature": "4297035d",
+        "phase": "bewerten",
+        "mode": 2,
+        "text": "PrüfenSiegegenseitigKundenproblem,Zielgruppe,unterscheidbaresNutzenversprechen,ausgewogeneüberprüfbareZiele,berücksichtigteAnspruchsgruppen,bearbeiteteZielkonflikte,begründeteBetriebsart,passendeProzesskette,WiderspruchsfreiheitundoffeneBeratungsfragen.NutzenSieallegemeinsamenKriterienausW1."
+      },
+      {
+        "id": "4:2:2",
+        "signature": "9d38c43c",
+        "phase": "bewerten",
+        "mode": 2,
+        "text": "GebenSiezweikonkreteStärkenundeinenumsetzbarenÜberarbeitungshinweis.AlsHilfedient:„DieAussage…passtnochnichtzu…;prüfenSiedazu…“.ÜberarbeitenSieIhreTischvorlage.FallsSienacheinemeigenenvollständigenEntwurfKIeinsetzen,geltenausschließlichdieVorgabenausAbschnitt11."
+      },
+      {
+        "id": "4:3:1",
+        "signature": "bd4b064c",
+        "phase": "bewerten",
+        "mode": 3,
+        "text": "TauschenSieIhreTischvorlagemiteinemanderenTeam."
+      },
+      {
+        "id": "4:3:2",
+        "signature": "b4343e49",
+        "phase": "bewerten",
+        "mode": 3,
+        "text": "ÜberprüfenSiegegenseitigfachlicheRichtigkeit,Widerspruchsfreiheit,NachvollziehbarkeitderEntscheidungenundEignungfürdasBeratungsgespräch."
+      },
+      {
+        "id": "4:3:3",
+        "signature": "abf69cf7",
+        "phase": "bewerten",
+        "mode": 3,
+        "text": "ErgänzenSiezudengemeinsamenPrüfkriterienmindestenseineigenesQualitätskriteriumundüberarbeitenSieIhrErgebnisaufBasisdesFeedbacks."
+      },
+      {
+        "id": "4:4:1",
+        "signature": "f9ba14a6",
+        "phase": "bewerten",
+        "mode": 4,
+        "text": "OrganisierenSiePeer-FeedbackmitdengemeinsamenKriterienausW1:eindeutigesKundenproblemundZielgruppe,unterscheidbaresNutzenversprechen,ausgewogeneüberprüfbareZiele,Anspruchsgruppen,bearbeiteteZielkonflikte,fachlicheBetriebsart,passendeProzesskette,WiderspruchsfreiheitundoffeneBeratungsfragen.DasPartnerteambenenntzweikonkreteStärkenundeinenÜberarbeitungshinweis."
+      },
+      {
+        "id": "4:4:2",
+        "signature": "e92ec487",
+        "phase": "bewerten",
+        "mode": 4,
+        "text": "EntscheidenSiebegründetüberdieRückmeldungenundüberarbeitenSiekritischeStellen.KontrollierenSiebesonders,obeineÄnderunganSortimentoderZielgruppeauchinZielenundProzessenberücksichtigtwurde."
+      },
+      {
+        "id": "4:5:1",
+        "signature": "315985e4",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "FührenSieeinenselbstorganisiertenQualitätscheckdurch.NutzenSiePeer-Feedback,einenKriteriencheck,einenkurzenProbe-TerminmiteineranderenGruppeodereineKombinationdaraus."
+      },
+      {
+        "id": "4:5:2",
+        "signature": "c89e33d0",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "ÜberprüfenSieFachlichkeit,innereKonsistenz,NachweisbarkeitundAdressatengerechtigkeit."
+      },
+      {
+        "id": "4:5:3",
+        "signature": "89745143",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "ÜberarbeitenSieallePunkte,dieSieselbstalsfachlichoderkommunikativkritischeinstufen."
+      },
+      {
+        "id": "5:1:1",
+        "signature": "556a84d3",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "NehmenSieschriftlichzudenfolgendenFragenStellung:"
+      },
+      {
+        "id": "5:1:2",
+        "signature": "fcac75c3",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheInformationhatIhreursprünglicheVorstellungvonBioCasaamstärkstenverändert?"
+      },
+      {
+        "id": "5:1:3",
+        "signature": "cc629961",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheEntscheidungwarinderGruppebesondersschwierigundwarum?"
+      },
+      {
+        "id": "5:1:4",
+        "signature": "510529ca",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheFolgehätteesfürBioCasa,wenneinwichtigerZielkonfliktnurverdeckt,abernichtgelöstwird?"
+      },
+      {
+        "id": "5:1:5",
+        "signature": "dd6fd758",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheeigeneStärkehabenSieinderGruppenarbeitgenutzt?WasmöchtenSiebeidernächstenbetrieblichenEntscheidungverbessern?"
+      },
+      {
+        "id": "5:2:1",
+        "signature": "41af2da1",
+        "phase": "reflektieren",
+        "mode": 2,
+        "text": "ErläuternSie,welcheInformationIhreVorstellungvonBioCasaveränderthat,welcheEntscheidungbesondersschwierigwarundwelchewirtschaftlicheFolgeeinverdeckterZielkonflikthabenkönnte.BenennenSieIhregenutzteStärkeundeineVerbesserungfürdienächsteGruppenentscheidung.ErgänzenSie,beiwelchemArbeitspaketeineStrukturhilfehilfreichwarundwelchesSiekünftigeigenständigerbearbeitenkönnen."
+      },
+      {
+        "id": "5:3:1",
+        "signature": "2460edce",
+        "phase": "reflektieren",
+        "mode": 3,
+        "text": "ReflektierenSieeinzelnundanschließendkurzimTeam:WelchefachlicheErkenntnishatIhreEntscheidungamstärkstenverändert?WohatdieselbstständigereArbeitsorganisationgeholfen,wobrauchtenSieStruktur?WelcheStrategienehmenSieindienächsteLernsituationmit?"
+      },
+      {
+        "id": "5:4:1",
+        "signature": "56897aac",
+        "phase": "reflektieren",
+        "mode": 4,
+        "text": "ErläuternSieindividuelldieentscheidendeneueInformation,dieschwierigsteGruppenentscheidungunddiemöglicheFolgeeinesverdecktenZielkonflikts.BenennenSieIhreeingebrachteStärkeundeinennächstenEntwicklungsschritt.VergleichenSieanschließendimTeamgeplantesundtatsächlichesVorgehen:WelcheselbstgewählteArbeitsteilung,HilfeoderLernumgebunghatfachlichesVerständnisgefördert?WomusstenSienacheinerRückmeldungumsteuern,undwasübernehmenSiefürdienächsteLernsituation?"
+      },
+      {
+        "id": "5:5:1",
+        "signature": "ffd0234b",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "DokumentierenSiekurz,welcheEntscheidungenSieüberInhaltundwelcheüberIhrenLernprozessgetroffenhaben."
+      },
+      {
+        "id": "5:5:2",
+        "signature": "01b89366",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "BenennenSieeinenMoment,indemSieselbstständigumgesteuerthaben."
+      },
+      {
+        "id": "5:5:3",
+        "signature": "874459eb",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "SchätzenSieein,welchefachlicheKompetenzSiesicherbeherrschenundbeiwelchemTeilSiefürdienächsteLSnochUnterstützungbenötigen."
+      }
+    ],
+    "quizSignature": "4a0912bc"
+  },
+  "LS02": {
+    "orientationSignature": "398739a9",
+    "tasks": [
+      {
+        "id": "0:1:1",
+        "signature": "8ceddf71",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "IdentifizierenSieinderHandlungssituationundinM1daszentraleEntscheidungsproblem.NennenSievierRisiken,dieauseinemungeplantenVorgehenentstehenkönnen."
+      },
+      {
+        "id": "0:1:2",
+        "signature": "cf294cc3",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "OrdnenSiedieoffenenPunkteausM1undM2dendreiKategorienpersönliche,sachlicheundrechtlicheVoraussetzungenzu.Mehrfachzuordnungensindmöglich,müssenaberbegründetwerden."
+      },
+      {
+        "id": "0:1:3",
+        "signature": "28e61c01",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "AnalysierenSieM2.ArbeitenSiemindestensfünfPunkteheraus,dievoreinerverbindlichenAnmietungodereinemUmbaugeklärtwerdenmüssen."
+      },
+      {
+        "id": "0:1:4",
+        "signature": "3a34bcca",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "VergleichenSiedieAnforderungenausM1undM2mitdenKompetenz-undRessourcenangabeninM3.ErmittelnSiefürdasGründerteammindestensdreiKompetenzlückenoderungeklärteVerantwortlichkeiten."
+      },
+      {
+        "id": "0:1:5",
+        "signature": "dae2c89f",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "TeilenSiedieQuellenakteM4innerhalbIhrerGruppeauf.ArbeitenSiefürjedeStelleheraus:WofüristsieimBioCasa-Fallzuständig?ZuwelchemZeitpunktistderKontakterforderlichodersinnvoll?WelcheInformationoderwelcherNachweiswirdbenötigt?IstdieQuellefüreineverbindlicheEntscheidunggeeignet?"
+      },
+      {
+        "id": "0:1:6",
+        "signature": "3c47dd46",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "ÜberprüfenSiediedreiFundstückeim„ungeprüftenLinkordner“vonM4.BegründenSie,weshalbsiealsalleinigeEntscheidungsgrundlagegeeignetoderungeeignetsind."
+      },
+      {
+        "id": "0:1:7",
+        "signature": "5828740b",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "ErläuternSiemithilfevonM5,weshalbderGründungsfahrplanvorderErstellungdesBusinessplansbenötigtwird."
+      },
+      {
+        "id": "0:1:8",
+        "signature": "dfee3a80",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "Zwischensicherung:TragenSieIhreErgebnisseineinergemeinsamenÜbersichtzusammen.JedeAngabezueinerrechtlichenoderbehördlichenVoraussetzungmusseinezuständigeStelleundeineoffizielleQuelleenthalten."
+      },
+      {
+        "id": "0:2:1",
+        "signature": "2c117799",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "BeschreibenSiezunächsteinzelndieEntscheidungunterZeit-undBudgetdruck.NennenSievierRisikeneinesungeplantenVorgehens.BearbeitenSieanschließenddiedreiAnalysepakete;verteilenSiedieBeiträgeinnerhalbderGruppeselbstundführenSiesienachjedemPaketzusammen."
+      },
+      {
+        "id": "0:2:2",
+        "signature": "a8d5f0d4",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "StandortundVoraussetzungen–M1undM2:OrdnenSieoffenePunktedenpersönlichen,sachlichenundrechtlichenVoraussetzungenzu.BegründenSieÜberschneidungen.ArbeitenSiemindestensfünfFragenheraus,dievoreinerverbindlichenAnmietungodereinemUmbaugeklärtwerdenmüssen.Leitfrage:WelcheBehauptungistbereitsbelegt,welchenureineAussagedesVermieters?"
+      },
+      {
+        "id": "0:2:3",
+        "signature": "74a7ecf2",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "GründerteamundVerantwortung–M3sowieLS1:VergleichenSiedieAnforderungenmitvorhandenenStärkenundZeitressourcen.ErmittelnSiemindestensdreiKompetenzlückenoderungeklärteVerantwortlichkeiten.Leitfrage:WerkanneineAufgabekoordinieren,undwowirddennochexternesFachwissenbenötigt?"
+      },
+      {
+        "id": "0:2:4",
+        "signature": "945fa1a3",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "QuellenundAuskünfte–M4undM5:VerteilenSiedieQuellenakte.ErmittelnSiefürjedeStelleZuständigkeitimBioCasa-Fall,Kontaktzeitpunkt,benötigteInformationoderNachweisundVerbindlichkeitderAuskunft.BeurteilenSiealledreiFundstückedesungeprüftenLinkordners.ErläuternSieabschließend,welcheGrundlagenderFahrplanfürdenBusinessplanliefert."
+      },
+      {
+        "id": "0:2:5",
+        "signature": "af39d008",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "WählbareHilfen:NutzenSie„offeneFrage–Voraussetzung–Risiko–Beleg“oder„Stelle–Aufgabe–Kontaktzeitpunkt–benötigterNachweis“.ZurQuellenprüfunghelfendieFragen:Werveröffentlicht?WieaktuellistdieInformation?GiltsiefürdiesekonkreteFrage?HandeltessichumallgemeineInformationodereineEinzelfallentscheidung?JederechtlicheoderbehördlicheAnforderunginIhrergemeinsamenÜbersichtbrauchteinezuständigeStelleundeineoffizielleQuelle."
+      },
+      {
+        "id": "0:3:1",
+        "signature": "c8308466",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "AnalysierenSieHandlungssituation,TischvorlageausLS1undM1bisM5.TeilenSiedieRechercheimLernteamselbstauf."
+      },
+      {
+        "id": "0:3:2",
+        "signature": "2e2083a8",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "KlärenSieverbindlichdiepersönlichen,sachlichenundrechtlichenVoraussetzungen,dievorStandortbindung,GründungundProduktionsstartzubeachtensind."
+      },
+      {
+        "id": "0:3:3",
+        "signature": "f0d09f9f",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "PrüfenSieQuellennachAbsender,Aktualität,ZuständigkeitundVerbindlichkeit.AllgemeineRatgeberdürfennurergänzendgenutztwerden."
+      },
+      {
+        "id": "0:3:4",
+        "signature": "bb69d9aa",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "Meilenstein1:ErstellenSieeinegemeinsameÜbersicht„offeneFrage–zuständigeStelle/Quelle–Zeitpunkt–RisikobeiNichtbeachtung“."
+      },
+      {
+        "id": "0:4:1",
+        "signature": "b9566939",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "FormulierenSiezunächstKI-frei,welcheEntscheidungdemGründerteambevorstehtundwelchevierRisikendurchungeplantesVorgehenentstehenkönnen.EntwickelnSieeineeigeneAuswertungsstrategie:WelcheFragenmüssengemeinsamgeklärtwerden,welcheMaterialienkönnenSieaufteilenundwiemachenSiedieBefundeallenzugänglich?"
+      },
+      {
+        "id": "0:4:2",
+        "signature": "0e5d060a",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "OrdnenSiepersönliche,sachlicheundrechtlicheVoraussetzungen.IhreAnalysemussmindestensfünfvorAnmietungoderUmbauzuklärendeStandortfragensowiemindestensdreiKompetenzlückenoderungeklärteVerantwortlichkeitendesTeamsenthalten.TrennenSiedabeiAnforderungen,verfügbareRessourcen,ungeprüfteVermieteraussagenundtatsächlicheNachweise."
+      },
+      {
+        "id": "0:4:3",
+        "signature": "27fd5309",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "WählenSieausM4diefürIhreoffenenFragenrelevantenEinträgezurvertieftenAuswertung.DieZuständigkeit,dersinnvolleKontaktzeitpunkt,diebenötigteAuskunftundderenVerbindlichkeitmüssenfürjedeaufgeführteStellegeklärtsein.BeurteilenSieaußerdemdiedreiFundstückedesungeprüftenLinkordners.BelegenSierechtlicheoderbehördlicheAnforderungenausschließlichanhandgeeigneteroffiziellerQuellen;dokumentierenSiebeiderenNutzungQuelleundgegebenenfallsAbrufdatum.EineoffeneEinzelfragebleibteinPrüfauftrag.ErklärenSiemithilfevonM5,welcheIhrerErgebnissefüreinenbelastbarenBusinessplanbenötigtwerden."
+      },
+      {
+        "id": "0:5:1",
+        "signature": "480650a4",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "BeginnenSieKI-freiunddefinierenSie,welcheRisikenvorStandortbindung,GründungundProduktionsstartgeklärtwerdenmüssen."
+      },
+      {
+        "id": "0:5:2",
+        "signature": "ac0cec3f",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "NutzenSieM1bisM5und–sofernfachlichnötig–zusätzlicheoffizielleQuellen.DokumentierenSieQuelleundAbrufdatum."
+      },
+      {
+        "id": "0:5:3",
+        "signature": "14dfa2d2",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "EntscheidenSieselbst,wieSiepersönliche,sachlicheundrechtlicheVoraussetzungenstrukturieren."
+      },
+      {
+        "id": "0:5:4",
+        "signature": "208384c4",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "CheckpointA:Siekönnenbelegen,welcheStellenfürwelcheBioCasa-FragezuständigsindundwelcheEntscheidungenzeitkritischsind."
+      },
+      {
+        "id": "1:1:1",
+        "signature": "20ea2817",
+        "phase": "planen",
+        "mode": 1,
+        "text": "ErstellenSieausdenermitteltenPunkteneinevorläufigeReihenfolge.NutzenSiedieZeitfenster:sofortundvoreinerStandortbindung,vorAbschlusswichtigerVerträgeoderUmbauten,vorAufnahmederProduktion,beibzw.unmittelbarnachderformalenGründung,innerhalbeinesMonatsnachAufnahmederTätigkeit."
+      },
+      {
+        "id": "1:1:2",
+        "signature": "6119b93f",
+        "phase": "planen",
+        "mode": 1,
+        "text": "BestimmenSiefürjedeMaßnahmeeinehauptverantwortlichePersonausdemGründerteamundeineVertretung.BerücksichtigenSiedabeidieProfileausLS1undM3."
+      },
+      {
+        "id": "1:1:3",
+        "signature": "077f2149",
+        "phase": "planen",
+        "mode": 1,
+        "text": "BestimmenSiefürjedeMaßnahmeeinenüberprüfbarenNachweis,zumBeispielschriftlicheAuskunft,Terminbestätigung,eingereichtesFormular,Freigabe,VertragsentwurfoderSchulungsbescheinigung."
+      },
+      {
+        "id": "1:1:4",
+        "signature": "4159939f",
+        "phase": "planen",
+        "mode": 1,
+        "text": "EntwickelnSieselbstständigdreiKriterienfürdieAuswahlderzweiBeratungsleistungenvonBerg&Macher.BerücksichtigenSiemindestensRisiko,eigeneKompetenzundBedeutungfürdenZeitplan."
+      },
+      {
+        "id": "1:2:1",
+        "signature": "f2be15d9",
+        "phase": "planen",
+        "mode": 2,
+        "text": "ÜberführenSieIhreÜbersichtineinevorläufigeReihenfolge.DervorgegebeneRahmenumfasst:vorStandortbindung–vorwichtigenVerträgenoderUmbauten–vorProduktionsaufnahme–beibeziehungsweiseunmittelbarnachformalerGründung–innerhalbeinesMonatsnachTätigkeitsaufnahme.OrdnenSieMaßnahmenanhandderMaterialienzu;markierenSieAbhängigkeitenundparallelmöglicheSchritte."
+      },
+      {
+        "id": "1:2:2",
+        "signature": "2e8cb245",
+        "phase": "planen",
+        "mode": 2,
+        "text": "BestimmenSiejeweilsHauptverantwortung,VertretungundeinenüberprüfbarenErledigungsnachweis.BerücksichtigenSieM3:EinePersonkannnichtalleAufgabengleichzeitigübernehmen.AlsFormulierungshilfekönnenSieverwenden:„…klärtmit…bis/bei…dieFrage…;erledigtistdieMaßnahme,wenn…vorliegt.“"
+      },
+      {
+        "id": "1:2:3",
+        "signature": "cbb2be08",
+        "phase": "planen",
+        "mode": 2,
+        "text": "EntwickelnSiedreiKriterienfürdieAuswahlderzweivertieftenBeratungstermine.Risiko,eigeneKompetenzundBedeutungfürdenZeitplanmüssenberücksichtigtwerden.KlärenSiebeiBedarfmitderLehrkraft,obeinvorgeschlagenerNachweisdieoffeneFragetatsächlichbeantwortet."
+      },
+      {
+        "id": "1:3:1",
+        "signature": "98422e80",
+        "phase": "planen",
+        "mode": 3,
+        "text": "EntwickelnSieeineneigenenAblaufvomheutigenStandbiszumProduktionsstart."
+      },
+      {
+        "id": "1:3:2",
+        "signature": "91013c23",
+        "phase": "planen",
+        "mode": 3,
+        "text": "LegenSieVerantwortlichkeitennachdenKompetenzendesGründerteamsfestundbestimmenSiezujederwichtigenMaßnahmeeinenüberprüfbarenNachweis."
+      },
+      {
+        "id": "1:3:3",
+        "signature": "2621cd6f",
+        "phase": "planen",
+        "mode": 3,
+        "text": "EntwickelnSieeigeneKriterien,mitdenenSieentscheiden,welchezweiThemenBerg&Macherübernehmensoll."
+      },
+      {
+        "id": "1:3:4",
+        "signature": "c0e3a4e9",
+        "phase": "planen",
+        "mode": 3,
+        "text": "PrüfenSieIhrenPlanaufAbhängigkeitenundparalleleArbeitsschritte."
+      },
+      {
+        "id": "1:4:1",
+        "signature": "6773e794",
+        "phase": "planen",
+        "mode": 4,
+        "text": "PlanenSiesowohlIhreZusammenarbeitbiszurAbgabealsauchdenbetrieblichenAblaufbiszumProduktionsstart.LegenSiefürIhrenLernprozessArbeitspakete,Zuständigkeiten,interneZeitabschnitte,passendeLernorteunddiebeidenfachlichenPrüfterminefest.EntscheidenSie,woSieselbstweiterkommenundwoeinegezielteRückfrageandieLehrkraftsinnvollist."
+      },
+      {
+        "id": "1:4:2",
+        "signature": "d4077f4d",
+        "phase": "planen",
+        "mode": 4,
+        "text": "EntwickelnSiefürBioCasaeinevorläufigeReihenfolgemitFristen,AbhängigkeitenundparallelenAufgaben.PrüfenSiediePhasenvorStandortbindung,vorwichtigenVerträgenoderUmbauten,vorProduktionsaufnahmesowiebeiundnachderformalenGründungeinschließlichderimMaterialgenanntenFristzursteuerlichenErfassung.UnterscheidenSiebetrieblicheTerminevomUnterrichtszeitplan."
+      },
+      {
+        "id": "1:4:3",
+        "signature": "7ed731b6",
+        "phase": "planen",
+        "mode": 4,
+        "text": "VerteilenSieHauptverantwortungundVertretunganhandderKompetenzenundZeitressourcenausM3.DefinierenSiepassendeErledigungsnachweise.EntwickelnSiedreiAuswahlkriterienfürBeratungunterBerücksichtigungvonRisiko,eigenerKompetenzundBedeutungfürdenZeitplan.BestimmenSie,wieIhrTeamdieKriterienfürseineEntscheidungnutzt."
+      },
+      {
+        "id": "1:5:1",
+        "signature": "c3f0380c",
+        "phase": "planen",
+        "mode": 5,
+        "text": "BauenSieeineneigenenProjektplanmitArbeitspaketen,Verantwortlichen,Abhängigkeiten,NachweisenundTerminen."
+      },
+      {
+        "id": "1:5:2",
+        "signature": "bedd72c8",
+        "phase": "planen",
+        "mode": 5,
+        "text": "LegenSiefest,wannexterneBeratungwirklichMehrwertbietetundwasdasTeamselbstleistenkann."
+      },
+      {
+        "id": "1:5:3",
+        "signature": "583f8272",
+        "phase": "planen",
+        "mode": 5,
+        "text": "AbhierkannderfreigegebeneKI-AssistentalsCoachzurPlanprüfunggenutztwerden;Quellen-undRechtsprüfungbleibenbeimLernteam."
+      },
+      {
+        "id": "1:5:4",
+        "signature": "d49eba96",
+        "phase": "planen",
+        "mode": 5,
+        "text": "CheckpointB:IhrPlanistsokonkret,dasseinanderesTeammorgendamitweiterarbeitenkönnte."
+      },
+      {
+        "id": "2:1:1",
+        "signature": "bfd07582",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BeurteilenSiedieoffenenAufgabenanhandIhrerKriterien."
+      },
+      {
+        "id": "2:1:2",
+        "signature": "b753e807",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BeurteilenSieaufdieserGrundlagediemöglichenBeratungsthemenundbegründenSiedieAuswahlderzweiThemen,dieBerg&Machervertieftbegleitensoll.OrdnenSiedieübrigenAufgabendemTeamoderdemdirektenKontaktmitzuständigenStellenzu."
+      },
+      {
+        "id": "2:1:3",
+        "signature": "2354e0dd",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BegründenSiedieVerteilungderVerantwortungunddieReihenfolgebesonderskritischerMaßnahmen."
+      },
+      {
+        "id": "2:1:4",
+        "signature": "49a99b72",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "KennzeichnenSieEntscheidungen,dieerstnachderRechtsformwahlinLS5abschließendgetroffenwerdenkönnen.FormulierenSiehierfüreinenkonkretenWiedervorlageterminoderAuslöser."
+      },
+      {
+        "id": "2:2:1",
+        "signature": "87144a56",
+        "phase": "entscheiden",
+        "mode": 2,
+        "text": "BeurteilenSiediemöglichenBeratungsthemenanhandIhrerKriterien.WählenSieinnerhalbdesBudgetsvon1.800EurozweiVertiefungstermineundbegründenSiedieAuswahl.OrdnenSiedieübrigenAufgabenderEigenarbeitdesGründerteamsodereinemdirektenKontaktmitderzuständigenStellezu."
+      },
+      {
+        "id": "2:2:2",
+        "signature": "447d3a14",
+        "phase": "entscheiden",
+        "mode": 2,
+        "text": "LeitfragenfürdieEntscheidung:WowäreeineFehlentscheidungbesondersfolgenreich?WelcheKompetenzfehltimTeam?WelcheAuskunftkannnureinezuständigeStellegeben?BegründenSiedieReihenfolgekritischerMaßnahmenunddieVerantwortungsverteilung.KennzeichnenSierechtsformabhängigeSchrittemiteinemkonkretenAuslöserzurWiedervorlagenachderRechtsformwahlinLS5.DieRechtsformwirdhiernichtvorweggenommen."
+      },
+      {
+        "id": "2:3:1",
+        "signature": "3512ef9d",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "BeurteilenSie,welcheAufgabenselbst,durchBehördenkontakteoderdurchdieexterneBeratungbearbeitetwerden."
+      },
+      {
+        "id": "2:3:2",
+        "signature": "9578fdcb",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "BegründenSiedieAuswahlderzweiBeratungsleistungenunddiezeitlichePriorisierungkritischerSchritte."
+      },
+      {
+        "id": "2:3:3",
+        "signature": "c3bca108",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "KennzeichnenSierechtsformabhängigeFragenbewusstalsWiedervorlagefürLS5."
+      },
+      {
+        "id": "2:4:1",
+        "signature": "1d22f666",
+        "phase": "entscheiden",
+        "mode": 4,
+        "text": "VergleichenSiedieangebotenenBeratungsthemenundwählenSiezweiVertiefungstermineinnerhalbder1.800Euroaus.BegründenSie,warumdieseKombinationfürdenBioCasa-FallVorranghatundwarummindestenseineanderemöglicheKombinationzurückgestelltwird.LegenSiefest,welcheübrigenAufgabendasTeamselbstvorbereitetundwelcheeineAuskunftderzuständigenStelleerfordern."
+      },
+      {
+        "id": "2:4:2",
+        "signature": "b0d0108e",
+        "phase": "entscheiden",
+        "mode": 4,
+        "text": "BegründenSiediezeitlichePriorisierungkritischerMaßnahmenunddieVerantwortungsverteilung.RechtsformabhängigeSchritteerhalteneinenkonkretenWiedervorlageauslösernachderEntscheidunginLS5;siewerdennichtalsbereitsabschließendgeklärtdargestellt."
+      },
+      {
+        "id": "2:4:3",
+        "signature": "82887755",
+        "phase": "entscheiden",
+        "mode": 4,
+        "text": "VerbindlicherCheckpoint1–PrioritätenvorStandortbindung:ErläuternSiederLehrkraftIhreReihenfolgederstandortkritischenPrüfungen,diezugehörigenStellenundNachweisesowiedieAuswahlderzweiBeratungsthemen.BelegenSieIhreEntscheidungmitM1bisM4undzeigenSie,welchefinanziellenoderzeitlichenFolgeneinefalscheReihenfolgehabenkönnte.KlärenSieerkanntefachlicheLückenvorderAusarbeitung;PriorisierungundBeratungsauswahlbleibenIhrebegründeteEntscheidung."
+      },
+      {
+        "id": "2:5:1",
+        "signature": "26f540b4",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "PriorisierenSiedieMaßnahmennachselbstentwickeltenKriterien."
+      },
+      {
+        "id": "2:5:2",
+        "signature": "746b9428",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "TreffenSieeinebegründeteMake-or-Buy-EntscheidungfürdiezweiBeratungsleistungen."
+      },
+      {
+        "id": "2:5:3",
+        "signature": "7250785e",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "DokumentierenSieoffenePunkte,dieerstnachspäterenEntscheidungengeklärtwerdenkönnen,miteindeutigemAuslöser."
+      },
+      {
+        "id": "3:1:1",
+        "signature": "c38c953c",
+        "phase": "durchfuehren",
+        "mode": 1,
+        "text": "SetzenSieIhreErgebnissesoum,dassdasGründerteamdienächstenSchritteunmittelbarabarbeitenunddenBearbeitungsstandkontrollierenkann.VerwendenSiefürjedeMaßnahmemindestens:Voraussetzungbzw.offeneFrage,konkreteHandlung,verantwortlichePerson,zuständigeexterneStelle/Quelle,TerminoderAuslöser,erwarteterNachweisundStatus.Handlungsergebnis:Maßnahmenplan„Gründungsfahrplan“"
+      },
+      {
+        "id": "3:2:1",
+        "signature": "e38fbbf6",
+        "phase": "durchfuehren",
+        "mode": 2,
+        "text": "ErstellenSieeinenunmittelbarnutzbarenGründungsfahrplan.VerwendenSiediefolgendeFeldstruktur:Voraussetzung/offeneFrage–konkreteMaßnahme–verantwortlichePersonundVertretung–externeStelle/offizielleQuelle–TerminoderAuslöser–erwarteterNachweis–Status.DieAnordnungundGestaltungwählenSieselbst;Abhängigkeitenmüssendeutlichbleiben."
+      },
+      {
+        "id": "3:2:2",
+        "signature": "2a46499a",
+        "phase": "durchfuehren",
+        "mode": 2,
+        "text": "FührenSieIhreTeilbeiträgezusammen.EinenochausstehendeBehördenauskunftwirdalsoffeneMaßnahmedokumentiert,nichtalsbereitserteilteGenehmigung.MachenSieerkennbar,welcheErgebnissespäterdieAngabenzuStandort,Ressourcen,Personal,TerminenundKostenimBusinessplantragen.WendenSiefürjedeoptionaleKI-NutzungausschließlichAbschnitt11an.Handlungsergebnis:Maßnahmenplan„Gründungsfahrplan“"
+      },
+      {
+        "id": "3:3:1",
+        "signature": "0ac6c3b9",
+        "phase": "durchfuehren",
+        "mode": 3,
+        "text": "ErstellenSieeinenarbeitsfähigenGründungsfahrplan.DiekonkreteDarstellungsformwählenSieselbst;zwingendenthaltenseinmüssenMaßnahme,Verantwortlichkeit,externeStelle/Quelle,ZeitpunktoderAuslöser,NachweisundBearbeitungsstatus.Handlungsergebnis:Maßnahmenplan„Gründungsfahrplan“"
+      },
+      {
+        "id": "3:4:1",
+        "signature": "1e586ab7",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "ErstellenSieeinenoperativnutzbarenGründungsfahrplanineigenerDarstellungsform.JedeMaßnahmeenthältVoraussetzungoderoffeneFrage,konkreteHandlung,HauptverantwortungundVertretung,zuständigeexterneStellebeziehungsweiseoffizielleQuelle,TerminoderAuslöser,erwartetenNachweisundStatus.Reihenfolge,paralleleSchritteundAbhängigkeitenmüssenauchfüreinfremdesTeamverständlichsein."
+      },
+      {
+        "id": "3:4:2",
+        "signature": "90ce3578",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "KennzeichnenSienochfehlendeAuskünfteunddierechtsformabhängigenWiedervorlagen.StellenSiesicher,dassdieerarbeitetenInformationenzuStandort,Ressourcen,Personal,TerminenundKostenfürdenBusinessplannutzbarwerden.Handlungsergebnis:Maßnahmenplan„Gründungsfahrplan“"
+      },
+      {
+        "id": "3:4:3",
+        "signature": "76a97bc3",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "VerbindlicherCheckpoint2–ArbeitsfähigervollständigerEntwurf:LegenSiederLehrkraftdengesamtenPlanvor.AneinerstandortkritischenMaßnahmeundeinemrechtsformabhängigenSchrittmussdieVerbindungvonQuelle,zuständigerStelle,Verantwortung,ZeitpunktundErledigungsnachweisnachvollziehbarsein.PrüfenSieaußerdemdieVollständigkeitderdreiVoraussetzungskategorienunddieÜbergabeandenBusinessplan.HaltenSienötigeKorrekturenfürdieÜberarbeitungfest.OptionaleKI-NutzungfolgtausschließlichAbschnitt11unddarferstnachdemselbsterstelltenMaßnahmenplanerfolgen."
+      },
+      {
+        "id": "3:5:1",
+        "signature": "e8d1ae83",
+        "phase": "durchfuehren",
+        "mode": 5,
+        "text": "ErstellenSiedenGründungsfahrplanineinerselbstgewähltenprofessionellenForm,z.B.Tabelle,Kanban-BoardoderkombinierterZeit-/Maßnahmenplan."
+      },
+      {
+        "id": "3:5:2",
+        "signature": "8472a62e",
+        "phase": "durchfuehren",
+        "mode": 5,
+        "text": "DasProduktmussohnemündlicheZusatzinformationnutzbarseinunddieHerkunftrechtsrelevanterAussagenerkennenlassen."
+      },
+      {
+        "id": "4:1:1",
+        "signature": "7a35295a",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "ÜberprüfenSiedenGründungsfahrplaneineranderenGruppe:"
+      },
+      {
+        "id": "4:1:2",
+        "signature": "cf859647",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "Sindpersönliche,sachlicheundrechtlicheVoraussetzungenenthalten?"
+      },
+      {
+        "id": "4:1:3",
+        "signature": "bf726366",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "WerdenstandortkritischeFragenvorMietbindungundUmbaugeklärt?"
+      },
+      {
+        "id": "4:1:4",
+        "signature": "23de9b60",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "SindausschließlichgeeigneteQuellenundzuständigeStellenangegeben?"
+      },
+      {
+        "id": "4:1:5",
+        "signature": "3868b4f7",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "SindReihenfolge,paralleleSchritteundAbhängigkeitennachvollziehbar?"
+      },
+      {
+        "id": "4:1:6",
+        "signature": "89c95b4b",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "IstjedeMaßnahmeeinerverantwortlichenPersonundeinemNachweiszugeordnet?"
+      },
+      {
+        "id": "4:1:7",
+        "signature": "19752c93",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "WerdenrechtsformabhängigeSchrittenichtfälschlichvorweggenommen?"
+      },
+      {
+        "id": "4:1:8",
+        "signature": "88460153",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "PasstdieAuswahlderzweiBeratungsleistungenzumgrößtenRisiko?"
+      },
+      {
+        "id": "4:1:9",
+        "signature": "d2266603",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "FührtderPlanzudenInformationen,diefürdenBusinessplanbenötigtwerden?"
+      },
+      {
+        "id": "4:1:10",
+        "signature": "cc9af540",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "MarkierenSieeineLücke,einebesondersüberzeugendePriorisierungundeinenkonkretenVerbesserungsvorschlag.ÜberarbeitenSieanschließendIhrenPlan."
+      },
+      {
+        "id": "4:2:1",
+        "signature": "2b70bc42",
+        "phase": "bewerten",
+        "mode": 2,
+        "text": "PrüfenSiealledreiVoraussetzungskategorien,StandortklärungvorBindungundUmbau,QuellenundZuständigkeiten,ReihenfolgeundAbhängigkeiten,VerantwortungundNachweise,rechtsformabhängigeWiedervorlagen,diezweiBeratungsschwerpunkteunddenÜbergangzumBusinessplan."
+      },
+      {
+        "id": "4:2:2",
+        "signature": "d5fa1812",
+        "phase": "bewerten",
+        "mode": 2,
+        "text": "MarkierenSieeineLücke,eineüberzeugendePriorisierungundeinenkonkretenVerbesserungsvorschlag.Leitfrage:KönntedasGründerteamausdieserMaßnahmeeindeutigerkennen,wasalsNächsteszutunistundworandieErledigungsichtbarwird?ÜberarbeitenSiedenPlananhanddesFeedbacks."
+      },
+      {
+        "id": "4:3:1",
+        "signature": "a2a95479",
+        "phase": "bewerten",
+        "mode": 3,
+        "text": "LassenSieIhrenPlanvoneinemanderenTeamgegenlesen.PrüfenSieinsbesondereStandortkritik,Reihenfolge,Quellenqualität,Verantwortlichkeiten,NachweiseunddieÜbergabeindenBusinessplan.ErgänzenSieeineigenesKriteriumundüberarbeitenSiedenPlan."
+      },
+      {
+        "id": "4:4:1",
+        "signature": "3736a4a1",
+        "phase": "bewerten",
+        "mode": 4,
+        "text": "OrganisierenSieeinenRealitätscheckanhandallergemeinsamenKriterienausW1:Voraussetzungskategorien,Standortklärung,QuellenundZuständigkeiten,ReihenfolgeundAbhängigkeiten,VerantwortungundNachweise,Wiedervorlagen,BeratungsauswahlundBusinessplanbezug.DasPartnerteammarkierteineLücke,eineüberzeugendePriorisierungundeinenVerbesserungsvorschlag."
+      },
+      {
+        "id": "4:4:2",
+        "signature": "dc67461b",
+        "phase": "bewerten",
+        "mode": 4,
+        "text": "PrüfenSiezusätzlichbeimLesen,obdienächstenSchritteohnemündlicheErgänzungausführbarwären.EntscheidenSiebegründetüberdasFeedbackundüberarbeitenSiedenPlanandenfachlichkritischenStellen."
+      },
+      {
+        "id": "4:5:1",
+        "signature": "2c24b63b",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "OrganisierenSieeinenRealitätscheck:KanneinfremdesTeamdienächstendreiSchritteeindeutigausIhremPlanableiten?"
+      },
+      {
+        "id": "4:5:2",
+        "signature": "cf10728e",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "PrüfenSiemindestensQuellenqualität,Vollständigkeit,Abhängigkeiten,VerantwortlichkeitenundNachweise."
+      },
+      {
+        "id": "4:5:3",
+        "signature": "e3dded79",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "ÜberarbeitenSieallealskritischerkanntenPunkte."
+      },
+      {
+        "id": "5:1:1",
+        "signature": "ad946876",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelchevermeintlicheinfacheGründungsaufgabeerwiessichalsabhängigvonmehrerenanderenEntscheidungen?"
+      },
+      {
+        "id": "5:1:2",
+        "signature": "13b4f1fc",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "AnwelchemMerkmalhabenSieerkannt,dasseineQuellefürdenBioCasa-Fallbelastbarist?"
+      },
+      {
+        "id": "5:1:3",
+        "signature": "8a125d0b",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheAufgabewürdenSiepersönlichimGründerteamübernehmen,undwelcheKompetenzmüsstenSiedafürnochentwickeln?"
+      },
+      {
+        "id": "5:1:4",
+        "signature": "f4dd7b89",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelchewirtschaftlicheFolgekönnteeineinzigerübersehenerSchrittfürBioCasaauslösen?"
+      },
+      {
+        "id": "5:2:1",
+        "signature": "908538fb",
+        "phase": "reflektieren",
+        "mode": 2,
+        "text": "ErläuternSieeinezunächstunterschätzteAbhängigkeit,einentscheidendesQualitätsmerkmaleinerQuelleundeinemöglichewirtschaftlicheFolgeeinesübersehenenSchritts.BenennenSieeineAufgabe,dieSieimGründerteamübernehmenwürden,unddiedafürnochbenötigteKompetenz.HaltenSiefest,welcheangeboteneStrukturhilfeIhnenSicherheitgabundwelchenPlanungsschrittSiekünftigohnesiebewältigenkönnen."
+      },
+      {
+        "id": "5:3:1",
+        "signature": "279cb158",
+        "phase": "reflektieren",
+        "mode": 3,
+        "text": "WelcheAbhängigkeitimGründungsprozesswarfürSieüberraschend?WiesicherkonntenSiedieQualitäteinerQuelleeinschätzen?WelcheVerantwortungwürdenSieimGründerteamübernehmenundwelcheKompetenzmüsstenSiedafürnochausbauen?"
+      },
+      {
+        "id": "5:4:1",
+        "signature": "d8e386c2",
+        "phase": "reflektieren",
+        "mode": 4,
+        "text": "ErklärenSieeineüberraschendeAbhängigkeit,eintragendesMerkmalIhrerQuellenbewertungunddiewirtschaftlicheFolgeeinesmöglichenübersehenenSchritts.BenennenSieIhrebevorzugteRolleimGründerteamunddiedafürweiterzuentwickelndeKompetenz.BewertenSieanschließendIhreArbeitsorganisation:WohabenMaterialwahl,KooperationoderLernortgeholfen?WelcheRückmeldungführtezueinerbegründetenPlanänderung,undwelcheStrategienehmenSieindieBusinessplanarbeitmit?"
+      },
+      {
+        "id": "5:5:1",
+        "signature": "af484a29",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "HaltenSiefest,woSieIhrenursprünglichenPlanveränderthabenundwarum."
+      },
+      {
+        "id": "5:5:2",
+        "signature": "81449587",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "BewertenSieIhreeigeneRecherche-undOrganisationsstrategie."
+      },
+      {
+        "id": "5:5:3",
+        "signature": "adbc8a67",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "FormulierenSieeinenpersönlichennächstenLernschrittfürdieArbeitamBusinessplan."
+      }
+    ],
+    "quizSignature": "fcf7c0e3"
+  },
+  "LS03": {
+    "orientationSignature": "587a95b1",
+    "tasks": [
+      {
+        "id": "0:1:1",
+        "signature": "38dc67d4",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "IdentifizierenSieinderHandlungssituationundM1daszentraleUnternehmensproblem.NennenSiefünfZusammenhänge,dieimBusinessplanwiderspruchsfreiseinmüssen."
+      },
+      {
+        "id": "0:1:2",
+        "signature": "a8eb3a96",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "AnalysierenSieM2.ArbeitenSiefürjedesderfünfProduktkonzepteEntwicklungsstand,Kundennutzen,ProduktionsrisikoundEignungfürdenMarktstartheraus."
+      },
+      {
+        "id": "0:1:3",
+        "signature": "e5fd0fbf",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "WertenSiedieMarkt-undKundendateninM3aus.ErmittelnSie:dieambestenpassendeStartzielgruppe,derendreiwichtigstenKaufkriterien,einenvertretbarenEndverkaufspreis,geeigneteersteAbsatzwege,zweiMarktchancenundzweiMarktrisiken."
+      },
+      {
+        "id": "0:1:4",
+        "signature": "959bf404",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "VergleichenSiediefiktivenWettbewerbsangeboteinM3nachZielgruppe,Nutzen,Preis,VertriebunderkennbarerSchwäche.ErläuternSieeinemöglichePositionierungvonBioCasa."
+      },
+      {
+        "id": "0:1:5",
+        "signature": "68716f5b",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "AnalysierenSiedieMarketingoptioneninM4.ArbeitenSieheraus,welcheKombinationendervierInstrumenteProdukt,Preis,DistributionundKommunikationzueinanderundzudenKundendatenpassen."
+      },
+      {
+        "id": "0:1:6",
+        "signature": "0e461e64",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "ErmittelnSiemitM5ineinerTabellenkalkulation:denKapitalbedarffürInvestitionenundeinmaligeGründungsausgaben,denBetriebsmittelbedarffürdieerstendreiMonate,dengesamtenKapitalbedarf,dasgesamteEigenkapitaldervierGründer,dieverbleibendeFinanzierungslücke."
+      },
+      {
+        "id": "0:1:7",
+        "signature": "4c140f70",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "ÜberprüfenSiedieAbsatz-undKapazitätsdateninM5.BerechnenSiediegeplanteJahresmenge,diepraktischverfügbareJahreskapazitätunddenerwartetenoperativenZahlungsmittelüberschussvorFinanzierung,SteuernundAbschreibungen."
+      },
+      {
+        "id": "0:1:8",
+        "signature": "19dd28ed",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "AnalysierenSiediesechsWiderspruchsnotizenamEndevonM5.ErläuternSiejeweils,welcheBusinessplan-Entscheidungerforderlichist."
+      },
+      {
+        "id": "0:1:9",
+        "signature": "c407492d",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "VerbindlicheZwischensicherung:JedeExpertengruppelegtihreErgebnisseineinemstandardisiertenKurzberichtvor:Datenbasis–Auswertung–Schlussfolgerung–offeneAnnahme–Risiko.DieStammgruppeübernimmtnurErgebnisse,dierechnerischodermaterialgestütztnachvollziehbarsind."
+      },
+      {
+        "id": "0:2:1",
+        "signature": "6bae9f3a",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "BearbeitenSiedreizusammenhängendeArbeitspakete.HaltenSiezunächstfest,weshalbdievierEinzelvorstellungennochkeinenbankfähigenBusinessplanergebenundwelchefünfZusammenhängegeklärtwerdenmüssen."
+      },
+      {
+        "id": "0:2:2",
+        "signature": "c3178ed8",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "AngebotundMarkt:VergleichenSiediefünfProduktkonzepteausM2nachEntwicklungsstand,Kundennutzen,ProduktionsrisikoundStarteignung.WertenSieM3hinsichtlichZielgruppe,dreizentralerKaufkriterien,vertretbaremEndverkaufspreis,erstenAbsatzwegensowiejezweiChancenundRisikenaus.VergleichenSiedieWettbewerbsangebotenachZielgruppe,Nutzen,Preis,VertriebunderkennbarerSchwäche:WelchePositionierungkönnteBioCasabegründen?"
+      },
+      {
+        "id": "0:2:3",
+        "signature": "8d7a30e0",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "MarketingundUmsetzung:PrüfenSiedieKombinationenausM4anhandderMarkt-undProzessdaten.ArbeitenSieheraus,welcheFolgenSortiment,Preis,AbsatzwegeundKommunikationfürRessourcenundLieferfähigkeithaben.TrennenSiebelegteWirkungenvonErwartungen."
+      },
+      {
+        "id": "0:2:4",
+        "signature": "683966e7",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "KapitalundKapazität:ErmittelnSiemiteinerTabellenkalkulationausM5InvestitionenundeinmaligeAusgaben,BetriebsmittelbedarffürdieerstendreiMonate,Gesamtkapitalbedarf,EigenmittelundFinanzierungslücke.BerechnenSieJahresabsatz,praktischverfügbareKapazitätundoperativenZahlungsmittelüberschussvorFinanzierung,SteuernundAbschreibungen.AnalysierenSieanschließendallesechsWiderspruchsnotizen:WelcheEntscheidungistjeweilserforderlich?"
+      },
+      {
+        "id": "0:2:5",
+        "signature": "7def47d7",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "JedeExpertengruppeerstelltdenKurzberichtDatenbasis–Auswertung–Schlussfolgerung–offeneAnnahme–Risiko.PrüfenSieinderStammgruppe,obRechnungenundSchlussfolgerungennachvollziehbarsind.AlswählbareHilfedienendieLeitfragen:„WelcheAngabebelegtdas?“,„WelchesandereKapitelistbetroffen?“und„WasmüsstesichbeieineranderenAuswahländern?“"
+      },
+      {
+        "id": "0:3:1",
+        "signature": "822dea0f",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "SichtenSieM1bisM5sowiedieErgebnisseausLS1undLS2.OrganisierenSieExpertisenimTeamselbst."
+      },
+      {
+        "id": "0:3:2",
+        "signature": "2a1fda4b",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "ErarbeitenSiebelastbareAussagenzuStartsortiment,Zielgruppe,Markt/Wettbewerb,Marketingmix,Ressourcen,Kapitalbedarf,Eigenkapital,Finanzierungslücke,KapazitätundwesentlichenRisiken."
+      },
+      {
+        "id": "0:3:3",
+        "signature": "654dc14e",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "KennzeichnenSiekonsequent,wasDaten,Szenarioannahme,eigeneAnnahmeoderoffenePrüfaufgabeist."
+      },
+      {
+        "id": "0:3:4",
+        "signature": "f7682161",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "Meilenstein1:JedesTeilteamlegteinekurzeEntscheidungsnotiz„Datenbasis–Auswertung–Schlussfolgerung–Risiko“vor."
+      },
+      {
+        "id": "0:4:1",
+        "signature": "ec4d535f",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "BeginnenSiemiteinereigenenDiagnose:WelchewidersprüchlichenAnnahmenverhindernderzeiteinentragfähigenBusinessplan?BestimmenSiemindestensfünfZusammenhänge,dieIhrTeamklärenmuss.EntscheidenSieselbstüberZugriffsreihenfolge,vertiefteMaterialauswahlundVerteilungderAnalysen.DerfachlichePflichtumfangbleibtvollständigerhalten."
+      },
+      {
+        "id": "0:4:2",
+        "signature": "99e34357",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "VergleichenSieallefünfProduktkonzeptehinsichtlichKundennutzen,Entwicklungsstand,ProduktionsrisikoundStarteignung.WertenSiedieZielgruppen-,Kunden-undWettbewerbsdatenaus:diedreiwichtigstenKaufkriterien,vertretbarerEndverkaufspreis,Absatzwege,möglichePositionierungsowiejeweilszweiChancenundRisiken.VergleichenSiedieWettbewerbsangebotenachZielgruppe,Nutzen,Preis,VertriebunderkennbarerSchwäche.PrüfenSiedieMarketingoptionenaufihreVerbindungzuMarktundbetrieblichenRessourcen."
+      },
+      {
+        "id": "0:4:3",
+        "signature": "dda31261",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "ErmittelnSieineinerselbstaufgebautenTabellenkalkulationInvestitionenundeinmaligeGründungsausgaben,BetriebsmittelbedarffürdieerstendreiMonate,Gesamtkapitalbedarf,EigenmittelundFinanzierungslücke.BerechnenSieJahresabsatz,praktischverfügbareKapazitätundoperativenZahlungsmittelüberschussvorFinanzierung,SteuernundAbschreibungen.BearbeitenSieauchdiesechsWiderspruchsnotizenausM5.FürjedenfachlichenTeilbereichbleibtderKurzberichtDatenbasis–Auswertung–Schlussfolgerung–offeneAnnahme–Risikoverbindlich;organisierenSieselbst,werdessenNachvollziehbarkeitprüft."
+      },
+      {
+        "id": "0:5:1",
+        "signature": "e23be847",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "BeginnenSieKI-freimiteinemeigenenDaten-undEntscheidungsinventar:Waswissenwir,wasnehmenwiran,wasmüssenwirrechnenoderklären?"
+      },
+      {
+        "id": "0:5:2",
+        "signature": "36c8a037",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "NutzenSieM1bisM5unddieVorprodukteausLS1/2ineinerselbstgewähltenReihenfolge."
+      },
+      {
+        "id": "0:5:3",
+        "signature": "6475eef2",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "DerfachlichePflichtkernumfasstGeschäftskonzept,Produkt/Sortiment,Zielgruppe,Markt/Wettbewerb,Marketingmix,Ressourcen,Kapitalbedarf,Eigenkapital,Finanzierungslücke,KapazitätundRisiken."
+      },
+      {
+        "id": "0:5:4",
+        "signature": "94a3756c",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "CheckpointA:IhrTeamkanndiezentralenAbhängigkeitendesGeschäftsmodellsalsWirkungszusammenhangdarstellen."
+      },
+      {
+        "id": "1:1:1",
+        "signature": "50899217",
+        "phase": "planen",
+        "mode": 1,
+        "text": "ErstellenSieaufGrundlagevonM1einenBearbeitungsplanfürdenBusinessplan.OrdnenSiejedemKapiteleineverantwortlichePerson,benötigteMaterialien,einZwischenergebnisundeinenPrüfterminzu."
+      },
+      {
+        "id": "1:1:2",
+        "signature": "92f89937",
+        "phase": "planen",
+        "mode": 1,
+        "text": "StellenSiedieAbhängigkeitenzwischendenKapitelndar.BerücksichtigenSiemindestens:Zielgruppe→ProduktgestaltungundKommunikation,Absatzwege→PreisundLogistik,Absatzmenge→ProduktionskapazitätundPersonal,Ressourcen→Kapitalbedarf,Kapitalbedarf→späteresFinanzierungskonzept."
+      },
+      {
+        "id": "1:1:3",
+        "signature": "0f673ab1",
+        "phase": "planen",
+        "mode": 1,
+        "text": "EntwickelnSieselbstständigeinegemeinsameKriterienlistefürdiefolgendenUnternehmensentscheidungen.SiemussKundennutzen,Marktdaten,Umsetzbarkeit,Wirtschaftlichkeit,Kapitalbedarf,LieferfähigkeitundZieleausLS1enthalten."
+      },
+      {
+        "id": "1:1:4",
+        "signature": "a63ab9bb",
+        "phase": "planen",
+        "mode": 1,
+        "text": "BestimmenSie,wieAnnahmen,Rechenwege,QuellenundnochoffenePrüfaufträgeimBusinessplankenntlichgemachtwerden."
+      },
+      {
+        "id": "1:2:1",
+        "signature": "66e87b2c",
+        "phase": "planen",
+        "mode": 2,
+        "text": "ErstellenSieentlangderKapitelausM1einenBearbeitungsplan.NutzenSiebeiBedarfdieStrukturKapitel–verantwortlichePerson–benötigteDaten–Zwischenergebnis–Prüftermin.LegenSiegemeinsamfest,wannTeilgruppenihreAnnahmenabgleichen,damitkeinewidersprüchlichenFassungenentstehen."
+      },
+      {
+        "id": "1:2:2",
+        "signature": "5d8174ed",
+        "phase": "planen",
+        "mode": 2,
+        "text": "StellenSiedieAbhängigkeitenzwischenZielgruppe,Produktgestaltung,Kommunikation,Absatzwegen,Preis,Logistik,Menge,Kapazität,Personal,RessourcenundKapitalbedarfdar.EntwickelnSiedarausEntscheidungskriterien;Kundennutzen,Marktdaten,Umsetzbarkeit,Wirtschaftlichkeit,Kapitalbedarf,LieferfähigkeitundZieleausLS1müssenberücksichtigtwerden.BestimmenSieRegelnfürQuellen,Zahlen,AnnahmenundoffenePrüfaufträge.DieLehrkraftunterstütztaufAnfragebeiderZuordnungungeklärterAbhängigkeiten,ohneUnternehmensentscheidungenvorzugeben."
+      },
+      {
+        "id": "1:3:1",
+        "signature": "73024b9f",
+        "phase": "planen",
+        "mode": 3,
+        "text": "EntwickelnSieeineneigenenRedaktions-undArbeitsplanfürdenBusinessplan."
+      },
+      {
+        "id": "1:3:2",
+        "signature": "371baff7",
+        "phase": "planen",
+        "mode": 3,
+        "text": "LegenSieAbhängigkeitenzwischenMarkt,Marketing,Kapazität,Personal,RessourcenundKapitalbedarffest."
+      },
+      {
+        "id": "1:3:3",
+        "signature": "34a92914",
+        "phase": "planen",
+        "mode": 3,
+        "text": "VereinbarenSiegemeinsameEntscheidungskriterienundRegelnfürZahlen,QuellenundAnnahmen."
+      },
+      {
+        "id": "1:3:4",
+        "signature": "a0b5c7e6",
+        "phase": "planen",
+        "mode": 3,
+        "text": "BestimmenSieselbst,welchedigitalenWerkzeugeSiefürRechnungen,ZusammenarbeitundDokumentationeinsetzen."
+      },
+      {
+        "id": "1:4:1",
+        "signature": "daf9fa28",
+        "phase": "planen",
+        "mode": 4,
+        "text": "EntwickelnSieIhrenArbeits-undRedaktionsplanmitZuständigkeiten,Materialzugriff,Terminen,gegenseitigerPrüfungundeinergemeinsamenAblage.WählenSieinnerhalbderPhasenzeiteigeneArbeitsblöcke,Einzel-undKooperationszeitensowiegeeignete,verfügbareLernorte.EntscheidenSie,anwelchenStellenallezusammenarbeitenmüssenundwelcheKapitelzunächstgetrenntentstehenkönnen.PlanenSieZeitfürÜberarbeitungein."
+      },
+      {
+        "id": "1:4:2",
+        "signature": "a1dc92e1",
+        "phase": "planen",
+        "mode": 4,
+        "text": "BestimmenSiedieReihenfolgederUnternehmensentscheidungenanhandihrerAbhängigkeiten:ZielgruppeundProduktgestaltungbeeinflussenKommunikation;AbsatzwegewirkenaufPreisundLogistik;MengenwirkenaufKapazitätundPersonal;RessourcenbestimmendenKapitalbedarf.EntwickelnSiegemeinsameKriterienunterEinbezugvonKundennutzen,Marktdaten,Umsetzbarkeit,Wirtschaftlichkeit,Kapitalbedarf,LieferfähigkeitundZielenausLS1.LegenSieKennzeichnungenfürQuellen,Szenariodaten,eigeneAnnahmenundoffenePrüfaufträgefest.DieKapitelstrukturausM1bleibtverbindlich;dieOrganisationihrerBearbeitungliegtbeiIhnen."
+      },
+      {
+        "id": "1:5:1",
+        "signature": "8998ce07",
+        "phase": "planen",
+        "mode": 5,
+        "text": "OrganisierenSiedenBusinessplanalseigenesProjekt:Rollen,Sprints/Arbeitsblöcke,Deadlines,QualitätssicherungundgemeinsameDateistruktur."
+      },
+      {
+        "id": "1:5:2",
+        "signature": "41fc9d94",
+        "phase": "planen",
+        "mode": 5,
+        "text": "LegenSiefest,welcheEntscheidungenzuerstgetroffenwerdenmüssen,damitspätereKapitelnichtaufwidersprüchlichenAnnahmenberuhen."
+      },
+      {
+        "id": "1:5:3",
+        "signature": "5a704ac0",
+        "phase": "planen",
+        "mode": 5,
+        "text": "AbhierdarfderfreigegebeneKI-AssistentalsCoach,KritikeroderStrukturhilfeeingesetztwerden.Rechenwege,QuellenbewertungundUnternehmensentscheidungenmüssenvomTeamnachvollzogenwerden."
+      },
+      {
+        "id": "1:5:4",
+        "signature": "50284c4d",
+        "phase": "planen",
+        "mode": 5,
+        "text": "CheckpointB:SieverfügenübereinenbelastbarenProjektplanundgemeinsameQualitätsstandards."
+      },
+      {
+        "id": "2:1:1",
+        "signature": "0439df9a",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BeurteilenSiediefünfProduktkonzepteundentscheidenSieüberdasStartsortiment."
+      },
+      {
+        "id": "2:1:2",
+        "signature": "61380f68",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BeurteilenSiedieZielgruppenundbegründenSiedieAuswahleinerprimärenZielgruppesowiediedarausabgeleitetePositionierung."
+      },
+      {
+        "id": "2:1:3",
+        "signature": "19c7d405",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "EntwickelnSieselbstständigeinenabgestimmtenMarketingmix.BegründenSiejedeAuswahlmitmindestenseinerAngabeausM3oderM4undeinemZielausLS1."
+      },
+      {
+        "id": "2:1:4",
+        "signature": "a34b3e4c",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BeurteilenSie,obdiezugrundegelegteAbsatzmengeunddieInvestitionindieProduktionsliniezurStartstrategiepassen.NehmenSiezuderAlternativeStellung,zunächstmiteinerkleinerenAnlageoderLohnfertigungzustarten."
+      },
+      {
+        "id": "2:1:5",
+        "signature": "5ec40a52",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BeurteilenSiedieRisikenundbestimmenSie,welcheimBusinessplandurchkonkreteMaßnahmenbegrenztundwelchealsoffeneAnnahmenausgewiesenwerden."
+      },
+      {
+        "id": "2:2:1",
+        "signature": "40d7f69b",
+        "phase": "entscheiden",
+        "mode": 2,
+        "text": "TreffenSieeinegemeinsameEntscheidungüberStartsortiment,primäreZielgruppeundPositionierung.EntwickelnSieanschließendeinenabgestimmtenMarketingmix.BegründenSiejedeAuswahlmiteinerAngabeausM3oderM4undeinemZielausLS1;ProduktentscheidungenmüssenzusätzlichdieProzessdatenausM2berücksichtigen."
+      },
+      {
+        "id": "2:2:2",
+        "signature": "dc3e63e6",
+        "phase": "entscheiden",
+        "mode": 2,
+        "text": "BeurteilenSieAbsatzannahmeundInvestitionsumfangimZusammenhang:PasstdieangeboteneProduktionsliniezuIhrerStartstrategie?NehmenSiezurkleinerenAnlageoderLohnfertigungStellungundkennzeichnenSiefehlendeAngaben,stattdiesealsgesicherteZahleneinzusetzen.EntscheidenSieübermindestensdreiwesentlicheRisiken,konkreteGegenmaßnahmenundverbleibendeUnsicherheiten.EinewählbareBegründungshilfelautet:„Wirwählen…,weil…;gegenüber…bedeutetdiesfür…;ungeklärtbleibt…“."
+      },
+      {
+        "id": "2:3:1",
+        "signature": "a1848ed4",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "BeurteilenSieProduktkonzepteundZielgruppenundtreffenSiebegründeteEntscheidungenzuStartsortimentundPositionierung."
+      },
+      {
+        "id": "2:3:2",
+        "signature": "0d5245a5",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "EntwickelnSieeinenstimmigenMarketingmixundbegründenSieihnausDatenundUnternehmenszielen."
+      },
+      {
+        "id": "2:3:3",
+        "signature": "24bd981f",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "BeurteilenSieAbsatzmenge,KapazitätslösungundInvestitionsumfangeinschließlichmindestenseinerrealistischenAlternative."
+      },
+      {
+        "id": "2:3:4",
+        "signature": "d62fb025",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "EntscheidenSie,welcheRisikenaktivbegrenztundwelchetransparentalsAnnahmeausgewiesenwerden."
+      },
+      {
+        "id": "2:4:1",
+        "signature": "f7895c16",
+        "phase": "entscheiden",
+        "mode": 4,
+        "text": "EntscheidenSieüberStartsortiment,primäreZielgruppeundPositionierung.EntwickelnSieeinenabgestimmtenMarketingmixundbegründenSiejedeAuswahlausM3oderM4sowieeinemZielausLS1.BeurteilenSiedievorgeseheneAbsatzmengeundProduktionslinie;prüfenSiediekleinereAnlageoderLohnfertigungalsAlternativeundmarkierenSiefehlendeEntscheidungsdaten.LegenSiemindestensdreiwesentlicheRisiken,MaßnahmenundverbleibendeUnsicherheitenfest."
+      },
+      {
+        "id": "2:4:2",
+        "signature": "269f2c1c",
+        "phase": "entscheiden",
+        "mode": 4,
+        "text": "VerbindlicherCheckpoint1–ZusammenhängendeUnternehmensentscheidungen:LegenSiederLehrkraftIhreEntscheidungenmitBerechnungenvor.ZeigenSieankonkretenBelegen,wieSortiment,Zielgruppe,Preis,Vertrieb,Kommunikation,KapazitätundKapitalbedarfzusammenpassen.ErläuternSieeineverworfeneAlternativeundderenFolgewirkungen.OffeneBrüchehaltenSiemiteinerselbstbestimmtenKorrekturfest;einefachlichbegründeteLösungbleibtIhreEntscheidung.NutzenSiedieRückmeldungvorderabschließendenZusammenführung."
+      },
+      {
+        "id": "2:5:1",
+        "signature": "b0a8bd74",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "TreffenSieeigenständigdieunternehmerischenKernentscheidungen.EntwickelnSieAlternativen,prüfenSiederenFolgenunddokumentierenSieIhreBegründungen."
+      },
+      {
+        "id": "2:5:2",
+        "signature": "b9b9b0c9",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "NutzenSieSensitivitätsfragen:WasändertsichbeigeringererNachfrage,höherenKostenoderbegrenzterKapazität?"
+      },
+      {
+        "id": "2:5:3",
+        "signature": "08ffb018",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "HaltenSiebewusstfest,welcheUnsicherheitenSieakzeptierenundwieBioCasadamitumgehensoll."
+      },
+      {
+        "id": "3:1:1",
+        "signature": "2545ae4d",
+        "phase": "durchfuehren",
+        "mode": 1,
+        "text": "FührenSieIhreTeilentscheidungenineinemeinheitlichen,adressatengerechtenundrechnerischnachvollziehbarenDokumentzusammen.DieZusammenfassungwirderstnachFertigstellungallerKapitelverfasst.ZahlensindmitEinheit,ZeitraumundAnnahmezukennzeichnen.VerweisezwischenTextundTabellenmüsseneindeutigsein.Handlungsergebnis:BusinessplanBioCasa"
+      },
+      {
+        "id": "3:2:1",
+        "signature": "9744c417",
+        "phase": "durchfuehren",
+        "mode": 2,
+        "text": "FührenSiedieKapitelzueinemadressatengerechtenBusinessplanzusammen.NutzenSieM1alsverbindlicheGliederungundstimmenSieMarkt,Marketing,Betrieb,PersonalundKapitalbedarffortlaufendab.KennzeichnenSieZahlenmitEinheit,ZeitraumundAnnahme;verknüpfenSieTextundTabellendurcheindeutigeVerweise.FormulierenSiedieZusammenfassungzuletzt.DieRechtsformunddieAuswahlderspäterenFinanzierungwerdennichtvorweggenommen.Handlungsergebnis:BusinessplanBioCasa"
+      },
+      {
+        "id": "3:2:2",
+        "signature": "0f2b6273",
+        "phase": "durchfuehren",
+        "mode": 2,
+        "text": "DieersteMarktanalyse,sämtlicheEntscheidungenundRechenwegeentstehenohneKI.ErstnacheinereigenenfachlichenFassungistdiebegrenzteNutzunggemäßAbschnitt11möglich;prüfenunddokumentierenSiejedenübernommenenHinweis."
+      },
+      {
+        "id": "3:3:1",
+        "signature": "7023ccce",
+        "phase": "durchfuehren",
+        "mode": 3,
+        "text": "ErstellenSiedenBusinessplanineinerselbstgewähltenarbeitsteiligenRedaktionsstruktur.AlleKapitelmüssenamEndewieeinDokumentauseinerHandwirken;RechenwegeundQuerverweisemüssennachvollziehbarsein.Handlungsergebnis:BusinessplanBioCasa"
+      },
+      {
+        "id": "3:4:1",
+        "signature": "cef2c47d",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "ErstellenSiedenvollständigenBusinessplan.WählenSiegeeigneteWerkzeugeundDarstellungen;gewährleistenSieeindeutigeVerweise,einheitlicheAnnahmensowieEinheit,ZeitraumundDatenbasisjederwichtigenZahl.SchreibenSiedieZusammenfassungnachdenDetailkapiteln.LassenSieRechtsformundFinanzierungsmittelauswahlfürdienachfolgendenLernsituationenoffen."
+      },
+      {
+        "id": "3:4:2",
+        "signature": "f7b362ec",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "VerbindlicherCheckpoint2–PrüffähigerGesamtentwurf:ZeigenSiederLehrkraftdenvollständigenEntwurfeinschließlichKapitalbedarfsrechnungundAnlagen.VerfolgenSieeineKettevomKundenbedarfüberMarketing,Absatz,KapazitätundRessourcenbiszurFinanzierungslücke.DerEntwurfmussdiesechsWiderspruchsnotizenausM5aufgreifen,RisikenmitMaßnahmenverbindenundDatenvonAnnahmenunterscheiden.PlanenSieerforderlicheKorrekturenselbst.Handlungsergebnis:BusinessplanBioCasa"
+      },
+      {
+        "id": "3:4:3",
+        "signature": "8d5874f3",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "ErsteMarktanalyse,EntscheidungenundRechenwegebleibenKI-frei.NacheigenerfachlicherFassungistnurdieinAbschnitt11beschriebene,überprüfteunddokumentierteUnterstützungzulässig."
+      },
+      {
+        "id": "3:5:1",
+        "signature": "464149d5",
+        "phase": "durchfuehren",
+        "mode": 5,
+        "text": "ProduzierenSieeinenprofessionellenBusinessplanineinemselbstgewähltengeeignetenFormat."
+      },
+      {
+        "id": "3:5:2",
+        "signature": "b433ce74",
+        "phase": "durchfuehren",
+        "mode": 5,
+        "text": "DasTeamentscheidetüberVisualisierungen,TabellenunddigitaleWerkzeuge."
+      },
+      {
+        "id": "3:5:3",
+        "signature": "60e8330d",
+        "phase": "durchfuehren",
+        "mode": 5,
+        "text": "Mindeststandard:JedewichtigeZahlbesitztEinheit,ZeitraumundDatenbasis;dieKapitelsinduntereinanderkonsistent;offeneAnnahmensindsichtbar."
+      },
+      {
+        "id": "4:1:1",
+        "signature": "71639d70",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "FührenSiefüreinenfremdenBusinessplaneinenKonsistenzcheckdurch.ÜberprüfenSie:"
+      },
+      {
+        "id": "4:1:2",
+        "signature": "ac15a3ca",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "IstdieGeschäftsideeausLS1wiederzuerkennen?"
+      },
+      {
+        "id": "4:1:3",
+        "signature": "9984708f",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "SindZielgruppe,KundenproblemundNutzenversprecheneindeutig?"
+      },
+      {
+        "id": "4:1:4",
+        "signature": "e2cc4edd",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "IstdasStartsortimentmitMarkt-undProzessdatenbegründet?"
+      },
+      {
+        "id": "4:1:5",
+        "signature": "62131724",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "BildenProdukt,Preis,DistributionundKommunikationeinenabgestimmtenMarketingmix?"
+      },
+      {
+        "id": "4:1:6",
+        "signature": "3a025f84",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "StimmenAbsatzmenge,Kapazität,Personal-undRessourcenannahmenüberein?"
+      },
+      {
+        "id": "4:1:7",
+        "signature": "c9715aac",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "IstderKapitalbedarfvollständig,rechnerischrichtigundvonlaufendenKostenabgegrenzt?"
+      },
+      {
+        "id": "4:1:8",
+        "signature": "1de3d8f2",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "StimmenEigenkapitalundFinanzierungslücke?"
+      },
+      {
+        "id": "4:1:9",
+        "signature": "d989bab8",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "WerdenSzenariodaten,externeQuellenundeigeneAnnahmenunterschieden?"
+      },
+      {
+        "id": "4:1:10",
+        "signature": "6703f419",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "WerdenmindestensdreiwesentlicheRisikenmitMaßnahmenbenannt?"
+      },
+      {
+        "id": "4:1:11",
+        "signature": "44ed19da",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "IstdieZusammenfassungmitdenDetailkapitelnwiderspruchsfrei?"
+      },
+      {
+        "id": "4:1:12",
+        "signature": "4b73eb83",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "DokumentierenSiejedeAbweichungmitFundstelle,BegründungundKorrekturvorschlag.DieErstellergruppeüberarbeitetanschließendihreFassungundentscheidetbegründetüberdieHinweise."
+      },
+      {
+        "id": "4:2:1",
+        "signature": "5c3766d3",
+        "phase": "bewerten",
+        "mode": 2,
+        "text": "PrüfenSieeinenfremdenBusinessplananhandfolgenderBereiche:Geschäftsidee,ZielgruppeundNutzen;StartsortimentundMarketingmix;Absatz,Kapazität,PersonalundRessourcen;vollständigerKapitalbedarf,EigenmittelundFinanzierungslücke;TrennungvonDatenundAnnahmen;mindestensdreiRisikenmitMaßnahmen;ÜbereinstimmungvonZusammenfassungundDetailkapiteln.DokumentierenSieAbweichungenmitFundstelle,BegründungundKorrekturvorschlag.ÜberarbeitenSiedeneigenenPlanundbegründenSie,welcheHinweiseSieübernehmenoderzurückweisen."
+      },
+      {
+        "id": "4:3:1",
+        "signature": "2562599c",
+        "phase": "bewerten",
+        "mode": 3,
+        "text": "FührenSiemiteinemanderenTeameinenKonsistenzcheckdurch.PrüfenSieinsbesonderedieKettenZielgruppe→Angebot→Marketing→Absatz→Kapazität→Ressourcen→KapitalbedarfsowiedieTrennungvonDatenundAnnahmen.LegenSiezusätzlichzweieigenePrüfkriterienfest."
+      },
+      {
+        "id": "4:4:1",
+        "signature": "d70f15cd",
+        "phase": "bewerten",
+        "mode": 4,
+        "text": "OrganisierenSiedenKonsistenzcheckdesjeweilsfremdenBusinessplans.PrüfenSieGeschäftsidee,KundenproblemundNutzen,Startsortiment,Marketingmix,Mengen,Kapazität,Personal,Ressourcen,Kapitalbedarf,EigenmittelundFinanzierungslücke.BeziehenSieQuellenkennzeichnung,mindestensdreiRisikenmitMaßnahmenunddieÜbereinstimmungderZusammenfassungein.HaltenSieAbweichungenmitFundstelle,BegründungundKorrekturvorschlagfest.EntscheidenSieeigenständigüberdieHinweiseundüberarbeitenSiedieEndfassung."
+      },
+      {
+        "id": "4:5:1",
+        "signature": "8f9dd2cc",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "OrganisierenSieeinenunabhängigen„Red-Team“-CheckdurcheinanderesLernteam:DiesessuchtgezieltnachWidersprüchen,unbelegtenAnnahmenundrechnerischenBrüchen."
+      },
+      {
+        "id": "4:5:2",
+        "signature": "107ead4c",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "EntscheidenSiebegründet,welcheHinweiseSieübernehmen.DokumentierenSiemindestensdreiÄnderungenoderbegründeteNicht-Änderungen."
+      },
+      {
+        "id": "5:1:1",
+        "signature": "0efb7da1",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheEntscheidungineinemKapitelhattediestärksteAuswirkungaufandereKapitel?"
+      },
+      {
+        "id": "5:1:2",
+        "signature": "50cd195e",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheAnnahmeisttrotzderverfügbarenDatenbesondersunsicher?"
+      },
+      {
+        "id": "5:1:3",
+        "signature": "292901e5",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "Wiewürdesicheineum20ProzentniedrigereAbsatzmengeaufBioCasaauswirken?"
+      },
+      {
+        "id": "5:1:4",
+        "signature": "981c20e9",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheArbeitsweisehatgeholfen,WidersprücheimTeamzuerkennen?WaswürdenSiebeimnächstenumfangreichenPlanungsauftragverändern?"
+      },
+      {
+        "id": "5:2:1",
+        "signature": "27724d4d",
+        "phase": "reflektieren",
+        "mode": 2,
+        "text": "ErläuternSie,welcheKapitelentscheidungdiestärkstenFolgewirkungenhatteundwelcheAnnahmeunsicherbleibt.BeurteilenSiedieFolgeneinerum20ProzentniedrigerenAbsatzmenge.BenennenSieeineArbeitsroutine,dieWidersprüchesichtbarmachte,undeinekonkreteÄnderungfürdennächstenPlanungsauftrag.PrüfenSieaußerdem,beiwelcherAufgabeSieeineHilfebereitsselbstständigersetzenkonnten."
+      },
+      {
+        "id": "5:3:1",
+        "signature": "2dc68932",
+        "phase": "reflektieren",
+        "mode": 3,
+        "text": "WelcheTeilentscheidunghattediestärksteWirkungaufdengesamtenPlan?WowarIhreDatenlageschwach?WelcheTeam-oderArbeitsroutinehatWidersprücheverhindertundsollteinLS4beibehaltenwerden?"
+      },
+      {
+        "id": "5:4:1",
+        "signature": "71dba80a",
+        "phase": "reflektieren",
+        "mode": 4,
+        "text": "ErklärenSiediefolgenreichsteUnternehmensentscheidungundeineverbleibendeunsichereAnnahme.BeurteilenSiedieFolgenvon20ProzentwenigerAbsatz.ZeigenSie,welcheArbeitsweiseWidersprücheaufdeckteundwieSieIhrenPlandeshalbangepassthaben.WelcheUnterstützungausdenzweiCheckpointshatIhrefachlichePrüfungverbessert,undwelchedavonkönntenSiebeimnächstenAuftragselbstorganisieren?"
+      },
+      {
+        "id": "5:5:1",
+        "signature": "09576f6f",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "WelcheselbstgetroffeneProjektentscheidunghatIhrLernenverbessert?"
+      },
+      {
+        "id": "5:5:2",
+        "signature": "fc6f1ba8",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "WomusstenSiewegenneuerInformationenumplanen?"
+      },
+      {
+        "id": "5:5:3",
+        "signature": "a9b727ea",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "WelchefachlicheAussageimBusinessplankönnenSiebesonderssicherverteidigenundwobestehtnochUnsicherheit?"
+      }
+    ],
+    "quizSignature": "8cac3b43"
+  },
+  "LS04": {
+    "orientationSignature": "db3335aa",
+    "tasks": [
+      {
+        "id": "0:1:1",
+        "signature": "0c6c20a4",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "IdentifizierenSieinderHandlungssituationundM1daszentraleFinanzierungsproblem.StellenSieKapitalbedarf,EigenmittelundFinanzierungslückedar."
+      },
+      {
+        "id": "0:1:2",
+        "signature": "d3dbe5f3",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "ArbeitenSieausM2undM3fürjedeFinanzierungsformheraus:geeigneterVerwendungszweck,Laufzeit,Kosten,Liquiditätswirkung,Sicherheitenbzw.Bindungen,VorteilundRisiko."
+      },
+      {
+        "id": "0:1:3",
+        "signature": "ae7faf62",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "BerechnenSiefürdasRatendarlehenvon900.000EuromithilfevonM2:diemonatlicheTilgungsrate,dieZinsenundGesamtleistungimerstenTilgungsmonat,dieZinsenundGesamtleistungimletztenTilgungsmonat,diegesamtenZinsenwährendder96TilgungsmonateohnediesechstilgungsfreienMonate."
+      },
+      {
+        "id": "0:1:4",
+        "signature": "6f5c3705",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "BerechnenSiedieJahreszinsen,wenneinKontokorrentbetragvon148.000EuroeinvollesJahrunverändertinAnspruchgenommenwürde.ErläuternSie,weshalbdieseRechnungnochkeineTilgungdesBetragsenthält."
+      },
+      {
+        "id": "0:1:5",
+        "signature": "92c39f7d",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "ErmittelnSiefürdasLeasingangebotdieSummeausSonderzahlung,60LeasingratenundKaufoption.VergleichenSiediesennominalenGesamtbetragmitdemBarkaufpreisderAnlage.BerücksichtigenSie,dasseineinfacherSummenvergleichZeitwert,SteuernundFinanzierungdesKaufpreisesnichtabbildet."
+      },
+      {
+        "id": "0:1:6",
+        "signature": "b1052252",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "AnalysierenSieM4.BerechnenSiedenoperativenZahlungsmittelüberschussimPlanszenarioundimStressszenario.ErläuternSie,welcheAussagedieseGrößenfürdieFinanzierungzulassenundwelchenicht."
+      },
+      {
+        "id": "0:1:7",
+        "signature": "aad205b7",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "VergleichenSiediedreivorgegebenenFinanzierungskombinationeninM4nachFristenpassung,anfänglichemKapitalbedarf,festenMonatsbelastungen,Flexibilität,EigentumundRisiko."
+      },
+      {
+        "id": "0:1:8",
+        "signature": "1e561938",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "Zwischensicherung:JedeExpertengruppeerstellteinefünfminütigeFachinformation.Rechenwegemüssensichtbarsein;WerbeaussagenderAnbieterwerdenvonprüfbarenKonditionengetrennt."
+      },
+      {
+        "id": "0:2:1",
+        "signature": "12171b8b",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "StellenSiezunächstdenZusammenhangvonKapitalbedarf,EigenmittelnundFinanzierungslückedar.BearbeitenSieanschließenddiePaketeFinanzierungsformenundBelastbarkeit.VerteilenSiedafürDarlehen,Kontokorrent,LeasingundTragfähigkeitimTeam."
+      },
+      {
+        "id": "0:2:2",
+        "signature": "b926c14c",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "ImerstenPaketvergleichenSiedieAngabenausM2undM3nachVerwendungszweck,Laufzeit,Kosten,Liquiditätswirkung,SicherheitenbeziehungsweiseBindungen,VorteilundRisiko.BerechnenSiefürdasDarlehenvon900.000EurodiemonatlicheTilgung,ZinsenundGesamtleistungimerstensowieletztenTilgungsmonatunddiegesamtenZinsender96TilgungsmonateohnediesechstilgungsfreienMonate.ErmittelnSieaußerdemdieJahreszinseneinerunverändertenKontokorrentinanspruchnahmevon148.000EurounderklärenSiedieverbleibendeRückzahlungsverpflichtung.VergleichenSiebeimLeasingSonderzahlung,60RatenundKaufoptionalsnominaleGesamtsummemitdemBarkaufpreis;benennenSiedieGrenzendiesesVergleichs."
+      },
+      {
+        "id": "0:2:3",
+        "signature": "baef8d0a",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "ImzweitenPaketberechnenSieausM4denoperativenZahlungsmittelüberschussfürPlan-undStressszenario.VergleichenSiealledreiFinanzierungskombinationenhinsichtlichFristenpassung,anfänglichemBedarf,festenMonatsbelastungen,Flexibilität,EigentumundRisiko.ErläuternSiedieAussagegrenzendesoperativenÜberschusses."
+      },
+      {
+        "id": "0:2:4",
+        "signature": "bf6e62e7",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "JedeExpertengruppeerstellteinefünfminütigeFachinformationmitnachvollziehbarenRechenwegen.AlswählbareHilfennutzenSiedieFormelnausM2,denRechenwegausM4oderdieselbstangelegteTabellenstrukturRestschuldzuMonatsbeginn–Tilgung–Zins–Monatsleistung–verbleibendeSchuld.DieLeitfrage„IstdiesKreditrahmen,Auszahlung,AufwandoderRückzahlung?“unterstütztdasSortieren;klärenSieunklareZuordnungenmitderLehrkraft."
+      },
+      {
+        "id": "0:3:1",
+        "signature": "ff5d1cde",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "AnalysierenSieM1bisM6unddenBusinessplanausLS3.VerteilenSieDarlehen,Kontokorrent,LeasingundTragfähigkeitselbstständigimTeam."
+      },
+      {
+        "id": "0:3:2",
+        "signature": "81379465",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "StellenSiefürjedeFinanzierungsformVerwendungszweck,Laufzeit,Kosten,Liquiditätswirkung,Sicherheiten/BindungensowieChancenundRisikengegenüber."
+      },
+      {
+        "id": "0:3:3",
+        "signature": "725bed9f",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "FührenSiedieerforderlichenBerechnungensoaus,dasseinanderesTeamjedenRechenwegprüfenkann."
+      },
+      {
+        "id": "0:3:4",
+        "signature": "2c3d583f",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "Meilenstein1:LegenSieeinegemeinsameFinanzierungsübersichtmitPlan-undStresssichtvor."
+      },
+      {
+        "id": "0:4:1",
+        "signature": "3f75608d",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "StartenSiemitIhrereigenenEinschätzung:WofürfehltBioCasaKapitalundwelcheFinanzierungsfolgenmussdasTeamvordemGesprächverstehen?StellenSieKapitalbedarf,EigenmittelundFinanzierungslückedar.WählenSieBearbeitungsreihenfolge,vertiefteMaterialauswahlundZuständigkeitenfürDarlehen,Kontokorrent,LeasingundTragfähigkeitselbst.SämtlichefolgendenNachweisebleibenverbindlich."
+      },
+      {
+        "id": "0:4:2",
+        "signature": "791c0fdb",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "VergleichenSieFinanzierungszweck,Laufzeit,Kosten,Liquiditätswirkung,SicherheitenbeziehungsweiseBindungensowieChancenundRisikenallerdreiFormen.BerechnenSiebeimRatendarlehenvon900.000EurodiemonatlicheTilgung,ZinsenundGesamtleistungimerstenundletztenTilgungsmonatsowiedieZinsenwährendder96TilgungsmonateohnediesechstilgungsfreienMonate.BestimmenSiedieJahreszinsenbeiunveränderterKontokorrentinanspruchnahmevon148.000EurounderläuternSie,weshalbdieSchulddamitnichtgetilgtist.ErmittelnSiedennominalenLeasinggesamtbetrageinschließlichSonderzahlung,60RatenundKaufoption;vergleichenSieihnmitdemBarkaufunderklärenSiedieVergleichsgrenzen."
+      },
+      {
+        "id": "0:4:3",
+        "signature": "98f6e7b9",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "BerechnenSiedieoperativenZahlungsmittelüberschüsseimPlan-undStressszenarioausM4.ErläuternSie,welcheAussagendieseÜberschüsseüberdieRückzahlungsfähigkeiterlaubenundweshalbsienichtvollständigfreiverfügbareLiquiditätdarstellen.VergleichenSiediedreiKombinationennachFristenpassung,anfänglichemBedarf,festenMonatsbelastungen,Flexibilität,EigentumundRisiko.OrganisierenSiezujedemFachbereicheinefünfminütigeFachinformationmitprüfbarenRechenwegen.EntscheidenSieselbst,wiealleTeammitgliederdenZusammenhangvonFinanzierungslückeundspätererLiquiditätsbelastungnachvollziehenkönnen."
+      },
+      {
+        "id": "0:5:1",
+        "signature": "2d584024",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "StartenSieKI-freimitderFrage:WelcheFinanzierungbrauchtBioCasawofürundwelcheBelastungkanndasUnternehmentragen?"
+      },
+      {
+        "id": "0:5:2",
+        "signature": "da1e4e37",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "NutzenSieM1bisM6sowieLS3selbstorganisiert.RechnenSiealleentscheidungsrelevantenWertenachvollziehbarnach."
+      },
+      {
+        "id": "0:5:3",
+        "signature": "3fe5c11f",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "IhrPflichtkern:Finanzierungslücke,Ratendarlehen,Kontokorrentkredit,Leasing,Fristenpassung,Liquiditätsbelastung,Eigentums-/BindungsfolgensowiePlan-undStressszenario."
+      },
+      {
+        "id": "0:5:4",
+        "signature": "d47ab0fb",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "CheckpointA:DasTeamkanndieFinanzierungslückeunddieWirkungjederFinanzierungsformfachlicherklären,ohneFolienabzulesen."
+      },
+      {
+        "id": "1:1:1",
+        "signature": "cd8f71ff",
+        "phase": "planen",
+        "mode": 1,
+        "text": "EntwickelnSieselbstständigKriterienfüreinentragfähigenFinanzierungsmix.BerücksichtigenSiemindestensFristenkongruenz,Kosten,Liquiditätsbelastung,Flexibilität,Risiko,Eigentum,SicherheitenundRückzahlungsfähigkeit."
+      },
+      {
+        "id": "1:1:2",
+        "signature": "d837ab27",
+        "phase": "planen",
+        "mode": 1,
+        "text": "ErstellenSieeinenAblauffürdenPitchmiteinerGesamtdauervonhöchstensachtMinuten.OrdnenSiedieInhalteausM6denvierGründerrollenzu."
+      },
+      {
+        "id": "1:1:3",
+        "signature": "6d3f5457",
+        "phase": "planen",
+        "mode": 1,
+        "text": "BestimmenSie,welchedreiZahlenzwingendvisualisiertwerdenundwieSieSzenariodateneindeutigkennzeichnen."
+      },
+      {
+        "id": "1:1:4",
+        "signature": "bda610ff",
+        "phase": "planen",
+        "mode": 1,
+        "text": "ErstellenSieAntwortenaufmindestenssechsmöglicheRückfragenausM5.JedeAntwortmusseineZahl,einenMaterialbezugodereinekonkreteRisikomaßnahmeenthalten."
+      },
+      {
+        "id": "1:2:1",
+        "signature": "a363d62a",
+        "phase": "planen",
+        "mode": 2,
+        "text": "EntwickelnSieKriterienfürdieEntscheidung:Fristenkongruenz,Kosten,Liquiditätsbelastung,Flexibilität,Risiko,Eigentum,SicherheitenundRückzahlungsfähigkeit.KlärenSie,welcheKriterienfürBioCasasStartphasebesondersbedeutsamsind."
+      },
+      {
+        "id": "1:2:2",
+        "signature": "78d12705",
+        "phase": "planen",
+        "mode": 2,
+        "text": "ErstellenSieeinenhöchstensachtminütigenPitchablaufmitdenInhaltenausM6undviererkennbarenGründerrollen.NutzenSiebeiBedarfdieStrukturAussage–Beleg–sprechendePerson–Zeit–Visualisierung.WählenSiedreizwingendzuvisualisierendeZahlenundkennzeichnenSiedasjeweiligeSzenario.BereitenSiemindestenssechsRückfragenausM5vor;jedeAntwortbrauchteineZahl,einenMaterialbezugodereinekonkreteRisikomaßnahme.LassenSiediefachlichenSchlussfolgerungenbiszurgemeinsamenEntscheidungoffen."
+      },
+      {
+        "id": "1:3:1",
+        "signature": "46aa2a71",
+        "phase": "planen",
+        "mode": 3,
+        "text": "EntwickelnSieeigeneKriterienfüreinentragfähigenFinanzierungsmix."
+      },
+      {
+        "id": "1:3:2",
+        "signature": "06c7d288",
+        "phase": "planen",
+        "mode": 3,
+        "text": "EntwerfenSieselbstAufbau,RollenundDramaturgieeinesmaximalachtminütigenPitchs."
+      },
+      {
+        "id": "1:3:3",
+        "signature": "c0bc8644",
+        "phase": "planen",
+        "mode": 3,
+        "text": "EntscheidenSie,welcheZahlenvisualisiertundwelcheRisikenoffensivangesprochenwerdenmüssen."
+      },
+      {
+        "id": "1:3:4",
+        "signature": "d082aa9d",
+        "phase": "planen",
+        "mode": 3,
+        "text": "BereitenSiesicharbeitsteiligaufkritischeRückfragenvor."
+      },
+      {
+        "id": "1:4:1",
+        "signature": "dfe44936",
+        "phase": "planen",
+        "mode": 4,
+        "text": "EntwerfenSieIhrenArbeitsplanfürEntscheidung,PräsentationserstellungundProbe.LegenSieeigeneArbeitsblöckeinnerhalbderPhasenzeit,Verantwortlichkeiten,Materialzugriffe,gemeinsamePrüfschritteundpassendeverfügbareLernortefest.EntscheidenSie,waskonzentrierteEinzelarbeitverlangtundwodasTeamgemeinsamrechnen,abwägenoderargumentierenmuss."
+      },
+      {
+        "id": "1:4:2",
+        "signature": "0eb56d8d",
+        "phase": "planen",
+        "mode": 4,
+        "text": "EntwickelnSieEntscheidungskriterienunterEinbezugvonFristenkongruenz,Kosten,Liquiditätsbelastung,Flexibilität,Risiko,Eigentum,SicherheitenundRückzahlungsfähigkeit.PlanenSiedieDramaturgienachdemBriefingM6:höchstensachtMinutenmitviererkennbarenSprechrollen.WählenSiedreizentraleZahlenfürdieVisualisierungundsorgenSiefürerkennbareSzenariokennzeichnung.BereitenSiemindestenssechsRückfragenausM5mitzahlen-,material-odermaßnahmengestütztenAntwortenvor.PlanenSiebeideCheckpointsundausreichendeZeitzurfachlichenÜberarbeitungein."
+      },
+      {
+        "id": "1:5:1",
+        "signature": "4e421f1d",
+        "phase": "planen",
+        "mode": 5,
+        "text": "PlanenSieeigenständigRecherche-/Rechenphasen,Rollen,Pitchdramaturgie,VisualisierungenundProben."
+      },
+      {
+        "id": "1:5:2",
+        "signature": "28cebf91",
+        "phase": "planen",
+        "mode": 5,
+        "text": "EntwickelnSieeigeneEntscheidungskriterienundlegenSiefest,wieSieRisikentransparentkommunizieren."
+      },
+      {
+        "id": "1:5:3",
+        "signature": "9193d837",
+        "phase": "planen",
+        "mode": 5,
+        "text": "AbhierdarfderfreigegebeneKI-AssistentalsSparringspartnerfürkritischeBankfragenoderzurStrukturprüfunggenutztwerden;BerechnungenundEntscheidungenwerdenvomTeamverifiziert."
+      },
+      {
+        "id": "1:5:4",
+        "signature": "8956f18a",
+        "phase": "planen",
+        "mode": 5,
+        "text": "CheckpointB:FinanzierungskonzeptundPitchplansindinternfreigegeben."
+      },
+      {
+        "id": "2:1:1",
+        "signature": "1c8b1bfe",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BeurteilenSiediedreiKombinationenausM4anhandIhrerKriterien."
+      },
+      {
+        "id": "2:1:2",
+        "signature": "249c6bc5",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "EntwickelnSieselbstständigausIhrerBeurteilungeinenFinanzierungsvorschlagmitFinanzierungsformen,BeträgenundVerwendungszwecken.EinKontokorrentrahmendarfalsReservebeantragtwerden;einemöglicheKreditliniedarfnichtsodargestelltwerden,alsseisiebereitsdauerhaftinAnspruchgenommen."
+      },
+      {
+        "id": "2:1:3",
+        "signature": "04fa6074",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BegründenSie,wieIhrKonzeptdieFinanzierungslückeschließtundweshalbdieLaufzeitenzudenfinanziertenVermögens-undLiquiditätsbedarfenpassen."
+      },
+      {
+        "id": "2:1:4",
+        "signature": "221f0480",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "NehmenSiezurTragfähigkeitimStressszenarioStellung.BenennenSiemindestensdreiMaßnahmenoderBedingungen,mitdenenBioCasadasRisikobegrenzt."
+      },
+      {
+        "id": "2:2:1",
+        "signature": "c1c96e85",
+        "phase": "entscheiden",
+        "mode": 2,
+        "text": "BeurteilenSiediedreiKombinationenundentwickelnSiedarausIhrenFinanzierungsvorschlag.LegenSieBeträgeundVerwendungszweckefest;begründenSie,wiedieFinanzierungslückegeschlossenwirdundwelcheLaufzeitenzudenjeweiligenBedarfenpassen.EntscheidenSieauchüberdieBedeutungvonEigentum,VertragsbindungundKaufoptionfürBioCasa."
+      },
+      {
+        "id": "2:2:2",
+        "signature": "c5a5ec41",
+        "phase": "entscheiden",
+        "mode": 2,
+        "text": "TrennenSieeinenbeantragtenKontokorrentrahmenvonseinertatsächlichenInanspruchnahme.NehmenSiezurTragfähigkeitimStressszenarioStellungundlegenSiemindestensdreigeeigneteMaßnahmenoderBedingungenfest.AlsBegründungshilfekönnenSienutzen:„UnserVorschlagdeckt…durch…;beigeringeremAbsatzentsteht…;deshalbgiltalsBedingung…“.DieLehrkraftstelltklärendeRückfragen;diefachlicheAuswahlverantwortetdasTeam."
+      },
+      {
+        "id": "2:3:1",
+        "signature": "40edfb42",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "BeurteilenSiedievorliegendenKombinationenundentwickelnSiedarauseinenbegründetenFinanzierungsvorschlag."
+      },
+      {
+        "id": "2:3:2",
+        "signature": "d4065808",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "OrdnenSieFinanzierungsformenklarzuInvestitions-bzw.Liquiditätsbedarfenzu."
+      },
+      {
+        "id": "2:3:3",
+        "signature": "3577bf43",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "NehmenSiezurTragfähigkeitimStressszenarioStellungundbestimmenSiekonkreteBedingungenoderGegenmaßnahmen."
+      },
+      {
+        "id": "2:4:1",
+        "signature": "5b8b5190",
+        "phase": "entscheiden",
+        "mode": 4,
+        "text": "BeurteilenSiediedreiFinanzierungskombinationenundentwickelnSiedarausIhrenVorschlagmiteindeutigenBeträgenundVerwendungszwecken.BegründenSiedieDeckungderFinanzierungslücke,FristenpassungundBedeutungvonEigentum,KaufoptionundBindungen.EntscheidenSieüberKontokorrentbedarfundtatsächlichgeplanteInanspruchnahme.NehmenSiezurStressfestigkeitStellungundbestimmenSiemindestensdreikonkreteMaßnahmenoderBedingungen."
+      },
+      {
+        "id": "2:4:2",
+        "signature": "883a2915",
+        "phase": "entscheiden",
+        "mode": 4,
+        "text": "VerbindlicherCheckpoint1–TragfähigkeitderFinanzierungsentscheidung:LegenSiederLehrkraftIhrenVorschlagmitVergleichundRechnungenvor.ErklärenSie,wiesichanfänglicheFinanzierungundspäterefesteBelastungunterscheiden.ZeigenSiedieFolgendesgeringerenAbsatzesundbegründenSie,welcheRisikenIhreBedingungenbegrenzen.KreditrahmenundtatsächlicheNutzungmüssenunterscheidbarsein.KennzeichnenSieoffeneSchwächenundplanenSiederenBearbeitung;dieAuswahlundbegründeteAnpassungbleibenbeimTeam."
+      },
+      {
+        "id": "2:5:1",
+        "signature": "82deb257",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "EntwickelnSiemindestenszweiplausibleFinanzierungsmixeundprüfenSiesiegegenIhreKriterien."
+      },
+      {
+        "id": "2:5:2",
+        "signature": "e5492824",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "TreffenSieeinebegründeteAuswahlundbenennenSiebewusstGrenzenoderBedingungenderFinanzierung."
+      },
+      {
+        "id": "2:5:3",
+        "signature": "e3e30794",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "SimulierenSiemindestenseineStressfrageundpassenSieIhrKonzeptbeiBedarfan."
+      },
+      {
+        "id": "3:1:1",
+        "signature": "50364c0d",
+        "phase": "durchfuehren",
+        "mode": 1,
+        "text": "SetzenSieIhreEntscheidungineinemeinheitlichenPräsentationssatzumundführenSieeinenhöchstensachtminütigenPitchdurch.AllevierTeammitgliederübernehmeneineerkennbareSprechrolle.RechenwertewerdenmitZeitraum,EinheitundSzenariobezeichnet.NachdemPitchbeantwortetdasTeamfünfMinutenlangFragendesFinanzierungsgremiums.Handlungsergebnis:PitchdeckmitmündlichemFinanzierungspitch"
+      },
+      {
+        "id": "3:2:1",
+        "signature": "db2e5139",
+        "phase": "durchfuehren",
+        "mode": 2,
+        "text": "ErstellenSieeineneinheitlichenPräsentationssatzundprobenSiedieÜbergängezwischenGeschäftsidee,Markt,Kapitalbedarf,Finanzierung,BelastungundRisiken.VisualisierenSieZahlenmitEinheit,ZeitraumundSzenario.FormulierenSieeinenklarenAntragandasGremium.HaltenSiedenPitchinhöchstensachtMinutenundbeantwortenSieanschließendfünfMinutenlangRückfragen.Handlungsergebnis:PitchdeckmitmündlichemFinanzierungspitch"
+      },
+      {
+        "id": "3:2:2",
+        "signature": "be485bda",
+        "phase": "durchfuehren",
+        "mode": 2,
+        "text": "Finanzierungsanalyse,RechnungenundEntscheidungerfolgenohneKI.ErstnachFertigstellungdeseigenenPitchdecksdarfeinfreigegebenesSystemgemäßAbschnitt11kritischeRückfragensimulieren.BeantwortenSiedieseselbstanhandderMaterialien;übernehmenSiekeineerfundenenKonditionen."
+      },
+      {
+        "id": "3:3:1",
+        "signature": "2d680966",
+        "phase": "durchfuehren",
+        "mode": 3,
+        "text": "ErstellenSieeinPitchdeckundführenSiedenPitchdurch.Gestaltung,RollenverteilungundVisualisierungentscheidenSieselbst;alleTeammitgliedermüssenfachlichauskunftsfähigsein.Handlungsergebnis:PitchdeckmitmündlichemFinanzierungspitch"
+      },
+      {
+        "id": "3:4:1",
+        "signature": "0ca4a42d",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "ErstellenSieIhrPitchdeckmitselbstgewähltemAufbauundgeeignetenVisualisierungen.VerbindenSieKundenproblem,Marktbeleg,Kapitalbedarf,gewähltenFinanzierungsmix,Rückzahlungsfähigkeit,StresssichtundAntrag.KennzeichnenSiejedeentscheidungsrelevanteZahlmitEinheit,ZeitraumundSzenario."
+      },
+      {
+        "id": "3:4:2",
+        "signature": "224ff30a",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "VerbindlicherCheckpoint2–PrüffähigerPitchentwurf:ZeigenSiederLehrkraftvorderPräsentationdasfertigeDeck.WeisenSienach,dassFinanzierungsantrag,RechenanlageundFolienaussagenübereinstimmen,festeBelastungenundStressfolgensichtbarsindunddievierSprechrollenindenZeitrahmenpassen.ErläuternSieeinevorbereiteteAntwortaufeinekritischeGremiumsfrage.EntscheidenSieübererforderlicheKorrekturenundsetzenSiediesevordemPitchum."
+      },
+      {
+        "id": "3:4:3",
+        "signature": "773e23ec",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "HaltenSiedenPitchinhöchstensachtMinutenmitviererkennbarenSprechrollen;beantwortenSiedanachfünfMinutenlangdieFragendesGremiums.Handlungsergebnis:PitchdeckmitmündlichemFinanzierungspitch"
+      },
+      {
+        "id": "3:4:4",
+        "signature": "6fa67aee",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "Analyse,BerechnungenundFinanzierungsentscheidungerfolgenKI-frei.ErstnacheigenemfertigemDeckdarfeinfreigegebenesSystemRückfragengemäßAbschnitt11simulieren;fachlicheAntwortenerarbeitenundprüfenSieselbst."
+      },
+      {
+        "id": "3:5:1",
+        "signature": "f531611c",
+        "phase": "durchfuehren",
+        "mode": 5,
+        "text": "ErstellenundhaltenSieeinenprofessionellenPitch.DasTeamwähltAufbauundGestaltungselbst."
+      },
+      {
+        "id": "3:5:2",
+        "signature": "5decfaad",
+        "phase": "durchfuehren",
+        "mode": 5,
+        "text": "AlleentscheidungsrelevantenZahlenmüssenprüfbarsein;jedePersonmussRückfragenzumindestenseinemfremdenTeilbereichbeantwortenkönnen."
+      },
+      {
+        "id": "4:1:1",
+        "signature": "20857f29",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "DasGremiumüberprüftdenVorschlaganhanddesFeedbackbogensinM6:"
+      },
+      {
+        "id": "4:1:2",
+        "signature": "69117a17",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "IstdieFinanzierungslückekorrektundvollständiggeschlossen?"
+      },
+      {
+        "id": "4:1:3",
+        "signature": "3c1ca114",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "SindFinanzierungsformundVerwendungszweckfristenkongruent?"
+      },
+      {
+        "id": "4:1:4",
+        "signature": "e3cf2283",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "SindKostenundmonatlicheBelastungennachvollziehbar?"
+      },
+      {
+        "id": "4:1:5",
+        "signature": "19d254ae",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "WirdderKontokorrentkreditnurfürkurzfristigeSchwankungenvorgesehen?"
+      },
+      {
+        "id": "4:1:6",
+        "signature": "281150fe",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "WerdenEigentums-undVertragsfolgendesLeasingskorrektdargestellt?"
+      },
+      {
+        "id": "4:1:7",
+        "signature": "1941ab35",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "WirddieRückzahlungsfähigkeitmitPlan-undStressszenariobeurteilt?"
+      },
+      {
+        "id": "4:1:8",
+        "signature": "8d80e75e",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "SindRisikenundGegenmaßnahmenkonkret?"
+      },
+      {
+        "id": "4:1:9",
+        "signature": "211171c4",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "PassenMarkt,Team,FinanzierungundKapitalverwendungzusammen?"
+      },
+      {
+        "id": "4:1:10",
+        "signature": "ea2e058c",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "SindVisualisierungensachlichkorrektundlesbar?"
+      },
+      {
+        "id": "4:1:11",
+        "signature": "d7f926d0",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "WerdenRückfragenoffen,knappundfachlichbeantwortet?"
+      },
+      {
+        "id": "4:1:12",
+        "signature": "b0ca00df",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "DasPitchteamerhälteinevorläufigeEntscheidung:„finanzierungsfähig“,„finanzierungsfähigunterBedingungen“oder„nochnichtfinanzierungsfähig“.EsüberarbeitetanschließendhöchstensdreiFolienundseineFinanzierungsempfehlung."
+      },
+      {
+        "id": "4:2:1",
+        "signature": "ebe0572b",
+        "phase": "bewerten",
+        "mode": 2,
+        "text": "DasGremiumprüftmitM6,obdieFinanzierungslückegeschlossenist,ZweckeundFristenzusammenpassen,BelastungennachvollziehbarsindundderKontokorrentfürkurzfristigeSchwankungenvorgesehenist.EskontrolliertLeasingfolgen,Plan-undStresssicht,RisikomaßnahmensowiedieVerbindungvonMarkt,TeamundKapitalverwendung.VisualisierungenundfachlicheAntwortenwerdenebenfallsbewertet."
+      },
+      {
+        "id": "4:2:2",
+        "signature": "2d5fde76",
+        "phase": "bewerten",
+        "mode": 2,
+        "text": "ÜbernehmenSiedievorläufigeEntscheidung„finanzierungsfähig“,„finanzierungsfähigunterBedingungen“oder„nochnichtfinanzierungsfähig“mitihrerBegründung.ÜberarbeitenSieanschließendhöchstensdreiFolienundIhreFinanzierungsempfehlung.HaltenSiefest,welcheRückmeldungzuwelcherÄnderunggeführthat."
+      },
+      {
+        "id": "4:3:1",
+        "signature": "f4b4ddc0",
+        "phase": "bewerten",
+        "mode": 3,
+        "text": "LassenSieeinanderesTeamalsFinanzierungsgremiumprüfen,obFinanzierungslücke,Fristenkongruenz,Kosten,Belastungen,Eigentumsfolgen,Plan-/StressszenarioundRisikenschlüssigsind.ErgänzenSiemindestenseineigenesKriteriumfürdieWirkungdesPitchsundüberarbeitenSiemaximaldreizentralePunkte."
+      },
+      {
+        "id": "4:4:1",
+        "signature": "4dac2ea0",
+        "phase": "bewerten",
+        "mode": 4,
+        "text": "LassenSiedasGremiumFinanzierungslücke,Zweck-undFristenpassung,Kosten,Monatsbelastungen,Kontokorrentnutzung,Eigentums-undVertragsfolgen,Plan-/StresssichtundRisikomaßnahmenprüfen.Markt,TeamundKapitalverwendungmüssenzusammenpassen;auchsachlicheVisualisierungenundfachlicheAntwortenzählen.WertenSiediebegründeteEntscheidung„finanzierungsfähig“,„finanzierungsfähigunterBedingungen“oder„nochnichtfinanzierungsfähig“aus.ÜberarbeitenSiehöchstensdreiFolienundIhreFinanzierungsempfehlungundbegründenSieIhreÄnderungen."
+      },
+      {
+        "id": "4:5:1",
+        "signature": "ac392506",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "OrganisierenSieeinechtesPitch-AuditdurcheinanderesTeam.DiesesdarfRückfragenfreiwählen."
+      },
+      {
+        "id": "4:5:2",
+        "signature": "c7ea4f4c",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "WertenSieFeedbackundeigeneBeobachtungenausundverbessernSiegezieltdiefachlichschwächstenStellen."
+      },
+      {
+        "id": "4:5:3",
+        "signature": "29942060",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "DokumentierenSie,welcheÄnderungIhrenFinanzierungsvorschlagoderdessenBegründungtatsächlichverbesserthat."
+      },
+      {
+        "id": "5:1:1",
+        "signature": "00455b6b",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheFinanzierungsformerschienIhnenzunächstamattraktivsten,undwiehatdieAnalyseIhrUrteilverändert?"
+      },
+      {
+        "id": "5:1:2",
+        "signature": "dcccd5ff",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheRückfragedesGremiumshateineSchwächeIhresKonzeptssichtbargemacht?"
+      },
+      {
+        "id": "5:1:3",
+        "signature": "4e23fb0a",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheInformationwarimPitchunverzichtbar,welchehätteweggelassenwerdenkönnen?"
+      },
+      {
+        "id": "5:1:4",
+        "signature": "d9b4b8c4",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheFolgehättees,wennBioCasaeinekurzfristigeKreditliniedauerhaftzurAnlagenfinanzierungnutzt?"
+      },
+      {
+        "id": "5:1:5",
+        "signature": "9d4d2d44",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WiehabenSiemitUnsicherheitoderKritikwährenddesPitchsumgegangen?"
+      },
+      {
+        "id": "5:2:1",
+        "signature": "340eaf2e",
+        "phase": "reflektieren",
+        "mode": 2,
+        "text": "VergleichenSieIhreanfänglicheFinanzierungspräferenzmitdembegründetenEndurteil.WelcheRückfragezeigteeineSchwäche,welcheInformationwarunverzichtbarundwelcheentbehrlich?ErklärenSiedieFolgeneinerdauerhaftkurzfristigfinanziertenAnlage.BeschreibenSieIhrenUmgangmitUnsicherheitoderKritikundprüfenSie,welcheHilfeSiebeimnächstenFinanzierungsvorschlagbereitsselbstständigersetzenkönnen."
+      },
+      {
+        "id": "5:3:1",
+        "signature": "516a5530",
+        "phase": "reflektieren",
+        "mode": 3,
+        "text": "WelcheFinanzierungsannahmehatsichdurchdieAnalyseverändert?WelcheRückfragehatIhrKonzeptamstärkstengeprüft?WelcheInformationwarfürdieEntscheidungunverzichtbarundwelchePräsentationsentscheidungwürdenSiebeimnächstenPitchanderstreffen?"
+      },
+      {
+        "id": "5:4:1",
+        "signature": "9189d557",
+        "phase": "reflektieren",
+        "mode": 4,
+        "text": "ErläuternSiedieEntwicklungIhresFinanzierungsurteilsunddiefolgenreichsteRückfrage.UnterscheidenSieunverzichtbarevonentbehrlichenPitchinformationenunderklärenSiedieFolgendauerhafterAnlagenfinanzierungüberkurzfristigeKredite.WiereagiertenSieaufUnsicherheitundKritik?ZeigenSieaneinerkonkretenPlanänderung,wieIhrTeamVerantwortungfürdiefachlicheQualitätübernommenhatundwelchePrüfungkünftigohneexternenImpulsgelingenkann."
+      },
+      {
+        "id": "5:5:1",
+        "signature": "edb90ee8",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "WohabenSieIhrenArbeits-oderFinanzierungsplanselbstständigangepasst?"
+      },
+      {
+        "id": "5:5:2",
+        "signature": "8f6eba47",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "WelcheUnsicherheitkonntenSiefachlichreduzierenundwelchebleibtbestehen?"
+      },
+      {
+        "id": "5:5:3",
+        "signature": "76878158",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "WelchepersönlicheStrategiehatIhnengeholfen,unterRückfragensicherzuargumentieren?"
+      }
+    ],
+    "quizSignature": "f3eda786"
+  },
+  "LS05": {
+    "orientationSignature": "300bfa2a",
+    "tasks": [
+      {
+        "id": "0:1:1",
+        "signature": "55da397a",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "IdentifizierenSieinderHandlungssituationundM1daszentraleEntscheidungsproblem.NennenSiedieInformationen,dieBank,LeasinggesellschaftundVermietervorVertragsschlussbenötigen."
+      },
+      {
+        "id": "0:1:2",
+        "signature": "59d6c160",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "ArbeitenSieausM2dieInteressen,Beiträge,HaftungsbereitschaftundgewünschtenEntscheidungsrechtedervierGründerinnenundGründerheraus."
+      },
+      {
+        "id": "0:1:3",
+        "signature": "5089558a",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "AnalysierenSieM3.ErläuternSieanhandvondreiVerpflichtungen,weshalbdieHaftungsfragebeiBioCasawirtschaftlichbedeutsamist."
+      },
+      {
+        "id": "0:1:4",
+        "signature": "f96b3e19",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "ErschließenSieinExpertengruppenjeweilseineRechtsformausM4.StellenSiedar:möglicheEigentümer/Gesellschafter,Mindestkapital,Gründungs-undRegisteranforderungen,Geschäftsführung,Vertretung,Haftung,besondereEignungundRisikenfürBioCasa."
+      },
+      {
+        "id": "0:1:5",
+        "signature": "eee1c654",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "VergleichenSieindenStammgruppenEinzelunternehmen,OHG,KGundGmbHanhandderselbenMerkmale.TrennenSiekonsequent:Geschäftsführung:interneLeitungundEntscheidungszuständigkeit,Vertretung:rechtsgeschäftlichesHandelngegenüberDritten."
+      },
+      {
+        "id": "0:1:6",
+        "signature": "a57f8af2",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "BestimmenSiemithilfevonM3undM4diemöglichenHaftungsfolgenindenfolgendenFällen:BioCasakanneineLieferantenforderungvon180.000Euronichtbezahlen.EinVertragwirdimNameneinergeplantenGmbHvorderenHandelsregistereintragunggeschlossen.EineKommanditistinhatihrevereinbarteEinlagevollständiggeleistet.EinGmbH-GesellschafterübernimmtfreiwilligeinepersönlicheBankbürgschaft."
+      },
+      {
+        "id": "0:1:7",
+        "signature": "5badb81b",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "ÜberprüfenSiedieAussagenimungeprüftenChat-AuszuginM4anhandderGesetzesinformationen.KorrigierenSiejedefalscheoderzupauschaleAussage."
+      },
+      {
+        "id": "0:1:8",
+        "signature": "807f36be",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "AnalysierenSieM6.ArbeitenSiedieSchritteheraus,dievoneinerRechtsformentscheidungbiszueinemwirksamenAuftretenderGesellschafterforderlichsind."
+      },
+      {
+        "id": "0:1:9",
+        "signature": "88f37ddf",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "Zwischensicherung:JedeStammgruppegibteinevollständigausgefüllteRechtsformvergleichstabelleab.JedeAussagezuHaftung,RegisteroderVertretungenthälteineFundstelleausM4."
+      },
+      {
+        "id": "0:2:1",
+        "signature": "dd47ca95",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "AnalysierenSieimArbeitspaket„InteressenundRisiken“M1bisM3.HaltenSiefürjedeGründerpersonGeldbeitrag,fachlichenBeitrag,gewünschteEinflussmöglichkeitenundHaftungsbereitschaftfest.OrdnenSiedreiVerpflichtungenausM3derenwirtschaftlichenRisikenzu.Leitfragen:WelcheAuskunftbrauchtdieBank?WelcheInteressenwidersprechensich?WelcheFolgenkönnteeinevorschnelleUnterschrifthaben?"
+      },
+      {
+        "id": "0:2:2",
+        "signature": "a9f97852",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "VergleichenSieimArbeitspaket„Rechtsformen“Einzelunternehmen,OHG,KGundGmbHanhandvonEigentum/Beteiligung,Mindestkapital,Gründung/Register,Geschäftsführung,VertretungundHaftung.NutzenSieM4undverbindenSiejedesMerkmalmiteinerFolgefürBioCasa.KlärenSiezuvorKaufmannseigenschaftundFirma.AlswählbareLesehilfedient:„Werdarfodermusswastun?UnterwelcherVoraussetzung?MitwelcherRechtsfolge?“"
+      },
+      {
+        "id": "0:2:3",
+        "signature": "74ae8408",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "ÜberprüfenSieimArbeitspaket„Belastungsprobe“mithilfevonM3undM4dieHaftungbeieinerunbezahltenLieferantenforderungüber180.000Euro,einemGmbH-VertragvorRegistereintragung,einerKommanditistinmitvollständiggeleisteterEinlageundeinerpersönlichenBürgschafteinesGmbH-Gesellschafters.KorrigierenSieaußerdemdiefünfChat-AussagenausM4mitBelegen.ErmittelnSieausM6dieSchrittenachderEntscheidung.WählbareHilfe:„Behauptung–Fundstelle–PrüfungamFall–Folgerung“odereinegezielteVerständnisfrageandieLehrkraft."
+      },
+      {
+        "id": "0:2:4",
+        "signature": "dc872575",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "Zwischensicherung:FührenSiedieErgebnisseineinervollständigenRechtsformvergleichstabellezusammen.AussagenzuHaftung,RegisterundVertretungerhaltenFundstellenausM4.JedesGruppenmitgliedmussdenUnterschiedzwischeninternerGeschäftsführungundäußererVertretungamBioCasa-Fallerklärenkönnen."
+      },
+      {
+        "id": "0:3:1",
+        "signature": "c3ad28ab",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "ErschließenSieM1bisM6sowiedasFinanzierungsergebnisausLS4.OrganisierenSiedieRechtsformprüfungimTeamselbst."
+      },
+      {
+        "id": "0:3:2",
+        "signature": "89e1856b",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "StellenSiefürEinzelunternehmen,OHG,KGundGmbHdieselbenVergleichsmerkmalezusammen:Beteiligung,Kapital,Gründung/Register,Geschäftsführung,Vertretung,HaftungsowieEignung/Risiken."
+      },
+      {
+        "id": "0:3:3",
+        "signature": "d40ed3a1",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "PrüfenSiekritischeAussagenkonsequentandenangegebenenGesetzesinformationenundtrennenSieGeschäftsführungvonVertretung."
+      },
+      {
+        "id": "0:3:4",
+        "signature": "8c77491d",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "Meilenstein1:LegenSieeinequellenbelegteVergleichsübersichtunddiewesentlichenGründerinteressenvor."
+      },
+      {
+        "id": "0:4:1",
+        "signature": "0ecf5ac8",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "AnalysierenSie,welcheRechtsform-undBeteiligungsentscheidungdenFinanzierungskonfliktlösenmuss.EntwickelnSieausM1bisM3IhreeigenenUntersuchungsfragen:Finanzierungsvoraussetzungen,ungleicheGeld-undFachbeiträge,Haftungsbereitschaft,EntscheidungsrechteundhohelangfristigeVerpflichtungenmüssenerfasstwerden.BestimmenSie,welcheFragenSiezunächstalleinklärenundwelcheunterschiedlicheGründerperspektivenbenötigen."
+      },
+      {
+        "id": "0:4:2",
+        "signature": "75601dea",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "ErarbeitenSiemitM4einenvollständigenVergleichvonEinzelunternehmen,OHG,KGundGmbH.DerNachweisumfasstBeteiligung,Mindestkapital,Gründung/Register,Geschäftsführung,VertretungsowieHaftungundkonkreteChancen/RisikenfürBioCasa.OrdnenSiedabeiFirmaundKaufmannseigenschaftein.PrüfenSieanhandvonM3/M4dieHaftungbeiunbezahlterLieferantenforderungüber180.000Euro,GmbH-VertragvorRegistereintragung,vollständiggeleisteterKommanditisteneinlageundpersönlicherBürgschafteinesGmbH-Gesellschafters.KorrigierenSiedenungeprüftenChatinM4anhandderQuellenundbeziehenSiedieGründungsschritteausM6ein."
+      },
+      {
+        "id": "0:4:3",
+        "signature": "5bf516ed",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "FührenSieeineVergleichstabellemitFundstellen;haltenSiebelegteBefundeundverbleibendeUnsicherheitenauseinander.SiewählendieReihenfolgederMaterialarbeit,müssenaberallePflichtfragenerschließen.GesetzeserschließungundRechtsformentscheidungerfolgenentsprechendAbschnitt11ohneKI."
+      },
+      {
+        "id": "0:5:1",
+        "signature": "027cb841",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "StartenSieKI-freimitdenGründerinteressenunddenwirtschaftlichenRisikenausM1bisM3."
+      },
+      {
+        "id": "0:5:2",
+        "signature": "535ec3ec",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "ErschließenSieM4bisM6selbstorganisiert.JedeAussagezuHaftung,Register,GeschäftsführungoderVertretungmussaufeinebelastbareQuellezurückgeführtwerden."
+      },
+      {
+        "id": "0:5:3",
+        "signature": "513ed12f",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "Pflichtvergleich:Einzelunternehmen,OHG,KGundGmbH."
+      },
+      {
+        "id": "0:5:4",
+        "signature": "a95595b0",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "CheckpointA:DasTeamkannfürjedeRechtsformChancen,GrenzenundHaftungsfolgenimBioCasa-FallerläuternundGeschäftsführungklarvonVertretungunterscheiden."
+      },
+      {
+        "id": "1:1:1",
+        "signature": "258bff52",
+        "phase": "planen",
+        "mode": 1,
+        "text": "PrüfenSiedieEntscheidungskriterienundGewichteinM5.BegründenSie,obdieGewichtungzurBioCasa-Situationpasst.ÄnderungensindnurmiteinstimmigerBegründungmöglich;dieSummemuss100Prozentergeben."
+      },
+      {
+        "id": "1:1:2",
+        "signature": "ffb0b233",
+        "phase": "planen",
+        "mode": 1,
+        "text": "ErstellenSieeinenAblauffürdieRechtsformentscheidung:AusschlusszwingendungeeigneterVarianten,BewertungderverbleibendenVarianten,SensitivitätsprüfungundGestaltungderBeteiligungs-undEntscheidungsregeln."
+      },
+      {
+        "id": "1:1:3",
+        "signature": "39648723",
+        "phase": "planen",
+        "mode": 1,
+        "text": "BestimmenSiezweiGrenzbedingungen,dieeineRechtsformunabhängigvonihrerGesamtpunktzahlerfüllenmuss.Beispiele:allevierkönnenbeteiligtsein;persönlicheHaftungfürdielangfristigenGroßverpflichtungenwirdvermieden."
+      },
+      {
+        "id": "1:1:4",
+        "signature": "5b8e29e4",
+        "phase": "planen",
+        "mode": 1,
+        "text": "EntwickelnSieselbstständigmindestenszweiModellefürBeteiligungundLeitung.BerücksichtigenSieGeldbeiträge,fachlicheBeiträge,operativeVerantwortungundSchutzvorAlleinentscheidungenbeiaußergewöhnlichenGeschäften."
+      },
+      {
+        "id": "1:2:1",
+        "signature": "2ea6c761",
+        "phase": "planen",
+        "mode": 2,
+        "text": "ErstellenSieeinenEntscheidungsablaufmitdenvorgegebenenSchrittenGrenzbedingungen,Bewertung,SensitivitätsprüfungundAusgestaltung.VerteilenSieModeration,BerechnungundRechtsprüfung;legenSiefest,wieGegenargumenteausdenGründerrollenberücksichtigtwerden."
+      },
+      {
+        "id": "1:2:2",
+        "signature": "3cb398de",
+        "phase": "planen",
+        "mode": 2,
+        "text": "PrüfenSieKriterienundGewichteausM5.ÜbernehmenSiediesebegründetoderändernSiesieeinstimmigmitgemeinsamerBegründung;dieSummebleibt100Prozent.BestimmenSiemindestenszweifachlichbegründeteGrenzbedingungen,dienichtdurchhohePunkteinanderenKriterienausgeglichenwerdendürfen."
+      },
+      {
+        "id": "1:2:3",
+        "signature": "f10df57e",
+        "phase": "planen",
+        "mode": 2,
+        "text": "EntwickelnSiemindestenszweiBeteiligungs-undLeitungsmodelle.AlswählbareStrukturhilfenutzenSie„Kapitalbeitrag–fachlicheVerantwortung–Beteiligung–operativeZuständigkeit–MitsprachebeiaußergewöhnlichenGeschäften“.DieFelderstrukturierenIhreÜberlegungen;dieAusgestaltungentscheidenSieselbst."
+      },
+      {
+        "id": "1:3:1",
+        "signature": "f600a490",
+        "phase": "planen",
+        "mode": 3,
+        "text": "EntwickelnSieeineneigenenEntscheidungsprozessmitKriterien,GewichtungundmindestenszweiGrenzbedingungen."
+      },
+      {
+        "id": "1:3:2",
+        "signature": "708dd2af",
+        "phase": "planen",
+        "mode": 3,
+        "text": "LegenSiefest,wieSieSensitivitätprüfenundwieBeteiligung,LeitungundZustimmungsvorbehaltegestaltetwerdensollen."
+      },
+      {
+        "id": "1:3:3",
+        "signature": "42314707",
+        "phase": "planen",
+        "mode": 3,
+        "text": "VerteilenSieRollenundRechtschecksselbst;jedezentraleRechtsaussagemusseineFundstellebesitzen."
+      },
+      {
+        "id": "1:4:1",
+        "signature": "0fa63777",
+        "phase": "planen",
+        "mode": 4,
+        "text": "EntwickelnSieeineneigenenArbeitsplanbiszurfertigenBeschlussvorlage.BestimmenSieArbeitsschritte,interneZeitanteile,Zuständigkeiten,notwendigeAbstimmungenundgeeigneteverfügbareLernortefürQuellenprüfung,GründerverhandlungundSchreiben.PlanenSieausreichendZeitfürdiebeidenuntenbeschriebenenCheckpointsundeineÜberarbeitungein.LegenSiefest,wannSiebeieinerungeklärtenRechtsfrageselbstHilfeanfordern."
+      },
+      {
+        "id": "1:4:2",
+        "signature": "34c98302",
+        "phase": "planen",
+        "mode": 4,
+        "text": "PlanenSiedieEntscheidungfachlich:PrüfenSieM5,begründenSieKriterienundGewichtemitdenInteressenausM2unddenRisikenausM3undlegenSiemindestenszweiGrenzbedingungenfest.DieGewichteergeben100Prozent.PlanenSiedieSensitivitätsprüfungausM5:HaftungsschutzminuszehnProzentpunkte,FormalaufwandpluszehnProzentpunkte;dieSummebleibt100Prozent.EntwickelnSiemindestenszweiAlternativenfürBeteiligung,Geschäftsführung,VertretungundZustimmungsvorbehalte.ÜberlegenSie,welcheModellteileSieselbstbeurteilenkönnenundwelchealsBeratungsauftragoffenbleiben."
+      },
+      {
+        "id": "1:5:1",
+        "signature": "ab8ab56d",
+        "phase": "planen",
+        "mode": 5,
+        "text": "EntwickelnSieIhreeigeneEntscheidungsmethode:Kriterien,Gewichte,Ausschluss-/Grenzbedingungen,SensitivitätsprüfungundRegelnfürBeteiligung/Leitung."
+      },
+      {
+        "id": "1:5:2",
+        "signature": "2c620d20",
+        "phase": "planen",
+        "mode": 5,
+        "text": "LegenSiefest,wieSierechtlicheUnsicherheitenmarkierenundwelcheFragenspäterprofessionellgeprüftwerdenmüssen."
+      },
+      {
+        "id": "1:5:3",
+        "signature": "3cee9e7a",
+        "phase": "planen",
+        "mode": 5,
+        "text": "AbhierdarfderfreigegebeneKI-AssistentalsGegenprüferfürArgumentationslückendienen;Gesetzes-undQuellenprüfungbleibtzwingendbeimTeam."
+      },
+      {
+        "id": "1:5:4",
+        "signature": "05a1820d",
+        "phase": "planen",
+        "mode": 5,
+        "text": "CheckpointB:IhreEntscheidungsmethodeisttransparentundvoneinemanderenTeamnachvollziehbar."
+      },
+      {
+        "id": "2:1:1",
+        "signature": "9acb7f47",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BeurteilenSiedievierRechtsformenmithilfedergewichtetenMatrixausM5."
+      },
+      {
+        "id": "2:1:2",
+        "signature": "3c88460b",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "ÜberprüfenSieIhrErgebnisdurcheineSensitivitätsfrage:BleibtdieRangfolgebestehen,wenndasKriterium„Haftungsschutz“oder„geringerFormalaufwand“umzehnProzentpunkteandersgewichtetwird?"
+      },
+      {
+        "id": "2:1:3",
+        "signature": "fbfd0144",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BeurteilenSiedieRechtsformenabschließendundbegründenSieIhreEmpfehlung.EinehohePunktzahlalleingenügtnicht;GrenzbedingungenundkonkreteRechtsfolgenmüssenberücksichtigtwerden."
+      },
+      {
+        "id": "2:1:4",
+        "signature": "614c5525",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "EntwickelnSieselbstständigfürdieempfohleneFormeinekonkreteAusgestaltungzu:Beteiligungbzw.RollendervierPersonen,Geschäftsführung,Vertretungnachaußen,ZustimmungsvorbehaltefüraußergewöhnlicheGeschäfte,nächstenformalenSchrittundverantwortlichePerson."
+      },
+      {
+        "id": "2:1:5",
+        "signature": "185826b2",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BegründenSie,wieIhrModelldenKonfliktzwischenChristiansKapitalbeitragunddenfachlichenBeiträgenderdreianderenPersonenbearbeitet."
+      },
+      {
+        "id": "2:2:1",
+        "signature": "3857ecf0",
+        "phase": "entscheiden",
+        "mode": 2,
+        "text": "BeurteilenSieallevierPflichtrechtsformenanhandIhrerGrenzbedingungenunddergewichtetenMatrix.BegründenSieBewertungenjeweilsmitRechtsmerkmalundFallbezug.FührenSiedieSensitivitätsprüfungausM5durchunderklärenSie,wasdasErgebnisfürdieBelastbarkeitIhrerEmpfehlungbedeutet."
+      },
+      {
+        "id": "2:2:2",
+        "signature": "4ea87720",
+        "phase": "entscheiden",
+        "mode": 2,
+        "text": "EntscheidenSiesichbegründetfüreineRechtsformundeinesIhrerGestaltungsmodelle.LegenSieBeteiligungbeziehungsweiseRollen,gegebenenfallsStammkapital,Geschäftsführung,VertretungundZustimmungsvorbehaltefest.ErläuternSie,wieChristiansKapitalbeitragunddiefachlichenBeiträgederanderenberücksichtigtwerden."
+      },
+      {
+        "id": "2:2:3",
+        "signature": "ff549b48",
+        "phase": "entscheiden",
+        "mode": 2,
+        "text": "BestimmenSiedennächstenformalenSchritt,dieverantwortlichePersonundeinenzurFristausM1passendenTermin.MarkierenSieoffeneFragenfürNotariatsowieRechts-undSteuerberatung.FallsdieMatrixundIhreEmpfehlungauseinanderfallen,erklärenSiedenausschlaggebendensachlichenGrund."
+      },
+      {
+        "id": "2:3:1",
+        "signature": "5315cdf7",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "BeurteilenSiedievierRechtsformenanhandIhrerKriterienundGrenzbedingungen."
+      },
+      {
+        "id": "2:3:2",
+        "signature": "78dfd4c5",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "ÜberprüfenSiedieRobustheitdesErgebnissesdurcheineveränderteGewichtungodereinalternativesSzenario."
+      },
+      {
+        "id": "2:3:3",
+        "signature": "5070372e",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "TreffenSieeinebegründeteRechtsformentscheidungundentwickelnSieeinekonkreteAusgestaltungzuBeteiligung,Geschäftsführung,VertretungundZustimmungsvorbehalten."
+      },
+      {
+        "id": "2:3:4",
+        "signature": "043b4aeb",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "BegründenSie,wiederKonfliktzwischenKapitalbeitragundfachlichenBeiträgengelöstwird."
+      },
+      {
+        "id": "2:4:1",
+        "signature": "d25547bf",
+        "phase": "entscheiden",
+        "mode": 4,
+        "text": "BeurteilenSiedievierRechtsformen,wendenSieGrenzbedingungenundgewichteteMatrixanundprüfenSiedieRobustheitbeiverändertenGewichten.EntscheidenSiesichfüreinebegründeteEmpfehlung;erläuternSiemindestenseineverworfeneAlternative.GestaltenSieBeteiligungbeziehungsweiseRollen,gegebenenfallsStammkapital,Geschäftsführung,VertretungundZustimmungsvorbehalteso,dassdieunterschiedlichenGründerinteressennachvollziehbarberücksichtigtwerden.LegenSiedennächstenformalenSchrittmitZuständigkeitundTerminfest."
+      },
+      {
+        "id": "2:4:2",
+        "signature": "bc813c1a",
+        "phase": "entscheiden",
+        "mode": 4,
+        "text": "VerbindlicherCheckpoint1–tragfähigeRechtsformentscheidung:StellenSiederLehrkraftIhrequellenbelegteVergleichstabelle,Grenzbedingungen,MatrixmitSensitivitätsprüfungundbegründeteEmpfehlungvor.ErläuternSieamgewähltenModell,werinternentscheidenundwernachaußenhandelnsoll,welcheHaftungsrisikenverbleibenundwiederKonfliktzwischenKapitalundExpertisebearbeitetwird.DokumentierenSiefachlichungeklärtePunkteundbearbeitenSiekritischeEinwändevorderweiterenAusarbeitung;diebegründeteAuswahltreffenSieselbst."
+      },
+      {
+        "id": "2:5:1",
+        "signature": "d8439075",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "FührenSiedieEntscheidungeigenständigdurchundtestenSie,obsiebeiverändertenGewichtenoderRahmenbedingungenstabilbleibt."
+      },
+      {
+        "id": "2:5:2",
+        "signature": "ab5ac7f1",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "EntwickelnSiefürdiegewählteRechtsformeinekonkrete,abernichtrechtsberatendeAusgestaltungvonBeteiligung,Geschäftsführung,VertretungundZustimmungsvorbehalten."
+      },
+      {
+        "id": "2:5:3",
+        "signature": "3d7e1cae",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "DokumentierenSiemindestenseineverworfeneAlternativeunddenausschlaggebendenGrund."
+      },
+      {
+        "id": "3:1:1",
+        "signature": "428ccfb0",
+        "phase": "durchfuehren",
+        "mode": 1,
+        "text": "SetzenSiedieEntscheidungineinerfachlichbelegtenUnterlagefürdasnächsteGründermeeting,dieBankunddasvorbereitendeNotariatsgesprächum.DieUnterlagemussdiegeprüftenAlternativen,Entscheidungskriterien,konkreteEmpfehlung,geplanteLeitungs-undVertretungsregeln,RisikensowiedieunmittelbarfolgendenGründungsschritteenthalten.SieersetztkeinenGesellschaftsvertrag.Handlungsergebnis:BeschlussvorlagezurRechtsform"
+      },
+      {
+        "id": "3:2:1",
+        "signature": "911c438f",
+        "phase": "durchfuehren",
+        "mode": 2,
+        "text": "ErstellenSiedieBeschlussvorlagefürGründermeeting,BankundvorbereitendesNotariatsgespräch.NutzenSiealsverbindlicheInhaltsgliederung:Ausgangskonflikt;viergeprüfteAlternativen;KriterienundGrenzbedingungen;BewertungeinschließlichSensitivität;begründeteEmpfehlung;Beteiligungs-,Leitungs-undVertretungsregeln;verbleibendeRisiken;GründungsschrittemitZuständigkeitenundTerminen.DieDarstellunginnerhalbdieserTeilegestaltenSieselbst."
+      },
+      {
+        "id": "3:2:2",
+        "signature": "0a69a703",
+        "phase": "durchfuehren",
+        "mode": 2,
+        "text": "FügenSieVergleichundQuellenbelegesoein,dassdieAdressatenIhreEntscheidungnachvollziehenkönnen.TrennenSiebeschlussfähigeVorschlägevonoffenenBeratungsaufträgen;verfassenSiekeinenvermeintlichfertigenGesellschaftsvertrag.DieKI-RegelungausAbschnitt11bleibtmaßgeblich.Handlungsergebnis:BeschlussvorlagezurRechtsform"
+      },
+      {
+        "id": "3:3:1",
+        "signature": "64f737ba",
+        "phase": "durchfuehren",
+        "mode": 3,
+        "text": "ErstellenSieeinefachlichbelegteBeschlussvorlagefürGründermeeting,BankundvorbereitendesNotariatsgespräch.AufbauundDarstellungsformwählenSieselbst;dieUnterlagedarfkeinenGesellschaftsvertragvortäuschen.Handlungsergebnis:BeschlussvorlagezurRechtsform"
+      },
+      {
+        "id": "3:4:1",
+        "signature": "1890620d",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "ErstellenSieeineadressatengerechteBeschlussvorlagefürGründermeeting,BankundNotariatsvorbereitung.WählenSieAufbauundDarstellungsformselbst.ErkennbarseinmüssengeprüfteAlternativen,Kriterien,Grenzbedingungen,Bewertung,Sensitivität,Empfehlung,Beteiligungs-undLeitungsmodell,Vertretung,Zustimmungsvorbehalte,verbleibendeRisikenundkonkreteGründungsschritte.MachenSieQuellenundBeratungsaufträgeauffindbar.DieVorlagedientderEntscheidungsvorbereitungundersetztkeinenGesellschaftsvertrag."
+      },
+      {
+        "id": "3:4:2",
+        "signature": "e4fc885e",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "VerbindlicherCheckpoint2–entscheidungsfähigerEntwurf:LegenSiedenvollständigenEntwurfderLehrkraftvor.ZeigenSie,wodieBankfragenausM1beantwortet,dieVerpflichtungenausM3berücksichtigt,Register-undHaftungsfragenbelegtunddienächstenSchritteausM6terminiertsind.PrüfenSieinsbesondere,obIhreLeitungs-undVertretungsregelnzusammenpassenundkeineoffeneBeratungsfragealsbereitsrechtlichgesicherteRegelerscheint.HaltenSieerforderlicheKorrekturenfestundarbeitenSiediesevordemabschließendenRechtscheckein.Handlungsergebnis:BeschlussvorlagezurRechtsform"
+      },
+      {
+        "id": "3:5:1",
+        "signature": "60d13a73",
+        "phase": "durchfuehren",
+        "mode": 5,
+        "text": "ErstellenSiedieBeschlussvorlageineinemselbstgewähltenprofessionellenFormat."
+      },
+      {
+        "id": "3:5:2",
+        "signature": "8884a464",
+        "phase": "durchfuehren",
+        "mode": 5,
+        "text": "SiemussdiegeprüftenAlternativen,Kriterien,Entscheidung,Leitungs-/Vertretungsregeln,Risiken,offenePrüfaufträgeundnächstenGründungsschritteenthalten."
+      },
+      {
+        "id": "4:1:1",
+        "signature": "5e85405b",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "ÜberprüfenSiedieBeschlussvorlageanhandfolgenderFragen:"
+      },
+      {
+        "id": "4:1:2",
+        "signature": "deb9d6d7",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "SindallevierPflichtrechtsformenkorrektverglichen?"
+      },
+      {
+        "id": "4:1:3",
+        "signature": "cd88ec16",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "WerdenGeschäftsführungundVertretungunterschieden?"
+      },
+      {
+        "id": "4:1:4",
+        "signature": "ed1631f6",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "StimmenAussagenzuMindestkapital,RegisterundHaftungmitM4überein?"
+      },
+      {
+        "id": "4:1:5",
+        "signature": "eca55af6",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "WirdbeschränkteHaftungnichtalsvollständigerSchutzinjederSituationdargestellt?"
+      },
+      {
+        "id": "4:1:6",
+        "signature": "c16ada46",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "PassenBeteiligung,LeitungundZustimmungsvorbehaltezudenGründerinteressen?"
+      },
+      {
+        "id": "4:1:7",
+        "signature": "66342821",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "SindungewöhnlichhoheVerpflichtungenausM3berücksichtigt?"
+      },
+      {
+        "id": "4:1:8",
+        "signature": "11dd17e8",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "WirddieRechtsformnachvollziehbarausKriterienstattauseinemEinzelmerkmalabgeleitet?"
+      },
+      {
+        "id": "4:1:9",
+        "signature": "73277501",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "IstdernächsteGründungsschrittkorrektundterminiert?"
+      },
+      {
+        "id": "4:1:10",
+        "signature": "5ed0957f",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "BleibenPunkte,dieNotariat,Rechts-oderSteuerberatungerfordern,alsPrüfauftraggekennzeichnet?"
+      },
+      {
+        "id": "4:1:11",
+        "signature": "d653b034",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "DokumentierenSiejedeKorrekturmitFundstelle.DieErstellergruppeüberarbeitetihreBeschlussvorlagevorderabschließendenAbstimmung."
+      },
+      {
+        "id": "4:2:1",
+        "signature": "ad6d968c",
+        "phase": "bewerten",
+        "mode": 2,
+        "text": "ÜberprüfenSiedenvollständigenRechtsformvergleich,Kapital-undRegisterangaben,HaftungsfällesowiedieklareTrennungvonGeschäftsführungundVertretung.PrüfenSieanschließend,obBeteiligungundZustimmungsvorbehaltedieGründerinteressenberücksichtigen,hoheVerpflichtungeneinbezogenundnächsteSchritteterminiertsind.Beratungsbedarfmusssichtbarbleiben.DokumentierenSieKorrekturennach„FundstelleinderVorlage–fachlicherEinwand–Quellenbeleg–Änderung“.ÜberarbeitenSiedieVorlagevorderabschließendenAbstimmung."
+      },
+      {
+        "id": "4:3:1",
+        "signature": "54c422bc",
+        "phase": "bewerten",
+        "mode": 3,
+        "text": "EinanderesTeamführteinenRechtscheckdurch.PrüfenSieVollständigkeitdesVergleichs,Haftung,Register,Geschäftsführung/Vertretung,Beteiligung,GroßverpflichtungenundnächsteSchritte.ErgänzenSieeineigenesPrüfmerkmalunddokumentierenSiejedefachlicheKorrekturmitFundstelle."
+      },
+      {
+        "id": "4:4:1",
+        "signature": "171b36fc",
+        "phase": "bewerten",
+        "mode": 4,
+        "text": "OrganisierenSiedieunabhängigePrüfungIhrerVorlage.DasandereTeamprüftallevierRechtsformen,Kapital/Register/Haftung,TrennungvonGeschäftsführungundVertretung,Gründerinteressen,Großverpflichtungen,HerleitungderEmpfehlungundnächsteSchritte.FordernSiezujedemfachlichenEinwandeineFundstellean.EntscheidenSieüberKorrekturenaufQuellenbasis,kennzeichnenSieverbleibendenBeratungsbedarfunddokumentierenSiedieÄnderungenvorderabschließendenAbstimmung.EinoptionalersprachlicherKI-GegencheckbleibtaufdeninAbschnitt11beschriebenenUmfangbegrenzt."
+      },
+      {
+        "id": "4:5:1",
+        "signature": "839a4d7d",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "OrganisierenSieeinenQuellen-undPlausibilitätsauditdurcheinanderesLernteam."
+      },
+      {
+        "id": "4:5:2",
+        "signature": "299eb6e5",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "KorrigierenSiejederechtlichkritischeAussagemitFundstelle;strittigeoderberatungsbedürftigePunktewerdenausdrücklichalsoffenePrüfaufträgegekennzeichnet."
+      },
+      {
+        "id": "4:5:3",
+        "signature": "fa2a7f64",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "HaltenSiefest,welcheÄnderungIhreEntscheidungrobustergemachthat."
+      },
+      {
+        "id": "5:1:1",
+        "signature": "2bbf67ee",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelchesRechtsformmerkmalhattedengrößtenEinflussaufIhrUrteil?"
+      },
+      {
+        "id": "5:1:2",
+        "signature": "6aace160",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelchepersönlicheGründerpositionkonntenSiefachlichnachvollziehen,obwohlSiesienichtteilen?"
+      },
+      {
+        "id": "5:1:3",
+        "signature": "8af2f98b",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "Warumist„beschränkteHaftung“keineGarantie,niemalspersönlichinAnspruchgenommenzuwerden?"
+      },
+      {
+        "id": "5:1:4",
+        "signature": "71914008",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheEntscheidunggehörtindieBeschlussvorlageundwelchezwingendineinspäteresNotariats-/Beratungsgespräch?"
+      },
+      {
+        "id": "5:1:5",
+        "signature": "0949198f",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WiewürdenSieIhreEntscheidungverändern,wennBioCasanur30.000Eurostatt362.500EuroEigenmittelhätte?"
+      },
+      {
+        "id": "5:2:1",
+        "signature": "08a94318",
+        "phase": "reflektieren",
+        "mode": 2,
+        "text": "BegründenSie,welchesRechtsformmerkmalIhrUrteilamstärkstenbeeinflussthat.ErläuternSieeineGründerposition,dieSiefachlichnachvollziehenkönnen,obwohlSiesienichtteilen,undeineGrenzebeschränkterHaftung.UnterscheidenSieIhreeigeneEntscheidungvoneinemnotwendigenBeratungsauftrag.PrüfenSiegedanklichdieVeränderungauf30.000EuroEigenmittel.HaltenSieaußerdemfest,welchegewählteHilfeSiekünftignochbenötigenundwelchenPrüfungsschrittSiebereitsselbstständigbewältigen."
+      },
+      {
+        "id": "5:3:1",
+        "signature": "a768c49c",
+        "phase": "reflektieren",
+        "mode": 3,
+        "text": "WelchesRechtsformmerkmalwarentscheidend?WohatdieQuellenprüfungeineersteAnnahmekorrigiert?WelcheEntscheidungkonntenSieimTeamselbsttreffenundwelcherPunktmussbewusstanNotariatbzw.Beratungübergebenwerden?"
+      },
+      {
+        "id": "5:4:1",
+        "signature": "dfdfb363",
+        "phase": "reflektieren",
+        "mode": 4,
+        "text": "ErläuternSiedasfürIhrUrteilentscheidendeRechtsformmerkmal,einenachvollziehbareGegenpositionausdemGründerteamunddieGrenzenbeschränkterHaftung.PrüfenSie,welcheÜberlegungbeinur30.000EuroEigenmittelnneuanzusetzenwäre.UnterscheidenSieIhreEntscheidungskompetenzvomnotwendigenBeratungsbedarf.WertenSieaußerdemaus,obMaterialauswahl,ZeitverteilungundZusammenarbeitIhreQuellenprüfungunterstützthabenundwelchekonkretePlanänderungnacheinerRückmeldungsinnvollwar."
+      },
+      {
+        "id": "5:5:1",
+        "signature": "d091a86d",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "WomusstenSiezwischenwirtschaftlicherZweckmäßigkeitundrechtlicherAbsicherungabwägen?"
+      },
+      {
+        "id": "5:5:2",
+        "signature": "6fc7ca0a",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "WelcheselbstorganisierteArbeitsweisewarfürdieRechtsprüfungbesondershilfreich?"
+      },
+      {
+        "id": "5:5:3",
+        "signature": "991c25dc",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "WaskönnenSiefachlichsicherselbstbeurteilenundwoerkennenSiebewusstdieGrenzeschulischerFallbearbeitung?"
+      }
+    ],
+    "quizSignature": "80f499f2"
+  },
+  "LS06": {
+    "orientationSignature": "3dfc4c61",
+    "tasks": [
+      {
+        "id": "0:1:1",
+        "signature": "cdeaae23",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "OrdnenSiedieDokumenteinM1chronologischundstellenSiefürjedesDokumentAbsender,Empfänger,Datum,ErklärungsinhaltundrechtlicheFunktiondar."
+      },
+      {
+        "id": "0:1:2",
+        "signature": "e9526329",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "ÜberprüfenSiemithilfevonM4,wanneinKaufvertragzustandegekommenist.BegründenSie,weshalbdieBestellungunddieAuftragsbestätigungjeweilsnichtohneWeiteresalsbloßeAnnahmedervorherigenErklärunggelten."
+      },
+      {
+        "id": "0:1:3",
+        "signature": "68042680",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "ArbeitenSiedenendgültigenVertragsinhaltheraus:Vertragsparteien,Produkte,Menge,Preis,Lieferort,Liefertermin,QualitätsanforderungenundZahlungsbedingung."
+      },
+      {
+        "id": "0:1:4",
+        "signature": "51948ba7",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "ÜberprüfenSiedieWirksamkeitdesVertrags.BerücksichtigenSieGeschäftsfähigkeitbzw.Rechtsfähigkeit,Vertretungsbefugnis,ÜbereinstimmungderErklärungen,möglicheFormanforderungenundrechtlichzulässigenInhalt."
+      },
+      {
+        "id": "0:1:5",
+        "signature": "78665097",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "StellenSiedieHauptpflichtenvonBioCasaundKüstengrünausdemKaufvertragdarunderläuternSiediewirtschaftlichenFolgenfürbeideSeiten."
+      },
+      {
+        "id": "0:1:6",
+        "signature": "82c71f63",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "VergleichenSiedievierZahlungsmöglichkeitenausM2hinsichtlichZeitpunkt,Liquiditätswirkung,Ausfallrisiko,Kosten,SteuerbarkeitundKundenakzeptanz.BerechnenSiedieunmittelbarenKostenjederOptionfüreinenFolgeauftragüber52.200Euronetto."
+      },
+      {
+        "id": "0:1:7",
+        "signature": "759dba6c",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "AnalysierenSiedieLiefer-undReklamationsunterlageninM3undM5.BestimmenSieArtundUmfangderAbweichungensowiedenNetto-Warenwertder360betroffenenEinheiten."
+      },
+      {
+        "id": "0:1:8",
+        "signature": "ce6225a4",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "ÜberprüfenSiemitM4,obKüstengründieWarerechtzeitiguntersuchtunddieMängelrechtzeitigangezeigthat.ArbeitenSiediegrundsätzlichmöglichenKäuferrechteunddievorrangigzuprüfendeNacherfüllungheraus."
+      },
+      {
+        "id": "0:1:9",
+        "signature": "5fa91ca2",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "AnalysierenSiedieinterneUrsachen-undBestandsnotizM5.BeurteilenSie,welcheReaktionrechtlichmöglich,wirtschaftlichvertretbarundfürdieKundenbeziehunggeeignetist.TrennenSiebestätigteSachverhalte,offeneFragenundnichtbelegteZusatzforderungen."
+      },
+      {
+        "id": "0:1:10",
+        "signature": "d083414f",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "VergleichenSiediedreiBeschäftigungsoptionenausM6nachverfügbarerArbeitszeit,Kostenim13-Wochen-Zeitraum,KostenjeverfügbarerStunde,Einarbeitung,Flexibilität,QualitätswirkungundlangfristigerBindung."
+      },
+      {
+        "id": "0:1:11",
+        "signature": "38838e2d",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "ÜberprüfenSiedenArbeitsvertragsentwurfinM6mithilfederQuellenhinweise.ErläuternSie,welcheBedeutungSchriftformderBefristung,Vertragsdauer,Tätigkeit,Arbeitszeit,Vergütung,UrlaubundBeendigunghaben."
+      },
+      {
+        "id": "0:1:12",
+        "signature": "67beb1d6",
+        "phase": "informieren",
+        "mode": 1,
+        "text": "Zwischensicherung:JedeExpertengruppeerstellteinePrüfnotizmitdreiSpalten:gesicherterBefund–rechtliche/wirtschaftlicheBedeutung–FolgerungfürBioCasa.AussagenohneMaterial-oderGesetzesbezugwerdennichtindieStammgruppenübernommen."
+      },
+      {
+        "id": "0:2:1",
+        "signature": "fa11b51f",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "AnalysierenSieimPaket„Vertrag“M1mitM4.ErstellenSieeineChronologiezuAbsender,Empfänger,Datum/Zugang,InhaltundrechtlicherFunktionjederErklärung.PrüfenSieZustandekommen,endgültigenInhalt,WirksamkeitundHauptpflichten.DieAngabenzuParteien,Produkten,Menge,Preis,Ort,Termin,QualitätundZahlungmüsseneindeutigsein.WählbareHilfe:MarkierenSieÄnderungenvonLieferterminundZahlungszielundfragenSie:„WelcheErklärungwirdhierangenommenoderverändert?“"
+      },
+      {
+        "id": "0:2:2",
+        "signature": "4b859db9",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "VergleichenSieimPaket„Zahlung“allevierOptionenausM2.BerechnenSiederenunmittelbareKostenbei52.200Euronetto.BerücksichtigenSieZeitpunkt,LiquiditätbeiderUnternehmen,Ausfallrisiko,SteuerbarkeitundKundenakzeptanz.AlsRechenhilfekönnenSieproOption„Bezugsbetrag–Prozentsatz–festeKosten–Gesamtkosten“notieren."
+      },
+      {
+        "id": "0:2:3",
+        "signature": "15451895",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "UntersuchenSieimPaket„Reklamation“M3bisM5.ErmittelnSieArt,UmfangundNetto-WarenwertderAbweichungen,prüfenSieUntersuchung/RügeundKäuferrechteeinschließlichNacherfüllung.TrennenSiebestätigteUrsachen,verfügbareLösungsmöglichkeitenundoffeneZusatzforderungen.Leitfrage:WelcheAussagekönnenSiebereitsbelegenundwelcheerfordertweiterePrüfung?"
+      },
+      {
+        "id": "0:2:4",
+        "signature": "23b99464",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "VergleichenSieimPaket„Personal“alledreiOptionenausM6nachStunden,Kostenüber13Wochen,KostenjeverfügbarerStunde,Einarbeitung,Flexibilität,QualitätundlangfristigerBindung.PrüfenSiedenVertragsentwurfmitdenQuellenhinweisen,insbesondereBefristung/Schriftform,Dauer,Tätigkeit,Arbeitszeit,Vergütung,UrlaubundBeendigung.BeiUnklarheitenwählenSieeineeigeneVergleichstabelleodereinegezieltefachlicheRückfrage."
+      },
+      {
+        "id": "0:2:5",
+        "signature": "f79f9d7a",
+        "phase": "informieren",
+        "mode": 2,
+        "text": "Zwischensicherung:JedeExpertiseübergibteinePrüfnotiz„gesicherterBefund–rechtliche/wirtschaftlicheBedeutung–FolgerungfürBioCasa“.BelegenSieRechtsaussagenundmachenSieRechenwegenachvollziehbar.KlärenSieWidersprüchevorderÜbernahmeindiegemeinsameAkte."
+      },
+      {
+        "id": "0:3:1",
+        "signature": "2466939d",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "StrukturierenSieM1bisM6selbstständigindievierArbeitsfelderVertrag,Zahlung,ReklamationundPersonal."
+      },
+      {
+        "id": "0:3:2",
+        "signature": "81844904",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "ErarbeitenSieinselbstorganisiertenExpertisendiefachlicherforderlichenBefunde:Zustandekommen/Inhalt/WirksamkeitdesKaufvertrags,Zahlungsmöglichkeiten,MängelundKäuferrechte/Nacherfüllung,UrsachenmaßnahmensowieBeschäftigungsoptionenundArbeitsvertrag."
+      },
+      {
+        "id": "0:3:3",
+        "signature": "2613dbff",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "AllerechtlichenAussagenbenötigeneinenMaterial-oderGesetzesbezug;alleRechnungenmüssenprüfbarsein."
+      },
+      {
+        "id": "0:3:4",
+        "signature": "09b337d7",
+        "phase": "informieren",
+        "mode": 3,
+        "text": "Meilenstein1:JedesTeilteamlieferteinePrüfnotiz„Befund–Bedeutung–FolgerungfürBioCasa“."
+      },
+      {
+        "id": "0:4:1",
+        "signature": "eaddee55",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "EntwickelnSieausderHandlungssituationeigeneUntersuchungsfragen.KlärenSie,welcheDokumentefürVertrag,Zahlung,ReklamationundPersonalzusammengehörenundwelcheBefundeandereEntscheidungenbeeinflussen.WählenSieselbst,obSiedieDokumentechronologischerschließenoderzunächstfachlicheExpertisenbilden;sichernSieanschließendeinengemeinsamenKenntnisstand."
+      },
+      {
+        "id": "0:4:2",
+        "signature": "82ed904c",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "IhreAnalysemussfolgendeNachweiseliefern:eineVertragschronologiemitErklärung,ÄnderungundZugang;Zustandekommen,endgültigeInhalte,WirksamkeiteinschließlichVertretungundHauptpflichten;VergleichallervierZahlungsoptionenmitunmittelbarenKostenbei52.200EuronettoundWirkungenaufbeideUnternehmen;Art,UmfangundNetto-WarenwertderMängel;PrüfungvonUntersuchung/Rüge,KäuferrechtenundNacherfüllung;UrsachenundverfügbareLösungsmöglichkeiten;VergleichallerdreiBeschäftigungsoptionennachStunden,Gesamtkostenim13-Wochen-Zeitraum,KostenjeverfügbarerStunde,Einarbeitung,Qualität,FlexibilitätundBindung;PrüfungdesVertragsentwurfseinschließlichBefristungundwesentlicherBedingungen."
+      },
+      {
+        "id": "0:4:3",
+        "signature": "50b5c4ec",
+        "phase": "informieren",
+        "mode": 4,
+        "text": "DokumentierenSieIhreBefundeinPrüfnotizenmit„Befund–Bedeutung–Folgerung“.RechtsaussagenbenötigenMaterial-oderQuellenbezug,BerechnungeneinenprüfbarenRechenweg.HaltenSiebelegteTatsachen,AnnahmenundoffeneForderungenauseinander.DieVertrags-undRechtsprüfung,RechnungenundPersonalentscheidungbleibenentsprechendAbschnitt11KI-frei."
+      },
+      {
+        "id": "0:5:1",
+        "signature": "ca34566d",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "StartenSieKI-freimiteinereigenenFalllandkarte:WelcheDokumente,Rechtsfragen,RechenfragenundbetrieblichenEntscheidungenhängenzusammen?"
+      },
+      {
+        "id": "0:5:2",
+        "signature": "1a8409cb",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "NutzenSieM1bisM6ineinerselbstgewähltenStruktur.BildenSiebeiBedarfExpertisenzuVertrag,Zahlung,ReklamationundPersonal."
+      },
+      {
+        "id": "0:5:3",
+        "signature": "b14758c2",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "Pflichtkern:Vertragsentstehung/-inhalt/-wirksamkeit,Hauptpflichten,Zahlungsmöglichkeiten,MängelrügeundNacherfüllung,interneUrsachenmaßnahmen,BeschäftigungsoptionenundArbeitsvertragsprüfung."
+      },
+      {
+        "id": "0:5:4",
+        "signature": "12a59c3e",
+        "phase": "informieren",
+        "mode": 5,
+        "text": "CheckpointA:IhrTeamkanngesicherteBefunde,offeneFragenundnotwendigeSofortmaßnahmeneindeutigtrennen."
+      },
+      {
+        "id": "1:1:1",
+        "signature": "b7d86b2d",
+        "phase": "planen",
+        "mode": 1,
+        "text": "ErstellenSieeinenAblaufplanfürdieBearbeitungdesGroßauftrags.PriorisierenSieMaßnahmen,dienochamTagderReklamationerfolgenmüssen."
+      },
+      {
+        "id": "1:1:2",
+        "signature": "26e92a25",
+        "phase": "planen",
+        "mode": 1,
+        "text": "BestimmenSie,welcheInformationendieAntwortanKüstengrünenthaltenmuss,welcheinternbleibenundwelchevoreinerAnerkennungnochgeprüftwerden."
+      },
+      {
+        "id": "1:1:3",
+        "signature": "e17ecd26",
+        "phase": "planen",
+        "mode": 1,
+        "text": "EntwickelnSieselbstständigKriterienfürdieAuswahleinerZahlungsmöglichkeitbeiFolgeaufträgen.BerücksichtigenSiesowohlBioCasaalsauchKüstengrün."
+      },
+      {
+        "id": "1:1:4",
+        "signature": "d9cccde3",
+        "phase": "planen",
+        "mode": 1,
+        "text": "EntwickelnSieselbstständigKriterienfürdiePersonalentscheidung.BerücksichtigenSiegesicherteStunden,Kosten,Qualität,Einarbeitungszeit,FlexibilitätunderwarteteAnschlussauslastung."
+      },
+      {
+        "id": "1:1:5",
+        "signature": "95c62c06",
+        "phase": "planen",
+        "mode": 1,
+        "text": "ErstellenSieeineÜbersichtderBestandteileeinervollständigenAuftragsdokumentation:Vertragsprüfung,Zahlungsempfehlung,Reklamationsbearbeitung,UrsachenmaßnahmeundPersonalentscheidung.BestimmenSiefürjedenTeileineverantwortlicheGründerrolle."
+      },
+      {
+        "id": "1:2:1",
+        "signature": "1866626b",
+        "phase": "planen",
+        "mode": 2,
+        "text": "ErstellenSieeinenBearbeitungsplanfürdenGroßauftragmitSofortmaßnahmenamReklamationstag,erforderlichenPrüfungen,anschließenderUmsetzungundDokumentation.NutzenSiebeiBedarfdieStruktur„Maßnahme–Zweck–verantwortlicheGründerrolle–benötigterBefund–Termin“."
+      },
+      {
+        "id": "1:2:2",
+        "signature": "3b84fd3a",
+        "phase": "planen",
+        "mode": 2,
+        "text": "BestimmenSie,welcheInformationendieKundenmailenthaltenmuss.OrdnenSieandereInformationenderinternenBearbeitungodereinernochoffenenPrüfungzu.BerücksichtigenSiedenAntwortterminausM3unddieLogistikausM5,ohneeinenochungeprüfteZusagefestzuschreiben."
+      },
+      {
+        "id": "1:2:3",
+        "signature": "6929bd3e",
+        "phase": "planen",
+        "mode": 2,
+        "text": "EntwickelnSieKriterienfürZahlungs-undBeschäftigungsentscheidung.FürdieZahlungmüssenbeideUnternehmensperspektivenerkennbarsein;fürPersonalStundenabdeckung,Kosten,Qualität,Einarbeitung,FlexibilitätundAnschlussauslastung.PlanenSiedieAktemitdenTeilenVertragsprüfung,Zahlung,Reklamation/Kundenmail,UrsachenmaßnahmenundPersonaleinschließlichVertragscheck."
+      },
+      {
+        "id": "1:3:1",
+        "signature": "a894f0c0",
+        "phase": "planen",
+        "mode": 3,
+        "text": "EntwickelnSieeineneigenenAblaufplanfürdieBearbeitungdesGroßauftragsundpriorisierenSieSofortmaßnahmen."
+      },
+      {
+        "id": "1:3:2",
+        "signature": "b67a9e8d",
+        "phase": "planen",
+        "mode": 3,
+        "text": "LegenSiefest,welcheInformationenindieKundenkommunikationgehörenundwelcheinterngeprüftwerdenmüssen."
+      },
+      {
+        "id": "1:3:3",
+        "signature": "ebbe5583",
+        "phase": "planen",
+        "mode": 3,
+        "text": "EntwickelnSieeigeneKriterienfürZahlungs-undPersonalentscheidungsowieeineStrukturfürdieAuftragsakte."
+      },
+      {
+        "id": "1:4:1",
+        "signature": "0011d7b9",
+        "phase": "planen",
+        "mode": 4,
+        "text": "ErstellenSieeinenArbeitsplan,dersowohldiedringendeKundenreaktionalsauchdievollständigeAuftragsakteabsichert.LegenSiePrioritäten,interneZeitanteile,Verantwortlichkeiten,AbstimmungenundverfügbareLernortefürkonzentriertePrüfung,VerhandlungundSchreibenfest.OrdnenSieeigeneArbeitsschrittedenvorgegebenenPhasenbudgetszuundberücksichtigenSiediebeidenuntenbeschriebenenCheckpointseinschließlichKorrekturzeit."
+      },
+      {
+        "id": "1:4:2",
+        "signature": "d216c5ab",
+        "phase": "planen",
+        "mode": 4,
+        "text": "PlanenSiediebetrieblichenSchrittenachDringlichkeitundAbhängigkeit:WelcheMaßnahmeistnochamReklamationstagnötig?WelcherBefundmussvoreinerZusagegeprüftsein?WelcheInformationbleibtintern?EntwickelnSieeineeigeneAktenstrukturundordnenSiedieUmsetzungdenpassendenGründerrollenzu."
+      },
+      {
+        "id": "1:4:3",
+        "signature": "377b6103",
+        "phase": "planen",
+        "mode": 4,
+        "text": "BestimmenSiebegründeteKriterienfürdieZahlungs-undBeschäftigungsentscheidung.BerücksichtigenSieBioCasaundKüstengrünsowieStundenabdeckung,Kosten,Qualität,Einarbeitung,FlexibilitätundungewisseAnschlussauslastung.EntscheidenSie,wannIhrTeameineoffeneFachfragegezieltandieLehrkraftgibt,undorganisierenSieselbstdenspäterenunabhängigenAuftragsaudit."
+      },
+      {
+        "id": "1:5:1",
+        "signature": "0f207012",
+        "phase": "planen",
+        "mode": 5,
+        "text": "OrganisierenSiedieBearbeitungalsechtenFall:Prioritäten,Verantwortlichkeiten,interneFreigaben,KundenkommunikationundDokumentation."
+      },
+      {
+        "id": "1:5:2",
+        "signature": "cd099ce0",
+        "phase": "planen",
+        "mode": 5,
+        "text": "EntwickelnSieeigeneKriterienfürZahlungs-undPersonalentscheidungundlegenSiefest,welcheBelegeindieAuftragsaktegehören."
+      },
+      {
+        "id": "1:5:3",
+        "signature": "3c7221e7",
+        "phase": "planen",
+        "mode": 5,
+        "text": "AbhierdarfderfreigegebeneKI-AssistentalsCoachfürStruktur,GegenargumenteoderFormulierungsprüfungeingesetztwerden;RechtsprüfungundEntscheidungbleibenbeimTeam."
+      },
+      {
+        "id": "1:5:4",
+        "signature": "41178d27",
+        "phase": "planen",
+        "mode": 5,
+        "text": "CheckpointB:EinanderesTeamkönnteIhrenBearbeitungsplanübernehmen,ohnezusätzlicheErläuterungzubenötigen."
+      },
+      {
+        "id": "2:1:1",
+        "signature": "76cb947f",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "ÜberprüfenSieabschließend,welcheVertragsbedingungengelten,undbegründenSieIhreFeststellunganhandderDokumentenketteundM4."
+      },
+      {
+        "id": "2:1:2",
+        "signature": "9b829983",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BeurteilenSiedieZahlungsmöglichkeitenundentscheidenSieübereineEmpfehlungfürFolgeaufträge.StellenSiedar,welcheZustimmungoderVorbereitungderKundindafürbenötigtwird."
+      },
+      {
+        "id": "2:1:3",
+        "signature": "281a6e2c",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "EntwickelnSieselbstständigeinebegründeteReaktionaufdieMängelrüge:ArtundTerminderNacherfüllung,UmgangmitbeschädigterWare,Dokumentenkorrektur,KommunikationzumzurückgehaltenenBetragundUmgangmitderzusätzlichenKostenforderung."
+      },
+      {
+        "id": "2:1:4",
+        "signature": "74f67d42",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BeurteilenSiedieBeschäftigungsoptionenundbegründenSiedieAuswahleinerOptionsowieerforderlicheAnpassungenamVertragsentwurf.ErläuternSie,wiedieLösungdenStundenbedarfdecktundzugleichdasRisikoeinerFehlauslastungbegrenzt."
+      },
+      {
+        "id": "2:1:5",
+        "signature": "ed11d646",
+        "phase": "entscheiden",
+        "mode": 1,
+        "text": "BestimmenSiemindestensdreiinterneMaßnahmen,mitdenenFehlmengeundVerpackungsschadenkünftigvermiedenoderfrüherkanntwerden."
+      },
+      {
+        "id": "2:2:1",
+        "signature": "1686d130",
+        "phase": "entscheiden",
+        "mode": 2,
+        "text": "BegründenSiedengeltendenVertragsstandanhandderDokumentenkette.BeurteilenSiedieZahlungsoptionenundwählenSieeineEmpfehlungfürFolgeaufträge;nennenSieerforderlicheZustimmungoderVorbereitungderKundin."
+      },
+      {
+        "id": "2:2:2",
+        "signature": "3885c329",
+        "phase": "entscheiden",
+        "mode": 2,
+        "text": "EntwickelnSieeinebegründeteReaktionaufdieMängelrüge:NacherfüllungmitTermin,UmgangmitbeschädigterWare,Dokumentenkorrektur,zurückgehaltenerBetragundzusätzlicheKostenforderung.StimmenSiediezugesagtenSchrittemitdentatsächlichenMöglichkeitenausM5ab."
+      },
+      {
+        "id": "2:2:3",
+        "signature": "3cb75d05",
+        "phase": "entscheiden",
+        "mode": 2,
+        "text": "BeurteilenSiedieBeschäftigungsoptionenanhandIhrerKriterien.BegründenSieAuswahl,Stundenabdeckung,BindungsfolgenunderforderlicheAnpassungoderVerwerfungdesVertragsentwurfs.BestimmenSiemindestensdreikonkreteinterneMaßnahmengegenFehlmengenundVerpackungsschäden;weisenSieVerantwortungundüberprüfbarenNachweiszu.EinegünstigeZahloderschnelleLösungalleinersetztkeineAbwägung."
+      },
+      {
+        "id": "2:3:1",
+        "signature": "08d489bb",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "ÜberprüfenundbegründenSiedengeltendenVertragsinhalt."
+      },
+      {
+        "id": "2:3:2",
+        "signature": "2e5333fd",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "BeurteilenSieZahlungsmöglichkeitenundBeschäftigungsoptionenundtreffenSiejeweilseinebegründeteEntscheidung."
+      },
+      {
+        "id": "2:3:3",
+        "signature": "8f6a1628",
+        "phase": "entscheiden",
+        "mode": 3,
+        "text": "EntwickelnSieeinerechtlichundwirtschaftlichangemesseneReaktionaufdieMängelrügeeinschließlichNacherfüllung,KommunikationundinternenPräventionsmaßnahmen."
+      },
+      {
+        "id": "2:4:1",
+        "signature": "0dfaf424",
+        "phase": "entscheiden",
+        "mode": 4,
+        "text": "BegründenSiedenmaßgeblichenVertragsstand.WählenSieeineZahlungsmöglichkeitfürFolgeaufträgeundbenennenSienotwendigeZustimmungoderVorbereitungenderKundin.EntwickelnSieeinekonkreteNacherfüllungmitTermin,UmgangmitbeschädigterWare,Dokumenten-undZahlungsstatussowieZusatzforderung.EntscheidenSieüberBeschäftigungsformunderforderlicheÄnderungenamVertragsentwurf;begründenSieKapazitätundBindungsrisiko.LegenSiemindestensdreiverantwortete,überprüfbareUrsachenmaßnahmenfest.DokumentierenSiebeiZahlungundPersonaljeweilseineverworfeneAlternative."
+      },
+      {
+        "id": "2:4:2",
+        "signature": "55c52626",
+        "phase": "entscheiden",
+        "mode": 4,
+        "text": "VerbindlicherCheckpoint1–abgestimmteFallentscheidung:ErläuternSiederLehrkraftIhreEntscheidunganhandvonVertragschronologie,Zahlungsrechnung,MängelbefundundPersonalvergleich.ZeigenSie,dassKundenzusage,Bestand/LogistikundPersonalplanungzusammenpassenunddassbestätigteMängelvonoffenenZusatzforderungengetrenntsind.BelegenSiekritischeRechtsaussagenundbearbeitenSiefachlicheEinwändevorderAusarbeitungderKundenmail;diebegründetenbetrieblichenEntscheidungenverbleibenbeimTeam."
+      },
+      {
+        "id": "2:5:1",
+        "signature": "97c1abd4",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "TreffenSiedienotwendigenEntscheidungenineinerselbstgewählten,sachlogischenReihenfolge."
+      },
+      {
+        "id": "2:5:2",
+        "signature": "1974b3fd",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "PrüfenSiebeijederEntscheidungdieFolgenfürRecht,Liquidität,Kundenbeziehung,QualitätundPersonal."
+      },
+      {
+        "id": "2:5:3",
+        "signature": "6e7e538b",
+        "phase": "entscheiden",
+        "mode": 5,
+        "text": "DokumentierenSiemindestenseineAlternativeprozentralemEntscheidungsfeldundwarumSiesieverworfenhaben."
+      },
+      {
+        "id": "3:1:1",
+        "signature": "e5f25c8f",
+        "phase": "durchfuehren",
+        "mode": 1,
+        "text": "FührenSiediegeprüftenundbegründetenEntscheidungenzueinerunmittelbarnutzbarenbetrieblichenDokumentationzusammen.DieKundenkommunikationmussalsversandfertigeE-Mailenthaltensein;interneBewertungenundRechtsquellenbleibendavonklargetrennt.Handlungsergebnis:Auftragsakte„ErsterGroßauftrag“"
+      },
+      {
+        "id": "3:2:1",
+        "signature": "52b911d3",
+        "phase": "durchfuehren",
+        "mode": 2,
+        "text": "ErstellenSiedieAuftragsaktenachIhrergeplantenGliederung.FügenSieVertragschronologieundWirksamkeitsprüfung,endgültigenVertragsinhalt/Hauptpflichten,berechnetenZahlungsvergleichmitEmpfehlung,MängelprüfungundKundenlösung,UrsachenmaßnahmensowiePersonalvergleichmitbegründetemVertragscheckzusammen."
+      },
+      {
+        "id": "3:2:2",
+        "signature": "7b5f70f7",
+        "phase": "durchfuehren",
+        "mode": 2,
+        "text": "VerfassenSiedieKundenmailversandfertig.AlswählbareStrukturhilfedienen„BezugundbestätigterSachverhalt–konkreteLösung–TerminundAnsprechpartner–offenerPrüfbedarf“.PrüfenSie,welcheAussagenSiegegenüberKüstengrüntatsächlichvertretenkönnen.InterneBewertungen,RechnungenundRechtsquellenbleibenvonderKundenmailgetrennt.DieRegelungzumKI-EinsatzinAbschnitt11giltunverändert.Handlungsergebnis:Auftragsakte„ErsterGroßauftrag“"
+      },
+      {
+        "id": "3:3:1",
+        "signature": "aa654267",
+        "phase": "durchfuehren",
+        "mode": 3,
+        "text": "ErstellenSieeinevollständigeAuftragsakte.DieversandfertigeKundenmailmussklarvoninternenBewertungen,BerechnungenundRechtsquellengetrenntsein.AufbauunddigitaleWerkzeugewählenSieselbst.Handlungsergebnis:Auftragsakte„ErsterGroßauftrag“"
+      },
+      {
+        "id": "3:4:1",
+        "signature": "a6d7769e",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "ErstellenSiedieAuftragsakteimselbstgewähltenFormat.Vertragsprüfung,ZahlungsrechnungundEmpfehlung,Reklamationslösung,UrsachenmaßnahmensowiePersonalentscheidungundVertragscheckmüssenzusammenhängendnachvollziehbarsein.VerfassenSieeineversandfertigeKundenmailmitbestätigtemSachverhalt,umsetzbarerLösung,TerminundAnsprechpartner.TrennenSieKundenkommunikationvoninternenRechtsprüfungen,RechenwegenundBewertungen."
+      },
+      {
+        "id": "3:4:2",
+        "signature": "5463467b",
+        "phase": "durchfuehren",
+        "mode": 4,
+        "text": "VerbindlicherCheckpoint2–konsistenterAktenentwurf:LegenSiederLehrkraftdenvollständigenEntwurfeinschließlichKundenmailvor.ZeigenSie,dassTermine,Mengen,ZahlungsstatusundZusagendurchdieAktegedecktsind,ungeprüfteForderungennichtversehentlichanerkanntwerdenunddiegewählteBeschäftigungzurStundenplanungundzumgeprüftenVertragsentwurfpasst.DokumentierenSieerforderlicheKorrekturenundarbeitenSiesievordemabschließendenAuftragsauditein.EineoptionaleKI-KommunikationsprüfungisterstimRahmendesAbschnitts11zulässig.Handlungsergebnis:Auftragsakte„ErsterGroßauftrag“"
+      },
+      {
+        "id": "3:5:1",
+        "signature": "672fb000",
+        "phase": "durchfuehren",
+        "mode": 5,
+        "text": "ErstellenSieeineprofessionelleAuftragsakteineinemselbstgewähltenFormat."
+      },
+      {
+        "id": "3:5:2",
+        "signature": "3072f0bf",
+        "phase": "durchfuehren",
+        "mode": 5,
+        "text": "Kundenkommunikation,interneEntscheidungsnotizen,Berechnungen,RechtsgrundlagenundPräventionsmaßnahmenmüsseneindeutiggetrennt,abermiteinanderverknüpftsein."
+      },
+      {
+        "id": "4:1:1",
+        "signature": "a69aa416",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "EineandereGruppeführteinenAuftragsauditdurch.ÜberprüfenSie:"
+      },
+      {
+        "id": "4:1:2",
+        "signature": "47fdadc7",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "IstdasZustandekommendesVertragschronologischundrechtlichrichtigbestimmt?"
+      },
+      {
+        "id": "4:1:3",
+        "signature": "9208d50c",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "SindalleendgültigenVertragsinhalteeindeutigfestgehalten?"
+      },
+      {
+        "id": "4:1:4",
+        "signature": "172b2c29",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "WerdenGeschäftsführung/VertretungundWirksamkeitkorrektberücksichtigt?"
+      },
+      {
+        "id": "4:1:5",
+        "signature": "ba9b48dd",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "IstdieZahlungsempfehlunggerechnetundausbeidenUnternehmensperspektivenbeurteilt?"
+      },
+      {
+        "id": "4:1:6",
+        "signature": "efd3d1c2",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "SindArt,MengeundWertderMängelkorrekt?"
+      },
+      {
+        "id": "4:1:7",
+        "signature": "621c9e00",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "WirddierechtzeitigeMängelanzeigenach§377HGBberücksichtigt?"
+      },
+      {
+        "id": "4:1:8",
+        "signature": "7323c9ce",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "ReagiertBioCasazuerstangemessenaufdasNacherfüllungsverlangen?"
+      },
+      {
+        "id": "4:1:9",
+        "signature": "413b815b",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "EnthältdieKundenmailAnerkennung,Lösung,TerminundAnsprechpartner,ohneungeprüfteForderungenvorschnellanzuerkennen?"
+      },
+      {
+        "id": "4:1:10",
+        "signature": "ef73fd96",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "SindUrsachenmaßnahmenkonkret,verantwortlichundüberprüfbar?"
+      },
+      {
+        "id": "4:1:11",
+        "signature": "ed417678",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "DecktdiePersonalentscheidungdenStundenbedarf?"
+      },
+      {
+        "id": "4:1:12",
+        "signature": "0095962b",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "SindKostenundBindungsfolgenderBeschäftigungsformenkorrektverglichen?"
+      },
+      {
+        "id": "4:1:13",
+        "signature": "2c19bdcf",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "PasstdergeprüfteArbeitsvertragzurempfohlenenBeschäftigung?"
+      },
+      {
+        "id": "4:1:14",
+        "signature": "c72abba5",
+        "phase": "bewerten",
+        "mode": 1,
+        "text": "KlassifizierenSieAbweichungenals„rechtlichkritisch“,„wirtschaftlichkritisch“oder„kommunikativverbesserungsbedürftig“.DieErstellergruppekorrigiertallekritischenPunkteunddokumentiertdieÄnderung."
+      },
+      {
+        "id": "4:2:1",
+        "signature": "35a40e39",
+        "phase": "bewerten",
+        "mode": 2,
+        "text": "ÜberprüfenSieVertragsschluss,Inhalte,VertretungundWirksamkeit;danachKostenundbeidseitigeWirkungenderZahlung.PrüfenSieMangelart,Menge,Wert,rechtzeitigeRüge,NacherfüllungundUmgangmitZusatzforderungen.GleichenSieKundenzusagenmitinternerUmsetzungab.PrüfenSieUrsachenmaßnahmen,Stundenabdeckung,Kosten,BindungsfolgenundPassungdesArbeitsvertrags."
+      },
+      {
+        "id": "4:2:2",
+        "signature": "ea5e914d",
+        "phase": "bewerten",
+        "mode": 2,
+        "text": "KlassifizierenSieBefundeals„rechtlichkritisch“,„wirtschaftlichkritisch“oder„kommunikativverbesserungsbedürftig“.BelegenSiefachlicheEinwände;korrigierenunddokumentierenSieallekritischenPunktevorAbschlussderAkte."
+      },
+      {
+        "id": "4:3:1",
+        "signature": "0fee7470",
+        "phase": "bewerten",
+        "mode": 3,
+        "text": "EinanderesTeamführteinenAuftragsauditdurch.PrüfenSieVertragslogik,Zahlung,Mängelbearbeitung,Ursachenmaßnahmen,PersonalentscheidungundArbeitsvertragsbezug.ErgänzenSieeineigenesPrüfmerkmalundklassifizierenSieAbweichungenmindestensalsrechtlich,wirtschaftlichoderkommunikativkritisch."
+      },
+      {
+        "id": "4:4:1",
+        "signature": "25abbe4d",
+        "phase": "bewerten",
+        "mode": 4,
+        "text": "LassenSiedieAkteaufVertragslogikundWirksamkeit,ZahlungsrechnungundbeideUnternehmensperspektiven,Mangelumfang/-wert,Rüge,NacherfüllungundKundenkommunikationprüfen.BeziehenSiekonkreteUrsachenmaßnahmen,Stundenabdeckung,Beschäftigungskosten,BindungsfolgenundVertragsanpassungein.DasprüfendeTeamklassifiziertAbweichungenals„rechtlichkritisch“,„wirtschaftlichkritisch“oder„kommunikativverbesserungsbedürftig“.EntscheidenSieanhandbelegterBefundeüberÄnderungen,beseitigenSieallekritischenPunkteundhaltenSiedieKorrekturennachvollziehbarfest."
+      },
+      {
+        "id": "4:5:1",
+        "signature": "0d972d96",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "OrganisierenSieeinenunabhängigenFallauditdurcheinanderesLernteam.Diesessuchtgezieltnachrechtlichen,rechnerischen,wirtschaftlichenundkommunikativenSchwachstellen."
+      },
+      {
+        "id": "4:5:2",
+        "signature": "e599da87",
+        "phase": "bewerten",
+        "mode": 5,
+        "text": "EntscheidenSiebegründet,welcheHinweiseSieübernehmenunddokumentierenSiediewesentlichenKorrekturen."
+      },
+      {
+        "id": "5:1:1",
+        "signature": "bd3cfd10",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "AnwelcherStellederDokumentenkettewarbesondereSorgfaltnötig,umdenVertragrichtigzubestimmen?"
+      },
+      {
+        "id": "5:1:2",
+        "signature": "75563ef9",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheschnelleKundenreaktionistmöglich,ohneungeprüfteForderungenanzuerkennen?"
+      },
+      {
+        "id": "5:1:3",
+        "signature": "07ab5c01",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WiewirkteinelängereZahlungsfristgleichzeitigaufBioCasaundKüstengrün?"
+      },
+      {
+        "id": "5:1:4",
+        "signature": "755cc357",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelchePersonalentscheidungwürdenSietreffen,wenndiezweiangekündigtenFolgeaufträgeverbindlichwürden?"
+      },
+      {
+        "id": "5:1:5",
+        "signature": "dcbfef55",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheVerbindungerkennenSiezwischenGeschäftsideeausLS1,PlanungausLS3undderReklamationsbearbeitunginLS6?"
+      },
+      {
+        "id": "5:1:6",
+        "signature": "0424a4fc",
+        "phase": "reflektieren",
+        "mode": 1,
+        "text": "WelcheLerntechnikhatIhnengeholfen,mehrereRechts-undUnternehmensfragenineinerAuftragsaktezukoordinieren?"
+      },
+      {
+        "id": "5:2:1",
+        "signature": "9a1062a7",
+        "phase": "reflektieren",
+        "mode": 2,
+        "text": "ErläuternSiediebesonderssorgfältigzuprüfendeStellederDokumentenketteundeineschnelleKundenreaktionohneungeprüftesAnerkenntnis.BeschreibenSiedieunterschiedlichenLiquiditätswirkungeneinerlängerenZahlungsfrist.BeurteilenSiediePersonalentscheidungerneutunterderAnnahmeverbindlicherFolgeaufträge.StellenSieeineVerbindungvonGeschäftsideeundPlanungzurReklamationsbearbeitungher.HaltenSiefest,welcheHilfedasZusammenführendervierArbeitspaketeerleichterthatundwelchenSchrittSiekünftigeigenständigerbearbeitenkönnen."
+      },
+      {
+        "id": "5:3:1",
+        "signature": "d8541928",
+        "phase": "reflektieren",
+        "mode": 3,
+        "text": "WelcheTeilentscheidungwarbesondersvernetzt?WomusstenSiezwischenschnellerKundenreaktionundsorgfältigerPrüfungabwägen?WelcheArbeitsweisehatgeholfen,mehrereFachgebieteineinerkonsistentenAuftragsaktezusammenzuführen?"
+      },
+      {
+        "id": "5:4:1",
+        "signature": "6ded672f",
+        "phase": "reflektieren",
+        "mode": 4,
+        "text": "ErläuternSieeineentscheidendeStellederVertragschronologie,denUmgangmiteinerungeprüftenKundenforderungunddiegegensätzlichenLiquiditätswirkungenlängererZahlungsfristen.BeurteilenSie,wasverbindlicheFolgeaufträgeanIhrerPersonalentscheidungändernwürden.StellenSiedieVerbindungzwischenGründungsidee,PlanungundoperativerKundenbetreuungher.WertenSieaus,anwelcherStelleSieZeit,MaterialzugriffoderKooperationangepassthabenundwiedieseÄnderungdiefachlicheQualitätIhrerAuftragsaktebeeinflussthat."
+      },
+      {
+        "id": "5:5:1",
+        "signature": "a2b018d6",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "WohabenSieimBearbeitungsprozessselbstständigumpriorisiert?"
+      },
+      {
+        "id": "5:5:2",
+        "signature": "92e53ad4",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "WelcheFachentscheidungkönnenSieheutesicherertreffenalszuBeginnderLS?"
+      },
+      {
+        "id": "5:5:3",
+        "signature": "47de6822",
+        "phase": "reflektieren",
+        "mode": 5,
+        "text": "WelcheVerbindungzwischenGeschäftsidee,Businessplan,Finanzierung,RechtsformundoperativerAbwicklungistIhnendurchdenFallbesondersdeutlichgeworden?"
+      }
+    ],
+    "quizSignature": "fa7b2386"
+  }
+}

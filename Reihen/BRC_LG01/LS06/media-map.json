@@ -1,14 +1,14 @@
 {
   "slots": {
     "orientation": {
-      "src": "",
-      "alt": "",
-      "label": "Orientierung · optionales Motiv"
+      "src": "assets/images/biocasa-ls06-orientation.png",
+      "alt": "Das Team kontrolliert verpackte Produkte auf Paletten vor dem Versand an einer Laderampe.",
+      "label": "Orientierung · Geschäfte abwickeln"
     },
     "situation": {
-      "src": "",
-      "alt": "",
-      "label": "Handlungssituation · optionales Motiv"
+      "src": "assets/images/biocasa-ls06-situation.png",
+      "alt": "Das Team und ein Geschäftspartner prüfen Produktpackungen und Lieferunterlagen an einem geöffneten Lastwagen.",
+      "label": "Handlungssituation · Geschäfte abwickeln"
     }
   }
 }

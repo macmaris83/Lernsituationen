@@ -24,7 +24,7 @@ W1 ist stark geführt, W2 begleitet, W3 teiloffen, W4 selbstgesteuert mit
 Checkpoints und W5 Löppt. Die Kennfarben folgen dem Reihenplan; Hausfarben und
 Bedienelemente bleiben im freigegebenen BBS-Design. Die Lehrkraft wählt den Weg im
 bestehenden Lehrkräftemodus. Für die Verteilung einen konfigurierten SCORM-Export
-erstellen; die Lernwegwahl durch Lernende lässt sich dort zusätzlich freigeben.
+erstellen; die Schüleransicht zeigt keine alternativen Lernwege oder Wegauswahl.
 Jedes Paket startet standardmäßig mit W1.
 
 Die Handlungssituation und ihre fallbezogenen Kurzprüfungen führen in die
@@ -88,3 +88,9 @@ python tools/verify_brc_series.py --source Quellen/BRC_LG01/Reihenplan.md
 Benötigt werden Python 3, Pandoc, lxml, PyMuPDF, Playwright und Chromium unter
 `/usr/bin/chromium`; Node prüft JavaScript. Die Erstellung nutzt die vorhandene
 Cloud-Umgebung und startet ihren lokalen PDF-Prüfserver selbst.
+
+## Überarbeitung mit den gelieferten Bildern
+
+Je Lernsituation sind das zugehörige Orientierungs- und Handlungssituationsbild unverändert enthalten. Die Orientierung zeigt keinen Einordnungsblock und keine Lernwegübersicht; vier weitere Kompetenzen stehen neben dem Netz als 2×2-Raster. Prüfkriterien, Rückmeldung und Überarbeitung bilden gemeinsam einen einzigen Auftrag. Reflexionsfragen sind gemeinsam dargestellt, und die Symbole nennen die passende Arbeitsform pro Auftrag. Die sechs MC-Antworten stehen einzeln untereinander.
+
+Die aktualisierten Pakete können alte Lernstände derselben sechs BioCasa-Pakete übernehmen. Eine zusammengefasste Aufgabe wird dabei nur als erledigt übernommen, wenn alle früheren Teile erledigt waren. Unvollständige Prüfblöcke bleiben offen. Die sechs LS-Kennungen und Kompetenzberichte bleiben dieselben. Bei Paketänderung in Moodle die bestehenden Einstellungen zum Speichern oder Zurücksetzen von Versuchen beachten.

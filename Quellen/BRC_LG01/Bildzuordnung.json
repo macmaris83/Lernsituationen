@@ -1,0 +1,74 @@
+{
+  "1": {
+    "orientation": {
+      "archive_path": "LS01_Orientierung.png",
+      "filename": "biocasa-ls01-orientation.png",
+      "alt": "Vier Personen besprechen bei einem Essen am Küchentisch mit Skizzen ihre Geschäftsidee."
+    },
+    "situation": {
+      "archive_path": "LS01_Handlungssituation.png",
+      "filename": "biocasa-ls01-situation.png",
+      "alt": "Das vierköpfige Gründungsteam bespricht seine Idee an einem Imbissstand am Hafen."
+    }
+  },
+  "2": {
+    "orientation": {
+      "archive_path": "LS02_Orientierung.png",
+      "filename": "biocasa-ls02-orientation.png",
+      "alt": "Das Gründungsteam bespricht mit einem Berater Pläne und Unterlagen an einem Besprechungstisch."
+    },
+    "situation": {
+      "archive_path": "LS02_Handlungssituation.png",
+      "filename": "biocasa-ls02-situation.png",
+      "alt": "Ein Berater zeigt dem Gründungsteam eine leerstehende Produktionshalle; das Team hält einen Gebäudeplan."
+    }
+  },
+  "3": {
+    "orientation": {
+      "archive_path": "LS03_Orientierung.png",
+      "filename": "biocasa-ls03-orientation.png",
+      "alt": "Das Gründungsteam erarbeitet mit Produktmustern, Diagrammen, Gebäudeplänen und einem Laptop den Businessplan."
+    },
+    "situation": {
+      "archive_path": "LS03_Handlungssituation.png",
+      "filename": "biocasa-ls03-situation.png",
+      "alt": "Das Gründungsteam prüft in einer Produktionshalle Produktmuster und Planungsdaten für den Businessplan."
+    }
+  },
+  "4": {
+    "orientation": {
+      "archive_path": "LS04_Orientierung.png",
+      "filename": "biocasa-ls04-orientation.png",
+      "alt": "Das Gründungsteam bereitet mit Laptop und Notizen die Vorstellung seines Vorhabens vor."
+    },
+    "situation": {
+      "archive_path": "LS04_Handlungssituation.png",
+      "filename": "biocasa-ls04-situation.png",
+      "alt": "Das Gründungsteam präsentiert Kapitalgebern eine Produktionsplanung und wirtschaftliche Diagramme."
+    }
+  },
+  "5": {
+    "orientation": {
+      "archive_path": "LS05_Orientierung.png",
+      "filename": "biocasa-ls05-orientation.png",
+      "alt": "Das Gründungsteam bespricht Unterlagen und ein Organigramm an einem Tisch."
+    },
+    "situation": {
+      "archive_path": "LS05_Handlungssituation.png",
+      "filename": "biocasa-ls05-situation.png",
+      "alt": "Das Gründungsteam prüft mit einem Berater Gründungsunterlagen und Vertragsdokumente."
+    }
+  },
+  "6": {
+    "orientation": {
+      "archive_path": "LS06_Orientierung.png",
+      "filename": "biocasa-ls06-orientation.png",
+      "alt": "Das Team kontrolliert verpackte Produkte auf Paletten vor dem Versand an einer Laderampe."
+    },
+    "situation": {
+      "archive_path": "LS06_Handlungssituation.png",
+      "filename": "biocasa-ls06-situation.png",
+      "alt": "Das Team und ein Geschäftspartner prüfen Produktpackungen und Lieferunterlagen an einem geöffneten Lastwagen."
+    }
+  }
+}

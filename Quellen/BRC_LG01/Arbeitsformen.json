@@ -1,0 +1,2202 @@
+{
+  "LS01:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Eigene Problemdiagnose sichert den persönlichen Einstieg vor dem Gruppenaustausch."
+  },
+  "LS01:informieren:1:2": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Zwei Lernende vergleichen und belegen die Gründerprofile; anschließend fließen die Befunde in die gemeinsame Diagnose."
+  },
+  "LS01:informieren:1:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Kundenbedürfnisse lassen sich zu zweit auswerten und auf Materialbezug gegenprüfen."
+  },
+  "LS01:informieren:1:4": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Die Zuordnung der Ziele wird im Partnerabgleich fachlich überprüft."
+  },
+  "LS01:informieren:1:5": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Die vier Interessenperspektiven werden gemeinsam mit Beiträgen und Zielkonflikten abgestimmt."
+  },
+  "LS01:informieren:1:6": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Betriebsarten und Begründungen werden zu zweit gegenübergestellt und gegengeprüft."
+  },
+  "LS01:informieren:1:7": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Die Prozesskette verbindet Beiträge zu Einkauf, Produktion, Vertrieb und Zahlung in der Vierergruppe."
+  },
+  "LS01:informieren:1:8": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Die zweiminütige Problemdiagnose ist eine gemeinsame Sicherung der vier Gruppenmitglieder."
+  },
+  "LS01:informieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Die Quelle verlangt zunächst eine persönliche Analyse; die folgenden Pakete werden anschließend abgestimmt."
+  },
+  "LS01:informieren:2:2": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Gründerprofile und Kundenimpulse können zu zweit ausgewertet und danach in die Vierergruppe eingebracht werden."
+  },
+  "LS01:informieren:2:3": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Ziele und Stakeholderkonflikte erfordern den gemeinsamen Abgleich mehrerer Perspektiven."
+  },
+  "LS01:informieren:2:4": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Die Betriebsart und der Prozessvergleich werden im Tandem fachlich gegengeprüft."
+  },
+  "LS01:informieren:2:5": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Die Problemdiagnose bündelt alle Analysepakete; Strukturhilfen bleiben wählbar."
+  },
+  "LS01:informieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:informieren:3:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die fachlichen Pflichtbereiche werden gemeinsam auf belastbare Aussagen geprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:informieren:3:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Materialaufteilung und Ergebnissicherung erfordern gemeinsame Absprachen. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:informieren:3:4": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Analyse verbindet mehrere betriebliche Perspektiven und wird zu einem gemeinsamen Ergebnis zusammengeführt. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:informieren:4:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Analyse verbindet mehrere betriebliche Perspektiven und wird zu einem gemeinsamen Ergebnis zusammengeführt. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:informieren:4:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Analyse verbindet mehrere betriebliche Perspektiven und wird zu einem gemeinsamen Ergebnis zusammengeführt. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:informieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:informieren:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Analyse verbindet mehrere betriebliche Perspektiven und wird zu einem gemeinsamen Ergebnis zusammengeführt. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:informieren:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Der gemeinsame Zwischenstand wird erklärt und auf Nachvollziehbarkeit geprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:planen:1:1": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Arbeitsplanung wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS01:planen:1:2": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Kriterienentwurf wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS01:planen:1:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Zielformulierung wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS01:planen:1:4": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Zielbeziehungen wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS01:planen:2:1": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+  },
+  "LS01:planen:2:2": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+  },
+  "LS01:planen:2:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Zielvorschläge und ihre Beziehungen werden zu zweit vorbereitet und anschließend im Team abgestimmt."
+  },
+  "LS01:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:planen:3:2": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "reason": "Entwürfe und fachliche Abhängigkeiten können im Tandem vorbereitet und danach gemeinsam vereinbart werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:planen:3:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "reason": "Entwürfe und fachliche Abhängigkeiten können im Tandem vorbereitet und danach gemeinsam vereinbart werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:planen:3:4": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:planen:4:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:planen:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:planen:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:planen:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die gemeinsame Planfreigabe verlangt übereinstimmende Zuständigkeiten, Termine und Qualitätsstandards. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:entscheiden:1:1": {
+    "kind": "group",
+    "label": "Gründerrollen · Entscheidungsrunde",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS01:entscheiden:1:2": {
+    "kind": "group",
+    "label": "Gründerrollen · Entscheidungsrunde",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS01:entscheiden:1:3": {
+    "kind": "group",
+    "label": "Gründerrollen · Entscheidungsrunde",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS01:entscheiden:1:4": {
+    "kind": "group",
+    "label": "Gründerrollen · Entscheidungsrunde",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS01:entscheiden:2:1": {
+    "kind": "group",
+    "label": "Gründerrollen · Entscheidungsrunde",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS01:entscheiden:2:2": {
+    "kind": "group",
+    "label": "Gründerrollen · Entscheidungsrunde",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS01:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:entscheiden:3:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:entscheiden:3:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Gründerrollen · Entscheidungsrunde",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS01:entscheiden:4:2": {
+    "kind": "group",
+    "label": "Gründerrollen · Entscheidungsrunde",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS01:entscheiden:4:3": {
+    "kind": "group",
+    "label": "Gruppe · Checkpoint mit Lehrkraft",
+    "reason": "Die Gruppe stellt der Lehrkraft Entscheidung, Belege und Alternativen vor; die unternehmerische Wahl bleibt bei den Lernenden."
+  },
+  "LS01:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:entscheiden:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:entscheiden:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:durchfuehren:1:1": {
+    "kind": "group",
+    "label": "Vierergruppe · Zusammenführung",
+    "reason": "Die vereinbarten Teilbeiträge werden arbeitsteilig umgesetzt, geprüft und gemeinsam zu einem konsistenten Handlungsergebnis verbunden."
+  },
+  "LS01:durchfuehren:2:1": {
+    "kind": "group",
+    "label": "Vierergruppe · Zusammenführung",
+    "reason": "Die vereinbarten Teilbeiträge werden arbeitsteilig umgesetzt, geprüft und gemeinsam zu einem konsistenten Handlungsergebnis verbunden."
+  },
+  "LS01:durchfuehren:2:2": {
+    "kind": "group",
+    "label": "Vierergruppe · Zusammenführung",
+    "reason": "Die vereinbarten Teilbeiträge werden arbeitsteilig umgesetzt, geprüft und gemeinsam zu einem konsistenten Handlungsergebnis verbunden."
+  },
+  "LS01:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:durchfuehren:4:2": {
+    "kind": "group",
+    "label": "Gruppe · Checkpoint mit Lehrkraft",
+    "reason": "Der vollständige gemeinsame Entwurf wird der Lehrkraft vorgestellt; die Gruppe hält Rückmeldungen und notwendige Korrekturen fest."
+  },
+  "LS01:durchfuehren:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:durchfuehren:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Partnergruppen · Peer-Check",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS01:bewerten:2:1": {
+    "kind": "partner-groups",
+    "label": "Partnergruppen · Peer-Check",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS01:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Partnergruppen · Peer-Check",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS01:bewerten:4:1": {
+    "kind": "partner-groups",
+    "label": "Partnergruppen · Peer-Check",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS01:bewerten:5:1": {
+    "kind": "partner-groups",
+    "label": "Partnergruppen (Empfehlung)",
+    "reason": "Peer-Feedback ist eine passende Orientierung; laut Ausgangsauftrag bleiben eigener Kriteriencheck, Probe-Termin oder deren Kombination wählbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS01:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS01:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS01:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS01:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Die eigene Diagnose des Entscheidungsproblems und seiner Risiken geht dem Gruppenaustausch voraus."
+  },
+  "LS02:informieren:1:2": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Voraussetzungen und begründete Mehrfachzuordnungen werden zu zweit abgeglichen."
+  },
+  "LS02:informieren:1:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Standortfragen und Belege werden im Tandem auf Vollständigkeit überprüft."
+  },
+  "LS02:informieren:1:4": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Kompetenzlücken und Verantwortungen der vier Gründerpersonen werden gemeinsam abgeglichen."
+  },
+  "LS02:informieren:1:5": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Die Quellenakte wird innerhalb der Vierergruppe arbeitsteilig erschlossen und danach zusammengeführt."
+  },
+  "LS02:informieren:1:6": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Die drei ungeprüften Quellen werden zu zweit anhand derselben Qualitätsmerkmale gegengeprüft."
+  },
+  "LS02:informieren:1:7": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Jede Person erklärt selbst den Zusammenhang von Gründungsfahrplan und Businessplan."
+  },
+  "LS02:informieren:1:8": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Die gemeinsame Übersicht führt die arbeitsteiligen Ergebnisse mit offiziellen Quellen zusammen."
+  },
+  "LS02:informieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Der Einstieg ist in der Quelle ausdrücklich als persönliche Problemanalyse angelegt."
+  },
+  "LS02:informieren:2:2": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Standortfragen und Zuordnungen werden materialgestützt im Tandem abgeglichen."
+  },
+  "LS02:informieren:2:3": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Verantwortung und Kompetenzlücken betreffen die vier Gründerrollen und werden gemeinsam bestimmt."
+  },
+  "LS02:informieren:2:4": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Die Quellenakte wird aufgeteilt; alle vier Beiträge werden im gemeinsamen Ergebnis gesichert."
+  },
+  "LS02:informieren:2:5": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Die Übersicht und Quellenprüfung sichern die gemeinsame Arbeit; angebotene Hilfen bleiben optional."
+  },
+  "LS02:informieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:informieren:3:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Analyse verbindet mehrere betriebliche Perspektiven und wird zu einem gemeinsamen Ergebnis zusammengeführt. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:informieren:3:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "reason": "Ein Partnercheck unterstützt die Prüfung von Zuständigkeit, Aktualität und Verbindlichkeit. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:informieren:3:4": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Der gemeinsame Zwischenstand wird erklärt und auf Nachvollziehbarkeit geprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:informieren:4:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Analyse verbindet mehrere betriebliche Perspektiven und wird zu einem gemeinsamen Ergebnis zusammengeführt. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:informieren:4:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "reason": "Ein Partnercheck unterstützt die Prüfung von Zuständigkeit, Aktualität und Verbindlichkeit. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:informieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:informieren:5:2": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "reason": "Ein Partnercheck unterstützt die Prüfung von Zuständigkeit, Aktualität und Verbindlichkeit. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:informieren:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Analyse verbindet mehrere betriebliche Perspektiven und wird zu einem gemeinsamen Ergebnis zusammengeführt. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:informieren:5:4": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Der gemeinsame Zwischenstand wird erklärt und auf Nachvollziehbarkeit geprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:planen:1:1": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Maßnahmenfolge wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS02:planen:1:2": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Gründerrollen wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS02:planen:1:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Erledigungsnachweise wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS02:planen:1:4": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Beratungskriterien wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS02:planen:2:1": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+  },
+  "LS02:planen:2:2": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+  },
+  "LS02:planen:2:3": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+  },
+  "LS02:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:planen:3:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:planen:3:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:planen:3:4": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:planen:4:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:planen:4:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:planen:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:planen:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:planen:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die gemeinsame Planfreigabe verlangt übereinstimmende Zuständigkeiten, Termine und Qualitätsstandards. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:entscheiden:1:1": {
+    "kind": "group",
+    "label": "Vierergruppe · Beratungswahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS02:entscheiden:1:2": {
+    "kind": "group",
+    "label": "Vierergruppe · Beratungswahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS02:entscheiden:1:3": {
+    "kind": "group",
+    "label": "Vierergruppe · Beratungswahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS02:entscheiden:1:4": {
+    "kind": "group",
+    "label": "Vierergruppe · Beratungswahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS02:entscheiden:2:1": {
+    "kind": "group",
+    "label": "Vierergruppe · Beratungswahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS02:entscheiden:2:2": {
+    "kind": "group",
+    "label": "Vierergruppe · Beratungswahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS02:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:entscheiden:3:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:entscheiden:3:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Vierergruppe · Beratungswahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS02:entscheiden:4:2": {
+    "kind": "group",
+    "label": "Vierergruppe · Beratungswahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS02:entscheiden:4:3": {
+    "kind": "group",
+    "label": "Gruppe · Checkpoint mit Lehrkraft",
+    "reason": "Die Gruppe stellt der Lehrkraft Entscheidung, Belege und Alternativen vor; die unternehmerische Wahl bleibt bei den Lernenden."
+  },
+  "LS02:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:entscheiden:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:entscheiden:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:durchfuehren:1:1": {
+    "kind": "group",
+    "label": "Vierergruppe · Zusammenführung",
+    "reason": "Die vereinbarten Teilbeiträge werden arbeitsteilig umgesetzt, geprüft und gemeinsam zu einem konsistenten Handlungsergebnis verbunden."
+  },
+  "LS02:durchfuehren:2:1": {
+    "kind": "group",
+    "label": "Vierergruppe · Zusammenführung",
+    "reason": "Die vereinbarten Teilbeiträge werden arbeitsteilig umgesetzt, geprüft und gemeinsam zu einem konsistenten Handlungsergebnis verbunden."
+  },
+  "LS02:durchfuehren:2:2": {
+    "kind": "group",
+    "label": "Vierergruppe · Zusammenführung",
+    "reason": "Die vereinbarten Teilbeiträge werden arbeitsteilig umgesetzt, geprüft und gemeinsam zu einem konsistenten Handlungsergebnis verbunden."
+  },
+  "LS02:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:durchfuehren:4:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:durchfuehren:4:3": {
+    "kind": "group",
+    "label": "Gruppe · Checkpoint mit Lehrkraft",
+    "reason": "Der vollständige gemeinsame Entwurf wird der Lehrkraft vorgestellt; die Gruppe hält Rückmeldungen und notwendige Korrekturen fest."
+  },
+  "LS02:durchfuehren:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:durchfuehren:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Partnergruppen · Plancheck",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS02:bewerten:2:1": {
+    "kind": "partner-groups",
+    "label": "Partnergruppen · Plancheck",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS02:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Partnergruppen · Plancheck",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS02:bewerten:4:1": {
+    "kind": "partner-groups",
+    "label": "Partnergruppen · Plancheck",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS02:bewerten:5:1": {
+    "kind": "partner-groups",
+    "label": "Partnergruppen · Plancheck",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS02:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS02:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS02:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS02:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS02:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Zunächst wird das Unternehmensproblem eigenständig verstanden, bevor Expertisen verteilt werden."
+  },
+  "LS03:informieren:1:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Produkt",
+    "reason": "Die Produktexpertise erschließt alle fünf Konzepte für die spätere Stammgruppe."
+  },
+  "LS03:informieren:1:3": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Markt",
+    "reason": "Die Marktexpertise wertet Kundendaten und Absatzannahmen nachvollziehbar aus."
+  },
+  "LS03:informieren:1:4": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Markt",
+    "reason": "Die Wettbewerbsanalyse ergänzt die Marktexpertise und wird später materialgestützt erklärt."
+  },
+  "LS03:informieren:1:5": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Marketing",
+    "reason": "Die Marketingexpertise prüft die vier Instrumente und ihre Abhängigkeiten."
+  },
+  "LS03:informieren:1:6": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Kapital",
+    "reason": "Die Kapitalexpertise erstellt nachvollziehbare Berechnungen für das gesamte Team."
+  },
+  "LS03:informieren:1:7": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Kapazität",
+    "reason": "Die Kapazitätsexpertise prüft Mengen, Kapazität und Überschuss für die Stammgruppe."
+  },
+  "LS03:informieren:1:8": {
+    "kind": "group",
+    "label": "Stammgruppe",
+    "reason": "Widerspruchsnotizen verbinden alle Fachkapitel und werden gemeinsam in der Stammgruppe geklärt."
+  },
+  "LS03:informieren:1:9": {
+    "kind": "expert-group",
+    "label": "Expertengruppe → Stammgruppe",
+    "reason": "Der Kurzbericht wird in der Expertise vorbereitet und nur nachvollziehbar in die Stammgruppe übernommen."
+  },
+  "LS03:informieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Die eigene Sichtung des Bankfähigkeitsproblems ist in der Quelle vor dem Expertenaustausch vorgesehen."
+  },
+  "LS03:informieren:2:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Angebot/Markt",
+    "reason": "Das begleitete Fachpaket verbindet Produkt, Kundschaft und Wettbewerb."
+  },
+  "LS03:informieren:2:3": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Marketing",
+    "reason": "Das Fachpaket prüft Marketing und Folgen für Umsetzung und Lieferfähigkeit."
+  },
+  "LS03:informieren:2:4": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Kapital",
+    "reason": "Das Fachpaket verbindet Kapital-, Kapazitätsrechnung und Widerspruchsanalyse."
+  },
+  "LS03:informieren:2:5": {
+    "kind": "expert-group",
+    "label": "Expertengruppe → Stammgruppe",
+    "reason": "Jede Expertise erläutert ihren Kurzbericht; die Stammgruppe prüft Nachvollziehbarkeit."
+  },
+  "LS03:informieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:informieren:3:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:informieren:3:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "reason": "Daten und Annahmen können im Tandem systematisch gegengeprüft werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:informieren:3:4": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Der gemeinsame Zwischenstand wird erklärt und auf Nachvollziehbarkeit geprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:informieren:4:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:informieren:4:3": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:informieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:informieren:5:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:informieren:5:3": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:informieren:5:4": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Der gemeinsame Zwischenstand wird erklärt und auf Nachvollziehbarkeit geprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:planen:1:1": {
+    "kind": "group",
+    "label": "Stammgruppe",
+    "reason": "Redaktionsplanung wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS03:planen:1:2": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Kapitelabhängigkeiten wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS03:planen:1:3": {
+    "kind": "group",
+    "label": "Stammgruppe",
+    "reason": "Entscheidungskriterien wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS03:planen:1:4": {
+    "kind": "group",
+    "label": "Stammgruppe",
+    "reason": "Dokumentationsregeln wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS03:planen:2:1": {
+    "kind": "group",
+    "label": "Stammgruppe",
+    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+  },
+  "LS03:planen:2:2": {
+    "kind": "group",
+    "label": "Stammgruppe",
+    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+  },
+  "LS03:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:planen:3:2": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "reason": "Entwürfe und fachliche Abhängigkeiten können im Tandem vorbereitet und danach gemeinsam vereinbart werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:planen:3:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:planen:3:4": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:planen:4:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:planen:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:planen:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:planen:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die gemeinsame Planfreigabe verlangt übereinstimmende Zuständigkeiten, Termine und Qualitätsstandards. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:entscheiden:1:1": {
+    "kind": "group",
+    "label": "Stammgruppe · Geschäftsführung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS03:entscheiden:1:2": {
+    "kind": "group",
+    "label": "Stammgruppe · Geschäftsführung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS03:entscheiden:1:3": {
+    "kind": "group",
+    "label": "Stammgruppe · Geschäftsführung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS03:entscheiden:1:4": {
+    "kind": "group",
+    "label": "Stammgruppe · Geschäftsführung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS03:entscheiden:1:5": {
+    "kind": "group",
+    "label": "Stammgruppe · Geschäftsführung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS03:entscheiden:2:1": {
+    "kind": "group",
+    "label": "Stammgruppe · Geschäftsführung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS03:entscheiden:2:2": {
+    "kind": "group",
+    "label": "Stammgruppe · Geschäftsführung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS03:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:entscheiden:3:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:entscheiden:3:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:entscheiden:3:4": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Stammgruppe · Geschäftsführung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS03:entscheiden:4:2": {
+    "kind": "group",
+    "label": "Gruppe · Checkpoint mit Lehrkraft",
+    "reason": "Die Gruppe stellt der Lehrkraft Entscheidung, Belege und Alternativen vor; die unternehmerische Wahl bleibt bei den Lernenden."
+  },
+  "LS03:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:entscheiden:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:entscheiden:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:durchfuehren:1:1": {
+    "kind": "group",
+    "label": "Stammgruppe · Redaktion",
+    "reason": "Die vereinbarten Teilbeiträge werden arbeitsteilig umgesetzt, geprüft und gemeinsam zu einem konsistenten Handlungsergebnis verbunden."
+  },
+  "LS03:durchfuehren:2:1": {
+    "kind": "group",
+    "label": "Stammgruppe · Redaktion",
+    "reason": "Die vereinbarten Teilbeiträge werden arbeitsteilig umgesetzt, geprüft und gemeinsam zu einem konsistenten Handlungsergebnis verbunden."
+  },
+  "LS03:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:durchfuehren:4:2": {
+    "kind": "group",
+    "label": "Gruppe · Checkpoint mit Lehrkraft",
+    "reason": "Der vollständige gemeinsame Entwurf wird der Lehrkraft vorgestellt; die Gruppe hält Rückmeldungen und notwendige Korrekturen fest."
+  },
+  "LS03:durchfuehren:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:durchfuehren:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Prüfgruppen · Konsistenzcheck",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS03:bewerten:2:1": {
+    "kind": "partner-groups",
+    "label": "Prüfgruppen · Konsistenzcheck",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS03:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Prüfgruppen · Konsistenzcheck",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS03:bewerten:4:1": {
+    "kind": "partner-groups",
+    "label": "Prüfgruppen · Konsistenzcheck",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS03:bewerten:5:1": {
+    "kind": "partner-groups",
+    "label": "Prüfgruppen · Konsistenzcheck",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS03:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS03:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS03:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS03:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS03:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Die Finanzierungsproblemdiagnose beginnt eigenständig mit Kapitalbedarf, Eigenmitteln und Lücke."
+  },
+  "LS04:informieren:1:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppen · Finanzierung",
+    "reason": "Die Finanzierungsformen werden in den vorgesehenen Fachgruppen parallel erschlossen."
+  },
+  "LS04:informieren:1:3": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Darlehen",
+    "reason": "Die Darlehensexpertise erklärt den vollständigen Rechenweg."
+  },
+  "LS04:informieren:1:4": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Kontokorrent",
+    "reason": "Die Kontokorrentexpertise klärt Kosten und verbleibende Rückzahlungsverpflichtung."
+  },
+  "LS04:informieren:1:5": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Leasing",
+    "reason": "Die Leasingexpertise vergleicht Gesamtbetrag, Kaufpreis und Aussagegrenzen."
+  },
+  "LS04:informieren:1:6": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Tragfähigkeit",
+    "reason": "Die Tragfähigkeitsexpertise prüft Plan- und Stressszenario nachvollziehbar."
+  },
+  "LS04:informieren:1:7": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Der Vergleich der Finanzierungsmixe führt die unterschiedlichen Fachbeiträge zusammen."
+  },
+  "LS04:informieren:1:8": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Fachinformation",
+    "reason": "Jede Expertise vermittelt ihren Fachbeitrag mit sichtbaren Rechenwegen."
+  },
+  "LS04:informieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Die eigene Sichtung beginnt mit dem Zusammenhang zwischen Kapitalbedarf, Eigenmitteln und Lücke."
+  },
+  "LS04:informieren:2:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppen · Finanzierung",
+    "reason": "Darlehen, Kontokorrent und Leasing werden in den angekündigten Expertisen geprüft."
+  },
+  "LS04:informieren:2:3": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Tragfähigkeit",
+    "reason": "Die Tragfähigkeitsexpertise führt Plan-/Stressrechnung und Vergleich der Kombinationen zusammen."
+  },
+  "LS04:informieren:2:4": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Fachinformation",
+    "reason": "Die fünfminütige Fachinformation sichert nachvollziehbare Rechnungen für alle."
+  },
+  "LS04:informieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:informieren:3:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:informieren:3:3": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:informieren:3:4": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Der gemeinsame Zwischenstand wird erklärt und auf Nachvollziehbarkeit geprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:informieren:4:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:informieren:4:3": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:informieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:informieren:5:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:informieren:5:3": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:informieren:5:4": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Der gemeinsame Zwischenstand wird erklärt und auf Nachvollziehbarkeit geprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:planen:1:1": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Finanzierungskriterien wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS04:planen:1:2": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Pitchrollen wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS04:planen:1:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Visualisierung wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS04:planen:1:4": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Rückfragen wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS04:planen:2:1": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+  },
+  "LS04:planen:2:2": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+  },
+  "LS04:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:planen:3:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:planen:3:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "reason": "Entwürfe und fachliche Abhängigkeiten können im Tandem vorbereitet und danach gemeinsam vereinbart werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:planen:3:4": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "reason": "Entwürfe und fachliche Abhängigkeiten können im Tandem vorbereitet und danach gemeinsam vereinbart werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:planen:4:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:planen:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:planen:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:planen:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die gemeinsame Planfreigabe verlangt übereinstimmende Zuständigkeiten, Termine und Qualitätsstandards. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:entscheiden:1:1": {
+    "kind": "group",
+    "label": "Vierergruppe · Finanzierung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS04:entscheiden:1:2": {
+    "kind": "group",
+    "label": "Vierergruppe · Finanzierung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS04:entscheiden:1:3": {
+    "kind": "group",
+    "label": "Vierergruppe · Finanzierung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS04:entscheiden:1:4": {
+    "kind": "group",
+    "label": "Vierergruppe · Finanzierung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS04:entscheiden:2:1": {
+    "kind": "group",
+    "label": "Vierergruppe · Finanzierung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS04:entscheiden:2:2": {
+    "kind": "group",
+    "label": "Vierergruppe · Finanzierung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS04:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:entscheiden:3:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:entscheiden:3:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Vierergruppe · Finanzierung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS04:entscheiden:4:2": {
+    "kind": "group",
+    "label": "Gruppe · Checkpoint mit Lehrkraft",
+    "reason": "Die Gruppe stellt der Lehrkraft Entscheidung, Belege und Alternativen vor; die unternehmerische Wahl bleibt bei den Lernenden."
+  },
+  "LS04:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:entscheiden:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:entscheiden:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:durchfuehren:1:1": {
+    "kind": "group",
+    "label": "Pitchteam · Vier Sprechrollen",
+    "reason": "Die Präsentation ist eine gemeinsame Leistung; alle Teammitglieder tragen vor und bleiben fachlich auskunftsfähig. Die vorgesehene Rolle des Finanzierungsgremiums bleibt erhalten."
+  },
+  "LS04:durchfuehren:2:1": {
+    "kind": "group",
+    "label": "Pitchteam · Vier Sprechrollen",
+    "reason": "Die Präsentation ist eine gemeinsame Leistung; alle Teammitglieder tragen vor und bleiben fachlich auskunftsfähig. Die vorgesehene Rolle des Finanzierungsgremiums bleibt erhalten."
+  },
+  "LS04:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Pitchteam",
+    "reason": "Die Präsentation ist eine gemeinsame Leistung; alle Teammitglieder tragen vor und bleiben fachlich auskunftsfähig. Die vorgesehene Rolle des Finanzierungsgremiums bleibt erhalten."
+  },
+  "LS04:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Pitchteam · Vier Sprechrollen",
+    "reason": "Die Präsentation ist eine gemeinsame Leistung; alle Teammitglieder tragen vor und bleiben fachlich auskunftsfähig. Die vorgesehene Rolle des Finanzierungsgremiums bleibt erhalten."
+  },
+  "LS04:durchfuehren:4:2": {
+    "kind": "group",
+    "label": "Gruppe · Checkpoint mit Lehrkraft",
+    "reason": "Der vollständige gemeinsame Entwurf wird der Lehrkraft vorgestellt; die Gruppe hält Rückmeldungen und notwendige Korrekturen fest."
+  },
+  "LS04:durchfuehren:4:3": {
+    "kind": "group",
+    "label": "Pitchteam · Vier Sprechrollen",
+    "reason": "Die Präsentation ist eine gemeinsame Leistung; alle Teammitglieder tragen vor und bleiben fachlich auskunftsfähig. Die vorgesehene Rolle des Finanzierungsgremiums bleibt erhalten."
+  },
+  "LS04:durchfuehren:5:1": {
+    "kind": "group",
+    "label": "Pitchteam",
+    "reason": "Die Präsentation ist eine gemeinsame Leistung; alle Teammitglieder tragen vor und bleiben fachlich auskunftsfähig. Die vorgesehene Rolle des Finanzierungsgremiums bleibt erhalten."
+  },
+  "LS04:durchfuehren:5:2": {
+    "kind": "group",
+    "label": "Pitchteam",
+    "reason": "Die Präsentation ist eine gemeinsame Leistung; alle Teammitglieder tragen vor und bleiben fachlich auskunftsfähig. Die vorgesehene Rolle des Finanzierungsgremiums bleibt erhalten."
+  },
+  "LS04:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Finanzierungsgremium ↔ Pitchteam",
+    "reason": "Ein anderes Team prüft als Finanzierungsgremium; das Pitchteam verarbeitet dessen fachliches Feedback. Selbst organisierte Prüf- und Feedbackgestaltung bleiben erhalten."
+  },
+  "LS04:bewerten:2:1": {
+    "kind": "partner-groups",
+    "label": "Finanzierungsgremium ↔ Pitchteam",
+    "reason": "Ein anderes Team prüft als Finanzierungsgremium; das Pitchteam verarbeitet dessen fachliches Feedback. Selbst organisierte Prüf- und Feedbackgestaltung bleiben erhalten."
+  },
+  "LS04:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Finanzierungsgremium ↔ Pitchteam",
+    "reason": "Ein anderes Team prüft als Finanzierungsgremium; das Pitchteam verarbeitet dessen fachliches Feedback. Selbst organisierte Prüf- und Feedbackgestaltung bleiben erhalten."
+  },
+  "LS04:bewerten:4:1": {
+    "kind": "partner-groups",
+    "label": "Finanzierungsgremium ↔ Pitchteam",
+    "reason": "Ein anderes Team prüft als Finanzierungsgremium; das Pitchteam verarbeitet dessen fachliches Feedback. Selbst organisierte Prüf- und Feedbackgestaltung bleiben erhalten."
+  },
+  "LS04:bewerten:5:1": {
+    "kind": "partner-groups",
+    "label": "Finanzierungsgremium ↔ Pitchteam",
+    "reason": "Ein anderes Team prüft als Finanzierungsgremium; das Pitchteam verarbeitet dessen fachliches Feedback. Selbst organisierte Prüf- und Feedbackgestaltung bleiben erhalten."
+  },
+  "LS04:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS04:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS04:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS04:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS04:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Der persönliche Einstieg identifiziert Entscheidungsproblem und benötigte Auskünfte."
+  },
+  "LS05:informieren:1:2": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Gründerinteressen, Beiträge und Rechte werden zu zweit materialgestützt abgeglichen."
+  },
+  "LS05:informieren:1:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Wirtschaftliche Haftungsfolgen der Verpflichtungen werden im Tandem überprüft."
+  },
+  "LS05:informieren:1:4": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Rechtsform",
+    "reason": "Die Quelle verlangt ausdrücklich die arbeitsteilige Erschließung je einer Rechtsform."
+  },
+  "LS05:informieren:1:5": {
+    "kind": "group",
+    "label": "Stammgruppe",
+    "reason": "Die vier Rechtsformexpertisen werden anhand gemeinsamer Merkmale in der Stammgruppe verglichen."
+  },
+  "LS05:informieren:1:6": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Die konkreten Haftungsfälle werden anhand derselben Rechtsgrundlagen gegenseitig geprüft."
+  },
+  "LS05:informieren:1:7": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Gesetzesbelege und korrigierte Chat-Aussagen werden im Partnercheck kontrolliert."
+  },
+  "LS05:informieren:1:8": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Die formalen Gründungsschritte werden gemeinsam in eine belastbare Folge gebracht."
+  },
+  "LS05:informieren:1:9": {
+    "kind": "group",
+    "label": "Stammgruppe",
+    "reason": "Die quellenbelegte Vergleichstabelle sichert die Ergebnisse aller Expertisen."
+  },
+  "LS05:informieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit → Vierergruppe",
+    "reason": "Die Quelle sieht Einzelarbeit vor; eigene Interessen- und Risikobefunde werden anschließend in der Vierergruppe abgeglichen."
+  },
+  "LS05:informieren:2:2": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "W2 fordert einen gemeinsamen Rechtsformvergleich; keine verpflichtenden neuen Expertengruppen."
+  },
+  "LS05:informieren:2:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Haftungsfälle und Chatbehauptungen werden zu zweit mit Quellen geprüft und anschließend zurückgemeldet."
+  },
+  "LS05:informieren:2:4": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Alle vier Mitglieder sichern die Vergleichstabelle und erläutern Geschäftsführung versus Vertretung."
+  },
+  "LS05:informieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:informieren:3:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:informieren:3:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "reason": "Kritische Rechtsbehauptungen werden anhand der Quellen gegenseitig überprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:informieren:3:4": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Der gemeinsame Zwischenstand wird erklärt und auf Nachvollziehbarkeit geprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:informieren:4:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:informieren:4:3": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:informieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:informieren:5:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:informieren:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Der gemeinsame Zwischenstand wird erklärt und auf Nachvollziehbarkeit geprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:planen:1:1": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Kriterien und Gewichte wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS05:planen:1:2": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Entscheidungsablauf wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS05:planen:1:3": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Grenzbedingungen wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS05:planen:1:4": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Beteiligungsmodelle wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS05:planen:2:1": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+  },
+  "LS05:planen:2:2": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+  },
+  "LS05:planen:2:3": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+  },
+  "LS05:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:planen:3:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:planen:3:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:planen:4:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:planen:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:planen:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:planen:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die gemeinsame Planfreigabe verlangt übereinstimmende Zuständigkeiten, Termine und Qualitätsstandards. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:entscheiden:1:1": {
+    "kind": "group",
+    "label": "Gründerrollen · Rechtsformwahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS05:entscheiden:1:2": {
+    "kind": "group",
+    "label": "Gründerrollen · Rechtsformwahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS05:entscheiden:1:3": {
+    "kind": "group",
+    "label": "Gründerrollen · Rechtsformwahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS05:entscheiden:1:4": {
+    "kind": "group",
+    "label": "Gründerrollen · Rechtsformwahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS05:entscheiden:1:5": {
+    "kind": "group",
+    "label": "Gründerrollen · Rechtsformwahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS05:entscheiden:2:1": {
+    "kind": "group",
+    "label": "Gründerrollen · Rechtsformwahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS05:entscheiden:2:2": {
+    "kind": "group",
+    "label": "Gründerrollen · Rechtsformwahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS05:entscheiden:2:3": {
+    "kind": "group",
+    "label": "Gründerrollen · Rechtsformwahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS05:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:entscheiden:3:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:entscheiden:3:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:entscheiden:3:4": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Gründerrollen · Rechtsformwahl",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS05:entscheiden:4:2": {
+    "kind": "group",
+    "label": "Gruppe · Checkpoint mit Lehrkraft",
+    "reason": "Die Gruppe stellt der Lehrkraft Entscheidung, Belege und Alternativen vor; die unternehmerische Wahl bleibt bei den Lernenden."
+  },
+  "LS05:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:entscheiden:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:entscheiden:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:durchfuehren:1:1": {
+    "kind": "group",
+    "label": "Vierergruppe · Zusammenführung",
+    "reason": "Die vereinbarten Teilbeiträge werden arbeitsteilig umgesetzt, geprüft und gemeinsam zu einem konsistenten Handlungsergebnis verbunden."
+  },
+  "LS05:durchfuehren:2:1": {
+    "kind": "group",
+    "label": "Vierergruppe · Zusammenführung",
+    "reason": "Die vereinbarten Teilbeiträge werden arbeitsteilig umgesetzt, geprüft und gemeinsam zu einem konsistenten Handlungsergebnis verbunden."
+  },
+  "LS05:durchfuehren:2:2": {
+    "kind": "group",
+    "label": "Vierergruppe · Zusammenführung",
+    "reason": "Die vereinbarten Teilbeiträge werden arbeitsteilig umgesetzt, geprüft und gemeinsam zu einem konsistenten Handlungsergebnis verbunden."
+  },
+  "LS05:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:durchfuehren:4:2": {
+    "kind": "group",
+    "label": "Gruppe · Checkpoint mit Lehrkraft",
+    "reason": "Der vollständige gemeinsame Entwurf wird der Lehrkraft vorgestellt; die Gruppe hält Rückmeldungen und notwendige Korrekturen fest."
+  },
+  "LS05:durchfuehren:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Partnergruppen · Rechtscheck",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS05:bewerten:2:1": {
+    "kind": "partner-groups",
+    "label": "Partnergruppen · Rechtscheck",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS05:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Partnergruppen · Rechtscheck",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS05:bewerten:4:1": {
+    "kind": "partner-groups",
+    "label": "Partnergruppen · Rechtscheck",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS05:bewerten:5:1": {
+    "kind": "partner-groups",
+    "label": "Partnergruppen · Rechtscheck",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS05:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS05:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS05:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS05:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS05:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Jede Person erschließt zuerst die Dokumentenkette und ihre rechtliche Funktion."
+  },
+  "LS06:informieren:1:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Vertrag",
+    "reason": "Die Vertragsexpertise prüft den Zeitpunkt und Inhalt des Vertragsschlusses."
+  },
+  "LS06:informieren:1:3": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Vertrag",
+    "reason": "Die Vertragsexpertise hält die endgültig geltenden Vertragsinhalte fest."
+  },
+  "LS06:informieren:1:4": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Vertrag",
+    "reason": "Die Vertragsexpertise überprüft sämtliche Wirksamkeitsvoraussetzungen."
+  },
+  "LS06:informieren:1:5": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Vertrag",
+    "reason": "Die Vertragsexpertise verbindet Hauptpflichten mit betrieblichen Folgen."
+  },
+  "LS06:informieren:1:6": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Zahlung",
+    "reason": "Die Zahlungsexpertise vergleicht die vier Optionen mit nachvollziehbaren Rechnungen."
+  },
+  "LS06:informieren:1:7": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Reklamation",
+    "reason": "Die Reklamationsexpertise bestimmt Mangelart, Menge und Wert."
+  },
+  "LS06:informieren:1:8": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Reklamation",
+    "reason": "Die Reklamationsexpertise prüft Rüge und Käuferrechte mit Rechtsbelegen."
+  },
+  "LS06:informieren:1:9": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Reklamation",
+    "reason": "Die Reklamationsexpertise grenzt gesicherte Ursachen und geeignete Reaktionen ab."
+  },
+  "LS06:informieren:1:10": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Personal",
+    "reason": "Die Personalexpertise vergleicht Stunden, Kosten und Wirkungen der Beschäftigungsformen."
+  },
+  "LS06:informieren:1:11": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Personal",
+    "reason": "Die Personalexpertise prüft den Arbeitsvertragsentwurf anhand der angegebenen Quellen."
+  },
+  "LS06:informieren:1:12": {
+    "kind": "expert-group",
+    "label": "Expertengruppe → Stammgruppe",
+    "reason": "Jede Expertise übergibt eine belegte Prüfnotiz und erläutert deren Folgerung für BioCasa."
+  },
+  "LS06:informieren:2:1": {
+    "kind": "expert-group",
+    "label": "Einzelarbeit → Expertengruppe",
+    "reason": "Die vier Expertisen sind ausdrücklich vorgesehen; vor dem Austausch wird die Dokumentenkette eigenständig gesichtet."
+  },
+  "LS06:informieren:2:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Zahlung",
+    "reason": "Die Zahlungsexpertise rechnet und vergleicht für beide Unternehmensperspektiven."
+  },
+  "LS06:informieren:2:3": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Reklamation",
+    "reason": "Die Reklamationsexpertise prüft Mangel, Rüge, Rechte und Lösungsmöglichkeiten."
+  },
+  "LS06:informieren:2:4": {
+    "kind": "expert-group",
+    "label": "Expertengruppe · Personal",
+    "reason": "Die Personalexpertise prüft Beschäftigungsoptionen und Arbeitsvertrag mit Quellen."
+  },
+  "LS06:informieren:2:5": {
+    "kind": "expert-group",
+    "label": "Expertengruppe → Stammgruppe",
+    "reason": "Die Expertise übergibt ihre Prüfnotiz; alle Befunde werden vor der Übernahme zusammengeführt."
+  },
+  "LS06:informieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:informieren:3:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:informieren:3:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "reason": "Quellenbezüge und Rechenwege werden wechselseitig auf Nachvollziehbarkeit geprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:informieren:3:4": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Der gemeinsame Zwischenstand wird erklärt und auf Nachvollziehbarkeit geprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:informieren:4:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:informieren:4:3": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:informieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:informieren:5:2": {
+    "kind": "expert-group",
+    "label": "Expertengruppen (Empfehlung)",
+    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:informieren:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Der gemeinsame Zwischenstand wird erklärt und auf Nachvollziehbarkeit geprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:planen:1:1": {
+    "kind": "group",
+    "label": "Stammgruppe",
+    "reason": "Auftragsplanung wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS06:planen:1:2": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Kundeninformation wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS06:planen:1:3": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Zahlungskriterien wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS06:planen:1:4": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Personalkriterien wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS06:planen:1:5": {
+    "kind": "group",
+    "label": "Stammgruppe",
+    "reason": "Gründerrollen wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+  },
+  "LS06:planen:2:1": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+  },
+  "LS06:planen:2:2": {
+    "kind": "pair",
+    "label": "Partnerarbeit",
+    "reason": "Kundeninformation und interne Prüfung werden im Tandem abgegrenzt und danach gemeinsam freigegeben."
+  },
+  "LS06:planen:2:3": {
+    "kind": "group",
+    "label": "Vierergruppe",
+    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+  },
+  "LS06:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:planen:3:2": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "reason": "Entwürfe und fachliche Abhängigkeiten können im Tandem vorbereitet und danach gemeinsam vereinbart werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:planen:3:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:planen:4:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:planen:4:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:planen:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:planen:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:planen:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die gemeinsame Planfreigabe verlangt übereinstimmende Zuständigkeiten, Termine und Qualitätsstandards. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:entscheiden:1:1": {
+    "kind": "group",
+    "label": "Stammgruppe · Fallentscheidung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS06:entscheiden:1:2": {
+    "kind": "group",
+    "label": "Stammgruppe · Fallentscheidung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS06:entscheiden:1:3": {
+    "kind": "group",
+    "label": "Stammgruppe · Fallentscheidung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS06:entscheiden:1:4": {
+    "kind": "group",
+    "label": "Stammgruppe · Fallentscheidung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS06:entscheiden:1:5": {
+    "kind": "group",
+    "label": "Stammgruppe · Fallentscheidung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS06:entscheiden:2:1": {
+    "kind": "group",
+    "label": "Stammgruppe · Fallentscheidung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS06:entscheiden:2:2": {
+    "kind": "group",
+    "label": "Stammgruppe · Fallentscheidung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS06:entscheiden:2:3": {
+    "kind": "group",
+    "label": "Stammgruppe · Fallentscheidung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS06:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:entscheiden:3:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:entscheiden:3:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Stammgruppe · Fallentscheidung",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+  },
+  "LS06:entscheiden:4:2": {
+    "kind": "group",
+    "label": "Gruppe · Checkpoint mit Lehrkraft",
+    "reason": "Die Gruppe stellt der Lehrkraft Entscheidung, Belege und Alternativen vor; die unternehmerische Wahl bleibt bei den Lernenden."
+  },
+  "LS06:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:entscheiden:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:entscheiden:5:3": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:durchfuehren:1:1": {
+    "kind": "group",
+    "label": "Vierergruppe · Zusammenführung",
+    "reason": "Die vereinbarten Teilbeiträge werden arbeitsteilig umgesetzt, geprüft und gemeinsam zu einem konsistenten Handlungsergebnis verbunden."
+  },
+  "LS06:durchfuehren:2:1": {
+    "kind": "group",
+    "label": "Vierergruppe · Zusammenführung",
+    "reason": "Die vereinbarten Teilbeiträge werden arbeitsteilig umgesetzt, geprüft und gemeinsam zu einem konsistenten Handlungsergebnis verbunden."
+  },
+  "LS06:durchfuehren:2:2": {
+    "kind": "pair",
+    "label": "Partnerarbeit · Kundenmail",
+    "reason": "Ein Tandem verfasst und prüft die Kundenmail; vor der Zusammenführung in die Auftragsakte gibt die Gruppe deren Zusagen frei."
+  },
+  "LS06:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:durchfuehren:4:2": {
+    "kind": "group",
+    "label": "Gruppe · Checkpoint mit Lehrkraft",
+    "reason": "Der vollständige gemeinsame Entwurf wird der Lehrkraft vorgestellt; die Gruppe hält Rückmeldungen und notwendige Korrekturen fest."
+  },
+  "LS06:durchfuehren:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:durchfuehren:5:2": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "reason": "Die Produktteile werden eigenverantwortlich erarbeitet, gegenseitig geprüft und zu einem gemeinsamen adressatengerechten Ergebnis verbunden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Auditgruppe ↔ Erstellergruppe",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS06:bewerten:2:1": {
+    "kind": "partner-groups",
+    "label": "Auditgruppe ↔ Erstellergruppe",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS06:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Auditgruppe ↔ Erstellergruppe",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS06:bewerten:4:1": {
+    "kind": "partner-groups",
+    "label": "Auditgruppe ↔ Erstellergruppe",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS06:bewerten:5:1": {
+    "kind": "partner-groups",
+    "label": "Auditgruppe ↔ Erstellergruppe",
+    "reason": "Eine unabhängige Gegengruppe prüft das vollständige Produkt; die Erstellergruppe entscheidet begründet über Feedback und überarbeitet anschließend."
+  },
+  "LS06:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS06:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS06:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  },
+  "LS06:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+  },
+  "LS06:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+  }
+}

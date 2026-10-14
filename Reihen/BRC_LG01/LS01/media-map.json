@@ -1,14 +1,14 @@
 {
   "slots": {
     "orientation": {
-      "src": "",
-      "alt": "",
-      "label": "Orientierung · optionales Motiv"
+      "src": "assets/images/biocasa-ls01-orientation.png",
+      "alt": "Vier Personen besprechen bei einem Essen am Küchentisch mit Skizzen ihre Geschäftsidee.",
+      "label": "Orientierung · Eine Geschäftsidee entwickeln"
     },
     "situation": {
-      "src": "",
-      "alt": "",
-      "label": "Handlungssituation · optionales Motiv"
+      "src": "assets/images/biocasa-ls01-situation.png",
+      "alt": "Das vierköpfige Gründungsteam bespricht seine Idee an einem Imbissstand am Hafen.",
+      "label": "Handlungssituation · Eine Geschäftsidee entwickeln"
     }
   }
 }

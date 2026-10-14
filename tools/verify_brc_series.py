@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import functools
+import hashlib
 import http.server
 import json
 import math
@@ -23,7 +24,7 @@ from playwright.sync_api import sync_playwright
 
 REPO = Path(__file__).resolve().parents[1]
 PHASES = ['informieren', 'planen', 'entscheiden', 'durchfuehren', 'bewerten', 'reflektieren']
-WIDTHS = [(1024, 768), (768, 1024), (390, 844)]
+WIDTHS = [(1024, 768), (768, 1024), (600, 900), (390, 844)]
 
 
 def payload(path_or_bytes):
@@ -61,6 +62,36 @@ def zip_path(series, lesson):
     return path if path.is_absolute() else REPO / path
 
 
+@functools.lru_cache(maxsize=1)
+def task_forms():
+    return json.loads((REPO / 'Quellen/BRC_LG01/Arbeitsformen.json').read_text())
+
+
+def task_form(lesson, phase, mode, number):
+    forms = task_forms()
+    return forms[f'{lesson["folder"]}:{phase}:{mode}:{number}']
+
+
+def assert_pupil_modes_hidden(page):
+    assert page.locator('[data-mode-label]:visible,.mode-badge:visible,[data-student-mode]:visible,.phase-mode-title:visible').count() == 0
+
+
+def verify_story_image(page, base, lesson, role):
+    expected = lesson['images'][role]
+    figure = page.locator(f'figure.story-photo[data-media-key="{role}"]')
+    assert figure.count() == 1 and figure.is_visible(), (lesson['id'], role)
+    picture = figure.locator('img')
+    assert picture.count() == 1
+    picture.wait_for(state='visible')
+    page.wait_for_function('e=>e.complete&&e.naturalWidth>0&&e.naturalHeight>0', arg=picture.element_handle())
+    assert picture.get_attribute('src') == expected['file']
+    assert picture.get_attribute('alt'), (lesson['id'], role, 'Missing image description')
+    original = REPO / 'Quellen/BRC_LG01/Bilder' / Path(expected['file']).name
+    response = page.request.get(base + expected['file'])
+    assert response.ok and response.body() == original.read_bytes()
+    assert hashlib.sha256(response.body()).hexdigest() == expected['sha256']
+
+
 def verify_manifest(root, archive=None):
     raw = archive.read('imsmanifest.xml') if archive else (root / 'imsmanifest.xml').read_bytes()
     manifest = ET.fromstring(raw)
@@ -78,11 +109,15 @@ def verify_manifest(root, archive=None):
                 paths.append(name)
     assert 'lesson-data.js' in paths and 'progress-meta.js' in paths
     assert 'assets/bbs1-campus-background.png' in paths
+    return paths
 
 
 def verify_artifacts(series, lessons, source):
     independent = read_plan_budgets(source)
     identities, competency_ids = set(), set()
+    task_total = 0
+    image_map = json.loads((REPO / 'Quellen/BRC_LG01/Bildzuordnung.json').read_text())
+    forms = task_forms()
     for lesson in lessons:
         root = lesson_root(series, lesson)
         data, meta = payload(root / 'lesson-data.js'), payload(root / 'progress-meta.js')
@@ -100,9 +135,27 @@ def verify_artifacts(series, lessons, source):
         assert [data['phaseBudgets'][phase] for phase in PHASES] == independent[root.name]
         assert set(task['mode'] for task in meta['tasks'].values()) == set(range(1, 6))
         assert set(task['phase'] for task in meta['tasks'].values()) == set(PHASES)
+        task_total += len(meta['tasks'])
+        for phase in ['bewerten', 'reflektieren']:
+            for mode in range(1, 6):
+                assert sum(task['phase'] == phase and task['mode'] == mode for task in meta['tasks'].values()) == 1, (root.name, phase, mode)
+        for identity, task in meta['tasks'].items():
+            number = identity.split(':')[-1]
+            form = forms[f'{root.name}:{task["phase"]}:{task["mode"]}:{number}']
+            assert form['kind'] in ['individual', 'pair', 'group', 'partner-groups', 'expert-group'] and form['label'] and form['reason']
+        media = json.loads((root / 'media-map.json').read_text())
+        for role in ['orientation', 'situation']:
+            image = lesson['images'][role]
+            definition = image_map[str(int(root.name[2:]))][role]
+            assert Path(image['file']).name == definition['filename']
+            original = REPO / 'Quellen/BRC_LG01/Bilder' / definition['filename']
+            assert (root / image['file']).read_bytes() == original.read_bytes()
+            assert hashlib.sha256(original.read_bytes()).hexdigest() == image['sha256']
+            assert media['slots'][role]['src'] == image['file']
         for script in root.glob('assets/*.js'):
             subprocess.run(['node', '--check', str(script)], check=True, capture_output=True)
-        verify_manifest(root)
+        manifest_paths = verify_manifest(root)
+        assert all(image['file'] in manifest_paths for image in lesson['images'].values())
         archive_path = zip_path(series, lesson)
         with zipfile.ZipFile(archive_path) as archive:
             assert archive.testzip() is None
@@ -115,6 +168,10 @@ def verify_artifacts(series, lessons, source):
                 assert archive.read(name) == (root / name).read_bytes(), (root.name, name)
         print('PASS:', root.name, 'unique IDs, independent plan budgets, JavaScript, manifest and exact root-level SCORM ZIP', flush=True)
     print('PASS: six different lesson IDs and thirty different competency/report IDs; total 80 UStd.', flush=True)
+    assert task_total == 440, task_total
+    assert len(forms) == task_total
+    assert {'individual', 'pair', 'group'} <= {form['kind'] for form in forms.values()}
+    print('PASS: 440 complete task groups, one whole checking/reflection task per path, diverse individual/pair/group forms, twelve original images with source SHA-256 and media-map references', flush=True)
     collection = REPO / 'Downloads/BRC_LG01_PlugAndPlay_Gesamtreihe_SCORM.zip'
     with zipfile.ZipFile(collection) as archive:
         assert archive.testzip() is None
@@ -180,8 +237,11 @@ def verify_matrix(browser, base, lesson):
         errors = watch(page, base)
         for phase, budget in zip(PHASES, lesson['budgets']):
             page.goto(base + phase + '.html'); ready(page); unlock(page, mode, phase)
+            assert_pupil_modes_hidden(page)
             expected = source_tasks(page, phase, mode)
             assert expected, (lesson['id'], mode, phase)
+            for task in expected:
+                assert not re.match(r'^(?:Ihr fachlicher Pflichtkern:|Pflichtkern:|Pflichtvergleich:|Mindestanforderung:|Mindeststandard:|Ab dieser Phase dürfen|Ab hier (?:kann|darf) der freigegebene KI-Assistent)', task['text'].strip()), (lesson['id'], mode, phase, task['id'], 'Guidance was exposed as an independent completion task')
             assert math.isclose(sum(task['minutes'] for task in expected), budget, abs_tol=1e-8), (lesson['id'], mode, phase)
             assert page.locator('.task-original-preview:visible').count() == len(expected)
             assert page.locator('.material-access,.phase-materials').count() == 1
@@ -202,6 +262,11 @@ def verify_matrix(browser, base, lesson):
                 assert focus.locator('.assignment-body strong.operator').all_text_contents() == task['operators']
                 assert focus.locator('.assignment-body').evaluate('''body=>[...body.querySelectorAll('p')].every(p=>[...p.querySelectorAll('strong.operator')].filter(s=>/^[A-ZÄÖÜ]/.test(s.textContent.trim())).length<=1)'''), (lesson['id'], phase, mode, index, 'Commands are not separated into paragraphs')
                 assert focus.locator('.focus-symbol-strip .assignment-social,.focus-symbol-strip .focus-phase-form').count() == 1, (lesson['id'], phase, mode, index, 'Duplicate or missing social form')
+                form = task_form(lesson, phase, mode, index + 1)
+                social = focus.locator('.focus-symbol-strip .assignment-social')
+                assert social.get_attribute('data-workform') == form['kind']
+                assert social.locator('small').inner_text() == form['label']
+                assert social.locator('svg').count() == 1
                 assert page.locator('.task-original-preview:visible').count() == 0, page.evaluate('''()=>({body:document.body.className,visible:[...document.querySelectorAll('.task-original-preview')].filter(e=>e.checkVisibility()).map(e=>({id:e.closest('.assignment-frame').dataset.taskId,card:e.closest('.assignment-frame').className,display:getComputedStyle(e).display,open:e.closest('.assignment-frame').querySelector('details').open}))})''')
                 assert focus.locator('.task-summary a').count() == 0
                 focus.locator('.task-summary').click()
@@ -299,17 +364,50 @@ def verify_materials_and_layout(browser, base, lesson):
             unlock(page, mode)
         page.locator('.return-task').click(); ready(page)
         assert page.locator('.task-accordion[open] [data-task-complete]').get_attribute('data-task-id') == task
+        aliases = page.evaluate('''mode=>{
+          const m=SOZ_PROGRESS_META,found=[];
+          for(const phase of ['bewerten','reflektieren']){
+            const entry=Object.entries(m.migration?.tasks||{}).find(([id,g])=>m.tasks[id]?.phase===phase&&m.tasks[id]?.mode===mode&&g.signature===m.tasks[id].signature&&g.from.some(old=>!Object.prototype.hasOwnProperty.call(m.tasks,old.id)));
+            if(entry){const [target,group]=entry;found.push({target,old:group.from.find(old=>!Object.prototype.hasOwnProperty.call(m.tasks,old.id)).id,phase});}
+          }
+          return found;
+        }''', mode)
+        for alias in aliases:
+            page.goto(base + 'm1.html?rueckaufgabe=' + alias['old'].replace(':', '%3A'))
+            assert page.evaluate('SOZ_MATERIAL_RETURN.read().task') == alias['target']
+            assert page.locator('.return-task').get_attribute('href').startswith(alias['phase'] + '.html?aufgabe=')
+            page.locator('.return-task').click(); ready(page)
+            assert page.locator('.task-accordion[open] [data-task-complete]').get_attribute('data-task-id') == alias['target']
     for width, height in WIDTHS:
         page.set_viewport_size({'width': width, 'height': height})
         page.goto(base + 'index.html')
+        assert_pupil_modes_hidden(page)
+        verify_story_image(page, base, lesson, 'orientation')
+        headings = [heading.strip() for heading in page.locator('.lesson-content h2').all_text_contents()]
+        assert 'Einordnung' not in headings and 'Fünf alternative Lernwege' not in headings
+        assert page.locator('.series-ways').count() == 0
         assert page.locator('.material-access,.phase-materials,[data-share-workbook]').count() == 0
         assert page.locator('.orientation-priority p').inner_text() == page.evaluate('SOZPAED.priorityStatement')
         details = page.locator('.orientation-competence-list')
         assert details.locator('p').count() == 4
         assert all(text.startswith('Ich ') for text in details.locator('p').all_text_contents())
+        cards = details.locator(':scope>article,:scope>div')
+        assert cards.count() == 4
+        rectangles = [cards.nth(i).bounding_box() for i in range(4)]
+        if width >= 600:
+            assert abs(rectangles[0]['y'] - rectangles[1]['y']) <= 1
+            assert abs(rectangles[2]['y'] - rectangles[3]['y']) <= 1
+            assert rectangles[1]['x'] > rectangles[0]['x']
+            assert abs(rectangles[2]['x'] - rectangles[0]['x']) <= 1
+            assert rectangles[2]['y'] >= max(rectangles[0]['y'] + rectangles[0]['height'], rectangles[1]['y'] + rectangles[1]['height']) - 1
+        else:
+            assert all(abs(rectangles[i]['x'] - rectangles[0]['x']) <= 1 for i in range(4))
+            assert all(rectangles[i + 1]['y'] > rectangles[i]['y'] for i in range(3))
         assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
         assert page.evaluate("getComputedStyle(document.body,'::before').position==='fixed'&&getComputedStyle(document.body,'::before').backgroundSize==='cover'")
         page.goto(base + 'handlungssituation.html')
+        assert_pupil_modes_hidden(page)
+        verify_story_image(page, base, lesson, 'situation')
         assert page.locator('[data-share-workbook]').count() == 0
         assert page.locator('.tools-bar:visible').count() == 0
         page.goto(base + 'informieren.html'); ready(page); unlock(page, 1)
@@ -339,7 +437,38 @@ def verify_materials_and_layout(browser, base, lesson):
     page.goto(base + 'm1.html?rueckaufgabe=constructor')
     assert page.locator('.return-task').get_attribute('aria-disabled') == 'true'
     assert not errors, errors; context.close()
-    print('PASS:', lesson['id'], 'every material in every path with denied storage: exact task return, minimal UI and gates; orientation/focus/materials at three widths', flush=True)
+    print('PASS:', lesson['id'], 'every material/path with denied storage, exact task return, minimal UI/gates; hidden pupil mode controls, source images and 2x2 competencies from 600px; orientation/focus/materials at four widths', flush=True)
+
+
+def verify_quiz_layout(browser, base, lesson):
+    context = browser.new_context(reduced_motion='reduce')
+    page = context.new_page(); errors = watch(page, base)
+    for width, height in WIDTHS:
+        page.set_viewport_size({'width': width, 'height': height})
+        page.goto(base + 'handlungssituation.html')
+        page.wait_for_function("document.querySelector('[data-situation-quiz]')?.dataset.quizReady==='true'")
+        assert_pupil_modes_hidden(page)
+        questions = page.locator('[data-situation-quiz] script[type="application/json"]').evaluate('e=>JSON.parse(e.textContent)')
+        assert len(questions) == 5
+        for question in questions:
+            assert len(question['options']) == 6
+            panel = page.locator(f'[data-quiz-question="{question["id"]}"]')
+            panel.evaluate('e=>e.closest("details").open=true')
+            options = panel.locator(':scope>label')
+            assert options.count() == 6
+            rectangles = [options.nth(i).bounding_box() for i in range(6)]
+            assert all(rectangle['height'] > 0 for rectangle in rectangles)
+            assert all(abs(rectangles[i]['x'] - rectangles[0]['x']) <= 1 for i in range(6))
+            assert all(abs(rectangles[i]['width'] - rectangles[0]['width']) <= 1 for i in range(6))
+            assert all(rectangles[i + 1]['y'] >= rectangles[i]['y'] + rectangles[i]['height'] - 1 for i in range(5)), (lesson['id'], width, question['id'], 'Options overlap or share a row')
+            assert panel.locator('input[type="radio"]').count() == 6
+            panel.locator(f'input[value="{question["correct"]}"]').check()
+            panel.locator('[data-quiz-submit]').click()
+            assert panel.locator('[data-quiz-feedback]').get_attribute('data-result') == 'correct'
+            assert panel.locator('..').locator('[data-quiz-marker]').inner_text() == ''
+        assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
+    assert not errors, errors; context.close()
+    print('PASS:', lesson['id'], 'five authentic MC questions with six vertically stacked choices, correct submission and no redundant ticks at all four widths', flush=True)
 
 
 def verify_timer_and_help(browser, base, lesson):
@@ -431,6 +560,11 @@ def verify_teacher(browser, base, lesson):
         assert 'Verifikationsbeleg nur im Test.' in data['pages']['informieren.html']
         assert '(ca. 11,5 Min.)' in data['pages']['informieren.html']
         assert payload(archive.read('progress-meta.js'))['id'] == lesson['id']
+        exported_media = payload(archive.read('media-map.js'))
+        for role, image in lesson['images'].items():
+            assert archive.read(image['file']) == (REPO / 'Quellen/BRC_LG01/Bilder' / Path(image['file']).name).read_bytes()
+            assert hashlib.sha256(archive.read(image['file'])).hexdigest() == image['sha256']
+            assert exported_media['slots'][role]['src'] == image['file']
         for element in ET.fromstring(archive.read('imsmanifest.xml')).iter():
             if element.tag.split('}')[-1] == 'file':
                 assert element.attrib['href'] in archive.namelist()
@@ -445,10 +579,11 @@ def verify_teacher(browser, base, lesson):
     print('PASS:', lesson['id'], 'teacher PIN, saved real task and decimal-time override in overview/focus, current SCORM export with complete manifest', flush=True)
 
 
-def verify_scorm(browser, base, lesson):
+def scorm_context(browser):
     context = browser.new_context()
     context.add_init_script('''
       const key='verifier-cmi:'+location.pathname.replace(/[^/]+$/,'');
+      window.testCMIKey=key;
       window.testCMI=JSON.parse(localStorage.getItem(key)||'null')||{
         'cmi.core.student_id':'test-learner','cmi.core.lesson_mode':'normal',
         'cmi.suspend_data':'','cmi.interactions._count':'0'};
@@ -457,6 +592,11 @@ def verify_scorm(browser, base, lesson):
         LMSGetLastError:()=> '0',LMSSetValue:(k,v)=>{testCMI[k]=v;localStorage.setItem(key,JSON.stringify(testCMI));return 'true'},
         LMSCommit:()=>{testCommits++;return 'true'},LMSFinish:()=> 'true'};
     ''')
+    return context
+
+
+def verify_scorm(browser, base, lesson):
+    context = scorm_context(browser)
     page = context.new_page(); errors = watch(page, base)
     page.goto(base + 'scorm.html'); page.wait_for_function("SOZ_SCORM?.kind==='moodle'")
     evidence = 'Kompetenzbeleg ' + lesson['id']
@@ -483,6 +623,133 @@ def verify_scorm(browser, base, lesson):
     print('PASS:', lesson['id'], 'SCORM 1.2 API commit, correctly namespaced reports and exact saved task/competency resume after full reload', flush=True)
 
 
+def verify_migration(browser, base, lesson):
+    baseline = json.loads((REPO / 'Quellen/BRC_LG01/Fortschritt_Vor_Gruppierung.json').read_text())[lesson['folder']]
+    context = scorm_context(browser)
+    page = context.new_page(); errors = watch(page, base)
+    page.goto(base + 'scorm.html'); page.wait_for_function("SOZ_SCORM?.kind==='moodle'")
+    legacy = page.evaluate('''baseline=>{
+      const p=SOZ_PROGRESS_CORE.initial(SOZ_PROGRESS_META,1);
+      p.o=true;p.w=baseline.orientationSignature;p.v=baseline.quizSignature;
+      p.b='reflektieren.html';p.r=17;
+      for(const t of baseline.tasks)p.t[t.id]=t.signature;
+      for(const q of SOZ_PROGRESS_META.quiz)p.q[q.id]=[q.correct,true];
+      SOZ_PROGRESS_META.competencies.forEach((c,i)=>p.a.assessments[c.id]={after:i%4+1,evidence:'Erhaltener Beleg '+c.id});
+      p.a.feedback='Bestehendes Fremdfeedback';p.a.nextGoal='Bestehender nächster Lernschritt';
+      return p;
+    }''', baseline)
+    assert baseline['quizSignature'] == page.evaluate('SOZ_PROGRESS_META.quizSignature'), 'Quiz content changed despite a pure layout update'
+    for mode in range(1, 6):
+        legacy['m'] = mode
+        result = page.evaluate('''raw=>{
+          const m=SOZ_PROGRESS_META,p=SOZ_PROGRESS_CORE.sanitize(raw,m,raw.m);
+          return {state:p,every:Object.entries(m.tasks).every(([id,t])=>p.t[id]===t.signature),
+            phases:SOZ_PROGRESS_CORE.phases.map(phase=>SOZ_PROGRESS_CORE.phaseComplete(p,m,phase,raw.m)),
+            complete:SOZ_PROGRESS_CORE.allComplete(p,m)};
+        }''', legacy)
+        assert result['every'] and all(result['phases']) and result['complete'], (lesson['id'], mode, result)
+        assert result['state']['o'] and result['state']['w'] == page.evaluate('SOZ_PROGRESS_META.orientationSignature')
+        assert result['state']['a'] == legacy['a']
+        assert result['state']['r'] == 17 and result['state']['b'] == 'reflektieren.html'
+        assert result['state']['m'] == mode
+        chosen = json.loads(json.dumps(legacy))
+        chosen['t'] = {task['id']: task['signature'] for task in baseline['tasks'] if task['mode'] == mode}
+        chosen_result = page.evaluate('''raw=>{
+          const m=SOZ_PROGRESS_META,p=SOZ_PROGRESS_CORE.sanitize(raw,m,raw.m);
+          return {complete:SOZ_PROGRESS_CORE.allComplete(p,m),mode:p.m,a:p.a,
+            own:Object.keys(p.t).every(id=>m.tasks[id].mode===raw.m)};
+        }''', chosen)
+        assert chosen_result['complete'] and chosen_result['mode'] == mode and chosen_result['own']
+        assert chosen_result['a'] == legacy['a']
+        # An old peer-review block with one missing item cannot complete the
+        # new grouped review task. Preserve all other recorded work/reports.
+        partial = json.loads(json.dumps(chosen))
+        missing = [task for task in baseline['tasks'] if task['phase'] == 'bewerten' and task['mode'] == mode][-1]
+        del partial['t'][missing['id']]
+        partial_result = page.evaluate('''raw=>{
+          const m=SOZ_PROGRESS_META,p=SOZ_PROGRESS_CORE.sanitize(raw,m,raw.m),
+            target=Object.entries(m.tasks).find(([,t])=>t.phase==='bewerten'&&t.mode===raw.m)[0];
+          return {done:!!p.t[target],phase:SOZ_PROGRESS_CORE.phaseComplete(p,m,'bewerten',raw.m),
+            previous:SOZ_PROGRESS_CORE.phaseComplete(p,m,'durchfuehren',raw.m),a:p.a};
+        }''', partial)
+        assert not partial_result['done'] and not partial_result['phase']
+        assert partial_result['previous'] and partial_result['a'] == legacy['a']
+    foreign = json.loads(json.dumps(legacy)); foreign['l'] = 'unrelated-lesson'
+    assert page.evaluate('raw=>Object.keys(SOZ_PROGRESS_CORE.sanitize(raw,SOZ_PROGRESS_META,1).t).length===0', foreign)
+    legacy['m'] = 1
+    legacy['t'] = {task['id']: task['signature'] for task in baseline['tasks'] if task['mode'] == 1}
+    # Real startup path: LMSGetValue receives the previous compressed payload,
+    # rather than calling the new update API with already migrated data.
+    page.evaluate('''raw=>{
+      testCMI['cmi.suspend_data']=SOZ_SCORM_CODEC.encode(raw);
+      testCMI['cmi.interactions._count']='29';
+      testCMI['cmi.core.lesson_location']='reflektieren.html';
+      localStorage.setItem(testCMIKey,JSON.stringify(testCMI));
+      // The still-open initial page must not overwrite this simulated LMS
+      // restore fixture in its beforeunload commit. The next document gets
+      // the normal mock API from the context init script again.
+      API.LMSSetValue=()=> 'true';
+    }''', legacy)
+    page.reload()
+    page.wait_for_function("SOZ_SCORM?.kind==='moodle'")
+    page.wait_for_function("document.querySelector('[data-scorm-frame]').contentWindow.document.body?.dataset.taskFocusReady==='true'")
+    resumed = page.evaluate('SOZ_SCORM.read()')
+    assert resumed['a'] == legacy['a'] and resumed['r'] == 17 and resumed['o']
+    assert page.evaluate('SOZ_PROGRESS_CORE.allComplete(SOZ_SCORM.read(),SOZ_PROGRESS_META)')
+    assert page.evaluate('testCMI["cmi.core.lesson_status"]') == 'completed'
+    target = page.evaluate("Object.entries(SOZ_PROGRESS_META.tasks).find(([,t])=>t.phase==='reflektieren'&&t.mode===1)[0]")
+    assert page.frame_locator('[data-scorm-frame]').locator(f'[data-task-complete][data-task-id="{target}"]').is_checked()
+    assert not errors, errors; context.close()
+    print('PASS:', lesson['id'], 'legacy all-done migration in all five paths, partial peer-review stays open, old orientation/reports retained, foreign lesson rejected, actual compressed SCORM resume remains completed', flush=True)
+
+
+def verify_orientation_migration_guard(browser, base, lesson, actual_export=False):
+    baseline = json.loads((REPO / 'Quellen/BRC_LG01/Fortschritt_Vor_Gruppierung.json').read_text())[lesson['folder']]
+    context = browser.new_context(accept_downloads=True)
+    page = context.new_page(); errors = watch(page, base)
+    page.goto(base + 'lehrkraft.html')
+    original_meta = page.evaluate('SOZ_PROGRESS_META')
+    assert original_meta['migration']['orientationSignature'] == original_meta['orientationSignature']
+    legacy = page.evaluate('''old=>{
+      const p=SOZ_PROGRESS_CORE.initial(SOZ_PROGRESS_META,1);
+      p.o=true;p.w=old.orientationSignature;p.v=old.quizSignature;
+      for(const t of old.tasks)p.t[t.id]=t.signature;
+      for(const q of SOZ_PROGRESS_META.quiz)p.q[q.id]=[q.correct,true];
+      p.a.assessments[SOZ_PROGRESS_META.competencies[0].id]={after:3,evidence:'Erhaltener Orientierungsbeleg'};
+      return p;
+    }''', baseline)
+    result = page.evaluate('''raw=>{
+      const m=SOZ_PROGRESS_META,changed=JSON.parse(JSON.stringify(m));
+      changed.orientationSignature=SOZ_PROGRESS_CORE.hash('Verbindlich neuer Orientierungsinhalt '+m.orientationSignature);
+      const before=SOZ_PROGRESS_CORE.sanitize(raw,m,1),after=SOZ_PROGRESS_CORE.sanitize(raw,changed,1);
+      return {accepted:before.o,changedAccepted:after.o,sameTasks:JSON.stringify(before.t)===JSON.stringify(after.t),sameReports:JSON.stringify(before.a)===JSON.stringify(after.a)};
+    }''', legacy)
+    assert result['accepted'] and not result['changedAccepted']
+    assert result['sameTasks'] and result['sameReports']
+    if actual_export:
+        page.evaluate("SOZ_CONFIG.pinHash=[...'2468'].reduce((v,c)=>v*31+c.charCodeAt(0),0)")
+        page.locator('#teacher-pin').fill('2468'); page.locator('#teacher-unlock').click()
+        page.locator('[data-edit-page]').select_option('index.html')
+        page.locator('[data-page-editor] .relevance p').first.evaluate("e=>e.append(document.createTextNode(' Neuer verbindlicher Orientierungsauftrag im Export.'))")
+        page.locator('[data-save-page]').click()
+        with page.expect_download(timeout=60000) as event:
+            page.locator('[data-export-ims]').click()
+        exported = Path('/tmp') / f'{lesson["id"]}_Orientation_Guard_Export.zip'
+        event.value.save_as(exported)
+        with zipfile.ZipFile(exported) as archive:
+            assert archive.testzip() is None
+            edited = payload(archive.read('progress-meta.js'))
+            data = payload(archive.read('lesson-data.js'))
+            assert 'Neuer verbindlicher Orientierungsauftrag im Export.' in data['pages']['index.html']
+            assert edited['orientationSignature'] != original_meta['orientationSignature']
+            assert edited['migration']['orientationSignature'] == original_meta['orientationSignature']
+            assert data['progressMigration']['orientationSignature'] == original_meta['orientationSignature']
+            assert edited['tasks'] == original_meta['tasks']
+            assert not page.evaluate('args=>SOZ_PROGRESS_CORE.sanitize(args[0],args[1],1).o', [legacy, edited])
+    assert not errors, errors; context.close()
+    print('PASS:', lesson['id'], 'orientation alias requires the original target signature, later content changes invalidate only the read mark' + ('; actual teacher export retains target guard' if actual_export else ''), flush=True)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('series', nargs='?', type=Path, default=REPO / 'Reihen/BRC_LG01/series.json')
@@ -491,6 +758,8 @@ def main():
     parser.add_argument('--only-artifacts', action='store_true')
     parser.add_argument('--skip-task-matrix', action='store_true')
     parser.add_argument('--matrix-only', action='store_true')
+    parser.add_argument('--migration-only', action='store_true')
+    parser.add_argument('--orientation-guard-only', action='store_true')
     args = parser.parse_args()
     raw = json.loads(args.series.read_text())
     lessons = raw if isinstance(raw, list) else raw['lessons']
@@ -514,13 +783,23 @@ def main():
             task_count = 0
             for lesson in selected:
                 base = f'http://127.0.0.1:{server.server_port}/' + lesson_root(args.series, lesson).relative_to(REPO).as_posix() + '/'
+                if args.orientation_guard_only:
+                    verify_migration(browser, base, lesson)
+                    verify_orientation_migration_guard(browser, base, lesson, lesson == selected[0])
+                    continue
+                if args.migration_only:
+                    verify_migration(browser, base, lesson)
+                    continue
                 if not args.skip_task_matrix:
                     task_count += verify_matrix(browser, base, lesson)
                 if args.matrix_only:
                     continue
                 verify_gates(browser, base, lesson)
                 verify_materials_and_layout(browser, base, lesson)
+                verify_quiz_layout(browser, base, lesson)
                 verify_scorm(browser, base, lesson)
+                verify_migration(browser, base, lesson)
+                verify_orientation_migration_guard(browser, base, lesson, lesson == selected[0])
                 if lesson == selected[0]:
                     verify_teacher(browser, base, lesson)
                     verify_timer_and_help(browser, base, lesson)

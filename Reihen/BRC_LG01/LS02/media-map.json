@@ -1,14 +1,14 @@
 {
   "slots": {
     "orientation": {
-      "src": "",
-      "alt": "",
-      "label": "Orientierung · optionales Motiv"
+      "src": "assets/images/biocasa-ls02-orientation.png",
+      "alt": "Das Gründungsteam bespricht mit einem Berater Pläne und Unterlagen an einem Besprechungstisch.",
+      "label": "Orientierung · Eine Unternehmensberatung besuchen"
     },
     "situation": {
-      "src": "",
-      "alt": "",
-      "label": "Handlungssituation · optionales Motiv"
+      "src": "assets/images/biocasa-ls02-situation.png",
+      "alt": "Ein Berater zeigt dem Gründungsteam eine leerstehende Produktionshalle; das Team hält einen Gebäudeplan.",
+      "label": "Handlungssituation · Eine Unternehmensberatung besuchen"
     }
   }
 }

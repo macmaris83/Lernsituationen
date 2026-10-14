@@ -1,14 +1,14 @@
 {
   "slots": {
     "orientation": {
-      "src": "",
-      "alt": "",
-      "label": "Orientierung · optionales Motiv"
+      "src": "assets/images/biocasa-ls03-orientation.png",
+      "alt": "Das Gründungsteam erarbeitet mit Produktmustern, Diagrammen, Gebäudeplänen und einem Laptop den Businessplan.",
+      "label": "Orientierung · Einen Business-Plan erstellen"
     },
     "situation": {
-      "src": "",
-      "alt": "",
-      "label": "Handlungssituation · optionales Motiv"
+      "src": "assets/images/biocasa-ls03-situation.png",
+      "alt": "Das Gründungsteam prüft in einer Produktionshalle Produktmuster und Planungsdaten für den Businessplan.",
+      "label": "Handlungssituation · Einen Business-Plan erstellen"
     }
   }
 }

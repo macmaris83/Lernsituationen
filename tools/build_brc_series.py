@@ -22,6 +22,17 @@ MODES = ['Stark geführt','Begleitet','Teiloffen','Selbstgesteuert mit Checkpoin
 COLORS = ['#333333','#E6E8EA','#EFF5CE','#E5F5FC','#CCEBF7']
 ESC = lambda s: __import__('html').escape(str(s), quote=True)
 VERSION = '2026-10-14.lg01-reihe.1'
+WORKFORMS_PATH = REPO/'Quellen/BRC_LG01/Arbeitsformen.json'
+
+def workform_icon(kind):
+    paths={
+        'individual':'<circle cx="12" cy="6" r="3"/><path d="M5 22v-4a7 7 0 0 1 14 0v4"/>',
+        'pair':'<circle cx="7" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M1 22v-5a6 6 0 0 1 12 0v5M15 22v-5a6 6 0 0 1 8-5"/>',
+        'partner-groups':'<circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><path d="M1 17v-3a4 4 0 0 1 8 0v3M15 17v-3a4 4 0 0 1 8 0v3M8 21h8M14 19l2 2-2 2M10 19l-2 2 2 2"/>',
+        'expert-group':'<circle cx="8" cy="7" r="3"/><path d="M2 22v-5a6 6 0 0 1 12 0v5M18 3l1.2 2.5 2.8.4-2 2 .5 2.8-2.5-1.3-2.5 1.3.5-2.8-2-2 2.8-.4z"/>',
+        'group':'<circle cx="12" cy="5" r="3"/><circle cx="4" cy="9" r="2"/><circle cx="20" cy="9" r="2"/><path d="M6 22v-5a6 6 0 0 1 12 0v5M1 21v-6a3 3 0 0 1 4-3M23 21v-6a3 3 0 0 0-4-3"/>',
+        'plenum':'<circle cx="12" cy="5" r="3"/><path d="M6 22v-5a6 6 0 0 1 12 0v5M2 12h2M20 12h2M3 8l2 1M21 8l-2 1"/>'}
+    return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">'+paths[kind]+'</svg>'
 
 def markdown(value):
     result = subprocess.run(['pandoc','-f','markdown','-t','html5','--wrap=none'],input=value,text=True,capture_output=True,check=True).stdout
@@ -63,7 +74,7 @@ def load_source(path):
     assert len(lessons)==6
     return lessons
 
-def metadata_and_tasks(source):
+def metadata_and_tasks(source,phase=None):
     meta={}
     lines=[]
     for line in source.splitlines():
@@ -75,7 +86,14 @@ def metadata_and_tasks(source):
     for node in root:
         # Numbered and bulleted instructions become separate cards. Nested lists
         # remain with their parent task; surrounding prose is never truncated.
-        if node.tag in ['ol','ul']:
+        if phase in ['bewerten','reflektieren']:
+            # A complete peer audit/reflection is one assignment. Criteria and
+            # prompts remain a list inside it, never separate completion cards.
+            if not tasks:tasks.append('')
+            tasks[0]+=H.tostring(node,encoding='unicode')
+        elif node.tag in ['ol','ul'] and tasks and text(tasks[-1]).rstrip().endswith(':'):
+            tasks[-1]+=H.tostring(node,encoding='unicode')
+        elif node.tag in ['ol','ul']:
             for li in node:
                 inner=ESC(li.text or '')+''.join(H.tostring(c,encoding='unicode') for c in li)
                 fragment=H.fragment_fromstring(inner,create_parent='div')
@@ -93,6 +111,14 @@ def metadata_and_tasks(source):
             tasks[-1]+=H.tostring(node,encoding='unicode')
         else:
             tasks.append(H.tostring(node,encoding='unicode'))
+    grouped=[]
+    for task in tasks:
+        # Requirements and optional coaching qualify the preceding action.
+        # They do not constitute a new activity that must be ticked separately.
+        if grouped and re.match(r'^(Ihr fachlicher Pflichtkern:|Pflichtkern:|Pflichtvergleich:|Mindestanforderung:|Mindeststandard:|Ab dieser Phase dürfen|Ab hier (?:kann|darf) der freigegebene KI-Assistent|Die erste Marktanalyse, sämtliche Entscheidungen und Rechenwege|Erste Marktanalyse, Entscheidungen und Rechenwege|Finanzierungsanalyse, Rechnungen und Entscheidung|Analyse, Berechnungen und Finanzierungsentscheidung|Sie muss )',text(task)):
+            grouped[-1]+=task
+        else:grouped.append(task)
+    tasks=grouped
     assert tasks
     # Split operator-led sentences visually without rewriting their content.
     operators={'Identifizieren','Nennen','Arbeiten','Analysieren','Ermitteln','Ordnen','Erläutern','Einordnen','Begründen','Vergleichen','Skizzieren','Erstellen','Entwickeln','Stellen','Diskutieren','Beurteilen','Überprüfen','Formulieren','Beschreiben','Berechnen','Bewerten','Entscheiden','Prüfen','Reflektieren','Untersuchen','Benennen','Dokumentieren','Nutzen','Halten','Zeigen','Leiten','Verfassen'}
@@ -151,25 +177,24 @@ def build_content(ls,competencies,questions):
     # The F card carries the priority statement for the compact orientation,
     # whereas the focus and final assessment use the detailed F statement.
     detail=''.join('<article class="card"><h3><strong>'+ESC(c['label'])+'</strong></h3><p>'+ESC(competencies['priorityStatement'] if c['label']=='Fachkompetenz' else c['statement'])+'</p></article>' for c in competencies['competencies'])
-    ways='<section class="card"><h2>Fünf alternative Lernwege</h2><p>Alle Lernwege führen zum gleichen fachlichen Ziel. Die Wege unterscheiden sich in der Anleitung und Selbststeuerung.</p><div class="series-ways">'+''.join(f'<div style="background:{color};color:{"white" if i==1 else "#173a63"}"><strong>W{i} · {ESC(label)}</strong></div>' for i,(color,label) in enumerate(zip(COLORS,MODES),1))+'</div></section>'
-    pages['index.html']=hero(title)+'<section class="card"><h2>Einordnung</h2>'+markdown(ls['parts'][1])+'</section><section class="card relevance"><h2>Darum ist das Thema relevant</h2>'+markdown(ls['parts'][2])+'</section><section class="card priority-section"><h2>Kompetenzprofil</h2><section class="weight-radar">'+radar(competencies['competencies'])+'</section><div class="competence-cards orientation-competencies">'+detail+'</div></section>'+ways
-    pages['handlungssituation.html']=hero('Handlungssituation')+access+'<section class="card situation-prose">'+markdown(ls['parts'][4])+'</section>'+quiz_html(questions)
+    pages['index.html']=hero(title)+'<section class="card relevance"><h2>Darum ist das Thema relevant</h2><figure class="story-photo" data-media-key="orientation"></figure>'+markdown(ls['parts'][2])+'</section><section class="card priority-section"><h2>Kompetenzprofil</h2><section class="weight-radar">'+radar(competencies['competencies'])+'</section><div class="competence-cards orientation-competencies">'+detail+'</div></section>'
+    pages['handlungssituation.html']=hero('Handlungssituation')+access+'<section class="card situation-prose"><figure class="story-photo" data-media-key="situation"></figure>'+markdown(ls['parts'][4])+'</section>'+quiz_html(questions)
+    forms=json.loads(WORKFORMS_PATH.read_text())
     instructions={};source_counts={}
     for pi,phase in enumerate(PHASES):
         content=hero(NAMES[pi])+access;instructions[phase]={};source_counts[phase]={}
         for mode in range(1,6):
-            raw=ls['modes'][mode]['phases'][pi];meta,tasks=metadata_and_tasks(raw);allocated=times(tasks,ls['budgets'][pi]);instructions[phase][mode]={'meta':meta,'tasks':tasks,'times':allocated};source_counts[phase][mode]=len(tasks)
-            form=meta.get('Arbeitsform','Lernteam; Rollen und Arbeitsaufteilung selbst festlegen.' if mode in [3,5] else 'Lernteam')
+            raw=ls['modes'][mode]['phases'][pi];meta,tasks=metadata_and_tasks(raw,phase);allocated=times(tasks,ls['budgets'][pi]);task_forms=[forms[f'LS{num:02d}:{phase}:{mode}:{i}'] for i in range(1,len(tasks)+1)];instructions[phase][mode]={'meta':meta,'tasks':tasks,'times':allocated,'workforms':task_forms};source_counts[phase][mode]=len(tasks)
+            form=meta.get('Arbeitsform','Arbeitsform passend zum Auftrag selbst festlegen; die Symbole geben Empfehlungen.')
             clock='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg>'
             social='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="8" cy="7" r="3"/><path d="M2 21v-3a6 6 0 0 1 12 0v3M16 4a3 3 0 0 1 0 6m1 4a5 5 0 0 1 5 5v2"/></svg>'
             content+=f'<section class="task-card phase-mode" data-mode-panel="{mode}" data-phase="{phase}"><h2 class="phase-mode-title">W{mode} · {ESC(MODES[mode-1])}</h2><div class="phase-meta"><p>{clock}<span><strong>Arbeitszeit:</strong> {number(ls["budgets"][pi]/45)} Unterrichtsstunden · {number(ls["budgets"][pi])} Minuten</span></p><p>{social}<span><strong>Arbeitsform:</strong> {ESC(form)}</span></p></div>'
             if meta.get('Materialien'):content+='<p class="phase-source-materials"><strong>Materialien:</strong> '+ESC(meta['Materialien'])+'</p>'
-            if ls['modes'][mode]['intro']:content+='<details class="series-way-brief"><summary>Auftrag und Zielkern · W'+str(mode)+'</summary>'+markdown(ls['modes'][mode]['intro'])+'</details>'
+            if ls['modes'][mode]['intro']:content+='<details class="series-way-brief"><summary>Auftrag und Zielkern</summary>'+markdown(ls['modes'][mode]['intro'])+'</details>'
             content+='<div class="task-text">'
             for i,(task,time) in enumerate(zip(tasks,allocated),1):
-                single=pi==5 or ('Einzelarbeit' in form and 'anschließend' not in form and 'Gruppen' not in form)
-                icon=('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="6" r="3"/><path d="M5 22v-4a7 7 0 0 1 14 0v4"/></svg>' if single else social)
-                content+=f'<article class="assignment-frame" data-task-number="{i}" data-goodnotes-task="true"><span class="assignment-number" aria-label="Auftrag {i}">{i}</span><button type="button" class="assignment-goodnotes-button" data-share-workbook aria-label="Arbeitsheft dieser Phase in GoodNotes importieren"><img class="assignment-goodnotes" src="assets/goodnotes.png" alt="GoodNotes"></button><span class="assignment-social">{icon}<small>{"Einzelarbeit" if single else "Lernteam"}</small></span><div class="assignment-body">{task}<span class="assignment-time" data-time-ui="true" data-minutes="{time}"> {clock} ca. {number(time)} Min.</span></div></article>'
+                assigned=task_forms[i-1];icon=workform_icon(assigned['kind'])
+                content+=f'<article class="assignment-frame" data-task-number="{i}" data-goodnotes-task="true"><span class="assignment-number" aria-label="Auftrag {i}">{i}</span><button type="button" class="assignment-goodnotes-button" data-share-workbook aria-label="Arbeitsheft dieser Phase in GoodNotes importieren"><img class="assignment-goodnotes" src="assets/goodnotes.png" alt="GoodNotes"></button><span class="assignment-social" data-workform="{ESC(assigned["kind"])}" title="{ESC(assigned["label"])}">{icon}<small>{ESC(assigned["label"])}</small></span><div class="assignment-body">{task}<span class="assignment-time" data-time-ui="true" data-minutes="{time}"> {clock} ca. {number(time)} Min.</span></div></article>'
             content+='</div></section>'
         if phase=='reflektieren':content+='<div data-assessment-widget></div>'
         pages[phase+'.html']=content
@@ -192,7 +217,8 @@ def shell(page,content,title,ls):
     original=re.sub(r'data-ls-id="[^"]*"',f'data-ls-id="BRC-LG01-LS{ls:02d}"',original)
     original=original.replace('pdf/LG01_LS03_Gesamtdruck_A4.pdf',f'pdf/LG01_LS{ls:02d}_Gesamtdruck_A4.pdf')
     original=original.replace('M1–M5 analysieren','Materialien analysieren').replace('Bewerten</span>','Überprüfen</span>')
-    original=re.sub(r'((?:assets/(?:runtime|styles|teacher|progress-core|progress|situation))\.(?:js|css))\?[^"\s]*',r'\1?v=lg01-reihe-20261014',original)
+    original=original.replace('Dein Lernweg','Phasenübersicht')
+    original=re.sub(r'((?:assets/(?:runtime|styles|teacher|progress-core|progress|situation))\.(?:js|css))\?[^"\s]*',r'\1?v=lg01-bilder-aufgaben-20261014',original)
     for i,label in enumerate(MODES,1):original=re.sub(r'(<option value="'+str(i)+r'">)[^<]+',lambda m:m[1]+f'W{i} · {ESC(label)}',original)
     return original
 
@@ -206,16 +232,31 @@ body.material-reading .source-document .paper{min-height:0;padding:28px 32px}
 body.material-reading .source-document .paper table{table-layout:auto;min-width:0;overflow-wrap:anywhere}
 @media(max-width:600px){body.material-reading .source-document .paper{padding:20px 16px}}
 .task-focus-panel .focus-assignment-copy p{margin-bottom:1em}
+body:not([data-teacher]) :is(.mode-badge,.phase-mode-title,.series-ways),body:not([data-teacher]) label:has([data-student-mode]){display:none!important}
+body:not([data-teacher]) .brand-header{justify-content:flex-end}
+body[data-teacher] label:has([data-allow-mode]){display:none!important}
+body[data-page="index.html"] .orientation-competence-layout{grid-template-columns:minmax(0,320px) minmax(0,1fr)}
+body[data-page="index.html"] .orientation-competence-list{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,auto);gap:12px}
+body[data-page="index.html"] .orientation-competence-chart{align-self:center;max-width:320px;width:100%}
+body[data-page="index.html"] .orientation-competence-list article:last-child{grid-column:auto}
+body .quiz-check [data-quiz-question]>label{display:flex;align-items:flex-start;gap:8px;width:100%;margin:7px 0;padding:5px 0;cursor:pointer}
+body .quiz-check [data-quiz-question]>label input{flex:0 0 18px;width:18px;height:18px;margin:2px 0 0;accent-color:#009bd9}
+.quiz-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.relevance,.situation-prose{display:flow-root}
+.focus-symbol-strip .assignment-social small{max-width:165px;white-space:normal;line-height:1.25}
+@media(max-width:600px){body[data-page="index.html"] .orientation-competence-layout{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:599px){body[data-page="index.html"] .orientation-competence-list{grid-template-columns:minmax(0,1fr);grid-template-rows:auto}}
 body[data-mode="1"] .mode-badge{background:#333;color:white}body[data-mode="2"] .mode-badge{background:#E6E8EA;color:#333}body[data-mode="3"] .mode-badge{background:#EFF5CE;color:#333}body[data-mode="4"] .mode-badge{background:#E5F5FC;color:#333}body[data-mode="5"] .mode-badge{background:#CCEBF7;color:#333}
 '''
 
 def workbook_html(ls,phase,mode,instruction):
     blocks=[]
     for i,(task,minutes) in enumerate(zip(instruction['tasks'],instruction['times']),1):
-        blocks.append(f'<section class="worksheet-task"><header><b>{i}</b><span>ca. {number(minutes)} Min.</span></header>{task}<div class="writing-space"></div></section>')
+        label=instruction['workforms'][i-1]['label']
+        blocks.append(f'<section class="worksheet-task"><header><b>{i}</b><span>{ESC(label)}</span><span>ca. {number(minutes)} Min.</span></header>{task}<div class="writing-space"></div></section>')
     return f'''<!doctype html><html lang="de"><meta charset="utf-8"><title>Arbeitsheft</title><style>
     @page{{size:A4;margin:16mm 14mm}}body{{font:11pt/1.5 Arial,sans-serif;color:#173a63}}h1{{font-size:20pt}}h2{{font-size:13pt;color:#007fac}}p{{margin:8px 0}}table{{border-collapse:collapse;width:100%}}td,th{{border:1px solid #b8dfee;padding:6px}}.worksheet-task{{margin:18px 0;border:1px solid #b8dfee;border-radius:10px;padding:12px;break-inside:avoid}}.worksheet-task header{{display:flex;justify-content:space-between;color:#007fac}}.writing-space{{min-height:65mm;margin-top:12px;background:repeating-linear-gradient(white,white 26px,#d8e7ef 27px)}}footer{{font-size:9pt;color:#58717e}}
-    </style><body><header><p>BBS 1 Aurich · BRC · LG01 · LS{ls['number']:02d}</p><h1>{ESC(ls['title'])}</h1><h2>{NAMES[PHASES.index(phase)]} · W{mode} · {ESC(MODES[mode-1])}</h2><p>Arbeitszeit dieser Phase: {number(ls['budgets'][PHASES.index(phase)])} Minuten</p></header>{''.join(blocks)}<footer>Arbeitsheft ausschließlich für diese Phase und diesen Lernweg.</footer></body></html>'''
+    </style><body><header><p>BBS 1 Aurich · BRC · LG01 · LS{ls['number']:02d}</p><h1>{ESC(ls['title'])}</h1><h2>{NAMES[PHASES.index(phase)]}</h2><p>Arbeitszeit dieser Phase: {number(ls['budgets'][PHASES.index(phase)])} Minuten</p></header>{''.join(blocks)}<footer>Arbeitsheft ausschließlich für diese Phase.</footer></body></html>'''
 
 def manifest(root,ls):
     ns='http://www.imsproject.org/xsd/imscp_rootv1p1p2';adl='http://www.adlnet.org/xsd/adlcp_rootv1p2';ET.register_namespace('',ns);ET.register_namespace('adlcp',adl)
@@ -229,34 +270,70 @@ def manifest(root,ls):
         if p.is_file() and p.name!='imsmanifest.xml':ET.SubElement(resource,e('file'),{'href':p.relative_to(root).as_posix()})
     ET.ElementTree(tree).write(root/'imsmanifest.xml',encoding='utf-8',xml_declaration=True)
 
+def migration_for(data,meta,baseline):
+    """Transfer old marks only when every component of a merged task is done."""
+    aliases={}
+    for phase in PHASES:
+        doc=H.fragment_fromstring(data['pages'][phase+'.html'],create_parent='div')
+        for mode in range(1,6):
+            previous=[t for t in baseline['tasks'] if t['phase']==phase and t['mode']==mode]
+            cursor=0
+            panel=doc.xpath(f'.//*[@data-mode-panel="{mode}"]')[0]
+            for card in panel.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," assignment-frame ")]'):
+                body=card.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," assignment-body ")]')[0]
+                for timer in body.xpath('.//*[@data-time-ui]'):timer.getparent().remove(timer)
+                wanted=re.sub(r'\s+','',body.text_content());combined='';parts=[]
+                while combined!=wanted:
+                    assert cursor<len(previous),(data['id'],phase,mode,'missing baseline task')
+                    old=previous[cursor];cursor+=1;combined+=old['text'];parts.append({'id':old['id'],'signature':old['signature']})
+                    assert wanted.startswith(combined),(data['id'],phase,mode,'source text changed')
+                task=card.attrib['data-task-id'];signature=meta['tasks'][task]['signature']
+                if len(parts)!=1 or parts[0]!= {'id':task,'signature':signature}:aliases[task]={'signature':signature,'from':parts}
+            assert cursor==len(previous),(data['id'],phase,mode,'baseline task omitted')
+    return {'orientationSignature':meta['orientationSignature'],'orientationSignatures':[baseline['orientationSignature']],'tasks':aliases}
+
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--source',type=Path,default=REPO/'Quellen/BRC_LG01/Reihenplan.md');args=parser.parse_args()
-    lessons=load_source(args.source);checks=json.loads((REPO/'Quellen/BRC_LG01/Einstiegskontrollen.json').read_text());comps=json.loads((REPO/'Quellen/BRC_LG01/Kompetenzen_Ich.json').read_text());OUT.mkdir(parents=True,exist_ok=True)
+    lessons=load_source(args.source);checks=json.loads((REPO/'Quellen/BRC_LG01/Einstiegskontrollen.json').read_text());comps=json.loads((REPO/'Quellen/BRC_LG01/Kompetenzen_Ich.json').read_text());pictures=json.loads((REPO/'Quellen/BRC_LG01/Bildzuordnung.json').read_text());baseline=json.loads((REPO/'Quellen/BRC_LG01/Fortschritt_Vor_Gruppierung.json').read_text());OUT.mkdir(parents=True,exist_ok=True)
     summaries=[];built=[]
     for ls in lessons:
         n=ls['number'];root=OUT/f'LS{n:02d}';root.mkdir(exist_ok=True);(root/'pdf').mkdir(exist_ok=True)
         shutil.copytree(TEMPLATE/'assets',root/'assets',dirs_exist_ok=True)
+        # These two old template photographs have no references in the series.
+        # The twelve supplied original images replace them without re-encoding.
+        for old_photo in ['biocasa-szenen.jpg','handlungssituation.jpg']:(root/'assets'/old_photo).unlink(missing_ok=True)
+        picture_info={};slots={};(root/'assets/images').mkdir(exist_ok=True)
+        for key,picture in pictures[str(n)].items():
+            assert Path(picture['filename']).name==picture['filename']
+            source=REPO/'Quellen/BRC_LG01/Bilder'/picture['filename'];target=root/'assets/images'/picture['filename'];shutil.copyfile(source,target)
+            relative=target.relative_to(root).as_posix();picture_info[key]={'file':relative,'sha256':hashlib.sha256(source.read_bytes()).hexdigest()}
+            slots[key]={'src':relative,'alt':picture['alt'],'label':('Orientierung' if key=='orientation' else 'Handlungssituation')+' · '+ls['title']}
         runtime=root/'assets/runtime.js';s=runtime.read_text().replace("['','Tradiert · stark geführt','Geführt','Begleitet','Teiloffen','Löppt']",json.dumps(['']+MODES,ensure_ascii=False)).replace('["","STARK GEFÜHRT","GEFÜHRT","BEGLEITET","TEILOFFEN","LÖPPT"]',json.dumps(['']+[m.upper() for m in MODES],ensure_ascii=False)).replace(r'/(\d+)\s*Min/i',r'/(\d+(?:[.,]\d+)?)\s*Min/i').replace('Number(match[1])*60',"Math.round(Number(match[1].replace(',','.'))*60)")
-        runtime.write_text(businessplan_timer(s).replace("!card.querySelector('.assignment-social')", "!strip.querySelector('.assignment-social')"))
-        core=root/'assets/progress-core.js';core.write_text(core.read_text().replace("const text=e=>(e.textContent||'').replace(/\\s+/g,' ').trim();", "const text=e=>{const copy=e.cloneNode(true);copy.querySelectorAll('.assignment-time[data-time-ui]').forEach(t=>t.remove());return (copy.textContent||'').replace(/\\s+/g,' ').trim();};"))
+        s=businessplan_timer(s).replace("!card.querySelector('.assignment-social')", "!strip.querySelector('.assignment-social')")
+        s=s.replace("function valid(task){const tasks=window.SOZ_PROGRESS_META?.tasks;if(!tasks||!Object.prototype.hasOwnProperty.call(tasks,task))return null;", "function valid(task){const meta=window.SOZ_PROGRESS_META,tasks=meta?.tasks;if(!tasks)return null;if(!Object.prototype.hasOwnProperty.call(tasks,task)){const migrated=Object.entries(meta.migration?.tasks||{}).find(([id,rule])=>tasks[id]?.signature===rule.signature&&rule.from.some(t=>t.id===task));if(!migrated)return null;task=migrated[0];}")
+        runtime.write_text(s)
+        core=root/'assets/progress-core.js';core_text=core.read_text().replace("const text=e=>(e.textContent||'').replace(/\\s+/g,' ').trim();", "const text=e=>{const copy=e.cloneNode(true);copy.querySelectorAll('.assignment-time[data-time-ui]').forEach(t=>t.remove());return (copy.textContent||'').replace(/\\s+/g,' ').trim();};")
+        core_text=core_text.replace('p.o=raw.o===true&&raw.w===p.w;', "for(const [id,rule]of Object.entries(meta.migration?.tasks||{})){if(meta.tasks[id]?.signature===rule.signature&&rule.from.length&&rule.from.every(t=>raw.t?.[t.id]===t.signature))p.t[id]=rule.signature;}p.o=raw.o===true&&(raw.w===p.w||(meta.migration?.orientationSignature===p.w&&meta.migration.orientationSignatures?.includes(raw.w)));")
+        core_text=core_text.replace('resumePages:Object.keys(data.pages)', 'migration:data.progressMigration||null,resumePages:Object.keys(data.pages)');core.write_text(core_text)
         progress=root/'assets/progress.js';progress.write_text(progress.read_text().replace(' renderAccess(p,mode);\n}', ' renderAccess(p,mode);window.SOZ_TASK_FOCUS?.refresh();\n}'))
         css=root/'assets/styles.css';css.write_text(css.read_text()+EXTRA_CSS)
         cc=copy.deepcopy(comps[str(n)])
         for c in cc['competencies']:c['id']=f'BRC-LG01-LS{n:02d}-'+{'Fachkompetenz':'F','Personalkompetenz':'P','Sozialkompetenz':'S','Methodenkompetenz':'M','Medienkompetenz':'D'}[c['label']]
         pages,titles,instructions,counts=build_content(ls,cc,checks[str(n)])
         data={'id':f'BRC-LG01-LS{n:02d}','title':ls['title'],'version':VERSION,'priorityStatement':cc['priorityStatement'],'competencies':cc['competencies'],'pages':pages,'pageTitles':titles,'printOrder':[p for p in pages if p!='erwartungshorizont.html'],'workbook':f'pdf/GoodNotes_LG01_LS{n:02d}_W1.pdf','workbooks':{str(m):f'pdf/GoodNotes_LG01_LS{n:02d}_W{m}.pdf' for m in range(1,6)},'phaseBudgets':dict(zip(PHASES,ls['budgets'])),'sourceTaskCounts':counts}
-        cfg=json.loads((TEMPLATE/'Konfiguration.json').read_text());cfg.update({'mode':1,'packageRevision':f'BRC-LG01-LS{n:02d}-REIHE-20261014','overrides':{},'media':{},'moodle':{}})
+        cfg=json.loads((TEMPLATE/'Konfiguration.json').read_text());cfg.update({'mode':1,'packageRevision':f'BRC-LG01-LS{n:02d}-BILDER-GRUPPEN-20261014','overrides':{},'media':{},'moodle':{}})
         (root/'Konfiguration.json').write_text(json.dumps(cfg,ensure_ascii=False,indent=2));(root/'mode-config.js').write_text('window.SOZ_CONFIG='+json.dumps(cfg,ensure_ascii=False)+';\n')
-        media={'slots':{'orientation':{'src':'','alt':'','label':'Orientierung · optionales Motiv'},'situation':{'src':'','alt':'','label':'Handlungssituation · optionales Motiv'}}}
+        media={'slots':slots}
         (root/'media-map.js').write_text('window.SOZ_MEDIA='+json.dumps(media,ensure_ascii=False)+';\n');(root/'media-map.json').write_text(json.dumps(media,ensure_ascii=False,indent=2))
         built.append((ls,root,data,instructions))
-        summaries.append({'folder':root.name,'id':data['id'],'title':data['title'],'hours':ls['hours'],'budgets':ls['budgets'],'materials':len(ls['materials']),'tasks':counts,'zip':f'Downloads/BRC_LG01_LS{n:02d}_SCORM.zip'})
+        summaries.append({'folder':root.name,'id':data['id'],'title':data['title'],'hours':ls['hours'],'budgets':ls['budgets'],'materials':len(ls['materials']),'tasks':counts,'images':picture_info,'zip':f'Downloads/BRC_LG01_LS{n:02d}_SCORM.zip'})
     # Browser DOM parsing is the same operation the approved editor uses.
     with sync_playwright() as p:
         browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']);page=browser.new_page()
         for ls,root,data,instructions in built:
             page.goto('about:blank');page.add_script_tag(path=str(root/'assets/progress-core.js'))
             result=page.evaluate('d=>{const meta=SOZ_PROGRESS_CORE.metadataFrom(d,new DOMParser());return {data:d,meta};}',json.loads(json.dumps(data)));data=result['data']
+            data['progressMigration']=migration_for(data,result['meta'],baseline[root.name]);result['meta']['migration']=data['progressMigration']
             (root/'lesson-data.js').write_text('window.SOZPAED='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n');(root/'progress-meta.js').write_text('window.SOZ_PROGRESS_META='+json.dumps(result['meta'],ensure_ascii=False,separators=(',',':'))+';\n')
             for name,content in data['pages'].items():(root/name).write_text(shell(name,content,ls['title'],ls['number']))
             for name in ['lehrkraft.html','druckansicht.html','scorm.html']:(root/name).write_text(shell(name,'',ls['title'],ls['number']))
@@ -292,7 +369,7 @@ def main():
     series={'title':'BRC LG01 · Ein Unternehmen gründen','hours':80,'templateCommit':'712a1200e1a67df2992e869730b1f26facfe7cbc','sourceSha256':hashlib.sha256(args.source.read_bytes()).hexdigest(),'lessons':summaries}
     (OUT/'series.json').write_text(json.dumps(series,ensure_ascii=False,indent=2))
     links=''.join(f'<article><small>LS{i["folder"][2:]} · {i["hours"]} Unterrichtsstunden</small><h2>{ESC(i["title"])}</h2><p><a href="{i["folder"]}/index.html">Lernsituation öffnen</a> · <a href="../../{i["zip"]}" download>SCORM-ZIP herunterladen</a></p></article>' for i in summaries)
-    (OUT/'index.html').write_text('<!doctype html><html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BioCasa · Plug-and-Play-Reihe</title><link rel="stylesheet" href="LS01/assets/styles.css"><style>article{padding:18px;border:1px solid #b8e0f2;border-radius:14px;background:#ffffffbb;margin:14px 0}</style><body><main class="shell main"><h1>BioCasa · Ein Unternehmen gründen</h1><p>Sechs Lernsituationen · fünf alternative Lernwege je Lernsituation · 80 Unterrichtsstunden</p>'+links+'</main></body></html>')
+    (OUT/'index.html').write_text('<!doctype html><html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BioCasa · Plug-and-Play-Reihe</title><link rel="stylesheet" href="LS01/assets/styles.css"><style>article{padding:18px;border:1px solid #b8e0f2;border-radius:14px;background:#ffffffbb;margin:14px 0}</style><body><main class="shell main"><h1>BioCasa · Ein Unternehmen gründen</h1><p>Sechs Lernsituationen · 80 Unterrichtsstunden</p>'+links+'</main></body></html>')
     collection=REPO/'Downloads/BRC_LG01_PlugAndPlay_Gesamtreihe_SCORM.zip'
     with zipfile.ZipFile(collection,'w',zipfile.ZIP_DEFLATED) as z:
         for lesson in summaries:z.write(REPO/lesson['zip'],Path(lesson['zip']).name)

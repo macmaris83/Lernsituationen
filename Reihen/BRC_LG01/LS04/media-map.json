@@ -1,14 +1,14 @@
 {
   "slots": {
     "orientation": {
-      "src": "",
-      "alt": "",
-      "label": "Orientierung · optionales Motiv"
+      "src": "assets/images/biocasa-ls04-orientation.png",
+      "alt": "Das Gründungsteam bereitet mit Laptop und Notizen die Vorstellung seines Vorhabens vor.",
+      "label": "Orientierung · Bei Kapitalgebern pitchen"
     },
     "situation": {
-      "src": "",
-      "alt": "",
-      "label": "Handlungssituation · optionales Motiv"
+      "src": "assets/images/biocasa-ls04-situation.png",
+      "alt": "Das Gründungsteam präsentiert Kapitalgebern eine Produktionsplanung und wirtschaftliche Diagramme.",
+      "label": "Handlungssituation · Bei Kapitalgebern pitchen"
     }
   }
 }
