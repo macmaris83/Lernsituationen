@@ -68,3 +68,7 @@ Moodle-/AIS-Prüfungen von lokalen Browser- und API-Simulationen unterscheiden.
 ## Glas-Optik und Hintergrund
 
 Leicht transparente Flächen mit weichen Schatten, hellen Kanten und moderatem `backdrop-filter`/`-webkit-backdrop-filter` nutzen. Lesbarkeit und eindeutige Statusfarben erhalten; erledigte Aufgaben bleiben klar hellgrün. Für ein freigegebenes Hintergrundbild eine feste, dekorative Ebene über die gesamte Bildschirmfläche mit proportionalem `cover` verwenden, damit das Motiv beim Scrollen stehen bleibt und freie Flächen bei verschiedenen Zoom-/Fenstergrößen füllt. Das exakt bereitgestellte Motiv verwenden; keine Ersatzgrafik als Original ausgeben. Hintergrund im Druck ausblenden.
+
+## Fundus für Dokumentoberflächen
+
+Für Materialien aller Lerngebiete den wiederverwendbaren Fundus `Materialvorlagen/` und dessen `AGENTS.md` nutzen. Dokumenttyp passend auswählen: Outlook für E-Mails, OneNote für Notizen, Teams für Chats, SAP für Geschäftsbelege und Acrobat für PDF-Unterlagen. Nicht pauschal Acrobat für alle Materialien verwenden. Der Fundus ändert keine Fachinhalte und keine bestehende Navigation.
