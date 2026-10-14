@@ -22,7 +22,7 @@ def unlock_phases(page,mode):
 
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('source',type=Path);parser.add_argument('folder',type=Path);args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('source',type=Path);parser.add_argument('folder',type=Path);parser.add_argument('--skip-task-matrix',action='store_true');args=parser.parse_args()
     root=args.folder
     plan=json.loads((REPO/'tools/businessplan_aufgabenzeiten.json').read_text())
     with zipfile.ZipFile(args.source) as source:
@@ -57,7 +57,7 @@ def main():
     try:
         with sync_playwright() as p:
             browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
-            for mode in range(1,6):
+            for mode in ([] if args.skip_task_matrix else range(1,6)):
                 context=browser.new_context(viewport={'width':1024,'height':768});page=context.new_page();errors=[]
                 page.on('pageerror',lambda e:errors.append(str(e)))
                 for phase in PHASES:
@@ -78,6 +78,7 @@ def main():
                         assert focus.locator('.focus-phase-form').inner_text().strip()
                         assert focus.locator('.ais-chat-logo svg').is_visible()
                         assert focus.locator('.focus-countdown').is_visible()
+                        assert focus.locator('.document-pdf-link[href*="Gesamtdruck"]').is_visible()
                         assert focus.locator('.task-summary').evaluate("e=>getComputedStyle(e).outlineStyle==='none'")
                         assert focus.locator('.focus-competence-copy p').inner_text().startswith('Ich ')
                         assert focus.evaluate('(e)=>Math.abs(e.querySelector(".focus-competence").getBoundingClientRect().y-e.querySelector(".focus-toolbar").getBoundingClientRect().y)<2')
@@ -91,7 +92,7 @@ def main():
                         bounds=[focus.locator('.focus-task-footer '+s).bounding_box() for s in ['button:first-child','label','button:last-child']]
                         assert bounds[0]['x']<bounds[1]['x']<bounds[2]['x']
                         assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
-                        focus.locator('.focus-task-footer>button').first.click()
+                        focus.locator('.focus-back-actions>button').click()
                         card=page.locator(f'.assignment-frame[data-task-id="{id}"]')
                         assert card.locator('.task-done-check').is_visible()
                         assert card.evaluate('(e)=>getComputedStyle(e).backgroundColor')=='rgb(243, 248, 231)'
@@ -149,7 +150,7 @@ def main():
             context=browser.new_context(viewport={'width':768,'height':1024});page=context.new_page()
             context.add_init_script('''window.testChimes=0;window.AudioContext=class{constructor(){this.state='running';this.currentTime=0;this.destination={}}createOscillator(){return {frequency:{value:0},connect(){},start(){window.testChimes++},stop(){}}}createGain(){return {gain:{setValueAtTime(){},linearRampToValueAtTime(){},exponentialRampToValueAtTime(){}},connect(){}}}};''')
             page.goto(base+'informieren.html');page.wait_for_function("document.body.dataset.taskFocusReady==='true'");unlock_phases(page,1)
-            page.evaluate('''()=>{const realNow=Date.now.bind(Date);window.testOffset=0;Date.now=()=>realNow()+window.testOffset;}''')
+            page.evaluate('''()=>{const testNow=Date.now();window.testOffset=0;Date.now=()=>testNow+window.testOffset;}''')
             page.locator('.task-original-preview:visible').first.click();focus=page.locator('.task-accordion[open]')
             assert focus.locator('.focus-countdown').evaluate('(e)=>getComputedStyle(e).color')=='rgb(175, 202, 11)'
             page.evaluate('testOffset=450000');page.wait_for_function("document.querySelector('.task-accordion[open] .focus-countdown').textContent==='07:30'")

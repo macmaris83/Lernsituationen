@@ -227,3 +227,36 @@ body[data-page="handlungssituation.html"] .lesson-content>.hero{background:linea
 
 /* Phase workbook import sits immediately below the working form. */
 .phase-workbook-import{margin:8px 0 16px;position:relative;top:auto}
+
+/* Orientation: compact chart on the left, all competencies alongside it. */
+body[data-page="index.html"] .orientation-competence-layout{display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);gap:24px;align-items:start;margin-top:18px}
+body[data-page="index.html"] .orientation-competence-chart{margin:0;padding:0;min-width:0;align-self:start}
+body[data-page="index.html"] .orientation-competence-chart svg{display:block;width:100%!important;max-width:420px!important;margin:0!important}
+body[data-page="index.html"] .orientation-competence-list{display:flex;flex-direction:column;gap:10px;margin:0;min-width:0}
+body[data-page="index.html"] .orientation-competence-list :is(.competence-row,article){margin:0;padding:12px 14px;border:1px solid #dcebf1;border-radius:12px;background:#f7fbfd}
+body[data-page="index.html"] .orientation-competence-list :is(h3,strong){font-size:.94rem;color:#173a63}
+body[data-page="index.html"] .orientation-competence-list h3{margin:0 0 6px}
+body[data-page="index.html"] .orientation-competence-list p{margin:6px 0 0;font-size:.84rem;line-height:1.5;text-align:left;hyphens:auto}
+@media(max-width:600px){body[data-page="index.html"] .orientation-competence-layout{grid-template-columns:minmax(0,1fr);gap:16px}body[data-page="index.html"] .orientation-competence-chart{max-width:420px;width:100%}}
+
+/* Compact orientation legend: five names, balanced with the chart. */
+body[data-page="index.html"] .orientation-competence-list{display:grid;grid-template-rows:repeat(5,minmax(0,1fr));gap:10px;align-self:stretch;min-height:260px}
+body[data-page="index.html"] .orientation-competence-list :is(.competence-row,article){display:flex;align-items:center}
+body[data-page="index.html"] .orientation-competence-list h3{margin:0}
+
+/* Full-document PDF is separate from phase-only GoodNotes workbooks. */
+.acrobat-pdf-icon{width:21px;height:24px;flex:none;vertical-align:middle}
+.footer-utils [data-document-pdf]{display:inline-flex;align-items:center;gap:6px}
+.document-pdf-compact{width:40px;min-width:40px;min-height:40px;padding:6px;flex:none}
+.focus-back-actions{display:flex;align-items:center;gap:6px;justify-self:start;min-width:0;flex-wrap:wrap}
+.focus-back-actions>button{background:transparent;border-color:#cbdfe8;color:#173a63;font-size:.82rem}
+@media(max-width:600px){.focus-back-actions{grid-column:1;grid-row:1}.focus-back-actions>button{padding:7px 5px;font-size:.72rem;white-space:normal;overflow-wrap:anywhere;max-width:100%}.material-topbar .document-pdf-compact{width:34px;min-width:34px}}
+/* A fixed viewport layer scales with the screen, not the document height. */
+body{background:transparent!important;isolation:isolate}
+body::before{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:var(--lesson-background-image,linear-gradient(135deg,#e8f4f9,#f4f8e9));background-size:cover;background-position:center;background-repeat:no-repeat}
+body .shell{background:rgba(255,255,255,.48);border:1px solid rgba(255,255,255,.84);box-shadow:0 16px 50px rgba(32,69,88,.12);backdrop-filter:blur(12px) saturate(120%);-webkit-backdrop-filter:blur(12px) saturate(120%)}
+body .lesson-content>.card:not(.material-access):not(.phase-materials),body[data-page="index.html"] .orientation-competence-list :is(.competence-row,article){background:rgba(255,255,255,.72);border-color:rgba(184,224,242,.9);backdrop-filter:blur(10px) saturate(125%);-webkit-backdrop-filter:blur(10px) saturate(125%);box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 6px 18px rgba(23,58,99,.07)}
+body .navigation,body .phase-workbook-import,body .material-phase-navigation{background:rgba(240,249,253,.76);backdrop-filter:blur(10px) saturate(125%);-webkit-backdrop-filter:blur(10px) saturate(125%)}
+body .material-topbar{background:rgba(243,248,231,.86);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+body.task-focus .focus-competence{background:rgba(248,251,253,.8);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+@media print{body::before{display:none}body .shell,body .lesson-content>.card:not(.material-access):not(.phase-materials){background:#fff;backdrop-filter:none;-webkit-backdrop-filter:none;box-shadow:none}.document-pdf-link{display:none}}

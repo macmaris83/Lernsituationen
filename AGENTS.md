@@ -14,7 +14,7 @@ die gesonderten Vorgaben in `Lernpfaduebungen/AGENTS.md`.
 ## Aufgaben und Fokus
 
 - Originale Aufgabenstellungen vollständig anzeigen; keine Textkürzung oder zusätzliche Aufgabenüberschrift. Operatoren bleiben fett.
-- Kompetenzbeschreibungen in der Orientierung und im Aufgabenfokus konsequent aus der Ich-Perspektive formulieren. Gemeinsame Lernsituationsdaten verwenden, damit beide Ansichten dieselbe Beschreibung zeigen.
+- Kompetenzbeschreibungen konsequent aus der Ich-Perspektive formulieren und gemeinsame Lernsituationsdaten verwenden. In der Orientierung ein kompaktes Kompetenzprofil zeigen: Netz links (beim Businessplan ca. 25 Prozent kleiner, höchstens 420 Pixel breit), rechts die fünf Kompetenznamen; keine zusätzlich wiederholte vorrangige Kompetenzbeschreibung und keine langen Beschreibungsblöcke in dieser Übersicht. Auf kleinen Bildschirmen lesbar untereinander anordnen. Die vollständigen Ich-Beschreibungen bleiben in den Daten und im Aufgabenfokus erhalten.
 - Für längere Fließtexte Blocksatz und automatische deutsche Silbentrennung verwenden (`lang="de"`, `hyphens:auto`); kurze Texte, Aufgabenstellungen, Tabellen und Bedienelemente linksbündig lassen. Unterschiede der Silbentrennung zwischen Browsern berücksichtigen.
 - Geschlossene Aufgabenkarten nach tatsächlicher Text- und Symbolhöhe bemessen. Keine feste Mindesthöhe mit großer Leerfläche unter dem Lehrbuchbezug.
 - In allen sechs Aufgabenphasen (Informieren, Planen, Entscheiden, Durchführen, Bewerten, Reflektieren) öffnet ein Klick auf die Aufgabenkarte ein Akkordeon auf derselben Seite. Andere Aufgaben und die übergeordnete Navigation werden im Fokus ausgeblendet; der Materialzugriff bleibt verfügbar.
@@ -44,7 +44,7 @@ die gesonderten Vorgaben in `Lernpfaduebungen/AGENTS.md`.
 ## Editor, Freischaltung und SCORM
 
 - Den GoodNotes-Import-Button einschließlich seiner gerahmten Leiste in jeder Aufgabenphase direkt unterhalb der Arbeitsform platzieren, für jeden Lernweg passend. Kein zusätzlicher Import-Button oberhalb des Materialzugriffs.
-- GoodNotes-Import ausschließlich in den sechs Aufgabenphasen anbieten und nur die zur aktuellen Phase und zum aktuellen Lernweg gehörenden Arbeitsheftseiten importieren. Kein vollständiges Arbeitsheft vorab für Lernende anbieten. In Orientierung und Handlungssituation fehlen Import-Button und die dadurch leere Leiste samt Rahmen vollständig. Verfügbare PDF-Links für Lernende dürfen die phasenbezogenen Importe nicht durch einen Gesamtdruck umgehen. Lehrkräfte-Exporte bleiben verfügbar.
+- GoodNotes-Import ausschließlich in den sechs Aufgabenphasen anbieten und nur die zur aktuellen Phase und zum aktuellen Lernweg gehörenden Arbeitsheftseiten importieren. Kein vollständiges Arbeitsheft vorab für Lernende anbieten. In Orientierung und Handlungssituation fehlen Import-Button und die dadurch leere Leiste samt Rahmen vollständig. Der separate PDF-Button ist ausdrücklich davon zu unterscheiden: Er öffnet das gesamte Dokument zum Ausdrucken, auch für Lernende und unabhängig vom aktuellen Phasenfortschritt. Links ein kleines Acrobat/PDF-Symbol, Beschriftung „Gesamtdokument als PDF“, keine Beschriftung „PDF dieser Phase“. Den Gesamt-PDF-Zugriff auch im Aufgabenfokus und auf Materialseiten kompakt verfügbar halten. Lehrkräfte-Exporte bleiben verfügbar.
 - Handlungssituation und deren Titelbereich mit derselben leichten Kartenumrahmung wie Orientierung und die übrigen Phasen darstellen.
 - Das Akkordeon aus dem aktuellen Aufgabeninhalt erzeugen, nachdem gespeicherte Editor-Änderungen angewendet wurden. Keine unabhängig gepflegte Kopie der Aufgabenstellung einführen.
 - Editor-Änderungen sollen nach Speichern und Neuladen in Übersicht und Fokus sowie im neuen SCORM-Export erscheinen. Geänderte Zeitangaben und vorhandene Symbole mit übernehmen.
@@ -64,3 +64,7 @@ Freischaltung oben/unten und direkten gesperrten Aufruf prüfen. Bei Änderungen
 Editor/Export gespeicherte Bearbeitung bis zum Export prüfen; bei Änderungen am
 Fortschritt die SCORM-Speicherung und Kompetenzberichte mitprüfen. Tatsächliche
 Moodle-/AIS-Prüfungen von lokalen Browser- und API-Simulationen unterscheiden.
+
+## Glas-Optik und Hintergrund
+
+Leicht transparente Flächen mit weichen Schatten, hellen Kanten und moderatem `backdrop-filter`/`-webkit-backdrop-filter` nutzen. Lesbarkeit und eindeutige Statusfarben erhalten; erledigte Aufgaben bleiben klar hellgrün. Für ein freigegebenes Hintergrundbild eine feste, dekorative Ebene über die gesamte Bildschirmfläche mit proportionalem `cover` verwenden, damit das Motiv beim Scrollen stehen bleibt und freie Flächen bei verschiedenen Zoom-/Fenstergrößen füllt. Das exakt bereitgestellte Motiv verwenden; keine Ersatzgrafik als Original ausgeben. Hintergrund im Druck ausblenden.

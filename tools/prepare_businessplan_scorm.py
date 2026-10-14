@@ -147,7 +147,7 @@ def main():
     # local ZIP export input are adopted from the approved template.
     for path in args.output.glob('*.html'):
         text=path.read_text()
-        text=re.sub(r'((?:assets/(?:runtime\.js|styles\.css|teacher\.js|progress-core\.js|progress\.js|situation\.js))|lesson-data\.js)(?:\?[^"\s]*)?',r'\1?v=businessplan-ui-20261014-phasenimport',text)
+        text=re.sub(r'((?:assets/(?:runtime\.js|styles\.css|teacher\.js|progress-core\.js|progress\.js|situation\.js))|lesson-data\.js)(?:\?[^"\s]*)?',r'\1?v=businessplan-ui-20261014-glas-gesamtpdf',text)
         if path.name=='lehrkraft.html':
             ref=(TEMPLATE/path.name).read_text()
             field=re.search(r'<label[^>]*>[^<]*<input[^>]*data-source-package[^>]*>.*?</label>',ref,re.S)

@@ -4,7 +4,7 @@ Stand: 14. Oktober 2026. Grundlage: hochgeladenes `BRC_LG01_LS03_SCORM (1).zip`.
 
 ## Inhalt und Zeiten
 
-Originale Aufgabenstellungen, Materialien, Quellen, PDFs und Konfiguration bleiben erhalten. Die zwei ausdrücklich freigegebenen redaktionellen Änderungen sind die Orientierungszeiten für alle 83 Aufgaben und die fünf Kompetenzbeschreibungen in der Ich-Perspektive. Orientierung und Aufgabenfokus lesen dieselben Kompetenzdaten. Die Zeiten ergeben in allen fünf alternativen Lernwegen exakt die jeweilige Phasenzeit; die Lernwege werden nicht addiert.
+Originale Aufgabenstellungen, Materialien, Quellen, PDFs und Konfiguration bleiben erhalten. Die zwei ausdrücklich freigegebenen redaktionellen Änderungen sind die Orientierungszeiten für alle 83 Aufgaben und die fünf Kompetenzbeschreibungen in der Ich-Perspektive. Die vollständigen Ich-Kompetenzen bleiben in den gemeinsamen Daten und im Aufgabenfokus erhalten. Die Orientierung zeigt nun ein kompaktes Kompetenzprofil mit den fünf Kompetenznamen rechts neben dem verkleinerten Netz. Die Zeiten ergeben in allen fünf alternativen Lernwegen exakt die jeweilige Phasenzeit; die Lernwege werden nicht addiert.
 
 | Phase | Minuten je Lernweg |
 | --- | ---: |
@@ -20,6 +20,8 @@ Einzelzeiten: [businessplan_aufgabenzeiten.json](../tools/businessplan_aufgabenz
 
 ## Finale Oberfläche und Navigation
 
+Das Kompetenzprofil der Orientierung wurde neu angeordnet: Netz links, beim Businessplan von 560 auf höchstens 420 Pixel (25 Prozent kleiner), rechts die fünf Kompetenznamen. Die zusätzlich wiederholte vorrangige Kompetenzbeschreibung entfällt dort. Auf kleinen Bildschirmen stehen Netz und Namen untereinander. Die gemeinsamen Kompetenzdaten und die vollständigen Aussagen im Aufgabenfokus bleiben erhalten. Die bestehende Orientierung-Abschlussmarkierung bleibt nach Neuladen erhalten; Metadaten und SCORM-Signaturen sind unverändert.
+
 - Auf allen Materialseiten nur ein kompakter hellgrüner Materialzugriff als Akkordeon. M-Nummern und vollständige Bezeichnungen bleiben lesbar; die Auswahl bricht in mehrere Zeilen um, ohne horizontales Scrollen vorauszusetzen. Dasselbe gilt für die übrigen Phasenseiten. In der Orientierung ist der Materialzugriff ersatzlos entfernt.
 - Das Materialfenster dominiert den Bildschirm. Zusätzliche große Titelblöcke sind in der Materialansicht ausgeblendet, im Editor/Druck bleiben die Inhalte erhalten. Die kompakte blaue Phasenübersicht steht unter dem Material und unter „Kurz prüfen“.
 - „Zurück zur Aufgabe“ steht im schmalen Materialkopf und schwebend unten rechts. Die schwebende Schaltfläche sitzt direkt unter `body`, außerhalb des begrenzten Inhaltsrahmens. Der validierte Aufgabenbezug wird in lokalen Materiallinks mitgeführt; fehlender Sitzungsspeicher entfernt die Navigation nicht mehr. Materialwechsel erhält Aufgabe und Lernweg. Ohne gültigen Aufgabenbezug bleibt der Rücksprung sichtbar, aber deaktiviert; kein beliebiger Rücksprung zu Informieren.
@@ -30,9 +32,19 @@ Einzelzeiten: [businessplan_aufgabenzeiten.json](../tools/businessplan_aufgabenz
 
 ## Phasenbezogener GoodNotes-Import
 
-30 zusätzliche Teil-Arbeitshefte: sechs Phasen × fünf Lernwege. Die jeweiligen Original-PDF-Seiten werden übernommen, ohne Aufgaben umzuschreiben. Jeder Import bietet nur die aktuelle Phase und den aktuellen Lernweg. Der Import-Button einschließlich seiner gerahmten Leiste steht in allen sechs Aufgabenphasen unmittelbar unter der Arbeitsform, passend zum gewählten Lernweg. Orientierung und Handlungssituation zeigen weder Import-Button noch leere Import-Leiste. Der Gesamtdruck-Link für Lernende ist entfernt beziehungsweise durch das PDF der aktuellen Phase ersetzt; Lehrkräfte können weiterhin exportieren. Originale PDF-Dateien bleiben als Quelldateien im Archiv erhalten.
+30 zusätzliche Teil-Arbeitshefte: sechs Phasen × fünf Lernwege. Die jeweiligen Original-PDF-Seiten werden übernommen, ohne Aufgaben umzuschreiben. Jeder Import bietet nur die aktuelle Phase und den aktuellen Lernweg. Der Import-Button einschließlich seiner gerahmten Leiste steht in allen sechs Aufgabenphasen unmittelbar unter der Arbeitsform, passend zum gewählten Lernweg. Orientierung und Handlungssituation zeigen weder Import-Button noch leere Import-Leiste. Der separate PDF-/Druck-Button öffnet ausdrücklich das gesamte Dokument, unabhängig von der aktuellen Phase. Ein kleines rotes Acrobat/PDF-Symbol steht links neben „Gesamtdokument als PDF“. Der Gesamtzugriff bleibt auf Materialseiten und im Aufgabenfokus als kompakter Symbolbutton erreichbar. Der Businessplan verwendet die vorhandene vollständige PDF-Datei; Sozialpädagogik die vollständige Druckansicht mit dem bisherigen PDF-Druckmechanismus. Lehrkräfte können weiterhin exportieren. Originale PDF-Dateien bleiben als Quelldateien im Archiv erhalten.
 
 Die Sozialpädagogik-Vorlage und das Paket LS 1.1 enthalten dieselbe technische Oberflächenanpassung, mit sechs Teil-Arbeitsheften für den einen Lernweg. Die vorhandenen Ich-Kompetenzen dort bleiben erhalten.
+
+## Glas-Optik und Hintergrund
+
+Transparente Flächen, weiche Schatten, helle Kanten und moderate Hintergrundunschärfe (`backdrop-filter` und WebKit-Variante) sind wieder deutlicher eingesetzt. Erledigte Aufgaben behalten ihre eindeutige hellgrüne Statusfarbe, Dokumentseiten ihre lesbare Papierfläche. Eine feste dekorative Ebene füllt die gesamte Bildschirmfläche und wird beim Drucken ausgeblendet. Sie ist für ein proportional skaliertes Hintergrundmotiv vorbereitet.
+
+**Offen:** Das in der Chat-Nachricht sichtbare BBS-Hintergrundmotiv liegt im Arbeitsbereich nicht als zugängliche Bilddatei vor. Deshalb wurde dieses Bild noch nicht eingebaut und nicht durch eine andere Grafik ersetzt. Bis die Originaldatei verfügbar ist, verwendet die feste Ebene den vorhandenen Farbverlauf. Eine konkrete Bilddatei wird danach im Paket und Manifest ergänzt.
+
+## Online-Übersetzung: nur geprüft
+
+Die Übersetzungsfunktion ist nicht eingebaut. Der Nutzer hat ausdrücklich zunächst die Prüfung einer Online-Lösung gewählt. Die Ergebnisse und Grenzen der Quellenprüfung stehen in [Fachbegriffe_Online_Uebersetzung_Pruefung.md](../Konzepte/Fachbegriffe_Online_Uebersetzung_Pruefung.md).
 
 ## SCORM und Editor
 
@@ -53,7 +65,10 @@ Die neuen Teil-Arbeitshefte und deren lokalen Share-Skripte sind im Manifest ent
 - SCORM-API-Simulation: Commit, Kompetenzberichte, ursprüngliche Aufgabenkennungen und Wiederaufnahme.
 - Ansichten bei 1024 × 768, 768 × 1024 und 390 × 844 Pixeln: kein seitlicher Seiten-/Materialscroll, kompakte Karten, sichtbarer Rücksprung, unverdeckte Materialien.
 - GoodNotes-Position: gerahmter Import direkt nach dem Arbeitsform-/Arbeitszeitbereich in allen sechs Phasen und fünf Businessplan-Lernwegen sowie den sechs Sozialpädagogik-Phasen geprüft.
+- Orientierung-Kompetenzprofil: Netz höchstens 420 Pixel, fünf Namen rechts daneben, kein wiederholter Kompetenztext, responsive Ansichten 1024/768/390 Pixel und gespeicherte Orientierung-Markierung nach Neuladen geprüft.
 - Orientierung: kein Materialzugriff, kein Ersatz und keine leere Material-/Import-Leiste; in beiden Paketen im Browser geprüft.
+- Gesamt-PDF: getrennt vom phasenweisen GoodNotes-Import, Symbol und Gesamtziel in Übersicht, Materialkopf und Aufgabenfokus geprüft.
+- Glasflächen und feste Hintergrundebene bei 2000/1024/390 Pixeln, Hintergrundgröße über die ganze Bildschirmbreite, unveränderter Ursprung beim Scrollen und ausgeblendeter Druckhintergrund geprüft. Das konkrete Hintergrundfoto ist noch nicht verfügbar und wurde nicht getestet.
 - Lange Texte: CSS-Blocksatz/automatische Silbentrennung und deutsches Dokument geprüft. Aufgaben bleiben linksbündig; Handlungssituationsrahmen konsistent; keine Import-Leiste in Orientierung/Handlungssituation.
 - Fertige ZIPs: fehlerfrei entpackbar, alle Manifest-Dateien vorhanden, Archivinhalt identisch mit den jeweils geprüften Ausgabeordnern.
 
@@ -68,10 +83,12 @@ Prüfungen lokal mit Chromium und einer SCORM-API-Simulation. Der echte Moodle-A
 - Aufbau: `python tools/prepare_businessplan_scorm.py ORIGINAL.zip AUSGABEORDNER`
 - Vollständige Businessplan-Prüfung: `python tools/verify_businessplan_scorm.py ORIGINAL.zip AUSGABEORDNER`
 - Material-/Viewport-Prüfung: `python tools/verify_material_layout.py AUSGABEORDNER`
+- Orientierung-Prüfung: `python tools/verify_orientation_layout.py AUSGABEORDNER`
+- Glas-/Gesamtdokument-Prüfung: `python tools/verify_visual_shell.py AUSGABEORDNER`
 - Phase-Import-/Typografie-Prüfung: `python tools/verify_phase_imports.py AUSGABEORDNER`
 - Voraussetzungen: Python 3, PyMuPDF, Node.js, Python-Paket Playwright, Chromium unter `/usr/bin/chromium`. Die Prüfungen starten und beenden ihren lokalen HTTP-Server selbst.
 
 ## Archiv-Prüfsummen
 
-- `BRC_LG01_LS03_Aktualisiert_SCORM.zip` · SHA256 `ab3bed5bc78185e36ef80d60bfb42a70c2f4df2c3a965c897d91ecce71b60344`
-- `Sozialpaedagogik_LS1_1_SCORM.zip` · SHA256 `ca6038c89ed1f6892e4834969841b4162563e420814f0ae3790115ec882669f4`
+- `BRC_LG01_LS03_Aktualisiert_SCORM.zip` · SHA256 `020fb5e7806a7c5bce1b89328b97f1e73e099aa63b86f4e2d9e6df59c57d689c`
+- `Sozialpaedagogik_LS1_1_SCORM.zip` · SHA256 `d5ad2e08d0284315aecadb987576b637fb09205b1d1994c4c4466a38f89c3f5c`
