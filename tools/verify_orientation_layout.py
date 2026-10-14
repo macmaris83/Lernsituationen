@@ -15,9 +15,14 @@ try:
    for width,height in [(1024,768),(768,1024),(390,844)]:
     page.set_viewport_size({'width':width,'height':height});page.goto(base+'index.html')
     chart=page.locator('.orientation-competence-chart');details=page.locator('.orientation-competence-list');assert chart.count()==details.count()==1
-    assert details.locator(':scope>div,:scope>article').count()==5
-    assert details.locator('p').count()==0
-    assert details.inner_text().count('kompetenz')==5
+    assert details.locator(':scope>div,:scope>article').count()==4
+    assert details.locator('p').count()==4
+    assert all(t.strip().startswith('Ich ') for t in details.locator('p').all_text_contents())
+    assert 'Fachkompetenz' not in details.inner_text()
+    priority=page.locator('.orientation-priority');assert priority.count()==1
+    assert priority.locator('p').inner_text()==page.evaluate("SOZPAED.competencies.find(c=>c.label==='Fachkompetenz').statement")
+    assert priority.bounding_box()['y']<chart.bounding_box()['y']
+    assert details.inner_text().count('kompetenz')==4
     assert page.evaluate("SOZPAED.competencies.every(c=>c.statement.startsWith('Ich '))")
     assert page.locator('.competence-overview>p,.priority-section>p').count()==0
     assert page.locator('.material-access,.phase-materials').count()==0
@@ -31,7 +36,7 @@ try:
      page.locator('.orientation-competence-layout').scroll_into_view_if_needed();name='Businessplan' if 'BRC' in root.name else 'Sozialpaedagogik'
      page.locator('.orientation-competence-layout').locator('..').screenshot(path=str(repo/'Pruefberichte'/f'{name}_Orientierung_Kompetenzen.png'))
    assert not errors,errors
-   print('PASS:',root.name,'chart <=420px, five competency names alongside, no duplicate statement, responsive, orientation completion retained',flush=True)
+   print('PASS:',root.name,'chart <=420px, four full Ich descriptions alongside, priority Fachkompetenz above without duplicate, responsive, orientation completion retained',flush=True)
    context.close()
   browser.close()
 finally:server.shutdown()

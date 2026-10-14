@@ -20,7 +20,7 @@ Einzelzeiten: [businessplan_aufgabenzeiten.json](../tools/businessplan_aufgabenz
 
 ## Finale Oberfläche und Navigation
 
-Das Kompetenzprofil der Orientierung wurde neu angeordnet: Netz links, beim Businessplan von 560 auf höchstens 420 Pixel (25 Prozent kleiner), rechts die fünf Kompetenznamen. Die zusätzlich wiederholte vorrangige Kompetenzbeschreibung entfällt dort. Auf kleinen Bildschirmen stehen Netz und Namen untereinander. Die gemeinsamen Kompetenzdaten und die vollständigen Aussagen im Aufgabenfokus bleiben erhalten. Die bestehende Orientierung-Abschlussmarkierung bleibt nach Neuladen erhalten; Metadaten und SCORM-Signaturen sind unverändert.
+Das Kompetenzprofil der Orientierung wurde neu angeordnet: Netz links, beim Businessplan von 560 auf höchstens 420 Pixel (25 Prozent kleiner), rechts die vier weiteren Kompetenznamen mit ihren vollständigen Ich-Beschreibungen. Die Fachkompetenz steht oberhalb als vorrangige Kompetenz samt Beschreibung; sie wird rechts nicht doppelt dargestellt. Auf kleinen Bildschirmen stehen Netz und Beschreibungen untereinander. Die gemeinsamen Kompetenzdaten und die vollständigen Aussagen im Aufgabenfokus bleiben erhalten. Die bestehende Orientierung-Abschlussmarkierung bleibt nach Neuladen erhalten; Metadaten und SCORM-Signaturen sind unverändert.
 
 - Auf allen Materialseiten nur ein kompakter hellgrüner Materialzugriff als Akkordeon. M-Nummern und vollständige Bezeichnungen bleiben lesbar; die Auswahl bricht in mehrere Zeilen um, ohne horizontales Scrollen vorauszusetzen. Dasselbe gilt für die übrigen Phasenseiten. In der Orientierung ist der Materialzugriff ersatzlos entfernt.
 - Das Materialfenster dominiert den Bildschirm. Zusätzliche große Titelblöcke sind in der Materialansicht ausgeblendet, im Editor/Druck bleiben die Inhalte erhalten. Die kompakte blaue Phasenübersicht steht unter dem Material und unter „Kurz prüfen“.
@@ -38,9 +38,9 @@ Die Sozialpädagogik-Vorlage und das Paket LS 1.1 enthalten dieselbe technische 
 
 ## Glas-Optik und Hintergrund
 
-Transparente Flächen, weiche Schatten, helle Kanten und moderate Hintergrundunschärfe (`backdrop-filter` und WebKit-Variante) sind wieder deutlicher eingesetzt. Erledigte Aufgaben behalten ihre eindeutige hellgrüne Statusfarbe, Dokumentseiten ihre lesbare Papierfläche. Eine feste dekorative Ebene füllt die gesamte Bildschirmfläche und wird beim Drucken ausgeblendet. Sie ist für ein proportional skaliertes Hintergrundmotiv vorbereitet.
+Transparente Flächen, weiche Schatten, helle Kanten und moderate Hintergrundunschärfe (`backdrop-filter` und WebKit-Variante) sind wieder deutlicher eingesetzt. Erledigte Aufgaben behalten ihre eindeutige hellgrüne Statusfarbe, Dokumentseiten ihre lesbare Papierfläche. Eine feste dekorative Ebene füllt die gesamte Bildschirmfläche und wird beim Drucken ausgeblendet. Sie zeigt das unverändert übernommene Originalmotiv proportional skaliert mit `cover` und bleibt beim Scrollen stehen.
 
-**Offen:** Das in der Chat-Nachricht sichtbare BBS-Hintergrundmotiv liegt im Arbeitsbereich nicht als zugängliche Bilddatei vor. Deshalb wurde dieses Bild noch nicht eingebaut und nicht durch eine andere Grafik ersetzt. Bis die Originaldatei verfügbar ist, verwendet die feste Ebene den vorhandenen Farbverlauf. Eine konkrete Bilddatei wird danach im Paket und Manifest ergänzt.
+Das als ZIP nachgereichte BBS-Hintergrundmotiv liegt jetzt als lokale PNG-Datei in beiden Paketen vor und ist in beiden Manifesten aufgeführt. Es benötigt keinen externen Bildabruf.
 
 ## Online-Übersetzung: nur geprüft
 
@@ -65,10 +65,10 @@ Die neuen Teil-Arbeitshefte und deren lokalen Share-Skripte sind im Manifest ent
 - SCORM-API-Simulation: Commit, Kompetenzberichte, ursprüngliche Aufgabenkennungen und Wiederaufnahme.
 - Ansichten bei 1024 × 768, 768 × 1024 und 390 × 844 Pixeln: kein seitlicher Seiten-/Materialscroll, kompakte Karten, sichtbarer Rücksprung, unverdeckte Materialien.
 - GoodNotes-Position: gerahmter Import direkt nach dem Arbeitsform-/Arbeitszeitbereich in allen sechs Phasen und fünf Businessplan-Lernwegen sowie den sechs Sozialpädagogik-Phasen geprüft.
-- Orientierung-Kompetenzprofil: Netz höchstens 420 Pixel, fünf Namen rechts daneben, kein wiederholter Kompetenztext, responsive Ansichten 1024/768/390 Pixel und gespeicherte Orientierung-Markierung nach Neuladen geprüft.
+- Orientierung-Kompetenzprofil: Netz höchstens 420 Pixel, rechts vier weitere Kompetenzen mit vollständigen Ich-Beschreibungen, vorrangige Fachkompetenz mit Beschreibung oberhalb ohne doppelte rechte Karte, responsive Ansichten 1024/768/390 Pixel und gespeicherte Orientierung-Markierung nach Neuladen geprüft.
 - Orientierung: kein Materialzugriff, kein Ersatz und keine leere Material-/Import-Leiste; in beiden Paketen im Browser geprüft.
 - Gesamt-PDF: getrennt vom phasenweisen GoodNotes-Import, Symbol und Gesamtziel in Übersicht, Materialkopf und Aufgabenfokus geprüft.
-- Glasflächen und feste Hintergrundebene bei 2000/1024/390 Pixeln, Hintergrundgröße über die ganze Bildschirmbreite, unveränderter Ursprung beim Scrollen und ausgeblendeter Druckhintergrund geprüft. Das konkrete Hintergrundfoto ist noch nicht verfügbar und wurde nicht getestet.
+- Glasflächen und feste Hintergrundebene bei 2000/1024/390 Pixeln, Hintergrundgröße über die ganze Bildschirmbreite, unveränderter Ursprung beim Scrollen und ausgeblendeter Druckhintergrund geprüft. Das vom Nutzer als ZIP gelieferte Originalfoto ist unverändert als lokale PNG-Datei eingebunden; Auslieferung im Browser, proportionaler bildschirmfüllender Hintergrund und Scrollverhalten wurden geprüft.
 - Lange Texte: CSS-Blocksatz/automatische Silbentrennung und deutsches Dokument geprüft. Aufgaben bleiben linksbündig; Handlungssituationsrahmen konsistent; keine Import-Leiste in Orientierung/Handlungssituation.
 - Fertige ZIPs: fehlerfrei entpackbar, alle Manifest-Dateien vorhanden, Archivinhalt identisch mit den jeweils geprüften Ausgabeordnern.
 
@@ -90,5 +90,9 @@ Prüfungen lokal mit Chromium und einer SCORM-API-Simulation. Der echte Moodle-A
 
 ## Archiv-Prüfsummen
 
-- `BRC_LG01_LS03_Aktualisiert_SCORM.zip` · SHA256 `020fb5e7806a7c5bce1b89328b97f1e73e099aa63b86f4e2d9e6df59c57d689c`
-- `Sozialpaedagogik_LS1_1_SCORM.zip` · SHA256 `d5ad2e08d0284315aecadb987576b637fb09205b1d1994c4c4466a38f89c3f5c`
+- `BRC_LG01_LS03_Aktualisiert_SCORM.zip` · SHA256 `6cc772a2bc2b6e20d3a5718bea8b28b2d57231380e97c549205eef7ac894a65e`
+- `Sozialpaedagogik_LS1_1_SCORM.zip` · SHA256 `b4f26e3c70be770acd80d69e824349d815157a913d1fe58beb0425646e649866`
+
+## Nachtrag: Kompetenzbeschreibungen und Originalhintergrund
+
+Die am 14.10.2026 nachgereichte ZIP enthält das Originalmotiv „Frosted-Glass Campus in Pastelltönen.png“. Beide Vorlagen und SCORM-Ausgaben enthalten es bytegleich als `assets/bbs1-campus-background.png`, einschließlich Manifest-Eintrag. Die feste Hintergrundebene verwendet das Foto lokal, ohne Internetabruf. Die vier weiteren Kompetenzbeschreibungen bleiben neben dem Netz sichtbar; die Fachkompetenz steht als vorrangige Kompetenz oberhalb. Gemeinsame Daten, Editor-Inhalte und vorhandene Fortschrittssignaturen bleiben erhalten. Orientierung und Glas-/Hintergrundprüfung haben für beide Pakete bestanden; die Businessplan-Erstellung aus dem Originalarchiv mit neuer Grafik wurde ebenfalls ausgeführt.

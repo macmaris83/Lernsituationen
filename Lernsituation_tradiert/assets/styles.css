@@ -274,3 +274,12 @@ body .navigation,body .phase-workbook-import,body .material-phase-navigation{bac
 body .material-topbar{background:rgba(243,248,231,.86);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
 body.task-focus .focus-competence{background:rgba(248,251,253,.8);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 @media print{body::before{display:none}body .shell,body .lesson-content>.card:not(.material-access):not(.phase-materials){background:#fff;backdrop-filter:none;-webkit-backdrop-filter:none;box-shadow:none}.document-pdf-link{display:none}}
+
+/* Vorrangige Fachkompetenz oben, vier weitere Ich-Beschreibungen neben dem Netz. */
+body[data-page="index.html"] .orientation-priority{margin:16px 0 18px;padding:14px 16px;border:1px solid #b8e0f2;border-radius:12px;background:rgba(239,249,255,.8)}
+body[data-page="index.html"] .orientation-priority h3{margin:0 0 6px;font-size:.98rem;color:#173a63}
+body[data-page="index.html"] .orientation-priority p{margin:0;font-size:.9rem;line-height:1.55;text-align:left;hyphens:auto}
+body[data-page="index.html"] .orientation-competence-list{grid-template-rows:none;min-height:0;align-self:start}
+body[data-page="index.html"] .orientation-competence-list :is(.competence-row,article){display:block}
+body[data-page="index.html"] .orientation-competence-list h3{margin:0 0 6px}
+body{--lesson-background-image:url('bbs1-campus-background.png')}

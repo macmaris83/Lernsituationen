@@ -13,7 +13,7 @@ from prepare_phase_workbooks import prepare as prepare_workbooks
 
 REPO = Path(__file__).resolve().parents[1]
 TEMPLATE = REPO / 'Lernsituation_fuenf_Lernwege'
-TECHNICAL = ['assets/runtime.js', 'assets/styles.css', 'assets/progress-core.js',
+TECHNICAL = ['assets/bbs1-campus-background.png', 'assets/runtime.js', 'assets/styles.css', 'assets/progress-core.js',
              'assets/progress.js', 'assets/teacher.js', 'assets/export.js', 'assets/situation.js']
 
 
@@ -147,7 +147,7 @@ def main():
     # local ZIP export input are adopted from the approved template.
     for path in args.output.glob('*.html'):
         text=path.read_text()
-        text=re.sub(r'((?:assets/(?:runtime\.js|styles\.css|teacher\.js|progress-core\.js|progress\.js|situation\.js))|lesson-data\.js)(?:\?[^"\s]*)?',r'\1?v=businessplan-ui-20261014-glas-gesamtpdf',text)
+        text=re.sub(r'((?:assets/(?:runtime\.js|styles\.css|teacher\.js|progress-core\.js|progress\.js|situation\.js))|lesson-data\.js)(?:\?[^"\s]*)?',r'\1?v=businessplan-ui-20261014-kompetenzen-campus',text)
         if path.name=='lehrkraft.html':
             ref=(TEMPLATE/path.name).read_text()
             field=re.search(r'<label[^>]*>[^<]*<input[^>]*data-source-package[^>]*>.*?</label>',ref,re.S)
@@ -163,6 +163,12 @@ def main():
         path.write_text(text)
     # Include the phase-only PDF imports without changing learning IDs.
     prepare_workbooks(args.output)
+    manifest_path=args.output/'imsmanifest.xml'
+    tree=ET.parse(manifest_path);ns=tree.getroot().tag.split('}')[0][1:]
+    ET.register_namespace('',ns);ET.register_namespace('adlcp','http://www.adlnet.org/xsd/adlcp_rootv1p2')
+    for resource in tree.getroot().iter('{'+ns+'}resource'):
+        if not any(e.attrib.get('href')=='assets/bbs1-campus-background.png' for e in resource):ET.SubElement(resource,'{'+ns+'}file',{'href':'assets/bbs1-campus-background.png'})
+    tree.write(manifest_path,encoding='utf-8',xml_declaration=True)
     manifest=ET.fromstring((args.output/'imsmanifest.xml').read_bytes())
     for node in manifest.iter():
         if node.tag.split('}')[-1]=='file':assert (args.output/node.attrib['href']).is_file()

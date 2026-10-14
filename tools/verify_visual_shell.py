@@ -20,6 +20,8 @@ try:
      assert document.locator('svg').count()==1
      assert document.get_attribute('href')=='druckansicht.html' or 'Gesamtdruck' in document.get_attribute('href')
      assert 'Gesamtdokument als PDF' in document.inner_text()
+     assert page.evaluate("getComputedStyle(document.body,'::before').backgroundImage.includes('bbs1-campus-background.png')")
+     asset=page.request.get(base+'assets/bbs1-campus-background.png');assert asset.ok and asset.body()==(repo/'Lernsituation_fuenf_Lernwege/assets/bbs1-campus-background.png').read_bytes()
      frame=page.locator('.shell');assert 'rgba' in frame.evaluate('e=>getComputedStyle(e).backgroundColor')
      assert page.evaluate("getComputedStyle(document.body,'::before').position==='fixed'&&getComputedStyle(document.body,'::before').backgroundSize==='cover'")
      assert abs(page.evaluate("parseFloat(getComputedStyle(document.body,'::before').width)")-width)<1
