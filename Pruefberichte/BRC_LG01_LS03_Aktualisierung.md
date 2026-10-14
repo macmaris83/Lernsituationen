@@ -20,7 +20,7 @@ Einzelzeiten: [businessplan_aufgabenzeiten.json](../tools/businessplan_aufgabenz
 
 ## Finale Oberfläche und Navigation
 
-- Auf allen Materialseiten nur ein kompakter hellgrüner Materialzugriff als Akkordeon. M-Nummern und vollständige Bezeichnungen bleiben lesbar; die Auswahl bricht in mehrere Zeilen um, ohne horizontales Scrollen vorauszusetzen. Dasselbe gilt für die Phasenseiten.
+- Auf allen Materialseiten nur ein kompakter hellgrüner Materialzugriff als Akkordeon. M-Nummern und vollständige Bezeichnungen bleiben lesbar; die Auswahl bricht in mehrere Zeilen um, ohne horizontales Scrollen vorauszusetzen. Dasselbe gilt für die übrigen Phasenseiten. In der Orientierung ist der Materialzugriff ersatzlos entfernt.
 - Das Materialfenster dominiert den Bildschirm. Zusätzliche große Titelblöcke sind in der Materialansicht ausgeblendet, im Editor/Druck bleiben die Inhalte erhalten. Die kompakte blaue Phasenübersicht steht unter dem Material und unter „Kurz prüfen“.
 - „Zurück zur Aufgabe“ steht im schmalen Materialkopf und schwebend unten rechts. Die schwebende Schaltfläche sitzt direkt unter `body`, außerhalb des begrenzten Inhaltsrahmens. Der validierte Aufgabenbezug wird in lokalen Materiallinks mitgeführt; fehlender Sitzungsspeicher entfernt die Navigation nicht mehr. Materialwechsel erhält Aufgabe und Lernweg. Ohne gültigen Aufgabenbezug bleibt der Rücksprung sichtbar, aber deaktiviert; kein beliebiger Rücksprung zu Informieren.
 - Geschlossene Aufgabenkarten folgen der tatsächlichen Text-/Symbolhöhe. Die feste Mindesthöhe von 185 Pixeln ist entfernt. Die kurze erste Businessplan-Karte benötigt bei 1024 Pixeln Breite rund 113 statt rund 205 Pixel.
@@ -52,6 +52,7 @@ Die neuen Teil-Arbeitshefte und deren lokalen Share-Skripte sind im Manifest ent
 - Lehrkräfte-Editor: PIN-Prüfung, gespeicherte Zeitänderungen, Akkordeon und tatsächlicher ZIP-Export mit aktuellen Assets und unveränderten Fortschrittssignaturen.
 - SCORM-API-Simulation: Commit, Kompetenzberichte, ursprüngliche Aufgabenkennungen und Wiederaufnahme.
 - Ansichten bei 1024 × 768, 768 × 1024 und 390 × 844 Pixeln: kein seitlicher Seiten-/Materialscroll, kompakte Karten, sichtbarer Rücksprung, unverdeckte Materialien.
+- Orientierung: kein Materialzugriff, kein Ersatz und keine leere Material-/Import-Leiste; in beiden Paketen im Browser geprüft.
 - Lange Texte: CSS-Blocksatz/automatische Silbentrennung und deutsches Dokument geprüft. Aufgaben bleiben linksbündig; Handlungssituationsrahmen konsistent; keine Import-Leiste in Orientierung/Handlungssituation.
 - Fertige ZIPs: fehlerfrei entpackbar, alle Manifest-Dateien vorhanden, Archivinhalt identisch mit den jeweils geprüften Ausgabeordnern.
 
@@ -71,5 +72,5 @@ Prüfungen lokal mit Chromium und einer SCORM-API-Simulation. Der echte Moodle-A
 
 ## Archiv-Prüfsummen
 
-- `BRC_LG01_LS03_Aktualisiert_SCORM.zip` · SHA256 `e8a2e2b3dc4bb61b2ad5bde040b9484ad40292aa7a5b7406c22192b047ac41e9`
-- `Sozialpaedagogik_LS1_1_SCORM.zip` · SHA256 `6f48094ab80fcc330e8d62ceebebc6797e9761b4eef188a81a31c67c0b6a5bf4`
+- `BRC_LG01_LS03_Aktualisiert_SCORM.zip` · SHA256 `521206af2f1932cefa10755281da1f6d79de2e85bac56202fb0da71b0d65d34a`
+- `Sozialpaedagogik_LS1_1_SCORM.zip` · SHA256 `036a884b8a1b935c3997d2924a2128b312f3b9aaab5e69132aa5812d0ef0f55f`

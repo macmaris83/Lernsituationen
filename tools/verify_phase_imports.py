@@ -17,6 +17,7 @@ try:
             for intro in ['index.html','handlungssituation.html']:
                 page.goto(base+intro);assert page.locator('[data-share-workbook]').count()==0;assert page.locator('.tools-bar:visible').count()==0
                 assert page.locator('a[href*="Gesamtdruck"]').count()==0
+                if intro=='index.html':assert page.locator('.material-access,.phase-materials,.material-menu').count()==0
                 assert page.locator('.lesson-content .reading-prose').count()>0
                 assert page.locator('.reading-prose').first.evaluate("e=>getComputedStyle(e).textAlign==='justify'&&getComputedStyle(e).hyphens==='auto'")
                 assert page.evaluate('document.documentElement.lang')=='de'

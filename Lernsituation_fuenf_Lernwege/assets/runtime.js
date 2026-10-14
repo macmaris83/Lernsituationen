@@ -56,6 +56,7 @@ start();
 
 function compactMaterialAccess(){
  document.querySelectorAll('.tools-bar details:has(.material-menu)').forEach(menu=>menu.remove());
+ if(document.body.dataset.page==='index.html'){document.querySelectorAll('.lesson-content .material-access,.lesson-content .phase-materials').forEach(section=>section.remove());return;}
  document.querySelectorAll('.lesson-content .material-access,.lesson-content .phase-materials').forEach(section=>{
   if(section.matches('details'))return;
   const heading=section.querySelector('h2');
