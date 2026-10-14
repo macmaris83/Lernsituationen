@@ -2,17 +2,19 @@
 """Apply the approved LS UI to an uploaded business-plan SCORM, preserving content.
 
 Usage: python tools/prepare_businessplan_scorm.py SOURCE.zip OUTPUT_DIRECTORY
-Only approved technical files, cache query strings and requested task times change.
-Task wording, signatures, configuration, source media and PDFs stay unchanged.
+Approved technical files, cache query strings, requested task times and first-person
+competencies change. Phase-only PDF imports are added to the manifest. Original
+task wording, signatures, configuration, source media and PDFs stay unchanged.
 """
 from pathlib import Path
 import argparse, hashlib, json, re, shutil, zipfile
 import xml.etree.ElementTree as ET
+from prepare_phase_workbooks import prepare as prepare_workbooks
 
 REPO = Path(__file__).resolve().parents[1]
 TEMPLATE = REPO / 'Lernsituation_fuenf_Lernwege'
 TECHNICAL = ['assets/runtime.js', 'assets/styles.css', 'assets/progress-core.js',
-             'assets/progress.js', 'assets/teacher.js', 'assets/export.js']
+             'assets/progress.js', 'assets/teacher.js', 'assets/export.js', 'assets/situation.js']
 
 
 def replace_once(text, old, new):
@@ -43,7 +45,7 @@ function saveClock(t){try{sessionStorage.setItem(t.key,JSON.stringify({total:t.t
     runtime = replace_once(runtime,
         'summary.append(strip);',
         r"const phaseForm=card.closest('[data-mode-panel]')?.querySelectorAll('.phase-meta p')[1];if(phaseForm&&!card.querySelector('.assignment-social')){const form=element('span','focus-phase-form');const icon=phaseForm.querySelector('svg');if(icon)form.append(icon.cloneNode(true));const formText=phaseForm.querySelector('span')?.textContent.replace(/^Arbeitsform:\s*/,'').trim();if(formText)form.append(element('span','',formText));strip.append(form);}summary.append(strip);")
-    return runtime + MATERIAL_PHASE_NAV
+    return runtime + ('' if '/* Material access to the complete action cycle;' in runtime else MATERIAL_PHASE_NAV)
 
 
 MATERIAL_PHASE_NAV = r"""
@@ -52,16 +54,16 @@ MATERIAL_PHASE_NAV = r"""
 const D=window.SOZPAED;if(!D||!/^m\d+\.html$/.test(document.body.dataset.page||''))return;
 const main=document.querySelector('.main');if(!main)return;
 const phases=[['index.html','Orientierung'],['handlungssituation.html','Handlungssituation'],['informieren.html','Informieren'],['planen.html','Planen'],['entscheiden.html','Entscheiden'],['durchfuehren.html','Durchführen'],['bewerten.html','Bewerten'],['reflektieren.html','Reflektieren']];
-let saved;try{saved=JSON.parse(sessionStorage.getItem('task-focus-return:'+D.id)||'null');}catch{}
+const saved=window.SOZ_MATERIAL_RETURN?.read();
 const origin=phases.findIndex(([name])=>name===saved?.page),current=origin>=0?origin:2;
 const nav=document.createElement('nav');nav.className='material-phase-navigation';nav.setAttribute('aria-label','Vollständige Handlung');
 const heading=document.createElement('strong');heading.textContent='Phasenübersicht';nav.append(heading);
 const links=document.createElement('div');links.className='material-phase-links';
 function link(index,label){const a=document.createElement('a');a.className='button';a.href=phases[index][0];a.dataset.learningPage=phases[index][0];a.textContent=label||phases[index][1];return a;}
 phases.forEach((phase,index)=>links.append(link(index)));nav.append(links);
-main.querySelector('.material-switch')?.after(nav);
+main.querySelector('.lesson-content')?.after(nav);
 const turn=document.createElement('nav');turn.className='material-phase-turn';turn.setAttribute('aria-label','Zurück oder weiter in der vollständigen Handlung');
-turn.append(link(current,'← Zurück · '+phases[current][1]));
+// Return to the actual task is handled by the persistent task button.
 if(current<phases.length-1)turn.append(link(current+1,'Weiter · '+phases[current+1][1]+' →'));
 main.append(turn);window.SOZ_PROGRESS?.render();
 })();
@@ -122,6 +124,17 @@ def main():
         page=args.output/name
         raw=page.read_text();assert original_data['pages'][name] in raw
         page.write_text(raw.replace(original_data['pages'][name],data['pages'][name],1))
+    # Latest explicit editorial exception: learner-facing competency statements.
+    descriptions=json.loads((REPO/'tools/businessplan_kompetenzen.json').read_text())
+    replacements={c['statement']:descriptions[c['label']] for c in data['competencies']}
+    for c in data['competencies']:c['statement']=descriptions[c['label']]
+    for name,content in data['pages'].items():
+        for old,new in replacements.items():content=content.replace(old,new)
+        data['pages'][name]=content
+    for path in args.output.glob('*.html'):
+        content=path.read_text()
+        for old,new in replacements.items():content=content.replace(old,new)
+        path.write_text(content)
     data_path.write_text('window.SOZPAED='+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n')
     core=args.output/'assets/progress-core.js'
     core.write_text(replace_once(core.read_text(),
@@ -134,7 +147,7 @@ def main():
     # local ZIP export input are adopted from the approved template.
     for path in args.output.glob('*.html'):
         text=path.read_text()
-        text=re.sub(r'((?:assets/(?:runtime\.js|styles\.css|teacher\.js|progress-core\.js|progress\.js))|lesson-data\.js)(?:\?[^"\s]*)?',r'\1?v=businessplan-ui-20261009-materialnav',text)
+        text=re.sub(r'((?:assets/(?:runtime\.js|styles\.css|teacher\.js|progress-core\.js|progress\.js|situation\.js))|lesson-data\.js)(?:\?[^"\s]*)?',r'\1?v=businessplan-ui-20261014-return',text)
         if path.name=='lehrkraft.html':
             ref=(TEMPLATE/path.name).read_text()
             field=re.search(r'<label[^>]*>[^<]*<input[^>]*data-source-package[^>]*>.*?</label>',ref,re.S)
@@ -148,7 +161,8 @@ def main():
                 field='<label>SCORM-ZIP für lokalen Export<input type="file" data-source-package="" accept=".zip,application/zip"></label>'
                 text=text.replace('<p data-teacher-status',field+'<p data-teacher-status')
         path.write_text(text)
-    # No new dependencies or learning IDs: the original manifest stays intact.
+    # Include the phase-only PDF imports without changing learning IDs.
+    prepare_workbooks(args.output)
     manifest=ET.fromstring((args.output/'imsmanifest.xml').read_bytes())
     for node in manifest.iter():
         if node.tag.split('}')[-1]=='file':assert (args.output/node.attrib['href']).is_file()
@@ -158,7 +172,7 @@ def main():
             if name in editorial or name.startswith('pdf/') or (name.startswith('assets/') and name not in TECHNICAL):
                 assert source.read(name)==(args.output/name).read_bytes(),name
     print('Prepared:',args.output)
-    print('Only requested task times change in lesson data; wording, signatures, configuration, PDFs and media are preserved.')
+    print('Only requested task times and first-person competencies change in lesson data; task wording, signatures, configuration, original PDFs and media are preserved.')
 
 
 if __name__=='__main__':main()

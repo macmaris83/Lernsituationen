@@ -28,8 +28,13 @@ def main():
     with zipfile.ZipFile(args.source) as source:
         old=payload(source.read('lesson-data.js'));new=payload((root/'lesson-data.js').read_bytes())
         restored=json.loads(json.dumps(new))
+        descriptions=json.loads((REPO/'tools/businessplan_kompetenzen.json').read_text())
+        for c in old['competencies']:
+            before=c['statement'];after=descriptions[c['label']]
+            assert next(x for x in new['competencies'] if x['label']==c['label'])['statement']==after
+            raw=json.dumps(restored,ensure_ascii=False).replace(after,before);restored=json.loads(raw)
         for phase in PHASES:restored['pages'][phase+'.html']=re.sub(TIME_SPAN,'',restored['pages'][phase+'.html'])
-        assert restored==old,'Content changed beyond timing spans'
+        assert restored==old,'Content changed beyond authorized timing spans and first-person competencies'
         for name in ['progress-meta.js','mode-config.js','Konfiguration.json','media-map.js','media-map.json','assets/scorm.js','assets/scorm-codec.js']:
             assert source.read(name)==(root/name).read_bytes(),name
         for name in source.namelist():
@@ -60,6 +65,8 @@ def main():
                     unlock_phases(page,mode)
                     expected=plan['minutesByMode'][phase][str(mode)]
                     assert page.locator('.task-original-preview:visible').count()==len(expected)
+                    assert page.locator('.assignment-frame:visible').first.evaluate("e=>getComputedStyle(e).minHeight==='0px'")
+                    assert page.locator('.material-grid').first.evaluate('e=>e.scrollWidth<=e.clientWidth+1')
                     assert page.locator('details.material-access,details.phase-materials').count()==1
                     # Recomputing metadata during export must preserve original signatures.
                     assert page.evaluate('''()=>{const d=JSON.parse(JSON.stringify(SOZPAED)),m=SOZ_PROGRESS_CORE.metadataFrom(d,new DOMParser());return JSON.stringify(m)===JSON.stringify(SOZ_PROGRESS_META)}''')
@@ -71,6 +78,8 @@ def main():
                         assert focus.locator('.focus-phase-form').inner_text().strip()
                         assert focus.locator('.ais-chat-logo svg').is_visible()
                         assert focus.locator('.focus-countdown').is_visible()
+                        assert focus.locator('.task-summary').evaluate("e=>getComputedStyle(e).outlineStyle==='none'")
+                        assert focus.locator('.focus-competence-copy p').inner_text().startswith('Ich ')
                         assert focus.evaluate('(e)=>Math.abs(e.querySelector(".focus-competence").getBoundingClientRect().y-e.querySelector(".focus-toolbar").getBoundingClientRect().y)<2')
                         focus.locator('summary').click();assert page.locator('.task-accordion[open]').count()==1
                         checkbox=focus.locator('[data-task-complete]');id=checkbox.get_attribute('data-task-id')
@@ -89,6 +98,37 @@ def main():
                 assert not errors,errors
                 print('PASS: path',mode,'all six phases and every task: full content, timer, header, manual next, green completion, layout',flush=True)
                 context.close()
+
+            # Quiz rows communicate correctness with blue/green, without tick marks.
+            context=browser.new_context();page=context.new_page();page.goto(base+'handlungssituation.html')
+            questions=page.locator('[data-situation-quiz] script[type="application/json"]').evaluate('e=>JSON.parse(e.textContent)')
+            for question in questions:
+                panel=page.locator('[data-quiz-question="'+question['id']+'"]');details=panel.locator('..')
+                summary=details.locator('summary');page.wait_for_function("e=>getComputedStyle(e).backgroundColor==='rgb(238, 248, 253)'",arg=summary.element_handle())
+                details.evaluate('e=>e.open=true')
+                panel.locator('input[value="'+question['correct']+'"]').check();panel.locator('[data-quiz-submit]').click()
+                page.wait_for_function("e=>getComputedStyle(e).backgroundColor==='rgb(243, 248, 231)'",arg=summary.element_handle())
+                assert details.locator('[data-quiz-marker]').inner_text()==''
+                wrong=next(o['value'] for o in question['options'] if o['value']!=question['correct'])
+                panel.locator('input[value="'+wrong+'"]').check();panel.locator('[data-quiz-submit]').click()
+                page.wait_for_function("e=>getComputedStyle(e).backgroundColor==='rgb(238, 248, 253)'",arg=summary.element_handle())
+                panel.locator('input[value="'+question['correct']+'"]').check();panel.locator('[data-quiz-submit]').click()
+            page.reload();assert page.locator('.quiz-is-complete').count()==len(questions)
+            context.close();print('PASS: all quiz rows blue before/wrong, green after correct submission, no ticks, status survives reload',flush=True)
+
+            # Only the current phase's original workbook pages are shared.
+            context=browser.new_context();context.add_init_script("navigator.canShare=()=>true;navigator.share=async({files})=>{window.sharedWorkbook={name:files[0].name,size:files[0].size,type:files[0].type};}");page=context.new_page()
+            for name in ['index.html','handlungssituation.html']:
+                page.goto(base+name);assert page.locator('[data-share-workbook]').count()==0;assert page.locator('.tools-bar:visible').count()==0
+            for mode in range(1,6):
+                for phase in PHASES:
+                    page.goto(base+phase+'.html');page.wait_for_function("document.body.dataset.taskFocusReady==='true'");unlock_phases(page,mode)
+                    page.locator('[data-share-workbook]').click()
+                    page.wait_for_function('!!window.sharedWorkbook')
+                    expected=f'GoodNotes_Phase_{phase}_W{mode}.pdf';actual=page.evaluate('sharedWorkbook')
+                    assert actual['name']==expected and actual['type']=='application/pdf'
+                    assert actual['size']==(root/'pdf'/expected).stat().st_size
+            context.close();print('PASS: no GoodNotes import/empty toolbar at orientation or situation; all 30 actual shares contain the correct phase-only PDF',flush=True)
 
             # Incomplete phase locks both normal navigation and direct page access.
             context=browser.new_context();page=context.new_page()
@@ -124,12 +164,12 @@ def main():
             focus.locator('.focus-next').click();focus=page.locator('.task-accordion[open]');id=focus.locator('[data-task-complete]').get_attribute('data-task-id')
             focus.locator('.focus-sound input').uncheck();page.evaluate('testOffset+=20000')
             page.wait_for_function("document.querySelector('.task-accordion[open] .focus-countdown').textContent==='34:40'")
-            page.locator('.phase-materials a[href="m2.html"],.material-access a[href="m2.html"]').first.click()
+            page.locator('.phase-materials a[href^="m2.html"],.material-access a[href^="m2.html"]').first.click()
             assert page.locator('.navigation').is_hidden()
             assert page.locator('.material-switch:visible').count()==1
             assert page.locator('.material-switch a').count()==10
             assert page.locator('[data-share-workbook]:visible').count()==0
-            page.locator('.material-switch a[href="m3.html"]').click();page.locator('.return-task').click()
+            page.locator('.material-switch summary').click();page.locator('.material-switch a[href^="m3.html"]').click();page.locator('.return-task').click()
             page.wait_for_function("document.body.dataset.taskFocusReady==='true'")
             assert page.locator('.task-accordion[open] [data-task-complete]').get_attribute('data-task-id')==id
             value=page.locator('.task-accordion[open] .focus-countdown').inner_text();assert value in ['34:40','34:39'],value
@@ -147,22 +187,56 @@ def main():
                     page.goto(base+f'm{material}.html');unlock_phases(page,mode)
                     assert page.locator('.material-phase-navigation:visible').count()==1
                     assert page.locator('.material-phase-links a[href]').count()==8
-                    assert page.locator('.material-phase-turn a[href]').count()==2
+                    assert page.locator('.material-phase-turn a[href]').count()==1
                     assert page.locator('.material-switch:visible').count()==1
                     assert page.locator('[data-share-workbook]:visible').count()==0
                     assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
                     page.evaluate('''mode=>{const p=SOZ_PROGRESS.read();const id=Object.entries(SOZ_PROGRESS_META.tasks).find(([id,t])=>t.mode===mode&&t.phase==='informieren')[0];delete p.t[id];SOZ_PROGRESS.write(p);}''',mode)
                     assert page.locator('.material-phase-links [data-learning-page="planen.html"]').get_attribute('aria-disabled')=='true'
                     assert page.locator('.material-phase-turn a').last.get_attribute('aria-disabled')=='true'
-                    assert page.locator('.material-phase-turn a').first.get_attribute('href')=='informieren.html'
+                    assert page.locator('.return-task').get_attribute('aria-disabled')=='true'
             page.goto(base+'planen.html');page.wait_for_function("document.body.dataset.taskFocusReady==='true'");unlock_phases(page,1)
             page.locator('.task-original-preview:visible').first.click()
             page.goto(base+'m10.html');unlock_phases(page,1)
-            assert page.locator('.material-phase-turn a').first.get_attribute('href')=='planen.html'
+            assert page.locator('.return-task').get_attribute('href').startswith('planen.html?aufgabe=')
             assert page.locator('.material-phase-turn a').last.get_attribute('href')=='entscheiden.html'
             page.locator('.material-phase-turn a').last.click();assert page.url.endswith('entscheiden.html')
             page.goto(base+'m1.html');page.locator('.material-phase-links a[href="informieren.html"]').click();assert page.url.endswith('informieren.html')
             context.close();print('PASS: all ten materials in five paths: complete phase navigation, contextual back/next, phase locks and real phase transitions',flush=True)
+
+            # App-style session storage failures cannot remove the task return.
+            for storage_case in ['denied','cleared']:
+                context=browser.new_context(viewport={'width':768,'height':1024});page=context.new_page()
+                if storage_case=='denied':context.add_init_script("Object.defineProperty(window,'sessionStorage',{get(){throw new DOMException('Blocked','SecurityError')}})")
+                else:context.add_init_script('sessionStorage.clear()')
+                for mode in range(1,6):
+                    page.goto(base+'informieren.html');page.wait_for_function("document.body.dataset.taskFocusReady==='true'");unlock_phases(page,mode)
+                    page.locator('.task-original-preview:visible').first.click()
+                    task=page.locator('.task-accordion[open] [data-task-complete]').get_attribute('data-task-id')
+                    page.locator('.phase-materials a[href^="m1.html"],.material-access a[href^="m1.html"]').first.click()
+                    for material in range(1,11):
+                        if material>1:
+                            page.locator('.material-switch summary').click();page.locator(f'.material-switch a[href^="m{material}.html"]').click()
+                        assert page.locator('.return-task').is_visible()
+                        assert page.locator('.return-task-inline').is_visible()
+                        assert page.locator('.return-task').evaluate('(e)=>e.parentElement===document.body')
+                        assert page.locator('.material-switch').get_attribute('open') is None
+                        page.locator('.material-switch summary').click()
+                        assert page.locator('.material-switch>nav').evaluate('e=>e.scrollWidth<=e.clientWidth+1')
+                        assert page.locator('.material-switch a').last.is_visible()
+                        page.locator('.material-switch summary').click()
+                        assert page.locator('.lesson-content>.hero').is_hidden()
+                        assert page.evaluate("document.querySelector('.lesson-content').compareDocumentPosition(document.querySelector('.material-phase-navigation')) & Node.DOCUMENT_POSITION_FOLLOWING")
+                        assert page.evaluate('Number(document.body.dataset.mode)')==mode
+                        assert page.evaluate('SOZ_MATERIAL_RETURN.read().task')==task
+                        assert page.locator('.return-task').get_attribute('href')==page.locator('.return-task-inline').get_attribute('href')
+                        assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
+                    page.locator('.return-task-inline').click();page.wait_for_function("document.body.dataset.taskFocusReady==='true'")
+                    assert page.locator('.task-accordion[open] [data-task-complete]').get_attribute('data-task-id')==task
+                page.goto(base+'m1.html?rueckaufgabe=invalid')
+                assert page.locator('.return-task').get_attribute('aria-disabled')=='true'
+                context.close()
+            print('PASS: blocked/cleared session storage in every learning path and material, exact task return, compact chooser, lower phase navigation',flush=True)
 
             # Teacher edit is the actual source used by the accordion and export.
             context=browser.new_context(viewport={'width':1024,'height':768},accept_downloads=True);page=context.new_page()

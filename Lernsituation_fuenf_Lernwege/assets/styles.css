@@ -170,3 +170,57 @@ body.material-reading .tools-bar,body.material-reading .phase-materials,body.mat
 .focus-task-heading:not(:has(.focus-timer)) .focus-toolbar{display:none}
 @media(max-width:600px){.focus-task-heading{grid-template-columns:minmax(0,1fr);gap:8px}.focus-task-heading .focus-timer{padding:4px 0}.focus-task-heading .focus-timer-note{max-width:290px;margin-left:auto}}
 @media print{.focus-task-heading{display:none!important}}
+
+/* App-safe material return: body overlay plus visible in-page fallback. */
+body.material-reading>.return-task{right:18px;bottom:18px;right:max(18px,env(safe-area-inset-right));bottom:max(18px,env(safe-area-inset-bottom));max-width:calc(100vw - 36px);min-height:44px;z-index:10000}
+.return-task-inline{position:sticky;top:0;z-index:95;background:#f3f8e7;border-color:#afca0b;margin-bottom:10px;min-height:44px}
+@media print{.return-task,.return-task-inline{display:none!important}}
+
+/* Compact material chooser; document headings remain available in print/editor. */
+.material-topbar{display:flex;align-items:flex-start;gap:8px;position:sticky;top:0;z-index:100;background:#f3f8e7;border:1px solid #dcebb0;border-radius:10px;padding:6px;margin-bottom:12px}
+.material-topbar .material-switch{display:block;flex:1;min-width:0;margin:0;padding:0;border:0;background:transparent;overflow:visible}
+.material-switch>summary{cursor:pointer;padding:9px;font-weight:700;color:#173a63;list-style:revert}
+.material-switch>nav{display:flex;flex-direction:column;max-height:45vh;overflow:auto}
+.material-switch>nav a{white-space:normal;display:block}
+.material-topbar .return-task-inline{position:static;margin:0;flex:none;padding:9px 10px;background:#eaf7fd;border-color:#009bd9;font-size:.85rem}
+body.material-reading .lesson-content>.hero{display:none}
+.return-task[aria-disabled=true],.return-task-inline[aria-disabled=true]{opacity:.6;cursor:default}
+@media(max-width:450px){.material-topbar .return-task-inline{max-width:48%;font-size:.78rem}}
+@media print{.material-topbar{display:none!important}body.material-reading .lesson-content>.hero{display:block}}
+.material-phase-navigation{border:1px solid #b8dfee;background:#eef8fd;border-radius:12px;padding:10px 12px;margin-bottom:14px}
+.material-phase-navigation>strong{display:block;font-size:.8rem;color:#173a63;margin-bottom:7px}
+.material-phase-links{display:flex;gap:6px;overflow-x:auto}
+.material-phase-links .button{flex:none;white-space:nowrap;font-size:.8rem;padding:7px 10px}
+.material-phase-turn{display:flex;justify-content:space-between;gap:12px;margin:20px 0;flex-wrap:wrap}
+.material-phase-turn .button{background:#eaf7fd;border-color:#009bd9;color:#006a98}
+@media print{.material-phase-navigation,.material-phase-turn{display:none}}
+
+/* Mouse and touch: all material choices fit without horizontal scrolling. */
+body .main .lesson-content :is(.material-access,.phase-materials) .material-grid,.material-topbar .material-switch>nav{display:flex;flex-direction:row;flex-wrap:wrap;gap:6px;overflow:visible;max-height:none}
+body .main .lesson-content :is(.material-access,.phase-materials) .material-link,.material-topbar .material-switch .material-link{flex:0 1 auto;max-width:100%;white-space:normal;min-width:0;overflow-wrap:anywhere;padding:6px 9px;font-size:.82rem;line-height:1.4;display:flex;align-items:baseline;gap:5px;min-height:32px}
+.material-topbar .material-switch .material-link b{flex:none;background:transparent;padding:0}
+body.material-reading .material-topbar .material-access{display:block!important}
+.material-topbar .material-switch>summary{font-size:1rem;color:#173a63;padding:6px}
+.material-topbar .material-switch[open]>summary{margin-bottom:6px}
+
+/* Overview cards follow their text and icon height, without a fixed blank area. */
+body[data-phase-layout] .assignment-frame:has(>.task-accordion:not([open])){display:grid!important;grid-template-columns:100px minmax(0,1fr)!important;min-height:0;align-items:start}
+.assignment-frame>.task-accordion:not([open]){grid-column:1;grid-row:1;padding:14px 0 12px 14px;min-width:0}
+.task-accordion:not([open])>.task-summary{position:static;left:auto;top:auto;width:82px}
+.assignment-frame:has(>.task-accordion:not([open]))>.task-original-preview{grid-column:2;grid-row:1;padding:14px 52px 14px 10px}
+@media(max-width:600px){body[data-phase-layout] .assignment-frame:has(>.task-accordion:not([open])){grid-template-columns:86px minmax(0,1fr)!important}.assignment-frame>.task-accordion:not([open]){padding:12px 0 12px 10px}.task-accordion:not([open])>.task-summary{width:76px}.assignment-frame:has(>.task-accordion:not([open]))>.task-original-preview{padding:12px 40px 12px 9px}}
+
+/* Quiz status uses the full row, with the established blue/green colours. */
+body [data-situation-quiz] details>summary{background:#eef8fd!important;border-color:#bce7fc!important}
+body [data-situation-quiz] details.quiz-is-complete>summary{background:#f3f8e7!important;border-color:#afca0b!important}
+[data-quiz-marker]{display:none!important}
+
+/* Situation title and narrative use the same light card frame as other phases. */
+body[data-page="handlungssituation.html"] .lesson-content>.card:not(.material-access){border:1px solid #dcebf1;background:linear-gradient(140deg,#fff,#f4fafc);border-radius:20px;box-shadow:0 7px 18px #264d6310}
+body[data-page="handlungssituation.html"] .lesson-content>.hero{background:linear-gradient(120deg,#fff,#eaf7fd)}
+
+/* Long reading prose only; short text, tasks and controls stay ragged-right. */
+.reading-prose{text-align:justify;-webkit-hyphens:auto;hyphens:auto;overflow-wrap:break-word}
+.task-accordion[open]>.task-summary{outline:none!important}
+.task-focus-panel:focus{outline:none}
+.task-summary:focus-visible{outline:2px solid #009bd9;outline-offset:2px}

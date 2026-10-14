@@ -1,10 +1,10 @@
 # Businessplan LG01–LS03: aktualisiertes SCORM-Paket
 
-Stand: 9. Oktober 2026. Grundlage: hochgeladenes `BRC_LG01_LS03_SCORM (1).zip`.
+Stand: 14. Oktober 2026. Grundlage: hochgeladenes `BRC_LG01_LS03_SCORM (1).zip`.
 
 ## Inhalt und Zeiten
 
-Originale Aufgabenstellungen, Materialien, PDFs, GoodNotes-Dateien, Konfiguration und Fachkompetenzen bleiben unverändert. Auf ausdrücklichen Nutzerwunsch wurden ausschließlich Orientierungszeiten für die 83 Aufgaben ergänzt, nach Umfang und Anspruch verteilt. Die Zeiten ergeben in allen fünf alternativen Lernwegen exakt die jeweilige Phasenzeit. Die Lernwege werden nicht addiert.
+Originale Aufgabenstellungen, Materialien, Quellen, PDFs und Konfiguration bleiben erhalten. Die zwei ausdrücklich freigegebenen redaktionellen Änderungen sind die Orientierungszeiten für alle 83 Aufgaben und die fünf Kompetenzbeschreibungen in der Ich-Perspektive. Orientierung und Aufgabenfokus lesen dieselben Kompetenzdaten. Die Zeiten ergeben in allen fünf alternativen Lernwegen exakt die jeweilige Phasenzeit; die Lernwege werden nicht addiert.
 
 | Phase | Minuten je Lernweg |
 | --- | ---: |
@@ -16,39 +16,60 @@ Originale Aufgabenstellungen, Materialien, PDFs, GoodNotes-Dateien, Konfiguratio
 | Reflektieren | 45 |
 | Gesamt | **810** |
 
-Die einzelnen Zuordnungen stehen in [businessplan_aufgabenzeiten.json](../tools/businessplan_aufgabenzeiten.json).
+Einzelzeiten: [businessplan_aufgabenzeiten.json](../tools/businessplan_aufgabenzeiten.json). Kompetenzformulierungen: [businessplan_kompetenzen.json](../tools/businessplan_kompetenzen.json).
 
-## Materialnavigation – Ergänzung vom 9. Oktober 2026
+## Finale Oberfläche und Navigation
 
-Auf allen zehn Materialseiten gibt es zusätzlich eine kompakte blaue Phasenübersicht mit allen acht Stationen der vollständigen Handlung. Unter dem Material führen „Zurück“ zur Ausgangsphase und „Weiter“ zur folgenden Phase. Die Ausgangsphase wird aus der zuletzt geöffneten Aufgabe übernommen; ohne vorherige Aufgabe gilt Informieren als Ausgangspunkt. Der schwebende Rücksprung zur konkreten Aufgabe und die einzige hellgrüne Materialleiste bleiben bestehen. Gesperrte Phasen bleiben auch von Materialseiten aus gesperrt. Die große Stationsübersicht und GoodNotes-Teilen bleiben dort ausgeblendet.
+- Auf allen Materialseiten nur ein kompakter hellgrüner Materialzugriff als Akkordeon. M-Nummern und vollständige Bezeichnungen bleiben lesbar; die Auswahl bricht in mehrere Zeilen um, ohne horizontales Scrollen vorauszusetzen. Dasselbe gilt für die Phasenseiten.
+- Das Materialfenster dominiert den Bildschirm. Zusätzliche große Titelblöcke sind in der Materialansicht ausgeblendet, im Editor/Druck bleiben die Inhalte erhalten. Die kompakte blaue Phasenübersicht steht unter dem Material und unter „Kurz prüfen“.
+- „Zurück zur Aufgabe“ steht im schmalen Materialkopf und schwebend unten rechts. Die schwebende Schaltfläche sitzt direkt unter `body`, außerhalb des begrenzten Inhaltsrahmens. Der validierte Aufgabenbezug wird in lokalen Materiallinks mitgeführt; fehlender Sitzungsspeicher entfernt die Navigation nicht mehr. Materialwechsel erhält Aufgabe und Lernweg. Ohne gültigen Aufgabenbezug bleibt der Rücksprung sichtbar, aber deaktiviert; kein beliebiger Rücksprung zu Informieren.
+- Geschlossene Aufgabenkarten folgen der tatsächlichen Text-/Symbolhöhe. Die feste Mindesthöhe von 185 Pixeln ist entfernt. Die kurze erste Businessplan-Karte benötigt bei 1024 Pixeln Breite rund 113 statt rund 205 Pixel.
+- Arbeitsaufträge bleiben vollständig, im offenen Akkordeon als Absätze. Der Aufgabenrahmen ist blau, erledigte Karten hellgrün. Kein orangefarbener Rahmen um den geöffneten Kopf; Tastaturfokus landet im Aufgabenbereich. Manuelles Weiter erst nach Erledigt-Markierung.
+- Prüffragen der Handlungssituation: komplette Zeile hellblau bei offen/falsch und hellgrün bei richtig gelöst, ohne Haken. Rückmeldung und zugänglicher Status bleiben erhalten. Handlungssituation und Titelbereich haben die gleiche leichte Kartenumrahmung wie die übrigen Phasen.
+- Lange Fließtexte erhalten Blocksatz und automatische deutsche Silbentrennung; kurze Texte, Arbeitsaufträge, Tabellen und Bedienelemente bleiben linksbündig. Tatsächliche Trennung hängt von Browser und Sprachwörterbuch ab.
 
-## Technik und Oberfläche
+## Phasenbezogener GoodNotes-Import
 
-Der freigegebene Lernsituationsstandard wurde übernommen: Aufgabenakkordeon, vollständige Arbeitsaufträge, gemeinsame Kopfzeile für Fachkompetenz und Uhr, manuelles Weiter nach Erledigt-Markierung, hellgrüne erledigte Karten, Materialleiste mit Rücksprung zur Aufgabe, AIS-Hilfe im Dialog sowie Phasenfreischaltung. Lehrkräfte-Änderungen erscheinen auch im Fokus und im neuen Export. Countdown-Zeiten bleiben beim Materialwechsel erhalten.
+30 zusätzliche Teil-Arbeitshefte: sechs Phasen × fünf Lernwege. Die jeweiligen Original-PDF-Seiten werden übernommen, ohne Aufgaben umzuschreiben. Jeder Import bietet nur die aktuelle Phase und den aktuellen Lernweg. Orientierung und Handlungssituation zeigen weder Import-Button noch leere Import-Leiste. Der Gesamtdruck-Link für Lernende ist entfernt beziehungsweise durch das PDF der aktuellen Phase ersetzt; Lehrkräfte können weiterhin exportieren. Originale PDF-Dateien bleiben als Quelldateien im Archiv erhalten.
 
-Originale SCORM-Schnittstelle und Codec, Aufgaben-IDs, Aufgaben-Signaturen, Fortschrittsmetadaten und Kompetenzberichtstruktur bleiben erhalten. Die hinzugefügten Zeitangaben werden vor der Signaturberechnung entfernt, sodass eine reine Zeitänderung vorhandene Erledigt-Markierungen nicht ungültig macht.
+Die Sozialpädagogik-Vorlage und das Paket LS 1.1 enthalten dieselbe technische Oberflächenanpassung, mit sechs Teil-Arbeitsheften für den einen Lernweg. Die vorhandenen Ich-Kompetenzen dort bleiben erhalten.
 
-## Durchgeführte Prüfungen
+## SCORM und Editor
 
-- Redaktioneller Vergleich: Nach Entfernen der ergänzten Zeitspannen entsprechen die Lernsituationsdaten exakt dem Original. Materialien, PDFs, Medien, Konfiguration und SCORM-Dateien wurden zusätzlich auf Bytegleichheit geprüft.
-- Alle 83 Aufgaben in sämtlichen sechs Phasen und fünf Lernwegen im Browser geprüft: vollständiger Text, Timer, Kopfzeile ohne Einklapp-Link, manuelles Weiter, Erledigt-Markierung, Materialzugriff und Layout.
-- Alle 30 Kombinationen aus Phase und Lernweg: Zeitsummen und Originalsignaturen geprüft.
-- 25 Phasenübergänge: Sperren in Navigation und bei direktem Seitenaufruf geprüft.
-- Timer: Grün/Schwarz/Rot, Pause/Fortsetzen, Ablauf und Tonsignal geprüft. Materialwechsel M2 → M3 → ursprüngliche Aufgabe mit erhaltener Restzeit geprüft.
-- Lehrkräfte-Editor: PIN-Prüfung, gespeicherte Zeitänderungen, Anzeige im Akkordeon und tatsächlicher ZIP-Export mit aktuellen Assets und unveränderten Fortschrittssignaturen geprüft.
-- SCORM-API-Simulation: Commit, Kompetenzberichte, ursprüngliche Aufgabenkennungen und Wiederaufnahme geprüft.
-- Ansichten bei 1024 × 768, 768 × 1024 und 390 × 844 Pixeln geprüft.
-- Neue Materialnavigation: alle zehn Materialien in allen fünf Lernwegen, Phasensperren, kontextabhängige Zurück-/Weiter-Ziele und tatsächliche Wechsel zu Phasen geprüft.
-- Fertige ZIP: fehlerfrei entpackbar, Manifest direkt im Wurzelverzeichnis, alle referenzierten Dateien vorhanden, alle Dateiinhalte identisch mit dem geprüften Arbeitsverzeichnis.
+Originale SCORM-Schnittstelle und Codec, Aufgaben-IDs, Aufgaben-Signaturen, Fortschrittsmetadaten und Kompetenzberichtstruktur bleiben erhalten. Ergänzte Zeitspannen werden vor der Aufgabensignaturberechnung entfernt. Bei der Orientierung wird ausschließlich die freigegebene, inhaltlich gleichwertige Ich-Umformulierung vor der Signaturberechnung normalisiert, sodass bisheriges „Orientierung gelesen“ erhalten bleibt. Andere Inhaltsänderungen bleiben signaturwirksam. Lehrkräfte-Änderungen erscheinen im Aufgabenfokus und im neuen ZIP-Export. Timer-Zeiten bleiben beim Materialwechsel erhalten.
 
-Die Prüfungen erfolgten lokal mit Chromium und einer SCORM-API-Simulation. Tatsächlicher Moodle-Betrieb, iPad-Tonverhalten und AIS-Einbettung/Anmeldung müssen im jeweiligen Zielsystem geprüft werden. Der AIS-Dialog wurde mit einer simulierten Antwort geprüft.
+Die neuen Teil-Arbeitshefte und deren lokalen Share-Skripte sind im Manifest enthalten. Das Manifest liegt direkt im ZIP-Wurzelverzeichnis.
+
+## Verifikation
+
+- Redaktioneller Vergleich mit dem Upload: nach Rücknahme ausschließlich der freigegebenen Zeitspannen und Ich-Kompetenzen identische Lernsituationsdaten. Originalmedien/PDFs, Konfiguration, SCORM-Dateien und Fortschrittsmetadaten auf Bytegleichheit geprüft.
+- Alle 83 Aufgaben in sechs Phasen und fünf Lernwegen im Browser: vollständige Texte, korrekte Timer, gleicher Kompetenz-/Uhrbereich, Kopf ohne Einklapp-Link/orangen Fokusrahmen, manuelles Weiter, Abschlussmarkierung und Layout.
+- Alle 30 Phasen-/Lernweg-Zeitsummen und neu berechnete Metadaten mit Originalaufgaben- und Orientierungssignaturen geprüft.
+- 25 Phasenübergänge: Sperren in Navigation und bei direktem Seitenaufruf.
+- Alle zehn Materialien in allen fünf Lernwegen: Materialwechsel, genaue Aufgabenrückkehr, erhaltene Restzeit, kompakte Auswahl, Phasenübersicht unter dem Material. Zusätzlich mit blockiertem oder bei jedem Seitenaufruf geleertem Sitzungsspeicher geprüft. Ungültige Aufgabenreferenzen führen zu keinem beliebigen Ziel.
+- Prüffragen: offen/falsch blau, nach richtiger Prüfung grün, ohne Haken; Wiederaufnahme nach Neuladen.
+- Alle 30 tatsächlichen GoodNotes-Share-Aufrufe mit Dateiobjekten geprüft: Phase, Lernweg, Dateiname und PDF-Größe stimmen. Sechs entsprechende Share-Aufrufe in Sozialpädagogik LS 1.1 geprüft. Die PDF-Teilseiten wurden textlich mit den entsprechenden Originalseiten verglichen.
+- Lehrkräfte-Editor: PIN-Prüfung, gespeicherte Zeitänderungen, Akkordeon und tatsächlicher ZIP-Export mit aktuellen Assets und unveränderten Fortschrittssignaturen.
+- SCORM-API-Simulation: Commit, Kompetenzberichte, ursprüngliche Aufgabenkennungen und Wiederaufnahme.
+- Ansichten bei 1024 × 768, 768 × 1024 und 390 × 844 Pixeln: kein seitlicher Seiten-/Materialscroll, kompakte Karten, sichtbarer Rücksprung, unverdeckte Materialien.
+- Lange Texte: CSS-Blocksatz/automatische Silbentrennung und deutsches Dokument geprüft. Aufgaben bleiben linksbündig; Handlungssituationsrahmen konsistent; keine Import-Leiste in Orientierung/Handlungssituation.
+- Fertige ZIPs: fehlerfrei entpackbar, alle Manifest-Dateien vorhanden, Archivinhalt identisch mit den jeweils geprüften Ausgabeordnern.
+
+Prüfungen lokal mit Chromium und einer SCORM-API-Simulation. Der echte Moodle-App-Betrieb, native GoodNotes-Übergabe/iPad-Ton und AIS-Einbettung/Anmeldung wurden hier nicht geprüft. AIS und Web Share wurden im Browser simuliert. Die Moodle-Pakete müssen ersetzt werden; GitHub aktualisiert vorhandene Moodle-Kopien nicht automatisch.
 
 ## Dateien und Reproduktion
 
-- [Fertiges SCORM-ZIP](../Downloads/BRC_LG01_LS03_Aktualisiert_SCORM.zip)
-- [Aufgabenfokus als Screenshot](BRC_LG01_LS03_Aufgabenfokus.png)
+- [Businessplan-SCORM-ZIP](../Downloads/BRC_LG01_LS03_Aktualisiert_SCORM.zip)
+- [Sozialpädagogik LS 1.1 SCORM-ZIP](../Downloads/Sozialpaedagogik_LS1_1_SCORM.zip)
+- [Kompakte Aufgabenübersicht](BRC_LG01_LS03_Kompakte_Karten.png)
+- [Materialansicht](BRC_LG01_LS03_Materialansicht.png)
 - Aufbau: `python tools/prepare_businessplan_scorm.py ORIGINAL.zip AUSGABEORDNER`
-- Prüfung: `python tools/verify_businessplan_scorm.py ORIGINAL.zip AUSGABEORDNER`
-- Voraussetzungen für die Prüfung: Python 3, Node.js, Python-Paket Playwright, Chromium unter `/usr/bin/chromium`. Die Prüfung startet ihren HTTP-Server selbst und beendet ihn anschließend.
+- Vollständige Businessplan-Prüfung: `python tools/verify_businessplan_scorm.py ORIGINAL.zip AUSGABEORDNER`
+- Material-/Viewport-Prüfung: `python tools/verify_material_layout.py AUSGABEORDNER`
+- Phase-Import-/Typografie-Prüfung: `python tools/verify_phase_imports.py AUSGABEORDNER`
+- Voraussetzungen: Python 3, PyMuPDF, Node.js, Python-Paket Playwright, Chromium unter `/usr/bin/chromium`. Die Prüfungen starten und beenden ihren lokalen HTTP-Server selbst.
 
-ZIP-SHA256: `0cc2d0b30fb14c48eaf85c0104390478845a47abe5e6438a2de7ae53a8fb90af`
+## Archiv-Prüfsummen
+
+- `BRC_LG01_LS03_Aktualisiert_SCORM.zip` · SHA256 `e8a2e2b3dc4bb61b2ad5bde040b9484ad40292aa7a5b7406c22192b047ac41e9`
+- `Sozialpaedagogik_LS1_1_SCORM.zip` · SHA256 `6f48094ab80fcc330e8d62ceebebc6797e9761b4eef188a81a31c67c0b6a5bf4`
