@@ -1,0 +1,182 @@
+{
+  "1": {
+    "priorityStatement": "Ich entwickle aus einer Geschäftsidee abgestimmte Unternehmensziele unter Berücksichtigung wichtiger Anspruchsgruppen, ordne BioCasa hinsichtlich der Betriebsart ein und skizziere die grundlegenden Leistungsprozesse im Vergleich mit einem Industrieunternehmen.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 4,
+        "statement": "Ich unterscheide wirtschaftliche, soziale und ökologische Ziele, analysiere Zielbeziehungen und Stakeholderinteressen, bestimme die Betriebsart und übertrage grundlegende Leistungsprozesse auf BioCasa."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 3,
+        "statement": "Ich gleiche eigene Vorstellungen mit überprüfbaren Informationen ab und erkenne, welche Stärken und Interessen ich in eine Gruppenentscheidung einbringe."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 4,
+        "statement": "Ich vertrete unterschiedliche Gründerperspektiven sachlich, bearbeite Zielkonflikte und treffe eine kompromissfähige gemeinsame Entscheidung."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 3,
+        "statement": "Ich entnehme Informationen aus betrieblichen Dokumenten, ordne Ziele und Interessen nach vorgegebenen Kriterien und verdichte meine Ergebnisse."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 2,
+        "statement": "Ich nutze eine vorgegebene digitale Vorlage zur gemeinsamen Dokumentation und kennzeichne die Herkunft übernommener Informationen."
+      }
+    ]
+  },
+  "2": {
+    "priorityStatement": "Ich formuliere die sachlichen, persönlichen und rechtlichen Voraussetzungen der geplanten Gründung und identifiziere geeignete Informationsquellen sowie zuständige Ansprechpartnerinnen und Ansprechpartner.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 4,
+        "statement": "Ich unterscheide Gründungsvoraussetzungen, ordne offene Fragen zuständigen Stellen zu und bringe notwendige Schritte in eine sachlogische Reihenfolge."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 4,
+        "statement": "Ich gleiche Anforderungen mit den vorhandenen Kompetenzen des Gründerteams ab, erkenne Lücken und übernehme begründet Verantwortung für Maßnahmen."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 3,
+        "statement": "Ich verteile Aufgaben fair nach Kompetenzen und Ressourcen und stimme parallele Arbeitsschritte miteinander ab."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 4,
+        "statement": "Ich prüfe Quellen nach Absender, Aktualität, Zuständigkeit und Verbindlichkeit und verdichte Informationen in einem umsetzbaren Maßnahmenplan."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 3,
+        "statement": "Ich nutze offizielle digitale Informationsangebote, dokumentiere Links und Abrufdatum und unterscheide Primärquellen von allgemeinen Ratgeberseiten."
+      }
+    ]
+  },
+  "3": {
+    "priorityStatement": "Ich entwickle für BioCasa einen abgestimmten Marketingmix und stelle die Einflussgrößen des notwendigen Kapitalbedarfs in einem konsistenten Geschäftskonzept dar.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich analysiere Markt- und Unternehmensdaten, treffe zusammenhängende Entscheidungen zu Produkt, Preis, Distribution und Kommunikation und ermittle daraus den Kapitalbedarf."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 4,
+        "statement": "Ich bearbeite einen umfangreichen Auftrag nach vorgegebenen Etappen, prüfe eigene Annahmen und übernehme Verantwortung für die Qualität eines Teilbereichs."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 4,
+        "statement": "Ich führe Teilanalysen zusammen, löse Widersprüche zwischen Funktionsbereichen und vertrete Entscheidungen gegenüber anderen Arbeitsgruppen."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 5,
+        "statement": "Ich strukturiere heterogene Informationen, rechne Szenariodaten aus, dokumentiere Annahmen und erstelle ein konsistentes Gesamtdokument."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 4,
+        "statement": "Ich nutze Tabellenkalkulation und Textverarbeitung nach Vorgabe, setze Formeln nachvollziehbar ein und führe einen digitalen Konsistenzcheck durch."
+      }
+    ]
+  },
+  "4": {
+    "priorityStatement": "Ich vergleiche Kontokorrentkredit, Ratendarlehen und Leasing, wähle für BioCasa einen begründeten Finanzierungsmix aus und vertrete ihn adressatengerecht gegenüber Kapitalgebern.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich analysiere Konditionen, Kosten, Liquiditätswirkungen, Risiken und Zweckbindung der drei Finanzierungsformen und entwickle daraus ein tragfähiges Konzept."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 4,
+        "statement": "Ich vertrete eine belastbare Position unter Nachfragen, erkenne Unsicherheiten an und reagiere sachlich auf Kritik."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 5,
+        "statement": "Ich einige mich trotz unterschiedlicher Risikovorstellungen auf eine gemeinsame Botschaft, verteile Sprechrollen und gebe kriteriengeleitet Feedback."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 4,
+        "statement": "Ich berechne Finanzierungswirkungen, führe einen Stressvergleich durch und verdichte komplexe Informationen für eine Entscheidung."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 5,
+        "statement": "Ich erstelle ein übersichtliches Pitchdeck, visualisiere Planwerte korrekt und präsentiere mit digitalen Medien adressatengerecht."
+      }
+    ]
+  },
+  "5": {
+    "priorityStatement": "Ich analysiere handelsrechtliche Rahmenbedingungen und beurteile Einzelunternehmen, OHG, KG und GmbH anhand der Anforderungen von BioCasa, um eine begründete Rechtsformentscheidung vorzubereiten.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich unterscheide Firma, Kaufmannseigenschaft, Handelsregister, Geschäftsführung, Vertretung und Haftung und wende die Rechtsformmerkmale auf den BioCasa-Fall an."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 4,
+        "statement": "Ich erkenne eigene Risikopräferenzen, trenne persönliche Wünsche von rechtlichen Folgen und vertrete ein begründetes Urteil."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 5,
+        "statement": "Ich bearbeite den Konflikt zwischen Kapital, Expertise, Haftung und Einfluss und entwickle eine gemeinsam tragfähige Governance-Lösung."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 5,
+        "statement": "Ich erschließe angeleitet Gesetzesauszüge, wende eine gewichtete Entscheidungsmatrix an und verfasse eine nachvollziehbare Beschlussvorlage."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 3,
+        "statement": "Ich nutze aktuelle amtliche Rechtsquellen, dokumentiere Rechtsstand und Fundstelle und unterscheide Gesetz, IHK-Orientierung und individuelle Beratung."
+      }
+    ]
+  },
+  "6": {
+    "priorityStatement": "Ich prüfe einen Kaufvertrag auf Inhalt, Zustandekommen, Wirksamkeit und Folgen, wähle eine geeignete Zahlungsmöglichkeit aus, reagiere angemessen auf eine Mängelrüge und vergleiche Beschäftigungsverhältnisse unter betriebswirtschaftlichen Aspekten.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich rekonstruiere einen Vertrag aus einer Dokumentenkette, wende Kauf- und Mängelrecht an, beurteile Zahlungsalternativen und treffe eine begründete Personalentscheidung."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 4,
+        "statement": "Ich handle unter Zeitdruck sorgfältig, übernehme Fehlerverantwortung und wäge Kundenbeziehung, Liquidität und Personalbindung ab."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 4,
+        "statement": "Ich koordiniere Vertrieb, Qualität, Finanzen und Personal und formuliere eine gemeinsame professionelle Kundenposition."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 5,
+        "statement": "Ich erstelle eine Vertragschronologie, berechne Zahlungs- und Personalwirkungen, prüfe Rechtsfolgen und führe Teilentscheidungen in einer Auftragsakte zusammen."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 4,
+        "statement": "Ich arbeite mit einer digitalen Dokumentenkette, nutze Tabellenkalkulation für Vergleiche und verfasse eine adressatengerechte geschäftliche E-Mail."
+      }
+    ]
+  }
+}

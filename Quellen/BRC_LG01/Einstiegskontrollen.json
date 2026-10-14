@@ -1,0 +1,434 @@
+{
+  "1": [
+    {
+      "title": "Gemeinsame Linie",
+      "question": "Welches Problem muss das Gründerteam vor dem Beratungstermin vorrangig lösen?",
+      "options": [
+        "Es muss aus unterschiedlichen Vorstellungen eine gemeinsame, tragfähige Geschäftsidee entwickeln.",
+        "Es muss einen verbindlichen Darlehensvertrag für die Produktionslinie abschließen.",
+        "Es muss eine mangelhafte Lieferung an den ersten Großkunden ersetzen.",
+        "Es muss bereits die endgültige Rechtsform notariell beurkunden lassen.",
+        "Es muss die bestehende deutschlandweite Vertriebsorganisation neu ordnen.",
+        "Es muss einen unterschriftsreifen Arbeitsvertrag für die Produktion erstellen."
+      ],
+      "correct": 0,
+      "feedback": "BioCasa ist noch nicht gegründet. Die vier müssen Kundenproblem, Ziele, Betriebsart und Abläufe gemeinsam klären. Kredit-, Vertrags- und Personalentscheidungen folgen später."
+    },
+    {
+      "title": "Kundenproblem",
+      "question": "Welches Kundenproblem bildet den Ausgangspunkt von Faris Idee?",
+      "options": [
+        "Kundinnen und Kunden benötigen vor allem besonders große Vorratspackungen für Großküchen.",
+        "Kundinnen und Kunden finden keine Beratungsangebote zur eigenen Unternehmensgründung.",
+        "Kundinnen und Kunden wollen hochwertige, nachhaltige Mahlzeiten und haben wenig Zeit zum Kochen.",
+        "Kundinnen und Kunden wollen möglichst viele Gerichte unabhängig von Zutaten und Qualität.",
+        "Kundinnen und Kunden brauchen überwiegend Dienstleistungen zur Reparatur von Kühltechnik.",
+        "Kundinnen und Kunden bevorzugen ausschließlich frisch zubereitete Restaurantgerichte ohne Lagerung."
+      ],
+      "correct": 2,
+      "feedback": "Fari beobachtet einen Bedarf an hochwertigen, nachhaltigen und abwechslungsreichen Mahlzeiten trotz knapper Kochzeit. Daraus entsteht die Idee tiefgekühlter Bio-Gerichte."
+    },
+    {
+      "title": "Gründerperspektiven",
+      "question": "Welche Gegenüberstellung trifft die unterschiedlichen Schwerpunkte im Gründerteam?",
+      "options": [
+        "Christian priorisiert einen kleinen regionalen Start; Aluna priorisiert schnelle überregionale Expansion.",
+        "Julia priorisiert ausschließlich Produktionskapazität; Fari priorisiert ausschließlich die Kapitalrendite.",
+        "Fari priorisiert günstige Massenware; Christian priorisiert wenige außergewöhnliche Rezepturen.",
+        "Aluna priorisiert Markenkommunikation; Julia priorisiert ausschließlich Anlagenkauf und Warenfluss.",
+        "Christian priorisiert Wachstum; Aluna priorisiert beherrschbare Abläufe in der Startphase.",
+        "Alle vier haben bereits dieselben Prioritäten; es fehlt lediglich ein Name für das Unternehmen."
+      ],
+      "correct": 4,
+      "feedback": "Christian denkt an Wachstum und überregionalen Absatz. Aluna warnt vor zu komplexen Sortimenten, Lieferwegen und Prozessen. Diese Perspektiven müssen fachlich abgestimmt werden."
+    },
+    {
+      "title": "Betrieblicher Schwerpunkt",
+      "question": "Worauf kommt es laut der Beratungsnotiz bei der Einordnung von BioCasa als Betriebsart an?",
+      "options": [
+        "Auf den Schwerpunkt der eigenen Wertschöpfung, etwa die Verarbeitung von Zutaten zu eigenen Produkten.",
+        "Allein auf die Wahl zwischen einem regionalen und einem deutschlandweiten Absatzmarkt.",
+        "Allein darauf, ob ein Onlineshop für den Verkauf eingesetzt wird.",
+        "Auf den Beruf der Person, die den größten Kapitalanteil einbringt.",
+        "Allein auf die Zahl der im Startsortiment angebotenen Gerichte.",
+        "Auf die spätere Entscheidung zwischen Bankdarlehen und Leasing."
+      ],
+      "correct": 0,
+      "feedback": "M5 nennt den Schwerpunkt der eigenen Wertschöpfung als Maßstab. Der geplante technische Herstellungsprozess spricht für eine industrielle Leistung; ein Onlineshop ändert das nicht automatisch."
+    },
+    {
+      "title": "Ergebnis für die Beratung",
+      "question": "Welche Unterlage benötigt das Team als zentrales Ergebnis dieser Lernsituation?",
+      "options": [
+        "Einen endgültigen Liefervertrag für 12.000 Einheiten an Küstengrün.",
+        "Ein Pitchdeck mit Tilgungs- und Leasingvergleich für Kapitalgeber.",
+        "Einen Beschluss mit rechtswirksamer Handelsregistereintragung.",
+        "Einen reinen Rezeptkatalog ohne Kunden- und Unternehmensbezug.",
+        "Eine vollständige Auftragsakte mit Reklamationsbearbeitung.",
+        "Eine Tischvorlage mit der abgestimmten gemeinsamen Geschäftsidee."
+      ],
+      "correct": 5,
+      "feedback": "Für das Erstgespräch mit Berg & Macher entsteht die Tischvorlage „Gemeinsame Geschäftsidee“. Sie macht die gemeinsame Ausrichtung und gegebenenfalls offene Fragen nachvollziehbar."
+    }
+  ],
+  "2": [
+    {
+      "title": "Prüfung vor Verpflichtung",
+      "question": "Warum ist die kostenpflichtige Hallenreservierung eine kritische Entscheidung?",
+      "options": [
+        "Weil die Reservierung bereits sämtliche Behördenprüfungen ersetzt.",
+        "Weil das Team Geld binden würde, obwohl Nutzung, Umbauten und Hygieneanforderungen noch ungeklärt sind.",
+        "Weil die Halle ausschließlich für einen bundesweiten Vertrieb genutzt werden darf.",
+        "Weil die Reservierung automatisch die Wahl der GmbH festlegt.",
+        "Weil die vorhandenen Kühlräume die Tiefkühlproduktion bereits vollständig absichern.",
+        "Weil das Team damit die endgültige Finanzierung verbindlich erhält."
+      ],
+      "correct": 1,
+      "feedback": "In M2 sind Eignung und Voraussetzungen noch offen. Die Reservierung kostet 2.500 Euro und wird bei Rücktritt nicht erstattet. Eine vorschnelle Bindung kann daher Geld und Handlungsspielraum kosten."
+    },
+    {
+      "title": "Beratungsbudget",
+      "question": "Welche Ausgangslage gilt für die externe Beratung bei Berg & Macher?",
+      "options": [
+        "Das Komplettpaket kostet 1.800 Euro und passt vollständig ins Budget.",
+        "Die Beratung ist kostenlos, sobald eine Hallenreservierung vorliegt.",
+        "Die Bank übernimmt automatisch alle Beratungs- und Prüfungskosten.",
+        "Das Komplettpaket kostet 4.800 Euro; mit 1.800 Euro sind zwei Vertiefungstermine möglich.",
+        "Das Team hat 4.800 Euro eingeplant, benötigt aber nur einen Termin.",
+        "Das Budget reicht für zwölf Vertiefungstermine zu sämtlichen Gründungsfragen."
+      ],
+      "correct": 3,
+      "feedback": "Das Angebot in M1 umfasst ein Komplettpaket für 4.800 Euro. Das verfügbare Budget von 1.800 Euro erlaubt zwei vertiefte Fachtermine. Daher muss das Team Beratungsschwerpunkte priorisieren."
+    },
+    {
+      "title": "Verlässlicher Nachweis",
+      "question": "Welche Aussage beschreibt den Stand der Standortprüfung zutreffend?",
+      "options": [
+        "Die frühere Nutzung als Lagerbetrieb belegt die Zulässigkeit jeder Lebensmittelproduktion.",
+        "Die Aussage des Vermieters ersetzt die konkrete Auskunft von Bauaufsicht und Lebensmittelüberwachung.",
+        "Die Beratung bestätigt automatisch die behördliche Genehmigung nach dem ersten Gespräch.",
+        "Die vorhandene Laderampe genügt als Nachweis für Hygiene und Tiefkühltechnik.",
+        "Die Angaben des Vermieters müssen für den geplanten BioCasa-Betrieb anhand zuständiger Stellen geprüft werden.",
+        "Der geplante Onlineshop macht eine Prüfung der Produktionshalle entbehrlich."
+      ],
+      "correct": 4,
+      "feedback": "M2 kennzeichnet Vermieterangaben als ungeprüft und nennt fehlende aktuelle Behördennachweise. Allgemeine Informationen, fallbezogene Behördenauskünfte und Beratung erfüllen unterschiedliche Aufgaben."
+    },
+    {
+      "title": "Zeitdruck",
+      "question": "Welche Frist erzeugt in der Handlungssituation den unmittelbaren Entscheidungsdruck?",
+      "options": [
+        "Der Eigentümer erwartet innerhalb von zwölf Tagen die Entscheidung über eine kostenpflichtige Reservierung.",
+        "Der Großkunde verlangt innerhalb von 14 Tagen die vollständige Ersatzlieferung.",
+        "Das Registergericht erwartet innerhalb von 30 Tagen den unterschriebenen Arbeitsvertrag.",
+        "Die Bank fordert am selben Tag ein 15-minütiges Finanzierungspitch.",
+        "Die Kundschaft erwartet innerhalb von drei Monaten die Abwicklung eines Mangels.",
+        "Die Leasinggesellschaft erwartet innerhalb von zwei Jahren den Anlagenkauf."
+      ],
+      "correct": 0,
+      "feedback": "Ein weiterer Interessent hat sich gemeldet. Der Eigentümer verlangt innerhalb von zwölf Tagen eine Reservierungsentscheidung. Dieser Zeitdruck darf die fachliche Prüfung nicht ersetzen."
+    },
+    {
+      "title": "Gründungsfahrplan",
+      "question": "Welche Funktion hat der Maßnahmenplan „Gründungsfahrplan“ für die nächste Lernsituation?",
+      "options": [
+        "Er ersetzt die späteren Berechnungen des Kapitalbedarfs vollständig.",
+        "Er legt ohne weitere Analyse die endgültige Rechtsform und Finanzierung fest.",
+        "Er liefert geprüfte Voraussetzungen sowie offene Prüfaufträge, Verantwortlichkeiten und Termine für den Businessplan.",
+        "Er enthält ausschließlich werbliche Aussagen für mögliche Kundinnen und Kunden.",
+        "Er bestätigt sämtliche Standortkosten unabhängig von noch offenen Umbauten.",
+        "Er ordnet nur die Gründerrollen zu und lässt sachliche und rechtliche Voraussetzungen aus."
+      ],
+      "correct": 2,
+      "feedback": "M5 verbindet persönliche, sachliche und rechtliche Voraussetzungen mit dem Businessplan. Noch offene Punkte werden als Annahmen mit Prüfauftrag, verantwortlicher Person und Termin dokumentiert."
+    }
+  ],
+  "3": [
+    {
+      "title": "Konsistentes Unternehmen",
+      "question": "Worin liegt das zentrale Problem bei der Erstellung des BioCasa-Businessplans?",
+      "options": [
+        "Einzelne Kapitel fehlen ausschließlich deshalb, weil es keine Gliederung gibt.",
+        "Die Firma ist bereits gegründet, aber ein Großkunde hat die Lieferung reklamiert.",
+        "Produkt-, Markt-, Ressourcen- und Finanzannahmen passen bisher nicht widerspruchsfrei zusammen.",
+        "Das Team hat bereits übereinstimmende Annahmen und muss nur das Layout vereinheitlichen.",
+        "Die Bank verlangt ausschließlich ein kurzes Werbevideo statt einer Unternehmensplanung.",
+        "Alle fünf Produkte sind gleich weit entwickelt und verursachen denselben Ressourcenbedarf."
+      ],
+      "correct": 2,
+      "feedback": "Jede Einzelannahme kann für sich plausibel wirken. Zusammen widersprechen sich aber Startsortiment, Absatz, Kommunikation, Kapazität und Kapitalbedarf. Diese Zusammenhänge muss der Businessplan klären."
+    },
+    {
+      "title": "Startsortiment",
+      "question": "Warum kann Faris Wunsch nach fünf Startprodukten nicht einfach als gesicherte Planungsgrundlage übernommen werden?",
+      "options": [
+        "Weil die Bank grundsätzlich nur Einproduktunternehmen finanziert.",
+        "Weil sämtliche Rezepturen bereits industriell erprobt und zu teuer sind.",
+        "Weil die regionale Zielgruppe keinerlei Tiefkühlprodukte nachfragt.",
+        "Weil für zwei Produkte belastbare Prozess- beziehungsweise Liefer- und Kostengrundlagen fehlen.",
+        "Weil das Team in LS 1 bereits einen deutschlandweiten Vertrieb verbindlich beschlossen hat.",
+        "Weil ein breites Sortiment automatisch zu einer kleineren Anlage führt."
+      ],
+      "correct": 3,
+      "feedback": "P4 ist noch nicht produktionsstabil und benötigt zusätzliches Werkzeug. P5 hat noch keinen Produktionstest, keinen ausgewählten Lieferbetrieb und keine belastbaren variablen Kosten. Wünsche sind keine geprüften Planwerte."
+    },
+    {
+      "title": "Wechselwirkungen",
+      "question": "Welche Abstimmung ist für einen widerspruchsfreien Businessplan besonders notwendig?",
+      "options": [
+        "Absatz und Startsortiment müssen mit Kapazität, Marketingmix und Kapitalbedarf zusammenpassen.",
+        "Die Kapitel können mit unterschiedlichen Absatzmengen rechnen, solange jedes Kapitel gut begründet ist.",
+        "Die Investitionen müssen sich ausschließlich am gewünschten Unternehmensimage orientieren.",
+        "Der Kapitalbedarf darf erst betrachtet werden, nachdem alle Beschaffungsverträge unterschrieben sind.",
+        "Die Preisplanung kann unabhängig von Kundengruppe, Kosten und Vertrieb erfolgen.",
+        "Offene Annahmen sollten aus der Planung entfernt werden, damit die Bank keine Risiken sieht."
+      ],
+      "correct": 0,
+      "feedback": "M1 verlangt eine gemeinsame Annahmenbasis. Produktzahl, Zielgruppe, Absatz, Preis, Kapazität, Starttermin und Kapitalbedarf müssen in allen Kapiteln zusammenpassen; offene Punkte bleiben erkennbar."
+    },
+    {
+      "title": "Abhängige Termine",
+      "question": "Warum kann eine verspätete Fertigstellung des Businessplans weitere Folgen auslösen?",
+      "options": [
+        "Weil dadurch ein bereits abgeschlossener Großauftrag automatisch unwirksam wird.",
+        "Weil die Produktionshalle ohne Bankgespräch kostenlos unbegrenzt reserviert bleibt.",
+        "Weil die Beratung mit dem Businessplan sämtliche notwendigen Umbauten beendet.",
+        "Weil der Businessplan die Handelsregistereintragung automatisch ersetzt.",
+        "Weil die Finanzierung erst nach dem ersten vollen Betriebsjahr geprüft werden darf.",
+        "Weil sich das Bankgespräch und damit die Finanzierung verschieben können und die Hallenreservierung gefährdet wird."
+      ],
+      "correct": 5,
+      "feedback": "Die Bank setzt eine Frist von zwei Wochen. Danach verfällt der angebotene Termin; die mögliche Verzögerung der Finanzierung gefährdet auch die Hallenreservierung. Termine und Entscheidungen sind voneinander abhängig."
+    },
+    {
+      "title": "Umfang des Ergebnisses",
+      "question": "Welche Beschreibung trifft das zentrale Handlungsergebnis dieser Lernsituation?",
+      "options": [
+        "Ein bereits rechtswirksam abgeschlossener Miet-, Leasing- und Darlehensvertrag.",
+        "Ein konsistenter Businessplan mit begründetem Geschäftsmodell, abgestimmten Ressourcen und nachvollziehbarem Kapitalbedarf.",
+        "Ein reiner Produktkatalog, bei dem Markt, Kapazität und Finanzierung später ergänzt werden.",
+        "Ein vollständiger Rechtsformbeschluss ohne Analyse von Produkt und Markt.",
+        "Eine Kundenmail zur Bearbeitung der ersten Mängelrüge.",
+        "Ein Finanzierungspitch ohne schriftliche Unternehmensplanung."
+      ],
+      "correct": 1,
+      "feedback": "Das Ergebnis ist der Businessplan BioCasa. Er verknüpft Geschäftsidee, Markt, Marketing, Betrieb und Kapitalbedarf. Die endgültige Auswahl der Finanzierungsmittel folgt im Kapitalgeberprozess."
+    }
+  ],
+  "4": [
+    {
+      "title": "Finanzierungslücke",
+      "question": "Was bedeutet die Finanzierungslücke von 1.048.000 Euro im BioCasa-Fall?",
+      "options": [
+        "Sie ist das bereits vollständig eingezahlte Stammkapital der BioCasa GmbH.",
+        "Sie ist der Netto-Umsatz, der im Stressszenario sicher erzielt wird.",
+        "Sie ist der Kaufpreis der Produktions- und Tiefkühllinie allein.",
+        "Sie ist ein zusätzlicher Überschuss nach Abzug sämtlicher Finanzierungszahlungen.",
+        "Sie ist der verbleibende Kapitalbedarf bei Barkauf aller Anlagen nach Abzug der verfügbaren Eigenmittel.",
+        "Sie ist die Summe der Kosten für die zwei Termine bei Berg & Macher."
+      ],
+      "correct": 4,
+      "feedback": "M1 nennt 1.410.500 Euro Kapitalbedarf und 362.500 Euro Eigenmittel. Die Differenz beträgt 1.048.000 Euro. Beim Leasing verändert sich der direkt zu finanzierende Bedarf; die Leasingbelastung bleibt zu berücksichtigen."
+    },
+    {
+      "title": "Stressprüfung",
+      "question": "Warum fordert die Bank zusätzlich eine Stressprüfung?",
+      "options": [
+        "Um die Finanzierung allein nach dem höchsten erwarteten Umsatz auszuwählen.",
+        "Um die Rückfragen im Finanzierungsgespräch vollständig entfallen zu lassen.",
+        "Um zu prüfen, ob der Finanzierungsmix auch bei schwächerem Absatz die Zahlungsfähigkeit ausreichend schützt.",
+        "Um die Eigenmittel ohne Begründung aus der Planung zu entfernen.",
+        "Um die Produktqualität unabhängig von Kapazität und Kosten festzulegen.",
+        "Um sämtliche Risiken durch eine günstigere Präsentationsgestaltung zu beseitigen."
+      ],
+      "correct": 2,
+      "feedback": "Im Stressszenario sinkt der Absatz um 20 Prozent. Die Finanzierung muss auch unter schlechteren Bedingungen hinsichtlich fester Belastungen und Liquidität beurteilt werden; ein guter Planfall allein genügt nicht."
+    },
+    {
+      "title": "Finanzierungsvergleich",
+      "question": "Nach welchen Gesichtspunkten muss das Team die Finanzierungsmöglichkeiten vergleichen?",
+      "options": [
+        "Nur nach dem niedrigsten Zinssatz, ohne weitere Vertragswirkungen.",
+        "Nur nach dem langfristigen Eigentum an der Produktionslinie.",
+        "Nur nach Christians Wunsch, alle Anlagen sofort zu kaufen.",
+        "Nur nach der Höhe der kurzfristig verfügbaren Kontokorrentlinie.",
+        "Nur nach der Zahl der Seiten im jeweiligen Angebot.",
+        "Nach Kosten, Liquiditätsbelastung, Fristen, Eigentum, Flexibilität und Risiken im BioCasa-Fall."
+      ],
+      "correct": 5,
+      "feedback": "Kauf mit Darlehen, Leasing und Kontokorrent wirken unterschiedlich. Ein fachlicher Vergleich berücksichtigt mehrere Kriterien sowie den Plan- und Stressfall, statt ein einzelnes Merkmal automatisch entscheiden zu lassen."
+    },
+    {
+      "title": "Liquidität",
+      "question": "Wie ist der ausgewiesene operative Zahlungsmittelüberschuss aus dem Planszenario zu verstehen?",
+      "options": [
+        "Als vereinfachter Planwert vor Finanzierung, der keine jederzeit sicher verfügbare freie Liquidität garantiert.",
+        "Als bereits eingegangener Bankkredit zur Finanzierung der Produktionslinie.",
+        "Als Garantie, dass Zahlungsziele und Anlaufabweichungen keine Wirkung mehr haben.",
+        "Als zusätzlicher Eigenkapitalbeitrag der vier Gründerpersonen.",
+        "Als reiner Umsatzwert, der keinerlei operative Auszahlungen berücksichtigt.",
+        "Als Betrag, der nach allen Steuern und Finanzierungszahlungen automatisch frei bleibt."
+      ],
+      "correct": 0,
+      "feedback": "M1 grenzt den vereinfachten operativen Überschuss ausdrücklich von sicherer freier Liquidität ab. Zahlungszeitpunkte, Steuern, Finanzierung und ungeplante Auszahlungen müssen zusätzlich in der Liquiditätsplanung berücksichtigt werden."
+    },
+    {
+      "title": "Auftrag an das Team",
+      "question": "Was muss BioCasa im 15-minütigen Finanzierungstermin vor allem überzeugend vertreten?",
+      "options": [
+        "Eine bereits eingetragene Rechtsform ohne Darstellung der Finanzierung.",
+        "Einen begründeten Finanzierungsmix mit Belastungsvergleich, Stressprüfung und konkreten Risikomaßnahmen.",
+        "Einen möglichst optimistischen Umsatzwert ohne erkennbare Annahmen.",
+        "Die Forderung, dass die Bank sämtliches unternehmerisches Risiko übernimmt.",
+        "Ausschließlich die Gestaltung der Verpackung für die drei Startprodukte.",
+        "Eine fertige Auftragsakte zur Bearbeitung des ersten Großauftrags."
+      ],
+      "correct": 1,
+      "feedback": "Das Pitchdeck mit mündlichem Finanzierungspitch muss zeigen, warum der Mix zur Unternehmensplanung passt und auch kritischen Rückfragen standhält. Transparente Risiken und Maßnahmen gehören dazu."
+    }
+  ],
+  "5": [
+    {
+      "title": "Vorläufige Zusage",
+      "question": "Warum kann BioCasa nach dem Finanzierungstermin noch nicht einfach alle Verträge abschließen?",
+      "options": [
+        "Weil die Geschäftsidee bislang keinerlei gemeinsame Ausrichtung hat.",
+        "Weil das Team erneut einen vollständigen Businessplan ohne bisherige Ergebnisse beginnen muss.",
+        "Weil ein Pitch jede behördliche und rechtliche Voraussetzung automatisch ersetzt.",
+        "Weil die Finanzierungsbereitschaft noch vorläufig ist und Rechtsform, Beteiligung sowie Vertretung geklärt werden müssen.",
+        "Weil Küstengrün bereits einen verbindlichen Zahlungsaufschub angeordnet hat.",
+        "Weil alle vier Gründerpersonen zunächst denselben Geldbetrag einzahlen müssen."
+      ],
+      "correct": 3,
+      "feedback": "Bank, Leasinggesellschaft und Vermieter verlangen rechtliche Klarheit vor verbindlichen Abschlüssen. M1 nennt Rechtsform, Mittel, Gesellschafterstruktur, Geschäftsführung und Unterzeichnungsbefugnis als offene Bedingungen."
+    },
+    {
+      "title": "Kapital und Einfluss",
+      "question": "Welche Spannung beschreibt die Handlungssituation zwischen den Gründerpersonen?",
+      "options": [
+        "Geldbeiträge sind ungleich; zugleich sollen Kompetenz, Haftungswünsche und Einfluss nachvollziehbar geregelt werden.",
+        "Alle vier bringen gleich viel Kapital ein, wünschen aber dieselbe Leitungsperson.",
+        "Christian will sämtliche Routinegeschäfte ausschließlich an die Bank übertragen.",
+        "Aluna verlangt unbeschränkte persönliche Haftung, um weniger Kapital einzubringen.",
+        "Julia und Fari wollen ihre fachlichen Beiträge vollständig aus dem Unternehmen entfernen.",
+        "Das Team hat alle Beteiligungs- und Stimmrechtsfragen bereits notariell geklärt."
+      ],
+      "correct": 0,
+      "feedback": "Christian bringt 300.000 Euro ein, Aluna 45.000 Euro, Julia 10.000 Euro und Fari 7.500 Euro. Ihre fachlichen Beiträge und Haftungsinteressen unterscheiden sich ebenfalls. Geldbeitrag allein löst die Regelungsfragen nicht."
+    },
+    {
+      "title": "Vor der Eintragung",
+      "question": "Wie muss Christians Vorschlag eingeordnet werden, den Mietvertrag schon für die „zukünftige BioCasa GmbH“ zu unterschreiben?",
+      "options": [
+        "Als risikofrei, weil der Zusatz „zukünftig“ jede persönliche Haftung ausschließt.",
+        "Als risikofrei, weil die Bank den Finanzierungsmix grundsätzlich prüffähig findet.",
+        "Als automatisch verbindliche Handlung der eingetragenen GmbH, sobald vier Gründer zustimmen.",
+        "Als reine Produktentscheidung, die keine rechtlichen Folgen haben kann.",
+        "Als rechtlich prüfungsbedürftige Verpflichtung vor wirksamer Gründung mit möglichen eigenen Haftungsfolgen.",
+        "Als Handelsregistereintragung, die keine weitere notarielle Mitwirkung benötigt."
+      ],
+      "correct": 4,
+      "feedback": "Die Notariatsnotiz und die Bank warnen vor langfristigen Verträgen für eine noch nicht wirksam entstandene Gesellschaft. Die genaue Gründungsphase, Vertretung und Haftung müssen vor der Unterschrift geprüft werden."
+    },
+    {
+      "title": "Geschäftsführung und Vertretung",
+      "question": "Warum müssen Geschäftsführung und Vertretung ausdrücklich geregelt werden?",
+      "options": [
+        "Damit die Rechtsform allein anhand des Unternehmensnamens festgelegt werden kann.",
+        "Damit jede Gründerperson unabhängig von jeder Regelung alle Verträge wirksam unterschreiben darf.",
+        "Damit die im Businessplan errechneten variablen Stückkosten automatisch sinken.",
+        "Damit das Unternehmen keine Buchführung und Steuererfassung benötigt.",
+        "Damit die Bank nach der Gründung alle täglichen Produktionsentscheidungen trifft.",
+        "Damit interne Entscheidungsbefugnisse und die Befugnis zum rechtswirksamen Handeln nach außen klar sind."
+      ],
+      "correct": 5,
+      "feedback": "Geschäftsführung betrifft die Leitung und interne Zuständigkeiten; Vertretung betrifft das rechtswirksame Handeln nach außen. Für Bank, Vermieter und Team müssen Zuständigkeiten sowie zustimmungspflichtige Geschäfte nachvollziehbar sein."
+    },
+    {
+      "title": "Rechtsformbeschluss",
+      "question": "Welches Ergebnis muss das Team in dieser Lernsituation erarbeiten?",
+      "options": [
+        "Einen neuen Produktkatalog ohne Bezug zu Kapital oder Haftung.",
+        "Eine Kundenmail mit der Anerkennung sämtlicher Reklamationsforderungen.",
+        "Eine begründete Beschlussvorlage zur Rechtsform mit Beteiligungs-, Leitungs-, Vertretungs- und Umsetzungsvorschlag.",
+        "Ein weiteres Finanzierungspitch ohne rechtliche Organisationsentscheidung.",
+        "Eine unverbindliche Namensliste der Gründerpersonen ohne Regeln.",
+        "Einen Arbeitsvertrag, der die gesamte gesellschaftsrechtliche Organisation ersetzt."
+      ],
+      "correct": 2,
+      "feedback": "Die Beschlussvorlage verbindet den Rechtsformvergleich mit Kapital, Haftung, Beteiligung und Entscheidungsrechten. Dazu gehört ein realistischer Weg zur Umsetzung gegenüber Bank, Vermieter und Notariat."
+    }
+  ],
+  "6": [
+    {
+      "title": "Vertragsstand",
+      "question": "Warum genügt es für den ersten Großauftrag nicht, nur das ursprüngliche Angebot zu lesen?",
+      "options": [
+        "Weil eine Anfrage im Geschäftsverkehr bereits immer der endgültige Kaufvertrag ist.",
+        "Weil spätere Erklärungen Liefertermin und Zahlungsziel verändert haben und die vollständige Dokumentenkette geprüft werden muss.",
+        "Weil der Lieferschein jede zuvor vereinbarte Zahlungsbedingung automatisch ersetzt.",
+        "Weil eine Bestellung unabhängig vom Inhalt stets jede frühere Bedingung unverändert übernimmt.",
+        "Weil die Küstengrün Biohandel GmbH keine rechtsfähige Vertragspartei sein kann.",
+        "Weil ein Businessplan sämtliche einzelnen Kaufverträge vollständig ersetzt."
+      ],
+      "correct": 1,
+      "feedback": "Angebot, Bestellung, Auftragsbestätigung und abschließende Annahme enthalten Änderungen. Der endgültige Inhalt ergibt sich aus übereinstimmenden Erklärungen; M1 dokumentiert die vollständige Kette und den Zugang."
+    },
+    {
+      "title": "Vertragsschluss",
+      "question": "Welche Erklärung führt im dokumentierten Fall zum Vertragsschluss?",
+      "options": [
+        "Die Anfrage vom 3. November, weil sie bereits eine verbindliche Bestellung ist.",
+        "Das Angebot vom 5. November, auch ohne irgendeine Annahme durch Küstengrün.",
+        "Die Bestellung vom 8. November, obwohl sie Liefertermin und Zahlungsziel verändert.",
+        "Die abschließende Annahme-E-Mail von Küstengrün mit Zugang am 9. November um 10:02 Uhr.",
+        "Die Auftragsbestätigung vom 9. November allein, obwohl sie das Zahlungsziel erneut verändert.",
+        "Das Wareneingangsprotokoll vom 18. November, weil Verträge erst bei Lieferung entstehen."
+      ],
+      "correct": 3,
+      "feedback": "Die abschließende E-Mail nimmt die Auftragsbestätigung vollständig an. Mit ihrem dokumentierten Zugang liegen im Fall die übereinstimmenden Erklärungen vor. Die vorherigen inhaltlichen Änderungen waren keine unveränderten Annahmen."
+    },
+    {
+      "title": "Reklamation",
+      "question": "Welche Abweichungen meldet Küstengrün bei der Lieferung?",
+      "options": [
+        "120 fehlende Einheiten und 240 Packungen mit beschädigter Versiegelung.",
+        "240 fehlende Einheiten und 120 Packungen mit falscher Sortenbezeichnung.",
+        "360 fehlende Einheiten und eine vollständig unterbrochene Kühlkette.",
+        "120 zusätzliche Einheiten und 240 Packungen mit einem zu niedrigen Preis.",
+        "12.000 beschädigte Packungen ohne Fehlmenge.",
+        "Ausschließlich eine verspätete Rechnung ohne Beanstandung der Ware."
+      ],
+      "correct": 0,
+      "feedback": "Der Kunde dokumentiert eine Fehlmenge von 120 Einheiten und beschädigte Versiegelungen bei 240 Packungen. Menge und Verpackungsqualität gehören zur geschuldeten Leistung; einwandfreie Temperatur beseitigt die Schäden nicht."
+    },
+    {
+      "title": "Reaktion auf den Mangel",
+      "question": "Welche Reaktion entspricht der bestätigten Falllage und der internen Lösungsnotiz?",
+      "options": [
+        "Alle Forderungen einschließlich der ungeprüften 900 Euro sofort verbindlich anerkennen.",
+        "Die Reklamation vollständig zurückweisen, weil die Kühlkette nicht unterbrochen wurde.",
+        "Nur die Fehlmenge bearbeiten und die beschädigten Packungen als verkaufsfähig behandeln.",
+        "Erst nach Zahlung des vollständigen Rechnungsbetrags überhaupt auf die Reklamation reagieren.",
+        "Die bestätigten Mängel anerkennen, Ersatz und Abholung konkret anbieten sowie die zusätzliche Forderung gesondert prüfen.",
+        "Den Auftrag ohne Rücksprache durch eine höhere Rechnung für die Ersatzlieferung abschließen."
+      ],
+      "correct": 4,
+      "feedback": "Freigegebener Ersatzbestand ist vorhanden. Julia schlägt eine klare Ersatz- und Abholungszusage vor. Für die zusätzlichen 900 Euro fehlen Belege und die rechtliche Prüfung; diese Forderung wird nicht ungeprüft anerkannt."
+    },
+    {
+      "title": "Personalbedarf",
+      "question": "Welche Ausgangslage muss bei der Beschäftigungsentscheidung berücksichtigt werden?",
+      "options": [
+        "Es fehlen bereits verbindlich nachgewiesene 507 Stunden; Einarbeitung ist entbehrlich.",
+        "Alle Folgeaufträge sind dauerhaft verbindlich zugesagt, sodass nur eine unbefristete Stelle zulässig ist.",
+        "Es fehlen nach vertretbarer Mehrarbeit noch 360 Stunden in 13 Wochen; Folgeaufträge sind bisher nicht verbindlich.",
+        "Die Zeitarbeit kostet im Vergleich grundsätzlich am wenigsten und benötigt keine Einweisung.",
+        "Eine unbefristete Teilzeitstelle endet ohne weitere Handlung automatisch nach 13 Wochen.",
+        "Eine befristete Vollzeitkraft kann ohne Prüfung der Befristung und ohne Hygieneunterweisung eingesetzt werden."
+      ],
+      "correct": 2,
+      "feedback": "M6 nennt 480 zusätzliche Stunden abzüglich 120 vertretbarer Mehrarbeit, also 360 Stunden Lücke. Kosten, verfügbare Kapazität, Einarbeitung, Qualität, Flexibilität und langfristige Bindung müssen gemeinsam geprüft werden."
+    }
+  ]
+}

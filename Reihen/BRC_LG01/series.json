@@ -1,0 +1,368 @@
+{
+  "title": "BRC LG01 · Ein Unternehmen gründen",
+  "hours": 80,
+  "templateCommit": "712a1200e1a67df2992e869730b1f26facfe7cbc",
+  "sourceSha256": "595e4040ca820108c93160113336f55732897b9ad57b3dc56cab92ab8fbd78c9",
+  "lessons": [
+    {
+      "folder": "LS01",
+      "id": "BRC-LG01-LS01",
+      "title": "Eine Geschäftsidee entwickeln",
+      "hours": 12,
+      "budgets": [
+        180.0,
+        90.0,
+        90.0,
+        90.0,
+        45.0,
+        45.0
+      ],
+      "materials": 6,
+      "tasks": {
+        "informieren": {
+          "1": 8,
+          "2": 5,
+          "3": 4,
+          "4": 3,
+          "5": 4
+        },
+        "planen": {
+          "1": 4,
+          "2": 3,
+          "3": 4,
+          "4": 2,
+          "5": 4
+        },
+        "entscheiden": {
+          "1": 4,
+          "2": 2,
+          "3": 3,
+          "4": 3,
+          "5": 3
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 2,
+          "5": 3
+        },
+        "bewerten": {
+          "1": 11,
+          "2": 2,
+          "3": 3,
+          "4": 2,
+          "5": 3
+        },
+        "reflektieren": {
+          "1": 5,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 3
+        }
+      },
+      "zip": "Downloads/BRC_LG01_LS01_SCORM.zip"
+    },
+    {
+      "folder": "LS02",
+      "id": "BRC-LG01-LS02",
+      "title": "Eine Unternehmensberatung besuchen",
+      "hours": 8,
+      "budgets": [
+        135.0,
+        67.5,
+        45.0,
+        67.5,
+        22.5,
+        22.5
+      ],
+      "materials": 5,
+      "tasks": {
+        "informieren": {
+          "1": 8,
+          "2": 5,
+          "3": 4,
+          "4": 3,
+          "5": 4
+        },
+        "planen": {
+          "1": 4,
+          "2": 3,
+          "3": 4,
+          "4": 3,
+          "5": 4
+        },
+        "entscheiden": {
+          "1": 4,
+          "2": 2,
+          "3": 3,
+          "4": 3,
+          "5": 3
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 3,
+          "5": 2
+        },
+        "bewerten": {
+          "1": 10,
+          "2": 2,
+          "3": 1,
+          "4": 2,
+          "5": 3
+        },
+        "reflektieren": {
+          "1": 4,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 3
+        }
+      },
+      "zip": "Downloads/BRC_LG01_LS02_SCORM.zip"
+    },
+    {
+      "folder": "LS03",
+      "id": "BRC-LG01-LS03",
+      "title": "Einen Business-Plan erstellen",
+      "hours": 18,
+      "budgets": [
+        270.0,
+        135.0,
+        135.0,
+        180.0,
+        45.0,
+        45.0
+      ],
+      "materials": 5,
+      "tasks": {
+        "informieren": {
+          "1": 9,
+          "2": 5,
+          "3": 4,
+          "4": 3,
+          "5": 4
+        },
+        "planen": {
+          "1": 4,
+          "2": 2,
+          "3": 4,
+          "4": 2,
+          "5": 4
+        },
+        "entscheiden": {
+          "1": 5,
+          "2": 2,
+          "3": 4,
+          "4": 2,
+          "5": 3
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 3,
+          "5": 3
+        },
+        "bewerten": {
+          "1": 12,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 2
+        },
+        "reflektieren": {
+          "1": 4,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 3
+        }
+      },
+      "zip": "Downloads/BRC_LG01_LS03_SCORM.zip"
+    },
+    {
+      "folder": "LS04",
+      "id": "BRC-LG01-LS04",
+      "title": "Bei Kapitalgebern pitchen",
+      "hours": 12,
+      "budgets": [
+        180.0,
+        90.0,
+        67.5,
+        112.5,
+        45.0,
+        45.0
+      ],
+      "materials": 6,
+      "tasks": {
+        "informieren": {
+          "1": 8,
+          "2": 4,
+          "3": 4,
+          "4": 3,
+          "5": 4
+        },
+        "planen": {
+          "1": 4,
+          "2": 2,
+          "3": 4,
+          "4": 2,
+          "5": 4
+        },
+        "entscheiden": {
+          "1": 4,
+          "2": 2,
+          "3": 3,
+          "4": 2,
+          "5": 3
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 4,
+          "5": 2
+        },
+        "bewerten": {
+          "1": 12,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 3
+        },
+        "reflektieren": {
+          "1": 5,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 3
+        }
+      },
+      "zip": "Downloads/BRC_LG01_LS04_SCORM.zip"
+    },
+    {
+      "folder": "LS05",
+      "id": "BRC-LG01-LS05",
+      "title": "Ein Unternehmen gründen",
+      "hours": 14,
+      "budgets": [
+        225.0,
+        90.0,
+        90.0,
+        135.0,
+        45.0,
+        45.0
+      ],
+      "materials": 6,
+      "tasks": {
+        "informieren": {
+          "1": 9,
+          "2": 4,
+          "3": 4,
+          "4": 3,
+          "5": 4
+        },
+        "planen": {
+          "1": 4,
+          "2": 3,
+          "3": 3,
+          "4": 2,
+          "5": 4
+        },
+        "entscheiden": {
+          "1": 5,
+          "2": 3,
+          "3": 4,
+          "4": 2,
+          "5": 3
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 2,
+          "5": 2
+        },
+        "bewerten": {
+          "1": 11,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 3
+        },
+        "reflektieren": {
+          "1": 5,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 3
+        }
+      },
+      "zip": "Downloads/BRC_LG01_LS05_SCORM.zip"
+    },
+    {
+      "folder": "LS06",
+      "id": "BRC-LG01-LS06",
+      "title": "Geschäfte abwickeln",
+      "hours": 16,
+      "budgets": [
+        225.0,
+        135.0,
+        90.0,
+        135.0,
+        90.0,
+        45.0
+      ],
+      "materials": 6,
+      "tasks": {
+        "informieren": {
+          "1": 12,
+          "2": 5,
+          "3": 4,
+          "4": 3,
+          "5": 4
+        },
+        "planen": {
+          "1": 5,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 4
+        },
+        "entscheiden": {
+          "1": 5,
+          "2": 3,
+          "3": 3,
+          "4": 2,
+          "5": 3
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 2,
+          "5": 2
+        },
+        "bewerten": {
+          "1": 14,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 2
+        },
+        "reflektieren": {
+          "1": 6,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 3
+        }
+      },
+      "zip": "Downloads/BRC_LG01_LS06_SCORM.zip"
+    }
+  ]
+}

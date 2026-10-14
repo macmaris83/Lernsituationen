@@ -1,0 +1,5 @@
+/* Requested layout corrections only. */
+body .lesson-content .phase-materials,body .lesson-content .material-access{position:sticky;top:0;bottom:auto;z-index:30;background:linear-gradient(120deg,#fbfdf7f5,#f2f8e7f2);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:0 7px 18px #234b5821;padding:12px 16px}
+body .lesson-content .phase-materials h2,body .lesson-content .material-access h2{margin-bottom:8px}
+.phase-focus,.phase-detail{margin:12px 0 0;line-height:1.6;color:#334e60}.phase-focus{font-weight:600}
+@media print{body .lesson-content .phase-materials,body .lesson-content .material-access{position:static;box-shadow:none}}

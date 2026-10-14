@@ -293,3 +293,6 @@ body:is(.material-reading,.task-focus) .page-footer :is(.page-turn,.footer-icons
 body.material-reading .main{padding-bottom:12px}
 body.material-reading .page-footer{padding-bottom:90px}
 @media print{body.material-reading .page-footer{display:none!important}}
+
+/* Hide other task cards reliably even when compact layout uses display:grid. */
+body.task-focus .lesson-content .assignment-frame.focus-suppressed{display:none!important}
