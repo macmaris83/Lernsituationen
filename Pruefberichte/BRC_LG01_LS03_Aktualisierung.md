@@ -30,7 +30,7 @@ Einzelzeiten: [businessplan_aufgabenzeiten.json](../tools/businessplan_aufgabenz
 
 ## Phasenbezogener GoodNotes-Import
 
-30 zusätzliche Teil-Arbeitshefte: sechs Phasen × fünf Lernwege. Die jeweiligen Original-PDF-Seiten werden übernommen, ohne Aufgaben umzuschreiben. Jeder Import bietet nur die aktuelle Phase und den aktuellen Lernweg. Orientierung und Handlungssituation zeigen weder Import-Button noch leere Import-Leiste. Der Gesamtdruck-Link für Lernende ist entfernt beziehungsweise durch das PDF der aktuellen Phase ersetzt; Lehrkräfte können weiterhin exportieren. Originale PDF-Dateien bleiben als Quelldateien im Archiv erhalten.
+30 zusätzliche Teil-Arbeitshefte: sechs Phasen × fünf Lernwege. Die jeweiligen Original-PDF-Seiten werden übernommen, ohne Aufgaben umzuschreiben. Jeder Import bietet nur die aktuelle Phase und den aktuellen Lernweg. Der Import-Button einschließlich seiner gerahmten Leiste steht in allen sechs Aufgabenphasen unmittelbar unter der Arbeitsform, passend zum gewählten Lernweg. Orientierung und Handlungssituation zeigen weder Import-Button noch leere Import-Leiste. Der Gesamtdruck-Link für Lernende ist entfernt beziehungsweise durch das PDF der aktuellen Phase ersetzt; Lehrkräfte können weiterhin exportieren. Originale PDF-Dateien bleiben als Quelldateien im Archiv erhalten.
 
 Die Sozialpädagogik-Vorlage und das Paket LS 1.1 enthalten dieselbe technische Oberflächenanpassung, mit sechs Teil-Arbeitsheften für den einen Lernweg. Die vorhandenen Ich-Kompetenzen dort bleiben erhalten.
 
@@ -52,6 +52,7 @@ Die neuen Teil-Arbeitshefte und deren lokalen Share-Skripte sind im Manifest ent
 - Lehrkräfte-Editor: PIN-Prüfung, gespeicherte Zeitänderungen, Akkordeon und tatsächlicher ZIP-Export mit aktuellen Assets und unveränderten Fortschrittssignaturen.
 - SCORM-API-Simulation: Commit, Kompetenzberichte, ursprüngliche Aufgabenkennungen und Wiederaufnahme.
 - Ansichten bei 1024 × 768, 768 × 1024 und 390 × 844 Pixeln: kein seitlicher Seiten-/Materialscroll, kompakte Karten, sichtbarer Rücksprung, unverdeckte Materialien.
+- GoodNotes-Position: gerahmter Import direkt nach dem Arbeitsform-/Arbeitszeitbereich in allen sechs Phasen und fünf Businessplan-Lernwegen sowie den sechs Sozialpädagogik-Phasen geprüft.
 - Orientierung: kein Materialzugriff, kein Ersatz und keine leere Material-/Import-Leiste; in beiden Paketen im Browser geprüft.
 - Lange Texte: CSS-Blocksatz/automatische Silbentrennung und deutsches Dokument geprüft. Aufgaben bleiben linksbündig; Handlungssituationsrahmen konsistent; keine Import-Leiste in Orientierung/Handlungssituation.
 - Fertige ZIPs: fehlerfrei entpackbar, alle Manifest-Dateien vorhanden, Archivinhalt identisch mit den jeweils geprüften Ausgabeordnern.
@@ -72,5 +73,5 @@ Prüfungen lokal mit Chromium und einer SCORM-API-Simulation. Der echte Moodle-A
 
 ## Archiv-Prüfsummen
 
-- `BRC_LG01_LS03_Aktualisiert_SCORM.zip` · SHA256 `521206af2f1932cefa10755281da1f6d79de2e85bac56202fb0da71b0d65d34a`
-- `Sozialpaedagogik_LS1_1_SCORM.zip` · SHA256 `036a884b8a1b935c3997d2924a2128b312f3b9aaab5e69132aa5812d0ef0f55f`
+- `BRC_LG01_LS03_Aktualisiert_SCORM.zip` · SHA256 `ab3bed5bc78185e36ef80d60bfb42a70c2f4df2c3a965c897d91ecce71b60344`
+- `Sozialpaedagogik_LS1_1_SCORM.zip` · SHA256 `ca6038c89ed1f6892e4834969841b4162563e420814f0ae3790115ec882669f4`

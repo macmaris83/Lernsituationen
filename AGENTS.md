@@ -43,6 +43,7 @@ die gesonderten Vorgaben in `Lernpfaduebungen/AGENTS.md`.
 
 ## Editor, Freischaltung und SCORM
 
+- Den GoodNotes-Import-Button einschließlich seiner gerahmten Leiste in jeder Aufgabenphase direkt unterhalb der Arbeitsform platzieren, für jeden Lernweg passend. Kein zusätzlicher Import-Button oberhalb des Materialzugriffs.
 - GoodNotes-Import ausschließlich in den sechs Aufgabenphasen anbieten und nur die zur aktuellen Phase und zum aktuellen Lernweg gehörenden Arbeitsheftseiten importieren. Kein vollständiges Arbeitsheft vorab für Lernende anbieten. In Orientierung und Handlungssituation fehlen Import-Button und die dadurch leere Leiste samt Rahmen vollständig. Verfügbare PDF-Links für Lernende dürfen die phasenbezogenen Importe nicht durch einen Gesamtdruck umgehen. Lehrkräfte-Exporte bleiben verfügbar.
 - Handlungssituation und deren Titelbereich mit derselben leichten Kartenumrahmung wie Orientierung und die übrigen Phasen darstellen.
 - Das Akkordeon aus dem aktuellen Aufgabeninhalt erzeugen, nachdem gespeicherte Editor-Änderungen angewendet wurden. Keine unabhängig gepflegte Kopie der Aufgabenstellung einführen.

@@ -238,3 +238,6 @@ body[data-page="handlungssituation.html"] .lesson-content>.hero{background:linea
 .task-accordion[open]>.task-summary{outline:none!important}
 .task-focus-panel:focus{outline:none}
 .task-summary:focus-visible{outline:2px solid #009bd9;outline-offset:2px}
+
+/* Phase workbook import sits immediately below the working form. */
+.phase-workbook-import{margin:8px 0 16px;position:relative;top:auto}

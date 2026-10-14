@@ -123,7 +123,7 @@ def main():
             for mode in range(1,6):
                 for phase in PHASES:
                     page.goto(base+phase+'.html');page.wait_for_function("document.body.dataset.taskFocusReady==='true'");unlock_phases(page,mode)
-                    page.locator('[data-share-workbook]').click()
+                    page.locator('[data-share-workbook]:visible').click()
                     page.wait_for_function('!!window.sharedWorkbook')
                     expected=f'GoodNotes_Phase_{phase}_W{mode}.pdf';actual=page.evaluate('sharedWorkbook')
                     assert actual['name']==expected and actual['type']=='application/pdf'

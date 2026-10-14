@@ -29,7 +29,10 @@ try:
                     page.evaluate('''mode=>{const p=SOZ_PROGRESS.read(),m=SOZ_PROGRESS_META;p.m=Number(mode);p.o=true;for(const q of m.quiz)p.q[q.id]=[q.correct,true];for(const [id,t]of Object.entries(m.tasks))p.t[id]=t.signature;SOZ_PROGRESS.write(p);SOZ_API.setMode(mode);}''',mode)
                     assert page.locator('a[href*="Gesamtdruck"]').count()==0
                     assert page.locator('.task-original-preview:visible').first.evaluate("e=>getComputedStyle(e).textAlign!=='justify'")
-                    page.locator('[data-share-workbook]').click();page.wait_for_function('!!window.shared')
+                    frame=page.locator('.phase-workbook-import:visible');assert frame.count()==1
+                    assert frame.evaluate("e=>e.previousElementSibling.matches('.phase-meta')")
+                    assert frame.bounding_box()['y']>=page.locator('.phase-meta:visible').last.bounding_box()['y']+page.locator('.phase-meta:visible').last.bounding_box()['height']
+                    page.locator('[data-share-workbook]:visible').click();page.wait_for_function('!!window.shared')
                     shared=page.evaluate('shared');expected=f'GoodNotes_Phase_{phase}_W{mode}.pdf';assert shared['name']==expected and shared['size']==(folder/'pdf'/expected).stat().st_size
             assert not errors,errors
             print('PASS:',folder.name,'phase PDF shares, no intro import/toolbar/full-print link, long prose justified/hyphenated, short tasks left, situation card borders',flush=True)
