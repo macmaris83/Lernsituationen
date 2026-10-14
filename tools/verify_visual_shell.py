@@ -27,16 +27,20 @@ try:
      assert abs(page.evaluate("parseFloat(getComputedStyle(document.body,'::before').width)")-width)<1
      page.evaluate('scrollTo(0,document.body.scrollHeight)')
      assert page.evaluate("getComputedStyle(document.body,'::before').top==='0px'")
-     if name=='m1.html':assert page.locator('.material-topbar [data-document-pdf]').is_visible()
+     if name=='m1.html':
+      assert page.locator('.material-topbar [data-document-pdf]').count()==0
+      assert document.is_visible()
      if name=='informieren.html':
       page.evaluate('''()=>{const p=SOZ_PROGRESS.read(),m=SOZ_PROGRESS_META;p.o=true;for(const q of m.quiz)p.q[q.id]=[q.correct,true];for(const [id,t]of Object.entries(m.tasks))p.t[id]=t.signature;SOZ_PROGRESS.write(p);}''')
       page.locator('.task-original-preview:visible').first.click()
-      assert page.locator('.task-accordion[open] .document-pdf-link').is_visible()
-      assert page.locator('.task-accordion[open] .document-pdf-link').get_attribute('href')==document.get_attribute('href')
+      assert page.locator('.task-accordion[open] .document-pdf-link').count()==0
+      assert document.is_visible()
+     assert page.locator('[data-document-pdf]').count()==1
+     assert document.locator('xpath=following-sibling::a').first.get_attribute('href')=='lehrkraft.html'
      assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
     page.emulate_media(media='print');assert page.evaluate("getComputedStyle(document.body,'::before').display==='none'");page.emulate_media(media='screen')
    assert not errors,errors
-   print('PASS:',root.name,'full-document PDF on overview/material/focus, glass surfaces, fixed full-width layer at 2000/1024/390 pixels, print background hidden',flush=True)
+   print('PASS:',root.name,'full-document PDF only in bottom utilities beside teacher, also visible in materials/focus, glass surfaces, fixed full-width layer at 2000/1024/390 pixels, print background hidden',flush=True)
    context.close()
   browser.close()
 finally:server.shutdown()

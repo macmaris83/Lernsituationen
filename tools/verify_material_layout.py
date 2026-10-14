@@ -30,8 +30,14 @@ try:
     for i in range(1,materials+1):
      if i>1:
       page.locator('.material-switch summary').click();page.locator(f'.material-switch a[href^="m{i}.html"]').click()
-     assert page.locator('.return-task-inline').is_visible()
+     assert page.locator('.return-task-inline,.material-phase-turn').count()==0
+     assert page.locator('.material-topbar [data-document-pdf]').count()==0
+     assert page.locator('.footer-utils [data-document-pdf]').is_visible()
      assert page.locator('.return-task').is_visible()
+     for scroll in [0,500,2000]:
+      page.evaluate('(y)=>scrollTo(0,y)',scroll)
+      rect=page.locator('.return-task').bounding_box();assert 0<=rect['y'] and rect['y']+rect['height']<=height
+      assert page.locator('.return-task').evaluate('e=>{const r=e.getBoundingClientRect();return document.elementFromPoint(r.x+r.width/2,r.y+r.height/2).closest(".return-task")===e}')
      assert page.locator('.lesson-content>.hero').is_hidden()
      page.locator('.material-switch summary').click()
      assert page.locator('.material-switch>nav').evaluate('e=>e.scrollWidth<=e.clientWidth+1')
@@ -42,8 +48,12 @@ try:
      assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
     page.goto(base+folder+'/m1.html?rueckaufgabe='+task.replace(':','%3A'))
    page.set_viewport_size({'width':1024,'height':768})
+   # A WebView keyboard/zoom narrows the visible viewport without changing layout height.
+   page.evaluate("()=>{const v=visualViewport;Object.defineProperty(v,'height',{configurable:true,value:588});Object.defineProperty(v,'offsetTop',{configurable:true,value:40});v.dispatchEvent(new Event('resize'));}")
+   rect=page.locator('.return-task').bounding_box();assert rect['y']+rect['height']<=628
+   page.evaluate("()=>{delete visualViewport.height;delete visualViewport.offsetTop;visualViewport.dispatchEvent(new Event('resize'));}")
    if 'BRC_' in folder:page.screenshot(path=str(repo/'Pruefberichte/BRC_LG01_LS03_Materialansicht.png'))
-   page.locator('.return-task-inline').click();page.wait_for_function("document.body.dataset.taskFocusReady==='true'")
+   page.locator('.return-task').click();page.wait_for_function("document.body.dataset.taskFocusReady==='true'")
    assert page.locator('.task-accordion[open] [data-task-complete]').get_attribute('data-task-id')==task
    page.goto(base+folder+'/m1.html?rueckaufgabe=constructor');assert page.locator('.return-task').get_attribute('aria-disabled')=='true'
    assert not errors,errors

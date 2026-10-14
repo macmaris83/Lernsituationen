@@ -188,22 +188,20 @@ def main():
                     page.goto(base+f'm{material}.html');unlock_phases(page,mode)
                     assert page.locator('.material-phase-navigation:visible').count()==1
                     assert page.locator('.material-phase-links a[href]').count()==8
-                    assert page.locator('.material-phase-turn a[href]').count()==1
+                    assert page.locator('.material-phase-turn').count()==0
                     assert page.locator('.material-switch:visible').count()==1
                     assert page.locator('[data-share-workbook]:visible').count()==0
                     assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
                     page.evaluate('''mode=>{const p=SOZ_PROGRESS.read();const id=Object.entries(SOZ_PROGRESS_META.tasks).find(([id,t])=>t.mode===mode&&t.phase==='informieren')[0];delete p.t[id];SOZ_PROGRESS.write(p);}''',mode)
                     assert page.locator('.material-phase-links [data-learning-page="planen.html"]').get_attribute('aria-disabled')=='true'
-                    assert page.locator('.material-phase-turn a').last.get_attribute('aria-disabled')=='true'
                     assert page.locator('.return-task').get_attribute('aria-disabled')=='true'
             page.goto(base+'planen.html');page.wait_for_function("document.body.dataset.taskFocusReady==='true'");unlock_phases(page,1)
             page.locator('.task-original-preview:visible').first.click()
             page.goto(base+'m10.html');unlock_phases(page,1)
             assert page.locator('.return-task').get_attribute('href').startswith('planen.html?aufgabe=')
-            assert page.locator('.material-phase-turn a').last.get_attribute('href')=='entscheiden.html'
-            page.locator('.material-phase-turn a').last.click();assert page.url.endswith('entscheiden.html')
+            page.locator('.material-phase-links a[href="entscheiden.html"]').click();assert page.url.endswith('entscheiden.html')
             page.goto(base+'m1.html');page.locator('.material-phase-links a[href="informieren.html"]').click();assert page.url.endswith('informieren.html')
-            context.close();print('PASS: all ten materials in five paths: complete phase navigation, contextual back/next, phase locks and real phase transitions',flush=True)
+            context.close();print('PASS: all ten materials in five paths: complete phase navigation without extra next, phase locks and real phase transitions',flush=True)
 
             # App-style session storage failures cannot remove the task return.
             for storage_case in ['denied','cleared']:
@@ -219,7 +217,7 @@ def main():
                         if material>1:
                             page.locator('.material-switch summary').click();page.locator(f'.material-switch a[href^="m{material}.html"]').click()
                         assert page.locator('.return-task').is_visible()
-                        assert page.locator('.return-task-inline').is_visible()
+                        assert page.locator('.return-task-inline').count()==0
                         assert page.locator('.return-task').evaluate('(e)=>e.parentElement===document.body')
                         assert page.locator('.material-switch').get_attribute('open') is None
                         page.locator('.material-switch summary').click()
@@ -230,9 +228,9 @@ def main():
                         assert page.evaluate("document.querySelector('.lesson-content').compareDocumentPosition(document.querySelector('.material-phase-navigation')) & Node.DOCUMENT_POSITION_FOLLOWING")
                         assert page.evaluate('Number(document.body.dataset.mode)')==mode
                         assert page.evaluate('SOZ_MATERIAL_RETURN.read().task')==task
-                        assert page.locator('.return-task').get_attribute('href')==page.locator('.return-task-inline').get_attribute('href')
+                        assert page.locator('.return-task').get_attribute('href').startswith('informieren.html?aufgabe=')
                         assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
-                    page.locator('.return-task-inline').click();page.wait_for_function("document.body.dataset.taskFocusReady==='true'")
+                    page.locator('.return-task').click();page.wait_for_function("document.body.dataset.taskFocusReady==='true'")
                     assert page.locator('.task-accordion[open] [data-task-complete]').get_attribute('data-task-id')==task
                 page.goto(base+'m1.html?rueckaufgabe=invalid')
                 assert page.locator('.return-task').get_attribute('aria-disabled')=='true'

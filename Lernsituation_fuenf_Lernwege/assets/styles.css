@@ -269,3 +269,13 @@ body[data-page="index.html"] .orientation-competence-list{grid-template-rows:non
 body[data-page="index.html"] .orientation-competence-list :is(.competence-row,article){display:block}
 body[data-page="index.html"] .orientation-competence-list h3{margin:0 0 6px}
 body{--lesson-background-image:url('bbs1-campus-background.png')}
+
+/* Rücksprung allein als Flyover, PDF-Symbol allein rechts im Materialkopf. */
+body.material-reading>.return-task{right:calc(max(18px,env(safe-area-inset-right)) + var(--return-right,0px));bottom:calc(max(18px,env(safe-area-inset-bottom)) + var(--return-bottom,0px));background:#eaf7fd;border-color:#009bd9;color:#173a63;touch-action:manipulation;pointer-events:auto}
+
+/* PDF ausschließlich unten rechts unmittelbar neben dem Lehrkräftezugang. */
+body.material-reading .page-footer{display:block!important;padding-top:0}
+body:is(.material-reading,.task-focus) .page-footer :is(.page-turn,.footer-icons){display:none!important}
+body.material-reading .main{padding-bottom:12px}
+body.material-reading .page-footer{padding-bottom:90px}
+@media print{body.material-reading .page-footer{display:none!important}}

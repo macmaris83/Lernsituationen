@@ -114,7 +114,7 @@ function suppress(e){e.dataset.focusSuppressed='';e.classList.add('focus-suppres
 function close(focusSummary=true){if(!active)return;const r=active;pause(r);active=null;clearInterval(interval);interval=null;r.details.open=false;restore();if(focusSummary)r.summary.focus();}
 function open(r){if(active===r)return;window.SOZ_MATERIAL_RETURN?.remember(r.card.dataset.taskId);close(false);active=r;r.details.open=true;r.card.querySelector('.focus-task-footer').insertBefore(r.completion,r.next);document.body.classList.add('task-focus');const content=document.querySelector('.lesson-content');for(const e of content.children){if(!e.contains(r.card)&&!e.matches('.material-access,.phase-materials'))suppress(e);}
  for(const c of cards)if(c!==r.card)suppress(c);
- document.querySelectorAll('.brand-header,.main>.navigation,.main>.tools-bar,.phase-mode-title,.page-footer').forEach(suppress);
+ document.querySelectorAll('.brand-header,.main>.navigation,.main>.tools-bar,.phase-mode-title').forEach(suppress);
  const panel=r.card.closest('[data-mode-panel]');if(panel)for(const child of panel.children)if(!child.contains(r.card)&&child!==r.card)suppress(child);
  draw(r);start(r);clearInterval(interval);interval=setInterval(()=>tick(r),200);r.card.querySelector('.task-focus-panel').focus({preventScroll:true});if(!matchMedia('(prefers-reduced-motion: reduce)').matches){const h=r.card.getBoundingClientRect().height;r.card.animate([{height:(r.beforeHeight||h)+'px',overflow:'hidden'},{height:h+'px',overflow:'hidden'}],{duration:350,easing:'ease-out'});r.card.querySelector('.task-focus-panel').animate([{opacity:0,transform:'translateY(12px)'},{opacity:1,transform:'translateY(0)'}],{duration:350,easing:'ease-out'});}const materialBar=document.querySelector('.lesson-content>.material-access,.lesson-content>.phase-materials');if(materialBar)r.card.style.scrollMarginTop=(materialBar.getBoundingClientRect().height+10)+'px';r.card.scrollIntoView({block:'start',behavior:'smooth'});}
 function nextRecord(r){const panel=r.card.closest('[data-mode-panel]');const list=cards.filter(c=>c.closest('[data-mode-panel]')===panel);return records.get(list[list.indexOf(r.card)+1]);}
@@ -136,7 +136,7 @@ for(const card of cards){
  let dialog=document.querySelector('.ais-help-dialog');
  if(!dialog){dialog=element('dialog','ais-help-dialog');const heading=element('header','ais-help-heading');const title=element('strong','','KI-Hilfe · Löppt-Pilot');title.id='ais-help-title';dialog.setAttribute('aria-labelledby',title.id);heading.append(title,button('Schließen',()=>dialog.close()));const note=element('p','ais-help-note','Hilfe zur Selbsthilfe · Deine Lösung erarbeitest du selbst.');const iframe=element('iframe','ais-help-frame');iframe.title='AIS-Chat – KI-Hilfe zur Selbsthilfe';iframe.src='https://app.ais-chat.schule/ua/characters/2b7bdc3e-19fb-4b9d-baaf-4c17ad2b83d0/dialog?inviteCode=QLDYEBIV';const info=element('p','ais-help-info','Falls der Chat leer bleibt oder die Anmeldung nicht funktioniert, ist die Einbettung möglicherweise durch AIS oder die Moodle-App eingeschränkt.');dialog.append(heading,note,iframe,info);document.body.append(dialog);}dialog.showModal();
  });const aiLogo=element('span','ais-chat-logo');aiLogo.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" width="142" height="32" viewBox="0 0 142 32" role="img" aria-label="AIS.chat"><title>AIS.chat</title><g fill="none" stroke="#4e248c" stroke-width="3.3" stroke-linecap="round"><rect x="3" y="5" width="20" height="8" rx="4"/><path d="M16 18h7M22 22h2"/></g><text x="33" y="25" fill="#4e248c" font-family="Arial,Helvetica,sans-serif" font-size="23">AIS.chat</text></svg>';helpButton.prepend(aiLogo);helpButton.title='Hilfe zur Selbsthilfe';help.append(helpButton);focus.append(help);
- const solvedText=completion.querySelector('.sr-only');if(solvedText)solvedText.textContent='Aufgabe erledigt';const footer=element('div','focus-task-footer');const next=button('Zur nächsten Aufgabe →',()=>{if(!checkbox.checked||checkbox.disabled||P.readOnly)return;const n=nextRecord(r);if(n)open(n);else close();});next.className='focus-next';r.next=next;const backActions=element('div','focus-back-actions');backActions.append(back);const pdf=window.SOZ_DOCUMENT_PDF?.makeLink(true);if(pdf)backActions.append(pdf);footer.append(backActions,completion,next);focus.append(footer);details.append(summary,focus);card.replaceChildren(details,originalPreview,completion,doneMarker);records.set(card,r);originalPreview.addEventListener('click',event=>{if(!event.target.closest('a,button,input,textarea,select')){if(r.sound?.checked)prepareAudio();r.beforeHeight=card.getBoundingClientRect().height;open(r);}});
+ const solvedText=completion.querySelector('.sr-only');if(solvedText)solvedText.textContent='Aufgabe erledigt';const footer=element('div','focus-task-footer');const next=button('Zur nächsten Aufgabe →',()=>{if(!checkbox.checked||checkbox.disabled||P.readOnly)return;const n=nextRecord(r);if(n)open(n);else close();});next.className='focus-next';r.next=next;const backActions=element('div','focus-back-actions');backActions.append(back);footer.append(backActions,completion,next);focus.append(footer);details.append(summary,focus);card.replaceChildren(details,originalPreview,completion,doneMarker);records.set(card,r);originalPreview.addEventListener('click',event=>{if(!event.target.closest('a,button,input,textarea,select')){if(r.sound?.checked)prepareAudio();r.beforeHeight=card.getBoundingClientRect().height;open(r);}});
  summary.addEventListener('click',event=>{if(details.open){event.preventDefault();return;}r.beforeHeight=card.getBoundingClientRect().height;if(r.sound?.checked)prepareAudio();});details.addEventListener('toggle',()=>{if(details.open)open(r);else if(active===r)close();});checkbox.addEventListener('click',event=>event.stopPropagation());checkbox.addEventListener('change',event=>{event.stopPropagation();refresh(r);});refresh(r);
 }
 for(const r of records.values())if(!nextRecord(r))r.next.textContent='Zur Phasenübersicht →';
@@ -159,8 +159,12 @@ const choices=document.createElement('nav');choices.setAttribute('aria-label','A
 for(const name of Object.keys(D.pages).filter(n=>/^m\d+\.html$/.test(n))){const original=document.querySelector('.lesson-content .material-link[href="'+name+'"]');const a=original?original.cloneNode(true):document.createElement('a');a.classList.add('material-link');a.href=name;if(!original)a.textContent=D.pageTitles[name]||name.replace('.html','').toUpperCase();if(name===document.body.dataset.page)a.setAttribute('aria-current','page');choices.append(a);}nav.append(choices);bar.append(nav);
 const a=document.createElement('a');a.className='button return-task';a.textContent='← Zurück zur Aufgabe';
 if(saved){a.href=saved.page+'?aufgabe='+encodeURIComponent(saved.task);}else{a.setAttribute('role','link');a.setAttribute('aria-disabled','true');a.title='Öffne zuerst eine Aufgabe, damit du hier direkt zu ihr zurückkehren kannst.';}
-// Outside the clipped lesson shell; a sticky in-page fallback shares the same target.
-document.body.append(a);const inline=a.cloneNode(true);inline.className='button return-task-inline';bar.append(inline);const pdf=window.SOZ_DOCUMENT_PDF?.makeLink(true);if(pdf)bar.append(pdf);main?.prepend(bar);
+// Outside the clipped shell; follow the visible viewport in mobile WebViews.
+document.body.append(a);
+const viewport=window.visualViewport;
+function positionReturn(){if(!viewport)return;a.style.setProperty('--return-bottom',Math.max(0,document.documentElement.clientHeight-viewport.offsetTop-viewport.height)+'px');a.style.setProperty('--return-right',Math.max(0,document.documentElement.clientWidth-viewport.offsetLeft-viewport.width)+'px');}
+positionReturn();viewport?.addEventListener('resize',positionReturn);viewport?.addEventListener('scroll',positionReturn);window.addEventListener('resize',positionReturn);
+main?.prepend(bar);
 window.SOZ_MATERIAL_RETURN?.decorate();window.SOZ_PROGRESS?.render();
 })();
 
@@ -169,16 +173,11 @@ window.SOZ_MATERIAL_RETURN?.decorate();window.SOZ_PROGRESS?.render();
 const D=window.SOZPAED;if(!D||!/^m\d+\.html$/.test(document.body.dataset.page||''))return;
 const main=document.querySelector('.main');if(!main)return;
 const phases=[['index.html','Orientierung'],['handlungssituation.html','Handlungssituation'],['informieren.html','Informieren'],['planen.html','Planen'],['entscheiden.html','Entscheiden'],['durchfuehren.html','Durchführen'],['bewerten.html','Bewerten'],['reflektieren.html','Reflektieren']];
-const saved=window.SOZ_MATERIAL_RETURN?.read();
-const origin=phases.findIndex(([name])=>name===saved?.page),current=origin>=0?origin:2;
 const nav=document.createElement('nav');nav.className='material-phase-navigation';nav.setAttribute('aria-label','Vollständige Handlung');
 const heading=document.createElement('strong');heading.textContent='Phasenübersicht';nav.append(heading);
 const links=document.createElement('div');links.className='material-phase-links';
 function link(index,label){const a=document.createElement('a');a.className='button';a.href=phases[index][0];a.dataset.learningPage=phases[index][0];a.textContent=label||phases[index][1];return a;}
 phases.forEach((phase,index)=>links.append(link(index)));nav.append(links);
 main.querySelector('.lesson-content')?.after(nav);
-const turn=document.createElement('nav');turn.className='material-phase-turn';turn.setAttribute('aria-label','Zurück oder weiter in der vollständigen Handlung');
-// Return to the actual task is handled by the persistent task button.
-if(current<phases.length-1)turn.append(link(current+1,'Weiter · '+phases[current+1][1]+' →'));
-main.append(turn);window.SOZ_PROGRESS?.render();
+window.SOZ_PROGRESS?.render();
 })();
