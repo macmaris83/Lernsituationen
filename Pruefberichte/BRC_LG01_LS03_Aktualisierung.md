@@ -76,8 +76,8 @@ Prüfungen lokal mit Chromium und einer SCORM-API-Simulation. Der echte Moodle-A
 
 ## Dateien und Reproduktion
 
-- [Businessplan-SCORM-ZIP](../Downloads/BRC_LG01_LS03_Aktualisiert_SCORM.zip)
-- [Sozialpädagogik LS 1.1 SCORM-ZIP](../Downloads/Sozialpaedagogik_LS1_1_SCORM.zip)
+- [Businessplan-SCORM-ZIP](https://github.com/macmaris83/Lernsituationen/blob/bcd1140e0a86287709a9709a20ac2ad618b23f6b/Downloads/BRC_LG01_LS03_Aktualisiert_SCORM.zip)
+- [Sozialpädagogik LS 1.1 SCORM-ZIP](https://github.com/macmaris83/Lernsituationen/blob/bcd1140e0a86287709a9709a20ac2ad618b23f6b/Downloads/Sozialpaedagogik_LS1_1_SCORM.zip)
 - [Kompakte Aufgabenübersicht](BRC_LG01_LS03_Kompakte_Karten.png)
 - [Materialansicht](BRC_LG01_LS03_Materialansicht.png)
 - Aufbau: `python tools/prepare_businessplan_scorm.py ORIGINAL.zip AUSGABEORDNER`

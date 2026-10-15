@@ -11,7 +11,7 @@ import argparse
 from collections import Counter
 from pathlib import Path
 
-parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--input',type=Path,required=True);parser.add_argument('--output',type=Path,default=Path(__file__).resolve().parents[1]/'Quellen/BRC_LG01/Arbeitsformen.json');args=parser.parse_args()
+parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--input',type=Path,required=True);parser.add_argument('--output',type=Path,default=Path(__file__).resolve().parents[1]/'Fachbereiche/BRC/LG01/quellen/Arbeitsformen.json');args=parser.parse_args()
 INPUT=args.input
 OUTPUT=args.output
 

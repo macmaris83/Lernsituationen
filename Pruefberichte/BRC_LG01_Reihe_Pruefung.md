@@ -70,13 +70,13 @@ Die Prüfungen verwenden Chromium, SCORM-API-Mocks, Web-Share-Mocks und einen lo
 
 ## Artefakte und Reproduktion
 
-Sechs Einzel-ZIPs enthalten `imsmanifest.xml` direkt im Archivwurzelverzeichnis. Das [Gesamtarchiv](../Downloads/BRC_LG01_PlugAndPlay_Gesamtreihe_SCORM.zip) enthält diese sechs ZIPs und eine kurze Anleitung; es muss vor dem Upload einzelner Moodle-Aktivitäten entpackt werden. Die ältere einzelne Businessplan- und Sozialpädagogik-Ausgabe bleiben davon getrennt.
+Sechs Einzel-ZIPs enthalten `imsmanifest.xml` direkt im Archivwurzelverzeichnis. Das [Gesamtarchiv](https://github.com/macmaris83/Lernsituationen/blob/bcd1140e0a86287709a9709a20ac2ad618b23f6b/Downloads/BRC_LG01_PlugAndPlay_Gesamtreihe_SCORM.zip) enthält diese sechs ZIPs und eine kurze Anleitung; es muss vor dem Upload einzelner Moodle-Aktivitäten entpackt werden. Die ältere einzelne Businessplan- und Sozialpädagogik-Ausgabe bleiben davon getrennt.
 
 - `python tools/build_brc_series.py`
 - `python tools/verify_brc_editorial.py`
 - `python tools/verify_brc_series.py --source Quellen/BRC_LG01/Reihenplan.md`
 
-Anleitung und Einzelpakete: [Reihe](../Reihen/BRC_LG01/README.md).
+Anleitung und Einzelpakete: [Reihe](../Fachbereiche/BRC/LG01/README.md).
 
 ## Sichtprüfung
 

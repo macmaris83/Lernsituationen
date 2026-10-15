@@ -45,4 +45,10 @@ def prepare(root):
     tree.write(path,encoding='utf-8',xml_declaration=True)
     print(f'Prepared {len(added)//2} phase-only workbooks in {root.name}')
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('folder',type=Path);args=parser.parse_args();prepare(args.folder)
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('folder',type=Path)
+    parser.add_argument('--regenerate-masters',action='store_true',help='PDF- und eingebettete Arbeitsheftdateien im Master neu erzeugen')
+    args=parser.parse_args()
+    if not args.regenerate_masters:
+        parser.error('Normaler Export: python tools/master.py export --all. Eine Neuerzeugung der Master-Arbeitshefte erfordert --regenerate-masters.')
+    prepare(args.folder)

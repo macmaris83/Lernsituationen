@@ -58,13 +58,17 @@ def lesson_root(series, lesson):
 
 
 def zip_path(series, lesson):
-    path = Path(lesson['zip'])
-    return path if path.is_absolute() else REPO / path
+    catalog = json.loads((REPO / 'master-katalog.json').read_text())
+    master = lesson_root(series, lesson).resolve().relative_to(REPO).as_posix()
+    matches = [entry for entry in catalog['packages'] if entry['master'] == master]
+    assert len(matches) == 1, ('Master nicht eindeutig im Katalog', master)
+    entry = matches[0]
+    return REPO / 'Downloads' / entry['id'] / f"{entry['archiveStem']}_v{entry['version']}_SCORM12.zip"
 
 
 @functools.lru_cache(maxsize=1)
 def task_forms():
-    return json.loads((REPO / 'Quellen/BRC_LG01/Arbeitsformen.json').read_text())
+    return json.loads((REPO / 'Fachbereiche/BRC/LG01/quellen/Arbeitsformen.json').read_text())
 
 
 def task_form(lesson, phase, mode, number):
@@ -86,7 +90,7 @@ def verify_story_image(page, base, lesson, role):
     page.wait_for_function('e=>e.complete&&e.naturalWidth>0&&e.naturalHeight>0', arg=picture.element_handle())
     assert picture.get_attribute('src') == expected['file']
     assert picture.get_attribute('alt'), (lesson['id'], role, 'Missing image description')
-    original = REPO / 'Quellen/BRC_LG01/Bilder' / Path(expected['file']).name
+    original = REPO / 'Fachbereiche/BRC/LG01/quellen/Bilder' / Path(expected['file']).name
     response = page.request.get(base + expected['file'])
     assert response.ok and response.body() == original.read_bytes()
     assert hashlib.sha256(response.body()).hexdigest() == expected['sha256']
@@ -116,7 +120,7 @@ def verify_artifacts(series, lessons, source):
     independent = read_plan_budgets(source)
     identities, competency_ids = set(), set()
     task_total = 0
-    image_map = json.loads((REPO / 'Quellen/BRC_LG01/Bildzuordnung.json').read_text())
+    image_map = json.loads((REPO / 'Fachbereiche/BRC/LG01/quellen/Bildzuordnung.json').read_text())
     forms = task_forms()
     for lesson in lessons:
         root = lesson_root(series, lesson)
@@ -148,7 +152,7 @@ def verify_artifacts(series, lessons, source):
             image = lesson['images'][role]
             definition = image_map[str(int(root.name[2:]))][role]
             assert Path(image['file']).name == definition['filename']
-            original = REPO / 'Quellen/BRC_LG01/Bilder' / definition['filename']
+            original = REPO / 'Fachbereiche/BRC/LG01/quellen/Bilder' / definition['filename']
             assert (root / image['file']).read_bytes() == original.read_bytes()
             assert hashlib.sha256(original.read_bytes()).hexdigest() == image['sha256']
             assert media['slots'][role]['src'] == image['file']
@@ -172,15 +176,7 @@ def verify_artifacts(series, lessons, source):
     assert len(forms) == task_total
     assert {'individual', 'pair', 'group'} <= {form['kind'] for form in forms.values()}
     print('PASS: 440 complete task groups, one whole checking/reflection task per path, diverse individual/pair/group forms, twelve original images with source SHA-256 and media-map references', flush=True)
-    collection = REPO / 'Downloads/BRC_LG01_PlugAndPlay_Gesamtreihe_SCORM.zip'
-    with zipfile.ZipFile(collection) as archive:
-        assert archive.testzip() is None
-        for lesson in lessons:
-            path = zip_path(series, lesson)
-            names = [name for name in archive.namelist() if Path(name).name == path.name]
-            assert len(names) == 1, (path.name, names)
-            assert archive.read(names[0]) == path.read_bytes(), path.name
-    print('PASS: collective download contains exactly the checked six individual SCORM packages', flush=True)
+    print('PASS: current ZIPs resolved from the master catalog; no legacy collection archive required', flush=True)
 
 
 class Quiet(http.server.SimpleHTTPRequestHandler):
@@ -562,7 +558,7 @@ def verify_teacher(browser, base, lesson):
         assert payload(archive.read('progress-meta.js'))['id'] == lesson['id']
         exported_media = payload(archive.read('media-map.js'))
         for role, image in lesson['images'].items():
-            assert archive.read(image['file']) == (REPO / 'Quellen/BRC_LG01/Bilder' / Path(image['file']).name).read_bytes()
+            assert archive.read(image['file']) == (REPO / 'Fachbereiche/BRC/LG01/quellen/Bilder' / Path(image['file']).name).read_bytes()
             assert hashlib.sha256(archive.read(image['file'])).hexdigest() == image['sha256']
             assert exported_media['slots'][role]['src'] == image['file']
         for element in ET.fromstring(archive.read('imsmanifest.xml')).iter():
@@ -624,7 +620,7 @@ def verify_scorm(browser, base, lesson):
 
 
 def verify_migration(browser, base, lesson):
-    baseline = json.loads((REPO / 'Quellen/BRC_LG01/Fortschritt_Vor_Gruppierung.json').read_text())[lesson['folder']]
+    baseline = json.loads((REPO / 'Fachbereiche/BRC/LG01/quellen/Fortschritt_Vor_Gruppierung.json').read_text())[lesson['folder']]
     context = scorm_context(browser)
     page = context.new_page(); errors = watch(page, base)
     page.goto(base + 'scorm.html'); page.wait_for_function("SOZ_SCORM?.kind==='moodle'")
@@ -704,7 +700,7 @@ def verify_migration(browser, base, lesson):
 
 
 def verify_orientation_migration_guard(browser, base, lesson, actual_export=False):
-    baseline = json.loads((REPO / 'Quellen/BRC_LG01/Fortschritt_Vor_Gruppierung.json').read_text())[lesson['folder']]
+    baseline = json.loads((REPO / 'Fachbereiche/BRC/LG01/quellen/Fortschritt_Vor_Gruppierung.json').read_text())[lesson['folder']]
     context = browser.new_context(accept_downloads=True)
     page = context.new_page(); errors = watch(page, base)
     page.goto(base + 'lehrkraft.html')
@@ -752,7 +748,7 @@ def verify_orientation_migration_guard(browser, base, lesson, actual_export=Fals
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('series', nargs='?', type=Path, default=REPO / 'Reihen/BRC_LG01/series.json')
+    parser.add_argument('series', nargs='?', type=Path, default=REPO / 'Fachbereiche/BRC/LG01/series.json')
     parser.add_argument('--source', type=Path)
     parser.add_argument('--lesson', help='Only these comma-separated lesson folders, e.g. LS01,LS02')
     parser.add_argument('--only-artifacts', action='store_true')
@@ -766,7 +762,7 @@ def main():
     assert len(lessons) == 6
     source = args.source
     if source is None:
-        committed = REPO / 'Quellen/BRC_LG01/Reihenplan.md'
+        committed = REPO / 'Fachbereiche/BRC/LG01/quellen/Reihenplan.md'
         candidates = ([committed] if committed.is_file() else []) + list(args.series.parent.glob('*Quell*.md')) + list(Path('/workspace/attachments').rglob('BRC_LG01_PlugAndPlay_Gesamtreihe_5_Lernwege_Narrativ (2).md'))
         assert candidates, 'Pass --source with the uploaded Markdown plan'
         source = candidates[0]

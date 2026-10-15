@@ -1,15 +1,45 @@
 # Verbindlicher Standard für Lernsituationen
 
-Die vom Nutzer freigegebene Gestaltung in `Lernsituation_tradiert` und
-`Lernsituation_fuenf_Lernwege` ist der Standard für zukünftige Änderungen und neue
+Die vom Nutzer freigegebene Gestaltung in `Vorlagen/Lernsituation_tradiert` und
+`Vorlagen/Lernsituation_fuenf_Lernwege` ist der Standard für zukünftige Änderungen und neue
 Lernsituationen. Beide Vorlagen auf `main` enthalten die Umsetzung. Der Nutzer
 kann diesen Standard jederzeit ausdrücklich ändern.
 
+## Ein fortlaufender Master je Lernsituation
+
+- `master-katalog.json` ist das verbindliche Verzeichnis der aktuellen Master. Vor
+  jeder Bearbeitung den aktuellen Branch-Stand synchronisieren und den Master über
+  seinen Katalogeintrag finden; alte ZIPs oder Prototypen nicht als Ausgangspunkt nehmen.
+- Die vorhandenen Master unter `Fachbereiche/` und `Vorlagen/` fortlaufend bearbeiten.
+  Keine parallelen Ordner mit Namen wie `neu`, `final`, `Aktualisiert` oder Versionssuffixen
+  anlegen. Weitere Fachbereiche wie ReNo und Geschichte nutzen dieselben Vorlagentypen.
+- Sichtbare Paketversionen haben zwei Zahlen, z. B. `1.2`, `1.5` oder `2.1`. Die aktuelle
+  Version wird je Master im Katalog gepflegt; pro Master ist nur eine aktuelle ZIP
+  im Downloadbestand vorgesehen. Frühere Stände bleiben durch Git nachvollziehbar.
+- `python tools/master.py export --all` exportiert den tatsächlichen aktuellen Master.
+  Der normale Export führt keine alten Inhaltsgeneratoren aus und setzt keine
+  Lehrkräftekonfiguration oder redaktionellen Anpassungen zurück.
+- Die ursprünglichen Generatorquellen bleiben für eine bewusst angeforderte
+  Neuerzeugung erhalten. Die Generatoren benötigen dafür `--regenerate-masters`.
+  Vorher sämtliche zwischenzeitlichen Master- und Editoränderungen in diese Eingaben
+  übernehmen und den Unterschied prüfen; eine Neuerzeugung kann sie sonst überschreiben.
+- Inhalte in `lesson-data.js` und den zugehörigen HTML-Seiten gemeinsam aktualisieren,
+  soweit die vorhandene Runtime beide verwendet. Browserentwürfe vor der Weiterarbeit
+  in den passenden Master übernehmen; sie ändern den GitHub-Master nicht automatisch.
+- Interne SCORM-, Aufgaben-, Kompetenz- und Speicherkennungen bleiben trotz neuer
+  Ordner oder Paketversion erhalten. Eine sichtbare Versionsnummer ist kein Anlass,
+  bestehende Lernstände zurückzusetzen.
+- `Downloads/README.md` und `Downloads/aktuell.json` verweisen auf den aktuellen Export
+  aus dem Katalog. Aktualität nicht aus lexikografischer Dateisortierung, Zeitstempeln
+  oder dem Wort „Aktualisiert“ ableiten. Vor Veröffentlichung den aktuellen Master
+  mit dem Export vergleichen und die notwendigen Funktionsprüfungen durchführen.
+
 ## Getrennte Vorlagentypen
 
-`Lernpfaduebungen/` ist ein eigener Vorlagentyp. Die nachfolgenden Regeln für
+`Vorlagen/Lernpfaduebung/` und `Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/`
+gehören zum eigenständigen Vorlagentyp Lernpfadübung. Die nachfolgenden Regeln für
 Lernsituationen gelten nicht automatisch für Lernpfadübungen. Für diese gelten
-die gesonderten Vorgaben in `Lernpfaduebungen/AGENTS.md`.
+die gesonderten Vorgaben in den dortigen `AGENTS.md`-Dateien.
 
 ## Aufgaben und Fokus
 
@@ -75,4 +105,4 @@ Für Materialien aller Lerngebiete den wiederverwendbaren Fundus `Materialvorlag
 
 ## Schüleransicht der BioCasa-Reihe
 
-In allen sechs Paketen unter `Reihen/BRC_LG01` entfällt der Einordnungsblock in der Orientierung. Keine Übersicht der fünf alternativen Lernwege, keine Lernweg-Badges oder Auswahl durch Schüler anzeigen; die Auswahl bleibt im Lehrkräftemodus. Zugeordnete Originalbilder erscheinen in Orientierung und Handlungssituation und werden nicht neu erzeugt oder beschnitten. MC-Antwortmöglichkeiten stehen einzeln untereinander. Bei Zusammenfassung alter Aufgaben die vorhandenen Fortschrittskennungen bewahren: eine neue Gruppenaufgabe gilt erst als erledigt, wenn sämtliche alten Teilaufgaben erledigt waren. Kompetenzberichte und eine bereits gelesene Orientierung erhalten; Quelle und Migrationsmetadaten enthalten keine personenbezogenen Lernstände.
+In allen sechs Paketen unter `Fachbereiche/BRC/LG01` entfällt der Einordnungsblock in der Orientierung. Keine Übersicht der fünf alternativen Lernwege, keine Lernweg-Badges oder Auswahl durch Schüler anzeigen; die Auswahl bleibt im Lehrkräftemodus. Zugeordnete Originalbilder erscheinen in Orientierung und Handlungssituation und werden nicht neu erzeugt oder beschnitten. MC-Antwortmöglichkeiten stehen einzeln untereinander. Bei Zusammenfassung alter Aufgaben die vorhandenen Fortschrittskennungen bewahren: eine neue Gruppenaufgabe gilt erst als erledigt, wenn sämtliche alten Teilaufgaben erledigt waren. Kompetenzberichte und eine bereits gelesene Orientierung erhalten; Quelle und Migrationsmetadaten enthalten keine personenbezogenen Lernstände.

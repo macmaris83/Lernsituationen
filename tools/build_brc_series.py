@@ -9,20 +9,19 @@ from pathlib import Path
 import argparse, base64, copy, functools, hashlib, http.server, json, math, re
 import shutil, subprocess, threading, zipfile, xml.etree.ElementTree as ET
 from lxml import html as H
-from playwright.sync_api import sync_playwright
 import fitz
 from prepare_businessplan_scorm import businessplan_timer
 
 REPO = Path(__file__).resolve().parents[1]
-TEMPLATE = REPO/'Lernsituation_fuenf_Lernwege'
-OUT = REPO/'Reihen/BRC_LG01'
+TEMPLATE = REPO/'Vorlagen/Lernsituation_fuenf_Lernwege'
+OUT = REPO/'Fachbereiche/BRC/LG01'
 PHASES = ['informieren','planen','entscheiden','durchfuehren','bewerten','reflektieren']
 NAMES = ['Informieren','Planen','Entscheiden','Durchführen','Überprüfen','Reflektieren']
 MODES = ['Stark geführt','Begleitet','Teiloffen','Selbstgesteuert mit Checkpoints','Löppt']
 COLORS = ['#333333','#E6E8EA','#EFF5CE','#E5F5FC','#CCEBF7']
 ESC = lambda s: __import__('html').escape(str(s), quote=True)
 VERSION = '2026-10-14.lg01-reihe.1'
-WORKFORMS_PATH = REPO/'Quellen/BRC_LG01/Arbeitsformen.json'
+WORKFORMS_PATH = REPO/'Fachbereiche/BRC/LG01/quellen/Arbeitsformen.json'
 
 def workform_icon(kind):
     paths={
@@ -293,8 +292,15 @@ def migration_for(data,meta,baseline):
     return {'orientationSignature':meta['orientationSignature'],'orientationSignatures':[baseline['orientationSignature']],'tasks':aliases}
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--source',type=Path,default=REPO/'Quellen/BRC_LG01/Reihenplan.md');args=parser.parse_args()
-    lessons=load_source(args.source);checks=json.loads((REPO/'Quellen/BRC_LG01/Einstiegskontrollen.json').read_text());comps=json.loads((REPO/'Quellen/BRC_LG01/Kompetenzen_Ich.json').read_text());pictures=json.loads((REPO/'Quellen/BRC_LG01/Bildzuordnung.json').read_text());baseline=json.loads((REPO/'Quellen/BRC_LG01/Fortschritt_Vor_Gruppierung.json').read_text());OUT.mkdir(parents=True,exist_ok=True)
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--source',type=Path,default=REPO/'Fachbereiche/BRC/LG01/quellen/Reihenplan.md')
+    parser.add_argument('--regenerate-masters',action='store_true',help='Bestehende Master aus Quellen neu erzeugen und dabei überschreiben')
+    args=parser.parse_args()
+    if not args.regenerate_masters:
+        parser.error('Master werden nicht automatisch neu erzeugt. Normaler Export: python tools/master.py export --all. Bewusste Neuerzeugung nur mit --regenerate-masters; vorher alle Master- und Editoränderungen in die Eingaben übernehmen.')
+    print('ACHTUNG: Die Neuerzeugung überschreibt bestehende Master und Konfigurationen. Anschließend python tools/master.py export --all ausführen.',flush=True)
+    from playwright.sync_api import sync_playwright
+    lessons=load_source(args.source);checks=json.loads((REPO/'Fachbereiche/BRC/LG01/quellen/Einstiegskontrollen.json').read_text());comps=json.loads((REPO/'Fachbereiche/BRC/LG01/quellen/Kompetenzen_Ich.json').read_text());pictures=json.loads((REPO/'Fachbereiche/BRC/LG01/quellen/Bildzuordnung.json').read_text());baseline=json.loads((REPO/'Fachbereiche/BRC/LG01/quellen/Fortschritt_Vor_Gruppierung.json').read_text());OUT.mkdir(parents=True,exist_ok=True)
     summaries=[];built=[]
     for ls in lessons:
         n=ls['number'];root=OUT/f'LS{n:02d}';root.mkdir(exist_ok=True);(root/'pdf').mkdir(exist_ok=True)
@@ -305,7 +311,7 @@ def main():
         picture_info={};slots={};(root/'assets/images').mkdir(exist_ok=True)
         for key,picture in pictures[str(n)].items():
             assert Path(picture['filename']).name==picture['filename']
-            source=REPO/'Quellen/BRC_LG01/Bilder'/picture['filename'];target=root/'assets/images'/picture['filename'];shutil.copyfile(source,target)
+            source=REPO/'Fachbereiche/BRC/LG01/quellen/Bilder'/picture['filename'];target=root/'assets/images'/picture['filename'];shutil.copyfile(source,target)
             relative=target.relative_to(root).as_posix();picture_info[key]={'file':relative,'sha256':hashlib.sha256(source.read_bytes()).hexdigest()}
             slots[key]={'src':relative,'alt':picture['alt'],'label':('Orientierung' if key=='orientation' else 'Handlungssituation')+' · '+ls['title']}
         runtime=root/'assets/runtime.js';s=runtime.read_text().replace("['','Tradiert · stark geführt','Geführt','Begleitet','Teiloffen','Löppt']",json.dumps(['']+MODES,ensure_ascii=False)).replace('["","STARK GEFÜHRT","GEFÜHRT","BEGLEITET","TEILOFFEN","LÖPPT"]',json.dumps(['']+[m.upper() for m in MODES],ensure_ascii=False)).replace(r'/(\d+)\s*Min/i',r'/(\d+(?:[.,]\d+)?)\s*Min/i').replace('Number(match[1])*60',"Math.round(Number(match[1].replace(',','.'))*60)")
@@ -368,7 +374,7 @@ def main():
     finally:server.shutdown()
     series={'title':'BRC LG01 · Ein Unternehmen gründen','hours':80,'templateCommit':'712a1200e1a67df2992e869730b1f26facfe7cbc','sourceSha256':hashlib.sha256(args.source.read_bytes()).hexdigest(),'lessons':summaries}
     (OUT/'series.json').write_text(json.dumps(series,ensure_ascii=False,indent=2))
-    links=''.join(f'<article><small>LS{i["folder"][2:]} · {i["hours"]} Unterrichtsstunden</small><h2>{ESC(i["title"])}</h2><p><a href="{i["folder"]}/index.html">Lernsituation öffnen</a> · <a href="../../{i["zip"]}" download>SCORM-ZIP herunterladen</a></p></article>' for i in summaries)
+    links=''.join(f'<article><small>LS{i["folder"][2:]} · {i["hours"]} Unterrichtsstunden</small><h2>{ESC(i["title"])}</h2><p><a href="{i["folder"]}/index.html">Lernsituation öffnen</a> · <a href="../../../{i["zip"]}" download>SCORM-ZIP herunterladen</a></p></article>' for i in summaries)
     (OUT/'index.html').write_text('<!doctype html><html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BioCasa · Plug-and-Play-Reihe</title><link rel="stylesheet" href="LS01/assets/styles.css"><style>article{padding:18px;border:1px solid #b8e0f2;border-radius:14px;background:#ffffffbb;margin:14px 0}</style><body><main class="shell main"><h1>BioCasa · Ein Unternehmen gründen</h1><p>Sechs Lernsituationen · 80 Unterrichtsstunden</p>'+links+'</main></body></html>')
     collection=REPO/'Downloads/BRC_LG01_PlugAndPlay_Gesamtreihe_SCORM.zip'
     with zipfile.ZipFile(collection,'w',zipfile.ZIP_DEFLATED) as z:

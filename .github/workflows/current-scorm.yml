@@ -1,0 +1,53 @@
+name: Aktuelle SCORM-Pakete
+
+on:
+  push:
+    branches: ['**']
+    paths-ignore:
+      - 'Downloads/**'
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: current-scorm-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Exportwerkzeug prüfen
+        run: python3 -m unittest discover -s tools -p 'test_master.py'
+      - name: Master und Manifest-Dateien prüfen
+        run: python3 tools/master.py check
+
+  update-current:
+    if: github.event_name != 'pull_request' && startsWith(github.ref, 'refs/heads/')
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Tatsächlich ausgecheckten Stand prüfen
+        run: python3 -m unittest discover -s tools -p 'test_master.py'
+      - name: Aktuelle Einzelpakete erzeugen
+        run: python3 tools/master.py export --all
+      - name: Paketinhalt und Prüfsummen prüfen
+        run: python3 tools/master.py check --archives
+      - name: Aktuelle Downloads übernehmen
+        run: |
+          git add Downloads
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Aktuelle SCORM-Exporte aus den gepflegten Mastern übernehmen'
+          git push origin "HEAD:${GITHUB_REF_NAME}"

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Apply the approved LS UI to an uploaded business-plan SCORM, preserving content.
 
-Usage: python tools/prepare_businessplan_scorm.py SOURCE.zip OUTPUT_DIRECTORY
+Usage: python tools/prepare_businessplan_scorm.py SOURCE.zip OUTPUT_DIRECTORY --regenerate-masters
 Approved technical files, cache query strings, requested task times and first-person
 competencies change. Phase-only PDF imports are added to the manifest. Original
 task wording, signatures, configuration, source media and PDFs stay unchanged.
@@ -12,7 +12,7 @@ import xml.etree.ElementTree as ET
 from prepare_phase_workbooks import prepare as prepare_workbooks
 
 REPO = Path(__file__).resolve().parents[1]
-TEMPLATE = REPO / 'Lernsituation_fuenf_Lernwege'
+TEMPLATE = REPO / 'Vorlagen/Lernsituation_fuenf_Lernwege'
 TECHNICAL = ['assets/bbs1-campus-background.png', 'assets/runtime.js', 'assets/styles.css', 'assets/progress-core.js',
              'assets/progress.js', 'assets/teacher.js', 'assets/export.js', 'assets/situation.js']
 
@@ -89,7 +89,11 @@ EXTRA_CSS = """
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('source_zip',type=Path);parser.add_argument('output',type=Path)
-    args=parser.parse_args();args.output.mkdir(parents=True,exist_ok=True)
+    parser.add_argument('--regenerate-masters',action='store_true',help='Bewusste Neuerzeugung aus einem älteren Paket')
+    args=parser.parse_args()
+    if not args.regenerate_masters:
+        parser.error('Normaler Export: python tools/master.py export --all. Die Neuerzeugung aus einer ZIP erfordert --regenerate-masters und kann vorhandene Masteränderungen überschreiben.')
+    args.output.mkdir(parents=True,exist_ok=True)
     with zipfile.ZipFile(args.source_zip) as archive:
         for name in archive.namelist():
             if name.startswith('/') or '..' in Path(name).parts:raise ValueError(name)

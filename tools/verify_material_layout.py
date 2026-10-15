@@ -2,7 +2,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 import functools,http.server,threading,argparse
 repo=Path(__file__).resolve().parents[1]
-parser=argparse.ArgumentParser();parser.add_argument('folders',nargs='*',type=Path);args=parser.parse_args();folders=args.folders or [repo/'Lernsituation_tradiert',repo/'Lernsituation_fuenf_Lernwege']
+parser=argparse.ArgumentParser();parser.add_argument('folders',nargs='*',type=Path);args=parser.parse_args();folders=args.folders or [repo/'Vorlagen/Lernsituation_tradiert',repo/'Vorlagen/Lernsituation_fuenf_Lernwege']
 class Quiet(http.server.SimpleHTTPRequestHandler):
  def log_message(self,*args):pass
 server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(repo.parent)));threading.Thread(target=server.serve_forever,daemon=True).start()

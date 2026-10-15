@@ -15,11 +15,11 @@ def split_sections(source,level):
     return [(m[1],source[m.end():matches[i+1].start() if i+1<len(matches) else len(source)]) for i,m in enumerate(matches)]
 
 def main():
-    source=(REPO/'Quellen/BRC_LG01/Reihenplan.md').read_text()
+    source=(REPO/'Fachbereiche/BRC/LG01/quellen/Reihenplan.md').read_text()
     for title,content in split_sections(source,1):
         match=re.match(r'LS (\d+) [–-]',title)
         if not match:continue
-        number=int(match[1]);root=REPO/f'Reihen/BRC_LG01/LS{number:02d}'
+        number=int(match[1]);root=REPO/f'Fachbereiche/BRC/LG01/LS{number:02d}'
         data=json.loads((root/'lesson-data.js').read_text().split('=',1)[1].strip().rstrip(';'))
         sections={int(re.match(r'(\d+)\.',heading)[1]):body for heading,body in split_sections(content,2)}
         for i,(heading,body) in enumerate(split_sections(sections[6],3),1):

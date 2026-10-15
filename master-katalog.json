@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "policy": "Ein fortlaufender Master und genau eine aktuelle ZIP je Eintrag. Zweiteilige Anzeigenummer unabhängig von SCORM- und Lernstandskennungen.",
+  "packages": [
+    {
+      "id": "BRC-LG01-LS01",
+      "title": "Eine Geschäftsidee entwickeln",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG01/LS01",
+      "version": "1.0",
+      "archiveStem": "BRC_LG01_LS01"
+    },
+    {
+      "id": "BRC-LG01-LS02",
+      "title": "Eine Unternehmensberatung besuchen",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG01/LS02",
+      "version": "1.0",
+      "archiveStem": "BRC_LG01_LS02"
+    },
+    {
+      "id": "BRC-LG01-LS03",
+      "title": "Einen Business-Plan erstellen",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG01/LS03",
+      "version": "1.0",
+      "archiveStem": "BRC_LG01_LS03"
+    },
+    {
+      "id": "BRC-LG01-LS04",
+      "title": "Bei Kapitalgebern pitchen",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG01/LS04",
+      "version": "1.0",
+      "archiveStem": "BRC_LG01_LS04"
+    },
+    {
+      "id": "BRC-LG01-LS05",
+      "title": "Ein Unternehmen gründen",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG01/LS05",
+      "version": "1.0",
+      "archiveStem": "BRC_LG01_LS05"
+    },
+    {
+      "id": "BRC-LG01-LS06",
+      "title": "Geschäfte abwickeln",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG01/LS06",
+      "version": "1.0",
+      "archiveStem": "BRC_LG01_LS06"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS1_1",
+      "title": "Berufsrolle begründen",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS1_1",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS1_1"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS1_2",
+      "title": "Erziehungsbedingungen beurteilen",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS1_2",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS1_2"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS1_3",
+      "title": "Beziehungen gestalten",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS1_3",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS1_3"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS1_4",
+      "title": "Regeln begründen",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS1_4",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS1_4"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS1_5",
+      "title": "Bildungsprozesse gestalten",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS1_5",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS1_5"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS1_6",
+      "title": "Praxiskompetenz reflektieren",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS1_6",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS1_6"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS2_1",
+      "title": "Beobachtungen dokumentieren",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS2_1",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS2_1"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS2_2",
+      "title": "Entwicklung einordnen",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS2_2",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS2_2"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS2_3",
+      "title": "Bildungsangebote planen",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS2_3",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS2_3"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS2_4",
+      "title": "Übergänge begleiten",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS2_4",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS2_4"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS2_5",
+      "title": "Praxis auswerten",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS2_5",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS2_5"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS3_1",
+      "title": "Sozialisation analysieren",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS3_1",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS3_1"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS3_2",
+      "title": "Lebenswelten analysieren",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS3_2",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS3_2"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS4_1",
+      "title": "Erklärungsmodelle vergleichen",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS4_1",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS4_1"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS4_2",
+      "title": "Unterstützungsmaßnahmen entwickeln",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS4_2",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS4_2"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS4_3",
+      "title": "Fallperspektiven koordinieren",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS4_3",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS4_3"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS4_4",
+      "title": "Schutzfaktoren fördern",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS4_4",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS4_4"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS4_5",
+      "title": "Hilfesysteme erschließen",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS4_5",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS4_5"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS5_1",
+      "title": "Jugendhilfe strukturieren",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS5_1",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS5_1"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS5_2",
+      "title": "Beteiligung planen",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS5_2",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS5_2"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS5_3",
+      "title": "Teilhabe gestalten",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS5_3",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS5_3"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS6_1",
+      "title": "Lebenslagen analysieren",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS6_1",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS6_1"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS6_2",
+      "title": "Barrieren abbauen",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS6_2",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS6_2"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS6_3",
+      "title": "Vorurteile reflektieren",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS6_3",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS6_3"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS6_4",
+      "title": "Chancengerechtigkeit fördern",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS6_4",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS6_4"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS6_5",
+      "title": "Teilhabe konzipieren",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS6_5",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS6_5"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS7_1",
+      "title": "Berufsidentität reflektieren",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS7_1",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS7_1"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS7_2",
+      "title": "Teamkommunikation gestalten",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS7_2",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS7_2"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS7_3",
+      "title": "Berufswege planen",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS7_3",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS7_3"
+    },
+    {
+      "id": "SOZPAED-LERNPFAD-LS7_4",
+      "title": "Kompetenzen bilanzieren",
+      "bereich": "Sozialpädagogik",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/LS7_4",
+      "version": "1.0",
+      "archiveStem": "SozPaed_Lernpfad_LS7_4"
+    },
+    {
+      "id": "VORLAGE-TRADIERT",
+      "title": "Vorlage: tradierte Lernsituation · Berufsrolle begründen",
+      "bereich": "Vorlagen",
+      "typ": "Vorlage",
+      "master": "Vorlagen/Lernsituation_tradiert",
+      "version": "1.0",
+      "archiveStem": "Vorlage_Lernsituation_tradiert"
+    },
+    {
+      "id": "VORLAGE-FUENF-LERNWEGE",
+      "title": "Vorlage: fünf Lernwege · Businessplan",
+      "bereich": "Vorlagen",
+      "typ": "Vorlage",
+      "master": "Vorlagen/Lernsituation_fuenf_Lernwege",
+      "version": "1.0",
+      "archiveStem": "Vorlage_Lernsituation_fuenf_Lernwege"
+    },
+    {
+      "id": "VORLAGE-LERNPFAD",
+      "title": "Vorlage: Lernpfadübung · Duales System verstehen",
+      "bereich": "Vorlagen",
+      "typ": "Vorlage",
+      "master": "Vorlagen/Lernpfaduebung",
+      "version": "1.0",
+      "archiveStem": "Vorlage_Lernpfaduebung"
+    }
+  ]
+}
