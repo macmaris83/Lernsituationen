@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import html
 import json
 import re
 import shutil
@@ -149,6 +150,14 @@ def write_index(root, data, entries, master_hashes=None):
     lines.extend(['', 'Maschinenlesbare Zuordnung und Prüfsummen: [aktuell.json](aktuell.json).',
                   'Vor einer automatischen Nutzung: `python tools/master.py check --archives`.', ''])
     (destination / 'README.md').write_text('\n'.join(lines), encoding='utf-8')
+    rows = []
+    for item in data['packages']:
+        entry = entries.get(item['id'])
+        valid = entry and entry['version'] == item['version'] and entry['master'] == item['master'] and entry['masterSha256'] == master_hashes[item['id']]
+        link = f'<a download href="{html.escape(entry["archive"][10:], quote=True)}">SCORM-ZIP</a>' if valid else 'Export ausstehend'
+        rows.append('<tr>' + ''.join(f'<td>{html.escape(str(item[key]))}</td>' for key in ('bereich', 'title', 'version')) + f'<td>{link}</td></tr>')
+    page = '<!doctype html><html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Aktuelle SCORM-Pakete</title><style>body{font:16px/1.5 system-ui,sans-serif;color:#173a63;background:#f6fafc;margin:0}main{max-width:1100px;margin:auto;padding:24px}h1{border-bottom:5px solid #afca0b;padding-bottom:12px}table{border-collapse:collapse;width:100%;background:white}td,th{text-align:left;padding:12px;border-bottom:1px solid #d9e6eb}a{color:#006a9d}.table{overflow:auto}</style><main><h1>Aktuelle SCORM-Pakete</h1><p>Pro Master eine aktuelle ZIP mit sichtbarer Versionsnummer. Jede ZIP einzeln in Moodle importieren.</p><div class="table"><table><thead><tr><th>Bereich</th><th>Lernsituation / Vorlage</th><th>Version</th><th>Download</th></tr></thead><tbody>' + ''.join(rows) + '</tbody></table></div><p>Bereits hochgeladene Moodle-Pakete werden durch Änderungen hier nicht automatisch ersetzt.</p></main></html>\n'
+    (destination / 'index.html').write_text(page, encoding='utf-8')
 
 
 def export(root, selected=None):

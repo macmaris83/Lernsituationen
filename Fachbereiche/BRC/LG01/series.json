@@ -71,8 +71,7 @@
           "file": "assets/images/biocasa-ls01-situation.png",
           "sha256": "c6686349bf2ee6a2769ee1b9b79534172e0cc3bd9c7dd1526d7c57168471f860"
         }
-      },
-      "zip": "Downloads/BRC-LG01-LS01/BRC_LG01_LS01_v1.0_SCORM12.zip"
+      }
     },
     {
       "folder": "LS02",
@@ -141,8 +140,7 @@
           "file": "assets/images/biocasa-ls02-situation.png",
           "sha256": "dfd69676dc3fc3249c6792f518a4571d433011ae3afb2431de14e05512ddd89f"
         }
-      },
-      "zip": "Downloads/BRC-LG01-LS02/BRC_LG01_LS02_v1.0_SCORM12.zip"
+      }
     },
     {
       "folder": "LS03",
@@ -211,8 +209,7 @@
           "file": "assets/images/biocasa-ls03-situation.png",
           "sha256": "ccbe6add46edcde8170f1c4267f445f24fafbf73399236bfb9ec6abbb74dd11c"
         }
-      },
-      "zip": "Downloads/BRC-LG01-LS03/BRC_LG01_LS03_v1.0_SCORM12.zip"
+      }
     },
     {
       "folder": "LS04",
@@ -281,8 +278,7 @@
           "file": "assets/images/biocasa-ls04-situation.png",
           "sha256": "410b4960d668244e95fa5d64266b1adb9602caf53001deeef57c6891c51858d6"
         }
-      },
-      "zip": "Downloads/BRC-LG01-LS04/BRC_LG01_LS04_v1.0_SCORM12.zip"
+      }
     },
     {
       "folder": "LS05",
@@ -351,8 +347,7 @@
           "file": "assets/images/biocasa-ls05-situation.png",
           "sha256": "218fb279ba9f6909b3861d970e1acd4fee9d46251cabf630fd0b3929cb1412fe"
         }
-      },
-      "zip": "Downloads/BRC-LG01-LS05/BRC_LG01_LS05_v1.0_SCORM12.zip"
+      }
     },
     {
       "folder": "LS06",
@@ -421,8 +416,7 @@
           "file": "assets/images/biocasa-ls06-situation.png",
           "sha256": "8705f0724f2c475578f719814cf7d6834fe80551e26d0c1d82f02997dad7edbc"
         }
-      },
-      "zip": "Downloads/BRC-LG01-LS06/BRC_LG01_LS06_v1.0_SCORM12.zip"
+      }
     }
   ],
   "downloadOverview": "Downloads/README.md"
