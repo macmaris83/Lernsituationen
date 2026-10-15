@@ -1,0 +1,886 @@
+{
+  "title": "BRC LG03 · Wettbewerbsfähigkeit unter marketingpolitischen und kostenrechnerischen Aspekten sichern",
+  "hours": 80,
+  "template": "Reihen/BRC_LG01/LS06",
+  "templateCommit": "bcd1140e0a86287709a9709a20ac2ad618b23f6b",
+  "sourceSha256": "d660177bb5d7a8a6c4d85e8343c357ea9bca2933692f838cdd07b6d15d5ddf1b",
+  "completeImages": false,
+  "lessons": [
+    {
+      "folder": "LS01",
+      "id": "BRC-LG03-LS01",
+      "title": "Markt- und Unternehmenssituation analysieren",
+      "hours": 6,
+      "budgets": [
+        45,
+        25,
+        20,
+        110,
+        45,
+        25
+      ],
+      "materials": 7,
+      "allMaterials": 11,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {},
+      "zip": "Downloads/BRC_LG03_LS01_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS02",
+      "id": "BRC-LG03-LS02",
+      "title": "Den Wechsel zur Aktiengesellschaft begründen",
+      "hours": 6,
+      "budgets": [
+        50,
+        25,
+        25,
+        110,
+        35,
+        25
+      ],
+      "materials": 8,
+      "allMaterials": 12,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {},
+      "zip": "Downloads/BRC_LG03_LS02_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS03",
+      "id": "BRC-LG03-LS03",
+      "title": "Das Produktprogramm auswerten",
+      "hours": 6,
+      "budgets": [
+        45,
+        25,
+        20,
+        115,
+        40,
+        25
+      ],
+      "materials": 7,
+      "allMaterials": 11,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {},
+      "zip": "Downloads/BRC_LG03_LS03_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS04",
+      "id": "BRC-LG03-LS04",
+      "title": "Marktforschung betreiben",
+      "hours": 6,
+      "budgets": [
+        40,
+        30,
+        25,
+        115,
+        40,
+        20
+      ],
+      "materials": 7,
+      "allMaterials": 11,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {},
+      "zip": "Downloads/BRC_LG03_LS04_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS05",
+      "id": "BRC-LG03-LS05",
+      "title": "Marketingziele und -strategien entwickeln",
+      "hours": 4,
+      "budgets": [
+        25,
+        20,
+        20,
+        70,
+        30,
+        15
+      ],
+      "materials": 6,
+      "allMaterials": 10,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {},
+      "zip": "Downloads/BRC_LG03_LS05_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS06",
+      "id": "BRC-LG03-LS06",
+      "title": "Produkt- und Markenpolitik gestalten",
+      "hours": 6,
+      "budgets": [
+        40,
+        30,
+        25,
+        115,
+        40,
+        20
+      ],
+      "materials": 8,
+      "allMaterials": 13,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {},
+      "zip": "Downloads/BRC_LG03_LS06_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS07",
+      "id": "BRC-LG03-LS07",
+      "title": "Aufwendungen und Kosten abgrenzen",
+      "hours": 8,
+      "budgets": [
+        55,
+        25,
+        25,
+        160,
+        65,
+        30
+      ],
+      "materials": 6,
+      "allMaterials": 10,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {},
+      "zip": "Downloads/BRC_LG03_LS07_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS08",
+      "id": "BRC-LG03-LS08",
+      "title": "Selbstkosten und Listenverkaufspreise ermitteln",
+      "hours": 10,
+      "budgets": [
+        50,
+        30,
+        30,
+        220,
+        80,
+        40
+      ],
+      "materials": 6,
+      "allMaterials": 10,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {},
+      "zip": "Downloads/BRC_LG03_LS08_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS09",
+      "id": "BRC-LG03-LS09",
+      "title": "Preisentscheidungen mit Deckungsbeiträgen beurteilen",
+      "hours": 8,
+      "budgets": [
+        45,
+        30,
+        30,
+        165,
+        60,
+        30
+      ],
+      "materials": 8,
+      "allMaterials": 12,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {},
+      "zip": "Downloads/BRC_LG03_LS09_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS10",
+      "id": "BRC-LG03-LS10",
+      "title": "Kommunikationspolitische Maßnahmen entwickeln",
+      "hours": 6,
+      "budgets": [
+        45,
+        35,
+        30,
+        100,
+        40,
+        20
+      ],
+      "materials": 8,
+      "allMaterials": 11,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {},
+      "zip": "Downloads/BRC_LG03_LS10_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS11",
+      "id": "BRC-LG03-LS11",
+      "title": "Absatzwege und nachhaltige Kühlketten gestalten",
+      "hours": 8,
+      "budgets": [
+        60,
+        45,
+        35,
+        140,
+        50,
+        30
+      ],
+      "materials": 8,
+      "allMaterials": 11,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {},
+      "zip": "Downloads/BRC_LG03_LS11_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS12",
+      "id": "BRC-LG03-LS12",
+      "title": "Den Marketing-Mix überprüfen und steuern",
+      "hours": 6,
+      "budgets": [
+        45,
+        30,
+        25,
+        105,
+        40,
+        25
+      ],
+      "materials": 7,
+      "allMaterials": 11,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {},
+      "zip": "Downloads/BRC_LG03_LS12_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    }
+  ]
+}

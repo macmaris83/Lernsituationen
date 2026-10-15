@@ -1,0 +1,773 @@
+{
+  "scope": [
+    "LS01",
+    "LS02",
+    "LS03",
+    "LS04",
+    "LS05",
+    "LS06",
+    "LS07",
+    "LS08",
+    "LS09",
+    "LS10",
+    "LS11",
+    "LS12"
+  ],
+  "status": "PASS_DRAFT_IMAGES_PENDING",
+  "uniqueChecks": 96,
+  "taskActionsAndGoodNotesPayloads": 360,
+  "materialPathVisits": 665,
+  "phaseTransitionsTested": 300,
+  "layoutWidths": [
+    390,
+    768,
+    1024
+  ],
+  "followupTaskActionsAfterBookKeywords": 150,
+  "draftMissingImagesAllowed": true,
+  "pdfPayloadChecksSkipped": false,
+  "results": [
+    {
+      "lesson": "LS01",
+      "check": "gates",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS01",
+      "check": "help",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS01",
+      "check": "layout",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_layout/browser_report.json"
+    },
+    {
+      "lesson": "LS01",
+      "check": "materials",
+      "count": 55,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS01",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS01",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS01",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS01",
+      "check": "teacher",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS02",
+      "check": "gates",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS02",
+      "check": "help",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS02",
+      "check": "layout",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_layout/browser_report.json"
+    },
+    {
+      "lesson": "LS02",
+      "check": "materials",
+      "count": 60,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS02",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS02",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS02",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS02",
+      "check": "teacher",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS03",
+      "check": "gates",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS03",
+      "check": "help",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS03",
+      "check": "layout",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_layout/browser_report.json"
+    },
+    {
+      "lesson": "LS03",
+      "check": "materials",
+      "count": 55,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS03",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS03",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS03",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS03",
+      "check": "teacher",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS04",
+      "check": "gates",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS04",
+      "check": "help",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS04",
+      "check": "layout",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_layout/browser_report.json"
+    },
+    {
+      "lesson": "LS04",
+      "check": "materials",
+      "count": 55,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS04",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS04",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS04",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS04",
+      "check": "teacher",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS05",
+      "check": "gates",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS05",
+      "check": "help",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS05",
+      "check": "layout",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_layout/browser_report.json"
+    },
+    {
+      "lesson": "LS05",
+      "check": "materials",
+      "count": 50,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS05",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS05",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS05",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_book_tasks/browser_report.json"
+    },
+    {
+      "lesson": "LS05",
+      "check": "teacher",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS06",
+      "check": "gates",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS06",
+      "check": "help",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS06",
+      "check": "layout",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_layout/browser_report.json"
+    },
+    {
+      "lesson": "LS06",
+      "check": "materials",
+      "count": 65,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS06",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS06",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS06",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_book_tasks/browser_report.json"
+    },
+    {
+      "lesson": "LS06",
+      "check": "teacher",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/first6/browser_report.json"
+    },
+    {
+      "lesson": "LS07",
+      "check": "gates",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS07",
+      "check": "help",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS07",
+      "check": "layout",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_layout/browser_report.json"
+    },
+    {
+      "lesson": "LS07",
+      "check": "materials",
+      "count": 50,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS07",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS07",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS07",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_book_tasks/browser_report.json"
+    },
+    {
+      "lesson": "LS07",
+      "check": "teacher",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS08",
+      "check": "gates",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS08",
+      "check": "help",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS08",
+      "check": "layout",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_layout/browser_report.json"
+    },
+    {
+      "lesson": "LS08",
+      "check": "materials",
+      "count": 50,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS08",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS08",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS08",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_book_tasks/browser_report.json"
+    },
+    {
+      "lesson": "LS08",
+      "check": "teacher",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS09",
+      "check": "gates",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS09",
+      "check": "help",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS09",
+      "check": "layout",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_layout/browser_report.json"
+    },
+    {
+      "lesson": "LS09",
+      "check": "materials",
+      "count": 60,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS09",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS09",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS09",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_book_tasks/browser_report.json"
+    },
+    {
+      "lesson": "LS09",
+      "check": "teacher",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS10",
+      "check": "gates",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS10",
+      "check": "help",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS10",
+      "check": "layout",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_layout/browser_report.json"
+    },
+    {
+      "lesson": "LS10",
+      "check": "materials",
+      "count": 55,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS10",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS10",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS10",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS10",
+      "check": "teacher",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS11",
+      "check": "gates",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS11",
+      "check": "help",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS11",
+      "check": "layout",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_layout/browser_report.json"
+    },
+    {
+      "lesson": "LS11",
+      "check": "materials",
+      "count": 55,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS11",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS11",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS11",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS11",
+      "check": "teacher",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS12",
+      "check": "gates",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS12",
+      "check": "help",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS12",
+      "check": "layout",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/final_layout/browser_report.json"
+    },
+    {
+      "lesson": "LS12",
+      "check": "materials",
+      "count": 55,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS12",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS12",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS12",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    },
+    {
+      "lesson": "LS12",
+      "check": "teacher",
+      "count": null,
+      "status": "PASS",
+      "reportSource": "work/lg03/last6/browser_report.json"
+    }
+  ],
+  "packageSourceSha256": {
+    "LS01": {
+      "lesson-data.js": "d93808bc8f58de5f64a823be7f6a185691f117eb1c7c320761d09991b27ab050",
+      "progress-meta.js": "987fe4bc231325ec609eb45e31ff0fad472341ce302ab265a1d0f32c55b40873",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
+    },
+    "LS02": {
+      "lesson-data.js": "01c710a62a511a1f9100a79972b6959870d54fea7efcd9fc65ebba5cf7f8eca4",
+      "progress-meta.js": "98f1f13b0dad1f603a1b578d6a75ee5b751e051752a05f54c83808cb15709a1b",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
+    },
+    "LS03": {
+      "lesson-data.js": "55a6c63dd7ab07dab4cb682fee2684afbab0454541946fca34ce7dd8b1d723d7",
+      "progress-meta.js": "9863e652b7b41fdebe904f3a16dbc3f1b92025956c575f1fbcbac81acbb3f562",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
+    },
+    "LS04": {
+      "lesson-data.js": "541018d9c5305247a529f11513cd8619aafa5476de4ed3b26f03427466d017a2",
+      "progress-meta.js": "92654c17cdff37e1a521af6b625587381fe0c0a9110c34842153048bcb726c2a",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
+    },
+    "LS05": {
+      "lesson-data.js": "47c435792aeb63776ee72fb7e67929489d0ad4df9e3194e53111075bc12af4f7",
+      "progress-meta.js": "7fcdd290b3e1f7d2be75c7d6b8c8b8f867c298574b81154cf7c816560c8abe13",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
+    },
+    "LS06": {
+      "lesson-data.js": "cd59f57733bc7d236dff6aeba413af07c25a3d72b72ca6fa68ed62f5438fc188",
+      "progress-meta.js": "828706a0534e491a88b08319bdf2b08d5a8924c1978001b2faef6fa6dd6efbda",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
+    },
+    "LS07": {
+      "lesson-data.js": "aee70e8e058dd2646c2ba732a9a8f8f6726a958d57311edf226e142a8b12fbae",
+      "progress-meta.js": "9c2ec13b2749bfae28109a3a1d8c94c5a8a1460f5edabd47e0671a067d48b216",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
+    },
+    "LS08": {
+      "lesson-data.js": "cef384e78520cfdb41d81aa9a2dd985fac9b09a59b7e1081a0a54468322b47ef",
+      "progress-meta.js": "ad6595acdcd22ad837657efbd8074bfc6b6baefc7e446e48177abdb4067e96a9",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
+    },
+    "LS09": {
+      "lesson-data.js": "6f74b3973f0968e8597b1c9288d5b8e3d6ba38955c8489260ebf8ad9d34afdca",
+      "progress-meta.js": "1a1c5c170b6f69faba4f5edf793941fa0b4f3e42612816932eb40ccf565b4949",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
+    },
+    "LS10": {
+      "lesson-data.js": "39138d8b5ce8a60485460b8ec3bb64f1ab32afd4c4dac8097da07ed1a1ea8921",
+      "progress-meta.js": "8e06f228b3777f693d598c8f7d0b45d4ee4018275c3e85f8f930b41427e44a6f",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
+    },
+    "LS11": {
+      "lesson-data.js": "a95bb11dba0c8c36ca63885737fb9bc76e43bc50c8731c10d13d3a60eb792844",
+      "progress-meta.js": "11ed5d4c4d521933bbd3dcec823b5fc9bfe0b45e288f810f6a3956074d1d32a4",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
+    },
+    "LS12": {
+      "lesson-data.js": "8e2eaf854c025f90bf9e93c82f16c9a65e365635bbff1130f7ebdeeb2119bd78",
+      "progress-meta.js": "943a9c28c6ca64544df2b6aef6a201223cd115aa35158836e551eec871b3777f",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
+    }
+  },
+  "limitations": [
+    "Original images were deliberately absent; image matching and final image layout remain pending.",
+    "Moodle storage and AIS dialog were checked using local API/iframe simulations. Native Moodle app, AIS authentication and native GoodNotes handoff require the real classroom system."
+  ],
+  "resolvedFindings": [
+    "Wide numeric tables now remain legible through local horizontal scrolling; numeric cells do not break across lines.",
+    "Long material selectors are collapsed through their ordinary summary control before task focus on narrow screens."
+  ]
+}
