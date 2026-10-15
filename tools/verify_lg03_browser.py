@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import functools
+import hashlib
 import http.server
 import json
 from pathlib import Path
@@ -60,6 +61,43 @@ def pdf_footer(page):
     require('LG03_' in link.get_attribute('href'), 'LG03 PDF path')
 
 
+def original_images(root):
+    path = REPO / 'Quellen/BRC_LG03/Bildzuordnung.json'
+    return json.loads(path.read_text(encoding='utf-8')).get(str(int(root.name[2:])), {}) if path.is_file() else {}
+
+
+def verify_picture(page, root, role):
+    """Check real decoded pixels and proportional, uncropped presentation."""
+    slots = json.loads((root / 'media-map.json').read_text(encoding='utf-8'))['slots']
+    slot = slots[role]
+    original = original_images(root)[role]
+    figure = page.locator(f'figure.story-photo[data-media-key="{role}"]')
+    require(figure.count() == 1 and figure.is_visible(), root.name, role, 'one visible original-picture figure')
+    picture = figure.locator('img')
+    require(picture.count() == 1 and picture.is_visible(), root.name, role, 'one visible image')
+    require(picture.get_attribute('src') == slot['src'], root.name, role, 'assigned original image URL')
+    require(picture.get_attribute('alt') == slot['alt'] and slot['alt'].strip(), root.name, role, 'assigned alternate description')
+    require(figure.locator('.photo-viewport').count() == 0 and not slot.get('crop'), root.name, role, 'no crop viewport or media crop')
+    page.wait_for_function('e=>e.complete&&e.naturalWidth>0&&e.naturalHeight>0', arg=picture.element_handle())
+    geometry = picture.evaluate('''image=>{
+      const r=image.getBoundingClientRect(),f=image.closest('figure').getBoundingClientRect(),s=getComputedStyle(image);
+      return {natural:[image.naturalWidth,image.naturalHeight],width:r.width,height:r.height,
+        left:r.left,right:r.right,top:r.top,bottom:r.bottom,
+        figure:{left:f.left,right:f.right,top:f.top,bottom:f.bottom},
+        fit:s.objectFit,transform:s.transform,clip:s.clipPath,position:s.position};
+    }''')
+    require(geometry['natural'] == original['dimensions'], root.name, role, 'decoded original dimensions', geometry)
+    require(geometry['width'] > 0 and geometry['height'] > 0, root.name, role, 'nonempty rendered image')
+    expected_height = geometry['width'] * geometry['natural'][1] / geometry['natural'][0]
+    require(abs(geometry['height'] - expected_height) <= 1.5, root.name, role, 'original aspect ratio preserved', geometry)
+    require(geometry['fit'] != 'cover' and geometry['transform'] == 'none' and geometry['clip'] == 'none',
+            root.name, role, 'no CSS crop or transform', geometry)
+    bounds = geometry['figure']
+    require(geometry['left'] >= bounds['left'] - 1.5 and geometry['right'] <= bounds['right'] + 1.5
+            and geometry['top'] >= bounds['top'] - 1.5 and geometry['bottom'] <= bounds['bottom'] + 1.5,
+            root.name, role, 'full image rectangle inside figure', geometry)
+
+
 def verify_identity(root, skip_pdf, allow_missing_images):
     data = payload(root / 'lesson-data.js')
     meta = payload(root / 'progress-meta.js')
@@ -76,8 +114,17 @@ def verify_identity(root, skip_pdf, allow_missing_images):
     slots = json.loads((root / 'media-map.json').read_text())['slots']
     if not allow_missing_images:
         require(set(slots) == {'orientation', 'situation'}, root.name, 'both original images required')
+    originals = original_images(root)
     for role, item in slots.items():
         require((root / item['src']).is_file() and item.get('alt'), root.name, role, 'image + alt text')
+        require(role in originals, root.name, role, 'original image assignment')
+        original = originals[role]
+        require(Path(item['src']).name == original['filename'], root.name, role, 'correct original filename')
+        source = REPO / 'Quellen/BRC_LG03/Bilder' / original['filename']
+        require(source.is_file(), root.name, role, 'original source file')
+        source_bytes = source.read_bytes()
+        require((root / item['src']).read_bytes() == source_bytes, root.name, role, 'package uses unchanged original image bytes')
+        require(hashlib.sha256(source_bytes).hexdigest() == original['sha256'], root.name, role, 'original image SHA256')
     if not skip_pdf:
         for phase in PHASES:
             for mode in range(1, 6):
@@ -177,11 +224,17 @@ def verify_materials(browser, base, lesson):
         page.locator('.task-original-preview:visible').click()
         task = page.locator('.task-accordion[open] [data-task-complete]').get_attribute('data-task-id')
         page.locator('.material-access a,.phase-materials a').first.click()
+        page.locator('.material-switch').wait_for(state='visible')
         count = page.locator('.material-switch a').count()
         require(count > 0, 'material count')
         for index in range(count):
             if index:
                 page.locator('.material-switch summary').click(); page.locator('.material-switch a').nth(index).click()
+            # Link clicks can resolve before the new document's bottom scripts
+            # finish.  Wait for the actual material controls, created after the
+            # return API, rather than reading that API during page loading.
+            page.locator('.material-switch').wait_for(state='visible')
+            page.locator('.return-task').wait_for(state='visible')
             require('rueckaufgabe=' in page.url, 'task in URL')
             require(page.evaluate('SOZ_MATERIAL_RETURN.read().task') == task, 'correct task without session storage')
             require(page.evaluate('Number(document.body.dataset.mode)') == mode, 'material mode retained')
@@ -205,6 +258,7 @@ def verify_materials(browser, base, lesson):
 def verify_layout(browser, base, lesson, root, report_dir, allow_missing_images):
     context = browser.new_context(reduced_motion='reduce'); page = context.new_page(); errors = watch(page, base)
     materials = sorted(root.glob('m*.html'), key=lambda p: int(p.stem[1:]))
+    picture_views = 0
     for width, height in WIDTHS:
         page.set_viewport_size({'width': width, 'height': height})
         page.goto(base + 'index.html')
@@ -219,9 +273,16 @@ def verify_layout(browser, base, lesson, root, report_dir, allow_missing_images)
         if root.name == 'LS01' and width == 1024:
             page.screenshot(path=str(report_dir / 'LS01_Orientierung_1024.png'), full_page=True)
         if not allow_missing_images:
-            require(page.locator('[data-media-key="orientation"] img').count() == 1, 'orientation image')
+            verify_picture(page, root, 'orientation'); picture_views += 1
+            if root.name in ('LS01', 'LS08'):
+                page.screenshot(path=str(report_dir / f'{root.name}_Orientierung_{width}.png'), full_page=True)
         page.goto(base + 'handlungssituation.html')
         require(page.locator('[data-share-workbook]').count() == 0, 'no introductory GoodNotes import')
+        no_overflow(page, 'situation ' + str(width)); pdf_footer(page)
+        if not allow_missing_images:
+            verify_picture(page, root, 'situation'); picture_views += 1
+            if root.name in ('LS01', 'LS08'):
+                page.screenshot(path=str(report_dir / f'{root.name}_Handlungssituation_{width}.png'), full_page=True)
         page.goto(base + 'informieren.html'); ready(page); unlock(page, 1, 'informieren')
         # A long open material list occupies most of a narrow screen.  Collapse
         # its real summary control before opening the task, as a learner can.
@@ -244,6 +305,7 @@ def verify_layout(browser, base, lesson, root, report_dir, allow_missing_images)
     page.emulate_media(media='print')
     require(page.evaluate("getComputedStyle(document.body,'::before').display==='none'"), 'no decorative print background')
     require(not errors, errors); context.close()
+    return picture_views
 
 
 def verify_teacher(browser, base, lesson, root, report_dir):
@@ -277,6 +339,8 @@ def verify_teacher(browser, base, lesson, root, report_dir):
                 require(element.attrib['href'] in z.namelist(), 'export manifest entry exists', element.attrib['href'])
         for name in ('runtime.js', 'styles.css', 'teacher.js', 'progress-core.js', 'export.js'):
             require(z.read('assets/' + name) == (root / 'assets' / name).read_bytes(), 'export uses current asset', name)
+        for role, slot in json.loads((root / 'media-map.json').read_text())['slots'].items():
+            require(z.read(slot['src']) == (root / slot['src']).read_bytes(), role, 'edited export preserves original image bytes')
     page.goto(base + 'informieren.html'); ready(page); unlock(page)
     require(marker.strip() in page.locator('.task-original-preview:visible').text_content(), 'saved edit after navigation')
     page.reload(); ready(page); unlock(page)

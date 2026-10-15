@@ -13,8 +13,19 @@
     "LS11",
     "LS12"
   ],
-  "status": "PASS_DRAFT_IMAGES_PENDING",
+  "status": "PASS",
+  "completedAtUtc": "2026-10-15T10:40:29.129565+00:00",
   "uniqueChecks": 96,
+  "checks": [
+    "tasks",
+    "quiz",
+    "gates",
+    "materials",
+    "layout",
+    "help",
+    "teacher",
+    "scorm"
+  ],
   "taskActionsAndGoodNotesPayloads": 360,
   "materialPathVisits": 665,
   "phaseTransitionsTested": 300,
@@ -23,751 +34,908 @@
     768,
     1024
   ],
-  "followupTaskActionsAfterBookKeywords": 150,
-  "draftMissingImagesAllowed": true,
+  "unchangedOriginalImages": 24,
+  "decodedUncroppedOriginalImageViews": 72,
+  "teacherExportsPreservingOriginalImages": 12,
+  "draftMissingImagesAllowed": false,
   "pdfPayloadChecksSkipped": false,
+  "sourceReports": [
+    "first6/browser_report.json",
+    "last6/browser_report.json",
+    "materials10_final/browser_report.json"
+  ],
+  "packageSourceSha256": {
+    "LS01": {
+      "lesson-data.js": "54f7bf2d5451eceba6792c3a99f803cdb61de73405e3a0e1288f888ae1ce7dd7",
+      "progress-meta.js": "987fe4bc231325ec609eb45e31ff0fad472341ce302ab265a1d0f32c55b40873",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb",
+      "media-map.json": "21bdd27dd9a8e1d148daa41a5087b36e41b26159315c5e590e86baafff6af773",
+      "originalImages": {
+        "orientation": {
+          "path": "assets/images/biocasa-lg03-ls01-orientation.png",
+          "sha256": "83812cddbbe0a507869163679c295068a416453b3c6ff74d63a1a6778e442d6c"
+        },
+        "situation": {
+          "path": "assets/images/biocasa-lg03-ls01-situation.png",
+          "sha256": "d0396ccea56d110872203daa5c841cce16d624eb4e77cb9f342da74144ebd577"
+        }
+      }
+    },
+    "LS02": {
+      "lesson-data.js": "ac529e2f3ea97d4b3f6183d1eac235986ef1ab7cdc494620d0f9a1fce71b29e5",
+      "progress-meta.js": "98f1f13b0dad1f603a1b578d6a75ee5b751e051752a05f54c83808cb15709a1b",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb",
+      "media-map.json": "ea42c636c62a5b9af166cb03b0f6808886bdfd8132822a55e8b02a1d1df3ee38",
+      "originalImages": {
+        "orientation": {
+          "path": "assets/images/biocasa-lg03-ls02-orientation.png",
+          "sha256": "78d0af20ea4a4a59496f367e0d3830b2bfe27fcf35c97935d00cc9d39a250438"
+        },
+        "situation": {
+          "path": "assets/images/biocasa-lg03-ls02-situation.png",
+          "sha256": "3bfc8ae44e9fdb99c70250d3cf74f04290814715fe4860b213afaf94d571db5c"
+        }
+      }
+    },
+    "LS03": {
+      "lesson-data.js": "46c925b8e5943dacd99f4e4c44cd9af449a25c774ccb0e6596e42f60b89e9648",
+      "progress-meta.js": "9863e652b7b41fdebe904f3a16dbc3f1b92025956c575f1fbcbac81acbb3f562",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb",
+      "media-map.json": "f128f176bd93688e861bc4cd9682349cc6ceb9e459d8c042a12594e796e5756d",
+      "originalImages": {
+        "orientation": {
+          "path": "assets/images/biocasa-lg03-ls03-orientation.png",
+          "sha256": "792eff7984f580b1f4f8506a11cc7dfafa84e43bb2e38f1b2ab807798683a330"
+        },
+        "situation": {
+          "path": "assets/images/biocasa-lg03-ls03-situation.png",
+          "sha256": "23f48f5f3c04564d7d7211e2e142cbec12fa28c3f8816aa42394b8901abaa422"
+        }
+      }
+    },
+    "LS04": {
+      "lesson-data.js": "f74f3aeb9bec9b15428e3115944864d40a45c533ceae53e467f304e110a26219",
+      "progress-meta.js": "92654c17cdff37e1a521af6b625587381fe0c0a9110c34842153048bcb726c2a",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb",
+      "media-map.json": "e9395ddf8f15414d771c7d3f6e47debde26ded7b5f7fed5162dd9d04049a67de",
+      "originalImages": {
+        "orientation": {
+          "path": "assets/images/biocasa-lg03-ls04-orientation.png",
+          "sha256": "ae877a2c9f21447a48f787571964a3e0742a40cc1449d39490fb2399109d95c9"
+        },
+        "situation": {
+          "path": "assets/images/biocasa-lg03-ls04-situation.png",
+          "sha256": "07417c95110fdeb586807263907a15a9f8b516e440bb3fafe4dba67353b58f61"
+        }
+      }
+    },
+    "LS05": {
+      "lesson-data.js": "058c4b94364d68d0115ad705ac5865018cbb727aa8814a802a8e67e895223a8d",
+      "progress-meta.js": "7fcdd290b3e1f7d2be75c7d6b8c8b8f867c298574b81154cf7c816560c8abe13",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb",
+      "media-map.json": "a9f027cab03fd2bf34ddd1a6179b77299cd7c1982bae44fe2e83f6aa6d360fb1",
+      "originalImages": {
+        "orientation": {
+          "path": "assets/images/biocasa-lg03-ls05-orientation.png",
+          "sha256": "35e1ecc3dfec137838918671a250618c079d5e1c5c70755fa6ef458388859156"
+        },
+        "situation": {
+          "path": "assets/images/biocasa-lg03-ls05-situation.png",
+          "sha256": "c81254496d856e90c5589df2fd99da67b92920210bc3cca7ecda1edf541a5714"
+        }
+      }
+    },
+    "LS06": {
+      "lesson-data.js": "048d334826d98ed88bba7cc7723d33ebda3ffd94375d970d461c55ce86b75ae2",
+      "progress-meta.js": "828706a0534e491a88b08319bdf2b08d5a8924c1978001b2faef6fa6dd6efbda",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb",
+      "media-map.json": "52102ae1f7d65ef55c4b9ee8a42aa6cd27aab1e0f83361db5233031a0828a64d",
+      "originalImages": {
+        "orientation": {
+          "path": "assets/images/biocasa-lg03-ls06-orientation.png",
+          "sha256": "b84d85e634897e320c54061b0f9673ee63e48e2140b6ef8dfc1e0e70b68099b3"
+        },
+        "situation": {
+          "path": "assets/images/biocasa-lg03-ls06-situation.png",
+          "sha256": "a2978fbe3cf7b61ef0dd35a9910bcd512b820b1bc8bba033addf25f7db9be0d3"
+        }
+      }
+    },
+    "LS07": {
+      "lesson-data.js": "1348c49d2043fbcc8edcce365df345971248e65591ab2623661a6a549c2e2384",
+      "progress-meta.js": "9c2ec13b2749bfae28109a3a1d8c94c5a8a1460f5edabd47e0671a067d48b216",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb",
+      "media-map.json": "f29bcea5ecd0df338138e0b11b27b5e3647a35bc80dfc577d1df8dd79bd72b5d",
+      "originalImages": {
+        "orientation": {
+          "path": "assets/images/biocasa-lg03-ls07-orientation.png",
+          "sha256": "a6aeb282797bd72bde26b13df6000a9607add5d783fa4d96f9bbba144cea7a0c"
+        },
+        "situation": {
+          "path": "assets/images/biocasa-lg03-ls07-situation.png",
+          "sha256": "b839160f50a364f4e8eff3aee9d8c64a9289e96a5aee4d5a8c6f2ff30021827d"
+        }
+      }
+    },
+    "LS08": {
+      "lesson-data.js": "0f641931e97cda7149c09f7298d1bfbb548049cf150038e1cf97a95e6223d8f9",
+      "progress-meta.js": "ad6595acdcd22ad837657efbd8074bfc6b6baefc7e446e48177abdb4067e96a9",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb",
+      "media-map.json": "5d0206cf615c41a1d5ba0a91217e25e94a53c132ec42a12115d01c7162e15b5e",
+      "originalImages": {
+        "orientation": {
+          "path": "assets/images/biocasa-lg03-ls08-orientation.png",
+          "sha256": "1e381710c3e62bbb82ea82273f795d2633458160af37897c600f67386f3ba23f"
+        },
+        "situation": {
+          "path": "assets/images/biocasa-lg03-ls08-situation.png",
+          "sha256": "fa86fae864ed761b0fe6d13bd0056de13938812074a641fba8fc5683c893de80"
+        }
+      }
+    },
+    "LS09": {
+      "lesson-data.js": "e81fa1449093fef3e858f7b8db981e60072f79bb84da6d3a2d7f8fe47e79a0ea",
+      "progress-meta.js": "1a1c5c170b6f69faba4f5edf793941fa0b4f3e42612816932eb40ccf565b4949",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb",
+      "media-map.json": "447f16c486898669c1b783bf56d5ca1b7db4cc08ac675019345e83679d228281",
+      "originalImages": {
+        "orientation": {
+          "path": "assets/images/biocasa-lg03-ls09-orientation.png",
+          "sha256": "76a32669d748149d31b6e18b884e477f39b9fa401a57d0e57316e4c7e964a75c"
+        },
+        "situation": {
+          "path": "assets/images/biocasa-lg03-ls09-situation.png",
+          "sha256": "ec61c5d45446747159d924e3971af7727f66b55c4315c0923334f814ffbdce7e"
+        }
+      }
+    },
+    "LS10": {
+      "lesson-data.js": "96d452d8ca767100afe391803f02c51d2c184812d52dae39617a6159b46fbcca",
+      "progress-meta.js": "8e06f228b3777f693d598c8f7d0b45d4ee4018275c3e85f8f930b41427e44a6f",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb",
+      "media-map.json": "0b03f4a70f81af937a4711533221b34a375aa69d1afb18f40fd563b533bda1f0",
+      "originalImages": {
+        "orientation": {
+          "path": "assets/images/biocasa-lg03-ls10-orientation.png",
+          "sha256": "ce7ac3d3fdd15d2d411f9bf8984604a46ad91ef738806f3a0128f61aa70427cd"
+        },
+        "situation": {
+          "path": "assets/images/biocasa-lg03-ls10-situation.png",
+          "sha256": "56b521ef3bb2c25ef6362efcb1d32e5a403381bba1eb86af1bbe961448be9121"
+        }
+      }
+    },
+    "LS11": {
+      "lesson-data.js": "06981aa6c9907630cb51fb66507dc88d51da43384f634debd0e0fabbe3a09964",
+      "progress-meta.js": "11ed5d4c4d521933bbd3dcec823b5fc9bfe0b45e288f810f6a3956074d1d32a4",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb",
+      "media-map.json": "4ad714886f621c612e39f67e596e540bd1293a709fc52c610804ec77ae4fc48a",
+      "originalImages": {
+        "orientation": {
+          "path": "assets/images/biocasa-lg03-ls11-orientation.png",
+          "sha256": "2a10c85cde196601baffb03b2456bb9007f0a5408cabda74310c962a974f9989"
+        },
+        "situation": {
+          "path": "assets/images/biocasa-lg03-ls11-situation.png",
+          "sha256": "114131404c1681b5b296273c65da6ac15960ec774a053d2585e84958fdf57835"
+        }
+      }
+    },
+    "LS12": {
+      "lesson-data.js": "fc6a1e8120ffdd71ff371b13eaf137966aaf36d94cdde54869b3782a51348ec2",
+      "progress-meta.js": "943a9c28c6ca64544df2b6aef6a201223cd115aa35158836e551eec871b3777f",
+      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb",
+      "media-map.json": "08573280a6380dbaae3d969189260f267520dafa4476ff1fb3d7894ff9fb5896",
+      "originalImages": {
+        "orientation": {
+          "path": "assets/images/biocasa-lg03-ls12-orientation.png",
+          "sha256": "8fe07299e9ed9514bb4821723b9c7704ce1b29f3c51238047b378522f2a7bec4"
+        },
+        "situation": {
+          "path": "assets/images/biocasa-lg03-ls12-situation.png",
+          "sha256": "1beb61767ecd526002bbb43cd78c6fd662a37243fe14649c027294fda69bdfd4"
+        }
+      }
+    }
+  },
   "results": [
     {
       "lesson": "LS01",
-      "check": "gates",
-      "count": null,
+      "check": "tasks",
+      "count": 30,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS01",
-      "check": "help",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS01",
-      "check": "layout",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_layout/browser_report.json"
-    },
-    {
-      "lesson": "LS01",
-      "check": "materials",
-      "count": 55,
-      "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS01",
       "check": "quiz",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS01",
-      "check": "scorm",
+      "check": "gates",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS01",
-      "check": "tasks",
-      "count": 30,
+      "check": "materials",
+      "count": 55,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS01",
+      "check": "layout",
+      "count": 6,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS01",
+      "check": "help",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS01",
       "check": "teacher",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS01",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS02",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS02",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS02",
       "check": "gates",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS02",
-      "check": "help",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS02",
-      "check": "layout",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_layout/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS02",
       "check": "materials",
       "count": 60,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS02",
-      "check": "quiz",
+      "check": "layout",
+      "count": 6,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS02",
+      "check": "help",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS02",
-      "check": "scorm",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS02",
-      "check": "tasks",
-      "count": 30,
-      "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS02",
       "check": "teacher",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS02",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS03",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS03",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS03",
       "check": "gates",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS03",
-      "check": "help",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS03",
-      "check": "layout",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_layout/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS03",
       "check": "materials",
       "count": 55,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS03",
-      "check": "quiz",
+      "check": "layout",
+      "count": 6,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS03",
+      "check": "help",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS03",
-      "check": "scorm",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS03",
-      "check": "tasks",
-      "count": 30,
-      "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS03",
       "check": "teacher",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS03",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS04",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS04",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS04",
       "check": "gates",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS04",
-      "check": "help",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS04",
-      "check": "layout",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_layout/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS04",
       "check": "materials",
       "count": 55,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS04",
-      "check": "quiz",
+      "check": "layout",
+      "count": 6,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS04",
+      "check": "help",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS04",
-      "check": "scorm",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS04",
-      "check": "tasks",
-      "count": 30,
-      "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS04",
       "check": "teacher",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS04",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS05",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS05",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS05",
       "check": "gates",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS05",
-      "check": "help",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS05",
-      "check": "layout",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_layout/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS05",
       "check": "materials",
       "count": 50,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS05",
-      "check": "quiz",
+      "check": "layout",
+      "count": 6,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS05",
+      "check": "help",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS05",
-      "check": "scorm",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS05",
-      "check": "tasks",
-      "count": 30,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_book_tasks/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS05",
       "check": "teacher",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS05",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS06",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS06",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS06",
       "check": "gates",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS06",
-      "check": "help",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS06",
-      "check": "layout",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_layout/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS06",
       "check": "materials",
       "count": 65,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS06",
-      "check": "quiz",
+      "check": "layout",
+      "count": 6,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS06",
+      "check": "help",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS06",
-      "check": "scorm",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
-    },
-    {
-      "lesson": "LS06",
-      "check": "tasks",
-      "count": 30,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_book_tasks/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
     },
     {
       "lesson": "LS06",
       "check": "teacher",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/first6/browser_report.json"
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS06",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "first6/browser_report.json"
+    },
+    {
+      "lesson": "LS07",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS07",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS07",
       "check": "gates",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS07",
-      "check": "help",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS07",
-      "check": "layout",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_layout/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS07",
       "check": "materials",
       "count": 50,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS07",
-      "check": "quiz",
+      "check": "layout",
+      "count": 6,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS07",
+      "check": "help",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS07",
-      "check": "scorm",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS07",
-      "check": "tasks",
-      "count": 30,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_book_tasks/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS07",
       "check": "teacher",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS07",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS08",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS08",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS08",
       "check": "gates",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS08",
-      "check": "help",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS08",
-      "check": "layout",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_layout/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS08",
       "check": "materials",
       "count": 50,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS08",
-      "check": "quiz",
+      "check": "layout",
+      "count": 6,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS08",
+      "check": "help",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS08",
-      "check": "scorm",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS08",
-      "check": "tasks",
-      "count": 30,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_book_tasks/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS08",
       "check": "teacher",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS08",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS09",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS09",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS09",
       "check": "gates",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS09",
-      "check": "help",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS09",
-      "check": "layout",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_layout/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS09",
       "check": "materials",
       "count": 60,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS09",
-      "check": "quiz",
+      "check": "layout",
+      "count": 6,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS09",
+      "check": "help",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS09",
-      "check": "scorm",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS09",
-      "check": "tasks",
-      "count": 30,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_book_tasks/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS09",
       "check": "teacher",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS09",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS10",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS10",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS10",
       "check": "gates",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS10",
-      "check": "help",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS10",
-      "check": "layout",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_layout/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS10",
       "check": "materials",
       "count": 55,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
+      "sourceReport": "materials10_final/browser_report.json"
     },
     {
       "lesson": "LS10",
-      "check": "quiz",
+      "check": "layout",
+      "count": 6,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS10",
+      "check": "help",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS10",
-      "check": "scorm",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS10",
-      "check": "tasks",
-      "count": 30,
-      "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS10",
       "check": "teacher",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS10",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS11",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS11",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS11",
       "check": "gates",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS11",
-      "check": "help",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS11",
-      "check": "layout",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_layout/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS11",
       "check": "materials",
       "count": 55,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS11",
-      "check": "quiz",
+      "check": "layout",
+      "count": 6,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS11",
+      "check": "help",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS11",
-      "check": "scorm",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS11",
-      "check": "tasks",
-      "count": 30,
-      "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS11",
       "check": "teacher",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS11",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS12",
+      "check": "tasks",
+      "count": 30,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS12",
+      "check": "quiz",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS12",
       "check": "gates",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS12",
-      "check": "help",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS12",
-      "check": "layout",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/final_layout/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS12",
       "check": "materials",
       "count": 55,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS12",
-      "check": "quiz",
+      "check": "layout",
+      "count": 6,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS12",
+      "check": "help",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS12",
-      "check": "scorm",
-      "count": null,
-      "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
-    },
-    {
-      "lesson": "LS12",
-      "check": "tasks",
-      "count": 30,
-      "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
     },
     {
       "lesson": "LS12",
       "check": "teacher",
       "count": null,
       "status": "PASS",
-      "reportSource": "work/lg03/last6/browser_report.json"
+      "sourceReport": "last6/browser_report.json"
+    },
+    {
+      "lesson": "LS12",
+      "check": "scorm",
+      "count": null,
+      "status": "PASS",
+      "sourceReport": "last6/browser_report.json"
     }
   ],
-  "packageSourceSha256": {
-    "LS01": {
-      "lesson-data.js": "d93808bc8f58de5f64a823be7f6a185691f117eb1c7c320761d09991b27ab050",
-      "progress-meta.js": "987fe4bc231325ec609eb45e31ff0fad472341ce302ab265a1d0f32c55b40873",
-      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
+  "testSynchronizationFollowup": {
+    "lesson": "LS10",
+    "check": "materials",
+    "initialResult": {
+      "lesson": "LS10",
+      "check": "materials",
+      "status": "FAIL",
+      "error": "Page.evaluate: ReferenceError: SOZ_MATERIAL_RETURN is not defined\n    at eval (eval at evaluate (:311:30), <anonymous>:1:1)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:311:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "traceback": "Traceback (most recent call last):\n  File \"/workspace/Lernsituationen/tools/verify_lg03_browser.py\", line 395, in main\n    result['count'] = jobs[name](); result['status'] = 'PASS'\n                      ^^^^^^^^^^^^\n  File \"/workspace/Lernsituationen/tools/verify_lg03_browser.py\", line 386, in <lambda>\n    'materials': lambda: verify_materials(browser, base, lesson),\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/Lernsituationen/tools/verify_lg03_browser.py\", line 233, in verify_materials\n    require(page.evaluate('SOZ_MATERIAL_RETURN.read().task') == task, 'correct task without session storage')\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 9385, in evaluate\n    self._sync(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py\", line 472, in evaluate\n    return await self._main_frame.evaluate(expression, arg)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py\", line 345, in evaluate\n    await self._channel.send(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 76, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 632, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.Error: Page.evaluate: ReferenceError: SOZ_MATERIAL_RETURN is not defined\n    at eval (eval at evaluate (:311:30), <anonymous>:1:1)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:311:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n",
+      "sourceReport": "last6/browser_report.json"
     },
-    "LS02": {
-      "lesson-data.js": "01c710a62a511a1f9100a79972b6959870d54fea7efcd9fc65ebba5cf7f8eca4",
-      "progress-meta.js": "98f1f13b0dad1f603a1b578d6a75ee5b751e051752a05f54c83808cb15709a1b",
-      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
-    },
-    "LS03": {
-      "lesson-data.js": "55a6c63dd7ab07dab4cb682fee2684afbab0454541946fca34ce7dd8b1d723d7",
-      "progress-meta.js": "9863e652b7b41fdebe904f3a16dbc3f1b92025956c575f1fbcbac81acbb3f562",
-      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
-    },
-    "LS04": {
-      "lesson-data.js": "541018d9c5305247a529f11513cd8619aafa5476de4ed3b26f03427466d017a2",
-      "progress-meta.js": "92654c17cdff37e1a521af6b625587381fe0c0a9110c34842153048bcb726c2a",
-      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
-    },
-    "LS05": {
-      "lesson-data.js": "47c435792aeb63776ee72fb7e67929489d0ad4df9e3194e53111075bc12af4f7",
-      "progress-meta.js": "7fcdd290b3e1f7d2be75c7d6b8c8b8f867c298574b81154cf7c816560c8abe13",
-      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
-    },
-    "LS06": {
-      "lesson-data.js": "cd59f57733bc7d236dff6aeba413af07c25a3d72b72ca6fa68ed62f5438fc188",
-      "progress-meta.js": "828706a0534e491a88b08319bdf2b08d5a8924c1978001b2faef6fa6dd6efbda",
-      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
-    },
-    "LS07": {
-      "lesson-data.js": "aee70e8e058dd2646c2ba732a9a8f8f6726a958d57311edf226e142a8b12fbae",
-      "progress-meta.js": "9c2ec13b2749bfae28109a3a1d8c94c5a8a1460f5edabd47e0671a067d48b216",
-      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
-    },
-    "LS08": {
-      "lesson-data.js": "cef384e78520cfdb41d81aa9a2dd985fac9b09a59b7e1081a0a54468322b47ef",
-      "progress-meta.js": "ad6595acdcd22ad837657efbd8074bfc6b6baefc7e446e48177abdb4067e96a9",
-      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
-    },
-    "LS09": {
-      "lesson-data.js": "6f74b3973f0968e8597b1c9288d5b8e3d6ba38955c8489260ebf8ad9d34afdca",
-      "progress-meta.js": "1a1c5c170b6f69faba4f5edf793941fa0b4f3e42612816932eb40ccf565b4949",
-      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
-    },
-    "LS10": {
-      "lesson-data.js": "39138d8b5ce8a60485460b8ec3bb64f1ab32afd4c4dac8097da07ed1a1ea8921",
-      "progress-meta.js": "8e06f228b3777f693d598c8f7d0b45d4ee4018275c3e85f8f930b41427e44a6f",
-      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
-    },
-    "LS11": {
-      "lesson-data.js": "a95bb11dba0c8c36ca63885737fb9bc76e43bc50c8731c10d13d3a60eb792844",
-      "progress-meta.js": "11ed5d4c4d521933bbd3dcec823b5fc9bfe0b45e288f810f6a3956074d1d32a4",
-      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
-    },
-    "LS12": {
-      "lesson-data.js": "8e2eaf854c025f90bf9e93c82f16c9a65e365635bbff1130f7ebdeeb2119bd78",
-      "progress-meta.js": "943a9c28c6ca64544df2b6aef6a201223cd115aa35158836e551eec871b3777f",
-      "assets/styles.css": "7ed83a5b4d5f6dbafac1042dae90805f7228766d65bf0d8d5111bb31c4fdb1eb"
-    }
+    "cause": "The check read SOZ_MATERIAL_RETURN immediately after a link click, before waiting for visible material controls. Approved runtime.js creates that API synchronously before the material selector and return control. A targeted rerun with the unchanged check passed all 55 visits.",
+    "verifierChange": "Wait for the visible .material-switch and .return-task controls after material navigation; no production code changed, and JS/asset error monitoring remains active.",
+    "unchangedVerifierRerun": "materials10_recheck/browser_report.json",
+    "correctedVerifierRerun": "materials10_final/browser_report.json",
+    "finalStatus": "PASS",
+    "materialPathVisits": 55
   },
-  "limitations": [
-    "Original images were deliberately absent; image matching and final image layout remain pending.",
-    "Moodle storage and AIS dialog were checked using local API/iframe simulations. Native Moodle app, AIS authentication and native GoodNotes handoff require the real classroom system."
+  "visualReview": [
+    "LS01 orientation at 390 and 1024 px and situation at 768 px inspected: unchanged original pictures are proportional and fully visible; approved layout preserved.",
+    "Independent LS08 orientation/situation review at 390, 768 and 1024 px: both different originals fully visible, proportional, above text on mobile and with text flow at larger widths. No horizontal page overflow or hidden content.",
+    "Long navigation and competency labels may wrap within words at 768 px, inherited from the approved template; no text is lost."
   ],
-  "resolvedFindings": [
-    "Wide numeric tables now remain legible through local horizontal scrolling; numeric cells do not break across lines.",
-    "Long material selectors are collapsed through their ordinary summary control before task focus on narrow screens."
+  "limitations": [
+    "Chromium and local SCORM API / AIS iframe simulations were tested. Actual Moodle integration, AIS authentication and native GoodNotes handoff require the real classroom system."
   ]
 }

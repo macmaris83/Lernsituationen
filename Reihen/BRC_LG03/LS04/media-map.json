@@ -1,3 +1,14 @@
 {
-  "slots": {}
+  "slots": {
+    "orientation": {
+      "src": "assets/images/biocasa-lg03-ls04-orientation.png",
+      "alt": "Orientierungsbild · BioCasa · Marktforschung betreiben",
+      "label": "Orientierung · Marktforschung betreiben"
+    },
+    "situation": {
+      "src": "assets/images/biocasa-lg03-ls04-situation.png",
+      "alt": "Bild zur Handlungssituation · BioCasa · Marktforschung betreiben",
+      "label": "Handlungssituation · Marktforschung betreiben"
+    }
+  }
 }

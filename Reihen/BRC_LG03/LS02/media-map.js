@@ -1,1 +1,1 @@
-window.SOZ_MEDIA={"slots": {}};
+window.SOZ_MEDIA={"slots": {"orientation": {"src": "assets/images/biocasa-lg03-ls02-orientation.png", "alt": "Orientierungsbild · BioCasa · Den Wechsel zur Aktiengesellschaft begründen", "label": "Orientierung · Den Wechsel zur Aktiengesellschaft begründen"}, "situation": {"src": "assets/images/biocasa-lg03-ls02-situation.png", "alt": "Bild zur Handlungssituation · BioCasa · Den Wechsel zur Aktiengesellschaft begründen", "label": "Handlungssituation · Den Wechsel zur Aktiengesellschaft begründen"}}};

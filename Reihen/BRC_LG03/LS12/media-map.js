@@ -1,1 +1,1 @@
-window.SOZ_MEDIA={"slots": {}};
+window.SOZ_MEDIA={"slots": {"orientation": {"src": "assets/images/biocasa-lg03-ls12-orientation.png", "alt": "Orientierungsbild · BioCasa · Den Marketing-Mix überprüfen und steuern", "label": "Orientierung · Den Marketing-Mix überprüfen und steuern"}, "situation": {"src": "assets/images/biocasa-lg03-ls12-situation.png", "alt": "Bild zur Handlungssituation · BioCasa · Den Marketing-Mix überprüfen und steuern", "label": "Handlungssituation · Den Marketing-Mix überprüfen und steuern"}}};

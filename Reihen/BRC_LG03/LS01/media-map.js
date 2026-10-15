@@ -1,1 +1,1 @@
-window.SOZ_MEDIA={"slots": {}};
+window.SOZ_MEDIA={"slots": {"orientation": {"src": "assets/images/biocasa-lg03-ls01-orientation.png", "alt": "Orientierungsbild · BioCasa · Markt- und Unternehmenssituation analysieren", "label": "Orientierung · Markt- und Unternehmenssituation analysieren"}, "situation": {"src": "assets/images/biocasa-lg03-ls01-situation.png", "alt": "Bild zur Handlungssituation · BioCasa · Markt- und Unternehmenssituation analysieren", "label": "Handlungssituation · Markt- und Unternehmenssituation analysieren"}}};

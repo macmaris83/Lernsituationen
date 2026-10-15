@@ -1,3 +1,14 @@
 {
-  "slots": {}
+  "slots": {
+    "orientation": {
+      "src": "assets/images/biocasa-lg03-ls05-orientation.png",
+      "alt": "Orientierungsbild · BioCasa · Marketingziele und -strategien entwickeln",
+      "label": "Orientierung · Marketingziele und -strategien entwickeln"
+    },
+    "situation": {
+      "src": "assets/images/biocasa-lg03-ls05-situation.png",
+      "alt": "Bild zur Handlungssituation · BioCasa · Marketingziele und -strategien entwickeln",
+      "label": "Handlungssituation · Marketingziele und -strategien entwickeln"
+    }
+  }
 }

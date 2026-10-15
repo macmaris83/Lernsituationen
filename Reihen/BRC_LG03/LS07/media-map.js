@@ -1,1 +1,1 @@
-window.SOZ_MEDIA={"slots": {}};
+window.SOZ_MEDIA={"slots": {"orientation": {"src": "assets/images/biocasa-lg03-ls07-orientation.png", "alt": "Orientierungsbild · BioCasa · Aufwendungen und Kosten abgrenzen", "label": "Orientierung · Aufwendungen und Kosten abgrenzen"}, "situation": {"src": "assets/images/biocasa-lg03-ls07-situation.png", "alt": "Bild zur Handlungssituation · BioCasa · Aufwendungen und Kosten abgrenzen", "label": "Handlungssituation · Aufwendungen und Kosten abgrenzen"}}};

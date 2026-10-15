@@ -1,1 +1,1 @@
-window.SOZ_MEDIA={"slots": {}};
+window.SOZ_MEDIA={"slots": {"orientation": {"src": "assets/images/biocasa-lg03-ls06-orientation.png", "alt": "Orientierungsbild · BioCasa · Produkt- und Markenpolitik gestalten", "label": "Orientierung · Produkt- und Markenpolitik gestalten"}, "situation": {"src": "assets/images/biocasa-lg03-ls06-situation.png", "alt": "Bild zur Handlungssituation · BioCasa · Produkt- und Markenpolitik gestalten", "label": "Handlungssituation · Produkt- und Markenpolitik gestalten"}}};

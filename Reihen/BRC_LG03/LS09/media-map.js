@@ -1,1 +1,1 @@
-window.SOZ_MEDIA={"slots": {}};
+window.SOZ_MEDIA={"slots": {"orientation": {"src": "assets/images/biocasa-lg03-ls09-orientation.png", "alt": "Orientierungsbild · BioCasa · Preisentscheidungen mit Deckungsbeiträgen beurteilen", "label": "Orientierung · Preisentscheidungen mit Deckungsbeiträgen beurteilen"}, "situation": {"src": "assets/images/biocasa-lg03-ls09-situation.png", "alt": "Bild zur Handlungssituation · BioCasa · Preisentscheidungen mit Deckungsbeiträgen beurteilen", "label": "Handlungssituation · Preisentscheidungen mit Deckungsbeiträgen beurteilen"}}};

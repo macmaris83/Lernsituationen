@@ -1,1 +1,1 @@
-window.SOZ_MEDIA={"slots": {}};
+window.SOZ_MEDIA={"slots": {"orientation": {"src": "assets/images/biocasa-lg03-ls11-orientation.png", "alt": "Orientierungsbild · BioCasa · Absatzwege und nachhaltige Kühlketten gestalten", "label": "Orientierung · Absatzwege und nachhaltige Kühlketten gestalten"}, "situation": {"src": "assets/images/biocasa-lg03-ls11-situation.png", "alt": "Bild zur Handlungssituation · BioCasa · Absatzwege und nachhaltige Kühlketten gestalten", "label": "Handlungssituation · Absatzwege und nachhaltige Kühlketten gestalten"}}};

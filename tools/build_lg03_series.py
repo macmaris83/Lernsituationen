@@ -37,7 +37,7 @@ OUT = REPO / 'Reihen/BRC_LG03'
 PHASES = ['informieren', 'planen', 'entscheiden', 'durchfuehren', 'bewerten', 'reflektieren']
 NAMES = ['Informieren', 'Planen', 'Entscheiden', 'Durchführen', 'Überprüfen', 'Reflektieren']
 MODES = ['Stark geführt / tradiert', 'Geführt mit Wahlstellen', 'Mittelweg / teiloffen', 'Weitgehend selbstgesteuert', 'Löppt – selbstgesteuert und selbstorganisiert']
-VERSION = '2026-10-15.lg03.1'
+VERSION = '2026-10-15.lg03.2'
 CLOCK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg>'
 TABLE_CSS = '''
 /* Wide source tables retain readable amounts inside the existing scroll frame. */
@@ -264,7 +264,7 @@ def content(ls, competencies, checks, forms, types, book_keywords):
 def shell(page, body, ls):
     path = TEMPLATE / page
     if not path.exists(): path = TEMPLATE / 'm1.html'
-    original = patch_shell(path.read_text(), ls['number'], ls['title'])
+    original = patch_shell(path.read_text(), ls['number'], ls['title'], cache_version='lg03-20261015-2')
     original = re.sub(r'data-page="[^"]*"', f'data-page="{page}"', original)
     if page not in ['lehrkraft.html', 'scorm.html', 'druckansicht.html']:
         start = original.index('<div class="lesson-content">') + len('<div class="lesson-content">')
@@ -321,6 +321,23 @@ def prepare_images(ls, root, pictures, allow_missing):
     return info
 
 
+def collection_archives(summaries):
+    """Bundle four full packages per ZIP without recompressing original images."""
+    for group in [summaries[:4], summaries[4:8], summaries[8:]]:
+        first, last = group[0]['folder'], group[-1]['folder']
+        target = REPO / f'Downloads/BRC_LG03_{first}-{last}_SCORM.zip'
+        with zipfile.ZipFile(target, 'w', zipfile.ZIP_STORED) as z:
+            for x in group: z.write(REPO / x['zip'], Path(x['zip']).name)
+            z.writestr('LIESMICH.txt', f'BioCasa · BRC LG03 · {first}–{last}\nVier vollständige Einzelpakete, jeweils fünf alternative Lernwege.\nDieses Sammelarchiv zuerst entpacken. In Moodle jede enthaltene SCORM-ZIP als eigene SCORM-Aktivität hochladen.\nDie drei Sammelarchive sind unabhängig entpackbar; sie müssen nicht zusammengesetzt werden.\nDie Lehrkraft stellt den Lernweg ein und kann den Wechsel durch Lernende freigeben.\nPDF-Gesamtdokument und phasenbezogener GoodNotes-Import entsprechen der vorhandenen Vorlage.\n')
+        if target.stat().st_size >= 100 * 1024**2:
+            raise ValueError('Collection exceeds GitHub file limit: ' + str(target))
+        print('Collection:', target, flush=True)
+    # Remove only earlier generated collections replaced by these three.
+    for old in ['BRC_LG03_PlugAndPlay_Gesamtreihe_SCORM.zip',
+                'BRC_LG03_LS01-LS06_SCORM.zip', 'BRC_LG03_LS07-LS12_SCORM.zip']:
+        (REPO / 'Downloads' / old).unlink(missing_ok=True)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--source', type=Path, default=SOURCE / 'Reihenplan.md')
@@ -362,7 +379,7 @@ def main():
                 'phaseBudgets': dict(zip(PHASES, ls['budgets'])), 'sourceTaskCounts': counts,
                 'materialSources': {f'm{m["number"]}.html': {k:m[k] for k in ['title','kind','sourceKey']} for m in mats}}
         cfg = json.loads((TEMPLATE / 'Konfiguration.json').read_text())
-        cfg.update({'mode': 1, 'allowStudentMode': False, 'packageRevision': f'BRC-LG03-LS{n:02d}-20261015', 'overrides': {}, 'media': {}, 'moodle': {}})
+        cfg.update({'mode': 1, 'allowStudentMode': False, 'packageRevision': f'BRC-LG03-LS{n:02d}-20261015-2', 'overrides': {}, 'media': {}, 'moodle': {}})
         write_json(root / 'Konfiguration.json', cfg)
         (root / 'mode-config.js').write_text('window.SOZ_CONFIG=' + json.dumps(cfg, ensure_ascii=False) + ';\n')
         built.append((ls, root, data, instructions))
@@ -429,11 +446,7 @@ def main():
     links = ''.join(f'<article><small>LS{x["folder"][2:]} · {x["hours"]} Unterrichtsstunden</small><h2>{ESC(x["title"])}</h2><p><a href="{x["folder"]}/index.html">Lernsituation öffnen</a> · <a href="../../{x["zip"]}" download>SCORM-ZIP herunterladen</a></p></article>' for x in summaries)
     (OUT / 'index.html').write_text('<!doctype html><html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BioCasa · BRC LG03</title><link rel="stylesheet" href="LS01/assets/styles.css"><style>article{padding:18px;border:1px solid #b8e0f2;border-radius:14px;background:#ffffffbb;margin:14px 0}</style><body><main class="shell main"><h1>BioCasa · Wettbewerbsfähigkeit sichern</h1><p>Zwölf Lernsituationen · 80 Unterrichtsstunden</p>' + links + '</main></body></html>')
     if not args.no_pdf and not args.only:
-        target = REPO / 'Downloads/BRC_LG03_PlugAndPlay_Gesamtreihe_SCORM.zip'
-        with zipfile.ZipFile(target, 'w', zipfile.ZIP_STORED) as z:
-            for x in summaries: z.write(REPO / x['zip'], Path(x['zip']).name)
-            z.writestr('LIESMICH.txt', 'BioCasa · BRC LG03 · 80 Unterrichtsstunden\nZwölf Einzelpakete, jeweils fünf alternative Lernwege.\nDieses Gesamtarchiv zuerst entpacken. In Moodle jede enthaltene SCORM-ZIP als eigene SCORM-Aktivität hochladen.\nDie Lehrkraft stellt den Lernweg ein und kann den Wechsel durch Lernende freigeben.\nPDF-Gesamtdokument und phasenbezogener GoodNotes-Import entsprechen der vorhandenen Vorlage.\n')
-        print('Collection:', target, flush=True)
+        collection_archives(summaries)
 
 
 if __name__ == '__main__':

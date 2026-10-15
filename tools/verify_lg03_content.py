@@ -15,6 +15,7 @@ Examples:
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 import copy
 import functools
 import hashlib
@@ -306,7 +307,7 @@ def verify_content(root, lesson, teacher, fingerprints):
     return data, fingerprints
 
 
-def verify_pdfs(root, lesson, data, fingerprints):
+def verify_pdfs(root, lesson, data, fingerprints, skip_images=False):
     import fitz
     texts = {}
     required = [f'pdf/GoodNotes_Phase_{phase}_W{mode}.pdf' for phase in PHASES for mode in range(1, 6)]
@@ -321,6 +322,21 @@ def verify_pdfs(root, lesson, data, fingerprints):
             if filename.endswith('_Gesamtdruck_A4.pdf'):
                 require(all(abs(page.rect.width - 595.276) < 1 and abs(page.rect.height - 841.89) < 1 for page in document),
                         root.name, 'entire Gesamtdruck uses portrait A4')
+                if not skip_images:
+                    mapping = json.loads((REPO / 'Quellen/BRC_LG03/Bildzuordnung.json').read_text())[str(lesson['number'])]
+                    expected_sizes = [tuple(mapping[role]['dimensions']) for role in ('orientation', 'situation')]
+                    objects = {}
+                    for page_number, page in enumerate(document):
+                        for item in page.get_images(full=True):
+                            xref, width, height = item[0], item[2], item[3]
+                            if (width, height) in expected_sizes:
+                                objects.setdefault(xref, (page_number, width, height))
+                    require(len(objects) == 2, root.name, 'both original-resolution story images embedded in Gesamtdruck', objects)
+                    ordered_objects = sorted(objects.values())
+                    require(Counter((width, height) for _, width, height in ordered_objects) == Counter(expected_sizes),
+                            root.name, 'embedded PDF image dimensions match both uploaded originals')
+                    require(ordered_objects[0][0] < ordered_objects[1][0], root.name,
+                            'orientation and action story images occur on successive distinct document pages')
             text = '\n'.join(page.get_text() for page in document)
         require(len(text.strip()) > 100, root.name, 'blank PDF', filename)
         # Preserve genuine compound hyphens at line breaks ("Kontroll-\nund").
@@ -390,8 +406,17 @@ def verify_package(root, entry, series_dir, skip_images=False):
         for role in ('orientation', 'situation'):
             image = entry['images'][role]
             path = root / image['file']
+            from PIL import Image
+            definition = json.loads((REPO / 'Quellen/BRC_LG03/Bildzuordnung.json').read_text())[str(int(root.name[2:]))][role]
+            original = REPO / 'Quellen/BRC_LG03/Bilder' / definition['filename']
+            source_role = 'Orientierung' if role == 'orientation' else 'Handlungssituation'
+            require(PurePosixPath(definition['archive_path']).name == f'{root.name}_{source_role}.png',
+                    root.name, role, 'correct original uploaded filename and role')
             require(image['file'] in paths, root.name, role, 'image in manifest')
-            require(hashlib.sha256(path.read_bytes()).hexdigest() == image['sha256'], root.name, role, 'source image hash')
+            require(path.name == definition['filename'] and path.read_bytes() == original.read_bytes(), root.name, role, 'unaltered original image bytes')
+            require(hashlib.sha256(path.read_bytes()).hexdigest() == image['sha256'] == definition['sha256'], root.name, role, 'source image hash')
+            with Image.open(original) as decoded:
+                require(list(decoded.size) == definition['dimensions'], root.name, role, 'original image dimensions')
             media = json.loads((root / 'media-map.json').read_text())
             require(media['slots'][role]['src'] == image['file'], root.name, role, 'image media map')
     archive_path = Path(entry['zip'])
@@ -468,18 +493,31 @@ def main():
         if number in entries:
             require(entries[number]['budgets'] == lesson['budgets'] and entries[number]['hours'] == lesson['hours'], root.name, 'series budgets/hours')
         if not args.content_only:
-            verify_pdfs(root, lesson, data, fingerprints)
+            verify_pdfs(root, lesson, data, fingerprints, args.skip_image_check)
             archives.append(verify_package(root, entries[number], args.series.parent, args.skip_image_check))
     if not args.lesson:
         require(len(identities) == 12 and len(competency_ids) == 60, 'series', '12 isolated lessons and 60 competency IDs')
     if not args.content_only and not args.lesson:
-        collection = REPO / 'Downloads/BRC_LG03_PlugAndPlay_Gesamtreihe_SCORM.zip'
-        with zipfile.ZipFile(collection) as archive:
-            require(archive.testzip() is None, 'collection', 'ZIP CRC')
-            for path in archives:
-                matches = [name for name in archive.namelist() if PurePosixPath(name).name == path.name]
-                require(len(matches) == 1 and archive.read(matches[0]) == path.read_bytes(), 'collection', 'exact checked individual archive', path.name)
-        print('PASS: collection includes all twelve independently checked SCORM packages.', flush=True)
+        included = set()
+        for first, last in ((1, 4), (5, 8), (9, 12)):
+            collection = REPO / f'Downloads/BRC_LG03_LS{first:02}-LS{last:02}_SCORM.zip'
+            expected = {path.name: path for path in archives if first <= int(re.search(r'_LS(\d{2})_', path.name)[1]) <= last}
+            require(len(expected) == 4, collection.name, 'four expected checked individual packages')
+            require(collection.stat().st_size < 100 * 1024 * 1024, collection.name, 'independent collection remains below 100 MiB')
+            with zipfile.ZipFile(collection) as archive:
+                require(archive.testzip() is None, collection.name, 'ZIP CRC')
+                names = [name for name in archive.namelist() if not name.endswith('/')]
+                zip_names = [name for name in names if name.lower().endswith('.zip')]
+                actual = [PurePosixPath(name).name for name in zip_names]
+                require(len(names) == len(set(names)), collection.name, 'no duplicate member names')
+                require(len(actual) == 4 and set(actual) == set(expected), collection.name, 'exactly the intended four complete packages')
+                for name in zip_names:
+                    basename = PurePosixPath(name).name
+                    require(basename not in included, collection.name, 'no duplicate lesson across collections', basename)
+                    require(archive.read(name) == expected[basename].read_bytes(), collection.name, 'exact checked individual archive', basename)
+                    included.add(basename)
+        require(included == {path.name for path in archives}, 'collections', 'all twelve checked packages included once')
+        print('PASS: three independent four-lesson collections include exactly the twelve checked SCORM packages without omissions or duplicates; each is below 100 MiB.', flush=True)
     print(f'PASS: LG03 source fidelity and separation checks complete for {len(selected)} lesson(s).', flush=True)
 
 

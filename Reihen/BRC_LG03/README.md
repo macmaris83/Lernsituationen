@@ -2,7 +2,7 @@
 
 Zwölf eigenständige Lernsituationen mit jeweils fünf alternativen Lernwegen und zusammen **80 Unterrichtsstunden à 45 Minuten**. Grundlage ist die unverändert gespeicherte [Reihenplanung](../../Quellen/BRC_LG03/Reihenplan.md). Anwendung und Oberfläche stammen aus der zuletzt freigegebenen Reihe, LS06 (Commit bcd1140).
 
-**Arbeitsstand: Die 24 vorgesehenen Originalbilder fehlen noch.** Das bereitgestellte ZIP überschreitet die Transfergrenze von 32 MiB. Die Pakete sind deshalb als Entwurf zu behandeln. Es wurden keine Ersatzbilder eingesetzt. Nach dem Import der Originale werden Druckfassungen und SCORM-Archive neu erzeugt und die Bildzuordnung geprüft.
+Alle **24 Originalbilder** sind in Orientierung und Handlungssituation zugeordnet und unverändert enthalten. [Bildzuordnung und SHA-256-Prüfsummen](../../Quellen/BRC_LG03/Bildzuordnung.json) dokumentieren Dateinamen, Abmessungen und Herkunft. Die Druckfassungen und SCORM-Archive enthalten diese Bilder ebenfalls.
 
 | LS | Lernsituation | Umfang | Paket |
 |---|---|---:|---|
@@ -19,7 +19,7 @@ Zwölf eigenständige Lernsituationen mit jeweils fünf alternativen Lernwegen u
 | 11 | Absatzwege und nachhaltige Kühlketten gestalten | 8 UE | [SCORM](../../Downloads/BRC_LG03_LS11_SCORM.zip) |
 | 12 | Den Marketing-Mix überprüfen und steuern | 6 UE | [SCORM](../../Downloads/BRC_LG03_LS12_SCORM.zip) |
 
-[Gesamtarchiv mit zwölf Einzelpaketen](../../Downloads/BRC_LG03_PlugAndPlay_Gesamtreihe_SCORM.zip) zunächst entpacken. Jede enthaltene ZIP wird in Moodle als eigene SCORM-1.2-Aktivität hochgeladen. Das Sammelarchiv ist kein einzelnes SCORM-Paket.
+Die gesamte Reihe steht in drei unabhängig entpackbaren Sammelarchiven bereit: [LS01–LS04](../../Downloads/BRC_LG03_LS01-LS04_SCORM.zip), [LS05–LS08](../../Downloads/BRC_LG03_LS05-LS08_SCORM.zip) und [LS09–LS12](../../Downloads/BRC_LG03_LS09-LS12_SCORM.zip). Sie enthalten jeweils vier vollständige Einzelpakete und müssen nicht zusammengesetzt werden. So bleiben die unveränderten Originalbilder erhalten und jede Datei innerhalb der GitHub-Größengrenze. Das gewünschte Sammelarchiv zunächst entpacken. Jede enthaltene ZIP wird in Moodle als eigene SCORM-1.2-Aktivität hochgeladen; die Sammelarchive selbst sind keine SCORM-Pakete.
 
 ## Unterricht und Schüleransicht
 

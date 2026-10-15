@@ -1,1 +1,1 @@
-window.SOZ_MEDIA={"slots": {}};
+window.SOZ_MEDIA={"slots": {"orientation": {"src": "assets/images/biocasa-lg03-ls03-orientation.png", "alt": "Orientierungsbild · BioCasa · Das Produktprogramm auswerten", "label": "Orientierung · Das Produktprogramm auswerten"}, "situation": {"src": "assets/images/biocasa-lg03-ls03-situation.png", "alt": "Bild zur Handlungssituation · BioCasa · Das Produktprogramm auswerten", "label": "Handlungssituation · Das Produktprogramm auswerten"}}};
