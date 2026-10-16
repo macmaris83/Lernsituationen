@@ -1,0 +1,40 @@
+name: BioCasa OS prüfen
+
+on:
+  push:
+    paths:
+      - 'Fachbereiche/BRC/BioCasaOS/**'
+      - 'Downloads/BRC-BIOCASA-OS/**'
+      - 'Downloads/aktuell.json'
+      - 'master-katalog.json'
+      - 'tools/master.py'
+      - 'tools/test_master.py'
+      - '.github/workflows/biocasa-os.yml'
+  pull_request:
+    paths:
+      - 'Fachbereiche/BRC/BioCasaOS/**'
+      - 'master-katalog.json'
+      - 'tools/**'
+      - '.github/workflows/biocasa-os.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Buchungsmodell, Lernstände und UI-Ereignisse prüfen
+        run: npm --prefix Fachbereiche/BRC/BioCasaOS test
+      - name: Exportwerkzeug und Schüler-/Lehrkräftetrennung prüfen
+        run: python3 -m unittest discover -s tools -p 'test_master.py'
+      - name: Projektwerkzeug prüfen
+        run: python3 -m unittest discover -s Fachbereiche/BRC/BioCasaOS/scripts -p 'test_project.py'
+      - name: Aktuellen Schülerexport mit Quellcode vergleichen
+        run: python3 Fachbereiche/BRC/BioCasaOS/scripts/project.py check --archive
+

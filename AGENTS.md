@@ -106,3 +106,9 @@ Für Materialien aller Lerngebiete den wiederverwendbaren Fundus `Materialvorlag
 ## Schüleransicht der BioCasa-Reihe
 
 In allen sechs Paketen unter `Fachbereiche/BRC/LG01` entfällt der Einordnungsblock in der Orientierung. Keine Übersicht der fünf alternativen Lernwege, keine Lernweg-Badges oder Auswahl durch Schüler anzeigen; die Auswahl bleibt im Lehrkräftemodus. Zugeordnete Originalbilder erscheinen in Orientierung und Handlungssituation und werden nicht neu erzeugt oder beschnitten. MC-Antwortmöglichkeiten stehen einzeln untereinander. Bei Zusammenfassung alter Aufgaben die vorhandenen Fortschrittskennungen bewahren: eine neue Gruppenaufgabe gilt erst als erledigt, wenn sämtliche alten Teilaufgaben erledigt waren. Kompetenzberichte und eine bereits gelesene Orientierung erhalten; Quelle und Migrationsmetadaten enthalten keine personenbezogenen Lernstände.
+
+
+
+## BioCasa OS als eigenständiges Lernunternehmen
+
+`Fachbereiche/BRC/BioCasaOS` ist das bestehende Rechnungswesen-Lernunternehmen, keine neu zu erzeugende Lernsituation oder Lernweg-Oberfläche. Die konkreten Produkt- und Prüfregeln stehen in der dortigen `AGENTS.md`. Vorlagenmechaniken wie acht Phasen, Lernwege oder Kompetenzradar werden nicht automatisch in dieses ERP-Werkzeug übernommen. Die zentralen Regeln für einen Master, stabile Kennungen, Versionen und aktuelle Exporte gelten weiter. Der Katalog-Master liegt in `BioCasaOS/dist`; `manifestOnly: true` beschränkt seine Schüler-ZIP auf das Manifest und dessen deklarierte Dateien.

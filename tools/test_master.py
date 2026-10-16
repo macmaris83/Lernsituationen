@@ -275,6 +275,47 @@ class CurrentExportTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'aktuellen Master'):
             self.check()
 
+    def test_manifest_only_export_excludes_teacher_pages_without_changing_regular_masters(self):
+        for name in ('preview.html', 'teacher.html', 'teacher.js', 'package-writer.js'):
+            (self.root / self.items[0]['master'] / name).write_text('teacher-only', encoding='utf-8')
+        regular = self.make_package('regular')
+        (self.root / regular['master'] / 'extra.html').write_text('retain me', encoding='utf-8')
+        self.items[0]['manifestOnly'] = True
+        self.items.append(regular)
+        self.save_catalog()
+        self.export()
+        self.check()
+        with zipfile.ZipFile(self.archive()) as archive:
+            self.assertEqual(set(archive.namelist()), {'imsmanifest.xml', 'index.html', 'assets/runtime.js'})
+        with zipfile.ZipFile(self.archive(regular)) as archive:
+            self.assertIn('extra.html', archive.namelist())
+
+    def test_manifest_only_rejects_missing_runtime_dependency(self):
+        self.items[0]['manifestOnly'] = True
+        self.save_catalog()
+        (self.root / self.items[0]['master'] / 'assets/runtime.js').unlink()
+        with self.assertRaisesRegex(ValueError, 'Manifest-Datei fehlt'):
+            self.export()
+        self.assertFalse((self.root / 'Downloads').exists())
+
+    def test_teacher_only_edit_does_not_change_student_archive(self):
+        self.items[0]['manifestOnly'] = True
+        self.save_catalog()
+        teacher = self.root / self.items[0]['master'] / 'teacher.html'
+        teacher.write_text('before', encoding='utf-8')
+        self.export()
+        before = self.download_snapshot()
+        teacher.write_text('after', encoding='utf-8')
+        self.export()
+        self.check()
+        self.assertEqual(self.download_snapshot(), before)
+
+    def test_manifest_only_requires_boolean_catalog_flag(self):
+        self.items[0]['manifestOnly'] = 'true'
+        self.save_catalog()
+        with self.assertRaisesRegex(ValueError, 'manifestOnly'):
+            master.catalog(self.root)
+
     def test_versions_require_two_numeric_parts(self):
         for value in ('1.2.3', '1', 'v1.2', '01.2', '1.02', '-1.2', '1.2-final', 1.2):
             with self.subTest(version=value):
@@ -284,3 +325,4 @@ class CurrentExportTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+

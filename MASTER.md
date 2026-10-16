@@ -79,3 +79,11 @@ Die bisherige reguläre BioCasa-LS03 ist die Lernsituation der sechsteiligen Rei
 älterer Export der separaten Fünf-Lernwege-Vorlage (`LG01-LS03`, zehn Materialien).
 Beide Identitäten bleiben erhalten und werden eindeutig im Katalog getrennt geführt.
 Die Sozialpädagogik-Vorlage LS1.1 ist ebenfalls von der Lernpfadübung LS1.1 getrennt.
+
+
+
+## BioCasa OS
+
+Das bestehende Lernunternehmen wird unter `Fachbereiche/BRC/BioCasaOS` fortgeführt; Katalogkennung `BRC-BIOCASA-OS`. Quellcode und Tests liegen in diesem Projekt, der Laufzeit-Master in `dist`. `manifestOnly: true` nimmt ausschließlich `imsmanifest.xml` und die dort genannten Laufzeitdateien in die Schüler-ZIP auf. Lehrkräftevorschau und Paketkonfiguration bleiben Quellcode, gehören jedoch nicht ins Moodle-Schülerpaket. Andere Master behalten ihren vollständigen Export.
+
+Für dieses bereits bestehende Projekt wird die Sites-Version `0.10.0` als sichtbare Paketversion `0.10` übernommen; `package.json` behält die passende SemVer `0.10.0`. Weitere Versionswechsel erfolgen gemeinsam für Katalog, Oberfläche und npm über `python3 Fachbereiche/BRC/BioCasaOS/scripts/project.py version X.Y`. Anschließend normal exportieren und prüfen. Siehe Projekt-README und STATUS.md.

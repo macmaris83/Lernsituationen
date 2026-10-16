@@ -1,0 +1,48 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+import {foundations,inventoryDone,builderAnswers} from './fixtures/learning.mjs';
+function model(){const c=vm.createContext({TextEncoder,TextDecoder,Intl,Date,Map,Set,JSON,btoa,atob});for(const f of ['data-defaults.js','data-config.js','dataset.js','engine.js','didactics.js','course-config.js','release.js','inventory-cases.js','later-lessons.js','accounts.js','learning.js','drafts.js','booking-checks.js','storage.js'])vm.runInContext(fs.readFileSync(new URL('../dist/'+f,import.meta.url),'utf8'),c);return {c,B:c.BioCasa,A:c.BioCasaAccounts,L:c.BioCasaLearning};}
+const plain=x=>JSON.parse(JSON.stringify(x));
+const closingInput=(A,s,id)=>{const m=A.model(s,id);return {value:String(m.amount/100),side:m.side,...A.closing(m)};};
+function openingAnswers(A){const a={...builderAnswers.accounts,schema:'4'};for(const row of A.openingAccounts){const [side,value]=A.openingKeys(row);a[side]=row.type==='asset'?'debit':'credit';a[value]=String(row.opening/100);}a.bankSaldo='155590';a.bankCloseSide='c';a.loanSaldo='485000';a.loanCloseSide='d';a.bankCounter='801';a.bankCounterSide='d';a.loanCounter='801';a.loanCounterSide='c';return a;}
+
+test('T-Konten übernehmen Eröffnungsbestände auf der richtigen Seite; Erfolgskonten beginnen ohne AB',()=>{
+ const {A,B}=model(),s=B.newState(false);for(const id of ['280','288','425','300']){const m=A.model(s,id);assert.equal(m.rows.filter(r=>r.opening).length,1);assert.equal(m.rows[0].amount,B.byId[id].opening);assert.equal(m.rows[0].side,id==='280'||id==='288'?'d':'c');}for(const id of ['670','5000'])assert.equal(A.model(s,id).rows.some(r=>r.opening),false);assert.equal(A.model(s,'280',{showOpening:false}).rows.length,0);
+});
+test('Kontenzeilen zeigen Gegenkonten und Belegdatum; Herkunft bleibt nach Wiederaufnahme unterscheidbar',()=>{
+ const {A,B}=model();let s=B.newState(true);s=B.post(s,{date:'2026-10-03',reference:'Eigen-1',text:'Zusätzliche Darlehensaufnahme',lines:[B.L('280',10000),B.L('425',0,10000)]}).state;
+ let m=A.model(B.unpack(B.pack(s)),'280');assert.equal(m.rows[0].label,'EBK');assert.equal(m.rows[0].date,'2026-10-01');const own=m.rows.find(r=>r.source==='learner');assert.equal(own.date,'2026-10-03');assert.equal(own.reference,'Eigen-1');assert.deepEqual(plain(own.counterAccounts),['425']);assert.equal(own.context,'Zusätzliche Darlehensaufnahme');assert.ok(m.rows.some(r=>r.source==='seed'&&r.date===own.date));const dates=m.rows.filter(r=>!r.opening).map(r=>r.date);assert.deepEqual(plain(dates),[...dates].sort());
+ s=B.post(s,{date:'2026-10-16',reference:'Eigen-2',text:'Fahrzeug mit Vorsteuer',lines:[B.L('084',4000000),B.L('260',760000),B.L('280',0,4760000)]}).state;m=A.model(s,'280');assert.deepEqual(plain(m.rows.find(r=>r.reference==='Eigen-2').counterAccounts),['084','260']);
+ const draft=[B.L('280',20000),B.L('288',0,20000)];m=A.model(s,'280',{draft,draftDate:'2026-10-20',draftText:'Einzahlung',draftReference:'Entwurf-1'});const d=m.rows.find(r=>r.draft);assert.equal(d.date,'2026-10-20');assert.deepEqual(plain(d.counterAccounts),['288']);assert.ok(d.context.includes('Einzahlung'));assert.equal(A.model(s,'280',{draft,draftDate:'falsch'}).rows.find(r=>r.draft).date,'');assert.equal(s.entries.length,2);
+});
+test('Neue Beschriftungen und Hintergründe erhalten bestehende finanzielle Abschlussnachweise',()=>{
+ const {A,B}=model(),s=B.newState(true),id='280',legacy=[{side:'d',amount:B.byId[id].opening,label:'AB · Eröffnungsbilanz',opening:true},...B.journal(s).flatMap(e=>e.lines.filter(l=>l.account===id).map(l=>({side:l.debit?'d':'c',amount:l.debit||l.credit,label:'BC-'+String(e.id).padStart(4,'0')+' · '+e.date.slice(8,10)+'.'+e.date.slice(5,7)+'.'})))];let hash=2166136261;for(const c of JSON.stringify([id,legacy]))hash=Math.imul(hash^c.charCodeAt(0),16777619);const m=A.model(s,id);assert.equal(m.signature,(hash>>>0).toString(36));s.accountClosures=[[id,m.signature,m.amount,m.side]];assert.equal(A.closed(B.unpack(B.pack(s)),A.model(s,id)),true);
+});
+test('Eigener Saldo und Abschlussseite müssen stimmen; Gegenkonto und Gegenbuchungsseite bleiben auch nach Erfolgskonten eigene Entscheidungen',()=>{
+ const {A,B}=model();let s=B.newState(false);s=B.post(s,{date:'2026-10-02',reference:'D',text:'Darlehensaufnahme',lines:[B.L('280',50000),B.L('425',0,50000)]}).state;const m=A.model(s,'280');assert.throws(()=>A.close(s,'280',{automatic:true}),/selbst/);assert.equal(A.close(s,'280',{value:'1',side:'c'}),null);assert.equal(A.close(s,'280',{value:String(m.amount/100),side:'d'}),null);assert.equal(A.close(s,'280',{...closingInput(A,s,'280'),counter:'802'}),null);assert.equal(A.close(s,'280',{...closingInput(A,s,'280'),counterSide:'c'}),null);const next=A.close(s,'280',closingInput(A,s,'280'));assert.equal(A.closed(next,A.model(next,'280')),true);assert.deepEqual(plain(B.snapshot(next)),plain(B.snapshot(s)));assert.equal(next.entries.length,s.entries.length);
+});
+test('Abschluss gleicht beide Seiten aus, auch bei Gegenbuchungen und bereits ausgeglichenen Konten',()=>{
+ const {A,B}=model();const s=B.newState(false);let m=A.model(s,'425',{rows:[{side:'d',amount:500000,label:'Tilgung'}]});assert.equal(m.amount,48500000);assert.equal(m.side,'d');assert.equal(m.debit+m.amount,m.credit);m=A.model(s,'670',{rows:[{side:'d',amount:60000,label:'Aufwand'},{side:'c',amount:60000,label:'Korrektur'}]});assert.equal(m.amount,0);assert.equal(m.side,'0');assert.equal(m.debit,m.credit);m=A.model(s,'280',{opening:0,rows:[{side:'c',amount:100,label:'ungewöhnlicher Habensaldo'}]});assert.equal(m.side,'d');assert.equal(m.total,100);
+});
+test('Kontenabschlüsse überstehen SCORM; neue Buchungen verlangen einen erneuten Abschluss nur auf betroffenen Konten',()=>{
+ const {A,B,c}=model();let s=B.unpack(BioCasa.pack(foundations()));s=A.close(A.close(s,'280',closingInput(A,s,'280')),'300',closingInput(A,s,'300'));const restored=B.unpack(JSON.parse(c.BioCasaStorage.decompress(c.BioCasaStorage.compress(JSON.stringify(B.pack(s))))));assert.equal(A.closed(restored,A.model(restored,'280')),true);s=B.post(restored,{date:'2026-12-31',reference:'N',text:'Weitere Darlehensaufnahme',lines:[B.L('280',20000),B.L('425',0,20000)]}).state;assert.equal(A.closed(s,A.model(s,'280')),false);assert.equal(A.closed(s,A.model(s,'300')),true);const reloaded=B.unpack(B.pack(s));assert.equal(reloaded.accountClosures.length,1);assert.equal(reloaded.accountClosures[0][0],'300');assert.throws(()=>B.unpack({...B.pack(restored),c:[['999','x',1,'d']]}),/Kontenabschluss/);
+});
+test('Neue Bestandskonteneinheit fordert vollständige Eröffnung und selbst ermittelte Salden; alte Nachweise bleiben gültig',()=>{
+ const {A,B,L}=model();let s=B.unpack(BioCasa.pack(inventoryDone()));for(const id of ['inventar','balance'])s=L.record(s,id,builderAnswers[id]).state;const a=openingAnswers(A);assert.equal(A.openingReady(a),true);assert.equal(L.check('accounts',a).ok,true);for(const bad of [{...a,o057v:'1'},{...a,o300s:'debit'},{...a,bankSaldo:''},{...a,loanCloseSide:'c'}]){assert.equal(L.record(s,'accounts',bad).state,null);assert.equal(L.progress(s).stage,3);}const next=L.record(s,'accounts',a).state;assert.equal(L.progress(next).stage,4);assert.throws(()=>A.close(next,'280',{automatic:true}),/selbst/);assert.equal(L.check('accounts',builderAnswers.accounts).ok,true);assert.equal(B.snapshot(next).assets,B.snapshot(s).assets);
+});
+test('Vollständiger neuer Lernweg mit Eröffnung, Salden und Kontenabschlüssen passt in Moodle',()=>{
+ const {A,B,L,c}=model();let s=B.unpack(BioCasa.pack(inventoryDone()));for(const step of L.STEPS.slice(1)){const a=step.id==='accounts'?openingAnswers(A):builderAnswers[step.id];s=L.record(s,step.id,a).state;assert.ok(s,step.id);}for(const id of ['280','425','300','087'])s=A.close(s,id,closingInput(A,s,id));const encoded=c.BioCasaStorage.compress(JSON.stringify(B.pack(s)));assert.ok(encoded.length<=4096,encoded.length);const out=B.unpack(JSON.parse(c.BioCasaStorage.decompress(encoded)));assert.equal(L.progress(out).stage,9);assert.equal(out.accountClosures.length,4);assert.equal(out.learning.answers.accounts.bankSaldo,'155590');
+});
+
+test('Abschluss und Gegenbuchung führen denselben Betrag auf entgegengesetzten Seiten zu SBK bzw. GuV',()=>{
+ const {A,B}=model();let s=B.newState(true);for(const id of ['280','425','670','5000']){
+  const m=A.model(s,id),input=closingInput(A,s,id),before=B.pack(s);s=A.close(s,id,input);assert.ok(s);assert.equal(s.entries.length,before.e.length);const target=A.counterModel(s,m),row=target.rows.find(r=>r.counterAccounts.includes(id));if(!m.amount)continue;assert.equal(target.id,m.balance?'801':'802');assert.equal(row.amount,m.amount);assert.equal(row.side,m.side==='d'?'c':'d');assert.equal(row.highlight,true);
+ }
+ const restored=B.unpack(B.pack(s));assert.equal(restored.accountClosures[0].length,6);assert.equal(restored.accountClosures.length,4);const bad=B.pack(s);bad.c[0][4]='802';assert.equal(B.unpack(bad).accountClosures.length,3);
+});
+test('Neuer Bestandskontennachweis verlangt beide Gegenbuchungsentscheidungen; ein Nullsaldo benötigt keine Buchung',()=>{
+ const {A,B,L}=model(),input=openingAnswers(A);for(const invalid of [{bankCounter:''},{bankCounter:'800'},{bankCounterSide:'c'},{loanCounter:'802'},{loanCounterSide:'d'}])assert.equal(L.check('accounts',{...input,...invalid}).ok,false);
+ const s=B.newState(false),m=A.model(s,'670');assert.equal(m.amount,0);assert.deepEqual(plain(A.closing(m)),{counter:'0',counterSide:'0'});assert.equal(A.close(s,'670',{value:'0',side:'0',counter:'802',counterSide:'d'}),null);assert.ok(A.close(s,'670',{value:'0',side:'0',counter:'0',counterSide:'0'}));
+});

@@ -8,6 +8,7 @@ Frühere Fassungen bleiben in der Git-Historie nachvollziehbar.
 
 | Bereich | Arbeitsstand |
 |---|---|
+| BRC · BioCasa OS | [Lernunternehmen: Quellcode, Tests und Codex-Einstieg](Fachbereiche/BRC/BioCasaOS/) |
 | BRC · BioCasa LG01 | [Sechs Lernsituationen](Fachbereiche/BRC/LG01/) |
 | Sozialpädagogik | [30 Lernpfadübungen](Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/) |
 | ReNo | [Bereich für künftige Lernsituationen](Fachbereiche/ReNo/) |
@@ -45,6 +46,17 @@ Nach Änderungen auf `main` prüft und aktualisiert der Workflow
 „Aktuelle SCORM-Pakete“ die Downloads. Erst der erfolgreiche Lauf bestätigt den
 aktuellen Export. Automatische Nutzer prüfen zusätzlich `master.py check --archives`.
 
+### BioCasa OS fortsetzen
+
+Der feste Projektordner ist `Fachbereiche/BRC/BioCasaOS`; seine [AGENTS.md](Fachbereiche/BRC/BioCasaOS/AGENTS.md) und [STATUS.md](Fachbereiche/BRC/BioCasaOS/STATUS.md) beschreiben die didaktischen Regeln und offenen Prüfungen. Die Oberfläche ist ein eigenständiges Rechnungswesen-Lernunternehmen.
+
+```bash
+npm --prefix Fachbereiche/BRC/BioCasaOS test
+python3 Fachbereiche/BRC/BioCasaOS/scripts/project.py check --archive
+```
+
+Der übernommene Sites-Stand `0.10.0` heißt im zweistelligen Paketkatalog `0.10`; Lernstandskennungen bleiben unverändert. GitHub enthält den fortzuführenden Quellcode. Die bestehende private Website und installierte Moodle-Aktivitäten werden durch einen Push nicht automatisch ersetzt.
+
 ## Arbeitsweise und neue Fächer
 
 Die freigegebene Gestaltung, Bedienung, vollständige Handlung, Materialzugriff,
@@ -57,3 +69,4 @@ Details: [Master bearbeiten und erweitern](MASTER.md).
 Die sichtbaren Nummern starten bei dieser organisatorischen Umstellung mit `1.0`.
 Das setzt weder fachliche Inhalte noch SCORM-Lernstände zurück. Bereits hochgeladene
 Moodle-Pakete müssen weiterhin durch einen neuen Import ersetzt werden.
+

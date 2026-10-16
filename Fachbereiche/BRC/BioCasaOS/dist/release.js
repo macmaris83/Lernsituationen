@@ -1,0 +1,9 @@
+/* Unterrichtssteuerung per Paketkonfiguration. Kein Rollen- oder Berechtigungsersatz. */
+(function(root){
+'use strict';
+function validate(config){const x=config?.inventar;if(config?.version!==1||!x||!['automatic','hold','date'].includes(x.mode))throw Error('Ungültige Inventar-Freigabe.');if(x.mode==='date'&&(typeof x.opensAt!=='string'||!Number.isFinite(Date.parse(x.opensAt))))throw Error('Bitte einen gültigen Freigabetermin wählen.');return {version:1,inventar:{mode:x.mode,opensAt:x.mode==='date'?new Date(x.opensAt).toISOString():null}};}
+function status(now=Date.now()){let c;try{c=validate(root.BioCasaCourseConfig);}catch{return {mode:'hold',allowed:false,opensAt:null,invalid:true};}const x=c.inventar;return {...x,allowed:x.mode==='automatic'||x.mode==='date'&&Number(now)>=Date.parse(x.opensAt)};}
+function source(config){return '/* Von der Lehrkraft konfigurierte Inventar-Freigabe. */\nglobalThis.BioCasaCourseConfig=Object.freeze('+JSON.stringify(validate(config))+');\n';}
+function berlinInputToISO(input){if(!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(input))throw Error('Datum und Uhrzeit fehlen.');const target=Date.parse(input+':00Z');if(!Number.isFinite(target)||new Date(target).toISOString().slice(0,16)!==input)throw Error('Ungültiger Termin.');const fmt=new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Berlin',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'});let t=target;for(let i=0;i<3;i++){const p=Object.fromEntries(fmt.formatToParts(new Date(t)).map(x=>[x.type,x.value]));const shown=Date.parse(`${p.year}-${p.month}-${p.day}T${p.hour}:${p.minute}:${p.second}Z`);const delta=target-shown;if(!delta)return new Date(t).toISOString();t+=delta;}throw Error('Dieser Termin ist in Europe/Berlin nicht eindeutig verwendbar. Bitte eine andere Uhrzeit wählen.');}
+root.BioCasaRelease=Object.freeze({validate,status,source,berlinInputToISO});
+})(globalThis);

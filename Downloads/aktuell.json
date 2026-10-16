@@ -74,6 +74,18 @@
       "files": 130
     },
     {
+      "id": "BRC-BIOCASA-OS",
+      "title": "BioCasa OS · Rechnungswesen",
+      "bereich": "BRC",
+      "typ": "Lernunternehmen",
+      "master": "Fachbereiche/BRC/BioCasaOS/dist",
+      "version": "0.10",
+      "archive": "Downloads/BRC-BIOCASA-OS/BioCasa_OS_v0.10_SCORM12.zip",
+      "masterSha256": "2c9cc7097359a6a65f4dcfe21f40bfe0c50f9a471cb7d6c95d76412e943950d8",
+      "archiveSha256": "be990dbddb4bb642ae9f465aebbda6aac1c731560b4650adde8d1c6218b47137",
+      "files": 27
+    },
+    {
       "id": "SOZPAED-LERNPFAD-LS1_1",
       "title": "Berufsrolle begründen",
       "bereich": "Sozialpädagogik",

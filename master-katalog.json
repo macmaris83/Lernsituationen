@@ -57,6 +57,16 @@
       "archiveStem": "BRC_LG01_LS06"
     },
     {
+      "id": "BRC-BIOCASA-OS",
+      "title": "BioCasa OS · Rechnungswesen",
+      "bereich": "BRC",
+      "typ": "Lernunternehmen",
+      "master": "Fachbereiche/BRC/BioCasaOS/dist",
+      "version": "0.10",
+      "archiveStem": "BioCasa_OS",
+      "manifestOnly": true
+    },
+    {
       "id": "SOZPAED-LERNPFAD-LS1_1",
       "title": "Berufsrolle begründen",
       "bereich": "Sozialpädagogik",

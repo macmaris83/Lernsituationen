@@ -1,0 +1,292 @@
+BioCasa OS 0.10 – Moodle-Erprobung
+================================
+
+EINMALIG ALS LEHRKRAFT EINRICHTEN
+1. Die BioCasa-OS-ZIP unentpackt in eine Moodle-Aktivität „Lernpaket“ /
+   „SCORM-Paket“ hochladen. Sie ist das zusätzliche betriebliche Arbeitswerkzeug
+   zu den neun bestehenden LG02-Lernpaketen.
+2. Anzeige im aktuellen Fenster wählen; den Anzeigebereich möglichst groß setzen.
+3. „Neuen Versuch erzwingen“ ausschalten. „Sperren nach letztem Versuch“ und
+   „Abgeschlossen erzwingen“ für die laufende Erprobung ausschalten.
+4. Lernende sollen ihren persönlichen Versuch öffnen, keine Vorschau. Für die
+   Fortsetzung denselben Versuch aufrufen. Ein neuer Versuch hat eigene Daten.
+5. Das Paket überträgt keine Rohpunktzahl und keine fachliche Leistungsnote.
+   Die neun erreichten Lernschritte melden den Bearbeitungsstatus
+   „abgeschlossen“. Bei einer Wiederaufnahme nach Abschluss den angebotenen
+   Modus prüfen: Vorschau/Review wird in OS ausdrücklich als solcher angezeigt.
+   Änderungen im Review werden nur lokal gesichert.
+
+LEHRKRÄFTEMODUS AUSWÄHLEN
+- Oben rechts „Ansicht wählen“ → „Lehrkräftemodus“ auswählen. Alle Themen
+  sind in der getrennten Lehrkräftevorschau frei anwählbar.
+- „Lernen“ führt auf der privaten Website zum persönlichen Lernstand zurück.
+  Entwürfe werden vor dem Wechsel gesichert; Überspringen erzeugt keine Nachweise.
+- Aus Moodle öffnet die Auswahl die private Lehrkräftevorschau in einem neuen
+  Tab. Dafür ist die Zugangsberechtigung zur privaten Website erforderlich.
+  Der laufende Moodle-Versuch behält seinen Stand und seine Voraussetzungen.
+
+BUCHEN IM FOKUSMODUS (NEU IN 0.7)
+- „Neue Buchung“ beziehungsweise das Buchungsblatt öffnet die Fokusansicht.
+  Links steht die Buchungsmaske, rechts stehen die Veränderungen. Der Hintergrund wird unscharf
+  und bleibt während des Buchens nicht bedienbar.
+- Bilanz und GuV sind standardmäßig gemeinsam sichtbar. Ohne Erfolgskonto
+  erklärt die GuV, dass keine Erfolgswirkung entsteht. „T-Konten“, „Bilanz“ und
+  „GuV“ schalten die gewünschten Fenster um.
+  Es erscheinen ausschließlich eigene Kontenentscheidungen und betroffene Werte.
+- Beleg und Buchungsregeln lassen sich bei Bedarf aufklappen. Das heutige Datum,
+  Fallbezug und Speicherstatus bleiben oben sichtbar.
+- Die Kontenwahl öffnet ein anklickbares Kontenblatt, kein Dropdown.
+  Aktiva, Passiva, Aufwendungen und Erträge sind nach Kontenklassen geordnet.
+  Zielzeile, Kontonummer und fette Lehrbuchbezeichnung bleiben sichtbar. Ein Klick
+  wählt nur das Konto; Beträge und Buchungen bleiben unverändert.
+  Graue Konten sind noch nicht verfügbar oder werden über Lager erfasst.
+- „Fokus verlassen“ oder Esc kehrt ohne Verlust zum normalen Buchungsblatt zurück.
+  Nach der Wiederaufnahme des Buchungsblatts startet der Fokus wieder automatisch.
+- Fensterwechsel, Pfeile und Vorschau buchen nichts. Erst die ausdrücklich
+  beschriftete Buchungsschaltfläche schreibt einen fachlich geprüften OS-Beleg
+  beziehungsweise einen technisch zulässigen freien Buchungssatz ins Journal.
+
+T-KONTEN ERÖFFNEN UND ABSCHLIESSEN (NEU IN 0.8)
+- Nach der Bilanz eröffnest du die grundlegenden Bestandskonten selbst.
+  Anfangsbestand und Eröffnungsseite kommen aus deiner geprüften Bilanz.
+  Vor deiner Eingabe bleiben die T-Konten in dieser Eröffnungsübung leer.
+- Im weiteren Arbeiten stehen die Anfangsbestände als „EBK“ auf den Bestandskonten.
+  Gegenkonten stehen mit Nummer und Kontenbezeichnung neben dem Buchungsdatum.
+  Graue Zeilen sind vorgegeben; eigene Buchungen bleiben normal dargestellt.
+  Maßgeblich ist das Datum des Belegs bzw. der Buchungsmaske, nicht der Sicherungszeitpunkt.
+  Entwürfe zeigen das gerade gewählte Datum. Bewege die Maus über die Zeile
+  oder tippe sie auf dem iPad an, um den betrieblichen Hintergrund zu lesen.
+  Erfolgskonten beginnen ohne AB. Erst beim Abschluss kennzeichnet eine
+  Buchhalternase die freien Zeilen der kürzeren Seite. Beide Summenzeilen
+  stehen immer auf derselben Höhe.
+- In jeder Einheit entscheidest du selbst über Saldo, Abschlussseite,
+  Gegenkonto und die Seite der Gegenbuchung. Erst wenn alle Angaben stimmen,
+  trägt OS ein. Vorher bleibt die Abschlussdarstellung ohne Lösung.
+- Danach zeigen orange Kästen die Saldodifferenz und beide zusammengehörenden
+  Einträge. Das zweite T-Konto zeigt den bisherigen SBK- bzw. GuV-Ausschnitt.
+  Ohne Differenz wird kein Saldo und keine Gegenbuchung ergänzt.
+- Der Abschluss betrifft den gebuchten Stand. Ein Entwurf wird nicht eingebucht.
+  Neue Buchungen erfordern auf betroffenen Konten einen erneuten Abschluss.
+  Der geprüfte Abschluss bleibt im persönlichen Stand gespeichert.
+- Dies ist eine didaktische Abschlussansicht mit den Gegenbuchungen auf
+  801 (SBK) bzw. 802 (GuV). Ein vollständiger Jahresabschluss folgt später.
+
+KLEINER TOUCH-RECHNER (0.10)
+- Tippe auf ± neben einem Betragsfeld. Die Rechenhilfe öffnet im selben Formular.
+  „Übernehmen in“ nennt das gewählte Ziel. Eingeklappt bleibt sie unauffällig.
+- Gib deine Zahlen ein und rechne mit + und −. Runde Tasten, dunkle Anzeige,
+  orange Rechentasten. C löscht die Rechnung, die Rücktaste nur die letzte Ziffer.
+- Nach = wird „Ergebnis übernehmen“ aktiv. Erst dieser Klick trägt deine Summe
+  ins gewählte Feld ein. Du entscheidest weiterhin selbst über Konto und Seite.
+  Eine falsche eigene Rechnung wird nicht im Hintergrund durch die Lösung ersetzt.
+
+FÜR LERNENDE: AUTOMATISCH WEITERARBEITEN
+- Kein Dateiimport im normalen Moodle-Betrieb erforderlich.
+- Aufgaben beginnen bei Inventur, dann Inventar, Bilanz, Bestandskonten und
+  Erfolgskonten, Vor-/Umsatzsteuer, weitere Buchungen, Retouren sowie zuletzt
+  zeitlicher Erfolgsabgrenzung (ARA/PRA). Belegarbeit ist darin integriert.
+  Erst fünf richtig geprüfte Inventurfälle öffnen das Inventar, sofern keine
+  zusätzliche Lehrkraft-Sperre oder Terminbedingung gesetzt ist.
+- OS sichert Aufgabenentwürfe, unfertige Buchungen, Simulation und Lernergebnisse
+  nach Eingaben automatisch, außerdem beim Wechsel in den Hintergrund.
+- „In Moodle gespeichert“ bestätigt den laufenden persönlichen Versuch.
+- Oben stehen das heutige Datum, die Lernsituation, der fiktive Fallstichtag
+  und der Zeitpunkt der letzten Sicherung. Diese Daten sind getrennt.
+- Außerhalb von Moodle liegt die Vorschau nur im jeweiligen Browser.
+
+OPTIONALE SICHERUNG AUF DEM IPAD
+1. „Sicherung“ exportiert deinen vollständigen persönlichen Stand als JSON.
+2. Eine erhaltene JSON-Datei bei Bedarf über „Teilen“ → „In Dateien sichern“
+   in iCloud Drive oder „Auf meinem iPad“ ablegen.
+3. In BioCasa OS „Stand importieren“ antippen; im Dateidialog die JSON-Datei
+   auswählen. Datum, Lernschritt und Zahl der Buchungen in der Vorschau prüfen.
+4. „Stand ersetzen“ übernimmt die Datei. Den vorherigen Stand bei Bedarf zuerst
+   sichern. Die kurze iPad-Hilfe ist direkt neben diesen Schaltflächen erreichbar.
+Die SCORM-ZIP lädt die Lehrkraft hoch; für persönliche Stände ist JSON bestimmt.
+Bezeichnungen des Dateidialogs können je nach iPadOS/Moodle-App abweichen.
+
+ROLLENCENTER, ZAHLENWEGE UND VERSTÄNDNISCHECKS (NEU IN 0.5)
+- Die Oberfläche heißt durchgängig BioCasa OS und behält die vertraute Struktur.
+  BioCasa bleibt ein unabhängiges fiktives Lernunternehmen.
+- Die Suche oben (auch Alt+Q) findet Seiten, Lernschritte und echte Aktionen.
+  Voraussetzungen gelten weiterhin; die Lehrkräftevorschau öffnet alle Themen.
+- Bereits bei eigenen ersten Kontenentscheidungen und im Buchungsblatt erscheint
+  eine kleine Bilanz: gegliedert nach Anlage-/Umlaufvermögen und Eigen-/Fremdkapital,
+  mit den Veränderungen der betroffenen Konten.
+  Die Vorschau ist sofort sichtbar, auch ohne Klick auf „Buchung prüfen“.
+- Ein vollständig ausgeglichener Entwurf und eine übernommene Buchung starten
+  den Zahlenweg automatisch. Der Betrag wandert mit einem Pfeil zur Bilanz.
+  „Zahlenweg abspielen“ wiederholt; Antippen pausiert bzw. setzt fort.
+  „Nächster Pfeil“ führt einzeln weiter. Unveränderte Eingaben setzen den Ablauf
+  nicht zurück; reduzierte Bewegung zeigt automatisch die hervorgehobenen Schritte.
+- Vor dem zweiten Zahlenweg der ersten drei Buchungen pro Thema erscheint ein
+  Verständnischeck: vier Single-Choice-Fragen, jeweils eine sichtbar.
+  Welche Konten sind beteiligt? Welche Bilanzseite ist betroffen? Welche Konten
+  nehmen zu oder ab? Welche Beträge werden im Soll und welche im Haben gebucht?
+  Erst vier richtige Antworten setzen den Zahlenweg fort. Hinweise unterstützen
+  das erneute Denken. Die Buchung wird durch den Check nicht eingebucht.
+- Bestandene Checks bleiben im persönlichen Stand. Wiederholen zählt nicht
+  doppelt; ein neues Thema startet neu. Änderungen eines geprüften Falls werden
+  erneut geprüft. Die Lehrkräftevorschau kann den Check separat überspringen.
+- Bei Erfolgskonten wird der Weg über die GuV zum Eigenkapital gezeigt.
+- Ist auf dem Gerät reduzierte Bewegung eingestellt, führt „Nächster Pfeil“
+  ohne bewegte Beträge durch denselben Ablauf einschließlich Verständnischeck.
+
+DIDAKTISCHER AUFBAU
+- Original-BioCasa-Logo durchgängig in der Kopfzeile, auch in der Druckansicht.
+- Jg. 11: Inventur → Inventar → Bilanz → Bestandskonten → Erfolgskonten
+  → Vor-/Umsatzsteuer → weitere Buchungen → Retouren → zeitliche Erfolgsabgrenzung.
+- Zwei Inventurfälle mit LS-Verweis und drei zusätzliche, hellgrüne OS-Übungen.
+  Aufnahmeart (körperlich/Buchinventur) und Organisation (Stichtag/permanent)
+  werden unterschieden. Alle fünf Fälle müssen richtig geprüft sein.
+- Das Inventar entsteht aus den eigenen Zuordnungen in Staffelform: Vermögen,
+  Schulden und Reinvermögen untereinander. Anschließend werden sämtliche
+  Positionen in eine Bilanz in Kontenform übertragen: Aktiva links, Passiva rechts.
+  Geprüfte Arbeitsergebnisse bleiben sichtbar; „Weiter zu …“ öffnet den nächsten Schritt.
+- Im Inventar sind Vorsteuer, sonstige Finanzanlagen und ARA grau markiert.
+  Es gibt dazu keine Zuordnungsfrage. Den Zusatzwert von 185.110 EUR übernimmt
+  OS für den vollständigen Datenkranz; die aktiven Vermögenspositionen umfassen
+  667.390 EUR. Das vollständige Vermögen bleibt 852.500 EUR.
+- Lager: 12. Jahrgang; Controlling: 13. Jahrgang. Beide sind optisch zurückgenommen
+  und nach den Bestandskonten freiwillig auf demselben Datenstand erreichbar.
+- Bestands- und Erfolgskonten werden mit denselben fünf Leitfragen untersucht:
+  Konto, Bestands-/Erfolgskonto, genaue Kontoart, Zugang/Abgang, Soll/Haben.
+- Erklärhilfen sind optional aufklappbar, schrittweise bedienbar und abspielbar.
+  Die Steuerhilfe erklärt Wertschöpfungskette, Vorsteuer, Umsatzsteuer und Verrechnung
+  an einem unabhängigen Modell. Die Hilfen verändern keine Antworten oder Buchungen.
+- Die Bilanzsimulation zeigt Aktivtausch, Passivtausch, Aktiv-Passiv-Mehrung und
+  Aktiv-Passiv-Minderung. Tatsächliche Buchungen zeigen zusätzlich ihre konkreten
+  Vorher-/Nachherwerte; Erfolg wird im Eigenkapital sichtbar.
+- Neun fiktive OS-Belege sind im Buchungsblatt auswählbar. Nur Datum, Belegnummer
+  und Text werden übernommen. Konten und Beträge bleiben leer. OS prüft diese Belege
+  fachlich vor dem Buchen; gebuchte Belege sind im Journal wieder abrufbar.
+- Jede Buchung folgt Soll an Haben. Weitere Konten stehen mit „und“ auf der
+  jeweiligen festen Seite; eine Zeile enthält nur einen Betrag.
+- Die 15 Demo-Belege beginnen mit dem betrieblichen Vorgang. Pfeile führen von
+  einem Teil der Situation über das Konto zur Bilanz-/GuV-Wirkung. Lernchecks
+  sichern die Deutung; ihr Fortschritt zählt getrennt von den neun Lernschritten.
+- Die neun gelieferten Moodle-Lernpakete sind mit Auftrag, Materialien M1–M7
+  und OS-Arbeitsmöglichkeiten zugeordnet. Die vollständigen Lernmaterialien,
+  Arbeitshefte und Abgaben verbleiben in den jeweiligen Moodle-Aktivitäten.
+  Deren Aktivitätsfortschritt wird nicht automatisch in OS übernommen.
+- Fachliche Hilfen können bei Bedarf aufgeklappt werden. Arbeitsplanung,
+  Kooperation und Checkpoints regeln die Moodle-Lernpakete.
+
+DATENSTAND
+Grundlagen: LG02-Gesamtreihe vom 05.10.2026 und BioCasa_LG02_Moodle_Lernpakete.zip.
+Eröffnung 01.10.2026: eigenes Vermögen 852.500 EUR, Eigenkapital 362.500 EUR,
+Darlehen 490.000 EUR. Die geleaste Hauptanlage und die ungenutzte Kreditlinie
+werden nicht als zusätzliches eigenes Vermögen angesetzt.
+G1–G8 entsprechen betrags- und kontengleich LS02/M2 ohne neue Umsatzsteuer.
+Die Datierung auf 02.–09.10. ist eine OS-Annahme. Für die Mengenführung wurden
+G1 mit 2000 kg Rohstoffmix zu 4 EUR und G8 mit 2000 Verpackungssets zu 0,50 EUR
+modelliert. OS-01–OS-07 sind ergänzende Funktionsbeispiele.
+Der unabhängige Mehlfall LS01/M6 vom 30.10. wird nicht zur Eröffnung addiert.
+Der Erprobungsmandant ist kein vollständiges Jahresjournal. Die eigene
+Saldenliste der LS08 und bestätigte Abschlussdaten der LS09 bleiben getrennt.
+Bei einem bewusst leeren Journal muss vor dem Einzahlungsauftrag zuerst Geld
+von der Bank in die Kasse abgehoben werden. Im Demo-Stand ist Bargeld vorhanden.
+
+TECHNIK UND GRENZEN
+SCORM 1.2, ein Lernobjekt, lokale Dateien ohne externe Laufzeitdienste.
+Maximal 4096 komprimierte Speicherzeichen und 60 zusätzliche Buchungen. Würde
+mehr benötigt, wird die Änderung vor Übernahme abgewiesen; Export bleibt möglich.
+Noch kein automatisierter EBK/SBK/GuV-Abschluss, keine vollständige Produktions-
+kalkulation, keine gemeinsame Klassenfirma oder Lehrkräfteverwaltung.
+
+LEHRKRÄFTEVORSCHAU UND FREIGABE
+- Lehrkräftevorschau: /preview.html auf der privaten BioCasa-OS-Website.
+  Alle Bereiche und neun Lernschritte sind ohne vorherige Lösungen wählbar.
+  Der Schalter wechselt zur Schüleransicht; echte Nachweise bleiben getrennt.
+  Der Vorschaustand wird separat gehalten und nie an eine Moodle-API übertragen.
+- Freigabe konfigurieren: /teacher.html auf derselben Website.
+  Automatisch nach 5/5 Inventuraufgaben, zunächst gesperrt oder ab einem Termin
+  (Europe/Berlin) wählen und das angepasste Moodle-Paket herunterladen.
+- Zum Übernehmen die ZIP in derselben Moodle-Aktivität ersetzen. Dadurch wird
+  keine entfernte Moodle-Einstellung aus der Website heraus verändert.
+- Die Lehrkräftevorschau und die Konfigurationsseite gehören nicht zur Schüler-ZIP.
+  Es gibt hier keine automatische Moodle-Rollenerkennung.
+
+ERSTER PRAXISTEST AN EURER SCHULE
+- Als Lernende/r im normalen Moodle-Modus öffnen; Lernantwort unfertig eingeben.
+- Aktivität schließen, denselben Versuch öffnen: Eingabe und Orientierung prüfen.
+- Inventar und Bilanz erstellen, die sichtbaren Ergebnisse und die fünf Leitfragen prüfen.
+- Hilfen aufklappen, manuell weitergehen, abspielen und pausieren; sie dürfen nichts buchen.
+- Einen fiktiven Beleg auswählen und prüfen, ob der Buchungssatz zunächst leer ist.
+- Einstieg lösen und den Bankbeleg buchen: Bank +200 EUR, Kasse -200 EUR,
+  Bilanzsumme unverändert. Journal und Lernstand wieder aufnehmen.
+- Weiterbearbeitung auch nach dem Status „abgeschlossen“ prüfen.
+- Auf dem iPad Hintergrundwechsel und die eingesetzte Moodle-App testen.
+- JSON-Export, Vorschau und Import sowie gewünschten Gerätewechsel prüfen.
+Die automatisierten Modell-, UI-Vorlagen- und SCORM-Simulationstests sind erfolgt.
+Der visuelle Browser-/iPad-Test und der Test an eurer Moodle-Installation stehen aus.
+
+Moodle-Einstellungen: https://docs.moodle.org/502/en/SCORM_settings
+Moodle-App: https://docs.moodle.org/502/en/Moodle_app_SCORM_player
+
+ERGÄNZENDER ABNAHMETEST 0.5
+- Eine frühe Buchung eingeben: Mini-Bilanz reagiert vor dem Prüfklick.
+- Zahlenweg starten, pausieren/fortsetzen, vor Pfeil 2 vier Fragen beantworten.
+  Falsche/fehlende Antwort sowie „Nächster Pfeil“ dürfen die Sperre nicht umgehen.
+- Nach bestandenem Check denselben Moodle-Versuch erneut öffnen: Der Check bleibt
+  gespeichert. In einem neuen Thema erscheint der eigene erste Check.
+- Hoch-/Querformat und Pfeilziele auf dem Schul-iPad prüfen. Dieser Gerätetest
+  und die Abnahme in der konkreten Moodle-Installation stehen noch aus.
+
+SCHULJAHR UND DATENBASIS VORBEREITEN (NEU IN 0.6)
+1. In der privaten Webansicht „Für Lehrkräfte: Datenbasis, Schuljahr und
+   Inventar-Freigabe einstellen“ öffnen (teacher.html).
+2. Die MD-Ausgangsdaten sind für Klasse 11 und 2026/27 eingestellt.
+   „Datensatz als bearbeitbare Vorlage herunterladen“ liefert eine JSON-Datei.
+3. Werte in Euro anpassen (höchstens zwei Nachkommastellen). Der bestehende
+   Kontenplan und die Grundstruktur der 15 Demobelege bleiben erhalten.
+   Inventurparameter, Artikel, zusätzliche Belege und Buchverweise sind enthalten.
+   Bei Änderungen auch Herkunftstexte und Herleitungen aktualisieren.
+4. JSON hochladen, die geprüfte Vorschau vergleichen und bewusst auswählen.
+   Bilanz, Belege, Daten und Lagerverknüpfungen müssen stimmig sein.
+5. Das Falljahr kann direkt geändert werden; Schuljahr und Belegdaten werden
+   angepasst. Die Lehrkräftevorschau zeigt die ausgewählte Basis.
+6. Inventar-Freigabe wählen und „Moodle-Paket mit Datenbasis und Freigabe
+   herunterladen“ antippen. Der Schülerbereich braucht keinen Daten-Upload.
+7. Für ein neues Schuljahr oder geänderte Buchungsdaten eine eigene Aktivität
+   oder einen neuen Versuch verwenden. Alte Stände werden bei abweichender
+   Datenbasis nicht automatisch eingerechnet oder überschrieben.
+   Reine Buchverweis-/Freigabeänderungen erlauben die bestehende Fortsetzung.
+
+Die Ausgangsbilanz übernimmt aus der MD: 852.500 EUR Vermögen, 490.000 EUR
+Schulden, 362.500 EUR Eigenkapital. Zusätzliche Übungswerte zeigen ihre Herleitung
+unter „Datenbasis“. Lager und Controlling nutzen weiterhin das gemeinsame Journal.
+Lehrbuchfundstellen erscheinen aufklappbar am jeweiligen Thema. Seiten stammen
+aus dem in der MD belegten Register; sie sind für andere Ausgaben anpassbar.
+Für Retouren ist keine eigene gesicherte Seitenfundstelle vorhanden.
+
+ABNAHME 0.6
+- Geänderte Anfangsbestände und neues Falljahr als Upload prüfen.
+- Datenauswahl im konfigurierten Paket, Inventar, Bilanz und Journal vergleichen.
+- Prüfen: Ein Stand aus anderem Schuljahr wird geschützt abgewiesen; derselbe
+  Datensatz wird wieder aufgenommen.
+- Auf dem Schul-iPad die Dateiauswahl in „Dateien“, Upload-Vorschau und den
+  Schuljahreswechsel im echten Moodle prüfen. Dieser Gerätetest steht noch aus.
+
+BILANZAUSSCHNITT UND BUCHUNGSSATZ (0.10)
+- Die Bilanzwirkung zeigt Anlagevermögen und Umlaufvermögen links sowie
+  Eigenkapital und Fremdkapital rechts. Graue Gruppenüberschriften geben Struktur.
+- Betroffene Konten stehen mit Nummer, Kontobezeichnung und Veränderungsbetrag
+  möglichst in einer Zeile. Vorher-/Nachher-Werte entfallen; auf wenig Platz
+  wird umgebrochen. ARA und PRA erscheinen bei Bedarf gesondert.
+- Der Buchungssatz steht in einer Tabelle: Konto links, Betragsspalten Soll und
+  Haben rechts. Zuerst kommen Sollkonten, danach die Habenkonten; die Tabelle benötigt kein zusätzliches „an“.
+- Die Zahlenwege und Verständnischecks bleiben Teil derselben Vorschau.
+
+ARBEITSANSICHT ANPASSEN (0.9)
+- „Buchung nach rechts/links“ tauscht die beiden Arbeitsbereiche. Auf schmalen
+  Bildschirmen bestimmst du stattdessen, welcher Bereich zuerst erscheint.
+- Ziehe den Trenner zwischen Buchung und Veränderungen oder nutze den Regler.
+  Der Trenner lässt sich auch mit Pfeiltasten sowie Pos1/Ende bedienen.
+- „GuV zuerst“ beziehungsweise „Bilanz zuerst“ ändert die Berichtsanordnung.
+  „Untereinander/Nebeneinander“ passt sie an deinen Platz und Schwerpunkt an.
+- „Standardansicht“ stellt Buchung links, Veränderungen rechts sowie Bilanz
+  und GuV wieder her. Deine Eingaben und Nachweise bleiben erhalten.
+- Die gewählte Anordnung und Fensterwahl werden mit deinem Stand gesichert.
+- In der Buchungssatztabelle stehen die Beträge unter Soll und Haben; ein
+  zusätzliches „an“ vor dem Habenkonto entfällt hier.

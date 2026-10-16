@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="BIOCASA_OS_01" version="1.0"
+ xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+ xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2">
+ <metadata><schema>ADL SCORM</schema><schemaversion>1.2</schemaversion></metadata>
+ <organizations default="BIOCASA_ORG">
+  <organization identifier="BIOCASA_ORG">
+   <title>BioCasa OS · Rechnungswesen</title>
+   <item identifier="BIOCASA_ITEM" identifierref="BIOCASA_SCO" isvisible="true">
+    <title>BioCasa OS · Persönlicher Übungsmandant</title>
+   </item>
+  </organization>
+ </organizations>
+ <resources>
+  <resource identifier="BIOCASA_SCO" type="webcontent" adlcp:scormtype="sco" href="index.html">
+   <file href="index.html"/><file href="styles.css"/><file href="dynamics.css"/><file href="data-defaults.js"/><file href="data-config.js"/><file href="dataset.js"/><file href="engine.js"/>
+   <file href="course-config.js"/><file href="release.js"/><file href="inventory-cases.js"/><file href="later-lessons.js"/>
+   <file href="composer.js"/><file href="didactics.js"/><file href="booking-checks.js"/><file href="flow-player.js"/><file href="learning.js"/><file href="accounts.js"/><file href="calculator.js"/><file href="tutorials.js"/><file href="drafts.js"/><file href="curriculum.js"/><file href="storage.js"/><file href="app.js"/><file href="KURZSTART.txt"/>
+   <file href="assets/biocasa-logo.svg"/><file href="assets/bbs1-aurich-white.png"/>
+  </resource>
+ </resources>
+</manifest>

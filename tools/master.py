@@ -46,6 +46,8 @@ def catalog(root):
     ids, masters, stems = set(), set(), set()
     for item in data['packages']:
         version(item['version'])
+        if 'manifestOnly' in item and not isinstance(item['manifestOnly'], bool):
+            raise ValueError(f'{item["id"]}: manifestOnly muss ein Wahrheitswert sein')
         for field in ('id', 'archiveStem'):
             if not re.fullmatch(r'[A-Za-z0-9_-]+', item[field]):
                 raise ValueError(f'Ungültiges {field}: {item[field]}')
@@ -75,6 +77,7 @@ def files_for(root, item):
     resources = [node for node in manifest.iter() if node.tag.split('}')[-1] == 'resource']
     if not resources:
         raise ValueError(f'{item["id"]}: keine Startressource')
+    declared = {'imsmanifest.xml'}
     for node in manifest.iter():
         if node.tag.split('}')[-1] not in ('resource', 'file') or not node.get('href'):
             continue
@@ -85,6 +88,11 @@ def files_for(root, item):
         within(folder, name)
         if name not in files:
             raise ValueError(f'{item["id"]}: Manifest-Datei fehlt: {name}')
+        declared.add(name)
+    # Opt-in for tools with authoring/teacher pages beside their learner runtime.
+    # Existing masters retain their complete current-file export unchanged.
+    if item.get('manifestOnly', False):
+        files = {name: path for name, path in files.items() if name in declared}
     return files
 
 
@@ -268,3 +276,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
