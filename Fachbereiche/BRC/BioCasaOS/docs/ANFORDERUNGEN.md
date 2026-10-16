@@ -44,3 +44,11 @@ Produktname BioCasa OS, vertraute alte Struktur mit Dynamics-naher Optik. Origin
 
 GitHub wird bei jeder beauftragten Änderung mit genau diesem Ergebnis aktualisiert. Die Dokumentation offener Punkte erteilt keinen Auftrag zur eigenständigen Weiterentwicklung.
 
+
+
+## Ergänzung 16.10.2026 · Informationsmenge und Touch
+
+Anfangs sichtbare Texte insgesamt um etwa 30 % reduzieren. Vertraute Symbole und wiederkehrende Original-Logos nutzen, kurze Namen zur Orientierung erhalten. Grüne Bestands-, blaue Finanz- und violette Aufgabenzeichen wiederholen sich in Navigation, Kopf und Lernschritten. Speichern/Import und Weiter ebenfalls kompakt darstellen. Touch-Schaltflächen auf dem iPad groß halten (mindestens 48 × 48 CSS-Pixel), mit Abstand und antippbaren Antwort-/Aufklappzeilen. Die Vereinfachung ändert keine fachlichen Anforderungen oder Kontenwerte.
+
+
+Erweiterbarkeit ist verbindlich: Versionswechsel dürfen keine Zwischenstände verlieren. Buchungen, Lernergebnisse und unfertige Eingaben sind zu übernehmen. Anzeigenummer und Speicherformat getrennt führen; bei Formatänderungen Migration und Wiederaufnahmetest vorsehen.

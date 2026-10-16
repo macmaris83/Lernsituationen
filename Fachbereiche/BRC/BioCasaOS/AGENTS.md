@@ -45,6 +45,8 @@
 - Schuljahres-/Datenupload validieren; inkompatible Stände nicht vermischen. Keine neuen Datenkennungen nur wegen einer Anzeigenummer.
 - SCORM 1.2: persönliche Wiederaufnahme im selben Versuch, Autosave, kein Raw Score, Read-only/Review respektieren. 4096-Zeichen-Grenze vor Mutationen prüfen; JSON-Sicherung erhalten.
 - Manifest-, SCO-, Aufgaben-, Konten-, Speicher- und Fortschrittskennungen stabil halten. Alte Nachweis-/Lernstandsschemata lesbar lassen. Keine realen Schülerdaten ins Repository übernehmen.
+- Neue Anzeigenummern dürfen niemals vorhandene Stände zurücksetzen oder neue Speicherplätze erzwingen. Bei einer Änderung des Daten-/Speicherformats vor Veröffentlichung eine geprüfte Migration für alte Stände vorsehen; unbekannte Stände erhalten und verständlich melden, nicht still neu beginnen.
+- `tests/fixtures/upgrade-0.10.json` ist ein synthetischer, mit der echten 0.10-Laufzeit erzeugter Ausgangsstand. Der Wiederaufnahmetest muss bei Updates Buchungen, Nachweise und unfertige Eingaben erhalten. Diese alte Testdatei nicht durch einen neu erzeugten aktuellen Stand ersetzen.
 
 ## Prüfen und ausliefern
 

@@ -1,0 +1,659 @@
+{
+  "sourceVersion": "0.10",
+  "sourceCommit": "495531b14dc777ef7b84d3b65aa5829217bdf83e",
+  "synthetic": true,
+  "packed": {
+    "v": 1,
+    "s": 1,
+    "e": [
+      [
+        16,
+        "2026-10-16",
+        "Einzahlung zur Wiederaufnahmeprüfung",
+        "Upgrade-Test",
+        [
+          [
+            16,
+            20000,
+            0
+          ],
+          [
+            17,
+            0,
+            20000
+          ]
+        ],
+        null,
+        null,
+        null
+      ]
+    ],
+    "r": "",
+    "l": "w2",
+    "w": "home",
+    "n": 14,
+    "p": {
+      "answers": {
+        "inventory": {
+          "method": "physical",
+          "ownership": "exclude",
+          "quantity": "962,5",
+          "value": "1925"
+        },
+        "inventar": {
+          "vehicle": "av",
+          "furniture": "av",
+          "bank": "uv",
+          "loan": "debt",
+          "basicAssets": "667390",
+          "debts": "490000",
+          "equity": "362500",
+          "assets": "852500"
+        },
+        "balance": {
+          "bankSide": "assets",
+          "loanSide": "passives",
+          "leftTotal": "852500",
+          "rightTotal": "852500"
+        },
+        "accounts": {
+          "bankStart": "debit",
+          "loanStart": "credit",
+          "bankAmount": "160390",
+          "loanAmount": "490000",
+          "assetIncrease": "debit",
+          "debtIncrease": "credit"
+        },
+        "income": {
+          "expense": "670",
+          "amount": "1000",
+          "payment": "280",
+          "profit": "down",
+          "revenueSide": "credit",
+          "cash": "same"
+        },
+        "tax": {
+          "vehicle": "40000",
+          "vat": "7600",
+          "gross": "47600",
+          "outputTax": "190",
+          "nature": "claim"
+        },
+        "further": {
+          "depreciation": "1000",
+          "debit": "652",
+          "credit": "076",
+          "cash": "same",
+          "stock": "separate"
+        },
+        "returns": {
+          "net": "200",
+          "vat": "38",
+          "gross": "238",
+          "cash": "same",
+          "stock": "inspect"
+        },
+        "accrual": {
+          "ara": "600",
+          "araSide": "debit",
+          "pra": "900",
+          "praSide": "credit",
+          "period": "next",
+          "cash": "same"
+        }
+      },
+      "cases": [],
+      "inventoryCases": {
+        "documents": {
+          "method": "documents",
+          "bank": "160390",
+          "loan": "490000",
+          "creditLine": "exclude"
+        },
+        "pizza": {
+          "method": "physical",
+          "quantity": "90",
+          "value": "270",
+          "evidence": "countsheet"
+        },
+        "cutoff": {
+          "quantity": "335",
+          "value": "670",
+          "procedure": "rollforward",
+          "timing": "stichtag"
+        },
+        "permanent": {
+          "quantity": "730",
+          "timing": "permanent",
+          "physicalCheck": "required",
+          "axes": "both"
+        }
+      }
+    },
+    "d": {
+      "focus": [
+        62,
+        1,
+        1,
+        1,
+        6
+      ],
+      "learning": {
+        "income": {
+          "amount": "1000,",
+          "profit": "down"
+        }
+      },
+      "inventoryCases": {
+        "permanent": {
+          "quantity": "73",
+          "timing": "permanent"
+        }
+      },
+      "inventoryCase": "permanent",
+      "book": {
+        "date": "2026-10-20",
+        "reference": "Offener Entwurf",
+        "text": "Noch nicht gebucht",
+        "bankGuess": "",
+        "balanceGuess": "",
+        "lines": [
+          {
+            "side": "debit",
+            "account": "280",
+            "amount": "200,"
+          },
+          {
+            "side": "credit",
+            "account": "288",
+            "amount": ""
+          }
+        ]
+      }
+    },
+    "t": "2026-10-16T12:50:00.000Z",
+    "u": null,
+    "h": "bc11-1s2443yzjg4dc"
+  },
+  "suspendData": "BC1:EAB7AiB2AiA6AxAsAiBzEFEHAiBlEFBbBbAxA2EIAyAwAyA2AtAxAwEZA2AiEIBFBpBuB6BhBoBsB1BuBnAgB6B1ByAgBXBpBlBkBlByBhB1BmBuEkBtBlBwByDDC8BmEnBnEeAiBVBwBnE0EyAtBUBlBzB0EeEQESAsEVAwFUAsAwBdAsERA3FWFSFUFUBdFYBuB1BsBsAsFiFkFmFjBsFgEIByEFAiFDBsFvB3AyFDB3FvBoBvE6FDBuELA0EIBwEFECBhBuBzB3EzEKA6ECEhB2BlBuB0BvByB5GCAiE6B0F5BkFvBwBoB5BzBpBjBhFyEIBvB3BuGIBoBpGBA6ENB4BjEmEyFDBxB1GEB0BpB0GTGrA5A2AyAsA1FDB2GhB1EOGrAxA5AyG+B9EIGMGOB0BhFuGKEDBlGoGuHDAiBhEEEIFAByBuG2EsHVHXFDBiGEBrFvB1HYAiBsBvGEFvEyBiFOEIHiGeBjBBBzBzBlB0GJAiA2A2A3AzA5AwFDHtH4FvA0H/FeFDBlGyG2G4AiAzG7A1FUFDBhH1H3H5A4A1HHIRHJAiHiBsGEBjHDECHiBuBrBTBpGwGrITH2IDEIHpGEImIoAiBwIqBpGNEKItBlBmB0BUBvHNFyGrIXIZIAFtBpBnBoI7I9GhFvJBIQIAIbBhBjBjBvEnIDHQIjIlHNByFOGrHtG2FxHqBuBTJZJbAiBjByExJeHwHjBBBtJTGPFvESAwH+JDHoJgJsJuJkIFFeJ0IqH3BJBuJmBlITHVJdHvAiICJ/KBKDFvKBBkJeIbEhJSF7HQBlB4BwGOH2FvH8J8JtJUJwIHGABhB5E6JvGrAyA4J0E8BvBmJeJcGkF9FtBlGNFiBlIwHVKNJpJlITBoFvBzBhF7IbHNB4GUGNHTBsHVA0J7G/BhJkA3A2IREIFHBvH1IELOLQAiJTB0BwB1I7BhLDHEH/F8LMHeKMIeBpBtAiIbHaGXEzGUEyE8BlBjBpLMBpBvF9HEKgKHBlBiKtH6IYFDK4JkAwLOMAK7K9K/EOEIFNBvBjHkGrH2IzE0B0EOIbJnB0EsGFGUGmJkFTLLJkAzA4FDLSLUKmMgMFBzK8MPMIFDMLMNFvEhBzKXBjFOJPJRByGzI/GDE0KaLXHOBhK2HsL7K5E8BhFvIGFDNENAGrMBNIEzL1GZGrGmB4KGGgMoMHLAIbNVFMEPFYAiHLGPGRB5BDKDGJECBkMMB1KkJVECGWGYHsNoNqI3IcHjJwLPJzJfHrGrJ6L5MBBMEhHVKVGuB1GwIbBwBpB6EjGUNtBvNQIyGcHyJKEIGyG0ILNGJ0HAEmHVAyA3J0KyInGOIgKMJ4MoBlH3LpEIBjLcKrBmGUOTGPOVGrAzAzG+EIOYHCKaOcNIByMMExLkGrO7FkBmGRB3HOGZEIG1BtEhFCMPG1BjJHBhFCOFEzBtGEHMOtGzOvG3FvH9J0PIPKGaPTPVJvGAOPGfGhBDBoLxMOAiJnIKJnPGHWB4NbGrBiI9K8B9P4EINQECPCOpGJBbG7AsEHQDAsA2NdLHHOHcEoGUKRF6IhHWKdKlAiEaFVO6KrL9NnGlLpKQBuKzGQGSNjH2NlIyPhGmKlECOuG1PaGrH9FDPeQLGrKXByPUQmM0QcQeNhQhHVQyQ0PWHwBvBvMONmLMOaEWEYEaAtEVFDJnBmEzOgHVBPBmRNGmEtBFGPB3EsOsPHKVJkBOMMBoAgHcPOB0AgBnL7B1RjHhHjBHHCMkFwJqIeKABlRsFMH5FxN/P/ECGeIxKFISJRJ4FvKnKcSAKmQVHJR6OfKMPvK5JQJSKeKmA4MhEIK/SEFwB9BdP5AiMcRGEZEbESBUAxAyA6IQA6FUAuFeBaFDB1EFFnFlAiMpIcBjAxAxEZBzAyA0A0AzB5B6BqBnA0BkBjLpEBA=",
+  "snapshot": {
+    "entries": [
+      {
+        "date": "2026-10-02",
+        "text": "LS02 G1 · Rohstoffe auf Ziel · ohne Steuer",
+        "reference": "G1 / ER-01",
+        "id": 1,
+        "source": "seed",
+        "reversalOf": null,
+        "task": null,
+        "lines": [
+          {
+            "account": "200",
+            "debit": 800000,
+            "credit": 0
+          },
+          {
+            "account": "440",
+            "debit": 0,
+            "credit": 800000
+          }
+        ],
+        "movement": {
+          "productId": "BC-R01",
+          "qty": 2000,
+          "kind": "purchase",
+          "net": 800000,
+          "vat": 0
+        }
+      },
+      {
+        "date": "2026-10-03",
+        "text": "LS02 G2 · Büromöbel per Bank",
+        "reference": "G2 / ER-02 + BA-01",
+        "id": 2,
+        "source": "seed",
+        "reversalOf": null,
+        "task": null,
+        "lines": [
+          {
+            "account": "087",
+            "debit": 120000,
+            "credit": 0
+          },
+          {
+            "account": "280",
+            "debit": 0,
+            "credit": 120000
+          }
+        ],
+        "movement": null
+      },
+      {
+        "date": "2026-10-04",
+        "text": "LS02 G3 · Bargeld vom Bankkonto abgehoben",
+        "reference": "G3 / BA-02 + KB-01",
+        "id": 3,
+        "source": "seed",
+        "reversalOf": null,
+        "task": null,
+        "lines": [
+          {
+            "account": "288",
+            "debit": 200000,
+            "credit": 0
+          },
+          {
+            "account": "280",
+            "debit": 0,
+            "credit": 200000
+          }
+        ],
+        "movement": null
+      },
+      {
+        "date": "2026-10-05",
+        "text": "LS02 G4 · Teilzahlung an Lieferanten",
+        "reference": "G4 / BA-03",
+        "id": 4,
+        "source": "seed",
+        "reversalOf": null,
+        "task": null,
+        "lines": [
+          {
+            "account": "440",
+            "debit": 300000,
+            "credit": 0
+          },
+          {
+            "account": "280",
+            "debit": 0,
+            "credit": 300000
+          }
+        ],
+        "movement": null
+      },
+      {
+        "date": "2026-10-06",
+        "text": "LS02 G5 · Lieferantenschuld durch Darlehen abgelöst",
+        "reference": "G5 / V-01",
+        "id": 5,
+        "source": "seed",
+        "reversalOf": null,
+        "task": null,
+        "lines": [
+          {
+            "account": "440",
+            "debit": 200000,
+            "credit": 0
+          },
+          {
+            "account": "425",
+            "debit": 0,
+            "credit": 200000
+          }
+        ],
+        "movement": null
+      },
+      {
+        "date": "2026-10-07",
+        "text": "LS02 G6 · Küche durch zusätzliches Darlehen finanziert",
+        "reference": "G6 / ER-03 + D-01",
+        "id": 6,
+        "source": "seed",
+        "reversalOf": null,
+        "task": null,
+        "lines": [
+          {
+            "account": "085",
+            "debit": 450000,
+            "credit": 0
+          },
+          {
+            "account": "425",
+            "debit": 0,
+            "credit": 450000
+          }
+        ],
+        "movement": null
+      },
+      {
+        "date": "2026-10-08",
+        "text": "LS02 G7 · freiwillige Sondertilgung im Übungsfenster",
+        "reference": "G7 / BA-04",
+        "id": 7,
+        "source": "seed",
+        "reversalOf": null,
+        "task": null,
+        "lines": [
+          {
+            "account": "425",
+            "debit": 500000,
+            "credit": 0
+          },
+          {
+            "account": "280",
+            "debit": 0,
+            "credit": 500000
+          }
+        ],
+        "movement": null
+      },
+      {
+        "date": "2026-10-09",
+        "text": "LS02 G8 · Verpackungsvorrat per Bank · ohne Steuer",
+        "reference": "G8 / ER-04 + BA-05",
+        "id": 8,
+        "source": "seed",
+        "reversalOf": null,
+        "task": null,
+        "lines": [
+          {
+            "account": "202",
+            "debit": 100000,
+            "credit": 0
+          },
+          {
+            "account": "280",
+            "debit": 0,
+            "credit": 100000
+          }
+        ],
+        "movement": {
+          "productId": "BC-V01",
+          "qty": 2000,
+          "kind": "purchase",
+          "net": 100000,
+          "vat": 0
+        }
+      },
+      {
+        "date": "2026-11-10",
+        "text": "OS-Übung · Rohstoffentnahme für verkaufte Pizza-Charge",
+        "reference": "OS-01",
+        "id": 9,
+        "source": "seed",
+        "reversalOf": null,
+        "task": null,
+        "lines": [
+          {
+            "account": "600",
+            "debit": 400000,
+            "credit": 0
+          },
+          {
+            "account": "200",
+            "debit": 0,
+            "credit": 400000
+          }
+        ],
+        "movement": {
+          "productId": "BC-R01",
+          "qty": -1000,
+          "kind": "consumption",
+          "net": 0,
+          "vat": 0
+        }
+      },
+      {
+        "date": "2026-11-15",
+        "text": "OS-Übung · eigene Bio-Pizzen verkauft · 7 % USt",
+        "reference": "OS-02",
+        "id": 10,
+        "source": "seed",
+        "reversalOf": null,
+        "task": null,
+        "lines": [
+          {
+            "account": "280",
+            "debit": 2675000,
+            "credit": 0
+          },
+          {
+            "account": "5000",
+            "debit": 0,
+            "credit": 2500000
+          },
+          {
+            "account": "480",
+            "debit": 0,
+            "credit": 175000
+          }
+        ],
+        "movement": null
+      },
+      {
+        "date": "2026-11-18",
+        "text": "OS-Übung · Hallenmiete",
+        "reference": "OS-03",
+        "id": 11,
+        "source": "seed",
+        "reversalOf": null,
+        "task": null,
+        "lines": [
+          {
+            "account": "670",
+            "debit": 890000,
+            "credit": 0
+          },
+          {
+            "account": "280",
+            "debit": 0,
+            "credit": 890000
+          }
+        ],
+        "movement": null
+      },
+      {
+        "date": "2026-11-21",
+        "text": "OS-Übung · Gehälter, vereinfacht",
+        "reference": "OS-04",
+        "id": 12,
+        "source": "seed",
+        "reversalOf": null,
+        "task": null,
+        "lines": [
+          {
+            "account": "630",
+            "debit": 500000,
+            "credit": 0
+          },
+          {
+            "account": "280",
+            "debit": 0,
+            "credit": 500000
+          }
+        ],
+        "movement": null
+      },
+      {
+        "date": "2026-11-25",
+        "text": "OS-Übung · Energiekosten · 19 % Vorsteuer",
+        "reference": "OS-05",
+        "id": 13,
+        "source": "seed",
+        "reversalOf": null,
+        "task": null,
+        "lines": [
+          {
+            "account": "605",
+            "debit": 60000,
+            "credit": 0
+          },
+          {
+            "account": "260",
+            "debit": 11400,
+            "credit": 0
+          },
+          {
+            "account": "280",
+            "debit": 0,
+            "credit": 71400
+          }
+        ],
+        "movement": null
+      },
+      {
+        "date": "2026-12-30",
+        "text": "OS-Übung · lineare Abschreibung Siegeleinheit",
+        "reference": "OS-06",
+        "id": 14,
+        "source": "seed",
+        "reversalOf": null,
+        "task": null,
+        "lines": [
+          {
+            "account": "652",
+            "debit": 100000,
+            "credit": 0
+          },
+          {
+            "account": "076",
+            "debit": 0,
+            "credit": 100000
+          }
+        ],
+        "movement": null
+      },
+      {
+        "date": "2026-12-31",
+        "text": "OS-Übung · Zinsaufwand",
+        "reference": "OS-07",
+        "id": 15,
+        "source": "seed",
+        "reversalOf": null,
+        "task": null,
+        "lines": [
+          {
+            "account": "751",
+            "debit": 20000,
+            "credit": 0
+          },
+          {
+            "account": "280",
+            "debit": 0,
+            "credit": 20000
+          }
+        ],
+        "movement": null
+      },
+      {
+        "date": "2026-10-16",
+        "text": "Einzahlung zur Wiederaufnahmeprüfung",
+        "reference": "Upgrade-Test",
+        "lines": [
+          {
+            "account": "280",
+            "debit": 20000,
+            "credit": 0
+          },
+          {
+            "account": "288",
+            "debit": 0,
+            "credit": 20000
+          }
+        ],
+        "movement": null,
+        "task": null,
+        "id": 16,
+        "source": "learner",
+        "reversalOf": null
+      }
+    ],
+    "balances": {
+      "160": 1500000,
+      "200": 400000,
+      "202": 100000,
+      "210": 0,
+      "220": 0,
+      "240": 0,
+      "260": 10822400,
+      "269": 0,
+      "280": 16032600,
+      "288": 180000,
+      "290": 6200000,
+      "300": 5000000,
+      "310": 31250000,
+      "340": 0,
+      "380": 0,
+      "391": 0,
+      "393": 0,
+      "420": 0,
+      "425": 49150000,
+      "440": 300000,
+      "480": 175000,
+      "483": 0,
+      "489": 0,
+      "490": 0,
+      "600": 400000,
+      "602": 0,
+      "604": 0,
+      "605": 60000,
+      "616": 0,
+      "620": 0,
+      "630": 500000,
+      "640": 0,
+      "652": 100000,
+      "655": 0,
+      "670": 890000,
+      "671": 0,
+      "673": 0,
+      "677": 0,
+      "680": 0,
+      "687": 0,
+      "690": 0,
+      "696": 0,
+      "698": 0,
+      "751": 20000,
+      "770": 0,
+      "771": 0,
+      "5000": 2500000,
+      "5081": 0,
+      "5201": 0,
+      "5202": 0,
+      "5410": 0,
+      "5480": 0,
+      "5710": 0,
+      "057": 14800000,
+      "073": 18500000,
+      "076": 1900000,
+      "082": 400000,
+      "084": 6800000,
+      "085": 4650000,
+      "086": 2400000,
+      "087": 1720000
+    },
+    "quantities": {
+      "BC-R01": 1000,
+      "BC-V01": 2000,
+      "BC-R02": 0
+    },
+    "sold": {
+      "BC-R01": 1000,
+      "BC-V01": 0,
+      "BC-R02": 0
+    },
+    "productRevenue": {
+      "BC-R01": 0,
+      "BC-V01": 0,
+      "BC-R02": 0
+    },
+    "revenue": 2500000,
+    "otherRevenue": 0,
+    "allRevenue": 2500000,
+    "operatingRevenue": 2500000,
+    "expenses": 1970000,
+    "profit": 530000,
+    "assets": 86405000,
+    "liabilities": 49625000,
+    "bookedEquity": 36250000,
+    "equity": 36780000,
+    "passives": 86405000,
+    "cash": 16212600,
+    "cogs": 400000,
+    "ebit": 550000,
+    "ebitda": 650000,
+    "depreciation": 100000,
+    "stock": 500000
+  },
+  "done": 9
+}

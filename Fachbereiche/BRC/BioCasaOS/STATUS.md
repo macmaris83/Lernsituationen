@@ -1,6 +1,6 @@
 # Prüf- und Übergabestand
 
-Stand der Übernahme: **16.10.2026**, Paketversion **0.10** (Sites-Quellfassung **0.10.0**).
+Aktueller Stand: **16.10.2026**, Paketversion **0.11**. Ursprung: Sites-Fassung **0.10.0**.
 
 ## Vorhanden
 
@@ -41,3 +41,19 @@ Die Quellkopie stammt aus dem Sites-Commit `495531b14dc777ef7b84d3b65aa5829217bd
 
 Die bestehende private Site bleibt unter ihrer bisherigen Adresse bestehen. Der Repository-Push ist kein Site-Deployment und ersetzt keine installierte Moodle-ZIP. Neue Veröffentlichungen sollen aus diesem einen GitHub-Master entstehen.
 
+
+
+## Oberfläche 0.11 · weniger Text, klare Zeichen
+
+Auf Nutzerauftrag wurden ausschließlich Darstellung und Bedienbeschriftungen vereinfacht. 17 gerenderte Ansichten/Varianten enthalten anfangs 4.669 statt 6.699 sichtbare Wörter (**30,3 % weniger**). Geschlossene Details, versteckte Schritte, dekorative Zeichen und nicht gewählte Auswahloptionen zählen nicht mit. Dies misst Vorlagen, keine echte Bildschirmhöhe; Kontenplan und Geschäftsdaten wurden nicht verkürzt. Kurze Texte, beseitigte Doppelbeschriftungen und aufklappbare Hilfe/Reihenübersicht tragen gemeinsam zur Reduktion bei.
+
+Dieselben Piktogramme kennzeichnen Navigation, Überschriften und Lernschritte. Grün: Bestände; Blau: Finanzen; Violett: Lernaufträge. Spätere Bereiche bleiben grau. Das Original-BioCasa-Logo kennzeichnet zusätzliche Übungsfälle. Farbe ergänzt Zeichen und Beschriftung. Speichern, Sicherung, Import und Prüfen haben einheitliche Symbole und kurze Namen. Weiter bleibt eine bewusst ausgelöste Aktion.
+
+Touch-Regeln setzen mindestens 48 × 48 CSS-Pixel für Schaltflächen auf Touch-Geräten; Antwortzeilen und Aufklappbereiche sind ebenfalls groß antippbar. Formfelder bleiben beschriftet; bereits in Tabellen erkennbare doppelte Feldtitel sind für Hilfstechnologien weiter vorhanden. Keine neue Buchungs-, Freigabe- oder Speicherlogik. Buchungsmodell, Datenbasis, Fortschrittskennungen und SCORM-Schnittstelle bleiben erhalten; geändert sind didaktische Beschriftungen.
+
+Die Versionspflege wurde für diese Veröffentlichung so korrigiert, dass ein Versionswechsel keine Datumsangabe wie 30.10. verändert; der bestehende Versionstest prüft das zusätzlich. Visuelle Browser-/iPad-/Moodle-Abnahme bleibt offen.
+
+
+## Versionsübergreifende Wiederaufnahme
+
+Ein synthetischer Stand wurde mit dem unveränderten Sites-Quellcommit der Fassung 0.10 erzeugt und unter 0.11 wieder aufgenommen. Der Test erhält neun Lernnachweise, Journal und Salden, einen unfertigen Buchungssatz, Inventur-/Lernantworten und die angepasste Fokusansicht. Lesen schreibt den alten Stand nicht um; erneutes Speichern enthält denselben vollständigen Inhalt. Der Test ist erfolgreich und bleibt als dauerhafte Updateprüfung erhalten. Die Anzeigenummer wird nicht als neue Speicherkennung verwendet. Für künftige Änderungen am Speicher-/Datenformat verlangt AGENTS.md eine geprüfte Migration. Ein anderer Datenkranz wird weiterhin geschützt erkannt. Reales Moodle: dieselbe Aktivität und denselben Versuch fortsetzen; echte Paketupdate-Abnahme bleibt offen.
