@@ -36,7 +36,7 @@
 - Erst nach korrekter Prüfung orange Saldodifferenz und beide verbundenen Abschlusszeilen zeigen. Bestandskonto gegen 801 SBK, Erfolgskonto gegen 802 GuV; bei Nullsaldo keine erfundene Gegenbuchung.
 - Buchhalternase nur beim geschlossenen Konto auf der kürzeren Seite nach Eintrag des Saldos. Bei gleicher Zeilenzahl keine Nase. Beide Summen in derselben gemeinsamen Tabellenzeile, mit Doppelstrich.
 - Aktuell didaktische Abschlussansicht: Gegenbuchungen nicht nochmals ins laufende Journal schreiben oder Auswertungswerte nullen. Vollständiger Jahresabschluss ist nicht implementiert.
-- Rechner: klein, am Betragsfeld, Touch-Tasten, dunkle Anzeige, orange +/−/=; nur Addition/Subtraktion. Nach = übernimmt erst ausdrückliche Bestätigung das eigene Ergebnis in das gewählte noch verbundene Feld. Keine Kontenwahl, Lösung oder Buchung automatisieren.
+- Rechner: kleines, an der Kopfzeile per Touch/Maus verschiebbares Flyover am Betragsfeld; im sichtbaren Viewport halten, auch nach Tastatur-/Fensteränderungen. Touch-Tasten, dunkle Anzeige, orange +/−/=; nur Addition/Subtraktion. Nach = übernimmt erst ausdrückliche Bestätigung das eigene Ergebnis in das gewählte noch verbundene Feld. Keine Kontenwahl, Lösung oder Buchung automatisieren.
 
 ## Daten und Lernstände
 

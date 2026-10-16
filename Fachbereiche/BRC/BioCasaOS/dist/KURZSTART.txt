@@ -1,4 +1,4 @@
-BioCasa OS 0.11 – Moodle-Erprobung
+BioCasa OS 0.12 – Moodle-Erprobung
 ================================
 
 EINMALIG ALS LEHRKRAFT EINRICHTEN
@@ -71,11 +71,14 @@ T-KONTEN ERÖFFNEN UND ABSCHLIESSEN (NEU IN 0.8)
 - Dies ist eine didaktische Abschlussansicht mit den Gegenbuchungen auf
   801 (SBK) bzw. 802 (GuV). Ein vollständiger Jahresabschluss folgt später.
 
-KLEINER TOUCH-RECHNER (0.11)
-- Tippe auf ± neben einem Betragsfeld. Die Rechenhilfe öffnet im selben Formular.
-  „Übernehmen in“ nennt das gewählte Ziel. Eingeklappt bleibt sie unauffällig.
+KLEINER TOUCH-RECHNER (0.12)
+- Tippe auf ± neben einem Betragsfeld. Die Rechenhilfe schwebt über dem Formular.
+  „Übernehmen in“ nennt das gewählte Ziel. Geschlossen belegt sie keinen Platz.
 - Gib deine Zahlen ein und rechne mit + und −. Runde Tasten, dunkle Anzeige,
   orange Rechentasten. C löscht die Rechnung, die Rücktaste nur die letzte Ziffer.
+- An der Kopfzeile lässt sich der Rechner per Finger/Maus verschieben; mit
+  fokussierter Kopfzeile auch per Pfeiltasten. ×, Esc oder Antippen daneben
+  schließen ihn ohne Übernahme. Er bleibt im sichtbaren Bereich.
 - Nach = wird „Ergebnis übernehmen“ aktiv. Erst dieser Klick trägt deine Summe
   ins gewählte Feld ein. Du entscheidest weiterhin selbst über Konto und Seite.
   Eine falsche eigene Rechnung wird nicht im Hintergrund durch die Lösung ersetzt.
@@ -95,9 +98,10 @@ FÜR LERNENDE: AUTOMATISCH WEITERARBEITEN
 - Außerhalb von Moodle liegt die Vorschau nur im jeweiligen Browser.
 
 OPTIONALE SICHERUNG AUF DEM IPAD
-1. „Sicherung“ exportiert deinen vollständigen persönlichen Stand als JSON.
-2. Eine erhaltene JSON-Datei bei Bedarf über „Teilen“ → „In Dateien sichern“
-   in iCloud Drive oder „Auf meinem iPad“ ablegen.
+1. „Sicherung“ zeigt eine JSON-Datei mit Datum und Lernstand, auch vor der
+   ersten Bearbeitung. „JSON herunterladen“ fordert den Dateidownload an.
+2. Falls angeboten: „Teilen“ → „In Dateien sichern“ wählen. Sonst die
+   Downloads prüfen. Die Moodle-App/WebView muss diese Dateifunktion erlauben.
 3. In BioCasa OS „Stand importieren“ antippen; im Dateidialog die JSON-Datei
    auswählen. Datum, Lernschritt und Zahl der Buchungen in der Vorschau prüfen.
 4. „Stand ersetzen“ übernimmt die Datei. Den vorherigen Stand bei Bedarf zuerst
@@ -268,7 +272,7 @@ ABNAHME 0.6
 - Auf dem Schul-iPad die Dateiauswahl in „Dateien“, Upload-Vorschau und den
   Schuljahreswechsel im echten Moodle prüfen. Dieser Gerätetest steht noch aus.
 
-BILANZAUSSCHNITT UND BUCHUNGSSATZ (0.11)
+BILANZAUSSCHNITT UND BUCHUNGSSATZ (0.12)
 - Die Bilanzwirkung zeigt Anlagevermögen und Umlaufvermögen links sowie
   Eigenkapital und Fremdkapital rechts. Graue Gruppenüberschriften geben Struktur.
 - Betroffene Konten stehen mit Nummer, Kontobezeichnung und Veränderungsbetrag

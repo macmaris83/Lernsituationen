@@ -30,11 +30,11 @@ Eröffnungsbestände heißen EBK. Vorgegebene alte Buchungen sind grau, eigene B
 
 Beim Abschluss entscheiden die Lernenden über Saldo, Abschlussseite, Gegenkonto und Gegenbuchungsseite. Dies gilt nach der letzten Präzisierung in jeder Einheit. Erst nach korrekter Prüfung markieren orange Kästen die Saldodifferenz und die beiden verbundenen Einträge. Die Buchhalternase steht ausschließlich beim geschlossenen Konto auf der kürzeren Seite. Die Summen teilen eine gemeinsame Höhe.
 
-Der kleine Touch-Rechner ist am jeweiligen Betragsfeld erreichbar. Er addiert und subtrahiert selbst eingegebene Zahlen. Nach = übernimmt die Bestätigung das Ergebnis direkt ins gewählte Feld; Konto und Buchungsseite bleiben Entscheidungen der Lernenden.
+Der kleine Touch-Rechner öffnet am jeweiligen Betragsfeld als Flyover. Er lässt sich an der Kopfzeile per Finger oder Maus verschieben und bleibt im sichtbaren Bereich; die Rechnung wird dadurch nicht übernommen. Er addiert und subtrahiert selbst eingegebene Zahlen. Nach = übernimmt die Bestätigung das Ergebnis direkt ins gewählte Feld; Konto und Buchungsseite bleiben Entscheidungen der Lernenden.
 
 ## Orientierung und Daten
 
-Heutiges Datum, Lernsituation, fiktiver Fallstichtag, letzter Sicherungszeitpunkt und Datenbasis sind getrennt erkennbar. Im normalen Moodle-Versuch wird automatisch persönlich gespeichert und wieder aufgenommen. JSON-Import/-Export ist eine zusätzliche Sicherung mit kurzer iPad-Hilfe.
+Heutiges Datum, Lernsituation, fiktiver Fallstichtag, letzter Sicherungszeitpunkt und Datenbasis sind getrennt erkennbar. Im normalen Moodle-Versuch wird automatisch persönlich gespeichert und wieder aufgenommen. JSON-Import/-Export ist eine zusätzliche Sicherung mit kurzer iPad-Hilfe. Die JSON-Sicherung muss auch ohne Bearbeitung funktionieren, eine sichtbare Datei anbieten und bei unterstützter Dateifreigabe „Teilen“ anbieten. Downloadanforderung, Übergabe und tatsächlich bestätigte Speicherung unterscheiden; keine Erfolgsmeldung für einen bloßen Klick.
 
 Die Datenbasis kann die Lehrkraft je Schuljahr als geprüfte JSON-Datei konfigurieren. Herkunft und plausible Ergänzungen bleiben erkennbar. Abweichende Datenbasen dürfen nicht still vermischt werden. Lehrbuchverweise sind optional aufklappbar und für andere Ausgaben anpassbar. Quellen sind in `data-defaults.js` und `curriculum.js` benannt; Original-MD und Original-Lernpakete sind hier nicht neu veröffentlicht.
 
@@ -52,3 +52,8 @@ Anfangs sichtbare Texte insgesamt um etwa 30 % reduzieren. Vertraute Symbole und
 
 
 Erweiterbarkeit ist verbindlich: Versionswechsel dürfen keine Zwischenstände verlieren. Buchungen, Lernergebnisse und unfertige Eingaben sind zu übernehmen. Anzeigenummer und Speicherformat getrennt führen; bei Formatänderungen Migration und Wiederaufnahmetest vorsehen.
+
+
+## Ergänzung 16.10.2026 · Steuerdarstellung
+
+Die gestaffelte Liefer-/Rechnungskette aus der Nutzervorlage auf BioCasa und die Lebensmittel-Wertschöpfung übertragen, im Branding mit wiederkehrendem Original-Firmenzeichen. Netto, Umsatzsteuer, Rechnungsbetrag, Vorsteuerabzug und Zahllast grafisch verbinden. Eine optionale, zunächst geschlossene Hilfe; auf iPadbreite lesbar, mit reduzierter Bewegung nutzbar. Zahlen als eigenständiges Erklärmodell kennzeichnen und nicht ins Übungsjournal schreiben.
