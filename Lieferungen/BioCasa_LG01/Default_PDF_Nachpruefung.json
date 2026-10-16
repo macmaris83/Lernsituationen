@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "purpose": "Focused independent static/default-PDF follow-up after adding break-inside:avoid to the print-only priority-section. The previous 30-case report remains unchanged.",
+  "cssReview": {
+    "selector": "body[data-page=\"druckansicht.html\"] .print-chapter .priority-section",
+    "property": "break-inside:avoid!important",
+    "effect": "Keeps the outer competency-profile card together where it fits on A4, avoiding a page that contains only its border or padding. No source data or task changes.",
+    "scope": "print-only stylesheet",
+    "canonicalSHA256": "e7059510bc3fd8b473e05af0056fbbbaa9be7e3ce60c1e95a6f87f2e047b8f92",
+    "installedCopies": [
+      {
+        "package": "Fachbereiche/BRC/LG01/LS01",
+        "matchesCanonical": true
+      },
+      {
+        "package": "Fachbereiche/BRC/LG01/LS02",
+        "matchesCanonical": true
+      },
+      {
+        "package": "Fachbereiche/BRC/LG01/LS03",
+        "matchesCanonical": true
+      },
+      {
+        "package": "Fachbereiche/BRC/LG01/LS04",
+        "matchesCanonical": true
+      },
+      {
+        "package": "Fachbereiche/BRC/LG01/LS05",
+        "matchesCanonical": true
+      },
+      {
+        "package": "Fachbereiche/BRC/LG01/LS06",
+        "matchesCanonical": true
+      },
+      {
+        "package": "Vorlagen/Lernsituation_tradiert",
+        "matchesCanonical": true
+      },
+      {
+        "package": "Vorlagen/Lernsituation_fuenf_Lernwege",
+        "matchesCanonical": true
+      },
+      {
+        "package": "work/delivery-v1.7/preview/LS01",
+        "matchesCanonical": true
+      },
+      {
+        "package": "work/delivery-v1.7/preview/LS02",
+        "matchesCanonical": true
+      },
+      {
+        "package": "work/delivery-v1.7/preview/LS03",
+        "matchesCanonical": true
+      },
+      {
+        "package": "work/delivery-v1.7/preview/LS04",
+        "matchesCanonical": true
+      },
+      {
+        "package": "work/delivery-v1.7/preview/LS05",
+        "matchesCanonical": true
+      },
+      {
+        "package": "work/delivery-v1.7/preview/LS06",
+        "matchesCanonical": true
+      }
+    ]
+  },
+  "results": [
+    {
+      "package": "Fachbereiche/BRC/LG01/LS01",
+      "file": "Fachbereiche/BRC/LG01/LS01/pdf/Gesamtdokument_A4.pdf",
+      "sha256": "487c32564f840b301533b884f32fdb257e342c56ab3b13254795097978289afe",
+      "pages": 24,
+      "allA4": true,
+      "emptyPages": [],
+      "missingTaskParagraphs": [],
+      "taskParagraphsChecked": 21,
+      "contentOutsideMargins": [],
+      "allFiveCompetencyDescriptions": true,
+      "competencyProfilePages": [
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "package": "Fachbereiche/BRC/LG01/LS02",
+      "file": "Fachbereiche/BRC/LG01/LS02/pdf/Gesamtdokument_A4.pdf",
+      "sha256": "3d1cbe7f649b62950f5699524d2cdbeb0330509e3fbd67867d90acbd47d8890a",
+      "pages": 23,
+      "allA4": true,
+      "emptyPages": [],
+      "missingTaskParagraphs": [],
+      "taskParagraphsChecked": 20,
+      "contentOutsideMargins": [],
+      "allFiveCompetencyDescriptions": true,
+      "competencyProfilePages": [
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "package": "Fachbereiche/BRC/LG01/LS05",
+      "file": "Fachbereiche/BRC/LG01/LS05/pdf/Gesamtdokument_A4.pdf",
+      "sha256": "9734c2533c62839727a894715773886737f32c1a7fb0bd0605d88abdfbd457a3",
+      "pages": 24,
+      "allA4": true,
+      "emptyPages": [],
+      "missingTaskParagraphs": [],
+      "taskParagraphsChecked": 22,
+      "contentOutsideMargins": [],
+      "allFiveCompetencyDescriptions": true,
+      "competencyProfilePages": [
+        2
+      ],
+      "status": "PASS"
+    }
+  ],
+  "visualInspection": {
+    "pages": "Page 2 in each of the three current default PDFs, rendered at 1× resolution and viewed independently.",
+    "result": "PASS: complete competency-profile outer border and priority statement; vector radar left; four other competency cards form a readable 2×2 grid on the right. No clipped text, empty sheet, or decorative page background.",
+    "images": [
+      "work/print-quality/LS01_Default_Seite2.png",
+      "work/print-quality/LS02_Default_Seite2.png",
+      "work/print-quality/LS05_Default_Seite2.png"
+    ]
+  },
+  "limits": "Focused static and visual check of the three current default PDF files after the final page-break rule; not an additional broad browser matrix run. Native iPad/Safari, Moodle App and printer hardware are not tested."
+}

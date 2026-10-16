@@ -159,7 +159,7 @@ def browser_audit(browser, base, root, reports):
         for slot in slots.values(): need(z.read(slot['src'])==(root/slot['src']).read_bytes(),root.name,'original image in editor export')
         need(z.read('assets/progress-core.js')==(root/'assets/progress-core.js').read_bytes(),root.name,'current progress code in export')
         need(z.read('Paketversion.json')==(root/'Paketversion.json').read_bytes(),root.name,'delivery version in export')
-        for name in ('calculator-engine.js','calculator.js','calculator.css','ipad.css','scorm.js'):
+        for name in ('calculator-engine.js','calculator.js','calculator.css','ipad.css','scorm.js','print-layout.css','print-layout.js'):
             need(z.read('assets/'+name)==(root/'assets'/name).read_bytes(),root.name,'current shared runtime in editor export',name)
     export.unlink()
     need(not errors,root.name,'JavaScript errors',errors)
@@ -168,7 +168,7 @@ def browser_audit(browser, base, root, reports):
 
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('source',type=Path);ap.add_argument('delivery',type=Path);ap.add_argument('--version',default='1.6');args=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('source',type=Path);ap.add_argument('delivery',type=Path);ap.add_argument('--version',default='1.7');args=ap.parse_args()
     report={'version':args.version,'static':[],'browser':[],'limitations':['Local Chromium and SCORM simulation; native Moodle/AIS/GoodNotes require the classroom system.']}
     folder=args.delivery/'preview'; reports=args.delivery/'Pruefberichte';reports.mkdir(exist_ok=True)
     for n in range(1,7):

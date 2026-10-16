@@ -1,6 +1,6 @@
-# BioCasa LG01 · Paketset 1.6 · Abschlussprüfung
+# BioCasa LG01 · Paketset 1.7 · Abschlussprüfung
 
-Geprüft am 16. Oktober 2026. Grundlage sind die sechs ausdrücklich bereitgestellten SCORM-Pakete 1.4. Die [Quellenprüfsummen](Quellen_Pruefsummen.json) dokumentieren diese Eingaben. Referenz der Oberfläche ist der Katalogstand `8dd3853`; die vor der Veröffentlichung synchronisierte Hauptversion `614736e` enthält identische LG01-Master und Vorlagen.
+Geprüft am 16. Oktober 2026. Grundlage sind die sechs ausdrücklich bereitgestellten SCORM-Pakete 1.4. Die [Quellenprüfsummen](Quellen_Pruefsummen.json) dokumentieren diese Eingaben. Referenz der Oberfläche ist der Katalogstand `8dd3853`. Die Hauptversion `97ced13` ist integriert; deren BioCasaOS-Änderungen bleiben erhalten. Die aktuelle Druckgestaltung liegt gemeinsam in `Komponenten/Druckansicht/`.
 
 ## Ergebnis und Inhaltserhalt
 
@@ -22,7 +22,7 @@ Die Orientierung enthält keinen Materialzugriff. Ihre ursprünglichen Relevanzt
 
 Die Darstellungsänderung der Orientierung erhält deren bestehende Signatur ausschließlich für die genau bekannte neue Darstellung. Der Prüfer rekonstruiert sämtliche Aufgaben-, Quiz- und Orientierungssignaturen aus den aktuellen Daten. Echte spätere Inhaltsänderungen erzeugen weiterhin neue Signaturen. Ein Editor-Export mit einer gezielt bearbeiteten Aufgabe änderte in jedem Paket genau deren Aufgabensignatur; die gelesene Orientierung blieb erhalten.
 
-## Neue Prüfungen der Fassung 1.6
+## Weiterhin gültige Prüfungen der Fassung 1.6
 
 - [188 SCORM-Lernstandsfälle](SCORM_Lernstand_Pruefung.json) bestanden, darunter sechs komprimierte Updates von Original 1.4 auf 1.6. Alle 628 Aufgabenstände, 30 Quizantworten, 30 Kompetenzbelege und sechs gelesenen Orientierungen bleiben erhalten; Schreiben und erneutes Laden funktionieren.
 - Vorschau und Konfliktfall bleiben bearbeitbar, ohne bestehende Moodle-Daten zu überschreiben. Review bleibt schreibgeschützt. Bei fremden oder nicht lesbaren Altständen erfolgt eine ausdrücklich gekennzeichnete lokale Speicherung; für die Moodle-Speicherung ist ein neuer Versuch nötig.
@@ -32,7 +32,7 @@ Die Darstellungsänderung der Orientierung erhält deren bestehende Signatur aus
 
 ## Browser, Druck und Export
 
-Die Fokus-, Uhren- und Quizberichte unten dokumentieren die bereits geprüfte Fassung 1.5; deren Inhalte und Uhrenlogik bleiben unverändert. Die neuen SCORM-, iPad- und Rechnerprüfungen sowie die Lieferprüfung beziehen sich auf 1.6.
+Die Fokus-, Uhren- und Quizberichte unten dokumentieren die bereits geprüfte Fassung 1.5; deren Inhalte und Uhrenlogik bleiben unverändert. Die SCORM-, iPad- und Rechnerberichte dokumentieren 1.6. Die unabhängige Lieferprüfung mit tatsächlichen Browser-, Material-, GoodNotes- und Lehrkräfteexportprüfungen wurde für die sechs finalen Pakete 1.7 erneut bestanden; die geschützten Originaldateien bleiben bytegleich.
 
 - [180 Kombinationen](Browser_Pruefung.json) aus sechs Paketen, sechs Aufgabenphasen und fünf Lernwegen: vollständiger Fokus, aktuelle Metadaten, manuelles Weitergehen, sofortiger Farbwechsel und Speicherung nach Neuladen bestanden.
 - [30 Uhrkombinationen](Uhren_Pruefung.json) mit Countdown, Pause/Fortsetzen und Gong. Je Paket zusätzlich Ablaufmeldung, Grün–Schwarz–Rot, Fortsetzen nach Neuladen, Stummschaltung und native Web-Audio-Ausgabe geprüft.
@@ -48,12 +48,23 @@ Ein vorhandener Bedienfehler der Fassung 1.4 wurde behoben: Die Lernwegauswahl i
 
 Die drei maßgeblichen Stylesheets sowie Druck- und Materialgestaltung entsprechen bytegleich den aktuellen Katalog-Mastern. Die Aufgabenform, Nummerierung, Uhr und Lehrkräftefunktionen der gelieferten Fassung bleiben erhalten.
 
+## Gesamtdruck der Fassung 1.7
+
+- [30 Druckfälle mit 995 Einzelprüfungen](Druck_Pruefung.json) über 14 Paketordner bestanden: sechs Lieferpakete, sechs Katalog-Master und beide Vorlagen. Die Vollprüfung nutzt jeweils Lernweg 1 und 5 (tradiert nur 1); drei ergänzende Prüfungen sichern das endgültige Kompetenzprofil. Die kleine abschließende Regel gegen eine reine Rahmen-Restseite ist zusätzlich im [Standard-PDF-Nachtest](Default_PDF_Nachpruefung.json) geprüft.
+- [Alle 14 fertigen Gesamtdokumente](Fertige_A4_PDFs.json) bestehen aus A4-Seiten ohne leere Seiten oder Text außerhalb des Blatts. Die sechs Einzel-PDFs im Ordner `PDF/` entsprechen bytegleich dem Gesamtdokument im jeweiligen SCORM-Paket. Die gelieferten PDFs zeigen den Standard-Lernweg 1 ohne persönliche Testdaten.
+- Die aktuelle Druckansicht enthält Orientierung, Handlungssituation, alle sechs Phasen des gewählten Lernwegs und sämtliche Materialien. Alle Aufklappabschnitte sind geöffnet; Alternativlernwege werden nicht vervielfacht. Seiten- und Campus-Hintergrund entfallen. Bilder in voller Auflösung, Tabellen, BBS-Farben und Vektornetze bleiben erhalten. Das Kompetenzprofil verwendet dieselbe Anordnung wie die Lernansicht.
+- Der tatsächliche Fußleisten-Zugang wurde im SCORM-Iframe geprüft: Drucker-Symbol, Zahnrad am Editor und mindestens 44 × 44 Pixel große Touch-Flächen. Die Druckansicht bleibt im selben SCORM-Kontext, berücksichtigt gespeicherte Auswahl, Schülertexte, Kompetenzbelege und Editoränderungen und verändert keine bewerteten Lernstände. Der Druckknopf wartet auf Schriften und Bilder; auch verzögert geladene Ressourcen wurden geprüft.
+- Lange Eingaben werden vollständig als mehrzeiliger Text gedruckt. Gespeicherte geschlossene Abschnitte erscheinen aufgeklappt, ohne die gespeicherte Aufklapppräferenz der Lernansicht zu überschreiben. Alle Auftragsabsätze und Materialtabellen der jeweils gewählten Wege wurden gegen den erzeugten PDF-Text geprüft.
+- Sämtliche Einzel-ZIPs wurden nach der finalen PDF-Erstellung erneut gepackt und geprüft. Die sechs bearbeiteten Lehrkräfteexporte enthalten auch `print-layout.css` und `print-layout.js`.
+
+Die Prüfungen erfassen Chromium-PDF-Ausgabe und eine simulierte SCORM-1.2-API. Das Druckdialogfenster auf einem physischen iPad und Papierausgabe an einem realen Drucker wurden nicht getestet. iPadOS entscheidet im Systemdialog über „Drucken“ bzw. „In Dateien sichern“.
+
 ## Reproduzieren und Prüfgrenzen
 
-Der zusätzliche BBS-Rechner ist in allen sechs Lieferpaketen, den sechs Katalog-Mastern der BRC-LG01-Reihe und beiden Lernsituationsvorlagen enthalten. Die acht Katalogexporte tragen Version 1.3; das eigenständige hochgeladene Paketset bleibt die Lieferung 1.6 mit seinen ursprünglichen Kennungen. Alle 40 Katalogarchive bestanden die zentrale Vollständigkeits- und Inhaltsgleichheitsprüfung.
+Der zusätzliche BBS-Rechner ist in allen sechs Lieferpaketen, den sechs Katalog-Mastern der BRC-LG01-Reihe und beiden Lernsituationsvorlagen enthalten. Die acht Katalogexporte tragen Version 1.4; das eigenständige hochgeladene Paketset ist die Lieferung 1.7 mit seinen ursprünglichen Kennungen. Alle 40 Katalogarchive bestanden die zentrale Vollständigkeits- und Inhaltsgleichheitsprüfung.
 
 Rechnerprüfung: sieben unabhängige Rechenlogik-Tests und [14 tatsächliche SCORM-Iframe-Prüfungen](Rechner_Pruefung.json) bestanden. Geprüft sind die vier Grundrechenarten, Punkt-vor-Strich, Dezimalkomma, Prozent einschließlich Aufschlag/Rabatt, Fehlerbehandlung, echtes Touch-Verschieben ohne Seitenscrollen, erhaltene Rechnung/Position beim Materialwechsel, Tastatur, kleine Ansichten bis 667 × 320 Pixel, Schließen und Druckausschluss. Das Rechnen selbst verändert den bewerteten Lernstand nicht. Die sechs zusätzlichen Lehrkräfteexporte enthalten alle Rechnerdateien. Die 180 Fokusprüfungen wurden mit eingebautem Rechner erneut bestanden.
 
-Die Erstellung erfolgt mit `tools/refresh_lg01_upload.py INPUT OUTPUT`; INPUT enthält die sechs entpackten Originalordner LS01–LS06. Der Generator verändert die eigenständige Lieferung, nicht die fachlich andere Katalogreihe. Anschließend `tools/verify_lg01_upload.py INPUT OUTPUT` ausführen. Neue Prüfungen: `tools/check_scorm_resume.py --all --delivery OUTPUT/preview --upgrade-from INPUT` und `tools/check_ipad_layout.py --all --delivery OUTPUT/preview`. Weitere Browserprüfer: `tools/check_task_card_form.mjs`, `tools/check_task_clocks.mjs` und `tools/check_situation_mc.mjs` mit dem erzeugten `preview`-Ordner. Benötigt werden lxml, PyMuPDF, Playwright und Chromium. Die aktuelle Quelle der 30 Ich-Formulierungen und deren ursprüngliche Fassung sind in [Inhaltspruefung.json](Inhaltspruefung.json) dokumentiert.
+Die Erstellung erfolgt mit `tools/refresh_lg01_upload.py INPUT OUTPUT`; INPUT enthält die sechs entpackten Originalordner LS01–LS06. Der Generator verändert die eigenständige Lieferung, nicht die fachlich andere Katalogreihe. Anschließend `tools/verify_lg01_upload.py INPUT OUTPUT` ausführen. Neue Prüfungen: `tools/check_scorm_resume.py --all --delivery OUTPUT/preview --upgrade-from INPUT` und `tools/check_ipad_layout.py --all --delivery OUTPUT/preview`. Die Druckkomponente lässt sich mit `tools/install_print_layout.py PAKETORDNER` installieren; `tools/export_print_pdf.py PAKETORDNER` erzeugt das aktuelle Gesamtdokument ohne fachliche Neuerstellung. `tools/check_print_layout.py --help` zeigt die Optionen der Browser-Druckprüfung. Weitere Browserprüfer: `tools/check_task_card_form.mjs`, `tools/check_task_clocks.mjs` und `tools/check_situation_mc.mjs` mit dem erzeugten `preview`-Ordner. Benötigt werden lxml, PyMuPDF, Playwright und Chromium. Die aktuelle Quelle der 30 Ich-Formulierungen und deren ursprüngliche Fassung sind in [Inhaltspruefung.json](Inhaltspruefung.json) dokumentiert.
 
 Die Funktionsprüfungen liefen lokal in Chromium, einschließlich Touch-Eingabe und SCORM-1.2-API-Simulation. Eine tatsächliche Moodle-Installation, AIS-Anmeldung, ein physisches iPad und die Übergabe an die native GoodNotes-App waren nicht Bestandteil der Prüfung. Bereits importierte Moodle-Pakete benötigen dort ausdrücklich die neue Paketfassung.
