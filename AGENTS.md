@@ -5,6 +5,18 @@ Die vom Nutzer freigegebene Gestaltung in `Vorlagen/Lernsituation_tradiert` und
 Lernsituationen. Beide Vorlagen auf `main` enthalten die Umsetzung. Der Nutzer
 kann diesen Standard jederzeit ausdrücklich ändern.
 
+## iPad als vorrangiges Zielformat
+
+Oberflächen zuerst für das iPad mit Touch im Querformat auslegen, danach
+Hochformat und Monitore prüfen. Als Browser-Prüfgrößen mindestens 1024 × 768,
+1180 × 820, 768 × 1024 und 820 × 1180 Pixel sowie einen Monitor mit 1440 Pixeln
+Breite verwenden. Wichtige Bedienelemente brauchen mindestens 44 × 44 Pixel
+Touchfläche. Inhalte dürfen weder seitlich überlaufen noch durch feste Höhen oder
+schwebende Bedienelemente unzugänglich werden. Das freigegebene Design bleibt
+erhalten; Bildschirmzoom darf nicht gesperrt werden. Browserprüfungen mit
+Touch-Eingabe ausdrücklich von Tests auf einem physischen iPad und in der
+tatsächlichen Moodle-App unterscheiden.
+
 ## Ein fortlaufender Master je Lernsituation
 
 - `master-katalog.json` ist das verbindliche Verzeichnis der aktuellen Master. Vor

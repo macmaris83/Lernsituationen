@@ -21,6 +21,6 @@ Bei Fokus im Rechner sind Ziffern, Komma/Punkt, Grundrechenarten, Prozent, Enter
 
 `python tools/install_calculator.py PAKETORDNER …` kopiert die drei lokalen Dateien, ergänzt die vorhandenen HTML-Hüllen und die Manifest-Dateiliste. Unterrichtsinhalte, Konfigurationen und Fortschrittsmetadaten werden nicht verändert. Die Installationsfunktion wird auch bei der Aufbereitung des gelieferten LG01-Paketsets verwendet.
 
-Rechenlogik: `node tools/test_calculator.cjs`. Touch- und SCORM-Prüfung: `python tools/check_calculator.py --delivery work/delivery-v1.5/preview`. Geprüft werden echte Touch-Ereignisse im SCORM-Iframe, Materialwechsel, gespeicherte Position/Rechnung, Tastatur, kleine Displays, Druckausschluss und unveränderter bewerteter Lernstand.
+Rechenlogik: `node tools/test_calculator.cjs`. Touch- und SCORM-Prüfung: `python tools/check_calculator.py --delivery work/delivery-v1.6/preview`. Geprüft werden echte Touch-Ereignisse im SCORM-Iframe, Materialwechsel, gespeicherte Position/Rechnung, Tastatur, kleine Displays, Druckausschluss und unveränderter bewerteter Lernstand.
 
 Die Tests verwenden Chromium mit Touch-Eingabe. Sie ersetzen keine Prüfung auf einem physischen iPad oder in der tatsächlichen Moodle-App.

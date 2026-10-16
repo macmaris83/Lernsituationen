@@ -2,7 +2,7 @@
 
 Geprüft am 16. Oktober 2026. [Komponente und Bedienung](../Komponenten/Rechner/README.md).
 
-Der Rechner ist in den sechs BRC-LG01-Katalogmastern, beiden Lernsituationsvorlagen und allen sechs ausdrücklich hochgeladenen LG01-Paketen enthalten. Die Katalogexporte tragen Version 1.2; die eigenständige Lieferung trägt Version 1.5. In den acht Katalogmastern bleiben Inhaltsdaten, Konfigurationen und Fortschrittsmetadaten bytegleich.
+Der Rechner ist in den sechs BRC-LG01-Katalogmastern, beiden Lernsituationsvorlagen und allen sechs ausdrücklich hochgeladenen LG01-Paketen enthalten. Die Katalogexporte tragen Version 1.3; die eigenständige Lieferung trägt Version 1.6. In den acht Katalogmastern bleiben Inhaltsdaten, Konfigurationen und Fortschrittsmetadaten bytegleich.
 
 Sieben Rechenlogik-Tests bestanden: Grundrechenarten, Punkt-vor-Strich, Dezimalkomma, Rundungsdarstellung, Prozent mit Aufschlag/Rabatt, Vorzeichen, AC, Korrektur, wiederholtes Gleich, Division durch null, Wiederaufnahme und Prüfung gespeicherter Daten. Befehl: `node tools/test_calculator.cjs`.
 

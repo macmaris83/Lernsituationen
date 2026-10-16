@@ -1,0 +1,1627 @@
+{
+  "status": "PASS",
+  "complete": true,
+  "packages": 14,
+  "cases": 188,
+  "passed": 188,
+  "failed": 0,
+  "regressionCases": 182,
+  "upgradeCases": 6,
+  "scope": "Two GitHub templates, six BRC LG01 catalogue masters, six uploaded LG01 release packages.",
+  "regressionExecution": "182 browser cases on patched 1.5 preview paths and current masters/templates; all seven relevant runtime/content files are byte-identical to the 1.6 delivery counterparts.",
+  "upgradeExecution": "Six full SOZ2 payloads generated from original uploaded 1.4 progress metadata and loaded into actual 1.6 SCORM iframes; preserve all tasks, quiz, read orientation and competency records; save and reload.",
+  "baseline": {
+    "cases": 39,
+    "expectedFailures": 24,
+    "passed": 15,
+    "details": "Baseline.json"
+  },
+  "runtimeParity": {
+    "status": "PASS",
+    "results": [
+      {
+        "lesson": "LS01",
+        "identicalRuntimeAndContentFiles": {
+          "assets/scorm.js": true,
+          "assets/progress.js": true,
+          "assets/progress-core.js": true,
+          "assets/scorm-codec.js": true,
+          "progress-meta.js": true,
+          "lesson-data.js": true,
+          "mode-config.js": true
+        },
+        "sha256": {
+          "assets/scorm.js": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97",
+          "assets/progress.js": "5497a793ff1d98ba953737f139840c82cd084400cdcba052474b4fcfe67537bb",
+          "assets/progress-core.js": "9d1516cdfea689f17430b0cb89ff0dea0d8296c2373009099e46cfb98e272a2b",
+          "assets/scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+          "progress-meta.js": "63262ded61ccf761fe9ced766f51b403e299c3af8dba91e2a3785e2f3850457b",
+          "lesson-data.js": "2a40fca48502d1f996bb11341cfe82502e956f0f78032c862e8329a77a0d5723",
+          "mode-config.js": "5f5f0cfad75398e6235f621e6f477abd3c916277a16a9baf4be367de25fa7445"
+        }
+      },
+      {
+        "lesson": "LS02",
+        "identicalRuntimeAndContentFiles": {
+          "assets/scorm.js": true,
+          "assets/progress.js": true,
+          "assets/progress-core.js": true,
+          "assets/scorm-codec.js": true,
+          "progress-meta.js": true,
+          "lesson-data.js": true,
+          "mode-config.js": true
+        },
+        "sha256": {
+          "assets/scorm.js": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97",
+          "assets/progress.js": "5497a793ff1d98ba953737f139840c82cd084400cdcba052474b4fcfe67537bb",
+          "assets/progress-core.js": "9d1516cdfea689f17430b0cb89ff0dea0d8296c2373009099e46cfb98e272a2b",
+          "assets/scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+          "progress-meta.js": "ccd6bcc9e8e758d6a949f3a395e9cfce87eb9e2f9e6ae6812a3de7adf61b08ba",
+          "lesson-data.js": "87c6b48bdabddcbc52b31023fe34d695f738c64edfce1572bb0e28e902a1887a",
+          "mode-config.js": "5f5f0cfad75398e6235f621e6f477abd3c916277a16a9baf4be367de25fa7445"
+        }
+      },
+      {
+        "lesson": "LS03",
+        "identicalRuntimeAndContentFiles": {
+          "assets/scorm.js": true,
+          "assets/progress.js": true,
+          "assets/progress-core.js": true,
+          "assets/scorm-codec.js": true,
+          "progress-meta.js": true,
+          "lesson-data.js": true,
+          "mode-config.js": true
+        },
+        "sha256": {
+          "assets/scorm.js": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97",
+          "assets/progress.js": "5497a793ff1d98ba953737f139840c82cd084400cdcba052474b4fcfe67537bb",
+          "assets/progress-core.js": "9d1516cdfea689f17430b0cb89ff0dea0d8296c2373009099e46cfb98e272a2b",
+          "assets/scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+          "progress-meta.js": "6b045d12f4acc8c1168c52f3213d92235f9f9f0cb2d0e51a90f8293fb7cc7c02",
+          "lesson-data.js": "dce5befdfa2723bcb4342e9e73649a5e0f52de1f6275aa98044c6e3429ac2270",
+          "mode-config.js": "5f5f0cfad75398e6235f621e6f477abd3c916277a16a9baf4be367de25fa7445"
+        }
+      },
+      {
+        "lesson": "LS04",
+        "identicalRuntimeAndContentFiles": {
+          "assets/scorm.js": true,
+          "assets/progress.js": true,
+          "assets/progress-core.js": true,
+          "assets/scorm-codec.js": true,
+          "progress-meta.js": true,
+          "lesson-data.js": true,
+          "mode-config.js": true
+        },
+        "sha256": {
+          "assets/scorm.js": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97",
+          "assets/progress.js": "5497a793ff1d98ba953737f139840c82cd084400cdcba052474b4fcfe67537bb",
+          "assets/progress-core.js": "9d1516cdfea689f17430b0cb89ff0dea0d8296c2373009099e46cfb98e272a2b",
+          "assets/scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+          "progress-meta.js": "dc40129337802674a06c9556b0aa0d4f4ca02267c4c79f57f0f2016036235ee1",
+          "lesson-data.js": "0ad3675f301f412665227c574fc909cb8a662931cc37f9f8a9af8eea354c6d12",
+          "mode-config.js": "5f5f0cfad75398e6235f621e6f477abd3c916277a16a9baf4be367de25fa7445"
+        }
+      },
+      {
+        "lesson": "LS05",
+        "identicalRuntimeAndContentFiles": {
+          "assets/scorm.js": true,
+          "assets/progress.js": true,
+          "assets/progress-core.js": true,
+          "assets/scorm-codec.js": true,
+          "progress-meta.js": true,
+          "lesson-data.js": true,
+          "mode-config.js": true
+        },
+        "sha256": {
+          "assets/scorm.js": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97",
+          "assets/progress.js": "5497a793ff1d98ba953737f139840c82cd084400cdcba052474b4fcfe67537bb",
+          "assets/progress-core.js": "9d1516cdfea689f17430b0cb89ff0dea0d8296c2373009099e46cfb98e272a2b",
+          "assets/scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+          "progress-meta.js": "755b4a90463fbaee1e7fc68b39e946300773d068da87b0159d994dec0e986c8e",
+          "lesson-data.js": "66fe5dc33fc6925993f077fd5905174fde5719808724a36679d3873ce90e3569",
+          "mode-config.js": "5f5f0cfad75398e6235f621e6f477abd3c916277a16a9baf4be367de25fa7445"
+        }
+      },
+      {
+        "lesson": "LS06",
+        "identicalRuntimeAndContentFiles": {
+          "assets/scorm.js": true,
+          "assets/progress.js": true,
+          "assets/progress-core.js": true,
+          "assets/scorm-codec.js": true,
+          "progress-meta.js": true,
+          "lesson-data.js": true,
+          "mode-config.js": true
+        },
+        "sha256": {
+          "assets/scorm.js": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97",
+          "assets/progress.js": "5497a793ff1d98ba953737f139840c82cd084400cdcba052474b4fcfe67537bb",
+          "assets/progress-core.js": "9d1516cdfea689f17430b0cb89ff0dea0d8296c2373009099e46cfb98e272a2b",
+          "assets/scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+          "progress-meta.js": "0ce0de778a953d507774c17b61c8a8da7dc74b755243ca931d37ce886bd27ef0",
+          "lesson-data.js": "c0fea932b2ace491bc09de1765f85ec673f26c72977100efb44799d4d1a94395",
+          "mode-config.js": "5f5f0cfad75398e6235f621e6f477abd3c916277a16a9baf4be367de25fa7445"
+        }
+      }
+    ]
+  },
+  "testScript": "tools/check_scorm_resume.py",
+  "testScriptSHA256": "c8ec6f5b5e3f480e76d3fb75b4594ce98105bb73476ccfe53224db9c33c56f12",
+  "limits": "Chromium browser with actual SCORM iframe/runtime and simulated LMS API; no live Moodle or physical iPad.",
+  "results": [
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_tradiert"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_tradiert"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_tradiert"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_tradiert"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_tradiert"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_tradiert"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_tradiert"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_tradiert"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_tradiert"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_tradiert"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_tradiert"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_tradiert"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_tradiert"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_fuenf_Lernwege"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_fuenf_Lernwege"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_fuenf_Lernwege"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_fuenf_Lernwege"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_fuenf_Lernwege"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_fuenf_Lernwege"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_fuenf_Lernwege"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_fuenf_Lernwege"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_fuenf_Lernwege"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_fuenf_Lernwege"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_fuenf_Lernwege"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_fuenf_Lernwege"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Vorlagen/Lernsituation_fuenf_Lernwege"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS01",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS01",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS01",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS01",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS01",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS01",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS01",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS01",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS01",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS01",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS01",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS01",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS01",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS01"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS02",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS02",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS02",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS02",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS02",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS02",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS02",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS02",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS02",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS02",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS02",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS02",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS02",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS02"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS03",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS03",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS03",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS03",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS03",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS03",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS03",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS03",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS03",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS03",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS03",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS03",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS03",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS03"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS04",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS04",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS04",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS04",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS04",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS04",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS04",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS04",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS04",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS04",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS04",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS04",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS04",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS04"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS05",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS05",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS05",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS05",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS05",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS05",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS05",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS05",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS05",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS05",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS05",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS05",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS05",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS05"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS06",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS06",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS06",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS06",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS06",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS06",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS06",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS06",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS06",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS06",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS06",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS06",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/delivery-v1.5/preview/LS06",
+      "equivalentReleasePackage": "work/delivery-v1.6/preview/LS06"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "upgrade",
+      "SCORMIframe": true,
+      "sourceLessonId": "LG01-LS01",
+      "targetLessonId": "LG01-LS01",
+      "preservedTasks": 102,
+      "preservedQuizAnswers": 5,
+      "preservedCompetencyEvidence": 5,
+      "orientationRetained": true,
+      "targetPackageVersion": {
+        "version": "1.6",
+        "id": "LG01-LS01",
+        "referenceMaster": "Fachbereiche/BRC/LG01/LS01",
+        "sourceVersion": "1.4"
+      },
+      "package": "work/delivery-v1.6/preview/LS01",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "upgrade",
+      "SCORMIframe": true,
+      "sourceLessonId": "LG01-LS02",
+      "targetLessonId": "LG01-LS02",
+      "preservedTasks": 100,
+      "preservedQuizAnswers": 5,
+      "preservedCompetencyEvidence": 5,
+      "orientationRetained": true,
+      "targetPackageVersion": {
+        "version": "1.6",
+        "id": "LG01-LS02",
+        "referenceMaster": "Fachbereiche/BRC/LG01/LS02",
+        "sourceVersion": "1.4"
+      },
+      "package": "work/delivery-v1.6/preview/LS02",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "upgrade",
+      "SCORMIframe": true,
+      "sourceLessonId": "LG01-LS03",
+      "targetLessonId": "LG01-LS03",
+      "preservedTasks": 104,
+      "preservedQuizAnswers": 5,
+      "preservedCompetencyEvidence": 5,
+      "orientationRetained": true,
+      "targetPackageVersion": {
+        "version": "1.6",
+        "id": "LG01-LS03",
+        "referenceMaster": "Fachbereiche/BRC/LG01/LS03",
+        "sourceVersion": "1.4"
+      },
+      "package": "work/delivery-v1.6/preview/LS03",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "upgrade",
+      "SCORMIframe": true,
+      "sourceLessonId": "LG01-LS04",
+      "targetLessonId": "LG01-LS04",
+      "preservedTasks": 104,
+      "preservedQuizAnswers": 5,
+      "preservedCompetencyEvidence": 5,
+      "orientationRetained": true,
+      "targetPackageVersion": {
+        "version": "1.6",
+        "id": "LG01-LS04",
+        "referenceMaster": "Fachbereiche/BRC/LG01/LS04",
+        "sourceVersion": "1.4"
+      },
+      "package": "work/delivery-v1.6/preview/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "upgrade",
+      "SCORMIframe": true,
+      "sourceLessonId": "LG01-LS05",
+      "targetLessonId": "LG01-LS05",
+      "preservedTasks": 103,
+      "preservedQuizAnswers": 5,
+      "preservedCompetencyEvidence": 5,
+      "orientationRetained": true,
+      "targetPackageVersion": {
+        "version": "1.6",
+        "id": "LG01-LS05",
+        "referenceMaster": "Fachbereiche/BRC/LG01/LS05",
+        "sourceVersion": "1.4"
+      },
+      "package": "work/delivery-v1.6/preview/LS05",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "upgrade",
+      "SCORMIframe": true,
+      "sourceLessonId": "LG01-LS06",
+      "targetLessonId": "LG01-LS06",
+      "preservedTasks": 115,
+      "preservedQuizAnswers": 5,
+      "preservedCompetencyEvidence": 5,
+      "orientationRetained": true,
+      "targetPackageVersion": {
+        "version": "1.6",
+        "id": "LG01-LS06",
+        "referenceMaster": "Fachbereiche/BRC/LG01/LS06",
+        "sourceVersion": "1.4"
+      },
+      "package": "work/delivery-v1.6/preview/LS06",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    }
+  ]
+}

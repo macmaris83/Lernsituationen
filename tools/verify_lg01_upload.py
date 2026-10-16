@@ -159,8 +159,8 @@ def browser_audit(browser, base, root, reports):
         for slot in slots.values(): need(z.read(slot['src'])==(root/slot['src']).read_bytes(),root.name,'original image in editor export')
         need(z.read('assets/progress-core.js')==(root/'assets/progress-core.js').read_bytes(),root.name,'current progress code in export')
         need(z.read('Paketversion.json')==(root/'Paketversion.json').read_bytes(),root.name,'delivery version in export')
-        for name in ('calculator-engine.js','calculator.js','calculator.css'):
-            need(z.read('assets/'+name)==(root/'assets'/name).read_bytes(),root.name,'calculator packaged in editor export',name)
+        for name in ('calculator-engine.js','calculator.js','calculator.css','ipad.css','scorm.js'):
+            need(z.read('assets/'+name)==(root/'assets'/name).read_bytes(),root.name,'current shared runtime in editor export',name)
     export.unlink()
     need(not errors,root.name,'JavaScript errors',errors)
     context.close()
@@ -168,12 +168,12 @@ def browser_audit(browser, base, root, reports):
 
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('source',type=Path);ap.add_argument('delivery',type=Path);args=ap.parse_args()
-    report={'version':'1.5','static':[],'browser':[],'limitations':['Local Chromium and SCORM simulation; native Moodle/AIS/GoodNotes require the classroom system.']}
+    ap=argparse.ArgumentParser();ap.add_argument('source',type=Path);ap.add_argument('delivery',type=Path);ap.add_argument('--version',default='1.6');args=ap.parse_args()
+    report={'version':args.version,'static':[],'browser':[],'limitations':['Local Chromium and SCORM simulation; native Moodle/AIS/GoodNotes require the classroom system.']}
     folder=args.delivery/'preview'; reports=args.delivery/'Pruefberichte';reports.mkdir(exist_ok=True)
     for n in range(1,7):
         lesson=f'LS{n:02d}'
-        report['static'].append(static(args.source/lesson,folder/lesson,args.delivery/f'BRC_LG01_{lesson}_v1.5_SCORM12.zip'))
+        report['static'].append(static(args.source/lesson,folder/lesson,args.delivery/f'BRC_LG01_{lesson}_v{args.version}_SCORM12.zip'))
         print('PASS content',lesson,flush=True)
     class Quiet(http.server.SimpleHTTPRequestHandler):
         def log_message(self,*_): pass

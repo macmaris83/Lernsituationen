@@ -21,6 +21,7 @@ from lxml import html as H
 from lxml.etree import SubElement
 from playwright.sync_api import sync_playwright
 from install_calculator import install as install_calculator
+from install_ipad_layout import install as install_ipad_layout
 
 REPO = Path(__file__).resolve().parents[1]
 ICH = [
@@ -142,10 +143,12 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('input', type=Path, help='Folder with the six extracted LS01..LS06 originals')
     ap.add_argument('output', type=Path)
+    ap.add_argument('--version', default='1.6', help='Two-part delivery version')
     args = ap.parse_args(); args.output.mkdir(parents=True, exist_ok=True)
     preview = args.output / 'preview'; preview.mkdir(exist_ok=True)
     catalog = json.loads((REPO / 'master-katalog.json').read_text())['packages']
-    report = {'version': '1.5', 'referenceCommit': '8dd3853c69e1d33499037956c5fe3096fd2016f7', 'lessons': []}
+    if not re.fullmatch(r'\d+\.\d+', args.version): ap.error('Version must contain two numbers, for example 1.6')
+    report = {'version': args.version, 'referenceCommit': '8dd3853c69e1d33499037956c5fe3096fd2016f7', 'lessons': []}
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path='/usr/bin/chromium', args=['--no-sandbox'])
         page = browser.new_page()
@@ -180,10 +183,12 @@ def main():
                     start = raw.index('<div class="lesson-content">') + len('<div class="lesson-content">')
                     end = raw.index('</div></main>', start)
                     raw = raw[:start] + data['pages']['index.html'] + raw[end:]
-                raw = raw.replace('lg01-bilder-aufgaben-20261014', 'lg01-upload-1-5-20261016')
+                raw = raw.replace('lg01-bilder-aufgaben-20261014', 'lg01-upload-' + args.version.replace('.', '-') + '-20261016')
                 file.write_text(raw)
-            dump(target / 'Paketversion.json', {'version': '1.5', 'id': data['id'], 'referenceMaster': entry['master'], 'previousVersion': '1.4'})
+            dump(target / 'Paketversion.json', {'version': args.version, 'id': data['id'], 'referenceMaster': entry['master'], 'sourceVersion': '1.4'})
             install_calculator(target)
+            install_ipad_layout(target)
+            shutil.copyfile(REPO / 'Vorlagen/Lernsituation_fuenf_Lernwege/assets/scorm.js', target / 'assets/scorm.js')
             report['lessons'].append({'folder': name, 'id': data['id'], 'tasks': len(meta['tasks']), 'sourceProgressSha256': sha(source / 'progress-meta.js'), 'progressSha256': sha(target / 'progress-meta.js'), 'sourceCompetencies': payload(source / 'lesson-data.js')['competencies'], 'competencies': data['competencies'], 'images': {role: {'file':slot['src'], 'sha256':sha(target/slot['src'])} for role,slot in media['slots'].items()}})
             print('Prepared', name, len(meta['tasks']), 'unchanged tasks', flush=True)
         browser.close()
@@ -202,7 +207,7 @@ def main():
                 page.evaluate('async()=>{await document.fonts.ready;await Promise.all([...document.images].map(i=>i.complete?Promise.resolve():new Promise(r=>{i.onload=r;i.onerror=r})));}')
                 page.pdf(path=str(root/'pdf/Gesamtdokument_A4.pdf'), print_background=True, prefer_css_page_size=True)
                 manifest(root)
-                archive(root, args.output/f'BRC_LG01_LS{n:02d}_v1.5_SCORM12.zip')
+                archive(root, args.output/f'BRC_LG01_LS{n:02d}_v{args.version}_SCORM12.zip')
                 print('Packed', root.name, flush=True)
             browser.close()
     finally: server.shutdown(); server.server_close()

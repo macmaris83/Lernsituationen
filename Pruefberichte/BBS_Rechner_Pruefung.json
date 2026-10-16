@@ -91,7 +91,7 @@
       "status": "PASS"
     },
     {
-      "package": "work/delivery-v1.5/preview/LS01",
+      "package": "work/delivery-v1.6/preview/LS01",
       "SCORMIframe": true,
       "touchArithmetic": true,
       "touchDrag": true,
@@ -102,7 +102,7 @@
       "status": "PASS"
     },
     {
-      "package": "work/delivery-v1.5/preview/LS02",
+      "package": "work/delivery-v1.6/preview/LS02",
       "SCORMIframe": true,
       "touchArithmetic": true,
       "touchDrag": true,
@@ -113,7 +113,7 @@
       "status": "PASS"
     },
     {
-      "package": "work/delivery-v1.5/preview/LS03",
+      "package": "work/delivery-v1.6/preview/LS03",
       "SCORMIframe": true,
       "touchArithmetic": true,
       "touchDrag": true,
@@ -124,7 +124,7 @@
       "status": "PASS"
     },
     {
-      "package": "work/delivery-v1.5/preview/LS04",
+      "package": "work/delivery-v1.6/preview/LS04",
       "SCORMIframe": true,
       "touchArithmetic": true,
       "touchDrag": true,
@@ -135,7 +135,7 @@
       "status": "PASS"
     },
     {
-      "package": "work/delivery-v1.5/preview/LS05",
+      "package": "work/delivery-v1.6/preview/LS05",
       "SCORMIframe": true,
       "touchArithmetic": true,
       "touchDrag": true,
@@ -146,7 +146,7 @@
       "status": "PASS"
     },
     {
-      "package": "work/delivery-v1.5/preview/LS06",
+      "package": "work/delivery-v1.6/preview/LS06",
       "SCORMIframe": true,
       "touchArithmetic": true,
       "touchDrag": true,
