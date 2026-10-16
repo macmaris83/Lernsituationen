@@ -85,3 +85,46 @@ Original-PDFs bleiben bytegleich erhalten. Der PDF-Zugang öffnet die aktuelle
 Druckansicht. Persönliche Test- und Lernstände werden nicht exportiert.
 
 Prüfergebnisse der Lieferung 1.2: `Pruefberichte/BRC_LG01_Einzelaufgaben.md`.
+
+## Aufgabenform des aktuellen GitHub-Masters in Lieferung 1.3
+
+Die Aufgabenkarten benötigen neben identischem CSS die Metadaten des aktuellen
+Masters. Fehlende `assignment-social`-Elemente führen dazu, dass die Runtime die
+lange Arbeitsform einer ganzen Phase in die schmale Symbolspalte setzt.
+
+```bash
+python tools/transfer_task_card_form.py \
+  /workspace/delivery/BioCasa_LG01_Moodle_Lernpakete_v1.2.zip \
+  /workspace/delivery/lg01-aufgabenform \
+  --version 1.3
+```
+
+Die Zuordnung erfolgt innerhalb derselben Phase und desselben Lernwegs anhand
+der vollständigen Arbeitsaufträge. Eindeutige Teilaufträge übernehmen die
+Sozialform ihres GitHub-Gruppenauftrags. Zusätzliche Aufträge behalten ihre eigene
+Arbeitsform; bei offenen Phasenplänen bleibt die Auswahl offen. Die ausführliche
+ursprüngliche Phasenarbeitsform bleibt erhalten. Alle 628 Karten verwenden den
+GitHub-Aufbau aus Symbol, kurzer Beschriftung und unverändertem Arbeitsauftrag.
+
+Die drei maßgeblichen Stylesheets bleiben bytegleich mit GitHub. Offene Aufgaben
+haben den blauen Fokusrahmen, erledigte Aufgaben die volle hellgrüne Fläche
+`#f3f8e7`; Abhaken und Entfernen des Hakens ändern die Farben unmittelbar und
+nach erneutem Laden. Die Aufgaben, Buchbezüge, Medien und PDF-Dateien bleiben
+erhalten, ebenso die vollständige Fortschrittsdatei.
+
+Gelieferte Phasenbudgets werden als **Arbeitszeit der Phase** angezeigt. Es werden
+keine individuellen Aufgabendauern errechnet. Die Runtime aktualisiert diese
+Anzeige aus der aktuellen, gegebenenfalls im Editor bearbeiteten Phasenangabe.
+Ein tatsächlich vorhandener Aufgabentimer wird weiterhin normal verwendet.
+Diese Zeitoberfläche wird bei der Bildung der Inhaltssignaturen ausgeschlossen.
+
+Browserprüfung mit installiertem Playwright und Chromium:
+
+```bash
+node tools/check_task_card_form.mjs /workspace/delivery/lg01-aufgabenform/preview
+```
+
+Bei Bedarf geben `PLAYWRIGHT_MODULE` und `CHROMIUM_PATH` die lokalen Installationen
+an. Der zusätzliche Parameter `--colors-only` prüft nur Farbwechsel und
+Speicherung nach erneutem Laden. Berichte der Lieferung stehen in
+`Pruefberichte/BRC_LG01_Aufgabenform.md`.
