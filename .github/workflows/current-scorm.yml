@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Exportwerkzeug prüfen
-        run: python3 -m unittest discover -s tools -p 'test_master.py'
+        run: python3 -m unittest discover -s tools -p 'test_*.py'
       - name: Master und Manifest-Dateien prüfen
         run: python3 tools/master.py check
 
@@ -36,7 +36,7 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
       - name: Tatsächlich ausgecheckten Stand prüfen
-        run: python3 -m unittest discover -s tools -p 'test_master.py'
+        run: python3 -m unittest discover -s tools -p 'test_*.py'
       - name: Aktuelle Einzelpakete erzeugen
         run: python3 tools/master.py export --all
       - name: Paketinhalt und Prüfsummen prüfen
