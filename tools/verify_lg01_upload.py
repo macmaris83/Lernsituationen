@@ -159,6 +159,8 @@ def browser_audit(browser, base, root, reports):
         for slot in slots.values(): need(z.read(slot['src'])==(root/slot['src']).read_bytes(),root.name,'original image in editor export')
         need(z.read('assets/progress-core.js')==(root/'assets/progress-core.js').read_bytes(),root.name,'current progress code in export')
         need(z.read('Paketversion.json')==(root/'Paketversion.json').read_bytes(),root.name,'delivery version in export')
+        for name in ('calculator-engine.js','calculator.js','calculator.css'):
+            need(z.read('assets/'+name)==(root/'assets'/name).read_bytes(),root.name,'calculator packaged in editor export',name)
     export.unlink()
     need(not errors,root.name,'JavaScript errors',errors)
     context.close()

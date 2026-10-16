@@ -20,6 +20,7 @@ import zipfile
 from lxml import html as H
 from lxml.etree import SubElement
 from playwright.sync_api import sync_playwright
+from install_calculator import install as install_calculator
 
 REPO = Path(__file__).resolve().parents[1]
 ICH = [
@@ -182,6 +183,7 @@ def main():
                 raw = raw.replace('lg01-bilder-aufgaben-20261014', 'lg01-upload-1-5-20261016')
                 file.write_text(raw)
             dump(target / 'Paketversion.json', {'version': '1.5', 'id': data['id'], 'referenceMaster': entry['master'], 'previousVersion': '1.4'})
+            install_calculator(target)
             report['lessons'].append({'folder': name, 'id': data['id'], 'tasks': len(meta['tasks']), 'sourceProgressSha256': sha(source / 'progress-meta.js'), 'progressSha256': sha(target / 'progress-meta.js'), 'sourceCompetencies': payload(source / 'lesson-data.js')['competencies'], 'competencies': data['competencies'], 'images': {role: {'file':slot['src'], 'sha256':sha(target/slot['src'])} for role,slot in media['slots'].items()}})
             print('Prepared', name, len(meta['tasks']), 'unchanged tasks', flush=True)
         browser.close()

@@ -40,6 +40,10 @@ Die drei maßgeblichen Stylesheets sowie Druck- und Materialgestaltung entsprech
 
 ## Reproduzieren und Prüfgrenzen
 
+Der zusätzliche BBS-Rechner ist in allen sechs Lieferpaketen, den sechs Katalog-Mastern der BRC-LG01-Reihe und beiden Lernsituationsvorlagen enthalten. Die acht Katalogexporte tragen Version 1.2; das eigenständige hochgeladene Paketset bleibt die Lieferung 1.5 mit seinen ursprünglichen Kennungen. Alle 40 Katalogarchive bestanden die zentrale Vollständigkeits- und Inhaltsgleichheitsprüfung.
+
+Rechnerprüfung: sieben unabhängige Rechenlogik-Tests und [14 tatsächliche SCORM-Iframe-Prüfungen](Rechner_Pruefung.json) bestanden. Geprüft sind die vier Grundrechenarten, Punkt-vor-Strich, Dezimalkomma, Prozent einschließlich Aufschlag/Rabatt, Fehlerbehandlung, echtes Touch-Verschieben ohne Seitenscrollen, erhaltene Rechnung/Position beim Materialwechsel, Tastatur, kleine Ansichten bis 667 × 320 Pixel, Schließen und Druckausschluss. Das Rechnen selbst verändert den bewerteten Lernstand nicht. Die sechs zusätzlichen Lehrkräfteexporte enthalten alle Rechnerdateien. Die 180 Fokusprüfungen wurden mit eingebautem Rechner erneut bestanden.
+
 Die Erstellung erfolgt mit `tools/refresh_lg01_upload.py INPUT OUTPUT`; INPUT enthält die sechs entpackten Originalordner LS01–LS06. Der Generator verändert die eigenständige Lieferung, nicht die fachlich andere Katalogreihe. Anschließend `tools/verify_lg01_upload.py INPUT OUTPUT` ausführen. Weitere Browserprüfer: `tools/check_task_card_form.mjs`, `tools/check_task_clocks.mjs` und `tools/check_situation_mc.mjs` mit dem erzeugten `preview`-Ordner. Benötigt werden lxml, PyMuPDF, Playwright und Chromium. Die aktuelle Quelle der 30 Ich-Formulierungen und deren ursprüngliche Fassung sind in [Inhaltspruefung.json](Inhaltspruefung.json) dokumentiert.
 
 Die Funktionsprüfungen liefen lokal in Chromium, einschließlich Touch-Eingabe und SCORM-1.2-API-Simulation. Eine tatsächliche Moodle-Installation, AIS-Anmeldung, ein physisches iPad und die Übergabe an die native GoodNotes-App waren nicht Bestandteil der Prüfung. Bereits importierte Moodle-Pakete benötigen dort ausdrücklich die neue Paketfassung.
