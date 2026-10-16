@@ -3,7 +3,7 @@
 
 The UI comes from the catalogue master. Existing instruction wording, progress
 identities, signatures, materials and original workbooks stay with the supplied
-package. Phase budgets are clearly labelled as phase budgets, not task timers.
+package. Task clocks use the catalogue's allocation of the existing phase budget.
 """
 from __future__ import annotations
 
@@ -18,6 +18,7 @@ from lxml import html
 from transfer_scorm_design import archive, content_of, manifest, payload, read_archive, sha
 from individualize_scorm_tasks import PHASES
 from task_card_workforms import apply_task_workforms
+from build_brc_series import times, number
 
 ROOT = Path(__file__).resolve().parents[1]
 CARD = './/*[contains(concat(" ",normalize-space(@class)," ")," assignment-frame ")]'
@@ -72,6 +73,48 @@ def phase_budgets(data):
     return count
 
 
+def task_clocks(data, canonical):
+    """Use the master's half-minute allocation for every supplied learning path."""
+    report = []
+    for phase in PHASES:
+        page = phase + '.html'
+        if page not in data.get('pages', {}):
+            continue
+        doc = fragment(data['pages'][page])
+        budget = canonical['phaseBudgets'][phase]
+        for panel in doc.xpath('.//*[@data-mode-panel]'):
+            cards = panel.xpath(CARD)
+            if not cards:
+                continue
+            instructions = []
+            for card in cards:
+                body = copy.deepcopy(card.xpath(BODY)[0])
+                for node in body.xpath('.//*[@data-time-ui or @data-split-context] | .//*[contains(concat(" ",normalize-space(@class)," ")," book-line ")]'):
+                    parent = node.getparent()
+                    if parent is not None:
+                        parent.remove(node)
+                instructions.append(html.tostring(body, encoding='unicode'))
+            allocated = times(instructions, budget)
+            source_icon = panel.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," phase-meta ")]/p[1]//svg')
+            for card, minutes in zip(cards, allocated):
+                body = card.xpath(BODY)[0]
+                for old in body.xpath(TIME_UI):
+                    old.getparent().remove(old)
+                label = html.Element('span', {'class': 'assignment-time', 'data-time-ui': 'true',
+                    'data-minutes': str(minutes), 'title': 'Orientierungszeit für diese Aufgabe'})
+                if source_icon:
+                    label.append(copy.deepcopy(source_icon[0]))
+                    label[-1].tail = ' ca. ' + number(minutes) + ' Min.'
+                else:
+                    label.text = 'ca. ' + number(minutes) + ' Min.'
+                body.append(label)
+            assert sum(allocated) == budget
+            report.append({'phase': phase, 'mode': panel.get('data-mode-panel'),
+                'tasks': len(cards), 'minutes': budget, 'allocatedMinutes': sum(allocated)})
+        data['pages'][page] = ''.join(html.tostring(child, encoding='unicode') for child in doc)
+    return report
+
+
 FOCUS_PHASE_BUDGET = r'''
  const phaseBudget=body.querySelector('.assignment-time[data-phase-budget]');
  if(!seconds&&phaseBudget){const timer=element('div','focus-timer focus-phase-budget'),row=element('div','focus-timer-row'),icon=element('span','focus-clock');icon.innerHTML=clockSvg;const value=element('span','focus-phase-budget-value',phaseBudget.dataset.phaseBudgetValue);row.append(icon,value);timer.append(element('p','focus-timer-note','Arbeitszeit der Phase'),row,element('p','focus-timer-note','Gemeinsames Zeitbudget für die Aufgaben dieser Phase.'));tools.append(timer);}
@@ -90,13 +133,16 @@ TASK_FORM_CSS = '''/* Same task-card and focus styles as the current catalogue m
 def patch_runtime(root):
     path = root / 'assets/runtime.js'
     source = path.read_text()
-    old = "const originalTime=card.querySelector('.assignment-time');"
-    new = "const originalTime=card.querySelector('.assignment-time:not([data-phase-budget])');"
-    assert source.count(old) == 1, 'Unexpected task runtime; inspect current master first.'
-    source = source.replace(old, REFRESH_PHASE_BUDGET + new)
-    target = ' for(const paragraph of [...body.querySelectorAll(\'p\')])'
-    assert source.count(target) == 1
-    source = source.replace(target, FOCUS_PHASE_BUDGET + target)
+    # 1.3 displayed a phase-budget label instead of supplying the timer metadata.
+    # Keep the original, complete GitHub clock including WebAudio and pause state.
+    source = source.replace(REFRESH_PHASE_BUDGET, '').replace(FOCUS_PHASE_BUDGET, '')
+    source = source.replace("const originalTime=card.querySelector('.assignment-time:not([data-phase-budget])');",
+                            "const originalTime=card.querySelector('.assignment-time');")
+    # The master creates its expiry notice but omitted attaching it to the clock.
+    source = source.replace('timer.append(row,note);tools.append(timer);',
+                            'timer.append(row,note,alarm);tools.append(timer);')
+    assert source.count("const originalTime=card.querySelector('.assignment-time');") == 1
+    assert "function chime(r)" in source and "focus-countdown" in source
     path.write_text(source)
     (root / 'assets/task-form.css').write_text(TASK_FORM_CSS)
     for path in root.glob('*.html'):
@@ -136,7 +182,7 @@ def transfer(raw, root, canonical):
     before = payload(files['lesson-data.js'])
     data = copy.deepcopy(before)
     report = apply_task_workforms(data, canonical)
-    report['phaseBudgets'] = phase_budgets(data)
+    report['taskClocks'] = task_clocks(data, canonical)
     validate_unchanged(before, data, payload(files['progress-meta.js']))
     (root / 'lesson-data.js').write_text('window.SOZPAED=' + json.dumps(data, ensure_ascii=False, separators=(',', ':')) + ';\n')
     for phase in PHASES:
@@ -146,6 +192,10 @@ def transfer(raw, root, canonical):
         end = source.index('</div></main>', start)
         (root / page).write_text(source[:start] + data['pages'][page] + source[end:])
     patch_runtime(root)
+    from fix_situation_mc import patch as patch_mc
+    from restore_book_logo import patch as patch_book
+    report['situationMC'] = patch_mc(root)
+    report['bookLogo'] = patch_book(root)
     manifest(root, files['imsmanifest.xml'])
     assert (root / 'progress-meta.js').read_bytes() == files['progress-meta.js']
     for name, content in files.items():
@@ -158,7 +208,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('source', type=Path)
     parser.add_argument('output', type=Path)
-    parser.add_argument('--version', default='1.3')
+    parser.add_argument('--version', default='1.4')
     args = parser.parse_args()
     if args.output.exists() or args.output.resolve().is_relative_to(ROOT):
         parser.error('Choose a new output folder outside the repository.')
@@ -193,6 +243,10 @@ def main():
     combined['Aufgabenform_Pruefung.json'] = report_bytes
     if 'Bitte_zuerst_lesen.txt' in entries:
         combined['Bitte_zuerst_lesen.txt'] = entries['Bitte_zuerst_lesen.txt'].replace(b'Lernpakete 1.2', ('Lernpakete ' + args.version).encode())
+        combined['Bitte_zuerst_lesen.txt'] = combined['Bitte_zuerst_lesen.txt'].replace(
+            'Der Review-Modus bleibt für Lernende schreibgeschützt.'.encode(),
+            'Der gespeicherte Lernstand bleibt im Review-Modus schreibgeschützt; die MC-Fragen können dort als lokale Übung beantwortet werden.'.encode())
+        combined['Bitte_zuerst_lesen.txt'] += ('\nErgänzung '+args.version+': Jede Aufgabe hat die vollständige GitHub-Uhr mit Countdown, Pause/Fortsetzen und schaltbarem Gong. Die Orientierungszeiten verteilen das vorhandene Phasenbudget nach derselben Methode wie der GitHub-Master. Nach Ablauf kann weitergearbeitet werden. Das kleine Original-Lehrbuchlogo bleibt sichtbar bei den Buchverweisen.\n').encode()
     archive(args.output / ('BioCasa_LG01_Moodle_Lernpakete_v' + args.version + '.zip'), combined)
 
 

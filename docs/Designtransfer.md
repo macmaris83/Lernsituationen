@@ -86,7 +86,7 @@ Druckansicht. Persönliche Test- und Lernstände werden nicht exportiert.
 
 Prüfergebnisse der Lieferung 1.2: `Pruefberichte/BRC_LG01_Einzelaufgaben.md`.
 
-## Aufgabenform des aktuellen GitHub-Masters in Lieferung 1.3
+## Aufgabenform und vollständige Uhr in Lieferung 1.4
 
 Die Aufgabenkarten benötigen neben identischem CSS die Metadaten des aktuellen
 Masters. Fehlende `assignment-social`-Elemente führen dazu, dass die Runtime die
@@ -96,7 +96,7 @@ lange Arbeitsform einer ganzen Phase in die schmale Symbolspalte setzt.
 python tools/transfer_task_card_form.py \
   /workspace/delivery/BioCasa_LG01_Moodle_Lernpakete_v1.2.zip \
   /workspace/delivery/lg01-aufgabenform \
-  --version 1.3
+  --version 1.4
 ```
 
 Die Zuordnung erfolgt innerhalb derselben Phase und desselben Lernwegs anhand
@@ -112,19 +112,36 @@ haben den blauen Fokusrahmen, erledigte Aufgaben die volle hellgrüne Fläche
 nach erneutem Laden. Die Aufgaben, Buchbezüge, Medien und PDF-Dateien bleiben
 erhalten, ebenso die vollständige Fortschrittsdatei.
 
-Gelieferte Phasenbudgets werden als **Arbeitszeit der Phase** angezeigt. Es werden
-keine individuellen Aufgabendauern errechnet. Die Runtime aktualisiert diese
-Anzeige aus der aktuellen, gegebenenfalls im Editor bearbeiteten Phasenangabe.
-Ein tatsächlich vorhandener Aufgabentimer wird weiterhin normal verwendet.
-Diese Zeitoberfläche wird bei der Bildung der Inhaltssignaturen ausgeschlossen.
+Die erste Lieferung 1.3 zeigte nur das Phasenbudget. Lieferung **1.4** ersetzt
+diesen unvollständigen Zeitbereich durch die vollständige GitHub-Uhr. Die Funktion
+`times()` des aktuellen BRC-Generators verteilt das vorhandene Phasenbudget für
+jeden Lernweg auf dessen eigene Aufgaben: mindestens eine halbe Minute je Auftrag,
+den Rest proportional zur Quadratwurzel der Wortzahl, ohne Rundungsabweichung in
+der Summe. W3 und W5 verwenden wie im Master dieselben Phasenbudgets. Buchverweise
+und wiederholte Kontexte bestimmen das Gewicht nicht. Der ursprüngliche
+Phasenplan bleibt erhalten; die ergänzte Orientierungszeit ist signaturneutrale UI.
+
+Countdown, Pause/Fortsetzen, Grün–Schwarz–Rot und der schaltbare Gong stammen
+unverändert aus der GitHub-Runtime. Der Gong wird durch die erste Bedienung
+freigegeben; nach Ablauf bleibt Weiterarbeiten möglich. Es gibt keinen Reset.
 
 Browserprüfung mit installiertem Playwright und Chromium:
 
 ```bash
 node tools/check_task_card_form.mjs /workspace/delivery/lg01-aufgabenform/preview
+node tools/check_task_clocks.mjs /workspace/delivery/lg01-aufgabenform/preview
 ```
 
 Bei Bedarf geben `PLAYWRIGHT_MODULE` und `CHROMIUM_PATH` die lokalen Installationen
 an. Der zusätzliche Parameter `--colors-only` prüft nur Farbwechsel und
 Speicherung nach erneutem Laden. Berichte der Lieferung stehen in
 `Pruefberichte/BRC_LG01_Aufgabenform.md`.
+
+Die MC-Antwortzeilen der Handlungssituation sind auch im Moodle-Review per Touch
+bedienbar. Antworten und Prüfen verändern dort nur die laufende Übung; der
+gespeicherte Versuch bleibt unverändert. Im normalen Versuch werden richtige
+Antworten wie bisher gespeichert und schalten den weiteren Lernweg frei.
+Das unveränderte Original-Lehrbuchlogo bleibt mit dem jeweiligen Buchverweis
+in einer kompakten Zeile sichtbar.
+
+Zusätzliche Touch-Prüfung: `node tools/check_situation_mc.mjs PREVIEW_ROOT`.

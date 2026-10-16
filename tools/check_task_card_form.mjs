@@ -48,17 +48,24 @@ async function check(number){
    assert.equal(await page.locator('.focus-phase-form').count(),0,lesson+' has legacy phase-form fallback');
    const metadata=await page.evaluate(()=>[...document.querySelectorAll('.assignment-frame')].every(card=>{
     const icon=card.querySelector('.task-summary .assignment-social');
-    return icon?.querySelector('svg')&&icon.querySelector('small')?.textContent.trim()&&card.querySelector('.task-original-preview .assignment-time[data-phase-budget]');
+    return icon?.querySelector('svg')&&icon.querySelector('small')?.textContent.trim()&&card.querySelector('.task-original-preview .assignment-time[data-minutes]');
    }));
    assert.equal(metadata,true,lesson+' '+phase+' complete metadata');
    for(let mode=1;mode<=5;mode++){
-    await page.evaluate(mode=>SOZ_API.setMode(mode,false),mode);
+    // Use the actual authenticated selector, which persists the active path.
+    // A temporary setMode(...,false) is reverted by a later settings refresh.
+    const selector=page.locator('.teacher-view-bar select');
+    if(await selector.inputValue()!==String(mode)){
+     await Promise.all([page.waitForNavigation({waitUntil:'domcontentloaded'}),selector.selectOption(String(mode))]);
+     await page.waitForFunction(()=>document.body.dataset.taskFocusReady==='true');
+    }
     const card=page.locator(`[data-mode-panel="${mode}"] .assignment-frame`).first();
     if(number===1&&phase==='informieren'&&mode===1)await card.screenshot({path:'/tmp/lg01-task-form-overview.png'});
     await card.locator('.task-original-preview').click();
     assert.equal(await page.locator('.task-accordion[open]:visible').count(),1);
-    assert.equal(await card.locator('.focus-phase-budget').isVisible(),true);
-    assert.equal(await card.locator('.focus-countdown').count(),0,'phase budget must not become an invented task countdown');
+    assert.equal(await card.locator('.focus-timer').isVisible(),true);
+    assert.equal(await card.locator('.focus-countdown').count(),1,'complete master task clock');
+    assert.equal(await card.locator('.focus-sound input').isChecked(),true);
     const columns=await card.locator('.focus-task-heading').evaluate(element=>getComputedStyle(element).gridTemplateColumns.split(' ').length);
     assert.equal(columns,2,lesson+' tablet competence/time columns');
     const box=card.locator('.task-accordion[open] [data-task-complete]'),next=card.locator('.focus-next');
@@ -81,7 +88,11 @@ async function check(number){
   }
   await page.goto(url+'informieren.html');
   await page.waitForFunction(()=>document.body.dataset.taskFocusReady==='true');
-  await page.evaluate(()=>SOZ_API.setMode(1,false));
+  const finalSelector=page.locator('.teacher-view-bar select');
+  if(await finalSelector.inputValue()!=='1'){
+   await Promise.all([page.waitForNavigation({waitUntil:'domcontentloaded'}),finalSelector.selectOption('1')]);
+   await page.waitForFunction(()=>document.body.dataset.taskFocusReady==='true');
+  }
   let card=page.locator('[data-mode-panel="1"] .assignment-frame').first();
   await card.locator('.task-original-preview').click();
   const completion=card.locator('.task-accordion[open] [data-task-complete]');
@@ -105,7 +116,10 @@ async function check(number){
 
 try{
  // Two independent packages at a time keep the browser checks responsive.
- for(let first=1;first<=6;first+=2)await Promise.all([check(first),check(first+1)]);
+ const start=Number(process.env.START_LS||1),end=Number(process.env.END_LS||6);
+ for(let first=start;first<=end;first+=2){
+  await Promise.all([check(first),...(first+1<=end?[check(first+1)]:[])]);
+ }
  assert.deepEqual(errors,[]);
  fs.writeFileSync(path.join(path.dirname(root),colorsOnly?'Farben_Pruefung.json':'Browser_Pruefung.json'),JSON.stringify(results.sort((a,b)=>a.lesson.localeCompare(b.lesson)),null,2)+'\n');
 }finally{await browser.close();server.close();}
