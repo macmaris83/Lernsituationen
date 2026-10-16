@@ -1,0 +1,284 @@
+[
+  {
+    "lesson": "LS01",
+    "tasks": 102,
+    "taskTimesPresent": true,
+    "teacherLogin": true,
+    "modes": [
+      {
+        "mode": 1,
+        "minutes": 21,
+        "pauseResume": true,
+        "reloadRemaining": true,
+        "greenBlackRed": true,
+        "silentGongNoOscillators": true,
+        "nativeGongStarts": 6,
+        "positiveGainRamp": true,
+        "expiryAllowsWork": true
+      },
+      {
+        "mode": 2,
+        "minutes": 31,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 3,
+        "minutes": 42.5,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 4,
+        "minutes": 17.5,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 5,
+        "minutes": 58,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      }
+    ]
+  },
+  {
+    "lesson": "LS02",
+    "tasks": 100,
+    "taskTimesPresent": true,
+    "teacherLogin": true,
+    "modes": [
+      {
+        "mode": 1,
+        "minutes": 16,
+        "pauseResume": true,
+        "reloadRemaining": true,
+        "greenBlackRed": true,
+        "silentGongNoOscillators": true,
+        "nativeGongStarts": 6,
+        "positiveGainRamp": true,
+        "expiryAllowsWork": true
+      },
+      {
+        "mode": 2,
+        "minutes": 24.5,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 3,
+        "minutes": 35,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 4,
+        "minutes": 18.5,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 5,
+        "minutes": 40,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      }
+    ]
+  },
+  {
+    "lesson": "LS03",
+    "tasks": 104,
+    "taskTimesPresent": true,
+    "teacherLogin": true,
+    "modes": [
+      {
+        "mode": 1,
+        "minutes": 27,
+        "pauseResume": true,
+        "reloadRemaining": true,
+        "greenBlackRed": true,
+        "silentGongNoOscillators": true,
+        "nativeGongStarts": 6,
+        "positiveGainRamp": true,
+        "expiryAllowsWork": true
+      },
+      {
+        "mode": 2,
+        "minutes": 82.5,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 3,
+        "minutes": 76,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 4,
+        "minutes": 34.5,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 5,
+        "minutes": 112.5,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      }
+    ]
+  },
+  {
+    "lesson": "LS04",
+    "tasks": 104,
+    "taskTimesPresent": true,
+    "teacherLogin": true,
+    "modes": [
+      {
+        "mode": 1,
+        "minutes": 18.5,
+        "pauseResume": true,
+        "reloadRemaining": true,
+        "greenBlackRed": true,
+        "silentGongNoOscillators": true,
+        "nativeGongStarts": 6,
+        "positiveGainRamp": true,
+        "expiryAllowsWork": true
+      },
+      {
+        "mode": 2,
+        "minutes": 34,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 3,
+        "minutes": 52,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 4,
+        "minutes": 18,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 5,
+        "minutes": 70.5,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      }
+    ]
+  },
+  {
+    "lesson": "LS05",
+    "tasks": 103,
+    "taskTimesPresent": true,
+    "teacherLogin": true,
+    "modes": [
+      {
+        "mode": 1,
+        "minutes": 24,
+        "pauseResume": true,
+        "reloadRemaining": true,
+        "greenBlackRed": true,
+        "silentGongNoOscillators": true,
+        "nativeGongStarts": 6,
+        "positiveGainRamp": true,
+        "expiryAllowsWork": true
+      },
+      {
+        "mode": 2,
+        "minutes": 55,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 3,
+        "minutes": 64.5,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 4,
+        "minutes": 21,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 5,
+        "minutes": 86.5,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      }
+    ]
+  },
+  {
+    "lesson": "LS06",
+    "tasks": 115,
+    "taskTimesPresent": true,
+    "teacherLogin": true,
+    "modes": [
+      {
+        "mode": 1,
+        "minutes": 17.5,
+        "pauseResume": true,
+        "reloadRemaining": true,
+        "greenBlackRed": true,
+        "silentGongNoOscillators": true,
+        "nativeGongStarts": 6,
+        "positiveGainRamp": true,
+        "expiryAllowsWork": true
+      },
+      {
+        "mode": 2,
+        "minutes": 52.5,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 3,
+        "minutes": 50.5,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 4,
+        "minutes": 14,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      },
+      {
+        "mode": 5,
+        "minutes": 84,
+        "clockControls": true,
+        "pauseResumeControls": true,
+        "gongToggle": true
+      }
+    ]
+  }
+]
