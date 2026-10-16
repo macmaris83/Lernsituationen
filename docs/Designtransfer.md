@@ -44,3 +44,44 @@ Vor Verteilung zusätzlich Aufgabenfokus in allen Phasen/Lernwegen, Materialwech
 und Rücksprung, Phasensperren, Tablet-/Smartphonebreite sowie den Lehrkräfteexport
 im Browser prüfen. Ein lokaler SCORM-API-Test ersetzt keine Prüfung in Moodle
 oder der nativen Moodle-App.
+
+## Einzelaufgaben und Lehrkräfteansicht in Lieferung 1.2
+
+Nach dem unveränderten Designtransfer trennt der ausdrücklich angeforderte zweite
+Schritt eigenständige Arbeitsaufträge in einzelne Karten. Kriterien, Checkpoints,
+optionale Hilfen und zusammengehörende Prüfaufträge bleiben bei ihrer Aufgabe.
+Die Nummerierung läuft pro Lernweg über alle sechs Aufgabenphasen weiter.
+Text, fett markierte Operatoren, Buchbezüge, Materialien und Bilder bleiben
+erhalten; erforderliche Einleitungen werden in den getrennten Karten wiederholt.
+
+```bash
+python -m pip install lxml reportlab PyMuPDF
+python tools/individualize_scorm_tasks.py \
+  /workspace/delivery/lg01/BioCasa_LG01_Moodle_Lernpakete_v1.1.zip \
+  /workspace/delivery/lg01-einzelaufgaben \
+  --version 1.2
+```
+
+Die vorhandenen Aufgaben-IDs bleiben erhalten; weitere Teile erhalten stabile
+Unterkennungen. Signaturgeprüfte Migrationsregeln übernehmen erledigte alte
+Bündel auf ihre Teile. Das Abhaken nur eines neuen Teils erledigt keine weiteren
+Teile. Sichtbare Nummern sind von den Speicherkennungen getrennt und werden
+auch im Editor-Export fortlaufend berechnet.
+
+Der Zugang unten rechts heißt **Editor**. Nach der bestehenden PIN-Anmeldung
+öffnet **Lehrkräfteansicht starten** einen getrennten Teststand mit direktem
+Zugang zu sämtlichen Phasen und fünf Lernwegen. **Lösungen anzeigen** öffnet
+die richtigen Original-Quizantworten samt Rückmeldung und den vorhandenen
+Erwartungshorizont. **Lernendenansicht** beendet diese Ansicht. Der Teststand
+schreibt weder Aufgabenhaken noch Kompetenzangaben in den Moodle-Lernversuch.
+
+Der Moodle-Modus `browse` ist eine bedienbare lokale Lernvorschau ohne
+Moodle-Schreibzugriffe. `review` bleibt für Lernende schreibgeschützt; die
+angemeldete Lehrkräfteansicht kann unabhängig davon verwendet werden.
+
+Die 180 abgeleiteten GoodNotes-Phasenhefte werden aus den aktuellen Einzelkarten
+mit denselben Nummern und unveränderten Aufgabentexten erzeugt. Die 42 gelieferten
+Original-PDFs bleiben bytegleich erhalten. Der PDF-Zugang öffnet die aktuelle
+Druckansicht. Persönliche Test- und Lernstände werden nicht exportiert.
+
+Prüfergebnisse der Lieferung 1.2: `Pruefberichte/BRC_LG01_Einzelaufgaben.md`.
