@@ -17,6 +17,8 @@ Stand der Übernahme: **16.10.2026**, Paketversion **0.10** (Sites-Quellfassung 
 
 Die GitHub-Übernahme wurde lokal geprüft: **140 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich**. Die Schüler-ZIP wurde mit allen 27 Manifestdateien bytegenau verglichen; die 23 bestehenden JavaScript-Dateien blieben unverändert. Die Node-UI-Tests verwenden eine VM mit simulierten DOM-/Ereignisobjekten; die SCORM-Tests eine simulierte LMS-API.
 
+Der erste GitHub-OS-Lauf fand einen übernommenen, fest codierten Scratch-Pfad in einem Paket-Writer-Test. Dessen unnötige Dateiausgabe wurde entfernt; dieselben ZIP-/CRC-Prüfungen arbeiten im Speicher. Die Anwendung und Schüler-ZIP ändern sich dadurch nicht. Der zentrale SCORM-Workflow hat beim Import bereits alle Katalog-Master und aktuellen Archive erfolgreich geprüft.
+
 **Offen bleiben reale Abnahmen:** visuelle Browserdarstellung und Pfeilbewegung, tatsächliche Touch-/iPad-Tastaturbedienung, Moodle-App/Webview, Speichern/Wiederaufnahme in der Schulinstallation und Gerätewechsel. Ein erfolgreicher automatisierter Test bestätigt diese Abnahmen nicht. Die Browser-Prüfumgebung war beim letzten Versuch nicht verfügbar.
 
 Der bestehende GitHub-Workflow „Aktuelle SCORM-Pakete“ prüft den gesamten Katalog und seine Exportwerkzeug-Tests und erzeugt die aktuellen ZIPs. Der ergänzende Workflow „BioCasa OS prüfen“ führt die OS-Tests und den eigenen Paketvergleich aus. Den tatsächlichen Laufstatus immer in GitHub prüfen; diese Beschreibung behauptet keinen noch nicht erfolgten CI-Erfolg.

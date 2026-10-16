@@ -1,6 +1,5 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
 import vm from 'node:vm';
 import {answers,inventoryAnswers,inventoryDone,foundations,complete} from './fixtures/learning.mjs';
 import '../dist/drafts.js';
@@ -35,5 +34,5 @@ test('Terminwerkzeug rechnet Sommer-/Winterzeit in Berlin und weist ungültige T
  assert.equal(R.berlinInputToISO('2026-01-15T10:00'),'2026-01-15T09:00:00.000Z');assert.equal(R.berlinInputToISO('2026-06-15T10:00'),'2026-06-15T08:00:00.000Z');assert.throws(()=>R.berlinInputToISO('2026-02-31T10:00'));assert.throws(()=>R.berlinInputToISO('2026-03-29T02:30'));assert.throws(()=>R.validate({version:1,inventar:{mode:'date',opensAt:'wrong'}}));const c={version:1,inventar:{mode:'hold',opensAt:null}},context=vm.createContext({});vm.runInContext(R.source(c),context);assert.equal(context.BioCasaCourseConfig.inventar.mode,'hold');
 });
 test('Paket-Writer erzeugt überprüfbare ZIP-Dateien mit UTF-8-Inhalten und konfigurierter Freigabe',()=>{
- const zip=BioCasaPackage.zip([{name:'imsmanifest.xml',data:'<manifest/>'},{name:'course-config.js',data:R.source({version:1,inventar:{mode:'hold'}})},{name:'text.txt',data:'Grüße aus Aurich'}]);const p='/workspace/scratch/5a267d8fd23e/configurator-zip-test.zip';fs.writeFileSync(p,zip);assert.equal(new DataView(zip.buffer).getUint32(0,true),0x04034b50);assert.equal(BioCasaPackage.crc(new TextEncoder().encode('123456789')),0xcbf43926);assert.throws(()=>BioCasaPackage.zip([{name:'../wrong',data:'x'}]));
+ const zip=BioCasaPackage.zip([{name:'imsmanifest.xml',data:'<manifest/>'},{name:'course-config.js',data:R.source({version:1,inventar:{mode:'hold'}})},{name:'text.txt',data:'Grüße aus Aurich'}]);assert.equal(new DataView(zip.buffer).getUint32(0,true),0x04034b50);assert.equal(BioCasaPackage.crc(new TextEncoder().encode('123456789')),0xcbf43926);assert.throws(()=>BioCasaPackage.zip([{name:'../wrong',data:'x'}]));
 });
