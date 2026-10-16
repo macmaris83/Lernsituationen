@@ -1,4 +1,4 @@
-BioCasa OS 0.10 – Moodle-Erprobung
+BioCasa OS 0.11 – Moodle-Erprobung
 ================================
 
 EINMALIG ALS LEHRKRAFT EINRICHTEN
@@ -71,7 +71,7 @@ T-KONTEN ERÖFFNEN UND ABSCHLIESSEN (NEU IN 0.8)
 - Dies ist eine didaktische Abschlussansicht mit den Gegenbuchungen auf
   801 (SBK) bzw. 802 (GuV). Ein vollständiger Jahresabschluss folgt später.
 
-KLEINER TOUCH-RECHNER (0.10)
+KLEINER TOUCH-RECHNER (0.11)
 - Tippe auf ± neben einem Betragsfeld. Die Rechenhilfe öffnet im selben Formular.
   „Übernehmen in“ nennt das gewählte Ziel. Eingeklappt bleibt sie unauffällig.
 - Gib deine Zahlen ein und rechne mit + und −. Runde Tasten, dunkle Anzeige,
@@ -268,7 +268,7 @@ ABNAHME 0.6
 - Auf dem Schul-iPad die Dateiauswahl in „Dateien“, Upload-Vorschau und den
   Schuljahreswechsel im echten Moodle prüfen. Dieser Gerätetest steht noch aus.
 
-BILANZAUSSCHNITT UND BUCHUNGSSATZ (0.10)
+BILANZAUSSCHNITT UND BUCHUNGSSATZ (0.11)
 - Die Bilanzwirkung zeigt Anlagevermögen und Umlaufvermögen links sowie
   Eigenkapital und Fremdkapital rechts. Graue Gruppenüberschriften geben Struktur.
 - Betroffene Konten stehen mit Nummer, Kontobezeichnung und Veränderungsbetrag

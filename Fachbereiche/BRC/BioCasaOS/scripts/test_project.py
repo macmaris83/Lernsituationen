@@ -4,6 +4,7 @@ import io
 import json
 from pathlib import Path
 import shutil
+import re
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -37,12 +38,17 @@ class ProjectReleaseTests(unittest.TestCase):
     def test_version_updates_display_and_catalog_without_changing_financial_or_storage_code(self):
         preserved = {p: p.read_bytes() for p in (self.project / 'dist').rglob('*') if p.is_file() and p.name not in ('index.html', 'preview.html', 'KURZSTART.txt')}
         old = self.item['version']
+        guide = self.project / 'dist/KURZSTART.txt'
+        guide.write_text(guide.read_text() + '\nTestdatum 30.10.2026; Referenzversion 0.10.0.\n', encoding='utf-8')
+        dates = re.findall(r'\b\d{2}\.\d{2}(?:\.\d{4})?', guide.read_text())
         major, minor = map(int, old.split('.'))
         new = f'{major}.{minor + 1}'
         self.quiet(project.set_version, new)
         self.quiet(project.check)
         self.assertEqual(json.loads(self.catalog.read_text())['packages'][0]['version'], new)
         self.assertEqual(json.loads((self.project / 'package.json').read_text())['version'], new + '.0')
+        self.assertEqual(re.findall(r'\b\d{2}\.\d{2}(?:\.\d{4})?', guide.read_text()), dates)
+        self.assertIn('Referenzversion 0.10.0', guide.read_text())
         for path, content in preserved.items():
             self.assertEqual(path.read_bytes(), content, path.name)
 

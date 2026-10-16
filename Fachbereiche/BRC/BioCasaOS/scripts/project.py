@@ -64,7 +64,7 @@ def set_version(value):
         path = PROJECT / name
         replacements[path] = path.read_text(encoding='utf-8').replace(f'<span class="version">{old}</span>', f'<span class="version">{value}</span>')
     path = PROJECT / 'dist/KURZSTART.txt'
-    replacements[path] = path.read_text(encoding='utf-8').replace(old, value)
+    replacements[path] = re.sub(r'(?<![\d.])' + re.escape(old) + r'(?![\d.])', value, path.read_text(encoding='utf-8'))
     path = PROJECT / 'README.md'
     text = path.read_text(encoding='utf-8')
     replacements[path] = re.sub(r'\*\*Paketversion: [0-9]+\.[0-9]+\.\*\*', f'**Paketversion: {value}.**', text)

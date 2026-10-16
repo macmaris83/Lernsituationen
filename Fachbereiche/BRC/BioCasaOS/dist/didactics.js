@@ -34,11 +34,11 @@ const DECISIONS={
  ]
 };
 const QUESTION_PARTS=[
- ['a','1 · Welches Konto ist betroffen?',null],
+ ['a','1 · Welches Konto?',null],
  ['f','2 · Bestandskonto oder Erfolgskonto?',[['b','Bestandskonto'],['e','Erfolgskonto']]],
- ['t','3 · Welche Kontoart liegt genauer vor?',[['a','Aktives Bestandskonto'],['p','Passives Bestandskonto'],['exp','Aufwandskonto'],['rev','Ertragskonto']]],
- ['m','4 · Zugang oder Abgang auf diesem Konto?',[['up','Zugang / Zunahme'],['down','Abgang / Abnahme']]],
- ['s','5 · Welche Kontoseite wird gebucht?',[['d','Soll · links'],['c','Haben · rechts']]]
+ ['t','3 · Welche Kontoart?',[['a','Aktives Bestandskonto'],['p','Passives Bestandskonto'],['exp','Aufwandskonto'],['rev','Ertragskonto']]],
+ ['m','4 · Zugang oder Abgang?',[['up','Zugang / Zunahme'],['down','Abgang / Abnahme']]],
+ ['s','5 · Soll oder Haben?',[['d','Soll · links'],['c','Haben · rechts']]]
 ];
 function decisionFields(id){const options=(id==='accounts'?['280','288','425','087']:['670','280','240','5000']).map(n=>[n,n+' · '+B.byId[n].name]);return (DECISIONS[id]||[]).flatMap(c=>c.targets.flatMap(t=>QUESTION_PARTS.map(([suffix,label,choices])=>({name:t.prefix+suffix,label,options:choices||options}))));}
 function decisionAnswers(id){return Object.fromEntries((DECISIONS[id]||[]).flatMap(c=>c.targets.flatMap(t=>Object.entries({a:t.account,f:t.family,t:t.type,m:t.move,s:t.side}).map(([k,v])=>[t.prefix+k,v]))));}
