@@ -1,0 +1,50 @@
+[
+  {
+    "lesson": "LS01",
+    "tasks": 102,
+    "signaturesPreserved": true,
+    "phaseModeFocusChecks": 30,
+    "blueOpenGreenCompleted": true,
+    "colorSurvivesReload": true
+  },
+  {
+    "lesson": "LS02",
+    "tasks": 100,
+    "signaturesPreserved": true,
+    "phaseModeFocusChecks": 30,
+    "blueOpenGreenCompleted": true,
+    "colorSurvivesReload": true
+  },
+  {
+    "lesson": "LS03",
+    "tasks": 104,
+    "signaturesPreserved": true,
+    "phaseModeFocusChecks": 30,
+    "blueOpenGreenCompleted": true,
+    "colorSurvivesReload": true
+  },
+  {
+    "lesson": "LS04",
+    "tasks": 104,
+    "signaturesPreserved": true,
+    "phaseModeFocusChecks": 30,
+    "blueOpenGreenCompleted": true,
+    "colorSurvivesReload": true
+  },
+  {
+    "lesson": "LS05",
+    "tasks": 103,
+    "signaturesPreserved": true,
+    "phaseModeFocusChecks": 30,
+    "blueOpenGreenCompleted": true,
+    "colorSurvivesReload": true
+  },
+  {
+    "lesson": "LS06",
+    "tasks": 115,
+    "signaturesPreserved": true,
+    "phaseModeFocusChecks": 30,
+    "blueOpenGreenCompleted": true,
+    "colorSurvivesReload": true
+  }
+]

@@ -1,0 +1,180 @@
+{
+  "passed": true,
+  "cases": 24,
+  "results": [
+    {
+      "lesson": 1,
+      "mode": "none",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 1,
+      "mode": "normal",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 1,
+      "mode": "browse",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 1,
+      "mode": "review",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true,
+      "reviewWrites": 0
+    },
+    {
+      "lesson": 2,
+      "mode": "none",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 2,
+      "mode": "normal",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 2,
+      "mode": "browse",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 2,
+      "mode": "review",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true,
+      "reviewWrites": 0
+    },
+    {
+      "lesson": 3,
+      "mode": "none",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 3,
+      "mode": "normal",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 3,
+      "mode": "browse",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 3,
+      "mode": "review",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true,
+      "reviewWrites": 0
+    },
+    {
+      "lesson": 4,
+      "mode": "none",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 4,
+      "mode": "normal",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 4,
+      "mode": "browse",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 4,
+      "mode": "review",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true,
+      "reviewWrites": 0
+    },
+    {
+      "lesson": 5,
+      "mode": "none",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 5,
+      "mode": "normal",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 5,
+      "mode": "browse",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 5,
+      "mode": "review",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true,
+      "reviewWrites": 0
+    },
+    {
+      "lesson": 6,
+      "mode": "none",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 6,
+      "mode": "normal",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 6,
+      "mode": "browse",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true
+    },
+    {
+      "lesson": 6,
+      "mode": "review",
+      "touchSelection": true,
+      "feedback": true,
+      "restored": true,
+      "reviewWrites": 0
+    }
+  ]
+}

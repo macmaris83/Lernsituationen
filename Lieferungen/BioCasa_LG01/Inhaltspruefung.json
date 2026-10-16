@@ -1,0 +1,492 @@
+{
+  "version": "1.5",
+  "referenceCommit": "8dd3853c69e1d33499037956c5fe3096fd2016f7",
+  "lessons": [
+    {
+      "folder": "LS01",
+      "id": "LG01-LS01",
+      "tasks": 102,
+      "sourceProgressSha256": "63262ded61ccf761fe9ced766f51b403e299c3af8dba91e2a3785e2f3850457b",
+      "progressSha256": "63262ded61ccf761fe9ced766f51b403e299c3af8dba91e2a3785e2f3850457b",
+      "sourceCompetencies": [
+        {
+          "label": "Fachkompetenz",
+          "weight": 4,
+          "statement": "Die Lernenden unterscheiden wirtschaftliche, soziale und ökologische Ziele, analysieren Zielbeziehungen und Stakeholderinteressen, bestimmen die Betriebsart und übertragen grundlegende Leistungsprozesse auf BioCasa.",
+          "id": "LG01-LS01-F"
+        },
+        {
+          "label": "Personalkompetenz",
+          "weight": 3,
+          "statement": "Die Lernenden gleichen eigene Vorstellungen mit überprüfbaren Informationen ab und erkennen, welche Stärken und Interessen sie in eine Gruppenentscheidung einbringen.",
+          "id": "LG01-LS01-P"
+        },
+        {
+          "label": "Sozialkompetenz",
+          "weight": 4,
+          "statement": "Die Lernenden vertreten unterschiedliche Gründerperspektiven sachlich, bearbeiten Zielkonflikte und treffen eine kompromissfähige gemeinsame Entscheidung.",
+          "id": "LG01-LS01-S"
+        },
+        {
+          "label": "Methodenkompetenz",
+          "weight": 3,
+          "statement": "Die Lernenden entnehmen Informationen aus betrieblichen Dokumenten, ordnen Ziele und Interessen nach vorgegebenen Kriterien und verdichten ihre Ergebnisse.",
+          "id": "LG01-LS01-M"
+        },
+        {
+          "label": "Medienkompetenz",
+          "weight": 2,
+          "statement": "Die Lernenden nutzen eine vorgegebene digitale Vorlage zur gemeinsamen Dokumentation und kennzeichnen die Herkunft übernommener Informationen.",
+          "id": "LG01-LS01-D"
+        }
+      ],
+      "competencies": [
+        {
+          "label": "Fachkompetenz",
+          "weight": 4,
+          "statement": "Ich unterscheide wirtschaftliche, soziale und ökologische Ziele, analysiere Zielbeziehungen und Stakeholderinteressen, bestimme die Betriebsart und übertrage grundlegende Leistungsprozesse auf BioCasa.",
+          "id": "LG01-LS01-F"
+        },
+        {
+          "label": "Personalkompetenz",
+          "weight": 3,
+          "statement": "Ich gleiche eigene Vorstellungen mit überprüfbaren Informationen ab und erkenne, welche Stärken und Interessen ich in eine Gruppenentscheidung einbringe.",
+          "id": "LG01-LS01-P"
+        },
+        {
+          "label": "Sozialkompetenz",
+          "weight": 4,
+          "statement": "Ich vertrete unterschiedliche Gründerperspektiven sachlich, bearbeite Zielkonflikte und treffe eine kompromissfähige gemeinsame Entscheidung.",
+          "id": "LG01-LS01-S"
+        },
+        {
+          "label": "Methodenkompetenz",
+          "weight": 3,
+          "statement": "Ich entnehme Informationen aus betrieblichen Dokumenten, ordne Ziele und Interessen nach vorgegebenen Kriterien und verdichte meine Ergebnisse.",
+          "id": "LG01-LS01-M"
+        },
+        {
+          "label": "Medienkompetenz",
+          "weight": 2,
+          "statement": "Ich nutze eine vorgegebene digitale Vorlage zur gemeinsamen Dokumentation und kennzeichne die Herkunft übernommener Informationen.",
+          "id": "LG01-LS01-D"
+        }
+      ],
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-ls01-orientation.png",
+          "sha256": "2ffe7dc03588163338c1e1168655f58ef6f89492ec86a95e0b2943c9952a8fc8"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-ls01-situation.png",
+          "sha256": "c6686349bf2ee6a2769ee1b9b79534172e0cc3bd9c7dd1526d7c57168471f860"
+        }
+      }
+    },
+    {
+      "folder": "LS02",
+      "id": "LG01-LS02",
+      "tasks": 100,
+      "sourceProgressSha256": "ccd6bcc9e8e758d6a949f3a395e9cfce87eb9e2f9e6ae6812a3de7adf61b08ba",
+      "progressSha256": "ccd6bcc9e8e758d6a949f3a395e9cfce87eb9e2f9e6ae6812a3de7adf61b08ba",
+      "sourceCompetencies": [
+        {
+          "label": "Fachkompetenz",
+          "weight": 4,
+          "statement": "Die Lernenden unterscheiden Gründungsvoraussetzungen, ordnen offene Fragen zuständigen Stellen zu und bringen notwendige Schritte in eine sachlogische Reihenfolge.",
+          "id": "LG01-LS02-F"
+        },
+        {
+          "label": "Personalkompetenz",
+          "weight": 4,
+          "statement": "Die Lernenden gleichen Anforderungen mit den vorhandenen Kompetenzen des Gründerteams ab, erkennen Lücken und übernehmen begründet Verantwortung für Maßnahmen.",
+          "id": "LG01-LS02-P"
+        },
+        {
+          "label": "Sozialkompetenz",
+          "weight": 3,
+          "statement": "Die Lernenden verteilen Aufgaben fair nach Kompetenzen und Ressourcen und stimmen parallele Arbeitsschritte miteinander ab.",
+          "id": "LG01-LS02-S"
+        },
+        {
+          "label": "Methodenkompetenz",
+          "weight": 4,
+          "statement": "Die Lernenden prüfen Quellen nach Absender, Aktualität, Zuständigkeit und Verbindlichkeit und verdichten Informationen in einem umsetzbaren Maßnahmenplan.",
+          "id": "LG01-LS02-M"
+        },
+        {
+          "label": "Medienkompetenz",
+          "weight": 3,
+          "statement": "Die Lernenden nutzen offizielle digitale Informationsangebote, dokumentieren Links und Abrufdatum und unterscheiden Primärquellen von allgemeinen Ratgeberseiten.",
+          "id": "LG01-LS02-D"
+        }
+      ],
+      "competencies": [
+        {
+          "label": "Fachkompetenz",
+          "weight": 4,
+          "statement": "Ich unterscheide Gründungsvoraussetzungen, ordne offene Fragen zuständigen Stellen zu und bringe notwendige Schritte in eine sachlogische Reihenfolge.",
+          "id": "LG01-LS02-F"
+        },
+        {
+          "label": "Personalkompetenz",
+          "weight": 4,
+          "statement": "Ich gleiche Anforderungen mit den vorhandenen Kompetenzen des Gründerteams ab, erkenne Lücken und übernehme begründet Verantwortung für Maßnahmen.",
+          "id": "LG01-LS02-P"
+        },
+        {
+          "label": "Sozialkompetenz",
+          "weight": 3,
+          "statement": "Ich verteile Aufgaben fair nach Kompetenzen und Ressourcen und stimme parallele Arbeitsschritte mit anderen ab.",
+          "id": "LG01-LS02-S"
+        },
+        {
+          "label": "Methodenkompetenz",
+          "weight": 4,
+          "statement": "Ich prüfe Quellen nach Absender, Aktualität, Zuständigkeit und Verbindlichkeit und verdichte Informationen in einem umsetzbaren Maßnahmenplan.",
+          "id": "LG01-LS02-M"
+        },
+        {
+          "label": "Medienkompetenz",
+          "weight": 3,
+          "statement": "Ich nutze offizielle digitale Informationsangebote, dokumentiere Links und Abrufdatum und unterscheide Primärquellen von allgemeinen Ratgeberseiten.",
+          "id": "LG01-LS02-D"
+        }
+      ],
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-ls02-orientation.png",
+          "sha256": "383855fb1c4598087f1605517816fb273823691ab0e86954cbbb924bf04988c1"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-ls02-situation.png",
+          "sha256": "dfd69676dc3fc3249c6792f518a4571d433011ae3afb2431de14e05512ddd89f"
+        }
+      }
+    },
+    {
+      "folder": "LS03",
+      "id": "LG01-LS03",
+      "tasks": 104,
+      "sourceProgressSha256": "6b045d12f4acc8c1168c52f3213d92235f9f9f0cb2d0e51a90f8293fb7cc7c02",
+      "progressSha256": "6b045d12f4acc8c1168c52f3213d92235f9f9f0cb2d0e51a90f8293fb7cc7c02",
+      "sourceCompetencies": [
+        {
+          "label": "Fachkompetenz",
+          "weight": 5,
+          "statement": "Die Lernenden analysieren Markt- und Unternehmensdaten, treffen zusammenhängende Entscheidungen zu Produkt, Preis, Distribution und Kommunikation und ermitteln daraus den Kapitalbedarf.",
+          "id": "LG01-LS03-F"
+        },
+        {
+          "label": "Personalkompetenz",
+          "weight": 4,
+          "statement": "Die Lernenden bearbeiten einen umfangreichen Auftrag nach vorgegebenen Etappen, prüfen eigene Annahmen und übernehmen Verantwortung für die Qualität eines Teilbereichs.",
+          "id": "LG01-LS03-P"
+        },
+        {
+          "label": "Sozialkompetenz",
+          "weight": 4,
+          "statement": "Die Lernenden führen Teilanalysen zusammen, lösen Widersprüche zwischen Funktionsbereichen und vertreten Entscheidungen gegenüber anderen Arbeitsgruppen.",
+          "id": "LG01-LS03-S"
+        },
+        {
+          "label": "Methodenkompetenz",
+          "weight": 5,
+          "statement": "Die Lernenden strukturieren heterogene Informationen, rechnen Szenariodaten aus, dokumentieren Annahmen und erstellen ein konsistentes Gesamtdokument.",
+          "id": "LG01-LS03-M"
+        },
+        {
+          "label": "Medienkompetenz",
+          "weight": 4,
+          "statement": "Die Lernenden nutzen Tabellenkalkulation und Textverarbeitung nach Vorgabe, setzen Formeln nachvollziehbar ein und führen einen digitalen Konsistenzcheck durch.",
+          "id": "LG01-LS03-D"
+        }
+      ],
+      "competencies": [
+        {
+          "label": "Fachkompetenz",
+          "weight": 5,
+          "statement": "Ich analysiere Markt- und Unternehmensdaten, treffe zusammenhängende Entscheidungen zu Produkt, Preis, Distribution und Kommunikation und ermittle daraus den Kapitalbedarf.",
+          "id": "LG01-LS03-F"
+        },
+        {
+          "label": "Personalkompetenz",
+          "weight": 4,
+          "statement": "Ich bearbeite einen umfangreichen Auftrag nach vorgegebenen Etappen, prüfe eigene Annahmen und übernehme Verantwortung für die Qualität eines Teilbereichs.",
+          "id": "LG01-LS03-P"
+        },
+        {
+          "label": "Sozialkompetenz",
+          "weight": 4,
+          "statement": "Ich führe Teilanalysen zusammen, löse Widersprüche zwischen Funktionsbereichen und vertrete Entscheidungen gegenüber anderen Arbeitsgruppen.",
+          "id": "LG01-LS03-S"
+        },
+        {
+          "label": "Methodenkompetenz",
+          "weight": 5,
+          "statement": "Ich strukturiere heterogene Informationen, rechne Szenariodaten aus, dokumentiere Annahmen und erstelle ein konsistentes Gesamtdokument.",
+          "id": "LG01-LS03-M"
+        },
+        {
+          "label": "Medienkompetenz",
+          "weight": 4,
+          "statement": "Ich nutze Tabellenkalkulation und Textverarbeitung nach Vorgabe, setze Formeln nachvollziehbar ein und führe einen digitalen Konsistenzcheck durch.",
+          "id": "LG01-LS03-D"
+        }
+      ],
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-ls03-orientation.png",
+          "sha256": "0fb4cec24cece9769e05fc83efcfcded504a836540dda66cdda0ff5dd3f28bcb"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-ls03-situation.png",
+          "sha256": "ccbe6add46edcde8170f1c4267f445f24fafbf73399236bfb9ec6abbb74dd11c"
+        }
+      }
+    },
+    {
+      "folder": "LS04",
+      "id": "LG01-LS04",
+      "tasks": 104,
+      "sourceProgressSha256": "dc40129337802674a06c9556b0aa0d4f4ca02267c4c79f57f0f2016036235ee1",
+      "progressSha256": "dc40129337802674a06c9556b0aa0d4f4ca02267c4c79f57f0f2016036235ee1",
+      "sourceCompetencies": [
+        {
+          "label": "Fachkompetenz",
+          "weight": 5,
+          "statement": "Die Lernenden analysieren Konditionen, Kosten, Liquiditätswirkungen, Risiken und Zweckbindung der drei Finanzierungsformen und entwickeln daraus ein tragfähiges Konzept.",
+          "id": "LG01-LS04-F"
+        },
+        {
+          "label": "Personalkompetenz",
+          "weight": 4,
+          "statement": "Die Lernenden vertreten eine belastbare Position unter Nachfragen, erkennen Unsicherheiten an und reagieren sachlich auf Kritik.",
+          "id": "LG01-LS04-P"
+        },
+        {
+          "label": "Sozialkompetenz",
+          "weight": 5,
+          "statement": "Die Lernenden einigen sich trotz unterschiedlicher Risikovorstellungen auf eine gemeinsame Botschaft, verteilen Sprechrollen und geben kriteriengeleitet Feedback.",
+          "id": "LG01-LS04-S"
+        },
+        {
+          "label": "Methodenkompetenz",
+          "weight": 4,
+          "statement": "Die Lernenden berechnen Finanzierungswirkungen, führen einen Stressvergleich durch und verdichten komplexe Informationen für eine Entscheidung.",
+          "id": "LG01-LS04-M"
+        },
+        {
+          "label": "Medienkompetenz",
+          "weight": 5,
+          "statement": "Die Lernenden erstellen ein übersichtliches Pitchdeck, visualisieren Planwerte korrekt und präsentieren mit digitalen Medien adressatengerecht.",
+          "id": "LG01-LS04-D"
+        }
+      ],
+      "competencies": [
+        {
+          "label": "Fachkompetenz",
+          "weight": 5,
+          "statement": "Ich analysiere Konditionen, Kosten, Liquiditätswirkungen, Risiken und Zweckbindung der drei Finanzierungsformen und entwickle daraus ein tragfähiges Konzept.",
+          "id": "LG01-LS04-F"
+        },
+        {
+          "label": "Personalkompetenz",
+          "weight": 4,
+          "statement": "Ich vertrete eine belastbare Position unter Nachfragen, erkenne Unsicherheiten an und reagiere sachlich auf Kritik.",
+          "id": "LG01-LS04-P"
+        },
+        {
+          "label": "Sozialkompetenz",
+          "weight": 5,
+          "statement": "Ich einige mich trotz unterschiedlicher Risikovorstellungen mit anderen auf eine gemeinsame Botschaft, übernehme meinen Anteil an der Verteilung der Sprechrollen und gebe kriteriengeleitet Feedback.",
+          "id": "LG01-LS04-S"
+        },
+        {
+          "label": "Methodenkompetenz",
+          "weight": 4,
+          "statement": "Ich berechne Finanzierungswirkungen, führe einen Stressvergleich durch und verdichte komplexe Informationen für eine Entscheidung.",
+          "id": "LG01-LS04-M"
+        },
+        {
+          "label": "Medienkompetenz",
+          "weight": 5,
+          "statement": "Ich erstelle ein übersichtliches Pitchdeck, visualisiere Planwerte korrekt und präsentiere mit digitalen Medien adressatengerecht.",
+          "id": "LG01-LS04-D"
+        }
+      ],
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-ls04-orientation.png",
+          "sha256": "42262cc0614c70e2cc4e9dc8e8f06a6fd8c6cc0a1f74095057f64df5b1be18d6"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-ls04-situation.png",
+          "sha256": "410b4960d668244e95fa5d64266b1adb9602caf53001deeef57c6891c51858d6"
+        }
+      }
+    },
+    {
+      "folder": "LS05",
+      "id": "LG01-LS05",
+      "tasks": 103,
+      "sourceProgressSha256": "755b4a90463fbaee1e7fc68b39e946300773d068da87b0159d994dec0e986c8e",
+      "progressSha256": "755b4a90463fbaee1e7fc68b39e946300773d068da87b0159d994dec0e986c8e",
+      "sourceCompetencies": [
+        {
+          "label": "Fachkompetenz",
+          "weight": 5,
+          "statement": "Die Lernenden unterscheiden Firma, Kaufmannseigenschaft, Handelsregister, Geschäftsführung, Vertretung und Haftung und wenden die Rechtsformmerkmale auf den BioCasa-Fall an.",
+          "id": "LG01-LS05-F"
+        },
+        {
+          "label": "Personalkompetenz",
+          "weight": 4,
+          "statement": "Die Lernenden erkennen eigene Risikopräferenzen, trennen persönliche Wünsche von rechtlichen Folgen und vertreten ein begründetes Urteil.",
+          "id": "LG01-LS05-P"
+        },
+        {
+          "label": "Sozialkompetenz",
+          "weight": 5,
+          "statement": "Die Lernenden bearbeiten den Konflikt zwischen Kapital, Expertise, Haftung und Einfluss und entwickeln eine gemeinsam tragfähige Governance-Lösung.",
+          "id": "LG01-LS05-S"
+        },
+        {
+          "label": "Methodenkompetenz",
+          "weight": 5,
+          "statement": "Die Lernenden erschließen angeleitet Gesetzesauszüge, wenden eine gewichtete Entscheidungsmatrix an und verfassen eine nachvollziehbare Beschlussvorlage.",
+          "id": "LG01-LS05-M"
+        },
+        {
+          "label": "Medienkompetenz",
+          "weight": 3,
+          "statement": "Die Lernenden nutzen aktuelle amtliche Rechtsquellen, dokumentieren Rechtsstand und Fundstelle und unterscheiden Gesetz, IHK-Orientierung und individuelle Beratung.",
+          "id": "LG01-LS05-D"
+        }
+      ],
+      "competencies": [
+        {
+          "label": "Fachkompetenz",
+          "weight": 5,
+          "statement": "Ich unterscheide Firma, Kaufmannseigenschaft, Handelsregister, Geschäftsführung, Vertretung und Haftung und wende die Rechtsformmerkmale auf den BioCasa-Fall an.",
+          "id": "LG01-LS05-F"
+        },
+        {
+          "label": "Personalkompetenz",
+          "weight": 4,
+          "statement": "Ich erkenne eigene Risikopräferenzen, trenne persönliche Wünsche von rechtlichen Folgen und vertrete ein begründetes Urteil.",
+          "id": "LG01-LS05-P"
+        },
+        {
+          "label": "Sozialkompetenz",
+          "weight": 5,
+          "statement": "Ich bearbeite den Konflikt zwischen Kapital, Expertise, Haftung und Einfluss und entwickle mit anderen eine gemeinsam tragfähige Governance-Lösung.",
+          "id": "LG01-LS05-S"
+        },
+        {
+          "label": "Methodenkompetenz",
+          "weight": 5,
+          "statement": "Ich erschließe angeleitet Gesetzesauszüge, wende eine gewichtete Entscheidungsmatrix an und verfasse eine nachvollziehbare Beschlussvorlage.",
+          "id": "LG01-LS05-M"
+        },
+        {
+          "label": "Medienkompetenz",
+          "weight": 3,
+          "statement": "Ich nutze aktuelle amtliche Rechtsquellen, dokumentiere Rechtsstand und Fundstelle und unterscheide Gesetz, IHK-Orientierung und individuelle Beratung.",
+          "id": "LG01-LS05-D"
+        }
+      ],
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-ls05-orientation.png",
+          "sha256": "8a97ca6c4c2931756808ff8cf769f0b745dc87f8aaec533938b04c2c167cc8e2"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-ls05-situation.png",
+          "sha256": "218fb279ba9f6909b3861d970e1acd4fee9d46251cabf630fd0b3929cb1412fe"
+        }
+      }
+    },
+    {
+      "folder": "LS06",
+      "id": "LG01-LS06",
+      "tasks": 115,
+      "sourceProgressSha256": "0ce0de778a953d507774c17b61c8a8da7dc74b755243ca931d37ce886bd27ef0",
+      "progressSha256": "0ce0de778a953d507774c17b61c8a8da7dc74b755243ca931d37ce886bd27ef0",
+      "sourceCompetencies": [
+        {
+          "label": "Fachkompetenz",
+          "weight": 5,
+          "statement": "Die Lernenden rekonstruieren einen Vertrag aus einer Dokumentenkette, wenden Kauf- und Mängelrecht an, beurteilen Zahlungsalternativen und treffen eine begründete Personalentscheidung.",
+          "id": "LG01-LS06-F"
+        },
+        {
+          "label": "Personalkompetenz",
+          "weight": 4,
+          "statement": "Die Lernenden handeln unter Zeitdruck sorgfältig, übernehmen Fehlerverantwortung und wägen Kundenbeziehung, Liquidität und Personalbindung ab.",
+          "id": "LG01-LS06-P"
+        },
+        {
+          "label": "Sozialkompetenz",
+          "weight": 4,
+          "statement": "Die Lernenden koordinieren Vertrieb, Qualität, Finanzen und Personal und formulieren eine gemeinsame professionelle Kundenposition.",
+          "id": "LG01-LS06-S"
+        },
+        {
+          "label": "Methodenkompetenz",
+          "weight": 5,
+          "statement": "Die Lernenden erstellen eine Vertragschronologie, berechnen Zahlungs- und Personalwirkungen, prüfen Rechtsfolgen und führen Teilentscheidungen in einer Auftragsakte zusammen.",
+          "id": "LG01-LS06-M"
+        },
+        {
+          "label": "Medienkompetenz",
+          "weight": 4,
+          "statement": "Die Lernenden arbeiten mit einer digitalen Dokumentenkette, nutzen Tabellenkalkulation für Vergleiche und verfassen eine adressatengerechte geschäftliche E-Mail.",
+          "id": "LG01-LS06-D"
+        }
+      ],
+      "competencies": [
+        {
+          "label": "Fachkompetenz",
+          "weight": 5,
+          "statement": "Ich rekonstruiere einen Vertrag aus einer Dokumentenkette, wende Kauf- und Mängelrecht an, beurteile Zahlungsalternativen und treffe eine begründete Personalentscheidung.",
+          "id": "LG01-LS06-F"
+        },
+        {
+          "label": "Personalkompetenz",
+          "weight": 4,
+          "statement": "Ich handle unter Zeitdruck sorgfältig, übernehme Fehlerverantwortung und wäge Kundenbeziehung, Liquidität und Personalbindung ab.",
+          "id": "LG01-LS06-P"
+        },
+        {
+          "label": "Sozialkompetenz",
+          "weight": 4,
+          "statement": "Ich koordiniere Vertrieb, Qualität, Finanzen und Personal und formuliere mit anderen eine gemeinsame professionelle Kundenposition.",
+          "id": "LG01-LS06-S"
+        },
+        {
+          "label": "Methodenkompetenz",
+          "weight": 5,
+          "statement": "Ich erstelle eine Vertragschronologie, berechne Zahlungs- und Personalwirkungen, prüfe Rechtsfolgen und führe Teilentscheidungen in einer Auftragsakte zusammen.",
+          "id": "LG01-LS06-M"
+        },
+        {
+          "label": "Medienkompetenz",
+          "weight": 4,
+          "statement": "Ich arbeite mit einer digitalen Dokumentenkette, nutze Tabellenkalkulation für Vergleiche und verfasse eine adressatengerechte geschäftliche E-Mail.",
+          "id": "LG01-LS06-D"
+        }
+      ],
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-ls06-orientation.png",
+          "sha256": "99ed7cce1b0062eb5d08645ac52a17edd17fbef5ae8227078903208e40443494"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-ls06-situation.png",
+          "sha256": "8705f0724f2c475578f719814cf7d6834fe80551e26d0c1d82f02997dad7edbc"
+        }
+      }
+    }
+  ]
+}

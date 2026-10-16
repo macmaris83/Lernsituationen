@@ -8,7 +8,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS01",
-      "version": "1.0",
+      "version": "1.2",
       "archiveStem": "BRC_LG01_LS01"
     },
     {
@@ -17,7 +17,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS02",
-      "version": "1.0",
+      "version": "1.2",
       "archiveStem": "BRC_LG01_LS02"
     },
     {
@@ -26,7 +26,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS03",
-      "version": "1.0",
+      "version": "1.2",
       "archiveStem": "BRC_LG01_LS03"
     },
     {
@@ -35,7 +35,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS04",
-      "version": "1.0",
+      "version": "1.2",
       "archiveStem": "BRC_LG01_LS04"
     },
     {
@@ -44,7 +44,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS05",
-      "version": "1.0",
+      "version": "1.2",
       "archiveStem": "BRC_LG01_LS05"
     },
     {
@@ -53,7 +53,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS06",
-      "version": "1.0",
+      "version": "1.2",
       "archiveStem": "BRC_LG01_LS06"
     },
     {
@@ -342,7 +342,7 @@
       "bereich": "Vorlagen",
       "typ": "Vorlage",
       "master": "Vorlagen/Lernsituation_tradiert",
-      "version": "1.0",
+      "version": "1.2",
       "archiveStem": "Vorlage_Lernsituation_tradiert"
     },
     {
@@ -351,7 +351,7 @@
       "bereich": "Vorlagen",
       "typ": "Vorlage",
       "master": "Vorlagen/Lernsituation_fuenf_Lernwege",
-      "version": "1.0",
+      "version": "1.2",
       "archiveStem": "Vorlage_Lernsituation_fuenf_Lernwege"
     },
     {
