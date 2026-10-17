@@ -89,3 +89,8 @@ Je Übersicht eine LS-Kachelgruppe am Anfang. Die zusätzliche untere Lernschrit
 ## Präzisierung 17.10.2026 · Headernavigation und Profil
 
 Kein Rollencenter und kein eigener Bereich Lernaufträge: Die Arbeitsaufträge werden in den externen SCORM-Lernsituationen geführt. Die neun LS-Kacheln stehen einmal direkt unter dem Header, mit vollständigen Namen und auf dem iPad horizontal wischbar. Im Hauptinhalt stehen die Werkzeuge Inventur/Inventar, Bilanz/GuV und Buchhaltung. Die bisherigen OS-Buchungschecks bleiben dort kontextuell erreichbar; Freigaben und Nachweise dürfen durch den Umbau nicht verloren gehen. Import und Export sind im Profil oben links direkt sichtbar. Zusätzliche Transferaktionen aus Navigation, Übungsstandleiste und Hilfeseite entfallen.
+
+
+## Präzisierung 17.10.2026 · keine Zwischenzeilen
+
+Alle Zeilen zwischen den LS-Kacheln und „Neue Buchung“ entfernen: zusätzliche Werkzeugnavigation, Breadcrumb, Übungsstandleiste und Lehrkräftebanner. Neue Buchung und Journal bleiben direkt unter den Kacheln. Die Arbeitsbereiche sind weiter über das Profil und die Suche erreichbar. Fallstand, Schuljahr, Fortschritt und letzter Sicherungszeitpunkt bleiben im geschlossenen Profilbereich „Übungsstand & Dateien“; die Lehrkräfte-Direktauswahl in „Lehrkräftevorschau“. Speicherstatus als touchfähiges Symbol im Kopf erhalten; Fehler sichtbar melden. Keine Änderung an fachlichen Aufgaben, Freigaben oder gespeicherten Ständen.

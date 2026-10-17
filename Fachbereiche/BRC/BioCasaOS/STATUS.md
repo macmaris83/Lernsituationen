@@ -1,6 +1,6 @@
 # Prüf- und Übergabestand
 
-Aktueller Stand: **17.10.2026**, Paketversion **0.17**. Ursprung: Sites-Fassung **0.10.0**.
+Aktueller Stand: **17.10.2026**, Paketversion **0.18**. Ursprung: Sites-Fassung **0.10.0**.
 
 ## Vorhanden
 
@@ -143,3 +143,14 @@ Interne alte Ansichtskennungen bleiben lesbar: home führt jetzt zu Inventur/Inv
 Prüfung: 157 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich. Neue/angepasste Ereignistests prüfen Headerposition in beiden Einstiegseiten, eine einzige Kachelgruppe, entfernte Menübereiche, sichtbaren Transfer im Profil ohne Doppelknöpfe, Rückkehr ohne Eingabeverlust und Wiederaufnahme alter Startstände mit neun Nachweisen. Vollständiger Moodle-API-Durchlauf und unveränderter synthetischer 0.10-Stand bleiben erfolgreich. Schüler-ZIP mit 27 Manifestdateien bytegenau abgeglichen. Reale Browser-/iPad-/Moodle-Abnahme, insbesondere Wischen und Bildschirmtastatur, bleibt offen.
 
 Release-Quelle der bestehenden privaten Site: `26c13c4f30c2044fad003a3522bd08b5a34fcbbd` (0.17), erfolgreich veröffentlicht. Laufzeit und Schüler-ZIP stimmen bytegenau mit diesem Master überein.
+
+
+## Oberfläche 0.18 · LS direkt über den Buchungsaktionen
+
+Auf ausdrücklichen Nutzerauftrag entfallen sämtliche normalen Zeilen zwischen LS-Kacheln und „Neue Buchung“: Werkzeugnavigation, Breadcrumb, Übungsstandleiste und Lehrkräftebanner. Beide Einstiegsseiten beginnen dort unmittelbar mit Neue Buchung und Journal. Arbeitsbereiche bleiben über Profil und Suche zugänglich; die fachlichen Sperren gelten weiter.
+
+Fallstichtag, Schuljahr, Fortschritt, Speicherort und letzte Sicherung stehen im zunächst geschlossenen Profilbereich „Übungsstand & Dateien“. Die getrennte Lehrkräftevorschau behält ihre Direktwahl und den Wechsel zur gesperrten Lernansicht im Profil. Der 48 × 48 CSS-Pixel große Speicherknopf im Kopf zeigt den Status als Symbol mit zugänglichem Namen; Detailtext im Profil und echte Speicherfehler bleiben verfügbar. Heutiges Datum und die Sicherungszeit im Buchungsfokus aktualisieren sich unabhängig von der entfernten Leiste. Keine Änderung an Modell, Aufgabenkennungen, Speicherformat oder Datenbasis.
+
+Prüfung: 158 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich; Schüler-ZIP mit 27 Manifestdateien bytegenau abgeglichen. Die VM prüft die fehlenden Zwischenzeilen auf beiden Einstiegsseiten, bestehende Profil-/Suchnavigation samt Sperren, Direktwahl/Ansichtswechsel der Lehrkräfte, Kontext-/Datumsanzeige im Profil und die Wiederaufnahme des unveränderten synthetischen 0.10-Moodle-Stands. Reale visuelle Browser-/iPad-/Moodle-Abnahme bleibt offen; keine Browsersteuerung in dieser Sitzung verfügbar.
+
+Release-Quelle der bestehenden privaten Site: `5c545270b039f133a4e4f38f60fbb58a0de759d8` (0.18); Veröffentlichung erfolgreich. GitHub-Master und veröffentlichte Site-Laufzeit wurden vor Veröffentlichung bytegleich abgeglichen. Das Schülerpaket enthält denselben Laufzeitstand; eine installierte Moodle-ZIP muss separat in derselben Aktivität ersetzt werden.
