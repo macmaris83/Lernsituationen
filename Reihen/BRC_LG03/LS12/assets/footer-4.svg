@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-label="Facebook" class="bbs1-footer-button" height="50" style="display: block; flex-shrink: 0; width: 50px; height: 50px; overflow: visible; border-radius: 11px; box-shadow: 0 5px 13px rgba(0,75,120,.055);" viewBox="0 0 50 50" width="50"><a aria-label="Facebook" href="https://www.facebook.com/bbs1aurich/" role="link" style="cursor:pointer;" tabindex="0" target="_self">
+<title>Facebook</title>
+<rect fill="#eef8fc" fill-opacity=".82" height="49" rx="10.5" stroke="#c7e7f6" width="49" x=".5" y=".5"></rect><svg aria-hidden="true" height="30" viewBox="0 0 270 268" width="30" x="10.0" y="10.0">
+<rect fill="#FFFFFF" height="265" rx="13" stroke="#009BD9" stroke-width="3" width="267" x="1.5" y="1.5"></rect>
+<circle cx="135" cy="134" fill="#009BD9" r="132"></circle>
+<path d="M153 266v-99h33l5-38h-38v-24c0-11 3-18 19-18h20V53c-4-1-16-2-30-2-30 0-50 18-50 52v26H78v38h34v99z" fill="#FFFFFF"></path>
+</svg>
+</a></svg>
