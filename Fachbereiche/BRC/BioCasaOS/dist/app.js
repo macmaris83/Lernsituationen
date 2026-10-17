@@ -593,15 +593,15 @@ function updateSimulation(){
  }catch(e){$('simulation-output').innerHTML=`<div class="alert warn" style="margin-top:18px">${esc(e.message)}</div>`;}
 }
 const curriculumViews={
- '01':{title:'Inventur & Bilanz',topic:'inventory',steps:['inventory','inventar','balance']},
- '02':{title:'Bestandskonten',topic:'accounts',steps:['accounts']},
- '03':{title:'Gewinn & Geld',topic:'income',steps:['income']},
- '04':{title:'Vor- & Umsatzsteuer',topic:'tax',steps:['tax']},
- '05':{title:'Anlagen & Abschreibung',topic:'further',steps:['further']},
- '06':{title:'Produktion & Bestände',topic:'stock',steps:['further']},
- '07':{title:'Jahresabgrenzung',topic:'accrual',steps:['accrual']},
- '08':{title:'Jahresabschluss',topic:'balance',info:true},
- '09':{title:'Wirtschaftliche Lage',topic:'control',route:'control'}
+ '01':{topic:'inventory',steps:['inventory','inventar','balance']},
+ '02':{topic:'accounts',steps:['accounts']},
+ '03':{topic:'income',steps:['income']},
+ '04':{topic:'tax',steps:['tax']},
+ '05':{topic:'further',steps:['further']},
+ '06':{topic:'stock',steps:['further']},
+ '07':{topic:'accrual',steps:['accrual']},
+ '08':{topic:'balance',info:true},
+ '09':{topic:'control',route:'control'}
 };
 function curriculumState(id){
  const x=BioCasaCurriculum.find(x=>x.id===id),v=curriculumViews[id];if(!x||!v)return null;
@@ -622,7 +622,7 @@ function openCurriculum(id){
 }
 function learningStepsOverview(){const p=L.progress(state);return `<details class="curriculum-details"><summary>${icon('tasks',18)} OS-Lernschritte <span>${p.done}/${p.total}</span></summary>${learningProgressHTML()}</details>`;}
 function curriculum(){
- return `<section class="curriculum-overview" aria-label="Lernsituationen"><div class="section-heading"><h2>Lernsituationen</h2>${contextualHint('Moodle-Paket ↔ OS-Übung','Die Kacheln entsprechen deinen Moodle-Lernpaketen. Die Kacheln öffnen zugehörige OS-Übungen. Geprüft bedeutet nur: OS-Übung nachgewiesen. Materialien und Abgaben bleiben im Moodle-Paket; sein Fortschritt ist separat.')}</div><div class="curriculum-grid">${BioCasaCurriculum.map(x=>{const c=curriculumState(x.id),tone=x.id==='01'?'green':['07','08'].includes(x.id)?'violet':x.id==='09'?'muted':'blue';return `<article class="curriculum-tile ${c.locked?'is-locked':c.v.info?'is-upcoming':c.done?'is-done':c.current?'is-current':''}" data-ls="${x.id}" data-tone="${tone}"><button type="button" class="curriculum-open" data-action="curriculum-open" data-ls="${x.id}" ${c.locked?'disabled':''} aria-label="${esc(x.title)}. ${esc(c.status)}${c.locked?'. '+esc(c.reason):''}" data-hover-help data-help-short="${esc(x.title)}" data-help-long="${esc(x.title+'. '+c.reason)}"><span class="curriculum-tile-top">${topicMark(c.v.topic,23)}</span><strong class="curriculum-tile-title">${esc(c.v.title)}</strong><span class="curriculum-tile-status">${icon(c.locked?'lock':c.v.info?'clock':c.done?'check':'arrow',16)}${esc(c.status)}</span></button><button type="button" class="curriculum-info" data-action="curriculum-info" data-ls="${x.id}" aria-label="${esc(x.title)}: Auftrag und Materialien anzeigen" title="Auftrag und Materialien">${icon('info',20)}</button></article>`;}).join('')}</div></section>`;
+ return `<section class="curriculum-overview" aria-label="Lernsituationen"><div class="section-heading"><h2>Lernsituationen</h2>${contextualHint('Moodle-Paket ↔ OS-Übung','Die Kacheln entsprechen deinen Moodle-Lernpaketen. Die Kacheln öffnen zugehörige OS-Übungen. Geprüft bedeutet nur: OS-Übung nachgewiesen. Materialien und Abgaben bleiben im Moodle-Paket; sein Fortschritt ist separat.')}</div><div class="curriculum-grid">${BioCasaCurriculum.map(x=>{const c=curriculumState(x.id),tone=x.id==='01'?'green':['07','08'].includes(x.id)?'violet':x.id==='09'?'muted':'blue';return `<article class="curriculum-tile ${c.locked?'is-locked':c.v.info?'is-upcoming':c.done?'is-done':c.current?'is-current':''}" data-ls="${x.id}" data-tone="${tone}"><button type="button" class="curriculum-open" data-action="curriculum-open" data-ls="${x.id}" ${c.locked?'disabled':''} aria-label="${esc(x.title)}. ${esc(c.status)}${c.locked?'. '+esc(c.reason):''}" data-hover-help data-help-short="${esc(x.title)}" data-help-long="${esc(x.title+'. '+c.reason)}"><span class="curriculum-tile-top">${topicMark(c.v.topic,23)}</span><strong class="curriculum-tile-title">${esc(x.title)}</strong><span class="curriculum-tile-status">${icon(c.locked?'lock':c.v.info?'clock':c.done?'check':'arrow',16)}${esc(c.status)}</span></button><button type="button" class="curriculum-info" data-action="curriculum-info" data-ls="${x.id}" aria-label="${esc(x.title)}: Auftrag und Materialien anzeigen" title="Auftrag und Materialien">${icon('info',20)}</button></article>`;}).join('')}</div></section>`;
 }
 
 function curriculumInfo(id){

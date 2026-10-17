@@ -74,3 +74,8 @@ LS01–LS09 sollen sich auf Startseite und in den Lernaufträgen als große, üb
 ## Präzisierung 17.10.2026 · Namen ohne Nummern
 
 Die Kacheln zeigen nur den Namen der Lernsituation, keine LS-Nummer. Zugehörige Auswahlbeschriftungen und der Titel der Auftrags-/Materialinformation verwenden ebenfalls den Namen. Interne Kennungen und fachliche Material-/Quellenverweise bleiben erhalten; keine Änderung an Freischaltungen, Daten oder Lernständen.
+
+
+## Präzisierung 17.10.2026 · Originaltitel aus der Markdown-Gesamtreihe
+
+Die Kacheln verwenden die neun vollständigen Originaltitel aus `BRC_LG02_BioCasa_5_Lernwege_Gesamtreihe(6).md`, Bearbeitungsstand 5. Oktober 2026. Die Navigation der Original-MD wurde dafür gelesen und alle neun Titel wurden mit `curriculum.js` abgeglichen. Eigene Kurztitel entfallen; Kachel, zugängliche Beschriftung und Infodialog verwenden dieselbe Titelquelle. LS-Nummern bleiben in den Kacheln ausgeblendet.

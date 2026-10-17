@@ -1,6 +1,6 @@
 # Prüf- und Übergabestand
 
-Aktueller Stand: **17.10.2026**, Paketversion **0.14**. Ursprung: Sites-Fassung **0.10.0**.
+Aktueller Stand: **17.10.2026**, Paketversion **0.15**. Ursprung: Sites-Fassung **0.10.0**.
 
 ## Vorhanden
 
@@ -110,3 +110,12 @@ Auf Nutzerpräzisierung entfällt die LS-Nummer auf den Kacheln, in ihren Auswah
 Prüfung: 156 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich; Schüler-ZIP bytegenau mit 27 Manifestdateien abgeglichen. Browser-/iPad-/Moodle-Praxistest weiterhin offen.
 
 Release-Quelle der bestehenden privaten Site: `86fe23f6fab4c9c1d50b4478ec3b6461a0a532b8` (0.14), erfolgreich veröffentlicht. Laufzeit und Schüler-ZIP stimmen bytegenau mit diesem Master überein.
+
+
+## Oberfläche 0.15 · vollständige Titel aus der Original-MD
+
+Die neun Kacheln verwenden nun unmittelbar `BioCasaCurriculum.title` statt eigens verkürzter Beschriftungen. Alle neun Titel wurden mit der gelesenen Navigation der Originaldatei `BRC_LG02_BioCasa_5_Lernwege_Gesamtreihe(6).md` (Bearbeitungsstand 5. Oktober 2026) wortgleich abgeglichen. Die längeren Namen werden vollständig umbrochen, ohne Kürzung oder LS-Nummer. Auswahlbeschriftungen, Hinweise und Materialdialog beziehen ihren Titel bereits aus derselben Quelle. Die zusätzlichen Kurztitel in der Darstellungszuordnung entfallen. Zuordnung, Freigaben und Speicherkennungen bleiben erhalten. Die Originaldatei und ihr Lehrkräfte-Anhang werden nicht ins Schülerpaket kopiert.
+
+Prüfung: 156 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich. Die bestehenden Kacheltests vergleichen alle neun sichtbaren Titel mit ihrer gemeinsamen Datenquelle; Wiederaufnahme des alten 0.10-Standes bleibt erhalten. Die Schüler-ZIP enthält unverändert 27 Manifestdateien und ist bytegenau abgeglichen. Visuelle Browser-/iPad-/Moodle-Abnahme bleibt offen.
+
+Release-Quelle der bestehenden privaten Site: `d00798188f2df703a9eae71d3fa8bf6db67d2832` (0.15), erfolgreich veröffentlicht. Laufzeit und Schüler-ZIP stimmen bytegenau mit diesem Master überein.

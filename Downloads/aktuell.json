@@ -79,10 +79,10 @@
       "bereich": "BRC",
       "typ": "Lernunternehmen",
       "master": "Fachbereiche/BRC/BioCasaOS/dist",
-      "version": "0.14",
-      "archive": "Downloads/BRC-BIOCASA-OS/BioCasa_OS_v0.14_SCORM12.zip",
-      "masterSha256": "30a60868fc171b6282fd906afb719f16b056dc1687d15b40f8a3bccd2b812cdd",
-      "archiveSha256": "6c55459ed079d1b665fbee5ea4209d9abfe928f03e157892aadcfb94fe3bc26d",
+      "version": "0.15",
+      "archive": "Downloads/BRC-BIOCASA-OS/BioCasa_OS_v0.15_SCORM12.zip",
+      "masterSha256": "d6297fcaa8d7f993ddc7b910cb11875ff2ba892c8686b196cfd27de55def5e7b",
+      "archiveSha256": "a81fd01d5829068607e1ae13ea6ae06d0b80e51895027db5565f65090344163c",
       "files": 27
     },
     {
