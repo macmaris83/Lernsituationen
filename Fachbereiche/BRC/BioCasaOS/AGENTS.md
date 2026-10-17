@@ -14,6 +14,10 @@
 
 - Dieses ERP-Lernunternehmen ist keine gewöhnliche Lernsituation-Vorlage. Keine Lernweg-Auswahl, Phasenoberfläche, Kompetenzradar oder allgemeine Vorlagenmechanik einbauen. Die übergeordneten Regeln zu Master, Versionen und Kennungen gelten weiter.
 - Name ausschließlich BioCasa OS; Dynamics-nahe Arbeitsoberfläche mit BioCasa-Farben. Original-BioCasa-Logo erhalten; weißes BBS-1-Aurich-Logo klein im dunklen Fuß.
+- Persönliches Menü oben links mit Moodle-Namen, sonst wählbarem Anzeigenamen; Moodle-Identität nicht umschreiben. Hilfeumfang und Farbschema bleiben im persönlichen Übungsstand und in der JSON-Sicherung, getrennt von der Lehrkräftevorschau.
+- Voreinstellung: weniger Beschriftungen, vertraute Symbole, fünf Kernbereiche und zwei Buchungsaktionen. Lager/Controlling bleiben mit Jahrgangsbezug im Menü erreichbar; der aktive Zusatzbereich darf zusätzlich oben stehen. Weiterhin alle Voraussetzungen prüfen.
+- Weniger Hilfe bedeutet mehr Symbole mit abrufbaren Hinweisen. Mehr Hilfe bedeutet ausführlichere Mouseover-/Fokus-/Touch-Hinweise; keine Hilfebereiche automatisch aufklappen. Kontennamen, Aufgaben, Pflichtfragen, Fehler und Speicherstatus nicht ausblenden.
+- Start- und Auftragsübersicht zeigen die originalen LS01–LS09 als große Kacheln mit Nummer, Symbol, kurzem Titel und OS-Status. Zugehörige OS-Schritte und Freigaben nicht mit den Moodle-Abschlüssen gleichsetzen. Materialien über ein antippbares Infosymbol; spätere unvollständige LS als Vorbereitung/Ausblick kennzeichnen.
 - Primäres Ziel: Nutzung innerhalb von Moodle auf dem Schul-iPad. Keine externe API, CDN, Anmeldung oder Safari-Wechsel für das normale Schülerarbeiten voraussetzen.
 - Reihenfolge: Inventur → Inventar → Bilanz → Bestandskonten → Erfolgskonten → Vor-/Umsatzsteuer → weitere Buchungen → Retouren → zeitliche Erfolgsabgrenzung (ARA/PRA).
 - Fünf korrekt geprüfte Inventurfälle vor Inventar. Zusätzliche Lehrkraft-Freigabe/Termin respektieren. Lehrkräftevorschau darf Voraussetzungen umgehen, erzeugt aber keine Lernernachweise und schreibt nie in die Schüler-LMS-Sitzung.

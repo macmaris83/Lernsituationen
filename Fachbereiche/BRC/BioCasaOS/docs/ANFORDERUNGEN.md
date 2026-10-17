@@ -57,3 +57,15 @@ Erweiterbarkeit ist verbindlich: Versionswechsel dürfen keine Zwischenstände v
 ## Ergänzung 16.10.2026 · Steuerdarstellung
 
 Die gestaffelte Liefer-/Rechnungskette aus der Nutzervorlage auf BioCasa und die Lebensmittel-Wertschöpfung übertragen, im Branding mit wiederkehrendem Original-Firmenzeichen. Netto, Umsatzsteuer, Rechnungsbetrag, Vorsteuerabzug und Zahllast grafisch verbinden. Eine optionale, zunächst geschlossene Hilfe; auf iPadbreite lesbar, mit reduzierter Bewegung nutzbar. Zahlen als eigenständiges Erklärmodell kennzeichnen und nicht ins Übungsjournal schreiben.
+
+
+## Ergänzung 17.10.2026 · persönliches Menü und reduzierte Voreinstellung
+
+Oben links den Namen aus Moodle zeigen; ohne Moodle kann ein Anzeigename gewählt werden. Persönliche Auswahl: Hilfeumfang und Farbschema. Weniger Text heißt mehr Symbole; mehr Text heißt ausführlichere Hinweise per Mouseover, Tastaturfokus oder Antippen des Hilfesymbols auf dem iPad. Erklärbereiche bleiben selbst geöffnet/geschlossen. Keine Pflichtfragen, Kontenbezeichnungen oder Rückmeldungen entfernen.
+
+Standardmäßig weniger Menüpunkte und Beschriftungen: fünf Kernbereiche statt sieben, zwei statt fünf zusätzliche Befehlsleistenaktionen. Lager und Controlling mit Jahrgangshinweis ins Menü verlagern; Datenbasis, iPad-Hilfe und Datei-/Speicherfunktionen in aufklappbarer Menügruppe erhalten. Farbschemata BioCasa, Blau und Kontrast ändern keine Buchungs- oder Statusbedeutung. Einstellungen im bisherigen persönlichen Speicher mitnehmen; alte Stände ohne Einstellungen bleiben lesbar.
+
+
+## Ergänzung 17.10.2026 · Lernsituationen als Kacheln
+
+LS01–LS09 sollen sich auf Startseite und in den Lernaufträgen als große, übersichtliche Kacheln wiederfinden. Nummer, vertrautes Symbol, kurzer Titel und Freigabestatus reichen zunächst aus. Auftrag und Materialien sind über ein separates, mindestens 48 × 48 Pixel großes Infosymbol abrufbar. Die Kachel führt zum passenden bestehenden Arbeitsbereich; alle fachlichen Voraussetzungen und die Lehrkraft-Freigabe bleiben wirksam. OS-Nachweise sind keine Moodle-Abschlüsse. Die separate LS08-Abschlussakte bleibt als Vorbereitung gekennzeichnet, die LS09-Kennzahlen als OS-Ausblick. Die bisherige Finanzübersicht und die ausführlichen OS-Lernschritte sind optional aufklappbar. Zwischenstände beim Zurückwechseln erhalten.

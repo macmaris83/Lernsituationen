@@ -1,4 +1,4 @@
-BioCasa OS 0.12 – Moodle-Erprobung
+BioCasa OS 0.13 – Moodle-Erprobung
 ================================
 
 EINMALIG ALS LEHRKRAFT EINRICHTEN
@@ -15,6 +15,25 @@ EINMALIG ALS LEHRKRAFT EINRICHTEN
    „abgeschlossen“. Bei einer Wiederaufnahme nach Abschluss den angebotenen
    Modus prüfen: Vorschau/Review wird in OS ausdrücklich als solcher angezeigt.
    Änderungen im Review werden nur lokal gesichert.
+
+LERNSITUATION WÄHLEN
+- LS01–LS09 erscheinen als große Kacheln. Tippe auf eine freigegebene Kachel.
+- Das Infosymbol zeigt den Auftrag und die Materialien im Moodle-Lernpaket.
+- Grau mit Schloss: erst den vorherigen Schritt lösen oder Freigabe abwarten.
+- „OS-Übung geprüft“ ist dein OS-Nachweis, kein Moodle-Abschluss der LS.
+- Finanzübersicht und OS-Lernschritte klappst du bei Bedarf auf.
+
+PERSÖNLICHES MENÜ UND ANSICHT
+- Oben links das Menü öffnen; im Buchungsfokus das Firmenzeichen links antippen.
+- Der Name kommt aus Moodle. Ohne Moodle-Namen kannst du einen Anzeigenamen
+  eingeben und übernehmen. Das ändert kein Moodle-Konto.
+- „Weniger“ ist voreingestellt: vertraute Symbole mit kurzen Hinweisen.
+  „Standard“ zeigt kurze Texte, „Mehr“ ausführlichere Mouseover-Hinweise.
+  Auf dem iPad das Hilfesymbol antippen; × oder Esc schließt den Hinweis.
+- BioCasa, Blau und Kontrast ändern die Darstellung. Aufgaben und
+  Buchungsentscheidungen bleiben gleich; Hilfebereiche öffnest du selbst.
+- Einstellungen werden mit deinem laufenden Stand und der JSON-Sicherung
+  erhalten. Arbeitsbereiche sowie „Übungsstand & Dateien“ sind im Menü aufklappbar.
 
 LEHRKRÄFTEMODUS AUSWÄHLEN
 - Oben rechts „Ansicht wählen“ → „Lehrkräftemodus“ auswählen. Alle Themen
@@ -71,7 +90,7 @@ T-KONTEN ERÖFFNEN UND ABSCHLIESSEN (NEU IN 0.8)
 - Dies ist eine didaktische Abschlussansicht mit den Gegenbuchungen auf
   801 (SBK) bzw. 802 (GuV). Ein vollständiger Jahresabschluss folgt später.
 
-KLEINER TOUCH-RECHNER (0.12)
+KLEINER TOUCH-RECHNER (0.13)
 - Tippe auf ± neben einem Betragsfeld. Die Rechenhilfe schwebt über dem Formular.
   „Übernehmen in“ nennt das gewählte Ziel. Geschlossen belegt sie keinen Platz.
 - Gib deine Zahlen ein und rechne mit + und −. Runde Tasten, dunkle Anzeige,
@@ -272,7 +291,7 @@ ABNAHME 0.6
 - Auf dem Schul-iPad die Dateiauswahl in „Dateien“, Upload-Vorschau und den
   Schuljahreswechsel im echten Moodle prüfen. Dieser Gerätetest steht noch aus.
 
-BILANZAUSSCHNITT UND BUCHUNGSSATZ (0.12)
+BILANZAUSSCHNITT UND BUCHUNGSSATZ (0.13)
 - Die Bilanzwirkung zeigt Anlagevermögen und Umlaufvermögen links sowie
   Eigenkapital und Fremdkapital rechts. Graue Gruppenüberschriften geben Struktur.
 - Betroffene Konten stehen mit Nummer, Kontobezeichnung und Veränderungsbetrag

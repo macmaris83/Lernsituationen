@@ -10,6 +10,7 @@ function validate(value){
  const str=(x,max=40)=>{if(typeof x!=='string'||x.length>max)fail();return x;};
  const choice=(x,choices)=>{if(!choices.includes(x))fail();return x;};
  const result={};
+ if(value.preferences!=null){const p=obj(value.preferences);result.preferences={name:str(p.name,60),help:choice(p.help,['less','standard','more']),theme:choice(p.theme,['biocasa','blue','contrast'])};}
  if(value.focus!=null){const f=value.focus;if(!Array.isArray(f)||f.length!==5||!f.every(Number.isInteger)||f[0]<35||f[0]>65||!f.slice(1,4).every(v=>v===0||v===1)||f[4]<0||f[4]>7)fail();result.focus=[...f];}
  if(value.learning!=null){result.learning={};for(const [id,a] of Object.entries(obj(value.learning))){if(!L.fields[id])fail();result.learning[id]={};for(const [key,v] of Object.entries(obj(a))){if(!L.fields[id].includes(key))fail();result.learning[id][key]=str(v);}}}
  if(value.inventoryCases!=null){result.inventoryCases={};for(const [id,a] of Object.entries(obj(value.inventoryCases))){const c=root.BioCasaInventur.byId[id];if(!c)fail();result.inventoryCases[id]={};for(const [key,v] of Object.entries(obj(a))){if(!c.fields.some(f=>f.name===key))fail();result.inventoryCases[id][key]=str(v);}}}

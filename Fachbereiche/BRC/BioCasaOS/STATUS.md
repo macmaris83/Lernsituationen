@@ -1,6 +1,6 @@
 # Prüf- und Übergabestand
 
-Aktueller Stand: **16.10.2026**, Paketversion **0.12**. Ursprung: Sites-Fassung **0.10.0**.
+Aktueller Stand: **17.10.2026**, Paketversion **0.13**. Ursprung: Sites-Fassung **0.10.0**.
 
 ## Vorhanden
 
@@ -77,3 +77,27 @@ Die anschließend angeforderte Steuerdarstellung übernimmt die Staffelung und R
 Neutrales OS-Erklärbeispiel: Netto 100/300/700/800 €, einheitlich 7 %, Umsatzsteuer 7/21/49/56 €, Rechnungsbeträge 107/321/749/856 €. Zahllasten 7/14/28/7 € ergeben zusammen die 56 € Steuerlast der privaten Endkundschaft. BioCasa: 480 Umsatzsteuer 49 € minus 260 Vorsteuer 21 € ergibt 28 €. Voller Vorsteuerabzug, 0 € Vorsteuer auf der ersten Stufe und keine weiteren Eingangsrechnungen sind ausdrücklich Modellannahmen. Die vier vorhandenen Hilfeschritte erklären dieselben Beispielwerte; keine Aufgabenlösungen oder Buchhaltungsdaten geändert. Die Grafik liegt ausschließlich in der zunächst geschlossenen Steuerhilfe.
 
 Release-Quelle der bestehenden privaten Site: `fcc6944d204953785486539b574f7b13fd5d2e57` (0.12). GitHub-Master und Site-Laufzeit wurden vor Veröffentlichung bytegleich abgeglichen.
+
+
+## Oberfläche 0.13 · persönliches Menü, LS-Kacheln und Kontexthinweise
+
+Auf Nutzerauftrag führt der Knopf oben links zu Name und persönlichen Einstellungen. Der von Moodle bereitgestellte Name wird nur angezeigt, nicht neu in die Moodle-Identität geschrieben oder als Profilname exportiert. Ohne Moodle-Namen ist ein Anzeigename mit bis zu 60 Zeichen möglich. Im Buchungsfokus öffnet auch das Firmenzeichen links das persönliche Menü. Der laufende Formular-DOM wird beim Einstellungswechsel nicht neu aufgebaut.
+
+Voreinstellung „Weniger“: Beschriftungen wiederkehrender Nebenaktionen sind durch ihre vorhandenen Symbole ersetzt, mit mindestens 48 Pixel großen Aktionsflächen, zugänglichen Namen und abrufbaren Hinweisen. Aufgaben, Buchungsfragen, Kontenbezeichnungen, Fehlermeldungen und Speicherstatus bleiben erhalten. „Standard“ zeigt kurze Hinweise; „Mehr“ ergänzt längere Kontexthinweise per Mouseover oder Tastaturfokus. Hilfesymbole öffnen dieselben Hinweise per Touch als kleines schließbares Flyover. Hilfebereiche werden nie automatisch geöffnet. Die Hinweise lösen und buchen nichts.
+
+Oben stehen fünf Kernbereiche; Lager/Controlling sind im aufklappbaren Arbeitsbereichsmenü weiterhin mit Jahrgang 12/13 erreichbar und beachten dieselben Sperren. Ist einer davon geöffnet, erscheint er zusätzlich oben. Die zusätzliche Befehlsleiste enthält nur Neue Buchung und Journal; redundantes Speichern, Bilanz und Suchen entfallen dort. Speichern, Datenbasis, iPad-Hilfe und Dateifunktionen bleiben im Menü; Import und Sicherung bleiben als kurze Aktionen beim Übungsstand. Menügruppen sind zunächst geschlossen.
+
+Farbschemata: BioCasa (bisherige Oberfläche), Blau (Flächen/Primäraktionen), Kontrast (dunklere Schrift und deutlichere Grenzen). Keine pauschale Zusicherung einer gesamten WCAG-Konformität; bestehende fachliche Statusfarben und Logos bleiben erhalten. Die Einstellungen gelten auch im Buchungsfokus und in Hinweisen.
+
+Rückwärtskompatible optionale Erweiterung von `drafts.preferences`: Anzeigename, Hilfeumfang und Farbschema. Die bisherige Lernstandsversion 1, Speicherkennung und Aufgabennachweise bleiben unverändert. Fehlende Einstellungen werden nur zur Anzeige mit kompakten Vorgaben ergänzt und nicht still in alte Stände hineingeschrieben. Die 0.10-Testdatei bleibt unverändert; ihre neun Nachweise, Buchungen und unfertigen Eingaben sind weiter les-/speicherbar. Unbekannte/überlange Einstellungswerte weisen den Import ab, ohne den aktiven Stand zu ersetzen.
+
+Prüfung: 156 Node-Tests erfolgreich. Neue Prüfungen: Moodle-Name/Maskierung/kein Identitätsschreiben; kompakte Voreinstellung; Einstellungswechsel ohne Eingabeverlust; lokale Wiederaufnahme und JSON-Import; sichere Mouseover-/Touch-Hinweise; unveränderte Pflichtinhalte; Abweisung ungültiger Einstellungen. Der vollständige simulierte Moodle-Durchlauf mit neun Nachweisen und sechs Belegen enthält jetzt zusätzlich Namen, Hilfeumfang, Farbschema und Fokuslayout und passt weiter in 4096 Zeichen. Die alte 0.10-Wiederaufnahmeprüfung bleibt unverändert erfolgreich. Reale Browser-/iPad-/Moodle-Abnahme bleibt offen; Browsersteuerung ist in dieser Sitzung nicht verfügbar.
+
+
+Startseite und Lernaufträge stellen die neun bestehenden Lernsituationen als große Kacheln dar. Nummer und Kurztitel, thematisches Symbol und OS-Status erleichtern die Orientierung. Auftrag und originale Materialbezeichnungen bleiben über ein separates 48-Pixel-Infosymbol verfügbar. Die Lernschrittleiste und die bisherige Finanzübersicht sind zunächst eingeklappt, die lange doppelte Auftragsliste entfällt. Beim Öffnen einer Übung steht diese allein mit Rückkehr zur Kachelübersicht; unfertige Antworten bleiben gespeichert. Ein wiederaufgenommener Auftragsstand öffnet weiterhin seine angefangene Übung.
+
+Zuordnung: LS01 enthält Inventur/Inventar/Bilanz, LS02 Bestandskonten und anschließend das Journal, LS03 Erfolgskonten, LS04 Steuer, LS05/06 das vorhandene gemeinsame Fenster weiterer Buchungen, LS07 Abgrenzung. Retouren bleiben ein erforderlicher OS-Zwischenschritt und sind zusätzlich in der Lernschrittübersicht erreichbar. Die getrennte LS08-Abschlussakte ist weiterhin nicht umgesetzt: ihre Kachel öffnet die Materialinformation „In Vorbereitung“. LS09 führt zum optionalen Controlling am aktuellen OS-Stand (Jg. 13), nicht zu importierten bestätigten LS09-Abschlussdaten. Geprüft-Status bezeichnet ausschließlich die OS-Übung. Keine Moodle-Abschlüsse fingiert.
+
+Vier zusätzliche Ereignistests prüfen Kachelzuordnung, Sperren bei direkten Aktionsaufrufen, Lehrkraft-/Retouren-Voraussetzungen, Rückkehr und Wiederaufnahme unfertiger Antworten mit Einstellungen sowie freie Lehrkräfteauswahl ohne Lernnachweis. Sichtbare Nummern, stabile Aufgabenkennungen, Speicherformat und Buchungsdaten wurden dadurch nicht verändert. Visuelle Browser-/iPad-Abnahme bleibt offen.
+
+Release-Quelle der bestehenden privaten Site: `13f5a49518906e376a4658c57066b98f6fa07469` (0.13); Veröffentlichung erfolgreich. Der GitHub-Master und die veröffentlichte Site-Laufzeit sind bytegleich abgeglichen. Die neue Schüler-ZIP enthält alle 27 Manifestdateien aus diesem Master. Eine in Moodle installierte ältere ZIP muss separat in derselben Aktivität ersetzt werden.
