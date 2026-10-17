@@ -84,3 +84,8 @@ Die Kacheln verwenden die neun vollständigen Originaltitel aus `BRC_LG02_BioCas
 ## Präzisierung 17.10.2026 · Kacheln nur einmal oben
 
 Je Übersicht eine LS-Kachelgruppe am Anfang. Die zusätzliche untere Lernschritt-Kachelreihe und die älteren Modul-/Nächster-Schritt-Karten entfallen. In einer geöffneten Aufgabe ebenfalls keine weitere Kachelreihe darunter. Die fachlichen LS-Titel, vorhandene Freigaben und gespeicherten Nachweise bleiben erhalten. Finanzkennzahlen und Journal bleiben in der optionalen Finanzübersicht; weitere OS-Übungen sind weiterhin über ihre bestehende Auswahl erreichbar.
+
+
+## Präzisierung 17.10.2026 · Headernavigation und Profil
+
+Kein Rollencenter und kein eigener Bereich Lernaufträge: Die Arbeitsaufträge werden in den externen SCORM-Lernsituationen geführt. Die neun LS-Kacheln stehen einmal direkt unter dem Header, mit vollständigen Namen und auf dem iPad horizontal wischbar. Im Hauptinhalt stehen die Werkzeuge Inventur/Inventar, Bilanz/GuV und Buchhaltung. Die bisherigen OS-Buchungschecks bleiben dort kontextuell erreichbar; Freigaben und Nachweise dürfen durch den Umbau nicht verloren gehen. Import und Export sind im Profil oben links direkt sichtbar. Zusätzliche Transferaktionen aus Navigation, Übungsstandleiste und Hilfeseite entfallen.

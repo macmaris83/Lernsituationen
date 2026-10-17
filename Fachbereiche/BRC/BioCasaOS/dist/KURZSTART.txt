@@ -1,4 +1,4 @@
-BioCasa OS 0.16 – Moodle-Erprobung
+BioCasa OS 0.17 – Moodle-Erprobung
 ================================
 
 EINMALIG ALS LEHRKRAFT EINRICHTEN
@@ -17,16 +17,19 @@ EINMALIG ALS LEHRKRAFT EINRICHTEN
    Änderungen im Review werden nur lokal gesichert.
 
 LERNSITUATION WÄHLEN
-- Die Lernsituationen erscheinen genau einmal oben als große Kacheln mit den vollständigen Originaltiteln
-  aus der Markdown-Gesamtreihe, ohne Nummer.
+- Die Lernsituationen stehen einmal direkt am Header, mit vollständigen
+  Originaltiteln aus der Markdown-Gesamtreihe und ohne Nummer.
+  Auf dem iPad kannst du die Leiste seitlich wischen.
   Tippe auf eine freigegebene Kachel.
 - Das Infosymbol zeigt den Auftrag und die Materialien im Moodle-Lernpaket.
 - Grau mit Schloss: erst den vorherigen Schritt lösen oder Freigabe abwarten.
 - „OS-Übung geprüft“ ist dein OS-Nachweis, kein Moodle-Abschluss der LS.
-- Die Finanzübersicht klappst du bei Bedarf auf.
+- Die Arbeitsaufträge stehen in den zugehörigen Moodle-Lernpaketen.
+  Im OS arbeitest du direkt in Inventur/Inventar, Bilanz/GuV und Buchhaltung.
 
-PERSÖNLICHES MENÜ UND ANSICHT
-- Oben links das Menü öffnen; im Buchungsfokus das Firmenzeichen links antippen.
+PERSÖNLICHES PROFIL UND ANSICHT
+- Oben links das Profil öffnen; im Buchungsfokus das Firmenzeichen links antippen.
+- Import und Export stehen direkt unter deinem Namen.
 - Der Name kommt aus Moodle. Ohne Moodle-Namen kannst du einen Anzeigenamen
   eingeben und übernehmen. Das ändert kein Moodle-Konto.
 - „Weniger“ ist voreingestellt: vertraute Symbole mit kurzen Hinweisen.
@@ -92,7 +95,7 @@ T-KONTEN ERÖFFNEN UND ABSCHLIESSEN (NEU IN 0.8)
 - Dies ist eine didaktische Abschlussansicht mit den Gegenbuchungen auf
   801 (SBK) bzw. 802 (GuV). Ein vollständiger Jahresabschluss folgt später.
 
-KLEINER TOUCH-RECHNER (0.16)
+KLEINER TOUCH-RECHNER (0.17)
 - Tippe auf ± neben einem Betragsfeld. Die Rechenhilfe schwebt über dem Formular.
   „Übernehmen in“ nennt das gewählte Ziel. Geschlossen belegt sie keinen Platz.
 - Gib deine Zahlen ein und rechne mit + und −. Runde Tasten, dunkle Anzeige,
@@ -119,7 +122,7 @@ FÜR LERNENDE: AUTOMATISCH WEITERARBEITEN
 - Außerhalb von Moodle liegt die Vorschau nur im jeweiligen Browser.
 
 OPTIONALE SICHERUNG AUF DEM IPAD
-1. „Sicherung“ zeigt eine JSON-Datei mit Datum und Lernstand, auch vor der
+1. Im Profil oben links zeigt „Export“ eine JSON-Datei mit Datum und Lernstand, auch vor der
    ersten Bearbeitung. „JSON herunterladen“ fordert den Dateidownload an.
 2. Falls angeboten: „Teilen“ → „In Dateien sichern“ wählen. Sonst die
    Downloads prüfen. Die Moodle-App/WebView muss diese Dateifunktion erlauben.
@@ -293,7 +296,7 @@ ABNAHME 0.6
 - Auf dem Schul-iPad die Dateiauswahl in „Dateien“, Upload-Vorschau und den
   Schuljahreswechsel im echten Moodle prüfen. Dieser Gerätetest steht noch aus.
 
-BILANZAUSSCHNITT UND BUCHUNGSSATZ (0.16)
+BILANZAUSSCHNITT UND BUCHUNGSSATZ (0.17)
 - Die Bilanzwirkung zeigt Anlagevermögen und Umlaufvermögen links sowie
   Eigenkapital und Fremdkapital rechts. Graue Gruppenüberschriften geben Struktur.
 - Betroffene Konten stehen mit Nummer, Kontobezeichnung und Veränderungsbetrag

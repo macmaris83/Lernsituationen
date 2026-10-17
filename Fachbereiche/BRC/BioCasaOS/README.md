@@ -2,9 +2,9 @@
 
 Dies ist der fortzuführende Quellcode des bestehenden BioCasa OS. Das Lernunternehmen bildet Inventur, Inventar, Bilanz und Buchführung für Jahrgang 11 ab. Lager (Jg. 12) und Controlling (Jg. 13) greifen auf denselben Datenkranz zu. Die Oberfläche orientiert sich an Dynamics; der Produktname bleibt **BioCasa OS**.
 
-**Paketversion: 0.16.** Übernommen aus der Sites-Fassung 0.10.0 vom 16.10.2026; npm verwendet zur zweistelligen Paketnummer die entsprechende SemVer X.Y.0. Aufgaben-, Manifest- und Speicherkennungen wurden beim Umzug nicht geändert.
+**Paketversion: 0.17.** Übernommen aus der Sites-Fassung 0.10.0 vom 16.10.2026; npm verwendet zur zweistelligen Paketnummer die entsprechende SemVer X.Y.0. Aufgaben-, Manifest- und Speicherkennungen wurden beim Umzug nicht geändert.
 
-Die Startseite zeigt die neun Lernsituationen genau einmal oben als Kacheln mit vollständigen Originaltiteln aus der Markdown-Gesamtreihe, ohne LS-Nummer. Über das Menü oben links lassen sich Name, Hilfeumfang und Farbschema einstellen. Freischaltungen und persönliche Zwischenstände bleiben erhalten.
+Die neun Lernsituationen stehen mit vollständigen Originaltiteln einmal direkt am Header. Das Profil oben links enthält Import, Export und persönliche Einstellungen. Drei Werkzeugbereiche führen zu Inventur/Inventar, Bilanz/GuV und Buchhaltung. Ein Rollencenter und ein eigener Bereich für Lernaufträge entfallen; bestehende OS-Buchungschecks und Zwischenstände bleiben erhalten.
 
 ## In Codex fortsetzen
 

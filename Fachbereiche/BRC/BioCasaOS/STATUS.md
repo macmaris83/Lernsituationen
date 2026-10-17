@@ -1,6 +1,6 @@
 # Prüf- und Übergabestand
 
-Aktueller Stand: **17.10.2026**, Paketversion **0.16**. Ursprung: Sites-Fassung **0.10.0**.
+Aktueller Stand: **17.10.2026**, Paketversion **0.17**. Ursprung: Sites-Fassung **0.10.0**.
 
 ## Vorhanden
 
@@ -128,3 +128,18 @@ Auf Nutzerauftrag erscheinen die LS-Kacheln je Start-/Auftragsübersicht genau e
 Prüfung: 156 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich. Die bestehenden Kacheltests prüfen eine einzige Gruppe mit neun Originaltiteln und keine nachfolgende Lernschritt-/Modul-/Auftragskachelreihe im Einstieg und im fortgeschrittenen Stand. Alte 0.10-Lernstände und unfertige Eingaben bleiben wiederaufnehmbar. Schüler-ZIP bytegenau mit allen 27 Manifestdateien abgeglichen; echte Browser-/iPad-/Moodle-Abnahme weiterhin offen.
 
 Release-Quelle der bestehenden privaten Site: `ff34d7cc4233aa625700bd084ef754c0622ae4c0` (0.16), erfolgreich veröffentlicht. Laufzeit und Schüler-ZIP stimmen bytegenau mit diesem Master überein.
+
+
+## Oberfläche 0.17 · LS am Header, Transfer im Profil
+
+Auf Nutzerauftrag entfallen der sichtbare Bereich Lernaufträge und das komplette Rollencenter samt Finanzdashboard. Die neun Kacheln stehen einmal zentral direkt unter dem Header; auf schmalen Bildschirmen ist die Leiste horizontal wischbar, ohne abgeschnittene Originaltitel. Im Hauptinhalt gibt es keine zweite Kachel- oder Lernschrittleiste. Darunter führen nur noch drei Kernbereiche zu Inventur/Inventar, Bilanz/GuV und Buchhaltung. Lager/Controlling bleiben über das Profil mit Jahrgangsbezug erreichbar. Die neue LS-Navigation wird auch in der Lehrkräftevorschau verwendet.
+
+Die externen LS-Arbeitsaufträge werden nicht im OS wiederholt; ihre Zielbeschreibung im Informationsdialog entfällt. Die vorhandenen eigenständigen OS-Übungen und Buchungschecks bleiben als Teil der Buchhaltung erreichbar. Ihre Nachweise sind weiterhin Voraussetzung für spätere Themen. Der Rückkehrknopf scrollt zur Headerleiste, ohne das aktuelle Formular neu aufzubauen. Die Leistenposition bleibt beim Rendern erhalten. Reduzierte Bewegung wird beim Rücksprung berücksichtigt.
+
+Import und Export stehen direkt im Profil unter dem Namen, vor den Einstellungskarten. Doppelte Transferknöpfe aus Navigation, Übungsstandleiste, Suche und Hilfeseite sind entfernt. Importvorschau, iPad-Tutorial und Export-Dateidialog behalten die notwendigen bewussten Transfer-/Sicherungsschritte. Name, Hilfeumfang und Farbschema bleiben unverändert gespeichert.
+
+Interne alte Ansichtskennungen bleiben lesbar: home führt jetzt zu Inventur/Inventar; tasks bezeichnet intern die vorhandene Buchhaltungsübung ohne sichtbaren eigenen Menüpunkt. Im Buchungscheck wird Buchhaltung als aktiver Fachbereich markiert. Buchungen, Formulardaten, Nachweise, Aufgaben-/SCORM-/Speicherkennungen und Datenkranz bleiben unverändert. Kein Zugriff auf den Fortschritt externer SCORM-Aktivitäten und keine automatische Synchronisation zwischen Aktivitäten.
+
+Prüfung: 157 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich. Neue/angepasste Ereignistests prüfen Headerposition in beiden Einstiegseiten, eine einzige Kachelgruppe, entfernte Menübereiche, sichtbaren Transfer im Profil ohne Doppelknöpfe, Rückkehr ohne Eingabeverlust und Wiederaufnahme alter Startstände mit neun Nachweisen. Vollständiger Moodle-API-Durchlauf und unveränderter synthetischer 0.10-Stand bleiben erfolgreich. Schüler-ZIP mit 27 Manifestdateien bytegenau abgeglichen. Reale Browser-/iPad-/Moodle-Abnahme, insbesondere Wischen und Bildschirmtastatur, bleibt offen.
+
+Release-Quelle der bestehenden privaten Site: `26c13c4f30c2044fad003a3522bd08b5a34fcbbd` (0.17), erfolgreich veröffentlicht. Laufzeit und Schüler-ZIP stimmen bytegenau mit diesem Master überein.
