@@ -62,7 +62,7 @@
       "bereich": "BRC",
       "typ": "Lernunternehmen",
       "master": "Fachbereiche/BRC/BioCasaOS/dist",
-      "version": "0.15",
+      "version": "0.16",
       "archiveStem": "BioCasa_OS",
       "manifestOnly": true
     },

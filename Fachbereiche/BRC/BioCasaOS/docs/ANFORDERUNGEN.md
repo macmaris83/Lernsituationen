@@ -79,3 +79,8 @@ Die Kacheln zeigen nur den Namen der Lernsituation, keine LS-Nummer. Zugehörige
 ## Präzisierung 17.10.2026 · Originaltitel aus der Markdown-Gesamtreihe
 
 Die Kacheln verwenden die neun vollständigen Originaltitel aus `BRC_LG02_BioCasa_5_Lernwege_Gesamtreihe(6).md`, Bearbeitungsstand 5. Oktober 2026. Die Navigation der Original-MD wurde dafür gelesen und alle neun Titel wurden mit `curriculum.js` abgeglichen. Eigene Kurztitel entfallen; Kachel, zugängliche Beschriftung und Infodialog verwenden dieselbe Titelquelle. LS-Nummern bleiben in den Kacheln ausgeblendet.
+
+
+## Präzisierung 17.10.2026 · Kacheln nur einmal oben
+
+Je Übersicht eine LS-Kachelgruppe am Anfang. Die zusätzliche untere Lernschritt-Kachelreihe und die älteren Modul-/Nächster-Schritt-Karten entfallen. In einer geöffneten Aufgabe ebenfalls keine weitere Kachelreihe darunter. Die fachlichen LS-Titel, vorhandene Freigaben und gespeicherten Nachweise bleiben erhalten. Finanzkennzahlen und Journal bleiben in der optionalen Finanzübersicht; weitere OS-Übungen sind weiterhin über ihre bestehende Auswahl erreichbar.

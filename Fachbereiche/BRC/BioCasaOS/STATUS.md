@@ -1,6 +1,6 @@
 # Prüf- und Übergabestand
 
-Aktueller Stand: **17.10.2026**, Paketversion **0.15**. Ursprung: Sites-Fassung **0.10.0**.
+Aktueller Stand: **17.10.2026**, Paketversion **0.16**. Ursprung: Sites-Fassung **0.10.0**.
 
 ## Vorhanden
 
@@ -119,3 +119,12 @@ Die neun Kacheln verwenden nun unmittelbar `BioCasaCurriculum.title` statt eigen
 Prüfung: 156 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich. Die bestehenden Kacheltests vergleichen alle neun sichtbaren Titel mit ihrer gemeinsamen Datenquelle; Wiederaufnahme des alten 0.10-Standes bleibt erhalten. Die Schüler-ZIP enthält unverändert 27 Manifestdateien und ist bytegenau abgeglichen. Visuelle Browser-/iPad-/Moodle-Abnahme bleibt offen.
 
 Release-Quelle der bestehenden privaten Site: `d00798188f2df703a9eae71d3fa8bf6db67d2832` (0.15), erfolgreich veröffentlicht. Laufzeit und Schüler-ZIP stimmen bytegenau mit diesem Master überein.
+
+
+## Oberfläche 0.16 · eine Kachelübersicht oben
+
+Auf Nutzerauftrag erscheinen die LS-Kacheln je Start-/Auftragsübersicht genau einmal oben. Die zusätzliche untere OS-Lernschritt-Kachelreihe entfällt dort sowie unter geöffneten Übungen. In der Finanzübersicht entfallen die ältere Nächster-Schritt-Karte und die zusätzlichen Modul-Kacheln. Kennzahlen und Journal bleiben aufklappbar. Interne Schrittzuordnung, Hauptnavigation, Suche, weitere OS-Übungen, Freigaben und Lernstände wurden nicht geändert.
+
+Prüfung: 156 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich. Die bestehenden Kacheltests prüfen eine einzige Gruppe mit neun Originaltiteln und keine nachfolgende Lernschritt-/Modul-/Auftragskachelreihe im Einstieg und im fortgeschrittenen Stand. Alte 0.10-Lernstände und unfertige Eingaben bleiben wiederaufnehmbar. Schüler-ZIP bytegenau mit allen 27 Manifestdateien abgeglichen; echte Browser-/iPad-/Moodle-Abnahme weiterhin offen.
+
+Release-Quelle der bestehenden privaten Site: `ff34d7cc4233aa625700bd084ef754c0622ae4c0` (0.16), erfolgreich veröffentlicht. Laufzeit und Schüler-ZIP stimmen bytegenau mit diesem Master überein.
