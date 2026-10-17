@@ -1,4 +1,4 @@
-BioCasa OS 0.13 – Moodle-Erprobung
+BioCasa OS 0.14 – Moodle-Erprobung
 ================================
 
 EINMALIG ALS LEHRKRAFT EINRICHTEN
@@ -17,7 +17,8 @@ EINMALIG ALS LEHRKRAFT EINRICHTEN
    Änderungen im Review werden nur lokal gesichert.
 
 LERNSITUATION WÄHLEN
-- LS01–LS09 erscheinen als große Kacheln. Tippe auf eine freigegebene Kachel.
+- Die Lernsituationen erscheinen als große Kacheln mit Namen, ohne Nummer.
+  Tippe auf eine freigegebene Kachel.
 - Das Infosymbol zeigt den Auftrag und die Materialien im Moodle-Lernpaket.
 - Grau mit Schloss: erst den vorherigen Schritt lösen oder Freigabe abwarten.
 - „OS-Übung geprüft“ ist dein OS-Nachweis, kein Moodle-Abschluss der LS.
@@ -90,7 +91,7 @@ T-KONTEN ERÖFFNEN UND ABSCHLIESSEN (NEU IN 0.8)
 - Dies ist eine didaktische Abschlussansicht mit den Gegenbuchungen auf
   801 (SBK) bzw. 802 (GuV). Ein vollständiger Jahresabschluss folgt später.
 
-KLEINER TOUCH-RECHNER (0.13)
+KLEINER TOUCH-RECHNER (0.14)
 - Tippe auf ± neben einem Betragsfeld. Die Rechenhilfe schwebt über dem Formular.
   „Übernehmen in“ nennt das gewählte Ziel. Geschlossen belegt sie keinen Platz.
 - Gib deine Zahlen ein und rechne mit + und −. Runde Tasten, dunkle Anzeige,
@@ -291,7 +292,7 @@ ABNAHME 0.6
 - Auf dem Schul-iPad die Dateiauswahl in „Dateien“, Upload-Vorschau und den
   Schuljahreswechsel im echten Moodle prüfen. Dieser Gerätetest steht noch aus.
 
-BILANZAUSSCHNITT UND BUCHUNGSSATZ (0.13)
+BILANZAUSSCHNITT UND BUCHUNGSSATZ (0.14)
 - Die Bilanzwirkung zeigt Anlagevermögen und Umlaufvermögen links sowie
   Eigenkapital und Fremdkapital rechts. Graue Gruppenüberschriften geben Struktur.
 - Betroffene Konten stehen mit Nummer, Kontobezeichnung und Veränderungsbetrag

@@ -69,3 +69,8 @@ Standardmäßig weniger Menüpunkte und Beschriftungen: fünf Kernbereiche statt
 ## Ergänzung 17.10.2026 · Lernsituationen als Kacheln
 
 LS01–LS09 sollen sich auf Startseite und in den Lernaufträgen als große, übersichtliche Kacheln wiederfinden. Nummer, vertrautes Symbol, kurzer Titel und Freigabestatus reichen zunächst aus. Auftrag und Materialien sind über ein separates, mindestens 48 × 48 Pixel großes Infosymbol abrufbar. Die Kachel führt zum passenden bestehenden Arbeitsbereich; alle fachlichen Voraussetzungen und die Lehrkraft-Freigabe bleiben wirksam. OS-Nachweise sind keine Moodle-Abschlüsse. Die separate LS08-Abschlussakte bleibt als Vorbereitung gekennzeichnet, die LS09-Kennzahlen als OS-Ausblick. Die bisherige Finanzübersicht und die ausführlichen OS-Lernschritte sind optional aufklappbar. Zwischenstände beim Zurückwechseln erhalten.
+
+
+## Präzisierung 17.10.2026 · Namen ohne Nummern
+
+Die Kacheln zeigen nur den Namen der Lernsituation, keine LS-Nummer. Zugehörige Auswahlbeschriftungen und der Titel der Auftrags-/Materialinformation verwenden ebenfalls den Namen. Interne Kennungen und fachliche Material-/Quellenverweise bleiben erhalten; keine Änderung an Freischaltungen, Daten oder Lernständen.

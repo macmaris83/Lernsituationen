@@ -1,6 +1,6 @@
 # Prüf- und Übergabestand
 
-Aktueller Stand: **17.10.2026**, Paketversion **0.13**. Ursprung: Sites-Fassung **0.10.0**.
+Aktueller Stand: **17.10.2026**, Paketversion **0.14**. Ursprung: Sites-Fassung **0.10.0**.
 
 ## Vorhanden
 
@@ -101,3 +101,12 @@ Zuordnung: LS01 enthält Inventur/Inventar/Bilanz, LS02 Bestandskonten und ansch
 Vier zusätzliche Ereignistests prüfen Kachelzuordnung, Sperren bei direkten Aktionsaufrufen, Lehrkraft-/Retouren-Voraussetzungen, Rückkehr und Wiederaufnahme unfertiger Antworten mit Einstellungen sowie freie Lehrkräfteauswahl ohne Lernnachweis. Sichtbare Nummern, stabile Aufgabenkennungen, Speicherformat und Buchungsdaten wurden dadurch nicht verändert. Visuelle Browser-/iPad-Abnahme bleibt offen.
 
 Release-Quelle der bestehenden privaten Site: `13f5a49518906e376a4658c57066b98f6fa07469` (0.13); Veröffentlichung erfolgreich. Der GitHub-Master und die veröffentlichte Site-Laufzeit sind bytegleich abgeglichen. Die neue Schüler-ZIP enthält alle 27 Manifestdateien aus diesem Master. Eine in Moodle installierte ältere ZIP muss separat in derselben Aktivität ersetzt werden.
+
+
+## Oberfläche 0.14 · Lernsituationen ohne Nummer
+
+Auf Nutzerpräzisierung entfällt die LS-Nummer auf den Kacheln, in ihren Auswahlbeschriftungen und im Titel des zugehörigen Auftrags-/Materialdialogs. Die Übersichtsorientierung spricht von Lernsituationen. Kurztitel, Symbole, Status, Touchflächen und Freischaltungen bleiben unverändert. Interne LS-/Aufgabenkennungen und fachliche Quellenverweise werden weiter verwendet; gespeicherte Buchungen und Nachweise sind unverändert. Die vorhandenen Kacheltests prüfen die Darstellung mit Namen sowie die weiterhin unveränderte Zuordnung und Sperren.
+
+Prüfung: 156 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich; Schüler-ZIP bytegenau mit 27 Manifestdateien abgeglichen. Browser-/iPad-/Moodle-Praxistest weiterhin offen.
+
+Release-Quelle der bestehenden privaten Site: `86fe23f6fab4c9c1d50b4478ec3b6461a0a532b8` (0.14), erfolgreich veröffentlicht. Laufzeit und Schüler-ZIP stimmen bytegenau mit diesem Master überein.
