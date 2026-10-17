@@ -1,0 +1,147 @@
+# GitHub-Oberfläche auf vorhandene SCORM-Pakete übertragen
+
+`tools/transfer_scorm_design.py` übernimmt die freigegebene Oberfläche des im
+Master-Katalog genannten BRC-Pakets auf ein ausdrücklich bereitgestelltes SCORM.
+Es verarbeitet auch ein Sammel-ZIP mit den sechs LG01-Paketen. Die Ausgabe bleibt
+außerhalb des Repositorys: Ein solcher Designtransfer ersetzt keinen gepflegten
+Master und legt keinen parallelen Master an.
+
+Der tatsächliche Transfer benötigt wie die vorhandene Arbeitsheftaufbereitung
+PyMuPDF. Die Regressionstests des Transferwerkzeugs verwenden nur die Standardbibliothek.
+
+```bash
+python tools/transfer_scorm_design.py \
+  /workspace/upload/BioCasa_LG01_Moodle_Lernpakete.zip \
+  /workspace/delivery/lg01 \
+  --version 1.1
+```
+
+Die Oberfläche stammt jeweils aus dem passenden aktuellen Katalog-Master. Dazu
+gehören Aufgabenfokus, Materialrücksprung, kompakter Materialzugriff, Navigation,
+Lehrkräfteeditor, Export und gemeinsame Gestaltung. Es wird kein eigenes
+Flipbook-Design eingeführt.
+
+Die Inhaltsbereiche sämtlicher HTML-Seiten bleiben zeichengetreu erhalten.
+`lesson-data.js`, `progress-meta.js`, Konfiguration, Medienzuordnung und sämtliche
+Original-PDFs bleiben bytegleich. Damit bleiben auch Paket-, Aufgaben- und
+Kompetenzkennungen sowie bestehende Aufgabensignaturen erhalten. Kompetenzen,
+Aufträge, Materialtexte, Buchverweise und Zeitvorgaben werden nicht umformuliert.
+Der Fokus nutzt vorhandene aufgabenspezifische Zeitangaben; fehlen diese im
+Original, werden keine Zeiten erfunden. Phasenbezogene GoodNotes-Dateien enthalten
+unveränderte Seiten der gelieferten Originalarbeitshefte.
+
+Veraltete eingebettete Paketkopien (`package-data.js`) werden entfernt. Der
+Lehrkräfteexport liest die tatsächlich aktuellen Dateien aus dem Manifest. Das
+Manifest behält seine SCORM-Kennungen, erhält aber eine aktuelle Dateiliste.
+Die Anzeigenummer der Lieferung verändert keine Lernstandskennung.
+
+Die Ausgabe enthält sechs einzeln importierbare ZIPs, ein Sammelarchiv und einen
+Prüfbericht mit Quellen-, Inhalts-, Fortschritts- und Designprüfsummen. Das
+Sammelarchiv zuerst entpacken; in Moodle die Einzelpakete hochladen. Bereits
+importierte Moodle-Pakete müssen dort ausdrücklich ersetzt werden.
+
+Vor Verteilung zusätzlich Aufgabenfokus in allen Phasen/Lernwegen, Materialwechsel
+und Rücksprung, Phasensperren, Tablet-/Smartphonebreite sowie den Lehrkräfteexport
+im Browser prüfen. Ein lokaler SCORM-API-Test ersetzt keine Prüfung in Moodle
+oder der nativen Moodle-App.
+
+## Einzelaufgaben und Lehrkräfteansicht in Lieferung 1.2
+
+Nach dem unveränderten Designtransfer trennt der ausdrücklich angeforderte zweite
+Schritt eigenständige Arbeitsaufträge in einzelne Karten. Kriterien, Checkpoints,
+optionale Hilfen und zusammengehörende Prüfaufträge bleiben bei ihrer Aufgabe.
+Die Nummerierung läuft pro Lernweg über alle sechs Aufgabenphasen weiter.
+Text, fett markierte Operatoren, Buchbezüge, Materialien und Bilder bleiben
+erhalten; erforderliche Einleitungen werden in den getrennten Karten wiederholt.
+
+```bash
+python -m pip install lxml reportlab PyMuPDF
+python tools/individualize_scorm_tasks.py \
+  /workspace/delivery/lg01/BioCasa_LG01_Moodle_Lernpakete_v1.1.zip \
+  /workspace/delivery/lg01-einzelaufgaben \
+  --version 1.2
+```
+
+Die vorhandenen Aufgaben-IDs bleiben erhalten; weitere Teile erhalten stabile
+Unterkennungen. Signaturgeprüfte Migrationsregeln übernehmen erledigte alte
+Bündel auf ihre Teile. Das Abhaken nur eines neuen Teils erledigt keine weiteren
+Teile. Sichtbare Nummern sind von den Speicherkennungen getrennt und werden
+auch im Editor-Export fortlaufend berechnet.
+
+Der Zugang unten rechts heißt **Editor**. Nach der bestehenden PIN-Anmeldung
+öffnet **Lehrkräfteansicht starten** einen getrennten Teststand mit direktem
+Zugang zu sämtlichen Phasen und fünf Lernwegen. **Lösungen anzeigen** öffnet
+die richtigen Original-Quizantworten samt Rückmeldung und den vorhandenen
+Erwartungshorizont. **Lernendenansicht** beendet diese Ansicht. Der Teststand
+schreibt weder Aufgabenhaken noch Kompetenzangaben in den Moodle-Lernversuch.
+
+Der Moodle-Modus `browse` ist eine bedienbare lokale Lernvorschau ohne
+Moodle-Schreibzugriffe. `review` bleibt für Lernende schreibgeschützt; die
+angemeldete Lehrkräfteansicht kann unabhängig davon verwendet werden.
+
+Die 180 abgeleiteten GoodNotes-Phasenhefte werden aus den aktuellen Einzelkarten
+mit denselben Nummern und unveränderten Aufgabentexten erzeugt. Die 42 gelieferten
+Original-PDFs bleiben bytegleich erhalten. Der PDF-Zugang öffnet die aktuelle
+Druckansicht. Persönliche Test- und Lernstände werden nicht exportiert.
+
+Prüfergebnisse der Lieferung 1.2: `Pruefberichte/BRC_LG01_Einzelaufgaben.md`.
+
+## Aufgabenform und vollständige Uhr in Lieferung 1.4
+
+Die Aufgabenkarten benötigen neben identischem CSS die Metadaten des aktuellen
+Masters. Fehlende `assignment-social`-Elemente führen dazu, dass die Runtime die
+lange Arbeitsform einer ganzen Phase in die schmale Symbolspalte setzt.
+
+```bash
+python tools/transfer_task_card_form.py \
+  /workspace/delivery/BioCasa_LG01_Moodle_Lernpakete_v1.2.zip \
+  /workspace/delivery/lg01-aufgabenform \
+  --version 1.4
+```
+
+Die Zuordnung erfolgt innerhalb derselben Phase und desselben Lernwegs anhand
+der vollständigen Arbeitsaufträge. Eindeutige Teilaufträge übernehmen die
+Sozialform ihres GitHub-Gruppenauftrags. Zusätzliche Aufträge behalten ihre eigene
+Arbeitsform; bei offenen Phasenplänen bleibt die Auswahl offen. Die ausführliche
+ursprüngliche Phasenarbeitsform bleibt erhalten. Alle 628 Karten verwenden den
+GitHub-Aufbau aus Symbol, kurzer Beschriftung und unverändertem Arbeitsauftrag.
+
+Die drei maßgeblichen Stylesheets bleiben bytegleich mit GitHub. Offene Aufgaben
+haben den blauen Fokusrahmen, erledigte Aufgaben die volle hellgrüne Fläche
+`#f3f8e7`; Abhaken und Entfernen des Hakens ändern die Farben unmittelbar und
+nach erneutem Laden. Die Aufgaben, Buchbezüge, Medien und PDF-Dateien bleiben
+erhalten, ebenso die vollständige Fortschrittsdatei.
+
+Die erste Lieferung 1.3 zeigte nur das Phasenbudget. Lieferung **1.4** ersetzt
+diesen unvollständigen Zeitbereich durch die vollständige GitHub-Uhr. Die Funktion
+`times()` des aktuellen BRC-Generators verteilt das vorhandene Phasenbudget für
+jeden Lernweg auf dessen eigene Aufgaben: mindestens eine halbe Minute je Auftrag,
+den Rest proportional zur Quadratwurzel der Wortzahl, ohne Rundungsabweichung in
+der Summe. W3 und W5 verwenden wie im Master dieselben Phasenbudgets. Buchverweise
+und wiederholte Kontexte bestimmen das Gewicht nicht. Der ursprüngliche
+Phasenplan bleibt erhalten; die ergänzte Orientierungszeit ist signaturneutrale UI.
+
+Countdown, Pause/Fortsetzen, Grün–Schwarz–Rot und der schaltbare Gong stammen
+unverändert aus der GitHub-Runtime. Der Gong wird durch die erste Bedienung
+freigegeben; nach Ablauf bleibt Weiterarbeiten möglich. Es gibt keinen Reset.
+
+Browserprüfung mit installiertem Playwright und Chromium:
+
+```bash
+node tools/check_task_card_form.mjs /workspace/delivery/lg01-aufgabenform/preview
+node tools/check_task_clocks.mjs /workspace/delivery/lg01-aufgabenform/preview
+```
+
+Bei Bedarf geben `PLAYWRIGHT_MODULE` und `CHROMIUM_PATH` die lokalen Installationen
+an. Der zusätzliche Parameter `--colors-only` prüft nur Farbwechsel und
+Speicherung nach erneutem Laden. Berichte der Lieferung stehen in
+`Pruefberichte/BRC_LG01_Aufgabenform.md`.
+
+Die MC-Antwortzeilen der Handlungssituation sind auch im Moodle-Review per Touch
+bedienbar. Antworten und Prüfen verändern dort nur die laufende Übung; der
+gespeicherte Versuch bleibt unverändert. Im normalen Versuch werden richtige
+Antworten wie bisher gespeichert und schalten den weiteren Lernweg frei.
+Das unveränderte Original-Lehrbuchlogo bleibt mit dem jeweiligen Buchverweis
+in einer kompakten Zeile sichtbar.
+
+Zusätzliche Touch-Prüfung: `node tools/check_situation_mc.mjs PREVIEW_ROOT`.
