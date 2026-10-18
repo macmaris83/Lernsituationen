@@ -1,6 +1,6 @@
 # Prüf- und Übergabestand
 
-Aktueller Stand: **17.10.2026**, Paketversion **0.18**. Ursprung: Sites-Fassung **0.10.0**.
+Aktueller Stand: **18.10.2026**, Paketversion **0.19**. Ursprung: Sites-Fassung **0.10.0**.
 
 ## Vorhanden
 
@@ -154,3 +154,12 @@ Fallstichtag, Schuljahr, Fortschritt, Speicherort und letzte Sicherung stehen im
 Prüfung: 158 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich; Schüler-ZIP mit 27 Manifestdateien bytegenau abgeglichen. Die VM prüft die fehlenden Zwischenzeilen auf beiden Einstiegsseiten, bestehende Profil-/Suchnavigation samt Sperren, Direktwahl/Ansichtswechsel der Lehrkräfte, Kontext-/Datumsanzeige im Profil und die Wiederaufnahme des unveränderten synthetischen 0.10-Moodle-Stands. Reale visuelle Browser-/iPad-/Moodle-Abnahme bleibt offen; keine Browsersteuerung in dieser Sitzung verfügbar.
 
 Release-Quelle der bestehenden privaten Site: `5c545270b039f133a4e4f38f60fbb58a0de759d8` (0.18); Veröffentlichung erfolgreich. GitHub-Master und veröffentlichte Site-Laufzeit wurden vor Veröffentlichung bytegleich abgeglichen. Das Schülerpaket enthält denselben Laufzeitstand; eine installierte Moodle-ZIP muss separat in derselben Aktivität ersetzt werden.
+
+
+## Oberfläche 0.19 · Buchungsaktionen erst ab LS02
+
+Neue Buchung und Journal sind in der Hauptansicht während Inventur, Inventar und der Bilanzaufgabe vollständig ausgeblendet. Das gilt auch bei späterer Wiederholung und in der Lehrkräftevorschau. Ab Bestandskonten (zweite Lernsituation) ist die Befehlsleiste sichtbar; bis zur bisherigen Buchungsfreigabe nach der Konteneröffnung bleiben die Aktionen deaktiviert. In den späteren Buchungsthemen bleibt sie verfügbar. Es wird keine zusätzliche Zeile oder ein Platzhalter erzeugt. Keine Änderung am Daten-/Speicherformat oder an Aufgaben, Konten und Nachweisen.
+
+Prüfung: 159 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich; Schüler-ZIP mit 27 Manifestdateien bytegenau abgeglichen. Der neue Ereignistest durchläuft Inventur → Inventar → Bilanz → Bestandskonten, prüft die unveränderte Sperre, die freigegebenen Aktionen, Rückkehr/Wiederaufnahme der ersten Lernsituation sowie die getrennte Lehrkräftevorschau ohne künstlichen Nachweis. Der synthetische 0.10-Moodle-Stand wird weiterhin erhalten. VM-/SCORM-Simulation, keine reale visuelle Browser-/iPad-/Moodle-Abnahme.
+
+Release-Quelle der bestehenden privaten Site: `a9a3000d434d09fd1c1a3527f9c8e0fbe01fa0ff` (0.19); Veröffentlichung erfolgreich. GitHub-Master und Site-Laufzeit wurden bytegleich abgeglichen. Das aktuelle Schülerpaket enthält denselben Laufzeitstand; eine installierte Moodle-ZIP muss separat in derselben Aktivität ersetzt werden.

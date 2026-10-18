@@ -128,7 +128,10 @@ function switchWorkspaceMode(mode){
  if(mode==='teacher'){try{window.localStorage.setItem('biocasa-os:teacher-dataset',JSON.stringify(BioCasaData.current));}catch{toast('Die Datenbasis konnte nicht für die Vorschau übernommen werden.',true);if($('workspace-mode'))$('workspace-mode').value='learn';return;}}
  window.location.href=mode==='teacher'?'preview.html':'index.html';
 }
-function dynamicsCommandBarHTML(){const booking=L.canOpen(state,'booking');return `<div class="dynamics-commandbar" role="toolbar" aria-label="Buchungsaktionen">${btn(icon('plus',15)+' Neue Buchung','new-book',booking?'':'disabled title="'+esc(L.lockReason(state,'booking'))+'"','primary')}${btn(icon('book',15)+' Journal','journal',booking?'':'disabled')}<span class="command-state">EUR · BioCasa GmbH</span></div>`;}
+function dynamicsCommandBarHTML(){
+ const stage=L.accessStage(state);
+ if(stage<3||['home','inventory'].includes(view)||view==='reports'&&(reportTab==='lesson-balance'||stage<4&&reportTab==='balance'))return '';
+ const booking=L.canOpen(state,'booking');return `<div class="dynamics-commandbar" role="toolbar" aria-label="Buchungsaktionen">${btn(icon('plus',15)+' Neue Buchung','new-book',booking?'':'disabled title="'+esc(L.lockReason(state,'booking'))+'"','primary')}${btn(icon('book',15)+' Journal','journal',booking?'':'disabled')}<span class="command-state">EUR · BioCasa GmbH</span></div>`;}
 function commandItems(){
  const items=Object.entries(titles).filter(([id])=>!['home','tasks'].includes(id)).map(([id,title])=>({id:'page-'+id,kind:'page',target:id,title:title+(id==='stock'?' · 12. Jahrgang':id==='control'?' · 13. Jahrgang':''),group:'Seiten',icon:routes.find(r=>r[0]===id)?.[1]||'help',available:L.canOpen(state,id),note:L.canOpen(state,id)?id==='stock'?'12. Jahrgang · freiwillige Vertiefung':id==='control'?'13. Jahrgang · freiwillige Vertiefung':'Arbeitsbereich öffnen':L.lockReason(state,id)}));
  const p=L.progress(state);items.push(...p.steps.map(s=>({id:'step-'+s.id,kind:'step',target:s.id,title:s.title,group:'Lernschritte',icon:'tasks',available:s.unlocked,note:s.unlocked?s.subtitle:s.id==='inventar'&&!p.release.allowed?'Wartet auf die Freigabe der Lehrkraft':'Zuerst den vorherigen Lernschritt nachweisen'})));

@@ -94,3 +94,8 @@ Kein Rollencenter und kein eigener Bereich Lernaufträge: Die Arbeitsaufträge w
 ## Präzisierung 17.10.2026 · keine Zwischenzeilen
 
 Alle Zeilen zwischen den LS-Kacheln und „Neue Buchung“ entfernen: zusätzliche Werkzeugnavigation, Breadcrumb, Übungsstandleiste und Lehrkräftebanner. Neue Buchung und Journal bleiben direkt unter den Kacheln. Die Arbeitsbereiche sind weiter über das Profil und die Suche erreichbar. Fallstand, Schuljahr, Fortschritt und letzter Sicherungszeitpunkt bleiben im geschlossenen Profilbereich „Übungsstand & Dateien“; die Lehrkräfte-Direktauswahl in „Lehrkräftevorschau“. Speicherstatus als touchfähiges Symbol im Kopf erhalten; Fehler sichtbar melden. Keine Änderung an fachlichen Aufgaben, Freigaben oder gespeicherten Ständen.
+
+
+## Präzisierung 18.10.2026 · Buchungsaktionen ab der zweiten Lernsituation
+
+Neue Buchung und Journal erscheinen in der Hauptansicht erst ab der zweiten Lernsituation (Bestandskonten). In Inventur, Inventar und der Bilanzaufgabe die gesamte Befehlsleiste ohne Platzhalter ausblenden, auch beim späteren Wiederholen und in der Lehrkräftevorschau. Das Anzeigen ersetzt keine fachliche Freigabe: Erst nach der Konteneröffnung sind die bisherigen Buchungsaktionen für Lernende nutzbar. Keine Änderung an Aufgaben, Daten oder Lernständen.
