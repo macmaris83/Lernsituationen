@@ -1,8 +1,6 @@
 # LG01 · LS04 · BioCasa vor Business Angels präsentieren
 
-**Markdown-Entwurf zur inhaltlichen Abstimmung · 19. Oktober 2026**
-
-## 1. Rahmen und Handlungsergebnis
+## 1. Ihr Auftrag
 
 - **Lerngebiet:** LG01 „Ein Unternehmen gründen“
 - **Grundlage:** der in LS03 erarbeitete Businessplan von BioCasa
@@ -49,7 +47,7 @@ Nach der Präsentation folgt ein Fachgespräch. Die Business Angels fragen nach,
 
 **Sie übernehmen beide Seiten dieses Gesprächs als Rollenspiel.** Ein bestehendes Schülerteam aus drei bis vier Personen präsentiert BioCasa. Ein anderes Schülerteam aus drei bis vier Personen spielt die Business Angels. Anschließend wechseln die Teams die Rollen. Die vier Personen der Unternehmensgeschichte müssen nicht einzeln besetzt werden; die Verantwortung für Inhalte und Gesprächsbeiträge wird innerhalb Ihres tatsächlichen Teams verteilt.
 
-Zwei Lehrkräfte beobachten und beurteilen die Pitches und Fachgespräche. Die jeweilige Schülergegengruppe gibt zusätzlich eine begründete Peerbeurteilung ab, die in die Beurteilung durch die Lehrkräfte einbezogen wird.
+Sie geben der jeweils anderen Gruppe eine begründete Peerbeurteilung mit konkreten Beobachtungen. Die erhaltenen Rückmeldungen nutzen Sie, um Ihren eigenen Pitch und Beteiligungsvorschlag zu verbessern.
 
 ## 4. Gemeinsamer Auftrag für alle Lernwege
 
@@ -108,7 +106,7 @@ Die Finanzierungsanalyse liefert die Grundlage für die Beteiligungsanfrage. Im 
 
 ## 5. Vollständige Handlung in fünf Lernwegen
 
-Für alle fünf Lernwege gelten derselbe Pitchauftrag, derselbe Businessplanbezug, die persönliche Beteiligung an beiden Rollen und dieselben Beurteilungskriterien. Der zugewiesene Lernweg bestimmt den Umfang der Strukturierung und Unterstützung.
+**Bearbeiten** Sie den vereinbarten Lernweg. In jedem Lernweg stellen Sie BioCasa auf Grundlage des Businessplans vor, führen das Fachgespräch und übernehmen anschließend die andere Rolle. Nutzen Sie die Kriterien in M6 für Ihre Vorbereitung und Ihr Peerfeedback.
 
 ### W1 · Stark geführt
 
@@ -237,9 +235,9 @@ Bei vier Personen wird der dritte Bereich sinnvoll aufgeteilt. Bei drei Personen
 
 **Gesprächsnotiz:** Frage → Kernaussage der Antwort → fachlicher Beleg → offene Frage oder Schlussfolgerung.
 
-### M6 · Gemeinsamer Beurteilungs- und Beitragsbogen
+### M6 · Peerfeedback und Beitragsübersicht
 
-**Pitchteam:** … · **Beurteilendes Schülerteam / Lehrkraft:** … · **Runde:** …
+**Pitchteam:** … · **Feedbackgebendes Schülerteam:** … · **Runde:** …
 
 | Kriterium | Woran wird die Leistung sichtbar? |
 |---|---|
@@ -250,7 +248,7 @@ Bei vier Personen wird der dritte Bereich sinnvoll aufgeteilt. Bei drei Personen
 | Fachgespräch | Antworten sind sachlich richtig, greifen die Fragen auf und werden mit Belegen und nachvollziehbaren Überlegungen begründet. Risiken werden berücksichtigt. |
 | Darstellung und Zusammenarbeit | Der Pitch ist klar aufgebaut, die Darstellungen sind lesbar, alle Gruppenmitglieder tragen erkennbar zum Pitch und Fachgespräch bei. |
 
-**Skala:** 0 = fehlt oder fachlich falsch · 1 = teilweise nachvollziehbar · 2 = nachvollziehbar und fachlich richtig · 3 = besonders überzeugend belegt. Nicht beobachtbare Leistungen werden entsprechend gekennzeichnet und nicht automatisch mit null bewertet.
+**Skala:** 0 = fehlt oder fachlich falsch · 1 = teilweise nachvollziehbar · 2 = nachvollziehbar und fachlich richtig · 3 = besonders überzeugend belegt. Kennzeichnen Sie Aspekte, die Sie nicht beobachten konnten, mit „nicht beobachtet“.
 
 **Dokumentieren** Sie zu jedem Kriterium Einschätzung und konkreten Beleg. Nennen Sie außerdem eine belegte Stärke und zwei umsetzbare Verbesserungsvorschläge.
 
@@ -263,14 +261,14 @@ Bei vier Personen wird der dritte Bereich sinnvoll aufgeteilt. Bei drei Personen
 
 Im Dreierteam bleibt eine Zeile frei. **Prüfen** Sie, ob jede Person beide Rollen aktiv ausgefüllt hat.
 
-Die beiden Lehrkräfte beurteilen Pitch und Fachgespräch und beziehen die begründete Peerbeurteilung der Schülergegengruppe ein. Eine automatische Mittelung oder feste Notengewichtung wird in diesem Entwurf nicht vorgegeben. Die Frage, ob ein Business Angel im Rollenspiel investieren würde, wird getrennt von der fachlichen Beurteilung begründet.
+**Begründen** Sie zusätzlich aus Ihrer Business-Angel-Rolle, ob Sie ein weiteres Beteiligungsgespräch führen würden und welche Informationen Sie dafür noch benötigen. Halten Sie dieses Urteil getrennt von Ihrem kriteriengeleiteten Peerfeedback fest.
 
 ## 7. Ablauf der Rollenspielrunden
 
 1. Beide bestehenden Teams bereiten ihren BioCasa-Pitch und ihre Angel-Rolle vor.
 2. Team A präsentiert BioCasa vor Team B als Business Angels.
 3. Direkt anschließend führen beide Teams das Fachgespräch.
-4. Team B vervollständigt seine begründete Peerbeurteilung. Die beiden Lehrkräfte halten ihre Beobachtungen fest.
+4. Team B vervollständigt seine begründete Peerbeurteilung und gibt Team A Rückmeldung mit konkreten Belegen.
 5. Die Teams wechseln die Rollen: Team B pitcht, Team A übernimmt die Business Angels. Danach folgt erneut das Fachgespräch.
 6. Beide Teams werten die erhaltenen Rückmeldungen aus und verbessern ihren Vorschlag.
 
