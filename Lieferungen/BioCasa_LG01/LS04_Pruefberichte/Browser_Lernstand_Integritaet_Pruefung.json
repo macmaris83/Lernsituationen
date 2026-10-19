@@ -1,0 +1,611 @@
+{
+  "result": "PASS",
+  "method": "Native Chromium DOMParser and actual SOZ_PROGRESS_CORE; independent migration expectation; byte and PDF checks",
+  "packages": [
+    {
+      "family": "catalogue",
+      "root": "Fachbereiche/BRC/LG01/LS04",
+      "baseline": "work/ls04-roleplay/baseline-catalog",
+      "static": {
+        "tasksAndMinutesUnchanged": 70,
+        "stableConfiguration": {
+          "Konfiguration.json": "0327f6bbfc463a72151c4213327dce45961784fe0165b41127be9ca13903333e",
+          "mode-config.js": "17740748978b571fd64c5d00d89e21d164576b0b70dc0337e45708ad759d2d41"
+        },
+        "manifestAndLaunchIdentityUnchanged": true,
+        "imagesUnchanged": {
+          "assets/footer-4.svg": "1286d1b2ef428bebc1af64b0905b7e45806fe29496c227fdc2abf1055c4fbdb6",
+          "assets/goodnotes.png": "22e995f0ba113e0a9e7eddc4a8590194aee8aa951fa6be95d0775b1f7c5eeb60",
+          "assets/footer-5.svg": "401a4083305b349b687d55cf2debe2dc006f5b40e61695751ff13d78b4d7c807",
+          "assets/footer-1.svg": "c7a7e355bc6f3f6c8d15a2d9f8c854916e32c10f074c2eb3b2e82e119f581c3d",
+          "assets/footer-6.svg": "dbbbf8c790ee6713300d2c049c2a5910fee7bdd1b914f44d04dcdccc8fb1223e",
+          "assets/footer-0.svg": "e9262d03aeb2207eb8c123ec993abbfa459c6b52958f07e3fa3c9d4a9fee991f",
+          "assets/footer-2.svg": "7eab04ebd36bbf9b946d1eac8f429c93ce90a5597c2cdebe313c69f91ffa053e",
+          "assets/loept.png": "1d1c726132cf1686df96e54a44f460ae5e05c8cd909ef6ca87d576756dc177bd",
+          "assets/lehrbuch-icon.png": "ec7017e16b105e3a4b3be13435485dcfc8645ff365f53d255517a1def96c06c1",
+          "assets/bbs1-campus-background.png": "fdca9d81831bada2d7232a63c9f03888ad293f00682b4c5004b708d96c0cc66c",
+          "assets/footer-3.svg": "a9ca2ddd91e7cbb6d4c681db1bd1f9e90e353d4ca6ecbaf62a3261a70788ce28",
+          "assets/bbs1-aurich.svg": "f7cdd6a74c1869ac917b8832fb93d0d8ee708b387a4304f4f3d43627d235b933",
+          "assets/moodle.svg": "3beb5021938fa31cdb68ec93957ce762ee514780fe2815dc7bafd5b495c8ebb6",
+          "assets/images/biocasa-ls04-orientation.png": "42262cc0614c70e2cc4e9dc8e8f06a6fd8c6cc0a1f74095057f64df5b1be18d6",
+          "assets/images/biocasa-ls04-situation.png": "410b4960d668244e95fa5d64266b1adb9602caf53001deeef57c6891c51858d6"
+        },
+        "phasePdfPayloads": [
+          {
+            "file": "GoodNotes_Phase_informieren_W1.pdf",
+            "pages": 4,
+            "sha256": "522e953be0410b3430bf3bad563e95211edd8d025c2a8c63fd1e5bb906daf624"
+          },
+          {
+            "file": "GoodNotes_Phase_informieren_W2.pdf",
+            "pages": 3,
+            "sha256": "eea6b2502b4eb0f955542e2b4f43c2d19551b8abb14eaa8e86332f83086ab217"
+          },
+          {
+            "file": "GoodNotes_Phase_informieren_W3.pdf",
+            "pages": 2,
+            "sha256": "55c72c8cd50382396ed490e50a995f69c353f80245ced54e40a92bde08e0aaca"
+          },
+          {
+            "file": "GoodNotes_Phase_informieren_W4.pdf",
+            "pages": 2,
+            "sha256": "25e9f0b4fb7324b251065f8ad600f41bb57c166468dac8040186adf53d0a07df"
+          },
+          {
+            "file": "GoodNotes_Phase_informieren_W5.pdf",
+            "pages": 2,
+            "sha256": "84871c7bb738d002003bd5c5673a7ca7202b82aec32d4a957dc24e8b77e8fea3"
+          },
+          {
+            "file": "GoodNotes_Phase_planen_W1.pdf",
+            "pages": 3,
+            "sha256": "af6671ef1c71a018d4861459f80392b080d239aa4123ff48af2a4e27c0d2effa"
+          },
+          {
+            "file": "GoodNotes_Phase_planen_W2.pdf",
+            "pages": 2,
+            "sha256": "cb8cce08a3072384378a92f1d074973b75b5d80ee07d8cd38a5afa08db8a34b8"
+          },
+          {
+            "file": "GoodNotes_Phase_planen_W3.pdf",
+            "pages": 3,
+            "sha256": "b66905621b8dcfca44e823ee0375cca44315f0374e2ed4c5a7b2dc9ac8b7e303"
+          },
+          {
+            "file": "GoodNotes_Phase_planen_W4.pdf",
+            "pages": 2,
+            "sha256": "101f5938a11bd483740f3c745056426c71af457ac1dc258d70dbf514c454e8d3"
+          },
+          {
+            "file": "GoodNotes_Phase_planen_W5.pdf",
+            "pages": 2,
+            "sha256": "ac89a59935657337aae7c196c9805d7fdfc745c2353945dbe2f20faf5376e248"
+          },
+          {
+            "file": "GoodNotes_Phase_entscheiden_W1.pdf",
+            "pages": 3,
+            "sha256": "11264fcac26a888aa45daccc1ea41cd327e53427e6476a262f9239386a172ce1"
+          },
+          {
+            "file": "GoodNotes_Phase_entscheiden_W2.pdf",
+            "pages": 2,
+            "sha256": "aff6dafc4473bce028335a7920cfbdfacc4b6eb8d2ec2b6807bf36ce8da7bceb"
+          },
+          {
+            "file": "GoodNotes_Phase_entscheiden_W3.pdf",
+            "pages": 2,
+            "sha256": "5332234d684265b86d2f5ddc53e8b76e956122325b5319c292bc7e0524f9d21e"
+          },
+          {
+            "file": "GoodNotes_Phase_entscheiden_W4.pdf",
+            "pages": 2,
+            "sha256": "cf7669b962b9cf0f30afc0d9cc2edb24d36e88a1087a999dfedde799f091c108"
+          },
+          {
+            "file": "GoodNotes_Phase_entscheiden_W5.pdf",
+            "pages": 2,
+            "sha256": "c46ab3d182245fbde5e1b4e8a5e3288e060dabf2a49958dc39b04443722abe3d"
+          },
+          {
+            "file": "GoodNotes_Phase_durchfuehren_W1.pdf",
+            "pages": 1,
+            "sha256": "f61e6246d7f8d9c8681fa633777aee428259c1ca934012a969fd19eb6b6f9b5f"
+          },
+          {
+            "file": "GoodNotes_Phase_durchfuehren_W2.pdf",
+            "pages": 2,
+            "sha256": "6b47c283335b374efbe876a3bc2f6a877f222c02358784a38fa273830bad85a2"
+          },
+          {
+            "file": "GoodNotes_Phase_durchfuehren_W3.pdf",
+            "pages": 1,
+            "sha256": "49329f74ef0eddbbd6cc9ddb1f82877280509cfedfe1e2ef1016ff5d5a6a651e"
+          },
+          {
+            "file": "GoodNotes_Phase_durchfuehren_W4.pdf",
+            "pages": 2,
+            "sha256": "926d54f44331000e922ec155625ea46973ebeaba1790fddc2bcd65785d3a46fd"
+          },
+          {
+            "file": "GoodNotes_Phase_durchfuehren_W5.pdf",
+            "pages": 2,
+            "sha256": "f19b97396f38f667302867eaf75228fde0272b30b55615af1717da700e7300e0"
+          },
+          {
+            "file": "GoodNotes_Phase_bewerten_W1.pdf",
+            "pages": 2,
+            "sha256": "7405a1dd3d0dc30c6176193947c691a86a45d187ab6f783b0e86848c36b23032"
+          },
+          {
+            "file": "GoodNotes_Phase_bewerten_W2.pdf",
+            "pages": 2,
+            "sha256": "7405a1dd3d0dc30c6176193947c691a86a45d187ab6f783b0e86848c36b23032"
+          },
+          {
+            "file": "GoodNotes_Phase_bewerten_W3.pdf",
+            "pages": 2,
+            "sha256": "7405a1dd3d0dc30c6176193947c691a86a45d187ab6f783b0e86848c36b23032"
+          },
+          {
+            "file": "GoodNotes_Phase_bewerten_W4.pdf",
+            "pages": 2,
+            "sha256": "7405a1dd3d0dc30c6176193947c691a86a45d187ab6f783b0e86848c36b23032"
+          },
+          {
+            "file": "GoodNotes_Phase_bewerten_W5.pdf",
+            "pages": 2,
+            "sha256": "7405a1dd3d0dc30c6176193947c691a86a45d187ab6f783b0e86848c36b23032"
+          },
+          {
+            "file": "GoodNotes_Phase_reflektieren_W1.pdf",
+            "pages": 1,
+            "sha256": "a6055906293273508abba7a38e51b0e6de99f3f28c5a0a0edec862f88be75bec"
+          },
+          {
+            "file": "GoodNotes_Phase_reflektieren_W2.pdf",
+            "pages": 1,
+            "sha256": "17731553ac8be4fcc9848886e104efe11f33eebb0f831cb50d1d7299d315d98f"
+          },
+          {
+            "file": "GoodNotes_Phase_reflektieren_W3.pdf",
+            "pages": 1,
+            "sha256": "0fd1995b5ac69456103912e00a6a04c83961853ce48dd17f5748fef34c902c99"
+          },
+          {
+            "file": "GoodNotes_Phase_reflektieren_W4.pdf",
+            "pages": 1,
+            "sha256": "40c9effbf3acda38a036065834193915b07f5f977ee2cbe39b30e9f57e85c67b"
+          },
+          {
+            "file": "GoodNotes_Phase_reflektieren_W5.pdf",
+            "pages": 1,
+            "sha256": "c790bcb5a12921e0e54b002c817b626f54485cb40bceeb615c8e3f1ac61abb1b"
+          }
+        ],
+        "fullWorkbookPayloads": [],
+        "mandatoryPersonalRolesByMode": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "browser": {
+        "nativeDOMMetadataFromExactMatch": true,
+        "fullOldStateTasks": 70,
+        "unchangedExactRestored": [],
+        "explicitSafeMigrationRestored": [
+          "0:1:3",
+          "0:1:4",
+          "0:1:5",
+          "0:1:6",
+          "0:1:7",
+          "0:1:8",
+          "0:2:3",
+          "0:2:4",
+          "0:3:2",
+          "0:3:3",
+          "0:3:4",
+          "0:4:3",
+          "0:5:3",
+          "0:5:4",
+          "1:1:3",
+          "1:1:4",
+          "1:3:2",
+          "1:3:3",
+          "1:3:4",
+          "1:5:2",
+          "1:5:3",
+          "2:1:2",
+          "2:1:3",
+          "2:1:4",
+          "2:2:2",
+          "2:3:2",
+          "2:3:3",
+          "2:4:2",
+          "2:5:2",
+          "2:5:3",
+          "3:5:2"
+        ],
+        "substantiveChangedTasksRequireRework": [
+          "0:1:1",
+          "0:1:2",
+          "0:2:1",
+          "0:2:2",
+          "0:3:1",
+          "0:4:1",
+          "0:4:2",
+          "0:5:1",
+          "0:5:2",
+          "1:1:1",
+          "1:1:2",
+          "1:2:1",
+          "1:2:2",
+          "1:3:1",
+          "1:4:1",
+          "1:4:2",
+          "1:5:1",
+          "2:1:1",
+          "2:2:1",
+          "2:3:1",
+          "2:4:1",
+          "2:5:1",
+          "3:1:1",
+          "3:2:1",
+          "3:3:1",
+          "3:4:1",
+          "3:4:2",
+          "3:4:3",
+          "3:5:1",
+          "4:1:1",
+          "4:2:1",
+          "4:3:1",
+          "4:4:1",
+          "4:5:1",
+          "5:1:1",
+          "5:2:1",
+          "5:3:1",
+          "5:4:1",
+          "5:5:1"
+        ],
+        "allEvidenceFeedbackNextGoalPreserved": true,
+        "quizResetWhenChanged": true,
+        "orientationRestored": false,
+        "currentStateRoundTrip": true,
+        "foreignStateIsolated": true
+      }
+    },
+    {
+      "family": "uploaded",
+      "root": "work/ls04-roleplay/preview/LS04",
+      "baseline": "work/delivery-v1.7/preview/LS04",
+      "static": {
+        "tasksAndMinutesUnchanged": 104,
+        "stableConfiguration": {
+          "Konfiguration.json": "a7824a9ad17554cf39beac55265144d3b3972f6efea3a4ce1f6f42336f434523",
+          "mode-config.js": "5f5f0cfad75398e6235f621e6f477abd3c916277a16a9baf4be367de25fa7445"
+        },
+        "manifestAndLaunchIdentityUnchanged": true,
+        "imagesUnchanged": {
+          "assets/footer-4.svg": "1286d1b2ef428bebc1af64b0905b7e45806fe29496c227fdc2abf1055c4fbdb6",
+          "assets/goodnotes.png": "22e995f0ba113e0a9e7eddc4a8590194aee8aa951fa6be95d0775b1f7c5eeb60",
+          "assets/footer-5.svg": "401a4083305b349b687d55cf2debe2dc006f5b40e61695751ff13d78b4d7c807",
+          "assets/footer-1.svg": "c7a7e355bc6f3f6c8d15a2d9f8c854916e32c10f074c2eb3b2e82e119f581c3d",
+          "assets/footer-6.svg": "dbbbf8c790ee6713300d2c049c2a5910fee7bdd1b914f44d04dcdccc8fb1223e",
+          "assets/footer-0.svg": "e9262d03aeb2207eb8c123ec993abbfa459c6b52958f07e3fa3c9d4a9fee991f",
+          "assets/footer-2.svg": "7eab04ebd36bbf9b946d1eac8f429c93ce90a5597c2cdebe313c69f91ffa053e",
+          "assets/loept.png": "1d1c726132cf1686df96e54a44f460ae5e05c8cd909ef6ca87d576756dc177bd",
+          "assets/lehrbuch-icon.png": "ec7017e16b105e3a4b3be13435485dcfc8645ff365f53d255517a1def96c06c1",
+          "assets/bbs1-campus-background.png": "fdca9d81831bada2d7232a63c9f03888ad293f00682b4c5004b708d96c0cc66c",
+          "assets/biocasa-szenen.jpg": "33e8a7638de4d02de5052d480e5d070afbf452d18c826e93e2a3c20f9bd15866",
+          "assets/footer-3.svg": "a9ca2ddd91e7cbb6d4c681db1bd1f9e90e353d4ca6ecbaf62a3261a70788ce28",
+          "assets/bbs1-aurich.svg": "f7cdd6a74c1869ac917b8832fb93d0d8ee708b387a4304f4f3d43627d235b933",
+          "assets/handlungssituation.jpg": "52f52743bbb1a5597060b1b714a5c4ccf15d4b46c45b3b6bbad153fe0518d64c",
+          "assets/moodle.svg": "3beb5021938fa31cdb68ec93957ce762ee514780fe2815dc7bafd5b495c8ebb6",
+          "assets/images/biocasa-ls04-orientation.png": "42262cc0614c70e2cc4e9dc8e8f06a6fd8c6cc0a1f74095057f64df5b1be18d6",
+          "assets/images/biocasa-ls04-situation.png": "410b4960d668244e95fa5d64266b1adb9602caf53001deeef57c6891c51858d6"
+        },
+        "phasePdfPayloads": [
+          {
+            "file": "GoodNotes_Phase_informieren_W1.pdf",
+            "pages": 4,
+            "sha256": "5c3b5dc1b9557f9e4716fbfd67381f4fb34bdcfd7eaf7b3448a7921e2e47e519"
+          },
+          {
+            "file": "GoodNotes_Phase_informieren_W2.pdf",
+            "pages": 3,
+            "sha256": "3537203f487bebda7276d6698e198c147b667b65bc484f404a5552b5e5e6f265"
+          },
+          {
+            "file": "GoodNotes_Phase_informieren_W3.pdf",
+            "pages": 2,
+            "sha256": "3060a80d4144947d674d08852bf2839827cb9decefd5f785f79ce1337cecd6c1"
+          },
+          {
+            "file": "GoodNotes_Phase_informieren_W4.pdf",
+            "pages": 5,
+            "sha256": "7048cf9c6e08dd5e97d06e5f2acf40f577cd5337e7c566a9b792bc9370a3dd0f"
+          },
+          {
+            "file": "GoodNotes_Phase_informieren_W5.pdf",
+            "pages": 2,
+            "sha256": "d758d79dca15e5a706b2329475e87297ad7b540a57c16db52a7a8d66ccfeae9a"
+          },
+          {
+            "file": "GoodNotes_Phase_planen_W1.pdf",
+            "pages": 3,
+            "sha256": "1afad73f57c6e309321dd6d74f0078b38a7331da32c140a6482c3d178331fcd6"
+          },
+          {
+            "file": "GoodNotes_Phase_planen_W2.pdf",
+            "pages": 2,
+            "sha256": "af993f21b633abb73e16c090ad79b7823543e86bf56a21d370b280364545ad3b"
+          },
+          {
+            "file": "GoodNotes_Phase_planen_W3.pdf",
+            "pages": 3,
+            "sha256": "2d160dc3762aa7d1b16629156cf282b38548b6a801223973266a95e486b97e46"
+          },
+          {
+            "file": "GoodNotes_Phase_planen_W4.pdf",
+            "pages": 3,
+            "sha256": "e9e5733e016199ffe9d80b4effaeee7020fa80b58d8f0253692daa16777c2cfb"
+          },
+          {
+            "file": "GoodNotes_Phase_planen_W5.pdf",
+            "pages": 2,
+            "sha256": "aaa0c4e6bfd0030b84b1d309cfb706c4136f871fa541bafb81ea2d07978ea6c1"
+          },
+          {
+            "file": "GoodNotes_Phase_entscheiden_W1.pdf",
+            "pages": 3,
+            "sha256": "96a97523de63775caea43e8f3f2292df8474e5cd82cd380ca5eec4eecc295874"
+          },
+          {
+            "file": "GoodNotes_Phase_entscheiden_W2.pdf",
+            "pages": 2,
+            "sha256": "01758073ddd9eec14f355e550e2c61c25e1c58df85edb8e68b634928b1f7630e"
+          },
+          {
+            "file": "GoodNotes_Phase_entscheiden_W3.pdf",
+            "pages": 2,
+            "sha256": "09ba2c2e071a837e42ef566e652778d7e30f1059742a9a143d467b7e34e745d7"
+          },
+          {
+            "file": "GoodNotes_Phase_entscheiden_W4.pdf",
+            "pages": 3,
+            "sha256": "409b3e1930b14c6c814eda7d706b634dcf3914fa354d89e011b09b18b016dcf2"
+          },
+          {
+            "file": "GoodNotes_Phase_entscheiden_W5.pdf",
+            "pages": 2,
+            "sha256": "74cda49ce523c81f6a8723a5ec833e61d943a3b3d7300bc5edb7ce02eb5ed612"
+          },
+          {
+            "file": "GoodNotes_Phase_durchfuehren_W1.pdf",
+            "pages": 2,
+            "sha256": "65ac7cd85b1da67ade1487b98ff711c64867a0f4cb96681c30e837e0518ec17b"
+          },
+          {
+            "file": "GoodNotes_Phase_durchfuehren_W2.pdf",
+            "pages": 2,
+            "sha256": "62b6a25e929f40945f6d24c40d335d307d1e473ce73766656fffea65327a3a66"
+          },
+          {
+            "file": "GoodNotes_Phase_durchfuehren_W3.pdf",
+            "pages": 2,
+            "sha256": "3c95952c69a79dbadda284ab4f26fa46c8a35e16765d0f30468e49936d157c38"
+          },
+          {
+            "file": "GoodNotes_Phase_durchfuehren_W4.pdf",
+            "pages": 3,
+            "sha256": "b86b3a3380ba74cfad2e3d22b1dd0b3f313aa3e7bbb29b0f3f2e466823ba8281"
+          },
+          {
+            "file": "GoodNotes_Phase_durchfuehren_W5.pdf",
+            "pages": 2,
+            "sha256": "8bd802f3daa79875f1376fa229a1973e8057698a446223a2f48acc171b64d2e0"
+          },
+          {
+            "file": "GoodNotes_Phase_bewerten_W1.pdf",
+            "pages": 3,
+            "sha256": "cda12fc87392f93075712b8840a59a61f00b0151d4cd944be6604e387fc4c47e"
+          },
+          {
+            "file": "GoodNotes_Phase_bewerten_W2.pdf",
+            "pages": 3,
+            "sha256": "367b89cc56c87ada51d61d5aa38732c0a94641464b3f9b55d013037cc6677842"
+          },
+          {
+            "file": "GoodNotes_Phase_bewerten_W3.pdf",
+            "pages": 2,
+            "sha256": "634f6765f6ac87fdc897f2c7abd3f358b53ac6383b6935b84abd6d18a0e498cf"
+          },
+          {
+            "file": "GoodNotes_Phase_bewerten_W4.pdf",
+            "pages": 2,
+            "sha256": "3eb8216b397fcb4ee23bea0cea8c1e16175f01c7c51bec3bfd497c27ea1b5b7f"
+          },
+          {
+            "file": "GoodNotes_Phase_bewerten_W5.pdf",
+            "pages": 2,
+            "sha256": "fb024f010d2808ecbedc2fab2daedbf553b3bc9a2d9b67ee1066727b6870bcc8"
+          },
+          {
+            "file": "GoodNotes_Phase_reflektieren_W1.pdf",
+            "pages": 4,
+            "sha256": "d9185aed5f4787ee350d2a4c1615481c9675dfc2518fca2bc849dfaa3c021122"
+          },
+          {
+            "file": "GoodNotes_Phase_reflektieren_W2.pdf",
+            "pages": 2,
+            "sha256": "328726475b4adb1719181e1414c47afc4e3ec54b7eba96c75436ae3ee30d81cf"
+          },
+          {
+            "file": "GoodNotes_Phase_reflektieren_W3.pdf",
+            "pages": 2,
+            "sha256": "7d9b085f6a06a751f26ad9caf2b34c23e20d6e64c28983cae0cafe36cbfbe4c9"
+          },
+          {
+            "file": "GoodNotes_Phase_reflektieren_W4.pdf",
+            "pages": 2,
+            "sha256": "6e92043a5f3f95c73d85e1193e9c2b7c9c09e91cc1aa60fae93bf5b537cfefd6"
+          },
+          {
+            "file": "GoodNotes_Phase_reflektieren_W5.pdf",
+            "pages": 3,
+            "sha256": "ae3206af77576d2e968345cf81b78278250903d5f473f46cfe2aac2cd620bfca"
+          }
+        ],
+        "fullWorkbookPayloads": [
+          {
+            "file": "GoodNotes_LG01_LS04_W1.pdf",
+            "sha256": "c96b5745266953be7611b4e5c1853ee863d2ac0ac41ecfad2ae92028084ed6a4"
+          },
+          {
+            "file": "GoodNotes_LG01_LS04_W2.pdf",
+            "sha256": "0aeb2c875ae066e06df22e38bd9039302fe2e5ba59159f979089516c56a528c3"
+          },
+          {
+            "file": "GoodNotes_LG01_LS04_W3.pdf",
+            "sha256": "20740a11b8789096c2ad1720eb305b06af8c6615b1a5b0e22b9fd73ca122a561"
+          },
+          {
+            "file": "GoodNotes_LG01_LS04_W4.pdf",
+            "sha256": "ed1295597635f9a729d27aa7b7536d8a97160e5dae94c1641b7d60d84fae68dd"
+          },
+          {
+            "file": "GoodNotes_LG01_LS04_W5.pdf",
+            "sha256": "bd6d3af3d61f96162b365a9af7d99ca11a631b6f2b079f5888dccee2e29143e8"
+          }
+        ],
+        "mandatoryPersonalRolesByMode": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "browser": {
+        "nativeDOMMetadataFromExactMatch": true,
+        "fullOldStateTasks": 104,
+        "unchangedExactRestored": [],
+        "explicitSafeMigrationRestored": [
+          "0:1:3",
+          "0:1:4",
+          "0:1:5",
+          "0:1:6",
+          "0:1:7",
+          "0:1:8",
+          "0:2:3",
+          "0:2:4",
+          "0:3:2",
+          "0:3:3",
+          "0:3:4",
+          "0:4:1.2",
+          "0:4:2.2",
+          "0:4:2.3",
+          "0:4:2.4",
+          "0:4:3",
+          "0:4:3.2",
+          "0:4:3.3",
+          "1:1:3",
+          "1:1:4",
+          "1:3:2",
+          "1:3:3",
+          "1:3:4",
+          "1:4:2",
+          "1:4:2.3",
+          "1:4:2.4",
+          "1:5:1.2",
+          "2:1:2",
+          "2:1:3",
+          "2:1:4",
+          "2:2:2",
+          "2:3:2",
+          "2:3:3",
+          "2:4:1.2",
+          "2:4:1.3",
+          "2:4:2",
+          "2:5:1.2",
+          "2:5:1.3",
+          "3:1:2",
+          "3:2:2",
+          "3:2:3",
+          "3:3:2",
+          "3:4:4",
+          "3:4:5",
+          "3:5:2",
+          "4:1:3",
+          "4:2:3",
+          "4:3:2",
+          "4:4:2",
+          "4:5:2",
+          "5:1:3",
+          "5:1:4",
+          "5:1:5",
+          "5:1:6",
+          "5:2:2",
+          "5:3:2",
+          "5:4:1.2",
+          "5:4:2",
+          "5:5:1.2",
+          "5:5:1.3",
+          "5:5:2"
+        ],
+        "substantiveChangedTasksRequireRework": [
+          "0:1:1",
+          "0:1:2",
+          "0:2:1",
+          "0:2:2",
+          "0:3:1",
+          "0:4:1",
+          "0:4:1.3",
+          "0:4:2",
+          "0:5:1",
+          "0:5:1.2",
+          "1:1:1",
+          "1:1:2",
+          "1:2:1",
+          "1:2:2",
+          "1:3:1",
+          "1:4:1",
+          "1:4:2.2",
+          "1:5:1",
+          "2:1:1",
+          "2:2:1",
+          "2:3:1",
+          "2:4:1",
+          "2:5:1",
+          "3:1:1",
+          "3:2:1",
+          "3:3:1",
+          "3:4:1",
+          "3:4:2",
+          "3:4:3",
+          "3:5:1",
+          "4:1:1",
+          "4:1:2",
+          "4:2:1",
+          "4:2:2",
+          "4:3:1",
+          "4:4:1",
+          "4:5:1",
+          "5:1:1",
+          "5:1:2",
+          "5:2:1",
+          "5:3:1",
+          "5:4:1",
+          "5:5:1"
+        ],
+        "allEvidenceFeedbackNextGoalPreserved": true,
+        "quizResetWhenChanged": true,
+        "orientationRestored": false,
+        "currentStateRoundTrip": true,
+        "foreignStateIsolated": true
+      }
+    }
+  ]
+}

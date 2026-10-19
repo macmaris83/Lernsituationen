@@ -1,0 +1,107 @@
+{
+  "version": "1.7",
+  "static": [
+    {
+      "lesson": "LS01",
+      "tasks": 102,
+      "bookReferences": 76,
+      "protectedFiles": 87,
+      "pdfTableCells": 0,
+      "contentAndArchives": "PASS"
+    },
+    {
+      "lesson": "LS02",
+      "tasks": 100,
+      "bookReferences": 74,
+      "protectedFiles": 87,
+      "pdfTableCells": 40,
+      "contentAndArchives": "PASS"
+    },
+    {
+      "lesson": "LS03",
+      "tasks": 104,
+      "bookReferences": 78,
+      "protectedFiles": 87,
+      "pdfTableCells": 252,
+      "contentAndArchives": "PASS"
+    },
+    {
+      "lesson": "LS04",
+      "tasks": 104,
+      "bookReferences": 77,
+      "protectedFiles": 87,
+      "pdfTableCells": 15,
+      "contentAndArchives": "PASS"
+    },
+    {
+      "lesson": "LS05",
+      "tasks": 103,
+      "bookReferences": 76,
+      "protectedFiles": 87,
+      "pdfTableCells": 46,
+      "contentAndArchives": "PASS"
+    },
+    {
+      "lesson": "LS06",
+      "tasks": 115,
+      "bookReferences": 87,
+      "protectedFiles": 87,
+      "pdfTableCells": 75,
+      "contentAndArchives": "PASS"
+    }
+  ],
+  "browser": [
+    {
+      "lesson": "LS01",
+      "imageViews": 6,
+      "materialVisits": 22,
+      "phaseSharePayloads": 2,
+      "editorExport": "PASS",
+      "browser": "PASS"
+    },
+    {
+      "lesson": "LS02",
+      "imageViews": 6,
+      "materialVisits": 18,
+      "phaseSharePayloads": 2,
+      "editorExport": "PASS",
+      "browser": "PASS"
+    },
+    {
+      "lesson": "LS03",
+      "imageViews": 6,
+      "materialVisits": 20,
+      "phaseSharePayloads": 2,
+      "editorExport": "PASS",
+      "browser": "PASS"
+    },
+    {
+      "lesson": "LS04",
+      "imageViews": 6,
+      "materialVisits": 22,
+      "phaseSharePayloads": 2,
+      "editorExport": "PASS",
+      "browser": "PASS"
+    },
+    {
+      "lesson": "LS05",
+      "imageViews": 6,
+      "materialVisits": 20,
+      "phaseSharePayloads": 2,
+      "editorExport": "PASS",
+      "browser": "PASS"
+    },
+    {
+      "lesson": "LS06",
+      "imageViews": 6,
+      "materialVisits": 22,
+      "phaseSharePayloads": 2,
+      "editorExport": "PASS",
+      "browser": "PASS"
+    }
+  ],
+  "limitations": [
+    "Local Chromium and SCORM simulation; native Moodle/AIS/GoodNotes require the classroom system."
+  ],
+  "status": "PASS"
+}

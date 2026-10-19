@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "lesson": "LS04",
+      "imageViews": 6,
+      "materialVisits": 22,
+      "phaseSharePayloads": 2,
+      "editorExport": "PASS",
+      "browser": "PASS",
+      "root": "work/ls04-roleplay/preview/LS04"
+    }
+  ]
+}

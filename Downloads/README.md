@@ -6,12 +6,12 @@ Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-K
 
 | Bereich | Lernsituation / Vorlage | Version | Aktuelles Paket |
 |---|---|---|---|
-| BRC | Eine Geschäftsidee entwickeln | 1.0 | [ZIP](BRC-LG01-LS01/BRC_LG01_LS01_v1.0_SCORM12.zip) |
-| BRC | Eine Unternehmensberatung besuchen | 1.0 | [ZIP](BRC-LG01-LS02/BRC_LG01_LS02_v1.0_SCORM12.zip) |
-| BRC | Einen Business-Plan erstellen | 1.0 | [ZIP](BRC-LG01-LS03/BRC_LG01_LS03_v1.0_SCORM12.zip) |
-| BRC | Bei Kapitalgebern pitchen | 1.0 | [ZIP](BRC-LG01-LS04/BRC_LG01_LS04_v1.0_SCORM12.zip) |
-| BRC | Ein Unternehmen gründen | 1.0 | [ZIP](BRC-LG01-LS05/BRC_LG01_LS05_v1.0_SCORM12.zip) |
-| BRC | Geschäfte abwickeln | 1.0 | [ZIP](BRC-LG01-LS06/BRC_LG01_LS06_v1.0_SCORM12.zip) |
+| BRC | Eine Geschäftsidee entwickeln | 1.4 | [ZIP](BRC-LG01-LS01/BRC_LG01_LS01_v1.4_SCORM12.zip) |
+| BRC | Eine Unternehmensberatung besuchen | 1.4 | [ZIP](BRC-LG01-LS02/BRC_LG01_LS02_v1.4_SCORM12.zip) |
+| BRC | Einen Business-Plan erstellen | 1.4 | [ZIP](BRC-LG01-LS03/BRC_LG01_LS03_v1.4_SCORM12.zip) |
+| BRC | Bei Business Angels pitchen | 1.5 | [ZIP](BRC-LG01-LS04/BRC_LG01_LS04_v1.5_SCORM12.zip) |
+| BRC | Ein Unternehmen gründen | 1.4 | [ZIP](BRC-LG01-LS05/BRC_LG01_LS05_v1.4_SCORM12.zip) |
+| BRC | Geschäfte abwickeln | 1.4 | [ZIP](BRC-LG01-LS06/BRC_LG01_LS06_v1.4_SCORM12.zip) |
 | BRC | BioCasa OS · Rechnungswesen | 0.19 | [ZIP](BRC-BIOCASA-OS/BioCasa_OS_v0.19_SCORM12.zip) |
 | Sozialpädagogik | Berufsrolle begründen | 1.0 | [ZIP](SOZPAED-LERNPFAD-LS1_1/SozPaed_Lernpfad_LS1_1_v1.0_SCORM12.zip) |
 | Sozialpädagogik | Erziehungsbedingungen beurteilen | 1.0 | [ZIP](SOZPAED-LERNPFAD-LS1_2/SozPaed_Lernpfad_LS1_2_v1.0_SCORM12.zip) |
@@ -43,8 +43,8 @@ Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-K
 | Sozialpädagogik | Teamkommunikation gestalten | 1.0 | [ZIP](SOZPAED-LERNPFAD-LS7_2/SozPaed_Lernpfad_LS7_2_v1.0_SCORM12.zip) |
 | Sozialpädagogik | Berufswege planen | 1.0 | [ZIP](SOZPAED-LERNPFAD-LS7_3/SozPaed_Lernpfad_LS7_3_v1.0_SCORM12.zip) |
 | Sozialpädagogik | Kompetenzen bilanzieren | 1.0 | [ZIP](SOZPAED-LERNPFAD-LS7_4/SozPaed_Lernpfad_LS7_4_v1.0_SCORM12.zip) |
-| Vorlagen | Vorlage: tradierte Lernsituation · Berufsrolle begründen | 1.0 | [ZIP](VORLAGE-TRADIERT/Vorlage_Lernsituation_tradiert_v1.0_SCORM12.zip) |
-| Vorlagen | Vorlage: fünf Lernwege · Businessplan | 1.0 | [ZIP](VORLAGE-FUENF-LERNWEGE/Vorlage_Lernsituation_fuenf_Lernwege_v1.0_SCORM12.zip) |
+| Vorlagen | Vorlage: tradierte Lernsituation · Berufsrolle begründen | 1.4 | [ZIP](VORLAGE-TRADIERT/Vorlage_Lernsituation_tradiert_v1.4_SCORM12.zip) |
+| Vorlagen | Vorlage: fünf Lernwege · Businessplan | 1.4 | [ZIP](VORLAGE-FUENF-LERNWEGE/Vorlage_Lernsituation_fuenf_Lernwege_v1.4_SCORM12.zip) |
 | Vorlagen | Vorlage: Lernpfadübung · Duales System verstehen | 1.0 | [ZIP](VORLAGE-LERNPFAD/Vorlage_Lernpfaduebung_v1.0_SCORM12.zip) |
 
 Maschinenlesbare Zuordnung und Prüfsummen: [aktuell.json](aktuell.json).

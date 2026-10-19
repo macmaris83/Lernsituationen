@@ -133,6 +133,57 @@ def read_index(root):
     return json.loads(path.read_text(encoding='utf-8')) if path.exists() else {'packages': []}
 
 
+def lesson_identity(read, package_id):
+    """Read stable Lernsituation storage/SCO identifiers without executing JavaScript."""
+    identities = {}
+    for name, variable in (('lesson-data.js', 'SOZPAED'), ('progress-meta.js', 'SOZ_PROGRESS_META')):
+        source = read(name).decode('utf-8-sig')
+        match = re.fullmatch(r'\s*window\.' + variable + r'\s*=\s*(\{.*\})\s*;?\s*', source, re.S)
+        if not match:
+            raise ValueError(f'{package_id}: {name} enthält keine lesbaren Fortschrittsdaten')
+        value = json.loads(match[1]).get('id')
+        if not isinstance(value, str) or not value.strip():
+            raise ValueError(f'{package_id}: feste Lernstandskennung fehlt in {name}')
+        identities[name] = value
+    if identities['lesson-data.js'] != identities['progress-meta.js']:
+        raise ValueError(f'{package_id}: Lernstandskennung in progress-meta.js stimmt nicht '
+                         'mit lesson-data.js überein')
+    manifest = ET.fromstring(read('imsmanifest.xml'))
+    identities['manifest'] = manifest.get('identifier')
+    for tag in ('organizations', 'organization', 'item', 'resource'):
+        attributes = {
+            'organizations': ('default',), 'organization': ('identifier',),
+            'item': ('identifier', 'identifierref'), 'resource': ('identifier',),
+        }[tag]
+        identities[tag] = sorted(tuple(node.get(key, '') for key in attributes)
+                                 for node in manifest.iter() if node.tag.split('}')[-1] == tag)
+    identities['launch'] = sorted((node.get('identifier', ''),
+                                   Path(unquote(urlsplit(node.get('href')).path)).as_posix())
+                                  for node in manifest.iter()
+                                  if node.tag.split('}')[-1] == 'resource' and node.get('href'))
+    return identities
+
+
+def verify_lesson_identity(root, item, files, previous):
+    # Lernpfadübungen and BioCasa OS have independent data schemas.
+    if item['typ'] != 'Lernsituation' and 'lesson-data.js' not in files:
+        return
+    try:
+        current = lesson_identity(lambda name: files[name].read_bytes(), item['id'])
+        if previous:
+            prior_path = within(root, previous['archive'])
+            with zipfile.ZipFile(prior_path) as archive:
+                prior = lesson_identity(archive.read, item['id'])
+            changed = [key for key in current if current[key] != prior[key]]
+            if changed:
+                raise ValueError(f'{item["id"]}: feste Lernstands-/SCORM-Kennung geändert '
+                                 f'({", ".join(changed)}). Neue Paketversionen müssen die '
+                                 'bisherigen Kennungen und die Startdatei erhalten.')
+    except (KeyError, OSError, zipfile.BadZipFile, UnicodeError, ET.ParseError) as error:
+        raise ValueError(f'{item["id"]}: Lernstandsidentität kann nicht sicher geprüft werden: '
+                         f'{error}. Bisherigen Export wiederherstellen; Downloads bleiben unverändert.') from error
+
+
 def write_index(root, data, entries, master_hashes=None):
     if master_hashes is None:
         master_hashes = {p['id']: snapshot(files_for(root, p))[0] for p in data['packages']}
@@ -187,6 +238,7 @@ def export(root, selected=None):
             files = files_for(root, item)
             master_hash, hashes = snapshot(files)
             old = previous.get(item['id'])
+            verify_lesson_identity(root, item, files, old)
             if old and version(item['version']) < version(old['version']):
                 raise ValueError(f'{item["id"]}: Versionsnummer darf nicht zurückgesetzt werden')
             if old and old['masterSha256'] != master_hash and old['version'] == item['version']:

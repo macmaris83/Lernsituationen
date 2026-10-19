@@ -38,8 +38,12 @@ class CurrentExportTests(unittest.TestCase):
             '<?xml version="1.0" encoding="utf-8"?>\n'
             '<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" '
             'identifier="stable-manifest-id">'
+            '<organizations default="stable-org-id"><organization identifier="stable-org-id">'
+            '<item identifier="stable-item-id" identifierref="stable-sco-id"/>'
+            '</organization></organizations>'
             '<resources><resource identifier="stable-sco-id" href="index.html">'
             '<file href="index.html"/><file href="assets/runtime.js"/>'
+            '<file href="lesson-data.js"/><file href="progress-meta.js"/>'
             '</resource></resources></manifest>\n', encoding='utf-8')
         (folder / 'index.html').write_text(
             '<!doctype html><html lang="de"><body>'
@@ -48,6 +52,13 @@ class CurrentExportTests(unittest.TestCase):
         (folder / 'assets/runtime.js').write_text(
             'const storageKey = "existing-progress";\n'
             'const contentSignature = "already-in-moodle";\n', encoding='utf-8')
+        (folder / 'lesson-data.js').write_text(
+            'window.SOZPAED=' + json.dumps({'id': package_id, 'version': 'old-display-version'}) + ';\n',
+            encoding='utf-8')
+        (folder / 'progress-meta.js').write_text(
+            'window.SOZ_PROGRESS_META=' + json.dumps({'id': package_id, 'tasks': {
+                'old-task-0007': {'signature': 'already-in-moodle'}
+            }}) + ';\n', encoding='utf-8')
         return item
 
     def save_catalog(self):
@@ -203,6 +214,112 @@ class CurrentExportTests(unittest.TestCase):
         self.export()
         self.assertEqual(self.download_snapshot(), original_downloads)
 
+    def test_new_display_version_preserves_learning_identity(self):
+        self.export()
+        previous = self.archive()
+        self.items[0]['version'] = '1.1'
+        self.save_catalog()
+        page = self.root / self.items[0]['master'] / 'lesson-data.js'
+        page.write_text(page.read_text().replace('old-display-version', 'new-display-version'), encoding='utf-8')
+        self.export()
+        self.check()
+        self.assertFalse(previous.exists())
+        with zipfile.ZipFile(self.archive()) as archive:
+            identity = master.lesson_identity(archive.read, self.items[0]['id'])
+        self.assertEqual(identity['lesson-data.js'], self.items[0]['id'])
+        self.assertEqual(identity['progress-meta.js'], self.items[0]['id'])
+
+    def test_replaced_storage_identity_rejects_update_before_any_zip_is_replaced(self):
+        self.items.append(self.make_package('brc-lg01-ls02'))
+        self.save_catalog()
+        self.export()
+        before = self.download_snapshot()
+        for item in self.items:
+            item['version'] = '1.1'
+        self.save_catalog()
+        folder = self.root / self.items[1]['master']
+        for name in ('lesson-data.js', 'progress-meta.js'):
+            path = folder / name
+            path.write_text(path.read_text().replace(self.items[1]['id'], 'new-version-id'), encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'feste Lernstands-/SCORM-Kennung geändert'):
+            self.export()
+        self.assertEqual(self.download_snapshot(), before)
+
+    def test_progress_metadata_must_match_lesson_identity_even_on_first_export(self):
+        path = self.root / self.items[0]['master'] / 'progress-meta.js'
+        path.write_text(path.read_text().replace(self.items[0]['id'], 'different-lesson'), encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'progress-meta.js stimmt nicht mit lesson-data.js'):
+            self.export()
+        self.assertFalse((self.root / 'Downloads').exists())
+
+    def test_manifest_identifiers_and_relative_launch_are_stable(self):
+        self.export()
+        before = self.download_snapshot()
+        self.items[0]['version'] = '1.1'
+        self.save_catalog()
+        folder = self.root / self.items[0]['master']
+        manifest = folder / 'imsmanifest.xml'
+        source = manifest.read_text()
+        (folder / 'new-launch.html').write_text('<html>New launch</html>', encoding='utf-8')
+        for original, replacement in (
+                ('stable-manifest-id', 'new-manifest-id'),
+                ('stable-org-id', 'new-org-id'),
+                ('stable-item-id', 'new-item-id'),
+                ('stable-sco-id', 'new-sco-id'),
+                ('href="index.html"', 'href="new-launch.html"')):
+            with self.subTest(identifier=original):
+                manifest.write_text(source.replace(original, replacement), encoding='utf-8')
+                with self.assertRaisesRegex(ValueError, 'feste Lernstands-/SCORM-Kennung geändert'):
+                    self.export()
+                self.assertEqual(self.download_snapshot(), before)
+
+    def test_revised_task_content_and_signatures_can_still_be_exported(self):
+        self.export()
+        self.items[0]['version'] = '1.1'
+        self.save_catalog()
+        folder = self.root / self.items[0]['master']
+        page = folder / 'index.html'
+        page.write_text(page.read_text().replace('Prüfen Sie die Quelle.', 'Vergleichen Sie die Quellen.'), encoding='utf-8')
+        meta = folder / 'progress-meta.js'
+        meta.write_text(meta.read_text().replace('already-in-moodle', 'new-content-signature'), encoding='utf-8')
+        self.export()
+        self.check()
+        with zipfile.ZipFile(self.archive()) as archive:
+            self.assertIn(b'old-task-0007', archive.read('index.html'))
+            self.assertIn(b'new-content-signature', archive.read('progress-meta.js'))
+
+    def test_missing_previous_identity_evidence_preserves_existing_downloads(self):
+        self.export()
+        self.archive().unlink()
+        before = self.download_snapshot()
+        self.items[0]['version'] = '1.1'
+        self.save_catalog()
+        with self.assertRaisesRegex(ValueError, 'Lernstandsidentität kann nicht sicher geprüft werden'):
+            self.export()
+        self.assertEqual(self.download_snapshot(), before)
+
+    def test_other_package_schemas_remain_unrestricted_by_lesson_identity(self):
+        for number, typ in enumerate(('Lernpfadübung', 'Lernunternehmen')):
+            with self.subTest(typ=typ):
+                item = self.make_package(f'independent-schema-{number}')
+                item['typ'] = typ
+                self.items = [item]
+                folder = self.root / item['master']
+                for name in ('lesson-data.js', 'progress-meta.js'):
+                    (folder / name).unlink()
+                manifest = folder / 'imsmanifest.xml'
+                source = manifest.read_text()
+                for name in ('lesson-data.js', 'progress-meta.js'):
+                    source = source.replace(f'<file href="{name}"/>', '')
+                manifest.write_text(source, encoding='utf-8')
+                self.save_catalog()
+                self.export()
+                manifest.write_text(source.replace('stable-manifest-id', f'{typ}-manifest'), encoding='utf-8')
+                item['version'] = '1.1'
+                self.save_catalog()
+                self.export()
+                self.check()
+
     def test_catalog_rejects_duplicate_id_master_or_archive_stem(self):
         second = self.make_package('brc-lg01-ls02')
         for field in ('id', 'master', 'archiveStem'):
@@ -286,7 +403,8 @@ class CurrentExportTests(unittest.TestCase):
         self.export()
         self.check()
         with zipfile.ZipFile(self.archive()) as archive:
-            self.assertEqual(set(archive.namelist()), {'imsmanifest.xml', 'index.html', 'assets/runtime.js'})
+            self.assertEqual(set(archive.namelist()), {'imsmanifest.xml', 'index.html', 'assets/runtime.js',
+                                                       'lesson-data.js', 'progress-meta.js'})
         with zipfile.ZipFile(self.archive(regular)) as archive:
             self.assertIn('extra.html', archive.namelist())
 

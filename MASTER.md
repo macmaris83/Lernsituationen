@@ -27,6 +27,12 @@ kein Ersatz für den Repository-Stand.
 
 Der Paketexport erhält Manifest-, Aufgaben-, Lernstands- und Kompetenzkennungen.
 Eine neue Anzeigenummer darf diese Kennungen nicht automatisch ändern.
+Bei Lernsituationen prüft der Export die feste Lernstandskennung in `lesson-data.js`
+und `progress-meta.js` sowie Manifest-, Organisations-, SCO- und Startdateikennungen
+gegen das in `Downloads/aktuell.json` verzeichnete bisherige Paket. Abweichungen
+stoppen den Export, bevor aktuelle ZIPs ersetzt werden; beide Datendateien müssen
+dieselbe Lernstandskennung enthalten. Fachliche Änderungen und neu berechnete
+Inhaltssignaturen bleiben möglich. Die Anzeigenummer gehört nicht zur Speicherkennung.
 
 ## Versionsnummer und aktuelle Downloads
 

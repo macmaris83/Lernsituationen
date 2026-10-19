@@ -7,11 +7,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS01",
-      "version": "1.0",
-      "archive": "Downloads/BRC-LG01-LS01/BRC_LG01_LS01_v1.0_SCORM12.zip",
-      "masterSha256": "78a44f686a4d510375328f6426ab23e9d1c4f64afb2d280e0b96d5e6c8639f4f",
-      "archiveSha256": "e9d8afae0db93f4e332f35d4b224278ed3c19ead7b0466b39af93b6b91339451",
-      "files": 130
+      "version": "1.4",
+      "archive": "Downloads/BRC-LG01-LS01/BRC_LG01_LS01_v1.4_SCORM12.zip",
+      "masterSha256": "cb834b0cd3225e13ff574d1edc85e50735a5d335afb53933239bf0917335e99d",
+      "archiveSha256": "a85c7034d8c9a4dda85642c2b1545ec7274e2d83345086f60aa8444e7df8640b",
+      "files": 137
     },
     {
       "id": "BRC-LG01-LS02",
@@ -19,11 +19,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS02",
-      "version": "1.0",
-      "archive": "Downloads/BRC-LG01-LS02/BRC_LG01_LS02_v1.0_SCORM12.zip",
-      "masterSha256": "29338f827250bab294e55d1a6d5def3f0e287e868472b7c501e01babb6349c6c",
-      "archiveSha256": "b49d3618be74e6854e33b18173d1f88e31d0497a8ef1f081a9fca5e8ffa12a81",
-      "files": 129
+      "version": "1.4",
+      "archive": "Downloads/BRC-LG01-LS02/BRC_LG01_LS02_v1.4_SCORM12.zip",
+      "masterSha256": "015ff4558fd4e2eebc1e43cd84401d8dfc5891e73b12dbcc4dcdc481619015cb",
+      "archiveSha256": "34b7cfd0bc3b78d925a39a0d56d9a2a2d86bdf289e98568a531163f845776b0d",
+      "files": 136
     },
     {
       "id": "BRC-LG01-LS03",
@@ -31,23 +31,23 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS03",
-      "version": "1.0",
-      "archive": "Downloads/BRC-LG01-LS03/BRC_LG01_LS03_v1.0_SCORM12.zip",
-      "masterSha256": "41f9ff86f6fccfd87078238435d38601fa83b9d7cf1cb1882780c3a1e446aa91",
-      "archiveSha256": "adde2f9fa374ba81f74b5f05effdb5bcbbc90abf28b2112ab62c84859e941da5",
-      "files": 129
+      "version": "1.4",
+      "archive": "Downloads/BRC-LG01-LS03/BRC_LG01_LS03_v1.4_SCORM12.zip",
+      "masterSha256": "9abc7ddf44156719bba85061e400ac9b3edb6457f53aba715caaf372698232a8",
+      "archiveSha256": "3137670edb5a34269b97ee1eaea5047bcae95b0bf8c35ddc53d02d2c2ce34be9",
+      "files": 136
     },
     {
       "id": "BRC-LG01-LS04",
-      "title": "Bei Kapitalgebern pitchen",
+      "title": "Bei Business Angels pitchen",
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS04",
-      "version": "1.0",
-      "archive": "Downloads/BRC-LG01-LS04/BRC_LG01_LS04_v1.0_SCORM12.zip",
-      "masterSha256": "81a44330e6d0fb2dccd21e000f0421c911b77a678980a13b792207ad4dcf6fb6",
-      "archiveSha256": "4420dd2cff1e0268277a63823219f7c457cbca16bfad7716f8192b9fd63bb8e0",
-      "files": 130
+      "version": "1.5",
+      "archive": "Downloads/BRC-LG01-LS04/BRC_LG01_LS04_v1.5_SCORM12.zip",
+      "masterSha256": "be723a7cb5de436314cb65003fd56c7cb55c8ccb6848e5b40fdba13b502c2e6e",
+      "archiveSha256": "fa89f7b353ce805174af55f51261dd6bcae52cb2fe70b5bd3786d6824c49892f",
+      "files": 137
     },
     {
       "id": "BRC-LG01-LS05",
@@ -55,11 +55,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS05",
-      "version": "1.0",
-      "archive": "Downloads/BRC-LG01-LS05/BRC_LG01_LS05_v1.0_SCORM12.zip",
-      "masterSha256": "4b96649d7850e1ceac6857a151a35eb3e92ca2e2408672df3879e741ade929e7",
-      "archiveSha256": "24468205d2c2a7544c3dc98b2b63752c1167c7e4e2032796591839b89f0d483d",
-      "files": 130
+      "version": "1.4",
+      "archive": "Downloads/BRC-LG01-LS05/BRC_LG01_LS05_v1.4_SCORM12.zip",
+      "masterSha256": "ff2a11df10abe72f93bb5c8151b94b78d4b2798779e81655ce231209a4690933",
+      "archiveSha256": "5318d3761dcb1086814a41041bb1f5a663e29d7d91353864aec401d03f83c099",
+      "files": 137
     },
     {
       "id": "BRC-LG01-LS06",
@@ -67,11 +67,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS06",
-      "version": "1.0",
-      "archive": "Downloads/BRC-LG01-LS06/BRC_LG01_LS06_v1.0_SCORM12.zip",
-      "masterSha256": "b20bd1e1be5ea8bdcfcca689764839ca12003affa5e4960c952131c6ecfdd174",
-      "archiveSha256": "63718097525671dd4fa9166bb600d39e4c7db91c62b701436cfdf2472ba8e7b2",
-      "files": 130
+      "version": "1.4",
+      "archive": "Downloads/BRC-LG01-LS06/BRC_LG01_LS06_v1.4_SCORM12.zip",
+      "masterSha256": "8df54adcc37219c7671703426b66dfe1affb82c7d35270a7f263e883402a64a2",
+      "archiveSha256": "9850ff765038be62b59fc5304c08260c34a93fd4fe05b885acbf2af26afe85cf",
+      "files": 137
     },
     {
       "id": "BRC-BIOCASA-OS",
@@ -451,11 +451,11 @@
       "bereich": "Vorlagen",
       "typ": "Vorlage",
       "master": "Vorlagen/Lernsituation_tradiert",
-      "version": "1.0",
-      "archive": "Downloads/VORLAGE-TRADIERT/Vorlage_Lernsituation_tradiert_v1.0_SCORM12.zip",
-      "masterSha256": "610132fbb4329a51e9451e1a6fc6da6d0721253d7d1223035f106cf7fb498c41",
-      "archiveSha256": "48d1b626822dd930a3933620b055762505e74104b2f67e104f757365dedd8bf4",
-      "files": 77
+      "version": "1.4",
+      "archive": "Downloads/VORLAGE-TRADIERT/Vorlage_Lernsituation_tradiert_v1.4_SCORM12.zip",
+      "masterSha256": "a24f7137ec1fc54b83ae87b53eee99f7448126b0d36b7d59ab3956b62deb0306",
+      "archiveSha256": "886e3e0a745e28552b6a08dfd672b773416b488eee8ce67b88460c46b98b14ce",
+      "files": 84
     },
     {
       "id": "VORLAGE-FUENF-LERNWEGE",
@@ -463,11 +463,11 @@
       "bereich": "Vorlagen",
       "typ": "Vorlage",
       "master": "Vorlagen/Lernsituation_fuenf_Lernwege",
-      "version": "1.0",
-      "archive": "Downloads/VORLAGE-FUENF-LERNWEGE/Vorlage_Lernsituation_fuenf_Lernwege_v1.0_SCORM12.zip",
-      "masterSha256": "34f1f7321039a0f0ae82d53d8960c204f756f0fda9a74940850f1fb971910760",
-      "archiveSha256": "fccbcd991007f2fb2f324be51ec30f964793793b56520685252b02ab8abb18c1",
-      "files": 141
+      "version": "1.4",
+      "archive": "Downloads/VORLAGE-FUENF-LERNWEGE/Vorlage_Lernsituation_fuenf_Lernwege_v1.4_SCORM12.zip",
+      "masterSha256": "8c08c43472223a4d8e131b207a492008b12e4db0a6a81e208cd1ceb8dfa7410a",
+      "archiveSha256": "7d4243e70741c40c7fb7bb00a5aea4891d3b8b6c75510bec4ea26db7b8ce91bc",
+      "files": 148
     },
     {
       "id": "VORLAGE-LERNPFAD",

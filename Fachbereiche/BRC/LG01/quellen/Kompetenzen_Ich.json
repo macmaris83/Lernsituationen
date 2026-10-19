@@ -90,32 +90,32 @@
     ]
   },
   "4": {
-    "priorityStatement": "Ich vergleiche Kontokorrentkredit, Ratendarlehen und Leasing, wähle für BioCasa einen begründeten Finanzierungsmix aus und vertrete ihn adressatengerecht gegenüber Kapitalgebern.",
+    "priorityStatement": "Ich vergleiche Darlehen, Leasing und Factoring, begründe einen Finanzierungsmix für BioCasa und vertrete einen konkreten Beteiligungsvorschlag gegenüber Business Angels.",
     "competencies": [
       {
         "label": "Fachkompetenz",
         "weight": 5,
-        "statement": "Ich analysiere Konditionen, Kosten, Liquiditätswirkungen, Risiken und Zweckbindung der drei Finanzierungsformen und entwickle daraus ein tragfähiges Konzept."
+        "statement": "Ich vergleiche Darlehen, Leasing und Factoring, begründe einen Finanzierungsmix für BioCasa und vertrete einen konkreten Beteiligungsvorschlag gegenüber Business Angels."
       },
       {
         "label": "Personalkompetenz",
         "weight": 4,
-        "statement": "Ich vertrete eine belastbare Position unter Nachfragen, erkenne Unsicherheiten an und reagiere sachlich auf Kritik."
+        "statement": "Ich vertrete meinen Beitrag im Rollenspiel selbstständig, gehe offen mit Unsicherheiten um und nutze kritische Rückmeldungen zur Verbesserung."
       },
       {
         "label": "Sozialkompetenz",
         "weight": 5,
-        "statement": "Ich einige mich trotz unterschiedlicher Risikovorstellungen auf eine gemeinsame Botschaft, verteile Sprechrollen und gebe kriteriengeleitet Feedback."
+        "statement": "Ich arbeite in meinem bestehenden Team mit drei bis vier Personen zusammen, übernehme in beiden Rollen Verantwortung und gebe einer Gegengruppe begründetes, respektvolles Feedback."
       },
       {
         "label": "Methodenkompetenz",
         "weight": 4,
-        "statement": "Ich berechne Finanzierungswirkungen, führe einen Stressvergleich durch und verdichte komplexe Informationen für eine Entscheidung."
+        "statement": "Ich prüfe Kapitalbedarf, Finanzierungs- und Liquiditätswirkungen, unterscheide Planwerte von gesicherten Aussagen und belege mein Urteil mit Zahlen und Beobachtungen."
       },
       {
         "label": "Medienkompetenz",
         "weight": 5,
-        "statement": "Ich erstelle ein übersichtliches Pitchdeck, visualisiere Planwerte korrekt und präsentiere mit digitalen Medien adressatengerecht."
+        "statement": "Ich gestalte ein übersichtliches Pitchdeck, visualisiere Zahlen korrekt, kennzeichne Quellen und nutze digitale Medien für eine adressatengerechte Präsentation."
       }
     ]
   },

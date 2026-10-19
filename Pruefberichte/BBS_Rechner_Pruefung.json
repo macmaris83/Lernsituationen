@@ -1,0 +1,161 @@
+{
+  "status": "PASS",
+  "packages": 14,
+  "results": [
+    {
+      "package": "Fachbereiche/BRC/LG01/LS01",
+      "SCORMIframe": true,
+      "touchArithmetic": true,
+      "touchDrag": true,
+      "materialPersistence": true,
+      "keyboard": true,
+      "smallViewport": true,
+      "noAssessedProgressWrites": true,
+      "status": "PASS"
+    },
+    {
+      "package": "Fachbereiche/BRC/LG01/LS02",
+      "SCORMIframe": true,
+      "touchArithmetic": true,
+      "touchDrag": true,
+      "materialPersistence": true,
+      "keyboard": true,
+      "smallViewport": true,
+      "noAssessedProgressWrites": true,
+      "status": "PASS"
+    },
+    {
+      "package": "Fachbereiche/BRC/LG01/LS03",
+      "SCORMIframe": true,
+      "touchArithmetic": true,
+      "touchDrag": true,
+      "materialPersistence": true,
+      "keyboard": true,
+      "smallViewport": true,
+      "noAssessedProgressWrites": true,
+      "status": "PASS"
+    },
+    {
+      "package": "Fachbereiche/BRC/LG01/LS04",
+      "SCORMIframe": true,
+      "touchArithmetic": true,
+      "touchDrag": true,
+      "materialPersistence": true,
+      "keyboard": true,
+      "smallViewport": true,
+      "noAssessedProgressWrites": true,
+      "status": "PASS"
+    },
+    {
+      "package": "Fachbereiche/BRC/LG01/LS05",
+      "SCORMIframe": true,
+      "touchArithmetic": true,
+      "touchDrag": true,
+      "materialPersistence": true,
+      "keyboard": true,
+      "smallViewport": true,
+      "noAssessedProgressWrites": true,
+      "status": "PASS"
+    },
+    {
+      "package": "Fachbereiche/BRC/LG01/LS06",
+      "SCORMIframe": true,
+      "touchArithmetic": true,
+      "touchDrag": true,
+      "materialPersistence": true,
+      "keyboard": true,
+      "smallViewport": true,
+      "noAssessedProgressWrites": true,
+      "status": "PASS"
+    },
+    {
+      "package": "Vorlagen/Lernsituation_tradiert",
+      "SCORMIframe": true,
+      "touchArithmetic": true,
+      "touchDrag": true,
+      "materialPersistence": true,
+      "keyboard": true,
+      "smallViewport": true,
+      "noAssessedProgressWrites": true,
+      "status": "PASS"
+    },
+    {
+      "package": "Vorlagen/Lernsituation_fuenf_Lernwege",
+      "SCORMIframe": true,
+      "touchArithmetic": true,
+      "touchDrag": true,
+      "materialPersistence": true,
+      "keyboard": true,
+      "smallViewport": true,
+      "noAssessedProgressWrites": true,
+      "status": "PASS"
+    },
+    {
+      "package": "work/delivery-v1.6/preview/LS01",
+      "SCORMIframe": true,
+      "touchArithmetic": true,
+      "touchDrag": true,
+      "materialPersistence": true,
+      "keyboard": true,
+      "smallViewport": true,
+      "noAssessedProgressWrites": true,
+      "status": "PASS"
+    },
+    {
+      "package": "work/delivery-v1.6/preview/LS02",
+      "SCORMIframe": true,
+      "touchArithmetic": true,
+      "touchDrag": true,
+      "materialPersistence": true,
+      "keyboard": true,
+      "smallViewport": true,
+      "noAssessedProgressWrites": true,
+      "status": "PASS"
+    },
+    {
+      "package": "work/delivery-v1.6/preview/LS03",
+      "SCORMIframe": true,
+      "touchArithmetic": true,
+      "touchDrag": true,
+      "materialPersistence": true,
+      "keyboard": true,
+      "smallViewport": true,
+      "noAssessedProgressWrites": true,
+      "status": "PASS"
+    },
+    {
+      "package": "work/delivery-v1.6/preview/LS04",
+      "SCORMIframe": true,
+      "touchArithmetic": true,
+      "touchDrag": true,
+      "materialPersistence": true,
+      "keyboard": true,
+      "smallViewport": true,
+      "noAssessedProgressWrites": true,
+      "status": "PASS"
+    },
+    {
+      "package": "work/delivery-v1.6/preview/LS05",
+      "SCORMIframe": true,
+      "touchArithmetic": true,
+      "touchDrag": true,
+      "materialPersistence": true,
+      "keyboard": true,
+      "smallViewport": true,
+      "noAssessedProgressWrites": true,
+      "status": "PASS"
+    },
+    {
+      "package": "work/delivery-v1.6/preview/LS06",
+      "SCORMIframe": true,
+      "touchArithmetic": true,
+      "touchDrag": true,
+      "materialPersistence": true,
+      "keyboard": true,
+      "smallViewport": true,
+      "noAssessedProgressWrites": true,
+      "status": "PASS"
+    }
+  ],
+  "limits": "Chromium touch and SCORM iframe simulation; no physical Moodle/iPad test."
+}

@@ -1,0 +1,119 @@
+{
+  "status": "PASS",
+  "format": "A4 portrait",
+  "background": "white; source images, diagrams and document colours preserved",
+  "cases": [
+    {
+      "root": "Vorlagen/Lernsituation_tradiert",
+      "pages": 36,
+      "A4": true,
+      "blankPages": [],
+      "textOutsidePage": [],
+      "sha256": "dc55095c3066714d90ceaf8591ac5b8897ba73b9f140787b75be49221839052b"
+    },
+    {
+      "root": "Vorlagen/Lernsituation_fuenf_Lernwege",
+      "pages": 31,
+      "A4": true,
+      "blankPages": [],
+      "textOutsidePage": [],
+      "sha256": "88536cdd772496368660e4fb4d77407f81a740ed4ba28b276f45ad461f81d857"
+    },
+    {
+      "root": "Fachbereiche/BRC/LG01/LS01",
+      "pages": 24,
+      "A4": true,
+      "blankPages": [],
+      "textOutsidePage": [],
+      "sha256": "487c32564f840b301533b884f32fdb257e342c56ab3b13254795097978289afe"
+    },
+    {
+      "root": "Fachbereiche/BRC/LG01/LS02",
+      "pages": 23,
+      "A4": true,
+      "blankPages": [],
+      "textOutsidePage": [],
+      "sha256": "3d1cbe7f649b62950f5699524d2cdbeb0330509e3fbd67867d90acbd47d8890a"
+    },
+    {
+      "root": "Fachbereiche/BRC/LG01/LS03",
+      "pages": 25,
+      "A4": true,
+      "blankPages": [],
+      "textOutsidePage": [],
+      "sha256": "7b441b61a1f80ce064ab98a1575343b9be154e411ea48fd608f50c48eb540082"
+    },
+    {
+      "root": "Fachbereiche/BRC/LG01/LS04",
+      "pages": 23,
+      "A4": true,
+      "blankPages": [],
+      "textOutsidePage": [],
+      "sha256": "4107162f29e03e890344b30f980635092c2c8e3b2543cc0ab8db49a993f54286"
+    },
+    {
+      "root": "Fachbereiche/BRC/LG01/LS05",
+      "pages": 24,
+      "A4": true,
+      "blankPages": [],
+      "textOutsidePage": [],
+      "sha256": "9734c2533c62839727a894715773886737f32c1a7fb0bd0605d88abdfbd457a3"
+    },
+    {
+      "root": "Fachbereiche/BRC/LG01/LS06",
+      "pages": 29,
+      "A4": true,
+      "blankPages": [],
+      "textOutsidePage": [],
+      "sha256": "65ec63046cff1d7b87fca7cc6a2b16fef59646608604ebbfdf39f7495af2d324"
+    },
+    {
+      "root": "work/delivery-v1.7/preview/LS01",
+      "pages": 28,
+      "A4": true,
+      "blankPages": [],
+      "textOutsidePage": [],
+      "sha256": "3cf00a5cf602296e0375fc4d85009dd0d1c8a98e174c28699416454a1e628f2b"
+    },
+    {
+      "root": "work/delivery-v1.7/preview/LS02",
+      "pages": 26,
+      "A4": true,
+      "blankPages": [],
+      "textOutsidePage": [],
+      "sha256": "30da75755725c3583cdbc9eecadcc635c7f192c0cab11b58bd1b245e962e4e61"
+    },
+    {
+      "root": "work/delivery-v1.7/preview/LS03",
+      "pages": 32,
+      "A4": true,
+      "blankPages": [],
+      "textOutsidePage": [],
+      "sha256": "f88c0189e1adbc0959173b15718517d5e759d61953505bacf30c8b7b1f0588ef"
+    },
+    {
+      "root": "work/delivery-v1.7/preview/LS04",
+      "pages": 28,
+      "A4": true,
+      "blankPages": [],
+      "textOutsidePage": [],
+      "sha256": "8a3123411c1155b987f2e74eb3a3dcdbfce07fc1e8d0cf6975b6bf50324c5d81"
+    },
+    {
+      "root": "work/delivery-v1.7/preview/LS05",
+      "pages": 28,
+      "A4": true,
+      "blankPages": [],
+      "textOutsidePage": [],
+      "sha256": "90955662758a587110b759c9936a36bbd373f9f7e3f007e8c93a20b6b33fc26a"
+    },
+    {
+      "root": "work/delivery-v1.7/preview/LS06",
+      "pages": 36,
+      "A4": true,
+      "blankPages": [],
+      "textOutsidePage": [],
+      "sha256": "544cc35855e5087cd9e9f68887fe701d760e6a58e4fa15cc7efa7749ab366c83"
+    }
+  ]
+}

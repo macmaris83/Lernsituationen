@@ -5,6 +5,18 @@ Die vom Nutzer freigegebene Gestaltung in `Vorlagen/Lernsituation_tradiert` und
 Lernsituationen. Beide Vorlagen auf `main` enthalten die Umsetzung. Der Nutzer
 kann diesen Standard jederzeit ausdrücklich ändern.
 
+## iPad als vorrangiges Zielformat
+
+Oberflächen zuerst für das iPad mit Touch im Querformat auslegen, danach
+Hochformat und Monitore prüfen. Als Browser-Prüfgrößen mindestens 1024 × 768,
+1180 × 820, 768 × 1024 und 820 × 1180 Pixel sowie einen Monitor mit 1440 Pixeln
+Breite verwenden. Wichtige Bedienelemente brauchen mindestens 44 × 44 Pixel
+Touchfläche. Inhalte dürfen weder seitlich überlaufen noch durch feste Höhen oder
+schwebende Bedienelemente unzugänglich werden. Das freigegebene Design bleibt
+erhalten; Bildschirmzoom darf nicht gesperrt werden. Browserprüfungen mit
+Touch-Eingabe ausdrücklich von Tests auf einem physischen iPad und in der
+tatsächlichen Moodle-App unterscheiden.
+
 ## Ein fortlaufender Master je Lernsituation
 
 - `master-katalog.json` ist das verbindliche Verzeichnis der aktuellen Master. Vor
@@ -74,7 +86,7 @@ die gesonderten Vorgaben in den dortigen `AGENTS.md`-Dateien.
 ## Editor, Freischaltung und SCORM
 
 - Den GoodNotes-Import-Button einschließlich seiner gerahmten Leiste in jeder Aufgabenphase direkt unterhalb der Arbeitsform platzieren, für jeden Lernweg passend. Kein zusätzlicher Import-Button oberhalb des Materialzugriffs.
-- GoodNotes-Import ausschließlich in den sechs Aufgabenphasen anbieten und nur die zur aktuellen Phase und zum aktuellen Lernweg gehörenden Arbeitsheftseiten importieren. Kein vollständiges Arbeitsheft vorab für Lernende anbieten. In Orientierung und Handlungssituation fehlen Import-Button und die dadurch leere Leiste samt Rahmen vollständig. Der separate PDF-Button ist ausdrücklich davon zu unterscheiden: Er öffnet das gesamte Dokument zum Ausdrucken, auch für Lernende und unabhängig vom aktuellen Phasenfortschritt. Links ein kleines Acrobat/PDF-Symbol, Beschriftung „Gesamtdokument als PDF“, keine Beschriftung „PDF dieser Phase“. Das Adobe/PDF-Symbol ausschließlich unten rechts in der Fußleiste neben dem Lehrkräftemodus anbieten. Diese kompakte Fußleiste bleibt auch im Aufgabenfokus und auf Materialseiten erreichbar; keine zusätzlichen PDF-Symbole im Materialkopf oder Aufgabenfooter. Lehrkräfte-Exporte bleiben verfügbar.
+- GoodNotes-Import ausschließlich in den sechs Aufgabenphasen anbieten und nur die zur aktuellen Phase und zum aktuellen Lernweg gehörenden Arbeitsheftseiten importieren. Kein vollständiges Arbeitsheft vorab für Lernende anbieten. In Orientierung und Handlungssituation fehlen Import-Button und die dadurch leere Leiste samt Rahmen vollständig. Der separate PDF-Button ist ausdrücklich davon zu unterscheiden: Er öffnet das gesamte Dokument zum Ausdrucken, auch für Lernende und unabhängig vom aktuellen Phasenfortschritt. Links ein kleines Drucker-Symbol, Beschriftung „Gesamtdokument als PDF“, keine Beschriftung „PDF dieser Phase“. Das Drucker-Symbol ausschließlich unten rechts in der Fußleiste neben dem Editor anbieten; der Editor erhält ein Zahnrad-Symbol. Diese kompakte Fußleiste bleibt auch im Aufgabenfokus und auf Materialseiten erreichbar; keine zusätzlichen PDF-Symbole im Materialkopf oder Aufgabenfooter. Lehrkräfte-Exporte bleiben verfügbar.
 - Handlungssituation und deren Titelbereich mit derselben leichten Kartenumrahmung wie Orientierung und die übrigen Phasen darstellen.
 - Das Akkordeon aus dem aktuellen Aufgabeninhalt erzeugen, nachdem gespeicherte Editor-Änderungen angewendet wurden. Keine unabhängig gepflegte Kopie der Aufgabenstellung einführen.
 - Editor-Änderungen sollen nach Speichern und Neuladen in Übersicht und Fokus sowie im neuen SCORM-Export erscheinen. Geänderte Zeitangaben und vorhandene Symbole mit übernehmen.
@@ -82,6 +94,20 @@ die gesonderten Vorgaben in den dortigen `AGENTS.md`-Dateien.
 - Bestehende SCORM-Schnittstelle, Lernstandsstruktur, Aufgaben-IDs und Kompetenzberichte bewahren. Reine Designänderungen dürfen die vorhandenen Inhalts-Signaturen nicht neu erzeugen. Bei inhaltlich bearbeiteten Exporten wird die Fortschrittsmetadatenstruktur durch den bestehenden Exporter neu berechnet.
 - Exportierte ZIPs enthalten `imsmanifest.xml` direkt im ZIP-Wurzelverzeichnis und alle darin aufgeführten Dateien. Der Export muss aktuelle HTML-, CSS- und JS-Dateien verwenden, nicht einen veralteten eingebetteten Paketbestand.
 - Bereits hochgeladene Moodle-Pakete werden durch GitHub-Änderungen nicht automatisch aktualisiert; dafür ist eine neue Paketfassung erforderlich.
+
+## Gesamtdruck auf A4
+
+Die Gesamtdruckansicht enthält Orientierung, Handlungssituation, alle Materialien
+und die vollständigen Aufgaben des gewählten Lernwegs. Sämtliche aufklappbaren
+Inhalte einschließlich Abgleichhinweisen öffnen. Dekorativen Foto-, Glas- und
+Seitenhintergrund entfernen; Originalbilder, Vektorgrafiken, Kompetenznetze,
+Tabellen, Dokumentgestaltung und BBS-Farben erhalten. Papierformat A4 mit passenden
+Rändern und lesbaren Umbrüchen; keine beschnittenen oder scrollbegrenzten Inhalte.
+Aktuelle Eingaben und Editoränderungen übernehmen. Vor dem Druck auf Schrift- und
+Bildladen warten. Die Druckansicht bleibt im aktuellen SCORM-Kontext, verändert
+keine bewerteten Lernstände und bietet die Rückkehr zur Lernsituation. Die gemeinsame
+Umsetzung liegt in `Komponenten/Druckansicht` und wird mit dem zugehörigen Installer
+in neue Pakete übernommen.
 
 ## Verifikation
 

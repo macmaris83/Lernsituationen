@@ -1,0 +1,32 @@
+[
+  {
+    "lesson": "LS06",
+    "fileName": "BRC_LG01_LS06_v1.4_SCORM12.zip",
+    "sha256": "a7d347e24281b67f23a3377f62feb42ae3cfd708e57fbcf888717e60e4c17a97"
+  },
+  {
+    "lesson": "LS02",
+    "fileName": "BRC_LG01_LS02_v1.4_SCORM12.zip",
+    "sha256": "3bee281dc4a6045332cb48546d719581b851a44bc7b01b11094c9ce8d61ff4be"
+  },
+  {
+    "lesson": "LS04",
+    "fileName": "BRC_LG01_LS04_v1.4_SCORM12.zip",
+    "sha256": "d00966b8c1bbcd04cd5934f4277ab8ad1537a40393773ca653d9b06af9b4309c"
+  },
+  {
+    "lesson": "LS03",
+    "fileName": "BRC_LG01_LS03_v1.4_SCORM12.zip",
+    "sha256": "23290db46e7a192f7d05b3db720873ab863b6aaceeb30c1a9004deea23c755cb"
+  },
+  {
+    "lesson": "LS01",
+    "fileName": "BRC_LG01_LS01_v1.4_SCORM12.zip",
+    "sha256": "c291b336d475f21e3245810e0e69152b2c3b5293a66729df0a1fb6e4ab603abf"
+  },
+  {
+    "lesson": "LS05",
+    "fileName": "BRC_LG01_LS05_v1.4_SCORM12.zip",
+    "sha256": "4e1b2c29da2e866c5bc2ff597cf056d4741de02a732655b2c64f11f5c76f94eb"
+  }
+]

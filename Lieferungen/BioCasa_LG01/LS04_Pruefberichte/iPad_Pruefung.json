@@ -1,0 +1,305 @@
+{
+  "status": "PASS",
+  "packages": 2,
+  "results": [
+    {
+      "package": "Fachbereiche/BRC/LG01/LS04",
+      "SCORMIframe": true,
+      "touchOrientationCompletion": true,
+      "iPadCases": [
+        {
+          "page": "index.html",
+          "width": 768,
+          "height": 1024,
+          "touchTargetsChecked": 4,
+          "status": "PASS"
+        },
+        {
+          "page": "index.html",
+          "width": 820,
+          "height": 1180,
+          "touchTargetsChecked": 4,
+          "status": "PASS"
+        },
+        {
+          "page": "index.html",
+          "width": 1024,
+          "height": 768,
+          "touchTargetsChecked": 4,
+          "status": "PASS"
+        },
+        {
+          "page": "index.html",
+          "width": 1180,
+          "height": 820,
+          "touchTargetsChecked": 4,
+          "status": "PASS"
+        },
+        {
+          "page": "index.html",
+          "width": 507,
+          "height": 768,
+          "touchTargetsChecked": 4,
+          "status": "PASS"
+        },
+        {
+          "page": "informieren.html",
+          "width": 768,
+          "height": 1024,
+          "touchTargetsChecked": 19,
+          "status": "PASS"
+        },
+        {
+          "page": "informieren.html",
+          "width": 820,
+          "height": 1180,
+          "touchTargetsChecked": 11,
+          "status": "PASS"
+        },
+        {
+          "page": "informieren.html",
+          "width": 1024,
+          "height": 768,
+          "touchTargetsChecked": 11,
+          "status": "PASS"
+        },
+        {
+          "page": "informieren.html",
+          "width": 1180,
+          "height": 820,
+          "touchTargetsChecked": 11,
+          "status": "PASS"
+        },
+        {
+          "page": "informieren.html",
+          "width": 507,
+          "height": 768,
+          "touchTargetsChecked": 11,
+          "status": "PASS"
+        },
+        {
+          "page": "reflektieren.html",
+          "width": 768,
+          "height": 1024,
+          "touchTargetsChecked": 17,
+          "status": "PASS"
+        },
+        {
+          "page": "reflektieren.html",
+          "width": 820,
+          "height": 1180,
+          "touchTargetsChecked": 17,
+          "status": "PASS"
+        },
+        {
+          "page": "reflektieren.html",
+          "width": 1024,
+          "height": 768,
+          "touchTargetsChecked": 17,
+          "status": "PASS"
+        },
+        {
+          "page": "reflektieren.html",
+          "width": 1180,
+          "height": 820,
+          "touchTargetsChecked": 17,
+          "status": "PASS"
+        },
+        {
+          "page": "reflektieren.html",
+          "width": 507,
+          "height": 768,
+          "touchTargetsChecked": 17,
+          "status": "PASS"
+        },
+        {
+          "page": "m1.html",
+          "width": 768,
+          "height": 1024,
+          "touchTargetsChecked": 21,
+          "status": "PASS"
+        },
+        {
+          "page": "m1.html",
+          "width": 820,
+          "height": 1180,
+          "touchTargetsChecked": 21,
+          "status": "PASS"
+        },
+        {
+          "page": "m1.html",
+          "width": 1024,
+          "height": 768,
+          "touchTargetsChecked": 21,
+          "status": "PASS"
+        },
+        {
+          "page": "m1.html",
+          "width": 1180,
+          "height": 820,
+          "touchTargetsChecked": 21,
+          "status": "PASS"
+        },
+        {
+          "page": "m1.html",
+          "width": 507,
+          "height": 768,
+          "touchTargetsChecked": 21,
+          "status": "PASS"
+        }
+      ],
+      "mouseMonitorUnchanged": true,
+      "status": "PASS"
+    },
+    {
+      "package": "work/ls04-roleplay/preview/LS04",
+      "SCORMIframe": true,
+      "touchOrientationCompletion": true,
+      "iPadCases": [
+        {
+          "page": "index.html",
+          "width": 768,
+          "height": 1024,
+          "touchTargetsChecked": 6,
+          "status": "PASS"
+        },
+        {
+          "page": "index.html",
+          "width": 820,
+          "height": 1180,
+          "touchTargetsChecked": 6,
+          "status": "PASS"
+        },
+        {
+          "page": "index.html",
+          "width": 1024,
+          "height": 768,
+          "touchTargetsChecked": 6,
+          "status": "PASS"
+        },
+        {
+          "page": "index.html",
+          "width": 1180,
+          "height": 820,
+          "touchTargetsChecked": 6,
+          "status": "PASS"
+        },
+        {
+          "page": "index.html",
+          "width": 507,
+          "height": 768,
+          "touchTargetsChecked": 6,
+          "status": "PASS"
+        },
+        {
+          "page": "informieren.html",
+          "width": 768,
+          "height": 1024,
+          "touchTargetsChecked": 11,
+          "status": "PASS"
+        },
+        {
+          "page": "informieren.html",
+          "width": 820,
+          "height": 1180,
+          "touchTargetsChecked": 11,
+          "status": "PASS"
+        },
+        {
+          "page": "informieren.html",
+          "width": 1024,
+          "height": 768,
+          "touchTargetsChecked": 11,
+          "status": "PASS"
+        },
+        {
+          "page": "informieren.html",
+          "width": 1180,
+          "height": 820,
+          "touchTargetsChecked": 11,
+          "status": "PASS"
+        },
+        {
+          "page": "informieren.html",
+          "width": 507,
+          "height": 768,
+          "touchTargetsChecked": 11,
+          "status": "PASS"
+        },
+        {
+          "page": "reflektieren.html",
+          "width": 768,
+          "height": 1024,
+          "touchTargetsChecked": 14,
+          "status": "PASS"
+        },
+        {
+          "page": "reflektieren.html",
+          "width": 820,
+          "height": 1180,
+          "touchTargetsChecked": 14,
+          "status": "PASS"
+        },
+        {
+          "page": "reflektieren.html",
+          "width": 1024,
+          "height": 768,
+          "touchTargetsChecked": 14,
+          "status": "PASS"
+        },
+        {
+          "page": "reflektieren.html",
+          "width": 1180,
+          "height": 820,
+          "touchTargetsChecked": 14,
+          "status": "PASS"
+        },
+        {
+          "page": "reflektieren.html",
+          "width": 507,
+          "height": 768,
+          "touchTargetsChecked": 14,
+          "status": "PASS"
+        },
+        {
+          "page": "m1.html",
+          "width": 768,
+          "height": 1024,
+          "touchTargetsChecked": 26,
+          "status": "PASS"
+        },
+        {
+          "page": "m1.html",
+          "width": 820,
+          "height": 1180,
+          "touchTargetsChecked": 26,
+          "status": "PASS"
+        },
+        {
+          "page": "m1.html",
+          "width": 1024,
+          "height": 768,
+          "touchTargetsChecked": 26,
+          "status": "PASS"
+        },
+        {
+          "page": "m1.html",
+          "width": 1180,
+          "height": 820,
+          "touchTargetsChecked": 26,
+          "status": "PASS"
+        },
+        {
+          "page": "m1.html",
+          "width": 507,
+          "height": 768,
+          "touchTargetsChecked": 26,
+          "status": "PASS"
+        }
+      ],
+      "mouseMonitorUnchanged": true,
+      "status": "PASS"
+    }
+  ],
+  "limits": "Chromium touch/SCORM iframe simulation at 768×1024, 820×1180, 1024×768, 1180×820, 507×768 and mouse monitor 1440×900. No physical iPad, Safari, or Moodle-App test."
+}

@@ -1,12 +1,34 @@
 (()=>{'use strict';const D=window.SOZPAED,C=window.SOZ_CONFIG||{},meta=window.SOZ_PROGRESS_META,K=window.SOZ_PROGRESS_CORE,codec=window.SOZ_SCORM_CODEC;if(!D||!meta||!K||!codec)return;
 const frame=document.querySelector('[data-scorm-frame]'),notice=document.querySelector('[data-scorm-notice]');let api=null,kind='preview',readOnly=false,finished=false,error='',progress=K.initial(meta,C.mode),learner='',lastSaved=false,reported='';
 const events=new Set(),previewKey='soz-tasks:'+D.id+':'+location.pathname.replace(/[^/]+$/,'');
+let recoveryKey='';
 function find(w){for(let n=0;w&&n<100;n++){try{if(w.API&&typeof w.API.LMSInitialize==='function')return w.API;if(w.parent===w)break;w=w.parent;}catch{break;}}return null;}
 function truth(v){return String(v).toLowerCase()==='true';}
 function say(s){error=s;if(notice){notice.hidden=!s;notice.textContent=s;}events.forEach(f=>{try{f();}catch{}});}
 function get(k){const value=api.LMSGetValue(k);if(String(api.LMSGetLastError())!=='0')throw Error('Moodle-Daten konnten nicht gelesen werden: '+k);return String(value??'');}
 function set(k,v){if(!truth(api.LMSSetValue(k,String(v))))throw Error('Moodle hat die Übertragung abgelehnt: '+k);}
-try{api=find(window);if(!api&&window.opener)api=find(window.opener);if(api){if(!truth(api.LMSInitialize('')))throw Error('Die Verbindung zu Moodle konnte nicht geöffnet werden.');kind='moodle';learner=get('cmi.core.student_id');readOnly=['browse','review'].includes(get('cmi.core.lesson_mode'));const raw=get('cmi.suspend_data');if(raw){const parsed=codec.decode(raw);if(parsed.s!==1||parsed.l!==meta.id)throw Error('Der gespeicherte Fortschritt gehört nicht zu dieser Lernsituation.');progress=K.sanitize(parsed,meta,C.mode);}if(readOnly)say('Ansichtsmodus: Die gespeicherten Angaben werden angezeigt; Änderungen werden nicht gespeichert.');}else{try{const raw=localStorage.getItem(previewKey);if(raw)progress=K.sanitize(JSON.parse(raw),meta,C.mode);}catch{}say('Lokale Vorschau: Angaben werden nur in diesem Browser gespeichert. Für die Speicherung im Schülerkonto in Moodle als Lernpaket öffnen.');}}
+function loadLocal(key){try{const raw=localStorage.getItem(key);if(raw)progress=K.sanitize(JSON.parse(raw),meta,C.mode);}catch{}}
+function resume(raw){
+ let parsed;
+ try{parsed=codec.decode(raw);}catch{return 'Der bisherige Moodle-Lernstand konnte nicht gelesen werden.';}
+ if(!parsed||typeof parsed!=='object'||parsed.s!==1)return 'Der bisherige Moodle-Lernstand hat ein anderes Datenformat.';
+ if(parsed.l!==meta.id)return 'In Moodle liegt noch ein Lernstand aus einem anderen Lernpaket.';
+ progress=K.sanitize(parsed,meta,C.mode);return '';
+}
+try{api=find(window);if(!api&&window.opener)api=find(window.opener);if(api){
+ if(!truth(api.LMSInitialize('')))throw Error('Die Verbindung zu Moodle konnte nicht geöffnet werden.');
+ kind='moodle';learner=get('cmi.core.student_id');const lessonMode=get('cmi.core.lesson_mode');readOnly=lessonMode==='review';
+ if(lessonMode==='browse'){
+  kind='preview';loadLocal(previewKey+':browse');
+  say('Lernvorschau: Du kannst Aufgaben abhaken und den Lernweg ausprobieren. Der Fortschritt dieser Vorschau wird nur auf diesem Gerät gespeichert.');
+ }else{
+  const raw=get('cmi.suspend_data'),conflict=raw?resume(raw):'';
+  if(conflict){
+   if(readOnly)say(conflict+' Die Ansicht bleibt schreibgeschützt; der gespeicherte Moodle-Lernstand bleibt erhalten.');
+   else{kind='recovery';recoveryKey=previewKey+':recovery:'+encodeURIComponent(learner);loadLocal(recoveryKey);say(conflict+' Du kannst hier weiterarbeiten. Dein neuer Fortschritt wird nur auf diesem Gerät gespeichert. Für die Speicherung in Moodle starte dort einen neuen Versuch. Dein bisheriger Moodle-Lernstand bleibt erhalten.');}
+  }else if(readOnly)say('Ansichtsmodus: Die gespeicherten Angaben werden angezeigt; Änderungen werden nicht gespeichert.');
+ }
+}else{loadLocal(previewKey);say('Lokale Vorschau: Angaben werden nur in diesem Browser gespeichert. Für die Speicherung im Schülerkonto in Moodle als Lernpaket öffnen.');}}
 catch(e){kind='error';say(e.message||'Die Angaben konnten nicht geladen werden. Bitte das Paket erneut über Moodle öffnen.');}
 function reportRows(){const a=progress.a;const rows=[];for(const c of meta.competencies){const v=a.assessments[c.id]||{};rows.push([c.id+'_'+c.label+'_Nach_LS',v.after===null||v.after===undefined?'Noch offen':String(v.after)]);rows.push([c.id+'_'+c.label+'_Beleg',v.evidence||'']);}rows.push(['LS'+D.id+'_Fremdfeedback',a.feedback||''],['LS'+D.id+'_Naechster_Lernschritt',a.nextGoal||'']);return rows;}
 function hasAssessment(){return Object.values(progress.a.assessments).some(v=>v.after!==null||v.evidence)||progress.a.feedback||progress.a.nextGoal;}
@@ -15,7 +37,7 @@ try{if(kind==='moodle'&&(hasAssessment()||progress.r!==null)){rows=reportRows();
 value=codec.encode(progress);if(value.length>4096)throw Error('Die Angaben sind für SCORM 1.2 zu umfangreich. Bitte die Kompetenzbelege kürzen; die letzten gespeicherten Angaben bleiben erhalten.');
 if(kind==='moodle'){if(rows.length&&digest!==reported){for(let i=0;i<rows.length;i++){const [id,response]=rows[i],key='cmi.interactions.'+(progress.r+i)+'.';set(key+'id',id.replace(/[^\x21-\x7e]/g,'_'));set(key+'type','fill-in');set(key+'weighting','0');set(key+'student_response',response);set(key+'result','neutral');}}
 const values={'cmi.suspend_data':value,'cmi.core.lesson_location':progress.b,'cmi.core.lesson_status':K.allComplete(progress,meta)?'completed':'incomplete','cmi.core.exit':'suspend'};for(const [k,v]of Object.entries(values))set(k,v);if(!truth(api.LMSCommit('')))throw Error('Moodle hat das Speichern nicht bestätigt.');reported=digest;lastSaved=true;say('');return true;}
-localStorage.setItem(previewKey,JSON.stringify(progress));lastSaved=true;return true;
+localStorage.setItem(kind==='recovery'?recoveryKey:previewKey+(api?':browse':''),JSON.stringify(progress));lastSaved=true;return true;
 }catch(e){say('Speichern fehlgeschlagen. '+e.message+' Bitte erneut versuchen.');return false;}}
 function update(next){if(readOnly||kind==='error'||finished)return false;const base=progress.r;progress=K.sanitize(next,meta,C.mode);if(progress.r===null&&base!==null)progress.r=base;return commit();}
 function finish(){if(finished)return;if(kind==='moodle'){if(!readOnly)commit();try{api.LMSFinish('');}catch{}}finished=true;}
