@@ -1,6 +1,6 @@
 # Prüf- und Übergabestand
 
-Aktueller Stand: **16.10.2026**, Paketversion **0.11**. Ursprung: Sites-Fassung **0.10.0**.
+Aktueller Stand: **18.10.2026**, Paketversion **0.19**. Ursprung: Sites-Fassung **0.10.0**.
 
 ## Vorhanden
 
@@ -49,7 +49,7 @@ Auf Nutzerauftrag wurden ausschließlich Darstellung und Bedienbeschriftungen ve
 
 Dieselben Piktogramme kennzeichnen Navigation, Überschriften und Lernschritte. Grün: Bestände; Blau: Finanzen; Violett: Lernaufträge. Spätere Bereiche bleiben grau. Das Original-BioCasa-Logo kennzeichnet zusätzliche Übungsfälle. Farbe ergänzt Zeichen und Beschriftung. Speichern, Sicherung, Import und Prüfen haben einheitliche Symbole und kurze Namen. Weiter bleibt eine bewusst ausgelöste Aktion.
 
-Touch-Regeln setzen mindestens 48 × 48 CSS-Pixel für Schaltflächen auf Touch-Geräten; Antwortzeilen und Aufklappbereiche sind ebenfalls groß antippbar. Formfelder bleiben beschriftet; bereits in Tabellen erkennbare doppelte Feldtitel sind für Hilfstechnologien weiter vorhanden. Keine neue Buchungs-, Freigabe- oder Speicherlogik. Buchungsmodell, Datenbasis, Fortschrittskennungen und SCORM-Schnittstelle bleiben erhalten; geändert sind didaktische Beschriftungen.
+Touch-Regeln sehen 48 × 48 CSS-Pixel für Schaltflächen auf Touch-Geräten vor; die spätere Prüfung in 0.12 fand noch ältere, spezifischere Ausnahmen. Daher ist 48 Pixel keine durchgängige Zusicherung für alle Bedienelemente. Formfelder bleiben beschriftet; bereits in Tabellen erkennbare doppelte Feldtitel sind für Hilfstechnologien weiter vorhanden. Keine neue Buchungs-, Freigabe- oder Speicherlogik. Buchungsmodell, Datenbasis, Fortschrittskennungen und SCORM-Schnittstelle bleiben erhalten; geändert sind didaktische Beschriftungen.
 
 Die Versionspflege wurde für diese Veröffentlichung so korrigiert, dass ein Versionswechsel keine Datumsangabe wie 30.10. verändert; der bestehende Versionstest prüft das zusätzlich. Visuelle Browser-/iPad-/Moodle-Abnahme bleibt offen.
 
@@ -57,3 +57,109 @@ Die Versionspflege wurde für diese Veröffentlichung so korrigiert, dass ein Ve
 ## Versionsübergreifende Wiederaufnahme
 
 Ein synthetischer Stand wurde mit dem unveränderten Sites-Quellcommit der Fassung 0.10 erzeugt und unter 0.11 wieder aufgenommen. Der Test erhält neun Lernnachweise, Journal und Salden, einen unfertigen Buchungssatz, Inventur-/Lernantworten und die angepasste Fokusansicht. Lesen schreibt den alten Stand nicht um; erneutes Speichern enthält denselben vollständigen Inhalt. Der Test ist erfolgreich und bleibt als dauerhafte Updateprüfung erhalten. Die Anzeigenummer wird nicht als neue Speicherkennung verwendet. Für künftige Änderungen am Speicher-/Datenformat verlangt AGENTS.md eine geprüfte Migration. Ein anderer Datenkranz wird weiterhin geschützt erkannt. Reales Moodle: dieselbe Aktivität und denselben Versuch fortsetzen; echte Paketupdate-Abnahme bleibt offen.
+
+
+## Oberfläche 0.12 · verschiebbarer Rechner und sichtbare JSON-Sicherung
+
+Auf Nutzerauftrag öffnet ± den Rechner als kleines Dialog-Flyover oberhalb der Formulare, auch über dem Buchungsfokus und beim Kontenabschluss. Die Kopfzeile lässt sich per Touch/Maus ziehen oder mit Pfeiltasten bewegen; die Position wird auf den sichtbaren Viewport begrenzt, einschließlich Fenster-/Bildschirmtastaturänderungen. Schließen, Esc und Antippen daneben übernehmen keinen Betrag. Erst = und „Ergebnis übernehmen“ schreiben das selbst errechnete Ergebnis ins gewählte Feld. Keine neue Kontenwahl, Buchungs- oder Lernfortschrittslogik.
+
+Auch ohne Bearbeitung erzeugt „Sicherung“ dieselbe bisherige JSON-Struktur. Ein kleiner Dialog zeigt Dateiname, Datum und Lernstand mit echtem Downloadlink. Unterstützte Dateifreigabe bietet zusätzlich „Teilen“; Abbruch/Fehler lassen den Download verfügbar. Der Blob-Link wird nicht mehr nach 1,5 Sekunden entfernt. Der Text bestätigt nur Anforderung oder Übergabe, niemals eine vom Betriebssystem unbestätigte Speicherung. Ob der vorher beobachtete ausbleibende Download durch die konkrete WebView blockiert wurde, ist nicht nachgewiesen.
+
+Touch-Abgleich: Apple nennt als allgemeine Hit-Region 44 × 44 pt (https://developer.apple.com/design/human-interface-guidelines/buttons). Das Web-Ziel 44 × 44 CSS-Pixel ist in WCAG 2.2 SC 2.5.5, Level AAA, beschrieben. Beide Einheiten sind nicht pauschal gleichzusetzen. Im Code gelten für Import in der Befehlsleiste und nun auch in der Seitenleiste mindestens 48 × 48 CSS-Pixel bei any-pointer:coarse. Rechnertasten mindestens 52 Pixel hoch, Schließen/Griff mindestens 48 × 48; die Übernahmetaste wurde von 44 auf 52 Pixel angehoben.
+
+Weitere ältere CSS-Ausnahmen sind dokumentiert, nicht in diesem begrenzten Auftrag umgestaltet: Fokusfenster-Schließen teilweise 38 Pixel hoch, Fokus verlassen und T-Konten-Aufklappzeilen teilweise 44 Pixel. Die Hauptfläche des Verschiebeteilers ist 36 Pixel breit; alternativ steht der Breitenregler bereit. Reale Größen und Treffbarkeit müssen in der Schul-Moodle-App geprüft werden.
+
+Prüfung: 146 Node-Tests, darunter Flyover/Bestätigung, Touch-Ziehen und Tastatur, Begrenzung nach Verkleinern, JSON ohne Bearbeitung, Import unfertiger Eingaben/Nachweise, identische Dateifreigabe und Abbruch. Der alte 0.10-Moodle-Stand bleibt mit Buchungen und neun Nachweisen les-/speicherbar. Vier Projekt-/Versionstests und der bytegenaue Schüler-ZIP-Vergleich gehören zum Release. Visuelle Browser-, iPad- und echte Moodle-Abnahme bleiben offen.
+
+
+Die anschließend angeforderte Steuerdarstellung übernimmt die Staffelung und Rechnungs-/Pfeillogik der Nutzervorlage `image(20261016-132116).png` als HTML/CSS. Lebensmittelbegriffe ersetzen die Möbelkette: Bauernhöfe → Zutatenhersteller → BioCasa GmbH → Einzelhandel → Privatkundschaft. Grünabstufungen, Original-Firmenzeichen und dunkelgrüne Hervorhebung kennzeichnen BioCasa als Industrieunternehmen. Auf schmalen Bildschirmen stehen dieselben Rechnungen lesbar untereinander. Eintritts-/Pfeilanimation beim Aufklappen respektiert reduzierte Bewegung.
+
+Neutrales OS-Erklärbeispiel: Netto 100/300/700/800 €, einheitlich 7 %, Umsatzsteuer 7/21/49/56 €, Rechnungsbeträge 107/321/749/856 €. Zahllasten 7/14/28/7 € ergeben zusammen die 56 € Steuerlast der privaten Endkundschaft. BioCasa: 480 Umsatzsteuer 49 € minus 260 Vorsteuer 21 € ergibt 28 €. Voller Vorsteuerabzug, 0 € Vorsteuer auf der ersten Stufe und keine weiteren Eingangsrechnungen sind ausdrücklich Modellannahmen. Die vier vorhandenen Hilfeschritte erklären dieselben Beispielwerte; keine Aufgabenlösungen oder Buchhaltungsdaten geändert. Die Grafik liegt ausschließlich in der zunächst geschlossenen Steuerhilfe.
+
+Release-Quelle der bestehenden privaten Site: `fcc6944d204953785486539b574f7b13fd5d2e57` (0.12). GitHub-Master und Site-Laufzeit wurden vor Veröffentlichung bytegleich abgeglichen.
+
+
+## Oberfläche 0.13 · persönliches Menü, LS-Kacheln und Kontexthinweise
+
+Auf Nutzerauftrag führt der Knopf oben links zu Name und persönlichen Einstellungen. Der von Moodle bereitgestellte Name wird nur angezeigt, nicht neu in die Moodle-Identität geschrieben oder als Profilname exportiert. Ohne Moodle-Namen ist ein Anzeigename mit bis zu 60 Zeichen möglich. Im Buchungsfokus öffnet auch das Firmenzeichen links das persönliche Menü. Der laufende Formular-DOM wird beim Einstellungswechsel nicht neu aufgebaut.
+
+Voreinstellung „Weniger“: Beschriftungen wiederkehrender Nebenaktionen sind durch ihre vorhandenen Symbole ersetzt, mit mindestens 48 Pixel großen Aktionsflächen, zugänglichen Namen und abrufbaren Hinweisen. Aufgaben, Buchungsfragen, Kontenbezeichnungen, Fehlermeldungen und Speicherstatus bleiben erhalten. „Standard“ zeigt kurze Hinweise; „Mehr“ ergänzt längere Kontexthinweise per Mouseover oder Tastaturfokus. Hilfesymbole öffnen dieselben Hinweise per Touch als kleines schließbares Flyover. Hilfebereiche werden nie automatisch geöffnet. Die Hinweise lösen und buchen nichts.
+
+Oben stehen fünf Kernbereiche; Lager/Controlling sind im aufklappbaren Arbeitsbereichsmenü weiterhin mit Jahrgang 12/13 erreichbar und beachten dieselben Sperren. Ist einer davon geöffnet, erscheint er zusätzlich oben. Die zusätzliche Befehlsleiste enthält nur Neue Buchung und Journal; redundantes Speichern, Bilanz und Suchen entfallen dort. Speichern, Datenbasis, iPad-Hilfe und Dateifunktionen bleiben im Menü; Import und Sicherung bleiben als kurze Aktionen beim Übungsstand. Menügruppen sind zunächst geschlossen.
+
+Farbschemata: BioCasa (bisherige Oberfläche), Blau (Flächen/Primäraktionen), Kontrast (dunklere Schrift und deutlichere Grenzen). Keine pauschale Zusicherung einer gesamten WCAG-Konformität; bestehende fachliche Statusfarben und Logos bleiben erhalten. Die Einstellungen gelten auch im Buchungsfokus und in Hinweisen.
+
+Rückwärtskompatible optionale Erweiterung von `drafts.preferences`: Anzeigename, Hilfeumfang und Farbschema. Die bisherige Lernstandsversion 1, Speicherkennung und Aufgabennachweise bleiben unverändert. Fehlende Einstellungen werden nur zur Anzeige mit kompakten Vorgaben ergänzt und nicht still in alte Stände hineingeschrieben. Die 0.10-Testdatei bleibt unverändert; ihre neun Nachweise, Buchungen und unfertigen Eingaben sind weiter les-/speicherbar. Unbekannte/überlange Einstellungswerte weisen den Import ab, ohne den aktiven Stand zu ersetzen.
+
+Prüfung: 156 Node-Tests erfolgreich. Neue Prüfungen: Moodle-Name/Maskierung/kein Identitätsschreiben; kompakte Voreinstellung; Einstellungswechsel ohne Eingabeverlust; lokale Wiederaufnahme und JSON-Import; sichere Mouseover-/Touch-Hinweise; unveränderte Pflichtinhalte; Abweisung ungültiger Einstellungen. Der vollständige simulierte Moodle-Durchlauf mit neun Nachweisen und sechs Belegen enthält jetzt zusätzlich Namen, Hilfeumfang, Farbschema und Fokuslayout und passt weiter in 4096 Zeichen. Die alte 0.10-Wiederaufnahmeprüfung bleibt unverändert erfolgreich. Reale Browser-/iPad-/Moodle-Abnahme bleibt offen; Browsersteuerung ist in dieser Sitzung nicht verfügbar.
+
+
+Startseite und Lernaufträge stellen die neun bestehenden Lernsituationen als große Kacheln dar. Nummer und Kurztitel, thematisches Symbol und OS-Status erleichtern die Orientierung. Auftrag und originale Materialbezeichnungen bleiben über ein separates 48-Pixel-Infosymbol verfügbar. Die Lernschrittleiste und die bisherige Finanzübersicht sind zunächst eingeklappt, die lange doppelte Auftragsliste entfällt. Beim Öffnen einer Übung steht diese allein mit Rückkehr zur Kachelübersicht; unfertige Antworten bleiben gespeichert. Ein wiederaufgenommener Auftragsstand öffnet weiterhin seine angefangene Übung.
+
+Zuordnung: LS01 enthält Inventur/Inventar/Bilanz, LS02 Bestandskonten und anschließend das Journal, LS03 Erfolgskonten, LS04 Steuer, LS05/06 das vorhandene gemeinsame Fenster weiterer Buchungen, LS07 Abgrenzung. Retouren bleiben ein erforderlicher OS-Zwischenschritt und sind zusätzlich in der Lernschrittübersicht erreichbar. Die getrennte LS08-Abschlussakte ist weiterhin nicht umgesetzt: ihre Kachel öffnet die Materialinformation „In Vorbereitung“. LS09 führt zum optionalen Controlling am aktuellen OS-Stand (Jg. 13), nicht zu importierten bestätigten LS09-Abschlussdaten. Geprüft-Status bezeichnet ausschließlich die OS-Übung. Keine Moodle-Abschlüsse fingiert.
+
+Vier zusätzliche Ereignistests prüfen Kachelzuordnung, Sperren bei direkten Aktionsaufrufen, Lehrkraft-/Retouren-Voraussetzungen, Rückkehr und Wiederaufnahme unfertiger Antworten mit Einstellungen sowie freie Lehrkräfteauswahl ohne Lernnachweis. Sichtbare Nummern, stabile Aufgabenkennungen, Speicherformat und Buchungsdaten wurden dadurch nicht verändert. Visuelle Browser-/iPad-Abnahme bleibt offen.
+
+Release-Quelle der bestehenden privaten Site: `13f5a49518906e376a4658c57066b98f6fa07469` (0.13); Veröffentlichung erfolgreich. Der GitHub-Master und die veröffentlichte Site-Laufzeit sind bytegleich abgeglichen. Die neue Schüler-ZIP enthält alle 27 Manifestdateien aus diesem Master. Eine in Moodle installierte ältere ZIP muss separat in derselben Aktivität ersetzt werden.
+
+
+## Oberfläche 0.14 · Lernsituationen ohne Nummer
+
+Auf Nutzerpräzisierung entfällt die LS-Nummer auf den Kacheln, in ihren Auswahlbeschriftungen und im Titel des zugehörigen Auftrags-/Materialdialogs. Die Übersichtsorientierung spricht von Lernsituationen. Kurztitel, Symbole, Status, Touchflächen und Freischaltungen bleiben unverändert. Interne LS-/Aufgabenkennungen und fachliche Quellenverweise werden weiter verwendet; gespeicherte Buchungen und Nachweise sind unverändert. Die vorhandenen Kacheltests prüfen die Darstellung mit Namen sowie die weiterhin unveränderte Zuordnung und Sperren.
+
+Prüfung: 156 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich; Schüler-ZIP bytegenau mit 27 Manifestdateien abgeglichen. Browser-/iPad-/Moodle-Praxistest weiterhin offen.
+
+Release-Quelle der bestehenden privaten Site: `86fe23f6fab4c9c1d50b4478ec3b6461a0a532b8` (0.14), erfolgreich veröffentlicht. Laufzeit und Schüler-ZIP stimmen bytegenau mit diesem Master überein.
+
+
+## Oberfläche 0.15 · vollständige Titel aus der Original-MD
+
+Die neun Kacheln verwenden nun unmittelbar `BioCasaCurriculum.title` statt eigens verkürzter Beschriftungen. Alle neun Titel wurden mit der gelesenen Navigation der Originaldatei `BRC_LG02_BioCasa_5_Lernwege_Gesamtreihe(6).md` (Bearbeitungsstand 5. Oktober 2026) wortgleich abgeglichen. Die längeren Namen werden vollständig umbrochen, ohne Kürzung oder LS-Nummer. Auswahlbeschriftungen, Hinweise und Materialdialog beziehen ihren Titel bereits aus derselben Quelle. Die zusätzlichen Kurztitel in der Darstellungszuordnung entfallen. Zuordnung, Freigaben und Speicherkennungen bleiben erhalten. Die Originaldatei und ihr Lehrkräfte-Anhang werden nicht ins Schülerpaket kopiert.
+
+Prüfung: 156 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich. Die bestehenden Kacheltests vergleichen alle neun sichtbaren Titel mit ihrer gemeinsamen Datenquelle; Wiederaufnahme des alten 0.10-Standes bleibt erhalten. Die Schüler-ZIP enthält unverändert 27 Manifestdateien und ist bytegenau abgeglichen. Visuelle Browser-/iPad-/Moodle-Abnahme bleibt offen.
+
+Release-Quelle der bestehenden privaten Site: `d00798188f2df703a9eae71d3fa8bf6db67d2832` (0.15), erfolgreich veröffentlicht. Laufzeit und Schüler-ZIP stimmen bytegenau mit diesem Master überein.
+
+
+## Oberfläche 0.16 · eine Kachelübersicht oben
+
+Auf Nutzerauftrag erscheinen die LS-Kacheln je Start-/Auftragsübersicht genau einmal oben. Die zusätzliche untere OS-Lernschritt-Kachelreihe entfällt dort sowie unter geöffneten Übungen. In der Finanzübersicht entfallen die ältere Nächster-Schritt-Karte und die zusätzlichen Modul-Kacheln. Kennzahlen und Journal bleiben aufklappbar. Interne Schrittzuordnung, Hauptnavigation, Suche, weitere OS-Übungen, Freigaben und Lernstände wurden nicht geändert.
+
+Prüfung: 156 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich. Die bestehenden Kacheltests prüfen eine einzige Gruppe mit neun Originaltiteln und keine nachfolgende Lernschritt-/Modul-/Auftragskachelreihe im Einstieg und im fortgeschrittenen Stand. Alte 0.10-Lernstände und unfertige Eingaben bleiben wiederaufnehmbar. Schüler-ZIP bytegenau mit allen 27 Manifestdateien abgeglichen; echte Browser-/iPad-/Moodle-Abnahme weiterhin offen.
+
+Release-Quelle der bestehenden privaten Site: `ff34d7cc4233aa625700bd084ef754c0622ae4c0` (0.16), erfolgreich veröffentlicht. Laufzeit und Schüler-ZIP stimmen bytegenau mit diesem Master überein.
+
+
+## Oberfläche 0.17 · LS am Header, Transfer im Profil
+
+Auf Nutzerauftrag entfallen der sichtbare Bereich Lernaufträge und das komplette Rollencenter samt Finanzdashboard. Die neun Kacheln stehen einmal zentral direkt unter dem Header; auf schmalen Bildschirmen ist die Leiste horizontal wischbar, ohne abgeschnittene Originaltitel. Im Hauptinhalt gibt es keine zweite Kachel- oder Lernschrittleiste. Darunter führen nur noch drei Kernbereiche zu Inventur/Inventar, Bilanz/GuV und Buchhaltung. Lager/Controlling bleiben über das Profil mit Jahrgangsbezug erreichbar. Die neue LS-Navigation wird auch in der Lehrkräftevorschau verwendet.
+
+Die externen LS-Arbeitsaufträge werden nicht im OS wiederholt; ihre Zielbeschreibung im Informationsdialog entfällt. Die vorhandenen eigenständigen OS-Übungen und Buchungschecks bleiben als Teil der Buchhaltung erreichbar. Ihre Nachweise sind weiterhin Voraussetzung für spätere Themen. Der Rückkehrknopf scrollt zur Headerleiste, ohne das aktuelle Formular neu aufzubauen. Die Leistenposition bleibt beim Rendern erhalten. Reduzierte Bewegung wird beim Rücksprung berücksichtigt.
+
+Import und Export stehen direkt im Profil unter dem Namen, vor den Einstellungskarten. Doppelte Transferknöpfe aus Navigation, Übungsstandleiste, Suche und Hilfeseite sind entfernt. Importvorschau, iPad-Tutorial und Export-Dateidialog behalten die notwendigen bewussten Transfer-/Sicherungsschritte. Name, Hilfeumfang und Farbschema bleiben unverändert gespeichert.
+
+Interne alte Ansichtskennungen bleiben lesbar: home führt jetzt zu Inventur/Inventar; tasks bezeichnet intern die vorhandene Buchhaltungsübung ohne sichtbaren eigenen Menüpunkt. Im Buchungscheck wird Buchhaltung als aktiver Fachbereich markiert. Buchungen, Formulardaten, Nachweise, Aufgaben-/SCORM-/Speicherkennungen und Datenkranz bleiben unverändert. Kein Zugriff auf den Fortschritt externer SCORM-Aktivitäten und keine automatische Synchronisation zwischen Aktivitäten.
+
+Prüfung: 157 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich. Neue/angepasste Ereignistests prüfen Headerposition in beiden Einstiegseiten, eine einzige Kachelgruppe, entfernte Menübereiche, sichtbaren Transfer im Profil ohne Doppelknöpfe, Rückkehr ohne Eingabeverlust und Wiederaufnahme alter Startstände mit neun Nachweisen. Vollständiger Moodle-API-Durchlauf und unveränderter synthetischer 0.10-Stand bleiben erfolgreich. Schüler-ZIP mit 27 Manifestdateien bytegenau abgeglichen. Reale Browser-/iPad-/Moodle-Abnahme, insbesondere Wischen und Bildschirmtastatur, bleibt offen.
+
+Release-Quelle der bestehenden privaten Site: `26c13c4f30c2044fad003a3522bd08b5a34fcbbd` (0.17), erfolgreich veröffentlicht. Laufzeit und Schüler-ZIP stimmen bytegenau mit diesem Master überein.
+
+
+## Oberfläche 0.18 · LS direkt über den Buchungsaktionen
+
+Auf ausdrücklichen Nutzerauftrag entfallen sämtliche normalen Zeilen zwischen LS-Kacheln und „Neue Buchung“: Werkzeugnavigation, Breadcrumb, Übungsstandleiste und Lehrkräftebanner. Beide Einstiegsseiten beginnen dort unmittelbar mit Neue Buchung und Journal. Arbeitsbereiche bleiben über Profil und Suche zugänglich; die fachlichen Sperren gelten weiter.
+
+Fallstichtag, Schuljahr, Fortschritt, Speicherort und letzte Sicherung stehen im zunächst geschlossenen Profilbereich „Übungsstand & Dateien“. Die getrennte Lehrkräftevorschau behält ihre Direktwahl und den Wechsel zur gesperrten Lernansicht im Profil. Der 48 × 48 CSS-Pixel große Speicherknopf im Kopf zeigt den Status als Symbol mit zugänglichem Namen; Detailtext im Profil und echte Speicherfehler bleiben verfügbar. Heutiges Datum und die Sicherungszeit im Buchungsfokus aktualisieren sich unabhängig von der entfernten Leiste. Keine Änderung an Modell, Aufgabenkennungen, Speicherformat oder Datenbasis.
+
+Prüfung: 158 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich; Schüler-ZIP mit 27 Manifestdateien bytegenau abgeglichen. Die VM prüft die fehlenden Zwischenzeilen auf beiden Einstiegsseiten, bestehende Profil-/Suchnavigation samt Sperren, Direktwahl/Ansichtswechsel der Lehrkräfte, Kontext-/Datumsanzeige im Profil und die Wiederaufnahme des unveränderten synthetischen 0.10-Moodle-Stands. Reale visuelle Browser-/iPad-/Moodle-Abnahme bleibt offen; keine Browsersteuerung in dieser Sitzung verfügbar.
+
+Release-Quelle der bestehenden privaten Site: `5c545270b039f133a4e4f38f60fbb58a0de759d8` (0.18); Veröffentlichung erfolgreich. GitHub-Master und veröffentlichte Site-Laufzeit wurden vor Veröffentlichung bytegleich abgeglichen. Das Schülerpaket enthält denselben Laufzeitstand; eine installierte Moodle-ZIP muss separat in derselben Aktivität ersetzt werden.
+
+
+## Oberfläche 0.19 · Buchungsaktionen erst ab LS02
+
+Neue Buchung und Journal sind in der Hauptansicht während Inventur, Inventar und der Bilanzaufgabe vollständig ausgeblendet. Das gilt auch bei späterer Wiederholung und in der Lehrkräftevorschau. Ab Bestandskonten (zweite Lernsituation) ist die Befehlsleiste sichtbar; bis zur bisherigen Buchungsfreigabe nach der Konteneröffnung bleiben die Aktionen deaktiviert. In den späteren Buchungsthemen bleibt sie verfügbar. Es wird keine zusätzliche Zeile oder ein Platzhalter erzeugt. Keine Änderung am Daten-/Speicherformat oder an Aufgaben, Konten und Nachweisen.
+
+Prüfung: 159 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich; Schüler-ZIP mit 27 Manifestdateien bytegenau abgeglichen. Der neue Ereignistest durchläuft Inventur → Inventar → Bilanz → Bestandskonten, prüft die unveränderte Sperre, die freigegebenen Aktionen, Rückkehr/Wiederaufnahme der ersten Lernsituation sowie die getrennte Lehrkräftevorschau ohne künstlichen Nachweis. Der synthetische 0.10-Moodle-Stand wird weiterhin erhalten. VM-/SCORM-Simulation, keine reale visuelle Browser-/iPad-/Moodle-Abnahme.
+
+Release-Quelle der bestehenden privaten Site: `a9a3000d434d09fd1c1a3527f9c8e0fbe01fa0ff` (0.19); Veröffentlichung erfolgreich. GitHub-Master und Site-Laufzeit wurden bytegleich abgeglichen. Das aktuelle Schülerpaket enthält denselben Laufzeitstand; eine installierte Moodle-ZIP muss separat in derselben Aktivität ersetzt werden.

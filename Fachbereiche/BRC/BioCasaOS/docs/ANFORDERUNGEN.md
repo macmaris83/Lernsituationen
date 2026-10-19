@@ -30,11 +30,11 @@ Eröffnungsbestände heißen EBK. Vorgegebene alte Buchungen sind grau, eigene B
 
 Beim Abschluss entscheiden die Lernenden über Saldo, Abschlussseite, Gegenkonto und Gegenbuchungsseite. Dies gilt nach der letzten Präzisierung in jeder Einheit. Erst nach korrekter Prüfung markieren orange Kästen die Saldodifferenz und die beiden verbundenen Einträge. Die Buchhalternase steht ausschließlich beim geschlossenen Konto auf der kürzeren Seite. Die Summen teilen eine gemeinsame Höhe.
 
-Der kleine Touch-Rechner ist am jeweiligen Betragsfeld erreichbar. Er addiert und subtrahiert selbst eingegebene Zahlen. Nach = übernimmt die Bestätigung das Ergebnis direkt ins gewählte Feld; Konto und Buchungsseite bleiben Entscheidungen der Lernenden.
+Der kleine Touch-Rechner öffnet am jeweiligen Betragsfeld als Flyover. Er lässt sich an der Kopfzeile per Finger oder Maus verschieben und bleibt im sichtbaren Bereich; die Rechnung wird dadurch nicht übernommen. Er addiert und subtrahiert selbst eingegebene Zahlen. Nach = übernimmt die Bestätigung das Ergebnis direkt ins gewählte Feld; Konto und Buchungsseite bleiben Entscheidungen der Lernenden.
 
 ## Orientierung und Daten
 
-Heutiges Datum, Lernsituation, fiktiver Fallstichtag, letzter Sicherungszeitpunkt und Datenbasis sind getrennt erkennbar. Im normalen Moodle-Versuch wird automatisch persönlich gespeichert und wieder aufgenommen. JSON-Import/-Export ist eine zusätzliche Sicherung mit kurzer iPad-Hilfe.
+Heutiges Datum, Lernsituation, fiktiver Fallstichtag, letzter Sicherungszeitpunkt und Datenbasis sind getrennt erkennbar. Im normalen Moodle-Versuch wird automatisch persönlich gespeichert und wieder aufgenommen. JSON-Import/-Export ist eine zusätzliche Sicherung mit kurzer iPad-Hilfe. Die JSON-Sicherung muss auch ohne Bearbeitung funktionieren, eine sichtbare Datei anbieten und bei unterstützter Dateifreigabe „Teilen“ anbieten. Downloadanforderung, Übergabe und tatsächlich bestätigte Speicherung unterscheiden; keine Erfolgsmeldung für einen bloßen Klick.
 
 Die Datenbasis kann die Lehrkraft je Schuljahr als geprüfte JSON-Datei konfigurieren. Herkunft und plausible Ergänzungen bleiben erkennbar. Abweichende Datenbasen dürfen nicht still vermischt werden. Lehrbuchverweise sind optional aufklappbar und für andere Ausgaben anpassbar. Quellen sind in `data-defaults.js` und `curriculum.js` benannt; Original-MD und Original-Lernpakete sind hier nicht neu veröffentlicht.
 
@@ -52,3 +52,50 @@ Anfangs sichtbare Texte insgesamt um etwa 30 % reduzieren. Vertraute Symbole und
 
 
 Erweiterbarkeit ist verbindlich: Versionswechsel dürfen keine Zwischenstände verlieren. Buchungen, Lernergebnisse und unfertige Eingaben sind zu übernehmen. Anzeigenummer und Speicherformat getrennt führen; bei Formatänderungen Migration und Wiederaufnahmetest vorsehen.
+
+
+## Ergänzung 16.10.2026 · Steuerdarstellung
+
+Die gestaffelte Liefer-/Rechnungskette aus der Nutzervorlage auf BioCasa und die Lebensmittel-Wertschöpfung übertragen, im Branding mit wiederkehrendem Original-Firmenzeichen. Netto, Umsatzsteuer, Rechnungsbetrag, Vorsteuerabzug und Zahllast grafisch verbinden. Eine optionale, zunächst geschlossene Hilfe; auf iPadbreite lesbar, mit reduzierter Bewegung nutzbar. Zahlen als eigenständiges Erklärmodell kennzeichnen und nicht ins Übungsjournal schreiben.
+
+
+## Ergänzung 17.10.2026 · persönliches Menü und reduzierte Voreinstellung
+
+Oben links den Namen aus Moodle zeigen; ohne Moodle kann ein Anzeigename gewählt werden. Persönliche Auswahl: Hilfeumfang und Farbschema. Weniger Text heißt mehr Symbole; mehr Text heißt ausführlichere Hinweise per Mouseover, Tastaturfokus oder Antippen des Hilfesymbols auf dem iPad. Erklärbereiche bleiben selbst geöffnet/geschlossen. Keine Pflichtfragen, Kontenbezeichnungen oder Rückmeldungen entfernen.
+
+Standardmäßig weniger Menüpunkte und Beschriftungen: fünf Kernbereiche statt sieben, zwei statt fünf zusätzliche Befehlsleistenaktionen. Lager und Controlling mit Jahrgangshinweis ins Menü verlagern; Datenbasis, iPad-Hilfe und Datei-/Speicherfunktionen in aufklappbarer Menügruppe erhalten. Farbschemata BioCasa, Blau und Kontrast ändern keine Buchungs- oder Statusbedeutung. Einstellungen im bisherigen persönlichen Speicher mitnehmen; alte Stände ohne Einstellungen bleiben lesbar.
+
+
+## Ergänzung 17.10.2026 · Lernsituationen als Kacheln
+
+LS01–LS09 sollen sich auf Startseite und in den Lernaufträgen als große, übersichtliche Kacheln wiederfinden. Nummer, vertrautes Symbol, kurzer Titel und Freigabestatus reichen zunächst aus. Auftrag und Materialien sind über ein separates, mindestens 48 × 48 Pixel großes Infosymbol abrufbar. Die Kachel führt zum passenden bestehenden Arbeitsbereich; alle fachlichen Voraussetzungen und die Lehrkraft-Freigabe bleiben wirksam. OS-Nachweise sind keine Moodle-Abschlüsse. Die separate LS08-Abschlussakte bleibt als Vorbereitung gekennzeichnet, die LS09-Kennzahlen als OS-Ausblick. Die bisherige Finanzübersicht und die ausführlichen OS-Lernschritte sind optional aufklappbar. Zwischenstände beim Zurückwechseln erhalten.
+
+
+## Präzisierung 17.10.2026 · Namen ohne Nummern
+
+Die Kacheln zeigen nur den Namen der Lernsituation, keine LS-Nummer. Zugehörige Auswahlbeschriftungen und der Titel der Auftrags-/Materialinformation verwenden ebenfalls den Namen. Interne Kennungen und fachliche Material-/Quellenverweise bleiben erhalten; keine Änderung an Freischaltungen, Daten oder Lernständen.
+
+
+## Präzisierung 17.10.2026 · Originaltitel aus der Markdown-Gesamtreihe
+
+Die Kacheln verwenden die neun vollständigen Originaltitel aus `BRC_LG02_BioCasa_5_Lernwege_Gesamtreihe(6).md`, Bearbeitungsstand 5. Oktober 2026. Die Navigation der Original-MD wurde dafür gelesen und alle neun Titel wurden mit `curriculum.js` abgeglichen. Eigene Kurztitel entfallen; Kachel, zugängliche Beschriftung und Infodialog verwenden dieselbe Titelquelle. LS-Nummern bleiben in den Kacheln ausgeblendet.
+
+
+## Präzisierung 17.10.2026 · Kacheln nur einmal oben
+
+Je Übersicht eine LS-Kachelgruppe am Anfang. Die zusätzliche untere Lernschritt-Kachelreihe und die älteren Modul-/Nächster-Schritt-Karten entfallen. In einer geöffneten Aufgabe ebenfalls keine weitere Kachelreihe darunter. Die fachlichen LS-Titel, vorhandene Freigaben und gespeicherten Nachweise bleiben erhalten. Finanzkennzahlen und Journal bleiben in der optionalen Finanzübersicht; weitere OS-Übungen sind weiterhin über ihre bestehende Auswahl erreichbar.
+
+
+## Präzisierung 17.10.2026 · Headernavigation und Profil
+
+Kein Rollencenter und kein eigener Bereich Lernaufträge: Die Arbeitsaufträge werden in den externen SCORM-Lernsituationen geführt. Die neun LS-Kacheln stehen einmal direkt unter dem Header, mit vollständigen Namen und auf dem iPad horizontal wischbar. Im Hauptinhalt stehen die Werkzeuge Inventur/Inventar, Bilanz/GuV und Buchhaltung. Die bisherigen OS-Buchungschecks bleiben dort kontextuell erreichbar; Freigaben und Nachweise dürfen durch den Umbau nicht verloren gehen. Import und Export sind im Profil oben links direkt sichtbar. Zusätzliche Transferaktionen aus Navigation, Übungsstandleiste und Hilfeseite entfallen.
+
+
+## Präzisierung 17.10.2026 · keine Zwischenzeilen
+
+Alle Zeilen zwischen den LS-Kacheln und „Neue Buchung“ entfernen: zusätzliche Werkzeugnavigation, Breadcrumb, Übungsstandleiste und Lehrkräftebanner. Neue Buchung und Journal bleiben direkt unter den Kacheln. Die Arbeitsbereiche sind weiter über das Profil und die Suche erreichbar. Fallstand, Schuljahr, Fortschritt und letzter Sicherungszeitpunkt bleiben im geschlossenen Profilbereich „Übungsstand & Dateien“; die Lehrkräfte-Direktauswahl in „Lehrkräftevorschau“. Speicherstatus als touchfähiges Symbol im Kopf erhalten; Fehler sichtbar melden. Keine Änderung an fachlichen Aufgaben, Freigaben oder gespeicherten Ständen.
+
+
+## Präzisierung 18.10.2026 · Buchungsaktionen ab der zweiten Lernsituation
+
+Neue Buchung und Journal erscheinen in der Hauptansicht erst ab der zweiten Lernsituation (Bestandskonten). In Inventur, Inventar und der Bilanzaufgabe die gesamte Befehlsleiste ohne Platzhalter ausblenden, auch beim späteren Wiederholen und in der Lehrkräftevorschau. Das Anzeigen ersetzt keine fachliche Freigabe: Erst nach der Konteneröffnung sind die bisherigen Buchungsaktionen für Lernende nutzbar. Keine Änderung an Aufgaben, Daten oder Lernständen.

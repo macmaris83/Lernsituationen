@@ -2,7 +2,9 @@
 
 Dies ist der fortzuführende Quellcode des bestehenden BioCasa OS. Das Lernunternehmen bildet Inventur, Inventar, Bilanz und Buchführung für Jahrgang 11 ab. Lager (Jg. 12) und Controlling (Jg. 13) greifen auf denselben Datenkranz zu. Die Oberfläche orientiert sich an Dynamics; der Produktname bleibt **BioCasa OS**.
 
-**Paketversion: 0.11.** Übernommen aus der Sites-Fassung 0.10.0 vom 16.10.2026; npm verwendet zur zweistelligen Paketnummer die entsprechende SemVer X.Y.0. Aufgaben-, Manifest- und Speicherkennungen wurden beim Umzug nicht geändert.
+**Paketversion: 0.19.** Übernommen aus der Sites-Fassung 0.10.0 vom 16.10.2026; npm verwendet zur zweistelligen Paketnummer die entsprechende SemVer X.Y.0. Aufgaben-, Manifest- und Speicherkennungen wurden beim Umzug nicht geändert.
+
+Die neun Lernsituationen stehen mit vollständigen Originaltiteln einmal direkt am Header. Das Profil oben links enthält Import, Export und persönliche Einstellungen. Ab der zweiten Lernsituation stehen direkt darunter Neue Buchung und Journal; in Inventur, Inventar und der Bilanzaufgabe bleiben beide ausgeblendet. Arbeitsbereiche, Fallstand und Sicherungsdetails sind im Profil erreichbar; der Speicherstatus bleibt als Symbol im Kopf. Ein Rollencenter und ein eigener Bereich für Lernaufträge entfallen; bestehende OS-Buchungschecks und Zwischenstände bleiben erhalten.
 
 ## In Codex fortsetzen
 
@@ -47,7 +49,7 @@ Danach lokal `http://localhost:8000/index.html` öffnen. `preview.html` bietet d
 Bei einer Änderung der Schüler-Laufzeit zuerst die passende neue Paketversion setzen, zum Beispiel:
 
 ```bash
-python3 Fachbereiche/BRC/BioCasaOS/scripts/project.py version 0.11
+python3 Fachbereiche/BRC/BioCasaOS/scripts/project.py version 0.13
 npm --prefix Fachbereiche/BRC/BioCasaOS test
 python3 tools/master.py export --id BRC-BIOCASA-OS
 python3 tools/master.py check --archives
