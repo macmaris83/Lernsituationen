@@ -1,2 +1,283 @@
-.source-document{--ink:#202124;--line:#dadce0;--paper:#fff}.source-document *{box-sizing:border-box}.source-document{margin:0;background:#e5e7eb;color:var(--ink);font:14px/1.5 Arial,Helvetica,sans-serif}.source-document .app{min-height:100vh}.source-document .viewerbar{height:42px;background:#2e2e2e;color:#f1f3f4;display:flex;align-items:center;gap:14px;padding:0 18px;font-size:13px}.source-document .viewerbar .dots{font-size:18px;line-height:1;color:#c5c7cb}.source-document .viewerbar .grow{flex:1}.source-document .viewerbar .file{max-width:52vw;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.source-document .subbar{height:38px;display:flex;align-items:center;gap:18px;padding:0 18px;border-bottom:1px solid #d5d8dc;background:#f8f9fa;color:#4d5358;font-size:12px}.source-document .subbar .zoom{margin-left:auto}.source-document .canvas{padding:28px 20px 46px}.source-document .paper{width:min(820px,100%);min-height:1060px;margin:0 auto;background:var(--paper);box-shadow:0 2px 14px #1f293733;padding:62px 68px}.source-document .paper h1{margin:0 0 28px;font-size:20px;line-height:1.3;font-weight:700}.source-document .paper h2{margin:1.45em 0 .55em;font-size:17px}.source-document .paper h3{margin:1.3em 0 .45em;font-size:15px}.source-document .paper h4{margin:1.2em 0 .4em;font-size:14px}.source-document .paper p{margin:.7em 0}.source-document .paper ul,.source-document .paper ol{padding-left:1.35em}.source-document .paper li{margin:.3em 0}.source-document .paper blockquote{margin:1.2em 0;padding:0 0 0 16px;border-left:3px solid #9ca3af;color:#2e343a}.source-document .paper blockquote>:first-child{margin-top:0}.source-document .paper blockquote>:last-child{margin-bottom:0}.source-document .paper table{width:100%;border-collapse:collapse;margin:1.1em 0;font-size:13px}.source-document .paper th,.source-document .paper td{padding:8px;border:1px solid #bfc5ca;vertical-align:top}.source-document .paper th{background:#eff1f2;text-align:left}.source-document .teams .viewerbar{background:#464775}.source-document .teams .subbar{background:#f5f5fb}.source-document .teams .canvas{padding:0;background:#fff;display:flex;justify-content:center}.source-document .teams .paper{width:min(860px,100%);min-height:calc(100vh - 80px);box-shadow:none;padding:32px 46px}.source-document .teams .paper h1{font-size:17px;color:#242424;border-bottom:1px solid #e1e1e1;padding-bottom:14px}.source-document .teams .paper blockquote{padding:12px 16px;border:0;border-radius:5px;background:#f4f4f8;color:#242424}.source-document .teams .paper blockquote p:first-child{font-weight:700;color:#4b4c85}.source-document .outlook .viewerbar{background:#0078d4}.source-document .outlook .subbar{background:#fff}.source-document .outlook .canvas{padding:20px 0;background:#fff}.source-document .outlook .paper{min-height:calc(100vh - 80px);width:min(900px,100%);box-shadow:none;padding:30px 50px}.source-document .outlook .paper h1{font-size:18px;border-bottom:1px solid #e1e1e1;padding-bottom:18px}.source-document .outlook .paper blockquote{border-left:0;padding:12px 16px;background:#f5f8fc}.source-document .outlook .paper blockquote p:first-child{color:#0067b8;font-weight:700}.source-document .onenote .viewerbar{background:#7719aa}.source-document .onenote .subbar{background:#f9f3fc;color:#5d177f}.source-document .onenote .canvas{padding:22px;background:#f5f1f7}.source-document .onenote .paper{max-width:900px;min-height:960px;padding:38px 48px;border-left:5px solid #8e35b3;box-shadow:0 1px 9px #4a245e20}.source-document .onenote .paper h1{font-size:26px;font-weight:400;color:#3d134f}.source-document .onenote .paper h2,.source-document .onenote .paper h3{color:#5d177f}.source-document .onenote .paper blockquote{border-left:0;background:#fbf7fc;padding:12px 16px}.source-document .onenote .paper table th{background:#f1e5f8;color:#551276}.source-document .sap .viewerbar{height:44px;background:#354a5f}.source-document .sap .subbar{height:42px;background:#f7f7f7;border-bottom:3px solid #0a6ed1}.source-document .sap .canvas{background:#edf1f5;padding:18px}.source-document .sap .paper{width:min(1080px,100%);min-height:900px;padding:24px 28px;box-shadow:none;border:1px solid #cbd3da}.source-document .sap .paper h1{font-size:20px;font-weight:400;color:#263b53;border-bottom:1px solid #c8d2dc;padding-bottom:12px}.source-document .sap .paper h2,.source-document .sap .paper h3{color:#0a5f9e}.source-document .sap .paper blockquote{border:1px solid #cbd8e4;background:#f6f9fb;padding:12px 14px}.source-document .sap .paper table{font-size:12px}.source-document .sap .paper th{background:#dbeaf5;color:#28445c}.source-document .sap .paper td{border-color:#c9d2d9}.source-document .acrobat .viewerbar{background:#333}.source-document .acrobat .subbar{background:#f5f5f5}.source-document .acrobat .paper h1{font-family:Georgia,'Times New Roman',serif;font-size:22px}.source-document .acrobat .paper h2{font-family:Georgia,'Times New Roman',serif}.source-document .acrobat .paper blockquote{font-family:Georgia,'Times New Roman',serif}.source-document .acrobat .paper table th{background:#eee}@media(max-width:700px){.source-document .paper{padding:38px 27px}.source-document .viewerbar{padding:0 10px}.source-document .subbar{padding:0 10px;gap:10px}.source-document .canvas{padding:12px}.source-document .teams .paper,.source-document .outlook .paper{padding:26px 22px}}@media print{.source-document{background:#fff}.source-document .viewerbar,.source-document .subbar{display:none}.source-document .canvas{padding:0}.source-document .paper{width:100%;min-height:0;box-shadow:none;padding:35px 45px}}
-.source-document .app,.source-document .paper{min-height:0!important}.source-document .paper{padding:28px 30px}.source-document .canvas{padding:18px}.source-document .viewerbar .file{max-width:65%;}.source-document{border-radius:16px;overflow:hidden;margin:18px 0}.source-document .viewerbar{height:auto;min-height:42px}.source-document .paper th{color:#202124;}
+/* Reusable document surfaces. Keep document content separate from app chrome. */
+.source-document {
+  --ink: #202124;
+  --line: #dadce0;
+  --paper: #fff;
+  margin: 18px 0;
+  max-width: 100%;
+  min-width: 0;
+  border-radius: 16px;
+  background: #e5e7eb;
+  color: var(--ink);
+  font: 14px/1.5 Arial, Helvetica, sans-serif;
+}
+.source-document * { box-sizing: border-box; }
+.source-document .app,
+.source-document .canvas,
+.source-document .paper { min-width: 0; }
+.source-document .app,
+.source-document .paper { min-height: 0; }
+
+.source-document .viewerbar {
+  min-height: 42px;
+  background: #2e2e2e;
+  color: #f1f3f4;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 14px;
+  padding: 9px 18px;
+  border-radius: 16px 16px 0 0;
+  font-size: 13px;
+}
+.source-document .viewerbar .dots { font-size: 18px; line-height: 1; color: #c5c7cb; }
+.source-document .viewerbar .grow { flex: 1; }
+.source-document .viewerbar .file {
+  flex: 1 1 12rem;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+.source-document .subbar {
+  min-height: 38px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 18px;
+  padding: 8px 18px;
+  border-bottom: 1px solid #d5d8dc;
+  background: #f8f9fa;
+  color: #4d5358;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.source-document .subbar > * { min-width: 0; }
+.source-document .subbar .zoom { margin-left: auto; }
+.source-document .canvas { padding: 18px; border-radius: 0 0 16px 16px; }
+.source-document .paper {
+  width: min(820px, 100%);
+  max-width: 100%;
+  margin: 0 auto;
+  background: var(--paper);
+  box-shadow: 0 2px 14px #1f293733;
+  padding: 28px 30px;
+  overflow-wrap: anywhere;
+}
+.source-document .paper h1 { margin: 0 0 28px; font-size: 20px; line-height: 1.3; font-weight: 700; }
+.source-document .paper h2 { margin: 1.45em 0 .55em; font-size: 17px; }
+.source-document .paper h3 { margin: 1.3em 0 .45em; font-size: 15px; }
+.source-document .paper h4 { margin: 1.2em 0 .4em; font-size: 14px; }
+.source-document .paper p { margin: .7em 0; }
+.source-document .paper ul,
+.source-document .paper ol { padding-left: 1.35em; }
+.source-document .paper li { margin: .3em 0; }
+.source-document .paper blockquote { margin: 1.2em 0; padding: 0 0 0 16px; border-left: 3px solid #9ca3af; color: #2e343a; }
+.source-document .paper blockquote > :first-child { margin-top: 0; }
+.source-document .paper blockquote > :last-child { margin-bottom: 0; }
+.source-document .paper img,
+.source-document .paper svg,
+.source-document .paper video,
+.source-document .paper canvas { max-width: 100%; height: auto; }
+.source-document .paper pre { max-width: 100%; overflow-x: auto; }
+
+/* Opt in only for long prose; headings, lists, metadata and tables stay left aligned.
+   Use lang="de" on the document for German automatic hyphenation. */
+.source-document .paper p.long-prose,
+.source-document .paper .long-prose > p,
+.source-document .paper.long-prose > p {
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* Document header: direct dt/dd pairs or one div containing each pair. */
+.source-document .paper .document-meta {
+  --meta-label-width: 9rem;
+  display: grid;
+  grid-template-columns: minmax(0, var(--meta-label-width)) minmax(0, 1fr);
+  gap: .35em 1em;
+  margin: 1em 0 1.5em;
+  text-align: left;
+}
+.source-document .paper .document-meta > div {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, var(--meta-label-width)) minmax(0, 1fr);
+  gap: .35em 1em;
+  min-width: 0;
+}
+.source-document .paper .document-meta dt { margin: 0; font-weight: 700; }
+.source-document .paper .document-meta dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+
+.source-document .paper table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 1.1em 0;
+  font-size: 13px;
+  text-align: left;
+}
+.source-document .paper caption { margin-bottom: .5em; text-align: left; font-weight: 700; }
+.source-document .paper th,
+.source-document .paper td {
+  padding: 8px;
+  border: 1px solid #bfc5ca;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+.source-document .paper th { background: #eff1f2; color: #202124; text-align: left; }
+.source-document .paper .numeric {
+  text-align: right;
+  font-variant-numeric: tabular-nums lining-nums;
+  white-space: nowrap;
+}
+.source-document .paper th.numeric { text-align: left; white-space: normal; }
+.source-document .paper .wrap-value { white-space: normal; overflow-wrap: anywhere; }
+
+/* Optional wrapper for tables that need readable column widths on small screens.
+   Give an overflowing wrapper tabindex="0" and an accessible name in the HTML. */
+.source-document .paper .table-wrap { max-width: 100%; overflow-x: auto; overscroll-behavior-x: contain; }
+.source-document .paper .table-wrap:focus-visible { outline: 2px solid #0078d4; outline-offset: 3px; }
+.source-document .paper .table-scroll-hint { display: none; }
+@media screen {
+  .source-document .paper table.table-wide { min-width: 42rem; }
+}
+
+/* Add to the table when its text should wrap instead of preserving column widths. */
+.source-document .paper table.table-wrap-text { table-layout: fixed; }
+.source-document .paper table.table-wrap-text th,
+.source-document .paper table.table-wrap-text td {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+/* Existing app colours and document surfaces. */
+.source-document .teams .viewerbar { background: #464775; }
+.source-document .teams .subbar { background: #f5f5fb; }
+.source-document .teams .canvas { padding: 0; background: #fff; display: flex; justify-content: center; }
+.source-document .teams .paper { width: min(860px, 100%); box-shadow: none; padding: 32px 46px; }
+.source-document .teams .paper h1 { font-size: 17px; color: #242424; border-bottom: 1px solid #e1e1e1; padding-bottom: 14px; }
+.source-document .teams .paper blockquote { padding: 12px 16px; border: 0; border-radius: 5px; background: #f4f4f8; color: #242424; }
+.source-document .teams .paper blockquote p:first-child { font-weight: 700; color: #4b4c85; }
+.source-document .outlook .viewerbar { background: #0078d4; }
+.source-document .outlook .subbar { background: #fff; }
+.source-document .outlook .canvas { padding: 20px 0; background: #fff; }
+.source-document .outlook .paper { width: min(900px, 100%); box-shadow: none; padding: 30px 50px; }
+.source-document .outlook .paper h1 { font-size: 18px; border-bottom: 1px solid #e1e1e1; padding-bottom: 18px; }
+.source-document .outlook .paper blockquote { border-left: 0; padding: 12px 16px; background: #f5f8fc; }
+.source-document .outlook .paper blockquote p:first-child { color: #0067b8; font-weight: 700; }
+.source-document .onenote .viewerbar { background: #7719aa; }
+.source-document .onenote .subbar { background: #f9f3fc; color: #5d177f; }
+.source-document .onenote .canvas { padding: 22px; background: #f5f1f7; }
+.source-document .onenote .paper { max-width: 900px; padding: 38px 48px; border-left: 5px solid #8e35b3; box-shadow: 0 1px 9px #4a245e20; }
+.source-document .onenote .paper h1 { font-size: 26px; font-weight: 400; color: #3d134f; }
+.source-document .onenote .paper h2,
+.source-document .onenote .paper h3 { color: #5d177f; }
+.source-document .onenote .paper blockquote { border-left: 0; background: #fbf7fc; padding: 12px 16px; }
+.source-document .onenote .paper table th { background: #f1e5f8; color: #551276; }
+.source-document .sap .viewerbar { min-height: 44px; background: #354a5f; }
+.source-document .sap .subbar { min-height: 42px; background: #f7f7f7; border-bottom: 3px solid #0a6ed1; }
+.source-document .sap .canvas { background: #edf1f5; padding: 18px; }
+.source-document .sap .paper { width: min(1080px, 100%); padding: 24px 28px; box-shadow: none; border: 1px solid #cbd3da; }
+.source-document .sap .paper h1 { font-size: 20px; font-weight: 400; color: #263b53; border-bottom: 1px solid #c8d2dc; padding-bottom: 12px; }
+.source-document .sap .paper h2,
+.source-document .sap .paper h3 { color: #0a5f9e; }
+.source-document .sap .paper blockquote { border: 1px solid #cbd8e4; background: #f6f9fb; padding: 12px 14px; }
+.source-document .sap .paper table { font-size: 12px; }
+.source-document .sap .paper th { background: #dbeaf5; color: #28445c; }
+.source-document .sap .paper td { border-color: #c9d2d9; }
+.source-document .acrobat .viewerbar { background: #333; }
+.source-document .acrobat .subbar { background: #f5f5f5; }
+.source-document .acrobat .paper h1 { font-family: Georgia, 'Times New Roman', serif; font-size: 22px; }
+.source-document .acrobat .paper h2,
+.source-document .acrobat .paper blockquote { font-family: Georgia, 'Times New Roman', serif; }
+.source-document .acrobat .paper table th { background: #eee; }
+
+/* Spreadsheet-style document surface; no spreadsheet controls or calculations. */
+.source-document .excel .viewerbar { background: #217346; }
+.source-document .excel .subbar { background: #f3f8f4; color: #185c37; border-bottom: 2px solid #217346; }
+.source-document .excel .canvas { background: #edf2ee; padding: 18px; }
+.source-document .excel .paper { width: min(1080px, 100%); padding: 24px 28px; box-shadow: none; border: 1px solid #c8d7cc; }
+.source-document .excel .paper h1 { font-size: 20px; font-weight: 400; color: #185c37; border-bottom: 1px solid #c8d7cc; padding-bottom: 12px; }
+.source-document .excel .paper h2,
+.source-document .excel .paper h3 { color: #185c37; }
+.source-document .excel .paper th { background: #e2efe6; color: #185c37; }
+.source-document .excel .paper td { border-color: #ccd8cf; }
+
+/* Use the same specificity as the app variants, so narrow layouts win. */
+@media (max-width: 700px) {
+  .source-document .viewerbar { padding: 9px 10px; }
+  .source-document .subbar { padding: 8px 10px; gap: 6px 10px; }
+  .source-document .app .canvas { padding: 12px; }
+  .source-document .app .paper { padding: 26px 22px; }
+  .source-document .paper th,
+  .source-document .paper td { padding: 6px; }
+  .source-document .paper .table-scroll-hint { display: block; }
+}
+@media (max-width: 480px) {
+  .source-document .app .canvas { padding: 8px; }
+  .source-document .app .paper { padding: 20px 14px; }
+  .source-document .paper .document-meta,
+  .source-document .paper .document-meta > div { grid-template-columns: minmax(0, 1fr); }
+  .source-document .paper .document-meta dd { margin-bottom: .4em; }
+}
+
+/* Last on purpose: screen variants must not restore padding, widths or clipping. */
+@page { size: A4; margin: 15mm; }
+@media print {
+  .source-document {
+    width: auto;
+    max-width: none;
+    margin: 0;
+    border-radius: 0;
+    background: #fff;
+    overflow: visible;
+  }
+  .source-document .viewerbar,
+  .source-document .subbar,
+  .source-document .paper .table-scroll-hint { display: none; }
+  .source-document .paper .sheet-start { break-before: page; }
+  .source-document .app,
+  .source-document .app .canvas,
+  .source-document .app .paper {
+    display: block;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: #fff;
+    box-shadow: none;
+    overflow: visible;
+  }
+  .source-document .paper .table-wrap { overflow: visible; }
+  .source-document .paper table {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    table-layout: fixed;
+    break-inside: auto;
+  }
+  .source-document .paper thead { display: table-header-group; }
+  .source-document .paper tfoot { display: table-footer-group; }
+  .source-document .paper tr { break-inside: avoid; }
+  .source-document .paper th,
+  .source-document .paper td,
+  .source-document .paper .numeric,
+  .source-document .paper .wrap-value {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+  }
+  .source-document .paper h1,
+  .source-document .paper h2,
+  .source-document .paper h3,
+  .source-document .paper h4,
+  .source-document .paper caption { break-after: avoid; }
+  .source-document .paper p { orphans: 3; widows: 3; }
+  .source-document .paper pre { white-space: pre-wrap; overflow: visible; overflow-wrap: anywhere; }
+}
