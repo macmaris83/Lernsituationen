@@ -39,14 +39,14 @@
     },
     {
       "id": "BRC-LG01-LS04",
-      "title": "Bei Kapitalgebern pitchen",
+      "title": "Bei Business Angels pitchen",
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS04",
-      "version": "1.4",
-      "archive": "Downloads/BRC-LG01-LS04/BRC_LG01_LS04_v1.4_SCORM12.zip",
-      "masterSha256": "f55c820e96cea4d46cfaac645a0224238582cd32e57bb424b097f5edbd5c2110",
-      "archiveSha256": "8b0ffc46c5281d32864abdaa79bf817a568f8d2eebb5dbc7d5d3d59f03ab8a69",
+      "version": "1.5",
+      "archive": "Downloads/BRC-LG01-LS04/BRC_LG01_LS04_v1.5_SCORM12.zip",
+      "masterSha256": "be723a7cb5de436314cb65003fd56c7cb55c8ccb6848e5b40fdba13b502c2e6e",
+      "archiveSha256": "fa89f7b353ce805174af55f51261dd6bcae52cb2fe70b5bd3786d6824c49892f",
       "files": 137
     },
     {

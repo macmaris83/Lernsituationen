@@ -217,74 +217,74 @@
   ],
   "4": [
     {
-      "title": "Finanzierungslücke",
-      "question": "Was bedeutet die Finanzierungslücke von 1.048.000 Euro im BioCasa-Fall?",
+      "title": "Die Rollen im Pitch",
+      "question": "Wer spielt in dieser Lernsituation die Business Angels?",
       "options": [
-        "Sie ist das bereits vollständig eingezahlte Stammkapital der BioCasa GmbH.",
-        "Sie ist der Netto-Umsatz, der im Stressszenario sicher erzielt wird.",
-        "Sie ist der Kaufpreis der Produktions- und Tiefkühllinie allein.",
-        "Sie ist ein zusätzlicher Überschuss nach Abzug sämtlicher Finanzierungszahlungen.",
-        "Sie ist der verbleibende Kapitalbedarf bei Barkauf aller Anlagen nach Abzug der verfügbaren Eigenmittel.",
-        "Sie ist die Summe der Kosten für die zwei Termine bei Berg & Macher."
+        "Die beiden Lehrkräfte übernehmen alle Investorenrollen.",
+        "Eine echte Bank entscheidet über einen Kredit.",
+        "Das BioCasa-Team beurteilt ausschließlich sich selbst.",
+        "Eine Leasinggesellschaft nimmt die Präsentation ab.",
+        "Ein anderes Schülerteam aus drei bis vier Personen; danach wechseln die Schülerteams die Rollen.",
+        "Ein KI-System ersetzt das Gegenüber."
       ],
       "correct": 4,
-      "feedback": "M1 nennt 1.410.500 Euro Kapitalbedarf und 362.500 Euro Eigenmittel. Die Differenz beträgt 1.048.000 Euro. Beim Leasing verändert sich der direkt zu finanzierende Bedarf; die Leasingbelastung bleibt zu berücksichtigen."
+      "feedback": "Die Schülerinnen und Schüler spielen beide Seiten: BioCasa und Business Angels. Die zwei Lehrkräfte beobachten und beurteilen die Pitches und beziehen das begründete Peerurteil ein."
     },
     {
-      "title": "Stressprüfung",
-      "question": "Warum fordert die Bank zusätzlich eine Stressprüfung?",
+      "title": "Factoring in der Startphase",
+      "question": "Warum kann BioCasa Factoring nicht einfach als Geldquelle vor dem ersten Verkauf einplanen?",
       "options": [
-        "Um die Finanzierung allein nach dem höchsten erwarteten Umsatz auszuwählen.",
-        "Um die Rückfragen im Finanzierungsgespräch vollständig entfallen zu lassen.",
-        "Um zu prüfen, ob der Finanzierungsmix auch bei schwächerem Absatz die Zahlungsfähigkeit ausreichend schützt.",
-        "Um die Eigenmittel ohne Begründung aus der Planung zu entfernen.",
-        "Um die Produktqualität unabhängig von Kapazität und Kosten festzulegen.",
-        "Um sämtliche Risiken durch eine günstigere Präsentationsgestaltung zu beseitigen."
+        "Factoring ersetzt automatisch jede Beteiligung.",
+        "Eine Umsatzprognose gilt bereits als verkaufbare Forderung.",
+        "Es werden geeignete bereits bestehende Forderungen verkauft; ohne diese Forderungen entsteht daraus kein Startkapital.",
+        "Factoring ist immer kostenlos.",
+        "Leasingraten werden durch Factoring automatisch erlassen.",
+        "Es handelt sich stets um einen langfristigen Bankkredit."
       ],
       "correct": 2,
-      "feedback": "Im Stressszenario sinkt der Absatz um 20 Prozent. Die Finanzierung muss auch unter schlechteren Bedingungen hinsichtlich fester Belastungen und Liquidität beurteilt werden; ein guter Planfall allein genügt nicht."
+      "feedback": "Factoring setzt geeignete bestehende Forderungen voraus. Im Beispiel 50.000 Euro × 80 Prozent − 1.000 Euro Gebühr = 39.000 Euro erste Auszahlung; die mögliche spätere Zahlung setzt den bestehenden Forderungsfall voraus."
     },
     {
-      "title": "Finanzierungsvergleich",
-      "question": "Nach welchen Gesichtspunkten muss das Team die Finanzierungsmöglichkeiten vergleichen?",
+      "title": "Beteiligungsbedarf",
+      "question": "Welchen Beteiligungsbedarf zeigt Kombination 3 nach Berücksichtigung der Leasingwirkung und des Darlehens?",
       "options": [
-        "Nur nach dem niedrigsten Zinssatz, ohne weitere Vertragswirkungen.",
-        "Nur nach dem langfristigen Eigentum an der Produktionslinie.",
-        "Nur nach Christians Wunsch, alle Anlagen sofort zu kaufen.",
-        "Nur nach der Höhe der kurzfristig verfügbaren Kontokorrentlinie.",
-        "Nur nach der Zahl der Seiten im jeweiligen Angebot.",
-        "Nach Kosten, Liquiditätsbelastung, Fristen, Eigentum, Flexibilität und Risiken im BioCasa-Fall."
+        "1.410.500 Euro, weil Eigenmittel nie berücksichtigt werden.",
+        "1.048.000 Euro zusätzlich zu Leasing und Darlehen.",
+        "558.000 Euro als sicherer Geldzufluss des Leasinggebers.",
+        "180.000 Euro, weil eine Kreditlinie schon Bargeld ist.",
+        "0 Euro, weil künftiger Umsatz eine sichere Finanzierung ersetzt.",
+        "90.000 Euro: 490.000 Euro verbleibender Finanzierungsbedarf minus 400.000 Euro Darlehen."
       ],
       "correct": 5,
-      "feedback": "Kauf mit Darlehen, Leasing und Kontokorrent wirken unterschiedlich. Ein fachlicher Vergleich berücksichtigt mehrere Kriterien sowie den Plan- und Stressfall, statt ein einzelnes Merkmal automatisch entscheiden zu lassen."
+      "feedback": "1.410.500 − 558.000 − 362.500 = 490.000 Euro. Nach 400.000 Euro Darlehen verbleiben 90.000 Euro als mögliche Beteiligungsanfrage. Dies ist ein Vorschlag, keine Zusage der gespielten Business Angels."
     },
     {
-      "title": "Liquidität",
-      "question": "Wie ist der ausgewiesene operative Zahlungsmittelüberschuss aus dem Planszenario zu verstehen?",
+      "title": "Mehr als Geld",
+      "question": "Was kann die Zusammenarbeit mit Business Angels zusätzlich zu Beteiligungskapital beitragen?",
       "options": [
-        "Als vereinfachter Planwert vor Finanzierung, der keine jederzeit sicher verfügbare freie Liquidität garantiert.",
-        "Als bereits eingegangener Bankkredit zur Finanzierung der Produktionslinie.",
-        "Als Garantie, dass Zahlungsziele und Anlaufabweichungen keine Wirkung mehr haben.",
-        "Als zusätzlicher Eigenkapitalbeitrag der vier Gründerpersonen.",
-        "Als reiner Umsatzwert, der keinerlei operative Auszahlungen berücksichtigt.",
-        "Als Betrag, der nach allen Steuern und Finanzierungszahlungen automatisch frei bleibt."
+        "Erfahrung und Kontakte, etwa zu Vertriebspartnern oder weiteren Investoren; konkrete Leistungen und Rechte werden verhandelt.",
+        "Eine garantierte Bestellung aller Händler.",
+        "Eine automatische Kreditzusage jeder Bank.",
+        "Keine Mitspracherechte unter irgendeinem Vertrag.",
+        "Einen sicheren Gewinn ohne Risiko.",
+        "Einen Anspruch auf jede gewünschte Förderung."
       ],
       "correct": 0,
-      "feedback": "M1 grenzt den vereinfachten operativen Überschuss ausdrücklich von sicherer freier Liquidität ab. Zahlungszeitpunkte, Steuern, Finanzierung und ungeplante Auszahlungen müssen zusätzlich in der Liquiditätsplanung berücksichtigt werden."
+      "feedback": "Business Angels können Kapital, Erfahrung, Beratung und Kontakte einbringen. Kontakte sind noch keine Aufträge oder Finanzierungszusagen. Beteiligung und vereinbarte Mitspracherechte müssen geklärt werden."
     },
     {
-      "title": "Auftrag an das Team",
-      "question": "Was muss BioCasa im 15-minütigen Finanzierungstermin vor allem überzeugend vertreten?",
+      "title": "Beurteilung des Rollenspiels",
+      "question": "Wie werden die Pitches beurteilt?",
       "options": [
-        "Eine bereits eingetragene Rechtsform ohne Darstellung der Finanzierung.",
-        "Einen begründeten Finanzierungsmix mit Belastungsvergleich, Stressprüfung und konkreten Risikomaßnahmen.",
-        "Einen möglichst optimistischen Umsatzwert ohne erkennbare Annahmen.",
-        "Die Forderung, dass die Bank sämtliches unternehmerisches Risiko übernimmt.",
-        "Ausschließlich die Gestaltung der Verpackung für die drei Startprodukte.",
-        "Eine fertige Auftragsakte zur Bearbeitung des ersten Großauftrags."
+        "Die gespielte Investitionszusage ergibt automatisch die beste Note.",
+        "Die Gegengruppe bewertet mit Belegen; beide Lehrkräfte beurteilen den Pitch mit demselben Raster und beziehen diese Peerbeurteilung ein.",
+        "Nur das Pitchteam bewertet sich selbst.",
+        "Die Business-Angel-Rollen werden nicht von Schülern gespielt.",
+        "Die Bewertung ist allein eine Abstimmung über schöne Folien.",
+        "Peerwerte ersetzen ohne Prüfung jede Lehrkräftebeurteilung."
       ],
       "correct": 1,
-      "feedback": "Das Pitchdeck mit mündlichem Finanzierungspitch muss zeigen, warum der Mix zur Unternehmensplanung passt und auch kritischen Rückfragen standhält. Transparente Risiken und Maßnahmen gehören dazu."
+      "feedback": "Entscheidend sind beobachtbare Leistungen und begründete Rückmeldungen. Schülerteam und zwei Lehrkräfte nutzen das gemeinsame Raster. Es gibt keine automatische Mittelung und keine Gleichsetzung von Investitionsentscheidung und Note."
     }
   ],
   "5": [

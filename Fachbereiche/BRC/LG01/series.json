@@ -2,7 +2,7 @@
   "title": "BRC LG01 · Ein Unternehmen gründen",
   "hours": 80,
   "templateCommit": "712a1200e1a67df2992e869730b1f26facfe7cbc",
-  "sourceSha256": "595e4040ca820108c93160113336f55732897b9ad57b3dc56cab92ab8fbd78c9",
+  "sourceSha256": "fa857a146c0694bc2b0aa125b348b1db8c299310caaa09094ec4661a2a00edcf",
   "lessons": [
     {
       "folder": "LS01",
@@ -214,7 +214,7 @@
     {
       "folder": "LS04",
       "id": "BRC-LG01-LS04",
-      "title": "Bei Kapitalgebern pitchen",
+      "title": "Bei Business Angels pitchen",
       "hours": 12,
       "budgets": [
         180.0,

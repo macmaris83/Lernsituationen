@@ -1,0 +1,218 @@
+{
+  "status": "PASS",
+  "complete": true,
+  "packages": 2,
+  "cases": 26,
+  "failed": 0,
+  "limits": "Chromium browser with actual SCORM iframe/runtime and simulated LMS API; no live Moodle or physical iPad.",
+  "results": [
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "Fachbereiche/BRC/LG01/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/ls04-roleplay/preview/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/ls04-roleplay/preview/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/ls04-roleplay/preview/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "normal",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/ls04-roleplay/preview/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/ls04-roleplay/preview/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/ls04-roleplay/preview/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/ls04-roleplay/preview/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/ls04-roleplay/preview/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "browse",
+      "payload": "empty",
+      "SCORMIframe": true,
+      "package": "work/ls04-roleplay/preview/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "valid",
+      "SCORMIframe": true,
+      "package": "work/ls04-roleplay/preview/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "foreign",
+      "SCORMIframe": true,
+      "package": "work/ls04-roleplay/preview/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "schema",
+      "SCORMIframe": true,
+      "package": "work/ls04-roleplay/preview/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    },
+    {
+      "status": "PASS",
+      "mode": "review",
+      "payload": "corrupt",
+      "SCORMIframe": true,
+      "package": "work/ls04-roleplay/preview/LS04",
+      "runtimeSHA256": "88c3ae919500fc355f77bfb643c28733d1f5d3ae36dfc0b30efae2f65afc1f97"
+    }
+  ]
+}
