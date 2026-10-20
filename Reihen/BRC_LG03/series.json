@@ -1,0 +1,994 @@
+{
+  "title": "BRC LG03 · Wettbewerbsfähigkeit unter marketingpolitischen und kostenrechnerischen Aspekten sichern",
+  "hours": 80,
+  "template": "Reihen/BRC_LG01/LS06",
+  "templateCommit": "bcd1140e0a86287709a9709a20ac2ad618b23f6b",
+  "sourceSha256": "d660177bb5d7a8a6c4d85e8343c357ea9bca2933692f838cdd07b6d15d5ddf1b",
+  "completeImages": true,
+  "lessons": [
+    {
+      "folder": "LS01",
+      "id": "BRC-LG03-LS01",
+      "title": "Markt- und Unternehmenssituation analysieren",
+      "hours": 6,
+      "budgets": [
+        45,
+        25,
+        20,
+        110,
+        45,
+        25
+      ],
+      "materials": 7,
+      "allMaterials": 11,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-lg03-ls01-orientation.png",
+          "sha256": "83812cddbbe0a507869163679c295068a416453b3c6ff74d63a1a6778e442d6c"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-lg03-ls01-situation.png",
+          "sha256": "d0396ccea56d110872203daa5c841cce16d624eb4e77cb9f342da74144ebd577"
+        }
+      },
+      "zip": "Downloads/BRC_LG03_LS01_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS02",
+      "id": "BRC-LG03-LS02",
+      "title": "Den Wechsel zur Aktiengesellschaft begründen",
+      "hours": 6,
+      "budgets": [
+        50,
+        25,
+        25,
+        110,
+        35,
+        25
+      ],
+      "materials": 8,
+      "allMaterials": 12,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-lg03-ls02-orientation.png",
+          "sha256": "78d0af20ea4a4a59496f367e0d3830b2bfe27fcf35c97935d00cc9d39a250438"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-lg03-ls02-situation.png",
+          "sha256": "3bfc8ae44e9fdb99c70250d3cf74f04290814715fe4860b213afaf94d571db5c"
+        }
+      },
+      "zip": "Downloads/BRC_LG03_LS02_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS03",
+      "id": "BRC-LG03-LS03",
+      "title": "Das Produktprogramm auswerten",
+      "hours": 6,
+      "budgets": [
+        45,
+        25,
+        20,
+        115,
+        40,
+        25
+      ],
+      "materials": 7,
+      "allMaterials": 11,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-lg03-ls03-orientation.png",
+          "sha256": "792eff7984f580b1f4f8506a11cc7dfafa84e43bb2e38f1b2ab807798683a330"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-lg03-ls03-situation.png",
+          "sha256": "23f48f5f3c04564d7d7211e2e142cbec12fa28c3f8816aa42394b8901abaa422"
+        }
+      },
+      "zip": "Downloads/BRC_LG03_LS03_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS04",
+      "id": "BRC-LG03-LS04",
+      "title": "Marktforschung betreiben",
+      "hours": 6,
+      "budgets": [
+        40,
+        30,
+        25,
+        115,
+        40,
+        20
+      ],
+      "materials": 7,
+      "allMaterials": 11,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-lg03-ls04-orientation.png",
+          "sha256": "ae877a2c9f21447a48f787571964a3e0742a40cc1449d39490fb2399109d95c9"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-lg03-ls04-situation.png",
+          "sha256": "07417c95110fdeb586807263907a15a9f8b516e440bb3fafe4dba67353b58f61"
+        }
+      },
+      "zip": "Downloads/BRC_LG03_LS04_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS05",
+      "id": "BRC-LG03-LS05",
+      "title": "Marketingziele und -strategien entwickeln",
+      "hours": 4,
+      "budgets": [
+        25,
+        20,
+        20,
+        70,
+        30,
+        15
+      ],
+      "materials": 6,
+      "allMaterials": 10,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-lg03-ls05-orientation.png",
+          "sha256": "35e1ecc3dfec137838918671a250618c079d5e1c5c70755fa6ef458388859156"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-lg03-ls05-situation.png",
+          "sha256": "c81254496d856e90c5589df2fd99da67b92920210bc3cca7ecda1edf541a5714"
+        }
+      },
+      "zip": "Downloads/BRC_LG03_LS05_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS06",
+      "id": "BRC-LG03-LS06",
+      "title": "Produkt- und Markenpolitik gestalten",
+      "hours": 6,
+      "budgets": [
+        40,
+        30,
+        25,
+        115,
+        40,
+        20
+      ],
+      "materials": 8,
+      "allMaterials": 13,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-lg03-ls06-orientation.png",
+          "sha256": "b84d85e634897e320c54061b0f9673ee63e48e2140b6ef8dfc1e0e70b68099b3"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-lg03-ls06-situation.png",
+          "sha256": "a2978fbe3cf7b61ef0dd35a9910bcd512b820b1bc8bba033addf25f7db9be0d3"
+        }
+      },
+      "zip": "Downloads/BRC_LG03_LS06_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS07",
+      "id": "BRC-LG03-LS07",
+      "title": "Aufwendungen und Kosten abgrenzen",
+      "hours": 8,
+      "budgets": [
+        55,
+        25,
+        25,
+        160,
+        65,
+        30
+      ],
+      "materials": 6,
+      "allMaterials": 10,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-lg03-ls07-orientation.png",
+          "sha256": "a6aeb282797bd72bde26b13df6000a9607add5d783fa4d96f9bbba144cea7a0c"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-lg03-ls07-situation.png",
+          "sha256": "b839160f50a364f4e8eff3aee9d8c64a9289e96a5aee4d5a8c6f2ff30021827d"
+        }
+      },
+      "zip": "Downloads/BRC_LG03_LS07_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS08",
+      "id": "BRC-LG03-LS08",
+      "title": "Selbstkosten und Listenverkaufspreise ermitteln",
+      "hours": 10,
+      "budgets": [
+        50,
+        30,
+        30,
+        220,
+        80,
+        40
+      ],
+      "materials": 6,
+      "allMaterials": 10,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-lg03-ls08-orientation.png",
+          "sha256": "1e381710c3e62bbb82ea82273f795d2633458160af37897c600f67386f3ba23f"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-lg03-ls08-situation.png",
+          "sha256": "fa86fae864ed761b0fe6d13bd0056de13938812074a641fba8fc5683c893de80"
+        }
+      },
+      "zip": "Downloads/BRC_LG03_LS08_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS09",
+      "id": "BRC-LG03-LS09",
+      "title": "Preisentscheidungen mit Deckungsbeiträgen beurteilen",
+      "hours": 8,
+      "budgets": [
+        45,
+        30,
+        30,
+        165,
+        60,
+        30
+      ],
+      "materials": 8,
+      "allMaterials": 12,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-lg03-ls09-orientation.png",
+          "sha256": "76a32669d748149d31b6e18b884e477f39b9fa401a57d0e57316e4c7e964a75c"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-lg03-ls09-situation.png",
+          "sha256": "ec61c5d45446747159d924e3971af7727f66b55c4315c0923334f814ffbdce7e"
+        }
+      },
+      "zip": "Downloads/BRC_LG03_LS09_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS10",
+      "id": "BRC-LG03-LS10",
+      "title": "Kommunikationspolitische Maßnahmen entwickeln",
+      "hours": 6,
+      "budgets": [
+        45,
+        35,
+        30,
+        100,
+        40,
+        20
+      ],
+      "materials": 8,
+      "allMaterials": 11,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-lg03-ls10-orientation.png",
+          "sha256": "ce7ac3d3fdd15d2d411f9bf8984604a46ad91ef738806f3a0128f61aa70427cd"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-lg03-ls10-situation.png",
+          "sha256": "56b521ef3bb2c25ef6362efcb1d32e5a403381bba1eb86af1bbe961448be9121"
+        }
+      },
+      "zip": "Downloads/BRC_LG03_LS10_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS11",
+      "id": "BRC-LG03-LS11",
+      "title": "Absatzwege und nachhaltige Kühlketten gestalten",
+      "hours": 8,
+      "budgets": [
+        60,
+        45,
+        35,
+        140,
+        50,
+        30
+      ],
+      "materials": 8,
+      "allMaterials": 11,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-lg03-ls11-orientation.png",
+          "sha256": "2a10c85cde196601baffb03b2456bb9007f0a5408cabda74310c962a974f9989"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-lg03-ls11-situation.png",
+          "sha256": "114131404c1681b5b296273c65da6ac15960ec774a053d2585e84958fdf57835"
+        }
+      },
+      "zip": "Downloads/BRC_LG03_LS11_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    },
+    {
+      "folder": "LS12",
+      "id": "BRC-LG03-LS12",
+      "title": "Den Marketing-Mix überprüfen und steuern",
+      "hours": 6,
+      "budgets": [
+        45,
+        30,
+        25,
+        105,
+        40,
+        25
+      ],
+      "materials": 7,
+      "allMaterials": 11,
+      "tasks": {
+        "informieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "planen": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "entscheiden": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "durchfuehren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "bewerten": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "reflektieren": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        }
+      },
+      "images": {
+        "orientation": {
+          "file": "assets/images/biocasa-lg03-ls12-orientation.png",
+          "sha256": "8fe07299e9ed9514bb4821723b9c7704ce1b29f3c51238047b378522f2a7bec4"
+        },
+        "situation": {
+          "file": "assets/images/biocasa-lg03-ls12-situation.png",
+          "sha256": "1beb61767ecd526002bbb43cd78c6fd662a37243fe14649c027294fda69bdfd4"
+        }
+      },
+      "zip": "Downloads/BRC_LG03_LS12_SCORM.zip",
+      "sharedJavascriptSha256": {
+        "runtime.js": "c4d649ace3d78824ff6945c7d4c1f9bc94b54dad6f0664b2b538c73e6989cde8",
+        "progress.js": "1b3a98a8487c9daa59c313952e2699a9532254916b821502c00966606b7943a2",
+        "progress-core.js": "b8ff16855e2af5c18bdd63c8892babec03b462ad8bcd50a00e6324751b520989",
+        "teacher.js": "4b4a2dd69e54a264d6896246d708119ae18f593f09a5cdaf43c9d05990420147",
+        "export.js": "d521229ffaa3cf5c47520df1ce1c15ad2276f786086167b6e1b3a4e32dc618eb",
+        "scorm.js": "a4ee352dab769e9e8420fd03ab84eaa0674aaa4b5ce9b46a3ee921ee39966209",
+        "scorm-codec.js": "f40d579c37872e3f5f014a3533cb83a2a3e88496e1459f3f2a98735ea182d3dc",
+        "situation.js": "99ea88003e6db338a22d3787cfca100de6eb43b291a27c1a61a4eaffbc3be6ee",
+        "lg01.js": "069fcbff441d7bb1c9dec691a3c04f929bf1e2e6d61b763af2110745eedd2421"
+      }
+    }
+  ]
+}
