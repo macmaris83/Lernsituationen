@@ -58,7 +58,7 @@ body[data-phase-layout] .assignment-moodle .merged-moodle-link{border:0;backgrou
 .task-symbol-setting select {width:100%;font-size:.9rem;min-height:38px;cursor:pointer;pointer-events:auto}
 @media(max-width:600px){.task-symbol-setting{grid-template-columns:1fr 1fr;gap:8px}.task-symbol-heading{grid-column:1/-1}}
 
-.pdf-export-link{display:inline-flex;align-items:center;gap:6px}.pdf-link-icon{width:20px;height:20px;flex:none;color:#d92828}
+.pdf-export-link{display:inline-flex;align-items:center;gap:6px}.pdf-link-icon{width:20px;height:20px;flex:none;color:inherit}
 
 /* Kompakter, per Tastatur bedienbarer Materialzugriff. */
 body .main .lesson-content :is(.material-access,.phase-materials){padding:6px 12px;margin:12px 0;border-radius:12px}
@@ -259,7 +259,6 @@ body[data-page="index.html"] .orientation-competence-list :is(.competence-row,ar
 body[data-page="index.html"] .orientation-competence-list h3{margin:0}
 
 /* Full-document PDF is separate from phase-only GoodNotes workbooks. */
-.acrobat-pdf-icon{width:21px;height:24px;flex:none;vertical-align:middle}
 .footer-utils [data-document-pdf]{display:inline-flex;align-items:center;gap:6px}
 .document-pdf-compact{width:40px;min-width:40px;min-height:40px;padding:6px;flex:none}
 .focus-back-actions{display:flex;align-items:center;gap:6px;justify-self:start;min-width:0;flex-wrap:wrap}
@@ -296,3 +295,6 @@ body.material-reading .page-footer{padding-bottom:90px}
 
 /* Hide other task cards reliably even when compact layout uses display:grid. */
 body.task-focus .lesson-content .assignment-frame.focus-suppressed{display:none!important}
+
+/* Shared monochrome print/editor footer standard. */
+.footer-utils{flex-wrap:wrap;align-items:center}.footer-utils [data-document-pdf],.footer-utils [data-editor-link]{display:inline-flex;align-items:center;gap:6px}.footer-action-icon{width:20px;height:20px;flex:none;vertical-align:middle;color:#59636d}
