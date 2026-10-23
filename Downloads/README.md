@@ -12,7 +12,7 @@ Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-K
 | BRC | Bei Kapitalgebern pitchen | 1.0 | [ZIP](BRC-LG01-LS04/BRC_LG01_LS04_v1.0_SCORM12.zip) |
 | BRC | Ein Unternehmen gründen | 1.0 | [ZIP](BRC-LG01-LS05/BRC_LG01_LS05_v1.0_SCORM12.zip) |
 | BRC | Geschäfte abwickeln | 1.0 | [ZIP](BRC-LG01-LS06/BRC_LG01_LS06_v1.0_SCORM12.zip) |
-| BRC | BioCasa OS · Rechnungswesen | 0.19 | [ZIP](BRC-BIOCASA-OS/BioCasa_OS_v0.19_SCORM12.zip) |
+| BRC | BioCasa OS · Rechnungswesen | 0.20 | [ZIP](BRC-BIOCASA-OS/BioCasa_OS_v0.20_SCORM12.zip) |
 | Sozialpädagogik | Berufsrolle begründen | 1.0 | [ZIP](SOZPAED-LERNPFAD-LS1_1/SozPaed_Lernpfad_LS1_1_v1.0_SCORM12.zip) |
 | Sozialpädagogik | Erziehungsbedingungen beurteilen | 1.0 | [ZIP](SOZPAED-LERNPFAD-LS1_2/SozPaed_Lernpfad_LS1_2_v1.0_SCORM12.zip) |
 | Sozialpädagogik | Beziehungen gestalten | 1.0 | [ZIP](SOZPAED-LERNPFAD-LS1_3/SozPaed_Lernpfad_LS1_3_v1.0_SCORM12.zip) |

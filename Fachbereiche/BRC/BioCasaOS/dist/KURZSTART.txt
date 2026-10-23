@@ -1,4 +1,4 @@
-BioCasa OS 0.19 – Moodle-Erprobung
+BioCasa OS 0.20 – Moodle-Erprobung
 ================================
 
 EINMALIG ALS LEHRKRAFT EINRICHTEN
@@ -95,7 +95,7 @@ T-KONTEN ERÖFFNEN UND ABSCHLIESSEN (NEU IN 0.8)
 - Dies ist eine didaktische Abschlussansicht mit den Gegenbuchungen auf
   801 (SBK) bzw. 802 (GuV). Ein vollständiger Jahresabschluss folgt später.
 
-KLEINER TOUCH-RECHNER (0.19)
+KLEINER TOUCH-RECHNER (0.20)
 - Tippe auf ± neben einem Betragsfeld. Die Rechenhilfe schwebt über dem Formular.
   „Übernehmen in“ nennt das gewählte Ziel. Geschlossen belegt sie keinen Platz.
 - Gib deine Zahlen ein und rechne mit + und −. Runde Tasten, dunkle Anzeige,
@@ -296,7 +296,7 @@ ABNAHME 0.6
 - Auf dem Schul-iPad die Dateiauswahl in „Dateien“, Upload-Vorschau und den
   Schuljahreswechsel im echten Moodle prüfen. Dieser Gerätetest steht noch aus.
 
-BILANZAUSSCHNITT UND BUCHUNGSSATZ (0.19)
+BILANZAUSSCHNITT UND BUCHUNGSSATZ (0.20)
 - Die Bilanzwirkung zeigt Anlagevermögen und Umlaufvermögen links sowie
   Eigenkapital und Fremdkapital rechts. Graue Gruppenüberschriften geben Struktur.
 - Betroffene Konten stehen mit Nummer, Kontobezeichnung und Veränderungsbetrag
@@ -326,3 +326,13 @@ KOMPAKTER ARBEITSBEREICH
 - Profil oben links: Arbeitsbereiche; Übungsstand & Dateien mit Fallstand und
   letzter Sicherung; in der Vorschau zusätzlich die Lehrkräfte-Direktwahl.
 - Das Speichersymbol im Kopf bleibt antippbar. Fehler werden sichtbar gemeldet.
+
+KOMPAKTES MENÜ
+- LS-Kacheln: Symbol, kurzer Themenname und Statuszeichen. Das i öffnet
+  die Materialinformation mit dem ursprünglichen Titel.
+- Profil: Import, Export und die drei Kernwerkzeuge. Einstellungen, Übungsstand
+  und weitere Bereiche bei Bedarf aufklappen; dort auch die Ansicht wählen.
+- Neue Buchung und Journal stehen ab LS02 je einmal in der Befehlsleiste.
+- Im Buchungsfokus wählen T-Konten/Bilanz/GuV die Fenster. Unter „Ansicht“
+  passen Seitenwechsel, Breite und Berichtsanordnung den Arbeitsplatz an.
+- Dialoge über das Kreuz oben schließen.

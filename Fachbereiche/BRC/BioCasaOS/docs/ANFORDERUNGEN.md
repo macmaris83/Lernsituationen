@@ -99,3 +99,11 @@ Alle Zeilen zwischen den LS-Kacheln und „Neue Buchung“ entfernen: zusätzlic
 ## Präzisierung 18.10.2026 · Buchungsaktionen ab der zweiten Lernsituation
 
 Neue Buchung und Journal erscheinen in der Hauptansicht erst ab der zweiten Lernsituation (Bestandskonten). In Inventur, Inventar und der Bilanzaufgabe die gesamte Befehlsleiste ohne Platzhalter ausblenden, auch beim späteren Wiederholen und in der Lehrkräftevorschau. Das Anzeigen ersetzt keine fachliche Freigabe: Erst nach der Konteneröffnung sind die bisherigen Buchungsaktionen für Lernende nutzbar. Keine Änderung an Aufgaben, Daten oder Lernständen.
+
+
+
+## Präzisierung 23.10.2026 · Menü entschlacken und Dopplungen entfernen
+
+Auf ausdrücklichen Nutzerauftrag Menüs auf Symbole, kurze Bezeichnungen und Statuszeichen reduzieren. Ausführliche Texte bleiben bei Buchungsfällen und Didaktik. Kurze Themenlabels in den LS-Kacheln ersetzen die langen sichtbaren Originaltitel; die Originale sind weiterhin über Materialinformation und zugängliche Beschriftungen verfügbar. Eine Kopfzeile mit Logo und Produktname; die bisherige zusätzliche Firmenzeile entfällt. Profil mit Import/Export und drei Werkzeugkacheln; Name/Hilfen/Farben, Übungsstand und weitere Bereiche werden erst bei Bedarf geöffnet. Ansichtsauswahl dort bündeln. Die Suche bietet Treffer erst nach Eingabe.
+
+Redundanzen: Neue Buchung/Journal je einmal in der Befehlsleiste, keine weiteren identischen Buchungstabs oder Kopf-/Fall-Schaltflächen. Dialoge mit einem Schließkreuz, kein zweiter identischer Standard-Schließen-Knopf im Fuß. Die drei Fensterumschalter des Buchungsfokus bleiben der einzige Zugang zum Ein-/Ausblenden; weitere Layoutaktionen unter „Ansicht“ einklappen. Prüfen, Buchen, fachliche Fragen und notwendige Bestätigungen bleiben eigenständige Aktionen. Große Touchflächen, bestehende Freigaben und Zwischenstände erhalten.

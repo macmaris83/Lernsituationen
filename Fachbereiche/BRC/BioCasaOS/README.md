@@ -2,9 +2,9 @@
 
 Dies ist der fortzuführende Quellcode des bestehenden BioCasa OS. Das Lernunternehmen bildet Inventur, Inventar, Bilanz und Buchführung für Jahrgang 11 ab. Lager (Jg. 12) und Controlling (Jg. 13) greifen auf denselben Datenkranz zu. Die Oberfläche orientiert sich an Dynamics; der Produktname bleibt **BioCasa OS**.
 
-**Paketversion: 0.19.** Übernommen aus der Sites-Fassung 0.10.0 vom 16.10.2026; npm verwendet zur zweistelligen Paketnummer die entsprechende SemVer X.Y.0. Aufgaben-, Manifest- und Speicherkennungen wurden beim Umzug nicht geändert.
+**Paketversion: 0.20.** Übernommen aus der Sites-Fassung 0.10.0 vom 16.10.2026; npm verwendet zur zweistelligen Paketnummer die entsprechende SemVer X.Y.0. Aufgaben-, Manifest- und Speicherkennungen wurden beim Umzug nicht geändert.
 
-Die neun Lernsituationen stehen mit vollständigen Originaltiteln einmal direkt am Header. Das Profil oben links enthält Import, Export und persönliche Einstellungen. Ab der zweiten Lernsituation stehen direkt darunter Neue Buchung und Journal; in Inventur, Inventar und der Bilanzaufgabe bleiben beide ausgeblendet. Arbeitsbereiche, Fallstand und Sicherungsdetails sind im Profil erreichbar; der Speicherstatus bleibt als Symbol im Kopf. Ein Rollencenter und ein eigener Bereich für Lernaufträge entfallen; bestehende OS-Buchungschecks und Zwischenstände bleiben erhalten.
+Die neun Lernsituationen stehen als kurze Themenkacheln mit Symbol und Statuszeichen am Header. Originaltitel bleiben über Materialinformationen und zugängliche Beschriftungen verfügbar. Das Profil zeigt Import/Export und die drei Kernwerkzeuge; Einstellungen und weitere Bereiche sind zunächst eingeklappt. Neue Buchung und Journal erscheinen ab der zweiten Lernsituation je einmal. Der Speicherstatus bleibt als Symbol im Kopf; Fallstand und Sicherungsdetails sind im Profil erreichbar.
 
 ## In Codex fortsetzen
 
@@ -67,4 +67,5 @@ GitHub ist der fortzuführende Code-Master. Ein Commit ist keine Veröffentlichu
 Der bisherige Chatverlauf und ursprüngliche MD-/Lehrbuchmaterialien werden nicht automatisch Teil einer Codex-Umgebung. Die Anforderungen und Herkunft sind hier zusammengefasst; Lehrbuchscans und Original-Lernpakete sind in diesem Codeimport nicht enthalten. Fehlende Originalquellen dürfen nicht durch erfundene Seitenangaben ersetzt werden.
 
 Ältere technische Notizen: [übernommener Sites-Entwicklungsstand](docs/SITES-ENTWICKLUNGSSTAND.md). Bei abweichenden älteren Beschreibungen gelten AGENTS.md, Anforderungen und aktueller Code.
+
 

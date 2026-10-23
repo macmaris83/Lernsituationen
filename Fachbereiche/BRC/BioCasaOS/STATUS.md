@@ -1,6 +1,6 @@
 # Prüf- und Übergabestand
 
-Aktueller Stand: **18.10.2026**, Paketversion **0.19**. Ursprung: Sites-Fassung **0.10.0**.
+Aktueller Stand: **23.10.2026**, Paketversion **0.20**. Ursprung: Sites-Fassung **0.10.0**.
 
 ## Vorhanden
 
@@ -163,3 +163,17 @@ Neue Buchung und Journal sind in der Hauptansicht während Inventur, Inventar un
 Prüfung: 159 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich; Schüler-ZIP mit 27 Manifestdateien bytegenau abgeglichen. Der neue Ereignistest durchläuft Inventur → Inventar → Bilanz → Bestandskonten, prüft die unveränderte Sperre, die freigegebenen Aktionen, Rückkehr/Wiederaufnahme der ersten Lernsituation sowie die getrennte Lehrkräftevorschau ohne künstlichen Nachweis. Der synthetische 0.10-Moodle-Stand wird weiterhin erhalten. VM-/SCORM-Simulation, keine reale visuelle Browser-/iPad-/Moodle-Abnahme.
 
 Release-Quelle der bestehenden privaten Site: `a9a3000d434d09fd1c1a3527f9c8e0fbe01fa0ff` (0.19); Veröffentlichung erfolgreich. GitHub-Master und Site-Laufzeit wurden bytegleich abgeglichen. Das aktuelle Schülerpaket enthält denselben Laufzeitstand; eine installierte Moodle-ZIP muss separat in derselben Aktivität ersetzt werden.
+
+
+
+## Oberfläche 0.20 · kompaktes Menü und eindeutige Aktionen
+
+Auf Nutzerauftrag Navigation auf kurze Themenkacheln, wiederkehrende Symbole und Statuszeichen reduziert. Die Originaltitel stehen weiterhin in den zugänglichen Beschriftungen und Materialinformationen. Zusätzliche Firmenkopfzeile, wiederholte Produkt-/Bereichsbezeichnungen und sichtbare Menühinweise entfallen. Profil: Import/Export und drei Kernwerkzeuge; Name, Hilfen/Farben und ergänzende Bereiche erst beim Aufklappen. Die Ansichtsauswahl steht im Profil. Suchtreffer erscheinen nach Eingabe, mit denselben fachlichen Sperren.
+
+Entfernte Dopplungen: Neue Buchung in den Buchhaltungs-/Bilanzköpfen und am Ende desselben Übungsfalls; zweite Buchungsblatt-/Journal-Tableiste; Standard-Schließen-Knöpfe im Dialogfuß; zweiter Speichern-Knopf im Profil; Schließen-Knöpfe neben den drei bestehenden Fokus-Fensterumschaltern. Layoutaktionen stehen unter „Ansicht“. Die Kontenentscheidungen, Eingaben, Falltexte, Didaktik, Bestätigungsdialoge und Speicher-/Fehlerrückmeldungen bleiben vorhanden. Keine neue Lernstandsstruktur, keine neuen Speicherkennungen.
+
+Prüfung: 160 Node-Tests, 20 zentrale Exporttests und 4 Projekt-/Versionstests erfolgreich; Schüler-ZIP mit 27 Manifestdateien bytegenau abgeglichen. Die Ereignistests prüfen tatsächliche Zielwechsel, unveränderte Sperren, die jeweils einzige Aktion, Einstellungswechsel ohne Formularneuaufbau sowie alte Zwischenstände einschließlich der synthetischen 0.10-Datei.
+
+Zusätzlich im lokalen Chrome-Browser geprüft: Hauptansicht und Profil visuell; Suche leer und mit gesperrtem Treffer; aufklappbare Einstellungen und Hilfenwechsel; freie Lehrkräfteauswahl, Buchungsfokus mit drei Fensterumschaltern und eingeklappter Ansichtsanpassung. Touchflächen im Menü wurden am DOM gemessen und auf mindestens 48 × 48 CSS-Pixel gehalten. Bildschirmabbild: `docs/oberflaeche.jpg`. Dies ist eine Desktop-Browserprüfung; reale iPad-/Moodle-App- und Schulserver-Abnahme bleiben offen.
+
+Release-Quelle der bestehenden Website: `d67b477e8f77e54346ee688aaa55d182f4bc31bb` (0.20); Veröffentlichung erfolgreich. Das vorhandene Publikum wurde beibehalten. GitHub-Master und Site-Laufzeit wurden bytegleich abgeglichen. Das neue Schülerpaket enthält denselben Stand; eine installierte Moodle-ZIP muss separat in derselben Aktivität ersetzt werden.
