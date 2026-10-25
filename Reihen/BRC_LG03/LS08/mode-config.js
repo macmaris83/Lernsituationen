@@ -1,0 +1,1 @@
+window.SOZ_CONFIG={"mode": 1, "allowStudentMode": false, "moodle": {}, "media": {}, "overrides": {}, "packageRevision": "BRC-LG03-LS08-20261015-2", "pinHash": 1509442};
