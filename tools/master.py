@@ -24,9 +24,10 @@ def digest(data):
 
 
 def version(value):
-    if not isinstance(value, str) or not re.fullmatch(r'(0|[1-9]\d*)\.(0|[1-9]\d*)', value):
-        raise ValueError(f'Version muss zwei Zahlen enthalten, z. B. 1.2: {value!r}')
-    return tuple(map(int, value.split('.')))
+    if not isinstance(value, str) or not re.fullmatch(r'(0|[1-9]\d*)\.(0|[1-9]\d*)(?:\.(0|[1-9]\d*))?', value):
+        raise ValueError(f'Version muss zwei oder drei Zahlen enthalten, z. B. 1.2 oder 1.8.1: {value!r}')
+    parts = tuple(map(int, value.split('.')))
+    return parts if len(parts) == 3 else parts + (0,)
 
 
 def within(root, relative):
@@ -273,10 +274,17 @@ def export(root, selected=None):
     write_index(root, data, entries, master_hashes)
 
 
-def check(root, archives=False):
+def check(root, archives=False, selected=None):
     data = catalog(root)
     index = {item['id']: item for item in read_index(root)['packages']}
+    chosen = set(selected) if selected is not None else None
+    if chosen is not None and chosen - {p['id'] for p in data['packages']}:
+        raise ValueError('Unbekannte Master in der Prüfauswahl')
+    checked = 0
     for item in data['packages']:
+        if chosen is not None and item['id'] not in chosen:
+            continue
+        checked += 1
         files = files_for(root, item)
         master_hash, hashes = snapshot(files)
         if archives:
@@ -290,9 +298,9 @@ def check(root, archives=False):
                 raise ValueError(f'{item["id"]}: ZIP-Inhalt/Prüfsumme stimmt nicht')
             if len(list(target.parent.glob('*.zip'))) != 1:
                 raise ValueError(f'{item["id"]}: mehrere aktuelle ZIPs')
-    if archives and set(index) != {item['id'] for item in data['packages']}:
+    if archives and chosen is None and set(index) != {item['id'] for item in data['packages']}:
         raise ValueError('Download-Katalog enthält nicht genau die registrierten Master')
-    print(f'{len(data["packages"])} Master geprüft' + ('; alle ZIPs aktuell und inhaltsgleich.' if archives else '.'))
+    print(f'{checked} Master geprüft' + ('; alle ZIPs aktuell und inhaltsgleich.' if archives else '.'))
 
 
 def main():

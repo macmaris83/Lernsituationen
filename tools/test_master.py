@@ -434,8 +434,13 @@ class CurrentExportTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'manifestOnly'):
             master.catalog(self.root)
 
-    def test_versions_require_two_numeric_parts(self):
-        for value in ('1.2.3', '1', 'v1.2', '01.2', '1.02', '-1.2', '1.2-final', 1.2):
+    def test_patch_versions_preserve_numeric_order(self):
+        self.assertEqual(master.version('1.8'), master.version('1.8.0'))
+        self.assertLess(master.version('1.8'), master.version('1.8.1'))
+        self.assertLess(master.version('1.8.1'), master.version('1.9'))
+
+    def test_versions_require_two_or_three_numeric_parts(self):
+        for value in ('1.2.3.4', '1.2.03', '1', 'v1.2', '01.2', '1.02', '-1.2', '1.2-final', 1.2):
             with self.subTest(version=value):
                 with self.assertRaises(ValueError):
                     master.version(value)

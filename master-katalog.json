@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "policy": "Ein fortlaufender Master und genau eine aktuelle ZIP je Eintrag. Zweiteilige Anzeigenummer unabhängig von SCORM- und Lernstandskennungen.",
+  "policy": "Ein fortlaufender Master und genau eine aktuelle ZIP je Eintrag. Zwei- oder dreiteilige Anzeigenummer unabhängig von SCORM- und Lernstandskennungen.",
   "packages": [
     {
       "id": "BRC-LG01-LS01",
@@ -342,7 +342,7 @@
       "bereich": "Vorlagen",
       "typ": "Vorlage",
       "master": "Vorlagen/Lernsituation_tradiert",
-      "version": "1.4",
+      "version": "1.8.1",
       "archiveStem": "Vorlage_Lernsituation_tradiert"
     },
     {
@@ -351,7 +351,7 @@
       "bereich": "Vorlagen",
       "typ": "Vorlage",
       "master": "Vorlagen/Lernsituation_fuenf_Lernwege",
-      "version": "1.4",
+      "version": "1.8.1",
       "archiveStem": "Vorlage_Lernsituation_fuenf_Lernwege"
     },
     {

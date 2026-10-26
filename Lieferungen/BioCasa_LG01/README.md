@@ -1,15 +1,17 @@
 # BioCasa · LG01 · Aktuelle Moodle-Lernpakete
 
-Überarbeitete Fassung der sechs bereitgestellten Pakete mit der aktuellen GitHub-Oberfläche und vorrangig für das iPad ausgelegter Touch-Bedienung. **LS04 ist in Version 1.8 fachlich als Business-Angel-Rollenspiel überarbeitet. LS01–LS03, LS05 und LS06 bleiben in Version 1.7.**
+Überarbeitete Fassung der sechs bereitgestellten Pakete mit der aktuellen GitHub-Oberfläche und vorrangig für das iPad ausgelegter Touch-Bedienung. **LS04 ist in Version 1.8.1 fachlich als Business-Angel-Rollenspiel überarbeitet. LS01–LS03, LS05 und LS06 bleiben in Version 1.7.**
 
-Gesamtes Set herunterladen: [LS01–LS03](BioCasa_LG01_LS01-LS03_v1.7.zip?raw=1) und [LS04–LS06](BioCasa_LG01_LS04-LS06_v1.8.zip?raw=1). Beide Sammelarchive lassen sich unabhängig entpacken. In Moodle jeweils die darin enthaltenen Einzel-ZIPs hochladen.
+Version 1.8.1 entfernt ausschließlich den zusätzlichen blauen Innenrahmen und die weiße Innenfläche der vier rechten Fußsymbole. Die äußeren Schaltflächen, Symbole und Links bleiben erhalten. Die beiden Lernsituationsvorlagen übernehmen dieselbe Änderung; ihre Katalogversion ist 1.8.1. Der vorhandene GitHub-Workflow exportiert sie automatisch. `python3 tools/update_footer_v181.py` erzeugt die angepasste 1.8.1-Referenz und ihr Sammelarchiv reproduzierbar; alle Fachtexte, Aufgaben, Fortschrittskennungen und übrigen Dateien der Referenz bleiben bytegleich.
+
+Gesamtes Set herunterladen: [LS01–LS03](BioCasa_LG01_LS01-LS03_v1.7.zip?raw=1) und [LS04–LS06](BioCasa_LG01_LS04-LS06_v1.8.1.zip?raw=1). Beide Sammelarchive lassen sich unabhängig entpacken. In Moodle jeweils die darin enthaltenen Einzel-ZIPs hochladen.
 
 | Lernsituation | Einzelpaket | PDF |
 |---|---|---|
 | LS01 · Eine Geschäftsidee entwickeln | [SCORM 1.2 herunterladen](BRC_LG01_LS01_v1.7_SCORM12.zip?raw=1) | [A4-Gesamtdokument](PDF/LS01_Gesamtdokument_A4.pdf?raw=1) |
 | LS02 · Eine Unternehmensberatung besuchen | [SCORM 1.2 herunterladen](BRC_LG01_LS02_v1.7_SCORM12.zip?raw=1) | [A4-Gesamtdokument](PDF/LS02_Gesamtdokument_A4.pdf?raw=1) |
 | LS03 · Einen Business-Plan erstellen | [SCORM 1.2 herunterladen](BRC_LG01_LS03_v1.7_SCORM12.zip?raw=1) | [A4-Gesamtdokument](PDF/LS03_Gesamtdokument_A4.pdf?raw=1) |
-| LS04 · Bei Business Angels pitchen | [SCORM 1.2 herunterladen](BRC_LG01_LS04_v1.8_SCORM12.zip?raw=1) | [A4-Gesamtdokument](PDF/LS04_Gesamtdokument_A4.pdf?raw=1) |
+| LS04 · Bei Business Angels pitchen | [SCORM 1.2 herunterladen](BRC_LG01_LS04_v1.8.1_SCORM12.zip?raw=1) | [A4-Gesamtdokument](PDF/LS04_Gesamtdokument_A4.pdf?raw=1) |
 | LS05 · Ein Unternehmen gründen | [SCORM 1.2 herunterladen](BRC_LG01_LS05_v1.7_SCORM12.zip?raw=1) | [A4-Gesamtdokument](PDF/LS05_Gesamtdokument_A4.pdf?raw=1) |
 | LS06 · Geschäfte abwickeln | [SCORM 1.2 herunterladen](BRC_LG01_LS06_v1.7_SCORM12.zip?raw=1) | [A4-Gesamtdokument](PDF/LS06_Gesamtdokument_A4.pdf?raw=1) |
 
