@@ -4,14 +4,10 @@ Pro Master genau eine aktuelle ZIP. Versionsnummern haben zwei Teile (z. B. 1.2)
 Die Dateien werden aus den gepflegten Mastern erzeugt; frühere Fassungen liegen in der Git-Historie.
 Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-Kopien werden nicht automatisch ersetzt.
 
+Aktuelle BioCasa-LG01-Uploadpakete ab Version 1.7: [Lieferübersicht](../Lieferungen/BioCasa_LG01/README.md).
+
 | Bereich | Lernsituation / Vorlage | Version | Aktuelles Paket |
 |---|---|---|---|
-| BRC | Eine Geschäftsidee entwickeln | 1.4 | [ZIP](BRC-LG01-LS01/BRC_LG01_LS01_v1.4_SCORM12.zip) |
-| BRC | Eine Unternehmensberatung besuchen | 1.4 | [ZIP](BRC-LG01-LS02/BRC_LG01_LS02_v1.4_SCORM12.zip) |
-| BRC | Einen Business-Plan erstellen | 1.4 | [ZIP](BRC-LG01-LS03/BRC_LG01_LS03_v1.4_SCORM12.zip) |
-| BRC | Bei Business Angels pitchen | 1.5 | [ZIP](BRC-LG01-LS04/BRC_LG01_LS04_v1.5_SCORM12.zip) |
-| BRC | Ein Unternehmen gründen | 1.4 | [ZIP](BRC-LG01-LS05/BRC_LG01_LS05_v1.4_SCORM12.zip) |
-| BRC | Geschäfte abwickeln | 1.4 | [ZIP](BRC-LG01-LS06/BRC_LG01_LS06_v1.4_SCORM12.zip) |
 | BRC | BioCasa OS · Rechnungswesen | 0.19 | [ZIP](BRC-BIOCASA-OS/BioCasa_OS_v0.19_SCORM12.zip) |
 | Sozialpädagogik | Berufsrolle begründen | 1.0 | [ZIP](SOZPAED-LERNPFAD-LS1_1/SozPaed_Lernpfad_LS1_1_v1.0_SCORM12.zip) |
 | Sozialpädagogik | Erziehungsbedingungen beurteilen | 1.0 | [ZIP](SOZPAED-LERNPFAD-LS1_2/SozPaed_Lernpfad_LS1_2_v1.0_SCORM12.zip) |
