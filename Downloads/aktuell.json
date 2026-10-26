@@ -1,4 +1,29 @@
 {
   "schemaVersion": 1,
-  "packages": []
+  "packages": [
+    {
+      "id": "VORLAGE-TRADIERT",
+      "title": "Vorlage: tradierte Lernsituation · Berufsrolle begründen",
+      "bereich": "Vorlagen",
+      "typ": "Vorlage",
+      "master": "Vorlagen/Lernsituation_tradiert",
+      "version": "1.8.1",
+      "archive": "Downloads/VORLAGE-TRADIERT/Vorlage_Lernsituation_tradiert_v1.8.1_SCORM12.zip",
+      "masterSha256": "7171eaf69edf2eede17c76d578f7eab89a37aee6b91c831254265786770839f3",
+      "archiveSha256": "0e2e7a982d7e7af19775b00565d807891847aafa6b820220106d09b26c1da3ad",
+      "files": 84
+    },
+    {
+      "id": "VORLAGE-FUENF-LERNWEGE",
+      "title": "Vorlage: fünf Lernwege · Businessplan",
+      "bereich": "Vorlagen",
+      "typ": "Vorlage",
+      "master": "Vorlagen/Lernsituation_fuenf_Lernwege",
+      "version": "1.8.1",
+      "archive": "Downloads/VORLAGE-FUENF-LERNWEGE/Vorlage_Lernsituation_fuenf_Lernwege_v1.8.1_SCORM12.zip",
+      "masterSha256": "1b11cd52a15d112cc00706a78ab0d312a46fe6ed47d4a411e66d50d43664ad19",
+      "archiveSha256": "e01d30775716054d8498d40b3ec273e435d73a314e36dc5e1155f927182f0fd7",
+      "files": 148
+    }
+  ]
 }
