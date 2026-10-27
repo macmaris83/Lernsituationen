@@ -34,6 +34,11 @@ kann diesen Standard jederzeit ausdrücklich ändern.
   oder dem Wort „Aktualisiert“ ableiten. Vor Veröffentlichung den aktuellen Master
   mit dem Export vergleichen und die notwendigen Funktionsprüfungen durchführen.
 
+
+## Gemeinsamer Versionsstand der Lernsituationsvorlagen
+
+Wenn der Nutzer einen neuen Formstand bzw. eine neue GitHub-Version für Lernsituationen vorgibt, sind beide Lernsituationsvorlagen `Vorlagen/Lernsituation_tradiert` und `Vorlagen/Lernsituation_fuenf_Lernwege` auf diesen Stand zu bringen. Die Änderungen müssen tatsächlich in Gestaltung und Funktionen umgesetzt und geprüft werden; eine bloße Änderung der Versionsnummer reicht nicht. Katalog und aktuelle SCORM-Exporte anschließend passend aktualisieren. Lernsituationsspezifische Inhalte und bestehende Kennungen erhalten. Die eigenständige Lernpfadübung ist nicht automatisch umfasst.
+
 ## Getrennte Vorlagentypen
 
 `Vorlagen/Lernpfaduebung/` und `Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/`
