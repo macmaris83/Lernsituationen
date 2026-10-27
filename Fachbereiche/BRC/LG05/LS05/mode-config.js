@@ -1,0 +1,1 @@
+window.SOZ_CONFIG={"mode":1,"allowStudentMode":false,"pinHash":1509442,"moodle":{},"overrides":{},"media":{},"packageRevision":"LG05-v1.8.1-task-layout-competency-20261027","previousPackageRevision":"LG05-v1.8.1-orientation-mc-editor-20261027"};

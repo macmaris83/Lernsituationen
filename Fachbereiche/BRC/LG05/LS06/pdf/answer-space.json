@@ -1,0 +1,277 @@
+{
+  "0:1:1": {
+    "lines": 24,
+    "reason": "Rücklaufquote, sechs Zustimmungsanteile und Prozentpunktvergleich mit Nennern, Rechenweg und Einordnung.",
+    "area": "grid"
+  },
+  "0:1:2": {
+    "lines": 14,
+    "reason": "Mindestanforderungen, Mitarbeiterinteressen und Konflikte zwischen Gruppen mit Belegen herausarbeiten.",
+    "area": "lines"
+  },
+  "0:1:3": {
+    "lines": 18,
+    "reason": "Drei Arbeitszeitmodelle anhand mehrerer gemeinsamer Kriterien übersichtlich vergleichen.",
+    "area": "grid"
+  },
+  "0:1:4": {
+    "lines": 16,
+    "reason": "Gesetzliche Grenzen und Mitbestimmungsfelder auf die konkreten Arbeitszeitbestandteile anwenden.",
+    "area": "lines"
+  },
+  "0:1:5": {
+    "lines": 18,
+    "reason": "Hygienefaktoren, Motivatoren sowie intrinsische und extrinsische Anreize mit Fallbezug zuordnen.",
+    "area": "grid"
+  },
+  "0:1:6": {
+    "lines": 8,
+    "reason": "Mehrere mögliche Fehlanreize benennen und ihre Wirkung knapp erläutern.",
+    "area": "lines"
+  },
+  "0:2:1": {
+    "lines": 20,
+    "reason": "Fünf Perspektiven in einer Konflikttabelle mit je mindestens einem Materialbeleg ordnen.",
+    "area": "grid"
+  },
+  "0:2:2": {
+    "lines": 44,
+    "reason": "Materialgestützten Zielkonflikt aus fünf Perspektiven analysieren und acht nachvollziehbare Kennzahlenrechnungen ergänzen.",
+    "area": "grid"
+  },
+  "0:3:1": {
+    "lines": 48,
+    "reason": "Umfassende Analyse von sieben Materialien und fünf Perspektiven mit acht Rechnungen und Prognosegrenzen.",
+    "area": "grid"
+  },
+  "0:4:1": {
+    "lines": 52,
+    "reason": "Kontroverse und Alternativgrenzen selbstständig erschließen; Wahrnehmung, Ursache, Recht, Prognose und acht Rechnungen trennen.",
+    "area": "grid"
+  },
+  "0:5:1": {
+    "lines": 52,
+    "reason": "Kontroverse und Alternativgrenzen selbstständig erschließen; Wahrnehmung, Ursache, Recht, Prognose und acht Rechnungen trennen.",
+    "area": "grid"
+  },
+  "1:1:1": {
+    "lines": 6,
+    "reason": "Vorläufige Position und eine noch zu klärende materialbezogene Frage formulieren.",
+    "area": "lines"
+  },
+  "1:1:2": {
+    "lines": 24,
+    "reason": "Mehrere Pro- und Kontra-Argumentketten mit Behauptung, Begründung, Beleg und Leitfragenbezug sammeln.",
+    "area": "grid"
+  },
+  "1:1:3": {
+    "lines": 10,
+    "reason": "Argumentreihenfolge planen und mit der vorläufigen Position sowie M6/M7 verbinden.",
+    "area": "lines"
+  },
+  "1:2:1": {
+    "lines": 24,
+    "reason": "Leitfrage, beiderseitige Argumentketten, Gewichtung und Urteil in einem Erörterungsplan anordnen.",
+    "area": "grid"
+  },
+  "1:2:2": {
+    "lines": 24,
+    "reason": "Beleggestützten Pro-/Kontra-Plan mit Bewertungsmaßstäben und Gewichtung entwickeln.",
+    "area": "grid"
+  },
+  "1:3:1": {
+    "lines": 30,
+    "reason": "Vollständigen Pro-/Kontra-Plan mit Materialbelegen, Wirkung, Grenzen und Gewichtung entwickeln.",
+    "area": "grid"
+  },
+  "1:4:1": {
+    "lines": 30,
+    "reason": "Selbstständigen Erörterungsplan mit tragfähiger Gegenposition, Belegen und eigener Abwägung entwickeln.",
+    "area": "grid"
+  },
+  "1:5:1": {
+    "lines": 30,
+    "reason": "Selbstständigen Erörterungsplan mit tragfähiger Gegenposition, Belegen und eigener Abwägung entwickeln.",
+    "area": "grid"
+  },
+  "2:1:1": {
+    "lines": 22,
+    "reason": "Argumente gewichten, zwei absolute und zwei relative Mehrkosten berechnen und erforderlichen Nutzen erklären.",
+    "area": "grid"
+  },
+  "2:1:2": {
+    "lines": 8,
+    "reason": "Eindeutige oder bedingte Position mit Begründung formulieren.",
+    "area": "lines"
+  },
+  "2:1:3": {
+    "lines": 8,
+    "reason": "Mehrere konkrete Bewertungsmaßstäbe mit ihrer Bedeutung festhalten.",
+    "area": "lines"
+  },
+  "2:2:1": {
+    "lines": 32,
+    "reason": "Drei Modelle auf Zulässigkeit, Motivation und Fairness prüfen; vier Kostenrechnungen und bedingtes Urteil darstellen.",
+    "area": "grid"
+  },
+  "2:2:2": {
+    "lines": 14,
+    "reason": "Gewichtung und Bewertungsmaßstäbe anhand zentraler Argumente begründen.",
+    "area": "lines"
+  },
+  "2:2:3": {
+    "lines": 8,
+    "reason": "Klare Position und gegebenenfalls notwendige Einführungsbedingungen formulieren.",
+    "area": "lines"
+  },
+  "2:3:1": {
+    "lines": 26,
+    "reason": "Maßstäbe und Gewichtung offenlegen, vier Kostenrechnungen darstellen und erwarteten Nutzen kritisch einordnen.",
+    "area": "grid"
+  },
+  "2:3:2": {
+    "lines": 10,
+    "reason": "Klare oder bedingte Position einschließlich wesentlicher Gegenfrage begründen.",
+    "area": "lines"
+  },
+  "2:4:1": {
+    "lines": 36,
+    "reason": "Eigene begründete Bewertung mit Gegenposition, Beschäftigtenfolgen, vier Kostenrechnungen und Nutzennachweis entwickeln.",
+    "area": "grid"
+  },
+  "2:5:1": {
+    "lines": 36,
+    "reason": "Eigene begründete Bewertung mit Gegenposition, Beschäftigtenfolgen, vier Kostenrechnungen und Nutzennachweis entwickeln.",
+    "area": "grid"
+  },
+  "3:1:1": {
+    "lines": 60,
+    "reason": "Ausformulierte Erörterung mit Einleitung, mehreren belegten Pro-/Kontra-Argumenten, Rechts-/Theorieanwendung, Abwägung und Schluss.",
+    "area": "lines"
+  },
+  "3:2:1": {
+    "lines": 40,
+    "reason": "Erörterungsentwurf mit Aufbau nach M8 und Verknüpfung von Recht, Theorie und BioCasa-Belegen.",
+    "area": "lines"
+  },
+  "3:2:2": {
+    "lines": 60,
+    "reason": "Vollständige adressatenbezogene Erörterung mit beiden Argumentseiten, Materialbelegen, Abwägung und Schlussurteil.",
+    "area": "lines"
+  },
+  "3:3:1": {
+    "lines": 60,
+    "reason": "Vollständige adressatenbezogene Erörterung mit beiden Argumentseiten, Materialbelegen, Abwägung und Schlussurteil.",
+    "area": "lines"
+  },
+  "3:4:1": {
+    "lines": 60,
+    "reason": "Selbstständig gegliederte Erörterung mit ernsthafter Gegenposition, mehreren Belegen, Abwägung und begründetem Schluss.",
+    "area": "lines"
+  },
+  "3:5:1": {
+    "lines": 60,
+    "reason": "Selbstständig gegliederte Erörterung mit ernsthafter Gegenposition, mehreren Belegen, Abwägung und begründetem Schluss.",
+    "area": "lines"
+  },
+  "4:1:1": {
+    "lines": 14,
+    "reason": "Sechs Reviewkriterien sowie Lehrkrafthinweise und daraus abgeleitete Änderungen dokumentieren.",
+    "area": "lines"
+  },
+  "4:1:2": {
+    "lines": 14,
+    "reason": "Zu ersetzende oder ergänzende Textpassagen für die Endfassung ausformulieren; keine vollständige Zweitabschrift.",
+    "area": "lines"
+  },
+  "4:2:1": {
+    "lines": 14,
+    "reason": "Drei konkrete Reviewbefunde festhalten und betroffene Textstellen verbessert formulieren.",
+    "area": "lines"
+  },
+  "4:2:2": {
+    "lines": 10,
+    "reason": "Transparente Kriterien und zentrale Peer-/Lehrkraftrückmeldungen festhalten.",
+    "area": "lines"
+  },
+  "4:2:3": {
+    "lines": 14,
+    "reason": "Betroffene Argumentketten und Übergänge überarbeitet ausformulieren.",
+    "area": "lines"
+  },
+  "4:3:1": {
+    "lines": 12,
+    "reason": "Kriterienbezogene Peer-/Lehrkraftrückmeldungen und Überarbeitungsprioritäten festhalten.",
+    "area": "lines"
+  },
+  "4:3:2": {
+    "lines": 14,
+    "reason": "Betroffene Argumentketten und Übergänge überarbeitet ausformulieren.",
+    "area": "lines"
+  },
+  "4:4:1": {
+    "lines": 18,
+    "reason": "Fachliche, rechtliche und argumentative Prüfbefunde mit Klärung und konkreten Textverbesserungen dokumentieren.",
+    "area": "lines"
+  },
+  "4:5:1": {
+    "lines": 18,
+    "reason": "Fachliche, rechtliche und argumentative Prüfbefunde mit Klärung und konkreten Textverbesserungen dokumentieren.",
+    "area": "lines"
+  },
+  "5:1:1": {
+    "lines": 8,
+    "reason": "Stärkstes Gegenargument und seine begrenzende Wirkung auf die eigene Position erläutern.",
+    "area": "lines"
+  },
+  "5:1:2": {
+    "lines": 2,
+    "reason": "Kurze persönliche Notiz zum ansonsten in Moodle ausgeführten Abschluss.",
+    "area": "lines"
+  },
+  "5:2:1": {
+    "lines": 16,
+    "reason": "Faire Arbeitszeitregel, Grenze monetärer Anreize und fünf kurze Kompetenzbelege festhalten.",
+    "area": "lines"
+  },
+  "5:2:2": {
+    "lines": 8,
+    "reason": "Konkrete Stelle der Trennung zwischen persönlichem Werturteil und fachlichem Sachurteil erklären.",
+    "area": "lines"
+  },
+  "5:2:3": {
+    "lines": 2,
+    "reason": "Kurze persönliche Notiz; die Kompetenzbewertung erfolgt im vorgesehenen Selbsteinschätzungsfeld.",
+    "area": "lines"
+  },
+  "5:3:1": {
+    "lines": 8,
+    "reason": "Konkrete Stelle der Trennung zwischen persönlichem Werturteil und fachlichem Sachurteil erklären.",
+    "area": "lines"
+  },
+  "5:3:2": {
+    "lines": 2,
+    "reason": "Kurze persönliche Notiz; die Kompetenzbewertung erfolgt im vorgesehenen Selbsteinschätzungsfeld.",
+    "area": "lines"
+  },
+  "5:4:1": {
+    "lines": 8,
+    "reason": "Überprüfbaren Sechsmonatsmaßstab mit Begründung und passenden Daten ableiten.",
+    "area": "lines"
+  },
+  "5:4:2": {
+    "lines": 2,
+    "reason": "Kurze persönliche Notiz; die Kompetenzbewertung erfolgt im vorgesehenen Selbsteinschätzungsfeld.",
+    "area": "lines"
+  },
+  "5:5:1": {
+    "lines": 8,
+    "reason": "Überprüfbaren Sechsmonatsmaßstab mit Begründung und passenden Daten ableiten.",
+    "area": "lines"
+  },
+  "5:5:2": {
+    "lines": 2,
+    "reason": "Kurze persönliche Notiz; die Kompetenzbewertung erfolgt im vorgesehenen Selbsteinschätzungsfeld.",
+    "area": "lines"
+  }
+}

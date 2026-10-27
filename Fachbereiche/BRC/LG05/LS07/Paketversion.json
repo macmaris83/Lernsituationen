@@ -1,0 +1,10 @@
+{
+  "version": "1.8.2",
+  "referenceMaster": "macmaris83/Lernsituationen/Lieferungen/BioCasa_LG01/BRC_LG01_LS04_v1.8_SCORM12.zip",
+  "referenceCommit": "bc1e1a914a79d95a1efa70d2761174972ee055fa",
+  "scope": "Logik- und Lösbarkeitskorrektur aller Aufgaben; kontextnahe Fachbegriffe; konsistente Zeitplanung; gespeicherte Selbsteinschätzung 1–5; synchrone A4-/GoodNotes-PDFs; Orientierungs-Kurzfragen entfernt, fallbezogene MC-Antworten angeglichen, Editor-Symbolgröße und SCORM-Export repariert; Lehrbuchbezüge nach Aufträgen, Absatz- und Ausrichtungsverbesserung, Kompetenznetz nach Reflektieren; KI-Hinweise in Aufgaben entfernt; Lehrkraft-Walkthrough; Aufgabenzeiten im Editor; Gesamt-PDFs durchgehend nummeriert",
+  "originalPackage": "BRC_LG05_LS07",
+  "checkReference": "Hochgeladenes ReNo LF07 LS01 v1.7: Fachbegriffscheck und Akkuanzeige",
+  "pdfRevision": "2026-10-27",
+  "contentRevision": "2026-10-27-v1.8.2-walkthrough-task-times-continuous-pagination"
+}

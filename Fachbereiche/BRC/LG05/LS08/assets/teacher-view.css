@@ -1,0 +1,35 @@
+.teacher-view-bar{position:sticky;top:0;z-index:110;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:.5rem .9rem;padding:.5rem .8rem;background:#e5f5fd;color:#173a63;border-bottom:1px solid #88cbe8;font:14px/1.4 "Segoe UI",Arial,sans-serif;box-sizing:border-box}
+.teacher-view-bar button,.teacher-view-bar select{min-height:40px;margin:0;font:inherit}
+.teacher-view-bar label{display:flex;align-items:center;gap:.4rem}
+.teacher-view-bar button{padding:.35rem .7rem;border:1px solid #5597b7;border-radius:.5rem;background:white;color:#173a63;cursor:pointer}
+.teacher-view-bar button:focus-visible,.teacher-view-bar select:focus-visible{outline:3px solid #173a63;outline-offset:2px}
+.teacher-view-active{scroll-padding-top:85px}
+body .lesson-content>details.material-access-long[open]{position:relative!important;top:auto!important;z-index:1!important}
+.teacher-solutions{width:min(920px,94vw);max-height:88dvh;padding:0;border:1px solid #88cbe8;border-radius:14px;background:#fff;color:#173a63;font:16px/1.55 "Segoe UI",Arial,sans-serif;box-sizing:border-box}
+.teacher-solutions::backdrop{background:rgba(14,35,50,.55)}
+.teacher-solutions>header{position:sticky;top:0;display:flex;align-items:center;justify-content:space-between;gap:1rem;background:#e5f5fd;padding:1rem;border-bottom:1px solid #b1d8eb;z-index:1}
+.teacher-solutions h2{margin:0;font-size:1.2rem}
+.teacher-solutions-content{padding:1rem 1.5rem;overflow-wrap:anywhere}
+.teacher-solutions-content ol{padding-left:1.5rem}
+.teacher-solutions-content li{margin-bottom:1rem}
+.teacher-correct-answer{background:#f3f8e7;border-left:4px solid #90ad36;padding:.6rem;font-weight:600}
+.teacher-original-expectations{border-top:1px solid #b1d8eb;padding-top:1rem;margin-top:1.5rem}
+.teacher-original-expectations .card{box-shadow:none}
+@media(max-width:600px){.teacher-view-bar{justify-content:flex-start;font-size:12px}.teacher-view-bar strong{flex-basis:100%}.teacher-solutions-content{padding:1rem}.teacher-solutions>header{padding:.7rem}}
+@media print{.teacher-view-bar,.teacher-solutions{display:none!important}}
+
+body.teacher-view-active .lesson-content>details.material-access:not([open]),body.teacher-view-active .material-topbar{top:var(--teacher-view-height,54px)!important}
+
+.teacher-task-times{padding:18px;margin:16px 0;background:#eef7fb;border:1px solid #b8dce9;border-radius:14px}
+.teacher-task-times h3{margin-top:0}.teacher-task-times p{font-size:.9rem}
+.teacher-task-time-fields{display:grid;gap:10px}.teacher-task-time-fields label{display:grid;grid-template-columns:minmax(0,1fr) 90px auto;align-items:center;gap:10px;margin:0;font-size:.9rem}
+.teacher-task-time-fields input{width:100%;min-height:44px;margin:0}.teacher-task-time-unit{font-weight:400}
+@media(max-width:560px){.teacher-task-time-fields label{grid-template-columns:90px auto}.teacher-task-time-fields label>span:first-child{grid-column:1/-1}}
+
+/* Edit the duration where the corresponding task is displayed. */
+body[data-teacher] .editor [data-mode-panel].teacher-path-hidden{display:none!important}
+.teacher-path-filter{display:flex;align-items:center;gap:10px;font-weight:650;margin:12px 0}
+.teacher-path-filter[hidden]{display:none!important}.teacher-path-filter select{min-height:40px;max-width:200px}
+body[data-teacher] .editor .assignment-time{display:none!important}
+body[data-teacher] .editor .teacher-inline-time{display:flex;align-items:center;gap:8px;width:fit-content;margin:10px 0 0;padding:6px 10px;background:#eff8fc;border:1px solid #bfdce9;border-radius:9px;font-size:.85rem;color:#365469}
+body[data-teacher] .editor .teacher-inline-time input{pointer-events:auto!important;width:76px;min-height:36px;padding:4px 7px;margin:0;border:1px solid #8cb9cd;border-radius:6px;background:#fff;font-size:1rem}

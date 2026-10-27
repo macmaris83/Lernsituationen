@@ -24,8 +24,8 @@ def digest(data):
 
 
 def version(value):
-    if not isinstance(value, str) or not re.fullmatch(r'(0|[1-9]\d*)\.(0|[1-9]\d*)', value):
-        raise ValueError(f'Version muss zwei Zahlen enthalten, z. B. 1.2: {value!r}')
+    if not isinstance(value, str) or not re.fullmatch(r'(0|[1-9]\d*)\.(0|[1-9]\d*)(?:\.(0|[1-9]\d*))?', value):
+        raise ValueError(f'Version muss zwei oder drei Zahlen enthalten, z. B. 1.2 oder 1.8.2: {value!r}')
     return tuple(map(int, value.split('.')))
 
 
@@ -142,7 +142,7 @@ def write_index(root, data, entries, master_hashes=None):
     index = {'schemaVersion': 1, 'packages': ordered}
     (destination / 'aktuell.json').write_text(json.dumps(index, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     lines = ['# Aktuelle SCORM-Pakete', '',
-             'Pro Master genau eine aktuelle ZIP. Versionsnummern haben zwei Teile (z. B. 1.2).',
+             'Pro Master genau eine aktuelle ZIP. Versionsnummern haben zwei oder drei Teile (z. B. 1.2 oder 1.8.2).',
              'Die Dateien werden aus den gepflegten Mastern erzeugt; frühere Fassungen liegen in der Git-Historie.',
              'Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-Kopien werden nicht automatisch ersetzt.', '',
              '| Bereich | Lernsituation / Vorlage | Version | Aktuelles Paket |',

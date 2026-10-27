@@ -1,0 +1,262 @@
+{
+  "0:1:1": {
+    "lines": 54,
+    "reason": "Struktur-, Ablauf- und Projektprobleme sowie sechs Rechen-/Prüfschritte mit Einsetzen, Einheiten, Annahmen und Deutung. Zusätzlich Platz für die nun ausdrücklich beauftragten Begriffserklärungen vor dem MC-Check.",
+    "area": "grid"
+  },
+  "0:2:1": {
+    "lines": 46,
+    "reason": "Vierzehn Übergaben mit Raum für Kennzeichnung von Doppelungen und Wartezeiten sowie getrennte Einordnung der drei Problemarten. Zusätzlich Platz für die nun ausdrücklich beauftragten Begriffserklärungen vor dem MC-Check.",
+    "area": "grid"
+  },
+  "0:2:2": {
+    "lines": 34,
+    "reason": "Rekonstruierte Struktur- und Prozessprobleme sowie Wartezeitsumme, Anteil, Restzeit, absolute und relative Verkürzung und Machbarkeitsprüfung.",
+    "area": "grid"
+  },
+  "0:2:3": {
+    "lines": 10,
+    "reason": "Zuordnung der gefundenen Probleme zu Aufbau, Ablauf und Projekt mit kurzen Begründungen.",
+    "area": "lines"
+  },
+  "0:3:1": {
+    "lines": 48,
+    "reason": "Rekonstruierte Struktur- und Prozessprobleme sowie Wartezeitsumme, Anteil, Restzeit, absolute und relative Verkürzung und Machbarkeitsprüfung. Zusätzlich Platz für die nun ausdrücklich beauftragten Begriffserklärungen vor dem MC-Check.",
+    "area": "grid"
+  },
+  "0:3:2": {
+    "lines": 10,
+    "reason": "Zuordnung der gefundenen Probleme zu Aufbau, Ablauf und Projekt mit kurzen Begründungen.",
+    "area": "lines"
+  },
+  "0:4:1": {
+    "lines": 62,
+    "reason": "Vollständiges Ist-Bild mit Rollen und Datenflüssen, Problemzuordnung sowie sechs nachvollziehbaren Rechen-/Prüfschritten. Zusätzlich Platz für die nun ausdrücklich beauftragten Begriffserklärungen vor dem MC-Check.",
+    "area": "grid"
+  },
+  "0:5:1": {
+    "lines": 62,
+    "reason": "Vollständiges Ist-Bild mit Rollen und Datenflüssen, Problemzuordnung sowie sechs nachvollziehbaren Rechen-/Prüfschritten. Zusätzlich Platz für die nun ausdrücklich beauftragten Begriffserklärungen vor dem MC-Check.",
+    "area": "grid"
+  },
+  "1:1:1": {
+    "lines": 16,
+    "reason": "Sieben Sollbildkriterien mit fallbezogener Konkretisierung und erkennbarem Maßstab.",
+    "area": "lines"
+  },
+  "1:1:2": {
+    "lines": 20,
+    "reason": "Blueprint-Ebenen, vier Funktionsperspektiven und Vereinbarungen zu Übergaben, Entscheidungen und Daten.",
+    "area": "grid"
+  },
+  "1:2:1": {
+    "lines": 20,
+    "reason": "Zwei gekoppelte Planungsebenen, Funktionsrollen sowie gemeinsame Daten-, Freigabe- und Eskalationsregeln.",
+    "area": "grid"
+  },
+  "1:2:2": {
+    "lines": 24,
+    "reason": "Kriterienkatalog, Blueprint-Architektur und konkrete funktionsübergreifende Abstimmung.",
+    "area": "grid"
+  },
+  "1:3:1": {
+    "lines": 24,
+    "reason": "Kriterienkatalog, Blueprint-Architektur und konkrete funktionsübergreifende Abstimmung.",
+    "area": "grid"
+  },
+  "1:4:1": {
+    "lines": 26,
+    "reason": "Eigenständige Zielbildplanung mit prüfbaren Kriterien, Rollen, Schnittstellen und Abstimmungsbedarf.",
+    "area": "grid"
+  },
+  "1:5:1": {
+    "lines": 26,
+    "reason": "Eigenständige Zielbildplanung mit prüfbaren Kriterien, Rollen, Schnittstellen und Abstimmungsbedarf.",
+    "area": "grid"
+  },
+  "2:1:1": {
+    "lines": 24,
+    "reason": "Drei Organisationsoptionen anhand mehrerer Kriterien und der unterschiedlichen Rolleninteressen vergleichen.",
+    "area": "grid"
+  },
+  "2:1:2": {
+    "lines": 12,
+    "reason": "Gewählte Organisationsform oder Kombination, tragende Argumente und Abwägung verworfener Alternativen.",
+    "area": "lines"
+  },
+  "2:1:3": {
+    "lines": 18,
+    "reason": "Prozessowner, konkrete Entscheidungsrechte und mehrere Projektrollen einschließlich Abgrenzung.",
+    "area": "grid"
+  },
+  "2:2:1": {
+    "lines": 24,
+    "reason": "Drei Optionen über vier Kriterien sowie ausdrückliche Festlegung von Entscheidungsrechten und Prozessowner.",
+    "area": "grid"
+  },
+  "2:2:2": {
+    "lines": 24,
+    "reason": "Begründete Beurteilung von drei Optionen aus betrieblicher und Rollenperspektive mit sichtbaren Zielkonflikten.",
+    "area": "grid"
+  },
+  "2:2:3": {
+    "lines": 22,
+    "reason": "Zielorganisation, durchgängige Prozessverantwortung und NL-Projektstruktur mit klarer Rollenabgrenzung.",
+    "area": "grid"
+  },
+  "2:3:1": {
+    "lines": 24,
+    "reason": "Begründete Beurteilung von drei Optionen aus betrieblicher und Rollenperspektive mit sichtbaren Zielkonflikten.",
+    "area": "grid"
+  },
+  "2:3:2": {
+    "lines": 22,
+    "reason": "Zielorganisation, durchgängige Prozessverantwortung und NL-Projektstruktur mit klarer Rollenabgrenzung.",
+    "area": "grid"
+  },
+  "2:4:1": {
+    "lines": 36,
+    "reason": "Begründetes Soll-Organisationsbild, Projektstruktur und Entscheidung über Zielkonflikte zwischen Linie, Prozess und Projekt.",
+    "area": "grid"
+  },
+  "2:5:1": {
+    "lines": 36,
+    "reason": "Begründetes Soll-Organisationsbild, Projektstruktur und Entscheidung über Zielkonflikte zwischen Linie, Prozess und Projekt.",
+    "area": "grid"
+  },
+  "3:1:1": {
+    "lines": 76,
+    "reason": "Ist-/Soll-Organigramm, Ist-/Soll-Prozess, Rollen und Legende sowie Managementkommentar mit 250–400 Wörtern.",
+    "area": "grid"
+  },
+  "3:1:2": {
+    "lines": 14,
+    "reason": "Mehrere messbare Ziele mit Ausgangs-/Zielwert, Pilotgrenzen und Prüfterminen.",
+    "area": "lines"
+  },
+  "3:2:1": {
+    "lines": 48,
+    "reason": "Erster Ist-/Soll-Blueprint-Entwurf mit Rollen und Legende sowie Entwurf des 250–400-Wörter-Kommentars.",
+    "area": "grid"
+  },
+  "3:2:2": {
+    "lines": 76,
+    "reason": "Vollständiger mehrteiliger Blueprint mit Ist-/Soll-Struktur und -Prozess, Projektrollen, Wirkungen/Risiken sowie 250–400-Wörter-Kommentar.",
+    "area": "grid"
+  },
+  "3:3:1": {
+    "lines": 76,
+    "reason": "Vollständiger mehrteiliger Blueprint mit Ist-/Soll-Struktur und -Prozess, Projektrollen, Wirkungen/Risiken sowie 250–400-Wörter-Kommentar.",
+    "area": "grid"
+  },
+  "3:4:1": {
+    "lines": 76,
+    "reason": "Vollständiger mehrteiliger Blueprint mit Ist-/Soll-Struktur und -Prozess, Projektrollen, Wirkungen/Risiken sowie 250–400-Wörter-Kommentar.",
+    "area": "grid"
+  },
+  "3:5:1": {
+    "lines": 76,
+    "reason": "Vollständiger mehrteiliger Blueprint mit Ist-/Soll-Struktur und -Prozess, Projektrollen, Wirkungen/Risiken sowie 250–400-Wörter-Kommentar.",
+    "area": "grid"
+  },
+  "4:1:1": {
+    "lines": 18,
+    "reason": "Drei Auftragssimulationen mit jeweils Übergabe, Entscheidung, Verlauf und beobachtetem Problem.",
+    "area": "grid"
+  },
+  "4:1:2": {
+    "lines": 12,
+    "reason": "Prüfbefunde zu vier Fehlerarten sowie fachliche Rückmeldung und nötige Korrekturen.",
+    "area": "lines"
+  },
+  "4:2:1": {
+    "lines": 18,
+    "reason": "Drei Fälle mit je Übergabe, Entscheidung und möglichem Engpass; Platz für konkrete Beobachtungen.",
+    "area": "grid"
+  },
+  "4:2:2": {
+    "lines": 18,
+    "reason": "Mehrere Auftragstypen mit Testverlauf, erkannten Grenzen und Verbesserungen.",
+    "area": "grid"
+  },
+  "4:2:3": {
+    "lines": 6,
+    "reason": "Fachliche Rückfragen, geklärte Unstimmigkeiten und vereinbarte Korrekturen.",
+    "area": "lines"
+  },
+  "4:3:1": {
+    "lines": 18,
+    "reason": "Mehrere Auftragstypen mit Testverlauf, erkannten Grenzen und Verbesserungen.",
+    "area": "grid"
+  },
+  "4:3:2": {
+    "lines": 6,
+    "reason": "Fachliche Rückfragen, geklärte Unstimmigkeiten und vereinbarte Korrekturen.",
+    "area": "lines"
+  },
+  "4:4:1": {
+    "lines": 24,
+    "reason": "Mehrere Belastungsfälle mit Beobachtungen zu Prozess, Zuständigkeit und Qualitätskontrolle sowie Lehrkraftklärung.",
+    "area": "grid"
+  },
+  "4:5:1": {
+    "lines": 24,
+    "reason": "Mehrere Belastungsfälle mit Beobachtungen zu Prozess, Zuständigkeit und Qualitätskontrolle sowie Lehrkraftklärung.",
+    "area": "grid"
+  },
+  "5:1:1": {
+    "lines": 7,
+    "reason": "Eine geklärte Verantwortung und ein neuer Abstimmungsbedarf mit jeweils konkretem Beispiel.",
+    "area": "lines"
+  },
+  "5:1:2": {
+    "lines": 0,
+    "reason": "Abschluss erfolgt im Moodle-Feedback bzw. der Selbsteinschätzung; kein zusätzlicher schriftlicher Auftrag.",
+    "area": "lines"
+  },
+  "5:2:1": {
+    "lines": 17,
+    "reason": "Zwei konkrete Reflexionsaspekte sowie fünf kompetenzbezogene Beispiele aus dem Blueprint.",
+    "area": "lines"
+  },
+  "5:2:2": {
+    "lines": 7,
+    "reason": "Gewonnene Koordination und neu entstehender Abstimmungsbedarf mit konkreten Folgen.",
+    "area": "lines"
+  },
+  "5:2:3": {
+    "lines": 5,
+    "reason": "Je ein kurzer persönlicher Beleg für die fünf Kompetenzbereiche; Selbsteinschätzung ohne redundanten langen Antwortblock.",
+    "area": "lines"
+  },
+  "5:3:1": {
+    "lines": 7,
+    "reason": "Gewonnene Koordination und neu entstehender Abstimmungsbedarf mit konkreten Folgen.",
+    "area": "lines"
+  },
+  "5:3:2": {
+    "lines": 5,
+    "reason": "Je ein kurzer persönlicher Beleg für die fünf Kompetenzbereiche; Selbsteinschätzung ohne redundanten langen Antwortblock.",
+    "area": "lines"
+  },
+  "5:4:1": {
+    "lines": 6,
+    "reason": "Begründete Regel zur Wahl einer Rolle statt einer Abteilung mit passendem Anwendungsbezug.",
+    "area": "lines"
+  },
+  "5:4:2": {
+    "lines": 5,
+    "reason": "Je ein kurzer persönlicher Beleg für die fünf Kompetenzbereiche; Selbsteinschätzung ohne redundanten langen Antwortblock.",
+    "area": "lines"
+  },
+  "5:5:1": {
+    "lines": 6,
+    "reason": "Begründete Regel zur Wahl einer Rolle statt einer Abteilung mit passendem Anwendungsbezug.",
+    "area": "lines"
+  },
+  "5:5:2": {
+    "lines": 5,
+    "reason": "Je ein kurzer persönlicher Beleg für die fünf Kompetenzbereiche; Selbsteinschätzung ohne redundanten langen Antwortblock.",
+    "area": "lines"
+  }
+}

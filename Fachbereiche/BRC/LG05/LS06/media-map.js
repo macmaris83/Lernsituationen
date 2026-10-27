@@ -1,0 +1,1 @@
+window.SOZ_MEDIA={"slots": {"orientation": {"src": "assets/BioCasa_LS06.png", "alt": "BioCasa · Arbeitszeit und Anreize gestalten", "label": "Orientierung"}, "situation": {"src": "assets/BioCasa_LS06.png", "alt": "BioCasa · Arbeitszeit und Anreize gestalten", "label": "Handlungssituation"}}};

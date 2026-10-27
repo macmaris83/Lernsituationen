@@ -1,0 +1,10 @@
+.material-actions-row{display:block;margin:18px 0;position:relative;z-index:3}
+.material-actions-row>details.material-access,.material-actions-row>details.phase-materials{display:block;width:100%;margin:0!important;position:relative!important;top:auto!important;min-width:0}
+.phase-import-row{display:flex;justify-content:flex-start;align-items:center;margin-top:10px}
+.goodnotes-current{display:inline-flex!important;align-items:center;justify-content:center;gap:9px;min-height:46px;padding:11px 16px!important;border:1px solid #b7c8d4!important;border-radius:12px!important;background:#fff!important;color:#164b65!important;font:600 14px/1.4 Arial,sans-serif!important;white-space:normal;cursor:pointer;box-shadow:0 3px 12px #17384f0a}
+.goodnotes-current:hover{background:#edf6f8!important;border-color:#49849a!important}
+.goodnotes-current:focus-visible{outline:3px solid #0078a8;outline-offset:3px}
+.goodnotes-current:disabled{opacity:.55;cursor:not-allowed}
+body.task-focus .material-actions-row{position:sticky;top:0;background:#f8fafc;padding:8px 0;z-index:30}
+@media(max-width:650px){.goodnotes-current{padding:10px 12px!important;font-size:13px!important}}
+@media print{.material-actions-row,.goodnotes-current{display:none!important}}

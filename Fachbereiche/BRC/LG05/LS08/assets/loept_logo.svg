@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" role="img" aria-labelledby="t d">
+<title id="t">Löppt Logo</title><desc id="d">Weißes Löppt Signet auf hellblauem Grund</desc>
+<rect width="360" height="360" rx="18" fill="#7ccbf0"/>
+<!-- stilisiertes L-Signet nach der bereitgestellten Vorlage -->
+<g fill="none" stroke="#fff" stroke-width="24" stroke-linecap="square" stroke-linejoin="miter">
+  <path d="M90 62v196c0 22 14 36 36 36h46"/>
+  <path d="M90 96h74c19 0 31 12 31 31v76c0 20 13 32 32 32h42"/>
+  <path d="M263 219l28 28-28 28"/>
+</g>
+<text x="180" y="338" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="54" font-weight="800" letter-spacing="1" fill="#fff">LÖPPT</text>
+</svg>

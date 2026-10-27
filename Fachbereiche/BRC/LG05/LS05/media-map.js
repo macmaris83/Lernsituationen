@@ -1,0 +1,1 @@
+window.SOZ_MEDIA={"slots":{"orientation":{"src":"assets/BioCasa_LS05.png","alt":"BioCasa · Personalbedarf und Personalentwicklung planen","label":"Orientierung"},"situation":{"src":"assets/BioCasa_LS05_Personalplanung.png","alt":"Das BioCasa-Team plant Personalbedarf, Schichtbesetzung und Qualifizierung.","label":"Handlungssituation"}}};

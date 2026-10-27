@@ -1,0 +1,317 @@
+{
+  "0:1:1": {
+    "lines": 10,
+    "reason": "Entscheidungsrelevante Ausgangslage aus vier Materialien knapp festhalten.",
+    "area": "lines"
+  },
+  "0:1:2": {
+    "lines": 30,
+    "reason": "Sechs Bereiche mit je drei Rechenschritten; Formeln, eingesetzte Zahlen und FTE müssen lesbar bleiben.",
+    "area": "grid"
+  },
+  "0:1:3": {
+    "lines": 10,
+    "reason": "Gesamtsummen unabhängig kontrollieren und das Vorzeichen des Nettobedarfs deuten.",
+    "area": "grid"
+  },
+  "0:1:4": {
+    "lines": 14,
+    "reason": "Fünf qualitative Bedarfsprofile mit wesentlichen Kenntnissen und Fähigkeiten herausarbeiten.",
+    "area": "lines"
+  },
+  "0:1:5": {
+    "lines": 12,
+    "reason": "Startkompetenzen und entwickelbare Kompetenzen den fünf Rollen zuordnen.",
+    "area": "grid"
+  },
+  "0:1:6": {
+    "lines": 8,
+    "reason": "Arbeitsmarktaussage passenden Berufsgruppen zuordnen und ihre Übertragungsgrenze erklären.",
+    "area": "lines"
+  },
+  "0:2:1": {
+    "lines": 24,
+    "reason": "Siebenspaltige Bereichstabelle für sechs Bereiche sowie Verknüpfung mit Profilen und Terminen.",
+    "area": "grid"
+  },
+  "0:2:2": {
+    "lines": 30,
+    "reason": "Sechs Bereiche mit je drei dokumentierten Rechenschritten einschließlich Formeln und FTE.",
+    "area": "grid"
+  },
+  "0:2:3": {
+    "lines": 18,
+    "reason": "Quantitativen und qualitativen Bedarf deuten sowie Unternehmensdaten, Prognosen und Arbeitsmarktkontext trennen.",
+    "area": "lines"
+  },
+  "0:3:1": {
+    "lines": 30,
+    "reason": "Sechs Bereiche mit je drei dokumentierten Rechenschritten einschließlich Formeln und FTE.",
+    "area": "grid"
+  },
+  "0:3:2": {
+    "lines": 18,
+    "reason": "Quantitativen und qualitativen Bedarf deuten sowie Unternehmensdaten, Prognosen und Arbeitsmarktkontext trennen.",
+    "area": "lines"
+  },
+  "0:4:1": {
+    "lines": 42,
+    "reason": "Sechs Bereichsrechnungen und Gesamtsummen mit qualitativer sowie arbeitsmarktbezogener Einordnung verbinden.",
+    "area": "grid"
+  },
+  "0:4:2": {
+    "lines": 12,
+    "reason": "Rechenkontrolle, Prognosegrenzen und Unterschied zwischen FTE und Kopfzahlen dokumentieren.",
+    "area": "grid"
+  },
+  "0:5:1": {
+    "lines": 42,
+    "reason": "Sechs Bereichsrechnungen und Gesamtsummen mit qualitativer sowie arbeitsmarktbezogener Einordnung verbinden.",
+    "area": "grid"
+  },
+  "0:5:2": {
+    "lines": 12,
+    "reason": "Rechenkontrolle und Grenzen der verwendeten Prognosen dokumentieren.",
+    "area": "grid"
+  },
+  "1:1:1": {
+    "lines": 16,
+    "reason": "Personalpaket und Beschlussstruktur mit vier voneinander abhängigen Funktionsbeiträgen planen.",
+    "area": "grid"
+  },
+  "1:1:2": {
+    "lines": 18,
+    "reason": "Tätigkeitsbezogene Auswahlkriterien mit Gewichten und terminierter Umsetzung festhalten.",
+    "area": "grid"
+  },
+  "1:1:3": {
+    "lines": 8,
+    "reason": "Berufsbezogene Angaben von sachfremden Auswahlmerkmalen unterscheiden und begründen.",
+    "area": "lines"
+  },
+  "1:2:1": {
+    "lines": 18,
+    "reason": "Drei Arbeitsstränge und die Abstimmung von HR, Fachbereich, Finanzen und Entwicklung abbilden.",
+    "area": "grid"
+  },
+  "1:2:2": {
+    "lines": 22,
+    "reason": "Planungs- und Auswahlablauf mit Kriterien, Terminen und Abhängigkeiten entwickeln.",
+    "area": "grid"
+  },
+  "1:2:3": {
+    "lines": 10,
+    "reason": "Konkrete Abstimmungsbedarfe und Zuständigkeiten der vier Funktionen notieren.",
+    "area": "lines"
+  },
+  "1:3:1": {
+    "lines": 26,
+    "reason": "Integrierten Planungs- und Auswahlablauf mit Kriterien, Terminen und Abhängigkeiten entwickeln.",
+    "area": "grid"
+  },
+  "1:3:2": {
+    "lines": 10,
+    "reason": "Konkrete Abstimmungsbedarfe und Zuständigkeiten der vier Funktionen notieren.",
+    "area": "lines"
+  },
+  "1:4:1": {
+    "lines": 30,
+    "reason": "Eigenen Gesamtplan mit Auswahl, Besetzung, Kosten, Folgevakanzen, Einsatzfähigkeit und Abstimmung entwickeln.",
+    "area": "grid"
+  },
+  "1:5:1": {
+    "lines": 30,
+    "reason": "Eigenen Gesamtplan mit Auswahl, Besetzung, Kosten, Folgevakanzen, Einsatzfähigkeit und Abstimmung entwickeln.",
+    "area": "grid"
+  },
+  "2:1:1": {
+    "lines": 14,
+    "reason": "Beschaffungsweg für die einzelnen Bedarfe mit knapper Begründung zuordnen.",
+    "area": "grid"
+  },
+  "2:1:2": {
+    "lines": 22,
+    "reason": "Drei Kandidaturen anhand gewichteter tätigkeitsbezogener Kriterien vergleichen und Auswahl begründen.",
+    "area": "grid"
+  },
+  "2:1:3": {
+    "lines": 14,
+    "reason": "Einarbeitung, Qualifizierung und mögliche Folgevakanz mit Kosten- und Terminfolgen erläutern.",
+    "area": "lines"
+  },
+  "2:1:4": {
+    "lines": 40,
+    "reason": "Bereichsvollkosten, Recruiting und Qualifizierung getrennt berechnen; beide Budgetreste und Schulungstage je Woche prüfen.",
+    "area": "grid"
+  },
+  "2:1:5": {
+    "lines": 8,
+    "reason": "Wesentliches Besetzungsrisiko mit Ausweichmaßnahme und deren Einsatzbedingung dokumentieren.",
+    "area": "lines"
+  },
+  "2:2:1": {
+    "lines": 26,
+    "reason": "Beschaffungswege und drei WMS-Profile gewichtet vergleichen; Verfügbarkeit, Folgevakanz und Lernzeit getrennt prüfen.",
+    "area": "grid"
+  },
+  "2:2:2": {
+    "lines": 48,
+    "reason": "Beschaffungs- und Entwicklungsoptionen beurteilen; Kostenrechnungen, beide Budgetreste und wöchentliche Schulungskapazität ausweisen.",
+    "area": "grid"
+  },
+  "2:2:3": {
+    "lines": 16,
+    "reason": "Zusammenhängendes Personalpaket mit Auswahlbegründung, Abhängigkeiten und Bedingungen formulieren.",
+    "area": "lines"
+  },
+  "2:3:1": {
+    "lines": 48,
+    "reason": "Beschaffungs- und Entwicklungsoptionen beurteilen; Kostenrechnungen, beide Budgetreste und wöchentliche Schulungskapazität ausweisen.",
+    "area": "grid"
+  },
+  "2:3:2": {
+    "lines": 16,
+    "reason": "Zusammenhängendes Personalpaket mit Auswahlbegründung, Abhängigkeiten und Bedingungen formulieren.",
+    "area": "lines"
+  },
+  "2:4:1": {
+    "lines": 56,
+    "reason": "Eigenes Gesamtpaket einschließlich Kandidatenvergleich, Einsatzterminen, drei Kostenarten, Budgetresten und Wochenkapazitäten begründen.",
+    "area": "grid"
+  },
+  "2:5:1": {
+    "lines": 56,
+    "reason": "Eigenes Gesamtpaket einschließlich Kandidatenvergleich, Einsatzterminen, drei Kostenarten, Budgetresten und Wochenkapazitäten begründen.",
+    "area": "grid"
+  },
+  "3:1:1": {
+    "lines": 44,
+    "reason": "Beschlussvorlage mit Vorschlag, Anlass, Bedarf, Alternativen, Kosten, Risiken und Umsetzung ausformulieren.",
+    "area": "lines"
+  },
+  "3:1:2": {
+    "lines": 30,
+    "reason": "Rechen- und Bewertungsanlagen lesbar zusammenstellen sowie eindeutige Beschlussformel formulieren.",
+    "area": "grid"
+  },
+  "3:2:1": {
+    "lines": 48,
+    "reason": "Nummerierte Beschlussvorlage mit nachvollziehbarer Kosten- und Entwicklungsplananlage erstellen. Rechen- und Planungsanlagen auf Kästchen, ausformulierte Vorlage auf Linien.",
+    "area": "grid",
+    "gridLines": 20
+  },
+  "3:2:2": {
+    "lines": 64,
+    "reason": "Vollständige Beschlussvorlage mit allen Produktanforderungen und Platz für kompakte Rechen-, Auswahl- und Planungsanlagen. Rechen- und Planungsanlagen auf Kästchen, ausformulierte Vorlage auf Linien.",
+    "area": "grid",
+    "gridLines": 30
+  },
+  "3:3:1": {
+    "lines": 64,
+    "reason": "Vollständige Beschlussvorlage mit allen Produktanforderungen und Platz für kompakte Rechen-, Auswahl- und Planungsanlagen. Rechen- und Planungsanlagen auf Kästchen, ausformulierte Vorlage auf Linien.",
+    "area": "grid",
+    "gridLines": 30
+  },
+  "3:4:1": {
+    "lines": 64,
+    "reason": "Eigenständig gegliederte Beschlussvorlage mit allen Anforderungen sowie nachvollziehbaren Anlagen. Rechen- und Planungsanlagen auf Kästchen, ausformulierte Vorlage auf Linien.",
+    "area": "grid",
+    "gridLines": 30
+  },
+  "3:5:1": {
+    "lines": 64,
+    "reason": "Eigenständig gegliederte Beschlussvorlage mit allen Anforderungen sowie nachvollziehbaren Anlagen. Rechen- und Planungsanlagen auf Kästchen, ausformulierte Vorlage auf Linien.",
+    "area": "grid",
+    "gridLines": 30
+  },
+  "4:1:1": {
+    "lines": 12,
+    "reason": "Befunde aus vier Funktionsperspektiven und fachliche Rückmeldung zur Kernrechnung dokumentieren.",
+    "area": "lines"
+  },
+  "4:1:2": {
+    "lines": 10,
+    "reason": "Festgestellte Widersprüche und konkrete korrigierte Passagen festhalten.",
+    "area": "lines"
+  },
+  "4:2:1": {
+    "lines": 12,
+    "reason": "Prüfergebnisse zu Rechnung, Budget, Auswahl und Timing mit Korrektur oder Beibehaltungsgrund dokumentieren.",
+    "area": "lines"
+  },
+  "4:2:2": {
+    "lines": 12,
+    "reason": "Funktionsbezogenen Beschlusscheck sowie Ergebnis der Lehrkraftkontrolle festhalten.",
+    "area": "lines"
+  },
+  "4:3:1": {
+    "lines": 14,
+    "reason": "Rückmeldungen aller Funktionen und zur Kernrechnung mit daraus folgenden Änderungen dokumentieren.",
+    "area": "lines"
+  },
+  "4:4:1": {
+    "lines": 16,
+    "reason": "Fünf Prüffelder mit Befunden, stärkster Schwachstelle und konkreter Überarbeitung dokumentieren.",
+    "area": "lines"
+  },
+  "4:5:1": {
+    "lines": 16,
+    "reason": "Fünf Prüffelder mit Befunden und konkreter Überarbeitung dokumentieren.",
+    "area": "lines"
+  },
+  "5:1:1": {
+    "lines": 8,
+    "reason": "Qualitative Kompetenz und bevorzugte Entwicklungsmaßnahme mit nachvollziehbarem Fallbezug benennen.",
+    "area": "lines"
+  },
+  "5:1:2": {
+    "lines": 2,
+    "reason": "Kurze persönliche Notiz zum ansonsten in Moodle ausgeführten Abschluss.",
+    "area": "lines"
+  },
+  "5:2:1": {
+    "lines": 14,
+    "reason": "Rechen-/Prognoselernpunkt, Auswahlregel und fünf kurze Kompetenzbelege festhalten.",
+    "area": "lines"
+  },
+  "5:2:2": {
+    "lines": 6,
+    "reason": "Regel zum Verhältnis von Beschaffung und Entwicklung mit knapper Begründung.",
+    "area": "lines"
+  },
+  "5:2:3": {
+    "lines": 2,
+    "reason": "Kurze persönliche Notiz zum Abschluss und zur separaten Selbsteinschätzung.",
+    "area": "lines"
+  },
+  "5:3:1": {
+    "lines": 6,
+    "reason": "Regel zum Verhältnis von Beschaffung und Entwicklung mit knapper Begründung.",
+    "area": "lines"
+  },
+  "5:3:2": {
+    "lines": 2,
+    "reason": "Kurze persönliche Notiz zum Abschluss und zur separaten Selbsteinschätzung.",
+    "area": "lines"
+  },
+  "5:4:1": {
+    "lines": 8,
+    "reason": "Konkreten Anpassungspunkt bei anderer Auftragslage mit Konsequenz für den Plan erläutern.",
+    "area": "lines"
+  },
+  "5:4:2": {
+    "lines": 2,
+    "reason": "Kurze persönliche Notiz zum Abschluss und zur separaten Selbsteinschätzung.",
+    "area": "lines"
+  },
+  "5:5:1": {
+    "lines": 8,
+    "reason": "Konkreten Anpassungspunkt bei anderer Auftragslage mit Konsequenz für den Plan erläutern.",
+    "area": "lines"
+  },
+  "5:5:2": {
+    "lines": 2,
+    "reason": "Kurze persönliche Notiz zum Abschluss und zur separaten Selbsteinschätzung.",
+    "area": "lines"
+  }
+}

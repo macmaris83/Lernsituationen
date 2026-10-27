@@ -1,0 +1,45 @@
+/* Completion controls preserve the existing assignment grid and platform colours. */
+body[data-phase-layout] .assignment-frame{position:relative;padding-right:52px}
+.task-completion{position:absolute;right:13px;top:13px;display:flex;align-items:center;justify-content:center;width:27px;height:27px;border-radius:8px;background:#ffffffba;border:1px solid #b7c9ce;box-shadow:inset 0 1px 0 #fff;cursor:pointer}
+.task-completion input,.orientation-completion input{width:19px;height:19px;margin:0;accent-color:#5d8500;cursor:pointer}
+.task-completion:has(input:focus-visible){outline:3px solid #e3b700;outline-offset:3px}
+.task-is-complete .task-completion{border-color:#89a44e;background:#f3f8e8}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.orientation-completion{margin:16px 0;padding:13px 16px;border:1px solid #bdd2b0;border-radius:13px;background:#f4f9eedb}
+.orientation-completion label{display:flex;gap:10px;align-items:center;cursor:pointer;font-weight:650}
+.progress-counter{font-size:.82rem;line-height:1.5;color:#44612f;margin:10px 0 0}
+.progress-counter [data-progress-status]{display:block;font-weight:400;color:#50676d}
+@media(max-width:600px){body[data-phase-layout] .assignment-frame{padding-right:44px}.task-completion{right:9px;top:12px;width:25px;height:25px}}
+@media print{.task-completion,.orientation-completion,.progress-counter,[data-progress-status]{display:none!important}body[data-phase-layout] .assignment-frame{padding-right:14px}}
+/* Small metallic badges and a persistent battery-style score. */
+.point-badge{display:inline-flex!important;align-items:center;justify-content:center;gap:5px;flex:none;white-space:nowrap;font:600 12px/1.3 "Segoe UI",Arial,sans-serif;color:#f5f8fc!important;background:linear-gradient(145deg,#1a344a,#0d1e2f) padding-box,linear-gradient(125deg,#6a492e,#e1b07c 36%,#805436 68%,#d5a171) border-box;border:1.5px solid transparent;border-radius:999px;padding:5px 9px;box-shadow:inset 0 1px 0 #ffffff17,0 2px 5px #0e223014;vertical-align:middle;text-decoration:none}
+.point-badge svg{width:17px;height:17px;flex:none;color:#b6c941}
+.point-badge.point-earned{background:linear-gradient(145deg,#233f4d,#132b38) padding-box,linear-gradient(125deg,#8b9da7,#e4f0f5,#7f929c) border-box}
+.point-action{display:inline-flex;align-items:center;gap:8px;flex-wrap:wrap}
+.quiz-actions{align-items:center}
+.quiz-hint summary .point-badge{margin-left:7px;pointer-events:none}
+.point-rules{margin:12px 0;font-size:13px;line-height:1.5;color:#3e5665}
+.point-rules>summary{cursor:pointer;font-weight:600}
+.point-rules p{margin:8px 0;max-width:76ch}
+.task-summary .task-point-value{margin-left:auto;margin-right:5px}
+.task-summary .task-preview{min-width:0}
+.assignment-frame>[data-task-points]{position:absolute;right:12px;top:12px;z-index:2}
+.assignment-frame:has(>.task-accordion:not([open]))>.task-original-preview{padding-top:50px!important}
+.assignment-frame:has(>.task-accordion[open])>[data-task-points]{display:none}
+.task-focus-panel>.task-point-value{align-self:flex-start;margin:2px 0 12px}
+.phase-points-row{display:flex;align-items:center;justify-content:flex-end;box-sizing:border-box;width:100%;min-width:0;margin:0 0 12px;padding-right:6px}
+.phase-points-row>.point-float{position:relative;top:auto;right:auto;z-index:auto;flex:0 1 auto;max-width:100%}
+.point-float{position:relative;top:max(10px,env(safe-area-inset-top));right:max(20px,env(safe-area-inset-right));z-index:1000000;width:230px;max-width:calc(100vw - 40px);filter:drop-shadow(0 3px 9px #08233736);font-family:"Segoe UI",Arial,sans-serif;--points-rim:linear-gradient(125deg,#243c4c,#768b99 35%,#233b4c 75%,#81919c);--points-fill:linear-gradient(180deg,#4d6979,#314d5e)}
+.point-float[data-tier="bronze"]{--points-rim:linear-gradient(125deg,#75482b,#edc195 35%,#905b35 70%,#dcac79);--points-fill:linear-gradient(180deg,#d4a16c,#8f5e37)}
+.point-float[data-tier="silver"]{--points-rim:linear-gradient(125deg,#71818e,#f0f5f7 35%,#8b9aa5 70%,#d9e2e8);--points-fill:linear-gradient(180deg,#c8d7df,#738b9b)}
+.point-float[data-tier="gold"]{--points-rim:linear-gradient(125deg,#8d6520,#ffe598 35%,#b78b2d 70%,#e6c76d);--points-fill:linear-gradient(180deg,#e2c05b,#a77b21)}
+.points-battery{position:relative;isolation:isolate;height:36px;padding:3px;border:2px solid transparent;border-radius:8px;background:linear-gradient(#112635,#112635) padding-box,var(--points-rim) border-box;box-shadow:inset 0 1px 1px #ffffff18}
+.points-battery:after{content:"";position:absolute;right:-6px;top:9px;width:4px;height:14px;border-radius:0 3px 3px 0;background:var(--points-rim)}
+.points-battery-track{position:absolute;inset:3px;border-radius:3px;overflow:hidden;background:#081d2b}
+.points-battery-fill{display:block;height:100%;width:0;background:var(--points-fill);box-shadow:inset 0 1px 0 #ffffff55;transition:width .55s ease,background .3s ease}
+.points-battery-label{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:white;font-size:14px;letter-spacing:.01em;font-weight:700;text-shadow:0 1px 3px #001421,0 0 2px #001421;white-space:nowrap}
+.point-reward{position:fixed;z-index:1000001;pointer-events:none;display:block;background:#122e40;color:#fff;border:1px solid #b6c941;border-radius:999px;padding:6px 10px;font:700 13px/1.3 "Segoe UI",Arial,sans-serif;box-shadow:0 3px 12px #13354926;animation:point-reward-rise 1.25s ease-out forwards}
+@keyframes point-reward-rise{0%{opacity:0;transform:translateY(8px) scale(.94)}15%,65%{opacity:1}100%{opacity:0;transform:translateY(-22px) scale(1)}}
+@media(max-width:600px){.point-float{width:210px;right:16px}.task-summary .task-point-value{margin-left:0;grid-column:2;justify-self:start}.task-summary .task-point-value .point-badge{font-size:11px}.point-badge{padding:4px 7px}.point-action{gap:6px}.quiz-actions{gap:6px}.quiz-actions button{font-size:.8rem!important;padding:7px 9px!important}.quiz-actions .point-badge{font-size:11px;padding:4px 7px}}
+@media(prefers-reduced-motion:reduce){.points-battery-fill{transition:none}.point-reward{animation:none}}
+@media print{.phase-points-row,.point-float,.point-reward,.task-point-value,.point-rules,.point-action>.point-badge,.quiz-hint .point-badge{display:none!important}body[data-points-host]{padding-top:0}}

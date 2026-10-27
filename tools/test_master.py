@@ -316,8 +316,10 @@ class CurrentExportTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'manifestOnly'):
             master.catalog(self.root)
 
-    def test_versions_require_two_numeric_parts(self):
-        for value in ('1.2.3', '1', 'v1.2', '01.2', '1.02', '-1.2', '1.2-final', 1.2):
+    def test_versions_require_two_or_three_numeric_parts(self):
+        self.assertEqual(master.version("1.8.2"), (1, 8, 2))
+        self.assertGreater(master.version("1.8.2"), master.version("1.8.1"))
+        for value in ('1.2.3.4', '1.2.03', '1', 'v1.2', '01.2', '1.02', '-1.2', '1.2-final', 1.2):
             with self.subTest(version=value):
                 with self.assertRaises(ValueError):
                     master.version(value)

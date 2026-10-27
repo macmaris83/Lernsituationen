@@ -1,0 +1,37 @@
+name: LG05 SCORM-Pakete
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Fachbereiche/BRC/LG05/**'
+      - '.github/workflows/lg05-scorm.yml'
+      - 'master-katalog.json'
+      - 'tools/master.py'
+      - 'tools/check_lg05_exports.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: current-scorm-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Exportwerkzeug prüfen
+        run: python3 -m unittest discover -s tools -p 'test_master.py'
+      - name: LG05-Pakete aus den Mastern exportieren
+        run: python3 tools/master.py export --id BRC-LG05-LS04 --id BRC-LG05-LS05 --id BRC-LG05-LS06 --id BRC-LG05-LS07 --id BRC-LG05-LS08 --id BRC-LG05-LS09 --id BRC-LG05-LS10
+      - name: Prüfsummen und Inhalt der sieben Pakete prüfen
+        run: python3 tools/check_lg05_exports.py
+      - name: Downloads übernehmen
+        run: |
+          git add Downloads
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'LG05 SCORM-Exporte 1.8.2 aus den Mastern erstellen'
+          git push origin "HEAD:${GITHUB_REF_NAME}"

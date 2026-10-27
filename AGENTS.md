@@ -13,7 +13,7 @@ kann diesen Standard jederzeit ausdrücklich ändern.
 - Die vorhandenen Master unter `Fachbereiche/` und `Vorlagen/` fortlaufend bearbeiten.
   Keine parallelen Ordner mit Namen wie `neu`, `final`, `Aktualisiert` oder Versionssuffixen
   anlegen. Weitere Fachbereiche wie ReNo und Geschichte nutzen dieselben Vorlagentypen.
-- Sichtbare Paketversionen haben zwei Zahlen, z. B. `1.2`, `1.5` oder `2.1`. Die aktuelle
+- Sichtbare Paketversionen haben zwei oder drei Zahlen, z. B. `1.2`, `2.1` oder `1.8.2`. Die aktuelle
   Version wird je Master im Katalog gepflegt; pro Master ist nur eine aktuelle ZIP
   im Downloadbestand vorgesehen. Frühere Stände bleiben durch Git nachvollziehbar.
 - `python tools/master.py export --all` exportiert den tatsächlichen aktuellen Master.

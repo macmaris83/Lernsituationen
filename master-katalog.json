@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "policy": "Ein fortlaufender Master und genau eine aktuelle ZIP je Eintrag. Zweiteilige Anzeigenummer unabhängig von SCORM- und Lernstandskennungen.",
+  "policy": "Ein fortlaufender Master und genau eine aktuelle ZIP je Eintrag. Zwei- oder dreiteilige Anzeigenummer unabhängig von SCORM- und Lernstandskennungen.",
   "packages": [
     {
       "id": "BRC-LG01-LS01",
@@ -362,6 +362,69 @@
       "master": "Vorlagen/Lernpfaduebung",
       "version": "1.0",
       "archiveStem": "Vorlage_Lernpfaduebung"
+    },
+    {
+      "id": "BRC-LG05-LS04",
+      "title": "Supply Chain gestalten",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG05/LS04",
+      "version": "1.8.2",
+      "archiveStem": "BRC_LG05_LS04"
+    },
+    {
+      "id": "BRC-LG05-LS05",
+      "title": "Personalbedarf und Personalentwicklung planen",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG05/LS05",
+      "version": "1.8.2",
+      "archiveStem": "BRC_LG05_LS05"
+    },
+    {
+      "id": "BRC-LG05-LS06",
+      "title": "Arbeitszeit und Anreize gestalten",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG05/LS06",
+      "version": "1.8.2",
+      "archiveStem": "BRC_LG05_LS06"
+    },
+    {
+      "id": "BRC-LG05-LS07",
+      "title": "Führungskonzepte entwickeln",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG05/LS07",
+      "version": "1.8.2",
+      "archiveStem": "BRC_LG05_LS07"
+    },
+    {
+      "id": "BRC-LG05-LS08",
+      "title": "Organisation und Reorganisation gestalten",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG05/LS08",
+      "version": "1.8.2",
+      "archiveStem": "BRC_LG05_LS08"
+    },
+    {
+      "id": "BRC-LG05-LS09",
+      "title": "Interessenvertretung beurteilen",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG05/LS09",
+      "version": "1.8.2",
+      "archiveStem": "BRC_LG05_LS09"
+    },
+    {
+      "id": "BRC-LG05-LS10",
+      "title": "Changeprozesse gestalten",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG05/LS10",
+      "version": "1.8.2",
+      "archiveStem": "BRC_LG05_LS10"
     }
   ]
 }

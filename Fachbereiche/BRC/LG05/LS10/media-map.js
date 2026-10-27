@@ -1,0 +1,1 @@
+window.SOZ_MEDIA={"slots": {"orientation": {"src": "assets/BioCasa_LS10.png", "alt": "BioCasa · Changeprozesse gestalten", "label": "Orientierung"}, "situation": {"src": "assets/BioCasa_LS10.png", "alt": "BioCasa · Changeprozesse gestalten", "label": "Handlungssituation"}}};

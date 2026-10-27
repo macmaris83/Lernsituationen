@@ -1,0 +1,247 @@
+{
+  "0:1:1": {
+    "lines": 26,
+    "reason": "Kernaussagen aus drei Materialien als knappe Analysenotizen. Zusätzlich Platz für die nun ausdrücklich beauftragten Begriffserklärungen vor dem MC-Check.",
+    "area": "lines"
+  },
+  "0:1:2": {
+    "lines": 24,
+    "reason": "Material- und Informationsfluss skizzieren, Ursache/Folgen erklären sowie zwei Rechnungen mit Einheiten darstellen.",
+    "area": "grid"
+  },
+  "0:1:3": {
+    "lines": 10,
+    "reason": "Kundenvorgaben bündeln und Transparenz von Resilienz mit Fallbezug unterscheiden.",
+    "area": "lines"
+  },
+  "0:2:1": {
+    "lines": 36,
+    "reason": "Fünfspaltige Knoten- und Störungstabelle plus Zuordnung der SLA-Anforderungen. Zusätzlich Platz für die nun ausdrücklich beauftragten Begriffserklärungen vor dem MC-Check.",
+    "area": "grid"
+  },
+  "0:2:2": {
+    "lines": 28,
+    "reason": "Kette, Störung und Informationslücke rekonstruieren; Fehlmenge und Anteil mit Rechenweg ausweisen.",
+    "area": "grid"
+  },
+  "0:3:1": {
+    "lines": 50,
+    "reason": "Vollständige Kettenanalyse einschließlich Ursache, Informationslücke, Folgen und zwei nachvollziehbaren Rechnungen. Zusätzlich Platz für die nun ausdrücklich beauftragten Begriffserklärungen vor dem MC-Check.",
+    "area": "grid"
+  },
+  "0:4:1": {
+    "lines": 54,
+    "reason": "Selbstständige Ketten- und Unsicherheitsanalyse mit getrennter physischer und informationsbezogener Störung sowie Rechenwegen. Zusätzlich Platz für die nun ausdrücklich beauftragten Begriffserklärungen vor dem MC-Check.",
+    "area": "grid"
+  },
+  "0:5:1": {
+    "lines": 54,
+    "reason": "Selbstständige Ketten- und Unsicherheitsanalyse mit Materialbelegen sowie Fehlmengen- und Anteilsrechnung. Zusätzlich Platz für die nun ausdrücklich beauftragten Begriffserklärungen vor dem MC-Check.",
+    "area": "grid"
+  },
+  "1:1:1": {
+    "lines": 18,
+    "reason": "Gliederung, Kriterien und vier voneinander abhängige Rollenbeiträge mit Abstimmung notieren.",
+    "area": "grid"
+  },
+  "1:2:1": {
+    "lines": 12,
+    "reason": "Drei Planungsblöcke mit Aufgaben der vier Funktionsperspektiven ordnen.",
+    "area": "grid"
+  },
+  "1:2:2": {
+    "lines": 14,
+    "reason": "Eigene Gliederung und konkrete Informationsabhängigkeiten für die Sitzung festhalten.",
+    "area": "grid"
+  },
+  "1:3:1": {
+    "lines": 22,
+    "reason": "Gliederung mit Funktionsbeiträgen, Abhängigkeiten und Abstimmungsschritten selbst entwickeln.",
+    "area": "grid"
+  },
+  "1:4:1": {
+    "lines": 24,
+    "reason": "Vollständiger eigener Vorlagenplan mit Beiträgen und Informationsbedarf der vier Funktionen.",
+    "area": "grid"
+  },
+  "1:5:1": {
+    "lines": 24,
+    "reason": "Vollständiger eigener Vorlagenplan mit Beiträgen und Abstimmung der vier Funktionen.",
+    "area": "grid"
+  },
+  "2:1:1": {
+    "lines": 30,
+    "reason": "Zwei Preisaufschläge, drei Serviceabweichungen, vier Paketkosten und zwei Zeitgewinnrechnungen samt Vergleich dokumentieren.",
+    "area": "grid"
+  },
+  "2:1:2": {
+    "lines": 12,
+    "reason": "Zielbild und digitale Maßnahmen begründet auswählen.",
+    "area": "lines"
+  },
+  "2:1:3": {
+    "lines": 6,
+    "reason": "Akzeptiertes Restrisiko und konkreten Eskalationsschwellenwert festhalten.",
+    "area": "lines"
+  },
+  "2:2:1": {
+    "lines": 40,
+    "reason": "Gewichtete Matrix für drei Alternativen und fünf Kriterien; zusätzlich zehn Einzelrechnungen und Begründung von Gewichten/Risiko.",
+    "area": "grid"
+  },
+  "2:2:2": {
+    "lines": 14,
+    "reason": "Drei Zielbilder und digitale Maßnahmen nach Kosten, Nutzen und Risiken beurteilen.",
+    "area": "lines"
+  },
+  "2:2:3": {
+    "lines": 8,
+    "reason": "Bedingte Entscheidung und bewusst akzeptiertes Restrisiko nachvollziehbar formulieren.",
+    "area": "lines"
+  },
+  "2:3:1": {
+    "lines": 36,
+    "reason": "Zielbildvergleich mit zehn Einzelrechnungen und begründeter Beurteilung der digitalen Maßnahmen.",
+    "area": "grid"
+  },
+  "2:3:2": {
+    "lines": 8,
+    "reason": "Bedingung, Auswahl und verbleibendes Risiko in einer knappen Entscheidung verbinden.",
+    "area": "lines"
+  },
+  "2:4:1": {
+    "lines": 44,
+    "reason": "Eigenes Zielbild aus Alternativenvergleich, zehn Einzelrechnungen, Digitalmaßnahmen und begründetem Restrisiko entwickeln.",
+    "area": "grid"
+  },
+  "2:5:1": {
+    "lines": 44,
+    "reason": "Eigenes Zielbild aus Alternativenvergleich, zehn Einzelrechnungen, Digitalmaßnahmen und begründetem Restrisiko entwickeln.",
+    "area": "grid"
+  },
+  "3:1:1": {
+    "lines": 40,
+    "reason": "Komprimierte Tischvorlage mit Kopf, Lage, Optionen, Entscheidung und Umsetzung nach der Methodenkarte.",
+    "area": "lines"
+  },
+  "3:1:2": {
+    "lines": 10,
+    "reason": "Konkrete Verantwortlichkeiten und mindestens zwei Kennzahlen mit Zielbezug festhalten.",
+    "area": "grid"
+  },
+  "3:2:1": {
+    "lines": 16,
+    "reason": "Ergebnisse in die vorgesehenen Abschnitte übertragen und ihren Sitzungsbeitrag knapp festhalten.",
+    "area": "lines"
+  },
+  "3:2:2": {
+    "lines": 44,
+    "reason": "Maximal zweiseitige Tischvorlage mit sämtlichen Produktanforderungen, Belegen und Umsetzung.",
+    "area": "lines"
+  },
+  "3:3:1": {
+    "lines": 44,
+    "reason": "Maximal zweiseitige Tischvorlage mit sämtlichen Produktanforderungen, Belegen und Umsetzung.",
+    "area": "lines"
+  },
+  "3:4:1": {
+    "lines": 44,
+    "reason": "Selbst gegliederte, maximal zweiseitige Tischvorlage mit Analyse, Vergleich, Empfehlung, Kennzahlen und Belegen.",
+    "area": "lines"
+  },
+  "3:5:1": {
+    "lines": 44,
+    "reason": "Selbst gegliederte, maximal zweiseitige Tischvorlage mit Analyse, Vergleich, Empfehlung, Kennzahlen und Belegen.",
+    "area": "lines"
+  },
+  "4:1:1": {
+    "lines": 6,
+    "reason": "Wesentliche Rückmeldungen der anderen Geschäftsführungsgruppe notieren.",
+    "area": "lines"
+  },
+  "4:1:2": {
+    "lines": 10,
+    "reason": "Fünf Prüfkriterien mit Befund und nötiger Korrektur dokumentieren.",
+    "area": "lines"
+  },
+  "4:2:1": {
+    "lines": 10,
+    "reason": "Vier Prüffelder und die beiden wichtigsten eingearbeiteten Rückmeldungen festhalten.",
+    "area": "lines"
+  },
+  "4:2:2": {
+    "lines": 8,
+    "reason": "Entscheidungsreview und offene Fachfragen mit Ergebnis dokumentieren.",
+    "area": "lines"
+  },
+  "4:3:1": {
+    "lines": 12,
+    "reason": "Kriterienbezogene Rückmeldung, offene Fachfragen und vereinbarte Überarbeitung dokumentieren.",
+    "area": "lines"
+  },
+  "4:4:1": {
+    "lines": 12,
+    "reason": "Fehlende Entscheidungsinformationen und Reaktionen auf den Entscheidungstest festhalten.",
+    "area": "lines"
+  },
+  "4:5:1": {
+    "lines": 12,
+    "reason": "Ergebnisse des Entscheidungstests und daraus folgende Anpassungen festhalten.",
+    "area": "lines"
+  },
+  "5:1:1": {
+    "lines": 4,
+    "reason": "Zwei vollständige Sätze zum Unterschied zwischen Transparenz und Resilienz.",
+    "area": "lines"
+  },
+  "5:1:2": {
+    "lines": 2,
+    "reason": "Kurze persönliche Notiz zum ansonsten in Moodle ausgeführten Abschluss.",
+    "area": "lines"
+  },
+  "5:2:1": {
+    "lines": 14,
+    "reason": "Zwei Fallbelege sowie fünf kurze Kompetenzbelege zur Selbsteinschätzung.",
+    "area": "lines"
+  },
+  "5:2:2": {
+    "lines": 6,
+    "reason": "Zwei konkrete Beispiele für kostenpflichtige Resilienz und reine Transparenz.",
+    "area": "lines"
+  },
+  "5:2:3": {
+    "lines": 2,
+    "reason": "Kurze persönliche Notiz; die Kompetenzbewertung erfolgt im vorgesehenen Selbsteinschätzungsfeld.",
+    "area": "lines"
+  },
+  "5:3:1": {
+    "lines": 6,
+    "reason": "Je ein begründetes Beispiel für Resilienzgewinn und reine Transparenz.",
+    "area": "lines"
+  },
+  "5:3:2": {
+    "lines": 2,
+    "reason": "Kurze persönliche Notiz; die Kompetenzbewertung erfolgt im vorgesehenen Selbsteinschätzungsfeld.",
+    "area": "lines"
+  },
+  "5:4:1": {
+    "lines": 6,
+    "reason": "Übertragbare Handlungsregel mit knapper Erläuterung oder Beispiel.",
+    "area": "lines"
+  },
+  "5:4:2": {
+    "lines": 2,
+    "reason": "Kurze persönliche Notiz; die Kompetenzbewertung erfolgt im vorgesehenen Selbsteinschätzungsfeld.",
+    "area": "lines"
+  },
+  "5:5:1": {
+    "lines": 6,
+    "reason": "Übertragbare Handlungsregel mit knapper Erläuterung oder Beispiel.",
+    "area": "lines"
+  },
+  "5:5:2": {
+    "lines": 2,
+    "reason": "Kurze persönliche Notiz; die Kompetenzbewertung erfolgt im vorgesehenen Selbsteinschätzungsfeld.",
+    "area": "lines"
+  }
+}

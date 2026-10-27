@@ -1,0 +1,292 @@
+{
+  "0:1:1": {
+    "lines": 14,
+    "reason": "Kernaussagen aus drei Materialien zu sechs Maßnahmen und den betroffenen Gruppen festhalten.",
+    "area": "lines"
+  },
+  "0:1:2": {
+    "lines": 24,
+    "reason": "Sechs Maßnahmen jeweils mit Betroffenen, Änderung, Vorteil, Belastung und Datenrisiko zuordnen.",
+    "area": "grid"
+  },
+  "0:1:3": {
+    "lines": 30,
+    "reason": "Sechs Maßnahmen mit Beteiligungsform, passender Norm, Voraussetzungen und Rechtsunsicherheit nachvollziehbar prüfen.",
+    "area": "lines"
+  },
+  "0:1:4": {
+    "lines": 18,
+    "reason": "Konkrete Fakten mit Tatbestandsvoraussetzungen verbinden und nicht belegte Voraussetzungen gesondert benennen.",
+    "area": "lines"
+  },
+  "0:1:5": {
+    "lines": 14,
+    "reason": "Zeit, Budget, Beschäftigung, Qualität, Schulung und Datenrahmen mit den Beschäftigteninteressen vergleichen.",
+    "area": "lines"
+  },
+  "0:1:6": {
+    "lines": 8,
+    "reason": "Mehrere Verhandlungsgrenzen mit kurzer Begründung und verbleibendem Spielraum notieren.",
+    "area": "lines"
+  },
+  "0:2:1": {
+    "lines": 36,
+    "reason": "Sechs Maßnahmen in sechs verlangten Spalten erfassen und Muss-Bedingungen von Verhandlungszielen unterscheiden.",
+    "area": "grid"
+  },
+  "0:2:2": {
+    "lines": 30,
+    "reason": "Fünf Materialien aus Geschäftsführungs-, Beschäftigten- und Betriebsratsperspektive mit Zielkonflikten auswerten.",
+    "area": "lines"
+  },
+  "0:2:3": {
+    "lines": 30,
+    "reason": "Rechtsgrundlagen auf die sechs Maßnahmen mit Sachverhalt, Voraussetzung und Rechtsfolge anwenden.",
+    "area": "lines"
+  },
+  "0:2:4": {
+    "lines": 8,
+    "reason": "Offene Tatbestandsfragen und noch erforderliche Informationen klar zuordnen.",
+    "area": "lines"
+  },
+  "0:3:1": {
+    "lines": 30,
+    "reason": "Fünf Materialien aus Geschäftsführungs-, Beschäftigten- und Betriebsratsperspektive mit Zielkonflikten auswerten.",
+    "area": "lines"
+  },
+  "0:3:2": {
+    "lines": 30,
+    "reason": "Rechtsgrundlagen auf die sechs Maßnahmen mit Sachverhalt, Voraussetzung und Rechtsfolge anwenden.",
+    "area": "lines"
+  },
+  "0:3:3": {
+    "lines": 8,
+    "reason": "Offene Tatbestandsfragen und noch erforderliche Informationen klar zuordnen.",
+    "area": "lines"
+  },
+  "0:4:1": {
+    "lines": 48,
+    "reason": "Vollständige Analyse der sechs Maßnahmen einschließlich Interessen, Fakten, Rechtsprüfung, Unsicherheiten und Wertung.",
+    "area": "lines"
+  },
+  "0:5:1": {
+    "lines": 48,
+    "reason": "Vollständige Analyse der sechs Maßnahmen einschließlich Interessen, Fakten, Rechtsprüfung, Unsicherheiten und Wertung.",
+    "area": "lines"
+  },
+  "1:1:1": {
+    "lines": 16,
+    "reason": "Kataloggliederung mit sieben Themenfeldern und den zugehörigen Forderungsgegenständen entwerfen.",
+    "area": "lines"
+  },
+  "1:1:2": {
+    "lines": 14,
+    "reason": "Themenverantwortung, notwendige Übergaben, Abstimmungstermine und fachliche Abhängigkeiten dokumentieren.",
+    "area": "grid"
+  },
+  "1:2:1": {
+    "lines": 22,
+    "reason": "Fünf Themenfelder priorisieren sowie fachliche Wechselwirkungen und Betriebsfähigkeit abgleichen.",
+    "area": "grid"
+  },
+  "1:2:2": {
+    "lines": 20,
+    "reason": "Katalogstruktur, begründete Rangfolge und Verhandlungslogik mit Bedingungen entwickeln.",
+    "area": "lines"
+  },
+  "1:2:3": {
+    "lines": 12,
+    "reason": "Abstimmung von Beschäftigten- und Rechtsperspektiven mit Verantwortlichen und Prüffragen planen.",
+    "area": "grid"
+  },
+  "1:3:1": {
+    "lines": 20,
+    "reason": "Katalogstruktur, begründete Rangfolge und Verhandlungslogik mit Bedingungen entwickeln.",
+    "area": "lines"
+  },
+  "1:3:2": {
+    "lines": 12,
+    "reason": "Abstimmung von Beschäftigten- und Rechtsperspektiven mit Verantwortlichen und Prüffragen planen.",
+    "area": "grid"
+  },
+  "1:4:1": {
+    "lines": 30,
+    "reason": "Eigenständiger Positionsplan mit Themenstruktur, Verantwortungen, Rechtsprüfung, Abhängigkeiten und Verhandlungslinie.",
+    "area": "lines"
+  },
+  "1:5:1": {
+    "lines": 30,
+    "reason": "Eigenständiger Positionsplan mit Themenstruktur, Verantwortungen, Rechtsprüfung, Abhängigkeiten und Verhandlungslinie.",
+    "area": "lines"
+  },
+  "2:1:1": {
+    "lines": 14,
+    "reason": "Mehrere Forderungen in eine Rangfolge bringen und die Priorität jeweils kurz begründen.",
+    "area": "lines"
+  },
+  "2:1:2": {
+    "lines": 18,
+    "reason": "Forderungen drei Zeithorizonten zuordnen und die jeweilige Voraussetzung konkret benennen.",
+    "area": "grid"
+  },
+  "2:1:3": {
+    "lines": 10,
+    "reason": "Pilotunterstützung oder Verschiebung mit tragenden Gründen und notwendigen Klärungen abwägen.",
+    "area": "lines"
+  },
+  "2:2:1": {
+    "lines": 26,
+    "reason": "Priorisierte Forderungen jeweils mit Sachbezug, einschlägigem Rechtsbezug und Spielraum begründen.",
+    "area": "lines"
+  },
+  "2:2:2": {
+    "lines": 24,
+    "reason": "Muss-Bedingungen, Ausgestaltung und Langfristziele festhalten und die Grundposition zum Pilotstart begründen.",
+    "area": "lines"
+  },
+  "2:3:1": {
+    "lines": 30,
+    "reason": "Eigenständige Gesamtabwägung zu Muss-Bedingungen, verhandelbarer Ausgestaltung, Langfristzielen und Pilotstart.",
+    "area": "lines"
+  },
+  "2:4:1": {
+    "lines": 14,
+    "reason": "Mehrere Forderungen in eine Rangfolge bringen und die Priorität jeweils kurz begründen.",
+    "area": "lines"
+  },
+  "2:4:2": {
+    "lines": 20,
+    "reason": "Grundposition, feste Grenzen und verhandelbare Ziele einschließlich Rechtsunsicherheiten begründen.",
+    "area": "lines"
+  },
+  "2:5:1": {
+    "lines": 14,
+    "reason": "Mehrere Forderungen in eine Rangfolge bringen und die Priorität jeweils kurz begründen.",
+    "area": "lines"
+  },
+  "2:5:2": {
+    "lines": 20,
+    "reason": "Grundposition, feste Grenzen und verhandelbare Ziele einschließlich Rechtsunsicherheiten begründen.",
+    "area": "lines"
+  },
+  "3:1:1": {
+    "lines": 56,
+    "reason": "Forderungskatalog mit Adressatin sowie etwa sieben Themenfeldern; je Forderung Ist, Soll, Regelung, Begründung und Kontrolle.",
+    "area": "lines"
+  },
+  "3:2:1": {
+    "lines": 26,
+    "reason": "Katalogentwurf nach sechs Formbausteinen mit mehreren Forderungen und ersten Kontrollnachweisen.",
+    "area": "lines"
+  },
+  "3:2:2": {
+    "lines": 60,
+    "reason": "Vollständiger adressatengerechter Katalog mit Ist-/Sollanalyse, präzisen Forderungen, Rechtsbezug, Prioritäten und Umsetzung.",
+    "area": "lines"
+  },
+  "3:3:1": {
+    "lines": 60,
+    "reason": "Vollständiger adressatengerechter Katalog mit Ist-/Sollanalyse, präzisen Forderungen, Rechtsbezug, Prioritäten und Umsetzung.",
+    "area": "lines"
+  },
+  "3:4:1": {
+    "lines": 60,
+    "reason": "Vollständiger adressatengerechter Katalog mit Ist-/Sollanalyse, präzisen Forderungen, Rechtsbezug, Prioritäten und Umsetzung.",
+    "area": "lines"
+  },
+  "3:5:1": {
+    "lines": 60,
+    "reason": "Vollständiger adressatengerechter Katalog mit Ist-/Sollanalyse, präzisen Forderungen, Rechtsbezug, Prioritäten und Umsetzung.",
+    "area": "lines"
+  },
+  "4:1:1": {
+    "lines": 8,
+    "reason": "Mündliche Simulation; zentrale Gegenargumente und Reaktionen als kurze Ergebnisnotiz sichern.",
+    "area": "lines"
+  },
+  "4:1:2": {
+    "lines": 20,
+    "reason": "Mehrere Forderungen anhand von fünf Prüfkriterien prüfen und konkreten Änderungsbedarf festhalten.",
+    "area": "grid"
+  },
+  "4:2:1": {
+    "lines": 12,
+    "reason": "Mündliche Verhandlung mit Ergebnisnotizen zu Rechtsbezug, Umsetzbarkeit und Schutz sowie offenen Streitfragen.",
+    "area": "lines"
+  },
+  "4:2:2": {
+    "lines": 14,
+    "reason": "Gegenargumente, rechtliche Rückmeldungen und daraus folgende Korrekturen verbindlich dokumentieren.",
+    "area": "lines"
+  },
+  "4:3:1": {
+    "lines": 18,
+    "reason": "Selbst organisierte Gegenpositions- und Rechtsprüfung einschließlich Rückmeldung und Verbesserungsentscheidungen.",
+    "area": "lines"
+  },
+  "4:4:1": {
+    "lines": 20,
+    "reason": "Simulationsbefunde und Lehrkraftprüfung zu mehreren Forderungen mit begründeter Reaktion und Überarbeitung sichern.",
+    "area": "lines"
+  },
+  "4:5:1": {
+    "lines": 20,
+    "reason": "Simulationsbefunde und Lehrkraftprüfung zu mehreren Forderungen mit begründeter Reaktion und Überarbeitung sichern.",
+    "area": "lines"
+  },
+  "5:1:1": {
+    "lines": 6,
+    "reason": "Zwei konkrete Forderungen benennen und den Unterschied zwischen Recht und Verhandlungsziel kurz erklären.",
+    "area": "lines"
+  },
+  "5:1:2": {
+    "lines": 3,
+    "reason": "Online-Feedback und Selbsteinschätzung; nur kurze persönliche Abschlussnotiz nötig.",
+    "area": "lines"
+  },
+  "5:2:1": {
+    "lines": 10,
+    "reason": "Betriebsratsgrenze, tragfähige Schutzregel und Kompetenzentwicklung anhand einer überarbeiteten Forderung erläutern.",
+    "area": "lines"
+  },
+  "5:2:2": {
+    "lines": 8,
+    "reason": "Drei Begriffe voneinander abgrenzen und durch einen Bezug zur eigenen Verhandlung erklären.",
+    "area": "lines"
+  },
+  "5:2:3": {
+    "lines": 5,
+    "reason": "Fünf Kompetenzbewertungen können stichwortartig notiert werden; ausführliches Feedback erfolgt in Moodle.",
+    "area": "lines"
+  },
+  "5:3:1": {
+    "lines": 8,
+    "reason": "Drei Begriffe voneinander abgrenzen und durch einen Bezug zur eigenen Verhandlung erklären.",
+    "area": "lines"
+  },
+  "5:3:2": {
+    "lines": 5,
+    "reason": "Fünf Kompetenzbewertungen können stichwortartig notiert werden; ausführliches Feedback erfolgt in Moodle.",
+    "area": "lines"
+  },
+  "5:4:1": {
+    "lines": 6,
+    "reason": "Eine begründete Regel für verantwortliche Interessenvertretung aus dem eigenen Vorgehen ableiten.",
+    "area": "lines"
+  },
+  "5:4:2": {
+    "lines": 5,
+    "reason": "Fünf Kompetenzbewertungen können stichwortartig notiert werden; ausführliches Feedback erfolgt in Moodle.",
+    "area": "lines"
+  },
+  "5:5:1": {
+    "lines": 6,
+    "reason": "Eine begründete Regel für verantwortliche Interessenvertretung aus dem eigenen Vorgehen ableiten.",
+    "area": "lines"
+  },
+  "5:5:2": {
+    "lines": 5,
+    "reason": "Fünf Kompetenzbewertungen können stichwortartig notiert werden; ausführliches Feedback erfolgt in Moodle.",
+    "area": "lines"
+  }
+}

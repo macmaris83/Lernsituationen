@@ -30,7 +30,7 @@ Eine neue Anzeigenummer darf diese Kennungen nicht automatisch ändern.
 
 ## Versionsnummer und aktuelle Downloads
 
-- Zwei Zahlen verwenden: `1.0`, `1.1`, `1.2`, …, `1.10`, `2.0`.
+- Zwei oder drei Zahlen verwenden: `1.0`, `1.2`, `1.8.2` oder `2.0`.
 - Pro freigegebener inhaltlicher oder technischer Änderung am Paket die Nummer erhöhen.
 - `set-version` lehnt kleinere und gleiche Nummern ab und vergleicht Zahlen numerisch.
 - Beispiel: `Downloads/BRC-LG01-LS03/BRC_LG01_LS03_v1.2_SCORM12.zip`.

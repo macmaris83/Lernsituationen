@@ -1,0 +1,257 @@
+{
+  "0:1:1": {
+    "lines": 22,
+    "reason": "Acht Prozentrechnungen mit Einsetzen und Ergebnis, zwei Prozentpunktvergleiche und Grenze der Mehrfachnennungen.",
+    "area": "grid"
+  },
+  "0:1:2": {
+    "lines": 18,
+    "reason": "Kulturstärken und Führungsprobleme sowie die vier voneinander abzugrenzenden Gründerpositionen.",
+    "area": "lines"
+  },
+  "0:1:3": {
+    "lines": 20,
+    "reason": "Vier Fälle mit Lage, gewählter Führungslogik und begründeter Modellanwendung; je Fall etwa fünf Zeilen.",
+    "area": "lines"
+  },
+  "0:1:4": {
+    "lines": 16,
+    "reason": "Vergleich unterschiedlicher Kompetenz-, Risiko- und Zeitdrucksituationen mit begründeter Grenze eines einheitlichen Stils. Zusätzlich je zwei Zeilen für die drei neuen Zwecknotizen zu den M5-Begriffen.",
+    "area": "lines"
+  },
+  "0:2:1": {
+    "lines": 26,
+    "reason": "Befragungsbefunde und vier Fälle in einer Tabelle mit fünf Spalten; Platz für begründete Zuordnung und Belege.",
+    "area": "grid"
+  },
+  "0:2:2": {
+    "lines": 52,
+    "reason": "Acht Prozentrechnungen, Prozentpunktvergleich und Datenkritik sowie Führungskontroverse und Modellübertragung auf vier Fälle. Zusätzlich je zwei Zeilen für die drei neuen Zwecknotizen zu den M5-Begriffen.",
+    "area": "grid"
+  },
+  "0:3:1": {
+    "lines": 52,
+    "reason": "Acht Prozentrechnungen, Prozentpunktvergleich und Datenkritik sowie Führungskontroverse und Modellübertragung auf vier Fälle. Zusätzlich je zwei Zeilen für die drei neuen Zwecknotizen zu den M5-Begriffen.",
+    "area": "grid"
+  },
+  "0:4:1": {
+    "lines": 52,
+    "reason": "Acht Prozentrechnungen, Prozentpunktvergleich und Datenkritik sowie Führungskontroverse und Modellübertragung auf vier Fälle. Zusätzlich je zwei Zeilen für die drei neuen Zwecknotizen zu den M5-Begriffen.",
+    "area": "grid"
+  },
+  "0:5:1": {
+    "lines": 52,
+    "reason": "Acht Prozentrechnungen, Prozentpunktvergleich und Datenkritik sowie Führungskontroverse und Modellübertragung auf vier Fälle. Zusätzlich je zwei Zeilen für die drei neuen Zwecknotizen zu den M5-Begriffen.",
+    "area": "grid"
+  },
+  "1:1:1": {
+    "lines": 8,
+    "reason": "Zwei präzise konkurrierende Thesen einschließlich Abgrenzung und kurzer Begründung.",
+    "area": "lines"
+  },
+  "1:1:2": {
+    "lines": 16,
+    "reason": "Sechs Konzeptkriterien mit Konkretisierung für BioCasa und Platz für Fragen aus dem Thesencheck.",
+    "area": "lines"
+  },
+  "1:2:1": {
+    "lines": 18,
+    "reason": "These, drei Begründungsstränge, Gegenposition und Verknüpfung von Entscheidungsrechten, Lernen und Wissen.",
+    "area": "lines"
+  },
+  "1:2:2": {
+    "lines": 18,
+    "reason": "These und Gegenposition sowie gegliederte Argumentationsstruktur mit Belegen und Umsetzung.",
+    "area": "lines"
+  },
+  "1:3:1": {
+    "lines": 18,
+    "reason": "These und Gegenposition sowie gegliederte Argumentationsstruktur mit Belegen und Umsetzung.",
+    "area": "lines"
+  },
+  "1:4:1": {
+    "lines": 20,
+    "reason": "Eigenständige Gliederung, Argumente und Belege, Gegenposition, Konsequenzen sowie mögliche Überarbeitung nach Belastungstest.",
+    "area": "lines"
+  },
+  "1:5:1": {
+    "lines": 20,
+    "reason": "Eigenständige Gliederung, Argumente und Belege, Gegenposition, Konsequenzen sowie mögliche Überarbeitung nach Belastungstest.",
+    "area": "lines"
+  },
+  "2:1:1": {
+    "lines": 8,
+    "reason": "Eindeutige Position mit fachlicher Begründung und erkennbarer Abgrenzung zur Gegenposition.",
+    "area": "lines"
+  },
+  "2:1:2": {
+    "lines": 14,
+    "reason": "Begründete Auswahl mehrerer Lern- und Wissensinstrumente samt Zweck, Pflegeverantwortung und Aufwand.",
+    "area": "lines"
+  },
+  "2:1:3": {
+    "lines": 14,
+    "reason": "Gegenüberstellung verbindlicher Grundsätze und situationsabhängiger Führungsanteile mit Fallbegründungen.",
+    "area": "lines"
+  },
+  "2:2:1": {
+    "lines": 22,
+    "reason": "Gemeinsame Grundsätze und situative Unterschiede, anschließend Anwendung auf alle vier Fälle.",
+    "area": "lines"
+  },
+  "2:2:2": {
+    "lines": 12,
+    "reason": "Zentrale These und ernstzunehmende Gegenposition mit begründeter Abwägung.",
+    "area": "lines"
+  },
+  "2:2:3": {
+    "lines": 16,
+    "reason": "Auswahl und Begründung mehrerer Führungs-, Lern- und Wissenselemente sowie ihrer Verbindung im Konzept.",
+    "area": "lines"
+  },
+  "2:3:1": {
+    "lines": 12,
+    "reason": "Zentrale These und ernstzunehmende Gegenposition mit begründeter Abwägung.",
+    "area": "lines"
+  },
+  "2:3:2": {
+    "lines": 16,
+    "reason": "Auswahl und Begründung mehrerer Führungs-, Lern- und Wissenselemente sowie ihrer Verbindung im Konzept.",
+    "area": "lines"
+  },
+  "2:4:1": {
+    "lines": 28,
+    "reason": "Begründete Position und zusammenhängendes Konzept mit Entscheidungsspielräumen, Lerninstrumenten, Verantwortung und Grenzen.",
+    "area": "lines"
+  },
+  "2:5:1": {
+    "lines": 28,
+    "reason": "Begründete Position und zusammenhängendes Konzept mit Entscheidungsspielräumen, Lerninstrumenten, Verantwortung und Grenzen.",
+    "area": "lines"
+  },
+  "3:1:1": {
+    "lines": 48,
+    "reason": "Vollständiges Positionspapier: Einleitung, mehrere begründete Argumente, Modell- und Fallbezug, Gegenargumente, Umsetzung und Schluss.",
+    "area": "lines"
+  },
+  "3:1:2": {
+    "lines": 10,
+    "reason": "Zwei konkrete Situationsbeispiele und ein Befragungsbeleg zum Ergänzen oder Überarbeiten des Positionspapiers.",
+    "area": "lines"
+  },
+  "3:2:1": {
+    "lines": 32,
+    "reason": "Erster individueller Papierentwurf mit These, Modellanwendung, Gegenposition und Umsetzung an konkreten Fällen.",
+    "area": "lines"
+  },
+  "3:2:2": {
+    "lines": 48,
+    "reason": "Ausformuliertes Positionspapier mit Einleitung, Argumentketten, Gegenargumenten, konkreten Führungsgrundsätzen und begründetem Schluss.",
+    "area": "lines"
+  },
+  "3:3:1": {
+    "lines": 48,
+    "reason": "Ausformuliertes Positionspapier mit Einleitung, Argumentketten, Gegenargumenten, konkreten Führungsgrundsätzen und begründetem Schluss.",
+    "area": "lines"
+  },
+  "3:4:1": {
+    "lines": 48,
+    "reason": "Ausformuliertes Positionspapier mit Einleitung, Argumentketten, Gegenargumenten, konkreten Führungsgrundsätzen und begründetem Schluss.",
+    "area": "lines"
+  },
+  "3:5:1": {
+    "lines": 48,
+    "reason": "Ausformuliertes Positionspapier mit Einleitung, Argumentketten, Gegenargumenten, konkreten Führungsgrundsätzen und begründetem Schluss.",
+    "area": "lines"
+  },
+  "4:1:1": {
+    "lines": 10,
+    "reason": "Rückmeldungen zu Überzeugungskraft, Anwendbarkeit, Widerspruchsfreiheit und fachlicher Modellanwendung.",
+    "area": "lines"
+  },
+  "4:1:2": {
+    "lines": 12,
+    "reason": "Ausformulierte Überarbeitung einer These, Argumentkette oder Schlussfolgerung.",
+    "area": "lines"
+  },
+  "4:2:1": {
+    "lines": 16,
+    "reason": "Rückmeldungen zu vier Prüfaspekten und Überarbeitung einer nicht tragfähigen Argumentkette.",
+    "area": "lines"
+  },
+  "4:2:2": {
+    "lines": 12,
+    "reason": "Reviewablauf, konkrete Befunde zur Anwendbarkeit und Modellverwendung sowie daraus abgeleitete Korrekturen.",
+    "area": "lines"
+  },
+  "4:3:1": {
+    "lines": 12,
+    "reason": "Reviewablauf, konkrete Befunde zur Anwendbarkeit und Modellverwendung sowie daraus abgeleitete Korrekturen.",
+    "area": "lines"
+  },
+  "4:4:1": {
+    "lines": 16,
+    "reason": "Selbst organisierte Prüfung mit Rückmeldungen zu Wirkung, Fachlichkeit und Umsetzung sowie dokumentierten Anpassungen.",
+    "area": "lines"
+  },
+  "4:5:1": {
+    "lines": 16,
+    "reason": "Selbst organisierte Prüfung mit Rückmeldungen zu Wirkung, Fachlichkeit und Umsetzung sowie dokumentierten Anpassungen.",
+    "area": "lines"
+  },
+  "5:1:1": {
+    "lines": 6,
+    "reason": "Eine konkrete Führungssituation und begründete Grenze des bevorzugten Ansatzes.",
+    "area": "lines"
+  },
+  "5:1:2": {
+    "lines": 0,
+    "reason": "Abschluss erfolgt im Moodle-Feedback bzw. der Selbsteinschätzung; kein zusätzlicher schriftlicher Auftrag.",
+    "area": "lines"
+  },
+  "5:2:1": {
+    "lines": 16,
+    "reason": "Persönliche Führungsregel mit Grenze sowie jeweils kurze Belege für die fünf Kompetenzen.",
+    "area": "lines"
+  },
+  "5:2:2": {
+    "lines": 6,
+    "reason": "Eine Führungsregel und eine nachvollziehbar begründete Ausnahme.",
+    "area": "lines"
+  },
+  "5:2:3": {
+    "lines": 5,
+    "reason": "Je ein kurzer persönlicher Beleg zu den fünf Kompetenzbereichen; die Bewertung selbst erfolgt in der Selbsteinschätzung.",
+    "area": "lines"
+  },
+  "5:3:1": {
+    "lines": 6,
+    "reason": "Eine Führungsregel und eine nachvollziehbar begründete Ausnahme.",
+    "area": "lines"
+  },
+  "5:3:2": {
+    "lines": 5,
+    "reason": "Je ein kurzer persönlicher Beleg zu den fünf Kompetenzbereichen; die Bewertung selbst erfolgt in der Selbsteinschätzung.",
+    "area": "lines"
+  },
+  "5:4:1": {
+    "lines": 5,
+    "reason": "Persönliche Lernfrage mit Bezug zum eigenen Führungsverhalten und nächstem Lernschritt.",
+    "area": "lines"
+  },
+  "5:4:2": {
+    "lines": 5,
+    "reason": "Je ein kurzer persönlicher Beleg zu den fünf Kompetenzbereichen; die Bewertung selbst erfolgt in der Selbsteinschätzung.",
+    "area": "lines"
+  },
+  "5:5:1": {
+    "lines": 5,
+    "reason": "Persönliche Lernfrage mit Bezug zum eigenen Führungsverhalten und nächstem Lernschritt.",
+    "area": "lines"
+  },
+  "5:5:2": {
+    "lines": 5,
+    "reason": "Je ein kurzer persönlicher Beleg zu den fünf Kompetenzbereichen; die Bewertung selbst erfolgt in der Selbsteinschätzung.",
+    "area": "lines"
+  }
+}

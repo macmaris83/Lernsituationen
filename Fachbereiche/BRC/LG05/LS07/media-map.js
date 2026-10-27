@@ -1,0 +1,1 @@
+window.SOZ_MEDIA={"slots": {"orientation": {"src": "assets/BioCasa_LS07.png", "alt": "BioCasa · Führungskonzepte entwickeln", "label": "Orientierung"}, "situation": {"src": "assets/BioCasa_LS07.png", "alt": "BioCasa · Führungskonzepte entwickeln", "label": "Handlungssituation"}}};

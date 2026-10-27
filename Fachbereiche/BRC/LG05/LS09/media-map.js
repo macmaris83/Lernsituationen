@@ -1,0 +1,1 @@
+window.SOZ_MEDIA={"slots": {"orientation": {"src": "assets/BioCasa_LS09.png", "alt": "BioCasa · Interessenvertretung beurteilen", "label": "Orientierung"}, "situation": {"src": "assets/BioCasa_LS09.png", "alt": "BioCasa · Interessenvertretung beurteilen", "label": "Handlungssituation"}}};
