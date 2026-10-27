@@ -480,6 +480,90 @@
       "masterSha256": "55f4a304666637b6727445a7ae3c97cabf89d0c017f2b033708b8aaac425368d",
       "archiveSha256": "8c920b91209ebf0db8daf0368532359bb9f0fc0611a5a7628822974c3b4665f2",
       "files": 16
+    },
+    {
+      "id": "BRC-LG05-LS04",
+      "title": "Supply Chain gestalten",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG05/LS04",
+      "version": "1.8.2",
+      "archive": "Downloads/BRC-LG05-LS04/BRC_LG05_LS04_v1.8.2_SCORM12.zip",
+      "masterSha256": "5f96ad442829189a327fc4e0741b91c71b026d077542cd806db19f3aabec52b6",
+      "archiveSha256": "e81cceb53c274a2f056261c09bebce5916c490ba9e371a964c44f4b7a6370b3c",
+      "files": 172
+    },
+    {
+      "id": "BRC-LG05-LS05",
+      "title": "Personalbedarf und Personalentwicklung planen",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG05/LS05",
+      "version": "1.8.2",
+      "archive": "Downloads/BRC-LG05-LS05/BRC_LG05_LS05_v1.8.2_SCORM12.zip",
+      "masterSha256": "b94a718ebdaaaf0aab27e4b68471295b7b57029405e6a5c7bc9d873379201211",
+      "archiveSha256": "6c93524c43386d3453027f58873919bf2a31af5841e8440515a55ef2b7701f1f",
+      "files": 179
+    },
+    {
+      "id": "BRC-LG05-LS06",
+      "title": "Arbeitszeit und Anreize gestalten",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG05/LS06",
+      "version": "1.8.2",
+      "archive": "Downloads/BRC-LG05-LS06/BRC_LG05_LS06_v1.8.2_SCORM12.zip",
+      "masterSha256": "1512d399534c374f9eba934ed3fb629f6c062271bd9b7973ac692691d9a50d18",
+      "archiveSha256": "e70c0b42c13da5316955c4882821eac54452415bb3640f448287b4ddc96ad35f",
+      "files": 175
+    },
+    {
+      "id": "BRC-LG05-LS07",
+      "title": "Führungskonzepte entwickeln",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG05/LS07",
+      "version": "1.8.2",
+      "archive": "Downloads/BRC-LG05-LS07/BRC_LG05_LS07_v1.8.2_SCORM12.zip",
+      "masterSha256": "17bb6ff46536c9bb773bde97d83e2f1c76944751c667c624dd81303650062d25",
+      "archiveSha256": "9452a1f727c105eb60d21dd1dfacd1554c399225f9b2f17d32848038f6dc1f1a",
+      "files": 171
+    },
+    {
+      "id": "BRC-LG05-LS08",
+      "title": "Organisation und Reorganisation gestalten",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG05/LS08",
+      "version": "1.8.2",
+      "archive": "Downloads/BRC-LG05-LS08/BRC_LG05_LS08_v1.8.2_SCORM12.zip",
+      "masterSha256": "0b19816135399e0f0ef0d6dd8ecd3fca3c3071e8dac4597ecad3738984fb740f",
+      "archiveSha256": "a655612ee1ff66ea08d4a466c07ca108190d92c15b93e8c729d63393cefe825a",
+      "files": 172
+    },
+    {
+      "id": "BRC-LG05-LS09",
+      "title": "Interessenvertretung beurteilen",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG05/LS09",
+      "version": "1.8.2",
+      "archive": "Downloads/BRC-LG05-LS09/BRC_LG05_LS09_v1.8.2_SCORM12.zip",
+      "masterSha256": "c4472122f512ca2390f80bf5d4233f514ca4a726337878227fed2e8d3fe9b6a5",
+      "archiveSha256": "a400d6897d42344cba86b9223a29024ae9a88ba74aab00c19841f8408cf02059",
+      "files": 171
+    },
+    {
+      "id": "BRC-LG05-LS10",
+      "title": "Changeprozesse gestalten",
+      "bereich": "BRC",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BRC/LG05/LS10",
+      "version": "1.8.2",
+      "archive": "Downloads/BRC-LG05-LS10/BRC_LG05_LS10_v1.8.2_SCORM12.zip",
+      "masterSha256": "cf68bf7df7f03756db995b437390712f7ea7aff12c1cc75724a805c02c48b574",
+      "archiveSha256": "aa79c21df777c377699e1c90293c258669480cec96a6778ad868bf8c957dcb20",
+      "files": 175
     }
   ]
 }
