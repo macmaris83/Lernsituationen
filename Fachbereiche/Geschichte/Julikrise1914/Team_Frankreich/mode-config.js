@@ -1,0 +1,1 @@
+window.SOZ_CONFIG={"mode":1,"allowStudentMode":false,"moodle":{},"media":{},"overrides":{},"packageRevision":"J1914-1.8.3-interactive-video-20261102","format":"SCORM 1.2","learningPaths":{"1":{"label":"Planspiel"}},"packageVersion":"1.8.3"};

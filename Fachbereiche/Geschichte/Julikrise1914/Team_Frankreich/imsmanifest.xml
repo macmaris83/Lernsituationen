@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="julikrise1914-Frankreich" version="1.2">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="ORG">
+    <organization identifier="ORG" structure="hierarchical">
+      <title>Vom Mythos zum Krieg · Frankreich</title>
+      <item identifier="ITEM" identifierref="SCO" isvisible="true">
+        <title>Vom Mythos zum Krieg · Frankreich</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="SCO" type="webcontent" href="scorm.html" adlcp:scormtype="sco">
+      <file href="Paketversion.json" />
+      <file href="README.txt" />
+      <file href="assets/bbs1-aurich.svg" />
+      <file href="assets/bbs1-campus-background.png" />
+      <file href="assets/book-reference.css" />
+      <file href="assets/calculator-engine.js" />
+      <file href="assets/calculator.css" />
+      <file href="assets/calculator.js" />
+      <file href="assets/export.js" />
+      <file href="assets/fachbegriffscheck-bridge.js" />
+      <file href="assets/fachbegriffscheck-config.js" />
+      <file href="assets/fachbegriffscheck-local.js" />
+      <file href="assets/fachbegriffscheck-preserve.js" />
+      <file href="assets/flags/frankreich.svg" />
+      <file href="assets/footer-0.svg" />
+      <file href="assets/footer-1.svg" />
+      <file href="assets/footer-2.svg" />
+      <file href="assets/footer-3.svg" />
+      <file href="assets/footer-4.svg" />
+      <file href="assets/footer-5.svg" />
+      <file href="assets/footer-6.svg" />
+      <file href="assets/footer-version.css" />
+      <file href="assets/footer-version.js" />
+      <file href="assets/goodnotes.png" />
+      <file href="assets/history.css" />
+      <file href="assets/history.js" />
+      <file href="assets/images/Frankreich_Handlungssituation.png" />
+      <file href="assets/images/Frankreich_Orientierung.png" />
+      <file href="assets/ipad.css" />
+      <file href="assets/jszip.min.js" />
+      <file href="assets/lehrbuch-icon.png" />
+      <file href="assets/lernvideo-preview.png" />
+      <file href="assets/lesson-header.css" />
+      <file href="assets/lesson-header.js" />
+      <file href="assets/lg01.css" />
+      <file href="assets/lg01.js" />
+      <file href="assets/loept.png" />
+      <file href="assets/material-access.js" />
+      <file href="assets/material-pen-LICENSE.txt" />
+      <file href="assets/material-pen.otf" />
+      <file href="assets/material-views.css" />
+      <file href="assets/materials.css" />
+      <file href="assets/moodle.svg" />
+      <file href="assets/orientation-video-reminder.css" />
+      <file href="assets/orientation-video-reminder.js" />
+      <file href="assets/orientation-video.css" />
+      <file href="assets/orientation-video.js" />
+      <file href="assets/pako-LICENSE.txt" />
+      <file href="assets/pako.min.js" />
+      <file href="assets/phases.css" />
+      <file href="assets/portrait.png" />
+      <file href="assets/print-layout.css" />
+      <file href="assets/print-layout.js" />
+      <file href="assets/print.css" />
+      <file href="assets/progress-core.js" />
+      <file href="assets/progress.css" />
+      <file href="assets/progress.js" />
+      <file href="assets/review-layout.css" />
+      <file href="assets/role-flags.css" />
+      <file href="assets/runtime.js" />
+      <file href="assets/scorm-codec.js" />
+      <file href="assets/scorm.js" />
+      <file href="assets/situation.css" />
+      <file href="assets/situation.js" />
+      <file href="assets/styles.css" />
+      <file href="assets/task-form.css" />
+      <file href="assets/teacher-view.css" />
+      <file href="assets/teacher-view.js" />
+      <file href="assets/teacher.js" />
+      <file href="begriffstraining.html" />
+      <file href="bewerten.html" />
+      <file href="druckansicht.html" />
+      <file href="durchfuehren.html" />
+      <file href="entscheiden.html" />
+      <file href="erwartungshorizont.html" />
+      <file href="goodnotes-phase-bewerten-W1.js" />
+      <file href="goodnotes-phase-durchfuehren-W1.js" />
+      <file href="goodnotes-phase-entscheiden-W1.js" />
+      <file href="goodnotes-phase-informieren-W1.js" />
+      <file href="goodnotes-phase-planen-W1.js" />
+      <file href="goodnotes-phase-reflektieren-W1.js" />
+      <file href="handlungssituation.html" />
+      <file href="index.html" />
+      <file href="informieren.html" />
+      <file href="lehrkraft.html" />
+      <file href="lesson-data.js" />
+      <file href="m1.html" />
+      <file href="m2.html" />
+      <file href="m3.html" />
+      <file href="media-map.js" />
+      <file href="media-map.json" />
+      <file href="mode-config.js" />
+      <file href="pdf/Gesamtdruck_1914.pdf" />
+      <file href="pdf/GoodNotes_Phase_bewerten_W1.pdf" />
+      <file href="pdf/GoodNotes_Phase_durchfuehren_W1.pdf" />
+      <file href="pdf/GoodNotes_Phase_entscheiden_W1.pdf" />
+      <file href="pdf/GoodNotes_Phase_informieren_W1.pdf" />
+      <file href="pdf/GoodNotes_Phase_planen_W1.pdf" />
+      <file href="pdf/GoodNotes_Phase_reflektieren_W1.pdf" />
+      <file href="planen.html" />
+      <file href="progress-meta.js" />
+      <file href="reflektieren.html" />
+      <file href="scorm.html" />
+    </resource>
+  </resources>
+</manifest>

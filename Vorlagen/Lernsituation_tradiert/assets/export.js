@@ -2,6 +2,7 @@
 const encode=s=>{const bytes=new TextEncoder().encode(s);let binary='';for(let i=0;i<bytes.length;i+=32768)binary+=String.fromCharCode(...bytes.subarray(i,i+32768));return btoa(binary);};
 const decode=s=>new TextDecoder().decode(Uint8Array.from(atob(s),c=>c.charCodeAt(0)));
 function replaceContent(source,content,page){
+ if(page==='index.html'&&window.SOZ_LEARNVIDEO)content=window.SOZ_LEARNVIDEO.prepareHTML(content);
  const startTag='<div class="lesson-content">';const start=source.indexOf(startTag);const finish=source.indexOf('</div></main>',start+startTag.length);
  if(start<0||finish<0)throw Error('Bearbeitungsbereich fehlt in '+page+'. Export abgebrochen.');
  return source.slice(0,start+startTag.length)+content+source.slice(finish);
@@ -33,3 +34,4 @@ function prepareFiles(base,data,settings){
 }
 window.SOZ_EXPORT={readFiles,prepareFiles,replaceContent,encode,decode};
 })();
+

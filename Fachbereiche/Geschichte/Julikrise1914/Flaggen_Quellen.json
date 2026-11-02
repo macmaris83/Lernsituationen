@@ -1,0 +1,33 @@
+{
+  "Deutsches_Reich": {
+    "url": "https://www.dhm.de/lemo/bestand/objekt/schwarz-weiss-rote-fahne-vom-schloss-in-versailles-1871",
+    "institution": "Deutsches Historisches Museum",
+    "note": "Schwarz-Weiß-Rot, Reichsflagge seit1892; plaintricolor appropriate1914."
+  },
+  "Frankreich": {
+    "url": "https://www.elysee.fr/la-presidence/le-drapeau-francais",
+    "institution": "Élysée",
+    "note": "Blueatstaff, whitecenter, redfly; basictricolor1814/1830history verified."
+  },
+  "Russland": {
+    "url": "https://www.prlib.ru/news/658644",
+    "institution": "PresidentialLibraryRussia",
+    "note": "White-blue-redtricolor designated1896. Plaintricolor used; no1914imperialyellowcantonvariant."
+  },
+  "Grossbritannien": {
+    "url": "https://www.royal.uk/union-jack",
+    "institution": "RoyalHousehold",
+    "note": "UnionFlag1801; counterchangedred/whitesaltires representedvector."
+  },
+  "Oesterreich_Ungarn": {
+    "urls": [
+      "https://austria-forum.org/af/Wissenssammlungen/Symbole/Schwarz-Gelb",
+      "https://sammlung.mak.at/de/collect/werbemarke-der-offiziellen-kriegsfuersorge-flagge-oesterreich-ungarn-ungarisches-koenigreich_353484"
+    ],
+    "institutions": [
+      "Austria-Forum, Peter Diem",
+      "MAKMuseum"
+    ],
+    "note": "Two smallsymbols: HabsburgblackyellowandHungariannationalcolorsredwhitegreen. Captionexplicitlyidentifiescolorsandsimplificationwithoutarms; doesnotinventasinglejointnationalflag."
+  }
+}

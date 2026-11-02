@@ -1,0 +1,11 @@
+.learnvideo{margin:14px 0;min-width:0}
+.learnvideo-preview{display:block;width:min(100%,420px);padding:0;border:1px solid rgba(0,155,217,.28);border-radius:14px;overflow:hidden;background:#f5fbfe;box-shadow:0 3px 12px rgba(23,58,99,.08);cursor:pointer}
+.learnvideo-preview img{display:block;width:100%;height:auto;margin:0}
+.learnvideo-preview:hover{box-shadow:0 5px 18px rgba(23,58,99,.15)}
+.learnvideo-preview:focus-visible,.learnvideo-close:focus-visible{outline:3px solid #009bd9;outline-offset:4px}
+.learnvideo-expanded{width:100%;max-width:960px}
+.learnvideo-player{aspect-ratio:16/9;background:#172f43;border-radius:12px;overflow:hidden}
+.learnvideo-player iframe{display:block;width:100%;height:100%;border:0;transform:none;position:static;min-height:0}
+.learnvideo-close{margin-top:10px;padding:8px 14px;border:1px solid #a7cfe1;border-radius:8px;background:#f5fbfe;color:#173a63;cursor:pointer;font:inherit}
+.learnvideo [hidden]{display:none!important}
+@media print{.learnvideo-expanded{display:none!important}.learnvideo-preview{display:block!important;width:240px;box-shadow:none}}

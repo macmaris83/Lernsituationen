@@ -1,0 +1,28 @@
+{
+  "slots": {
+    "J1914-orientation": {
+      "page": "index.html",
+      "slot": "orientation",
+      "label": "Orientierung · Österreich-Ungarn",
+      "suggested_path": "assets/images/Oesterreich_Ungarn_Orientierung.png",
+      "aspect": "3:2",
+      "optional": false,
+      "position": "links im Textfluss",
+      "src": "assets/images/Oesterreich_Ungarn_Orientierung.png",
+      "alt": "KI-generierte Szene: Alltag in Wien vor dem Ersten Weltkrieg.",
+      "caption": "KI-generierte Rekonstruktion · keine historische Aufnahme."
+    },
+    "J1914-situation": {
+      "page": "handlungssituation.html",
+      "slot": "situation",
+      "label": "Handlungssituation · Österreich-Ungarn",
+      "suggested_path": "assets/images/Oesterreich_Ungarn_Handlungssituation.png",
+      "aspect": "3:2",
+      "optional": false,
+      "position": "links im Textfluss",
+      "src": "assets/images/Oesterreich_Ungarn_Handlungssituation.png",
+      "alt": "KI-generierte Szene: Beratungen der Regierung von Österreich-Ungarn nach dem Attentat von Sarajevo; Entscheidungen sind noch offen.",
+      "caption": "KI-generierte Rekonstruktion · keine historische Aufnahme."
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "version": "1.8.3",
+  "checks": [
+    "Eigenständige Fachbegriffscheck-Seite mit Aufbau und Lernlogik der hochgeladenen ReNo-Referenz",
+    "16 Fachbegriffe; je 20 korrekte Erklärungsvarianten und fünf fachnahe Distraktoren; sechs Antworten je Karte",
+    "Sicherheit vor jeder Antwort; Fehlerbegriff plus höchstens eine zuvor unsicher richtig beantwortete Zusatzkarte",
+    "Übungspunkte und Joker getrennt vom SCORM-Punktestand; Fehlerbegriff bleibt verpflichtend",
+    "Nacharbeitsauftrag bestätigt: Weiter zu Planen möglich; offener Teststatus bleibt rot",
+    "Vollständiger Lernabschluss erst bei zuletzt richtigen Begriffen und leerem Pflichtstapel",
+    "SCORM: vorhandene Sitzung, 25/15/60, Speicherung und Wiederaufnahme des Kartenstapels, keine doppelten Punkte",
+    "Konfiguration, Inline-App, Preserve-Hook und Metadaten in jedem Länderpaket synchron",
+    "Aufgaben-, Handlungsquiz- und Orientierungssignaturen unverändert",
+    "Zeit und Arbeitsform ausschließlich in den acht Aufgaben",
+    "Historischer Vergleich weiterhin erst nach Durchführen",
+    "Responsive Browserprüfung 390/768/1280; Einzelkarte und Auswertung visuell geprüft",
+    "Editor-Export bewahrt die eigenständige Testseite",
+    "Fünf Druckfassungen aktualisiert",
+    "Getrennte SCORM-Archive; ZIP-CRC und Manifestpfade geprüft",
+    "Orientierungsvideo uCGJr448RgI als YouTube-iFrame in allen fünf Ländern",
+    "Wiedergabe-, Überspringen-, Wiederaufnahme- und Speicherfehlerfälle mit kontrollierter Player-API geprüft",
+    "Alle 16 Fachbegriffe bereits im gemeinsamen M1 erläutert",
+    "Aufgabenübersicht: 50px-Leerraum entfernt, Text auf Höhe der Nummer; Fokusregeln unverändert",
+    "Interaktiver Videoauftrag mit vier Fragen und automatischen Pausen bei 120/210/300 Sekunden und tatsächlichem Videoende",
+    "Videobereiche, Antworten und Versuche im vorhandenen Lernstand gespeichert",
+    "Video vorerst mit einem Klick überspringbar; Handlungssituation wird freigegeben, Video bleibt offen",
+    "Anklickbarer Videohinweis am oberen Rand der Folgephasen; getrennt vom Fachbegriffscheck gestapelt",
+    "Version 1.8.3 in allen Seitenfootern unter Editor",
+    "Vier Checkfragen, Wiedergabe, Überspringen, Wiederaufnahme und Speicherfehlerfälle lokal geprüft",
+    "Lösungsdialog und Lösungslinks aus allen fünf Editoren entfernt; maschinelle Prüfschlüssel unverändert",
+    "Lösungen und Erwartungshorizont ausschließlich als separate PDF im Lehrkraftordner, außerhalb der fünf Länder-SCORMs",
+    "Video ohne Banner, Beschnitt oder Vergrößerung; native YouTube-Steuerung nutzbar",
+    "Genau sechs offene Phasenaufträge: informieren, Teamstrategie planen, ersten Schritt entscheiden, spielen, vergleichen, Gründe erklären",
+    "Keine Wortgrenzen, Nachrichtenquoten, Dokumentationspflichten oder zusätzlichen Feedback- und Reflexionsaufträge",
+    "GoodNotes-Phasenhefte, Gesamtdruck und separate Lehrkräfte-PDF an die offenen Aufgaben angepasst",
+    "Quiz-, Video- und Fachbegriffscheck-Signaturen unverändert; Aufgaben-Signaturen entsprechend der neuen Aufträge aktualisiert"
+  ],
+  "files": {
+    "SCORM_Deutsches_Reich.zip": {
+      "bytes": 15283903,
+      "sha256": "e9392d525047c81d8d9804f08685d5fbd7654e2be9436b12d8970b18b110f7d4"
+    },
+    "SCORM_Frankreich.zip": {
+      "bytes": 15398156,
+      "sha256": "cc037d9663851b3cd517e3840ac116892db98c613d321a3ac7ab2b5b22b7d30f"
+    },
+    "SCORM_Grossbritannien.zip": {
+      "bytes": 14663537,
+      "sha256": "cb078869982a4daefa6013820fd68a17e968c364fd468d66073e0c6bd49428f0"
+    },
+    "SCORM_Oesterreich_Ungarn.zip": {
+      "bytes": 15788164,
+      "sha256": "9231470ae79573640c6fa61395f12c5f141d2ba46ca6d8216653bb4abd295f70"
+    },
+    "SCORM_Russland.zip": {
+      "bytes": 14764768,
+      "sha256": "ae9ecb6ab3efbf6e482ae9d220eb05d83e2d4f1d3292aa4d04599b064f729fdf"
+    },
+    "SCORM_Presse.zip": {
+      "bytes": 2978044,
+      "sha256": "a6714343325587c41e7b3481d94dc5374d809d397686e933a405f367aaf15847"
+    }
+  },
+  "updated": "2026-11-02",
+  "revision": "interactive-video-20261102",
+  "pressAddition": {
+    "version": "1.8.3",
+    "scorm": "SCORM_Presse.zip",
+    "minimumPublishedIssues": 2,
+    "aisChat": "erlaubt, nicht verpflichtend",
+    "countryPackages": "bytegenau unverändert",
+    "sha256": "a6714343325587c41e7b3481d94dc5374d809d397686e933a405f367aaf15847",
+    "bytes": 2978044
+  }
+}

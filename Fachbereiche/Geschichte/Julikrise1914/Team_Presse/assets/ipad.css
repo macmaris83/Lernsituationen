@@ -1,0 +1,21 @@
+/* Touch additions to the approved lesson design; mouse monitors retain their layout. */
+@media screen and (any-pointer:coarse){
+  body :is(button,.button,summary,.material-link,.orientation-completion label,.task-completion,.focus-sound,.quiz-answer,.micro-body>label,.footer-utils>a){min-height:44px}
+  body :is(button,.button,.task-completion,.focus-sound){min-width:44px}
+  body .main .lesson-content :is(.material-access,.phase-materials) .material-link,
+  body .material-topbar .material-switch .material-link{min-height:44px;align-items:center}
+  body .orientation-completion label{padding-block:4px}
+  body .focus-task-footer .task-completion{min-height:44px!important}
+  body .focus-timer-row>button,body .focus-sound{min-height:44px}
+  body .footer-utils>a{display:inline-flex;align-items:center;min-width:44px}
+  body :is(input[type=text],input[type=url],input[type=password],input[type=number],textarea,select){font-size:16px;min-height:44px}
+
+  /* Keep all eight phases visible in portrait and Split View. */
+  body .material-phase-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));overflow:visible}
+  body .material-phase-links .button{min-width:0;min-height:44px;white-space:normal;overflow-wrap:anywhere;text-align:center}
+  @media(min-width:960px){body .material-phase-links{grid-template-columns:repeat(8,minmax(0,1fr))}}
+
+  /* An expanded sticky material chooser must leave room for the task/document. */
+  body .main .lesson-content :is(.material-access,.phase-materials) .material-grid,
+  body .material-topbar .material-switch>nav{max-height:min(32dvh,320px);overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+}

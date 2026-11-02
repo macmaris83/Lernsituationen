@@ -342,7 +342,7 @@
       "bereich": "Vorlagen",
       "typ": "Vorlage",
       "master": "Vorlagen/Lernsituation_tradiert",
-      "version": "1.0",
+      "version": "1.8.3",
       "archiveStem": "Vorlage_Lernsituation_tradiert"
     },
     {
@@ -351,7 +351,7 @@
       "bereich": "Vorlagen",
       "typ": "Vorlage",
       "master": "Vorlagen/Lernsituation_fuenf_Lernwege",
-      "version": "1.0",
+      "version": "1.8.3",
       "archiveStem": "Vorlage_Lernsituation_fuenf_Lernwege"
     },
     {
@@ -425,6 +425,60 @@
       "master": "Fachbereiche/BRC/LG05/LS10",
       "version": "1.8.2",
       "archiveStem": "BRC_LG05_LS10"
+    },
+    {
+      "id": "GESCHICHTE-J1914-Deutsches_Reich",
+      "title": "Vom Mythos zum Krieg · Deutsches Reich",
+      "bereich": "Geschichte",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Deutsches_Reich",
+      "version": "1.8.3",
+      "archiveStem": "Julikrise_1914_Deutsches_Reich"
+    },
+    {
+      "id": "GESCHICHTE-J1914-Frankreich",
+      "title": "Vom Mythos zum Krieg · Frankreich",
+      "bereich": "Geschichte",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Frankreich",
+      "version": "1.8.3",
+      "archiveStem": "Julikrise_1914_Frankreich"
+    },
+    {
+      "id": "GESCHICHTE-J1914-Grossbritannien",
+      "title": "Vom Mythos zum Krieg · Großbritannien",
+      "bereich": "Geschichte",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Grossbritannien",
+      "version": "1.8.3",
+      "archiveStem": "Julikrise_1914_Grossbritannien"
+    },
+    {
+      "id": "GESCHICHTE-J1914-Oesterreich_Ungarn",
+      "title": "Vom Mythos zum Krieg · Österreich-Ungarn",
+      "bereich": "Geschichte",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Oesterreich_Ungarn",
+      "version": "1.8.3",
+      "archiveStem": "Julikrise_1914_Oesterreich_Ungarn"
+    },
+    {
+      "id": "GESCHICHTE-J1914-Presse",
+      "title": "Vom Mythos zum Krieg · Europäische Presse",
+      "bereich": "Geschichte",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Presse",
+      "version": "1.8.3",
+      "archiveStem": "Julikrise_1914_Presse"
+    },
+    {
+      "id": "GESCHICHTE-J1914-Russland",
+      "title": "Vom Mythos zum Krieg · Russland",
+      "bereich": "Geschichte",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Russland",
+      "version": "1.8.3",
+      "archiveStem": "Julikrise_1914_Russland"
     }
   ]
 }

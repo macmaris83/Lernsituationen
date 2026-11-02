@@ -1,0 +1,54 @@
+(()=>{'use strict';const D=window.SOZPAED,C=window.SOZ_CONFIG||{},meta=window.SOZ_PROGRESS_META,K=window.SOZ_PROGRESS_CORE,codec=window.SOZ_SCORM_CODEC;if(!D||!meta||!K||!codec)return;
+const frame=document.querySelector('[data-scorm-frame]'),notice=document.querySelector('[data-scorm-notice]');let api=null,kind='preview',readOnly=false,finished=false,error='',progress=K.initial(meta,C.mode),learner='',lastSaved=false,reported='';
+const events=new Set(),previewKey='soz-tasks:'+D.id+':'+location.pathname.replace(/[^/]+$/,'');
+let recoveryKey='';
+function find(w){for(let n=0;w&&n<100;n++){try{if(w.API&&typeof w.API.LMSInitialize==='function')return w.API;if(w.parent===w)break;w=w.parent;}catch{break;}}return null;}
+function truth(v){return String(v).toLowerCase()==='true';}
+function say(s){error=s;if(notice){notice.hidden=!s;notice.textContent=s;}events.forEach(f=>{try{f();}catch{}});}
+function get(k){const value=api.LMSGetValue(k);if(String(api.LMSGetLastError())!=='0')throw Error('Moodle-Daten konnten nicht gelesen werden: '+k);return String(value??'');}
+function set(k,v){if(!truth(api.LMSSetValue(k,String(v))))throw Error('Moodle hat die Übertragung abgelehnt: '+k);}
+function loadLocal(key){try{const raw=localStorage.getItem(key);if(raw)progress=K.sanitize(JSON.parse(raw),meta,C.mode);}catch{}}
+function resume(raw){
+ let parsed;
+ try{parsed=codec.decode(raw);}catch{return 'Der bisherige Moodle-Lernstand konnte nicht gelesen werden.';}
+ if(!parsed||typeof parsed!=='object'||parsed.s!==1)return 'Der bisherige Moodle-Lernstand hat ein anderes Datenformat.';
+ if(parsed.l!==meta.id)return 'In Moodle liegt noch ein Lernstand aus einem anderen Lernpaket.';
+ progress=K.sanitize(parsed,meta,C.mode);return '';
+}
+try{api=find(window);if(!api&&window.opener)api=find(window.opener);if(api){
+ if(!truth(api.LMSInitialize('')))throw Error('Die Verbindung zu Moodle konnte nicht geöffnet werden.');
+ kind='moodle';learner=get('cmi.core.student_id');const lessonMode=get('cmi.core.lesson_mode');readOnly=lessonMode==='review';
+ if(lessonMode==='browse'){
+  kind='preview';loadLocal(previewKey+':browse');
+  say('Lernvorschau: Du kannst Aufgaben abhaken und den Lernweg ausprobieren. Der Fortschritt dieser Vorschau wird nur auf diesem Gerät gespeichert.');
+ }else{
+  const raw=get('cmi.suspend_data'),conflict=raw?resume(raw):'';
+  if(conflict){
+   if(readOnly)say(conflict+' Die Ansicht bleibt schreibgeschützt; der gespeicherte Moodle-Lernstand bleibt erhalten.');
+   else{kind='recovery';recoveryKey=previewKey+':recovery:'+encodeURIComponent(learner);loadLocal(recoveryKey);say(conflict+' Du kannst hier weiterarbeiten. Dein neuer Fortschritt wird nur auf diesem Gerät gespeichert. Für die Speicherung in Moodle starte dort einen neuen Versuch. Dein bisheriger Moodle-Lernstand bleibt erhalten.');}
+  }else if(readOnly)say('Ansichtsmodus: Die gespeicherten Angaben werden angezeigt; Änderungen werden nicht gespeichert.');
+ }
+}else{loadLocal(previewKey);say('Lokale Vorschau: Angaben werden nur in diesem Browser gespeichert. Für die Speicherung im Schülerkonto in Moodle als Lernpaket öffnen.');}}
+catch(e){kind='error';say(e.message||'Die Angaben konnten nicht geladen werden. Bitte das Paket erneut über Moodle öffnen.');}
+function reportRows(){const a=progress.a,rows=[],f=progress.fc,grade=K.grading(progress,meta),valid=K.flashcardValid(progress,meta),results=valid&&Array.isArray(f.data?.state?.results)?f.data.state.results:[];
+ if(valid){const sure=results.filter(r=>r?.latest?.certainty==='sure').length,unsure=results.filter(r=>r?.latest?.certainty==='unsure').length;rows.push(['Begriffstraining_Ergebnis',grade.termsCorrect+' / '+grade.termsTotal],['Begriffstraining_Selbsteinschaetzung',sure+' sicher; '+unsure+' noch unsicher'],['Begriffstraining_Beleg',(f.complete?'Vollständig erledigt':'Noch offen')+'; '+Number(f.pending||0)+' Pflichtkarten; Nacharbeit '+(f.acknowledged?'bestätigt':'noch nicht bestätigt')]);}
+ for(const c of meta.competencies){const v=a.assessments[c.id]||{};rows.push([c.id+'_'+c.label+'_Nach_LS',v.after===null||v.after===undefined?'Noch offen':String(v.after)]);rows.push([c.id+'_'+c.label+'_Beleg',v.evidence||'']);}
+ rows.push(['LS'+D.id+'_Fremdfeedback',a.feedback||''],['LS'+D.id+'_Naechster_Lernschritt',a.nextGoal||'']);rows.push(['Punkte_Gesamt',String(grade.points)],['Punkte_Arbeitsauftraege',String(grade.taskPoints)],['Punkte_Handlungssituation',String(grade.situationPoints)],['Punkte_Begriffscheck',String(grade.termPoints)]);
+ if(valid){rows.push(['Fachbegriffe_Erstpruefung_richtig',String(grade.termsFirstCorrect)],['Fachbegriffe_Pflichtstapel',String(Number(f.pending||0))],['Fachbegriffe_Lernabschluss',f.complete?'vollständig':'offen']);const terms=window.RENO_FLASHCARD_CONFIG?.terms||[];for(let i=0;i<grade.termsTotal;i++){const r=results[i],id=terms[i]?.id||String(i+1);rows.push(['Fachbegriff_'+id+'_Letzte_Antwort',!r?.latest?'ungeprüft':r.latest.correct?'richtig':'falsch'],['Fachbegriff_'+id+'_Sicherheit',r?.latest?.certainty==='sure'?'sicher':r?.latest?.certainty==='unsure'?'noch unsicher':'noch offen']);}}
+ for(const q of meta.orientationVideo?.questions||[]){const value=progress.ov?.answers?.[q.id],attempts=progress.ov?.attempts?.[q.id]||0;rows.push(['Video_'+q.id+'_Antwort',value||'Noch offen'],['Video_'+q.id+'_Versuche',String(attempts)],['Video_'+q.id+'_Ergebnis',value===q.correct?'richtig':value?'falsch':'noch offen']);}
+ rows.push(['Orientierungsvideo_Abschluss',progress.ov?.complete?'Video und Fragen erledigt':progress.ov?.skipped?'Übersprungen; Nacharbeit offen':'Noch offen']);return rows;}
+
+function hasAssessment(){return progress.ov?.skipped===true||Object.keys(progress.ov?.attempts||{}).length>0||!!progress.fc?.started||Object.values(progress.a.assessments).some(v=>v.after!==null||v.evidence)||progress.a.feedback||progress.a.nextGoal;}
+function commit(){if(finished||readOnly||kind==='error')return false;lastSaved=false;let rows=[],digest='',value;
+try{if(kind==='moodle'&&(hasAssessment()||progress.r!==null)){rows=reportRows();for(const [,v]of rows)if(v.length>255)throw Error('Ein Kompetenzbeleg oder Reflexionstext ist zu lang. Bitte auf höchstens 255 Zeichen kürzen.');if(progress.r===null){const count=Number(get('cmi.interactions._count')||0);if(!Number.isInteger(count)||count<0||count>100000)throw Error('Die Moodle-Berichtseinträge konnten nicht zugeordnet werden.');progress.r=count;}digest=JSON.stringify(rows);}
+value=codec.encode(progress);if(value.length>4096)throw Error('Die Angaben sind für SCORM 1.2 zu umfangreich. Bitte die Kompetenzbelege kürzen; die letzten gespeicherten Angaben bleiben erhalten.');
+if(kind==='moodle'){if(rows.length&&digest!==reported){for(let i=0;i<rows.length;i++){const [id,response]=rows[i],key='cmi.interactions.'+(progress.r+i)+'.';set(key+'id',id.replace(/[^\x21-\x7e]/g,'_'));set(key+'type','fill-in');set(key+'weighting','0');set(key+'student_response',response);set(key+'result','neutral');}}
+const values={'cmi.suspend_data':value,'cmi.core.lesson_location':progress.b,'cmi.core.score.min':'0','cmi.core.score.max':'100','cmi.core.score.raw':K.grading(progress,meta).points,'cmi.core.lesson_status':K.allComplete(progress,meta)?'completed':'incomplete','cmi.core.exit':'suspend'};for(const [k,v]of Object.entries(values))set(k,v);if(!truth(api.LMSCommit('')))throw Error('Moodle hat das Speichern nicht bestätigt.');reported=digest;lastSaved=true;say('');return true;}
+localStorage.setItem(kind==='recovery'?recoveryKey:previewKey+(api?':browse':''),JSON.stringify(progress));lastSaved=true;return true;
+}catch(e){say('Speichern fehlgeschlagen. '+e.message+' Bitte erneut versuchen.');return false;}}
+function update(next){if(readOnly||kind==='error'||finished)return false;const previous=K.clone(progress),base=progress.r;progress=K.sanitize(next,meta,C.mode);if(progress.r===null&&base!==null)progress.r=base;const ok=commit();if(!ok){progress=previous;events.forEach(f=>{try{f();}catch{}});}return ok;}
+function finish(){if(finished)return;if(kind==='moodle'){if(!readOnly)commit();try{api.LMSFinish('');}catch{}}finished=true;}
+window.SOZ_SCORM={read:()=>K.clone(progress),update,reset:()=>update(K.initial(meta,progress.m)),subscribe:f=>{events.add(f);return ()=>events.delete(f);},get kind(){return kind;},get readOnly(){return readOnly||kind==='error';},get learner(){return learner;},get message(){return error;},get lastSaved(){return lastSaved;},commit};
+window.addEventListener('pagehide',e=>{if(!e.persisted)finish();else if(!readOnly)commit();});window.addEventListener('beforeunload',()=>{if(!finished&&!readOnly)commit();});document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden'&&!finished&&!readOnly)commit();});
+if(frame){let page=progress.b;if(!meta.resumePages.includes(page))page='index.html';frame.src=page;}
+})();

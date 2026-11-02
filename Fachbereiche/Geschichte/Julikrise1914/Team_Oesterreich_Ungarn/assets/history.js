@@ -1,0 +1,1 @@
+(()=>{const P=window.SOZ_PROGRESS,K=window.SOZ_PROGRESS_CORE,M=window.SOZ_PROGRESS_META;if(!P||!K||!M)return;const allowed=document.body.dataset.page!=='druckansicht.html'&&(window.SOZ_TEACHER_VIEW?.active||K.phaseComplete(P.read(),M,'durchfuehren'));document.querySelectorAll('.chronology,[data-postgame-original]').forEach(e=>e.hidden=!allowed);})();

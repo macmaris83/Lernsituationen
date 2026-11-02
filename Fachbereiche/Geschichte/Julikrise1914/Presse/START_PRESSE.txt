@@ -1,0 +1,7 @@
+Presse · zusätzliche Rolle im Planspiel Julikrise 1914
+
+SCORM_Presse.zip in Moodle als eigene SCORM-1.2-Aktivität für die Gruppe Presse bereitstellen. Das Paket ist eigenständig und enthält keine vertraulichen aktuellen Länderrollenkarten.
+
+Verbindlich sind mindestens zwei während des Spiels veröffentlichte Zeitungsausgaben. Die Redaktion soll möglichen Intrigen nachgehen und mit interessanten Geschichten Leserschaft bzw. Auflage gewinnen. Den eingebetteten AIS-Chat darf sie für Themenideen, Schlagzeilen und Artikel nutzen; die Nutzung ist freiwillig. Die Veröffentlichung erfolgt im vereinbarten Unterrichtskanal, etwa Moodle oder als verteilte Zeitung. Das Lernpaket veröffentlicht nicht automatisch und erfindet keine Auflagenzahlen.
+
+Presse_Rollenauftrag_1914.pdf beschreibt die ergänzte aktuelle Rolle. Die bereits vorhandene Presse_1914.pdf bleibt als Originalmaterial erhalten. Die fünf Länderpakete wurden bei dieser Ergänzung nicht verändert.

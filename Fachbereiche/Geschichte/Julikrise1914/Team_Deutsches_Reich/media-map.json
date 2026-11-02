@@ -1,0 +1,28 @@
+{
+  "slots": {
+    "J1914-orientation": {
+      "page": "index.html",
+      "slot": "orientation",
+      "label": "Orientierung · Deutsches Reich",
+      "suggested_path": "assets/images/Deutsches_Reich_Orientierung.png",
+      "aspect": "3:2",
+      "optional": false,
+      "position": "links im Textfluss",
+      "src": "assets/images/Deutsches_Reich_Orientierung.png",
+      "alt": "KI-generierte Szene: Alltag in Berlin vor dem Ersten Weltkrieg.",
+      "caption": "KI-generierte Rekonstruktion · keine historische Aufnahme."
+    },
+    "J1914-situation": {
+      "page": "handlungssituation.html",
+      "slot": "situation",
+      "label": "Handlungssituation · Deutsches Reich",
+      "suggested_path": "assets/images/Deutsches_Reich_Handlungssituation.png",
+      "aspect": "3:2",
+      "optional": false,
+      "position": "links im Textfluss",
+      "src": "assets/images/Deutsches_Reich_Handlungssituation.png",
+      "alt": "KI-generierte Szene: Beratungen der Regierung von Deutsches Reich nach dem Attentat von Sarajevo; Entscheidungen sind noch offen.",
+      "caption": "KI-generierte Rekonstruktion · keine historische Aufnahme."
+    }
+  }
+}
