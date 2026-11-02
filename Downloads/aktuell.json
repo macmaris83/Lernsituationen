@@ -643,10 +643,10 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/IdentitaetUndNation/Lernpaket",
-      "version": "1.8.4",
-      "archive": "Downloads/GESCHICHTE-IDN/Identitaet_und_Nation_v1.8.4_SCORM12.zip",
-      "masterSha256": "9176e9c9a314d25b584cb77dc6559d240afd308af9709c54f6db0ac8932421bc",
-      "archiveSha256": "842e2601c3cd1d31ae04f587bf0e9079d624039ffcd2346d33a5cccaf4e4ed91",
+      "version": "1.8.5",
+      "archive": "Downloads/GESCHICHTE-IDN/Identitaet_und_Nation_v1.8.5_SCORM12.zip",
+      "masterSha256": "03c9c472338663bf4c52b3991df2a4bd08abf5751d625db6eedc60e4d009c17a",
+      "archiveSha256": "7d423051f4fb28e590bb6754e7e7fc7c2e2384e9fefd26082a75a8aa44fbf39a",
       "files": 107
     }
   ]
