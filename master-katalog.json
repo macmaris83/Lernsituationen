@@ -479,6 +479,15 @@
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Russland",
       "version": "1.8.3",
       "archiveStem": "Julikrise_1914_Russland"
+    },
+    {
+      "id": "GESCHICHTE-IDN",
+      "title": "Identität und Nation",
+      "bereich": "Geschichte",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/Geschichte/IdentitaetUndNation/Lernpaket",
+      "version": "1.8.3",
+      "archiveStem": "Identitaet_und_Nation"
     }
   ]
 }

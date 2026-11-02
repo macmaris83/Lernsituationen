@@ -1,0 +1,7 @@
+/* Same task-card and focus styles as the current catalogue master. */
+.focus-phase-budget-value{min-width:0;font-size:.9rem;line-height:1.4;text-align:right;color:#173a63}
+.focus-phase-budget .focus-timer-row{align-items:center}
+
+/* Visible paragraphs between subassignments in overview and task focus. */
+.assignment-body>.assignment-command+.assignment-command,
+.task-original-preview>.assignment-command+.assignment-command{margin-top:1em!important}

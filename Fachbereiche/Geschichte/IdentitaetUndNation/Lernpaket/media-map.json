@@ -1,0 +1,24 @@
+{
+  "slots": {
+    "IDN-orientation": {
+      "page": "index.html",
+      "slot": "orientation",
+      "label": "Orientierung · Identität und Nation",
+      "src": "assets/identitaet_nation_aurich_stimmungsbild.png",
+      "alt": "Illustration zur Frage nach Identität und nationaler Zugehörigkeit.",
+      "caption": "Illustration zur Lernsituation · keine historische Quelle.",
+      "aspect": "16:9",
+      "optional": false
+    },
+    "IDN-situation": {
+      "page": "handlungssituation.html",
+      "slot": "situation",
+      "label": "Handlungssituation · Podcastredaktion Zeitstimmen",
+      "src": "assets/zeitstimmen_podcast_redaktion.png",
+      "alt": "Illustration einer Podcastredaktion bei der Arbeit an historischen Identitätsfragen.",
+      "caption": "Illustration zur Handlungssituation · keine historische Quelle.",
+      "aspect": "16:9",
+      "optional": false
+    }
+  }
+}
