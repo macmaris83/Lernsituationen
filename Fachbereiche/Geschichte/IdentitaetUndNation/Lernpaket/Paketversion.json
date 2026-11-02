@@ -1,9 +1,9 @@
 {
-  "version": "1.8.3",
+  "version": "1.8.4",
   "title": "Identität und Nation",
   "updated": "2026-11-02",
-  "revision": "IDN-183",
-  "changes": "Identität und Nation im freigegebenen 1.8.3-Formstand: zwölf Aufgaben (zwei je Phase), eigenständiger Fachbegriffe-Check mit 18 Begriffen, Handlungssituationscheck, zwei optionale YouTube-iFrames mit titelspezifischen BBS1-Vorschauen und dynamische kleine Versionszeile unter den Footeroptionen.",
+  "revision": "IDN-184",
+  "changes": "Orientierung gestrafft; ausschließlich Sozialformen an Aufgaben; funktionsfähiger grüner BRC-Materialzugriff; laufende XP-/Punktesumme im Footer und geprüfter Paketabschluss mit SCORM-Speicherung.",
   "taskPolicy": {
     "preferred": 2,
     "normal_maximum": 3,

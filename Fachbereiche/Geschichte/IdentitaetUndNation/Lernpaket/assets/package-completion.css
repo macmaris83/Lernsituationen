@@ -1,0 +1,8 @@
+.page-footer .phase-points-row,.b-footer .phase-points-row{flex-basis:100%;display:flex;flex-direction:column;align-items:center;gap:7px;width:100%;margin:6px 0 16px;padding:14px 16px;border:1px solid #c7dce5;border-radius:12px;background:#f3f9fc;box-sizing:border-box}
+.package-score-label{font-size:.82rem;color:#173a63}
+.package-score-summary,.package-completion-status{font-size:.75rem;line-height:1.5;color:#50676d;text-align:center}
+.package-completion-status{margin:1px 0 0;max-width:700px}
+.page-footer .phase-points-row .point-float,.b-footer .phase-points-row .point-float{margin:0;max-width:100%}
+[data-complete-package][disabled]{cursor:default;opacity:.6}
+body[data-ls-id="geschichte-identitaet-nation"] .assignment-kind,body[data-ls-id="geschichte-identitaet-nation"] [data-learning-kind]{display:none!important}
+@media print{.phase-points-row,[data-complete-package]{display:none!important}}

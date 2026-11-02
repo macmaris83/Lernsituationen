@@ -1,7 +1,10 @@
 (()=>{'use strict';const D=window.SOZPAED,C=window.SOZ_CONFIG||{},meta=window.SOZ_PROGRESS_META,K=window.SOZ_PROGRESS_CORE,codec=window.SOZ_SCORM_CODEC;if(!D||!meta||!K||!codec)return;
-const frame=document.querySelector('[data-scorm-frame]'),notice=document.querySelector('[data-scorm-notice]');let api=null,kind='preview',readOnly=false,finished=false,error='',progress=K.initial(meta,C.mode),learner='',lastSaved=false,reported='';
+const frame=document.querySelector('[data-scorm-frame]'),notice=document.querySelector('[data-scorm-notice]');let api=null,initialized=false,kind='preview',readOnly=false,finished=false,completed=false,error='',progress=K.initial(meta,C.mode),learner='',lastSaved=false,reported='';
 const events=new Set(),previewKey='soz-tasks:'+D.id+':'+location.pathname.replace(/[^/]+$/,'');
 let recoveryKey='';
+const completionStamp=K.hash(JSON.stringify({id:meta.id,orientation:meta.orientationSignature,quiz:meta.quizSignature,terms:meta.flashcard?.signature,tasks:meta.tasks}));
+const localStateKey=()=>kind==='recovery'?recoveryKey:previewKey+(api?':browse':'');
+const completionKey=()=>localStateKey()+':completed';
 function find(w){for(let n=0;w&&n<100;n++){try{if(w.API&&typeof w.API.LMSInitialize==='function')return w.API;if(w.parent===w)break;w=w.parent;}catch{break;}}return null;}
 function truth(v){return String(v).toLowerCase()==='true';}
 function say(s){error=s;if(notice){notice.hidden=!s;notice.textContent=s;}events.forEach(f=>{try{f();}catch{}});}
@@ -16,7 +19,7 @@ function resume(raw){
  progress=K.sanitize(parsed,meta,C.mode);return '';
 }
 try{api=find(window);if(!api&&window.opener)api=find(window.opener);if(api){
- if(!truth(api.LMSInitialize('')))throw Error('Die Verbindung zu Moodle konnte nicht geöffnet werden.');
+ if(!truth(api.LMSInitialize('')))throw Error('Die Verbindung zu Moodle konnte nicht geöffnet werden.');initialized=true;
  kind='moodle';learner=get('cmi.core.student_id');const lessonMode=get('cmi.core.lesson_mode');readOnly=lessonMode==='review';
  if(lessonMode==='browse'){
   kind='preview';loadLocal(previewKey+':browse');
@@ -30,6 +33,7 @@ try{api=find(window);if(!api&&window.opener)api=find(window.opener);if(api){
  }
 }else{loadLocal(previewKey);say('Lokale Vorschau: Angaben werden nur in diesem Browser gespeichert. Für die Speicherung im Schülerkonto in Moodle als Lernpaket öffnen.');}}
 catch(e){kind='error';say(e.message||'Die Angaben konnten nicht geladen werden. Bitte das Paket erneut über Moodle öffnen.');}
+if(kind!=='moodle'&&kind!=='error')try{completed=localStorage.getItem(completionKey())===completionStamp&&K.allComplete(progress,meta);if(completed)say('Dieses Lernpaket wurde lokal in diesem Browser abgeschlossen. In Moodle wurde nichts übertragen.');}catch{}
 function reportRows(){const a=progress.a,rows=[],f=progress.fc,grade=K.grading(progress,meta),valid=K.flashcardValid(progress,meta),results=valid&&Array.isArray(f.data?.state?.results)?f.data.state.results:[];
  if(valid){const sure=results.filter(r=>r?.latest?.certainty==='sure').length,unsure=results.filter(r=>r?.latest?.certainty==='unsure').length;rows.push(['Begriffstraining_Ergebnis',grade.termsCorrect+' / '+grade.termsTotal],['Begriffstraining_Selbsteinschaetzung',sure+' sicher; '+unsure+' noch unsicher'],['Begriffstraining_Beleg',(f.complete?'Vollständig erledigt':'Noch offen')+'; '+Number(f.pending||0)+' Pflichtkarten; Nacharbeit '+(f.acknowledged?'bestätigt':'noch nicht bestätigt')]);}
  for(const c of meta.competencies){const v=a.assessments[c.id]||{};rows.push([c.id+'_'+c.label+'_Nach_LS',v.after===null||v.after===undefined?'Noch offen':String(v.after)]);rows.push([c.id+'_'+c.label+'_Beleg',v.evidence||'']);}
@@ -39,16 +43,27 @@ function reportRows(){const a=progress.a,rows=[],f=progress.fc,grade=K.grading(p
  rows.push(['Orientierungsvideo_Abschluss',progress.ov?.complete?'Video und Fragen erledigt':progress.ov?.skipped?'Übersprungen; Nacharbeit offen':'Noch offen']);return rows;}
 
 function hasAssessment(){return progress.ov?.skipped===true||Object.keys(progress.ov?.attempts||{}).length>0||!!progress.fc?.started||Object.values(progress.a.assessments).some(v=>v.after!==null||v.evidence)||progress.a.feedback||progress.a.nextGoal;}
-function commit(){if(finished||readOnly||kind==='error')return false;lastSaved=false;let rows=[],digest='',value;
+function commit(finalize=false){if(finished||completed||readOnly||kind==='error')return false;lastSaved=false;let rows=[],digest='',value;
 try{if(kind==='moodle'&&(hasAssessment()||progress.r!==null)){rows=reportRows();for(const [,v]of rows)if(v.length>255)throw Error('Ein Kompetenzbeleg oder Reflexionstext ist zu lang. Bitte auf höchstens 255 Zeichen kürzen.');if(progress.r===null){const count=Number(get('cmi.interactions._count')||0);if(!Number.isInteger(count)||count<0||count>100000)throw Error('Die Moodle-Berichtseinträge konnten nicht zugeordnet werden.');progress.r=count;}digest=JSON.stringify(rows);}
 value=codec.encode(progress);if(value.length>4096)throw Error('Die Angaben sind für SCORM 1.2 zu umfangreich. Bitte die Kompetenzbelege kürzen; die letzten gespeicherten Angaben bleiben erhalten.');
 if(kind==='moodle'){if(rows.length&&digest!==reported){for(let i=0;i<rows.length;i++){const [id,response]=rows[i],key='cmi.interactions.'+(progress.r+i)+'.';set(key+'id',id.replace(/[^\x21-\x7e]/g,'_'));set(key+'type','fill-in');set(key+'weighting','0');set(key+'student_response',response);set(key+'result','neutral');}}
-const values={'cmi.suspend_data':value,'cmi.core.lesson_location':progress.b,'cmi.core.score.min':'0','cmi.core.score.max':'100','cmi.core.score.raw':K.grading(progress,meta).points,'cmi.core.lesson_status':K.allComplete(progress,meta)?'completed':'incomplete','cmi.core.exit':'suspend'};for(const [k,v]of Object.entries(values))set(k,v);if(!truth(api.LMSCommit('')))throw Error('Moodle hat das Speichern nicht bestätigt.');reported=digest;lastSaved=true;say('');return true;}
-localStorage.setItem(kind==='recovery'?recoveryKey:previewKey+(api?':browse':''),JSON.stringify(progress));lastSaved=true;return true;
+const values={'cmi.suspend_data':value,'cmi.core.lesson_location':progress.b,'cmi.core.score.min':'0','cmi.core.score.max':'100','cmi.core.score.raw':K.grading(progress,meta).points,'cmi.core.lesson_status':K.allComplete(progress,meta)?'completed':'incomplete','cmi.core.exit':finalize?'':'suspend'};for(const [k,v]of Object.entries(values))set(k,v);if(!truth(api.LMSCommit('')))throw Error('Moodle hat das Speichern nicht bestätigt.');reported=digest;lastSaved=true;say('');return true;}
+localStorage.setItem(localStateKey(),JSON.stringify(progress));lastSaved=true;return true;
 }catch(e){say('Speichern fehlgeschlagen. '+e.message+' Bitte erneut versuchen.');return false;}}
-function update(next){if(readOnly||kind==='error'||finished)return false;const previous=K.clone(progress),base=progress.r;progress=K.sanitize(next,meta,C.mode);if(progress.r===null&&base!==null)progress.r=base;const ok=commit();if(!ok){progress=previous;events.forEach(f=>{try{f();}catch{}});}return ok;}
-function finish(){if(finished)return;if(kind==='moodle'){if(!readOnly)commit();try{api.LMSFinish('');}catch{}}finished=true;}
-window.SOZ_SCORM={read:()=>K.clone(progress),update,reset:()=>update(K.initial(meta,progress.m)),subscribe:f=>{events.add(f);return ()=>events.delete(f);},get kind(){return kind;},get readOnly(){return readOnly||kind==='error';},get learner(){return learner;},get message(){return error;},get lastSaved(){return lastSaved;},commit};
+function update(next){if(readOnly||completed||kind==='error'||finished)return false;const previous=K.clone(progress),base=progress.r;progress=K.sanitize(next,meta,C.mode);if(progress.r===null&&base!==null)progress.r=base;const ok=commit();if(!ok){progress=previous;events.forEach(f=>{try{f();}catch{}});}return ok;}
+function closeAPI(){if(!initialized)return true;try{if(!truth(api.LMSFinish('')))throw Error('Moodle hat das Beenden nicht bestätigt.');initialized=false;return true;}catch(e){say('Abschluss fehlgeschlagen. '+(e.message||'Moodle konnte nicht erreicht werden.')+' Bitte erneut versuchen.');return false;}}
+function complete(){
+ if(completed)return true;
+ if(readOnly||kind==='error'||finished){say(readOnly?'Ansichtsmodus: Ein Abschluss kann hier nicht gespeichert werden.':'Diese Sitzung kann nicht abgeschlossen werden. Bitte das Lernpaket erneut öffnen.');return false;}
+ if(!K.allComplete(progress,meta)){say('Das Lernpaket ist noch nicht vollständig bearbeitet. Schließe zuerst die offenen Aufgaben und Checks ab.');return false;}
+ if(!commit(true)||!closeAPI())return false;
+ if(kind!=='moodle')try{localStorage.setItem(completionKey(),completionStamp);}catch{say('Der lokale Abschluss konnte nicht gespeichert werden. Bitte erneut versuchen.');return false;}
+ completed=true;finished=true;
+ say(kind==='moodle'?'Das Lernpaket wurde in Moodle abgeschlossen.':'Das Lernpaket wurde lokal in diesem Browser abgeschlossen. In Moodle wurde nichts übertragen.');return true;
+}
+function finish(){if(finished)return true;if(!readOnly&&!completed&&kind!=='error'&&!commit())return false;if(!closeAPI())return false;finished=true;events.forEach(f=>{try{f();}catch{}});return true;}
+function reset(){if(kind==='moodle'||readOnly||kind==='error')return update(K.initial(meta,progress.m));const wasCompleted=completed,wasFinished=finished;try{localStorage.removeItem(completionKey());completed=false;finished=false;}catch{say('Der lokale Abschluss konnte nicht zurückgesetzt werden.');return false;}const ok=update(K.initial(meta,progress.m));if(!ok){completed=wasCompleted;finished=wasFinished;if(wasCompleted)try{localStorage.setItem(completionKey(),completionStamp);}catch{}events.forEach(f=>{try{f();}catch{}});}return ok;}
+window.SOZ_SCORM={read:()=>K.clone(progress),update,reset,complete,subscribe:f=>{events.add(f);return ()=>events.delete(f);},get kind(){return kind;},get readOnly(){return readOnly||finished||completed||kind==='error';},get completed(){return completed;},get learner(){return learner;},get message(){return error;},get lastSaved(){return lastSaved;},commit};
 window.addEventListener('pagehide',e=>{if(!e.persisted)finish();else if(!readOnly)commit();});window.addEventListener('beforeunload',()=>{if(!finished&&!readOnly)commit();});document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden'&&!finished&&!readOnly)commit();});
 if(frame){let page=progress.b;if(!meta.resumePages.includes(page))page='index.html';frame.src=page;}
 })();

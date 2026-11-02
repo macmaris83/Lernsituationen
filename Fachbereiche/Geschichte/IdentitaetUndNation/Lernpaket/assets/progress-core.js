@@ -19,7 +19,7 @@ function orientationVideoComplete(p,meta){return !meta.orientationVideo||sanitiz
 function orientationVideoCanContinue(p,meta){return orientationVideoComplete(p,meta)||sanitizeOrientationVideo(p.ov,meta)?.skipped===true;}
 
 function initial(meta,mode){return {s:1,l:meta.id,m:Number(mode)||1,t:{},o:false,ov:null,w:meta.orientationSignature,q:{},qf:{},qn:{},qh:{},v:meta.quizSignature,b:'index.html',a:{assessments:{},feedback:'',nextGoal:''},r:null,k:{},ks:meta.knowledgeSignature,ka:{level:null,evidence:''}};}
-function sanitize(raw,meta,mode){const p=initial(meta,mode);if(!raw||raw.s!==1||raw.l!==meta.id)return p;if(raw.ks===meta.knowledgeSignature){for(const q of meta.knowledge||[]){const a=raw.k?.[q.id];if(Array.isArray(a)&&q.options.includes(a[0])&&typeof a[1]==='boolean')p.k[q.id]=[a[0],a[1]];}p.ka={level:Number.isInteger(raw.ka?.level)&&raw.ka.level>=1&&raw.ka.level<=4?raw.ka.level:null,evidence:String(raw.ka?.evidence||'').slice(0,255)};}if(raw.fc&&raw.fc.schema===1&&raw.fc.version===3&&raw.fc.id===meta.id&&typeof raw.fc.signature==='string'&&raw.fc.data!==undefined)p.fc=clone(raw.fc);p.m=Number.isInteger(raw.m)&&availableModes(meta).includes(raw.m)?raw.m:p.m;for(const [k,v]of Object.entries(raw.t||{})){if(meta.tasks[k]?.signature===v)p.t[k]=v;}p.ov=sanitizeOrientationVideo(raw.ov,meta);p.o=raw.o===true&&raw.w===p.w&&orientationVideoCanContinue(p,meta);if(raw.v===p.v)for(const q of meta.quiz){const a=raw.q?.[q.id];if(Array.isArray(a)&&q.options.includes(a[0])&&typeof a[1]==='boolean')p.q[q.id]=[a[0],a[1]];const first=raw.qf?.[q.id];if(typeof first==='boolean'||first===null)p.qf[q.id]=first;else if(!raw.qf&&p.q[q.id])p.qf[q.id]=null;if(raw.qh?.[q.id]===true)p.qh[q.id]=true;const tries=raw.qn?.[q.id];if(Number.isInteger(tries)&&tries>0&&tries<=1000000)p.qn[q.id]=tries;}if(meta.resumePages.includes(raw.b))p.b=raw.b;for(const c of meta.competencies||[]){const a=raw.a?.assessments?.[c.id]||{};p.a.assessments[c.id]={after:Number.isInteger(a.after)&&a.after>=1&&a.after<=4?a.after:null,evidence:String(a.evidence||'')};}p.a.feedback=String(raw.a?.feedback||'');p.a.nextGoal=String(raw.a?.nextGoal||'');if(Number.isInteger(raw.r)&&raw.r>=0&&raw.r<=100000)p.r=raw.r;return p;}
+function sanitize(raw,meta,mode){const p=initial(meta,mode);if(!raw||raw.s!==1||raw.l!==meta.id)return p;if(raw.ks===meta.knowledgeSignature){for(const q of meta.knowledge||[]){const a=raw.k?.[q.id];if(Array.isArray(a)&&q.options.includes(a[0])&&typeof a[1]==='boolean')p.k[q.id]=[a[0],a[1]];}p.ka={level:Number.isInteger(raw.ka?.level)&&raw.ka.level>=1&&raw.ka.level<=4?raw.ka.level:null,evidence:String(raw.ka?.evidence||'').slice(0,255)};}if(raw.fc&&raw.fc.schema===1&&raw.fc.version===3&&raw.fc.id===meta.id&&typeof raw.fc.signature==='string'&&raw.fc.data!==undefined)p.fc=clone(raw.fc);p.m=Number.isInteger(raw.m)&&availableModes(meta).includes(raw.m)?raw.m:p.m;for(const [k,v]of Object.entries(raw.t||{})){if(meta.tasks[k]?.signature===v)p.t[k]=v;}p.ov=sanitizeOrientationVideo(raw.ov,meta);p.o=raw.o===true&&(raw.w===p.w||(meta.legacyOrientationSignatures||[]).includes(raw.w))&&orientationVideoCanContinue(p,meta);if(raw.v===p.v)for(const q of meta.quiz){const a=raw.q?.[q.id];if(Array.isArray(a)&&q.options.includes(a[0])&&typeof a[1]==='boolean')p.q[q.id]=[a[0],a[1]];const first=raw.qf?.[q.id];if(typeof first==='boolean'||first===null)p.qf[q.id]=first;else if(!raw.qf&&p.q[q.id])p.qf[q.id]=null;if(raw.qh?.[q.id]===true)p.qh[q.id]=true;const tries=raw.qn?.[q.id];if(Number.isInteger(tries)&&tries>0&&tries<=1000000)p.qn[q.id]=tries;}if(meta.resumePages.includes(raw.b))p.b=raw.b;for(const c of meta.competencies||[]){const a=raw.a?.assessments?.[c.id]||{};p.a.assessments[c.id]={after:Number.isInteger(a.after)&&a.after>=1&&a.after<=4?a.after:null,evidence:String(a.evidence||'')};}p.a.feedback=String(raw.a?.feedback||'');p.a.nextGoal=String(raw.a?.nextGoal||'');if(Number.isInteger(raw.r)&&raw.r>=0&&raw.r<=100000)p.r=raw.r;return p;}
 function phaseComplete(p,meta,phase,mode=p.m){const ts=Object.entries(meta.tasks).filter(([,t])=>t.phase===phase&&t.mode===Number(mode));return ts.length>0&&ts.every(([k,t])=>p.t[k]===t.signature);}
 function quizComplete(p,meta){return meta.quiz.length>0&&p.v===meta.quizSignature&&meta.quiz.every(q=>p.q[q.id]?.[0]===q.correct&&p.q[q.id]?.[1]===true);}
 function flashcardValid(p,meta){const f=meta.flashcard,c=p.fc;return !!f&&!!c&&c.schema===1&&c.version===3&&c.id===meta.id&&c.signature===f.signature;}
@@ -69,7 +69,7 @@ function metadataFrom(data,parser){const tasks={};for(const phase of phases){con
  const doc=parser.parseFromString('<div>'+data.pages['handlungssituation.html']+'</div>','text/html');const payload=doc.querySelector('[data-situation-quiz] script[type="application/json"]');const qs=payload?JSON.parse(payload.textContent):[];if(!qs.length)throw Error('Der Kurztest der Handlungssituation fehlt.');const quiz=qs.map(q=>({id:q.id,correct:q.correct,options:q.options.map(a=>a.value)}));
  const index=parser.parseFromString('<div>'+data.pages['index.html']+'</div>','text/html');if(!index.querySelector('[data-orientation-completion]')){const el=index.createElement('section');el.className='orientation-completion no-print';el.dataset.orientationCompletion='';el.setAttribute('contenteditable','false');el.innerHTML='<label><input type="checkbox" data-orientation-complete>Orientierung gelesen</label><p class="progress-counter" data-progress-status role="status"></p>';index.body.firstElementChild.appendChild(el);}index.querySelectorAll('[data-orientation-complete]').forEach(e=>{e.removeAttribute('checked');e.setAttribute('disabled','');e.checked=false;});data.pages['index.html']=index.body.firstElementChild.innerHTML;index.querySelectorAll('[data-orientation-completion]').forEach(e=>e.remove());
  const kd=parser.parseFromString('<div>'+(data.pages['begriffstraining.html']||'')+'</div>','text/html'),kp=kd.querySelector('[data-begriffs-quiz] script[type="application/json"]'),kqs=kp?JSON.parse(kp.textContent):[];if(!kqs.length&&!data.flashcard)throw Error('Die Begriffsaufgaben fehlen.');const knowledge=kqs.map(q=>({id:q.id,correct:q.correct,options:q.options.map(a=>a.value)}));
- return {orientationVideo:data.orientationVideo||null,flashcard:data.flashcard||null,legacyTaskDictionaries:data.legacyTaskDictionaries||{},knowledge,knowledgeSignature:hash(JSON.stringify(kqs)),id:data.id,availableModes:modes,competencies:data.competencies.map(c=>({id:c.id,label:c.label})),tasks,quiz,quizSignature:hash(JSON.stringify(qs)),orientationSignature:hash(text(index.body)),resumePages:[...new Set([...Object.keys(data.pages).filter(p=>!['lehrkraft.html','erwartungshorizont.html','druckansicht.html'].includes(p)),...(data.flashcard?[data.flashcard.fileName]:[])])]};}
+ return {orientationVideo:data.orientationVideo||null,flashcard:data.flashcard||null,legacyTaskDictionaries:data.legacyTaskDictionaries||{},legacyOrientationSignatures:data.legacyOrientationSignatures||[],knowledge,knowledgeSignature:hash(JSON.stringify(kqs)),id:data.id,availableModes:modes,competencies:data.competencies.map(c=>({id:c.id,label:c.label})),tasks,quiz,quizSignature:hash(JSON.stringify(qs)),orientationSignature:hash(text(index.body)),resumePages:[...new Set([...Object.keys(data.pages).filter(p=>!['lehrkraft.html','erwartungshorizont.html','druckansicht.html'].includes(p)),...(data.flashcard?[data.flashcard.fileName]:[])])]};}
 window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,sanitizeOrientationVideo,flashcardValid,flashcardComplete,flashcardCanContinue,preparationComplete,grading,sharePoints,taskPoints,situationValue,availableModes,phases,clone,hash,text,initial,sanitize,phaseComplete,quizComplete,knowledgeSolved,knowledgeComplete,blockedBy,allComplete,setTask,decorate,metadataFrom,taskNumbers,numberData};
 })();
 
@@ -84,7 +84,7 @@ window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,s
   const icon = '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="m12 6 1.8 3.6 4 .6-2.9 2.8.7 4-3.6-1.9L8.4 17l.7-4-2.9-2.8 4-.6Z"/></svg>';
   function markup(points, earned = false, title = '') {
     const safeTitle = String(title).replace(/[&"<>]/g, c => ({'&':'&amp;','"':'&quot;','<':'&lt;','>':'&gt;'}[c]));
-    return '<span class="point-badge' + (earned ? ' point-earned' : '') + '" title="' + safeTitle + '">' + icon + '<span>' + (earned ? '' : '+') + format(points) + ' Punkte</span></span>';
+    return '<span class="point-badge' + (earned ? ' point-earned' : '') + '" title="' + safeTitle + '">' + icon + '<span>' + (earned ? '' : '+') + format(points) + ' XP</span></span>';
   }
   function badge(points, earned, title) {
     const template = document.createElement('template');
@@ -96,7 +96,7 @@ window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,s
     document.querySelectorAll('.point-reward').forEach(el => el.remove());
     const popup = document.createElement('span');
     popup.className = 'point-reward';
-    popup.textContent = '+' + format(points) + ' Punkte';
+    popup.textContent = '+' + format(points) + ' XP';
     popup.setAttribute('role', 'status');
     const rect = anchor.getBoundingClientRect();
     popup.style.left = Math.max(8, Math.min(innerWidth - 150, rect.left)) + 'px';
@@ -106,7 +106,7 @@ window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,s
   }
   let positionObserver = null;
   function mount() {
-    // The score belongs to the visible lesson, above its phase navigation.
+    // The score belongs to the visible lesson, in its footer.
     // The SCORM host keeps only the persistent unfinished-test reminder.
     if (document.querySelector('[data-scorm-frame]')) return null;
     const page = document.body.dataset.page || '';
@@ -114,7 +114,7 @@ window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,s
     const focus = document.body.classList.contains('task-focus')
       ? document.querySelector('.task-accordion[open] .task-focus-panel') : null;
     const navigation = /^m\d+\.html$/.test(page) ? document.querySelector('.material-phase-navigation') : document.querySelector('.navigation, .b-phase-overview');
-    const target = navigation;
+    const target = document.querySelector('.page-footer,.b-footer') || navigation;
     if (!target) return null;
     let row = document.querySelector('[data-phase-points]');
     if (!row) {
@@ -128,7 +128,7 @@ window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,s
       el = document.createElement('aside');
       el.className = 'point-float no-print';
       el.dataset.pointFloat = '';
-      el.innerHTML = '<div class="points-battery" role="progressbar" aria-label="Aktueller SCORM-Punktestand" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span class="points-battery-track"><span class="points-battery-fill"></span></span><strong class="points-battery-label">0 / 100 Punkte</strong></div><span class="points-live sr-only" aria-live="polite" aria-atomic="true"></span>';
+      el.innerHTML = '<div class="points-battery" role="progressbar" aria-label="Aktueller SCORM-Punktestand" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span class="points-battery-track"><span class="points-battery-fill"></span></span><strong class="points-battery-label">0 / 100 XP</strong></div><span class="points-live sr-only" aria-live="polite" aria-atomic="true"></span>';
       row.append(el);
     }
     if (!positionObserver && window.MutationObserver) {
@@ -146,12 +146,12 @@ window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,s
     el.dataset.points = String(points);
     el.dataset.tier = tier(points);
     track.setAttribute('aria-valuenow', String(points));
-    track.setAttribute('aria-valuetext', format(points) + ' von 100 Punkten; ' + tierName(points));
+    track.setAttribute('aria-valuetext', format(points) + ' von 100 XP; ' + tierName(points));
     el.querySelector('.points-battery-fill').style.width = points + '%';
-    el.querySelector('.points-battery-label').textContent = format(points) + ' / 100 Punkte';
+    el.querySelector('.points-battery-label').textContent = format(points) + ' / 100 XP';
     el.title = 'SCORM: ' + format(grade.taskPoints) + '/25 Bearbeitung · ' + format(grade.situationPoints) + '/15 Handlungssituation · ' + format(grade.termPoints) + '/60 Fachbegriffe. Bronze ab 50, Silber ab 75, Gold ab 90 Punkten. Abgabe und Partnerfeedback werden gesondert in Moodle nachgewiesen.';
     if (animate && last !== null && points > last) {
-      el.querySelector('.points-live').textContent = '+' + format(points - last) + ' Punkte. Jetzt ' + format(points) + ' von 100 Punkten.';
+      el.querySelector('.points-live').textContent = '+' + format(points - last) + ' XP. Jetzt ' + format(points) + ' von 100 XP.';
       if (!reduced() && el.animate) el.animate([{transform:'scale(1)'},{transform:'scale(1.04)'},{transform:'scale(1)'}], {duration:420});
     }
   }

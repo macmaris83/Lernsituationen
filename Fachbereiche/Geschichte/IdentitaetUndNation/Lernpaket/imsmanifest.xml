@@ -6,9 +6,9 @@
   </metadata>
   <organizations default="ORG">
     <organization identifier="ORG" structure="hierarchical">
-      <title>Identität und Nation · 1.8.3</title>
+      <title>Identität und Nation · 1.8.4</title>
       <item identifier="ITEM" identifierref="RES_IDENTITAET_NATION" isvisible="true">
-        <title>Identität und Nation · 1.8.3</title>
+        <title>Identität und Nation · 1.8.4</title>
       </item>
     </organization>
   </organizations>
@@ -57,6 +57,8 @@
       <file href="assets/material-views.css" />
       <file href="assets/materials.css" />
       <file href="assets/moodle.svg" />
+      <file href="assets/package-completion.css" />
+      <file href="assets/package-completion.js" />
       <file href="assets/pako-LICENSE.txt" />
       <file href="assets/pako.min.js" />
       <file href="assets/phases.css" />
