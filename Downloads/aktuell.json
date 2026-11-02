@@ -636,6 +636,18 @@
       "masterSha256": "f96bf7e0f4abc1f8af0eda2c0d20d6acabf78b11b9c0f4304969a0cbc5d1bde6",
       "archiveSha256": "78239453a6f7aac29acc34347342e206f3cfe3dee189253c66c2aab1dc35e5ba",
       "files": 104
+    },
+    {
+      "id": "GESCHICHTE-IDN",
+      "title": "Identität und Nation",
+      "bereich": "Geschichte",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/Geschichte/IdentitaetUndNation/Lernpaket",
+      "version": "1.8.3",
+      "archive": "Downloads/GESCHICHTE-IDN/Identitaet_und_Nation_v1.8.3_SCORM12.zip",
+      "masterSha256": "7b347683f33a992d300b564e5d49fd63ee0ff28561224d36fc93e88312f98c1a",
+      "archiveSha256": "6d144937acb9f80b2ab71414832c870d484625907c5e838580c2a35cb9353439",
+      "files": 105
     }
   ]
 }
