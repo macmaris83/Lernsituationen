@@ -1,1 +1,1 @@
-window.SOZ_CONFIG={"mode":1,"allowStudentMode":false,"moodle":{},"media":{},"overrides":{},"packageRevision":"IDENTITAET-NATION-1.8.4-20261102","format":"SCORM 1.2","learningPaths":{"1":{"label":"Lernsituation"}},"packageVersion":"1.8.4","orientationVideoUrl":""};
+window.SOZ_CONFIG={"mode":1,"allowStudentMode":false,"moodle":{},"media":{},"overrides":{},"packageRevision":"IDENTITAET-NATION-1.8.5-20261102","format":"SCORM 1.2","learningPaths":{"1":{"label":"Lernsituation"}},"packageVersion":"1.8.5","orientationVideoUrl":""};

@@ -6,3 +6,5 @@
 [data-complete-package][disabled]{cursor:default;opacity:.6}
 body[data-ls-id="geschichte-identitaet-nation"] .assignment-kind,body[data-ls-id="geschichte-identitaet-nation"] [data-learning-kind]{display:none!important}
 @media print{.phase-points-row,[data-complete-package]{display:none!important}}
+
+@media screen{body.task-focus .page-footer [data-phase-points]{display:flex!important}}

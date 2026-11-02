@@ -1,4 +1,4 @@
-Identität und Nation · Version 1.8.4
+Identität und Nation · Version 1.8.5
 
 Moodle: Aktivität „Lernpaket (SCORM)“ anlegen und die SCORM-ZIP unverändert hochladen. SCORM 1.2; Startdatei scorm.html. Das Paket bleibt intern navigierbar und benötigt keine Moodle-Aktivitäts-IDs.
 
@@ -6,7 +6,7 @@ Inhalt: Jugendredaktion „Zeitstimmen“, Podcast-Produktion im Medienzentrum A
 
 Zusätzliches Videomaterial auf Informieren, M2 und M3: „Seit wann gibt es Deutsche? Nation und Identifikation“ sowie „Migration: Eine lange Geschichte | Mit offenen Karten | ARTE“. BBS1-Vorschaubilder mit den Originaltiteln öffnen auf derselben Seite einen YouTube-iFrame. Die Videos sind freiwilliges Zusatzmaterial; ihr Aufruf ist keine zusätzliche Lernphasensperre. Internet und Freigabe der eingebundenen Dienste sind für YouTube/AIS erforderlich.
 
-Version 1.8.4: Aufgabenfokus, manuelles Weiter, Arbeitsformen im Editor, Notizen, Kompetenzprofil, Lernstand, Nacharbeitshinweise, phasenbezogene GoodNotes-PDFs und Gesamtdruck. PDF/Editor stehen gemeinsam in einer Zeile; die kleinere Version darunter liest die jeweilige Paketversion.json. Die interne Speicherschema-Version ist davon unabhängig.
+Version 1.8.5: Aufgabenfokus, manuelles Weiter, Arbeitsformen im Editor, Notizen, Kompetenzprofil, Lernstand, Nacharbeitshinweise, phasenbezogene GoodNotes-PDFs und Gesamtdruck. PDF/Editor stehen gemeinsam in einer Zeile; die kleinere Version darunter liest die jeweilige Paketversion.json. Die interne Speicherschema-Version ist davon unabhängig.
 
 Die Punkteverteilung entspricht dem freigegebenen Formstand: Aufgaben 25, Handlungssituationscheck 15 und Fachbegriffe 60 Punkte. Inhaltliche Podcast-Bewertung und die Abgabe erfolgen durch die Lehrkraft in Moodle; das Paket behauptet keine automatische Bewertung einer Audiodatei. Abgabe- und Feedbacklinks können im Editor konfiguriert werden.
 
@@ -16,4 +16,6 @@ Das Kerncurriculum dient dem fachlichen Abgleich (Rahmenthema „Wurzeln unserer
 
 Bereits hochgeladene Moodle-Pakete werden durch neue Dateien auf GitHub nicht automatisch ersetzt. Diese ZIP muss als neue Paketfassung in Moodle hochgeladen werden. Browser-/Exportprüfungen ersetzen keinen Test der schulischen Moodle-/AIS-Konfiguration.
 
-Version 1.8.4 ergänzt einen funktionierenden grünen Materialzugriff nach BRC-Vorbild, eine laufende Punkte-/XP-Anzeige und den bestätigten Paketabschluss. Die Punkte werden aus dem bestehenden Lernstand berechnet und nicht doppelt gutgeschrieben. Es gibt keine zusätzliche externe XP-Gutschrift. Theorie/Praxis-Symbole entfallen in diesem Geschichtepaket.
+Version 1.8.5 ergänzt einen funktionierenden grünen Materialzugriff nach BRC-Vorbild, eine laufende Punkte-/XP-Anzeige und den bestätigten Paketabschluss. Die Punkte werden aus dem bestehenden Lernstand berechnet und nicht doppelt gutgeschrieben. Es gibt keine zusätzliche externe XP-Gutschrift. Theorie/Praxis-Symbole entfallen in diesem Geschichtepaket.
+
+Falsche geprüfte Antworten im Handlungssituationscheck zählen 0 XP und zeigen 0 XP; mögliche Punkte nach einer Korrektur sind keine bereits verdienten XP.

@@ -1,9 +1,9 @@
 {
-  "version": "1.8.4",
+  "version": "1.8.5",
   "title": "Identität und Nation",
   "updated": "2026-11-02",
-  "revision": "IDN-184",
-  "changes": "Orientierung gestrafft; ausschließlich Sozialformen an Aufgaben; funktionsfähiger grüner BRC-Materialzugriff; laufende XP-/Punktesumme im Footer und geprüfter Paketabschluss mit SCORM-Speicherung.",
+  "revision": "IDN-185",
+  "changes": "Bereinigte Orientierung und Sozialformen, grüner BRC-Materialzugriff, laufende XP-Anzeige auch im Aufgabenfokus, bestätigter Paketabschluss und eindeutige 0-XP-Rückmeldung bei falschen HS-Antworten. Bestehende Lernstände bleiben erhalten.",
   "taskPolicy": {
     "preferred": 2,
     "normal_maximum": 3,
