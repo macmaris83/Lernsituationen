@@ -43,8 +43,8 @@ Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-K
 | Sozialpädagogik | Teamkommunikation gestalten | 1.0 | [ZIP](SOZPAED-LERNPFAD-LS7_2/SozPaed_Lernpfad_LS7_2_v1.0_SCORM12.zip) |
 | Sozialpädagogik | Berufswege planen | 1.0 | [ZIP](SOZPAED-LERNPFAD-LS7_3/SozPaed_Lernpfad_LS7_3_v1.0_SCORM12.zip) |
 | Sozialpädagogik | Kompetenzen bilanzieren | 1.0 | [ZIP](SOZPAED-LERNPFAD-LS7_4/SozPaed_Lernpfad_LS7_4_v1.0_SCORM12.zip) |
-| Vorlagen | Vorlage: tradierte Lernsituation · Berufsrolle begründen | 1.0 | Export ausstehend |
-| Vorlagen | Vorlage: fünf Lernwege · Businessplan | 1.0 | Export ausstehend |
+| Vorlagen | Vorlage: tradierte Lernsituation · Berufsrolle begründen | 1.8.3 | [ZIP](VORLAGE-TRADIERT/Vorlage_Lernsituation_tradiert_v1.8.3_SCORM12.zip) |
+| Vorlagen | Vorlage: fünf Lernwege · Businessplan | 1.8.3 | [ZIP](VORLAGE-FUENF-LERNWEGE/Vorlage_Lernsituation_fuenf_Lernwege_v1.8.3_SCORM12.zip) |
 | Vorlagen | Vorlage: Lernpfadübung · Duales System verstehen | 1.0 | [ZIP](VORLAGE-LERNPFAD/Vorlage_Lernpfaduebung_v1.0_SCORM12.zip) |
 | BRC | Supply Chain gestalten | 1.8.2 | [ZIP](BRC-LG05-LS04/BRC_LG05_LS04_v1.8.2_SCORM12.zip) |
 | BRC | Personalbedarf und Personalentwicklung planen | 1.8.2 | [ZIP](BRC-LG05-LS05/BRC_LG05_LS05_v1.8.2_SCORM12.zip) |
@@ -53,6 +53,12 @@ Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-K
 | BRC | Organisation und Reorganisation gestalten | 1.8.2 | [ZIP](BRC-LG05-LS08/BRC_LG05_LS08_v1.8.2_SCORM12.zip) |
 | BRC | Interessenvertretung beurteilen | 1.8.2 | [ZIP](BRC-LG05-LS09/BRC_LG05_LS09_v1.8.2_SCORM12.zip) |
 | BRC | Changeprozesse gestalten | 1.8.2 | [ZIP](BRC-LG05-LS10/BRC_LG05_LS10_v1.8.2_SCORM12.zip) |
+| Geschichte | Vom Mythos zum Krieg · Deutsches Reich | 1.8.3 | [ZIP](GESCHICHTE-J1914-Deutsches_Reich/Julikrise_1914_Deutsches_Reich_v1.8.3_SCORM12.zip) |
+| Geschichte | Vom Mythos zum Krieg · Frankreich | 1.8.3 | [ZIP](GESCHICHTE-J1914-Frankreich/Julikrise_1914_Frankreich_v1.8.3_SCORM12.zip) |
+| Geschichte | Vom Mythos zum Krieg · Großbritannien | 1.8.3 | [ZIP](GESCHICHTE-J1914-Grossbritannien/Julikrise_1914_Grossbritannien_v1.8.3_SCORM12.zip) |
+| Geschichte | Vom Mythos zum Krieg · Österreich-Ungarn | 1.8.3 | [ZIP](GESCHICHTE-J1914-Oesterreich_Ungarn/Julikrise_1914_Oesterreich_Ungarn_v1.8.3_SCORM12.zip) |
+| Geschichte | Vom Mythos zum Krieg · Europäische Presse | 1.8.3 | [ZIP](GESCHICHTE-J1914-Presse/Julikrise_1914_Presse_v1.8.3_SCORM12.zip) |
+| Geschichte | Vom Mythos zum Krieg · Russland | 1.8.3 | [ZIP](GESCHICHTE-J1914-Russland/Julikrise_1914_Russland_v1.8.3_SCORM12.zip) |
 
 Maschinenlesbare Zuordnung und Prüfsummen: [aktuell.json](aktuell.json).
 Vor einer automatischen Nutzung: `python tools/master.py check --archives`.

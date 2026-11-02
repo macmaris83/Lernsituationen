@@ -451,11 +451,11 @@
       "bereich": "Vorlagen",
       "typ": "Vorlage",
       "master": "Vorlagen/Lernsituation_tradiert",
-      "version": "1.0",
-      "archive": "Downloads/VORLAGE-TRADIERT/Vorlage_Lernsituation_tradiert_v1.0_SCORM12.zip",
-      "masterSha256": "610132fbb4329a51e9451e1a6fc6da6d0721253d7d1223035f106cf7fb498c41",
-      "archiveSha256": "48d1b626822dd930a3933620b055762505e74104b2f67e104f757365dedd8bf4",
-      "files": 77
+      "version": "1.8.3",
+      "archive": "Downloads/VORLAGE-TRADIERT/Vorlage_Lernsituation_tradiert_v1.8.3_SCORM12.zip",
+      "masterSha256": "dcc8ebad0eaf844e228b5fcd9f08cb5dd18d16ba334c30724fcdb733f09ffb14",
+      "archiveSha256": "18c8fb08d58701d0b3a424486c9f1e6d89dbbade3fe51b73cb3fe71aefe711aa",
+      "files": 83
     },
     {
       "id": "VORLAGE-FUENF-LERNWEGE",
@@ -463,11 +463,11 @@
       "bereich": "Vorlagen",
       "typ": "Vorlage",
       "master": "Vorlagen/Lernsituation_fuenf_Lernwege",
-      "version": "1.0",
-      "archive": "Downloads/VORLAGE-FUENF-LERNWEGE/Vorlage_Lernsituation_fuenf_Lernwege_v1.0_SCORM12.zip",
-      "masterSha256": "34f1f7321039a0f0ae82d53d8960c204f756f0fda9a74940850f1fb971910760",
-      "archiveSha256": "fccbcd991007f2fb2f324be51ec30f964793793b56520685252b02ab8abb18c1",
-      "files": 141
+      "version": "1.8.3",
+      "archive": "Downloads/VORLAGE-FUENF-LERNWEGE/Vorlage_Lernsituation_fuenf_Lernwege_v1.8.3_SCORM12.zip",
+      "masterSha256": "1e0cbedb6702a2b8a19fd6a29f87ccb93a056401144836ae3e5b7bc6cda2e81e",
+      "archiveSha256": "23c3a64b6d70ec42ae963c80b61658eef670adf91504d7f653ec042e2c2ad047",
+      "files": 147
     },
     {
       "id": "VORLAGE-LERNPFAD",
@@ -564,6 +564,78 @@
       "masterSha256": "cf68bf7df7f03756db995b437390712f7ea7aff12c1cc75724a805c02c48b574",
       "archiveSha256": "aa79c21df777c377699e1c90293c258669480cec96a6778ad868bf8c957dcb20",
       "files": 175
+    },
+    {
+      "id": "GESCHICHTE-J1914-Deutsches_Reich",
+      "title": "Vom Mythos zum Krieg · Deutsches Reich",
+      "bereich": "Geschichte",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Deutsches_Reich",
+      "version": "1.8.3",
+      "archive": "Downloads/GESCHICHTE-J1914-Deutsches_Reich/Julikrise_1914_Deutsches_Reich_v1.8.3_SCORM12.zip",
+      "masterSha256": "c0af745f2d200429f5b34d4944908130e7a864ad4fd8e5d8ab69afbe0eadbab3",
+      "archiveSha256": "cdbbcee15ebc60af09401d461518d6e4028e9ae48d4685c634a3e9a8f1ab9c7c",
+      "files": 104
+    },
+    {
+      "id": "GESCHICHTE-J1914-Frankreich",
+      "title": "Vom Mythos zum Krieg · Frankreich",
+      "bereich": "Geschichte",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Frankreich",
+      "version": "1.8.3",
+      "archive": "Downloads/GESCHICHTE-J1914-Frankreich/Julikrise_1914_Frankreich_v1.8.3_SCORM12.zip",
+      "masterSha256": "51da83cf2a9e474cc9bdbe8748e8bbbd993582511286ae9f2577c386400406b4",
+      "archiveSha256": "afe205fefad906322dee14fd8a48570a7db2c01f9a18bdd1c2efcd177e0e6d91",
+      "files": 104
+    },
+    {
+      "id": "GESCHICHTE-J1914-Grossbritannien",
+      "title": "Vom Mythos zum Krieg · Großbritannien",
+      "bereich": "Geschichte",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Grossbritannien",
+      "version": "1.8.3",
+      "archive": "Downloads/GESCHICHTE-J1914-Grossbritannien/Julikrise_1914_Grossbritannien_v1.8.3_SCORM12.zip",
+      "masterSha256": "b0c98f8b87bbb19a0690ddafe7568a8b0377224a229b1dcc99284eebb13a28bb",
+      "archiveSha256": "47f7e7e9c253138c20f1b30a0ea6dee287c1750402ca669e8d6523dc1ea8ef97",
+      "files": 104
+    },
+    {
+      "id": "GESCHICHTE-J1914-Oesterreich_Ungarn",
+      "title": "Vom Mythos zum Krieg · Österreich-Ungarn",
+      "bereich": "Geschichte",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Oesterreich_Ungarn",
+      "version": "1.8.3",
+      "archive": "Downloads/GESCHICHTE-J1914-Oesterreich_Ungarn/Julikrise_1914_Oesterreich_Ungarn_v1.8.3_SCORM12.zip",
+      "masterSha256": "9b6e8a80056c62946847858159d69f4f912f54deaf8e861e9d1e4b1afe94daa7",
+      "archiveSha256": "d983c62ad5d2daadd2ea217a0a14462c54dc4d01397eed9ecff79c4ec26f4191",
+      "files": 105
+    },
+    {
+      "id": "GESCHICHTE-J1914-Presse",
+      "title": "Vom Mythos zum Krieg · Europäische Presse",
+      "bereich": "Geschichte",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Presse",
+      "version": "1.8.3",
+      "archive": "Downloads/GESCHICHTE-J1914-Presse/Julikrise_1914_Presse_v1.8.3_SCORM12.zip",
+      "masterSha256": "76805d131e9d4bed3728fbce2b093d39661ff6fa1f3e0ae2b7f425bed7341544",
+      "archiveSha256": "500ad56af48f6a3827b9660c0a3f5d45ddd6a1d8b381e20a55dc8f24b11aec5f",
+      "files": 103
+    },
+    {
+      "id": "GESCHICHTE-J1914-Russland",
+      "title": "Vom Mythos zum Krieg · Russland",
+      "bereich": "Geschichte",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Russland",
+      "version": "1.8.3",
+      "archive": "Downloads/GESCHICHTE-J1914-Russland/Julikrise_1914_Russland_v1.8.3_SCORM12.zip",
+      "masterSha256": "f96bf7e0f4abc1f8af0eda2c0d20d6acabf78b11b9c0f4304969a0cbc5d1bde6",
+      "archiveSha256": "78239453a6f7aac29acc34347342e206f3cfe3dee189253c66c2aab1dc35e5ba",
+      "files": 104
     }
   ]
 }
