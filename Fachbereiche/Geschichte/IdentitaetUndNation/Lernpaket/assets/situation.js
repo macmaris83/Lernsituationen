@@ -30,15 +30,17 @@
       const p = P.read(), stored = p.q[q.id], checked = stored?.[1] === true, value = stored?.[0];
       const correct = checked && value === q.correct;
       const valuePoints = K.situationValue(p, meta, q.id);
-      point.replaceChildren(UI.badge(valuePoints, correct, correct ? 'Für diese richtig geprüfte Antwort gutgeschrieben.' : 'Mögliche Punkte bei richtiger Antwort; nach Hinweis oder falscher erster Prüfung höchstens 3.'));
-      if (hintSummary) hintPoint.replaceChildren(UI.badge(correct ? valuePoints : Math.min(valuePoints, 3), false, correct ? 'Bereits richtig gelöst; der Hinweis kostet jetzt nichts.' : 'Mit Hinweis sind höchstens 3 Punkte für diese Frage möglich.'));
+      const earnedBadge = UI.badge(correct ? valuePoints : 0, correct, correct ? 'Für diese richtig geprüfte Antwort gutgeschrieben.' : checked ? 'Falsche Antwort: 0 XP. Es wurde nichts gutgeschrieben.' : 'Noch keine richtig geprüfte Antwort: 0 XP.');
+      if (!correct) {const label = earnedBadge.querySelector('span');if (label) label.textContent = '0 XP';}
+      point.replaceChildren(earnedBadge);
+      if (hintSummary) {const possible = UI.badge(correct ? valuePoints : Math.min(valuePoints, 3), false, correct ? 'Bereits richtig gelöst; der Hinweis kostet jetzt nichts.' : 'Mit Hinweis sind höchstens 3 XP für eine richtige Antwort möglich.');const label = possible.querySelector('span');if (label) label.textContent = correct ? valuePoints + ' XP' : 'max. ' + Math.min(valuePoints, 3) + ' XP';hintPoint.replaceChildren(possible);}
       for (const input of panel.querySelectorAll('input[type="radio"]')) {input.checked = input.value === value;input.disabled = P.readOnly;}
       submit.disabled = P.readOnly || checked;
       feedback.hidden = !checked;
       if (checked) {
         const option = q.options.find(option => option.value === value);
         feedback.dataset.result = correct ? 'correct' : 'wrong';
-        feedback.textContent = (correct ? 'Das passt zur Handlungssituation. ' : 'Diese Antwort passt noch nicht. ') + (option?.feedback || '');
+        feedback.textContent = (correct ? 'Das passt zur Handlungssituation. ' : '0 XP. Diese Antwort passt noch nicht. ') + (option?.feedback || '');
       } else {feedback.textContent = '';delete feedback.dataset.result;}
       if (correct) completed.add(q.id);else completed.delete(q.id);
       details.classList.toggle('quiz-is-complete', correct);
