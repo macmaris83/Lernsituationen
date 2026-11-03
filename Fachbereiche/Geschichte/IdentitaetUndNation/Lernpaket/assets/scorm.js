@@ -1,6 +1,7 @@
 (()=>{'use strict';const D=window.SOZPAED,C=window.SOZ_CONFIG||{},meta=window.SOZ_PROGRESS_META,K=window.SOZ_PROGRESS_CORE,codec=window.SOZ_SCORM_CODEC;if(!D||!meta||!K||!codec)return;
 const frame=document.querySelector('[data-scorm-frame]'),notice=document.querySelector('[data-scorm-notice]');let api=null,initialized=false,kind='preview',readOnly=false,finished=false,completed=false,error='',progress=K.initial(meta,C.mode),learner='',lastSaved=false,reported='';
 const events=new Set(),previewKey='soz-tasks:'+D.id+':'+location.pathname.replace(/[^/]+$/,'');
+let completionPending=false;
 let recoveryKey='';
 const completionStamp=K.hash(JSON.stringify({id:meta.id,orientation:meta.orientationSignature,quiz:meta.quizSignature,terms:meta.flashcard?.signature,tasks:meta.tasks}));
 const localStateKey=()=>kind==='recovery'?recoveryKey:previewKey+(api?':browse':'');
@@ -29,7 +30,11 @@ try{api=find(window);if(!api&&window.opener)api=find(window.opener);if(api){
   if(conflict){
    if(readOnly)say(conflict+' Die Ansicht bleibt schreibgeschützt; der gespeicherte Moodle-Lernstand bleibt erhalten.');
    else{kind='recovery';recoveryKey=previewKey+':recovery:'+encodeURIComponent(learner);loadLocal(recoveryKey);say(conflict+' Du kannst hier weiterarbeiten. Dein neuer Fortschritt wird nur auf diesem Gerät gespeichert. Für die Speicherung in Moodle starte dort einen neuen Versuch. Dein bisheriger Moodle-Lernstand bleibt erhalten.');}
-  }else if(readOnly)say('Ansichtsmodus: Die gespeicherten Angaben werden angezeigt; Änderungen werden nicht gespeichert.');
+  }else{
+   completed=get('cmi.core.lesson_status')==='completed'&&K.allComplete(progress,meta);
+   if(completed)say('Das Lernpaket wurde in Moodle abgeschlossen.');
+   else if(readOnly)say('Ansichtsmodus: Die gespeicherten Angaben werden angezeigt; Änderungen werden nicht gespeichert.');
+  }
  }
 }else{loadLocal(previewKey);say('Lokale Vorschau: Angaben werden nur in diesem Browser gespeichert. Für die Speicherung im Schülerkonto in Moodle als Lernpaket öffnen.');}}
 catch(e){kind='error';say(e.message||'Die Angaben konnten nicht geladen werden. Bitte das Paket erneut über Moodle öffnen.');}
@@ -47,7 +52,8 @@ function commit(finalize=false){if(finished||completed||readOnly||kind==='error'
 try{if(kind==='moodle'&&(hasAssessment()||progress.r!==null)){rows=reportRows();for(const [,v]of rows)if(v.length>255)throw Error('Ein Kompetenzbeleg oder Reflexionstext ist zu lang. Bitte auf höchstens 255 Zeichen kürzen.');if(progress.r===null){const count=Number(get('cmi.interactions._count')||0);if(!Number.isInteger(count)||count<0||count>100000)throw Error('Die Moodle-Berichtseinträge konnten nicht zugeordnet werden.');progress.r=count;}digest=JSON.stringify(rows);}
 value=codec.encode(progress);if(value.length>4096)throw Error('Die Angaben sind für SCORM 1.2 zu umfangreich. Bitte die Kompetenzbelege kürzen; die letzten gespeicherten Angaben bleiben erhalten.');
 if(kind==='moodle'){if(rows.length&&digest!==reported){for(let i=0;i<rows.length;i++){const [id,response]=rows[i],key='cmi.interactions.'+(progress.r+i)+'.';set(key+'id',id.replace(/[^\x21-\x7e]/g,'_'));set(key+'type','fill-in');set(key+'weighting','0');set(key+'student_response',response);set(key+'result','neutral');}}
-const values={'cmi.suspend_data':value,'cmi.core.lesson_location':progress.b,'cmi.core.score.min':'0','cmi.core.score.max':'100','cmi.core.score.raw':K.grading(progress,meta).points,'cmi.core.lesson_status':K.allComplete(progress,meta)?'completed':'incomplete','cmi.core.exit':finalize?'':'suspend'};for(const [k,v]of Object.entries(values))set(k,v);if(!truth(api.LMSCommit('')))throw Error('Moodle hat das Speichern nicht bestätigt.');reported=digest;lastSaved=true;say('');return true;}
+const completing=(finalize||completionPending)&&K.allComplete(progress,meta);
+const values={'cmi.suspend_data':value,'cmi.core.lesson_location':progress.b,'cmi.core.score.min':'0','cmi.core.score.max':'100','cmi.core.score.raw':K.grading(progress,meta).points,'cmi.core.lesson_status':completing?'completed':'incomplete','cmi.core.exit':completing?'':'suspend'};for(const [k,v]of Object.entries(values))set(k,v);if(!truth(api.LMSCommit('')))throw Error('Moodle hat das Speichern nicht bestätigt.');completionPending=completing;reported=digest;lastSaved=true;say('');return true;}
 localStorage.setItem(localStateKey(),JSON.stringify(progress));lastSaved=true;return true;
 }catch(e){say('Speichern fehlgeschlagen. '+e.message+' Bitte erneut versuchen.');return false;}}
 function update(next){if(readOnly||completed||kind==='error'||finished)return false;const previous=K.clone(progress),base=progress.r;progress=K.sanitize(next,meta,C.mode);if(progress.r===null&&base!==null)progress.r=base;const ok=commit();if(!ok){progress=previous;events.forEach(f=>{try{f();}catch{}});}return ok;}
@@ -67,3 +73,4 @@ window.SOZ_SCORM={read:()=>K.clone(progress),update,reset,complete,subscribe:f=>
 window.addEventListener('pagehide',e=>{if(!e.persisted)finish();else if(!readOnly)commit();});window.addEventListener('beforeunload',()=>{if(!finished&&!readOnly)commit();});document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='hidden'&&!finished&&!readOnly)commit();});
 if(frame){let page=progress.b;if(!meta.resumePages.includes(page))page='index.html';frame.src=page;}
 })();
+

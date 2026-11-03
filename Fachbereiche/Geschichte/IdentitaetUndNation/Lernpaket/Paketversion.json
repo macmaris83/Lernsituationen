@@ -1,9 +1,9 @@
 {
-  "version": "1.8.5",
+  "version": "1.8.6",
   "title": "Identität und Nation",
-  "updated": "2026-11-02",
-  "revision": "IDN-185",
-  "changes": "Bereinigte Orientierung und Sozialformen, grüner BRC-Materialzugriff, laufende XP-Anzeige auch im Aufgabenfokus, bestätigter Paketabschluss und eindeutige 0-XP-Rückmeldung bei falschen HS-Antworten. Bestehende Lernstände bleiben erhalten.",
+  "updated": "2026-11-03",
+  "revision": "IDN-186",
+  "changes": "Bereinigte Orientierung, Aufgaben nur mit Arbeitsform, laufende XP-Anzeige und ausdrücklich bestätigter Paketabschluss. Moodle übernimmt den gespeicherten Abschluss beim Wiederöffnen; automatisches Speichern beendet das Paket erst nach der Abschlussaktion. Bestehende Lernstände bleiben erhalten.",
   "taskPolicy": {
     "preferred": 2,
     "normal_maximum": 3,
