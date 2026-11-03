@@ -59,7 +59,7 @@ Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-K
 | Geschichte | Vom Mythos zum Krieg · Österreich-Ungarn | 1.8.3 | [ZIP](GESCHICHTE-J1914-Oesterreich_Ungarn/Julikrise_1914_Oesterreich_Ungarn_v1.8.3_SCORM12.zip) |
 | Geschichte | Vom Mythos zum Krieg · Europäische Presse | 1.8.3 | [ZIP](GESCHICHTE-J1914-Presse/Julikrise_1914_Presse_v1.8.3_SCORM12.zip) |
 | Geschichte | Vom Mythos zum Krieg · Russland | 1.8.3 | [ZIP](GESCHICHTE-J1914-Russland/Julikrise_1914_Russland_v1.8.3_SCORM12.zip) |
-| Geschichte | Identität und Nation | 1.8.7 | Export ausstehend |
+| Geschichte | Identität und Nation | 1.8.7 | [ZIP](GESCHICHTE-IDN/Identitaet_und_Nation_v1.8.7_SCORM12.zip) |
 
 Maschinenlesbare Zuordnung und Prüfsummen: [aktuell.json](aktuell.json).
 Vor einer automatischen Nutzung: `python tools/master.py check --archives`.
