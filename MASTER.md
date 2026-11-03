@@ -50,7 +50,8 @@ bei Bedarf können die aktuellen Einzelpakete gemeinsam heruntergeladen werden.
 Die drei Vorlagentypen werden jeweils in ihrem bestehenden Master unter `Vorlagen/`
 weiterentwickelt. Neue Lernsituationen entstehen aus dem aktuellen passenden Typ;
 eine neue Lernsituation erhält dabei eigene Kennungen. Für bestehende Lernsituationen
-werden gemeinsame technische Verbesserungen gezielt übernommen und geprüft.
+werden gemeinsame Gestaltungsverbesserungen aus `Formmaster/` automatisch übernommen
+und geprüft. Fachliche Funktionen bleiben in den jeweiligen Mastern.
 Der normale Paketexport überschreibt keine fachlichen Inhalte mit einer Vorlage.
 
 Die bisherigen Generatoren bleiben für eine ausdrücklich gewünschte vollständige
@@ -87,3 +88,22 @@ Die Sozialpädagogik-Vorlage LS1.1 ist ebenfalls von der Lernpfadübung LS1.1 ge
 Das bestehende Lernunternehmen wird unter `Fachbereiche/BRC/BioCasaOS` fortgeführt; Katalogkennung `BRC-BIOCASA-OS`. Quellcode und Tests liegen in diesem Projekt, der Laufzeit-Master in `dist`. `manifestOnly: true` nimmt ausschließlich `imsmanifest.xml` und die dort genannten Laufzeitdateien in die Schüler-ZIP auf. Lehrkräftevorschau und Paketkonfiguration bleiben Quellcode, gehören jedoch nicht ins Moodle-Schülerpaket. Andere Master behalten ihren vollständigen Export.
 
 Für dieses bereits bestehende Projekt wird die Sites-Version `0.10.0` als sichtbare Paketversion `0.10` übernommen; `package.json` behält die passende SemVer `0.10.0`. Weitere Versionswechsel erfolgen gemeinsam für Katalog, Oberfläche und npm über `python3 Fachbereiche/BRC/BioCasaOS/scripts/project.py version X.Y`. Anschließend normal exportieren und prüfen. Siehe Projekt-README und STATUS.md.
+## Gemeinsamer Formmaster 1.8.8
+
+Die gemeinsame Gestaltung aller Lernsituationen wird verbindlich in
+[`Formmaster/`](Formmaster/README.md) gepflegt. Die dort registrierten CSS-Dateien,
+Materialnavigation, Fußleisten, Abschlussanzeige und das gemeinsame XP-UI werden
+automatisch auf alle katalogisierten Lernsituationen und beide LS-Vorlagen angewendet.
+Fachliche Inhalte und stabile Lernstandskennungen bleiben im jeweiligen Master.
+
+`python tools/form_master.py sync` übernimmt den Formmaster;
+`python tools/form_master.py check` erkennt Abweichungen. Auch der normale
+`python tools/master.py export --all` synchronisiert die Gestaltung vor dem Export.
+GitHub Actions prüft die Varianten und aktualisiert die erzeugten Masterdateien und
+Downloads nach einer Änderung. Die allgemeinen Formdateien in den Paketordnern
+sind erzeugte Kopien; Änderungen daran gehören in den Formmaster.
+
+Der gemeinsame **Formstand 1.8.8** ist von der jeweiligen **Paketversion** getrennt.
+Paketnummern steigen bei einer neuen Fassung automatisch, ohne Lernstände oder
+`packageRevision` zurückzusetzen. Lernpfadübungen und BioCasa OS behalten ihre
+eigenen Vorlagentypen. Moodle-Anbindung und Aktualisierung dort sind ein späterer Schritt.

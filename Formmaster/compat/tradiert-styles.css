@@ -1,0 +1,16 @@
+/* Compatibility for the existing tradierte editor and symbol settings. */
+.editor [data-mode-panel]:not([hidden]){display:block!important}.editor [data-mode-panel][hidden]{display:none!important}
+/* Logo unabhängig von weiteren Header-Inhalten rechts halten. */
+.brand-header > img {margin-left:auto;flex-shrink:0}
+.task-symbol-settings {border:1px solid #bdd4df;border-radius:12px;background:#f3f9fc;padding:13px 15px;margin:16px 0}
+.task-symbol-settings summary {cursor:pointer;font-weight:700;color:#173a63}
+.task-symbol-settings > p {font-size:.85rem;color:#506678}
+.task-symbol-setting {display:grid;grid-template-columns:minmax(0,1fr) 155px 160px;gap:12px;align-items:center;padding:12px 0;border-top:1px solid #d8e6ed}
+.task-symbol-heading strong,.task-symbol-heading small {display:block}
+.task-symbol-heading small {font-size:.78rem;line-height:1.4;color:#617887;margin-top:4px}
+.teacher-card .task-symbol-setting label {margin:0;font-size:.78rem;display:flex;flex-direction:column;gap:5px}
+.task-symbol-setting select {width:100%;font-size:.9rem;min-height:38px;cursor:pointer;pointer-events:auto}
+@media(max-width:600px){.task-symbol-setting{grid-template-columns:1fr 1fr;gap:8px}.task-symbol-heading{grid-column:1/-1}}
+
+.pdf-export-link{display:inline-flex;align-items:center;gap:6px}.pdf-link-icon{width:20px;height:20px;flex:none;color:inherit}
+

@@ -1,8 +1,6 @@
-name: Lernsituationen Formstand 1.8.5
+name: Gemeinsamer Lernsituationsmaster
 on:
-  push:
-    paths-ignore: ['Downloads/**']
-  pull_request:
+  workflow_call:
   workflow_dispatch:
 permissions:
   contents: read
@@ -11,6 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Gemeinsamen Formmaster anwenden und prüfen
+        run: |
+          python3 tools/form_master.py sync
+          python3 tools/form_master.py check
+          python3 -m unittest discover -s tools -p 'test_form_master.py'
       - uses: actions/setup-node@v4
         with:
           node-version: 22

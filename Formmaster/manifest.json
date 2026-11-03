@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "version": "1.8.8",
+  "reference": {
+    "master": "Fachbereiche/Geschichte/IdentitaetUndNation/Lernpaket",
+    "packageVersion": "1.8.8",
+    "commit": "716c0f49e227706fec9a33f544db26cc17052d5d"
+  },
+  "files": [
+    {
+      "source": "assets/styles.css",
+      "target": "assets/styles.css",
+      "append": {
+        "VORLAGE-TRADIERT": [
+          "compat/tradiert-styles.css",
+          "compat/template-footer.css"
+        ],
+        "VORLAGE-FUENF-LERNWEGE": [
+          "compat/template-footer.css"
+        ]
+      }
+    },
+    {
+      "source": "assets/progress.css",
+      "target": "assets/progress.css"
+    },
+    {
+      "source": "assets/phases.css",
+      "target": "assets/phases.css",
+      "append": {
+        "VORLAGE-TRADIERT": [
+          "compat/tradiert-phases.css"
+        ]
+      }
+    },
+    {
+      "source": "assets/situation.css",
+      "target": "assets/situation.css"
+    },
+    {
+      "source": "assets/review-layout.css",
+      "target": "assets/review-layout.css"
+    },
+    {
+      "source": "assets/footer-version.css",
+      "target": "assets/footer-version.css"
+    },
+    {
+      "source": "assets/footer-version.js",
+      "target": "assets/footer-version.js"
+    },
+    {
+      "source": "assets/material-access.js",
+      "target": "assets/material-access.js"
+    },
+    {
+      "source": "assets/package-completion.css",
+      "target": "assets/package-completion.css"
+    },
+    {
+      "source": "assets/package-completion.js",
+      "target": "assets/package-completion.js"
+    },
+    {
+      "source": "assets/material-views.css",
+      "target": "assets/material-views.css",
+      "existingOnly": true
+    },
+    {
+      "source": "assets/print.css",
+      "target": "assets/print.css",
+      "existingOnly": true,
+      "override": {
+        "VORLAGE-TRADIERT": "compat/tradiert-print.css"
+      }
+    },
+    {
+      "source": "assets/materials.css",
+      "target": "assets/materials.css",
+      "existingOnly": true
+    },
+    {
+      "source": "assets/book-reference.css",
+      "target": "assets/book-reference.css",
+      "existingOnly": true
+    },
+    {
+      "source": "assets/ipad.css",
+      "target": "assets/ipad.css",
+      "existingOnly": true
+    },
+    {
+      "source": "assets/print-layout.css",
+      "target": "assets/print-layout.css",
+      "existingOnly": true
+    },
+    {
+      "source": "assets/lesson-header.css",
+      "target": "assets/lesson-header.css",
+      "existingOnly": true
+    },
+    {
+      "source": "assets/history.css",
+      "target": "assets/history.css",
+      "existingOnly": true
+    },
+    {
+      "source": "assets/calculator.css",
+      "target": "assets/calculator.css",
+      "existingOnly": true
+    },
+    {
+      "source": "assets/lg01.css",
+      "target": "assets/lg01.css",
+      "existingOnly": true
+    },
+    {
+      "source": "assets/lernvideo-preview.css",
+      "target": "assets/lernvideo-preview.css",
+      "existingOnly": true
+    }
+  ],
+  "regions": [
+    {
+      "source": "assets/points-ui.js",
+      "targets": [
+        "assets/progress-core.js"
+      ],
+      "marker": "/* Metallic point UI from supplied reference. */",
+      "skipMissingMarker": true
+    },
+    {
+      "source": "assets/points-ui.js",
+      "targets": [
+        "assets/revision185-core.js"
+      ],
+      "marker": "/* Shared XP UI from IDN. */"
+    }
+  ]
+}

@@ -1,9 +1,33 @@
 # Verbindlicher Standard für Lernsituationen
 
-Die vom Nutzer freigegebene Gestaltung in `Vorlagen/Lernsituation_tradiert` und
-`Vorlagen/Lernsituation_fuenf_Lernwege` ist der Standard für zukünftige Änderungen und neue
-Lernsituationen. Beide Vorlagen auf `main` enthalten die Umsetzung. Der Nutzer
-kann diesen Standard jederzeit ausdrücklich ändern.
+Die verbindliche gemeinsame Gestaltungsquelle ist **`Formmaster/`**, Formstand
+**1.8.8**, abgeleitet aus Identität und Nation 1.8.8. Sie versorgt alle katalogisierten
+Lernsituationen und beide Lernsituationsvorlagen. Allgemeine Gestaltungsänderungen
+immer dort bearbeiten, nicht nur in einer erzeugten Paketkopie. Der Nutzer kann
+diesen Standard jederzeit ausdrücklich ändern. Einzelne Fachinhalte bleiben im
+jeweiligen Master unter `Fachbereiche/` bzw. `Vorlagen/`.
+
+## Gemeinsame Gestaltung automatisch übernehmen
+
+- `Formmaster/manifest.json` legt gemeinsame Dateien, UI-Regionen und notwendige
+  Kompatibilitätsregeln fest. `Formmaster/README.md` beschreibt den Ablauf.
+- `python tools/form_master.py sync` versorgt sämtliche katalogisierten
+  Lernsituationen und beide LS-Vorlagen, auch künftig hinzugefügte Lernsituationen.
+  `python tools/form_master.py check` muss danach ohne Abweichungen bestehen.
+- `python tools/master.py export --all` synchronisiert zuerst die Gestaltung und
+  erstellt dann eigenständige Pakete aus den aktuellen Mastern. Alte
+  Inhaltsgeneratoren werden dabei weiterhin nicht ausgeführt.
+- Nach Änderungen am Formmaster prüft GitHub Actions alle Varianten, übernimmt
+  die erzeugten Dateien und aktualisiert die SCORM-Downloads. Ein reiner
+  Datei-Upload in GitHub ersetzt weiterhin keine Moodle-Aktivität.
+- Formversion und Paketversion sind getrennt. Der Formstand ist 1.8.8; bei
+  geänderten bereits exportierten Paketen erhöht die Synchronisierung deren
+  Paketnummer automatisch. Lernstandskennungen und `packageRevision` bleiben
+  erhalten. Auch bei gleichem Formstand können Paketversionen unterschiedlich sein.
+- Vor Änderungen `node tools/test_form185.cjs`; danach zusätzlich
+  `python -m unittest discover -s tools -p 'test_form_master.py'` und die
+  Browserintegration aller Lernsituationen prüfen. Gemeinsame UI-Anpassungen
+  dürfen weder Aufgaben noch Bewertungsbudgets oder Lernstandslogik ersetzen.
 
 ## Ein fortlaufender Master je Lernsituation
 
@@ -37,9 +61,9 @@ kann diesen Standard jederzeit ausdrücklich ändern.
 
 ## Gemeinsamer Versionsstand der Lernsituationsvorlagen
 
-Gemeinsamer Formstand ab 03.11.2026: **1.8.5** für alle registrierten
-Lernsituationen und beide Lernsituationsvorlagen. Neuere technische Paketkorrekturen
-wie Identität und Nation 1.8.8 bleiben erhalten. Vor Änderungen
+Gemeinsamer Formstand ab 03.11.2026: **1.8.8** aus `Formmaster/` für alle registrierten
+Lernsituationen und beide Lernsituationsvorlagen. Fachliche und technische
+Paketkorrekturen bleiben erhalten. Vor Änderungen
 `node tools/test_form185.cjs` und nach Verhaltensänderungen die Browserintegration
 prüfen. Die jeweiligen Bewertungsbudgets und Inhaltskennungen bleiben maßgeblich;
 kein Fachbegriffscheck wird allein wegen des Formstands erfunden. Abschluss erst

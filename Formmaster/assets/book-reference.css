@@ -1,0 +1,7 @@
+/* Original textbook logo, kept beside its existing reference. */
+.book-line{display:flex;align-items:center;gap:6px;max-width:100%}
+.book-line .book-ref-icon{display:block;flex:0 0 32px;width:32px!important;max-width:32px;height:auto!important;margin:0!important;object-fit:contain}
+.book-line .book-reference{min-width:0;overflow-wrap:anywhere}
+.task-original-preview .book-line .book-reference,
+.task-focus-panel .assignment-body .book-line .book-reference{margin-top:0!important}
+@media print{.book-line{break-inside:avoid}.book-line .book-ref-icon{flex-basis:24px;width:24px!important;max-width:24px}}
