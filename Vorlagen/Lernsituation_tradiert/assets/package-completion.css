@@ -51,3 +51,15 @@ body[data-phase-layout] .assignment-frame:has(>.task-accordion:not([open])):has(
 .material-access .material-grid{display:flex!important;flex-wrap:wrap;position:static!important;max-height:none!important;overflow:visible!important}.material-access .material-link{white-space:normal;max-width:100%;overflow-wrap:anywhere}.footer-utils svg{width:17px;height:17px;flex:none;color:#59636d}.footer-utils a{display:inline-flex;align-items:center;gap:6px}
 
 details.material-access:not([open]) .material-grid{display:none!important}
+
+.teacher-view-bar{position:sticky;top:0;z-index:110;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:.5rem .9rem;padding:.5rem .8rem;background:#e5f5fd;color:#173a63;border-bottom:1px solid #88cbe8;font:14px/1.4 "Segoe UI",Arial,sans-serif;box-sizing:border-box}
+.teacher-view-bar button,.teacher-view-bar select{min-height:40px;margin:0;font:inherit}
+.teacher-view-bar label{display:flex;align-items:center;gap:.4rem}
+.teacher-view-bar button{padding:.35rem .7rem;border:1px solid #5597b7;border-radius:.5rem;background:white;color:#173a63;cursor:pointer}
+.teacher-view-bar button:focus-visible,.teacher-view-bar select:focus-visible{outline:3px solid #173a63;outline-offset:2px}
+.teacher-view-active{scroll-padding-top:85px}
+body .lesson-content>details.material-access-long[open]{position:relative!important;top:auto!important;z-index:1!important}
+@media(max-width:600px){.teacher-view-bar{justify-content:flex-start;font-size:12px}.teacher-view-bar strong{flex-basis:100%}}
+@media print{.teacher-view-bar{display:none!important}}
+
+body.teacher-view-active .lesson-content>details.material-access:not([open]),body.teacher-view-active .material-topbar{top:var(--teacher-view-height,54px)!important}

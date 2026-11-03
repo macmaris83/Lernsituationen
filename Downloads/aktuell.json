@@ -7,11 +7,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS01",
-      "version": "1.8.5",
-      "archive": "Downloads/BRC-LG01-LS01/BRC_LG01_LS01_v1.8.5_SCORM12.zip",
-      "masterSha256": "69db73d0b6b63abc72c1c09a7de2c5027ac96e54941c308da7a89548c827e24b",
-      "archiveSha256": "c904984316412d4efc101da3604517072e0487a2c3b18fb4de5904cf0b431669",
-      "files": 137
+      "version": "1.0",
+      "archive": "Downloads/BRC-LG01-LS01/BRC_LG01_LS01_v1.0_SCORM12.zip",
+      "masterSha256": "78a44f686a4d510375328f6426ab23e9d1c4f64afb2d280e0b96d5e6c8639f4f",
+      "archiveSha256": "e9d8afae0db93f4e332f35d4b224278ed3c19ead7b0466b39af93b6b91339451",
+      "files": 130
     },
     {
       "id": "BRC-LG01-LS02",
@@ -19,11 +19,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS02",
-      "version": "1.8.5",
-      "archive": "Downloads/BRC-LG01-LS02/BRC_LG01_LS02_v1.8.5_SCORM12.zip",
-      "masterSha256": "0f6883a1c36b1be320d0b1111c30d3ffabf5ad6ba48891c858ffa0060f1c4679",
-      "archiveSha256": "c190c45b9731f30caa914a5231c724407ac22436d1ffe865ebbb9d5460782fdf",
-      "files": 136
+      "version": "1.0",
+      "archive": "Downloads/BRC-LG01-LS02/BRC_LG01_LS02_v1.0_SCORM12.zip",
+      "masterSha256": "29338f827250bab294e55d1a6d5def3f0e287e868472b7c501e01babb6349c6c",
+      "archiveSha256": "b49d3618be74e6854e33b18173d1f88e31d0497a8ef1f081a9fca5e8ffa12a81",
+      "files": 129
     },
     {
       "id": "BRC-LG01-LS03",
@@ -31,11 +31,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS03",
-      "version": "1.8.5",
-      "archive": "Downloads/BRC-LG01-LS03/BRC_LG01_LS03_v1.8.5_SCORM12.zip",
-      "masterSha256": "7eb3bba5b736675dc57a0f66ef255cc0295029f127b4f18ee7fc88696215c9c4",
-      "archiveSha256": "0410a91dad9000a5e36f75cc77e2fcbab7aa47a0f0f5048931dfbf836404a4bf",
-      "files": 136
+      "version": "1.0",
+      "archive": "Downloads/BRC-LG01-LS03/BRC_LG01_LS03_v1.0_SCORM12.zip",
+      "masterSha256": "41f9ff86f6fccfd87078238435d38601fa83b9d7cf1cb1882780c3a1e446aa91",
+      "archiveSha256": "adde2f9fa374ba81f74b5f05effdb5bcbbc90abf28b2112ab62c84859e941da5",
+      "files": 129
     },
     {
       "id": "BRC-LG01-LS04",
@@ -43,11 +43,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS04",
-      "version": "1.8.5",
-      "archive": "Downloads/BRC-LG01-LS04/BRC_LG01_LS04_v1.8.5_SCORM12.zip",
-      "masterSha256": "732ffb7d0ad23cca263527e11f31185dc982071b9dcba813d09620f6ab04f535",
-      "archiveSha256": "aa540f18e107cdd8cc85c0fa3a9af59157f6540fa895ae1164e75b1bdc92e961",
-      "files": 137
+      "version": "1.0",
+      "archive": "Downloads/BRC-LG01-LS04/BRC_LG01_LS04_v1.0_SCORM12.zip",
+      "masterSha256": "81a44330e6d0fb2dccd21e000f0421c911b77a678980a13b792207ad4dcf6fb6",
+      "archiveSha256": "4420dd2cff1e0268277a63823219f7c457cbca16bfad7716f8192b9fd63bb8e0",
+      "files": 130
     },
     {
       "id": "BRC-LG01-LS05",
@@ -55,11 +55,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS05",
-      "version": "1.8.5",
-      "archive": "Downloads/BRC-LG01-LS05/BRC_LG01_LS05_v1.8.5_SCORM12.zip",
-      "masterSha256": "3df1bf2dba96f3edee9e4c22ea4269bbee42badce8c34e4442bce6eacd5396cb",
-      "archiveSha256": "a1609e90e67527a0d1ecba03aa1fb183858a02810f259814395d120bbfe27192",
-      "files": 137
+      "version": "1.0",
+      "archive": "Downloads/BRC-LG01-LS05/BRC_LG01_LS05_v1.0_SCORM12.zip",
+      "masterSha256": "4b96649d7850e1ceac6857a151a35eb3e92ca2e2408672df3879e741ade929e7",
+      "archiveSha256": "24468205d2c2a7544c3dc98b2b63752c1167c7e4e2032796591839b89f0d483d",
+      "files": 130
     },
     {
       "id": "BRC-LG01-LS06",
@@ -67,11 +67,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS06",
-      "version": "1.8.5",
-      "archive": "Downloads/BRC-LG01-LS06/BRC_LG01_LS06_v1.8.5_SCORM12.zip",
-      "masterSha256": "768eef6a34d57c9b19331d1353460bc6dc532ba789f662de603967b765914029",
-      "archiveSha256": "45a0b7eb1a5cc524d4cfa49075f40961f570c38c41ead5c734c7152bfd49474d",
-      "files": 137
+      "version": "1.0",
+      "archive": "Downloads/BRC-LG01-LS06/BRC_LG01_LS06_v1.0_SCORM12.zip",
+      "masterSha256": "b20bd1e1be5ea8bdcfcca689764839ca12003affa5e4960c952131c6ecfdd174",
+      "archiveSha256": "63718097525671dd4fa9166bb600d39e4c7db91c62b701436cfdf2472ba8e7b2",
+      "files": 130
     },
     {
       "id": "BRC-BIOCASA-OS",
@@ -451,11 +451,11 @@
       "bereich": "Vorlagen",
       "typ": "Vorlage",
       "master": "Vorlagen/Lernsituation_tradiert",
-      "version": "1.8.5",
-      "archive": "Downloads/VORLAGE-TRADIERT/Vorlage_Lernsituation_tradiert_v1.8.5_SCORM12.zip",
-      "masterSha256": "5d75b1a80b287d1fe72f50af7b3e1946786654f47671d2279c517fa110ae6b00",
-      "archiveSha256": "b41b54d23ccba7a2999e196b5aad76116236635201d462e3307f5b87192a8640",
-      "files": 87
+      "version": "1.8.3",
+      "archive": "Downloads/VORLAGE-TRADIERT/Vorlage_Lernsituation_tradiert_v1.8.3_SCORM12.zip",
+      "masterSha256": "dcc8ebad0eaf844e228b5fcd9f08cb5dd18d16ba334c30724fcdb733f09ffb14",
+      "archiveSha256": "18c8fb08d58701d0b3a424486c9f1e6d89dbbade3fe51b73cb3fe71aefe711aa",
+      "files": 83
     },
     {
       "id": "VORLAGE-FUENF-LERNWEGE",
@@ -463,11 +463,11 @@
       "bereich": "Vorlagen",
       "typ": "Vorlage",
       "master": "Vorlagen/Lernsituation_fuenf_Lernwege",
-      "version": "1.8.5",
-      "archive": "Downloads/VORLAGE-FUENF-LERNWEGE/Vorlage_Lernsituation_fuenf_Lernwege_v1.8.5_SCORM12.zip",
-      "masterSha256": "150c8f81cfa1730255ab5d9925d5c1666f9a9e5bfab6723918806d31b78b2661",
-      "archiveSha256": "39ae2afa37811c44a5c93253e9a4c0654abc7c4914981912d5da47fb2a81ff59",
-      "files": 151
+      "version": "1.8.3",
+      "archive": "Downloads/VORLAGE-FUENF-LERNWEGE/Vorlage_Lernsituation_fuenf_Lernwege_v1.8.3_SCORM12.zip",
+      "masterSha256": "1e0cbedb6702a2b8a19fd6a29f87ccb93a056401144836ae3e5b7bc6cda2e81e",
+      "archiveSha256": "23c3a64b6d70ec42ae963c80b61658eef670adf91504d7f653ec042e2c2ad047",
+      "files": 147
     },
     {
       "id": "VORLAGE-LERNPFAD",
@@ -487,11 +487,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS04",
-      "version": "1.8.5",
-      "archive": "Downloads/BRC-LG05-LS04/BRC_LG05_LS04_v1.8.5_SCORM12.zip",
-      "masterSha256": "db02a6e719d912af32d7f5786c1717aa5771f4a2d271f4a286e15cbe1d06e877",
-      "archiveSha256": "e40a691c08a80a7c378be2f12a668e53deb28e5477dd52b5fffaaebf5e1cf2fe",
-      "files": 177
+      "version": "1.8.2",
+      "archive": "Downloads/BRC-LG05-LS04/BRC_LG05_LS04_v1.8.2_SCORM12.zip",
+      "masterSha256": "5f96ad442829189a327fc4e0741b91c71b026d077542cd806db19f3aabec52b6",
+      "archiveSha256": "e81cceb53c274a2f056261c09bebce5916c490ba9e371a964c44f4b7a6370b3c",
+      "files": 172
     },
     {
       "id": "BRC-LG05-LS05",
@@ -499,11 +499,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS05",
-      "version": "1.8.5",
-      "archive": "Downloads/BRC-LG05-LS05/BRC_LG05_LS05_v1.8.5_SCORM12.zip",
-      "masterSha256": "80a1d81c55c60bbfa59ab51582b28d776603f1f8f6ca3436ce0b01fcca6ab044",
-      "archiveSha256": "6e546c26328a1cd8d91652f3b1eb0ee0e9ea57cda6fc3ac38f11455449138a24",
-      "files": 184
+      "version": "1.8.2",
+      "archive": "Downloads/BRC-LG05-LS05/BRC_LG05_LS05_v1.8.2_SCORM12.zip",
+      "masterSha256": "b94a718ebdaaaf0aab27e4b68471295b7b57029405e6a5c7bc9d873379201211",
+      "archiveSha256": "6c93524c43386d3453027f58873919bf2a31af5841e8440515a55ef2b7701f1f",
+      "files": 179
     },
     {
       "id": "BRC-LG05-LS06",
@@ -511,11 +511,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS06",
-      "version": "1.8.5",
-      "archive": "Downloads/BRC-LG05-LS06/BRC_LG05_LS06_v1.8.5_SCORM12.zip",
-      "masterSha256": "bb0be1b1bd0543a145a1a6c90fc89cb5213999192b5b7c19e155d48b945269ac",
-      "archiveSha256": "60f4a3a527fb9a4e116d1d247e141d96114b54120deaa6049b757cba76835e00",
-      "files": 180
+      "version": "1.8.2",
+      "archive": "Downloads/BRC-LG05-LS06/BRC_LG05_LS06_v1.8.2_SCORM12.zip",
+      "masterSha256": "1512d399534c374f9eba934ed3fb629f6c062271bd9b7973ac692691d9a50d18",
+      "archiveSha256": "e70c0b42c13da5316955c4882821eac54452415bb3640f448287b4ddc96ad35f",
+      "files": 175
     },
     {
       "id": "BRC-LG05-LS07",
@@ -523,11 +523,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS07",
-      "version": "1.8.5",
-      "archive": "Downloads/BRC-LG05-LS07/BRC_LG05_LS07_v1.8.5_SCORM12.zip",
-      "masterSha256": "c4345f7cefd4bbdcbf5934af311048c6a0f63ab5a0c4622c903789c995981d9c",
-      "archiveSha256": "14ca34785c85ce8632947789bc485eb1cd498834fa9d1f295c347fd3698c7cc7",
-      "files": 176
+      "version": "1.8.2",
+      "archive": "Downloads/BRC-LG05-LS07/BRC_LG05_LS07_v1.8.2_SCORM12.zip",
+      "masterSha256": "17bb6ff46536c9bb773bde97d83e2f1c76944751c667c624dd81303650062d25",
+      "archiveSha256": "9452a1f727c105eb60d21dd1dfacd1554c399225f9b2f17d32848038f6dc1f1a",
+      "files": 171
     },
     {
       "id": "BRC-LG05-LS08",
@@ -535,11 +535,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS08",
-      "version": "1.8.5",
-      "archive": "Downloads/BRC-LG05-LS08/BRC_LG05_LS08_v1.8.5_SCORM12.zip",
-      "masterSha256": "031d2818ec98ce539302120eedb58d45155b9c056d528e0587ac37e393b4ebd1",
-      "archiveSha256": "6edf9301087bba8695c6a86a32d9a67333e8f95d66237ac6c78956ab390cc3d9",
-      "files": 177
+      "version": "1.8.2",
+      "archive": "Downloads/BRC-LG05-LS08/BRC_LG05_LS08_v1.8.2_SCORM12.zip",
+      "masterSha256": "0b19816135399e0f0ef0d6dd8ecd3fca3c3071e8dac4597ecad3738984fb740f",
+      "archiveSha256": "a655612ee1ff66ea08d4a466c07ca108190d92c15b93e8c729d63393cefe825a",
+      "files": 172
     },
     {
       "id": "BRC-LG05-LS09",
@@ -547,11 +547,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS09",
-      "version": "1.8.5",
-      "archive": "Downloads/BRC-LG05-LS09/BRC_LG05_LS09_v1.8.5_SCORM12.zip",
-      "masterSha256": "de94da421aa302a29a565dd285500e998916f8f17d4793f87badbbe69b5a619c",
-      "archiveSha256": "f3364c53f577caf3dc30177fe766742dd14025e203b02e6c69fa12434d708e57",
-      "files": 176
+      "version": "1.8.2",
+      "archive": "Downloads/BRC-LG05-LS09/BRC_LG05_LS09_v1.8.2_SCORM12.zip",
+      "masterSha256": "c4472122f512ca2390f80bf5d4233f514ca4a726337878227fed2e8d3fe9b6a5",
+      "archiveSha256": "a400d6897d42344cba86b9223a29024ae9a88ba74aab00c19841f8408cf02059",
+      "files": 171
     },
     {
       "id": "BRC-LG05-LS10",
@@ -559,11 +559,11 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS10",
-      "version": "1.8.5",
-      "archive": "Downloads/BRC-LG05-LS10/BRC_LG05_LS10_v1.8.5_SCORM12.zip",
-      "masterSha256": "0a606aa887c02e164471e154f90a9d70092c39b4ffdaed6b7be26babd82176e6",
-      "archiveSha256": "1ec439329a698be69ba4a68fc50b8e0cf61903e174d22e95d18bce1c29f78494",
-      "files": 180
+      "version": "1.8.2",
+      "archive": "Downloads/BRC-LG05-LS10/BRC_LG05_LS10_v1.8.2_SCORM12.zip",
+      "masterSha256": "cf68bf7df7f03756db995b437390712f7ea7aff12c1cc75724a805c02c48b574",
+      "archiveSha256": "aa79c21df777c377699e1c90293c258669480cec96a6778ad868bf8c957dcb20",
+      "files": 175
     },
     {
       "id": "GESCHICHTE-J1914-Deutsches_Reich",
@@ -571,11 +571,11 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Deutsches_Reich",
-      "version": "1.8.5",
-      "archive": "Downloads/GESCHICHTE-J1914-Deutsches_Reich/Julikrise_1914_Deutsches_Reich_v1.8.5_SCORM12.zip",
-      "masterSha256": "93a7f4ae47ef508769c7f84c3387c66e68821f54df3849275dfabdc2db2318e4",
-      "archiveSha256": "aff044ad6572dbeeeaf9ab5810c8e70c32cc2121d87f1c611260a66337e61eb2",
-      "files": 107
+      "version": "1.8.3",
+      "archive": "Downloads/GESCHICHTE-J1914-Deutsches_Reich/Julikrise_1914_Deutsches_Reich_v1.8.3_SCORM12.zip",
+      "masterSha256": "c0af745f2d200429f5b34d4944908130e7a864ad4fd8e5d8ab69afbe0eadbab3",
+      "archiveSha256": "cdbbcee15ebc60af09401d461518d6e4028e9ae48d4685c634a3e9a8f1ab9c7c",
+      "files": 104
     },
     {
       "id": "GESCHICHTE-J1914-Frankreich",
@@ -583,11 +583,11 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Frankreich",
-      "version": "1.8.5",
-      "archive": "Downloads/GESCHICHTE-J1914-Frankreich/Julikrise_1914_Frankreich_v1.8.5_SCORM12.zip",
-      "masterSha256": "07bb3009425aad5dc30296e77a832604ad8cbdb0d3cc705c52092e3b81f61ada",
-      "archiveSha256": "cf913c27f240c7ce939376234596899292923b76f923d2c1412a37b036b92f0c",
-      "files": 107
+      "version": "1.8.3",
+      "archive": "Downloads/GESCHICHTE-J1914-Frankreich/Julikrise_1914_Frankreich_v1.8.3_SCORM12.zip",
+      "masterSha256": "51da83cf2a9e474cc9bdbe8748e8bbbd993582511286ae9f2577c386400406b4",
+      "archiveSha256": "afe205fefad906322dee14fd8a48570a7db2c01f9a18bdd1c2efcd177e0e6d91",
+      "files": 104
     },
     {
       "id": "GESCHICHTE-J1914-Grossbritannien",
@@ -595,11 +595,11 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Grossbritannien",
-      "version": "1.8.5",
-      "archive": "Downloads/GESCHICHTE-J1914-Grossbritannien/Julikrise_1914_Grossbritannien_v1.8.5_SCORM12.zip",
-      "masterSha256": "1b17cbc500160288f96bd4ab8713e011ef1d797409bc6dd492d9f26096ed7362",
-      "archiveSha256": "16c2b670bc602f1a998fec189029ff56c65b07b7bda2511c482d5254cfacc10e",
-      "files": 107
+      "version": "1.8.3",
+      "archive": "Downloads/GESCHICHTE-J1914-Grossbritannien/Julikrise_1914_Grossbritannien_v1.8.3_SCORM12.zip",
+      "masterSha256": "b0c98f8b87bbb19a0690ddafe7568a8b0377224a229b1dcc99284eebb13a28bb",
+      "archiveSha256": "47f7e7e9c253138c20f1b30a0ea6dee287c1750402ca669e8d6523dc1ea8ef97",
+      "files": 104
     },
     {
       "id": "GESCHICHTE-J1914-Oesterreich_Ungarn",
@@ -607,11 +607,11 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Oesterreich_Ungarn",
-      "version": "1.8.5",
-      "archive": "Downloads/GESCHICHTE-J1914-Oesterreich_Ungarn/Julikrise_1914_Oesterreich_Ungarn_v1.8.5_SCORM12.zip",
-      "masterSha256": "40e65959376b52d0636b4ff09779877b6be11cf0e30ea44e9f1fefc6f4801b63",
-      "archiveSha256": "48d85aff50ebd24ed1b5406d0a9e3de3688c42f48e1c9667143b854cf4fdf551",
-      "files": 108
+      "version": "1.8.3",
+      "archive": "Downloads/GESCHICHTE-J1914-Oesterreich_Ungarn/Julikrise_1914_Oesterreich_Ungarn_v1.8.3_SCORM12.zip",
+      "masterSha256": "9b6e8a80056c62946847858159d69f4f912f54deaf8e861e9d1e4b1afe94daa7",
+      "archiveSha256": "d983c62ad5d2daadd2ea217a0a14462c54dc4d01397eed9ecff79c4ec26f4191",
+      "files": 105
     },
     {
       "id": "GESCHICHTE-J1914-Presse",
@@ -619,11 +619,11 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Presse",
-      "version": "1.8.5",
-      "archive": "Downloads/GESCHICHTE-J1914-Presse/Julikrise_1914_Presse_v1.8.5_SCORM12.zip",
-      "masterSha256": "94e1f57b4120cade7aab9cfdec094ad4f4b96adcc34b8f024e3b43d66587562f",
-      "archiveSha256": "9f0e5ce4124e807353d75a73faff85c49e4021f52b31a1764ea0ff84d3e1a564",
-      "files": 106
+      "version": "1.8.3",
+      "archive": "Downloads/GESCHICHTE-J1914-Presse/Julikrise_1914_Presse_v1.8.3_SCORM12.zip",
+      "masterSha256": "76805d131e9d4bed3728fbce2b093d39661ff6fa1f3e0ae2b7f425bed7341544",
+      "archiveSha256": "500ad56af48f6a3827b9660c0a3f5d45ddd6a1d8b381e20a55dc8f24b11aec5f",
+      "files": 103
     },
     {
       "id": "GESCHICHTE-J1914-Russland",
@@ -631,11 +631,11 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Russland",
-      "version": "1.8.5",
-      "archive": "Downloads/GESCHICHTE-J1914-Russland/Julikrise_1914_Russland_v1.8.5_SCORM12.zip",
-      "masterSha256": "3c49f38f5a401219b9e3b7e16ab430a455d1cebd660ff4a326aa22df57f268e2",
-      "archiveSha256": "9045aef044a69eb9b51a3a5238977bd6c34668927e1c74cb44eccf47d325a30c",
-      "files": 107
+      "version": "1.8.3",
+      "archive": "Downloads/GESCHICHTE-J1914-Russland/Julikrise_1914_Russland_v1.8.3_SCORM12.zip",
+      "masterSha256": "f96bf7e0f4abc1f8af0eda2c0d20d6acabf78b11b9c0f4304969a0cbc5d1bde6",
+      "archiveSha256": "78239453a6f7aac29acc34347342e206f3cfe3dee189253c66c2aab1dc35e5ba",
+      "files": 104
     },
     {
       "id": "GESCHICHTE-IDN",
@@ -643,10 +643,10 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/IdentitaetUndNation/Lernpaket",
-      "version": "1.8.8",
-      "archive": "Downloads/GESCHICHTE-IDN/Identitaet_und_Nation_v1.8.8_SCORM12.zip",
-      "masterSha256": "d088489ea1e25fe189eeda617c32db82c1b703d510c3457227121c75d3e5c4cc",
-      "archiveSha256": "ae38bb3e0fe9c4b140466992a2a56932210b409ee9a2669f227991ca899ffa31",
+      "version": "1.8.7",
+      "archive": "Downloads/GESCHICHTE-IDN/Identitaet_und_Nation_v1.8.7_SCORM12.zip",
+      "masterSha256": "20cd4b2f904f6a2e8ab50d13446fc9db6c83bc6e7e42f4067960f78222302bd1",
+      "archiveSha256": "0fd49a306ba33977b6f3c10908bb3310e83e64ce1b3530013a2eab78a79cebc4",
       "files": 107
     }
   ]

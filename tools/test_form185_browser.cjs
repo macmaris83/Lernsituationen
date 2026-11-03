@@ -24,7 +24,7 @@ const server=http.createServer((req,res)=>{
    assert.equal(await page.locator('[data-share-workbook]').count(),0,item.id+': no orientation workbook');
    assert.equal(await page.locator('.lesson-content .material-access').count(),0,item.id+': no orientation materials');
    assert.equal(await page.locator('[data-package-version]').first().innerText(),'Version '+item.version,item.id);
-   if(await page.locator('[data-video-skip]').count())await page.locator('[data-video-skip]').click();
+   if(await page.locator('[data-video-skip]').count()){await page.locator('[data-video-skip]').click();await page.goto(base+'index.html');await page.waitForFunction(()=>window.SOZ_READY===true);}
    await page.locator('[data-orientation-complete]').check();
    await page.reload();await page.waitForFunction(()=>window.SOZ_READY===true);
    assert.equal(await page.locator('[data-orientation-complete]').isChecked(),true,item.id+': orientation saved');
@@ -70,6 +70,15 @@ const server=http.createServer((req,res)=>{
    assert.equal(await complete.innerText(),'Lernpaket abgeschlossen',item.id+': explicit completion');
    await page.reload();await page.waitForFunction(()=>window.SOZ_READY===true);
    assert.equal(await complete.innerText(),'Lernpaket abgeschlossen',item.id+': completion restored');
+   const learnerBefore=await page.evaluate(()=>JSON.stringify(SOZ_PROGRESS.read()));
+   await page.evaluate(()=>{const key='soz-teacher-view:'+SOZPAED.id+':'+location.pathname.replace(/[^/]+$/,'')+':'+(SOZ_CONFIG.packageRevision||'base');sessionStorage.setItem(key,JSON.stringify({active:true,mode:1}));});
+   await page.goto(base+'informieren.html');await page.waitForFunction(()=>window.SOZ_READY===true);
+   assert.equal(await page.evaluate(()=>SOZ_TEACHER_VIEW.active),true,item.id+': teacher test mode');
+   assert.equal(await page.evaluate(()=>SOZ_PROGRESS.completed),false,item.id+': own incomplete teacher test');
+   await page.locator('[data-mode-panel="1"] .assignment-frame').first().locator('.task-original-preview').click();
+   await page.locator('.task-focus-panel [data-task-complete]').check();
+   await page.locator('[data-exit-teacher-view]').click();await page.waitForFunction(()=>window.SOZ_READY===true);
+   assert.equal(await page.evaluate(()=>JSON.stringify(SOZ_PROGRESS.read())),learnerBefore,item.id+': learner state untouched by teacher test');
    assert.deepEqual(errors,[],item.id+': browser errors');
    if(['BRC-LG01-LS01','BRC-LG05-LS04','VORLAGE-TRADIERT','GESCHICHTE-J1914-Deutsches_Reich'].includes(item.id))await page.screenshot({path:path.join(output,item.id+'.png'),fullPage:true});
    console.log('PASS browser',item.id);

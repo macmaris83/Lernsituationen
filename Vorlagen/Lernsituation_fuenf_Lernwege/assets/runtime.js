@@ -2,7 +2,7 @@
 const D=window.SOZPAED,C=window.SOZ_CONFIG||{},MEDIA=window.SOZ_MEDIA||{};
 if(!D)return;
 const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
-const version=D.version,key=`sozpaed:${D.id}:${version}`+(window.SOZ_PROGRESS?.learner?':student:'+encodeURIComponent(window.SOZ_PROGRESS.learner):':preview'),settingKey=key+':settings:'+(C.packageRevision||'base')+':'+location.pathname.replace(/[^/]+$/,''),labels=['','Tradiert · stark geführt','Geführt','Begleitet','Teiloffen','Löppt'];
+const version=D.version,key=(window.SOZ_TEACHER_VIEW?.active?'teacher:':'')+`sozpaed:${D.id}:${version}`+(window.SOZ_PROGRESS?.learner?':student:'+encodeURIComponent(window.SOZ_PROGRESS.learner):':preview'),settingKey=key+':settings:'+(C.packageRevision||'base')+':'+location.pathname.replace(/[^/]+$/,''),labels=['','Tradiert · stark geführt','Geführt','Begleitet','Teiloffen','Löppt'];
 const blank=()=>({schema:1,lesson:D.id,version,assessments:{},work:{},feedback:'',nextGoal:''});
 let state=blank(),settings={mode:1,allowStudentMode:false,moodle:{},media:{},overrides:{},...C},storageOK=true;
 try{const x=localStorage.getItem(key);if(x)state=validateState(JSON.parse(x));const s=JSON.parse(localStorage.getItem(settingKey)||'null');if(s)settings={...settings,...s};}catch(e){storageOK=false;}
@@ -91,9 +91,9 @@ window.addEventListener('afterprint',()=>{printMaterialStates.forEach((open,d)=>
 const D=window.SOZPAED;if(!D)return;
 let active=null;
 function valid(task){const tasks=window.SOZ_PROGRESS_META?.tasks;if(!tasks||!Object.prototype.hasOwnProperty.call(tasks,task))return null;const t=tasks[task];if(!['informieren','planen','entscheiden','durchfuehren','bewerten','reflektieren'].includes(t.phase)||!Number.isInteger(t.mode)||t.mode<1||t.mode>5)return null;return {task,page:t.phase+'.html',number:String(task).split(':').pop(),mode:t.mode};}
-function read(){if(active)return active;const fromURL=valid(new URLSearchParams(location.search).get('rueckaufgabe'));if(fromURL)return fromURL;try{return valid(JSON.parse(sessionStorage.getItem('task-focus-return:'+D.id)||'null')?.task);}catch{return null;}}
+function read(){if(active)return active;const fromURL=valid(new URLSearchParams(location.search).get('rueckaufgabe'));if(fromURL)return fromURL;try{return valid(JSON.parse(sessionStorage.getItem((window.SOZ_TEACHER_VIEW?.active?'teacher:':'')+'task-focus-return:'+D.id)||'null')?.task);}catch{return null;}}
 function decorate(){const saved=read();if(!saved)return;for(const a of document.querySelectorAll('a[href]')){try{const u=new URL(a.getAttribute('href'),location.href);if(u.origin!==location.origin||new URL('.',u).href!==new URL('.',location.href).href||!/^m\d+\.html$/.test(u.pathname.split('/').pop()))continue;u.searchParams.set('rueckaufgabe',saved.task);a.setAttribute('href',u.pathname.split('/').pop()+u.search+u.hash);}catch{}}}
-function remember(task){active=valid(task);if(!active)return;try{sessionStorage.setItem('task-focus-return:'+D.id,JSON.stringify(active));}catch{}decorate();}
+function remember(task){active=valid(task);if(!active)return;try{sessionStorage.setItem((window.SOZ_TEACHER_VIEW?.active?'teacher:':'')+'task-focus-return:'+D.id,JSON.stringify(active));}catch{}decorate();}
 window.SOZ_MATERIAL_RETURN={read,remember,decorate};
 })();
 

@@ -1,6 +1,6 @@
 (()=>{'use strict';
 const D=window.SOZPAED;if(!D)return;
-const P=window.SOZ_PROGRESS,A=window.SOZ_API,base='biocasa:'+D.id+':'+D.version+':'+(P?.learner||'local')+':';
+const P=window.SOZ_PROGRESS,A=window.SOZ_API,base=(window.SOZ_TEACHER_VIEW?.active?'teacher:':'')+'biocasa:'+D.id+':'+D.version+':'+(P?.learner||'local')+':';
 const store=(key,value)=>{try{localStorage.setItem(base+key,JSON.stringify(value));return true}catch{return false}};
 const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(base+key))??fallback}catch{return fallback}};
 if(document.body.dataset.page==='druckansicht.html')document.querySelectorAll('.quiz-check>details,.microchecks>.micro-question').forEach(d=>d.open=true);
