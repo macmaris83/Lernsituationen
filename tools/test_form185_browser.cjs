@@ -32,6 +32,8 @@ const server=http.createServer((req,res)=>{
     await page.setViewportSize({width,height:844});
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),true,item.id+': orientation overflow '+width);
    }
+   // Seed outside the video page: its pagehide handler saves its real player state.
+   await page.goto(base+'handlungssituation.html');await page.waitForFunction(()=>window.SOZ_READY===true);
    // Seed an ordinary test learner with all prerequisites, leaving one task open.
    await page.evaluate(()=>{
     const K=SOZ_PROGRESS_CORE,M=SOZ_PROGRESS_META,p=K.initial(M,1);p.o=true;
@@ -65,7 +67,7 @@ const server=http.createServer((req,res)=>{
    assert.equal(await page.locator('.focus-next:visible').isEnabled(),true,item.id+': manual next');
    await page.goto(base+'reflektieren.html');await page.waitForFunction(()=>window.SOZ_READY===true);
    const complete=page.locator('[data-complete-package]');
-   assert.equal(await complete.isEnabled(),true,item.id+': complete enabled');
+   assert.equal(await complete.isEnabled(),true,item.id+': complete enabled '+JSON.stringify(await page.evaluate(()=>({grade:SOZ_PROGRESS_CORE.grading(SOZ_PROGRESS.read(),SOZ_PROGRESS_META),video:SOZ_PROGRESS.read().ov,flashcard:SOZ_PROGRESS.read().fc?.complete}))));
    await complete.click();
    assert.equal(await complete.innerText(),'Lernpaket abgeschlossen',item.id+': explicit completion');
    await page.reload();await page.waitForFunction(()=>window.SOZ_READY===true);
