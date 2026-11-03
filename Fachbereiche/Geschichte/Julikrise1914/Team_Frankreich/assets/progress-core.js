@@ -74,7 +74,7 @@ window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,s
 })();
 
 /* Metallic point UI from supplied reference. */
-
+/* Shared form 1.8.8 presentation; scoring and persistent progress remain package-owned. */
 (() => {
   'use strict';
   const format = n => Number(n || 0).toLocaleString('de-DE', {maximumFractionDigits: 2});
@@ -84,7 +84,7 @@ window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,s
   const icon = '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="m12 6 1.8 3.6 4 .6-2.9 2.8.7 4-3.6-1.9L8.4 17l.7-4-2.9-2.8 4-.6Z"/></svg>';
   function markup(points, earned = false, title = '') {
     const safeTitle = String(title).replace(/[&"<>]/g, c => ({'&':'&amp;','"':'&quot;','<':'&lt;','>':'&gt;'}[c]));
-    return '<span class="point-badge' + (earned ? ' point-earned' : '') + '" title="' + safeTitle + '">' + icon + '<span>' + (earned ? '' : '+') + format(points) + ' Punkte</span></span>';
+    return '<span class="point-badge' + (earned ? ' point-earned' : '') + '" title="' + safeTitle + '">' + icon + '<span>' + (earned ? '' : '+') + format(points) + ' XP</span></span>';
   }
   function badge(points, earned, title) {
     const template = document.createElement('template');
@@ -96,7 +96,7 @@ window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,s
     document.querySelectorAll('.point-reward').forEach(el => el.remove());
     const popup = document.createElement('span');
     popup.className = 'point-reward';
-    popup.textContent = '+' + format(points) + ' Punkte';
+    popup.textContent = '+' + format(points) + ' XP';
     popup.setAttribute('role', 'status');
     const rect = anchor.getBoundingClientRect();
     popup.style.left = Math.max(8, Math.min(innerWidth - 150, rect.left)) + 'px';
@@ -106,15 +106,15 @@ window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,s
   }
   let positionObserver = null;
   function mount() {
-    // The score belongs to the visible lesson, above its phase navigation.
+    // Keep the compact score at the top right of the current learning view.
     // The SCORM host keeps only the persistent unfinished-test reminder.
     if (document.querySelector('[data-scorm-frame]')) return null;
     const page = document.body.dataset.page || '';
     if (document.body.dataset.teacher || page === 'druckansicht.html') return null;
     const focus = document.body.classList.contains('task-focus')
       ? document.querySelector('.task-accordion[open] .task-focus-panel') : null;
-    const navigation = /^m\d+\.html$/.test(page) ? document.querySelector('.material-phase-navigation') : document.querySelector('.navigation, .b-phase-overview');
-    const target = navigation;
+    const navigation = document.querySelector('.navigation, .b-phase-overview');
+    const target = focus || (/^m\d+\.html$/.test(page) ? document.querySelector('.main') : navigation);
     if (!target) return null;
     let row = document.querySelector('[data-phase-points]');
     if (!row) {
@@ -128,7 +128,7 @@ window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,s
       el = document.createElement('aside');
       el.className = 'point-float no-print';
       el.dataset.pointFloat = '';
-      el.innerHTML = '<div class="points-battery" role="progressbar" aria-label="Aktueller SCORM-Punktestand" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span class="points-battery-track"><span class="points-battery-fill"></span></span><strong class="points-battery-label">0 / 100 Punkte</strong></div><span class="points-live sr-only" aria-live="polite" aria-atomic="true"></span>';
+      el.innerHTML = '<div class="points-battery" role="progressbar" aria-label="Aktueller SCORM-Punktestand" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span class="points-battery-track"><span class="points-battery-fill"></span></span><strong class="points-battery-label">0 / 100 XP</strong></div><span class="points-live sr-only" aria-live="polite" aria-atomic="true"></span>';
       row.append(el);
     }
     if (!positionObserver && window.MutationObserver) {
@@ -140,18 +140,18 @@ window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,s
   function render(grade, animate = true) {
     const el = mount();
     if (!el) return;
-    const points = Math.max(0, Math.min(100, Number(grade.points) || 0));
+    const maximum=grade.maxPoints||100;const points = Math.max(0, Math.min(maximum, Number(grade.points) || 0));
     const last = el.dataset.points === undefined ? null : Number(el.dataset.points);
     const track = el.querySelector('.points-battery');
     el.dataset.points = String(points);
-    el.dataset.tier = tier(points);
-    track.setAttribute('aria-valuenow', String(points));
-    track.setAttribute('aria-valuetext', format(points) + ' von 100 Punkten; ' + tierName(points));
-    el.querySelector('.points-battery-fill').style.width = points + '%';
-    el.querySelector('.points-battery-label').textContent = format(points) + ' / 100 Punkte';
-    el.title = 'SCORM: ' + format(grade.taskPoints) + '/25 Bearbeitung · ' + format(grade.situationPoints) + '/15 Handlungssituation · ' + format(grade.termPoints) + '/60 Fachbegriffe. Bronze ab 50, Silber ab 75, Gold ab 90 Punkten. Abgabe und Partnerfeedback werden gesondert in Moodle nachgewiesen.';
+    el.dataset.tier = tier(points/maximum*100);
+    track.setAttribute('aria-valuemax',String(maximum));track.setAttribute('aria-valuenow', String(points));
+    track.setAttribute('aria-valuetext', format(points) + ' von '+maximum+' XP; ' + tierName(points/maximum*100));
+    el.querySelector('.points-battery-fill').style.width = (points/maximum*100) + '%';
+    el.querySelector('.points-battery-label').textContent = format(points) + ' / '+maximum+' XP';
+    el.title = 'XP aus dem gespeicherten Lernstand: '+format(points)+' / '+maximum;
     if (animate && last !== null && points > last) {
-      el.querySelector('.points-live').textContent = '+' + format(points - last) + ' Punkte. Jetzt ' + format(points) + ' von 100 Punkten.';
+      el.querySelector('.points-live').textContent = '+' + format(points - last) + ' XP. Jetzt ' + format(points) + ' von '+maximum+' XP.';
       if (!reduced() && el.animate) el.animate([{transform:'scale(1)'},{transform:'scale(1.04)'},{transform:'scale(1)'}], {duration:420});
     }
   }

@@ -28,6 +28,7 @@ body[data-phase-layout] .page-turn{display:flex;justify-content:space-between;ga
 @media(max-width:600px){body[data-phase-layout] .assignment-frame{padding:12px 10px;column-gap:6px}body[data-phase-layout] .phase-materials{padding:15px}body[data-phase-layout] .assignment-body{font-size:.94rem}body[data-phase-layout] .phase-meta p{font-size:.9rem}}
 @media print{body[data-phase-layout] .assignment-frame{background:#fff;box-shadow:none;backdrop-filter:none;border-color:#bbd4df;break-inside:avoid}body[data-phase-layout] .assignment-number{print-color-adjust:exact;-webkit-print-color-adjust:exact}body[data-phase-layout] .phase-materials{background:#fff;box-shadow:none}body[data-phase-layout] .book-reference{background:none;box-shadow:none}}
 
+/* Compatibility for existing tradierte assignment markup and editor. */
 /* Schüleraufträge */
 body[data-phase-layout] .book-reference,.print-chapter .book-reference{display:block;width:fit-content;max-width:100%;box-sizing:border-box;margin-top:8px;padding:5px 8px;white-space:normal;box-decoration-break:slice;-webkit-box-decoration-break:slice;overflow-wrap:anywhere;break-inside:avoid}
 body[data-phase-layout] .book-ref-label{font-weight:400}

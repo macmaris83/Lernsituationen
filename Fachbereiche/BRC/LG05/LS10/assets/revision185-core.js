@@ -53,9 +53,7 @@ K.grading||=function(p,meta){const tasks=Object.entries(meta.tasks).filter(([,t]
 })();
 
 /* Shared XP UI from IDN. */
-
-
-
+/* Shared form 1.8.8 presentation; scoring and persistent progress remain package-owned. */
 (() => {
   'use strict';
   const format = n => Number(n || 0).toLocaleString('de-DE', {maximumFractionDigits: 2});
@@ -87,15 +85,15 @@ K.grading||=function(p,meta){const tasks=Object.entries(meta.tasks).filter(([,t]
   }
   let positionObserver = null;
   function mount() {
-    // The score belongs to the visible lesson, in its footer.
+    // Keep the compact score at the top right of the current learning view.
     // The SCORM host keeps only the persistent unfinished-test reminder.
     if (document.querySelector('[data-scorm-frame]')) return null;
     const page = document.body.dataset.page || '';
     if (document.body.dataset.teacher || page === 'druckansicht.html') return null;
     const focus = document.body.classList.contains('task-focus')
       ? document.querySelector('.task-accordion[open] .task-focus-panel') : null;
-    const navigation = /^m\d+\.html$/.test(page) ? document.querySelector('.material-phase-navigation') : document.querySelector('.navigation, .b-phase-overview');
-    const target = document.querySelector('.page-footer,.b-footer') || navigation;
+    const navigation = document.querySelector('.navigation, .b-phase-overview');
+    const target = focus || (/^m\d+\.html$/.test(page) ? document.querySelector('.main') : navigation);
     if (!target) return null;
     let row = document.querySelector('[data-phase-points]');
     if (!row) {

@@ -1,6 +1,7 @@
 {
-  "version": "1.8.5",
-  "formVersion": "1.8.5",
+  "version": "1.8.8",
+  "formVersion": "1.8.8",
   "updated": "2026-11-03",
-  "changes": "Gemeinsamer Formstand: kompakte Orientierung, Materialzugriff, XP im Footer, ausdrücklicher speicherbestätigter Abschluss und Wiederaufnahme. Aufgaben, Kennungen, Lernstände und vorhandene Bewertungslogik erhalten."
+  "changes": "Gemeinsamer Formstand: kompakte Orientierung, Materialzugriff, XP im Footer, ausdrücklicher speicherbestätigter Abschluss und Wiederaufnahme. Aufgaben, Kennungen, Lernstände und vorhandene Bewertungslogik erhalten.",
+  "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
 }

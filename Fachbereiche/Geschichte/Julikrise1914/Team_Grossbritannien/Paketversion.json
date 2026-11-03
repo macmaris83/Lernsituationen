@@ -1,11 +1,12 @@
 {
   "title": "Vom Mythos zum Krieg",
-  "version": "1.8.5",
+  "version": "1.8.8",
   "country": "Großbritannien",
   "format": "SCORM 1.2",
   "reference": "BRC_LG01_LS04_v1.8_SCORM12.zip",
   "updated": "2026-11-03",
   "changes": "Gemeinsamer Formstand: kompakte Orientierung, Materialzugriff, XP im Footer, ausdrücklicher speicherbestätigter Abschluss und Wiederaufnahme. Aufgaben, Kennungen, Lernstände und vorhandene Bewertungslogik erhalten.",
   "revision": "interactive-video-20261102",
-  "formVersion": "1.8.5"
+  "formVersion": "1.8.8",
+  "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
 }

@@ -11,7 +11,9 @@ body[data-phase-layout] .assignment-frame{position:relative;padding-right:52px}
 .progress-counter [data-progress-status]{display:block;font-weight:400;color:#50676d}
 @media(max-width:600px){body[data-phase-layout] .assignment-frame{padding-right:44px}.task-completion{right:9px;top:12px;width:25px;height:25px}}
 @media print{.task-completion,.orientation-completion,.progress-counter,[data-progress-status]{display:none!important}body[data-phase-layout] .assignment-frame{padding-right:14px}}
-/* Small metallic badges and a persistent battery-style score. */
+
+/* Reference point UI */
+
 .point-badge{display:inline-flex!important;align-items:center;justify-content:center;gap:5px;flex:none;white-space:nowrap;font:600 12px/1.3 "Segoe UI",Arial,sans-serif;color:#f5f8fc!important;background:linear-gradient(145deg,#1a344a,#0d1e2f) padding-box,linear-gradient(125deg,#6a492e,#e1b07c 36%,#805436 68%,#d5a171) border-box;border:1.5px solid transparent;border-radius:999px;padding:5px 9px;box-shadow:inset 0 1px 0 #ffffff17,0 2px 5px #0e223014;vertical-align:middle;text-decoration:none}
 .point-badge svg{width:17px;height:17px;flex:none;color:#b6c941}
 .point-badge.point-earned{background:linear-gradient(145deg,#233f4d,#132b38) padding-box,linear-gradient(125deg,#8b9da7,#e4f0f5,#7f929c) border-box}
@@ -24,7 +26,6 @@ body[data-phase-layout] .assignment-frame{position:relative;padding-right:52px}
 .task-summary .task-point-value{margin-left:auto;margin-right:5px}
 .task-summary .task-preview{min-width:0}
 .assignment-frame>[data-task-points]{position:absolute;right:12px;top:12px;z-index:2}
-.assignment-frame:has(>.task-accordion:not([open]))>.task-original-preview{padding-top:50px!important}
 .assignment-frame:has(>.task-accordion[open])>[data-task-points]{display:none}
 .task-focus-panel>.task-point-value{align-self:flex-start;margin:2px 0 12px}
 .phase-points-row{display:flex;align-items:center;justify-content:flex-end;box-sizing:border-box;width:100%;min-width:0;margin:0 0 12px;padding-right:6px}
@@ -43,3 +44,9 @@ body[data-phase-layout] .assignment-frame{position:relative;padding-right:52px}
 @media(max-width:600px){.point-float{width:210px;right:16px}.task-summary .task-point-value{margin-left:0;grid-column:2;justify-self:start}.task-summary .task-point-value .point-badge{font-size:11px}.point-badge{padding:4px 7px}.point-action{gap:6px}.quiz-actions{gap:6px}.quiz-actions button{font-size:.8rem!important;padding:7px 9px!important}.quiz-actions .point-badge{font-size:11px;padding:4px 7px}}
 @media(prefers-reduced-motion:reduce){.points-battery-fill{transition:none}.point-reward{animation:none}}
 @media print{.phase-points-row,.point-float,.point-reward,.task-point-value,.point-rules,.point-action>.point-badge,.quiz-hint .point-badge{display:none!important}body[data-points-host]{padding-top:0}}
+
+/* Task overview: first text line aligns with the number and GoodNotes icon. */
+body[data-phase-layout] .assignment-frame:has(>.task-accordion:not([open]))>.task-original-preview{align-self:start;padding-top:14px!important}
+/* Reserve only the badge corner; later text lines use the full card width. */
+body[data-phase-layout] .assignment-frame:has(>.task-accordion:not([open])):has(>[data-task-points])>.task-original-preview::before{content:"";display:block;float:right;width:78px;height:30px;margin-left:6px}
+@media(max-width:600px){body[data-phase-layout] .assignment-frame:has(>.task-accordion:not([open]))>.task-original-preview{padding-top:12px!important}}

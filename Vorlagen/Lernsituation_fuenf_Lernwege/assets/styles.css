@@ -245,6 +245,7 @@ body[data-page="index.html"] .orientation-competence-list :is(.competence-row,ar
 body[data-page="index.html"] .orientation-competence-list h3{margin:0}
 
 /* Full-document PDF is separate from phase-only GoodNotes workbooks. */
+.acrobat-pdf-icon{width:21px;height:24px;flex:none;vertical-align:middle}
 .footer-utils [data-document-pdf]{display:inline-flex;align-items:center;gap:6px}
 .document-pdf-compact{width:40px;min-width:40px;min-height:40px;padding:6px;flex:none}
 .focus-back-actions{display:flex;align-items:center;gap:6px;justify-self:start;min-width:0;flex-wrap:wrap}
@@ -282,5 +283,30 @@ body.material-reading .page-footer{padding-bottom:90px}
 /* Hide other task cards reliably even when compact layout uses display:grid. */
 body.task-focus .lesson-content .assignment-frame.focus-suppressed{display:none!important}
 
-/* Shared monochrome print/editor footer standard. */
+body.task-focus .lesson-content .assignment-frame.focus-suppressed{display:none!important}
+.series-ways{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}.series-ways>div{border-radius:10px;padding:12px}
+.series-way-brief{margin:12px 0;border:1px solid #b8e0f2;border-radius:10px;padding:10px 12px}.series-way-brief summary{font-weight:650;color:#173a63}
+.assignment-body>ul,.assignment-body>ol{padding-left:22px}.assignment-body .assignment-time{display:inline-flex;align-items:center;color:#58717e;font-size:.78rem;margin-top:6px;gap:4px}.assignment-time svg{width:15px;height:15px;color:#009bd9}
+.material-document .table-scroll table{min-width:0;width:100%;overflow-wrap:anywhere}.material-document .table-scroll{max-width:100%}
+body.material-reading .source-document .paper{min-height:0;padding:28px 32px}
+body.material-reading .source-document .paper table{table-layout:auto;min-width:0;overflow-wrap:anywhere}
+@media(max-width:600px){body.material-reading .source-document .paper{padding:20px 16px}}
+.task-focus-panel .focus-assignment-copy p{margin-bottom:1em}
+body:not([data-teacher]) :is(.mode-badge,.phase-mode-title,.series-ways),body:not([data-teacher]) label:has([data-student-mode]){display:none!important}
+body:not([data-teacher]) .brand-header{justify-content:flex-end}
+body[data-teacher] label:has([data-allow-mode]){display:none!important}
+body[data-page="index.html"] .orientation-competence-layout{grid-template-columns:minmax(0,320px) minmax(0,1fr)}
+body[data-page="index.html"] .orientation-competence-list{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,auto);gap:12px}
+body[data-page="index.html"] .orientation-competence-chart{align-self:center;max-width:320px;width:100%}
+body[data-page="index.html"] .orientation-competence-list article:last-child{grid-column:auto}
+body .quiz-check [data-quiz-question]>label{display:flex;align-items:flex-start;gap:8px;width:100%;margin:7px 0;padding:5px 0;cursor:pointer}
+body .quiz-check [data-quiz-question]>label input{flex:0 0 18px;width:18px;height:18px;margin:2px 0 0;accent-color:#009bd9}
+.quiz-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.relevance,.situation-prose{display:flow-root}
+.focus-symbol-strip .assignment-social small{max-width:165px;white-space:normal;line-height:1.25}
+@media(max-width:600px){body[data-page="index.html"] .orientation-competence-layout{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:599px){body[data-page="index.html"] .orientation-competence-list{grid-template-columns:minmax(0,1fr);grid-template-rows:auto}}
+body[data-mode="1"] .mode-badge{background:#333;color:white}body[data-mode="2"] .mode-badge{background:#E6E8EA;color:#333}body[data-mode="3"] .mode-badge{background:#EFF5CE;color:#333}body[data-mode="4"] .mode-badge{background:#E5F5FC;color:#333}body[data-mode="5"] .mode-badge{background:#CCEBF7;color:#333}
+
+/* Existing template footer controls use this shared monochrome icon class. */
 .footer-utils{flex-wrap:wrap;align-items:center}.footer-utils [data-document-pdf],.footer-utils [data-editor-link]{display:inline-flex;align-items:center;gap:6px}.footer-action-icon{width:20px;height:20px;flex:none;vertical-align:middle;color:#59636d}
