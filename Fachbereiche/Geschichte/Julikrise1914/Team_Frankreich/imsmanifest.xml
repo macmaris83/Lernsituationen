@@ -117,6 +117,6 @@
       <file href="progress-meta.js" />
       <file href="reflektieren.html" />
       <file href="scorm.html" />
-    </resource>
+    <file href="assets/revision185-core.js"/><file href="assets/package-completion.js"/><file href="assets/package-completion.css"/></resource>
   </resources>
 </manifest>

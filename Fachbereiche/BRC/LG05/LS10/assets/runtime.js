@@ -175,7 +175,7 @@ function compactMaterialAccess(){
   const heading=section.querySelector('h2');
   const links=section.querySelectorAll('.material-link');
   if(!heading||!links.length)return;
-  const details=document.createElement('details');details.className=section.className;details.open=true;
+  const details=document.createElement('details');details.className=section.className;details.open=false;
   const summary=document.createElement('summary');summary.textContent=heading.textContent;
   heading.remove();details.append(summary);
   while(section.firstChild)details.append(section.firstChild);

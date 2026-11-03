@@ -37,6 +37,14 @@ kann diesen Standard jederzeit ausdrücklich ändern.
 
 ## Gemeinsamer Versionsstand der Lernsituationsvorlagen
 
+Gemeinsamer Formstand ab 03.11.2026: **1.8.5** für alle registrierten
+Lernsituationen und beide Lernsituationsvorlagen. Neuere technische Paketkorrekturen
+wie Identität und Nation 1.8.8 bleiben erhalten. Vor Änderungen
+`node tools/test_form185.cjs` und nach Verhaltensänderungen die Browserintegration
+prüfen. Die jeweiligen Bewertungsbudgets und Inhaltskennungen bleiben maßgeblich;
+kein Fachbegriffscheck wird allein wegen des Formstands erfunden. Abschluss erst
+nach ausdrücklicher Aktion, bestätigtem Speichern und erfolgreichem LMSFinish melden.
+
 Wenn der Nutzer einen neuen Formstand bzw. eine neue GitHub-Version für Lernsituationen vorgibt, sind beide Lernsituationsvorlagen `Vorlagen/Lernsituation_tradiert` und `Vorlagen/Lernsituation_fuenf_Lernwege` auf diesen Stand zu bringen. Die Änderungen müssen tatsächlich in Gestaltung und Funktionen umgesetzt und geprüft werden; eine bloße Änderung der Versionsnummer reicht nicht. Katalog und aktuelle SCORM-Exporte anschließend passend aktualisieren. Lernsituationsspezifische Inhalte und bestehende Kennungen erhalten. Die eigenständige Lernpfadübung ist nicht automatisch umfasst.
 
 ## Getrennte Vorlagentypen
