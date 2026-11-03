@@ -3,7 +3,6 @@
  const P=window.SOZ_PROGRESS,K=window.SOZ_PROGRESS_CORE,M=window.SOZ_PROGRESS_META;
  if(!P||!K||!M||document.body.dataset.teacher||document.body.dataset.page==='druckansicht.html'||document.querySelector('[data-scorm-frame]'))return;
  let busy=false,notice='';
- const format=n=>Number(n||0).toLocaleString('de-DE',{maximumFractionDigits:2});
  const endPage=document.body.dataset.page==='reflektieren.html';
  function message(){
   if(notice)return notice;
@@ -30,19 +29,13 @@
   const p=P.read(),g=K.grading(p,M);
   window.SOZ_POINTS_UI?.render(g,true);
   const row=document.querySelector('[data-phase-points]');
-  if(row){
-   row.setAttribute('aria-label','XP und Punkte dieser Lernsituation');
-   let summary=row.querySelector('[data-package-score-summary]');
-   if(!summary){summary=document.createElement('div');summary.className='package-score-summary';summary.dataset.packageScoreSummary='';row.append(summary);}
-   const text='Aufgaben '+format(g.taskPoints)+'/25 · Handlungssituation '+format(g.situationPoints)+'/15 · Begriffscheck '+format(g.termPoints)+'/60';
-   if(summary.textContent!==text)summary.textContent=text;
-   let label=row.querySelector('[data-package-score-label]');
-   if(!label){label=document.createElement('strong');label.className='package-score-label';label.dataset.packageScoreLabel='';label.textContent='Deine XP';row.prepend(label);}
-   let status=row.querySelector('[data-package-completion-status]');
-   if(endPage||P.completed){
-    if(!status){status=document.createElement('p');status.className='package-completion-status';status.dataset.packageCompletionStatus='';status.setAttribute('role','status');status.setAttribute('aria-live','polite');row.append(status);}
-    const value=message();if(status.textContent!==value)status.textContent=value;
-   }
+  if(row)row.setAttribute('aria-label','XP und Punkte dieser Lernsituation');
+  // Completion guidance stays with the final action; the score remains above.
+  const footer=document.querySelector('.page-footer,.b-footer');
+  if(footer&&(endPage||P.completed)){
+   let status=footer.querySelector('[data-package-completion-status]');
+   if(!status){status=document.createElement('p');status.className='package-completion-status';status.dataset.packageCompletionStatus='';status.setAttribute('role','status');status.setAttribute('aria-live','polite');footer.prepend(status);}
+   const value=message();if(status.textContent!==value)status.textContent=value;
   }
   for(const button of document.querySelectorAll('[data-complete-package]')){
    button.disabled=busy||P.completed||P.readOnly||!K.allComplete(p,M);
@@ -54,8 +47,7 @@
  window.addEventListener('soz-progress',paint);
  window.addEventListener('focus',paint);
  const observer=new MutationObserver(()=>{
-  const footer=document.querySelector('.page-footer,.b-footer');
-  if(footer&&!footer.querySelector('[data-point-float]'))paint();
+  if(!document.querySelector('[data-point-float]')&&document.querySelector('.navigation,.b-phase-overview,.main'))paint();
  });
  observer.observe(document.body,{childList:true,subtree:true});
  paint();

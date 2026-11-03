@@ -1,4 +1,4 @@
-Identität und Nation · Version 1.8.6
+Identität und Nation · Version 1.8.7
 
 Moodle: Aktivität „Lernpaket (SCORM)“ anlegen und die SCORM-ZIP unverändert hochladen. SCORM 1.2; Startdatei scorm.html. Das Paket bleibt intern navigierbar und benötigt keine Moodle-Aktivitäts-IDs.
 
@@ -21,3 +21,5 @@ Version 1.8.6 ergänzt einen funktionierenden grünen Materialzugriff nach BRC-V
 Falsche geprüfte Antworten im Handlungssituationscheck zählen 0 XP und zeigen 0 XP; mögliche Punkte nach einer Korrektur sind keine bereits verdienten XP.
 
 Abschluss in 1.8.6: Das Paket wird in Moodle erst nach der ausdrücklichen Abschlussaktion als abgeschlossen gespeichert. Beim erneuten Öffnen bleibt der bestätigte Abschluss erkennbar. Speicher- oder Beendigungsfehler erlauben einen erneuten Versuch; bereits bestätigte Daten bleiben erhalten.
+
+Darstellung in 1.8.7: Orientierung ohne Zusatzkacheln und ohne Materialzugriff. Handlungssituation mit demselben Material-Akkordeon wie Informieren und klarer Text-/Antwortgliederung. XP wieder oben rechts, einschließlich Aufgabenfokus und Materialseiten. PDF/Editor und kleine Versionskennung bleiben unten.

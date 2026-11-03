@@ -1,2 +1,36 @@
 .identity-copy{overflow:auto}.identity-copy p,.identity-copy blockquote,.identity-copy dd{hyphens:auto}.identity-copy p{ text-align:justify }.identity-copy img{max-width:100%;height:auto}.identity-copy .story-photo{float:left;width:40%;max-width:360px;margin:0 22px 16px 0}.identity-copy h3{font-size:1rem;line-height:1.45}.identity-copy blockquote{margin:16px 0;padding:14px 18px;border-left:3px solid #009bd9;background:#f2f8fb}.material-glossary dt{font-weight:700;color:#173a63;margin-top:14px}.material-glossary dd{margin:4px 0 12px}.identity-video-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.identity-video-item h3{font-size:1rem;line-height:1.45;margin:10px 0}.identity-video-item:has(.learnvideo-panel:not([hidden])){grid-column:1/-1}.assignment-body .assignment-command+.assignment-command{margin-top:1em}@media(max-width:640px){.identity-copy .story-photo{float:none;width:100%;max-width:100%;margin:0 0 16px}.identity-video-grid{grid-template-columns:1fr}.identity-copy p{text-align:left}}@media print{.identity-videos{display:none!important}.identity-copy .story-photo{max-width:260px}}
 .identity-copy .story-photo img{width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
+
+/* The situation uses the same compact material chooser as the six task phases. */
+body[data-page="handlungssituation.html"] .lesson-content>.phase-materials{
+  background:linear-gradient(120deg,#ffffffef,#f3f8e7b8);
+  border:1px solid #dcebb0;border-radius:12px;padding:6px 12px;margin:12px 0;
+  box-shadow:inset 0 1px 0 #fff;
+}
+body[data-page="handlungssituation.html"] .lesson-content>.phase-materials .material-link{
+  background:#ffffffdb;border:1px solid #bce7fa;border-radius:13px;
+  box-shadow:inset 0 1px 0 #fff,0 3px 9px #23455b05;
+  padding:6px 9px;font-size:.82rem;line-height:1.4;gap:5px;
+  display:flex;align-items:baseline;min-width:0;min-height:32px;
+  flex:0 1 auto;max-width:100%;white-space:normal;overflow-wrap:anywhere;
+}
+body[data-page="handlungssituation.html"] .identity-situation-story h2,
+body[data-page="handlungssituation.html"] .identity-situation-location h2{
+  margin:0 0 12px;font-size:1.12rem;line-height:1.4;
+}
+body[data-page="handlungssituation.html"] .identity-situation-story p,
+body[data-page="handlungssituation.html"] .identity-situation-location p{
+  margin:0 0 16px;line-height:1.65;
+}
+.identity-situation-role{margin:22px 0}
+.identity-situation-role .eyebrow,.identity-situation-location .eyebrow{margin-bottom:6px}
+.identity-situation-scene{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:22px;align-items:start}
+.identity-copy .identity-situation-scene .story-photo{float:none;width:100%;max-width:none;margin:0}
+.identity-copy .identity-situation-scene blockquote{margin:0;padding:16px 18px}
+body[data-page="handlungssituation.html"] .identity-situation-scene blockquote p{margin:0;text-align:left}
+.identity-situation-order{margin-top:22px;padding-top:20px;border-top:1px solid #dcebf1}
+body[data-page="handlungssituation.html"] .identity-situation-order h3{font-size:1.08rem;margin:0 0 12px}
+body[data-page="handlungssituation.html"] .identity-situation-order p:last-child,
+body[data-page="handlungssituation.html"] .identity-situation-location p:last-child{margin-bottom:0}
+@media(max-width:640px){.identity-situation-scene{grid-template-columns:minmax(0,1fr);gap:16px}}
+@media print{.identity-situation-scene{break-inside:avoid}.identity-copy .identity-situation-scene .story-photo{max-width:none}}

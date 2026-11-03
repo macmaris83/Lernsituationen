@@ -1,9 +1,9 @@
 {
-  "version": "1.8.6",
+  "version": "1.8.7",
   "title": "Identität und Nation",
   "updated": "2026-11-03",
-  "revision": "IDN-186",
-  "changes": "Bereinigte Orientierung, Aufgaben nur mit Arbeitsform, laufende XP-Anzeige und ausdrücklich bestätigter Paketabschluss. Moodle übernimmt den gespeicherten Abschluss beim Wiederöffnen; automatisches Speichern beendet das Paket erst nach der Abschlussaktion. Bestehende Lernstände bleiben erhalten.",
+  "revision": "IDN-187",
+  "changes": "Orientierung ohne Zusatzkacheln und ohne Materialzugriff. Handlungssituation mit einheitlichem Material-Akkordeon, klarer Textgliederung und formatierten Antwortzeilen. XP wieder oben rechts, auch im Aufgabenfokus und auf Materialseiten. Bestehende Lernstände und Paketabschluss bleiben erhalten.",
   "taskPolicy": {
     "preferred": 2,
     "normal_maximum": 3,

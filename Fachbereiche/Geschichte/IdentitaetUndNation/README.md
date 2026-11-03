@@ -1,4 +1,4 @@
-# Identität und Nation · Version 1.8.6
+# Identität und Nation · Version 1.8.7
 
 Der fortlaufende SCORM-1.2-Master dieser Lernsituation liegt in `Lernpaket/`.
 Die Jugendredaktion „Zeitstimmen“ entwickelt einen Podcast zu Identität, Nation
@@ -6,7 +6,7 @@ und Zugehörigkeit. Die sechs Aufgabenphasen enthalten jeweils zwei Aufgaben;
 Materialien M1–M6 unterstützen die fachliche Arbeit.
 
 Die aktuelle Schüler-ZIP wird über den Master-Katalog erzeugt:
-`Downloads/GESCHICHTE-IDN/Identitaet_und_Nation_v1.8.6_SCORM12.zip`.
+`Downloads/GESCHICHTE-IDN/Identitaet_und_Nation_v1.8.7_SCORM12.zip`.
 Sie wird als eigene SCORM-Aktivität in Moodle importiert. Bereits hochgeladene
 Moodle-Kopien werden durch GitHub-Änderungen nicht automatisch ersetzt.
 
@@ -26,7 +26,7 @@ Aufgabennummer, GoodNotes und Arbeitsform; die Arbeitsform bleibt im Editor
 bearbeitbar. Die Kennzeichnungen Theorie, Praxistheorie und Praxis entfallen.
 Der grüne Materialzugriff verwendet die kompakte BRC-Struktur.
 
-Der Footer zeigt den laufenden XP-/Punktestand dieser Lernsituation als absolute
+Die Anzeige oben rechts zeigt den laufenden XP-/Punktestand dieser Lernsituation als absolute
 Summe von 0 bis 100: Aufgaben 25, Handlungssituationscheck 15 und Begriffscheck 60
 Punkte. Die Anzeige wird aus dem gespeicherten Fortschritt berechnet; sie addiert
 beim Wiederöffnen oder wiederholten Abschluss keine weiteren Punkte. „XP“
@@ -46,3 +46,9 @@ bleibt eine absolute Summe.
 ## Abschluss in 1.8.6
 
 Automatisches Speichern hält den Moodle-Versuch bis zur ausdrücklichen Abschlussaktion offen. Ein in Moodle bestätigter Abschluss wird beim erneuten Öffnen übernommen, sofern der aktuelle Lernstand vollständig ist. Fehlgeschlagene Speicher- oder Beendigungsvorgänge bleiben wiederholbar. Aufgaben-, Kompetenz- und Speicherkennungen sowie die XP-Berechnung bleiben erhalten.
+
+## Darstellung in 1.8.7
+
+Die Orientierung führt von der heutigen Relevanz unmittelbar zum Kompetenzprofil. Die drei zusätzlichen Themenkacheln entfallen; hier gibt es keinen Materialzugriff. Die Handlungssituation erhält dasselbe kompakte grüne Material-Akkordeon wie die sechs Aufgabenphasen. Redaktionstext, Bild, Auftrag und Wissenscheck sind klar gegliedert.
+
+Die XP-Anzeige steht wieder oben rechts und bleibt im Aufgabenfokus sowie auf Materialseiten sichtbar. PDF und Editor bleiben gemeinsam in einer Zeile mit der kleineren Paketversion darunter. Bewertung, Aufgaben- und Speicherkennungen sowie Paketabschluss sind unverändert.
