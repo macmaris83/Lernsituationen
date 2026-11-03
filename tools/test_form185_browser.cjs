@@ -24,6 +24,9 @@ const server=http.createServer((req,res)=>{
    assert.equal(await page.locator('[data-share-workbook]').count(),0,item.id+': no orientation workbook');
    assert.equal(await page.locator('.lesson-content .material-access').count(),0,item.id+': no orientation materials');
    assert.equal(await page.locator('[data-package-version]').first().innerText(),'Version '+item.version,item.id);
+   assert.equal(await page.evaluate(()=>SOZ_CONFIG.formVersion),'1.8.8',item.id+': common form');
+   assert.equal(await page.locator('.page-footer [data-phase-points],.b-footer [data-phase-points]').count(),0,item.id+': compact XP above the lesson');
+   assert.equal(await page.locator('[data-package-score-summary],[data-package-score-label]').count(),0,item.id+': no duplicate XP summary');
    if(await page.locator('[data-video-skip]').count()){await page.locator('[data-video-skip]').click();await page.goto(base+'index.html');await page.waitForFunction(()=>window.SOZ_READY===true);}
    await page.locator('[data-orientation-complete]').check();
    await page.reload();await page.waitForFunction(()=>window.SOZ_READY===true);
@@ -49,6 +52,15 @@ const server=http.createServer((req,res)=>{
    await task.locator('.task-original-preview').click();
    assert.equal(await page.locator('body').evaluate(e=>e.classList.contains('task-focus')),true,item.id+': focus');
    assert.equal(await page.locator('[data-phase-points]').isVisible(),true,item.id+': XP in focus');
+   assert.equal(await page.locator('.task-focus-panel>[data-phase-points]').count(),1,item.id+': common XP placement');
+   for(const width of [390,1024]){
+    await page.setViewportSize({width,height:844});
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),true,item.id+': task focus overflow '+width);
+   }
+   if(['BRC-LG01-LS01','VORLAGE-TRADIERT','GESCHICHTE-IDN'].includes(item.id)){
+    await page.evaluate(()=>Promise.all(document.getAnimations().filter(a=>a.effect?.getTiming().iterations!==Infinity).map(a=>a.finished.catch(()=>{}))));
+    await page.screenshot({path:path.join(output,item.id+'-focus.png'),fullPage:true,animations:'disabled'});
+   }
    if(item.id!=='VORLAGE-TRADIERT')assert.equal(await page.locator('.task-focus-panel .assignment-kind:visible').count(),0,item.id+': no theory/practice');
    // Material menu opens on the same page and returns to the exact task.
    const materials=page.locator('.lesson-content details.material-access');

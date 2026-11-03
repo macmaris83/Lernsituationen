@@ -169,6 +169,10 @@ def write_index(root, data, entries, master_hashes=None):
 
 
 def export(root, selected=None):
+    # Only presentation assets are synchronized; lesson generators never run here.
+    if (root / 'Formmaster/manifest.json').exists():
+        import form_master
+        form_master.sync(root)
     data = catalog(root)
     previous = {item['id']: item for item in read_index(root)['packages']}
     entries = dict(previous)
@@ -207,6 +211,9 @@ def export(root, selected=None):
             if not archive_matches(stage, hashes):
                 raise ValueError(f'{item["id"]}: Exportprüfung fehlgeschlagen')
             entries[item['id']] = {key: item[key] for key in ('id', 'title', 'bereich', 'typ', 'master', 'version')}
+            if 'formVersion' in item:
+                entries[item['id']]['formVersion'] = item['formVersion']
+                entries[item['id']]['formSourceSha256'] = item['formSourceSha256']
             entries[item['id']].update(archive=relative, masterSha256=master_hash,
                                        archiveSha256=digest(stage.read_bytes()), files=len(files))
             staged.append((item, stage, target))
@@ -222,6 +229,9 @@ def export(root, selected=None):
 
 
 def check(root, archives=False):
+    if (root / 'Formmaster/manifest.json').exists():
+        import form_master
+        form_master.check(root)
     data = catalog(root)
     index = {item['id']: item for item in read_index(root)['packages']}
     for item in data['packages']:

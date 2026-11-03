@@ -16,12 +16,19 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  browser:
+    uses: ./.github/workflows/form185.yml
   check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Gemeinsamen Formmaster auf alle Lernsituationen anwenden
+        run: python3 tools/form_master.py sync
       - name: Exportwerkzeug prüfen
-        run: python3 -m unittest discover -s tools -p 'test_master.py'
+        run: |
+          python3 -m unittest discover -s tools -p 'test_master.py'
+          python3 -m unittest discover -s tools -p 'test_form_master.py'
+          python3 tools/form_master.py check
       - name: Abschluss und Wiederaufnahme in Geschichte prüfen
         run: node tools/test_idn_completion.cjs
       - name: Abschluss aller Lernsituationsvarianten prüfen
@@ -31,27 +38,32 @@ jobs:
 
   update-current:
     if: github.event_name != 'pull_request' && startsWith(github.ref, 'refs/heads/')
-    needs: check
+    needs: [check, browser]
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
+          ref: ${{ github.sha }}
       - name: Tatsächlich ausgecheckten Stand prüfen
-        run: python3 -m unittest discover -s tools -p 'test_master.py'
+        run: |
+          python3 tools/form_master.py sync
+          python3 -m unittest discover -s tools -p 'test_master.py'
+          python3 -m unittest discover -s tools -p 'test_form_master.py'
+          node tools/test_form185.cjs
+          python3 tools/form_master.py check
       - name: Aktuelle Einzelpakete erzeugen
         run: python3 tools/master.py export --all
       - name: Paketinhalt und Prüfsummen prüfen
         run: python3 tools/master.py check --archives
       - name: Aktuelle Downloads übernehmen
         run: |
-          git add Downloads
+          git add Downloads Fachbereiche Vorlagen master-katalog.json
           if git diff --cached --quiet; then
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'Aktuelle SCORM-Exporte aus den gepflegten Mastern übernehmen'
+          git commit -m 'Gemeinsamen Formmaster und aktuelle SCORM-Exporte übernehmen'
           git push origin "HEAD:${GITHUB_REF_NAME}"

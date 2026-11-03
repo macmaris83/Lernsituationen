@@ -1,0 +1,30 @@
+
+@page {size:A4;margin:15mm 14mm 16mm}
+@media print {
+ body {font-family:Inter,Arial,sans-serif;font-size:10pt;line-height:1.45;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ .brand-header {background:#2aa7d7!important;border-bottom:4px solid #afca0b!important;padding:10px 18px!important;border-radius:8px;margin:0 0 16px;break-inside:avoid}
+ .brand-header img {width:155px!important;height:43px!important;margin-left:auto}
+ .print-chapter {break-before:page;margin:0;padding-top:4mm}
+ .print-chapter:first-child {break-before:auto}
+ .print-heading {font-size:10pt;font-weight:700;padding:4mm 0;margin-bottom:4mm;border-bottom:2px solid #afca0b;break-after:avoid}
+ .print-chapter .hero {background:linear-gradient(120deg,#fff,#eaf7fd)!important;border:1px solid #dcebf1!important;border-radius:14px!important;padding:14px!important;break-inside:avoid}
+ .print-chapter .card {background:linear-gradient(140deg,#fff,#f4fafc);border:1px solid #dcebf1;border-radius:12px;padding:12px;margin:12px 0;break-inside:auto}
+ .print-chapter .task-card {border:0;background:none;padding:0;margin:0;break-inside:auto}
+ .print-chapter .assignment-frame {break-inside:avoid;page-break-inside:avoid;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+ .print-chapter .assignment-body {font-size:9.5pt;line-height:1.5}
+ .print-chapter h1 {font-size:23pt}.print-chapter h2{font-size:14pt;break-after:avoid}.print-chapter h3,.print-chapter h4{break-after:avoid}
+ p,li {orphans:3;widows:3}
+ .image-slot {display:block!important;break-inside:avoid;max-width:100%;margin:12px 0}
+ .image-slot img {display:block;max-height:70mm!important;width:100%;object-fit:contain}
+ .image-slot.placeholder,.image-slot:has(.placeholder) {display:none!important}
+ .weight-radar {break-inside:avoid}.weight-radar svg{max-height:75mm}
+ table{width:100%;font-size:9pt;table-layout:auto}thead{display:table-header-group}tr{break-inside:avoid}th,td{padding:7px;overflow-wrap:anywhere}
+ .table-scroll {overflow:visible!important}
+ .phase-materials {position:static!important;break-inside:avoid;backdrop-filter:none!important;padding:10px!important}
+ .phase-meta {break-inside:avoid}
+ .situation-quiz button,.situation-quiz .quiz-controls,[data-situation-quiz] button {display:none!important}
+ [data-situation-quiz] script {display:none}
+ .material-document {overflow:visible!important;break-inside:auto}
+ .task-completion {display:none!important}
+ .print-only{display:block}
+}

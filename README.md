@@ -19,10 +19,12 @@ Frühere Fassungen bleiben in der Git-Historie nachvollziehbar.
 ## Mit Codex weiterarbeiten
 
 Alle 20 vorhandenen Lernsituationen und beide Lernsituationsvorlagen verwenden
-mindestens den gemeinsamen Formstand **1.8.5**. „Identität und Nation“ behält
-die bereits neuere Paketversion **1.8.8** mit der Abschluss-Wiederaufnahme.
-Materialzugriff, laufende XP im Footer und der ausdrücklich bestätigte Paketabschluss
-stehen in allen Varianten bereit. Bestehende Aufgaben, Speicherkennungen und
+den gemeinsamen **[Formmaster 1.8.8](Formmaster/README.md)**, abgeleitet aus
+„Identität und Nation“ 1.8.8. Gestaltungsänderungen werden dort einmal gepflegt und
+beim Export sowie durch GitHub Actions automatisch in alle Lernsituationen übernommen.
+Die Paketversionen sind davon unabhängig und stehen im [Downloadkatalog](Downloads/README.md).
+Materialzugriff, kompakte XP oben rechts und im Aufgabenfokus sowie der ausdrücklich
+bestätigte Paketabschluss stehen in allen Varianten bereit. Bestehende Aufgaben, Speicherkennungen und
 Bewertungsbudgets bleiben erhalten. Pakete ohne eigenen Fachbegriffscheck zeigen
 die vorhandenen 25 Aufgaben- und 15 Handlungssituations-XP, ohne zusätzliche
 Begriffsaufgaben oder erfundene Punkte einzuführen.

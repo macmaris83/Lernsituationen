@@ -1,0 +1,2 @@
+/* Existing template footer controls use this shared monochrome icon class. */
+.footer-utils{flex-wrap:wrap;align-items:center}.footer-utils [data-document-pdf],.footer-utils [data-editor-link]{display:inline-flex;align-items:center;gap:6px}.footer-action-icon{width:20px;height:20px;flex:none;vertical-align:middle;color:#59636d}

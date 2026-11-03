@@ -74,7 +74,7 @@ window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,s
 })();
 
 /* Metallic point UI from supplied reference. */
-
+/* Shared form 1.8.8 presentation; scoring and persistent progress remain package-owned. */
 (() => {
   'use strict';
   const format = n => Number(n || 0).toLocaleString('de-DE', {maximumFractionDigits: 2});
@@ -140,18 +140,18 @@ window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,s
   function render(grade, animate = true) {
     const el = mount();
     if (!el) return;
-    const points = Math.max(0, Math.min(100, Number(grade.points) || 0));
+    const maximum=grade.maxPoints||100;const points = Math.max(0, Math.min(maximum, Number(grade.points) || 0));
     const last = el.dataset.points === undefined ? null : Number(el.dataset.points);
     const track = el.querySelector('.points-battery');
     el.dataset.points = String(points);
-    el.dataset.tier = tier(points);
-    track.setAttribute('aria-valuenow', String(points));
-    track.setAttribute('aria-valuetext', format(points) + ' von 100 XP; ' + tierName(points));
-    el.querySelector('.points-battery-fill').style.width = points + '%';
-    el.querySelector('.points-battery-label').textContent = format(points) + ' / 100 XP';
-    el.title = 'SCORM: ' + format(grade.taskPoints) + '/25 Bearbeitung · ' + format(grade.situationPoints) + '/15 Handlungssituation · ' + format(grade.termPoints) + '/60 Fachbegriffe. Bronze ab 50, Silber ab 75, Gold ab 90 Punkten. Abgabe und Partnerfeedback werden gesondert in Moodle nachgewiesen.';
+    el.dataset.tier = tier(points/maximum*100);
+    track.setAttribute('aria-valuemax',String(maximum));track.setAttribute('aria-valuenow', String(points));
+    track.setAttribute('aria-valuetext', format(points) + ' von '+maximum+' XP; ' + tierName(points/maximum*100));
+    el.querySelector('.points-battery-fill').style.width = (points/maximum*100) + '%';
+    el.querySelector('.points-battery-label').textContent = format(points) + ' / '+maximum+' XP';
+    el.title = 'XP aus dem gespeicherten Lernstand: '+format(points)+' / '+maximum;
     if (animate && last !== null && points > last) {
-      el.querySelector('.points-live').textContent = '+' + format(points - last) + ' XP. Jetzt ' + format(points) + ' von 100 XP.';
+      el.querySelector('.points-live').textContent = '+' + format(points - last) + ' XP. Jetzt ' + format(points) + ' von '+maximum+' XP.';
       if (!reduced() && el.animate) el.animate([{transform:'scale(1)'},{transform:'scale(1.04)'},{transform:'scale(1)'}], {duration:420});
     }
   }
