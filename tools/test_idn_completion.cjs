@@ -4,7 +4,7 @@ const path = require('node:path');
 const vm = require('node:vm');
 const zlib = require('node:zlib');
 
-const root = path.resolve(__dirname, '../Fachbereiche/Geschichte/IdentitaetUndNation/Lernpaket');
+const root = process.env.LS_TEST_MASTER ? path.resolve(__dirname, '..', process.env.LS_TEST_MASTER) : path.resolve(__dirname, '../Fachbereiche/Geschichte/IdentitaetUndNation/Lernpaket');
 const source = file => fs.readFileSync(path.join(root, file), 'utf8');
 
 function session(data = {}, faults = {}) {
@@ -17,7 +17,7 @@ function session(data = {}, faults = {}) {
     btoa: text => Buffer.from(text, 'binary').toString('base64'),
     atob: text => Buffer.from(text, 'base64').toString('binary'),
     location: {pathname: '/lesson/scorm.html'},
-    document: {querySelector: () => null, addEventListener() {}},
+    document: {body:{dataset:{},classList:{contains:()=>false}},querySelector: () => null, addEventListener() {}},
     localStorage: {getItem: () => null, setItem() {}, removeItem() {}},
     addEventListener(name, handler) {listeners[name] = handler;},
     pako: {
@@ -48,6 +48,9 @@ function session(data = {}, faults = {}) {
   vm.createContext(context);
   vm.runInContext(source('assets/progress-core.js'), context);
   vm.runInContext(source('progress-meta.js'), context);
+  for (const name of ['reference-score-core.js', 'fachbegriffscheck-preserve.js', 'revision185-core.js', 'scorm-diagnostics.js']) {
+    if (fs.existsSync(path.join(root, 'assets', name))) vm.runInContext(source('assets/' + name), context);
+  }
   context.SOZPAED = {id: context.SOZ_PROGRESS_META.id};
   context.SOZ_CONFIG = {mode: 1};
   vm.runInContext(source('assets/scorm-codec.js'), context);
@@ -61,9 +64,10 @@ function fullState(s) {
   p.o = true;
   for (const id of Object.keys(M.tasks)) K.setTask(p, M, id, true);
   for (const q of M.quiz) {p.q[q.id] = [q.correct, true]; p.qf[q.id] = true;}
-  p.fc = {schema: 1, version: 3, id: M.id, signature: M.flashcard.signature, complete: true, started: true, known: 18, total: 18, pending: 0, data: {state: {results: Array.from({length: 18}, () => ({latest: {correct: true}}))}}};
+  if (M.flashcard) p.fc = {schema: 1, version: 3, id: M.id, signature: M.flashcard.signature, complete: true, started: true, known: M.flashcard.terms, total: M.flashcard.terms, pending: 0, data: {state: {results: Array.from({length: M.flashcard.terms}, () => ({latest: {correct: true}}))}}};
+  if (M.orientationVideo) p.ov = {signature:M.orientationVideo.signature,duration:100,ranges:[[0,100]],answers:Object.fromEntries(M.orientationVideo.questions.map(q=>[q.id,q.correct])),attempts:{},ended:true,complete:true};
   assert.equal(K.allComplete(p, M), true);
-  assert.equal(K.grading(p, M).points, 100);
+  assert.equal(K.grading(p, M).points, M.flashcard ? 100 : 40);
   return p;
 }
 
@@ -135,7 +139,7 @@ assert.equal(finishCase.stored['cmi.core.exit'], '');
 assert.equal(finishCase.bridge.complete(), true);
 assert.equal(finishCase.bridge.completed, true);
 assert.equal(finishCase.calls.finish, 2);
-assert.equal(finishCase.context.SOZ_PROGRESS_CORE.grading(finishCase.bridge.read(), finishCase.context.SOZ_PROGRESS_META).points, 100);
+assert.equal(finishCase.context.SOZ_PROGRESS_CORE.grading(finishCase.bridge.read(), finishCase.context.SOZ_PROGRESS_META).points, finishCase.context.SOZ_PROGRESS_META.flashcard ? 100 : 40);
 
 // Reload can also recover the successful final commit after a finish failure.
 const recovered = session(finishCase.stored);

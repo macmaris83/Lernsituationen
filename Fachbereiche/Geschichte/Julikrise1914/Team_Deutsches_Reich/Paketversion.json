@@ -1,10 +1,11 @@
 {
   "title": "Vom Mythos zum Krieg",
-  "version": "1.8.3",
+  "version": "1.8.5",
   "country": "Deutsches Reich",
   "format": "SCORM 1.2",
   "reference": "BRC_LG01_LS04_v1.8_SCORM12.zip",
-  "updated": "2026-11-02",
-  "changes": "Kompakte Lernvideo-Vorschau mit verzögertem Playerstart, historische Flaggen bei den Länderrollen und kleine dynamische Paketversion unter der gemeinsamen PDF-/Editor-Zeile. Aktuelle offene Aufgaben und separate Presse mit mindestens zwei Ausgaben.",
-  "revision": "interactive-video-20261102"
+  "updated": "2026-11-03",
+  "changes": "Gemeinsamer Formstand: kompakte Orientierung, Materialzugriff, XP im Footer, ausdrücklicher speicherbestätigter Abschluss und Wiederaufnahme. Aufgaben, Kennungen, Lernstände und vorhandene Bewertungslogik erhalten.",
+  "revision": "interactive-video-20261102",
+  "formVersion": "1.8.5"
 }

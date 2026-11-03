@@ -24,6 +24,8 @@ jobs:
         run: python3 -m unittest discover -s tools -p 'test_master.py'
       - name: Abschluss und Wiederaufnahme in Geschichte prüfen
         run: node tools/test_idn_completion.cjs
+      - name: Abschluss aller Lernsituationsvarianten prüfen
+        run: node tools/test_form185.cjs
       - name: Master und Manifest-Dateien prüfen
         run: python3 tools/master.py check
 

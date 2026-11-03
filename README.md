@@ -12,11 +12,23 @@ Frühere Fassungen bleiben in der Git-Historie nachvollziehbar.
 | BRC · BioCasa LG01 | [Sechs Lernsituationen](Fachbereiche/BRC/LG01/) |
 | Sozialpädagogik | [30 Lernpfadübungen](Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/) |
 | ReNo | [Bereich für künftige Lernsituationen](Fachbereiche/ReNo/) |
-| Geschichte | [Bereich für künftige Lernsituationen](Fachbereiche/Geschichte/) |
+| Geschichte | [Identität und Nation sowie sechs Julikrise-Rollenpakete](Fachbereiche/Geschichte/) |
 | Gemeinsame Vorlagen | [Tradiert](Vorlagen/Lernsituation_tradiert/) · [Fünf Lernwege](Vorlagen/Lernsituation_fuenf_Lernwege/) · [Lernpfadübung](Vorlagen/Lernpfaduebung/) |
 | Materialoberflächen | [Materialvorlagen](Materialvorlagen/) |
 
 ## Mit Codex weiterarbeiten
+
+Alle 20 vorhandenen Lernsituationen und beide Lernsituationsvorlagen verwenden
+mindestens den gemeinsamen Formstand **1.8.5**. „Identität und Nation“ behält
+die bereits neuere Paketversion **1.8.8** mit der Abschluss-Wiederaufnahme.
+Materialzugriff, laufende XP im Footer und der ausdrücklich bestätigte Paketabschluss
+stehen in allen Varianten bereit. Bestehende Aufgaben, Speicherkennungen und
+Bewertungsbudgets bleiben erhalten. Pakete ohne eigenen Fachbegriffscheck zeigen
+die vorhandenen 25 Aufgaben- und 15 Handlungssituations-XP, ohne zusätzliche
+Begriffsaufgaben oder erfundene Punkte einzuführen.
+
+Die eigenständigen Lernpfadübungen und BioCasa OS führen ihre eigenen Versionen.
+ReNo enthält bislang keinen registrierten Lernsituationsmaster.
 
 1. Den aktuellen Stand von `main` holen. In einem sauberen Checkout: `git pull --ff-only`.
    Lokale Änderungen zuerst erhalten und abstimmen; niemals durch Reset verwerfen.

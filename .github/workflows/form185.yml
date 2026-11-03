@@ -1,0 +1,31 @@
+name: Lernsituationen Formstand 1.8.5
+on:
+  push:
+    paths-ignore: ['Downloads/**']
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Abschluss, Fehlerfälle und Wiederaufnahme aller Lernsituationen
+        run: node tools/test_form185.cjs
+      - name: Browser-Testwerkzeug bereitstellen
+        run: |
+          npm install --prefix /tmp/form185-tests playwright@1.56.1
+          /tmp/form185-tests/node_modules/.bin/playwright install --with-deps chromium
+      - name: Orientierung, Aufgabenfokus, Materialrücksprung und Abschluss prüfen
+        env:
+          NODE_PATH: /tmp/form185-tests/node_modules
+        run: node tools/test_form185_browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: form185-browser
+          path: test-results/form185

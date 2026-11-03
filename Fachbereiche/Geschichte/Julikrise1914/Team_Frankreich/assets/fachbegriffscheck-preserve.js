@@ -5,6 +5,7 @@
     if (!K || !M) throw new Error('Flashcard-Hook muss nach Fortschrittskern und Metadaten geladen werden.');
     if (typeof testFileName === 'string' && /^[A-Za-z0-9_.-]+\.html$/.test(testFileName) && Array.isArray(M.resumePages) && !M.resumePages.includes(testFileName)) M.resumePages.push(testFileName);
     if (w[marker]?.id === M.id && w[marker]?.schema === 1) return;
+    testSignature = M.flashcard?.signature || testSignature;
     const originalSanitize = K.sanitize, originalAllComplete = K.allComplete;
     const valid = fc => !!fc && fc.schema === 1 && fc.id === M.id && fc.version === 3 && typeof fc.signature === 'string' && fc.data !== undefined;
     K.sanitize = function(raw, meta, mode) {

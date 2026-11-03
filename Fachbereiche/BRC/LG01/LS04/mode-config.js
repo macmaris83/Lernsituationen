@@ -1,1 +1,1 @@
-window.SOZ_CONFIG={"mode": 1, "allowStudentMode": false, "moodle": {}, "media": {}, "overrides": {}, "packageRevision": "BRC-LG01-LS04-BILDER-GRUPPEN-20261014", "pinHash": 1509442};
+window.SOZ_CONFIG={"mode":1,"allowStudentMode":false,"moodle":{},"media":{},"overrides":{},"packageRevision":"BRC-LG01-LS04-BILDER-GRUPPEN-20261014","pinHash":1509442,"packageVersion":"1.8.5","formVersion":"1.8.5"};

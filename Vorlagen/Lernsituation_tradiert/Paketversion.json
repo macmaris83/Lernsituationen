@@ -1,6 +1,7 @@
 {
-  "version": "1.8.3",
+  "version": "1.8.5",
   "format": "SCORM 1.2",
-  "updated": "2026-11-02",
-  "changes": "Kompakte wiederverwendbare Lernvideo-Vorschau, Player erst nach Klick und Version unter den Footeroptionen."
+  "updated": "2026-11-03",
+  "changes": "Gemeinsamer Formstand: kompakte Orientierung, Materialzugriff, XP im Footer, ausdrücklicher speicherbestätigter Abschluss und Wiederaufnahme. Aufgaben, Kennungen, Lernstände und vorhandene Bewertungslogik erhalten.",
+  "formVersion": "1.8.5"
 }
