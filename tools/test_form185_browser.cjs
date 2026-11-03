@@ -62,7 +62,7 @@ const server=http.createServer((req,res)=>{
     }
    }
    await page.locator('.task-focus-panel [data-task-complete]').check();
-   assert.equal(await page.locator('.focus-next').isEnabled(),true,item.id+': manual next');
+   assert.equal(await page.locator('.focus-next:visible').isEnabled(),true,item.id+': manual next');
    await page.goto(base+'reflektieren.html');await page.waitForFunction(()=>window.SOZ_READY===true);
    const complete=page.locator('[data-complete-package]');
    assert.equal(await complete.isEnabled(),true,item.id+': complete enabled');
