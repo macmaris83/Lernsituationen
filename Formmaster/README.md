@@ -116,3 +116,10 @@ GitHub. Bereits in Moodle importierte Pakete ändern sich dadurch noch nicht.
 Die spätere Moodle-Anbindung muss die neuen Pakete übernehmen; sie ist kein
 Bestandteil dieses Schritts. Die ZIPs enthalten weiterhin die benötigten lokalen
 Dateien und setzen keinen extern geladenen CSS-Dienst voraus.
+
+## Kompakte Phasenübersicht
+
+Die Überschrift „Phasenübersicht“ und die Akkuanzeige teilen sich die oberste
+Zeile der Navigation. Die acht Stationen folgen unmittelbar darunter. Auf schmalen
+Displays verkleinert sich nur die Akkuanzeige innerhalb dieser Kopfzeile; die
+Beschriftungen und die vorhandene Phasennavigation bleiben lesbar.
