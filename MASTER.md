@@ -107,3 +107,11 @@ Der gemeinsame **Formstand 1.8.8** ist von der jeweiligen **Paketversion** getre
 Paketnummern steigen bei einer neuen Fassung automatisch, ohne Lernstände oder
 `packageRevision` zurückzusetzen. Lernpfadübungen und BioCasa OS behalten ihre
 eigenen Vorlagentypen. Moodle-Anbindung und Aktualisierung dort sind ein späterer Schritt.
+
+Auch die Bedienkomponente für Aufgabenfokus, Uhr/Gong und manuelles Weiter wird
+zentral aus `Formmaster/assets/task-focus.js` übernommen. Der restliche Runtime-
+und Speicher-/Fachcode bleibt erhalten. Die Auswahl ist fachbereichsunabhängig,
+also einschließlich ReNo und BFS dual, sobald deren tatsächliche LS-Master im
+Repository stehen und registriert sind. `python tools/form_master.py inventory`
+zeigt den realen Bestand und damit auch noch fehlende Fachbereiche. Neue
+entpackte, unregistrierte LS werden beim Synchronisieren als Fehler gemeldet.

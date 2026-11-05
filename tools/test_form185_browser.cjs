@@ -51,6 +51,20 @@ const server=http.createServer((req,res)=>{
    const task=page.locator('[data-mode-panel="1"] .assignment-frame').first();
    await task.locator('.task-original-preview').click();
    assert.equal(await page.locator('body').evaluate(e=>e.classList.contains('task-focus')),true,item.id+': focus');
+   const clock=page.locator('.task-focus-panel .focus-countdown');
+   assert.equal(await clock.count(),1,item.id+': shared task clock');
+   assert.equal(await clock.getAttribute('role'),'timer',item.id+': accessible clock');
+   assert.equal(await page.locator('.task-focus-panel [aria-label="Signalton bei Zeitablauf"]').count(),1,item.id+': gong control');
+   const startedClock=await clock.innerText();
+   await page.waitForFunction(previous=>document.querySelector('.task-focus-panel .focus-countdown')?.textContent!==previous,startedClock);
+   await page.locator('.task-focus-panel .focus-timer-row button').click();
+   assert.equal(await page.locator('.task-focus-panel .focus-timer-row button').innerText(),'Fortsetzen',item.id+': paused clock');
+   const pausedClock=await clock.innerText();
+   await page.locator('.focus-back-actions button').click();
+   await task.locator('.task-original-preview').click();
+   const asSeconds=value=>value.split(':').map(Number).reduce((minutes,seconds)=>minutes*60+seconds);
+   const reopenedClock=asSeconds(await clock.innerText()),pausedSeconds=asSeconds(pausedClock);
+   assert.ok(reopenedClock<=pausedSeconds&&reopenedClock>=pausedSeconds-2,item.id+': retained clock in same task');
    assert.equal(await page.locator('[data-phase-points]').isVisible(),true,item.id+': XP in focus');
    assert.equal(await page.locator('.task-focus-panel>[data-phase-points]').count(),1,item.id+': common XP placement');
    for(const width of [390,1024]){
