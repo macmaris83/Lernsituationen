@@ -61,7 +61,15 @@ const server=http.createServer((req,res)=>{
    await task.locator('.task-original-preview').click();
    assert.equal(await page.locator('body').evaluate(e=>e.classList.contains('task-focus')),true,item.id+': focus');
    const clock=task.locator('.task-focus-panel .focus-countdown');
-   assert.equal(await clock.count(),1,item.id+': shared task clock');
+   const hasTaskTime=await page.evaluate(id=>{
+    const markup=SOZ_API.getSettings().overrides?.[document.body.dataset.page]||SOZPAED.pages[document.body.dataset.page];
+    const source=new DOMParser().parseFromString(markup,'text/html');
+    const original=[...source.querySelectorAll('.assignment-frame')].find(e=>e.dataset.taskId===id);
+    if(!original)throw Error('Original task missing: '+id);
+    return /(\d+(?:[.,]\d+)?)\s*Min/i.test(original.querySelector('.assignment-time')?.textContent||'');
+   },await task.getAttribute('data-task-id'));
+   assert.equal(await clock.count(),hasTaskTime?1:0,item.id+': clock uses original task time only');
+   if(hasTaskTime){
    assert.equal(await clock.getAttribute('role'),'timer',item.id+': accessible clock');
    assert.equal(await task.locator('.task-focus-panel [aria-label="Signalton bei Zeitablauf"]').count(),1,item.id+': gong control');
    const startedClock=await clock.innerText();
@@ -74,6 +82,7 @@ const server=http.createServer((req,res)=>{
    const asSeconds=value=>value.split(':').map(Number).reduce((minutes,seconds)=>minutes*60+seconds);
    const reopenedClock=asSeconds(await clock.innerText()),pausedSeconds=asSeconds(pausedClock);
    assert.ok(reopenedClock<=pausedSeconds&&reopenedClock>=pausedSeconds-2,item.id+': retained clock in same task');
+   }
    assert.equal(await page.locator('[data-phase-points]').isVisible(),true,item.id+': XP in focus');
    assert.equal(await page.locator('.task-focus-panel>[data-phase-points]').count(),1,item.id+': common XP placement');
    for(const width of [390,1024]){
