@@ -1,0 +1,266 @@
+{
+  "5": {
+    "situation": {
+      "archive_path": "LS05_Handlungssituation.png",
+      "filename": "biocasa-lg03-ls05-situation.png",
+      "alt": "Bild zur Handlungssituation · BioCasa · Marketingziele und -strategien entwickeln",
+      "sha256": "c81254496d856e90c5589df2fd99da67b92920210bc3cca7ecda1edf541a5714",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "orientation": {
+      "archive_path": "LS05_Orientierung.png",
+      "filename": "biocasa-lg03-ls05-orientation.png",
+      "alt": "Orientierungsbild · BioCasa · Marketingziele und -strategien entwickeln",
+      "sha256": "35e1ecc3dfec137838918671a250618c079d5e1c5c70755fa6ef458388859156",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  },
+  "4": {
+    "situation": {
+      "archive_path": "LS04_Handlungssituation.png",
+      "filename": "biocasa-lg03-ls04-situation.png",
+      "alt": "Bild zur Handlungssituation · BioCasa · Marktforschung betreiben",
+      "sha256": "07417c95110fdeb586807263907a15a9f8b516e440bb3fafe4dba67353b58f61",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "orientation": {
+      "archive_path": "LS04_Orientierung.png",
+      "filename": "biocasa-lg03-ls04-orientation.png",
+      "alt": "Orientierungsbild · BioCasa · Marktforschung betreiben",
+      "sha256": "ae877a2c9f21447a48f787571964a3e0742a40cc1449d39490fb2399109d95c9",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  },
+  "3": {
+    "situation": {
+      "archive_path": "LS03_Handlungssituation.png",
+      "filename": "biocasa-lg03-ls03-situation.png",
+      "alt": "Bild zur Handlungssituation · BioCasa · Das Produktprogramm auswerten",
+      "sha256": "23f48f5f3c04564d7d7211e2e142cbec12fa28c3f8816aa42394b8901abaa422",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "orientation": {
+      "archive_path": "LS03_Orientierung.png",
+      "filename": "biocasa-lg03-ls03-orientation.png",
+      "alt": "Orientierungsbild · BioCasa · Das Produktprogramm auswerten",
+      "sha256": "792eff7984f580b1f4f8506a11cc7dfafa84e43bb2e38f1b2ab807798683a330",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  },
+  "2": {
+    "orientation": {
+      "archive_path": "LS02_Orientierung.png",
+      "filename": "biocasa-lg03-ls02-orientation.png",
+      "alt": "Orientierungsbild · BioCasa · Den Wechsel zur Aktiengesellschaft begründen",
+      "sha256": "78d0af20ea4a4a59496f367e0d3830b2bfe27fcf35c97935d00cc9d39a250438",
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    "situation": {
+      "archive_path": "LS02_Handlungssituation.png",
+      "filename": "biocasa-lg03-ls02-situation.png",
+      "alt": "Bild zur Handlungssituation · BioCasa · Den Wechsel zur Aktiengesellschaft begründen",
+      "sha256": "3bfc8ae44e9fdb99c70250d3cf74f04290814715fe4860b213afaf94d571db5c",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  },
+  "1": {
+    "orientation": {
+      "archive_path": "LS01_Orientierung.png",
+      "filename": "biocasa-lg03-ls01-orientation.png",
+      "alt": "Orientierungsbild · BioCasa · Markt- und Unternehmenssituation analysieren",
+      "sha256": "83812cddbbe0a507869163679c295068a416453b3c6ff74d63a1a6778e442d6c",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "situation": {
+      "archive_path": "LS01_Handlungssituation.png",
+      "filename": "biocasa-lg03-ls01-situation.png",
+      "alt": "Bild zur Handlungssituation · BioCasa · Markt- und Unternehmenssituation analysieren",
+      "sha256": "d0396ccea56d110872203daa5c841cce16d624eb4e77cb9f342da74144ebd577",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  },
+  "12": {
+    "orientation": {
+      "archive_path": "LS12_Orientierung.png",
+      "filename": "biocasa-lg03-ls12-orientation.png",
+      "alt": "Orientierungsbild · BioCasa · Den Marketing-Mix überprüfen und steuern",
+      "sha256": "8fe07299e9ed9514bb4821723b9c7704ce1b29f3c51238047b378522f2a7bec4",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "situation": {
+      "archive_path": "LS12_Handlungssituation.png",
+      "filename": "biocasa-lg03-ls12-situation.png",
+      "alt": "Bild zur Handlungssituation · BioCasa · Den Marketing-Mix überprüfen und steuern",
+      "sha256": "1beb61767ecd526002bbb43cd78c6fd662a37243fe14649c027294fda69bdfd4",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  },
+  "11": {
+    "situation": {
+      "archive_path": "LS11_Handlungssituation.png",
+      "filename": "biocasa-lg03-ls11-situation.png",
+      "alt": "Bild zur Handlungssituation · BioCasa · Absatzwege und nachhaltige Kühlketten gestalten",
+      "sha256": "114131404c1681b5b296273c65da6ac15960ec774a053d2585e84958fdf57835",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "orientation": {
+      "archive_path": "LS11_Orientierung.png",
+      "filename": "biocasa-lg03-ls11-orientation.png",
+      "alt": "Orientierungsbild · BioCasa · Absatzwege und nachhaltige Kühlketten gestalten",
+      "sha256": "2a10c85cde196601baffb03b2456bb9007f0a5408cabda74310c962a974f9989",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  },
+  "10": {
+    "orientation": {
+      "archive_path": "LS10_Orientierung.png",
+      "filename": "biocasa-lg03-ls10-orientation.png",
+      "alt": "Orientierungsbild · BioCasa · Kommunikationspolitische Maßnahmen entwickeln",
+      "sha256": "ce7ac3d3fdd15d2d411f9bf8984604a46ad91ef738806f3a0128f61aa70427cd",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "situation": {
+      "archive_path": "LS10_Handlungssituation.png",
+      "filename": "biocasa-lg03-ls10-situation.png",
+      "alt": "Bild zur Handlungssituation · BioCasa · Kommunikationspolitische Maßnahmen entwickeln",
+      "sha256": "56b521ef3bb2c25ef6362efcb1d32e5a403381bba1eb86af1bbe961448be9121",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  },
+  "9": {
+    "situation": {
+      "archive_path": "LS09_Handlungssituation.png",
+      "filename": "biocasa-lg03-ls09-situation.png",
+      "alt": "Bild zur Handlungssituation · BioCasa · Preisentscheidungen mit Deckungsbeiträgen beurteilen",
+      "sha256": "ec61c5d45446747159d924e3971af7727f66b55c4315c0923334f814ffbdce7e",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "orientation": {
+      "archive_path": "LS09_Orientierung.png",
+      "filename": "biocasa-lg03-ls09-orientation.png",
+      "alt": "Orientierungsbild · BioCasa · Preisentscheidungen mit Deckungsbeiträgen beurteilen",
+      "sha256": "76a32669d748149d31b6e18b884e477f39b9fa401a57d0e57316e4c7e964a75c",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  },
+  "8": {
+    "situation": {
+      "archive_path": "LS08_Handlungssituation.png",
+      "filename": "biocasa-lg03-ls08-situation.png",
+      "alt": "Bild zur Handlungssituation · BioCasa · Selbstkosten und Listenverkaufspreise ermitteln",
+      "sha256": "fa86fae864ed761b0fe6d13bd0056de13938812074a641fba8fc5683c893de80",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "orientation": {
+      "archive_path": "LS08_Orientierung.png",
+      "filename": "biocasa-lg03-ls08-orientation.png",
+      "alt": "Orientierungsbild · BioCasa · Selbstkosten und Listenverkaufspreise ermitteln",
+      "sha256": "1e381710c3e62bbb82ea82273f795d2633458160af37897c600f67386f3ba23f",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  },
+  "7": {
+    "situation": {
+      "archive_path": "LS07_Handlungssituation.png",
+      "filename": "biocasa-lg03-ls07-situation.png",
+      "alt": "Bild zur Handlungssituation · BioCasa · Aufwendungen und Kosten abgrenzen",
+      "sha256": "b839160f50a364f4e8eff3aee9d8c64a9289e96a5aee4d5a8c6f2ff30021827d",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "orientation": {
+      "archive_path": "LS07_Orientierung.png",
+      "filename": "biocasa-lg03-ls07-orientation.png",
+      "alt": "Orientierungsbild · BioCasa · Aufwendungen und Kosten abgrenzen",
+      "sha256": "a6aeb282797bd72bde26b13df6000a9607add5d783fa4d96f9bbba144cea7a0c",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  },
+  "6": {
+    "situation": {
+      "archive_path": "LS06_Handlungssituation.png",
+      "filename": "biocasa-lg03-ls06-situation.png",
+      "alt": "Bild zur Handlungssituation · BioCasa · Produkt- und Markenpolitik gestalten",
+      "sha256": "a2978fbe3cf7b61ef0dd35a9910bcd512b820b1bc8bba033addf25f7db9be0d3",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    "orientation": {
+      "archive_path": "LS06_Orientierung.png",
+      "filename": "biocasa-lg03-ls06-orientation.png",
+      "alt": "Orientierungsbild · BioCasa · Produkt- und Markenpolitik gestalten",
+      "sha256": "b84d85e634897e320c54061b0f9673ee63e48e2140b6ef8dfc1e0e70b68099b3",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "LS05": {
+    "59": "Marketing – Aufgaben",
+    "61": "Marketingstrategie / Kostenführerschaft / Wettbewerbsstrategie",
+    "66": "Undifferenzierte Marktbearbeitungsstrategie",
+    "67": "Differenzierte / konzentrierte / kundenindividuelle Marktbearbeitungsstrategie",
+    "71": "Produkt-Markt-Matrix / Marktdurchdringung",
+    "72": "Marktentwicklung / Produktentwicklung / Diversifikation"
+  },
+  "LS06": {
+    "87": "Forschung / Entwicklung",
+    "88": "Produktgestaltung",
+    "90": "Lastenheft / Pflichtenheft",
+    "93": "Produktinnovation",
+    "94": "Produktdiversifikation / horizontale Diversifikation",
+    "95": "Vertikale / laterale Diversifikation / Produktdifferenzierung",
+    "96": "Produktvariation / Produkteliminierung",
+    "97": "Marke / Einzelmarkenstrategie / Markenfamilienstrategie",
+    "98": "Dachmarkenstrategie / Mehrmarkenstrategie / Markentransferstrategie",
+    "220": "Co-Branding"
+  },
+  "LS07": {
+    "112": "Kosten- und Leistungsrechnung – Zusammenhang mit Buchführung",
+    "114": "Aufwand / Kosten",
+    "115": "Kalkulatorische Kosten",
+    "116": "Anderskosten / kalkulatorische Abschreibung / kalkulatorische Zinsen",
+    "117": "Kalkulatorischer Unternehmerlohn / Zusatzkosten",
+    "118": "Ertrag",
+    "119": "Neutraler Ertrag",
+    "129": "Zusatzkosten"
+  },
+  "LS08": {
+    "135": "Kostenartenrechnung / Einzelkosten",
+    "136": "Gemeinkosten / indirekte Kosten",
+    "152": "Bestandsveränderung / Herstellkosten des Umsatzes",
+    "156": "Hilfskostenstellen / mehrstufiger BAB",
+    "175": "Kostenüberdeckung / Kostenunterdeckung",
+    "179": "Normalkosten / Istkosten / Kostenüberdeckung / Kostenunterdeckung",
+    "181": "Bestandsmehrung / Bestandsminderung / Selbstkosten des Umsatzes"
+  },
+  "LS09": {
+    "102": "Kostenorientierte Preisbestimmung",
+    "103": "Nachfrageorientierte Preisbestimmung",
+    "105": "Preisdifferenzierung",
+    "107": "Konkurrenzorientierte / wettbewerbsorientierte Preispolitik",
+    "138": "Fixe Kosten",
+    "139": "Variable Kosten",
+    "191": "Teilkostenrechnung / Deckungsbeitragsrechnung",
+    "327": "Deckungsbeitragsrechnung als Instrument der Produktionsplanung",
+    "329": "Engpass (Deckungsbeitragsrechnung)"
+  }
+}

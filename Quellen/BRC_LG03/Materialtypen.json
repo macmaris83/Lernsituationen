@@ -1,0 +1,112 @@
+{
+  "1": {
+    "M1": "outlook",
+    "M2": "onenote",
+    "M3": "acrobat",
+    "M4": "onenote",
+    "M5": "acrobat",
+    "M6": "onenote",
+    "M7": "onenote"
+  },
+  "2": {
+    "M1": "outlook",
+    "M2": "acrobat",
+    "M3": "acrobat",
+    "M4": "sap",
+    "M5": "teams",
+    "M6": "onenote",
+    "M7": "onenote",
+    "M8": "acrobat"
+  },
+  "3": {
+    "M1": "sap",
+    "M2": "sap",
+    "M3": "onenote",
+    "M4": "onenote",
+    "M5": "acrobat",
+    "M6": "onenote",
+    "M7": "onenote"
+  },
+  "4": {
+    "M1": "outlook",
+    "M2": "onenote",
+    "M3": "acrobat",
+    "M4": "acrobat",
+    "M5": "onenote",
+    "M6": "acrobat",
+    "M7": "onenote"
+  },
+  "5": {
+    "M1": "acrobat",
+    "M2": "acrobat",
+    "M3": "onenote",
+    "M4": "onenote",
+    "M5": "teams",
+    "M6": "onenote"
+  },
+  "6": {
+    "M1": "acrobat",
+    "M2": "sap",
+    "M3": "onenote",
+    "M4": "onenote",
+    "M5": "acrobat",
+    "M6": "onenote",
+    "M7": "onenote",
+    "M8": "onenote"
+  },
+  "7": {
+    "M1": "sap",
+    "M2": "outlook",
+    "M3": "onenote",
+    "M4": "onenote",
+    "M5": "onenote",
+    "M6": "onenote"
+  },
+  "8": {
+    "M1": "sap",
+    "M2": "onenote",
+    "M3": "outlook",
+    "M4": "outlook",
+    "M5": "sap",
+    "M6": "onenote"
+  },
+  "9": {
+    "M1": "sap",
+    "M2": "outlook",
+    "M3": "teams",
+    "M4": "onenote",
+    "M5": "sap",
+    "M6": "onenote",
+    "M7": "onenote",
+    "M8": "onenote"
+  },
+  "10": {
+    "M1": "outlook",
+    "M2": "onenote",
+    "M3": "acrobat",
+    "M4": "acrobat",
+    "M5": "sap",
+    "M6": "onenote",
+    "M7": "acrobat",
+    "M8": "onenote"
+  },
+  "11": {
+    "M1": "onenote",
+    "M2": "sap",
+    "M3": "sap",
+    "M4": "acrobat",
+    "M5": "acrobat",
+    "M6": "onenote",
+    "M7": "onenote",
+    "M8": "onenote"
+  },
+  "12": {
+    "M1": "acrobat",
+    "M2": "onenote",
+    "M3": "sap",
+    "M4": "acrobat",
+    "M5": "acrobat",
+    "M6": "onenote",
+    "M7": "onenote"
+  }
+}

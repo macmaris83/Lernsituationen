@@ -1,0 +1,1505 @@
+{
+  "LS01:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS01:planen:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS01:entscheiden:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS01:durchfuehren:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS01:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Partnerarbeit und Gegenprüfung durch ein anderes Zweierteam"
+  },
+  "LS01:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS01:informieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit, danach Partnergespräch oder kommentierte Markierung (Wahl)"
+  },
+  "LS01:planen:2:1": {
+    "kind": "pair",
+    "label": "Einzelarbeit mit Gegenprüfung oder Zweierteam (Wahl)"
+  },
+  "LS01:entscheiden:2:1": {
+    "kind": "pair",
+    "label": "Gewählte Einzel- oder Partnerarbeit fortführen"
+  },
+  "LS01:durchfuehren:2:1": {
+    "kind": "pair",
+    "label": "Gewählte Einzel- oder Partnerarbeit fortführen"
+  },
+  "LS01:bewerten:2:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS01:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS01:informieren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS01:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS01:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS01:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS01:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS01:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS01:informieren:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS01:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS01:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS01:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS01:bewerten:4:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch eine unabhängige Person oder Gruppe"
+  },
+  "LS01:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS01:informieren:5:1": {
+    "kind": "individual",
+    "label": "Individuelle Standortbestimmung, danach Einzel- oder Gruppenarbeit (Wahl)"
+  },
+  "LS01:planen:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS01:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS01:durchfuehren:5:1": {
+    "kind": "group",
+    "label": "Selbst gewählter Wechsel zwischen Einzelvertiefung, Beratung und Teamentscheidung"
+  },
+  "LS01:bewerten:5:1": {
+    "kind": "partner-groups",
+    "label": "Selbst organisierte Abnahme mit kritischer Gegenrolle"
+  },
+  "LS01:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS02:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS02:planen:1:1": {
+    "kind": "group",
+    "label": "Dreiergruppe"
+  },
+  "LS02:entscheiden:1:1": {
+    "kind": "group",
+    "label": "Dreiergruppe"
+  },
+  "LS02:durchfuehren:1:1": {
+    "kind": "group",
+    "label": "Dreiergruppe"
+  },
+  "LS02:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS02:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS02:informieren:2:1": {
+    "kind": "individual",
+    "label": "Selbstständige Analyse, Partnerabgleich und Austausch in der Gruppe"
+  },
+  "LS02:planen:2:1": {
+    "kind": "group",
+    "label": "Zweier- oder Dreierarbeit (Wahl)"
+  },
+  "LS02:entscheiden:2:1": {
+    "kind": "group",
+    "label": "Zweier- oder Dreierarbeit (Wahl)"
+  },
+  "LS02:durchfuehren:2:1": {
+    "kind": "group",
+    "label": "Zweier- oder Dreierarbeit (Wahl)"
+  },
+  "LS02:bewerten:2:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS02:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS02:informieren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS02:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS02:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS02:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Dreiergruppe"
+  },
+  "LS02:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS02:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS02:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS02:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS02:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS02:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS02:bewerten:4:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS02:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS02:informieren:5:1": {
+    "kind": "individual",
+    "label": "Individuelle Diagnose, bei Bedarf Lernpartnerschaft oder Coaching"
+  },
+  "LS02:planen:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS02:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS02:durchfuehren:5:1": {
+    "kind": "group",
+    "label": "Selbst gewählte Kooperation mit individueller Rekonstruktion der Rechnung"
+  },
+  "LS02:bewerten:5:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch eine unabhängige Person oder Gruppe"
+  },
+  "LS02:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit, anschließend Austausch im Team"
+  },
+  "LS03:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS03:planen:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS03:entscheiden:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS03:durchfuehren:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS03:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS03:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS03:informieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit, anschließend Partnerabgleich"
+  },
+  "LS03:planen:2:1": {
+    "kind": "pair",
+    "label": "Eigene Planung mit vereinbarter Prüfung durch eine andere Person"
+  },
+  "LS03:entscheiden:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit mit gegenseitiger Erklärung (Empfehlung)",
+    "recommended": true
+  },
+  "LS03:durchfuehren:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit mit gegenseitiger Erklärung (Empfehlung)",
+    "recommended": true
+  },
+  "LS03:bewerten:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS03:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS03:informieren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS03:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS03:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS03:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS03:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS03:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS03:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS03:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS03:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS03:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS03:bewerten:4:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS03:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS03:informieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit, anschließend Kooperation selbst wählen"
+  },
+  "LS03:planen:5:1": {
+    "kind": "group",
+    "label": "Selbst gewählte Rollen, Einzelrechnung und gemeinsame Entscheidung"
+  },
+  "LS03:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS03:durchfuehren:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS03:bewerten:5:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch eine unabhängige Person oder Gruppe"
+  },
+  "LS03:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS04:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS04:planen:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS04:entscheiden:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS04:durchfuehren:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit und Pretest mit zwei weiteren Personen"
+  },
+  "LS04:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Partnerarbeit und Gegenprüfung durch ein anderes Zweierteam"
+  },
+  "LS04:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS04:informieren:2:1": {
+    "kind": "pair",
+    "label": "Einzel- oder Partnerarbeit (Wahl)"
+  },
+  "LS04:planen:2:1": {
+    "kind": "pair",
+    "label": "Einzel- oder Partnerarbeit (Wahl)"
+  },
+  "LS04:entscheiden:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS04:durchfuehren:2:1": {
+    "kind": "pair",
+    "label": "Gewählte Einzel- oder Partnerarbeit und Pretest mit zwei Personen"
+  },
+  "LS04:bewerten:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS04:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS04:informieren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS04:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS04:entscheiden:3:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS04:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Arbeitsteilige Gruppenarbeit und Pretest mit zwei Personen"
+  },
+  "LS04:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Teaminterne Rechenprüfung und Gegencheck durch ein anderes Team"
+  },
+  "LS04:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS04:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS04:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS04:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS04:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Kooperation selbst wählen; Pretest mit zwei Personen"
+  },
+  "LS04:bewerten:4:1": {
+    "kind": "partner-groups",
+    "label": "Unabhängige Datenprüfung und Coach-Check"
+  },
+  "LS04:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS04:informieren:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS04:planen:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS04:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS04:durchfuehren:5:1": {
+    "kind": "group",
+    "label": "Selbst organisierte Gruppenarbeit und Pretest mit zwei Personen"
+  },
+  "LS04:bewerten:5:1": {
+    "kind": "pair",
+    "label": "Gegenprüfung mit selbst gewähltem Prüfungspartner"
+  },
+  "LS04:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS05:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS05:planen:1:1": {
+    "kind": "group",
+    "label": "Vierergruppe"
+  },
+  "LS05:entscheiden:1:1": {
+    "kind": "group",
+    "label": "Vierergruppe"
+  },
+  "LS05:durchfuehren:1:1": {
+    "kind": "group",
+    "label": "Vierergruppe"
+  },
+  "LS05:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS05:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS05:informieren:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS05:planen:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS05:entscheiden:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS05:durchfuehren:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS05:bewerten:2:1": {
+    "kind": "partner-groups",
+    "label": "Partnerarbeit und Gegenprüfung durch ein anderes Zweierteam"
+  },
+  "LS05:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS05:informieren:3:1": {
+    "kind": "expert-group",
+    "label": "Expertengruppen und Austausch in der Stammgruppe"
+  },
+  "LS05:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS05:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS05:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS05:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS05:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS05:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS05:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS05:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS05:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS05:bewerten:4:1": {
+    "kind": "partner-groups",
+    "label": "Gegencheck aus anderer Unternehmensperspektive und Coach-Gespräch"
+  },
+  "LS05:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS05:informieren:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS05:planen:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS05:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS05:durchfuehren:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS05:bewerten:5:1": {
+    "kind": "pair",
+    "label": "Gegenprüfung mit selbst gewählter fachkundiger Person"
+  },
+  "LS05:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS06:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS06:planen:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS06:entscheiden:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS06:durchfuehren:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS06:bewerten:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS06:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS06:informieren:2:1": {
+    "kind": "pair",
+    "label": "Einzel- oder Partnerarbeit (Wahl)"
+  },
+  "LS06:planen:2:1": {
+    "kind": "group",
+    "label": "Einzel- oder Partnerarbeit mit wechselnden Prüfrollen (Wahl)"
+  },
+  "LS06:entscheiden:2:1": {
+    "kind": "pair",
+    "label": "Gewählte Einzel- oder Partnerarbeit fortführen"
+  },
+  "LS06:durchfuehren:2:1": {
+    "kind": "pair",
+    "label": "Gewählte Einzel- oder Partnerarbeit fortführen"
+  },
+  "LS06:bewerten:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS06:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS06:informieren:3:1": {
+    "kind": "expert-group",
+    "label": "Expertengruppen und Austausch in der Stammgruppe"
+  },
+  "LS06:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS06:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS06:durchfuehren:3:1": {
+    "kind": "partner-groups",
+    "label": "Gruppenarbeit mit Zwischenprüfung durch eine andere Gruppe"
+  },
+  "LS06:bewerten:3:1": {
+    "kind": "group",
+    "label": "Produktkonferenz mit vier Unternehmensperspektiven"
+  },
+  "LS06:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS06:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS06:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS06:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS06:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS06:bewerten:4:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch eine unabhängige Person oder Gruppe"
+  },
+  "LS06:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS06:informieren:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS06:planen:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS06:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS06:durchfuehren:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit und Verständnistest mit selbst gewähltem Partner"
+  },
+  "LS06:bewerten:5:1": {
+    "kind": "partner-groups",
+    "label": "Selbst organisierte kritische Freigaberunde"
+  },
+  "LS06:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS07:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS07:planen:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS07:entscheiden:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS07:durchfuehren:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS07:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Externe Gegenprüfung, anschließend Einzelarbeit"
+  },
+  "LS07:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS07:informieren:2:1": {
+    "kind": "pair",
+    "label": "Begriffskarte oder Partnerinterview (Wahl)"
+  },
+  "LS07:planen:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit mit gegenseitiger Kontrolle (Empfehlung)",
+    "recommended": true
+  },
+  "LS07:entscheiden:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit, anschließend Partnerabgleich"
+  },
+  "LS07:durchfuehren:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit mit gegenseitiger Kontrolle (Empfehlung)",
+    "recommended": true
+  },
+  "LS07:bewerten:2:1": {
+    "kind": "partner-groups",
+    "label": "Externe Gegenprüfung, anschließend Einzelarbeit"
+  },
+  "LS07:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS07:informieren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS07:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS07:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS07:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS07:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Externe Gegenprüfung, anschließend Einzelarbeit"
+  },
+  "LS07:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS07:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS07:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS07:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS07:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS07:bewerten:4:1": {
+    "kind": "individual",
+    "label": "Fachlicher Check mit dem Coach und individueller Nachweis"
+  },
+  "LS07:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS07:informieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS07:planen:5:1": {
+    "kind": "group",
+    "label": "Sozialform selbst wählen; Einzelrechnung und fachlichen Austausch einplanen"
+  },
+  "LS07:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Arbeitsform selbst wählen; gemeinsame Entscheidung (Empfehlung)",
+    "recommended": true
+  },
+  "LS07:durchfuehren:5:1": {
+    "kind": "individual",
+    "label": "Selbst gewählte Arbeitsform; Einzelrechnung mit fachlichem Austausch (Empfehlung)",
+    "recommended": true
+  },
+  "LS07:bewerten:5:1": {
+    "kind": "partner-groups",
+    "label": "Externe Gegenprüfung, anschließend Einzelarbeit"
+  },
+  "LS07:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS08:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS08:planen:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS08:entscheiden:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS08:durchfuehren:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS08:bewerten:1:1": {
+    "kind": "pair",
+    "label": "Partnerprüfung, anschließend Einzelarbeit"
+  },
+  "LS08:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS08:informieren:2:1": {
+    "kind": "pair",
+    "label": "Eigene Skizze oder mündliche Partnererklärung (Wahl)"
+  },
+  "LS08:planen:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit mit gegenseitiger Kontrolle (Empfehlung)",
+    "recommended": true
+  },
+  "LS08:entscheiden:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit mit gegenseitiger Kontrolle (Empfehlung)",
+    "recommended": true
+  },
+  "LS08:durchfuehren:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit mit gegenseitiger Kontrolle (Empfehlung)",
+    "recommended": true
+  },
+  "LS08:bewerten:2:1": {
+    "kind": "partner-groups",
+    "label": "Externe Gegenprüfung, anschließend Einzelarbeit"
+  },
+  "LS08:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS08:informieren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS08:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS08:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS08:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS08:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Externe Gegenprüfung, anschließend Einzelarbeit"
+  },
+  "LS08:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS08:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS08:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS08:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS08:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS08:bewerten:4:1": {
+    "kind": "individual",
+    "label": "Unabhängige Gegenrechnung, anschließend individueller Nachweis"
+  },
+  "LS08:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS08:informieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS08:planen:5:1": {
+    "kind": "group",
+    "label": "Selbst gewählte Rollen, Einzelrechnung und gemeinsame Checkpoints"
+  },
+  "LS08:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Arbeitsform selbst wählen; gemeinsame Entscheidung (Empfehlung)",
+    "recommended": true
+  },
+  "LS08:durchfuehren:5:1": {
+    "kind": "individual",
+    "label": "Selbst gewählte Arbeitsform; Einzelrechnung mit Beratung (Empfehlung)",
+    "recommended": true
+  },
+  "LS08:bewerten:5:1": {
+    "kind": "partner-groups",
+    "label": "Externe Gegenprüfung, anschließend Einzelarbeit"
+  },
+  "LS08:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS09:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS09:planen:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS09:entscheiden:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS09:durchfuehren:1:1": {
+    "kind": "pair",
+    "label": "Rechnung und Verhandlung in Rollen"
+  },
+  "LS09:bewerten:1:1": {
+    "kind": "pair",
+    "label": "Partnerprüfung, anschließend Einzelarbeit"
+  },
+  "LS09:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS09:informieren:2:1": {
+    "kind": "pair",
+    "label": "Begriffsskizze oder Partnerdialog (Wahl)"
+  },
+  "LS09:planen:2:1": {
+    "kind": "pair",
+    "label": "Verhandlung mit Lernpartner oder optional KI (Wahl)"
+  },
+  "LS09:entscheiden:2:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit zur Verhandlungsvorbereitung (Empfehlung)",
+    "recommended": true
+  },
+  "LS09:durchfuehren:2:1": {
+    "kind": "pair",
+    "label": "Eigene Rechnung und Verhandlung mit Lernpartner oder optional KI"
+  },
+  "LS09:bewerten:2:1": {
+    "kind": "group",
+    "label": "Gemeinsame Prüfung, anschließend Einzelarbeit"
+  },
+  "LS09:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS09:informieren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS09:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS09:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS09:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Arbeit selbst organisieren und Rollenspiel durchführen"
+  },
+  "LS09:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Externe Gegenprüfung, anschließend Einzelarbeit"
+  },
+  "LS09:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS09:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS09:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS09:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS09:durchfuehren:4:1": {
+    "kind": "pair",
+    "label": "Arbeit selbst organisieren und Verhandlung im Rollenspiel durchführen"
+  },
+  "LS09:bewerten:4:1": {
+    "kind": "individual",
+    "label": "Eigene Gegenrechnungen, anschließend individueller Nachweis"
+  },
+  "LS09:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS09:informieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS09:planen:5:1": {
+    "kind": "group",
+    "label": "Selbst gewählte Rollen, Stillarbeit, Verhandlung und gemeinsame Prüfung"
+  },
+  "LS09:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS09:durchfuehren:5:1": {
+    "kind": "pair",
+    "label": "Eigene Rechnung und Rollenspiel mit Lernpartner oder optional KI"
+  },
+  "LS09:bewerten:5:1": {
+    "kind": "partner-groups",
+    "label": "Externe Gegenprüfung, anschließend Einzelarbeit"
+  },
+  "LS09:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS10:informieren:1:1": {
+    "kind": "pair",
+    "label": "Gemeinsamer Einstieg mit der Lehrkraft, anschließend Partnerarbeit"
+  },
+  "LS10:planen:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS10:entscheiden:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS10:durchfuehren:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS10:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Partnerarbeit und Gegenprüfung durch ein anderes Zweierteam"
+  },
+  "LS10:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS10:informieren:2:1": {
+    "kind": "pair",
+    "label": "Einzel- oder Partnerarbeit (Wahl)"
+  },
+  "LS10:planen:2:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS10:entscheiden:2:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS10:durchfuehren:2:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS10:bewerten:2:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS10:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS10:informieren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS10:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS10:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS10:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS10:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS10:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS10:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS10:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS10:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS10:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS10:bewerten:4:1": {
+    "kind": "partner-groups",
+    "label": "Unabhängiger Gegencheck durch ein anderes Team oder den Coach"
+  },
+  "LS10:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS10:informieren:5:1": {
+    "kind": "group",
+    "label": "Gemeinsame Erschließung und selbst gewählte Expertisen"
+  },
+  "LS10:planen:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS10:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS10:durchfuehren:5:1": {
+    "kind": "group",
+    "label": "Selbst organisierte Arbeit; optionale Gegenrolle durch KI oder anderes Team"
+  },
+  "LS10:bewerten:5:1": {
+    "kind": "group",
+    "label": "Selbst organisierte Prüfung aus Händler-, Verbraucher- und Controllingsicht"
+  },
+  "LS10:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit, anschließend Austausch im Team"
+  },
+  "LS11:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS11:planen:1:1": {
+    "kind": "pair",
+    "label": "Gemeinsamer Recheneinstieg, anschließend Partnerarbeit"
+  },
+  "LS11:entscheiden:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS11:durchfuehren:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS11:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Vorlagentausch und gegenseitige Prüfung"
+  },
+  "LS11:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS11:informieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit, anschließend Partnerabgleich"
+  },
+  "LS11:planen:2:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS11:entscheiden:2:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS11:durchfuehren:2:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS11:bewerten:2:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS11:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS11:informieren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS11:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS11:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS11:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS11:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS11:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS11:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS11:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS11:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS11:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Selbst gewählte Kooperation und praktische Störfallsimulation"
+  },
+  "LS11:bewerten:4:1": {
+    "kind": "pair",
+    "label": "Unabhängige Prüfung durch Lernpartner oder Coach"
+  },
+  "LS11:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS11:informieren:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS11:planen:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS11:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS11:durchfuehren:5:1": {
+    "kind": "group",
+    "label": "Selbst organisierte Arbeit; optionale Gegenprüfung mit Partner oder KI"
+  },
+  "LS11:bewerten:5:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS11:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS12:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS12:planen:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS12:entscheiden:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS12:durchfuehren:1:1": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS12:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Partnerarbeit und Gegenprüfung durch ein anderes Zweierteam"
+  },
+  "LS12:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS12:informieren:2:1": {
+    "kind": "pair",
+    "label": "Einzel- oder Partnerarbeit (Wahl)"
+  },
+  "LS12:planen:2:1": {
+    "kind": "pair",
+    "label": "Einzel- oder Partnerarbeit (Wahl)"
+  },
+  "LS12:entscheiden:2:1": {
+    "kind": "pair",
+    "label": "Einzel- oder Partnerarbeit (Wahl)"
+  },
+  "LS12:durchfuehren:2:1": {
+    "kind": "pair",
+    "label": "Einzel- oder Partnerarbeit (Wahl)"
+  },
+  "LS12:bewerten:2:1": {
+    "kind": "partner-groups",
+    "label": "Vorlagentausch und Gegenprüfung durch selbst gewählte Prüfende"
+  },
+  "LS12:reflektieren:2:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS12:informieren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS12:planen:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS12:entscheiden:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS12:durchfuehren:3:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS12:bewerten:3:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch ein anderes Team"
+  },
+  "LS12:reflektieren:3:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS12:informieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit (Empfehlung)",
+    "recommended": true
+  },
+  "LS12:planen:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS12:entscheiden:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS12:durchfuehren:4:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS12:bewerten:4:1": {
+    "kind": "partner-groups",
+    "label": "Eigene Arbeit und Gegenprüfung durch eine unabhängige Person oder Gruppe"
+  },
+  "LS12:reflektieren:4:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS12:informieren:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS12:planen:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit mit selbst gewählter Arbeitsteilung"
+  },
+  "LS12:entscheiden:5:1": {
+    "kind": "group",
+    "label": "Gruppenarbeit"
+  },
+  "LS12:durchfuehren:5:1": {
+    "kind": "group",
+    "label": "Selbst gewählte Arbeitsteilung; optionale Gegenrolle durch KI oder anderes Team"
+  },
+  "LS12:bewerten:5:1": {
+    "kind": "group",
+    "label": "Selbst organisierte Freigabesitzung mit kritischer Prüfung"
+  },
+  "LS12:reflektieren:5:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  }
+}
