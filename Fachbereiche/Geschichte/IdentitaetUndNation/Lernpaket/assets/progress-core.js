@@ -114,6 +114,8 @@ window.SOZ_PROGRESS_CORE={orientationVideoCanContinue,orientationVideoComplete,s
     const focus = document.body.classList.contains('task-focus')
       ? document.querySelector('.task-accordion[open] .task-focus-panel') : null;
     const navigation = document.querySelector('.navigation, .b-phase-overview');
+    const heading = navigation?.querySelector('.nav-heading .eyebrow');
+    if (heading && heading.textContent !== 'Phasenübersicht') heading.textContent = 'Phasenübersicht';
     const target = focus || (/^m\d+\.html$/.test(page) ? document.querySelector('.main') : navigation);
     if (!target) return null;
     let row = document.querySelector('[data-phase-points]');

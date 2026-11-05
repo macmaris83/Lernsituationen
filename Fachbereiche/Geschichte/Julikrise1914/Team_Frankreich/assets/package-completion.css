@@ -25,3 +25,16 @@ body.teacher-view-active .lesson-content>details.material-access:not([open]),bod
 body[data-ls-id="geschichte-identitaet-nation"] .assignment-kind,body[data-ls-id="geschichte-identitaet-nation"] [data-learning-kind]{display:none!important}
 @media screen{body.task-focus .task-focus-panel>[data-phase-points]{display:flex!important}}
 @media print{.phase-points-row,.package-completion-status,[data-complete-package]{display:none!important}}
+
+/* Phase overview: heading and battery share the first row; stations follow directly. */
+@media screen {
+ .navigation{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:18px;row-gap:18px;align-items:start}
+ .navigation>.nav-heading{grid-column:1;grid-row:1;min-width:0;margin:0;align-self:center}
+ .navigation>.phase-points-row{grid-column:2;grid-row:1;align-self:center;width:auto;max-width:100%;margin:0;padding-right:6px}
+ .navigation>.stations{grid-column:1/-1;grid-row:2;min-width:0}
+}
+@media screen and (max-width:600px) {
+ .navigation{column-gap:10px;row-gap:14px}
+ .navigation>.phase-points-row>.point-float{width:clamp(120px,32vw,160px)}
+ .navigation>.phase-points-row .points-battery-label{font-size:12px}
+}

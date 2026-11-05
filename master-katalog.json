@@ -8,10 +8,10 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS01",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "BRC_LG01_LS01",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "BRC-LG01-LS02",
@@ -19,10 +19,10 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS02",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "BRC_LG01_LS02",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "BRC-LG01-LS03",
@@ -30,10 +30,10 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS03",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "BRC_LG01_LS03",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "BRC-LG01-LS04",
@@ -41,10 +41,10 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS04",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "BRC_LG01_LS04",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "BRC-LG01-LS05",
@@ -52,10 +52,10 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS05",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "BRC_LG01_LS05",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "BRC-LG01-LS06",
@@ -63,10 +63,10 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS06",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "BRC_LG01_LS06",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "BRC-BIOCASA-OS",
@@ -354,10 +354,10 @@
       "bereich": "Vorlagen",
       "typ": "Vorlage",
       "master": "Vorlagen/Lernsituation_tradiert",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "Vorlage_Lernsituation_tradiert",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "VORLAGE-FUENF-LERNWEGE",
@@ -365,10 +365,10 @@
       "bereich": "Vorlagen",
       "typ": "Vorlage",
       "master": "Vorlagen/Lernsituation_fuenf_Lernwege",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "Vorlage_Lernsituation_fuenf_Lernwege",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "VORLAGE-LERNPFAD",
@@ -385,10 +385,10 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS04",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "BRC_LG05_LS04",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "BRC-LG05-LS05",
@@ -396,10 +396,10 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS05",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "BRC_LG05_LS05",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "BRC-LG05-LS06",
@@ -407,10 +407,10 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS06",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "BRC_LG05_LS06",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "BRC-LG05-LS07",
@@ -418,10 +418,10 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS07",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "BRC_LG05_LS07",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "BRC-LG05-LS08",
@@ -429,10 +429,10 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS08",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "BRC_LG05_LS08",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "BRC-LG05-LS09",
@@ -440,10 +440,10 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS09",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "BRC_LG05_LS09",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "BRC-LG05-LS10",
@@ -451,10 +451,10 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS10",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "BRC_LG05_LS10",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "GESCHICHTE-J1914-Deutsches_Reich",
@@ -462,10 +462,10 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Deutsches_Reich",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "Julikrise_1914_Deutsches_Reich",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "GESCHICHTE-J1914-Frankreich",
@@ -473,10 +473,10 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Frankreich",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "Julikrise_1914_Frankreich",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "GESCHICHTE-J1914-Grossbritannien",
@@ -484,10 +484,10 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Grossbritannien",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "Julikrise_1914_Grossbritannien",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "GESCHICHTE-J1914-Oesterreich_Ungarn",
@@ -495,10 +495,10 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Oesterreich_Ungarn",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "Julikrise_1914_Oesterreich_Ungarn",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "GESCHICHTE-J1914-Presse",
@@ -506,10 +506,10 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Presse",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "Julikrise_1914_Presse",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "GESCHICHTE-J1914-Russland",
@@ -517,10 +517,10 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Russland",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "archiveStem": "Julikrise_1914_Russland",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     },
     {
       "id": "GESCHICHTE-IDN",
@@ -528,10 +528,10 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/IdentitaetUndNation/Lernpaket",
-      "version": "1.8.9",
+      "version": "1.8.10",
       "archiveStem": "Identitaet_und_Nation",
       "formVersion": "1.8.8",
-      "formSourceSha256": "78d291b89374e2f142e2bdb88139bdb50d0e4e70e7988750eef93e3eb89aead7"
+      "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
     }
   ]
 }
