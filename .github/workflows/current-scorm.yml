@@ -33,6 +33,8 @@ jobs:
         run: node tools/test_idn_completion.cjs
       - name: Abschluss aller Lernsituationsvarianten prüfen
         run: node tools/test_form185.cjs
+      - name: Geschichte auf einen Lernweg und höchstens vier Aufgaben prüfen
+        run: python3 tools/check_history_simplification.py
       - name: Master und Manifest-Dateien prüfen
         run: python3 tools/master.py check
 

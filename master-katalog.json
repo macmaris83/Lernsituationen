@@ -462,7 +462,7 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Deutsches_Reich",
-      "version": "1.8.9",
+      "version": "1.8.10",
       "archiveStem": "Julikrise_1914_Deutsches_Reich",
       "formVersion": "1.8.8",
       "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
@@ -473,7 +473,7 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Frankreich",
-      "version": "1.8.9",
+      "version": "1.8.10",
       "archiveStem": "Julikrise_1914_Frankreich",
       "formVersion": "1.8.8",
       "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
@@ -484,7 +484,7 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Grossbritannien",
-      "version": "1.8.9",
+      "version": "1.8.10",
       "archiveStem": "Julikrise_1914_Grossbritannien",
       "formVersion": "1.8.8",
       "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
@@ -495,7 +495,7 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Oesterreich_Ungarn",
-      "version": "1.8.9",
+      "version": "1.8.10",
       "archiveStem": "Julikrise_1914_Oesterreich_Ungarn",
       "formVersion": "1.8.8",
       "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
@@ -506,7 +506,7 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Presse",
-      "version": "1.8.9",
+      "version": "1.8.10",
       "archiveStem": "Julikrise_1914_Presse",
       "formVersion": "1.8.8",
       "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
@@ -517,7 +517,7 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Russland",
-      "version": "1.8.9",
+      "version": "1.8.10",
       "archiveStem": "Julikrise_1914_Russland",
       "formVersion": "1.8.8",
       "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
@@ -528,7 +528,7 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/IdentitaetUndNation/Lernpaket",
-      "version": "1.8.10",
+      "version": "1.8.11",
       "archiveStem": "Identitaet_und_Nation",
       "formVersion": "1.8.8",
       "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"

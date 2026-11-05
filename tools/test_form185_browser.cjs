@@ -21,6 +21,15 @@ const server=http.createServer((req,res)=>{
    await page.route('**/*',route=>route.request().url().startsWith('http://127.0.0.1:')?route.continue():route.abort());
    await page.goto(base+'index.html');
    await page.waitForFunction(()=>window.SOZ_READY===true);
+   if(item.id.startsWith('GESCHICHTE-')){
+    // Stored editor preferences and stale links must not reintroduce another path.
+    const single=await page.evaluate(()=>{
+     const s=SOZ_API.getSettings();s.learningPaths={1:{label:'Tradiert'},5:{label:'Alt'}};s.allowStudentMode=true;
+     SOZ_API.setMode(5,false);
+     return {mode:SOZ_API.getSettings().mode,modes:SOZ_API.availableModes(),choice:SOZ_API.getSettings().allowStudentMode};
+    });
+    assert.deepEqual(single,{mode:1,modes:[1],choice:false},item.id+': only the traditional path');
+   }
    assert.equal(await page.locator('[data-share-workbook]').count(),0,item.id+': no orientation workbook');
    assert.equal(await page.locator('.lesson-content .material-access').count(),0,item.id+': no orientation materials');
    assert.equal(await page.locator('[data-package-version]').first().innerText(),'Version '+item.version,item.id);
