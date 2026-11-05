@@ -7,6 +7,26 @@ immer dort bearbeiten, nicht nur in einer erzeugten Paketkopie. Der Nutzer kann
 diesen Standard jederzeit ausdrücklich ändern. Einzelne Fachinhalte bleiben im
 jeweiligen Master unter `Fachbereiche/` bzw. `Vorlagen/`.
 
+## Dauerhafte Freigabe für den Moodle-Aktualisierungsagenten
+
+Maris hat am 05.11.2026 ausdrücklich festgelegt: **Alle aktuellen und künftig
+erstellten oder aktualisierten Lernpakete aller Fachbereiche sind dauerhaft für
+„Agent | Lernpaketaktualisierung => Moodle“ freigegeben.** Eine erneute Freigabe
+einzelner Pakete ist nicht erforderlich.
+
+Die bestehenden Vorgaben für die Übernahme gelten weiter:
+
+- Ausschließlich im bereits vom Nutzer freigegebenen Moodle-Kurs arbeiten und
+  keine anderen Kurse aufrufen.
+- Pakete einzeln nacheinander übernehmen. Vor dem Upload fachliche Logik,
+  Funktionalität und interne Kompatibilität prüfen.
+- Nach jedem Upload im Moodle-Kurs prüfen, ob Navigation, Checks,
+  Punkteberechnung, Speicherung und Abschluss technisch funktionieren.
+- Die vereinbarte Namenslogik verwenden; benötigte neue Aktivitäten dürfen im
+  freigegebenen Kurs angelegt werden.
+- Die allgemeine Paketfreigabe erweitert weder den erlaubten Kurs noch andere
+  Zugriffs- oder Handlungserlaubnisse.
+
 ## Gemeinsame Gestaltung automatisch übernehmen
 
 - `Formmaster/manifest.json` legt gemeinsame Dateien, UI-Regionen und notwendige
