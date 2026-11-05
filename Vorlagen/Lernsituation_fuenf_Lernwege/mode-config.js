@@ -1,1 +1,1 @@
-window.SOZ_CONFIG={"mode":1,"allowStudentMode":false,"moodle":{},"media":{},"overrides":{},"packageRevision":"LG01-SozPaed-V2","pinHash":1509442,"packageVersion":"1.8.9","orientationVideoUrl":"","formVersion":"1.8.8"};
+window.SOZ_CONFIG={"mode":1,"allowStudentMode":false,"moodle":{},"media":{},"overrides":{},"packageRevision":"LG01-SozPaed-V2","pinHash":1509442,"packageVersion":"1.8.10","orientationVideoUrl":"","formVersion":"1.8.8"};

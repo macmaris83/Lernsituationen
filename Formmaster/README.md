@@ -53,6 +53,29 @@ keine weiteren Änderungen. `check` schreibt keine Dateien und meldet, wenn
 Quelle und Paketkopien auseinanderlaufen. Fachinhalte werden beim Synchronisieren
 nicht aus früheren Generatorständen neu erzeugt.
 
+## Gemeinsame Bedienung
+
+`assets/task-focus.js` ist die zentrale Implementierung für Aufgabenfokus,
+Kompetenzanzeige, Uhr mit Pause/Fortsetzen und Gong, Erledigt-Karten und manuelles
+Weiter. Die Manifestregel `components` ersetzt nur diese begrenzte, eigenständige
+UI-Funktion in `runtime.js`. Speicher-/Fachcode, Editor und Medien außerhalb
+dieser Grenze bleiben bytegleich. Vorhandene KI-Ziele je Phase werden als lokale
+Daten erhalten. Ein neues fachfremdes KI-Ziel wird nicht übernommen.
+
+Die Regel gilt unabhängig vom Fachbereich für **BRC, Geschichte, BFS dual und
+ReNo** sowie weitere als Lernsituation registrierte Pakete. Ein entpackter LS-Master
+unter `Fachbereiche/` mit Daten, Manifest und Runtime darf nicht unregistriert an
+Synchronisierung und Tests vorbeilaufen: Die Prüfung bricht dann mit seinem Pfad
+ab. Eine vollständige fremde Runtime wird weiterhin niemals kopiert.
+
+`python tools/form_master.py inventory` zeigt den tatsächlichen Bestand.
+Bei dieser Umstellung sind es 13 BRC-LS, 7 Geschichts-LS und beide LS-Vorlagen.
+**BFS dual und ReNo haben auf `main` noch keine registrierten LS-Master.** Der
+ReNo-Ordner enthält nur einen Platzhalter. Außerhalb des Repositories erstellte
+Pakete müssen zunächst als aktuelle entpackte Master übernommen und auf die
+vorhandenen Schnittstellen geprüft werden. Sie werden nicht durch fremde
+Fachinhalte ersetzt. Lernpfadübungen und BioCasa OS bleiben eigenständige Typen.
+
 ## Gemeinsame Quelle und vorhandene Varianten
 
 [`manifest.json`](manifest.json) beschreibt die erlaubten Übernahmen:

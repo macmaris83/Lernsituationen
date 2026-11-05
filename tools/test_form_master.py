@@ -402,6 +402,75 @@ class FormMasterTests(unittest.TestCase):
                     self.sync()
                 self.assertEqual(self.snapshot(), before)
 
+    def add_focus_component(self, expression="'https://example.test/coaching'"):
+        self.manifest['components'] = [{'component': 'task-focus',
+            'source': 'assets/task-focus.js', 'target': 'assets/runtime.js'}]
+        (self.source / 'assets/task-focus.js').write_text(
+            '((options)=>{window.focus=options;})(/* LS_TASK_FOCUS_OPTIONS */{});\n')
+        self.save_manifest()
+        legacy = (form_master.FOCUS_START + '\n(()=>{\n'
+            'iframe.src=' + expression + ';const info=1;\n})();\n\n'
+            '(()=>{window.materials="original";})();\n')
+        for item in self.items:
+            self.path(item, 'assets/runtime.js').write_text('/* Original storage */\n' + legacy)
+
+    def test_shared_focus_reaches_brc_history_reno_and_bfs_without_replacing_storage(self):
+        self.items.extend([self.make_package('RENO-LS01'), self.make_package('BFSDUAL-LS01')])
+        for item, area in zip(self.items, ['BRC', 'Geschichte', 'ReNo', 'BFS dual']):
+            item['bereich'] = area
+        self.save_catalog()
+        self.add_focus_component()
+        original = {p['id']: self.path(p, 'assets/runtime.js').read_text() for p in self.items}
+        self.sync();self.check()
+        for item in self.items:
+            current = self.path(item, 'assets/runtime.js').read_text()
+            self.assertTrue(current.startswith('/* Original storage */\n'))
+            self.assertTrue(current.endswith('(()=>{window.materials="original";})();\n'))
+            self.assertIn('https://example.test/coaching', current)
+            self.assertIn(form_master.FOCUS_END, current)
+        before = self.snapshot();self.sync();self.assertEqual(before, self.snapshot())
+
+    def test_phased_ai_routes_are_preserved_as_local_data(self):
+        self.add_focus_component("['planen.html','durchfuehren.html'].includes(document.body.dataset.page)?'https://example.test/planning':'https://example.test/default'")
+        self.sync();self.check()
+        value = self.path(self.items[0], 'assets/runtime.js').read_text()
+        self.assertIn('"aiHelpUrl":"https://example.test/default"', value)
+        self.assertIn('"planen.html":"https://example.test/planning"', value)
+        self.assertIn('"durchfuehren.html":"https://example.test/planning"', value)
+
+    def test_focus_sync_preserves_existing_line_endings_outside_the_component(self):
+        self.add_focus_component()
+        path=self.path(self.items[0], 'assets/runtime.js')
+        path.write_bytes(path.read_bytes().replace(b'\n',b'\r\n'))
+        self.sync()
+        value=path.read_bytes()
+        self.assertTrue(value.startswith(b'/* Original storage */\r\n'))
+        self.assertTrue(value.endswith(b'(()=>{window.materials="original";})();\r\n'))
+        self.check()
+
+    def test_missing_focus_boundary_or_unknown_ai_route_stops_all_writes(self):
+        for expression in ["window.unknownAI()", "'https://example.test/coaching'"]:
+            with self.subTest(expression=expression):
+                self.add_focus_component(expression)
+                if expression.startswith("'"):
+                    self.path(self.items[-1], 'assets/runtime.js').write_text('existing runtime without focus')
+                before=self.snapshot()
+                with self.assertRaises(ValueError):self.sync()
+                self.assertEqual(before,self.snapshot())
+
+    def test_component_cannot_replace_arbitrary_runtime_files(self):
+        self.add_focus_component()
+        self.manifest['components'][0]['target']='assets/scorm.js'
+        self.save_manifest();before=self.snapshot()
+        with self.assertRaises(ValueError):self.sync()
+        self.assertEqual(before,self.snapshot())
+
+    def test_uncatalogued_lesson_cannot_be_skipped_by_sync(self):
+        self.make_package('RENO-UNREGISTERED')
+        before=self.snapshot()
+        with self.assertRaisesRegex(ValueError,'Nicht registrierte Lernsituation'):self.sync()
+        self.assertEqual(before,self.snapshot())
+
     def test_source_symlink_is_rejected_before_any_generated_changes(self):
         alias = self.source / 'assets/alias.css'
         alias.symlink_to('styles.css')

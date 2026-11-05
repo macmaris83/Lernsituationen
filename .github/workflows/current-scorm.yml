@@ -24,6 +24,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Gemeinsamen Formmaster auf alle Lernsituationen anwenden
         run: python3 tools/form_master.py sync
+      - name: Tatsächlich registrierte Fachbereiche und Vorlagen anzeigen
+        run: python3 tools/form_master.py inventory
       - name: Exportwerkzeug prüfen
         run: |
           python3 -m unittest discover -s tools -p 'test_master.py'

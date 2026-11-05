@@ -31,6 +31,14 @@ Die bestehenden Vorgaben für die Übernahme gelten weiter:
 
 - `Formmaster/manifest.json` legt gemeinsame Dateien, UI-Regionen und notwendige
   Kompatibilitätsregeln fest. `Formmaster/README.md` beschreibt den Ablauf.
+- Gemeinsame Bedienkomponenten liegen ebenfalls in `Formmaster/`, insbesondere
+  `assets/task-focus.js` für Aufgabenfokus, Uhr/Gong, Abhaken und manuelles Weiter.
+  Nur die ausdrücklich begrenzte UI-Region der Runtime synchronisieren; lokalen
+  Speicher-/Fachcode und vorhandene phasenbezogene KI-Ziele erhalten.
+- Das gilt fachbereichsunabhängig für Geschichte, BRC, BFS dual und ReNo.
+  `python tools/form_master.py inventory` zeigt den tatsächlich registrierten
+  Bestand. Ein Platzhalterordner ist kein übernommenes LS-Paket. Neue entpackte
+  LS mit Manifest und Runtime müssen registriert sein, sonst bricht `sync` ab.
 - `python tools/form_master.py sync` versorgt sämtliche katalogisierten
   Lernsituationen und beide LS-Vorlagen, auch künftig hinzugefügte Lernsituationen.
   `python tools/form_master.py check` muss danach ohne Abweichungen bestehen.

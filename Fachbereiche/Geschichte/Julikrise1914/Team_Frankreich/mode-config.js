@@ -1,1 +1,1 @@
-window.SOZ_CONFIG={"mode":1,"allowStudentMode":false,"moodle":{},"media":{},"overrides":{},"packageRevision":"J1914-1.8.3-interactive-video-20261102","format":"SCORM 1.2","learningPaths":{"1":{"label":"Tradiert"}},"packageVersion":"1.8.10","formVersion":"1.8.8","singleLearningPath":true};
+window.SOZ_CONFIG={"mode":1,"allowStudentMode":false,"moodle":{},"media":{},"overrides":{},"packageRevision":"J1914-1.8.3-interactive-video-20261102","format":"SCORM 1.2","learningPaths":{"1":{"label":"Tradiert"}},"packageVersion":"1.8.11","formVersion":"1.8.8","singleLearningPath":true};
