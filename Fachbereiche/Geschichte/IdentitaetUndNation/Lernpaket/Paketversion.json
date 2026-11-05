@@ -1,17 +1,14 @@
 {
-  "version": "1.8.10",
+  "version": "1.8.11",
   "title": "Identität und Nation",
-  "updated": "2026-11-03",
+  "updated": "2026-11-05",
   "revision": "IDN-188",
   "changes": "Orientierung ohne Zusatzkacheln und ohne Materialzugriff. Handlungssituation mit einheitlichem Material-Akkordeon, klarer Textgliederung und formatierten Antwortzeilen. XP wieder oben rechts, auch im Aufgabenfokus und auf Materialseiten. Bestehende Lernstände und Paketabschluss bleiben erhalten.",
   "taskPolicy": {
     "preferred": 2,
-    "normal_maximum": 3,
-    "exception_maximum": 4,
-    "implemented_each_phase": 2,
-    "total": 12,
-    "no_extra_material_assignments": true,
-    "no_podcast_length_quota": true
+    "maximumPerPhase": 4,
+    "singleLearningPath": "Tradiert",
+    "implementedEachPhase": 2
   },
   "formVersion": "1.8.8",
   "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
