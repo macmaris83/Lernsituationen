@@ -438,6 +438,16 @@ class FormMasterTests(unittest.TestCase):
         self.assertIn('"planen.html":"https://example.test/planning"', value)
         self.assertIn('"durchfuehren.html":"https://example.test/planning"', value)
 
+    def test_focus_sync_preserves_existing_line_endings_outside_the_component(self):
+        self.add_focus_component()
+        path=self.path(self.items[0], 'assets/runtime.js')
+        path.write_bytes(path.read_bytes().replace(b'\n',b'\r\n'))
+        self.sync()
+        value=path.read_bytes()
+        self.assertTrue(value.startswith(b'/* Original storage */\r\n'))
+        self.assertTrue(value.endswith(b'(()=>{window.materials="original";})();\r\n'))
+        self.check()
+
     def test_missing_focus_boundary_or_unknown_ai_route_stops_all_writes(self):
         for expression in ["window.unknownAI()", "'https://example.test/coaching'"]:
             with self.subTest(expression=expression):

@@ -194,7 +194,7 @@ def plan(root):
             destination = master.within(folder, rule['target'])
             if not destination.is_file() or (folder / rule['target']).is_symlink():
                 raise ValueError(f'{item["id"]}: Bedienkomponente fehlt oder ist ein Symlink')
-            content = focus_region(destination.read_text(encoding='utf-8'), source_bytes[rule['source']].decode('utf-8'))
+            content = focus_region(destination.read_bytes().decode('utf-8'), source_bytes[rule['source']].decode('utf-8'))
             stage(destination, content.encode(), package_changes, folder)
         for rule in spec.get('regions', []):
             for name in rule['targets']:
