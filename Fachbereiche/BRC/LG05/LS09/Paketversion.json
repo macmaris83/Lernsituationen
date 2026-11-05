@@ -1,5 +1,5 @@
 {
-  "version": "1.8.9",
+  "version": "1.8.10",
   "referenceMaster": "macmaris83/Lernsituationen/Lieferungen/BioCasa_LG01/BRC_LG01_LS04_v1.8_SCORM12.zip",
   "referenceCommit": "bc1e1a914a79d95a1efa70d2761174972ee055fa",
   "scope": "Logik- und Lösbarkeitskorrektur aller Aufgaben; kontextnahe Fachbegriffe; konsistente Zeitplanung; gespeicherte Selbsteinschätzung 1–5; synchrone A4-/GoodNotes-PDFs; Orientierungs-Kurzfragen entfernt, fallbezogene MC-Antworten angeglichen, Editor-Symbolgröße und SCORM-Export repariert; Lehrbuchbezüge nach Aufträgen, Absatz- und Ausrichtungsverbesserung, Kompetenznetz nach Reflektieren; KI-Hinweise in Aufgaben entfernt; Lehrkraft-Walkthrough; Aufgabenzeiten im Editor; Gesamt-PDFs durchgehend nummeriert",
@@ -10,5 +10,5 @@
   "formVersion": "1.8.8",
   "updated": "2026-11-03",
   "changes": "Gemeinsamer Formstand: kompakte Orientierung, Materialzugriff, XP im Footer, ausdrücklicher speicherbestätigter Abschluss und Wiederaufnahme. Aufgaben, Kennungen, Lernstände und vorhandene Bewertungslogik erhalten.",
-  "formSourceSha256": "11211eebd0f93cb71bdca10a5a15b32e209dcdb33d3455408d517b5386f48e41"
+  "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
 }
