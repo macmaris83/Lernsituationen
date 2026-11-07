@@ -1,0 +1,11 @@
+{
+  "version": "1.8.10",
+  "formVersion": "1.8.8",
+  "updated": "2026-11-07",
+  "changes": "Eigenständiger LS-Master mit derselben CSS-Kaskade und Seitenstruktur wie BRC LG01 LS03.",
+  "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04",
+  "designReference": {
+    "id": "BRC-LG01-LS03",
+    "commit": "e078eb9698954cad17b22f090c212597996fa05b"
+  }
+}

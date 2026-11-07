@@ -7,8 +7,7 @@ am in [`manifest.json`](manifest.json) dokumentierten Commit. Die Dateien unter
 Lernsituationen übernommen. Die Dateien in den einzelnen Paketen sind die daraus
 erzeugten, lokal ausführbaren Kopien.
 
-Die gemeinsame Quelle umfasst aktuell **20 Lernsituationen und beide
-Lernsituationsvorlagen**. Maßgeblich ist der `master-katalog.json`: Alle Einträge
+Die gemeinsame Quelle umfasst die registrierten Lernsituationen und ihre Vorlagen, einschließlich des [LS-Masters im BRC-Design](../Vorlagen/LS-Master/). Maßgeblich ist der `master-katalog.json`: Alle Einträge
 mit `typ: "Lernsituation"` sowie `VORLAGE-TRADIERT` und
 `VORLAGE-FUENF-LERNWEGE` werden automatisch berücksichtigt. Eine später neu
 registrierte Lernsituation gehört damit ebenfalls zum Geltungsbereich und muss
@@ -69,7 +68,7 @@ Synchronisierung und Tests vorbeilaufen: Die Prüfung bricht dann mit seinem Pfa
 ab. Eine vollständige fremde Runtime wird weiterhin niemals kopiert.
 
 `python tools/form_master.py inventory` zeigt den tatsächlichen Bestand.
-Bei dieser Umstellung sind es 13 BRC-LS, 7 Geschichts-LS und beide LS-Vorlagen.
+Registriert sind 13 BRC-LS, 7 Geschichts-LS, der LS-Master im BRC-Design und die beiden bisherigen LS-Vorlagen.
 **BFS dual und ReNo haben auf `main` noch keine registrierten LS-Master.** Der
 ReNo-Ordner enthält nur einen Platzhalter. Außerhalb des Repositories erstellte
 Pakete müssen zunächst als aktuelle entpackte Master übernommen und auf die

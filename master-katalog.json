@@ -532,6 +532,17 @@
       "archiveStem": "Identitaet_und_Nation",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
+    },
+    {
+      "id": "LS-MASTER",
+      "title": "LS-Master im BRC-Design",
+      "bereich": "Vorlagen",
+      "typ": "Lernsituation",
+      "master": "Vorlagen/LS-Master",
+      "version": "1.8.10",
+      "archiveStem": "LS_Master_BRC",
+      "formVersion": "1.8.8",
+      "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
     }
   ]
 }

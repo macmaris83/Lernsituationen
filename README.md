@@ -11,14 +11,14 @@ Frühere Fassungen bleiben in der Git-Historie nachvollziehbar.
 | BRC · BioCasa OS | [Lernunternehmen: Quellcode, Tests und Codex-Einstieg](Fachbereiche/BRC/BioCasaOS/) |
 | BRC · BioCasa LG01 | [Sechs Lernsituationen](Fachbereiche/BRC/LG01/) |
 | Sozialpädagogik | [30 Lernpfadübungen](Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/) |
-| ReNo | [Bereich für künftige Lernsituationen](Fachbereiche/ReNo/) |
+| ReNo | [Fachbereich mit Einstieg zum LS-Master](Fachbereiche/ReNo/) |
 | Geschichte | [Identität und Nation sowie sechs Julikrise-Rollenpakete](Fachbereiche/Geschichte/) |
-| Gemeinsame Vorlagen | [Tradiert](Vorlagen/Lernsituation_tradiert/) · [Fünf Lernwege](Vorlagen/Lernsituation_fuenf_Lernwege/) · [Lernpfadübung](Vorlagen/Lernpfaduebung/) |
+| Gemeinsame Vorlagen | [LS-Master im BRC-Design](Vorlagen/LS-Master/) · [Tradiert](Vorlagen/Lernsituation_tradiert/) · [Fünf Lernwege](Vorlagen/Lernsituation_fuenf_Lernwege/) · [Lernpfadübung](Vorlagen/Lernpfaduebung/) |
 | Materialoberflächen | [Materialvorlagen](Materialvorlagen/) |
 
 ## Mit Codex weiterarbeiten
 
-Alle 20 vorhandenen Lernsituationen und beide Lernsituationsvorlagen verwenden
+Alle registrierten Lernsituationen und ihre Vorlagen verwenden
 den gemeinsamen **[Formmaster 1.8.8](Formmaster/README.md)**, abgeleitet aus
 „Identität und Nation“ 1.8.8. Gestaltungsänderungen werden dort einmal gepflegt und
 beim Export sowie durch GitHub Actions automatisch in alle Lernsituationen übernommen.
