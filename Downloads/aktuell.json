@@ -692,6 +692,20 @@
       "masterSha256": "0e1cb5af2a901a87138adfe0caf7871536de2880f20490fb4edd25cab76f79c5",
       "archiveSha256": "6fc3fb8d59078b5abe43d05e8592e6e8285237a1465ad96706d4d8ac56f06951",
       "files": 107
+    },
+    {
+      "id": "LS-MASTER",
+      "title": "LS-Master im BRC-Design",
+      "bereich": "Vorlagen",
+      "typ": "Lernsituation",
+      "master": "Vorlagen/LS-Master",
+      "version": "1.8.10",
+      "formVersion": "1.8.8",
+      "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04",
+      "archive": "Downloads/LS-MASTER/LS_Master_BRC_v1.8.10_SCORM12.zip",
+      "masterSha256": "b557cf3880754c6d364f4512ea9f840041b16a7055ef6f3f97c8e8b0f581af66",
+      "archiveSha256": "952a235f6c0b7c6099341aeda45d621b57fc52ac5bbc0d599b47d8f3bdaaa783",
+      "files": 137
     }
   ]
 }
