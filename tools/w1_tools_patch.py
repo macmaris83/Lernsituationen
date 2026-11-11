@@ -18,6 +18,7 @@ CORE_CHECK = r'''
     assert.equal(K.initial(M,5).m,1,'initial state rejects a removed learning path');
     const original=fullState(first), foreign=JSON.parse(JSON.stringify(original));
     foreign.m=5;foreign.t={};
+    foreign.a.assessments=Object.fromEntries(M.competencies.map(c=>[c.id,{after:3,evidence:'Vorhandener Arbeitsbeleg'}]));
     for(const [id,t] of Object.entries(M.tasks))foreign.t[id.replace(/:1:/,':5:')]=t.signature;
     foreign.a.feedback='Bestehendes Feedback';foreign.a.nextGoal='Mein Lernziel';
     const restored=K.sanitize(foreign,M,5);
