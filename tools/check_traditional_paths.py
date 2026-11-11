@@ -100,7 +100,7 @@ def main():
             if field=='workbooks':assert set(value)<={'1'},(key,field)
             else:
                 for phase,modes in value.items():assert set(modes)<={'1'},(key,field,phase)
-        cfg=json.loads((master/'Konfiguration.json').read_text())
+        cfg=json.loads((master/'Konfiguration.json').read_text()) if (master/'Konfiguration.json').is_file() else payload(master/'mode-config.js')
         assert cfg.get('mode',1)==1 and not cfg.get('allowStudentMode',False),(key,'Configuration permits another path')
         paths=cfg.get('learningPaths',{})
         if isinstance(paths,dict):assert set(paths)<={'1'},(key,'Editor paths')
