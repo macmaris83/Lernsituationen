@@ -218,73 +218,73 @@
   "4": [
     {
       "title": "Finanzierungslücke",
-      "question": "Was bedeutet die Finanzierungslücke von 1.048.000 Euro im BioCasa-Fall?",
+      "question": "Was bedeutet die Finanzierungslücke von 1.048.000 Euro?",
       "options": [
-        "Sie ist das bereits vollständig eingezahlte Stammkapital der BioCasa GmbH.",
-        "Sie ist der Netto-Umsatz, der im Stressszenario sicher erzielt wird.",
-        "Sie ist der Kaufpreis der Produktions- und Tiefkühllinie allein.",
-        "Sie ist ein zusätzlicher Überschuss nach Abzug sämtlicher Finanzierungszahlungen.",
-        "Sie ist der verbleibende Kapitalbedarf bei Barkauf aller Anlagen nach Abzug der verfügbaren Eigenmittel.",
-        "Sie ist die Summe der Kosten für die zwei Termine bei Berg & Macher."
+        "Sie ist der bereits erzielte Gewinn von BioCasa.",
+        "Sie ist die bereits zugesagte Beteiligung des Angel-Teams.",
+        "Sie ist der gesamte Kapitalbedarf einschließlich aller Eigenmittel.",
+        "Sie ist die Reserve, die zusätzlich zum Kapitalbedarf angesetzt wird.",
+        "Sie ist der nach Abzug der vorhandenen Eigenmittel noch ungedeckte Kapitalbedarf.",
+        "Sie ist der Betrag, den jede einzelne Angel-Person investieren soll."
       ],
       "correct": 4,
-      "feedback": "M1 nennt 1.410.500 Euro Kapitalbedarf und 362.500 Euro Eigenmittel. Die Differenz beträgt 1.048.000 Euro. Beim Leasing verändert sich der direkt zu finanzierende Bedarf; die Leasingbelastung bleibt zu berücksichtigen."
+      "feedback": "1.410.500 Euro Kapitalbedarf minus 362.500 Euro Eigenmittel ergeben 1.048.000 Euro noch fehlendes Kapital."
     },
     {
-      "title": "Stressprüfung",
-      "question": "Warum fordert die Bank zusätzlich eine Stressprüfung?",
+      "title": "Kapital und Erfahrung",
+      "question": "Was beschreibt die vorgesehene Rolle des Business-Angel-Teams am besten?",
       "options": [
-        "Um die Finanzierung allein nach dem höchsten erwarteten Umsatz auszuwählen.",
-        "Um die Rückfragen im Finanzierungsgespräch vollständig entfallen zu lassen.",
-        "Um zu prüfen, ob der Finanzierungsmix auch bei schwächerem Absatz die Zahlungsfähigkeit ausreichend schützt.",
-        "Um die Eigenmittel ohne Begründung aus der Planung zu entfernen.",
-        "Um die Produktqualität unabhängig von Kapazität und Kosten festzulegen.",
-        "Um sämtliche Risiken durch eine günstigere Präsentationsgestaltung zu beseitigen."
+        "Es schenkt BioCasa Geld und verzichtet auf jede Gegenleistung.",
+        "Es ersetzt ausschließlich die technische Wartung der Anlage.",
+        "Es könnte Kapital gegen Anteile sowie Erfahrung und Kontakte einbringen.",
+        "Es garantiert, dass BioCasa künftig Gewinne erzielt.",
+        "Es vergibt in diesem Fall einen gewöhnlichen Kredit mit festem Tilgungsplan.",
+        "Es muss nach einem überzeugenden Vortrag sofort investieren."
       ],
       "correct": 2,
-      "feedback": "Im Stressszenario sinkt der Absatz um 20 Prozent. Die Finanzierung muss auch unter schlechteren Bedingungen hinsichtlich fester Belastungen und Liquidität beurteilt werden; ein guter Planfall allein genügt nicht."
+      "feedback": "Im Unterrichtsfall geht es um eine Unternehmensbeteiligung. Neben Kapital erhofft sich BioCasa Know-how und Kontakte. Eine Investitionszusage besteht noch nicht."
     },
     {
-      "title": "Finanzierungsvergleich",
-      "question": "Nach welchen Gesichtspunkten muss das Team die Finanzierungsmöglichkeiten vergleichen?",
+      "title": "Anteilangebot",
+      "question": "Wie sind die angebotenen 20 Prozent Unternehmensanteile zu verstehen?",
       "options": [
-        "Nur nach dem niedrigsten Zinssatz, ohne weitere Vertragswirkungen.",
-        "Nur nach dem langfristigen Eigentum an der Produktionslinie.",
-        "Nur nach Christians Wunsch, alle Anlagen sofort zu kaufen.",
-        "Nur nach der Höhe der kurzfristig verfügbaren Kontokorrentlinie.",
-        "Nur nach der Zahl der Seiten im jeweiligen Angebot.",
-        "Nach Kosten, Liquiditätsbelastung, Fristen, Eigentum, Flexibilität und Risiken im BioCasa-Fall."
+        "Jede Person im Angel-Team soll einzeln 20 Prozent erhalten.",
+        "Das Angel-Team erhält garantiert 20 Prozent Gewinn im Jahr.",
+        "20 Prozent sind der fest vereinbarte Kreditzins.",
+        "Das Gründerteam behält nach einer Beteiligung weiterhin 100 Prozent der Anteile.",
+        "Die 20 Prozent beweisen bereits, dass die Unternehmensbewertung richtig ist.",
+        "Sie sind eine Verhandlungsannahme für das gesamte Angel-Team; zusammen 80 Prozent verblieben beim Gründerteam."
       ],
       "correct": 5,
-      "feedback": "Kauf mit Darlehen, Leasing und Kontokorrent wirken unterschiedlich. Ein fachlicher Vergleich berücksichtigt mehrere Kriterien sowie den Plan- und Stressfall, statt ein einzelnes Merkmal automatisch entscheiden zu lassen."
+      "feedback": "Die 20 Prozent gelten zusammen für das Angel-Team. Sie sind eine gesetzte Gesprächsgrundlage, keine Zusage und keine hergeleitete Unternehmensbewertung."
     },
     {
-      "title": "Liquidität",
-      "question": "Wie ist der ausgewiesene operative Zahlungsmittelüberschuss aus dem Planszenario zu verstehen?",
+      "title": "Restfinanzierung",
+      "question": "Was gilt selbst dann, wenn die angefragten 300.000 Euro tatsächlich zugesagt werden?",
       "options": [
-        "Als vereinfachter Planwert vor Finanzierung, der keine jederzeit sicher verfügbare freie Liquidität garantiert.",
-        "Als bereits eingegangener Bankkredit zur Finanzierung der Produktionslinie.",
-        "Als Garantie, dass Zahlungsziele und Anlaufabweichungen keine Wirkung mehr haben.",
-        "Als zusätzlicher Eigenkapitalbeitrag der vier Gründerpersonen.",
-        "Als reiner Umsatzwert, der keinerlei operative Auszahlungen berücksichtigt.",
-        "Als Betrag, der nach allen Steuern und Finanzierungszahlungen automatisch frei bleibt."
+        "748.000 Euro bleiben offen und müssen vor dem geplanten Start gesichert werden.",
+        "Der gesamte Kapitalbedarf ist damit automatisch gedeckt.",
+        "Die vorhandenen Eigenmittel werden dadurch überflüssig.",
+        "Die Reserve von 214.000 Euro muss nochmals zusätzlich addiert werden.",
+        "Es entsteht automatisch ein zusätzlicher Gewinn von 300.000 Euro.",
+        "BioCasa kann jede weitere Finanzierung ohne Prüfung als gesichert betrachten."
       ],
       "correct": 0,
-      "feedback": "M1 grenzt den vereinfachten operativen Überschuss ausdrücklich von sicherer freier Liquidität ab. Zahlungszeitpunkte, Steuern, Finanzierung und ungeplante Auszahlungen müssen zusätzlich in der Liquiditätsplanung berücksichtigt werden."
+      "feedback": "1.048.000 Euro Finanzierungslücke minus 300.000 Euro Beteiligung ergeben 748.000 Euro Restbedarf. Bis zu einer echten Zusage sind auch die 300.000 Euro noch nicht verfügbar."
     },
     {
-      "title": "Auftrag an das Team",
-      "question": "Was muss BioCasa im 15-minütigen Finanzierungstermin vor allem überzeugend vertreten?",
+      "title": "Ehrlicher Pitch",
+      "question": "Was muss der kurze Pitch leisten?",
       "options": [
-        "Eine bereits eingetragene Rechtsform ohne Darstellung der Finanzierung.",
-        "Einen begründeten Finanzierungsmix mit Belastungsvergleich, Stressprüfung und konkreten Risikomaßnahmen.",
-        "Einen möglichst optimistischen Umsatzwert ohne erkennbare Annahmen.",
-        "Die Forderung, dass die Bank sämtliches unternehmerisches Risiko übernimmt.",
-        "Ausschließlich die Gestaltung der Verpackung für die drei Startprodukte.",
-        "Eine fertige Auftragsakte zur Bearbeitung des ersten Großauftrags."
+        "Die gesamte Finanzierung mit einem detaillierten Tilgungsplan neu berechnen.",
+        "Geschäftsidee, Team und Kapitalanfrage mit Anteilangebot, Verwendung, Restlücke und einem Risiko verständlich erklären.",
+        "Eine sichere Beteiligungszusage verkünden, damit das Publikum überzeugt ist.",
+        "Die noch fehlenden 748.000 Euro aus Zeitgründen verschweigen.",
+        "Alle Einzelheiten des Businessplans auf möglichst vielen Folien vorlesen.",
+        "Ausschließlich ein attraktives Logo und Produktbilder zeigen."
       ],
       "correct": 1,
-      "feedback": "Das Pitchdeck mit mündlichem Finanzierungspitch muss zeigen, warum der Mix zur Unternehmensplanung passt und auch kritischen Rückfragen standhält. Transparente Risiken und Maßnahmen gehören dazu."
+      "feedback": "Vorgesehen sind höchstens fünf Folien, vier Minuten Pitch und zwei Minuten Rückfragen. Wenige richtige Zahlen und eine ehrliche Kapitalanfrage tragen die Darstellung."
     }
   ],
   "5": [

@@ -1101,353 +1101,183 @@
   },
   "LS04:informieren:1:1": {
     "kind": "individual",
-    "label": "Einzelarbeit",
-    "reason": "Die Finanzierungsproblemdiagnose beginnt eigenständig mit Kapitalbedarf, Eigenmitteln und Lücke."
+    "label": "Einzelarbeit"
   },
   "LS04:informieren:1:2": {
-    "kind": "expert-group",
-    "label": "Expertengruppen · Finanzierung",
-    "reason": "Die Finanzierungsformen werden in den vorgesehenen Fachgruppen parallel erschlossen."
-  },
-  "LS04:informieren:1:3": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Darlehen",
-    "reason": "Die Darlehensexpertise erklärt den vollständigen Rechenweg."
-  },
-  "LS04:informieren:1:4": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Kontokorrent",
-    "reason": "Die Kontokorrentexpertise klärt Kosten und verbleibende Rückzahlungsverpflichtung."
-  },
-  "LS04:informieren:1:5": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Leasing",
-    "reason": "Die Leasingexpertise vergleicht Gesamtbetrag, Kaufpreis und Aussagegrenzen."
-  },
-  "LS04:informieren:1:6": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Tragfähigkeit",
-    "reason": "Die Tragfähigkeitsexpertise prüft Plan- und Stressszenario nachvollziehbar."
-  },
-  "LS04:informieren:1:7": {
-    "kind": "group",
-    "label": "Vierergruppe",
-    "reason": "Der Vergleich der Finanzierungsmixe führt die unterschiedlichen Fachbeiträge zusammen."
-  },
-  "LS04:informieren:1:8": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Fachinformation",
-    "reason": "Jede Expertise vermittelt ihren Fachbeitrag mit sichtbaren Rechenwegen."
+    "kind": "pair",
+    "label": "Partnerarbeit"
   },
   "LS04:informieren:2:1": {
     "kind": "individual",
-    "label": "Einzelarbeit",
-    "reason": "Die eigene Sichtung beginnt mit dem Zusammenhang zwischen Kapitalbedarf, Eigenmitteln und Lücke."
+    "label": "Einzelarbeit"
   },
   "LS04:informieren:2:2": {
-    "kind": "expert-group",
-    "label": "Expertengruppen · Finanzierung",
-    "reason": "Darlehen, Kontokorrent und Leasing werden in den angekündigten Expertisen geprüft."
-  },
-  "LS04:informieren:2:3": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Tragfähigkeit",
-    "reason": "Die Tragfähigkeitsexpertise führt Plan-/Stressrechnung und Vergleich der Kombinationen zusammen."
-  },
-  "LS04:informieren:2:4": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Fachinformation",
-    "reason": "Die fünfminütige Fachinformation sichert nachvollziehbare Rechnungen für alle."
+    "kind": "pair",
+    "label": "Partnerarbeit"
   },
   "LS04:informieren:3:1": {
     "kind": "individual",
-    "label": "Einzelarbeit (Empfehlung)",
-    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "label": "Einzelarbeit"
   },
   "LS04:informieren:3:2": {
-    "kind": "expert-group",
-    "label": "Expertengruppen (Empfehlung)",
-    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
-  },
-  "LS04:informieren:3:3": {
-    "kind": "expert-group",
-    "label": "Expertengruppen (Empfehlung)",
-    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
-  },
-  "LS04:informieren:3:4": {
-    "kind": "group",
-    "label": "Gruppenarbeit (Empfehlung)",
-    "reason": "Der gemeinsame Zwischenstand wird erklärt und auf Nachvollziehbarkeit geprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "kind": "pair",
+    "label": "Partnerarbeit"
   },
   "LS04:informieren:4:1": {
     "kind": "individual",
-    "label": "Einzelarbeit (Empfehlung)",
-    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "label": "Einzelarbeit"
   },
   "LS04:informieren:4:2": {
-    "kind": "expert-group",
-    "label": "Expertengruppen (Empfehlung)",
-    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
-  },
-  "LS04:informieren:4:3": {
-    "kind": "expert-group",
-    "label": "Expertengruppen (Empfehlung)",
-    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "kind": "pair",
+    "label": "Partnerarbeit"
   },
   "LS04:informieren:5:1": {
     "kind": "individual",
-    "label": "Einzelarbeit (Empfehlung)",
-    "reason": "Der eigene Erstzugang zur Ausgangslage sichert ein persönliches Problemverständnis, bevor Untersuchung und Kooperation organisiert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "label": "Einzelarbeit"
   },
   "LS04:informieren:5:2": {
-    "kind": "expert-group",
-    "label": "Expertengruppen (Empfehlung)",
-    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
-  },
-  "LS04:informieren:5:3": {
-    "kind": "expert-group",
-    "label": "Expertengruppen (Empfehlung)",
-    "reason": "Die umfangreichen Fachbereiche lassen sich arbeitsteilig erschließen; Ergebnisse müssen anschließend gemeinsam verstanden und gesichert werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
-  },
-  "LS04:informieren:5:4": {
-    "kind": "group",
-    "label": "Gruppenarbeit (Empfehlung)",
-    "reason": "Der gemeinsame Zwischenstand wird erklärt und auf Nachvollziehbarkeit geprüft. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "kind": "pair",
+    "label": "Partnerarbeit"
   },
   "LS04:planen:1:1": {
     "kind": "group",
-    "label": "Vierergruppe",
-    "reason": "Finanzierungskriterien wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+    "label": "Pitchteam"
   },
   "LS04:planen:1:2": {
     "kind": "group",
-    "label": "Vierergruppe",
-    "reason": "Pitchrollen wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
-  },
-  "LS04:planen:1:3": {
-    "kind": "pair",
-    "label": "Partnerarbeit",
-    "reason": "Visualisierung wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
-  },
-  "LS04:planen:1:4": {
-    "kind": "pair",
-    "label": "Partnerarbeit",
-    "reason": "Rückfragen wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+    "label": "Pitchteam"
   },
   "LS04:planen:2:1": {
     "kind": "group",
-    "label": "Vierergruppe",
-    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+    "label": "Pitchteam"
   },
   "LS04:planen:2:2": {
     "kind": "group",
-    "label": "Vierergruppe",
-    "reason": "Arbeitsfolge, Kriterien und Verantwortlichkeiten werden gemeinsam abgestimmt; die angebotenen Strukturhilfen bleiben wählbar."
+    "label": "Pitchteam"
   },
   "LS04:planen:3:1": {
     "kind": "group",
-    "label": "Gruppenarbeit (Empfehlung)",
-    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "label": "Pitchteam"
   },
   "LS04:planen:3:2": {
     "kind": "group",
-    "label": "Gruppenarbeit (Empfehlung)",
-    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
-  },
-  "LS04:planen:3:3": {
-    "kind": "pair",
-    "label": "Partnerarbeit (Empfehlung)",
-    "reason": "Entwürfe und fachliche Abhängigkeiten können im Tandem vorbereitet und danach gemeinsam vereinbart werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
-  },
-  "LS04:planen:3:4": {
-    "kind": "pair",
-    "label": "Partnerarbeit (Empfehlung)",
-    "reason": "Entwürfe und fachliche Abhängigkeiten können im Tandem vorbereitet und danach gemeinsam vereinbart werden. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "label": "Pitchteam"
   },
   "LS04:planen:4:1": {
     "kind": "group",
-    "label": "Gruppenarbeit (Empfehlung)",
-    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "label": "Pitchteam"
   },
   "LS04:planen:4:2": {
     "kind": "group",
-    "label": "Gruppenarbeit (Empfehlung)",
-    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "label": "Pitchteam"
   },
   "LS04:planen:5:1": {
     "kind": "group",
-    "label": "Gruppenarbeit (Empfehlung)",
-    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "label": "Pitchteam"
   },
   "LS04:planen:5:2": {
     "kind": "group",
-    "label": "Gruppenarbeit (Empfehlung)",
-    "reason": "Das Team legt Arbeitsplan, Rollen, Kriterien und interne Freigaben eigenverantwortlich fest. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
-  },
-  "LS04:planen:5:3": {
-    "kind": "group",
-    "label": "Gruppenarbeit (Empfehlung)",
-    "reason": "Die gemeinsame Planfreigabe verlangt übereinstimmende Zuständigkeiten, Termine und Qualitätsstandards. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "label": "Pitchteam"
   },
   "LS04:entscheiden:1:1": {
     "kind": "group",
-    "label": "Vierergruppe · Finanzierung",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+    "label": "Pitchteam"
   },
   "LS04:entscheiden:1:2": {
     "kind": "group",
-    "label": "Vierergruppe · Finanzierung",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
-  },
-  "LS04:entscheiden:1:3": {
-    "kind": "group",
-    "label": "Vierergruppe · Finanzierung",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
-  },
-  "LS04:entscheiden:1:4": {
-    "kind": "group",
-    "label": "Vierergruppe · Finanzierung",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+    "label": "Pitchteam"
   },
   "LS04:entscheiden:2:1": {
     "kind": "group",
-    "label": "Vierergruppe · Finanzierung",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+    "label": "Pitchteam"
   },
   "LS04:entscheiden:2:2": {
     "kind": "group",
-    "label": "Vierergruppe · Finanzierung",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+    "label": "Pitchteam"
   },
   "LS04:entscheiden:3:1": {
     "kind": "group",
-    "label": "Gruppenarbeit (Empfehlung)",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "label": "Pitchteam"
   },
   "LS04:entscheiden:3:2": {
     "kind": "group",
-    "label": "Gruppenarbeit (Empfehlung)",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
-  },
-  "LS04:entscheiden:3:3": {
-    "kind": "group",
-    "label": "Gruppenarbeit (Empfehlung)",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "label": "Pitchteam"
   },
   "LS04:entscheiden:4:1": {
     "kind": "group",
-    "label": "Vierergruppe · Finanzierung",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
+    "label": "Pitchteam"
   },
   "LS04:entscheiden:4:2": {
     "kind": "group",
-    "label": "Gruppe · Checkpoint mit Lehrkraft",
-    "reason": "Die Gruppe stellt der Lehrkraft Entscheidung, Belege und Alternativen vor; die unternehmerische Wahl bleibt bei den Lernenden."
+    "label": "Pitchteam"
   },
   "LS04:entscheiden:5:1": {
     "kind": "group",
-    "label": "Gruppenarbeit (Empfehlung)",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "label": "Pitchteam"
   },
   "LS04:entscheiden:5:2": {
     "kind": "group",
-    "label": "Gruppenarbeit (Empfehlung)",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
-  },
-  "LS04:entscheiden:5:3": {
-    "kind": "group",
-    "label": "Gruppenarbeit (Empfehlung)",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "label": "Pitchteam"
   },
   "LS04:durchfuehren:1:1": {
     "kind": "group",
-    "label": "Pitchteam · Vier Sprechrollen",
-    "reason": "Die Präsentation ist eine gemeinsame Leistung; alle Teammitglieder tragen vor und bleiben fachlich auskunftsfähig. Die vorgesehene Rolle des Finanzierungsgremiums bleibt erhalten."
+    "label": "Pitchteam und Rückmeldegruppe"
   },
   "LS04:durchfuehren:2:1": {
     "kind": "group",
-    "label": "Pitchteam · Vier Sprechrollen",
-    "reason": "Die Präsentation ist eine gemeinsame Leistung; alle Teammitglieder tragen vor und bleiben fachlich auskunftsfähig. Die vorgesehene Rolle des Finanzierungsgremiums bleibt erhalten."
+    "label": "Pitchteam und Rückmeldegruppe"
   },
   "LS04:durchfuehren:3:1": {
     "kind": "group",
-    "label": "Pitchteam",
-    "reason": "Die Präsentation ist eine gemeinsame Leistung; alle Teammitglieder tragen vor und bleiben fachlich auskunftsfähig. Die vorgesehene Rolle des Finanzierungsgremiums bleibt erhalten."
+    "label": "Pitchteam und Rückmeldegruppe"
   },
   "LS04:durchfuehren:4:1": {
     "kind": "group",
-    "label": "Pitchteam · Vier Sprechrollen",
-    "reason": "Die Präsentation ist eine gemeinsame Leistung; alle Teammitglieder tragen vor und bleiben fachlich auskunftsfähig. Die vorgesehene Rolle des Finanzierungsgremiums bleibt erhalten."
-  },
-  "LS04:durchfuehren:4:2": {
-    "kind": "group",
-    "label": "Gruppe · Checkpoint mit Lehrkraft",
-    "reason": "Der vollständige gemeinsame Entwurf wird der Lehrkraft vorgestellt; die Gruppe hält Rückmeldungen und notwendige Korrekturen fest."
-  },
-  "LS04:durchfuehren:4:3": {
-    "kind": "group",
-    "label": "Pitchteam · Vier Sprechrollen",
-    "reason": "Die Präsentation ist eine gemeinsame Leistung; alle Teammitglieder tragen vor und bleiben fachlich auskunftsfähig. Die vorgesehene Rolle des Finanzierungsgremiums bleibt erhalten."
+    "label": "Pitchteam und Rückmeldegruppe"
   },
   "LS04:durchfuehren:5:1": {
     "kind": "group",
-    "label": "Pitchteam",
-    "reason": "Die Präsentation ist eine gemeinsame Leistung; alle Teammitglieder tragen vor und bleiben fachlich auskunftsfähig. Die vorgesehene Rolle des Finanzierungsgremiums bleibt erhalten."
-  },
-  "LS04:durchfuehren:5:2": {
-    "kind": "group",
-    "label": "Pitchteam",
-    "reason": "Die Präsentation ist eine gemeinsame Leistung; alle Teammitglieder tragen vor und bleiben fachlich auskunftsfähig. Die vorgesehene Rolle des Finanzierungsgremiums bleibt erhalten."
+    "label": "Pitchteam und Rückmeldegruppe"
   },
   "LS04:bewerten:1:1": {
     "kind": "partner-groups",
-    "label": "Finanzierungsgremium ↔ Pitchteam",
-    "reason": "Ein anderes Team prüft als Finanzierungsgremium; das Pitchteam verarbeitet dessen fachliches Feedback. Selbst organisierte Prüf- und Feedbackgestaltung bleiben erhalten."
+    "label": "Rückmeldegruppe ↔ Pitchteam"
   },
   "LS04:bewerten:2:1": {
     "kind": "partner-groups",
-    "label": "Finanzierungsgremium ↔ Pitchteam",
-    "reason": "Ein anderes Team prüft als Finanzierungsgremium; das Pitchteam verarbeitet dessen fachliches Feedback. Selbst organisierte Prüf- und Feedbackgestaltung bleiben erhalten."
+    "label": "Rückmeldegruppe ↔ Pitchteam"
   },
   "LS04:bewerten:3:1": {
     "kind": "partner-groups",
-    "label": "Finanzierungsgremium ↔ Pitchteam",
-    "reason": "Ein anderes Team prüft als Finanzierungsgremium; das Pitchteam verarbeitet dessen fachliches Feedback. Selbst organisierte Prüf- und Feedbackgestaltung bleiben erhalten."
+    "label": "Rückmeldegruppe ↔ Pitchteam"
   },
   "LS04:bewerten:4:1": {
     "kind": "partner-groups",
-    "label": "Finanzierungsgremium ↔ Pitchteam",
-    "reason": "Ein anderes Team prüft als Finanzierungsgremium; das Pitchteam verarbeitet dessen fachliches Feedback. Selbst organisierte Prüf- und Feedbackgestaltung bleiben erhalten."
+    "label": "Rückmeldegruppe ↔ Pitchteam"
   },
   "LS04:bewerten:5:1": {
     "kind": "partner-groups",
-    "label": "Finanzierungsgremium ↔ Pitchteam",
-    "reason": "Ein anderes Team prüft als Finanzierungsgremium; das Pitchteam verarbeitet dessen fachliches Feedback. Selbst organisierte Prüf- und Feedbackgestaltung bleiben erhalten."
+    "label": "Rückmeldegruppe ↔ Pitchteam"
   },
   "LS04:reflektieren:1:1": {
     "kind": "individual",
-    "label": "Einzelarbeit",
-    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+    "label": "Einzelarbeit"
   },
   "LS04:reflektieren:2:1": {
     "kind": "individual",
-    "label": "Einzelarbeit",
-    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+    "label": "Einzelarbeit"
   },
   "LS04:reflektieren:3:1": {
     "kind": "individual",
-    "label": "Einzelarbeit (Empfehlung)",
-    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "label": "Einzelarbeit"
   },
   "LS04:reflektieren:4:1": {
     "kind": "individual",
-    "label": "Einzelarbeit",
-    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
+    "label": "Einzelarbeit"
   },
   "LS04:reflektieren:5:1": {
     "kind": "individual",
-    "label": "Einzelarbeit (Empfehlung)",
-    "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten. Die konkrete Sozialform, Arbeitsteilung und Gruppengröße bleiben im Rahmen des ursprünglichen Auftrags selbst wählbar."
+    "label": "Einzelarbeit"
   },
   "LS05:informieren:1:1": {
     "kind": "individual",
