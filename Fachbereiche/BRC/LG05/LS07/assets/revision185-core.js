@@ -1,10 +1,11 @@
+/* Tradiert: W1 only; existing task identities are retained. */
 (()=>{'use strict';
 const D=window.SOZPAED,C=window.SOZ_CONFIG||{};if(!D||window.SOZ_TEACHER_VIEW)return;
 const key='soz-teacher-view:'+D.id+':'+location.pathname.replace(/[^/]+$/,'')+':'+(C.packageRevision||'base');
 let value=null;try{value=JSON.parse(sessionStorage.getItem(key)||'null');}catch{}
 const active=value?.active===true;let learner='';try{learner=window.parent.SOZ_SCORM?.learner||'';}catch{}
-window.SOZ_TEACHER_VIEW={active,learner,get mode(){return Number(value?.mode)||Number(C.mode)||1;}};
-function remember(mode){value={active:true,mode:Number(mode)||1};sessionStorage.setItem(key,JSON.stringify(value));}
+window.SOZ_TEACHER_VIEW={active,learner,get mode(){return 1;}};
+function remember(mode){value={active:true,mode:1};sessionStorage.setItem(key,JSON.stringify(value));}
 function init(){
  try{if(window.parent!==window){const notice=window.parent.document.querySelector('[data-scorm-notice]');if(notice){notice.hidden=active||!window.parent.SOZ_SCORM?.message;if(!active)notice.textContent=window.parent.SOZ_SCORM?.message||'';}}}catch{}
  document.querySelectorAll('.footer-utils a[href="lehrkraft.html"]').forEach(a=>{a.innerHTML="<svg class=\"editor-settings-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 2 2h3l1-3 3-1 2-3-2-2 1-3-2-3-3 1-2-2z\"/><circle cx=\"12\" cy=\"11\" r=\"3\"/></svg><span>Editor</span>";a.setAttribute('aria-label','Editor öffnen');});

@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Build the six BioCasa SCORM packages from the supplied narrative series.
 
-The latest five-path template supplies the application, editor and SCORM code.
+The existing BRC template supplies application, editor and SCORM code.
+Only the traditional path W1 is generated; its content source is authoritative.
 Pandoc preserves source prose, lists, tables and links. Only competency perspective
 and added task time estimates change editorial presentation.
 """
@@ -17,7 +18,7 @@ TEMPLATE = REPO/'Vorlagen/Lernsituation_fuenf_Lernwege'
 OUT = REPO/'Fachbereiche/BRC/LG01'
 PHASES = ['informieren','planen','entscheiden','durchfuehren','bewerten','reflektieren']
 NAMES = ['Informieren','Planen','Entscheiden','Durchführen','Überprüfen','Reflektieren']
-MODES = ['Stark geführt','Begleitet','Teiloffen','Selbstgesteuert mit Checkpoints','Löppt']
+MODES = ['Tradiert']
 COLORS = ['#333333','#E6E8EA','#EFF5CE','#E5F5FC','#CCEBF7']
 ESC = lambda s: __import__('html').escape(str(s), quote=True)
 VERSION = '2026-10-14.lg01-reihe.1'
@@ -59,7 +60,7 @@ def load_source(path):
             assert len(phase_sections)==6,(number,mode)
             first=re.search(r'^#### ',value,re.M)
             modes[mode]={'intro':value[:first.start()].strip(),'phases':[v for k,v in phase_sections]}
-        assert sorted(modes)==[1,2,3,4,5]
+        assert sorted(modes)==[1]
         budgets=[]
         for phase in modes[1]['phases']:
             match=re.search(r'\*\*Arbeitszeit:\*\* ([\d,.]+) Unterrichtsstunde',phase)
@@ -182,7 +183,7 @@ def build_content(ls,competencies,questions):
     instructions={};source_counts={}
     for pi,phase in enumerate(PHASES):
         content=hero(NAMES[pi])+access;instructions[phase]={};source_counts[phase]={}
-        for mode in range(1,6):
+        for mode in (1,):
             raw=ls['modes'][mode]['phases'][pi];meta,tasks=metadata_and_tasks(raw,phase);allocated=times(tasks,ls['budgets'][pi]);task_forms=[forms[f'LS{num:02d}:{phase}:{mode}:{i}'] for i in range(1,len(tasks)+1)];instructions[phase][mode]={'meta':meta,'tasks':tasks,'times':allocated,'workforms':task_forms};source_counts[phase][mode]=len(tasks)
             form=meta.get('Arbeitsform','Arbeitsform passend zum Auftrag selbst festlegen; die Symbole geben Empfehlungen.')
             clock='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg>'
@@ -274,7 +275,7 @@ def migration_for(data,meta,baseline):
     aliases={}
     for phase in PHASES:
         doc=H.fragment_fromstring(data['pages'][phase+'.html'],create_parent='div')
-        for mode in range(1,6):
+        for mode in (1,):
             previous=[t for t in baseline['tasks'] if t['phase']==phase and t['mode']==mode]
             cursor=0
             panel=doc.xpath(f'.//*[@data-mode-panel="{mode}"]')[0]
@@ -304,6 +305,8 @@ def main():
     summaries=[];built=[]
     for ls in lessons:
         n=ls['number'];root=OUT/f'LS{n:02d}';root.mkdir(exist_ok=True);(root/'pdf').mkdir(exist_ok=True)
+        for obsolete in root.rglob('*'):
+            if obsolete.is_file() and re.search(r'(?:^|[-_/])W[2-5](?=[._/-]|$)',obsolete.relative_to(root).as_posix(),re.I):obsolete.unlink()
         shutil.copytree(TEMPLATE/'assets',root/'assets',dirs_exist_ok=True)
         # These two old template photographs have no references in the series.
         # The twelve supplied original images replace them without re-encoding.
@@ -326,13 +329,17 @@ def main():
         cc=copy.deepcopy(comps[str(n)])
         for c in cc['competencies']:c['id']=f'BRC-LG01-LS{n:02d}-'+{'Fachkompetenz':'F','Personalkompetenz':'P','Sozialkompetenz':'S','Methodenkompetenz':'M','Medienkompetenz':'D'}[c['label']]
         pages,titles,instructions,counts=build_content(ls,cc,checks[str(n)])
-        data={'id':f'BRC-LG01-LS{n:02d}','title':ls['title'],'version':VERSION,'priorityStatement':cc['priorityStatement'],'competencies':cc['competencies'],'pages':pages,'pageTitles':titles,'printOrder':[p for p in pages if p!='erwartungshorizont.html'],'workbook':f'pdf/GoodNotes_LG01_LS{n:02d}_W1.pdf','workbooks':{str(m):f'pdf/GoodNotes_LG01_LS{n:02d}_W{m}.pdf' for m in range(1,6)},'phaseBudgets':dict(zip(PHASES,ls['budgets'])),'sourceTaskCounts':counts}
-        cfg=json.loads((TEMPLATE/'Konfiguration.json').read_text());cfg.update({'mode':1,'packageRevision':f'BRC-LG01-LS{n:02d}-BILDER-GRUPPEN-20261014','overrides':{},'media':{},'moodle':{}})
+        data={'id':f'BRC-LG01-LS{n:02d}','title':ls['title'],'version':VERSION,'priorityStatement':cc['priorityStatement'],'competencies':cc['competencies'],'pages':pages,'pageTitles':titles,'printOrder':[p for p in pages if p!='erwartungshorizont.html'],'workbook':f'pdf/GoodNotes_LG01_LS{n:02d}_W1.pdf','workbooks':{str(m):f'pdf/GoodNotes_LG01_LS{n:02d}_W{m}.pdf' for m in (1,)},'phaseBudgets':dict(zip(PHASES,ls['budgets'])),'sourceTaskCounts':counts}
+        cfg=json.loads((TEMPLATE/'Konfiguration.json').read_text());cfg.update({'mode':1,'allowStudentMode':False,'learningPaths':{'1':{'label':'Tradiert'}},'packageRevision':f'BRC-LG01-LS{n:02d}-BILDER-GRUPPEN-20261014','overrides':{},'media':{},'moodle':{}})
         (root/'Konfiguration.json').write_text(json.dumps(cfg,ensure_ascii=False,indent=2));(root/'mode-config.js').write_text('window.SOZ_CONFIG='+json.dumps(cfg,ensure_ascii=False)+';\n')
         media={'slots':slots}
         (root/'media-map.js').write_text('window.SOZ_MEDIA='+json.dumps(media,ensure_ascii=False)+';\n');(root/'media-map.json').write_text(json.dumps(media,ensure_ascii=False,indent=2))
         built.append((ls,root,data,instructions))
         summaries.append({'folder':root.name,'id':data['id'],'title':data['title'],'hours':ls['hours'],'budgets':ls['budgets'],'materials':len(ls['materials']),'tasks':counts,'images':picture_info,'zip':f'Downloads/BRC_LG01_LS{n:02d}_SCORM.zip'})
+    # Reused BRC engine files must be made W1-compatible before metadataFrom.
+    # The explicit regeneration command works on existing, registered masters.
+    from migrate_traditional_paths import convert_master
+    for _,root,_,_ in built:convert_master(REPO,root.relative_to(REPO).as_posix())
     # Browser DOM parsing is the same operation the approved editor uses.
     with sync_playwright() as p:
         browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']);page=browser.new_page()
@@ -344,15 +351,15 @@ def main():
             for name,content in data['pages'].items():(root/name).write_text(shell(name,content,ls['title'],ls['number']))
             for name in ['lehrkraft.html','druckansicht.html','scorm.html']:(root/name).write_text(shell(name,'',ls['title'],ls['number']))
             for phase in PHASES:
-                for mode in range(1,6):
+                for mode in (1,):
                     page.set_content(workbook_html(ls,phase,mode,instructions[phase][mode]));file=root/f'pdf/GoodNotes_Phase_{phase}_W{mode}.pdf';page.pdf(path=str(file),print_background=True,prefer_css_page_size=True)
                     payload=base64.b64encode(file.read_bytes()).decode();(root/f'goodnotes-phase-{phase}-W{mode}.js').write_text('window.GOODNOTES_PHASES=window.GOODNOTES_PHASES||{};window.GOODNOTES_PHASES['+json.dumps(phase+':'+str(mode))+']='+json.dumps(payload)+';\n')
-            for mode in range(1,6):
+            for mode in (1,):
                 book=fitz.open()
                 for phase in PHASES:
                     with fitz.open(root/f'pdf/GoodNotes_Phase_{phase}_W{mode}.pdf') as fragment:book.insert_pdf(fragment)
                 book.save(root/f'pdf/GoodNotes_LG01_LS{ls["number"]:02d}_W{mode}.pdf');book.close()
-            print('Built:',root.name,ls['title'],len(result['meta']['tasks']),'tasks; 30 phase PDFs',flush=True)
+            print('Built:',root.name,ls['title'],len(result['meta']['tasks']),'tasks; 6 phase PDFs',flush=True)
         browser.close()
     class Quiet(http.server.SimpleHTTPRequestHandler):
         def log_message(self,*args):pass
@@ -363,8 +370,9 @@ def main():
             for ls,root,data,instructions in built:
                 page.goto(f'http://127.0.0.1:{server.server_port}/'+root.relative_to(REPO).as_posix()+'/druckansicht.html');page.wait_for_function('window.SOZ_READY===true')
                 # A complete printable student document: orientation, situation,
-                # default W1 tasks and all source materials; other ways have books.
+                # traditional W1 tasks and all source materials.
                 page.pdf(path=str(root/f'pdf/LG01_LS{ls["number"]:02d}_Gesamtdruck_A4.pdf'),print_background=True,prefer_css_page_size=True)
+                convert_master(REPO,root.relative_to(REPO).as_posix())
                 manifest(root,ls)
                 target=REPO/f'Downloads/BRC_LG01_LS{ls["number"]:02d}_SCORM.zip'
                 with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED) as z:
@@ -379,7 +387,7 @@ def main():
     collection=REPO/'Downloads/BRC_LG01_PlugAndPlay_Gesamtreihe_SCORM.zip'
     with zipfile.ZipFile(collection,'w',zipfile.ZIP_DEFLATED) as z:
         for lesson in summaries:z.write(REPO/lesson['zip'],Path(lesson['zip']).name)
-        z.writestr('LIESMICH.txt','BioCasa · BRC LG01 · 80 Unterrichtsstunden\nSechs Einzelpakete, jeweils fünf alternative Lernwege.\nDieses Gesamtarchiv zuerst entpacken. In Moodle jede enthaltene SCORM-ZIP als eigene SCORM-Aktivität hochladen.\nDie Lehrkraft wählt den Lernweg im vorhandenen Lehrkräftemodus und exportiert bei Bedarf das konfigurierte Paket.\nPDF-/Druckzugriff und phasenbezogener GoodNotes-Import sind getrennt.\n')
+        z.writestr('LIESMICH.txt','BioCasa · BRC LG01 · 80 Unterrichtsstunden\nSechs Einzelpakete, jeweils ausschließlich tradierter Lernweg W1.\nDieses Gesamtarchiv zuerst entpacken. In Moodle jede enthaltene SCORM-ZIP als eigene SCORM-Aktivität hochladen.\nDie Lehrkraft bearbeitet bei Bedarf das Paket im vorhandenen Editor.\nPDF-/Druckzugriff und phasenbezogener GoodNotes-Import sind getrennt.\n')
     print('Built six individually importable packages and collection:',collection,flush=True)
 
 if __name__=='__main__':main()

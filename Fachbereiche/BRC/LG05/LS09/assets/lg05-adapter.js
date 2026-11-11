@@ -1,6 +1,7 @@
+/* Tradiert: W1 only; existing task identities are retained. */
 (()=>{'use strict';const D=window.SOZPAED,A=window.SOZ_API;if(!D||!A)return;
 const page=document.body.dataset.page,mode=()=>Number(document.body.dataset.mode)||Number(window.SOZ_CONFIG.mode)||1;
-const modeNames=['','Stark geführt','Geführt','Begleitet','Teiloffen','Löppt'];
+const modeNames=['','Tradiert'];
 for(const select of document.querySelectorAll('[data-teacher-mode],[data-student-mode]'))for(const option of select.options)option.textContent=option.value+' · '+modeNames[Number(option.value)];
 function pdfFile(encoded,name){const binary=atob(encoded),bytes=new Uint8Array(binary.length);for(let i=0;i<binary.length;i++)bytes[i]=binary.charCodeAt(i);return new File([bytes],name,{type:'application/pdf'});}
 async function share(file){try{if(navigator.canShare?.({files:[file]}))await navigator.share({files:[file],title:file.name});else A.blobDownload(file,file.name);}catch(error){if(error.name!=='AbortError')A.blobDownload(file,file.name);}}

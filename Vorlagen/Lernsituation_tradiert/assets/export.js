@@ -1,3 +1,4 @@
+/* Tradiert: W1 only; existing task identities are retained. */
 (()=>{'use strict';
 const encode=s=>{const bytes=new TextEncoder().encode(s);let binary='';for(let i=0;i<bytes.length;i+=32768)binary+=String.fromCharCode(...bytes.subarray(i,i+32768));return btoa(binary);};
 const decode=s=>new TextDecoder().decode(Uint8Array.from(atob(s),c=>c.charCodeAt(0)));
@@ -17,13 +18,13 @@ function prepareFiles(base,data,settings){
  for(const [page,content]of Object.entries(cfg.overrides||{})){
   if(!Object.prototype.hasOwnProperty.call(data.pages,page)||!Object.prototype.hasOwnProperty.call(files,page))throw Error('Unbekannte bearbeitete Seite: '+page);
   if(typeof content!=='string')throw Error('Ungültiger Seiteninhalt: '+page);
-  files[page]=encode(replaceContent(decode(files[page]),content,page));edited.pages[page]=content;changed.push(page);
+  files[page]=encode(replaceContent(decode(files[page]),window.SOZ_PROGRESS_CORE.singlePathHTML(content),page));edited.pages[page]=window.SOZ_PROGRESS_CORE.singlePathHTML(content);changed.push(page);
  }
  const K=window.SOZ_PROGRESS_CORE;if(!K)throw Error('Fortschrittslogik fehlt.');
  const meta=K.metadataFrom(edited,new DOMParser());
  for(const page of ['index.html',...K.phases.map(p=>p+'.html')]){files[page]=encode(replaceContent(decode(files[page]),edited.pages[page],page));}
  files['progress-meta.js']=encode('window.SOZ_PROGRESS_META='+JSON.stringify(meta)+';\n');
- cfg.mode=Number(cfg.mode);if(!meta.availableModes.includes(cfg.mode))cfg.mode=meta.availableModes[0];if(!Number.isInteger(cfg.mode)||!meta.availableModes.includes(cfg.mode))throw Error('Ungültige Unterstützungsstufe.');
+ cfg.mode=1;cfg.allowStudentMode=false;cfg.learningPaths={1:{label:'Tradiert'}};
  cfg.overrides={};cfg.packageRevision=new Date().toISOString()+'-'+Math.random().toString(36).slice(2,10);
  files['lesson-data.js']=encode('window.SOZPAED='+JSON.stringify(edited)+';\n');
  for(const [id,value]of Object.entries(cfg.media||{})){if(typeof value.src==='string'&&value.src.startsWith('data:')){const match=value.src.match(/^data:image\/(png|jpeg|webp|gif);base64,([A-Za-z0-9+/=\s]+)$/);if(!match)throw Error('Das Bildformat ist nicht exportierbar: '+id);const name='assets/images/custom-'+id.replace(/[^a-zA-Z0-9_-]/g,'_')+'.'+(match[1]==='jpeg'?'jpg':match[1]);files[name]=match[2].replace(/\s/g,'');value.src=name;}}

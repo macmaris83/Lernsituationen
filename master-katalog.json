@@ -8,7 +8,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS01",
-      "version": "1.8.10",
+      "version": "1.8.11",
       "archiveStem": "BRC_LG01_LS01",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -19,7 +19,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS02",
-      "version": "1.8.10",
+      "version": "1.8.11",
       "archiveStem": "BRC_LG01_LS02",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -30,7 +30,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS03",
-      "version": "1.8.10",
+      "version": "1.8.11",
       "archiveStem": "BRC_LG01_LS03",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -41,7 +41,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS04",
-      "version": "1.8.12",
+      "version": "1.8.13",
       "archiveStem": "BRC_LG01_LS04",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -52,7 +52,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS05",
-      "version": "1.8.10",
+      "version": "1.8.11",
       "archiveStem": "BRC_LG01_LS05",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -63,7 +63,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS06",
-      "version": "1.8.10",
+      "version": "1.8.11",
       "archiveStem": "BRC_LG01_LS06",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -354,7 +354,7 @@
       "bereich": "Vorlagen",
       "typ": "Vorlage",
       "master": "Vorlagen/Lernsituation_tradiert",
-      "version": "1.8.10",
+      "version": "1.8.11",
       "archiveStem": "Vorlage_Lernsituation_tradiert",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -385,7 +385,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS04",
-      "version": "1.8.10",
+      "version": "1.8.11",
       "archiveStem": "BRC_LG05_LS04",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -396,7 +396,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS05",
-      "version": "1.8.10",
+      "version": "1.8.11",
       "archiveStem": "BRC_LG05_LS05",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -407,7 +407,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS06",
-      "version": "1.8.10",
+      "version": "1.8.11",
       "archiveStem": "BRC_LG05_LS06",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -418,7 +418,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS07",
-      "version": "1.8.10",
+      "version": "1.8.11",
       "archiveStem": "BRC_LG05_LS07",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -429,7 +429,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS08",
-      "version": "1.8.10",
+      "version": "1.8.11",
       "archiveStem": "BRC_LG05_LS08",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -440,7 +440,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS09",
-      "version": "1.8.10",
+      "version": "1.8.11",
       "archiveStem": "BRC_LG05_LS09",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -451,7 +451,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG05/LS10",
-      "version": "1.8.10",
+      "version": "1.8.11",
       "archiveStem": "BRC_LG05_LS10",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -462,7 +462,7 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Deutsches_Reich",
-      "version": "1.8.11",
+      "version": "1.8.12",
       "archiveStem": "Julikrise_1914_Deutsches_Reich",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -473,7 +473,7 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Frankreich",
-      "version": "1.8.11",
+      "version": "1.8.12",
       "archiveStem": "Julikrise_1914_Frankreich",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -484,7 +484,7 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Grossbritannien",
-      "version": "1.8.11",
+      "version": "1.8.12",
       "archiveStem": "Julikrise_1914_Grossbritannien",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -495,7 +495,7 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Oesterreich_Ungarn",
-      "version": "1.8.11",
+      "version": "1.8.12",
       "archiveStem": "Julikrise_1914_Oesterreich_Ungarn",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -506,7 +506,7 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Presse",
-      "version": "1.8.11",
+      "version": "1.8.12",
       "archiveStem": "Julikrise_1914_Presse",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -517,7 +517,7 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/Julikrise1914/Team_Russland",
-      "version": "1.8.11",
+      "version": "1.8.12",
       "archiveStem": "Julikrise_1914_Russland",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -528,7 +528,7 @@
       "bereich": "Geschichte",
       "typ": "Lernsituation",
       "master": "Fachbereiche/Geschichte/IdentitaetUndNation/Lernpaket",
-      "version": "1.8.12",
+      "version": "1.8.13",
       "archiveStem": "Identitaet_und_Nation",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
@@ -539,7 +539,7 @@
       "bereich": "Vorlagen",
       "typ": "Lernsituation",
       "master": "Vorlagen/LS-Master",
-      "version": "1.8.10",
+      "version": "1.8.11",
       "archiveStem": "LS_Master_BRC",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"

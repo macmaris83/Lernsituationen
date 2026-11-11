@@ -6,6 +6,19 @@ for(const p of catalog.filter(p=>p.typ==='Lernsituation'||['VORLAGE-TRADIERT','V
  assert.equal(result.status,0,p.id+'\n'+result.stderr+'\n'+result.stdout);
  const current=fs.readFileSync(path.join(root,p.master,'progress-meta.js'),'utf8');
  const baseline=cp.execFileSync('git',['show','HEAD:'+p.master+'/progress-meta.js'],{cwd:root,encoding:'utf8'});
- assert.equal(current,baseline,p.id+': persistent task, orientation and quiz signatures must stay unchanged');
+ if(p.id==='VORLAGE-FUENF-LERNWEGE'){
+  assert.equal(current,baseline,p.id+': five-path template remains unchanged');
+ }else{
+  const parse=source=>JSON.parse(source.slice(source.indexOf('=')+1).trim().replace(/;$/,''));
+  const before=parse(baseline),after=parse(current);
+  const w1=Object.fromEntries(Object.entries(before.tasks).filter(([,task])=>task.mode===1));
+  assert.deepEqual(after.tasks,w1,p.id+': retain every original W1 ID/signature; remove only other paths');
+  for(const field of Object.keys(before).filter(key=>!['tasks','migration','resumePages'].includes(key)))
+   assert.deepEqual(after[field],before[field],p.id+': preserve '+field);
+  for(const [id,rule] of Object.entries(after.migration?.tasks||{})){
+   assert.ok(after.tasks[id]?.mode===1,p.id+': no obsolete task migration');
+   assert.deepEqual(rule,before.migration?.tasks?.[id],p.id+': preserve valid W1 migration');
+  }
+ }
  console.log('PASS',p.id,'completion, failures, retry, reopen, unchanged signatures');
 }

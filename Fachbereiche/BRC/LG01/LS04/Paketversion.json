@@ -1,7 +1,7 @@
 {
-  "version": "1.8.12",
+  "version": "1.8.13",
   "formVersion": "1.8.8",
   "updated": "2026-11-11",
-  "changes": "Titelkasten mit Rahmen und Überschrift auf der Orientierung ergänzt. Aufgaben, Zeitangaben und Aufgabensignaturen unverändert; Lesemarkierung der bisherigen Orientierung über eine zielgebundene Migration erhalten.",
+  "changes": "Ausschließlich tradierter Lernweg 1. Alternative Aufgaben, Lernwege und PDF-Dateien entfernt; W1-Aufgaben, Kennungen, PDFs und vorhandene Lernstände erhalten.",
   "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
 }

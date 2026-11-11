@@ -1,3 +1,4 @@
+/* Tradiert: W1 only; existing task identities are retained. */
 (()=>{'use strict';
 const encode=s=>{const bytes=new TextEncoder().encode(s);let binary='';for(let i=0;i<bytes.length;i+=32768)binary+=String.fromCharCode(...bytes.subarray(i,i+32768));return btoa(binary);};
 const decode=s=>new TextDecoder().decode(Uint8Array.from(atob(s),c=>c.charCodeAt(0)));
@@ -57,7 +58,7 @@ function prepareFiles(base,data,settings){
  for(const [page,content]of Object.entries(cfg.overrides||{})){
   if(!Object.prototype.hasOwnProperty.call(data.pages,page)||!Object.prototype.hasOwnProperty.call(files,page))throw Error('Unbekannte bearbeitete Seite: '+page);
   if(typeof content!=='string')throw Error('Ungültiger Seiteninhalt: '+page);
-  let normalized=content;if(/^(informieren|planen|entscheiden|durchfuehren|bewerten|reflektieren)\.html$/.test(page)&&window.SOZ_TASK_LAYOUT?.normalize){const temp=document.createElement('div');temp.innerHTML=content;window.SOZ_TASK_LAYOUT.normalize(temp);normalized=temp.innerHTML;}
+  let normalized=window.SOZ_PROGRESS_CORE.singlePathHTML(content);if(/^(informieren|planen|entscheiden|durchfuehren|bewerten|reflektieren)\.html$/.test(page)&&window.SOZ_TASK_LAYOUT?.normalize){const temp=document.createElement('div');temp.innerHTML=normalized;window.SOZ_TASK_LAYOUT.normalize(temp);normalized=temp.innerHTML;}
   files[page]=encode(replaceContent(decode(files[page]),normalized,page));edited.pages[page]=normalized;changed.push(page);
  }
  const K=window.SOZ_PROGRESS_CORE;if(!K)throw Error('Fortschrittslogik fehlt.');
@@ -65,7 +66,7 @@ function prepareFiles(base,data,settings){
  preserveUnchangedTaskSignatures(edited,data,meta,parser);
  for(const page of ['index.html',...K.phases.map(p=>p+'.html')]){files[page]=encode(replaceContent(decode(files[page]),edited.pages[page],page));}
  files['progress-meta.js']=encode('window.SOZ_PROGRESS_META='+JSON.stringify(meta)+';\n');
- cfg.mode=Number(cfg.mode);if(!Number.isInteger(cfg.mode)||cfg.mode<1||cfg.mode>5)throw Error('Ungültige Unterstützungsstufe.');
+ cfg.mode=1;cfg.allowStudentMode=false;cfg.learningPaths={1:{label:'Tradiert'}};
  cfg.overrides={};delete cfg.previousPackageRevision;cfg.packageRevision=new Date().toISOString()+'-'+Math.random().toString(36).slice(2,10);
  files['lesson-data.js']=encode('window.SOZPAED='+JSON.stringify(edited)+';\n');
  for(const [id,value]of Object.entries(cfg.media||{})){if(typeof value.src==='string'&&value.src.startsWith('data:')){const match=value.src.match(/^data:image\/(png|jpeg|webp|gif);base64,([A-Za-z0-9+/=\s]+)$/);if(!match)throw Error('Das Bildformat ist nicht exportierbar: '+id);const name='assets/images/custom-'+id.replace(/[^a-zA-Z0-9_-]/g,'_')+'.'+(match[1]==='jpeg'?'jpg':match[1]);files[name]=match[2].replace(/\s/g,'');value.src=name;}}

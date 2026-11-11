@@ -1,5 +1,5 @@
 Supply Chain gestalten
-BRC LG05 · LG05-LS04 · Form 1.8.2 · SCORM 1.2 · fünf Lernwege
+BRC LG05 · LG05-LS04 · Form 1.8.2 · SCORM 1.2 · tradierter Lernweg 1
 
 Dieses Einzel-ZIP in Moodle als Aktivität „Lernpaket (SCORM)“ hochladen.
 SCORM-Version: 1.2. Einstieg des Pakets: scorm.html.
@@ -12,14 +12,14 @@ Der SCORM-Start über Moodle überträgt Punktestand, Bearbeitungsstatus, Positi
 Ohne LMS wird ein gekennzeichneter lokaler Vorschaumodus verwendet.
 
 Goodnotes: nur die sechs Arbeitsphasen; Button unter dem Materialzugriff.
-Auch im Aufgabenfokus wird die vollständige aktuelle Phase des zugewiesenen Lernwegs importiert.
+Auch im Aufgabenfokus wird die vollständige aktuelle Phase des tradierten Lernwegs 1 importiert.
 Materialien und Handlungssituation haben keinen Goodnotes-Import.
 Arbeitsform steht einmal am Aufgabensymbol, Zeit einmal in der Vorschau. Im Fokus läuft die Uhr.
 Die aktualisierten Goodnotes-Hefte enthalten nur Arbeitsphasen; die Gesamtdruckfassung umfasst auch Situation und Materialien.
 Arbeitszeiten je Aufgabe lassen sich im Editor ändern. Zeitänderungen werden in Fokus-Uhr, PDF-Downloads und konfiguriertem SCORM-Export übernommen.
 Andere freie Text- oder Bildänderungen im Editor erzeugen die vorbereiteten PDFs nicht neu.
 Gesamt-PDF und Goodnotes verwenden denselben aufgabenbezogenen Antwortumfang: Schreiblinien und Kästchen für Rechnungen, bei langen Produkten Fortsetzungsseiten.
-Gesamt-PDFs sind für alle fünf Lernwege enthalten; der Download wählt den konfigurierten Lernweg.
+Gesamt-PDF und GoodNotes-Arbeitsheft enthalten ausschließlich den tradierten Lernweg 1.
 
 Der Editor ist ohne PIN erreichbar und enthält keinen ausführlichen Erwartungshorizont. Der Paketexport erzeugt ein SCORM-1.2-ZIP. Die Lösungen stehen separat als Lehrkräftedatei zur Verfügung.
 Der Fachbegriffscheck mit 15 Begriffen bleibt erhalten.

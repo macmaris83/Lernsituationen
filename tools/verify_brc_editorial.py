@@ -27,7 +27,9 @@ def main():
             document=page.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," paper ") or contains(concat(" ",normalize-space(@class)," ")," material-document ")]')
             assert len(document)==1,(number,i)
             assert normalized(document[0].text_content())==normalized(rendered(body).text_content()),(number,i,'material')
-        for heading,body in split_sections(sections[5],3):
+        ways=split_sections(sections[5],3)
+        assert len(ways)==1 and ways[0][0].startswith('Lernweg W1'), (number,'Only traditional source required')
+        for heading,body in ways:
             mode=int(re.match(r'Lernweg W(\d)',heading)[1]);phases=split_sections(body,4);assert len(phases)==6
             for phase,(_,original) in zip(PHASES,phases):
                 original=re.sub(r'^\*\*(Arbeitszeit|Arbeitsform|Materialien):\*\*.*$', '',original, flags=re.M)
@@ -38,6 +40,6 @@ def main():
                     for timer in task.xpath('.//*[@data-time-ui]'):timer.getparent().remove(timer)
                 actual=''.join(task.text_content() for task in bodies)
                 assert normalized(actual)==normalized(rendered(original).text_content()),(number,mode,phase,'task prose')
-        print(f'PASS: LS{number:02d} original material text and all five paths/six phase instructions unchanged',flush=True)
+        print(f'PASS: LS{number:02d} original material text and traditional path/six phase instructions unchanged',flush=True)
 
 if __name__=='__main__':main()
