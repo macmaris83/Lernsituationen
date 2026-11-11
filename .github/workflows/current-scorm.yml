@@ -48,7 +48,7 @@ jobs:
   update-current:
     if: github.event_name != 'pull_request' && startsWith(github.ref, 'refs/heads/')
     needs: [check, browser]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
     steps:
@@ -74,10 +74,12 @@ jobs:
         run: |
           npm install --prefix /tmp/form185-tests playwright@1.56.1
           /tmp/form185-tests/node_modules/.bin/playwright install --with-deps chromium
-          python3 -m pip install pymupdf
+          python3 -m venv /tmp/current-task-pdfs-venv
+          /tmp/current-task-pdfs-venv/bin/pip install pymupdf
       - name: Arbeitshefte aus den aktuellen Aufgaben erneuern und prüfen
         env:
           NODE_PATH: /tmp/form185-tests/node_modules
+          PYTHON: /tmp/current-task-pdfs-venv/bin/python
         run: node tools/build_current_task_pdfs.cjs
       - uses: actions/upload-artifact@v4
         if: always()
