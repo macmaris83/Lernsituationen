@@ -1,7 +1,7 @@
 {
-  "version": "1.8.11",
+  "version": "1.8.12",
   "formVersion": "1.8.8",
   "updated": "2026-11-11",
-  "changes": "Bei Business-Angels pitchen: 6 statt 12 Unterrichtsstunden, neun Aufträge je Lernweg, fünf Folien, 4-Minuten-Pitch und 2-Minuten-Rückfragen. Fall, Materialien, Kurztest, Erwartungshorizont und Arbeitshefte angeglichen. Bestehende Speicherkennungen erhalten; fachlich geänderte Aufträge und Kurztests neu zu bearbeiten.",
+  "changes": "Titelkasten mit Rahmen und Überschrift auf der Orientierung ergänzt. Aufgaben, Zeitangaben und Aufgabensignaturen unverändert; Lesemarkierung der bisherigen Orientierung über eine zielgebundene Migration erhalten.",
   "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
 }

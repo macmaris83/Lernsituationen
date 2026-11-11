@@ -41,7 +41,7 @@
       "bereich": "BRC",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BRC/LG01/LS04",
-      "version": "1.8.11",
+      "version": "1.8.12",
       "archiveStem": "BRC_LG01_LS04",
       "formVersion": "1.8.8",
       "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
