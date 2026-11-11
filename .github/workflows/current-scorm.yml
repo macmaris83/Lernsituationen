@@ -25,6 +25,7 @@ jobs:
       - name: Auf tradierten Lernweg umstellen und W1-Inhalte prüfen
         run: |
           python3 tools/migrate_traditional_paths.py
+          python3 tools/task_slimming.py
           python3 tools/check_traditional_paths.py
       - name: Gemeinsamen Formmaster auf alle Lernsituationen anwenden
         run: python3 tools/form_master.py sync
@@ -57,6 +58,7 @@ jobs:
       - name: Auf tradierten Lernweg umstellen und W1-Inhalte prüfen
         run: |
           python3 tools/migrate_traditional_paths.py
+          python3 tools/task_slimming.py
           python3 tools/check_traditional_paths.py
       - name: Tatsächlich ausgecheckten Stand prüfen
         run: |
@@ -65,6 +67,23 @@ jobs:
           python3 -m unittest discover -s tools -p 'test_form_master.py'
           node tools/test_form185.cjs
           python3 tools/form_master.py check
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: PDF-Werkzeuge bereitstellen
+        run: |
+          npm install --prefix /tmp/form185-tests playwright@1.56.1
+          /tmp/form185-tests/node_modules/.bin/playwright install --with-deps chromium
+          python3 -m pip install pymupdf
+      - name: Arbeitshefte aus den aktuellen Aufgaben erneuern und prüfen
+        env:
+          NODE_PATH: /tmp/form185-tests/node_modules
+        run: node tools/build_current_task_pdfs.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: current-task-pdfs
+          path: test-results/current-task-pdfs
       - name: Aktuelle Einzelpakete erzeugen
         run: python3 tools/master.py export --all
       - name: Paketinhalt und Prüfsummen prüfen

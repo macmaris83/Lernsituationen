@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Verify W1-only packages against the content snapshot taken before conversion.
+"""Verify W1-only packages against their explicit preservation snapshot.
 
 Use --snapshot once on the unmodified source tree. The committed fixture records
-existing W1 content, task identities/signatures, quiz and competency definitions;
-ordinary checks cannot silently refresh it.
+existing W1 content, task identities/signatures, quiz and competency definitions.
+A deliberate grouping migration may update the snapshot after checking original
+content preservation; ordinary checks cannot silently refresh it.
 """
 from __future__ import annotations
 import argparse
@@ -54,6 +55,45 @@ class Tasks(HTMLParser):
     def handle_comment(self,data):
         if self.body is not None:self.current['body']+='<!--'+data+'-->'
 
+class InstructionText(HTMLParser):
+    """Read task text without the timer UI, independently of the grouping tool."""
+    def __init__(self, markup):
+        super().__init__(convert_charrefs=True)
+        self.parts=[];self.suppressed=[];self.feed(markup)
+    def handle_starttag(self,tag,attrs):
+        hidden=any(self.suppressed) or 'assignment-time' in dict(attrs).get('class','').split()
+        if tag not in VOID:self.suppressed.append(hidden)
+    def handle_startendtag(self,tag,attrs):pass
+    def handle_endtag(self,tag):
+        if self.suppressed:self.suppressed.pop()
+    def handle_data(self,data):
+        if not any(self.suppressed):self.parts.append(data)
+    def normalized(self):return re.sub(r'\s+',' ',''.join(self.parts)).strip()
+
+def check_grouping(item, data, meta, report):
+    key=item['id'];before=report['beforeMeta'];after=report['afterMeta']
+    assert after['tasks']==meta['tasks'],(key,'Current assignments differ from the grouping report')
+    assert after.get('migration')==meta.get('migration'),(key,'Current migration differs from the grouping report')
+    seen=[];numbers=[];checks=[]
+    for phase in PHASES:
+        groups=report['groups'][phase];cards=Tasks(data['pages'][phase+'.html']).tasks
+        assert len(groups)==len(cards),(key,phase,'Reported groups differ from current cards')
+        assert report['phaseCounts'][phase]=={'before':sum(t['phase']==phase and t['mode']==1 for t in before['tasks'].values()),'after':len(cards)},(key,phase,'Incorrect grouping counts')
+        for group,card in zip(groups,cards):
+            assert group['id']==card['id'],(key,phase,'Group order or stable ID changed')
+            assert group['number']==int(card['number']),(key,phase,'Reported task number differs')
+            assert group['from'],(key,phase,'A group has no original assignments')
+            numbers.append(group['number'])
+            for old in group['from']:
+                assert before['tasks'][old['id']]['signature']==old['signature'],(key,'Incorrect original signature',old['id'])
+                assert before['tasks'][old['id']]['phase']==phase and before['tasks'][old['id']]['mode']==1,(key,'A group crosses a phase or learning path',old['id'])
+                seen.append(old['id'])
+            checks.append(hashlib.sha256(InstructionText(card['body']).normalized().encode()).hexdigest())
+    expected=[task for task,value in before['tasks'].items() if value['mode']==1]
+    assert len(seen)==len(set(seen)) and set(seen)==set(expected),(key,'Every original W1 assignment must occur in exactly one group')
+    assert numbers==list(range(1,len(numbers)+1)),(key,'Reported task numbers must be continuous')
+    if report['changed']:assert checks==report['instructionChecks'],(key,'Grouped instruction text differs from the preserved original text')
+
 def capture(root, item):
     master=root/item['master']; data=payload(master/'lesson-data.js'); meta=payload(master/'progress-meta.js')
     frames={}
@@ -82,19 +122,29 @@ def main():
         fixture.write_text(json.dumps(actual,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         print(f'Captured {len(actual)} original W1 packages.');return
     baseline=json.loads(fixture.read_text(encoding='utf-8'))
+    report_path=root/'tools/fixtures/task-slimming-report.json'
+    reports={p['id']:p for p in json.loads(report_path.read_text())['packages']} if report_path.exists() else {}
     for item in packages:
         key=item['id'];master=root/item['master'];data=payload(master/'lesson-data.js');meta=payload(master/'progress-meta.js')
         assert key in baseline,(key,'Missing explicit preservation baseline')
+        if data.get('taskGroupingVersion'):
+            assert key in reports,(key,'Missing explicit task grouping report')
+            check_grouping(item,data,meta,reports[key])
         for field in baseline[key]:assert actual[key][field]==baseline[key][field],(key,'W1 content or identity changed',field)
         assert {t['mode'] for t in meta['tasks'].values()}=={1},(key,'Nontraditional metadata')
+        expected_numbers=[]
         for phase in PHASES:
             parsed=Tasks(data['pages'][phase+'.html']);static=Tasks((master/(phase+'.html')).read_text())
             assert set(parsed.panels)=={'1'},(key,phase,'Unexpected data panels',parsed.panels)
             assert set(static.panels)=={'1'},(key,phase,'Unexpected HTML panels',static.panels)
             assert parsed.tasks==static.tasks,(key,phase,'HTML/data divergence')
             assert parsed.tasks,(key,phase,'Missing W1 assignments')
+            assert 1<=len(parsed.tasks)<=4,(key,phase,'Expected one to four clearly grouped assignments',len(parsed.tasks))
             for t in parsed.tasks:
                 assert t['id'] in meta['tasks'],(key,phase,'Unregistered assignment',t['id'])
+                assert t['number'] is not None,(key,phase,'Missing visible task number',t['id'])
+                expected_numbers.append(int(t['number']))
+        assert expected_numbers==list(range(1,len(expected_numbers)+1)),(key,'Task numbers must continue across phases',expected_numbers)
         for field in ['workbooks','sourceTaskCounts']:
             value=data.get(field,{})
             if field=='workbooks':assert set(value)<={'1'},(key,field)
@@ -111,7 +161,7 @@ def main():
             if href:
                 assert not REMOVED.search(href),(key,'Unused path in manifest',href)
                 assert (master/href).is_file(),(key,'Missing manifest file',href)
-        print('PASS traditional path:',key,'original W1 tasks, IDs, checks, files and manifest')
+        print('PASS traditional path:',key,'recorded W1 content, 1–4 tasks per phase, continuous numbering, checks, files and manifest')
     print(f'PASS: {len(packages)} packages use only the traditional path.')
 
 if __name__=='__main__':main()

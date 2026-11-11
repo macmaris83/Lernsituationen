@@ -2,6 +2,6 @@
   "version": "1.8.11",
   "formVersion": "1.8.8",
   "updated": "2026-11-11",
-  "changes": "Ausschließlich tradierter Lernweg 1. Alternative Aufgaben, Lernwege und PDF-Dateien entfernt; W1-Aufgaben, Kennungen, PDFs und vorhandene Lernstände erhalten.",
+  "changes": "Titelkasten Ein Unternehmen gründen auf der Orientierung ergänzt; bisherige Lesemarkierung bleibt durch gezielte Migration erhalten.",
   "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
 }

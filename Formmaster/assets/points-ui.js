@@ -1,4 +1,31 @@
-/* Shared form 1.8.8 presentation; scoring and persistent progress remain package-owned. */
+/* Shared form 1.8.8: 100 XP from the existing checks; progress stays package-owned. */
+(() => {
+  'use strict';
+  const K = window.SOZ_PROGRESS_CORE, meta = window.SOZ_PROGRESS_META;
+  if (!K || typeof K.grading !== 'function' || K.grading.__xp100) return;
+  const original = K.grading;
+  // The older compatibility core has no term test: 25 task + 15 situation XP.
+  // Allocate the same 5:3 ratio directly in hundredths, so item badges sum to 100.
+  // Native 100-XP cores, their first-attempt rules and completion gates stay intact.
+  const nativeMaximum = meta ? Number(original(K.initial(meta, 1), meta).maxPoints || 100) : 100;
+  if (nativeMaximum === 40) {
+    K.taskPoints = (data, id, mode = 1) => {
+      const ids = Object.keys(data.tasks || {}).filter(key => data.tasks[key].mode === Number(mode));
+      return K.sharePoints(62.5, ids.length, ids.indexOf(id));
+    };
+    K.situationValue = (state, data, id) => {
+      const base = K.sharePoints(37.5, data.quiz.length, data.quiz.findIndex(question => question.id === id));
+      const factor = state.qh?.[id] || state.qf?.[id] === false ? 0.6 : 1;
+      return Math.round(base * factor * 100) / 100;
+    };
+  }
+  const grading = function(state, data) {
+    const grade = original.call(this, state, data);
+    return {...grade, maxPoints: 100};
+  };
+  grading.__xp100 = true;
+  K.grading = grading;
+})();
 (() => {
   'use strict';
   const format = n => Number(n || 0).toLocaleString('de-DE', {maximumFractionDigits: 2});
