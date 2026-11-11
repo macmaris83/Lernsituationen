@@ -9,7 +9,7 @@ Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-K
 | BRC | Eine Geschäftsidee entwickeln | 1.8.10 | [ZIP](BRC-LG01-LS01/BRC_LG01_LS01_v1.8.10_SCORM12.zip) |
 | BRC | Eine Unternehmensberatung besuchen | 1.8.10 | [ZIP](BRC-LG01-LS02/BRC_LG01_LS02_v1.8.10_SCORM12.zip) |
 | BRC | Einen Business-Plan erstellen | 1.8.10 | [ZIP](BRC-LG01-LS03/BRC_LG01_LS03_v1.8.10_SCORM12.zip) |
-| BRC | Bei Kapitalgebern pitchen | 1.8.10 | [ZIP](BRC-LG01-LS04/BRC_LG01_LS04_v1.8.10_SCORM12.zip) |
+| BRC | Bei Business-Angels pitchen | 1.8.11 | [ZIP](BRC-LG01-LS04/BRC_LG01_LS04_v1.8.11_SCORM12.zip) |
 | BRC | Ein Unternehmen gründen | 1.8.10 | [ZIP](BRC-LG01-LS05/BRC_LG01_LS05_v1.8.10_SCORM12.zip) |
 | BRC | Geschäfte abwickeln | 1.8.10 | [ZIP](BRC-LG01-LS06/BRC_LG01_LS06_v1.8.10_SCORM12.zip) |
 | BRC | BioCasa OS · Rechnungswesen | 0.20 | [ZIP](BRC-BIOCASA-OS/BioCasa_OS_v0.20_SCORM12.zip) |
