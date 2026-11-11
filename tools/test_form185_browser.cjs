@@ -22,6 +22,10 @@ const server=http.createServer((req,res)=>{
    await page.goto(base+'index.html');
    await page.waitForFunction(()=>window.SOZ_READY===true);
    if(item.id==='BRC-LG01-LS04'){
+    const titleCard=page.locator('.lesson-content>.card.hero');
+    assert.equal(await titleCard.count(),1,item.id+': framed lesson heading');
+    assert.equal(await titleCard.locator('h1').innerText(),'Bei Business-Angels pitchen');
+    assert.ok(await titleCard.evaluate(e=>parseFloat(getComputedStyle(e).borderTopWidth)>0),item.id+': visible heading border');
     const audit=await page.evaluate(()=>{
      const d=JSON.parse(JSON.stringify(SOZPAED));
      const actual=SOZ_PROGRESS_CORE.metadataFrom(d,new DOMParser());
