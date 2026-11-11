@@ -9,7 +9,7 @@ const expected={
  'BRC-LG01-LS02':'outlook onenote onenote acrobat onenote onenote onenote',
  'BRC-LG01-LS03':'onenote onenote acrobat onenote sap onenote onenote',
  'BRC-LG01-LS04':'onenote outlook onenote sap onenote onenote onenote onenote',
- 'BRC-LG01-LS05':'outlook teams sap acrobat onenote onenote onenote',
+ 'BRC-LG01-LS05':'outlook teams sap acrobat onenote onenote onenote onenote',
  'BRC-LG01-LS06':'sap sap sap acrobat teams sap onenote onenote',
  'LS-MASTER':'onenote onenote acrobat onenote sap onenote onenote'
 };
