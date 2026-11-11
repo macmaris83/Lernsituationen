@@ -2,7 +2,7 @@
 
 Die Reihe setzt den bereitgestellten narrativen Reihenplan mit der zuletzt
 freigegebenen Oberfläche und SCORM-Technik um. Sechs Lernsituationen umfassen
-zusammen **80 Unterrichtsstunden**. Jede enthält **fünf alternative Lernwege**;
+zusammen **74 Unterrichtsstunden**. Jede enthält **fünf alternative Lernwege**;
 die Wege werden zeitlich nicht addiert.
 
 | LS | Lernsituation | Umfang | SCORM-Paket |
@@ -10,7 +10,7 @@ die Wege werden zeitlich nicht addiert.
 | 01 | Eine Geschäftsidee entwickeln | 12 UStd. | [Aktuelle ZIP](../../../Downloads/README.md) |
 | 02 | Eine Unternehmensberatung besuchen | 8 UStd. | [Aktuelle ZIP](../../../Downloads/README.md) |
 | 03 | Einen Business-Plan erstellen | 18 UStd. | [Aktuelle ZIP](../../../Downloads/README.md) |
-| 04 | Bei Kapitalgebern pitchen | 12 UStd. | [Aktuelle ZIP](../../../Downloads/README.md) |
+| 04 | Bei Business-Angels pitchen | 6 UStd. | [Aktuelle ZIP](../../../Downloads/README.md) |
 | 05 | Ein Unternehmen gründen | 14 UStd. | [Aktuelle ZIP](../../../Downloads/README.md) |
 | 06 | Geschäfte abwickeln | 16 UStd. | [Aktuelle ZIP](../../../Downloads/README.md) |
 
@@ -107,3 +107,9 @@ Cloud-Umgebung und startet ihren lokalen PDF-Prüfserver selbst.
 Je Lernsituation sind das zugehörige Orientierungs- und Handlungssituationsbild unverändert enthalten. Die Orientierung zeigt keinen Einordnungsblock und keine Lernwegübersicht; vier weitere Kompetenzen stehen neben dem Netz als 2×2-Raster. Prüfkriterien, Rückmeldung und Überarbeitung bilden gemeinsam einen einzigen Auftrag. Reflexionsfragen sind gemeinsam dargestellt, und die Symbole nennen die passende Arbeitsform pro Auftrag. Die sechs MC-Antworten stehen einzeln untereinander.
 
 Die aktualisierten Pakete können alte Lernstände derselben sechs BioCasa-Pakete übernehmen. Eine zusammengefasste Aufgabe wird dabei nur als erledigt übernommen, wenn alle früheren Teile erledigt waren. Unvollständige Prüfblöcke bleiben offen. Die sechs LS-Kennungen und Kompetenzberichte bleiben dieselben. Bei Paketänderung in Moodle die bestehenden Einstellungen zum Speichern oder Zurücksetzen von Versuchen beachten.
+
+## LS04 · Verkürzter Business-Angel-Pitch (1.8.11)
+
+Sechs Unterrichtsstunden, neun Aufgaben je Lernweg, höchstens fünf Folien, vier Minuten Pitch und zwei Minuten Rückfragen. Die detaillierte Kredit-/Leasinganalyse entfällt. Materialien, Kurztest, Lösungen und PDF-Arbeitshefte sind auf dieselbe Fassung abgestimmt.
+
+Die Paketidentität und Kompetenzkennungen bleiben erhalten. Die inhaltlich neuen Aufgaben, Orientierung und Einstiegsfragen erhalten neue Signaturen und gelten daher nicht automatisch durch alte Haken als erledigt. Kompetenzreflexionen bleiben gespeichert.

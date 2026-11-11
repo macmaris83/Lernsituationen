@@ -3,12 +3,12 @@
     "orientation": {
       "src": "assets/images/biocasa-ls04-orientation.png",
       "alt": "Das Gründungsteam bereitet mit Laptop und Notizen die Vorstellung seines Vorhabens vor.",
-      "label": "Orientierung · Bei Kapitalgebern pitchen"
+      "label": "Orientierung · Bei Business-Angels pitchen"
     },
     "situation": {
       "src": "assets/images/biocasa-ls04-situation.png",
       "alt": "Das Gründungsteam präsentiert Kapitalgebern eine Produktionsplanung und wirtschaftliche Diagramme.",
-      "label": "Handlungssituation · Bei Kapitalgebern pitchen"
+      "label": "Handlungssituation · Bei Business-Angels pitchen"
     }
   }
 }

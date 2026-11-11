@@ -21,6 +21,26 @@ const server=http.createServer((req,res)=>{
    await page.route('**/*',route=>route.request().url().startsWith('http://127.0.0.1:')?route.continue():route.abort());
    await page.goto(base+'index.html');
    await page.waitForFunction(()=>window.SOZ_READY===true);
+   if(item.id==='BRC-LG01-LS04'){
+    const audit=await page.evaluate(()=>{
+     const d=JSON.parse(JSON.stringify(SOZPAED));
+     const actual=SOZ_PROGRESS_CORE.metadataFrom(d,new DOMParser());
+     const paths=Array.from({length:5},(_,i)=>i+1).map(mode=>{
+      let numbers=[],minutes=0;
+      for(const phase of SOZ_PROGRESS_CORE.phases){
+       const doc=new DOMParser().parseFromString(SOZPAED.pages[phase+'.html'],'text/html');
+       const cards=[...doc.querySelectorAll(`[data-mode-panel="${mode}"] .assignment-frame`)];
+       numbers.push(...cards.map(c=>Number(c.dataset.taskNumber)));
+       minutes+=cards.reduce((s,c)=>s+Number(c.querySelector('[data-minutes]').dataset.minutes),0);
+      }
+      return {mode,numbers,minutes};
+     });
+     return {title:SOZPAED.title,actual,expected:SOZ_PROGRESS_META,paths};
+    });
+    assert.equal(audit.title,'Bei Business-Angels pitchen');
+    for(const field of ['tasks','quiz','quizSignature','orientationSignature'])assert.deepEqual(audit.actual[field],audit.expected[field],item.id+': current content metadata '+field);
+    for(const p of audit.paths){assert.deepEqual(p.numbers,[1,2,3,4,5,6,7,8,9]);assert.equal(p.minutes,270);}
+   }
    if(item.id.startsWith('GESCHICHTE-')){
     // Stored editor preferences and stale links must not reintroduce another path.
     const single=await page.evaluate(()=>{

@@ -47,10 +47,10 @@ Für jede Lernsituation stehen fünf vollständige Handlungen zur Verfügung. **
 | 1   | Eine Geschäftsidee entwickeln      |      12 UStd. | Tischvorlage „Gemeinsame Geschäftsidee“     |
 | 2   | Eine Unternehmensberatung besuchen |       8 UStd. | Maßnahmenplan „Gründungsfahrplan“           |
 | 3   | Einen Business-Plan erstellen      |      18 UStd. | Businessplan BioCasa                        |
-| 4   | Bei Kapitalgebern pitchen          |      12 UStd. | Pitchdeck mit mündlichem Finanzierungspitch |
+| 4   | Bei Business-Angels pitchen        |       6 UStd. | Pitchdeck mit mündlichem Beteiligungspitch |
 | 5   | Ein Unternehmen gründen            |      14 UStd. | Beschlussvorlage zur Rechtsform             |
 | 6   | Geschäfte abwickeln                |      16 UStd. | Auftragsakte „Erster Großauftrag“           |
-|     | **Gesamt**                         |  **80 UStd.** |                                             |
+|     | **Gesamt**                         |  **74 UStd.** |                                             |
 
 ## Hinweise für die Weiterverarbeitung
 
@@ -2132,667 +2132,676 @@ Jeder KI-Hinweis wird in einer Prüfliste dokumentiert und mit den Materialien o
 | Ist die vollständige Handlung sichtbar?                 | Ja. Analyse, Bearbeitungsplanung, Unternehmensentscheidungen, Erstellung, Audit und Reflexion bauen aufeinander auf. |
 | Wird die curriculare Kompetenz erreicht?                | Ja. Marketingmix und Einflussgrößen des Kapitalbedarfs werden umfassend angewendet und gesichert.                    |
 
-# LS 4 – Bei Kapitalgebern pitchen
+# LS 4 – Bei Business-Angels pitchen
 
 ## 1. Einordnung
 
 - **Lerngebiet:** LG 01 „Ein Unternehmen gründen“
 - **Jahrgang:** 11, Berufliches Gymnasium Wirtschaft
-- **Zeitrichtwert:** 12 Unterrichtsstunden
-- **Stellung innerhalb der BioCasa-Geschichte:** Der Businessplan weist einen Kapitalbedarf von 1.410.500 Euro, Eigenmittel von 362.500 Euro und damit eine Finanzierungslücke von 1.048.000 Euro aus. Das Team muss geeignete Fremdfinanzierungsbausteine auswählen und das Konzept vor einem Finanzierungsgremium vertreten.
+- **Zeitrichtwert:** 6 Unterrichtsstunden
+- **Stellung innerhalb der BioCasa-Geschichte:** Den Businessplan aus LS 3 für ein erstes Beteiligungsgespräch verdichten. Die vollständige Finanzierung bleibt bis zur gesicherten Restfinanzierung offen.
 
 ## 2. Warum wir das lernen
 
-Unternehmen benötigen Kapital zu unterschiedlichen Zwecken und Zeitpunkten. Eine Produktionsanlage wird mehrere Jahre genutzt, während ein kurzfristiger Liquiditätsengpass schon nach wenigen Wochen ausgeglichen sein kann. Werden langfristige Investitionen mit einem teuren, jederzeit veränderbaren Kontokorrentkredit finanziert, entstehen erhebliche Zins- und Rückzahlungsrisiken. Ein langfristiges Darlehen bindet dagegen über Jahre; Leasing schont den anfänglichen Kapitalbedarf, kann aber insgesamt teurer sein und führt nicht automatisch zu Eigentum. Kapitalgeber erwarten deshalb eine begründete Zuordnung von Finanzierungsart und Finanzierungszweck sowie eine nachvollziehbare Rückzahlungsfähigkeit. Im Pitch müssen Zahlen, Marktchance, Team und Risiken adressatengerecht zusammengeführt werden. Eine attraktive Präsentation ohne tragfähige Finanzierung überzeugt ebenso wenig wie eine Rechentabelle ohne verständliche Unternehmensidee.
+Eine gute Geschäftsidee braucht Menschen, die an sie glauben und Kapital bereitstellen. Business-Angels können zusätzlich unternehmerische Erfahrung und Kontakte einbringen. Dafür wollen sie verstehen, welches Kundenproblem das Team löst, wofür das Geld eingesetzt wird und welche Risiken bestehen.
+
+In einem kurzen Pitch zählt deshalb eine klare Botschaft mit wenigen verlässlichen Zahlen. Ebenso wichtig ist ein ehrlicher Umgang mit offenen Punkten: Eine angefragte Beteiligung ist noch keine Zusage. BioCasa muss zeigen, welchen Beitrag 300.000 Euro leisten könnten und weshalb die übrige Finanzierung vor dem Start gesichert sein muss.
 
 ## 3. Kompetenznetz
 
 ### Vorrangige Kompetenz dieser Lernsituation
 
-Die Schülerinnen und Schüler vergleichen Kontokorrentkredit, Ratendarlehen und Leasing, wählen für BioCasa einen begründeten Finanzierungsmix aus und vertreten ihn adressatengerecht gegenüber Kapitalgebern.
+Ich stelle BioCasas Geschäftsidee in einem kurzen Pitch vor und begründe gegenüber Business-Angels eine Kapitalanfrage einschließlich Anteilangebot, Verwendung und noch offener Restfinanzierung.
 
-| Kompetenzbereich  | Ausprägung | Konkrete Ausgestaltung                                                                                                                                                    |
-|-------------------|:----------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Fachkompetenz     |     5      | Die Lernenden analysieren Konditionen, Kosten, Liquiditätswirkungen, Risiken und Zweckbindung der drei Finanzierungsformen und entwickeln daraus ein tragfähiges Konzept. |
-| Personalkompetenz |     4      | Die Lernenden vertreten eine belastbare Position unter Nachfragen, erkennen Unsicherheiten an und reagieren sachlich auf Kritik.                                          |
-| Sozialkompetenz   |     5      | Die Lernenden einigen sich trotz unterschiedlicher Risikovorstellungen auf eine gemeinsame Botschaft, verteilen Sprechrollen und geben kriteriengeleitet Feedback.        |
-| Methodenkompetenz |     4      | Die Lernenden berechnen Finanzierungswirkungen, führen einen Stressvergleich durch und verdichten komplexe Informationen für eine Entscheidung.                           |
-| Medienkompetenz   |     5      | Die Lernenden erstellen ein übersichtliches Pitchdeck, visualisieren Planwerte korrekt und präsentieren mit digitalen Medien adressatengerecht.                           |
+| Kompetenzbereich | Ausprägung | Konkrete Ausgestaltung |
+|---|---:|---|
+| Fachkompetenz | 5 | Ich erläutere die Beteiligung eines Business-Angel-Teams und begründe BioCasas Kapitalanfrage mit Verwendung, Restfinanzierungsbedarf und einem wesentlichen Risiko. |
+| Personalkompetenz | 4 | Ich vertrete meine Aussagen verständlich, benenne offene Fragen ehrlich und reagiere sachlich auf Rückfragen. |
+| Sozialkompetenz | 5 | Ich stimme Sprechrollen im Team ab und nutze konkrete Rückmeldungen zur gemeinsamen Verbesserung des Pitches. |
+| Methodenkompetenz | 4 | Ich prüfe die wenigen entscheidenden Finanzierungszahlen und verdichte die Geschäftsidee auf einen vierminütigen Pitch. |
+| Medienkompetenz | 5 | Ich gestalte höchstens fünf gut lesbare Folien und kennzeichne Zahlen sowie Verhandlungsannahmen eindeutig. |
 
 ## 4. Handlungssituation
 
-Zwei Wochen später liegt der Businessplan bei der Ostfriesischen Wirtschaftsbank. Die vier haben sich auf ein begrenztes Startsortiment, einen regionalen Markteintritt und einen abgestimmten Ressourcenbedarf verständigt. Zum ersten Mal stehen hinter der Idee belastbare Zahlen. Genau diese Zahlen erzeugen nun jedoch das nächste Problem: Trotz der Eigenmittel bleibt eine Finanzierungslücke von 1.048.000 Euro. Ohne zusätzliches Kapital können Halle, Produktions- und Tiefkühltechnik, Anlaufkosten und Liquiditätsreserve nicht gleichzeitig finanziert werden.
+Der Businessplan von BioCasa liegt vor. Christian, Aluna, Fari und Julia wollen mit einem begrenzten Startsortiment in den regionalen Markt gehen. Für Investitionen, einmalige Gründungsausgaben, Betriebsmittel und Reserve werden insgesamt **1.410.500 Euro** benötigt. Das Team verfügt über **362.500 Euro Eigenmittel**. Damit fehlen **1.048.000 Euro**.
 
-Die Firmenkundenberaterin hält das Konzept grundsätzlich für prüfbar und lädt das Team gemeinsam mit einer Leasinggesellschaft und einer regionalen Beteiligungsinitiative zu einem 15-minütigen Finanzierungstermin ein. Mit der Einladung erhält BioCasa ein Ratendarlehensangebot, einen möglichen Kontokorrentrahmen und ein Leasingangebot für zentrale Produktions- und Tiefkühltechnik. Auf den ersten Blick scheint es nur darum zu gehen, die günstigste Finanzierung auszuwählen. Beim genaueren Hinsehen greifen die Alternativen jedoch unterschiedlich stark in Liquidität, Flexibilität, Eigentum und Risiko ein.
+Für den Unterrichtsfall erhält BioCasa eine Einladung zu einem Gespräch mit einem fiktiven Business-Angel-Team. Die vier wollen **300.000 Euro für zusammen 20 Prozent Unternehmensanteile** anfragen. Dieser Anteil ist eine vereinfachte Verhandlungsannahme; eine Unternehmensbewertung wird hier nicht vorgenommen. Das Geld soll mit **214.000 Euro** Betriebsmittel und Reserve sowie mit **86.000 Euro** einen Teil der Investitionen finanzieren. Auch bei erfolgreicher Beteiligung blieben **748.000 Euro** offen. Dafür gibt es bislang keine gesicherte Finanzierung.
 
-Christian möchte möglichst viel Technik kaufen. Für ihn ist Eigentum langfristig günstiger und ein Zeichen unternehmerischer Unabhängigkeit. Aluna bevorzugt eine stärkere Leasingkomponente, weil dadurch weniger Kapital dauerhaft gebunden wird und technologische Risiken planbarer erscheinen. Fari warnt davor, die Finanzierung so knapp zu planen, dass bei Rohstoffen oder Produktentwicklung sofort gespart werden muss. Julia hält einen Finanzierungsmix nur dann für überzeugend, wenn das Team im Gespräch offen zeigen kann, wie es auch auf schwächere Absatzmonate reagiert. Christian fürchtet hingegen, zu viel Offenheit über Risiken könne das Gremium verunsichern.
+Christian möchte mit den Zahlen überzeugen. Julia warnt davor, die Restlücke zu verschweigen. Aluna sieht neben dem Geld einen Nutzen in Erfahrung und Kontakten. Fari fragt, welchen Einfluss das Team mit den Anteilen abgibt.
 
-Kurz vor dem Termin verschärft die Bank die Anforderung: Sie will nicht nur eine Wunschfinanzierung sehen, sondern auch eine Stressprüfung. Das Team muss zeigen, was passiert, wenn die Umsätze in der Anlaufphase deutlich unter Plan liegen. Eine ungeeignete Fristenstruktur oder zu hohe feste Belastungen könnten dazu führen, dass ein an sich tragfähiges Unternehmen bereits in den ersten Monaten Liquiditätsprobleme bekommt. Umgekehrt könnte eine zu vorsichtige Finanzierung Wachstum und Lieferfähigkeit ausbremsen.
-
-Der Pitch entscheidet damit nicht nur darüber, ob das Team überzeugend präsentieren kann. Es muss einen Finanzierungsmix entwickeln und verteidigen, der zur Unternehmensplanung passt, die laufende Zahlungsfähigkeit schützt und kritischen Rückfragen standhält. Ohne eine tragfähige Lösung bleibt der Businessplan Papier – und die Gründung kann nicht umgesetzt werden.
+Ihre Aufgabe ist ein Pitch mit **höchstens fünf Folien und vier Minuten Redezeit**, anschließend folgen **zwei Minuten Rückfragen**. Stellen Sie Geschäftsidee, Team und Kapitalanfrage verständlich dar. Begründen Sie das Anteilangebot, benennen Sie ein wesentliches Risiko mit einer Gegenmaßnahme und sagen Sie klar: Ohne gesicherte Gesamtfinanzierung kann der geplante Start nicht erfolgen. Es liegt noch keine Beteiligungszusage vor.
 
 ## 5. Vollständige Handlung – fünf Lernwege
 
-**Für alle fünf Lernwege gilt dieselbe vorrangige Fachkompetenz aus Abschnitt 3 und dasselbe zentrale Handlungsergebnis.** Die Wege unterscheiden sich ausschließlich durch den Grad der Lernsteuerung und die Verantwortung für den Lernprozess.
+Gleiche neun Aufgaben und gleicher fachlicher Zielkern; unterschiedlich starke Lernsteuerung. Fünf Folien, vier Minuten Pitch, zwei Minuten Rückfragen.
 
-### Lernweg W1 · Anthrazit – stark geführt
+### Lernweg W1 · Stark geführt
 
-#### Informieren / Analysieren
+#### Informieren
 
-**Arbeitszeit:** 4 Unterrichtsstunden  
-**Arbeitsform:** Einzelarbeit, anschließend Expertengruppen „Darlehen“, „Kontokorrent“, „Leasing“ und „Tragfähigkeit“  
-**Materialien:** M1 bis M6 und Businessplan aus LS 3
+**Arbeitszeit:** 1 Unterrichtsstunden
 
-1.  **Identifizieren** Sie in der Handlungssituation und M1 das zentrale Finanzierungsproblem. **Stellen** Sie Kapitalbedarf, Eigenmittel und Finanzierungslücke **dar**.
-2.  **Arbeiten** Sie aus M2 und M3 für jede Finanzierungsform **heraus**: geeigneter Verwendungszweck, Laufzeit, Kosten, Liquiditätswirkung, Sicherheiten bzw. Bindungen, Vorteil und Risiko.
-3.  **Berechnen** Sie für das Ratendarlehen von 900.000 Euro mithilfe von M2:
-    - die monatliche Tilgungsrate,
-    - die Zinsen und Gesamtleistung im ersten Tilgungsmonat,
-    - die Zinsen und Gesamtleistung im letzten Tilgungsmonat,
-    - die gesamten Zinsen während der 96 Tilgungsmonate ohne die sechs tilgungsfreien Monate.
-4.  **Berechnen** Sie die Jahreszinsen, wenn ein Kontokorrentbetrag von 148.000 Euro ein volles Jahr unverändert in Anspruch genommen würde. **Erläutern** Sie, weshalb diese Rechnung noch keine Tilgung des Betrags enthält.
-5.  **Ermitteln** Sie für das Leasingangebot die Summe aus Sonderzahlung, 60 Leasingraten und Kaufoption. **Vergleichen** Sie diesen nominalen Gesamtbetrag mit dem Barkaufpreis der Anlage. Berücksichtigen Sie, dass ein einfacher Summenvergleich Zeitwert, Steuern und Finanzierung des Kaufpreises nicht abbildet.
-6.  **Analysieren** Sie M4. **Berechnen** Sie den operativen Zahlungsmittelüberschuss im Planszenario und im Stressszenario. **Erläutern** Sie, welche Aussage diese Größen für die Finanzierung zulassen und welche nicht.
-7.  **Vergleichen** Sie die drei vorgegebenen Finanzierungskombinationen in M4 nach Fristenpassung, anfänglichem Kapitalbedarf, festen Monatsbelastungen, Flexibilität, Eigentum und Risiko.
+**Arbeitsform:** Einzelarbeit / Partnerarbeit
 
-**Zwischensicherung:** Jede Expertengruppe erstellt eine fünfminütige Fachinformation. Rechenwege müssen sichtbar sein; Werbeaussagen der Anbieter werden von prüfbaren Konditionen getrennt.
+1. **Fassen** Sie die Geschäftsidee von BioCasa in zwei Sätzen **zusammen**. **Notieren** Sie aus M1 Kapitalbedarf, Eigenmittel und Finanzierungslücke mit Einheit.
+
+2. **Erläutern** Sie mithilfe von M2 und M7, was ein Business-Angel außer Kapital einbringen kann und welche Gegenleistung im Fall erwartet wird. **Nennen** Sie einen Unterschied zu einem Bankdarlehen.
+
 
 #### Planen
 
-**Arbeitszeit:** 2 Unterrichtsstunden  
-**Arbeitsform:** Vierergruppen
+**Arbeitszeit:** 1 Unterrichtsstunden
 
-1.  **Entwickeln** Sie selbstständig Kriterien für einen tragfähigen Finanzierungsmix. Berücksichtigen Sie mindestens Fristenkongruenz, Kosten, Liquiditätsbelastung, Flexibilität, Risiko, Eigentum, Sicherheiten und Rückzahlungsfähigkeit.
-2.  **Erstellen** Sie einen Ablauf für den Pitch mit einer Gesamtdauer von höchstens acht Minuten. Ordnen Sie die Inhalte aus M6 den vier Gründerrollen zu.
-3.  **Bestimmen** Sie, welche drei Zahlen zwingend visualisiert werden und wie Sie Szenariodaten eindeutig kennzeichnen.
-4.  **Erstellen** Sie Antworten auf mindestens sechs mögliche Rückfragen aus M5. Jede Antwort muss eine Zahl, einen Materialbezug oder eine konkrete Risikomaßnahme enthalten.
+**Arbeitsform:** Pitchteam
+
+1. **Planen** Sie mit M3 höchstens fünf Folien. **Notieren** Sie je Folie eine Kernbotschaft; verwenden Sie die Geschäftsidee und einen vorhandenen Marktbeleg aus LS 3.
+
+2. **Verteilen** Sie die Sprechrollen im Team. **Bereiten** Sie mit M5 kurze Antworten auf zwei erwartbare Rückfragen **vor**. Der Pitch dauert höchstens vier Minuten, die Fragerunde zwei Minuten.
+
 
 #### Entscheiden
 
-**Arbeitszeit:** 1,5 Unterrichtsstunden  
-**Arbeitsform:** Vierergruppen
+**Arbeitszeit:** 1 Unterrichtsstunden
 
-1.  **Beurteilen** Sie die drei Kombinationen aus M4 anhand Ihrer Kriterien.
-2.  **Entwickeln** Sie selbstständig aus Ihrer Beurteilung einen Finanzierungsvorschlag mit Finanzierungsformen, Beträgen und Verwendungszwecken. Ein Kontokorrentrahmen darf als Reserve beantragt werden; eine mögliche Kreditlinie darf nicht so dargestellt werden, als sei sie bereits dauerhaft in Anspruch genommen.
-3.  **Begründen** Sie, wie Ihr Konzept die Finanzierungslücke schließt und weshalb die Laufzeiten zu den finanzierten Vermögens- und Liquiditätsbedarfen passen.
-4.  **Nehmen** Sie zur Tragfähigkeit im Stressszenario **Stellung**. Benennen Sie mindestens drei Maßnahmen oder Bedingungen, mit denen BioCasa das Risiko begrenzt.
+**Arbeitsform:** Pitchteam
+
+1. **Prüfen** Sie in M4 die angefragten 300.000 Euro und deren Verwendung. **Stellen** Sie die Finanzierungslücke vor und nach dieser möglichen Beteiligung übersichtlich untereinander **dar**. **Kennzeichnen** Sie die noch nicht gesicherte Restfinanzierung.
+
+2. **Begründen** Sie das vorgegebene Verhandlungsangebot von insgesamt 20 Prozent Anteilen für das Angel-Team: ein erwarteter Nutzen und ein Nachteil. **Entscheiden** Sie sich für ein wesentliches Geschäftsrisiko und eine passende Gegenmaßnahme für Ihren Pitch. Eine Unternehmensbewertung wird nicht verlangt.
+
 
 #### Durchführen
 
-**Arbeitszeit:** 2,5 Unterrichtsstunden  
-**Arbeitsform:** Vierergruppen
+**Arbeitszeit:** 2 Unterrichtsstunden
 
-Setzen Sie Ihre Entscheidung in einem einheitlichen Präsentationssatz um und führen Sie einen höchstens achtminütigen Pitch durch. Alle vier Teammitglieder übernehmen eine erkennbare Sprechrolle. Rechenwerte werden mit Zeitraum, Einheit und Szenario bezeichnet. Nach dem Pitch beantwortet das Team fünf Minuten lang Fragen des Finanzierungsgremiums.
+**Arbeitsform:** Pitchteam und Rückmeldegruppe
 
-**Handlungsergebnis: Pitchdeck mit mündlichem Finanzierungspitch**
+**Erstellen** Sie Ihr Pitchdeck mit höchstens fünf Folien und **erproben** Sie es einmal mit der Uhr. **Präsentieren** Sie anschließend in höchstens vier Minuten; alle Teammitglieder übernehmen eine kurze Sprechrolle. **Beantworten** Sie zwei Minuten lang Rückfragen und unterscheiden Sie dabei Planwerte, Annahmen und Zusagen.
 
-#### Kontrollieren / Überprüfen
+Handlungsergebnis: kurzes Pitchdeck mit begründeter Kapitalanfrage und mündlichem Pitch.
 
-**Arbeitszeit:** 1 Unterrichtsstunde  
-**Arbeitsform:** Finanzierungsgremium und Pitchteam
+#### Überprüfen
 
-Das Gremium **überprüft** den Vorschlag anhand des Feedbackbogens in M6:
+**Arbeitszeit:** 0,5 Unterrichtsstunden
 
-- Ist die Finanzierungslücke korrekt und vollständig geschlossen?
-- Sind Finanzierungsform und Verwendungszweck fristenkongruent?
-- Sind Kosten und monatliche Belastungen nachvollziehbar?
-- Wird der Kontokorrentkredit nur für kurzfristige Schwankungen vorgesehen?
-- Werden Eigentums- und Vertragsfolgen des Leasings korrekt dargestellt?
-- Wird die Rückzahlungsfähigkeit mit Plan- und Stressszenario beurteilt?
-- Sind Risiken und Gegenmaßnahmen konkret?
-- Passen Markt, Team, Finanzierung und Kapitalverwendung zusammen?
-- Sind Visualisierungen sachlich korrekt und lesbar?
-- Werden Rückfragen offen, knapp und fachlich beantwortet?
+**Arbeitsform:** Rückmeldegruppe ↔ Pitchteam
 
-Das Pitchteam erhält eine vorläufige Entscheidung: „finanzierungsfähig“, „finanzierungsfähig unter Bedingungen“ oder „noch nicht finanzierungsfähig“. Es überarbeitet anschließend höchstens drei Folien und seine Finanzierungsempfehlung.
+**Überprüfen** Sie als Rückmeldegruppe den Pitch anhand der fünf Kriterien in M6. **Geben** Sie dem Pitchteam eine Stärke und einen konkreten Verbesserungshinweis. Das Pitchteam **überarbeitet** daraufhin eine zentrale Folie oder Aussage und **begründet** die Änderung in einem Satz.
 
 #### Reflektieren
 
-**Arbeitszeit:** 1 Unterrichtsstunde  
-**Arbeitsform:** Einzelarbeit und Auswertungsgespräch
+**Arbeitszeit:** 0,5 Unterrichtsstunden
 
-1.  Welche Finanzierungsform erschien Ihnen zunächst am attraktivsten, und wie hat die Analyse Ihr Urteil verändert?
-2.  Welche Rückfrage des Gremiums hat eine Schwäche Ihres Konzepts sichtbar gemacht?
-3.  Welche Information war im Pitch unverzichtbar, welche hätte weggelassen werden können?
-4.  Welche Folge hätte es, wenn BioCasa eine kurzfristige Kreditlinie dauerhaft zur Anlagenfinanzierung nutzt?
-5.  Wie haben Sie mit Unsicherheit oder Kritik während des Pitchs umgegangen?
+**Arbeitsform:** Einzelarbeit
 
-### Lernweg W2 · Helles Anthrazit – begleitet
+**Reflektieren** Sie Ihren eigenen Beitrag in drei kurzen Sätzen: Welche Aussage hat überzeugt? Welche Rückfrage war schwierig? Was werden Sie beim nächsten Pitch konkret besser machen?
 
-**Gemeinsamer fachlicher Zielkern:** Vergleichen Sie die drei Finanzierungsformen, entscheiden Sie über einen begründeten Finanzierungsmix und vertreten Sie ihn gegenüber dem Gremium. **Pitchdeck mit mündlichem Finanzierungspitch**, Rechenanforderungen und Bewertungskriterien bleiben unverändert. Arbeitspakete und Leitfragen geben Orientierung; innerhalb dieses Rahmens wählen Sie Hilfen, Arbeitsteilung und Darstellung.
+### Lernweg W2 · Begleitet
 
-#### Informieren / Analysieren
+#### Informieren
 
-**Arbeitszeit:** 4 Unterrichtsstunden  
-**Arbeitsform:** eigene Sichtung, anschließend begleitete Expertengruppen und Austausch  
-**Materialien:** M1 bis M6 und Businessplan aus LS 3
+**Arbeitszeit:** 1 Unterrichtsstunden
 
-Stellen Sie zunächst den Zusammenhang von Kapitalbedarf, Eigenmitteln und Finanzierungslücke dar. Bearbeiten Sie anschließend die Pakete **Finanzierungsformen** und **Belastbarkeit**. Verteilen Sie dafür Darlehen, Kontokorrent, Leasing und Tragfähigkeit im Team.
+**Arbeitsform:** Einzelarbeit / Partnerarbeit
 
-Im ersten Paket vergleichen Sie die Angaben aus M2 und M3 nach Verwendungszweck, Laufzeit, Kosten, Liquiditätswirkung, Sicherheiten beziehungsweise Bindungen, Vorteil und Risiko. Berechnen Sie für das Darlehen von 900.000 Euro die monatliche Tilgung, Zinsen und Gesamtleistung im ersten sowie letzten Tilgungsmonat und die gesamten Zinsen der 96 Tilgungsmonate ohne die sechs tilgungsfreien Monate. Ermitteln Sie außerdem die Jahreszinsen einer unveränderten Kontokorrentinanspruchnahme von 148.000 Euro und erklären Sie die verbleibende Rückzahlungsverpflichtung. Vergleichen Sie beim Leasing Sonderzahlung, 60 Raten und Kaufoption als nominale Gesamtsumme mit dem Barkaufpreis; benennen Sie die Grenzen dieses Vergleichs.
+1. **Fassen** Sie die Geschäftsidee von BioCasa in zwei Sätzen **zusammen**. **Notieren** Sie aus M1 Kapitalbedarf, Eigenmittel und Finanzierungslücke mit Einheit.
 
-Im zweiten Paket berechnen Sie aus M4 den operativen Zahlungsmittelüberschuss für Plan- und Stressszenario. Vergleichen Sie alle drei Finanzierungskombinationen hinsichtlich Fristenpassung, anfänglichem Bedarf, festen Monatsbelastungen, Flexibilität, Eigentum und Risiko. Erläutern Sie die Aussagegrenzen des operativen Überschusses.
+   Nutzen Sie die Materialien bei Bedarf und prüfen Sie Ihr Zwischenergebnis gemeinsam.
 
-Jede Expertengruppe erstellt eine fünfminütige Fachinformation mit nachvollziehbaren Rechenwegen. Als wählbare Hilfen nutzen Sie die Formeln aus M2, den Rechenweg aus M4 oder die selbst angelegte Tabellenstruktur **Restschuld zu Monatsbeginn – Tilgung – Zins – Monatsleistung – verbleibende Schuld**. Die Leitfrage „Ist dies Kreditrahmen, Auszahlung, Aufwand oder Rückzahlung?“ unterstützt das Sortieren; klären Sie unklare Zuordnungen mit der Lehrkraft.
+2. **Erläutern** Sie mithilfe von M2 und M7, was ein Business-Angel außer Kapital einbringen kann und welche Gegenleistung im Fall erwartet wird. **Nennen** Sie einen Unterschied zu einem Bankdarlehen.
+
 
 #### Planen
 
-**Arbeitszeit:** 2 Unterrichtsstunden  
-**Arbeitsform:** Vierergruppen mit kurzer fachlicher Beratung nach Bedarf  
-**Materialien:** M5, M6 und eigene Finanzierungsauswertungen
+**Arbeitszeit:** 1 Unterrichtsstunden
 
-Entwickeln Sie Kriterien für die Entscheidung: Fristenkongruenz, Kosten, Liquiditätsbelastung, Flexibilität, Risiko, Eigentum, Sicherheiten und Rückzahlungsfähigkeit. Klären Sie, welche Kriterien für BioCasas Startphase besonders bedeutsam sind.
+**Arbeitsform:** Pitchteam
 
-Erstellen Sie einen höchstens achtminütigen Pitchablauf mit den Inhalten aus M6 und vier erkennbaren Gründerrollen. Nutzen Sie bei Bedarf die Struktur **Aussage – Beleg – sprechende Person – Zeit – Visualisierung**. Wählen Sie drei zwingend zu visualisierende Zahlen und kennzeichnen Sie das jeweilige Szenario. Bereiten Sie mindestens sechs Rückfragen aus M5 vor; jede Antwort braucht eine Zahl, einen Materialbezug oder eine konkrete Risikomaßnahme. Lassen Sie die fachlichen Schlussfolgerungen bis zur gemeinsamen Entscheidung offen.
+1. **Planen** Sie mit M3 höchstens fünf Folien. **Notieren** Sie je Folie eine Kernbotschaft; verwenden Sie die Geschäftsidee und einen vorhandenen Marktbeleg aus LS 3.
+
+   Nutzen Sie die Materialien bei Bedarf und prüfen Sie Ihr Zwischenergebnis gemeinsam.
+
+2. **Verteilen** Sie die Sprechrollen im Team. **Bereiten** Sie mit M5 kurze Antworten auf zwei erwartbare Rückfragen **vor**. Der Pitch dauert höchstens vier Minuten, die Fragerunde zwei Minuten.
+
 
 #### Entscheiden
 
-**Arbeitszeit:** 1,5 Unterrichtsstunden  
-**Arbeitsform:** Vierergruppen mit gemeinsamer Entscheidungsrunde  
-**Materialien:** M1 bis M4, Berechnungen und eigene Kriterien
+**Arbeitszeit:** 1 Unterrichtsstunden
 
-Beurteilen Sie die drei Kombinationen und entwickeln Sie daraus Ihren Finanzierungsvorschlag. Legen Sie Beträge und Verwendungszwecke fest; begründen Sie, wie die Finanzierungslücke geschlossen wird und welche Laufzeiten zu den jeweiligen Bedarfen passen. Entscheiden Sie auch über die Bedeutung von Eigentum, Vertragsbindung und Kaufoption für BioCasa.
+**Arbeitsform:** Pitchteam
 
-Trennen Sie einen beantragten Kontokorrentrahmen von seiner tatsächlichen Inanspruchnahme. Nehmen Sie zur Tragfähigkeit im Stressszenario Stellung und legen Sie mindestens drei geeignete Maßnahmen oder Bedingungen fest. Als Begründungshilfe können Sie nutzen: „Unser Vorschlag deckt … durch …; bei geringerem Absatz entsteht …; deshalb gilt als Bedingung …“. Die Lehrkraft stellt klärende Rückfragen; die fachliche Auswahl verantwortet das Team.
+1. **Prüfen** Sie in M4 die angefragten 300.000 Euro und deren Verwendung. **Stellen** Sie die Finanzierungslücke vor und nach dieser möglichen Beteiligung übersichtlich untereinander **dar**. **Kennzeichnen** Sie die noch nicht gesicherte Restfinanzierung.
+
+   Nutzen Sie die Materialien bei Bedarf und prüfen Sie Ihr Zwischenergebnis gemeinsam.
+
+2. **Begründen** Sie das vorgegebene Verhandlungsangebot von insgesamt 20 Prozent Anteilen für das Angel-Team: ein erwarteter Nutzen und ein Nachteil. **Entscheiden** Sie sich für ein wesentliches Geschäftsrisiko und eine passende Gegenmaßnahme für Ihren Pitch. Eine Unternehmensbewertung wird nicht verlangt.
+
 
 #### Durchführen
 
-**Arbeitszeit:** 2,5 Unterrichtsstunden  
-**Arbeitsform:** Vierergruppen mit vier erkennbaren Sprechrollen  
-**Materialien:** M5, M6, eigene Finanzierungsentscheidung und Berechnungen
+**Arbeitszeit:** 2 Unterrichtsstunden
 
-Erstellen Sie einen einheitlichen Präsentationssatz und proben Sie die Übergänge zwischen Geschäftsidee, Markt, Kapitalbedarf, Finanzierung, Belastung und Risiken. Visualisieren Sie Zahlen mit Einheit, Zeitraum und Szenario. Formulieren Sie einen klaren Antrag an das Gremium. Halten Sie den Pitch in höchstens acht Minuten und beantworten Sie anschließend fünf Minuten lang Rückfragen.
+**Arbeitsform:** Pitchteam und Rückmeldegruppe
 
-**Handlungsergebnis: Pitchdeck mit mündlichem Finanzierungspitch**
+**Erstellen** Sie Ihr Pitchdeck mit höchstens fünf Folien und **erproben** Sie es einmal mit der Uhr. **Präsentieren** Sie anschließend in höchstens vier Minuten; alle Teammitglieder übernehmen eine kurze Sprechrolle. **Beantworten** Sie zwei Minuten lang Rückfragen und unterscheiden Sie dabei Planwerte, Annahmen und Zusagen.
 
-Finanzierungsanalyse, Rechnungen und Entscheidung erfolgen ohne KI. Erst nach Fertigstellung des eigenen Pitchdecks darf ein freigegebenes System gemäß Abschnitt 11 kritische Rückfragen simulieren. Beantworten Sie diese selbst anhand der Materialien; übernehmen Sie keine erfundenen Konditionen.
+Handlungsergebnis: kurzes Pitchdeck mit begründeter Kapitalanfrage und mündlichem Pitch.
 
-#### Kontrollieren / Überprüfen
+#### Überprüfen
 
-**Arbeitszeit:** 1 Unterrichtsstunde  
-**Arbeitsform:** Finanzierungsgremium und Pitchteam  
-**Materialien:** M5, Feedbackbogen M6 und Pitchdeck
+**Arbeitszeit:** 0,5 Unterrichtsstunden
 
-Das Gremium prüft mit M6, ob die Finanzierungslücke geschlossen ist, Zwecke und Fristen zusammenpassen, Belastungen nachvollziehbar sind und der Kontokorrent für kurzfristige Schwankungen vorgesehen ist. Es kontrolliert Leasingfolgen, Plan- und Stresssicht, Risikomaßnahmen sowie die Verbindung von Markt, Team und Kapitalverwendung. Visualisierungen und fachliche Antworten werden ebenfalls bewertet.
+**Arbeitsform:** Rückmeldegruppe ↔ Pitchteam
 
-Übernehmen Sie die vorläufige Entscheidung „finanzierungsfähig“, „finanzierungsfähig unter Bedingungen“ oder „noch nicht finanzierungsfähig“ mit ihrer Begründung. Überarbeiten Sie anschließend höchstens drei Folien und Ihre Finanzierungsempfehlung. Halten Sie fest, welche Rückmeldung zu welcher Änderung geführt hat.
+**Überprüfen** Sie als Rückmeldegruppe den Pitch anhand der fünf Kriterien in M6. **Geben** Sie dem Pitchteam eine Stärke und einen konkreten Verbesserungshinweis. Das Pitchteam **überarbeitet** daraufhin eine zentrale Folie oder Aussage und **begründet** die Änderung in einem Satz.
 
 #### Reflektieren
 
-**Arbeitszeit:** 1 Unterrichtsstunde  
-**Arbeitsform:** Einzelarbeit und Auswertungsgespräch  
-**Materialien:** eigene Entscheidung, Pitch und Gremiumsfeedback
+**Arbeitszeit:** 0,5 Unterrichtsstunden
 
-Vergleichen Sie Ihre anfängliche Finanzierungspräferenz mit dem begründeten Endurteil. Welche Rückfrage zeigte eine Schwäche, welche Information war unverzichtbar und welche entbehrlich? Erklären Sie die Folgen einer dauerhaft kurzfristig finanzierten Anlage. Beschreiben Sie Ihren Umgang mit Unsicherheit oder Kritik und prüfen Sie, welche Hilfe Sie beim nächsten Finanzierungsvorschlag bereits selbstständig ersetzen können.
+**Arbeitsform:** Einzelarbeit
 
-### Lernweg W3 · Hellgrün – teiloffen
+**Reflektieren** Sie Ihren eigenen Beitrag in drei kurzen Sätzen: Welche Aussage hat überzeugt? Welche Rückfrage war schwierig? Was werden Sie beim nächsten Pitch konkret besser machen?
 
-**Gemeinsamer fachlicher Zielkern:** Es gilt unverändert die vorrangige Kompetenz aus Abschnitt 3. Das Handlungsergebnis bleibt das **Pitchdeck mit mündlichem Finanzierungspitch**.
+### Lernweg W3 · Teiloffen
 
-#### Informieren / Analysieren
+#### Informieren
 
-1. Analysieren Sie M1 bis M6 und den Businessplan aus LS 3. Verteilen Sie Darlehen, Kontokorrent, Leasing und Tragfähigkeit selbstständig im Team.
-2. Stellen Sie für jede Finanzierungsform Verwendungszweck, Laufzeit, Kosten, Liquiditätswirkung, Sicherheiten/Bindungen sowie Chancen und Risiken gegenüber.
-3. Führen Sie die erforderlichen Berechnungen so aus, dass ein anderes Team jeden Rechenweg prüfen kann.
-4. **Meilenstein 1:** Legen Sie eine gemeinsame Finanzierungsübersicht mit Plan- und Stresssicht vor.
+**Arbeitszeit:** 1 Unterrichtsstunden
+
+**Arbeitsform:** Einzelarbeit / Partnerarbeit
+
+1. **Fassen** Sie die Geschäftsidee von BioCasa in zwei Sätzen **zusammen**. **Notieren** Sie aus M1 Kapitalbedarf, Eigenmittel und Finanzierungslücke mit Einheit.
+
+   Ordnen Sie die Materialien und die Arbeitsschritte innerhalb des Auftrags selbst.
+
+2. **Erläutern** Sie mithilfe von M2 und M7, was ein Business-Angel außer Kapital einbringen kann und welche Gegenleistung im Fall erwartet wird. **Nennen** Sie einen Unterschied zu einem Bankdarlehen.
+
 
 #### Planen
 
-1. Entwickeln Sie eigene Kriterien für einen tragfähigen Finanzierungsmix.
-2. Entwerfen Sie selbst Aufbau, Rollen und Dramaturgie eines maximal achtminütigen Pitchs.
-3. Entscheiden Sie, welche Zahlen visualisiert und welche Risiken offensiv angesprochen werden müssen.
-4. Bereiten Sie sich arbeitsteilig auf kritische Rückfragen vor.
+**Arbeitszeit:** 1 Unterrichtsstunden
+
+**Arbeitsform:** Pitchteam
+
+1. **Planen** Sie mit M3 höchstens fünf Folien. **Notieren** Sie je Folie eine Kernbotschaft; verwenden Sie die Geschäftsidee und einen vorhandenen Marktbeleg aus LS 3.
+
+   Ordnen Sie die Materialien und die Arbeitsschritte innerhalb des Auftrags selbst.
+
+2. **Verteilen** Sie die Sprechrollen im Team. **Bereiten** Sie mit M5 kurze Antworten auf zwei erwartbare Rückfragen **vor**. Der Pitch dauert höchstens vier Minuten, die Fragerunde zwei Minuten.
+
 
 #### Entscheiden
 
-1. **Beurteilen** Sie die vorliegenden Kombinationen und entwickeln Sie daraus einen begründeten Finanzierungsvorschlag.
-2. Ordnen Sie Finanzierungsformen klar zu Investitions- bzw. Liquiditätsbedarfen zu.
-3. **Nehmen** Sie zur Tragfähigkeit im Stressszenario **Stellung** und bestimmen Sie konkrete Bedingungen oder Gegenmaßnahmen.
+**Arbeitszeit:** 1 Unterrichtsstunden
+
+**Arbeitsform:** Pitchteam
+
+1. **Prüfen** Sie in M4 die angefragten 300.000 Euro und deren Verwendung. **Stellen** Sie die Finanzierungslücke vor und nach dieser möglichen Beteiligung übersichtlich untereinander **dar**. **Kennzeichnen** Sie die noch nicht gesicherte Restfinanzierung.
+
+   Ordnen Sie die Materialien und die Arbeitsschritte innerhalb des Auftrags selbst.
+
+2. **Begründen** Sie das vorgegebene Verhandlungsangebot von insgesamt 20 Prozent Anteilen für das Angel-Team: ein erwarteter Nutzen und ein Nachteil. **Entscheiden** Sie sich für ein wesentliches Geschäftsrisiko und eine passende Gegenmaßnahme für Ihren Pitch. Eine Unternehmensbewertung wird nicht verlangt.
+
 
 #### Durchführen
 
-Erstellen Sie ein Pitchdeck und führen Sie den Pitch durch. Gestaltung, Rollenverteilung und Visualisierung entscheiden Sie selbst; alle Teammitglieder müssen fachlich auskunftsfähig sein.
+**Arbeitszeit:** 2 Unterrichtsstunden
 
-**Handlungsergebnis: Pitchdeck mit mündlichem Finanzierungspitch**
+**Arbeitsform:** Pitchteam und Rückmeldegruppe
 
-#### Kontrollieren / Überprüfen
+**Erstellen** Sie Ihr Pitchdeck mit höchstens fünf Folien und **erproben** Sie es einmal mit der Uhr. **Präsentieren** Sie anschließend in höchstens vier Minuten; alle Teammitglieder übernehmen eine kurze Sprechrolle. **Beantworten** Sie zwei Minuten lang Rückfragen und unterscheiden Sie dabei Planwerte, Annahmen und Zusagen.
 
-Lassen Sie ein anderes Team als Finanzierungsgremium prüfen, ob Finanzierungslücke, Fristenkongruenz, Kosten, Belastungen, Eigentumsfolgen, Plan-/Stressszenario und Risiken schlüssig sind. Ergänzen Sie mindestens ein eigenes Kriterium für die Wirkung des Pitchs und überarbeiten Sie maximal drei zentrale Punkte.
+Handlungsergebnis: kurzes Pitchdeck mit begründeter Kapitalanfrage und mündlichem Pitch.
+
+#### Überprüfen
+
+**Arbeitszeit:** 0,5 Unterrichtsstunden
+
+**Arbeitsform:** Rückmeldegruppe ↔ Pitchteam
+
+**Überprüfen** Sie als Rückmeldegruppe den Pitch anhand der fünf Kriterien in M6. **Geben** Sie dem Pitchteam eine Stärke und einen konkreten Verbesserungshinweis. Das Pitchteam **überarbeitet** daraufhin eine zentrale Folie oder Aussage und **begründet** die Änderung in einem Satz.
 
 #### Reflektieren
 
-Welche Finanzierungsannahme hat sich durch die Analyse verändert? Welche Rückfrage hat Ihr Konzept am stärksten geprüft? Welche Information war für die Entscheidung unverzichtbar und welche Präsentationsentscheidung würden Sie beim nächsten Pitch anders treffen?
+**Arbeitszeit:** 0,5 Unterrichtsstunden
 
-### Lernweg W4 · Sehr helles Blau – selbstgesteuert mit Checkpoints
+**Arbeitsform:** Einzelarbeit
 
-**Gemeinsamer fachlicher Zielkern:** Erarbeiten und vertreten Sie einen begründeten Finanzierungsmix für BioCasa. Fachkompetenz, Rechenanforderungen, Bewertung und **Pitchdeck mit mündlichem Finanzierungspitch** bleiben identisch. Ihr Team steuert Materialarbeit, Zusammenarbeit und Vorbereitung. Genau zwei verbindliche fachliche Checkpoints sichern Finanzierungsentscheidung und Pitchentwurf.
+**Reflektieren** Sie Ihren eigenen Beitrag in drei kurzen Sätzen: Welche Aussage hat überzeugt? Welche Rückfrage war schwierig? Was werden Sie beim nächsten Pitch konkret besser machen?
 
-#### Informieren / Analysieren
+### Lernweg W4 · Selbstgesteuert mit Checkpoints
 
-**Arbeitszeit:** 4 Unterrichtsstunden  
-**Arbeitsform:** selbst gewählte Einzelarbeit und Kooperation mit organisiertem Fachaustausch  
-**Materialien:** M1 bis M6 und Businessplan aus LS 3
+#### Informieren
 
-Starten Sie mit Ihrer eigenen Einschätzung: Wofür fehlt BioCasa Kapital und welche Finanzierungsfolgen muss das Team vor dem Gespräch verstehen? Stellen Sie Kapitalbedarf, Eigenmittel und Finanzierungslücke dar. Wählen Sie Bearbeitungsreihenfolge, vertiefte Materialauswahl und Zuständigkeiten für Darlehen, Kontokorrent, Leasing und Tragfähigkeit selbst. Sämtliche folgenden Nachweise bleiben verbindlich.
+**Arbeitszeit:** 1 Unterrichtsstunden
 
-Vergleichen Sie Finanzierungszweck, Laufzeit, Kosten, Liquiditätswirkung, Sicherheiten beziehungsweise Bindungen sowie Chancen und Risiken aller drei Formen. Berechnen Sie beim Ratendarlehen von 900.000 Euro die monatliche Tilgung, Zinsen und Gesamtleistung im ersten und letzten Tilgungsmonat sowie die Zinsen während der 96 Tilgungsmonate ohne die sechs tilgungsfreien Monate. Bestimmen Sie die Jahreszinsen bei unveränderter Kontokorrentinanspruchnahme von 148.000 Euro und erläutern Sie, weshalb die Schuld damit nicht getilgt ist. Ermitteln Sie den nominalen Leasinggesamtbetrag einschließlich Sonderzahlung, 60 Raten und Kaufoption; vergleichen Sie ihn mit dem Barkauf und erklären Sie die Vergleichsgrenzen.
+**Arbeitsform:** Einzelarbeit / Partnerarbeit
 
-Berechnen Sie die operativen Zahlungsmittelüberschüsse im Plan- und Stressszenario aus M4. Erläutern Sie, welche Aussagen diese Überschüsse über die Rückzahlungsfähigkeit erlauben und weshalb sie nicht vollständig frei verfügbare Liquidität darstellen. Vergleichen Sie die drei Kombinationen nach Fristenpassung, anfänglichem Bedarf, festen Monatsbelastungen, Flexibilität, Eigentum und Risiko. Organisieren Sie zu jedem Fachbereich eine fünfminütige Fachinformation mit prüfbaren Rechenwegen. Entscheiden Sie selbst, wie alle Teammitglieder den Zusammenhang von Finanzierungslücke und späterer Liquiditätsbelastung nachvollziehen können.
+1. **Fassen** Sie die Geschäftsidee von BioCasa in zwei Sätzen **zusammen**. **Notieren** Sie aus M1 Kapitalbedarf, Eigenmittel und Finanzierungslücke mit Einheit.
+
+   Vereinbaren Sie im Team einen kurzen Checkpoint für Ihr Zwischenergebnis.
+
+2. **Erläutern** Sie mithilfe von M2 und M7, was ein Business-Angel außer Kapital einbringen kann und welche Gegenleistung im Fall erwartet wird. **Nennen** Sie einen Unterschied zu einem Bankdarlehen.
+
 
 #### Planen
 
-**Arbeitszeit:** 2 Unterrichtsstunden  
-**Arbeitsform:** selbst organisierte Vierergruppen  
-**Materialien:** M5, M6, eigene Analysen und Berechnungen
+**Arbeitszeit:** 1 Unterrichtsstunden
 
-Entwerfen Sie Ihren Arbeitsplan für Entscheidung, Präsentationserstellung und Probe. Legen Sie eigene Arbeitsblöcke innerhalb der Phasenzeit, Verantwortlichkeiten, Materialzugriffe, gemeinsame Prüfschritte und passende verfügbare Lernorte fest. Entscheiden Sie, was konzentrierte Einzelarbeit verlangt und wo das Team gemeinsam rechnen, abwägen oder argumentieren muss.
+**Arbeitsform:** Pitchteam
 
-Entwickeln Sie Entscheidungskriterien unter Einbezug von Fristenkongruenz, Kosten, Liquiditätsbelastung, Flexibilität, Risiko, Eigentum, Sicherheiten und Rückzahlungsfähigkeit. Planen Sie die Dramaturgie nach dem Briefing M6: höchstens acht Minuten mit vier erkennbaren Sprechrollen. Wählen Sie drei zentrale Zahlen für die Visualisierung und sorgen Sie für erkennbare Szenariokennzeichnung. Bereiten Sie mindestens sechs Rückfragen aus M5 mit zahlen-, material- oder maßnahmengestützten Antworten vor. Planen Sie beide Checkpoints und ausreichende Zeit zur fachlichen Überarbeitung ein.
+1. **Planen** Sie mit M3 höchstens fünf Folien. **Notieren** Sie je Folie eine Kernbotschaft; verwenden Sie die Geschäftsidee und einen vorhandenen Marktbeleg aus LS 3.
+
+   Vereinbaren Sie im Team einen kurzen Checkpoint für Ihr Zwischenergebnis.
+
+2. **Verteilen** Sie die Sprechrollen im Team. **Bereiten** Sie mit M5 kurze Antworten auf zwei erwartbare Rückfragen **vor**. Der Pitch dauert höchstens vier Minuten, die Fragerunde zwei Minuten.
+
 
 #### Entscheiden
 
-**Arbeitszeit:** 1,5 Unterrichtsstunden  
-**Arbeitsform:** eigenverantwortliche Entscheidungsrunde mit fachlichem Checkpoint  
-**Materialien:** M1 bis M4, eigene Kriterien und Berechnungen
+**Arbeitszeit:** 1 Unterrichtsstunden
 
-Beurteilen Sie die drei Finanzierungskombinationen und entwickeln Sie daraus Ihren Vorschlag mit eindeutigen Beträgen und Verwendungszwecken. Begründen Sie die Deckung der Finanzierungslücke, Fristenpassung und Bedeutung von Eigentum, Kaufoption und Bindungen. Entscheiden Sie über Kontokorrentbedarf und tatsächlich geplante Inanspruchnahme. Nehmen Sie zur Stressfestigkeit Stellung und bestimmen Sie mindestens drei konkrete Maßnahmen oder Bedingungen.
+**Arbeitsform:** Pitchteam
 
-**Verbindlicher Checkpoint 1 – Tragfähigkeit der Finanzierungsentscheidung:** Legen Sie der Lehrkraft Ihren Vorschlag mit Vergleich und Rechnungen vor. Erklären Sie, wie sich anfängliche Finanzierung und spätere feste Belastung unterscheiden. Zeigen Sie die Folgen des geringeren Absatzes und begründen Sie, welche Risiken Ihre Bedingungen begrenzen. Kreditrahmen und tatsächliche Nutzung müssen unterscheidbar sein. Kennzeichnen Sie offene Schwächen und planen Sie deren Bearbeitung; die Auswahl und begründete Anpassung bleiben beim Team.
+1. **Prüfen** Sie in M4 die angefragten 300.000 Euro und deren Verwendung. **Stellen** Sie die Finanzierungslücke vor und nach dieser möglichen Beteiligung übersichtlich untereinander **dar**. **Kennzeichnen** Sie die noch nicht gesicherte Restfinanzierung.
+
+   Vereinbaren Sie im Team einen kurzen Checkpoint für Ihr Zwischenergebnis.
+
+2. **Begründen** Sie das vorgegebene Verhandlungsangebot von insgesamt 20 Prozent Anteilen für das Angel-Team: ein erwarteter Nutzen und ein Nachteil. **Entscheiden** Sie sich für ein wesentliches Geschäftsrisiko und eine passende Gegenmaßnahme für Ihren Pitch. Eine Unternehmensbewertung wird nicht verlangt.
+
 
 #### Durchführen
 
-**Arbeitszeit:** 2,5 Unterrichtsstunden  
-**Arbeitsform:** selbst organisierte Vierergruppen, anschließend Finanzierungspitch  
-**Materialien:** M5, M6, Finanzierungsentscheidung und Checkpoint-Rückmeldung
+**Arbeitszeit:** 2 Unterrichtsstunden
 
-Erstellen Sie Ihr Pitchdeck mit selbst gewähltem Aufbau und geeigneten Visualisierungen. Verbinden Sie Kundenproblem, Marktbeleg, Kapitalbedarf, gewählten Finanzierungsmix, Rückzahlungsfähigkeit, Stresssicht und Antrag. Kennzeichnen Sie jede entscheidungsrelevante Zahl mit Einheit, Zeitraum und Szenario.
+**Arbeitsform:** Pitchteam und Rückmeldegruppe
 
-**Verbindlicher Checkpoint 2 – Prüffähiger Pitchentwurf:** Zeigen Sie der Lehrkraft vor der Präsentation das fertige Deck. Weisen Sie nach, dass Finanzierungsantrag, Rechenanlage und Folienaussagen übereinstimmen, feste Belastungen und Stressfolgen sichtbar sind und die vier Sprechrollen in den Zeitrahmen passen. Erläutern Sie eine vorbereitete Antwort auf eine kritische Gremiumsfrage. Entscheiden Sie über erforderliche Korrekturen und setzen Sie diese vor dem Pitch um.
+**Erstellen** Sie Ihr Pitchdeck mit höchstens fünf Folien und **erproben** Sie es einmal mit der Uhr. **Präsentieren** Sie anschließend in höchstens vier Minuten; alle Teammitglieder übernehmen eine kurze Sprechrolle. **Beantworten** Sie zwei Minuten lang Rückfragen und unterscheiden Sie dabei Planwerte, Annahmen und Zusagen.
 
-Halten Sie den Pitch in höchstens acht Minuten mit vier erkennbaren Sprechrollen; beantworten Sie danach fünf Minuten lang die Fragen des Gremiums.
+Handlungsergebnis: kurzes Pitchdeck mit begründeter Kapitalanfrage und mündlichem Pitch.
 
-**Handlungsergebnis: Pitchdeck mit mündlichem Finanzierungspitch**
+#### Überprüfen
 
-Analyse, Berechnungen und Finanzierungsentscheidung erfolgen KI-frei. Erst nach eigenem fertigem Deck darf ein freigegebenes System Rückfragen gemäß Abschnitt 11 simulieren; fachliche Antworten erarbeiten und prüfen Sie selbst.
+**Arbeitszeit:** 0,5 Unterrichtsstunden
 
-#### Kontrollieren / Überprüfen
+**Arbeitsform:** Rückmeldegruppe ↔ Pitchteam
 
-**Arbeitszeit:** 1 Unterrichtsstunde  
-**Arbeitsform:** selbst organisierter Austausch zwischen Finanzierungsgremium und Pitchteam  
-**Materialien:** Rollenkarten M5, Feedbackbogen M6 und Pitchdeck
-
-Lassen Sie das Gremium Finanzierungslücke, Zweck- und Fristenpassung, Kosten, Monatsbelastungen, Kontokorrentnutzung, Eigentums- und Vertragsfolgen, Plan-/Stresssicht und Risikomaßnahmen prüfen. Markt, Team und Kapitalverwendung müssen zusammenpassen; auch sachliche Visualisierungen und fachliche Antworten zählen. Werten Sie die begründete Entscheidung „finanzierungsfähig“, „finanzierungsfähig unter Bedingungen“ oder „noch nicht finanzierungsfähig“ aus. Überarbeiten Sie höchstens drei Folien und Ihre Finanzierungsempfehlung und begründen Sie Ihre Änderungen.
+**Überprüfen** Sie als Rückmeldegruppe den Pitch anhand der fünf Kriterien in M6. **Geben** Sie dem Pitchteam eine Stärke und einen konkreten Verbesserungshinweis. Das Pitchteam **überarbeitet** daraufhin eine zentrale Folie oder Aussage und **begründet** die Änderung in einem Satz.
 
 #### Reflektieren
 
-**Arbeitszeit:** 1 Unterrichtsstunde  
-**Arbeitsform:** individuelle Reflexion und eigenständig moderierte Teamauswertung  
-**Materialien:** Arbeitsplan, Berechnungen und Gremiumsfeedback
+**Arbeitszeit:** 0,5 Unterrichtsstunden
 
-Erläutern Sie die Entwicklung Ihres Finanzierungsurteils und die folgenreichste Rückfrage. Unterscheiden Sie unverzichtbare von entbehrlichen Pitchinformationen und erklären Sie die Folgen dauerhafter Anlagenfinanzierung über kurzfristige Kredite. Wie reagierten Sie auf Unsicherheit und Kritik? Zeigen Sie an einer konkreten Planänderung, wie Ihr Team Verantwortung für die fachliche Qualität übernommen hat und welche Prüfung künftig ohne externen Impuls gelingen kann.
+**Arbeitsform:** Einzelarbeit
 
-### Lernweg W5 · Hellblau – Löppt
+**Reflektieren** Sie Ihren eigenen Beitrag in drei kurzen Sätzen: Welche Aussage hat überzeugt? Welche Rückfrage war schwierig? Was werden Sie beim nächsten Pitch konkret besser machen?
 
-**Auftrag an das Lernteam:** Entwickeln und vertreten Sie gegenüber einem Finanzierungsgremium ein tragfähiges Finanzierungskonzept für BioCasa. Fachkompetenz, Rechenanforderungen und Pitch als Handlungsergebnis bleiben verbindlich; Lernweg und Projektorganisation liegen bei Ihnen.
+### Lernweg W5 · Löppt
 
-**Handlungsergebnis: Pitchdeck mit mündlichem Finanzierungspitch**
+#### Informieren
 
-#### Informieren / Analysieren
+**Arbeitszeit:** 1 Unterrichtsstunden
 
-- Starten Sie **KI-frei** mit der Frage: Welche Finanzierung braucht BioCasa wofür und welche Belastung kann das Unternehmen tragen?
-- Nutzen Sie M1 bis M6 sowie LS 3 selbstorganisiert. Rechnen Sie alle entscheidungsrelevanten Werte nachvollziehbar nach.
-- Ihr Pflichtkern: Finanzierungslücke, Ratendarlehen, Kontokorrentkredit, Leasing, Fristenpassung, Liquiditätsbelastung, Eigentums-/Bindungsfolgen sowie Plan- und Stressszenario.
-- **Checkpoint A:** Das Team kann die Finanzierungslücke und die Wirkung jeder Finanzierungsform fachlich erklären, ohne Folien abzulesen.
+**Arbeitsform:** Einzelarbeit / Partnerarbeit
+
+1. **Fassen** Sie die Geschäftsidee von BioCasa in zwei Sätzen **zusammen**. **Notieren** Sie aus M1 Kapitalbedarf, Eigenmittel und Finanzierungslücke mit Einheit.
+
+   Organisieren Sie Vorgehen und Hilfen eigenverantwortlich; die Anforderungen an den Pitch bleiben gleich.
+
+2. **Erläutern** Sie mithilfe von M2 und M7, was ein Business-Angel außer Kapital einbringen kann und welche Gegenleistung im Fall erwartet wird. **Nennen** Sie einen Unterschied zu einem Bankdarlehen.
+
 
 #### Planen
 
-- Planen Sie eigenständig Recherche-/Rechenphasen, Rollen, Pitchdramaturgie, Visualisierungen und Proben.
-- Entwickeln Sie eigene Entscheidungskriterien und legen Sie fest, wie Sie Risiken transparent kommunizieren.
-- Ab hier darf der freigegebene KI-Assistent als Sparringspartner für kritische Bankfragen oder zur Strukturprüfung genutzt werden; Berechnungen und Entscheidungen werden vom Team verifiziert.
-- **Checkpoint B:** Finanzierungskonzept und Pitchplan sind intern freigegeben.
+**Arbeitszeit:** 1 Unterrichtsstunden
+
+**Arbeitsform:** Pitchteam
+
+1. **Planen** Sie mit M3 höchstens fünf Folien. **Notieren** Sie je Folie eine Kernbotschaft; verwenden Sie die Geschäftsidee und einen vorhandenen Marktbeleg aus LS 3.
+
+   Organisieren Sie Vorgehen und Hilfen eigenverantwortlich; die Anforderungen an den Pitch bleiben gleich.
+
+2. **Verteilen** Sie die Sprechrollen im Team. **Bereiten** Sie mit M5 kurze Antworten auf zwei erwartbare Rückfragen **vor**. Der Pitch dauert höchstens vier Minuten, die Fragerunde zwei Minuten.
+
 
 #### Entscheiden
 
-- Entwickeln Sie mindestens zwei plausible Finanzierungsmixe und prüfen Sie sie gegen Ihre Kriterien.
-- Treffen Sie eine begründete Auswahl und benennen Sie bewusst Grenzen oder Bedingungen der Finanzierung.
-- Simulieren Sie mindestens eine Stressfrage und passen Sie Ihr Konzept bei Bedarf an.
+**Arbeitszeit:** 1 Unterrichtsstunden
+
+**Arbeitsform:** Pitchteam
+
+1. **Prüfen** Sie in M4 die angefragten 300.000 Euro und deren Verwendung. **Stellen** Sie die Finanzierungslücke vor und nach dieser möglichen Beteiligung übersichtlich untereinander **dar**. **Kennzeichnen** Sie die noch nicht gesicherte Restfinanzierung.
+
+   Organisieren Sie Vorgehen und Hilfen eigenverantwortlich; die Anforderungen an den Pitch bleiben gleich.
+
+2. **Begründen** Sie das vorgegebene Verhandlungsangebot von insgesamt 20 Prozent Anteilen für das Angel-Team: ein erwarteter Nutzen und ein Nachteil. **Entscheiden** Sie sich für ein wesentliches Geschäftsrisiko und eine passende Gegenmaßnahme für Ihren Pitch. Eine Unternehmensbewertung wird nicht verlangt.
+
 
 #### Durchführen
 
-- Erstellen und halten Sie einen professionellen Pitch. Das Team wählt Aufbau und Gestaltung selbst.
-- Alle entscheidungsrelevanten Zahlen müssen prüfbar sein; jede Person muss Rückfragen zu mindestens einem fremden Teilbereich beantworten können.
+**Arbeitszeit:** 2 Unterrichtsstunden
 
-#### Kontrollieren / Überprüfen
+**Arbeitsform:** Pitchteam und Rückmeldegruppe
 
-- Organisieren Sie ein echtes Pitch-Audit durch ein anderes Team. Dieses darf Rückfragen frei wählen.
-- Werten Sie Feedback und eigene Beobachtungen aus und verbessern Sie gezielt die fachlich schwächsten Stellen.
-- Dokumentieren Sie, welche Änderung Ihren Finanzierungsvorschlag oder dessen Begründung tatsächlich verbessert hat.
+**Erstellen** Sie Ihr Pitchdeck mit höchstens fünf Folien und **erproben** Sie es einmal mit der Uhr. **Präsentieren** Sie anschließend in höchstens vier Minuten; alle Teammitglieder übernehmen eine kurze Sprechrolle. **Beantworten** Sie zwei Minuten lang Rückfragen und unterscheiden Sie dabei Planwerte, Annahmen und Zusagen.
+
+Handlungsergebnis: kurzes Pitchdeck mit begründeter Kapitalanfrage und mündlichem Pitch.
+
+#### Überprüfen
+
+**Arbeitszeit:** 0,5 Unterrichtsstunden
+
+**Arbeitsform:** Rückmeldegruppe ↔ Pitchteam
+
+**Überprüfen** Sie als Rückmeldegruppe den Pitch anhand der fünf Kriterien in M6. **Geben** Sie dem Pitchteam eine Stärke und einen konkreten Verbesserungshinweis. Das Pitchteam **überarbeitet** daraufhin eine zentrale Folie oder Aussage und **begründet** die Änderung in einem Satz.
 
 #### Reflektieren
 
-- Wo haben Sie Ihren Arbeits- oder Finanzierungsplan selbstständig angepasst?
-- Welche Unsicherheit konnten Sie fachlich reduzieren und welche bleibt bestehen?
-- Welche persönliche Strategie hat Ihnen geholfen, unter Rückfragen sicher zu argumentieren?
+**Arbeitszeit:** 0,5 Unterrichtsstunden
+
+**Arbeitsform:** Einzelarbeit
+
+**Reflektieren** Sie Ihren eigenen Beitrag in drei kurzen Sätzen: Welche Aussage hat überzeugt? Welche Rückfrage war schwierig? Was werden Sie beim nächsten Pitch konkret besser machen?
 
 ## 6. Materialien M1–M6
 
-### M1 – Finanzierungsbriefing aus dem Businessplan
+### M1 – BioCasa-Kurzbriefing
 
-- **Materialart:** Management-Memo
-- **Absender/Quelle:** Christian Kannegießer; vom Gründerteam freigegebene Zahlen aus LS 3
-- **Kontext:** gemeinsame Datengrundlage für das Finanzierungsgespräch
-- **Vollständiger Inhalt:**
+**Materialart:** internes Kurzbriefing des Gründerteams.
 
-> **BioCasa – Finanzierungsbriefing, Version 1.0**
->
-> **Gesamter Kapitalbedarf:** 1.410.500 Euro  
-> davon Investitionen und einmalige Gründungsausgaben: 1.196.500 Euro  
-> davon Betriebsmittel und Reserve für die ersten drei Monate: 214.000 Euro
->
-> **Verfügbare Eigenmittel:** 362.500 Euro  
-> **Finanzierungslücke bei Barkauf aller Anlagen:** 1.048.000 Euro
->
-> **Größte Einzelposition:** Produktions- und Tiefkühllinie, Barkaufpreis 620.000 Euro
->
-> **Planszenario erstes volles Betriebsjahr:**
->
-> - Absatz: 398.000 Einheiten
-> - durchschnittlicher Nettoerlös je Einheit: 4,60 Euro
-> - variable Auszahlungen je Einheit: 2,10 Euro
-> - fixe operative Auszahlungen vor Finanzierung, Steuern und Abschreibungen: 690.000 Euro
-> - vereinfachter operativer Zahlungsmittelüberschuss vor Finanzierung: 305.000 Euro
->
-> **Wichtig:** Der Überschuss ist keine sichere freie Liquidität. Umsatzzeitpunkt, Zahlungsziele, Steuern, ungeplante Auszahlungen und Anlaufabweichungen sind in einer laufenden Liquiditätsplanung zusätzlich zu berücksichtigen.
+**Ausgangspunkt:** Der Businessplan aus LS 3 ist die Grundlage. BioCasa plant ein begrenztes Startsortiment und einen regionalen Markteintritt. Nutzen Sie die dort erarbeitete Geschäftsidee, Zielgruppe und das Kundenproblem. Erfinden Sie keine bereits gewonnenen Kunden oder bestätigten Aufträge.
 
-### M2 – Finanzierungsangebot der Ostfriesischen Wirtschaftsbank
+| Größe | Betrag |
+|---|---:|
+| Investitionen und einmalige Gründungsausgaben | 1.196.500 Euro |
+| Betriebsmittel und Reserve für drei Monate | 214.000 Euro |
+| Gesamter Kapitalbedarf | 1.410.500 Euro |
+| Verfügbare Eigenmittel | 362.500 Euro |
+| Noch fehlendes Kapital | 1.048.000 Euro |
 
-- **Materialart:** E-Mail mit Konditionsblatt
-- **Absender/Quelle:** Meike Petersen, Firmenkundenberatung; fiktive Konditionen für den Unterrichtsfall
-- **Kontext:** unverbindliche Diskussionsgrundlage; keine reale Bankofferte
-- **Vollständiger Inhalt:**
+**Pitchkern:** Was bietet BioCasa an, wem hilft es und warum passt das Team zur Umsetzung? Ein verständlicher Satz je Punkt genügt als Grundlage.
 
-> **Von:** meike.petersen@owb-firmenkunden.de  
-> **An:** gruendung@biocasa-projekt.de  
-> **Betreff:** Indikative Finanzierungskonditionen für Ihren Pitch
->
-> Guten Tag zusammen,
->
-> für die Vorbereitung des Finanzierungstermins erhalten Sie zwei mögliche Bankbausteine. Eine Zusage ist damit nicht verbunden. Sie setzt unter anderem einen konsistenten Businessplan, die Rechtsform- und Vertragsprüfung, den vollständigen Eigenmitteleinsatz und bankübliche Sicherheiten voraus.
->
-> **Baustein A – Ratendarlehen für langfristige Investitionen**
->
-> - möglicher Darlehensbetrag: 400.000 bis 900.000 Euro
-> - Sollzinssatz: 5,40 % p. a., für die Vertragslaufzeit fest
-> - sechs Monate tilgungsfrei; währenddessen monatliche Zinszahlung auf den ausgezahlten Betrag
-> - anschließend 96 monatliche, gleich hohe Tilgungsbeträge
-> - Zinsen monatlich auf die jeweilige Restschuld
-> - außerplanmäßige Tilgung bis 5 % der ursprünglichen Darlehenssumme pro Jahr ohne Zusatzentgelt
-> - vorgesehener Zweck: langfristig nutzbare Investitionen und ein angemessener Anteil der Gründungs-/Anlaufkosten
-> - Sicherheiten: Sicherungsübereignung finanzierter Gegenstände; persönliche und gesellschaftsrechtliche Prüfung nach Rechtsformwahl
->
-> **Rechenhinweis Ratendarlehen:**  
-> monatliche Tilgung = Darlehensbetrag ÷ 96  
-> Monatszins = Restschuld zu Monatsbeginn × 5,40 % ÷ 12  
-> Monatsleistung = Tilgung + Monatszins
->
-> **Baustein B – Kontokorrentkredit für kurzfristige Liquiditätsschwankungen**
->
-> - Kreditlinie: bis zu 180.000 Euro
-> - variabler Sollzinssatz: derzeit 10,20 % p. a. auf den tatsächlich in Anspruch genommenen Betrag
-> - Zinsabrechnung quartalsweise
-> - Linie ist jährlich zu überprüfen; Anpassung der Konditionen oder des Rahmens möglich
-> - vorgesehener Zweck: kurzfristige Schwankungen aus Wareneinkauf, Zahlungszielen und saisonalem Absatz
-> - nicht als dauerhafte Finanzierung der Produktionsanlage vorgesehen
->
-> Im Gespräch erwarten wir eine klare Betrags- und Zweckzuordnung sowie einen Belastungsvergleich im Planszenario und bei geringerem Absatz.
->
-> Freundliche Grüße  
-> Meike Petersen
+Die Zahlen beschreiben den bisherigen Plan bei Barkauf der Anlagen. Der Kapitalbedarf ist weder Umsatz noch Gewinn. Die Reserve ist bereits im Gesamtbedarf enthalten und darf nicht ein zweites Mal addiert werden. Eine positive Rückmeldung im Pitch ersetzt keine gesicherte Finanzierung.
 
-### M3 – Leasingangebot für die Produktions- und Tiefkühllinie
+### M2 – Einladung zum Angel-Pitch
 
-- **Materialart:** indikatives Leasingangebot
-- **Absender/Quelle:** NordLease Produktionssysteme GmbH; fiktive Konditionen für den Unterrichtsfall
-- **Kontext:** Alternative zum Barkauf der 620.000-Euro-Linie
-- **Vollständiger Inhalt:**
+**Materialart:** fiktive Einladung für das Unterrichtsszenario.
 
-> **Leasingobjekt:** Produktions- und Tiefkühllinie Typ NLF 2500  
-> **Barkaufpreis beim Hersteller:** 620.000 Euro netto  
-> **Grundmietzeit:** 60 Monate  
-> **Sonderzahlung bei Vertragsbeginn:** 62.000 Euro  
-> **monatliche Leasingrate:** 10.950 Euro  
-> **Kaufoption nach 60 Monaten:** 68.000 Euro; Ausübung nicht verpflichtend  
-> **Lieferung und Standardmontage:** in den Raten enthalten  
-> **Wartung:** jährliche Grundwartung enthalten; Verschleißteile und Schäden durch Fehlbedienung nicht enthalten  
-> **Nutzung:** nur am vereinbarten Standort; wesentliche Umbauten der Anlage nur nach Zustimmung  
-> **vorzeitige Beendigung:** während der Grundmietzeit grundsätzlich ausgeschlossen, sofern kein besonderer vertraglicher Grund vorliegt  
-> **Eigentum:** verbleibt während der Grundmietzeit bei NordLease; Eigentumsübergang nur bei wirksamer Ausübung der Kaufoption und Zahlung
->
-> **Wirkung auf den anfänglichen Kapitalbedarf:** Wird die Anlage nicht für 620.000 Euro gekauft, sondern geleast, entfällt der Barkaufpreis. Stattdessen ist zu Beginn die Sonderzahlung von 62.000 Euro zu finanzieren. Der anfängliche Kapitalbedarf sinkt damit um 558.000 Euro. Die monatlichen Leasingraten belasten die spätere Liquidität.
->
-> Dieses Angebot ist eine didaktische Szenariounterlage und keine steuerliche oder rechtliche Beratung.
+Liebes BioCasa-Team,
 
-### M4 – Vergleichs- und Belastungsakte
+stellen Sie uns Ihre Geschäftsidee in **vier Minuten mit höchstens fünf Folien** vor. Anschließend nehmen wir uns **zwei Minuten für Rückfragen**. Uns interessieren Kundenproblem, Lösung, Team, Kapitalverwendung und ein realistischer nächster Schritt.
 
-- **Materialart:** interne Szenarioübersicht
-- **Absender/Quelle:** Aluna Chengo und Christian Kannegießer; didaktische Szenariodaten
-- **Kontext:** Vorauswahl für den Pitch
-- **Vollständiger Inhalt:**
+Wir möchten verstehen, welche unternehmerische Erfahrung oder welche Kontakte Sie zusätzlich zum Kapital benötigen. Business-Angels unterstützen junge Unternehmen häufig mit eigenem Geld und Know-how. Im vorliegenden Fall wird eine Beteiligung an BioCasa verhandelt.
 
-#### A. Plan- und Stressszenario
+Ihre vorbereitete Anfrage lautet: **300.000 Euro für zusammen 20 Prozent Unternehmensanteile**. Die 20 Prozent gelten für das gesamte Angel-Team, nicht für jede einzelne Person. Es handelt sich um eine vereinfachte Verhandlungsannahme und noch um keine Zusage.
 
-| Größe                                        |      Planszenario |                   Stressszenario |
-|----------------------------------------------|------------------:|---------------------------------:|
-| Absatzmenge im ersten vollen Betriebsjahr    | 398.000 Einheiten | 318.400 Einheiten (20 % weniger) |
-| Nettoerlös je Einheit                        |         4,60 Euro |                        4,60 Euro |
-| variable Auszahlung je Einheit               |         2,10 Euro |                        2,10 Euro |
-| fixe operative Auszahlungen vor Finanzierung |      690.000 Euro |                     690.000 Euro |
+Bitte erläutern Sie offen, dass anschließend noch **748.000 Euro** fehlen. Wir erwarten keine Kreditberechnung oder Unternehmensbewertung, sondern einen nachvollziehbaren Pitch.
 
-**Rechenweg:** Absatzmenge × (Nettoerlös – variable Auszahlung) – fixe operative Auszahlungen.
+Freundliche Grüße
+Das fiktive Angel-Team
 
-#### B. Drei zu beurteilende Kombinationen
+**Fachlicher Hintergrund:** [Business Angels Deutschland: Profil](https://www.business-angels.de/profil/). Das Szenario und sämtliche Angebotszahlen sind Unterrichtsannahmen.
 
-**Kombination 1 – vollständiger Anlagenkauf, hoher Bankanteil**
+### M3 – Fünf Folien für vier Minuten
 
-- Ratendarlehen: 900.000 Euro
-- dauerhafte Inanspruchnahme des Kontokorrentkredits zu Beginn: 148.000 Euro
-- Anlage geht nach Kauf in das Vermögen von BioCasa über und dient als Sicherheit
-- Finanzierungslücke ist rechnerisch vollständig geschlossen
-- langfristiger Kapitalbedarf von 148.000 Euro bleibt jedoch zunächst im variablen Kontokorrent
+**Materialart:** kompakte Gestaltungshilfe für das Pitchdeck.
 
-**Kombination 2 – Leasing und passendes Ratendarlehen**
+| Folie | Kernbotschaft | Richtzeit |
+|---|---|---:|
+| 1 · Problem und Lösung | Welches Kundenproblem löst BioCasa? | 40 Sekunden |
+| 2 · Zielgruppe und Team | Für wen ist das Angebot gedacht, und warum passt das Team? | 40 Sekunden |
+| 3 · Kapital und Verwendung | Wofür werden die 300.000 Euro angefragt? | 60 Sekunden |
+| 4 · Beteiligung und Risiko | Was bieten wir an, welches Risiko bleibt und wie reagieren wir darauf? | 60 Sekunden |
+| 5 · Anfrage und nächster Schritt | Was wünschen wir uns vom Angel-Team, und was muss vor dem Start geklärt sein? | 40 Sekunden |
 
-- Leasing der Linie; anfänglicher Kapitalbedarf sinkt um 558.000 Euro
-- neue Finanzierungslücke: 490.000 Euro
-- Ratendarlehen: 490.000 Euro
-- zusätzlich beantragte Kontokorrentlinie: 150.000 Euro, nur für nachgewiesene kurzfristige Schwankungen; keine dauerhafte Anfangsinanspruchnahme eingeplant
-- feste Leasingrate zusätzlich zur Darlehensleistung
-- Eigentum an der Linie nur bei späterer Ausübung der Kaufoption
+Die Richtzeiten ergeben zusammen **vier Minuten**. Jede Folie trägt eine Kernbotschaft. Zeigen Sie Beträge mit Einheit und eindeutiger Bezeichnung.
 
-**Kombination 3 – größtmögliche Flexibilität**
+Ein einfacher Aufbau reicht: kurze Aussagen, gut lesbare Zahlen und höchstens eine passende Grafik je Folie. Die Folien unterstützen das Gespräch. Ausführliche Textblöcke und zusätzliche Rechenanlagen sind nicht erforderlich.
 
-- Leasing der Linie
-- Ratendarlehen: 400.000 Euro
-- verbleibende strukturelle Finanzierungslücke: 90.000 Euro
-- Deckung dieser 90.000 Euro durch dauerhafte Kontokorrentinanspruchnahme
-- zusätzliche Kontokorrentreserve faktisch nur noch 90.000 Euro bis zur angebotenen Höchstlinie
+### M4 – Kapitalanfrage übersichtlich prüfen
 
-#### C. Risikomaßnahmen, über die entschieden werden kann
+**Materialart:** Zahlenübersicht für die vereinfachte Beteiligungsanfrage.
 
-- verbindliche Händler-Testvereinbarungen vor endgültigem Produktionshochlauf
-- stufenweise Freigabe eines Teils des Marketingbudgets nach Absatzentwicklung
-- monatliche rollierende Liquiditätsplanung mit 13-Wochen-Vorschau
-- zweiter Lieferbetrieb für kritische Hauptzutaten
-- Produktionsanlauf zunächst unterhalb der Maximalplanung
-- Verhandlung über eine längere Tilgungsfreiheit oder zusätzliche Sicherheiten
-- festgelegte Ausgabengrenzen, wenn Absatz zwei Monate unter Plan liegt
+#### 1 · Fehlendes Kapital
 
-### M5 – Rollen des Finanzierungsgremiums
+| Rechenschritt | Betrag |
+|---|---:|
+| Gesamter Kapitalbedarf | 1.410.500 Euro |
+| − vorhandene Eigenmittel | 362.500 Euro |
+| = Finanzierungslücke | **1.048.000 Euro** |
 
-- **Materialart:** Rollenkarten
-- **Absender/Quelle:** Berg & Macher; fiktive, zeitstabile Rollen
-- **Kontext:** Vorbereitung und Durchführung der Pitchprüfung
-- **Vollständiger Inhalt:**
+#### 2 · Angefragte Verwendung
 
-#### Rolle 1 – Firmenkundenbank
+| Rechenschritt | Betrag |
+|---|---:|
+| Betriebsmittel und Reserve | 214.000 Euro |
+| + Beitrag zu Investitionen | 86.000 Euro |
+| = Anfrage an das Angel-Team | **300.000 Euro** |
 
-Sie achten auf Kapitalverwendung, Sicherheiten, Fristenkongruenz und Rückzahlung. Fragen Sie insbesondere:
+#### 3 · Auch danach noch offen
 
-- Wofür wird jeder Euro des Darlehens eingesetzt?
-- Warum reicht das Eigenkapital nicht weiter?
-- Wie hoch ist die größte feste Monatsbelastung?
-- Was geschieht bei 20 Prozent weniger Absatz?
-- Weshalb wird ein Kontokorrentrahmen benötigt, wenn eine Reserve eingeplant ist?
+| Rechenschritt | Betrag |
+|---|---:|
+| Finanzierungslücke | 1.048.000 Euro |
+| − angefragte Beteiligung | 300.000 Euro |
+| = verbleibender Finanzierungsbedarf | **748.000 Euro** |
 
-#### Rolle 2 – Leasinggesellschaft
+**Verhandlungsannahme:** Das Angel-Team soll zusammen 20 Prozent der Anteile erhalten; beim bisherigen Gründerteam verblieben zusammen 80 Prozent. Dies ist keine hergeleitete Unternehmensbewertung.
 
-Sie achten auf planbare Nutzung, Standort, Wartung und Vertragsbindung. Fragen Sie:
+Die 300.000 Euro werden angefragt und sind noch nicht verfügbar. Auch eine Zusage würde den gesamten Bedarf nicht decken. Der Restbetrag muss vor dem geplanten Start gesichert sein. Eine beliebige Kreditlinie oder erwartete Einnahme darf nicht ohne Nachweis als vorhandenes Geld behandelt werden.
 
-- Weshalb passt Leasing besser als Eigentum zur Startphase?
-- Wie wird die Rate auch bei Anlaufproblemen getragen?
-- Welche Folge hätte ein Standortwechsel?
-- Soll die Kaufoption voraussichtlich genutzt werden?
+### M5 – Sprechrollen und Rückfragen
 
-#### Rolle 3 – regionale Beteiligungsinitiative
+**Materialart:** Rollenhilfe und Fragenpool für die Probe.
 
-Sie stellen kein konkretes Angebot, prüfen aber Markt, Team und Entwicklungsperspektive. Fragen Sie:
+Eine mögliche Aufteilung für vier Personen:
 
-- Warum werden genau diese drei Produkte gestartet?
-- Welche Annahme im Absatzplan ist am unsichersten?
-- Wie ergänzen sich die vier Gründerrollen?
-- Welche messbaren Ziele zeigen, ob das Konzept funktioniert?
+- **Rolle 1:** eröffnet mit Kundenproblem und Lösung.
+- **Rolle 2:** erklärt Zielgruppe und Stärken des Teams.
+- **Rolle 3:** zeigt Kapitalanfrage, Verwendung und Restlücke.
+- **Rolle 4:** begründet Beteiligung und Risikomaßnahme und formuliert den Abschluss.
 
-#### Rolle 4 – Risiko- und Nachhaltigkeitsprüfung
+Die Übergänge sollen kurz sein. Alle übernehmen eine erkennbare Sprechrolle. Unterstützen Sie sich bei Rückfragen, ohne einander zu unterbrechen.
 
-Sie achten auf belastbare Aussagen statt Werbesprache. Fragen Sie:
+Mögliche Fragen des Angel-Teams:
 
-- Welche Nachhaltigkeitsaussage können Sie tatsächlich belegen?
-- Welche Liefer- oder Produktionsrisiken bedrohen die Rückzahlung?
-- Welche Gegenmaßnahme wird zuerst ausgelöst?
-- Welche Zahl würden Sie monatlich überwachen?
+1. Warum benötigen Sie neben dem Geld auch unsere Erfahrung oder Kontakte?
+2. Wie verwenden Sie die 300.000 Euro konkret?
+3. Was bedeutet Ihr Anteilangebot für das Gründerteam?
+4. Wie gehen Sie mit den noch fehlenden 748.000 Euro um?
 
-### M6 – Pitchbriefing und Feedbackbogen
+Für die Vorbereitung genügen **zwei Fragen mit jeweils einer kurzen Antwort**. Eine Antwort soll eine Zahl, einen Bezug zur Geschäftsidee oder eine konkrete Maßnahme enthalten. Bei ungeklärten Punkten ist eine ehrliche Aussage überzeugender als eine erfundene Zusage.
 
-- **Materialart:** Arbeitsauftrag des Finanzierungsgremiums
-- **Absender/Quelle:** Ostfriesische Wirtschaftsbank
-- **Kontext:** formale Rahmenbedingungen des Termins
-- **Vollständiger Inhalt:**
+### M6 – Kompaktes Pitchfeedback
 
-> **Pitchdauer:** höchstens 8 Minuten  
-> **Fragerunde:** 5 Minuten  
-> **Teilnahme:** alle vier Gründerinnen und Gründer mit erkennbarer Sprechrolle
->
-> **Erwartete Inhalte**
->
-> 1.  Kundenproblem, Lösung und Startsortiment in höchstens 45 Sekunden
-> 2.  Zielgruppe, Marktbeleg und Positionierung
-> 3.  Kapitalbedarf, Eigenmittel und Finanzierungslücke
-> 4.  ausgewählter Finanzierungsmix mit Beträgen und Verwendungszwecken
-> 5.  feste Belastungen und Rückzahlungsfähigkeit im Planszenario
-> 6.  Stressszenario, wichtigste Risiken und Gegenmaßnahmen
-> 7.  klarer Antrag an das Gremium
->
-> **Feedbackskala je Kriterium:** 0 = fehlt/falsch; 1 = teilweise; 2 = nachvollziehbar; 3 = besonders überzeugend.
->
-> Kriterien: Problemlösung; Marktbezug; Zahlenrichtigkeit; Fristenpassung; Liquidität; Risikobewusstsein; Teamwirkung; Visualisierung; Zeit; Antworten auf Rückfragen.
+**Materialart:** Rückmeldebogen für ein anderes Team in der Rolle der Business-Angels.
+
+Bewerten Sie jedes Kriterium mit **0 = fehlt oder falsch**, **1 = teilweise klar** oder **2 = nachvollziehbar**.
+
+| Kriterium | Beobachtung |
+|---|---|
+| 1 · Geschäftsidee | Kundenproblem, Lösung und Zielgruppe sind verständlich. |
+| 2 · Kapitalanfrage | 300.000 Euro, ihre Verwendung und die Restlücke von 748.000 Euro werden richtig erklärt. |
+| 3 · Beteiligung | Zusammen 20 Prozent Anteile sowie Nutzen und Folgen der Beteiligung werden deutlich. |
+| 4 · Risiko | Ein konkretes Risiko und eine passende Gegenmaßnahme sind benannt. |
+| 5 · Auftritt | Höchstens fünf Folien, vier Minuten Pitch, verständliche Sprechrollen und sachliche Antworten. |
+
+Die Summe unterstützt das Gespräch; sie ist keine echte Investitionsentscheidung. Benennen Sie **eine Stärke und eine konkrete Verbesserung**.
+
+Das Pitchteam greift anschließend genau eine wichtige Rückmeldung auf und verbessert eine Folie oder Aussage. Fehler bei der Restlücke und die Behauptung einer bereits sicheren Zusage haben dabei Vorrang vor Gestaltungsfragen.
 
 ## 7. Fachsystematische Sicherung
 
-### 7.1 Kontokorrentkredit
+**Materialart:** kompaktes Nachschlageblatt.
 
-Der Kontokorrentkredit ist eine vereinbarte Kreditlinie auf dem Geschäftskonto. Innerhalb des Rahmens kann das Unternehmen flexibel verfügen und Rückzahlungen durch Zahlungseingänge leisten. Zinsen fallen auf die tatsächliche Inanspruchnahme an; der Zinssatz ist häufig höher und variabel. Geeignet ist er vor allem für kurzfristige Liquiditätsschwankungen, nicht für die dauerhafte Finanzierung langfristig genutzter Anlagen.
+**Business-Angel:** Eine Privatperson, die junge Unternehmen mit eigenem Kapital und häufig mit unternehmerischer Erfahrung oder Kontakten unterstützt.
 
-### 7.2 Ratendarlehen
+**Beteiligung:** Im vereinfachten BioCasa-Fall fließt Kapital gegen Unternehmensanteile. Chancen, Risiken und Einfluss werden dadurch geteilt. Das ist kein gewöhnlicher Bankkredit mit festem Tilgungsplan.
 
-Beim Ratendarlehen bleibt der Tilgungsbetrag je Periode gleich. Da die Restschuld sinkt, nehmen Zinsbetrag und gesamte Rate im Zeitablauf ab. Der feste Zinssatz schafft Planungssicherheit. Das Darlehen passt zu längerfristigem Kapitalbedarf, bindet BioCasa aber an regelmäßige Zahlungen und Sicherheiten.
+**Unternehmensanteil:** Beschreibt, welcher Teil des Unternehmens einer beteiligten Person oder Gruppe gehört. Hier werden zusammen 20 Prozent für das Angel-Team vorgeschlagen. Die Einzelheiten der Rechte wären auszuhandeln.
 
-### 7.3 Leasing
+**Kapitalbedarf:** Geld, das für den geplanten Start benötigt wird.
 
-Beim Leasing erhält BioCasa das Nutzungsrecht an der Anlage und zahlt Sonderzahlung und Leasingraten. Eigentümer bleibt zunächst der Leasinggeber. Vorteile können ein geringerer anfänglicher Kapitalbedarf, planbare Raten und enthaltene Leistungen sein. Nachteile sind langfristige Vertragsbindung, Nutzungsvorgaben, fehlendes automatisches Eigentum und möglicherweise höhere nominale Gesamtauszahlungen.
+**Finanzierungslücke:** Der Teil des Kapitalbedarfs, der noch nicht gedeckt ist.
 
-### 7.4 Finanzierungsgrundsatz
+**Pitch:** Kurze, adressatengerechte Vorstellung einer Geschäftsidee mit einer klaren Anfrage.
 
-Die Laufzeit der Finanzierung soll grundsätzlich zur Nutzungs- oder Bindungsdauer des finanzierten Vermögens passen. Langfristige Investitionen werden langfristig finanziert; kurzfristige Schwankungen können kurzfristig finanziert werden. Zusätzlich sind Kosten, Liquidität, Flexibilität, Sicherheiten, Risiko und Eigentumsfolgen zu beurteilen.
+**Know-how:** Praktische Kenntnisse und Erfahrungen, beispielsweise beim Aufbau von Vertriebskontakten.
+
+**Verhandlungsannahme:** Ein Ausgangspunkt für das Gespräch. Die 300.000 Euro und 20 Prozent sind weder eine Zusage noch das Ergebnis einer Unternehmensbewertung.
+
+Fachlicher Hintergrund zum Business-Angel-Begriff: [BAND: Profil](https://www.business-angels.de/profil/). Die Fallzahlen sind didaktisch gesetzt.
 
 ## 8. Erwartungshorizont
 
-### Fachliche Kernpunkte
+### Aufgabe 1
 
-- Finanzierungslücke bei Barkauf: 1.048.000 Euro.
-- Ratendarlehen 900.000 Euro: monatliche Tilgung 9.375 Euro; Zins erster Tilgungsmonat 4.050 Euro; erste Monatsleistung 13.425 Euro; Zins letzter Tilgungsmonat 42,19 Euro; letzte Monatsleistung 9.417,19 Euro; Zinsen über 96 Tilgungsmonate 196.425 Euro. Zinsen der sechs tilgungsfreien Monate kommen zusätzlich hinzu.
-- Kontokorrent 148.000 Euro für ein Jahr bei 10,20 Prozent: 15.096 Euro Zinsen; der Kreditbetrag von 148.000 Euro bleibt ohne gesonderte Rückzahlung bestehen.
-- Leasing bei Ausübung der Kaufoption: 62.000 + 60 × 10.950 + 68.000 = 787.000 Euro nominal. Gegenüber dem Barkaufpreis sind das 167.000 Euro mehr; der Vergleich ist vereinfacht.
-- Operativer Zahlungsmittelüberschuss Planszenario: 305.000 Euro. Stressszenario: 318.400 × 2,50 – 690.000 = 106.000 Euro.
-- Kombination 1 schließt die Lücke, verwendet aber 148.000 Euro teuren variablen Kontokorrentkredit strukturell und ist deshalb risikoreich.
-- Kombination 3 enthält dasselbe Fristenproblem in kleinerem Umfang und reduziert die tatsächlich freie Liquiditätsreserve.
-- Erwartbar überzeugende Entscheidung: Kombination 2. Durch Leasing sinkt die Finanzierungslücke auf 490.000 Euro; ein Ratendarlehen über 490.000 Euro schließt sie fristenkongruenter. Die Kontokorrentlinie dient nur kurzfristigen Schwankungen.
-- Beim Ratendarlehen von 490.000 Euro: monatliche Tilgung 5.104,17 Euro; erste Monatsleistung 7.309,17 Euro; Zinsen über 96 Tilgungsmonate 106.942,50 Euro, zuzüglich Zinsen der tilgungsfreien Monate.
-- Kombination 2 verursacht nach Beginn der Tilgung zunächst rund 18.259 Euro feste Monatsbelastung aus Leasing und Darlehen. Sie ist im Planszenario grundsätzlich darstellbar, im Stressszenario jedoch nicht aus dem vereinfachten operativen Überschuss allein tragfähig.
-- Notwendige Bedingungen sind deshalb beispielsweise Absatznachweise vor Hochlauf, 13-Wochen-Liquiditätsplanung, Ausgabenstopps bei Planverfehlung, Lieferalternativen und eine ausreichend freie Kontokorrentreserve.
+**Fassen** Sie die Geschäftsidee von BioCasa in zwei Sätzen **zusammen**. **Notieren** Sie aus M1 Kapitalbedarf, Eigenmittel und Finanzierungslücke mit Einheit.
 
-### Notwendige Entscheidungen
+**Möglicher Lösungsansatz:** Geschäftsidee, Kundenproblem und Zielgruppe knapp aus dem eigenen Businessplan übernehmen. Zahlenübersicht: Kapitalbedarf 1.410.500 Euro; vorhandene Eigenmittel 362.500 Euro; Finanzierungslücke 1.048.000 Euro. Betriebsmittel und Reserve von 214.000 Euro sind bereits im Gesamtbedarf enthalten.
 
-- Finanzierungsformen und genaue Beträge
-- eindeutiger Verwendungszweck je Baustein
-- Umgang mit Eigentum und Kaufoption
-- beantragter, aber nicht dauerhaft verplanter Kontokorrentrahmen
-- Risikomaßnahmen und Bedingungen für den Produktionshochlauf
-- klarer Finanzierungsantrag an das Gremium
+**Vertretbarer Korridor:** Unterschiedliche knappe Formulierungen zur Geschäftsidee sind möglich, wenn sie zum vorhandenen Businessplan passen. Eine einfache Tabelle oder drei klar beschriftete Zeilen reichen.
 
-Eine andere Kombination kann überzeugen, wenn sie die Finanzierungslücke vollständig schließt, langfristigen Bedarf nicht dauerhaft kurzfristig finanziert und im Stressszenario belastbar begründet wird.
+**Typische bzw. grobe Fehler:** Grob falsch: Kapitalbedarf als Gewinn oder Umsatz bezeichnen; die Reserve erneut addieren; Finanzierungslücke und Eigenmittel vertauschen. Unbelegt: bereits gesicherte Kunden oder Aufträge erfinden.
 
-### Typische Fehler
+### Aufgabe 2
 
-- Zinssatz und gesamte Finanzierungskosten werden gleichgesetzt.
-- Beim Ratendarlehen wird eine gleichbleibende Gesamtleistung statt einer gleichbleibenden Tilgung berechnet.
-- Der Kontokorrentrahmen wird als vorhandenes Guthaben oder als langfristig billige Finanzierung behandelt.
-- Beim Leasing wird BioCasa schon während der Grundmietzeit als Eigentümer bezeichnet.
-- Die Sonderzahlung oder Kaufoption wird in der Vergleichsrechnung vergessen.
-- Der operative Zahlungsmittelüberschuss wird vollständig für den Schuldendienst verplant; Steuern, Zahlungszeitpunkte und Risiken bleiben unbeachtet.
-- Risiken werden nur genannt, aber nicht mit Auslöser und Maßnahme verbunden.
-- Der Pitch enthält viele Produktdetails, aber keinen klaren Finanzierungsantrag.
+**Erläutern** Sie mithilfe von M2 und M7, was ein Business-Angel außer Kapital einbringen kann und welche Gegenleistung im Fall erwartet wird. **Nennen** Sie einen Unterschied zu einem Bankdarlehen.
+
+**Möglicher Lösungsansatz:** Das Angel-Team könnte Kapital und zusätzlich Erfahrung oder Kontakte einbringen. Im Szenario fragt BioCasa 300.000 Euro für zusammen 20 Prozent Unternehmensanteile an. Das Gründerteam müsste damit Beteiligung und Einfluss teilen; Einzelheiten wären auszuhandeln. Es liegt noch keine Zusage vor.
+
+**Vertretbarer Korridor:** Als Nutzen sind beispielsweise Vertriebserfahrung, Kontakte zu Händlern oder Begleitung bei unternehmerischen Entscheidungen plausibel. Die Unterstützung muss als Wunsch oder möglicher Beitrag formuliert werden.
+
+**Typische bzw. grobe Fehler:** Grob falsch: Beteiligung als Geschenk oder gewöhnlichen Kredit mit festem Tilgungsplan darstellen; 20 Prozent je Angel versprechen; die Anfrage als abgeschlossenes Geschäft ausgeben. Noch zu vage: nur 'mehr Hilfe' ohne ein Beispiel nennen.
+
+### Aufgabe 3
+
+**Planen** Sie mit M3 höchstens fünf Folien. **Notieren** Sie je Folie eine Kernbotschaft; verwenden Sie die Geschäftsidee und einen vorhandenen Marktbeleg aus LS 3.
+
+**Möglicher Lösungsansatz:** Fünf Folien mit je einer Kernbotschaft planen: Problem/Lösung; Zielgruppe/Team; Kapital/Verwendung; Beteiligung/Risiko; Anfrage/nächster Schritt. Die Richtzeiten 40 + 40 + 60 + 60 + 40 Sekunden ergeben vier Minuten.
+
+**Vertretbarer Korridor:** Eine andere Reihenfolge und eigene kurze Folientitel sind möglich, wenn alle fünf Inhalte vorkommen, höchstens fünf Folien entstehen und der Pitch vier Minuten einhält.
+
+**Typische bzw. grobe Fehler:** Grob falsch: Kapitalanfrage oder offene Restfinanzierung weglassen. Noch verbesserbar: überladene Textfolien, doppelte Botschaften oder unklare Zahlenbeschriftungen.
+
+### Aufgabe 4
+
+**Verteilen** Sie die Sprechrollen im Team. **Bereiten** Sie mit M5 kurze Antworten auf zwei erwartbare Rückfragen **vor**. Der Pitch dauert höchstens vier Minuten, die Fragerunde zwei Minuten.
+
+**Möglicher Lösungsansatz:** Vier erkennbare Sprechrollen mit kurzen Übergängen festlegen. Zwei Rückfragen vorbereiten, etwa: 'Wie verwenden Sie das Geld?' – 214.000 Euro Betriebsmittel/Reserve und 86.000 Euro Investitionsbeitrag. 'Ist der Start damit finanziert?' – Nein, 748.000 Euro bleiben selbst nach einer Beteiligungszusage noch zu sichern.
+
+**Vertretbarer Korridor:** Jede geeignete Rollenverteilung und zwei andere Fragen aus M5 sind möglich. Die Antworten müssen kurz, sachlich und mit Fallbezug sein.
+
+**Typische bzw. grobe Fehler:** Grob falsch: eine gesicherte Restfinanzierung erfinden. Noch verbesserbar: auswendig gelernte Werbesätze ohne Beleg, ungleiche Sprechanteile oder Antworten, die die Frage umgehen.
+
+### Aufgabe 5
+
+**Prüfen** Sie in M4 die angefragten 300.000 Euro und deren Verwendung. **Stellen** Sie die Finanzierungslücke vor und nach dieser möglichen Beteiligung übersichtlich untereinander **dar**. **Kennzeichnen** Sie die noch nicht gesicherte Restfinanzierung.
+
+**Möglicher Lösungsansatz:**
+
+**Materialart:** Zahlenübersicht für die vereinfachte Beteiligungsanfrage.
+
+#### 1 · Fehlendes Kapital
+
+| Rechenschritt | Betrag |
+|---|---:|
+| Gesamter Kapitalbedarf | 1.410.500 Euro |
+| − vorhandene Eigenmittel | 362.500 Euro |
+| = Finanzierungslücke | **1.048.000 Euro** |
+
+#### 2 · Angefragte Verwendung
+
+| Rechenschritt | Betrag |
+|---|---:|
+| Betriebsmittel und Reserve | 214.000 Euro |
+| + Beitrag zu Investitionen | 86.000 Euro |
+| = Anfrage an das Angel-Team | **300.000 Euro** |
+
+#### 3 · Auch danach noch offen
+
+| Rechenschritt | Betrag |
+|---|---:|
+| Finanzierungslücke | 1.048.000 Euro |
+| − angefragte Beteiligung | 300.000 Euro |
+| = verbleibender Finanzierungsbedarf | **748.000 Euro** |
+
+**Verhandlungsannahme:** Das Angel-Team soll zusammen 20 Prozent der Anteile erhalten; beim bisherigen Gründerteam verblieben zusammen 80 Prozent. Dies ist keine hergeleitete Unternehmensbewertung.
+
+Die 300.000 Euro werden angefragt und sind noch nicht verfügbar. Auch eine Zusage würde den gesamten Bedarf nicht decken. Der Restbetrag muss vor dem geplanten Start gesichert sein. Eine beliebige Kreditlinie oder erwartete Einnahme darf nicht ohne Nachweis als vorhandenes Geld behandelt werden.
+
+**Vertretbarer Korridor:** Rechnung untereinander oder als übersichtliche Tabelle. Alle Beträge, Einheiten und ihre Bedeutung müssen erkennbar sein. Eine Kredit- oder Unternehmenswertberechnung ist nicht erforderlich.
+
+**Typische bzw. grobe Fehler:** Grob falsch: 300.000 Euro als bereits verfügbares Geld oder als vollständige Schließung der Lücke behandeln; 20 Prozent auf jede Person beziehen; 214.000 Euro doppelt zählen.
+
+### Aufgabe 6
+
+**Begründen** Sie das vorgegebene Verhandlungsangebot von insgesamt 20 Prozent Anteilen für das Angel-Team: ein erwarteter Nutzen und ein Nachteil. **Entscheiden** Sie sich für ein wesentliches Geschäftsrisiko und eine passende Gegenmaßnahme für Ihren Pitch. Eine Unternehmensbewertung wird nicht verlangt.
+
+**Möglicher Lösungsansatz:** Mögliche Begründung: Die Anfrage verbindet zusätzliches Kapital mit erhoffter Erfahrung und Kontakten. Dafür bietet BioCasa zusammen 20 Prozent Anteile als Gesprächsgrundlage an; die Gründer würden zusammen 80 Prozent behalten. Wesentliches Risiko: Die verbleibenden 748.000 Euro sind nicht gesichert. Gegenmaßnahme: Den geplanten Start erst freigeben, wenn die Gesamtfinanzierung verbindlich steht.
+
+**Vertretbarer Korridor:** Ein anderes konkretes Risiko mit passender Maßnahme ist möglich, etwa unklarer Einfluss der Beteiligten und die Klärung von Rollen und Entscheidungsrechten vor Vertragsabschluss. Die offene Restfinanzierung muss dennoch ausdrücklich benannt bleiben. Die 20 Prozent dürfen als gesetzte Verhandlungsannahme begründet, aber nicht als nachgewiesen fairer Unternehmenswert behauptet werden.
+
+**Typische bzw. grobe Fehler:** Grob falsch: garantierten Gewinn oder risikofreie Beteiligung versprechen; Gründer hätten nach Abgabe der Anteile unverändert alle Anteile; Start trotz ungesicherter Gesamtfinanzierung als problemlos darstellen. Noch zu vage: 'Wir passen auf' ohne konkrete Maßnahme.
+
+### Aufgabe 7
+
+**Erstellen** Sie Ihr Pitchdeck mit höchstens fünf Folien und **erproben** Sie es einmal mit der Uhr. **Präsentieren** Sie anschließend in höchstens vier Minuten; alle Teammitglieder übernehmen eine kurze Sprechrolle. **Beantworten** Sie zwei Minuten lang Rückfragen und unterscheiden Sie dabei Planwerte, Annahmen und Zusagen.
+
+Handlungsergebnis: kurzes Pitchdeck mit begründeter Kapitalanfrage und mündlichem Pitch.
+
+**Möglicher Lösungsansatz:** Ein konsistentes Deck mit höchstens fünf gut lesbaren Folien erstellen. Einmal mit Uhr proben, Übergänge kürzen und Zahlen abgleichen. Den Pitch in höchstens vier Minuten halten und anschließend zwei Minuten Rückfragen beantworten. Schlussanfrage: 'Wir möchten mit Ihnen über 300.000 Euro für zusammen 20 Prozent Anteile sprechen. Die übrigen 748.000 Euro müssen vor dem geplanten Start gesichert sein.'
+
+**Vertretbarer Korridor:** Eigene Gestaltung und Formulierungen sind ausdrücklich möglich. Die Qualität liegt in Verständlichkeit, richtigen Zahlen, ehrlicher Darstellung und erkennbarem Teambeitrag, nicht in aufwendigen Animationen.
+
+**Typische bzw. grobe Fehler:** Grob falsch: Folien widersprechen sich bei Betrag, Anteil oder Restlücke; aus einer Anfrage wird im Vortrag eine Zusage. Noch verbesserbar: Zeitüberschreitung, Ablesen langer Texte oder fehlende Übergänge.
+
+### Aufgabe 8
+
+**Überprüfen** Sie als Rückmeldegruppe den Pitch anhand der fünf Kriterien in M6. **Geben** Sie dem Pitchteam eine Stärke und einen konkreten Verbesserungshinweis. Das Pitchteam **überarbeitet** daraufhin eine zentrale Folie oder Aussage und **begründet** die Änderung in einem Satz.
+
+**Möglicher Lösungsansatz:** Das andere Team gibt anhand der fünf Kriterien aus M6 Rückmeldung: Geschäftsidee, Kapitalanfrage, Beteiligung, Risiko und Auftritt. Es benennt eine Stärke und eine konkrete Verbesserung. Das Pitchteam setzt eine wichtige Änderung sichtbar um und hält kurz fest, was verbessert wurde.
+
+**Vertretbarer Korridor:** Begründete unterschiedliche Bewertungen sind möglich. Die ausgewählte Verbesserung darf eine sachliche Korrektur, eine klarere Aussage oder eine verständlichere Darstellung sein. Bei vorhandenen Zahlen- oder Zusagefehlern werden diese zuerst korrigiert.
+
+**Typische bzw. grobe Fehler:** Grob falsch: richtige Zahlen als falsch zurückweisen oder einen finanzierten Start trotz Restlücke bestätigen. Unzureichend: nur 'gut' oder 'schlecht' ohne Beobachtung; Rückmeldung sammeln, aber keine Änderung umsetzen.
+
+### Aufgabe 9
+
+**Reflektieren** Sie Ihren eigenen Beitrag in drei kurzen Sätzen: Welche Aussage hat überzeugt? Welche Rückfrage war schwierig? Was werden Sie beim nächsten Pitch konkret besser machen?
+
+**Möglicher Lösungsansatz:** Drei persönliche Sätze, beispielsweise: 'Ich konnte die Verwendung der 300.000 Euro verständlich erklären.' – 'Bei der Rückfrage zur Restlücke habe ich gemerkt, dass ich Anfrage und Zusage deutlicher trennen muss.' – 'Beim nächsten Pitch zeige ich die drei Finanzierungsschritte auf einer klaren Zahlenfolie.'
+
+**Vertretbarer Korridor:** Es gibt keine einheitliche persönliche Musterantwort. Entscheidend sind ein konkreter eigener Beitrag, eine erkannte Schwierigkeit und ein umsetzbarer nächster Schritt.
+
+**Typische bzw. grobe Fehler:** Unzureichend: drei allgemeine Lob- oder Kritikpunkte ohne eigenen Bezug. Fachlich grob falsch wäre die Schlussfolgerung, offene Finanzierungsfragen künftig lieber zu verschweigen.
 
 ## 9. Operatoren
 
-| Operator        | AFB | Verwendung in dieser Lernsituation                                             |
-|-----------------|:---:|--------------------------------------------------------------------------------|
-| nennen          |  I  | Finanzierungszwecke, Risiken oder Konditionen angeben                          |
-| darstellen      |  I  | Kapitalbedarf und Finanzierungslücke strukturiert wiedergeben                  |
-| berechnen       |  I  | Tilgung, Zinsen, Leasingauszahlungen und Szenarioüberschüsse bestimmen         |
-| ermitteln       |  I  | Gesamtbelastungen und verbleibenden Bedarf feststellen                         |
-| erstellen       |  I  | Pitchablauf und Pitchdeck anfertigen                                           |
-| herausarbeiten  | II  | Konditionen und Wirkungen aus Angeboten erschließen                            |
-| analysieren     | II  | Szenarien und Liquiditätswirkungen systematisch untersuchen                    |
-| vergleichen     | II  | Finanzierungsformen und Kombinationen nach gleichen Kriterien gegenüberstellen |
-| erläutern       | II  | Fristen, Eigentum und Belastungswirkungen verständlich machen                  |
-| begründen       | III | Finanzierungsmix material- und kriteriengestützt rechtfertigen                 |
-| beurteilen      | III | Kombinationen zu einem Sachurteil führen                                       |
-| Stellung nehmen | III | Tragfähigkeit und Risiko des Konzepts bewerten                                 |
-| überprüfen      | III | Pitch und Finanzierung auf Richtigkeit und Eignung prüfen                      |
+Zusammenfassen, erläutern, planen, prüfen, begründen, präsentieren, überprüfen und reflektieren.
 
 ## 10. Rolle der Lehrkraft
 
-- **Input:** klare Abgrenzung von Kontokorrentkredit, Ratendarlehen und Leasing; Demonstration der Ratendarlehensrechnung an einem neutralen Zahlenbeispiel; Fristenkongruenz.
-- **Strukturierung:** Expertengruppen, verbindliche Rechenblätter, feste Pitchzeit und Rollenkarten.
-- **Hilfen:** gestufte Formeln, vorbereitete Restschuldentabelle, Visualisierungsvorlage ohne Lösungen, Satzstarter für Risikomaßnahmen.
-- **Rückmeldung:** Rechenfreigabe vor der Pitchplanung; präzise Rückfragen statt inhaltlicher Vorwegnahme; kriteriengeleitete Gremiumsentscheidung.
-- **Sicherung:** gemeinsame Gegenüberstellung der Finanzierungsformen; Korrektur typischer Eigentums-, Zins- und Liquiditätsfehler.
+Sechs Unterrichtsstunden; bei größeren Klassen parallele Rückmeldegruppen. Bei W1 strukturieren, bei W2 begleiten, bei W3 beraten, bei W4 Checkpoints unterstützen und bei W5 auf Anfrage coachen. Es werden weder ein vollständiger Finanzierungsvergleich noch eine Unternehmensbewertung verlangt.
 
 ## 11. KI-Einsatz
 
-Die Finanzierungsanalyse, Berechnungen und Entscheidung werden ohne KI durchgeführt. Nach Fertigstellung des eigenen Pitchdecks kann ein freigegebenes KI-System optional als Rückfragen-Simulator eingesetzt werden. Es erhält ausschließlich die bewusst ausgewählten, nicht personenbezogenen Pitchinhalte und die Anweisung, kritische Fragen zu Finanzierung, Markt und Risiko zu formulieren. Antworten werden nicht von der KI übernommen, sondern vom Team anhand von M1 bis M6 erarbeitet. Jede von der KI genannte Zahl muss mit den Originaldaten abgeglichen werden; erfundene Konditionen werden verworfen.
+**Materialart:** kurze Hilfe zur freiwilligen Pitchprobe.
+
+Erarbeiten Sie zuerst Ihren eigenen Pitch und prüfen Sie die Zahlen mit M1 und M4. Danach kann ein freigegebenes KI-System zwei kritische Rückfragen simulieren. Die Nutzung ist optional und erzeugt keine zusätzliche Pflichtaufgabe.
+
+**Möglicher Prompt:**
+
+> Du übernimmst die Rolle eines Business-Angels. Stelle uns nacheinander zwei kurze Rückfragen zu unserem Pitch. Gib keine fertigen Antworten und erfinde keine Geschäftsdaten. Warte jeweils auf unsere eigene Antwort.
+
+Übertragen Sie nur bewusst ausgewählte Inhalte ohne personenbezogene Angaben. Prüfen Sie jede zusätzliche Zahl oder Behauptung anhand der Materialien. Eine KI-Antwort ist keine Bestätigung, dass die Finanzierung gesichert ist.
+
+Die Antwort auf die Rückfrage formuliert das Team selbst. Falls Sie die Hilfe genutzt haben, genügt eine kurze Notiz: Welche Frage hat Ihnen geholfen und welche eigene Aussage haben Sie daraufhin verbessert? Bei offenen Fachfragen wenden Sie sich an die Lehrkraft.
 
 ## 12. SchuCu-Qualitätscheck
 
-| Prüffrage                                               | Ergebnis                                                                                                          |
-|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Liegt ein echtes betriebliches Problem vor?             | Ja. Ohne tragfähigen Finanzierungsmix kann BioCasa nicht investieren oder gründen.                                |
-| Trägt die Handlungssituation die gesamte Lernsituation? | Ja. Vergleich, Berechnung, Entscheidung und Kommunikation richten sich auf denselben Kapitalgebertermin.          |
-| Ist BioCasa plausibel?                                  | Ja. Der Businessplan liegt vor, eine Zusage und die rechtliche Gründung aber noch nicht.                          |
-| Entsteht fachlicher Handlungsbedarf?                    | Ja. Drei Finanzierungsformen müssen zweck- und risikogerecht kombiniert werden.                                   |
-| Ergibt sich das Handlungsergebnis logisch?              | Ja. Das Finanzierungsgremium verlangt einen Pitch mit konkretem Antrag.                                           |
-| Ist die vollständige Handlung sichtbar?                 | Ja. Analyse, Pitchplanung, Finanzierungsentscheidung, Präsentation, Gremiumsprüfung und Reflexion sind erkennbar. |
-| Wird die curriculare Kompetenz erreicht?                | Ja. Kontokorrentkredit, Ratendarlehen und Leasing werden verglichen, ausgewählt und adressatengerecht vertreten.  |
+Die vollständige Handlung führt zu einem kurzen realitätsnahen Pitch. Neun fortlaufende Aufgaben, kurze Rückmeldung und konkrete Überarbeitung entlasten die Arbeitsphasen. Materialien enthalten keine zusätzlichen Pflichtaufgaben. Alle Lernwege nutzen denselben fachlichen Kern.
 
 # LS 5 – Ein Unternehmen gründen
 

@@ -90,32 +90,32 @@
     ]
   },
   "4": {
-    "priorityStatement": "Ich vergleiche Kontokorrentkredit, Ratendarlehen und Leasing, wähle für BioCasa einen begründeten Finanzierungsmix aus und vertrete ihn adressatengerecht gegenüber Kapitalgebern.",
+    "priorityStatement": "Ich stelle BioCasas Geschäftsidee in einem kurzen Pitch vor und begründe gegenüber Business-Angels eine Kapitalanfrage einschließlich Anteilangebot, Verwendung und noch offener Restfinanzierung.",
     "competencies": [
       {
         "label": "Fachkompetenz",
         "weight": 5,
-        "statement": "Ich analysiere Konditionen, Kosten, Liquiditätswirkungen, Risiken und Zweckbindung der drei Finanzierungsformen und entwickle daraus ein tragfähiges Konzept."
+        "statement": "Ich erläutere die Beteiligung eines Business-Angel-Teams und begründe BioCasas Kapitalanfrage mit Verwendung, Restfinanzierungsbedarf und einem wesentlichen Risiko."
       },
       {
         "label": "Personalkompetenz",
         "weight": 4,
-        "statement": "Ich vertrete eine belastbare Position unter Nachfragen, erkenne Unsicherheiten an und reagiere sachlich auf Kritik."
+        "statement": "Ich vertrete meine Aussagen verständlich, benenne offene Fragen ehrlich und reagiere sachlich auf Rückfragen."
       },
       {
         "label": "Sozialkompetenz",
         "weight": 5,
-        "statement": "Ich einige mich trotz unterschiedlicher Risikovorstellungen auf eine gemeinsame Botschaft, verteile Sprechrollen und gebe kriteriengeleitet Feedback."
+        "statement": "Ich stimme Sprechrollen im Team ab und nutze konkrete Rückmeldungen zur gemeinsamen Verbesserung des Pitches."
       },
       {
         "label": "Methodenkompetenz",
         "weight": 4,
-        "statement": "Ich berechne Finanzierungswirkungen, führe einen Stressvergleich durch und verdichte komplexe Informationen für eine Entscheidung."
+        "statement": "Ich prüfe die wenigen entscheidenden Finanzierungszahlen und verdichte die Geschäftsidee auf einen vierminütigen Pitch."
       },
       {
         "label": "Medienkompetenz",
         "weight": 5,
-        "statement": "Ich erstelle ein übersichtliches Pitchdeck, visualisiere Planwerte korrekt und präsentiere mit digitalen Medien adressatengerecht."
+        "statement": "Ich gestalte höchstens fünf gut lesbare Folien und kennzeichne Zahlen sowie Verhandlungsannahmen eindeutig."
       }
     ]
   },
