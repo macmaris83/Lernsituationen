@@ -1,0 +1,40 @@
+name: Aktuelle Aufgaben-PDFs prüfen
+on:
+  push:
+    paths:
+      - 'tools/build_current_task_pdfs.cjs'
+      - 'tools/verify_current_task_pdfs.py'
+      - 'tools/task_slimming.py'
+      - '.github/workflows/task-pdf-check.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  pdf:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Aktuelle Aufgaben und gemeinsame Darstellung vorbereiten
+        run: |
+          python3 tools/migrate_traditional_paths.py
+          python3 tools/task_slimming.py
+          python3 tools/form_master.py sync
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Druckwerkzeuge bereitstellen
+        run: |
+          npm install --prefix /tmp/form185-tests playwright@1.56.1
+          /tmp/form185-tests/node_modules/.bin/playwright install --with-deps chromium
+          python3 -m venv /tmp/current-task-pdfs-venv
+          /tmp/current-task-pdfs-venv/bin/pip install pymupdf==1.26.6
+      - name: Aufgaben-PDFs erzeugen und unabhängig prüfen
+        env:
+          NODE_PATH: /tmp/form185-tests/node_modules
+          PYTHON: /tmp/current-task-pdfs-venv/bin/python
+        run: node tools/build_current_task_pdfs.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: task-pdf-previews
+          path: test-results/current-task-pdfs

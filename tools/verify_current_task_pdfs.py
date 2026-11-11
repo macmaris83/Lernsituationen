@@ -31,6 +31,9 @@ def inspect(root, entry, output):
     doc = fitz.open(file)
     if not len(doc):
         raise AssertionError(f"Empty PDF: {file}")
+    prefix = re.sub(r"[^a-zA-Z0-9_-]", "_", entry["id"]+"_"+Path(entry["file"]).stem)
+    # Save visual evidence before assertions, including for a failed document.
+    doc[0].get_pixmap(matrix=fitz.Matrix(1.15, 1.15), alpha=False).save(output / f"{prefix}_p1.png")
     text = "".join(page.get_text(sort=True) for page in doc)
     content = compact(text)
     markers, visible_numbers = [], []
@@ -82,8 +85,9 @@ def inspect(root, entry, output):
     # Representative visual evidence: first and final task pages of each phase,
     # plus first page of the full print. No modification of the source PDFs.
     selected = {0, markers[-1]["page"]} if entry["kind"] == "phase" else {0} if entry["kind"] == "print" else set()
-    prefix = re.sub(r"[^a-zA-Z0-9_-]", "_", entry["id"]+"_"+Path(entry["file"]).stem)
     for page_no in sorted(selected):
+        if page_no == 0:
+            continue
         doc[page_no].get_pixmap(matrix=fitz.Matrix(1.15, 1.15), alpha=False).save(output / f"{prefix}_p{page_no+1}.png")
     doc.close()
     return record, time_map
@@ -96,15 +100,24 @@ def main():
     args = parser.parse_args()
     root, output = args.root, args.plan.parent
     plan = json.loads(args.plan.read_text())
-    records, maps = [], {}
+    records, maps, errors = [], {}, []
     for entry in plan:
-        record, time_map = inspect(root, entry, output)
+        try:
+            record, time_map = inspect(root, entry, output)
+        except Exception as error:
+            errors.append({"id": entry["id"], "file": entry["file"], "error": str(error)})
+            continue
         records.append(record)
         map_file = root / entry["master"] / "assets/pdf-task-times-map.js"
         if map_file.exists():
             if map_file not in maps:
                 maps[map_file] = read_assignment(map_file)
             maps[map_file][entry["file"]] = time_map
+    (output / "verification-errors.json").write_text(json.dumps(errors, ensure_ascii=False, indent=2)+"\n")
+    if errors:
+        for error in errors:
+            print(f"PDF verification failed: {error['id']} {error['file']}: {error['error']}")
+        raise SystemExit(1)
     # Write only after every rendered file passed the content/time checks.
     for file, mapping in maps.items():
         folder = file.parent.parent
