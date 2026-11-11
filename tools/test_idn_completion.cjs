@@ -157,7 +157,10 @@ function fullState(s) {
 // migration after decoding instead of silently discarding the old bitset.
 {
   const s=session(),K=s.context.SOZ_PROGRESS_CORE,M=s.context.SOZ_PROGRESS_META;
-  for(const dictionary of M.legacyTaskDictionaries||[]){
+  // The traditional template stores complete task dictionaries in an array.
+  // History packages use a separate, pre-existing hash-keyed dictionary format.
+  const dictionaries=Array.isArray(M.legacyTaskDictionaries)?M.legacyTaskDictionaries:[];
+  for(const dictionary of dictionaries){
     const historical=fullState(s);historical.t=Object.fromEntries(Object.entries(dictionary).filter(([,task])=>task.mode===1).map(([id,task])=>[id,task.signature]));
     const encodeHistorical=progress=>{
       s.context.SOZ_PROGRESS_META={...M,tasks:dictionary};
