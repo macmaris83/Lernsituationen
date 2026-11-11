@@ -1,1 +1,1 @@
-window.SOZ_CONFIG={"mode":1,"allowStudentMode":false,"moodle":{},"media":{},"overrides":{},"packageRevision":"BRC-LG01-LS04-BUSINESS-ANGELS-20261111","pinHash":1509442,"packageVersion":"1.8.13","formVersion":"1.8.8"};
+window.SOZ_CONFIG={"mode":1,"allowStudentMode":false,"moodle":{},"media":{},"overrides":{},"packageRevision":"BRC-LG01-LS04-BUSINESS-ANGELS-20261111","pinHash":1509442,"packageVersion":"1.8.14","formVersion":"1.8.8"};

@@ -1,87 +1,72 @@
 {
   "0:1:1": {
-    "lines": 24,
-    "reason": "Rücklaufquote, sechs Zustimmungsanteile und Prozentpunktvergleich mit Nennern, Rechenweg und Einordnung.",
-    "area": "grid"
-  },
-  "0:1:2": {
-    "lines": 14,
-    "reason": "Mindestanforderungen, Mitarbeiterinteressen und Konflikte zwischen Gruppen mit Belegen herausarbeiten.",
-    "area": "lines"
+    "lines": 38,
+    "area": "grid",
+    "reason": "Rücklaufquote, sechs Zustimmungsanteile und Prozentpunktvergleich mit Nennern, Rechenweg und Einordnung. Mindestanforderungen, Mitarbeiterinteressen und Konflikte zwischen Gruppen mit Belegen herausarbeiten."
   },
   "0:1:3": {
-    "lines": 18,
-    "reason": "Drei Arbeitszeitmodelle anhand mehrerer gemeinsamer Kriterien übersichtlich vergleichen.",
-    "area": "grid"
-  },
-  "0:1:4": {
-    "lines": 16,
-    "reason": "Gesetzliche Grenzen und Mitbestimmungsfelder auf die konkreten Arbeitszeitbestandteile anwenden.",
-    "area": "lines"
+    "lines": 34,
+    "area": "grid",
+    "reason": "Drei Arbeitszeitmodelle anhand mehrerer gemeinsamer Kriterien übersichtlich vergleichen. Gesetzliche Grenzen und Mitbestimmungsfelder auf die konkreten Arbeitszeitbestandteile anwenden."
   },
   "0:1:5": {
-    "lines": 18,
-    "reason": "Hygienefaktoren, Motivatoren sowie intrinsische und extrinsische Anreize mit Fallbezug zuordnen.",
-    "area": "grid"
-  },
-  "0:1:6": {
-    "lines": 8,
-    "reason": "Mehrere mögliche Fehlanreize benennen und ihre Wirkung knapp erläutern.",
-    "area": "lines"
+    "lines": 26,
+    "area": "grid",
+    "reason": "Hygienefaktoren, Motivatoren sowie intrinsische und extrinsische Anreize mit Fallbezug zuordnen. Mehrere mögliche Fehlanreize benennen und ihre Wirkung knapp erläutern."
   },
   "1:1:1": {
     "lines": 6,
-    "reason": "Vorläufige Position und eine noch zu klärende materialbezogene Frage formulieren.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Vorläufige Position und eine noch zu klärende materialbezogene Frage formulieren."
   },
   "1:1:2": {
     "lines": 24,
-    "reason": "Mehrere Pro- und Kontra-Argumentketten mit Behauptung, Begründung, Beleg und Leitfragenbezug sammeln.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Mehrere Pro- und Kontra-Argumentketten mit Behauptung, Begründung, Beleg und Leitfragenbezug sammeln."
   },
   "1:1:3": {
     "lines": 10,
-    "reason": "Argumentreihenfolge planen und mit der vorläufigen Position sowie M6/M7 verbinden.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Argumentreihenfolge planen und mit der vorläufigen Position sowie M6/M7 verbinden."
   },
   "2:1:1": {
     "lines": 22,
-    "reason": "Argumente gewichten, zwei absolute und zwei relative Mehrkosten berechnen und erforderlichen Nutzen erklären.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Argumente gewichten, zwei absolute und zwei relative Mehrkosten berechnen und erforderlichen Nutzen erklären."
   },
   "2:1:2": {
     "lines": 8,
-    "reason": "Eindeutige oder bedingte Position mit Begründung formulieren.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Eindeutige oder bedingte Position mit Begründung formulieren."
   },
   "2:1:3": {
     "lines": 8,
-    "reason": "Mehrere konkrete Bewertungsmaßstäbe mit ihrer Bedeutung festhalten.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Mehrere konkrete Bewertungsmaßstäbe mit ihrer Bedeutung festhalten."
   },
   "3:1:1": {
     "lines": 60,
-    "reason": "Ausformulierte Erörterung mit Einleitung, mehreren belegten Pro-/Kontra-Argumenten, Rechts-/Theorieanwendung, Abwägung und Schluss.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Ausformulierte Erörterung mit Einleitung, mehreren belegten Pro-/Kontra-Argumenten, Rechts-/Theorieanwendung, Abwägung und Schluss."
   },
   "4:1:1": {
     "lines": 14,
-    "reason": "Sechs Reviewkriterien sowie Lehrkrafthinweise und daraus abgeleitete Änderungen dokumentieren.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Sechs Reviewkriterien sowie Lehrkrafthinweise und daraus abgeleitete Änderungen dokumentieren."
   },
   "4:1:2": {
     "lines": 14,
-    "reason": "Zu ersetzende oder ergänzende Textpassagen für die Endfassung ausformulieren; keine vollständige Zweitabschrift.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Zu ersetzende oder ergänzende Textpassagen für die Endfassung ausformulieren; keine vollständige Zweitabschrift."
   },
   "5:1:1": {
     "lines": 8,
-    "reason": "Stärkstes Gegenargument und seine begrenzende Wirkung auf die eigene Position erläutern.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Stärkstes Gegenargument und seine begrenzende Wirkung auf die eigene Position erläutern."
   },
   "5:1:2": {
     "lines": 2,
-    "reason": "Kurze persönliche Notiz zum ansonsten in Moodle ausgeführten Abschluss.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Kurze persönliche Notiz zum ansonsten in Moodle ausgeführten Abschluss."
   }
 }

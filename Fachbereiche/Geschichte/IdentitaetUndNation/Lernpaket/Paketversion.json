@@ -1,5 +1,5 @@
 {
-  "version": "1.8.13",
+  "version": "1.8.14",
   "title": "Identität und Nation",
   "updated": "2026-11-11",
   "revision": "IDN-188",
@@ -11,5 +11,5 @@
     "implementedEachPhase": 2
   },
   "formVersion": "1.8.8",
-  "formSourceSha256": "73cef7c5b45ed150fd5907078f861bd296df90f22eb63bb43f1f78e5b2302e04"
+  "formSourceSha256": "7f3a0530578ef5e8e5b20c9b17a6d4a472fb64ca6af78b58d9252dc2d8f66cbd"
 }

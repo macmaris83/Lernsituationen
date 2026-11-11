@@ -51,7 +51,7 @@ async function prepareExport(result,settings){
  const map=files['assets/pdf-task-times-map.js']?parseAssignment(files['assets/pdf-task-times-map.js'],'window.BRC_PDF_TIME_MAP='):JSON.parse(JSON.stringify(window.BRC_PDF_TIME_MAP));
  for(const [file,entries]of Object.entries(map)){if(!files[file]||!updatesFor(file,map,changes).length)continue;files[file]=await patchWithMap(file,files[file],changes,map);for(const entry of entries){const minutes=changes[key(entry.phase,entry.taskId,Number(entry.mode))];if(Number.isFinite(minutes))entry.originalMinutes=minutes;}}
  for(const phase of phases){const file='goodnotes/page-'+phase+'.js';if(!files[file])continue;const bundle=parseAssignment(files[file],'window.BRC_CURRENT_PDF_FILES=');for(const entry of Object.values(bundle))if(files[entry.file])entry.base64=files[entry.file];files[file]=encodeText('window.BRC_CURRENT_PDF_FILES='+JSON.stringify(bundle)+';\n');}
- const printByMode={};for(let mode=1;mode<=5;mode++){const file=result.data.printPdfs?.[mode]||result.data.printPdf;if(files[file])printByMode[mode]=files[file];}
+ const printByMode={};for(const [mode,file]of Object.entries(result.data.printPdfs||{'1':result.data.printPdf})){if(files[file])printByMode[mode]=files[file];}
  files['print-data.js']=encodeText('window.BRC_PRINT_PDF_BY_MODE='+JSON.stringify(printByMode)+';\nwindow.BRC_PRINT_PDF=window.BRC_PRINT_PDF_BY_MODE[Number(window.SOZ_CONFIG?.mode)||1];\n');
  const workbooks={};for(const [mode,file]of Object.entries(result.data.workbooks||{}))if(files[file])workbooks[mode]=files[file];
  files['workbook-data.js']=encodeText('window.BRC_GOODNOTES_PDF_BY_MODE='+JSON.stringify(workbooks)+';\n');
