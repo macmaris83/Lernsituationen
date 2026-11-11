@@ -120,6 +120,16 @@ def filter_html(text):
             if section is None:
                 raise ValueError('Learning-path module input lacks its expected teacher card')
             remove.append((section.start, section.end))
+        # The traditional template also contains a comparison table outside
+        # data-mode-panel.  It describes the discarded alternatives, including
+        # the redundant W1 comparison row; it is not an assignment or solution.
+        if node.tag == 'h2':
+            heading = re.sub(r'<[^>]*>', '', text[node.open_end:node.end]).strip()
+            if heading == 'Fünf alternative Unterstützungsstufen':
+                section = next((a for a in node.ancestors() if a.tag == 'section'), None)
+                if section is None:
+                    raise ValueError('Alternative-path comparison lacks its section')
+                remove.append((section.start, section.end))
     text = _remove_spans(text, remove)
     # These strings describe the removed interface, not any assignment.
     replacements = {
