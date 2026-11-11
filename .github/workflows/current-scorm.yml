@@ -75,7 +75,7 @@ jobs:
           npm install --prefix /tmp/form185-tests playwright@1.56.1
           /tmp/form185-tests/node_modules/.bin/playwright install --with-deps chromium
           python3 -m venv /tmp/current-task-pdfs-venv
-          /tmp/current-task-pdfs-venv/bin/pip install pymupdf
+          /tmp/current-task-pdfs-venv/bin/pip install pymupdf==1.26.6
       - name: Arbeitshefte aus den aktuellen Aufgaben erneuern und prüfen
         env:
           NODE_PATH: /tmp/form185-tests/node_modules
