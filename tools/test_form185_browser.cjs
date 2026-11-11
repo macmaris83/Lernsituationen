@@ -29,7 +29,7 @@ const server=http.createServer((req,res)=>{
     const audit=await page.evaluate(()=>{
      const d=JSON.parse(JSON.stringify(SOZPAED));
      const actual=SOZ_PROGRESS_CORE.metadataFrom(d,new DOMParser());
-     const paths=Array.from({length:5},(_,i)=>i+1).map(mode=>{
+     const paths=SOZ_API.availableModes().map(mode=>{
       let numbers=[],minutes=0;
       for(const phase of SOZ_PROGRESS_CORE.phases){
        const doc=new DOMParser().parseFromString(SOZPAED.pages[phase+'.html'],'text/html');
@@ -45,7 +45,7 @@ const server=http.createServer((req,res)=>{
     for(const field of ['tasks','quiz','quizSignature','orientationSignature'])assert.deepEqual(audit.actual[field],audit.expected[field],item.id+': current content metadata '+field);
     for(const p of audit.paths){assert.deepEqual(p.numbers,[1,2,3,4,5,6,7,8,9]);assert.equal(p.minutes,270);}
    }
-   if(item.id.startsWith('GESCHICHTE-')){
+   if(item.id!=='VORLAGE-FUENF-LERNWEGE'){
     // Stored editor preferences and stale links must not reintroduce another path.
     const single=await page.evaluate(()=>{
      const s=SOZ_API.getSettings();s.learningPaths={1:{label:'Tradiert'},5:{label:'Alt'}};s.allowStudentMode=true;
@@ -53,6 +53,15 @@ const server=http.createServer((req,res)=>{
      return {mode:SOZ_API.getSettings().mode,modes:SOZ_API.availableModes(),choice:SOZ_API.getSettings().allowStudentMode};
     });
     assert.deepEqual(single,{mode:1,modes:[1],choice:false},item.id+': only the traditional path');
+    const inventory=await page.evaluate(()=>({
+      modes:[...new Set(Object.values(SOZ_PROGRESS_META.tasks).map(t=>t.mode))],
+      phases:SOZ_PROGRESS_CORE.phases.map(phase=>{
+        const doc=new DOMParser().parseFromString(SOZPAED.pages[phase+'.html'],'text/html');
+        return {phase,panels:[...doc.querySelectorAll('[data-mode-panel]')].map(e=>e.dataset.modePanel)};
+      })
+    }));
+    assert.deepEqual(inventory.modes,[1],item.id+': W1 metadata only');
+    for(const phase of inventory.phases)assert.deepEqual([...new Set(phase.panels)],['1'],item.id+': removed path panels '+phase.phase);
    }
    assert.equal(await page.locator('[data-share-workbook]').count(),0,item.id+': no orientation workbook');
    assert.equal(await page.locator('.lesson-content .material-access').count(),0,item.id+': no orientation materials');
@@ -149,6 +158,68 @@ const server=http.createServer((req,res)=>{
    await page.locator('.task-focus-panel [data-task-complete]').check();
    await page.locator('[data-exit-teacher-view]').click();await page.waitForFunction(()=>window.SOZ_READY===true);
    assert.equal(await page.evaluate(()=>JSON.stringify(SOZ_PROGRESS.read())),learnerBefore,item.id+': learner state untouched by teacher test');
+
+   if(item.id!=='VORLAGE-FUENF-LERNWEGE'){
+    // Editor scripts initialize even when their existing login panel is closed.
+    // Exercise their public data/export API without changing PIN or authentication.
+    await page.goto(base+'lehrkraft.html');await page.waitForFunction(()=>window.SOZ_READY===true);
+    const metadata=await page.evaluate(()=>{
+     const rebuilt=SOZ_PROGRESS_CORE.metadataFrom(JSON.parse(JSON.stringify(SOZPAED)),new DOMParser());
+     return {ids:Object.keys(rebuilt.tasks).sort(),expected:Object.keys(SOZ_PROGRESS_META.tasks).sort(),modes:[...new Set(Object.values(rebuilt.tasks).map(t=>t.mode))]};
+    });
+    assert.deepEqual(metadata.ids,metadata.expected,item.id+': editor metadata retains every W1 task');
+    assert.deepEqual(metadata.modes,[1],item.id+': editor metadata contains W1 only');
+    await page.evaluate(()=>{
+     const stale=JSON.parse(JSON.stringify(SOZ_API.getSettings()));
+     stale.mode=5;stale.allowStudentMode=true;stale.learningPaths={1:{label:'Tradiert'},5:{label:'Alt'}};
+     stale.overrides={...(stale.overrides||{}),'informieren.html':SOZPAED.pages['informieren.html']+'<section data-mode-panel="5"><article class="assignment-frame"><div class="assignment-body"><p>Veralteter W5-Testauftrag</p></div></article></section>'};
+     const key=SOZ_API.key+':settings:'+(SOZ_CONFIG.packageRevision||'base')+':'+location.pathname.replace(/[^/]+$/,'');
+     localStorage.setItem(key,JSON.stringify(stale));
+    });
+    await page.reload();await page.waitForFunction(()=>window.SOZ_READY===true);
+    const restoredEditor=await page.evaluate(()=>{
+     const settings=SOZ_API.getSettings(),doc=new DOMParser().parseFromString(settings.overrides['informieren.html'],'text/html');
+     return {mode:settings.mode,choice:settings.allowStudentMode,paths:Object.keys(settings.learningPaths),
+      panels:[...new Set([...doc.querySelectorAll('[data-mode-panel]')].map(e=>e.dataset.modePanel))],
+      choices:[...document.querySelectorAll('[data-teacher-mode] option')].map(e=>e.value),
+      editor:!!document.querySelector('[data-page-editor]')};
+    });
+    assert.deepEqual(restoredEditor,{mode:1,choice:false,paths:['1'],panels:['1'],choices:['1'],editor:true},item.id+': stored editor preferences cannot restore removed paths');
+    const exported=await page.evaluate(async()=>{
+     await SOZ_API.loadScript('assets/export.js');
+     const E=SOZ_EXPORT,K=SOZ_PROGRESS_CORE,xml=await (await fetch('imsmanifest.xml')).text();
+     const manifest=new DOMParser().parseFromString(xml,'application/xml');
+     const names=[...new Set(['imsmanifest.xml',...[...manifest.getElementsByTagNameNS('*','file')].map(e=>e.getAttribute('href')).filter(Boolean)])];
+     // Binary assets are opaque to prepareFiles. Keep their real file names with
+     // empty test payloads; load the actual HTML/manifest that the exporter edits.
+     const source=Object.fromEntries(names.map(name=>[name,'']));source['imsmanifest.xml']=E.encode(xml);
+     await Promise.all(['index.html',...K.phases.map(p=>p+'.html')].map(async name=>{
+      const response=await fetch(name);if(!response.ok)throw Error('Missing export input '+name);source[name]=E.encode(await response.text());
+     }));
+     const settings=JSON.parse(JSON.stringify(SOZ_API.getSettings()));settings.mode=5;settings.allowStudentMode=true;
+     settings.overrides={'informieren.html':SOZPAED.pages['informieren.html']+'<section data-mode-panel="5"><article class="assignment-frame"><div class="assignment-body"><p>Veralteter W5-Testauftrag</p></div></article></section>'};
+     const out=E.prepareFiles(source,SOZPAED,settings);
+     const parse=source=>JSON.parse(source.slice(source.indexOf('=')+1).trim().replace(/;$/,''));
+     const meta=parse(E.decode(out.files['progress-meta.js']));
+     const panels=K.phases.map(phase=>{
+      const doc=new DOMParser().parseFromString(E.decode(out.files[phase+'.html']),'text/html');
+      return [...new Set([...doc.querySelectorAll('[data-mode-panel]')].map(e=>e.dataset.modePanel))];
+     });
+     const exportedManifest=new DOMParser().parseFromString(E.decode(out.files['imsmanifest.xml']),'application/xml');
+     return {mode:out.config.mode,choice:out.config.allowStudentMode,paths:Object.keys(out.config.learningPaths),
+      tasks:meta.tasks,expected:SOZ_PROGRESS_META.tasks,panels,
+      files:Object.keys(out.files).sort(),
+      expectedFiles:[...new Set([...names.filter(n=>!['package-data.js','goodnotes-share-data.js'].includes(n)),'lesson-data.js','progress-meta.js','mode-config.js','Konfiguration.json'])].sort(),
+      manifest:[...exportedManifest.getElementsByTagNameNS('*','file')].map(e=>e.getAttribute('href')).sort()};
+    });
+    assert.equal(exported.mode,1,item.id+': exported mode');assert.equal(exported.choice,false,item.id+': exported selection disabled');
+    assert.deepEqual(exported.paths,['1'],item.id+': exported path configuration');
+    assert.deepEqual(exported.tasks,exported.expected,item.id+': exported W1 task IDs and signatures preserved');
+    for(const panels of exported.panels)assert.deepEqual(panels,['1'],item.id+': exported HTML removes obsolete override panel');
+    assert.deepEqual(exported.files,exported.expectedFiles,item.id+': export does not resurrect deleted files');
+    assert.deepEqual(exported.manifest,exported.files.filter(name=>name!=='imsmanifest.xml'),item.id+': complete exported manifest');
+    assert.equal(exported.files.some(name=>/(?:^|[-_/])W[2-5](?=[._/-]|$)/i.test(name)),false,item.id+': no alternative path files in export');
+   }
    assert.deepEqual(errors,[],item.id+': browser errors');
    if(['BRC-LG01-LS01','BRC-LG05-LS04','VORLAGE-TRADIERT','GESCHICHTE-J1914-Deutsches_Reich'].includes(item.id))await page.screenshot({path:path.join(output,item.id+'.png'),fullPage:true});
    console.log('PASS browser',item.id);

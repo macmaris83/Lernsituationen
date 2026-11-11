@@ -24,35 +24,6 @@
     "reason": "Sechs Schwierigkeiten und zwei nützliche Erfahrungen aus M8 mit Ursachen und Folgerungen verbinden.",
     "area": "lines"
   },
-  "0:2:1": {
-    "lines": 32,
-    "reason": "Beschäftigtenstimmen nach vier Gesichtspunkten ordnen und Leitplanken, Ressourcen sowie Lernerfahrungen ergänzen.",
-    "area": "grid"
-  },
-  "0:2:2": {
-    "lines": 42,
-    "reason": "Umfassende Ausgangsanalyse mit Stakeholdern, Ursachen und Ressourcen sowie drei Prozentrechnungen und Rundungsprüfung.Drei Anteilsrechnungen und Summenkontrolle auf Kästchen; Ausgangsanalyse und Erklärung auf Linien.",
-    "area": "grid",
-    "gridLines": 12
-  },
-  "0:3:1": {
-    "lines": 48,
-    "reason": "Vollständige Analyse von Ausgangslage, Widerständen, acht Stakeholdern, Leitplanken und Lernerfahrungen; drei Anteilsrechnungen.Drei Anteilsrechnungen und Summenkontrolle auf Kästchen; Ausgangsanalyse und Erklärung auf Linien.",
-    "area": "grid",
-    "gridLines": 12
-  },
-  "0:4:1": {
-    "lines": 48,
-    "reason": "Vollständige Analyse von Ausgangslage, Widerständen, acht Stakeholdern, Leitplanken und Lernerfahrungen; drei Anteilsrechnungen.Drei Anteilsrechnungen und Summenkontrolle auf Kästchen; Ausgangsanalyse und Erklärung auf Linien.",
-    "area": "grid",
-    "gridLines": 12
-  },
-  "0:5:1": {
-    "lines": 48,
-    "reason": "Vollständige Analyse von Ausgangslage, Widerständen, acht Stakeholdern, Leitplanken und Lernerfahrungen; drei Anteilsrechnungen.Drei Anteilsrechnungen und Summenkontrolle auf Kästchen; Ausgangsanalyse und Erklärung auf Linien.",
-    "area": "grid",
-    "gridLines": 12
-  },
   "1:1:1": {
     "lines": 15,
     "reason": "Fünf Changephasen mit jeweiligen Aufgaben, Abhängigkeiten und Übergängen strukturieren.",
@@ -66,31 +37,6 @@
   "1:1:3": {
     "lines": 20,
     "reason": "Sechs Rollen mit Verantwortung, Übergaben und Rückkopplung nachvollziehbar zuordnen.",
-    "area": "grid"
-  },
-  "1:2:1": {
-    "lines": 30,
-    "reason": "Mehrere Maßnahmen über sieben geforderte Matrixspalten planen und drei Handlungsfelder miteinander abstimmen.",
-    "area": "grid"
-  },
-  "1:2:2": {
-    "lines": 28,
-    "reason": "Changephasen, Ziele, Zuständigkeiten, Rückkopplung und zeitliche Abhängigkeiten in einer Architektur verbinden.",
-    "area": "grid"
-  },
-  "1:3:1": {
-    "lines": 32,
-    "reason": "Eigenständig Phasen, Ziele und Verantwortungen mit Iterationsschleifen und Übergängen konzipieren.",
-    "area": "grid"
-  },
-  "1:4:1": {
-    "lines": 36,
-    "reason": "Vollständige Prozessplanung mit Phasen, Verantwortung, Ressourcenabhängigkeiten, Rückkopplung und Anpassungswegen.",
-    "area": "grid"
-  },
-  "1:5:1": {
-    "lines": 36,
-    "reason": "Vollständige Prozessplanung mit Phasen, Verantwortung, Ressourcenabhängigkeiten, Rückkopplung und Anpassungswegen.",
     "area": "grid"
   },
   "2:1:1": {
@@ -108,41 +54,6 @@
     "reason": "Konkrete Stop- und Anpassungskriterien mit Messgröße, Auslöser und Reaktion festlegen.",
     "area": "lines"
   },
-  "2:2:1": {
-    "lines": 40,
-    "reason": "Instrumentvergleich nach vier Kriterien, Priorisierung und Stopppunkte plus drei Ressourcenrechnungen und Wochenabgleich.",
-    "area": "grid"
-  },
-  "2:2:2": {
-    "lines": 24,
-    "reason": "Instrumente und Ressourcen priorisieren sowie Startbedingungen und überprüfbare Stopppunkte begründen.",
-    "area": "lines"
-  },
-  "2:3:1": {
-    "lines": 42,
-    "reason": "Integrierte Instrument- und Ressourcenentscheidung mit drei Rechenwegen, Wochenabgleich, Start- und Stopppunkten.",
-    "area": "grid"
-  },
-  "2:4:1": {
-    "lines": 24,
-    "reason": "Mehrere Change-Instrumente und Beteiligungswege jeweils mit belegter Ursache, Zielgruppe und Wirkungsbegründung verbinden.",
-    "area": "lines"
-  },
-  "2:4:2": {
-    "lines": 36,
-    "reason": "Prioritäten und Review-/Stopppunkte begründen; drei Ressourcenarten rechnen und den eigenen Wochenplan dagegen prüfen.",
-    "area": "grid"
-  },
-  "2:5:1": {
-    "lines": 24,
-    "reason": "Mehrere Change-Instrumente und Beteiligungswege jeweils mit belegter Ursache, Zielgruppe und Wirkungsbegründung verbinden.",
-    "area": "lines"
-  },
-  "2:5:2": {
-    "lines": 36,
-    "reason": "Prioritäten und Review-/Stopppunkte begründen; drei Ressourcenarten rechnen und den eigenen Wochenplan dagegen prüfen.",
-    "area": "grid"
-  },
   "3:1:1": {
     "lines": 44,
     "reason": "Maßnahmenplan nach sieben Formbausteinen mit mehreren Maßnahmen, konkretem Befund und erwarteter Wirkung ausarbeiten.",
@@ -151,31 +62,6 @@
   "3:1:2": {
     "lines": 16,
     "reason": "Für mindestens vier Stakeholder Botschaft, Kommunikations-/Beteiligungsweg und Zugang konsistent festhalten.",
-    "area": "grid"
-  },
-  "3:2:1": {
-    "lines": 30,
-    "reason": "Planentwurf mit Maßnahmen, Wirkungsnachweisen sowie kontrollierter Wochenkapazität, Budgetannahmen und Terminen.",
-    "area": "grid"
-  },
-  "3:2:2": {
-    "lines": 64,
-    "reason": "Vollständiger Maßnahmenplan mit Ist/Ziel, sechs Handlungsfeldern, Verantwortungen, Ressourcen, Stakeholderkommunikation und Kontrolle.",
-    "area": "grid"
-  },
-  "3:3:1": {
-    "lines": 64,
-    "reason": "Vollständiger Maßnahmenplan mit Ist/Ziel, sechs Handlungsfeldern, Verantwortungen, Ressourcen, Stakeholderkommunikation und Kontrolle.",
-    "area": "grid"
-  },
-  "3:4:1": {
-    "lines": 64,
-    "reason": "Vollständiger Maßnahmenplan mit Ist/Ziel, sechs Handlungsfeldern, Verantwortungen, Ressourcen, Stakeholderkommunikation und Kontrolle.",
-    "area": "grid"
-  },
-  "3:5:1": {
-    "lines": 64,
-    "reason": "Vollständiger Maßnahmenplan mit Ist/Ziel, sechs Handlungsfeldern, Verantwortungen, Ressourcen, Stakeholderkommunikation und Kontrolle.",
     "area": "grid"
   },
   "4:1:1": {
@@ -193,31 +79,6 @@
     "reason": "Mehrere Maßnahmen mit unklarer Wirkung überarbeiten und die Änderung begründen.",
     "area": "lines"
   },
-  "4:2:1": {
-    "lines": 20,
-    "reason": "Priorisierte Maßnahmen an vier Kriterien testen und Folgen eines verzögerten Schulungstermins einschließlich Anpassungen sichern.",
-    "area": "lines"
-  },
-  "4:2:2": {
-    "lines": 20,
-    "reason": "Belastungstest, Lehrkraftfeedback und konkrete Überarbeitungen unklarer Wirkungsannahmen festhalten.",
-    "area": "lines"
-  },
-  "4:3:1": {
-    "lines": 26,
-    "reason": "Eigenständiger Belastungstest mit mehreren Befunden, Feedback und begründeten Maßnahmenkorrekturen.",
-    "area": "lines"
-  },
-  "4:4:1": {
-    "lines": 28,
-    "reason": "Prüfergebnisse zu Realismus, Wirkung, Beteiligung und Messbarkeit mit Rückmeldungen und Plananpassungen dokumentieren.",
-    "area": "lines"
-  },
-  "4:5:1": {
-    "lines": 28,
-    "reason": "Prüfergebnisse zu Realismus, Wirkung, Beteiligung und Messbarkeit mit Rückmeldungen und Plananpassungen dokumentieren.",
-    "area": "lines"
-  },
   "5:1:1": {
     "lines": 4,
     "reason": "Einen Widerstand, seine konkrete Ursache und die betroffene Gruppe knapp zuordnen.",
@@ -231,51 +92,6 @@
   "5:1:3": {
     "lines": 3,
     "reason": "Online-Feedback und Selbsteinschätzung; nur kurze persönliche Abschlussnotiz nötig.",
-    "area": "lines"
-  },
-  "5:2:1": {
-    "lines": 14,
-    "reason": "Persönliche Change-Regel begründen und fünf Kompetenzen jeweils mit einer konkreten eigenen Entscheidung belegen.",
-    "area": "lines"
-  },
-  "5:2:2": {
-    "lines": 7,
-    "reason": "Einen Grundsatz zum Übergang von Information zu Beteiligung herleiten und am eigenen Plan erläutern.",
-    "area": "lines"
-  },
-  "5:2:3": {
-    "lines": 5,
-    "reason": "Fünf Kompetenzbewertungen können stichwortartig notiert werden; ausführliches Feedback erfolgt in Moodle.",
-    "area": "lines"
-  },
-  "5:3:1": {
-    "lines": 7,
-    "reason": "Einen Grundsatz zum Übergang von Information zu Beteiligung herleiten und am eigenen Plan erläutern.",
-    "area": "lines"
-  },
-  "5:3:2": {
-    "lines": 5,
-    "reason": "Fünf Kompetenzbewertungen können stichwortartig notiert werden; ausführliches Feedback erfolgt in Moodle.",
-    "area": "lines"
-  },
-  "5:4:1": {
-    "lines": 7,
-    "reason": "Prioritäre Wirkungsannahme mit Begründung, Prüfzeitpunkt und geeignetem Nachweis bestimmen.",
-    "area": "lines"
-  },
-  "5:4:2": {
-    "lines": 5,
-    "reason": "Fünf Kompetenzbewertungen können stichwortartig notiert werden; ausführliches Feedback erfolgt in Moodle.",
-    "area": "lines"
-  },
-  "5:5:1": {
-    "lines": 7,
-    "reason": "Prioritäre Wirkungsannahme mit Begründung, Prüfzeitpunkt und geeignetem Nachweis bestimmen.",
-    "area": "lines"
-  },
-  "5:5:2": {
-    "lines": 5,
-    "reason": "Fünf Kompetenzbewertungen können stichwortartig notiert werden; ausführliches Feedback erfolgt in Moodle.",
     "area": "lines"
   }
 }

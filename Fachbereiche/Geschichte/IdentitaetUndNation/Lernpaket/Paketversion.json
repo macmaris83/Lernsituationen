@@ -1,9 +1,9 @@
 {
-  "version": "1.8.12",
+  "version": "1.8.13",
   "title": "Identität und Nation",
-  "updated": "2026-11-05",
+  "updated": "2026-11-11",
   "revision": "IDN-188",
-  "changes": "Orientierung ohne Zusatzkacheln und ohne Materialzugriff. Handlungssituation mit einheitlichem Material-Akkordeon, klarer Textgliederung und formatierten Antwortzeilen. XP wieder oben rechts, auch im Aufgabenfokus und auf Materialseiten. Bestehende Lernstände und Paketabschluss bleiben erhalten.",
+  "changes": "Ausschließlich tradierter Lernweg 1. Alternative Aufgaben, Lernwege und PDF-Dateien entfernt; W1-Aufgaben, Kennungen, PDFs und vorhandene Lernstände erhalten.",
   "taskPolicy": {
     "preferred": 2,
     "maximumPerPhase": 4,

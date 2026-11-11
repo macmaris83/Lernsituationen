@@ -73,6 +73,31 @@ function fullState(s) {
 
 // Finishing all work only saves progress; the explicit action sets completion.
 const first = session();
+
+// W1-only releases retain W1 marks and normalize obsolete path preferences.
+// Marks belonging to a deleted path must never satisfy a W1 assignment.
+{
+  const K=first.context.SOZ_PROGRESS_CORE,M=first.context.SOZ_PROGRESS_META;
+  const modes=[...new Set(Object.values(M.tasks).map(t=>t.mode))];
+  if(modes.length===1&&modes[0]===1){
+    assert.equal(K.initial(M,5).m,1,'initial state rejects a removed learning path');
+    const original=fullState(first), foreign=JSON.parse(JSON.stringify(original));
+    foreign.m=5;foreign.t={};
+    foreign.a.assessments=Object.fromEntries(M.competencies.map(c=>[c.id,{after:3,evidence:'Vorhandener Arbeitsbeleg'}]));
+    for(const [id,t] of Object.entries(M.tasks))foreign.t[id.replace(/:1:/,':5:')]=t.signature;
+    foreign.a.feedback='Bestehendes Feedback';foreign.a.nextGoal='Mein Lernziel';
+    const restored=K.sanitize(foreign,M,5);
+    assert.equal(restored.m,1,'obsolete path normalizes to W1');
+    assert.equal(Object.keys(restored.t).length,0,'removed path marks are not reinterpreted');
+    assert.equal(K.allComplete(restored,M),false,'obsolete path cannot bypass the gates');
+    assert.equal(JSON.stringify(restored.a),JSON.stringify(foreign.a),'competency evidence survives');
+    const mixed=JSON.parse(JSON.stringify(foreign));Object.assign(mixed.t,original.t);
+    const kept=K.sanitize(mixed,M,5);
+    assert.equal(JSON.stringify(kept.t),JSON.stringify(original.t),'all matching W1 signatures survive');
+    assert.equal(K.allComplete(kept,M),true,'preserved W1 work still completes');
+  }
+}
+
 assert.equal(first.bridge.update(fullState(first)), true);
 assert.equal(first.stored['cmi.core.lesson_status'], 'incomplete');
 assert.equal(first.stored['cmi.core.exit'], 'suspend');

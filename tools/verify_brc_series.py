@@ -49,7 +49,7 @@ def read_plan_budgets(source):
         total = int(re.search(r'\*\*Zeitrichtwert:\*\*\s*(\d+)', block)[1]) * 45
         assert sum(result[f'LS{number:02}']) == total, number
     assert len(result) == 6
-    assert sum(sum(budgets) for budgets in result.values()) == 3600
+    assert sum(sum(budgets) for budgets in result.values()) == sum(int(h)*45 for h in re.findall(r'\*\*Zeitrichtwert:\*\*\s*(\d+) Unterrichtsstunden',text))
     return result
 
 
@@ -137,11 +137,11 @@ def verify_artifacts(series, lessons, source):
             competency_ids.add(competency['id'])
         assert lesson['budgets'] == independent[root.name], (root.name, lesson['budgets'], independent[root.name])
         assert [data['phaseBudgets'][phase] for phase in PHASES] == independent[root.name]
-        assert set(task['mode'] for task in meta['tasks'].values()) == set(range(1, 6))
+        assert set(task['mode'] for task in meta['tasks'].values()) == {1}
         assert set(task['phase'] for task in meta['tasks'].values()) == set(PHASES)
         task_total += len(meta['tasks'])
         for phase in ['bewerten', 'reflektieren']:
-            for mode in range(1, 6):
+            for mode in (1,):
                 assert sum(task['phase'] == phase and task['mode'] == mode for task in meta['tasks'].values()) == 1, (root.name, phase, mode)
         for identity, task in meta['tasks'].items():
             number = identity.split(':')[-1]
@@ -171,11 +171,11 @@ def verify_artifacts(series, lessons, source):
             for name in names:
                 assert archive.read(name) == (root / name).read_bytes(), (root.name, name)
         print('PASS:', root.name, 'unique IDs, independent plan budgets, JavaScript, manifest and exact root-level SCORM ZIP', flush=True)
-    print('PASS: six different lesson IDs and thirty different competency/report IDs; total 80 UStd.', flush=True)
-    assert task_total == 440, task_total
+    print('PASS: six different lesson IDs and thirty different competency/report IDs; current source budgets', flush=True)
+    assert task_total == sum(sum(counts.get('1',0) for counts in payload(lesson_root(series,lesson)/'lesson-data.js').get('sourceTaskCounts',{}).values()) for lesson in lessons), task_total
     assert len(forms) == task_total
     assert {'individual', 'pair', 'group'} <= {form['kind'] for form in forms.values()}
-    print('PASS: 440 complete task groups, one whole checking/reflection task per path, diverse individual/pair/group forms, twelve original images with source SHA-256 and media-map references', flush=True)
+    print('PASS: all traditional task groups, one whole checking/reflection task per path, diverse individual/pair/group forms, twelve original images with source SHA-256 and media-map references', flush=True)
     print('PASS: current ZIPs resolved from the master catalog; no legacy collection archive required', flush=True)
 
 
@@ -225,7 +225,7 @@ def source_tasks(page, phase, mode):
 
 def verify_matrix(browser, base, lesson):
     count = 0
-    for mode in range(1, 6):
+    for mode in (1,):
         context = browser.new_context(viewport={'width': 1024, 'height': 768}, reduced_motion='reduce')
         context.add_init_script('const frozenNow=Date.now(); Date.now=()=>frozenNow;')
         context.add_init_script("navigator.canShare=()=>true;navigator.share=async({files})=>{window.sharedWorkbook={name:files[0].name,size:files[0].size,type:files[0].type};}")
@@ -308,7 +308,7 @@ def verify_matrix(browser, base, lesson):
 
 def verify_gates(browser, base, lesson):
     context = browser.new_context(); page = context.new_page(); errors = watch(page, base)
-    for mode in range(1, 6):
+    for mode in (1,):
         for phase, successor in zip(PHASES[:-1], PHASES[1:]):
             page.goto(base + phase + '.html'); ready(page); unlock(page, mode)
             page.evaluate('''args=>{const [phase, mode]=args,p=SOZ_PROGRESS.read();
@@ -328,7 +328,7 @@ def verify_materials_and_layout(browser, base, lesson):
     context = browser.new_context(viewport={'width': 1024, 'height': 768}, reduced_motion='reduce')
     context.add_init_script("Object.defineProperty(window,'sessionStorage',{get(){throw new DOMException('Denied','SecurityError')}})")
     page = context.new_page(); errors = watch(page, base)
-    for mode in range(1, 6):
+    for mode in (1,):
         page.goto(base + 'informieren.html'); ready(page); unlock(page, mode)
         page.locator('.task-original-preview:visible').first.click()
         task = page.locator('.task-accordion[open] [data-task-complete]').get_attribute('data-task-id')
@@ -635,7 +635,7 @@ def verify_migration(browser, base, lesson):
       return p;
     }''', baseline)
     assert baseline['quizSignature'] == page.evaluate('SOZ_PROGRESS_META.quizSignature'), 'Quiz content changed despite a pure layout update'
-    for mode in range(1, 6):
+    for mode in (1,):
         legacy['m'] = mode
         result = page.evaluate('''raw=>{
           const m=SOZ_PROGRESS_META,p=SOZ_PROGRESS_CORE.sanitize(raw,m,raw.m);
@@ -696,7 +696,7 @@ def verify_migration(browser, base, lesson):
     target = page.evaluate("Object.entries(SOZ_PROGRESS_META.tasks).find(([,t])=>t.phase==='reflektieren'&&t.mode===1)[0]")
     assert page.frame_locator('[data-scorm-frame]').locator(f'[data-task-complete][data-task-id="{target}"]').is_checked()
     assert not errors, errors; context.close()
-    print('PASS:', lesson['id'], 'legacy all-done migration in all five paths, partial peer-review stays open, old orientation/reports retained, foreign lesson rejected, actual compressed SCORM resume remains completed', flush=True)
+    print('PASS:', lesson['id'], 'legacy all-done migration in the traditional path, partial peer-review stays open, old orientation/reports retained, foreign lesson rejected, actual compressed SCORM resume remains completed', flush=True)
 
 
 def verify_orientation_migration_guard(browser, base, lesson, actual_export=False):
