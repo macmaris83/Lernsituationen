@@ -6,9 +6,9 @@
   </metadata>
   <organizations default="ORG">
     <organization identifier="ORG" structure="hierarchical">
-      <title>Identität und Nation · 1.8.13</title>
+      <title>Identität und Nation · 1.8.14</title>
       <item identifier="ITEM" identifierref="RES_IDENTITAET_NATION" isvisible="true">
-        <title>Identität und Nation · 1.8.13</title>
+        <title>Identität und Nation · 1.8.14</title>
       </item>
     </organization>
   </organizations>

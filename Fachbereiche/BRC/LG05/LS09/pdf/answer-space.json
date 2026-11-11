@@ -1,82 +1,67 @@
 {
   "0:1:1": {
-    "lines": 14,
-    "reason": "Kernaussagen aus drei Materialien zu sechs Maßnahmen und den betroffenen Gruppen festhalten.",
-    "area": "lines"
-  },
-  "0:1:2": {
-    "lines": 24,
-    "reason": "Sechs Maßnahmen jeweils mit Betroffenen, Änderung, Vorteil, Belastung und Datenrisiko zuordnen.",
-    "area": "grid"
+    "lines": 38,
+    "area": "grid",
+    "reason": "Kernaussagen aus drei Materialien zu sechs Maßnahmen und den betroffenen Gruppen festhalten. Sechs Maßnahmen jeweils mit Betroffenen, Änderung, Vorteil, Belastung und Datenrisiko zuordnen."
   },
   "0:1:3": {
-    "lines": 30,
-    "reason": "Sechs Maßnahmen mit Beteiligungsform, passender Norm, Voraussetzungen und Rechtsunsicherheit nachvollziehbar prüfen.",
-    "area": "lines"
-  },
-  "0:1:4": {
-    "lines": 18,
-    "reason": "Konkrete Fakten mit Tatbestandsvoraussetzungen verbinden und nicht belegte Voraussetzungen gesondert benennen.",
-    "area": "lines"
+    "lines": 48,
+    "area": "lines",
+    "reason": "Sechs Maßnahmen mit Beteiligungsform, passender Norm, Voraussetzungen und Rechtsunsicherheit nachvollziehbar prüfen. Konkrete Fakten mit Tatbestandsvoraussetzungen verbinden und nicht belegte Voraussetzungen gesondert benennen."
   },
   "0:1:5": {
-    "lines": 14,
-    "reason": "Zeit, Budget, Beschäftigung, Qualität, Schulung und Datenrahmen mit den Beschäftigteninteressen vergleichen.",
-    "area": "lines"
-  },
-  "0:1:6": {
-    "lines": 8,
-    "reason": "Mehrere Verhandlungsgrenzen mit kurzer Begründung und verbleibendem Spielraum notieren.",
-    "area": "lines"
+    "lines": 22,
+    "area": "lines",
+    "reason": "Zeit, Budget, Beschäftigung, Qualität, Schulung und Datenrahmen mit den Beschäftigteninteressen vergleichen. Mehrere Verhandlungsgrenzen mit kurzer Begründung und verbleibendem Spielraum notieren."
   },
   "1:1:1": {
     "lines": 16,
-    "reason": "Kataloggliederung mit sieben Themenfeldern und den zugehörigen Forderungsgegenständen entwerfen.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Kataloggliederung mit sieben Themenfeldern und den zugehörigen Forderungsgegenständen entwerfen."
   },
   "1:1:2": {
     "lines": 14,
-    "reason": "Themenverantwortung, notwendige Übergaben, Abstimmungstermine und fachliche Abhängigkeiten dokumentieren.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Themenverantwortung, notwendige Übergaben, Abstimmungstermine und fachliche Abhängigkeiten dokumentieren."
   },
   "2:1:1": {
     "lines": 14,
-    "reason": "Mehrere Forderungen in eine Rangfolge bringen und die Priorität jeweils kurz begründen.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Mehrere Forderungen in eine Rangfolge bringen und die Priorität jeweils kurz begründen."
   },
   "2:1:2": {
     "lines": 18,
-    "reason": "Forderungen drei Zeithorizonten zuordnen und die jeweilige Voraussetzung konkret benennen.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Forderungen drei Zeithorizonten zuordnen und die jeweilige Voraussetzung konkret benennen."
   },
   "2:1:3": {
     "lines": 10,
-    "reason": "Pilotunterstützung oder Verschiebung mit tragenden Gründen und notwendigen Klärungen abwägen.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Pilotunterstützung oder Verschiebung mit tragenden Gründen und notwendigen Klärungen abwägen."
   },
   "3:1:1": {
     "lines": 56,
-    "reason": "Forderungskatalog mit Adressatin sowie etwa sieben Themenfeldern; je Forderung Ist, Soll, Regelung, Begründung und Kontrolle.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Forderungskatalog mit Adressatin sowie etwa sieben Themenfeldern; je Forderung Ist, Soll, Regelung, Begründung und Kontrolle."
   },
   "4:1:1": {
     "lines": 8,
-    "reason": "Mündliche Simulation; zentrale Gegenargumente und Reaktionen als kurze Ergebnisnotiz sichern.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Mündliche Simulation; zentrale Gegenargumente und Reaktionen als kurze Ergebnisnotiz sichern."
   },
   "4:1:2": {
     "lines": 20,
-    "reason": "Mehrere Forderungen anhand von fünf Prüfkriterien prüfen und konkreten Änderungsbedarf festhalten.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Mehrere Forderungen anhand von fünf Prüfkriterien prüfen und konkreten Änderungsbedarf festhalten."
   },
   "5:1:1": {
     "lines": 6,
-    "reason": "Zwei konkrete Forderungen benennen und den Unterschied zwischen Recht und Verhandlungsziel kurz erklären.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Zwei konkrete Forderungen benennen und den Unterschied zwischen Recht und Verhandlungsziel kurz erklären."
   },
   "5:1:2": {
     "lines": 3,
-    "reason": "Online-Feedback und Selbsteinschätzung; nur kurze persönliche Abschlussnotiz nötig.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Online-Feedback und Selbsteinschätzung; nur kurze persönliche Abschlussnotiz nötig."
   }
 }

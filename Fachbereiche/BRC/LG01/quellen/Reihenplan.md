@@ -114,77 +114,102 @@ Damit steht nicht die Frage im Raum, ob eine Idee „gut klingt“, sondern ob a
 **Arbeitsform:** zunächst Einzelarbeit, anschließend Vierergruppen  
 **Materialien:** M1 bis M6
 
-1.  **Identifizieren** Sie in M1 das zentrale betriebliche Problem und **nennen** Sie mindestens drei mögliche wirtschaftliche Folgen, wenn das Gründerteam ohne Einigung in das Beratungsgespräch geht.
-2.  **Arbeiten** Sie aus M1 und M2 **heraus**, welche fachlichen Stärken, persönlichen Ziele und Befürchtungen die vier Gründerinnen und Gründer einbringen. Halten Sie Ihre Ergebnisse in der vorgegebenen Struktur fest: Person – Stärke/Ressource – Ziel – Befürchtung.
-3.  **Analysieren** Sie die Kundenimpulse in M3. **Ermitteln** Sie zwei klar abgrenzbare Kundenbedürfnisse, die BioCasa mit einem ersten Angebot besonders gut erfüllen könnte. Trennen Sie dabei Beobachtungen aus dem Material von eigenen Vermutungen.
-4.  **Ordnen** Sie die Aussagen aus M1 bis M4 wirtschaftlichen, sozialen oder ökologischen Unternehmenszielen **zu**. Kennzeichnen Sie außerdem, ob es sich um ein Sachziel oder ein Formalziel handelt.
-5.  **Analysieren** Sie mithilfe von M4 die Interessen der Anspruchsgruppen. **Erläutern** Sie für vier besonders wichtige Anspruchsgruppen jeweils einen möglichen Beitrag zum Unternehmen und einen möglichen Konflikt mit einem Ziel des Gründerteams.
-6.  **Einordnen** Sie BioCasa mithilfe von M5 hinsichtlich der Betriebsart. **Begründen** Sie, weshalb andere Einordnungen für den geplanten Schwerpunkt weniger passend sind.
-7.  **Vergleichen** Sie die in M6 dargestellten Leistungsprozesse des Industrieunternehmens Nordfriesische Feinkostwerke mit den geplanten Abläufen bei BioCasa. **Skizzieren** Sie anschließend eine einfache Prozesskette für BioCasa vom Einkauf bis zum Zahlungseingang.
+1. **Identifizieren** Sie in M1 das zentrale betriebliche Problem und **nennen** Sie mindestens drei mögliche wirtschaftliche Folgen, wenn das Gründerteam ohne Einigung in das Beratungsgespräch geht.
 
-**Zwischensicherung:** Jede Gruppe gibt eine maximal zweiminütige Problemdiagnose ab. Darin müssen das gemeinsame Kundenproblem, zwei zentrale Zielkonflikte, die Betriebsart und die geplante Prozesskette erkennbar sein.
+   **Arbeiten** Sie aus M1 und M2 **heraus**, welche fachlichen Stärken, persönlichen Ziele und Befürchtungen die vier Gründerinnen und Gründer einbringen. Halten Sie Ihre Ergebnisse in der vorgegebenen Struktur fest: Person – Stärke/Ressource – Ziel – Befürchtung.
+
+   **Analysieren** Sie die Kundenimpulse in M3. **Ermitteln** Sie zwei klar abgrenzbare Kundenbedürfnisse, die BioCasa mit einem ersten Angebot besonders gut erfüllen könnte. Trennen Sie dabei Beobachtungen aus dem Material von eigenen Vermutungen.
+
+2. **Ordnen** Sie die Aussagen aus M1 bis M4 wirtschaftlichen, sozialen oder ökologischen Unternehmenszielen **zu**. Kennzeichnen Sie außerdem, ob es sich um ein Sachziel oder ein Formalziel handelt.
+
+   **Analysieren** Sie mithilfe von M4 die Interessen der Anspruchsgruppen. **Erläutern** Sie für vier besonders wichtige Anspruchsgruppen jeweils einen möglichen Beitrag zum Unternehmen und einen möglichen Konflikt mit einem Ziel des Gründerteams.
+
+3. **Einordnen** Sie BioCasa mithilfe von M5 hinsichtlich der Betriebsart. **Begründen** Sie, weshalb andere Einordnungen für den geplanten Schwerpunkt weniger passend sind.
+
+   **Vergleichen** Sie die in M6 dargestellten Leistungsprozesse des Industrieunternehmens Nordfriesische Feinkostwerke mit den geplanten Abläufen bei BioCasa. **Skizzieren** Sie anschließend eine einfache Prozesskette für BioCasa vom Einkauf bis zum Zahlungseingang.
+
+   **Zwischensicherung:** Jede Gruppe gibt eine maximal zweiminütige Problemdiagnose ab. Darin müssen das gemeinsame Kundenproblem, zwei zentrale Zielkonflikte, die Betriebsart und die geplante Prozesskette erkennbar sein.
 
 #### Planen
 
 **Arbeitszeit:** 2 Unterrichtsstunden  
 **Arbeitsform:** Vierergruppen
 
-1.  **Erstellen** Sie einen Arbeitsplan für die Abstimmung der gemeinsamen Geschäftsidee. Berücksichtigen Sie dabei mindestens folgende Entscheidungen: Kundenproblem, Zielgruppe, Nutzenversprechen, Startsortiment, Unternehmensziele, Umgang mit Zielkonflikten, Betriebsart und grundlegende Leistungsprozesse.
-2.  **Entwickeln** Sie selbstständig auf der Grundlage der Materialien vier Prüfkriterien für eine tragfähige Lösung. Mindestens ein Kriterium muss sich auf wirtschaftliche Tragfähigkeit, eines auf Kundenorientierung, eines auf Umsetzbarkeit und eines auf die Interessen wichtiger Anspruchsgruppen beziehen.
-3.  **Erstellen** Sie zunächst je zwei mögliche wirtschaftliche, soziale und ökologische Zielformulierungen für BioCasa. Die Ziele müssen eindeutig, überprüfbar und mit einem Zeithorizont versehen sein.
-4.  **Stellen** Sie die Beziehungen zwischen den vorgeschlagenen Zielen **dar**. Unterscheiden Sie Zielharmonie, Zielkonflikt und Zielneutralität.
+4. **Erstellen** Sie einen Arbeitsplan für die Abstimmung der gemeinsamen Geschäftsidee. Berücksichtigen Sie dabei mindestens folgende Entscheidungen: Kundenproblem, Zielgruppe, Nutzenversprechen, Startsortiment, Unternehmensziele, Umgang mit Zielkonflikten, Betriebsart und grundlegende Leistungsprozesse.
+
+5. **Entwickeln** Sie selbstständig auf der Grundlage der Materialien vier Prüfkriterien für eine tragfähige Lösung. Mindestens ein Kriterium muss sich auf wirtschaftliche Tragfähigkeit, eines auf Kundenorientierung, eines auf Umsetzbarkeit und eines auf die Interessen wichtiger Anspruchsgruppen beziehen.
+
+6. **Erstellen** Sie zunächst je zwei mögliche wirtschaftliche, soziale und ökologische Zielformulierungen für BioCasa. Die Ziele müssen eindeutig, überprüfbar und mit einem Zeithorizont versehen sein.
+
+7. **Stellen** Sie die Beziehungen zwischen den vorgeschlagenen Zielen **dar**. Unterscheiden Sie Zielharmonie, Zielkonflikt und Zielneutralität.
 
 #### Entscheiden
 
 **Arbeitszeit:** 2 Unterrichtsstunden  
 **Arbeitsform:** Vierergruppen mit fest vergebenen Gründerrollen
 
-1.  **Diskutieren** Sie aus den Perspektiven der vier Gründerinnen und Gründer zwei realistische Varianten:
-    - Variante A: breiter, schneller Marktstart mit fünf Gerichten und überregionalem Vertrieb;
-    - Variante B: regionaler Start mit drei standardisierten Gerichten für eine klar eingegrenzte Zielgruppe.
-2.  **Beurteilen** Sie beide Varianten anhand Ihrer vier Prüfkriterien.
-3.  **Entwickeln** Sie selbstständig aus Ihrer Beurteilung eine gemeinsame Ausrichtung. Falls Sie Elemente beider Varianten verbinden, müssen Sie deutlich darstellen, welche Bestandteile übernommen und welche verworfen werden.
-4.  **Begründen** Sie, wie Ihr Vorschlag die zwei wichtigsten Zielkonflikte löst oder bewusst begrenzt.
+8. **Diskutieren** Sie aus den Perspektiven der vier Gründerinnen und Gründer zwei realistische Varianten:
+
+   • Variante A: breiter, schneller Marktstart mit fünf Gerichten und überregionalem Vertrieb;
+
+   • Variante B: regionaler Start mit drei standardisierten Gerichten für eine klar eingegrenzte Zielgruppe.
+
+9. **Beurteilen** Sie beide Varianten anhand Ihrer vier Prüfkriterien.
+
+10. **Entwickeln** Sie selbstständig aus Ihrer Beurteilung eine gemeinsame Ausrichtung. Falls Sie Elemente beider Varianten verbinden, müssen Sie deutlich darstellen, welche Bestandteile übernommen und welche verworfen werden.
+
+11. **Begründen** Sie, wie Ihr Vorschlag die zwei wichtigsten Zielkonflikte löst oder bewusst begrenzt.
 
 #### Durchführen
 
 **Arbeitszeit:** 2 Unterrichtsstunden  
 **Arbeitsform:** Vierergruppen
 
-Setzen Sie Ihre Entscheidung in einer präzisen Unterlage für das Erstgespräch mit Berg & Macher um. Nutzen Sie ausschließlich Informationen, die sich aus der Handlungssituation, den Materialien und Ihren begründeten Entscheidungen ergeben. Widersprüchliche oder noch ungeklärte Punkte sind als offene Frage kenntlich zu machen.
+12. Setzen Sie Ihre Entscheidung in einer präzisen Unterlage für das Erstgespräch mit Berg & Macher um. Nutzen Sie ausschließlich Informationen, die sich aus der Handlungssituation, den Materialien und Ihren begründeten Entscheidungen ergeben. Widersprüchliche oder noch ungeklärte Punkte sind als offene Frage kenntlich zu machen.
 
-**Handlungsergebnis: Tischvorlage „Gemeinsame Geschäftsidee“**
+   **Handlungsergebnis: Tischvorlage „Gemeinsame Geschäftsidee“**
 
 #### Kontrollieren / Überprüfen
 
 **Arbeitszeit:** 1 Unterrichtsstunde  
 **Arbeitsform:** Partnergruppen
 
-Tauschen Sie Ihr Handlungsergebnis mit einer anderen Gruppe und **überprüfen** Sie es anhand der folgenden Kriterien:
+13. Tauschen Sie Ihr Handlungsergebnis mit einer anderen Gruppe und **überprüfen** Sie es anhand der folgenden Kriterien:
 
-- Das Kundenproblem und die Zielgruppe sind eindeutig formuliert.
-- Das Nutzenversprechen unterscheidet BioCasa nachvollziehbar von Alternativen.
-- Die Ziele sind wirtschaftlich, sozial und ökologisch ausgewogen und überprüfbar.
-- Zentrale Anspruchsgruppen und ihre Interessen sind berücksichtigt.
-- Mindestens ein Zielkonflikt wird offengelegt und bearbeitet.
-- Die Einordnung als Betriebsart ist fachlich begründet.
-- Die Prozesskette passt zu einem produzierenden Unternehmen.
-- Alle Aussagen sind untereinander widerspruchsfrei.
-- Offene Fragen für die Beratung sind ausdrücklich benannt.
+   • Das Kundenproblem und die Zielgruppe sind eindeutig formuliert.
 
-Geben Sie zwei konkrete Stärken und einen konkreten Überarbeitungshinweis. Überarbeiten Sie anschließend Ihre eigene Fassung.
+   • Das Nutzenversprechen unterscheidet BioCasa nachvollziehbar von Alternativen.
+
+   • Die Ziele sind wirtschaftlich, sozial und ökologisch ausgewogen und überprüfbar.
+
+   • Zentrale Anspruchsgruppen und ihre Interessen sind berücksichtigt.
+
+   • Mindestens ein Zielkonflikt wird offengelegt und bearbeitet.
+
+   • Die Einordnung als Betriebsart ist fachlich begründet.
+
+   • Die Prozesskette passt zu einem produzierenden Unternehmen.
+
+   • Alle Aussagen sind untereinander widerspruchsfrei.
+
+   • Offene Fragen für die Beratung sind ausdrücklich benannt.
+
+   Geben Sie zwei konkrete Stärken und einen konkreten Überarbeitungshinweis. Überarbeiten Sie anschließend Ihre eigene Fassung.
 
 #### Reflektieren
 
 **Arbeitszeit:** 1 Unterrichtsstunde  
 **Arbeitsform:** Einzelarbeit, Abschlussgespräch im Plenum
 
-Nehmen Sie schriftlich zu den folgenden Fragen Stellung:
+14. Nehmen Sie schriftlich zu den folgenden Fragen Stellung:
 
-1.  Welche Information hat Ihre ursprüngliche Vorstellung von BioCasa am stärksten verändert?
-2.  Welche Entscheidung war in der Gruppe besonders schwierig und warum?
-3.  Welche Folge hätte es für BioCasa, wenn ein wichtiger Zielkonflikt nur verdeckt, aber nicht gelöst wird?
-4.  Welche eigene Stärke haben Sie in der Gruppenarbeit genutzt? Was möchten Sie bei der nächsten betrieblichen Entscheidung verbessern?
+   • Welche Information hat Ihre ursprüngliche Vorstellung von BioCasa am stärksten verändert?
+
+   • Welche Entscheidung war in der Gruppe besonders schwierig und warum?
+
+   • Welche Folge hätte es für BioCasa, wenn ein wichtiger Zielkonflikt nur verdeckt, aber nicht gelöst wird?
+
+   • Welche eigene Stärke haben Sie in der Gruppenarbeit genutzt? Was möchten Sie bei der nächsten betrieblichen Entscheidung verbessern?
 
 ## 6. Materialien M1–M6
 
@@ -546,81 +571,112 @@ Eine falsche Entscheidung hätte unmittelbare Folgen: Das Team könnte Geld an e
 **Arbeitsform:** Einzelarbeit und arbeitsteilige Vierergruppen  
 **Materialien:** M1 bis M5 sowie die Tischvorlage aus LS 1
 
-1.  **Identifizieren** Sie in der Handlungssituation und in M1 das zentrale Entscheidungsproblem. **Nennen** Sie vier Risiken, die aus einem ungeplanten Vorgehen entstehen können.
-2.  **Ordnen** Sie die offenen Punkte aus M1 und M2 den drei Kategorien persönliche, sachliche und rechtliche Voraussetzungen **zu**. Mehrfachzuordnungen sind möglich, müssen aber **begründet** werden.
-3.  **Analysieren** Sie M2. **Arbeiten** Sie mindestens fünf Punkte **heraus**, die vor einer verbindlichen Anmietung oder einem Umbau geklärt werden müssen.
-4.  **Vergleichen** Sie die Anforderungen aus M1 und M2 mit den Kompetenz- und Ressourcenangaben in M3. **Ermitteln** Sie für das Gründerteam mindestens drei Kompetenzlücken oder ungeklärte Verantwortlichkeiten.
-5.  Teilen Sie die Quellenakte M4 innerhalb Ihrer Gruppe auf. **Arbeiten** Sie für jede Stelle **heraus**:
-    - Wofür ist sie im BioCasa-Fall zuständig?
-    - Zu welchem Zeitpunkt ist der Kontakt erforderlich oder sinnvoll?
-    - Welche Information oder welcher Nachweis wird benötigt?
-    - Ist die Quelle für eine verbindliche Entscheidung geeignet?
-6.  **Überprüfen** Sie die drei Fundstücke im „ungeprüften Linkordner“ von M4. **Begründen** Sie, weshalb sie als alleinige Entscheidungsgrundlage geeignet oder ungeeignet sind.
-7.  **Erläutern** Sie mithilfe von M5, weshalb der Gründungsfahrplan vor der Erstellung des Businessplans benötigt wird.
+1. **Identifizieren** Sie in der Handlungssituation und in M1 das zentrale Entscheidungsproblem. **Nennen** Sie vier Risiken, die aus einem ungeplanten Vorgehen entstehen können.
 
-**Zwischensicherung:** Tragen Sie Ihre Ergebnisse in einer gemeinsamen Übersicht zusammen. Jede Angabe zu einer rechtlichen oder behördlichen Voraussetzung muss eine zuständige Stelle und eine offizielle Quelle enthalten.
+   **Ordnen** Sie die offenen Punkte aus M1 und M2 den drei Kategorien persönliche, sachliche und rechtliche Voraussetzungen **zu**. Mehrfachzuordnungen sind möglich, müssen aber **begründet** werden.
+
+2. **Analysieren** Sie M2. **Arbeiten** Sie mindestens fünf Punkte **heraus**, die vor einer verbindlichen Anmietung oder einem Umbau geklärt werden müssen.
+
+   **Vergleichen** Sie die Anforderungen aus M1 und M2 mit den Kompetenz- und Ressourcenangaben in M3. **Ermitteln** Sie für das Gründerteam mindestens drei Kompetenzlücken oder ungeklärte Verantwortlichkeiten.
+
+3. Teilen Sie die Quellenakte M4 innerhalb Ihrer Gruppe auf. **Arbeiten** Sie für jede Stelle **heraus**:
+
+   • Wofür ist sie im BioCasa-Fall zuständig?
+
+   • Zu welchem Zeitpunkt ist der Kontakt erforderlich oder sinnvoll?
+
+   • Welche Information oder welcher Nachweis wird benötigt?
+
+   • Ist die Quelle für eine verbindliche Entscheidung geeignet?
+
+   **Überprüfen** Sie die drei Fundstücke im „ungeprüften Linkordner“ von M4. **Begründen** Sie, weshalb sie als alleinige Entscheidungsgrundlage geeignet oder ungeeignet sind.
+
+4. **Erläutern** Sie mithilfe von M5, weshalb der Gründungsfahrplan vor der Erstellung des Businessplans benötigt wird.
+
+   **Zwischensicherung:** Tragen Sie Ihre Ergebnisse in einer gemeinsamen Übersicht zusammen. Jede Angabe zu einer rechtlichen oder behördlichen Voraussetzung muss eine zuständige Stelle und eine offizielle Quelle enthalten.
 
 #### Planen
 
 **Arbeitszeit:** 1,5 Unterrichtsstunden  
 **Arbeitsform:** Vierergruppen
 
-1.  **Erstellen** Sie aus den ermittelten Punkten eine vorläufige Reihenfolge. Nutzen Sie die Zeitfenster:
-    - sofort und vor einer Standortbindung,
-    - vor Abschluss wichtiger Verträge oder Umbauten,
-    - vor Aufnahme der Produktion,
-    - bei bzw. unmittelbar nach der formalen Gründung,
-    - innerhalb eines Monats nach Aufnahme der Tätigkeit.
-2.  **Bestimmen** Sie für jede Maßnahme eine hauptverantwortliche Person aus dem Gründerteam und eine Vertretung. Berücksichtigen Sie dabei die Profile aus LS 1 und M3.
-3.  **Bestimmen** Sie für jede Maßnahme einen überprüfbaren Nachweis, zum Beispiel schriftliche Auskunft, Terminbestätigung, eingereichtes Formular, Freigabe, Vertragsentwurf oder Schulungsbescheinigung.
-4.  **Entwickeln** Sie selbstständig drei Kriterien für die Auswahl der zwei Beratungsleistungen von Berg & Macher. Berücksichtigen Sie mindestens Risiko, eigene Kompetenz und Bedeutung für den Zeitplan.
+5. **Erstellen** Sie aus den ermittelten Punkten eine vorläufige Reihenfolge. Nutzen Sie die Zeitfenster:
+
+   • sofort und vor einer Standortbindung,
+
+   • vor Abschluss wichtiger Verträge oder Umbauten,
+
+   • vor Aufnahme der Produktion,
+
+   • bei bzw. unmittelbar nach der formalen Gründung,
+
+   • innerhalb eines Monats nach Aufnahme der Tätigkeit.
+
+6. **Bestimmen** Sie für jede Maßnahme eine hauptverantwortliche Person aus dem Gründerteam und eine Vertretung. Berücksichtigen Sie dabei die Profile aus LS 1 und M3.
+
+7. **Bestimmen** Sie für jede Maßnahme einen überprüfbaren Nachweis, zum Beispiel schriftliche Auskunft, Terminbestätigung, eingereichtes Formular, Freigabe, Vertragsentwurf oder Schulungsbescheinigung.
+
+8. **Entwickeln** Sie selbstständig drei Kriterien für die Auswahl der zwei Beratungsleistungen von Berg & Macher. Berücksichtigen Sie mindestens Risiko, eigene Kompetenz und Bedeutung für den Zeitplan.
 
 #### Entscheiden
 
 **Arbeitszeit:** 1 Unterrichtsstunde  
 **Arbeitsform:** Vierergruppen
 
-1.  **Beurteilen** Sie die offenen Aufgaben anhand Ihrer Kriterien.
-2.  **Beurteilen** Sie auf dieser Grundlage die möglichen Beratungsthemen und **begründen** Sie die Auswahl der zwei Themen, die Berg & Macher vertieft begleiten soll. Ordnen Sie die übrigen Aufgaben dem Team oder dem direkten Kontakt mit zuständigen Stellen zu.
-3.  **Begründen** Sie die Verteilung der Verantwortung und die Reihenfolge besonders kritischer Maßnahmen.
-4.  Kennzeichnen Sie Entscheidungen, die erst nach der Rechtsformwahl in LS 5 abschließend getroffen werden können. Formulieren Sie hierfür einen konkreten Wiedervorlagetermin oder Auslöser.
+9. **Beurteilen** Sie die offenen Aufgaben anhand Ihrer Kriterien.
+
+10. **Beurteilen** Sie auf dieser Grundlage die möglichen Beratungsthemen und **begründen** Sie die Auswahl der zwei Themen, die Berg & Macher vertieft begleiten soll. Ordnen Sie die übrigen Aufgaben dem Team oder dem direkten Kontakt mit zuständigen Stellen zu.
+
+11. **Begründen** Sie die Verteilung der Verantwortung und die Reihenfolge besonders kritischer Maßnahmen.
+
+12. Kennzeichnen Sie Entscheidungen, die erst nach der Rechtsformwahl in LS 5 abschließend getroffen werden können. Formulieren Sie hierfür einen konkreten Wiedervorlagetermin oder Auslöser.
 
 #### Durchführen
 
 **Arbeitszeit:** 1,5 Unterrichtsstunden  
 **Arbeitsform:** Vierergruppen
 
-Setzen Sie Ihre Ergebnisse so um, dass das Gründerteam die nächsten Schritte unmittelbar abarbeiten und den Bearbeitungsstand kontrollieren kann. Verwenden Sie für jede Maßnahme mindestens: Voraussetzung bzw. offene Frage, konkrete Handlung, verantwortliche Person, zuständige externe Stelle/Quelle, Termin oder Auslöser, erwarteter Nachweis und Status.
+13. Setzen Sie Ihre Ergebnisse so um, dass das Gründerteam die nächsten Schritte unmittelbar abarbeiten und den Bearbeitungsstand kontrollieren kann. Verwenden Sie für jede Maßnahme mindestens: Voraussetzung bzw. offene Frage, konkrete Handlung, verantwortliche Person, zuständige externe Stelle/Quelle, Termin oder Auslöser, erwarteter Nachweis und Status.
 
-**Handlungsergebnis: Maßnahmenplan „Gründungsfahrplan“**
+   **Handlungsergebnis: Maßnahmenplan „Gründungsfahrplan“**
 
 #### Kontrollieren / Überprüfen
 
 **Arbeitszeit:** 0,5 Unterrichtsstunde  
 **Arbeitsform:** Partnergruppen
 
-**Überprüfen** Sie den Gründungsfahrplan einer anderen Gruppe:
+14. **Überprüfen** Sie den Gründungsfahrplan einer anderen Gruppe:
 
-- Sind persönliche, sachliche und rechtliche Voraussetzungen enthalten?
-- Werden standortkritische Fragen vor Mietbindung und Umbau geklärt?
-- Sind ausschließlich geeignete Quellen und zuständige Stellen angegeben?
-- Sind Reihenfolge, parallele Schritte und Abhängigkeiten nachvollziehbar?
-- Ist jede Maßnahme einer verantwortlichen Person und einem Nachweis zugeordnet?
-- Werden rechtsformabhängige Schritte nicht fälschlich vorweggenommen?
-- Passt die Auswahl der zwei Beratungsleistungen zum größten Risiko?
-- Führt der Plan zu den Informationen, die für den Businessplan benötigt werden?
+   • Sind persönliche, sachliche und rechtliche Voraussetzungen enthalten?
 
-Markieren Sie eine Lücke, eine besonders überzeugende Priorisierung und einen konkreten Verbesserungsvorschlag. Überarbeiten Sie anschließend Ihren Plan.
+   • Werden standortkritische Fragen vor Mietbindung und Umbau geklärt?
+
+   • Sind ausschließlich geeignete Quellen und zuständige Stellen angegeben?
+
+   • Sind Reihenfolge, parallele Schritte und Abhängigkeiten nachvollziehbar?
+
+   • Ist jede Maßnahme einer verantwortlichen Person und einem Nachweis zugeordnet?
+
+   • Werden rechtsformabhängige Schritte nicht fälschlich vorweggenommen?
+
+   • Passt die Auswahl der zwei Beratungsleistungen zum größten Risiko?
+
+   • Führt der Plan zu den Informationen, die für den Businessplan benötigt werden?
+
+   Markieren Sie eine Lücke, eine besonders überzeugende Priorisierung und einen konkreten Verbesserungsvorschlag. Überarbeiten Sie anschließend Ihren Plan.
 
 #### Reflektieren
 
 **Arbeitszeit:** 0,5 Unterrichtsstunde  
 **Arbeitsform:** Einzelarbeit
 
-1.  Welche vermeintlich einfache Gründungsaufgabe erwies sich als abhängig von mehreren anderen Entscheidungen?
-2.  An welchem Merkmal haben Sie erkannt, dass eine Quelle für den BioCasa-Fall belastbar ist?
-3.  Welche Aufgabe würden Sie persönlich im Gründerteam übernehmen, und welche Kompetenz müssten Sie dafür noch entwickeln?
-4.  Welche wirtschaftliche Folge könnte ein einziger übersehener Schritt für BioCasa auslösen?
+15. • Welche vermeintlich einfache Gründungsaufgabe erwies sich als abhängig von mehreren anderen Entscheidungen?
+
+   • An welchem Merkmal haben Sie erkannt, dass eine Quelle für den BioCasa-Fall belastbar ist?
+
+   • Welche Aufgabe würden Sie persönlich im Gründerteam übernehmen, und welche Kompetenz müssten Sie dafür noch entwickeln?
+
+   • Welche wirtschaftliche Folge könnte ein einziger übersehener Schritt für BioCasa auslösen?
 
 ## 6. Materialien M1–M5
 
@@ -948,91 +1004,132 @@ Das eigentliche Problem besteht deshalb nicht darin, einen Businessplan „zu sc
 **Arbeitsform:** Einzelarbeit, anschließend arbeitsteilige Stamm- und Expertengruppen  
 **Materialien:** M1 bis M5, Tischvorlage aus LS 1 und Gründungsfahrplan aus LS 2
 
-1.  **Identifizieren** Sie in der Handlungssituation und M1 das zentrale Unternehmensproblem. **Nennen** Sie fünf Zusammenhänge, die im Businessplan widerspruchsfrei sein müssen.
-2.  **Analysieren** Sie M2. **Arbeiten** Sie für jedes der fünf Produktkonzepte Entwicklungsstand, Kundennutzen, Produktionsrisiko und Eignung für den Marktstart **heraus**.
-3.  **Werten** Sie die Markt- und Kundendaten in M3 **aus**. **Ermitteln** Sie:
-    - die am besten passende Startzielgruppe,
-    - deren drei wichtigsten Kaufkriterien,
-    - einen vertretbaren Endverkaufspreis,
-    - geeignete erste Absatzwege,
-    - zwei Marktchancen und zwei Marktrisiken.
-4.  **Vergleichen** Sie die fiktiven Wettbewerbsangebote in M3 nach Zielgruppe, Nutzen, Preis, Vertrieb und erkennbarer Schwäche. **Erläutern** Sie eine mögliche Positionierung von BioCasa.
-5.  **Analysieren** Sie die Marketingoptionen in M4. **Arbeiten** Sie heraus, welche Kombinationen der vier Instrumente Produkt, Preis, Distribution und Kommunikation zueinander und zu den Kundendaten passen.
-6.  **Ermitteln** Sie mit M5 in einer Tabellenkalkulation:
-    - den Kapitalbedarf für Investitionen und einmalige Gründungsausgaben,
-    - den Betriebsmittelbedarf für die ersten drei Monate,
-    - den gesamten Kapitalbedarf,
-    - das gesamte Eigenkapital der vier Gründer,
-    - die verbleibende Finanzierungslücke.
-7.  **Überprüfen** Sie die Absatz- und Kapazitätsdaten in M5. **Berechnen** Sie die geplante Jahresmenge, die praktisch verfügbare Jahreskapazität und den erwarteten operativen Zahlungsmittelüberschuss vor Finanzierung, Steuern und Abschreibungen.
-8.  **Analysieren** Sie die sechs Widerspruchsnotizen am Ende von M5. **Erläutern** Sie jeweils, welche Businessplan-Entscheidung erforderlich ist.
+1. **Identifizieren** Sie in der Handlungssituation und M1 das zentrale Unternehmensproblem. **Nennen** Sie fünf Zusammenhänge, die im Businessplan widerspruchsfrei sein müssen.
 
-**Verbindliche Zwischensicherung:** Jede Expertengruppe legt ihre Ergebnisse in einem standardisierten Kurzbericht vor: Datenbasis – Auswertung – Schlussfolgerung – offene Annahme – Risiko. Die Stammgruppe übernimmt nur Ergebnisse, die rechnerisch oder materialgestützt nachvollziehbar sind.
+   **Analysieren** Sie M2. **Arbeiten** Sie für jedes der fünf Produktkonzepte Entwicklungsstand, Kundennutzen, Produktionsrisiko und Eignung für den Marktstart **heraus**.
+
+2. **Werten** Sie die Markt- und Kundendaten in M3 **aus**. **Ermitteln** Sie:
+
+   • die am besten passende Startzielgruppe,
+
+   • deren drei wichtigsten Kaufkriterien,
+
+   • einen vertretbaren Endverkaufspreis,
+
+   • geeignete erste Absatzwege,
+
+   • zwei Marktchancen und zwei Marktrisiken.
+
+   **Vergleichen** Sie die fiktiven Wettbewerbsangebote in M3 nach Zielgruppe, Nutzen, Preis, Vertrieb und erkennbarer Schwäche. **Erläutern** Sie eine mögliche Positionierung von BioCasa.
+
+   **Analysieren** Sie die Marketingoptionen in M4. **Arbeiten** Sie heraus, welche Kombinationen der vier Instrumente Produkt, Preis, Distribution und Kommunikation zueinander und zu den Kundendaten passen.
+
+3. **Ermitteln** Sie mit M5 in einer Tabellenkalkulation:
+
+   • den Kapitalbedarf für Investitionen und einmalige Gründungsausgaben,
+
+   • den Betriebsmittelbedarf für die ersten drei Monate,
+
+   • den gesamten Kapitalbedarf,
+
+   • das gesamte Eigenkapital der vier Gründer,
+
+   • die verbleibende Finanzierungslücke.
+
+   **Überprüfen** Sie die Absatz- und Kapazitätsdaten in M5. **Berechnen** Sie die geplante Jahresmenge, die praktisch verfügbare Jahreskapazität und den erwarteten operativen Zahlungsmittelüberschuss vor Finanzierung, Steuern und Abschreibungen.
+
+4. **Analysieren** Sie die sechs Widerspruchsnotizen am Ende von M5. **Erläutern** Sie jeweils, welche Businessplan-Entscheidung erforderlich ist.
+
+   **Verbindliche Zwischensicherung:** Jede Expertengruppe legt ihre Ergebnisse in einem standardisierten Kurzbericht vor: Datenbasis – Auswertung – Schlussfolgerung – offene Annahme – Risiko. Die Stammgruppe übernimmt nur Ergebnisse, die rechnerisch oder materialgestützt nachvollziehbar sind.
 
 #### Planen
 
 **Arbeitszeit:** 3 Unterrichtsstunden  
 **Arbeitsform:** Stammgruppen
 
-1.  **Erstellen** Sie auf Grundlage von M1 einen Bearbeitungsplan für den Businessplan. Ordnen Sie jedem Kapitel eine verantwortliche Person, benötigte Materialien, ein Zwischenergebnis und einen Prüftermin zu.
-2.  **Stellen** Sie die Abhängigkeiten zwischen den Kapiteln **dar**. Berücksichtigen Sie mindestens:
-    - Zielgruppe → Produktgestaltung und Kommunikation,
-    - Absatzwege → Preis und Logistik,
-    - Absatzmenge → Produktionskapazität und Personal,
-    - Ressourcen → Kapitalbedarf,
-    - Kapitalbedarf → späteres Finanzierungskonzept.
-3.  **Entwickeln** Sie selbstständig eine gemeinsame Kriterienliste für die folgenden Unternehmensentscheidungen. Sie muss Kundennutzen, Marktdaten, Umsetzbarkeit, Wirtschaftlichkeit, Kapitalbedarf, Lieferfähigkeit und Ziele aus LS 1 enthalten.
-4.  **Bestimmen** Sie, wie Annahmen, Rechenwege, Quellen und noch offene Prüfaufträge im Businessplan kenntlich gemacht werden.
+5. **Erstellen** Sie auf Grundlage von M1 einen Bearbeitungsplan für den Businessplan. Ordnen Sie jedem Kapitel eine verantwortliche Person, benötigte Materialien, ein Zwischenergebnis und einen Prüftermin zu.
+
+6. **Stellen** Sie die Abhängigkeiten zwischen den Kapiteln **dar**. Berücksichtigen Sie mindestens:
+
+   • Zielgruppe → Produktgestaltung und Kommunikation,
+
+   • Absatzwege → Preis und Logistik,
+
+   • Absatzmenge → Produktionskapazität und Personal,
+
+   • Ressourcen → Kapitalbedarf,
+
+   • Kapitalbedarf → späteres Finanzierungskonzept.
+
+7. **Entwickeln** Sie selbstständig eine gemeinsame Kriterienliste für die folgenden Unternehmensentscheidungen. Sie muss Kundennutzen, Marktdaten, Umsetzbarkeit, Wirtschaftlichkeit, Kapitalbedarf, Lieferfähigkeit und Ziele aus LS 1 enthalten.
+
+8. **Bestimmen** Sie, wie Annahmen, Rechenwege, Quellen und noch offene Prüfaufträge im Businessplan kenntlich gemacht werden.
 
 #### Entscheiden
 
 **Arbeitszeit:** 3 Unterrichtsstunden  
 **Arbeitsform:** Stammgruppen; abschließende Geschäftsführungsrunde
 
-1.  **Beurteilen** Sie die fünf Produktkonzepte und **entscheiden** Sie über das Startsortiment.
-2.  **Beurteilen** Sie die Zielgruppen und **begründen** Sie die Auswahl einer primären Zielgruppe sowie die daraus abgeleitete Positionierung.
-3.  **Entwickeln** Sie selbstständig einen abgestimmten Marketingmix. **Begründen** Sie jede Auswahl mit mindestens einer Angabe aus M3 oder M4 und einem Ziel aus LS 1.
-4.  **Beurteilen** Sie, ob die zugrunde gelegte Absatzmenge und die Investition in die Produktionslinie zur Startstrategie passen. Nehmen Sie zu der Alternative Stellung, zunächst mit einer kleineren Anlage oder Lohnfertigung zu starten.
-5.  **Beurteilen** Sie die Risiken und **bestimmen** Sie, welche im Businessplan durch konkrete Maßnahmen begrenzt und welche als offene Annahmen ausgewiesen werden.
+9. **Beurteilen** Sie die fünf Produktkonzepte und **entscheiden** Sie über das Startsortiment.
+
+   **Beurteilen** Sie die Zielgruppen und **begründen** Sie die Auswahl einer primären Zielgruppe sowie die daraus abgeleitete Positionierung.
+
+10. **Entwickeln** Sie selbstständig einen abgestimmten Marketingmix. **Begründen** Sie jede Auswahl mit mindestens einer Angabe aus M3 oder M4 und einem Ziel aus LS 1.
+
+11. **Beurteilen** Sie, ob die zugrunde gelegte Absatzmenge und die Investition in die Produktionslinie zur Startstrategie passen. Nehmen Sie zu der Alternative Stellung, zunächst mit einer kleineren Anlage oder Lohnfertigung zu starten.
+
+   **Beurteilen** Sie die Risiken und **bestimmen** Sie, welche im Businessplan durch konkrete Maßnahmen begrenzt und welche als offene Annahmen ausgewiesen werden.
 
 #### Durchführen
 
 **Arbeitszeit:** 4 Unterrichtsstunden  
 **Arbeitsform:** Stammgruppen
 
-Führen Sie Ihre Teilentscheidungen in einem einheitlichen, adressatengerechten und rechnerisch nachvollziehbaren Dokument zusammen. Die Zusammenfassung wird erst nach Fertigstellung aller Kapitel verfasst. Zahlen sind mit Einheit, Zeitraum und Annahme zu kennzeichnen. Verweise zwischen Text und Tabellen müssen eindeutig sein.
+12. Führen Sie Ihre Teilentscheidungen in einem einheitlichen, adressatengerechten und rechnerisch nachvollziehbaren Dokument zusammen. Die Zusammenfassung wird erst nach Fertigstellung aller Kapitel verfasst. Zahlen sind mit Einheit, Zeitraum und Annahme zu kennzeichnen. Verweise zwischen Text und Tabellen müssen eindeutig sein.
 
-**Handlungsergebnis: Businessplan BioCasa**
+   **Handlungsergebnis: Businessplan BioCasa**
 
 #### Kontrollieren / Überprüfen
 
 **Arbeitszeit:** 1 Unterrichtsstunde  
 **Arbeitsform:** Prüfgruppen
 
-Führen Sie für einen fremden Businessplan einen Konsistenzcheck durch. **Überprüfen** Sie:
+13. Führen Sie für einen fremden Businessplan einen Konsistenzcheck durch. **Überprüfen** Sie:
 
-- Ist die Geschäftsidee aus LS 1 wiederzuerkennen?
-- Sind Zielgruppe, Kundenproblem und Nutzenversprechen eindeutig?
-- Ist das Startsortiment mit Markt- und Prozessdaten begründet?
-- Bilden Produkt, Preis, Distribution und Kommunikation einen abgestimmten Marketingmix?
-- Stimmen Absatzmenge, Kapazität, Personal- und Ressourcenannahmen überein?
-- Ist der Kapitalbedarf vollständig, rechnerisch richtig und von laufenden Kosten abgegrenzt?
-- Stimmen Eigenkapital und Finanzierungslücke?
-- Werden Szenariodaten, externe Quellen und eigene Annahmen unterschieden?
-- Werden mindestens drei wesentliche Risiken mit Maßnahmen benannt?
-- Ist die Zusammenfassung mit den Detailkapiteln widerspruchsfrei?
+   • Ist die Geschäftsidee aus LS 1 wiederzuerkennen?
 
-Dokumentieren Sie jede Abweichung mit Fundstelle, Begründung und Korrekturvorschlag. Die Erstellergruppe überarbeitet anschließend ihre Fassung und entscheidet begründet über die Hinweise.
+   • Sind Zielgruppe, Kundenproblem und Nutzenversprechen eindeutig?
+
+   • Ist das Startsortiment mit Markt- und Prozessdaten begründet?
+
+   • Bilden Produkt, Preis, Distribution und Kommunikation einen abgestimmten Marketingmix?
+
+   • Stimmen Absatzmenge, Kapazität, Personal- und Ressourcenannahmen überein?
+
+   • Ist der Kapitalbedarf vollständig, rechnerisch richtig und von laufenden Kosten abgegrenzt?
+
+   • Stimmen Eigenkapital und Finanzierungslücke?
+
+   • Werden Szenariodaten, externe Quellen und eigene Annahmen unterschieden?
+
+   • Werden mindestens drei wesentliche Risiken mit Maßnahmen benannt?
+
+   • Ist die Zusammenfassung mit den Detailkapiteln widerspruchsfrei?
+
+   Dokumentieren Sie jede Abweichung mit Fundstelle, Begründung und Korrekturvorschlag. Die Erstellergruppe überarbeitet anschließend ihre Fassung und entscheidet begründet über die Hinweise.
 
 #### Reflektieren
 
 **Arbeitszeit:** 1 Unterrichtsstunde  
 **Arbeitsform:** Einzelarbeit und Blitzlicht
 
-1.  Welche Entscheidung in einem Kapitel hatte die stärkste Auswirkung auf andere Kapitel?
-2.  Welche Annahme ist trotz der verfügbaren Daten besonders unsicher?
-3.  Wie würde sich eine um 20 Prozent niedrigere Absatzmenge auf BioCasa auswirken?
-4.  Welche Arbeitsweise hat geholfen, Widersprüche im Team zu erkennen? Was würden Sie beim nächsten umfangreichen Planungsauftrag verändern?
+14. • Welche Entscheidung in einem Kapitel hatte die stärkste Auswirkung auf andere Kapitel?
+
+   • Welche Annahme ist trotz der verfügbaren Daten besonders unsicher?
+
+   • Wie würde sich eine um 20 Prozent niedrigere Absatzmenge auf BioCasa auswirken?
+
+   • Welche Arbeitsweise hat geholfen, Widersprüche im Team zu erkennen? Was würden Sie beim nächsten umfangreichen Planungsauftrag verändern?
 
 ## 6. Materialien M1–M5
 
@@ -1924,94 +2021,138 @@ Die Rechtsformentscheidung ist deshalb keine Formalität am Ende eines Gründung
 **Arbeitsform:** Einzelarbeit, anschließend Rechtsform-Expertengruppen und Stammgruppen  
 **Materialien:** M1 bis M6 sowie Finanzierungsergebnis aus LS 4
 
-1.  **Identifizieren** Sie in der Handlungssituation und M1 das zentrale Entscheidungsproblem. **Nennen** Sie die Informationen, die Bank, Leasinggesellschaft und Vermieter vor Vertragsschluss benötigen.
-2.  **Arbeiten** Sie aus M2 die Interessen, Beiträge, Haftungsbereitschaft und gewünschten Entscheidungsrechte der vier Gründerinnen und Gründer **heraus**.
-3.  **Analysieren** Sie M3. **Erläutern** Sie anhand von drei Verpflichtungen, weshalb die Haftungsfrage bei BioCasa wirtschaftlich bedeutsam ist.
-4.  Erschließen Sie in Expertengruppen jeweils eine Rechtsform aus M4. **Stellen** Sie dar:
-    - mögliche Eigentümer/Gesellschafter,
-    - Mindestkapital,
-    - Gründungs- und Registeranforderungen,
-    - Geschäftsführung,
-    - Vertretung,
-    - Haftung,
-    - besondere Eignung und Risiken für BioCasa.
-5.  **Vergleichen** Sie in den Stammgruppen Einzelunternehmen, OHG, KG und GmbH anhand derselben Merkmale. Trennen Sie konsequent:
-    - **Geschäftsführung:** interne Leitung und Entscheidungszuständigkeit,
-    - **Vertretung:** rechtsgeschäftliches Handeln gegenüber Dritten.
-6.  **Bestimmen** Sie mithilfe von M3 und M4 die möglichen Haftungsfolgen in den folgenden Fällen:
-    - BioCasa kann eine Lieferantenforderung von 180.000 Euro nicht bezahlen.
-    - Ein Vertrag wird im Namen einer geplanten GmbH vor deren Handelsregistereintragung geschlossen.
-    - Eine Kommanditistin hat ihre vereinbarte Einlage vollständig geleistet.
-    - Ein GmbH-Gesellschafter übernimmt freiwillig eine persönliche Bankbürgschaft.
-7.  **Überprüfen** Sie die Aussagen im ungeprüften Chat-Auszug in M4 anhand der Gesetzesinformationen. Korrigieren Sie jede falsche oder zu pauschale Aussage.
-8.  **Analysieren** Sie M6. **Arbeiten** Sie die Schritte heraus, die von einer Rechtsformentscheidung bis zu einem wirksamen Auftreten der Gesellschaft erforderlich sind.
+1. **Identifizieren** Sie in der Handlungssituation und M1 das zentrale Entscheidungsproblem. **Nennen** Sie die Informationen, die Bank, Leasinggesellschaft und Vermieter vor Vertragsschluss benötigen.
 
-**Zwischensicherung:** Jede Stammgruppe gibt eine vollständig ausgefüllte Rechtsformvergleichstabelle ab. Jede Aussage zu Haftung, Register oder Vertretung enthält eine Fundstelle aus M4.
+   **Arbeiten** Sie aus M2 die Interessen, Beiträge, Haftungsbereitschaft und gewünschten Entscheidungsrechte der vier Gründerinnen und Gründer **heraus**.
+
+   **Analysieren** Sie M3. **Erläutern** Sie anhand von drei Verpflichtungen, weshalb die Haftungsfrage bei BioCasa wirtschaftlich bedeutsam ist.
+
+2. Erschließen Sie in Expertengruppen jeweils eine Rechtsform aus M4. **Stellen** Sie dar:
+
+   • mögliche Eigentümer/Gesellschafter,
+
+   • Mindestkapital,
+
+   • Gründungs- und Registeranforderungen,
+
+   • Geschäftsführung,
+
+   • Vertretung,
+
+   • Haftung,
+
+   • besondere Eignung und Risiken für BioCasa.
+
+   **Vergleichen** Sie in den Stammgruppen Einzelunternehmen, OHG, KG und GmbH anhand derselben Merkmale. Trennen Sie konsequent:
+
+   • **Geschäftsführung:** interne Leitung und Entscheidungszuständigkeit,
+
+   • **Vertretung:** rechtsgeschäftliches Handeln gegenüber Dritten.
+
+3. **Bestimmen** Sie mithilfe von M3 und M4 die möglichen Haftungsfolgen in den folgenden Fällen:
+
+   • BioCasa kann eine Lieferantenforderung von 180.000 Euro nicht bezahlen.
+
+   • Ein Vertrag wird im Namen einer geplanten GmbH vor deren Handelsregistereintragung geschlossen.
+
+   • Eine Kommanditistin hat ihre vereinbarte Einlage vollständig geleistet.
+
+   • Ein GmbH-Gesellschafter übernimmt freiwillig eine persönliche Bankbürgschaft.
+
+   **Überprüfen** Sie die Aussagen im ungeprüften Chat-Auszug in M4 anhand der Gesetzesinformationen. Korrigieren Sie jede falsche oder zu pauschale Aussage.
+
+4. **Analysieren** Sie M6. **Arbeiten** Sie die Schritte heraus, die von einer Rechtsformentscheidung bis zu einem wirksamen Auftreten der Gesellschaft erforderlich sind.
+
+   **Zwischensicherung:** Jede Stammgruppe gibt eine vollständig ausgefüllte Rechtsformvergleichstabelle ab. Jede Aussage zu Haftung, Register oder Vertretung enthält eine Fundstelle aus M4.
 
 #### Planen
 
 **Arbeitszeit:** 2 Unterrichtsstunden  
 **Arbeitsform:** Vierergruppen mit Gründerrollen
 
-1.  **Prüfen** Sie die Entscheidungskriterien und Gewichte in M5. **Begründen** Sie, ob die Gewichtung zur BioCasa-Situation passt. Änderungen sind nur mit einstimmiger Begründung möglich; die Summe muss 100 Prozent ergeben.
-2.  **Erstellen** Sie einen Ablauf für die Rechtsformentscheidung: Ausschluss zwingend ungeeigneter Varianten, Bewertung der verbleibenden Varianten, Sensitivitätsprüfung und Gestaltung der Beteiligungs- und Entscheidungsregeln.
-3.  **Bestimmen** Sie zwei Grenzbedingungen, die eine Rechtsform unabhängig von ihrer Gesamtpunktzahl erfüllen muss. Beispiele: alle vier können beteiligt sein; persönliche Haftung für die langfristigen Großverpflichtungen wird vermieden.
-4.  **Entwickeln** Sie selbstständig mindestens zwei Modelle für Beteiligung und Leitung. Berücksichtigen Sie Geldbeiträge, fachliche Beiträge, operative Verantwortung und Schutz vor Alleinentscheidungen bei außergewöhnlichen Geschäften.
+5. **Prüfen** Sie die Entscheidungskriterien und Gewichte in M5. **Begründen** Sie, ob die Gewichtung zur BioCasa-Situation passt. Änderungen sind nur mit einstimmiger Begründung möglich; die Summe muss 100 Prozent ergeben.
+
+6. **Erstellen** Sie einen Ablauf für die Rechtsformentscheidung: Ausschluss zwingend ungeeigneter Varianten, Bewertung der verbleibenden Varianten, Sensitivitätsprüfung und Gestaltung der Beteiligungs- und Entscheidungsregeln.
+
+7. **Bestimmen** Sie zwei Grenzbedingungen, die eine Rechtsform unabhängig von ihrer Gesamtpunktzahl erfüllen muss. Beispiele: alle vier können beteiligt sein; persönliche Haftung für die langfristigen Großverpflichtungen wird vermieden.
+
+8. **Entwickeln** Sie selbstständig mindestens zwei Modelle für Beteiligung und Leitung. Berücksichtigen Sie Geldbeiträge, fachliche Beiträge, operative Verantwortung und Schutz vor Alleinentscheidungen bei außergewöhnlichen Geschäften.
 
 #### Entscheiden
 
 **Arbeitszeit:** 2 Unterrichtsstunden  
 **Arbeitsform:** Vierergruppen
 
-1.  **Beurteilen** Sie die vier Rechtsformen mithilfe der gewichteten Matrix aus M5.
-2.  **Überprüfen** Sie Ihr Ergebnis durch eine Sensitivitätsfrage: Bleibt die Rangfolge bestehen, wenn das Kriterium „Haftungsschutz“ oder „geringer Formalaufwand“ um zehn Prozentpunkte anders gewichtet wird?
-3.  **Beurteilen** Sie die Rechtsformen abschließend und **begründen** Sie Ihre Empfehlung. Eine hohe Punktzahl allein genügt nicht; Grenzbedingungen und konkrete Rechtsfolgen müssen berücksichtigt werden.
-4.  **Entwickeln** Sie selbstständig für die empfohlene Form eine konkrete Ausgestaltung zu:
-    - Beteiligung bzw. Rollen der vier Personen,
-    - Geschäftsführung,
-    - Vertretung nach außen,
-    - Zustimmungsvorbehalte für außergewöhnliche Geschäfte,
-    - nächsten formalen Schritt und verantwortliche Person.
-5.  **Begründen** Sie, wie Ihr Modell den Konflikt zwischen Christians Kapitalbeitrag und den fachlichen Beiträgen der drei anderen Personen bearbeitet.
+9. **Beurteilen** Sie die vier Rechtsformen mithilfe der gewichteten Matrix aus M5.
+
+   **Überprüfen** Sie Ihr Ergebnis durch eine Sensitivitätsfrage: Bleibt die Rangfolge bestehen, wenn das Kriterium „Haftungsschutz“ oder „geringer Formalaufwand“ um zehn Prozentpunkte anders gewichtet wird?
+
+   **Beurteilen** Sie die Rechtsformen abschließend und **begründen** Sie Ihre Empfehlung. Eine hohe Punktzahl allein genügt nicht; Grenzbedingungen und konkrete Rechtsfolgen müssen berücksichtigt werden.
+
+10. **Entwickeln** Sie selbstständig für die empfohlene Form eine konkrete Ausgestaltung zu:
+
+   • Beteiligung bzw. Rollen der vier Personen,
+
+   • Geschäftsführung,
+
+   • Vertretung nach außen,
+
+   • Zustimmungsvorbehalte für außergewöhnliche Geschäfte,
+
+   • nächsten formalen Schritt und verantwortliche Person.
+
+   **Begründen** Sie, wie Ihr Modell den Konflikt zwischen Christians Kapitalbeitrag und den fachlichen Beiträgen der drei anderen Personen bearbeitet.
 
 #### Durchführen
 
 **Arbeitszeit:** 3 Unterrichtsstunden  
 **Arbeitsform:** Vierergruppen
 
-Setzen Sie die Entscheidung in einer fachlich belegten Unterlage für das nächste Gründermeeting, die Bank und das vorbereitende Notariatsgespräch um. Die Unterlage muss die geprüften Alternativen, Entscheidungskriterien, konkrete Empfehlung, geplante Leitungs- und Vertretungsregeln, Risiken sowie die unmittelbar folgenden Gründungsschritte enthalten. Sie ersetzt keinen Gesellschaftsvertrag.
+11. Setzen Sie die Entscheidung in einer fachlich belegten Unterlage für das nächste Gründermeeting, die Bank und das vorbereitende Notariatsgespräch um. Die Unterlage muss die geprüften Alternativen, Entscheidungskriterien, konkrete Empfehlung, geplante Leitungs- und Vertretungsregeln, Risiken sowie die unmittelbar folgenden Gründungsschritte enthalten. Sie ersetzt keinen Gesellschaftsvertrag.
 
-**Handlungsergebnis: Beschlussvorlage zur Rechtsform**
+   **Handlungsergebnis: Beschlussvorlage zur Rechtsform**
 
 #### Kontrollieren / Überprüfen
 
 **Arbeitszeit:** 1 Unterrichtsstunde  
 **Arbeitsform:** Rechtscheck durch eine andere Gruppe
 
-**Überprüfen** Sie die Beschlussvorlage anhand folgender Fragen:
+12. **Überprüfen** Sie die Beschlussvorlage anhand folgender Fragen:
 
-- Sind alle vier Pflichtrechtsformen korrekt verglichen?
-- Werden Geschäftsführung und Vertretung unterschieden?
-- Stimmen Aussagen zu Mindestkapital, Register und Haftung mit M4 überein?
-- Wird beschränkte Haftung nicht als vollständiger Schutz in jeder Situation dargestellt?
-- Passen Beteiligung, Leitung und Zustimmungsvorbehalte zu den Gründerinteressen?
-- Sind ungewöhnlich hohe Verpflichtungen aus M3 berücksichtigt?
-- Wird die Rechtsform nachvollziehbar aus Kriterien statt aus einem Einzelmerkmal abgeleitet?
-- Ist der nächste Gründungsschritt korrekt und terminiert?
-- Bleiben Punkte, die Notariat, Rechts- oder Steuerberatung erfordern, als Prüfauftrag gekennzeichnet?
+   • Sind alle vier Pflichtrechtsformen korrekt verglichen?
 
-Dokumentieren Sie jede Korrektur mit Fundstelle. Die Erstellergruppe überarbeitet ihre Beschlussvorlage vor der abschließenden Abstimmung.
+   • Werden Geschäftsführung und Vertretung unterschieden?
+
+   • Stimmen Aussagen zu Mindestkapital, Register und Haftung mit M4 überein?
+
+   • Wird beschränkte Haftung nicht als vollständiger Schutz in jeder Situation dargestellt?
+
+   • Passen Beteiligung, Leitung und Zustimmungsvorbehalte zu den Gründerinteressen?
+
+   • Sind ungewöhnlich hohe Verpflichtungen aus M3 berücksichtigt?
+
+   • Wird die Rechtsform nachvollziehbar aus Kriterien statt aus einem Einzelmerkmal abgeleitet?
+
+   • Ist der nächste Gründungsschritt korrekt und terminiert?
+
+   • Bleiben Punkte, die Notariat, Rechts- oder Steuerberatung erfordern, als Prüfauftrag gekennzeichnet?
+
+   Dokumentieren Sie jede Korrektur mit Fundstelle. Die Erstellergruppe überarbeitet ihre Beschlussvorlage vor der abschließenden Abstimmung.
 
 #### Reflektieren
 
 **Arbeitszeit:** 1 Unterrichtsstunde  
 **Arbeitsform:** Einzelarbeit und Plenum
 
-1.  Welches Rechtsformmerkmal hatte den größten Einfluss auf Ihr Urteil?
-2.  Welche persönliche Gründerposition konnten Sie fachlich nachvollziehen, obwohl Sie sie nicht teilen?
-3.  Warum ist „beschränkte Haftung“ keine Garantie, niemals persönlich in Anspruch genommen zu werden?
-4.  Welche Entscheidung gehört in die Beschlussvorlage und welche zwingend in ein späteres Notariats-/Beratungsgespräch?
-5.  Wie würden Sie Ihre Entscheidung verändern, wenn BioCasa nur 30.000 Euro statt 362.500 Euro Eigenmittel hätte?
+13. • Welches Rechtsformmerkmal hatte den größten Einfluss auf Ihr Urteil?
+
+   • Welche persönliche Gründerposition konnten Sie fachlich nachvollziehen, obwohl Sie sie nicht teilen?
+
+   • Warum ist „beschränkte Haftung“ keine Garantie, niemals persönlich in Anspruch genommen zu werden?
+
+   • Welche Entscheidung gehört in die Beschlussvorlage und welche zwingend in ein späteres Notariats-/Beratungsgespräch?
+
+   • Wie würden Sie Ihre Entscheidung verändern, wenn BioCasa nur 30.000 Euro statt 362.500 Euro Eigenmittel hätte?
 
 ## 6. Materialien M1–M6
 
@@ -2349,84 +2490,118 @@ Damit kulminieren mehrere Entscheidungen, die in den vorherigen Lernsituationen 
 **Arbeitsform:** Einzelarbeit, anschließend Expertengruppen „Vertrag“, „Zahlung“, „Reklamation“ und „Personal“  
 **Materialien:** M1 bis M6
 
-1.  **Ordnen** Sie die Dokumente in M1 chronologisch und **stellen** Sie für jedes Dokument Absender, Empfänger, Datum, Erklärungsinhalt und rechtliche Funktion **dar**.
-2.  **Überprüfen** Sie mithilfe von M4, wann ein Kaufvertrag zustande gekommen ist. **Begründen** Sie, weshalb die Bestellung und die Auftragsbestätigung jeweils nicht ohne Weiteres als bloße Annahme der vorherigen Erklärung gelten.
-3.  **Arbeiten** Sie den endgültigen Vertragsinhalt **heraus**: Vertragsparteien, Produkte, Menge, Preis, Lieferort, Liefertermin, Qualitätsanforderungen und Zahlungsbedingung.
-4.  **Überprüfen** Sie die Wirksamkeit des Vertrags. Berücksichtigen Sie Geschäftsfähigkeit bzw. Rechtsfähigkeit, Vertretungsbefugnis, Übereinstimmung der Erklärungen, mögliche Formanforderungen und rechtlich zulässigen Inhalt.
-5.  **Stellen** Sie die Hauptpflichten von BioCasa und Küstengrün aus dem Kaufvertrag **dar** und **erläutern** Sie die wirtschaftlichen Folgen für beide Seiten.
-6.  **Vergleichen** Sie die vier Zahlungsmöglichkeiten aus M2 hinsichtlich Zeitpunkt, Liquiditätswirkung, Ausfallrisiko, Kosten, Steuerbarkeit und Kundenakzeptanz. **Berechnen** Sie die unmittelbaren Kosten jeder Option für einen Folgeauftrag über 52.200 Euro netto.
-7.  **Analysieren** Sie die Liefer- und Reklamationsunterlagen in M3 und M5. **Bestimmen** Sie Art und Umfang der Abweichungen sowie den Netto-Warenwert der 360 betroffenen Einheiten.
-8.  **Überprüfen** Sie mit M4, ob Küstengrün die Ware rechtzeitig untersucht und die Mängel rechtzeitig angezeigt hat. **Arbeiten** Sie die grundsätzlich möglichen Käuferrechte und die vorrangig zu prüfende Nacherfüllung **heraus**.
-9.  **Analysieren** Sie die interne Ursachen- und Bestandsnotiz M5. **Beurteilen** Sie, welche Reaktion rechtlich möglich, wirtschaftlich vertretbar und für die Kundenbeziehung geeignet ist. Trennen Sie bestätigte Sachverhalte, offene Fragen und nicht belegte Zusatzforderungen.
-10. **Vergleichen** Sie die drei Beschäftigungsoptionen aus M6 nach verfügbarer Arbeitszeit, Kosten im 13-Wochen-Zeitraum, Kosten je verfügbarer Stunde, Einarbeitung, Flexibilität, Qualitätswirkung und langfristiger Bindung.
-11. **Überprüfen** Sie den Arbeitsvertragsentwurf in M6 mithilfe der Quellenhinweise. **Erläutern** Sie, welche Bedeutung Schriftform der Befristung, Vertragsdauer, Tätigkeit, Arbeitszeit, Vergütung, Urlaub und Beendigung haben.
+1. **Ordnen** Sie die Dokumente in M1 chronologisch und **stellen** Sie für jedes Dokument Absender, Empfänger, Datum, Erklärungsinhalt und rechtliche Funktion **dar**.
 
-**Zwischensicherung:** Jede Expertengruppe erstellt eine Prüfnotiz mit drei Spalten: gesicherter Befund – rechtliche/wirtschaftliche Bedeutung – Folgerung für BioCasa. Aussagen ohne Material- oder Gesetzesbezug werden nicht in die Stammgruppen übernommen.
+   **Überprüfen** Sie mithilfe von M4, wann ein Kaufvertrag zustande gekommen ist. **Begründen** Sie, weshalb die Bestellung und die Auftragsbestätigung jeweils nicht ohne Weiteres als bloße Annahme der vorherigen Erklärung gelten.
+
+   **Arbeiten** Sie den endgültigen Vertragsinhalt **heraus**: Vertragsparteien, Produkte, Menge, Preis, Lieferort, Liefertermin, Qualitätsanforderungen und Zahlungsbedingung.
+
+   **Überprüfen** Sie die Wirksamkeit des Vertrags. Berücksichtigen Sie Geschäftsfähigkeit bzw. Rechtsfähigkeit, Vertretungsbefugnis, Übereinstimmung der Erklärungen, mögliche Formanforderungen und rechtlich zulässigen Inhalt.
+
+   **Stellen** Sie die Hauptpflichten von BioCasa und Küstengrün aus dem Kaufvertrag **dar** und **erläutern** Sie die wirtschaftlichen Folgen für beide Seiten.
+
+2. **Vergleichen** Sie die vier Zahlungsmöglichkeiten aus M2 hinsichtlich Zeitpunkt, Liquiditätswirkung, Ausfallrisiko, Kosten, Steuerbarkeit und Kundenakzeptanz. **Berechnen** Sie die unmittelbaren Kosten jeder Option für einen Folgeauftrag über 52.200 Euro netto.
+
+3. **Analysieren** Sie die Liefer- und Reklamationsunterlagen in M3 und M5. **Bestimmen** Sie Art und Umfang der Abweichungen sowie den Netto-Warenwert der 360 betroffenen Einheiten.
+
+   **Überprüfen** Sie mit M4, ob Küstengrün die Ware rechtzeitig untersucht und die Mängel rechtzeitig angezeigt hat. **Arbeiten** Sie die grundsätzlich möglichen Käuferrechte und die vorrangig zu prüfende Nacherfüllung **heraus**.
+
+   **Analysieren** Sie die interne Ursachen- und Bestandsnotiz M5. **Beurteilen** Sie, welche Reaktion rechtlich möglich, wirtschaftlich vertretbar und für die Kundenbeziehung geeignet ist. Trennen Sie bestätigte Sachverhalte, offene Fragen und nicht belegte Zusatzforderungen.
+
+4. **Vergleichen** Sie die drei Beschäftigungsoptionen aus M6 nach verfügbarer Arbeitszeit, Kosten im 13-Wochen-Zeitraum, Kosten je verfügbarer Stunde, Einarbeitung, Flexibilität, Qualitätswirkung und langfristiger Bindung.
+
+   **Überprüfen** Sie den Arbeitsvertragsentwurf in M6 mithilfe der Quellenhinweise. **Erläutern** Sie, welche Bedeutung Schriftform der Befristung, Vertragsdauer, Tätigkeit, Arbeitszeit, Vergütung, Urlaub und Beendigung haben.
+
+   **Zwischensicherung:** Jede Expertengruppe erstellt eine Prüfnotiz mit drei Spalten: gesicherter Befund – rechtliche/wirtschaftliche Bedeutung – Folgerung für BioCasa. Aussagen ohne Material- oder Gesetzesbezug werden nicht in die Stammgruppen übernommen.
 
 #### Planen
 
 **Arbeitszeit:** 3 Unterrichtsstunden  
 **Arbeitsform:** Stammgruppen
 
-1.  **Erstellen** Sie einen Ablaufplan für die Bearbeitung des Großauftrags. Priorisieren Sie Maßnahmen, die noch am Tag der Reklamation erfolgen müssen.
-2.  **Bestimmen** Sie, welche Informationen die Antwort an Küstengrün enthalten muss, welche intern bleiben und welche vor einer Anerkennung noch geprüft werden.
-3.  **Entwickeln** Sie selbstständig Kriterien für die Auswahl einer Zahlungsmöglichkeit bei Folgeaufträgen. Berücksichtigen Sie sowohl BioCasa als auch Küstengrün.
-4.  **Entwickeln** Sie selbstständig Kriterien für die Personalentscheidung. Berücksichtigen Sie gesicherte Stunden, Kosten, Qualität, Einarbeitungszeit, Flexibilität und erwartete Anschlussauslastung.
-5.  **Erstellen** Sie eine Übersicht der Bestandteile einer vollständigen Auftragsdokumentation: Vertragsprüfung, Zahlungsempfehlung, Reklamationsbearbeitung, Ursachenmaßnahme und Personalentscheidung. **Bestimmen** Sie für jeden Teil eine verantwortliche Gründerrolle.
+5. **Erstellen** Sie einen Ablaufplan für die Bearbeitung des Großauftrags. Priorisieren Sie Maßnahmen, die noch am Tag der Reklamation erfolgen müssen.
+
+   **Bestimmen** Sie, welche Informationen die Antwort an Küstengrün enthalten muss, welche intern bleiben und welche vor einer Anerkennung noch geprüft werden.
+
+6. **Entwickeln** Sie selbstständig Kriterien für die Auswahl einer Zahlungsmöglichkeit bei Folgeaufträgen. Berücksichtigen Sie sowohl BioCasa als auch Küstengrün.
+
+   **Entwickeln** Sie selbstständig Kriterien für die Personalentscheidung. Berücksichtigen Sie gesicherte Stunden, Kosten, Qualität, Einarbeitungszeit, Flexibilität und erwartete Anschlussauslastung.
+
+7. **Erstellen** Sie eine Übersicht der Bestandteile einer vollständigen Auftragsdokumentation: Vertragsprüfung, Zahlungsempfehlung, Reklamationsbearbeitung, Ursachenmaßnahme und Personalentscheidung. **Bestimmen** Sie für jeden Teil eine verantwortliche Gründerrolle.
 
 #### Entscheiden
 
 **Arbeitszeit:** 2 Unterrichtsstunden  
 **Arbeitsform:** Stammgruppen
 
-1.  **Überprüfen** Sie abschließend, welche Vertragsbedingungen gelten, und **begründen** Sie Ihre Feststellung anhand der Dokumentenkette und M4.
-2.  **Beurteilen** Sie die Zahlungsmöglichkeiten und **entscheiden** Sie über eine Empfehlung für Folgeaufträge. Stellen Sie dar, welche Zustimmung oder Vorbereitung der Kundin dafür benötigt wird.
-3.  **Entwickeln** Sie selbstständig eine begründete Reaktion auf die Mängelrüge: Art und Termin der Nacherfüllung, Umgang mit beschädigter Ware, Dokumentenkorrektur, Kommunikation zum zurückgehaltenen Betrag und Umgang mit der zusätzlichen Kostenforderung.
-4.  **Beurteilen** Sie die Beschäftigungsoptionen und **begründen** Sie die Auswahl einer Option sowie erforderliche Anpassungen am Vertragsentwurf. Erläutern Sie, wie die Lösung den Stundenbedarf deckt und zugleich das Risiko einer Fehlauslastung begrenzt.
-5.  **Bestimmen** Sie mindestens drei interne Maßnahmen, mit denen Fehlmenge und Verpackungsschaden künftig vermieden oder früh erkannt werden.
+8. **Überprüfen** Sie abschließend, welche Vertragsbedingungen gelten, und **begründen** Sie Ihre Feststellung anhand der Dokumentenkette und M4.
+
+   **Beurteilen** Sie die Zahlungsmöglichkeiten und **entscheiden** Sie über eine Empfehlung für Folgeaufträge. Stellen Sie dar, welche Zustimmung oder Vorbereitung der Kundin dafür benötigt wird.
+
+9. **Entwickeln** Sie selbstständig eine begründete Reaktion auf die Mängelrüge: Art und Termin der Nacherfüllung, Umgang mit beschädigter Ware, Dokumentenkorrektur, Kommunikation zum zurückgehaltenen Betrag und Umgang mit der zusätzlichen Kostenforderung.
+
+   **Bestimmen** Sie mindestens drei interne Maßnahmen, mit denen Fehlmenge und Verpackungsschaden künftig vermieden oder früh erkannt werden.
+
+10. **Beurteilen** Sie die Beschäftigungsoptionen und **begründen** Sie die Auswahl einer Option sowie erforderliche Anpassungen am Vertragsentwurf. Erläutern Sie, wie die Lösung den Stundenbedarf deckt und zugleich das Risiko einer Fehlauslastung begrenzt.
 
 #### Durchführen
 
 **Arbeitszeit:** 3 Unterrichtsstunden  
 **Arbeitsform:** Stammgruppen
 
-Führen Sie die geprüften und begründeten Entscheidungen zu einer unmittelbar nutzbaren betrieblichen Dokumentation zusammen. Die Kundenkommunikation muss als versandfertige E-Mail enthalten sein; interne Bewertungen und Rechtsquellen bleiben davon klar getrennt.
+11. Führen Sie die geprüften und begründeten Entscheidungen zu einer unmittelbar nutzbaren betrieblichen Dokumentation zusammen. Die Kundenkommunikation muss als versandfertige E-Mail enthalten sein; interne Bewertungen und Rechtsquellen bleiben davon klar getrennt.
 
-**Handlungsergebnis: Auftragsakte „Erster Großauftrag“**
+   **Handlungsergebnis: Auftragsakte „Erster Großauftrag“**
 
 #### Kontrollieren / Überprüfen
 
 **Arbeitszeit:** 2 Unterrichtsstunden  
 **Arbeitsform:** Auditgruppe
 
-Eine andere Gruppe führt einen Auftragsaudit durch. **Überprüfen** Sie:
+12. Eine andere Gruppe führt einen Auftragsaudit durch. **Überprüfen** Sie:
 
-- Ist das Zustandekommen des Vertrags chronologisch und rechtlich richtig bestimmt?
-- Sind alle endgültigen Vertragsinhalte eindeutig festgehalten?
-- Werden Geschäftsführung/Vertretung und Wirksamkeit korrekt berücksichtigt?
-- Ist die Zahlungsempfehlung gerechnet und aus beiden Unternehmensperspektiven beurteilt?
-- Sind Art, Menge und Wert der Mängel korrekt?
-- Wird die rechtzeitige Mängelanzeige nach § 377 HGB berücksichtigt?
-- Reagiert BioCasa zuerst angemessen auf das Nacherfüllungsverlangen?
-- Enthält die Kundenmail Anerkennung, Lösung, Termin und Ansprechpartner, ohne ungeprüfte Forderungen vorschnell anzuerkennen?
-- Sind Ursachenmaßnahmen konkret, verantwortlich und überprüfbar?
-- Deckt die Personalentscheidung den Stundenbedarf?
-- Sind Kosten und Bindungsfolgen der Beschäftigungsformen korrekt verglichen?
-- Passt der geprüfte Arbeitsvertrag zur empfohlenen Beschäftigung?
+   • Ist das Zustandekommen des Vertrags chronologisch und rechtlich richtig bestimmt?
 
-Klassifizieren Sie Abweichungen als „rechtlich kritisch“, „wirtschaftlich kritisch“ oder „kommunikativ verbesserungsbedürftig“. Die Erstellergruppe korrigiert alle kritischen Punkte und dokumentiert die Änderung.
+   • Sind alle endgültigen Vertragsinhalte eindeutig festgehalten?
+
+   • Werden Geschäftsführung/Vertretung und Wirksamkeit korrekt berücksichtigt?
+
+   • Ist die Zahlungsempfehlung gerechnet und aus beiden Unternehmensperspektiven beurteilt?
+
+   • Sind Art, Menge und Wert der Mängel korrekt?
+
+   • Wird die rechtzeitige Mängelanzeige nach § 377 HGB berücksichtigt?
+
+   • Reagiert BioCasa zuerst angemessen auf das Nacherfüllungsverlangen?
+
+   • Enthält die Kundenmail Anerkennung, Lösung, Termin und Ansprechpartner, ohne ungeprüfte Forderungen vorschnell anzuerkennen?
+
+   • Sind Ursachenmaßnahmen konkret, verantwortlich und überprüfbar?
+
+   • Deckt die Personalentscheidung den Stundenbedarf?
+
+   • Sind Kosten und Bindungsfolgen der Beschäftigungsformen korrekt verglichen?
+
+   • Passt der geprüfte Arbeitsvertrag zur empfohlenen Beschäftigung?
+
+   Klassifizieren Sie Abweichungen als „rechtlich kritisch“, „wirtschaftlich kritisch“ oder „kommunikativ verbesserungsbedürftig“. Die Erstellergruppe korrigiert alle kritischen Punkte und dokumentiert die Änderung.
 
 #### Reflektieren
 
 **Arbeitszeit:** 1 Unterrichtsstunde  
 **Arbeitsform:** Einzelarbeit und Abschlussrunde
 
-1.  An welcher Stelle der Dokumentenkette war besondere Sorgfalt nötig, um den Vertrag richtig zu bestimmen?
-2.  Welche schnelle Kundenreaktion ist möglich, ohne ungeprüfte Forderungen anzuerkennen?
-3.  Wie wirkt eine längere Zahlungsfrist gleichzeitig auf BioCasa und Küstengrün?
-4.  Welche Personalentscheidung würden Sie treffen, wenn die zwei angekündigten Folgeaufträge verbindlich würden?
-5.  Welche Verbindung erkennen Sie zwischen Geschäftsidee aus LS 1, Planung aus LS 3 und der Reklamationsbearbeitung in LS 6?
-6.  Welche Lerntechnik hat Ihnen geholfen, mehrere Rechts- und Unternehmensfragen in einer Auftragsakte zu koordinieren?
+13. • An welcher Stelle der Dokumentenkette war besondere Sorgfalt nötig, um den Vertrag richtig zu bestimmen?
+
+   • Welche schnelle Kundenreaktion ist möglich, ohne ungeprüfte Forderungen anzuerkennen?
+
+   • Wie wirkt eine längere Zahlungsfrist gleichzeitig auf BioCasa und Küstengrün?
+
+   • Welche Personalentscheidung würden Sie treffen, wenn die zwei angekündigten Folgeaufträge verbindlich würden?
+
+   • Welche Verbindung erkennen Sie zwischen Geschäftsidee aus LS 1, Planung aus LS 3 und der Reklamationsbearbeitung in LS 6?
+
+   • Welche Lerntechnik hat Ihnen geholfen, mehrere Rechts- und Unternehmensfragen in einer Auftragsakte zu koordinieren?
 
 ## 6. Materialien M1–M6
 

@@ -67,8 +67,122 @@ function fullState(s) {
   if (M.flashcard) p.fc = {schema: 1, version: 3, id: M.id, signature: M.flashcard.signature, complete: true, started: true, known: M.flashcard.terms, total: M.flashcard.terms, pending: 0, data: {state: {results: Array.from({length: M.flashcard.terms}, () => ({latest: {correct: true}}))}}};
   if (M.orientationVideo) p.ov = {signature:M.orientationVideo.signature,duration:100,ranges:[[0,100]],answers:Object.fromEntries(M.orientationVideo.questions.map(q=>[q.id,q.correct])),attempts:{},ended:true,complete:true};
   assert.equal(K.allComplete(p, M), true);
-  assert.equal(K.grading(p, M).points, M.flashcard ? 100 : 40);
+  assert.equal(K.grading(p, M).points, 100);
+  assert.equal(K.grading(p, M).maxPoints, 100);
   return p;
+}
+
+// Every learning situation uses one consistent, exactly allocated 100-XP scale.
+// This changes no completion gate and introduces no automatic credit for an
+// absent term check. Native 100-XP packages retain their 25/15/60 weighting.
+{
+  const s=session(),K=s.context.SOZ_PROGRESS_CORE,M=s.context.SOZ_PROGRESS_META;
+  const round=n=>Math.round(n*100)/100;
+  const empty=K.initial(M,1),emptyGrade=K.grading(empty,M);
+  assert.equal(emptyGrade.points,0,'a new learner starts at zero XP');
+  assert.equal(emptyGrade.maxPoints,100,'every package has a 100-XP maximum');
+  assert.equal(K.allComplete(empty,M),false,'an empty 100-XP scale does not unlock completion');
+  const taskBudget=M.flashcard?25:62.5,situationBudget=M.flashcard?15:37.5;
+  const tasks=Object.keys(M.tasks).filter(id=>M.tasks[id].mode===1);
+  assert.equal(round(tasks.reduce((sum,id)=>sum+K.taskPoints(M,id,1),0)),taskBudget,'visible task awards sum exactly to their budget');
+  assert.equal(round(M.quiz.reduce((sum,q)=>sum+K.situationValue(empty,M,q.id),0)),situationBudget,'visible situation awards sum exactly to their budget');
+  const partial=K.initial(M,1);K.setTask(partial,M,tasks[0],true);
+  assert.equal(K.grading(partial,M).points,K.taskPoints(M,tasks[0],1),'one completed task earns only its allocated XP');
+  assert.equal(K.allComplete(partial,M),false,'partial XP never bypasses the completion gate');
+  const taskOnly=K.initial(M,1);
+  for(const id of tasks)K.setTask(taskOnly,M,id,true);
+  assert.equal(K.grading(taskOnly,M).points,taskBudget,'task-only progress retains the task category weight');
+  assert.equal(K.allComplete(taskOnly,M),false,'tasks alone do not bypass the situation/term checks');
+  const situationOnly=K.initial(M,1);
+  for(const q of M.quiz){situationOnly.q[q.id]=[q.correct,true];situationOnly.qf[q.id]=true;}
+  assert.equal(K.grading(situationOnly,M).points,situationBudget,'situation-only progress retains the situation category weight');
+  for(const [i,q] of M.quiz.entries()){
+    const penalized=K.clone(situationOnly);penalized.qf[q.id]=false;
+    assert.equal(K.situationValue(penalized,M,q.id),round(K.sharePoints(situationBudget,M.quiz.length,i)*0.6),'existing first-attempt penalty remains proportional');
+  }
+  if(!M.flashcard){
+    const sample={...M,tasks:{'0:1:1':{phase:'informieren',mode:1,signature:'sample-a'},'0:1:2':{phase:'informieren',mode:1,signature:'sample-b'}},quiz:[{id:'sample-q1',correct:0},{id:'sample-q2',correct:0}]};
+    const half=K.initial(sample,1);K.setTask(half,sample,'0:1:1',true);half.q['sample-q1']=[0,true];half.qf['sample-q1']=true;
+    assert.equal(K.grading(half,sample).points,50,'half of both existing categories is exactly 50 of 100 XP');
+  }
+  const all=fullState(s);
+  assert.equal(K.grading(all,M).points,100,'all perfect work earns exactly 100 XP');
+  assert.equal(s.bridge.update(partial),true,'partial XP can be saved to SCORM');
+  const resumed=session(s.stored),restored=resumed.bridge.read();
+  assert.equal(resumed.context.SOZ_PROGRESS_CORE.grading(restored,resumed.context.SOZ_PROGRESS_META).points,K.grading(partial,M).points,'saved progress retains its XP after reopening');
+  assert.equal(JSON.stringify(restored.t),JSON.stringify(partial.t),'XP display scaling does not rewrite task signatures');
+}
+
+// Grouped assignments migrate only when every original constituent was done.
+{
+  const s=session(),K=s.context.SOZ_PROGRESS_CORE,M=s.context.SOZ_PROGRESS_META;
+  const stages=M.migration?.stages||[];
+  const earliest=(entry,before=stages.length)=>{
+    for(let i=before-1;i>=0;i--){
+      const rule=stages[i].tasks?.[entry.id];
+      if(rule?.signature===entry.signature)return rule.from.flatMap(old=>earliest(old,i));
+    }
+    return [entry];
+  };
+  for(const [id,rule] of Object.entries(M.migration?.tasks||{})){
+    assert.equal(rule.signature,M.tasks[id]?.signature,'migration targets the current assignment signature');
+    if(!rule.from?.length)continue;
+    const original=K.initial(M,1);
+    for(const old of rule.from)original.t[old.id]=old.signature;
+    assert.equal(K.sanitize(original,M,1).t[id],rule.signature,'all constituent tasks restore the grouped assignment');
+    const earliestMarks=rule.from.flatMap(old=>earliest(old));
+    if(stages.length&&earliestMarks.length){
+      const historic=K.initial(M,1);
+      for(const old of earliestMarks){
+        assert.ok(!(old.id in historic.t)||historic.t[old.id]===old.signature,'historical task requirements cannot conflict');
+        historic.t[old.id]=old.signature;
+      }
+      assert.equal(K.sanitize(historic,M,1).t[id],rule.signature,'all historic constituent tasks survive staged migration');
+      for(const oldId of Object.keys(historic.t)){
+        const partialHistoric=K.clone(historic);delete partialHistoric.t[oldId];
+        assert.notEqual(K.sanitize(partialHistoric,M,1).t[id],rule.signature,'a missing historic constituent cannot complete the new group');
+      }
+    }
+    if(rule.from.length>1){
+      for(const old of rule.from){
+        const incomplete=K.clone(original);delete incomplete.t[old.id];
+        assert.notEqual(K.sanitize(incomplete,M,1).t[id],rule.signature,'a missing constituent cannot complete a grouped assignment');
+      }
+    }
+  }
+}
+
+// Compact SOZ3 saves encode task marks against a dictionary hash. Keep the
+// original dictionary when assignments are grouped, then apply the same AND
+// migration after decoding instead of silently discarding the old bitset.
+{
+  const s=session(),K=s.context.SOZ_PROGRESS_CORE,M=s.context.SOZ_PROGRESS_META;
+  // The traditional template stores complete task dictionaries in an array.
+  // History packages use a separate, pre-existing hash-keyed dictionary format.
+  const dictionaries=Array.isArray(M.legacyTaskDictionaries)?M.legacyTaskDictionaries:[];
+  for(const dictionary of dictionaries){
+    const historical=fullState(s);historical.t=Object.fromEntries(Object.entries(dictionary).filter(([,task])=>task.mode===1).map(([id,task])=>[id,task.signature]));
+    const encodeHistorical=progress=>{
+      s.context.SOZ_PROGRESS_META={...M,tasks:dictionary};
+      try{return s.context.SOZ_SCORM_CODEC.encode(progress);}
+      finally{s.context.SOZ_PROGRESS_META=M;}
+    };
+    const encoded=encodeHistorical(historical);
+    assert.ok(encoded.startsWith('SOZ3:'),'legacy bitmap fixture uses the original compact save format');
+    const reopened=session({'cmi.suspend_data':encoded,'cmi.core.lesson_status':'incomplete'});
+    const restored=reopened.bridge.read();
+    assert.equal(reopened.context.SOZ_PROGRESS_CORE.allComplete(restored,M),true,'all original bitmap task marks restore grouped completion');
+    assert.equal(reopened.context.SOZ_PROGRESS_CORE.grading(restored,M).points,100,'a fully completed original bitmap retains 100 XP');
+    for(const [id,rule] of Object.entries(M.migration?.tasks||{})){
+      if(rule.from.length<2||!rule.from.every(old=>dictionary[old.id]?.signature===old.signature))continue;
+      for(const old of rule.from){
+        const partial=K.clone(historical);delete partial.t[old.id];
+        const resumed=session({'cmi.suspend_data':encodeHistorical(partial),'cmi.core.lesson_status':'incomplete'});
+        assert.notEqual(resumed.bridge.read().t[id],rule.signature,'an incomplete original bitmap never grants the whole group');
+        assert.equal(resumed.context.SOZ_PROGRESS_CORE.allComplete(resumed.bridge.read(),M),false,'an incomplete original bitmap cannot finish the package');
+      }
+    }
+  }
 }
 
 // Finishing all work only saves progress; the explicit action sets completion.
@@ -99,6 +213,12 @@ const first = session();
 }
 
 assert.equal(first.bridge.update(fullState(first)), true);
+if(first.context.SOZ_PROGRESS_META.flashcard){
+  assert.equal(first.stored['cmi.core.score.raw'],'100','existing Moodle grade reports the full 100 XP');
+  assert.equal(first.stored['cmi.core.score.max'],'100','existing Moodle grade keeps its 100-point maximum');
+}else{
+  assert.equal(first.stored['cmi.core.score.raw'],undefined,'XP display does not introduce a Moodle grade into completion-only packages');
+}
 assert.equal(first.stored['cmi.core.lesson_status'], 'incomplete');
 assert.equal(first.stored['cmi.core.exit'], 'suspend');
 assert.equal(first.bridge.completed, false);
@@ -164,11 +284,11 @@ assert.equal(finishCase.stored['cmi.core.exit'], '');
 assert.equal(finishCase.bridge.complete(), true);
 assert.equal(finishCase.bridge.completed, true);
 assert.equal(finishCase.calls.finish, 2);
-assert.equal(finishCase.context.SOZ_PROGRESS_CORE.grading(finishCase.bridge.read(), finishCase.context.SOZ_PROGRESS_META).points, finishCase.context.SOZ_PROGRESS_META.flashcard ? 100 : 40);
+assert.equal(finishCase.context.SOZ_PROGRESS_CORE.grading(finishCase.bridge.read(), finishCase.context.SOZ_PROGRESS_META).points, 100);
 
 // Reload can also recover the successful final commit after a finish failure.
 const recovered = session(finishCase.stored);
 assert.equal(recovered.bridge.completed, true);
 assert.equal(recovered.bridge.readOnly, true);
 
-console.log('SCORM completion regression passed (autosave, explicit finish, reopen, stale state, commit failure, finish failure, retry, unchanged XP).');
+console.log('SCORM regression passed (100 XP, partial roundtrip, task migration, autosave, explicit finish, reopen, stale state, commit/finish failure, retry).');

@@ -145,3 +145,9 @@ Die Überschrift „Phasenübersicht“ und die Akkuanzeige teilen sich die ober
 Zeile der Navigation. Die acht Stationen folgen unmittelbar darunter. Auf schmalen
 Displays verkleinert sich nur die Akkuanzeige innerhalb dieser Kopfzeile; die
 Beschriftungen und die vorhandene Phasennavigation bleiben lesbar.
+
+## 100 XP und passende Dokumentoberflächen
+
+`assets/points-ui.js` stellt für jede Lernsituation ein Gesamtbudget von 100 XP sicher. Ohne Fachbegriffscheck bleibt das Verhältnis von Aufgaben zu Handlungssituation 5:3 (62,5 zu 37,5 XP); bestehende 100-XP-Verteilungen mit Fachbegriffscheck bleiben erhalten. Die Fortschrittsdaten und Freischaltungen werden nicht durch UI-Werte ersetzt.
+
+`assets/material-access.js` ordnet die bisher pauschal als PDF dargestellten BRC-LG01-Materialien und den LS-Master anhand ihrer tatsächlichen Dokumentart passenden Outlook-, Teams-, OneNote-, SAP- oder Acrobat-Oberflächen zu. Der originale Materialinhalt bleibt bestehen. Bereits passende LG05- und Geschichtsoberflächen behalten ihre Darstellung.

@@ -6,42 +6,17 @@
       "0:1:1": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "2aa5a09f"
-      },
-      "0:1:2": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "b75718c1"
-      },
-      "0:1:3": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "f81d1186"
+        "signature": "ebbe9544"
       },
       "0:1:4": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "2fbba0c7"
-      },
-      "0:1:5": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "083d10d8"
+        "signature": "d070b778"
       },
       "0:1:6": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "147816f2"
-      },
-      "0:1:7": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "15371142"
-      },
-      "0:1:8": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "596ebc69"
+        "signature": "d90e90c7"
       },
       "1:1:1": {
         "phase": "planen",
@@ -104,72 +79,32 @@
         {
           "id": "0:1:1",
           "number": "1",
-          "body": "7e324b9125951768f1ee6c4da1f7ff5c5ffa8978d8168f701c20f9b1cb3b6a53",
+          "body": "89bbd55c34b9a37bdb31ba5ba843d6e9a12268e4e0faffcdde332bd3e1418360",
           "minutes": [
-            "21.5"
-          ]
-        },
-        {
-          "id": "0:1:2",
-          "number": "2",
-          "body": "0b55fcb173281a38a7ebdc0cb6d591d530c00b742749c7e0566d824f24cc7a0f",
-          "minutes": [
-            "25.5"
-          ]
-        },
-        {
-          "id": "0:1:3",
-          "number": "3",
-          "body": "16c9272650a7520b9fcedded59179bc67e1434919727e7da8436c20a4be4a81e",
-          "minutes": [
-            "24.0"
+            "71"
           ]
         },
         {
           "id": "0:1:4",
-          "number": "4",
-          "body": "1c33c83c294a109eb981359f16587431dd32eabdc20d3ed54f100b026cc103d7",
+          "number": "2",
+          "body": "f38776c949676284d81c19f166c40f32e36af43737ae37503983dec2d6bfe00e",
           "minutes": [
-            "22.0"
-          ]
-        },
-        {
-          "id": "0:1:5",
-          "number": "5",
-          "body": "a788d764d3cdd67765a91cf5254e25d77fb48e8715169f7e7ea5f8e54daa1e1a",
-          "minutes": [
-            "23.5"
+            "45.5"
           ]
         },
         {
           "id": "0:1:6",
-          "number": "6",
-          "body": "448c78ca998c1a65efe8a5790394dcb47ca3c0b67657971ca289e1398ea5944e",
+          "number": "3",
+          "body": "5118c8d4125f572f9734dd2f0e5e1b258c8038c57892d9392921be336a20efe7",
           "minutes": [
-            "19.5"
-          ]
-        },
-        {
-          "id": "0:1:7",
-          "number": "7",
-          "body": "27ea4caa596e811c0f0f07c3c3234440d82c6e232f1896f13812787af9a32b9a",
-          "minutes": [
-            "23.0"
-          ]
-        },
-        {
-          "id": "0:1:8",
-          "number": "8",
-          "body": "0c94631c3cff067a8fc4ce369a51f403465bae4e633d95d11d819224e82ac124",
-          "minutes": [
-            "21.0"
+            "63.5"
           ]
         }
       ],
       "planen": [
         {
           "id": "1:1:1",
-          "number": "1",
+          "number": "4",
           "body": "eee91c83c846a0e948974109b38be4fe967711819bfee0f47dc35d5e6903df4d",
           "minutes": [
             "23.5"
@@ -177,7 +112,7 @@
         },
         {
           "id": "1:1:2",
-          "number": "2",
+          "number": "5",
           "body": "391f12c736d2b761ec4317a83d0ad472706a7e565fd9c2d9f02c21e16c6c3346",
           "minutes": [
             "27.0"
@@ -185,7 +120,7 @@
         },
         {
           "id": "1:1:3",
-          "number": "3",
+          "number": "6",
           "body": "5a1320704bd44f214400558fbfc9f3fc47a55c8a61ffec891d41936e608de960",
           "minutes": [
             "22.0"
@@ -193,7 +128,7 @@
         },
         {
           "id": "1:1:4",
-          "number": "4",
+          "number": "7",
           "body": "537ef732ecc8ec62a43725abd69d5c30cd311942defb932abf1cf612acaec47b",
           "minutes": [
             "17.5"
@@ -203,7 +138,7 @@
       "entscheiden": [
         {
           "id": "2:1:1",
-          "number": "1",
+          "number": "8",
           "body": "bce833b3392d4ea8f8fd39a0942c2e8a113439cc29c7ed3c7e3d0758095238a3",
           "minutes": [
             "31.0"
@@ -211,7 +146,7 @@
         },
         {
           "id": "2:1:2",
-          "number": "2",
+          "number": "9",
           "body": "727717931beb071fc76c0053104ef387772142da5772ccfa26e104e8b1766cfb",
           "minutes": [
             "14.5"
@@ -219,7 +154,7 @@
         },
         {
           "id": "2:1:3",
-          "number": "3",
+          "number": "10",
           "body": "68891dc11870553d94512d445698bde7d6dc87e09dea6c3a1cd1ce2145f92f72",
           "minutes": [
             "26.0"
@@ -227,7 +162,7 @@
         },
         {
           "id": "2:1:4",
-          "number": "4",
+          "number": "11",
           "body": "b8ddfb34c7ad29931bc5f7cb7d38366e4df1fbb01d6ab783ffb1880cf97729f0",
           "minutes": [
             "18.5"
@@ -237,7 +172,7 @@
       "durchfuehren": [
         {
           "id": "3:1:1",
-          "number": "1",
+          "number": "12",
           "body": "75d4bddb5d63dd74f1f9b67ed81835ff8759c0d34d17fda7bd15de6c2f472b02",
           "minutes": [
             "90.0"
@@ -247,7 +182,7 @@
       "bewerten": [
         {
           "id": "4:1:1",
-          "number": "1",
+          "number": "13",
           "body": "84a68af9da5893a386c21c42c7cae2fb7e1ef4cc926f141c97fd8c2a576e9bdf",
           "minutes": [
             "45.0"
@@ -257,7 +192,7 @@
       "reflektieren": [
         {
           "id": "5:1:1",
-          "number": "1",
+          "number": "14",
           "body": "1d900ecad3e5da2a8d843fb55f64f407b2282b616238fb491194dbfa8213ca55",
           "minutes": [
             "45.0"
@@ -371,42 +306,22 @@
       "0:1:1": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "8ceddf71"
-      },
-      "0:1:2": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "cf294cc3"
+        "signature": "375dd919"
       },
       "0:1:3": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "28e61c01"
-      },
-      "0:1:4": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "3a34bcca"
+        "signature": "125a0898"
       },
       "0:1:5": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "dae2c89f"
-      },
-      "0:1:6": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "3c47dd46"
+        "signature": "8c74356e"
       },
       "0:1:7": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "5828740b"
-      },
-      "0:1:8": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "dfee3a80"
+        "signature": "d85f6a74"
       },
       "1:1:1": {
         "phase": "planen",
@@ -469,72 +384,40 @@
         {
           "id": "0:1:1",
           "number": "1",
-          "body": "dbac54e1f68cd9b31c952852165bdfb84a40960c650eaed75cbf4403a7cfb706",
+          "body": "97f537d37b291c9d658cd8786471bc9d174fad9ef4ff39eacbba634870d532e6",
           "minutes": [
-            "16.0"
-          ]
-        },
-        {
-          "id": "0:1:2",
-          "number": "2",
-          "body": "7c9e53b0fdabb16aa4d3f3ebb6dbf0d90ff7f03bb1d69339ae8070d6208d2aef",
-          "minutes": [
-            "17.0"
+            "33"
           ]
         },
         {
           "id": "0:1:3",
-          "number": "3",
-          "body": "874bdccd2736ffe2dcd70bf25fdff3480f6792616b03f5555556e7fe1800f871",
+          "number": "2",
+          "body": "95d2dd902a7aeb25365787c83869ff21a9a2250d9defa8d81740028928d225e8",
           "minutes": [
-            "15.5"
-          ]
-        },
-        {
-          "id": "0:1:4",
-          "number": "4",
-          "body": "78091938eef92665fc59a89c31942e9dfa207011cb66877eefe8644491e8ddce",
-          "minutes": [
-            "17.5"
+            "33"
           ]
         },
         {
           "id": "0:1:5",
-          "number": "5",
-          "body": "0e0a6d67a36784237697bec3408c7b1d07296e3557053bb58bd2b3df4b51d9af",
+          "number": "3",
+          "body": "4df257334595b2a06d0f192a44746e42348bb5149db4afa55e362d8e7ccfce50",
           "minutes": [
-            "22.5"
-          ]
-        },
-        {
-          "id": "0:1:6",
-          "number": "6",
-          "body": "a02f6388e08d3d29f8412504a49fa72ea09dc947dab5ec20370794aee047c5be",
-          "minutes": [
-            "15.5"
+            "38"
           ]
         },
         {
           "id": "0:1:7",
-          "number": "7",
-          "body": "1cd05d60431b975a3e3b343f8f506ea63a04a6eda5f72a4897a64b0cbf29d5fc",
+          "number": "4",
+          "body": "25dd3cee0274fd375aacf73872b8139b50d9502dbf9b73fe1afef18957d3034f",
           "minutes": [
-            "13.5"
-          ]
-        },
-        {
-          "id": "0:1:8",
-          "number": "8",
-          "body": "c77ed60626130ceac117853cf2ab557510a03e086a9c75fb5a368e02807e47a9",
-          "minutes": [
-            "17.5"
+            "31"
           ]
         }
       ],
       "planen": [
         {
           "id": "1:1:1",
-          "number": "1",
+          "number": "5",
           "body": "79b505543cf1f662d294da2ba56d51ea45829a0ea476fd5a99adf11e6dc2e04c",
           "minutes": [
             "21.0"
@@ -542,7 +425,7 @@
         },
         {
           "id": "1:1:2",
-          "number": "2",
+          "number": "6",
           "body": "f4ca1eb59f32002869ec3fda07f031ade9094a11db31f5ea2e9dcfdbfce32f57",
           "minutes": [
             "16.0"
@@ -550,7 +433,7 @@
         },
         {
           "id": "1:1:3",
-          "number": "3",
+          "number": "7",
           "body": "3b22fbcd43a08bce55c653b9e96806387082412e158f0a39aed87a3532a58c91",
           "minutes": [
             "14.0"
@@ -558,7 +441,7 @@
         },
         {
           "id": "1:1:4",
-          "number": "4",
+          "number": "8",
           "body": "47d499843ae145c68ef16f3a71ac779ee785693a66be3896c1eea6afaf883726",
           "minutes": [
             "16.5"
@@ -568,7 +451,7 @@
       "entscheiden": [
         {
           "id": "2:1:1",
-          "number": "1",
+          "number": "9",
           "body": "70f4a1bd007e0f16e4fde0641b59e8c49a96491917f557a0d7c5c599de8dff61",
           "minutes": [
             "7.5"
@@ -576,7 +459,7 @@
         },
         {
           "id": "2:1:2",
-          "number": "2",
+          "number": "10",
           "body": "bb7cbbe478f885a264bddaff3ee6b7aab1bda0494570db1085e9a712fd2ead7b",
           "minutes": [
             "16.0"
@@ -584,7 +467,7 @@
         },
         {
           "id": "2:1:3",
-          "number": "3",
+          "number": "11",
           "body": "d263588e770650aa4560c5c8b697b8491d7420ee5df6c08f09b51d1385cd9728",
           "minutes": [
             "9.0"
@@ -592,7 +475,7 @@
         },
         {
           "id": "2:1:4",
-          "number": "4",
+          "number": "12",
           "body": "8d4d4b25bb925948f92ad94328a7ff6accab2c5fc46416eed5ca27062fcce4a1",
           "minutes": [
             "12.5"
@@ -602,7 +485,7 @@
       "durchfuehren": [
         {
           "id": "3:1:1",
-          "number": "1",
+          "number": "13",
           "body": "e48ae5c3cbeef6b4eaca331854907ec7052b5cd9b62e0910ba6ef4ed0b06acaf",
           "minutes": [
             "67.5"
@@ -612,7 +495,7 @@
       "bewerten": [
         {
           "id": "4:1:1",
-          "number": "1",
+          "number": "14",
           "body": "6f0150a75f627e1aad8bcbe85873a8d0d913b50e6afa476c6c7e2d6ea5e5036e",
           "minutes": [
             "22.5"
@@ -622,7 +505,7 @@
       "reflektieren": [
         {
           "id": "5:1:1",
-          "number": "1",
+          "number": "15",
           "body": "0a7a235e7839f5fcec61558cba72c9b6ca6adbdc0dbea2074af58e6303e70379",
           "minutes": [
             "22.5"
@@ -736,47 +619,22 @@
       "0:1:1": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "38dc67d4"
-      },
-      "0:1:2": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "a8eb3a96"
+        "signature": "fc08cb4d"
       },
       "0:1:3": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "e5fd0fbf"
-      },
-      "0:1:4": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "959bf404"
-      },
-      "0:1:5": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "68716f5b"
+        "signature": "a0e0c216"
       },
       "0:1:6": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "0e461e64"
-      },
-      "0:1:7": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "4c140f70"
+        "signature": "941ca6c3"
       },
       "0:1:8": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "19dd28ed"
-      },
-      "0:1:9": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "c407492d"
+        "signature": "1330ab47"
       },
       "1:1:1": {
         "phase": "planen",
@@ -801,12 +659,7 @@
       "2:1:1": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "0439df9a"
-      },
-      "2:1:2": {
-        "phase": "entscheiden",
-        "mode": 1,
-        "signature": "61380f68"
+        "signature": "f669e83d"
       },
       "2:1:3": {
         "phase": "entscheiden",
@@ -816,12 +669,7 @@
       "2:1:4": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "a34b3e4c"
-      },
-      "2:1:5": {
-        "phase": "entscheiden",
-        "mode": 1,
-        "signature": "5ec40a52"
+        "signature": "1be85e0d"
       },
       "3:1:1": {
         "phase": "durchfuehren",
@@ -844,80 +692,40 @@
         {
           "id": "0:1:1",
           "number": "1",
-          "body": "c558173e4d28582e812af27a63b19a79ba0b51535b31af0440f9fba319f1ab42",
+          "body": "1300a44e55417f8f8e2daa9ecd97af65d85103ca72787c77656bc5d101dd013b",
           "minutes": [
-            "27.0"
-          ]
-        },
-        {
-          "id": "0:1:2",
-          "number": "2",
-          "body": "5af3bfd19642a52b7aa95ce8a14ee14002a4577434b8ae52af43f8dea99bb001",
-          "minutes": [
-            "26.5"
+            "53.5"
           ]
         },
         {
           "id": "0:1:3",
-          "number": "3",
-          "body": "46ddd05da4c450f97e3004007620c30f09dd5b60bdc8f587cd39c4ea2fa52075",
+          "number": "2",
+          "body": "7073188c8ff727ccc46dee3c4d3f26a459faac5fcc8d205a346952a79d92e82d",
           "minutes": [
-            "33.5"
-          ]
-        },
-        {
-          "id": "0:1:4",
-          "number": "4",
-          "body": "816fe3cbbfe10d522a4d7d7d6ab9b5ac583891080e088bfa3fec5c91569e861b",
-          "minutes": [
-            "28.5"
-          ]
-        },
-        {
-          "id": "0:1:5",
-          "number": "5",
-          "body": "8774ae1380288b58a8c89110269ea8c585fb5aef38708b75798239771be6b0f5",
-          "minutes": [
-            "30.0"
+            "92"
           ]
         },
         {
           "id": "0:1:6",
-          "number": "6",
-          "body": "a37b6d2f9a81b8d5a3de9281c71d5f8dec50f7ea6cb409ec35ce6c35671c7fa2",
+          "number": "3",
+          "body": "ccbb9b219930d3bd2d5de76cba02106b05495499a0ebc7234f677f93ee0ceec1",
           "minutes": [
-            "34.5"
-          ]
-        },
-        {
-          "id": "0:1:7",
-          "number": "7",
-          "body": "205629a3f83b137bfe17ec7c7d4fa5ba8944107700636df29fa8fabd91d51b8d",
-          "minutes": [
-            "31.5"
+            "66"
           ]
         },
         {
           "id": "0:1:8",
-          "number": "8",
-          "body": "df301cfd6ff99258ab71fefdf1b88526579f5c4797305311d68a8d81c122f4cd",
+          "number": "4",
+          "body": "6036cbd34c084c0b94cf649fec0b7bfd09a1ebec53b8841629bb69dc043c8002",
           "minutes": [
-            "24.0"
-          ]
-        },
-        {
-          "id": "0:1:9",
-          "number": "9",
-          "body": "d39050aed57b26d19b3edd1759b75f71641190bfd30f69f45e87f08151a1c72f",
-          "minutes": [
-            "34.5"
+            "58.5"
           ]
         }
       ],
       "planen": [
         {
           "id": "1:1:1",
-          "number": "1",
+          "number": "5",
           "body": "a4afc495a3293b28b853876c85bb634538832232919a0643ab519a141b8a0d8a",
           "minutes": [
             "35.0"
@@ -925,7 +733,7 @@
         },
         {
           "id": "1:1:2",
-          "number": "2",
+          "number": "6",
           "body": "f19b51eed1d81753238c6a96dfa87fa1fd95a73232cf12ae06c337738d0a4b59",
           "minutes": [
             "39.5"
@@ -933,7 +741,7 @@
         },
         {
           "id": "1:1:3",
-          "number": "3",
+          "number": "7",
           "body": "80133dd31fce3d21a0956e37606b711529a776cc34fa5b9c72932725aa72ab8a",
           "minutes": [
             "33.5"
@@ -941,7 +749,7 @@
         },
         {
           "id": "1:1:4",
-          "number": "4",
+          "number": "8",
           "body": "795918cd43ac224c3b3dda858369f62c45cebb11ac9c21ca66c09e442b19c46b",
           "minutes": [
             "27.0"
@@ -951,23 +759,15 @@
       "entscheiden": [
         {
           "id": "2:1:1",
-          "number": "1",
-          "body": "cbf155fc6ed342b4bd3cdf69f932830734991737d68ee7053f61db3f25938b85",
+          "number": "9",
+          "body": "d0fe924c5e3838eff2f17020e909af193ada0899038c98cfa72d9e2a22af3744",
           "minutes": [
-            "20.0"
-          ]
-        },
-        {
-          "id": "2:1:2",
-          "number": "2",
-          "body": "9e9610026f510cc997799e4cd6a6c01bbf12701da67bef9b98f797bf44884d14",
-          "minutes": [
-            "24.5"
+            "44.5"
           ]
         },
         {
           "id": "2:1:3",
-          "number": "3",
+          "number": "10",
           "body": "7c14724cf112a190685b9d4528e687d6dee919b3375aca7be31688c644bc9f9a",
           "minutes": [
             "29.5"
@@ -975,25 +775,17 @@
         },
         {
           "id": "2:1:4",
-          "number": "4",
-          "body": "4f22a6f3d74dbeabb57caeeeef5b9f0a7ec66e34dc1c5287b20ffe4785ed9f96",
+          "number": "11",
+          "body": "e0e30236a0d3497e5b06f346be8114486c4ca8e62cc253dc6b1ba668202dcbfe",
           "minutes": [
-            "33.5"
-          ]
-        },
-        {
-          "id": "2:1:5",
-          "number": "5",
-          "body": "186ea23ca09eebe4dd4144182bd7f663cef38a0ed5b311edd1513049134dccc2",
-          "minutes": [
-            "27.5"
+            "61"
           ]
         }
       ],
       "durchfuehren": [
         {
           "id": "3:1:1",
-          "number": "1",
+          "number": "12",
           "body": "3437a0a2af0dcee40e6aebece65ba0e210d23fc1e557c23347a754b96675c77b",
           "minutes": [
             "180.0"
@@ -1003,7 +795,7 @@
       "bewerten": [
         {
           "id": "4:1:1",
-          "number": "1",
+          "number": "13",
           "body": "b5904831ea57dac69fa04cc52317f060b58065a162446914d68ecefa2895a337",
           "minutes": [
             "45.0"
@@ -1013,7 +805,7 @@
       "reflektieren": [
         {
           "id": "5:1:1",
-          "number": "1",
+          "number": "14",
           "body": "94aec91a6f37d5b4baf414f2f7be01d6cb0a5d4e6a3dccb8ff9943cf1bec7a2e",
           "minutes": [
             "45.0"
@@ -1362,47 +1154,22 @@
       "0:1:1": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "55da397a"
-      },
-      "0:1:2": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "59d6c160"
-      },
-      "0:1:3": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "5089558a"
+        "signature": "06769686"
       },
       "0:1:4": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "f96b3e19"
-      },
-      "0:1:5": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "eee1c654"
+        "signature": "4238a896"
       },
       "0:1:6": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "a57f8af2"
-      },
-      "0:1:7": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "5badb81b"
+        "signature": "4e78f370"
       },
       "0:1:8": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "807f36be"
-      },
-      "0:1:9": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "88f37ddf"
+        "signature": "93ab317e"
       },
       "1:1:1": {
         "phase": "planen",
@@ -1427,27 +1194,12 @@
       "2:1:1": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "9acb7f47"
-      },
-      "2:1:2": {
-        "phase": "entscheiden",
-        "mode": 1,
-        "signature": "3c88460b"
-      },
-      "2:1:3": {
-        "phase": "entscheiden",
-        "mode": 1,
-        "signature": "fbfd0144"
+        "signature": "ee90ba38"
       },
       "2:1:4": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "614c5525"
-      },
-      "2:1:5": {
-        "phase": "entscheiden",
-        "mode": 1,
-        "signature": "185826b2"
+        "signature": "4fb1afb0"
       },
       "3:1:1": {
         "phase": "durchfuehren",
@@ -1470,80 +1222,40 @@
         {
           "id": "0:1:1",
           "number": "1",
-          "body": "c5f2533d189b132b3dab2adcce233d13077738fcdf8a4802564ce9a039ee9e12",
+          "body": "c5999965e9faae1a9ee3e918c4749d6f6c5d59903408a4b006c80d139c9f7f08",
           "minutes": [
-            "24.0"
-          ]
-        },
-        {
-          "id": "0:1:2",
-          "number": "2",
-          "body": "137bbf319ce57c3812e57d8b6e9468ea6044f793e99f2e30e8c8eaee04ec19cb",
-          "minutes": [
-            "21.5"
-          ]
-        },
-        {
-          "id": "0:1:3",
-          "number": "3",
-          "body": "e8f486fe2f09464c23042daaf4de0c02b48c7747e26122acc117ab975eb99dff",
-          "minutes": [
-            "21.0"
+            "66.5"
           ]
         },
         {
           "id": "0:1:4",
-          "number": "4",
-          "body": "5c835b945a5fa5a6991be1a72ccdb8b0d0a2c57979169153abef5ee3c1ad1115",
+          "number": "2",
+          "body": "92818a976609c3a3eae19206508878df17e89a4ce5ce28b33986f3b1c4daed32",
           "minutes": [
-            "26.5"
-          ]
-        },
-        {
-          "id": "0:1:5",
-          "number": "5",
-          "body": "3d4c5abc8d931e06108ab5440e46fb66868a5f821da8951379599d691aa05359",
-          "minutes": [
-            "26.0"
+            "52.5"
           ]
         },
         {
           "id": "0:1:6",
-          "number": "6",
-          "body": "387c4d242d2abf1a51704930eed759cb46a768598e70ee9aaca620ed987be533",
+          "number": "3",
+          "body": "295efa4d31371ddb240779cfb469b4046a2776b9bd84d7d7b2912be777d89b1c",
           "minutes": [
-            "36.0"
-          ]
-        },
-        {
-          "id": "0:1:7",
-          "number": "7",
-          "body": "3820b8ff7c414288062d8fcb63eec9c748f45eb384713fc1045f55c25469e1e5",
-          "minutes": [
-            "23.0"
+            "59"
           ]
         },
         {
           "id": "0:1:8",
-          "number": "8",
-          "body": "74b8313b306137a629f7c27af71ae528e6d4185b6954e1ed0a8105e30f404157",
+          "number": "4",
+          "body": "47d08c44f31d51e102b5875173bf439775dba3af473c0caa066a5e8e6bc36d27",
           "minutes": [
-            "23.5"
-          ]
-        },
-        {
-          "id": "0:1:9",
-          "number": "9",
-          "body": "158e15765e6da01ee674709711605b9a2bb4c68f15b5f77b464530dbb0a5b532",
-          "minutes": [
-            "23.5"
+            "47"
           ]
         }
       ],
       "planen": [
         {
           "id": "1:1:1",
-          "number": "1",
+          "number": "5",
           "body": "16688ae39340da3b67fd2c1077de9853303cd666940557d30983b77b67dd0a95",
           "minutes": [
             "24.0"
@@ -1551,7 +1263,7 @@
         },
         {
           "id": "1:1:2",
-          "number": "2",
+          "number": "6",
           "body": "c7cfad1ec59f26904c538daf833d9f2d13e1cb4c41eb09c7b5b13818ebe61428",
           "minutes": [
             "21.0"
@@ -1559,7 +1271,7 @@
         },
         {
           "id": "1:1:3",
-          "number": "3",
+          "number": "7",
           "body": "efc793fd8d82c7d519a29122c51704a8f50689e8b405cdf55fa212b818e2dd6f",
           "minutes": [
             "23.0"
@@ -1567,7 +1279,7 @@
         },
         {
           "id": "1:1:4",
-          "number": "4",
+          "number": "8",
           "body": "b8a561f0d66a96146f6c91610f193430bb1076ca79fd308ea84c01dc554d661c",
           "minutes": [
             "22.0"
@@ -1577,49 +1289,25 @@
       "entscheiden": [
         {
           "id": "2:1:1",
-          "number": "1",
-          "body": "8e36a0f8fb8ce8bbf89e8a7bfe7dbbf409e479dd00234a598d100997cb2f8da8",
+          "number": "9",
+          "body": "db87dbe31d68a59319f69e43fea49a395e1e266e30cd1dd82dcf5a77d4794932",
           "minutes": [
-            "13.0"
-          ]
-        },
-        {
-          "id": "2:1:2",
-          "number": "2",
-          "body": "a94511e16ba93e0d56f673bf94f86fb47c0203d7a5a1c7737bfddba4519d5d68",
-          "minutes": [
-            "19.0"
-          ]
-        },
-        {
-          "id": "2:1:3",
-          "number": "3",
-          "body": "0c22bb4ad1650cffcdb37b00b92c8444d7507309a422d4e36eb6dda7058f90c2",
-          "minutes": [
-            "19.0"
+            "51"
           ]
         },
         {
           "id": "2:1:4",
-          "number": "4",
-          "body": "72762e39858b1e8c320d2b2ff6c1053114e94337e9277f498a36d133d660e166",
+          "number": "10",
+          "body": "df8983b1f6a51e873b154c03ee4ddc6935a88ba744d04336d45d67fda5e0c200",
           "minutes": [
-            "22.0"
-          ]
-        },
-        {
-          "id": "2:1:5",
-          "number": "5",
-          "body": "dcc0fa90d095544214927dc6af2f9a16c06422bfc3a3c7e2d56baedb99744f39",
-          "minutes": [
-            "17.0"
+            "39"
           ]
         }
       ],
       "durchfuehren": [
         {
           "id": "3:1:1",
-          "number": "1",
+          "number": "11",
           "body": "d287cf82010a31d1c0d56caa58c77a509871af9b5381769cf6591eef13fc336e",
           "minutes": [
             "135.0"
@@ -1629,7 +1317,7 @@
       "bewerten": [
         {
           "id": "4:1:1",
-          "number": "1",
+          "number": "12",
           "body": "f701079639bf5d7e500b80919b3ed8c97b6215d2d2e5100f538ff6b072d9868b",
           "minutes": [
             "45.0"
@@ -1639,7 +1327,7 @@
       "reflektieren": [
         {
           "id": "5:1:1",
-          "number": "1",
+          "number": "13",
           "body": "a84a8f971beb3e9fd712c001f4d005d1e7169a71b854e7e0da43c2134713730e",
           "minutes": [
             "45.0"
@@ -1742,7 +1430,7 @@
       }
     ],
     "quizSignature": "80f499f2",
-    "orientationSignature": "c475d3cb",
+    "orientationSignature": "0b943fa7",
     "flashcard": null,
     "orientationVideo": null
   },
@@ -1753,27 +1441,7 @@
       "0:1:1": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "cdeaae23"
-      },
-      "0:1:2": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "e9526329"
-      },
-      "0:1:3": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "68042680"
-      },
-      "0:1:4": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "51948ba7"
-      },
-      "0:1:5": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "78665097"
+        "signature": "8fa56872"
       },
       "0:1:6": {
         "phase": "informieren",
@@ -1783,52 +1451,22 @@
       "0:1:7": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "759dba6c"
-      },
-      "0:1:8": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "ce6225a4"
-      },
-      "0:1:9": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "5fa91ca2"
+        "signature": "736dfef0"
       },
       "0:1:10": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "d083414f"
-      },
-      "0:1:11": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "38838e2d"
-      },
-      "0:1:12": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "67beb1d6"
+        "signature": "f05e2f8c"
       },
       "1:1:1": {
         "phase": "planen",
         "mode": 1,
-        "signature": "b7d86b2d"
-      },
-      "1:1:2": {
-        "phase": "planen",
-        "mode": 1,
-        "signature": "26e92a25"
+        "signature": "1db67fd7"
       },
       "1:1:3": {
         "phase": "planen",
         "mode": 1,
-        "signature": "e17ecd26"
-      },
-      "1:1:4": {
-        "phase": "planen",
-        "mode": 1,
-        "signature": "d9cccde3"
+        "signature": "0c1cfcce"
       },
       "1:1:5": {
         "phase": "planen",
@@ -1838,27 +1476,17 @@
       "2:1:1": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "76cb947f"
-      },
-      "2:1:2": {
-        "phase": "entscheiden",
-        "mode": 1,
-        "signature": "9b829983"
+        "signature": "0b93bb7b"
       },
       "2:1:3": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "281a6e2c"
+        "signature": "0a7cfab1"
       },
       "2:1:4": {
         "phase": "entscheiden",
         "mode": 1,
         "signature": "74f67d42"
-      },
-      "2:1:5": {
-        "phase": "entscheiden",
-        "mode": 1,
-        "signature": "ed11d646"
       },
       "3:1:1": {
         "phase": "durchfuehren",
@@ -1881,46 +1509,14 @@
         {
           "id": "0:1:1",
           "number": "1",
-          "body": "ff840cb04094810aa2d9423300883d9692dff5cfb584649c440dfe20868d3c65",
+          "body": "afeefcbea11104ff5aeb45e8c65c3f6ef7103196a06f314a4786bcd2c34f6822",
           "minutes": [
-            "17.5"
-          ]
-        },
-        {
-          "id": "0:1:2",
-          "number": "2",
-          "body": "708b48eab1e5b0bbecc708ed724148cdc1dd8dc638813e3db343f7a9a6d1a017",
-          "minutes": [
-            "20.5"
-          ]
-        },
-        {
-          "id": "0:1:3",
-          "number": "3",
-          "body": "9736949e36826c4a6d8ba754cb790876202eb3ef664764e4654b4a84ce573a7e",
-          "minutes": [
-            "14.5"
-          ]
-        },
-        {
-          "id": "0:1:4",
-          "number": "4",
-          "body": "fab3589ce2baaed953f34722dd684362b07c5324d07ced822a64ef0a72a0815d",
-          "minutes": [
-            "17.5"
-          ]
-        },
-        {
-          "id": "0:1:5",
-          "number": "5",
-          "body": "4d3ad0b6e17bcda94040a64591d8004a7997bbabfb9622cfc34b19c53ff9883b",
-          "minutes": [
-            "17.5"
+            "87.5"
           ]
         },
         {
           "id": "0:1:6",
-          "number": "6",
+          "number": "2",
           "body": "b9e19d90140b86f7d0f48aa86f18400a47a47bf157fd44e1ed70adeb0825f6f3",
           "minutes": [
             "20.5"
@@ -1928,89 +1524,41 @@
         },
         {
           "id": "0:1:7",
-          "number": "7",
-          "body": "f33922f94e053bdb4c4bf1f4dfefc280d93a7b9d9fca78f576ebe6349bc05120",
+          "number": "3",
+          "body": "a00ffbb24bba250a6582fc286149196df8ddafa9d949f459321910dda13c19e9",
           "minutes": [
-            "18.5"
-          ]
-        },
-        {
-          "id": "0:1:8",
-          "number": "8",
-          "body": "93dde5eab13741779b98bba51976cd8cb63d7390ed746eb9fda184610afc98ff",
-          "minutes": [
-            "20.5"
-          ]
-        },
-        {
-          "id": "0:1:9",
-          "number": "9",
-          "body": "1a51e467c0e0d79dd2d97f37afa00c6ea2c60e9646324b503d52135652f50ee6",
-          "minutes": [
-            "21.0"
+            "60"
           ]
         },
         {
           "id": "0:1:10",
-          "number": "10",
-          "body": "7c0833374b38e59b7edce19405e8c10834f63c0d49630b7a32bf13d424dddd7a",
+          "number": "4",
+          "body": "80a2f4370b5d31e4dc18c623a8f9b5f77c595ae054151e233e763577b78c24cd",
           "minutes": [
-            "18.0"
-          ]
-        },
-        {
-          "id": "0:1:11",
-          "number": "11",
-          "body": "7ba8ecf8557e3c0209c0618639e563b18f948e71d7d83d9dd50c116777056521",
-          "minutes": [
-            "18.5"
-          ]
-        },
-        {
-          "id": "0:1:12",
-          "number": "12",
-          "body": "31c791f201e16de1e1e2f01aff2eb9c4fb30cef15c993fd8ff2a3b76de32896a",
-          "minutes": [
-            "20.5"
+            "57"
           ]
         }
       ],
       "planen": [
         {
           "id": "1:1:1",
-          "number": "1",
-          "body": "46d999fe396c177c251abcfe1a2f0e0165816fcd6f0fd685ba37b6bd2bd5b56a",
+          "number": "5",
+          "body": "cbb4782f25375dc370e27834c8017b9e11f16590b0102ec489a5b9f2845f24ec",
           "minutes": [
-            "27.0"
-          ]
-        },
-        {
-          "id": "1:1:2",
-          "number": "2",
-          "body": "01120f333897f414df2f8977e5fc04115a6c1254dc7ad5c9cfe00b722975169c",
-          "minutes": [
-            "28.0"
+            "55"
           ]
         },
         {
           "id": "1:1:3",
-          "number": "3",
-          "body": "2cf8ba54b2a6b797b53328760a0621cba6213706acb4a7f808d269059dc05c57",
+          "number": "6",
+          "body": "e7797aa4d43bfbe070c194d394de5eba3f6be9e7444447810193643ccc58f4ed",
           "minutes": [
-            "25.5"
-          ]
-        },
-        {
-          "id": "1:1:4",
-          "number": "4",
-          "body": "190554058872021ab3cc374e4a73b7aa2b820b486e000dce498fa66cb66ab75d",
-          "minutes": [
-            "25.5"
+            "51"
           ]
         },
         {
           "id": "1:1:5",
-          "number": "5",
+          "number": "7",
           "body": "9e98094423500ba2222a595ea1bb46edc7cb2b1dd01d709e704f9009f44ba8af",
           "minutes": [
             "29.0"
@@ -2020,49 +1568,33 @@
       "entscheiden": [
         {
           "id": "2:1:1",
-          "number": "1",
-          "body": "282ac95ec9858db4388cdc271ed1fa7e3322e6dac94feadabb5230264b405b96",
+          "number": "8",
+          "body": "9a6f282fd51d2e2237dee3698c9a599b19c617f1e5c6092449d5394ca208f352",
           "minutes": [
-            "15.0"
-          ]
-        },
-        {
-          "id": "2:1:2",
-          "number": "2",
-          "body": "5f6cff827b5cf6d10d234e64a21eeaa741c7bfd15aa93f9acc8c2e3a9b808808",
-          "minutes": [
-            "18.5"
+            "33.5"
           ]
         },
         {
           "id": "2:1:3",
-          "number": "3",
-          "body": "ad285efd12c3ae99081de6722269c1e3d122fa2a56a2a6fa0ee00c165e4bef5c",
+          "number": "9",
+          "body": "4ec1aab14893c489a44154b8b6e6f16535118d8d5256fd2b2442cd51ae81175f",
           "minutes": [
-            "20.0"
+            "35.5"
           ]
         },
         {
           "id": "2:1:4",
-          "number": "4",
+          "number": "10",
           "body": "05cfef2684e8185e96e2b3e879594ee55683b6dcf35639cf2796505c916f2cd1",
           "minutes": [
             "21.0"
-          ]
-        },
-        {
-          "id": "2:1:5",
-          "number": "5",
-          "body": "42c4ce307ed8b57fc7d75f3abda04401ac36345fe2c50c146ea5c99c7a3c702c",
-          "minutes": [
-            "15.5"
           ]
         }
       ],
       "durchfuehren": [
         {
           "id": "3:1:1",
-          "number": "1",
+          "number": "11",
           "body": "2a67040ac3167c763d7e6ca4ac0185630f5e7f09416416501629d76acfb9e883",
           "minutes": [
             "135.0"
@@ -2072,7 +1604,7 @@
       "bewerten": [
         {
           "id": "4:1:1",
-          "number": "1",
+          "number": "12",
           "body": "873d7d760b0094ab94dc21acc6c0fe0bd0095b4001f876ca475529d9cdbd1e3e",
           "minutes": [
             "90.0"
@@ -2082,7 +1614,7 @@
       "reflektieren": [
         {
           "id": "5:1:1",
-          "number": "1",
+          "number": "13",
           "body": "c63f021fb55c81624b1fc34aa7af7d7b5441fcdef274af3d67c52fb4409a79ab",
           "minutes": [
             "45.0"
@@ -2196,132 +1728,62 @@
       "0:1:1": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "ecf3d495"
-      },
-      "0:1:2": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "428a0bdc"
+        "signature": "103cb1a6"
       },
       "0:1:3": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "9738b53f"
-      },
-      "0:1:4": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "cb52f1b5"
+        "signature": "5c4d018e"
       },
       "0:1:5": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "28709ea9"
-      },
-      "0:1:6": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "92ca7fe0"
+        "signature": "2c74e907"
       },
       "1:1:1": {
         "phase": "planen",
         "mode": 1,
-        "signature": "80855dd5"
-      },
-      "1:1:2": {
-        "phase": "planen",
-        "mode": 1,
-        "signature": "965fcf42"
+        "signature": "fcee057a"
       },
       "1:1:3": {
         "phase": "planen",
         "mode": 1,
-        "signature": "505b3091"
-      },
-      "1:1:4": {
-        "phase": "planen",
-        "mode": 1,
-        "signature": "ae0b8435"
+        "signature": "9555129b"
       },
       "1:1:5": {
         "phase": "planen",
         "mode": 1,
-        "signature": "f5f5d637"
-      },
-      "1:1:6": {
-        "phase": "planen",
-        "mode": 1,
-        "signature": "6e4f93d7"
+        "signature": "93dbc87a"
       },
       "2:1:1": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "363a89db"
-      },
-      "2:1:2": {
-        "phase": "entscheiden",
-        "mode": 1,
-        "signature": "54e9d96b"
-      },
-      "2:1:3": {
-        "phase": "entscheiden",
-        "mode": 1,
-        "signature": "73fa0134"
+        "signature": "8a4e9d9b"
       },
       "2:1:4": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "b5283f35"
-      },
-      "2:1:5": {
-        "phase": "entscheiden",
-        "mode": 1,
-        "signature": "79bb0606"
+        "signature": "f4ff75ea"
       },
       "2:1:6": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "7222aae2"
-      },
-      "2:1:7": {
-        "phase": "entscheiden",
-        "mode": 1,
-        "signature": "830dac96"
+        "signature": "2c8400b9"
       },
       "3:1:1": {
         "phase": "durchfuehren",
         "mode": 1,
-        "signature": "26cb9def"
-      },
-      "3:1:2": {
-        "phase": "durchfuehren",
-        "mode": 1,
-        "signature": "b03dfb75"
+        "signature": "a7e07bfd"
       },
       "3:1:3": {
         "phase": "durchfuehren",
         "mode": 1,
-        "signature": "81e599ed"
-      },
-      "3:1:4": {
-        "phase": "durchfuehren",
-        "mode": 1,
-        "signature": "fadd8a34"
+        "signature": "b2f81651"
       },
       "3:1:5": {
         "phase": "durchfuehren",
         "mode": 1,
-        "signature": "8cf6baa1"
-      },
-      "3:1:6": {
-        "phase": "durchfuehren",
-        "mode": 1,
-        "signature": "2a495cd5"
-      },
-      "3:1:7": {
-        "phase": "durchfuehren",
-        "mode": 1,
-        "signature": "aa767659"
+        "signature": "ddb50ba1"
       },
       "4:1:1": {
         "phase": "bewerten",
@@ -2364,188 +1826,128 @@
         {
           "id": "0:1:1",
           "number": "1",
-          "body": "da94a4055d726e22cb659a2cee7c8daa4d013f0992715658f558e53712f56ddb",
-          "minutes": []
-        },
-        {
-          "id": "0:1:2",
-          "number": "2",
-          "body": "f82378ece6238e779ba7da4ede4ae6be72b1373b91e95ea7713968be8873c49a",
-          "minutes": []
+          "body": "90952c54a8a3951919c4bf5adda1f02a35b214e02d6366ddb104a7e005877a37",
+          "minutes": [
+            "75"
+          ]
         },
         {
           "id": "0:1:3",
-          "number": "3",
-          "body": "59b5fe6a06e086cda7abfdbe5c92f26b6a4c5f269858e2318a054bd0583eb787",
-          "minutes": []
-        },
-        {
-          "id": "0:1:4",
-          "number": "4",
-          "body": "46787fc7b6c0576e0710bcae228b94820106d22d432b32dedf1f8a62d72648dc",
-          "minutes": []
+          "number": "2",
+          "body": "ac33291ea53017cfed883055cd0d5c6301889e5040dd68128e84ccaed9c4b29d",
+          "minutes": [
+            "65"
+          ]
         },
         {
           "id": "0:1:5",
-          "number": "5",
-          "body": "62633d52ce9fcdfedb3d02e19d67d1f0f167510260674105ef816ae9fd5d1ea3",
-          "minutes": []
-        },
-        {
-          "id": "0:1:6",
-          "number": "6",
-          "body": "b526a7d70797824fcadd95045737e0e8386427e6e053e45af0bb4865f99eedf8",
-          "minutes": []
+          "number": "3",
+          "body": "db684111e27b34130b96737c1f1fbbd1bcb2872caf0f1bcaac4031626fd6eb61",
+          "minutes": [
+            "70"
+          ]
         }
       ],
       "planen": [
         {
           "id": "1:1:1",
-          "number": "1",
-          "body": "a762dc045d51e3f14cd4f862a5fd9347e88b995c376e38f97b41fba958767700",
-          "minutes": []
-        },
-        {
-          "id": "1:1:2",
-          "number": "2",
-          "body": "3c465f42b5a4503cfe3a812b99709b8176bbea2ce8ba1e52f91808eeb53bfb26",
-          "minutes": []
+          "number": "4",
+          "body": "12cb66d98fdbc1d43032fb89e9d8159207ef39dcbb8f1954d1d93bb432c904a6",
+          "minutes": [
+            "30"
+          ]
         },
         {
           "id": "1:1:3",
-          "number": "3",
-          "body": "15e4275043f211e33688418e86c3b19b46123932f6713768504e7cb8c56ce2fe",
-          "minutes": []
-        },
-        {
-          "id": "1:1:4",
-          "number": "4",
-          "body": "e482b146d444d85eae93314b35df9938df25564bd54de3e16309c9b5d5bbda62",
-          "minutes": []
+          "number": "5",
+          "body": "4c6b3eeb396f0bebd6eee0c946b6804c7b54d9fb84b5757c4ff2c7efd417a178",
+          "minutes": [
+            "35"
+          ]
         },
         {
           "id": "1:1:5",
-          "number": "5",
-          "body": "7f326004230177a9c3cf755f22e716894a1e4cafb65c9e4d10a9cc8c14e38691",
-          "minutes": []
-        },
-        {
-          "id": "1:1:6",
           "number": "6",
-          "body": "f9c44d19ea3b58ad011838c37fe8b7322e54be74a76be569ac3231ace8aa453a",
-          "minutes": []
+          "body": "4cbfdb1108e6e21abd3ee46a31bd17863d576f760bc94aa629d26683730b7440",
+          "minutes": [
+            "45"
+          ]
         }
       ],
       "entscheiden": [
         {
           "id": "2:1:1",
-          "number": "1",
-          "body": "093ea24170e538156fa63df289c57e33a976c7d75cdad15bd507f02afce0da55",
-          "minutes": []
-        },
-        {
-          "id": "2:1:2",
-          "number": "2",
-          "body": "34ad8d177fa4ee3d670a799886df0695018b1eb75c7a8b37fe5d0570d86a29ca",
-          "minutes": []
-        },
-        {
-          "id": "2:1:3",
-          "number": "3",
-          "body": "3d7f27d88b33f06b43cd43c96541265131cbb9a39f73537be749bfefb9ad9755",
-          "minutes": []
+          "number": "7",
+          "body": "55788bae25e19f193686b1c418da7053d3b81556be925e4581ca45dae33ea8bc",
+          "minutes": [
+            "75"
+          ]
         },
         {
           "id": "2:1:4",
-          "number": "4",
-          "body": "801e5707e54889261ba5bdb9586b4efeab93a5194017d860561f2f7597f7e3e5",
-          "minutes": []
-        },
-        {
-          "id": "2:1:5",
-          "number": "5",
-          "body": "7df4c4e207a2c8551f149c4c29070bce3f68c944737f638839a4690d41dba490",
-          "minutes": []
+          "number": "8",
+          "body": "e71fefdaa98da0ca04f66ca66cadd6c59ec7d585211d224f62f57735db4f44b7",
+          "minutes": [
+            "40"
+          ]
         },
         {
           "id": "2:1:6",
-          "number": "6",
-          "body": "f402064645c1776e93909b279779d75aba263bcb78665bbba951c5a97837d029",
-          "minutes": []
-        },
-        {
-          "id": "2:1:7",
-          "number": "7",
-          "body": "5d911722232c11952780dd41284673df71cc248aa7e6dc029032b5d8e45baf3f",
-          "minutes": []
+          "number": "9",
+          "body": "50a9660a872a5cadfb499da630e9bc9ad46f1ff71de08315250d1b43f074edc9",
+          "minutes": [
+            "50"
+          ]
         }
       ],
       "durchfuehren": [
         {
           "id": "3:1:1",
-          "number": "1",
-          "body": "aff331da2cfa946e967ed90033afc94482394b92c404d1bea6c3fc08d61ac6a4",
-          "minutes": []
-        },
-        {
-          "id": "3:1:2",
-          "number": "2",
-          "body": "28a880beb888b3f7158fab561adb5e435ff22131a9704e817b4fb386e8f48e63",
-          "minutes": []
+          "number": "10",
+          "body": "dbfa023f70d75e7d30914f1ee7e523f8f3fb6c790333b9fb2fbe8e19e81a44b7",
+          "minutes": [
+            "75"
+          ]
         },
         {
           "id": "3:1:3",
-          "number": "3",
-          "body": "a9f23ff70de47f592ea4ba360afb1f09bfd734c42efa81a7649cef7b2cbef1a2",
-          "minutes": []
-        },
-        {
-          "id": "3:1:4",
-          "number": "4",
-          "body": "a5bab5cbf27146203690bb4d3107a08134bf5be0a5157a611f1e4964f5a4abd9",
-          "minutes": []
+          "number": "11",
+          "body": "cf159cbf3407e0c53816f90ba5cd11e44dd08b2de2ccbce2b4f26ff531483044",
+          "minutes": [
+            "65"
+          ]
         },
         {
           "id": "3:1:5",
-          "number": "5",
-          "body": "5036adf627d4a13a07aff086f34d1eaf7525ab8dcba5866f1bb43c7636bd4260",
-          "minutes": []
-        },
-        {
-          "id": "3:1:6",
-          "number": "6",
-          "body": "79ec0498171644a32b33b9be8aa07c4d513187eb0278f9db8157dc938b4a480c",
-          "minutes": []
-        },
-        {
-          "id": "3:1:7",
-          "number": "7",
-          "body": "034378a07af3f2a556de4a43b6ab96f054a3551276d0e0ffb2507129485f4ce1",
-          "minutes": []
+          "number": "12",
+          "body": "440b547af1b30c8d5de4eaec88ab5e5bdb4c3fdbd18de5768c6b29c52a1fc467",
+          "minutes": [
+            "115"
+          ]
         }
       ],
       "bewerten": [
         {
           "id": "4:1:1",
-          "number": "1",
+          "number": "13",
           "body": "b7677992719e2164398204c66788584e494c330233ce75da4e880cd6b0c23836",
           "minutes": []
         },
         {
           "id": "4:1:2",
-          "number": "2",
+          "number": "14",
           "body": "07e4454fa5218c92774d5a091410d0e16432282b607c73bee77fb4183622abeb",
           "minutes": []
         },
         {
           "id": "4:1:3",
-          "number": "3",
+          "number": "15",
           "body": "997aaac1ed09b9e7ebd4091355de769e7270e71bb26dd98939747d932b98d7e8",
           "minutes": []
         },
         {
           "id": "4:1:4",
-          "number": "4",
+          "number": "16",
           "body": "5d9fdf633d789ae408b35f4e9cc43abe2ae0c0186fae4aa245fedefaa9d4b33b",
           "minutes": []
         }
@@ -2553,19 +1955,19 @@
       "reflektieren": [
         {
           "id": "5:1:1",
-          "number": "1",
+          "number": "17",
           "body": "6f06664015fc42085e6068b51c7da5d604e62d87eaf52335d0f09aee953146ae",
           "minutes": []
         },
         {
           "id": "5:1:2",
-          "number": "2",
+          "number": "18",
           "body": "fb6ae76e136802cebbe4a574d4a8b4827d917721ba23b533e8c61a36db858c96",
           "minutes": []
         },
         {
           "id": "5:1:3",
-          "number": "3",
+          "number": "19",
           "body": "0f741d9fd5aa380a5b8f328a28f197181174ad158f43954cf468b3a515888790",
           "minutes": []
         }
@@ -2905,42 +2307,27 @@
       "0:1:1": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "bb0cb1b8"
-      },
-      "0:1:2": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "eb10ee56"
-      },
-      "0:1:3": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "d1674543"
+        "signature": "9e2e702a"
       },
       "0:1:4": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "5f2c153b"
-      },
-      "0:1:5": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "264602e2"
+        "signature": "5a2a1ea6"
       },
       "0:1:6": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "47d39303"
+        "signature": "5769c296"
       },
       "1:1:1": {
         "phase": "planen",
         "mode": 1,
-        "signature": "2d750987"
+        "signature": "bfc38b8b"
       },
       "1:1:2": {
         "phase": "planen",
         "mode": 1,
-        "signature": "ba252574"
+        "signature": "d6938ee8"
       },
       "1:1:3": {
         "phase": "planen",
@@ -2955,22 +2342,12 @@
       "2:1:2": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "847e916b"
-      },
-      "2:1:3": {
-        "phase": "entscheiden",
-        "mode": 1,
-        "signature": "cf0d6865"
+        "signature": "6cbb8e6d"
       },
       "2:1:4": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "58e672f5"
-      },
-      "2:1:5": {
-        "phase": "entscheiden",
-        "mode": 1,
-        "signature": "0132cb72"
+        "signature": "8bc02cc7"
       },
       "3:1:1": {
         "phase": "durchfuehren",
@@ -3000,7 +2377,7 @@
       "5:1:2": {
         "phase": "reflektieren",
         "mode": 1,
-        "signature": "5eec53e7"
+        "signature": "33cac931"
       }
     },
     "frames": {
@@ -3008,46 +2385,22 @@
         {
           "id": "0:1:1",
           "number": "1",
-          "body": "4b094b30f3f6793f798a4bb547fa56f8e71df9ed9e79c7d707841a7a0e8b80ed",
+          "body": "02802f124354a75b8fcd856e2507a97cd4753e91dbe7d4f7d7ab9ad8662cb171",
+          "minutes": [
+            "65"
+          ]
+        },
+        {
+          "id": "0:1:4",
+          "number": "2",
+          "body": "35078007277ed8d65e598c967d4adf0c991279c5756521fe9188b993dce44bc8",
           "minutes": [
             "25"
           ]
         },
         {
-          "id": "0:1:2",
-          "number": "2",
-          "body": "dcfdaacc4b82145b4e135f36b89aa73da3af6a18a3c0cf8a7f054fd9b03162b5",
-          "minutes": [
-            "30"
-          ]
-        },
-        {
-          "id": "0:1:3",
-          "number": "3",
-          "body": "d8d2e947cd574f3d76d6077e49b98123f7afbfcf546845dbe0c2f088e1d6bbfc",
-          "minutes": [
-            "10"
-          ]
-        },
-        {
-          "id": "0:1:4",
-          "number": "4",
-          "body": "3752e39664df38ae50927fc1cd0704fda38786930b30854cb763bed8da56b6da",
-          "minutes": [
-            "15"
-          ]
-        },
-        {
-          "id": "0:1:5",
-          "number": "5",
-          "body": "bd8015168eb589faf2ef7bdfceac80969c637626ff8154d399531c37c6cc0716",
-          "minutes": [
-            "10"
-          ]
-        },
-        {
           "id": "0:1:6",
-          "number": "6",
+          "number": "3",
           "body": "74b92d2c7e00174bfa1cf40f475dbb0b88fd239d81eaa472b1d1b2e84c762c9d",
           "minutes": [
             "15"
@@ -3057,7 +2410,7 @@
       "planen": [
         {
           "id": "1:1:1",
-          "number": "7",
+          "number": "4",
           "body": "e85eba2440ba94830f6de45f7236e2670f56268d692e6f71b7fa2604520ee976",
           "minutes": [
             "20"
@@ -3065,7 +2418,7 @@
         },
         {
           "id": "1:1:2",
-          "number": "8",
+          "number": "5",
           "body": "ca10abbc486ab809beb0cbb6614d3fc2b0bf2fe5ae548b87831fa692c1b14bfc",
           "minutes": [
             "20"
@@ -3073,7 +2426,7 @@
         },
         {
           "id": "1:1:3",
-          "number": "9",
+          "number": "6",
           "body": "7626974367c0cbbd2803bbdf1d4062daaa1678b07ef24bcfd8e925b7c8c55561",
           "minutes": [
             "10"
@@ -3083,7 +2436,7 @@
       "entscheiden": [
         {
           "id": "2:1:1",
-          "number": "10",
+          "number": "7",
           "body": "a14090a715f4b37b19d3b342c021183f81bdc689c5547370b3c883aa33759ecf",
           "minutes": [
             "20"
@@ -3091,41 +2444,25 @@
         },
         {
           "id": "2:1:2",
-          "number": "11",
-          "body": "997e1c2b87fad876c5510e081c8e16c2a974564ea7a19ad167d11c532e9aa291",
-          "minutes": [
-            "20"
-          ]
-        },
-        {
-          "id": "2:1:3",
-          "number": "12",
-          "body": "cd63b2cb9bf3d6bacdc50ea45725f8758c16e4a54599f50d030122ca494eb298",
-          "minutes": [
-            "10"
-          ]
-        },
-        {
-          "id": "2:1:4",
-          "number": "13",
-          "body": "fcf046444a2452db23b77bb9bf962dc17584d53d5a91399197736fb07f3c273f",
+          "number": "8",
+          "body": "8b365449c1d89a9624823eeb0a7336996a959e6b36fc34c2218924ddaba64f7e",
           "minutes": [
             "30"
           ]
         },
         {
-          "id": "2:1:5",
-          "number": "14",
-          "body": "9be5fcf2ffa497af126ad898246ef8af597f8cb67042b7c9536bb9fdcaca6308",
+          "id": "2:1:4",
+          "number": "9",
+          "body": "a108880e81cd908334dcc7a5dabef8b8ccd7d883afedefcfd53a9b44f8dbcae2",
           "minutes": [
-            "10"
+            "40"
           ]
         }
       ],
       "durchfuehren": [
         {
           "id": "3:1:1",
-          "number": "15",
+          "number": "10",
           "body": "b5e54a347e3645696c9fd8969879f8de35df2b306be0c3d23e16cb65a3c79cb7",
           "minutes": [
             "45"
@@ -3133,7 +2470,7 @@
         },
         {
           "id": "3:1:2",
-          "number": "16",
+          "number": "11",
           "body": "f4cca46ca4e90082cee9b8b9cc8e45fc70abe84ef9caa05b75eb2894a54f6323",
           "minutes": [
             "20"
@@ -3143,7 +2480,7 @@
       "bewerten": [
         {
           "id": "4:1:1",
-          "number": "17",
+          "number": "12",
           "body": "44cf307067e995ed151f988366bad7cc9101c592d93363fbf064524eadd6af03",
           "minutes": [
             "25"
@@ -3151,7 +2488,7 @@
         },
         {
           "id": "4:1:2",
-          "number": "18",
+          "number": "13",
           "body": "327507fa990057072fbb46f955409b79340575bb72db14812657a48136517449",
           "minutes": [
             "15"
@@ -3161,7 +2498,7 @@
       "reflektieren": [
         {
           "id": "5:1:1",
-          "number": "19",
+          "number": "14",
           "body": "014831a7e58ec5ebf091f37f5e9755655a22ea583cbb00a47db93d43337a8f10",
           "minutes": [
             "10"
@@ -3169,7 +2506,7 @@
         },
         {
           "id": "5:1:2",
-          "number": "20",
+          "number": "15",
           "body": "0cbac880b62aa409140c4e20ed8da48a8381886561bf9c7208d7da874bba3378",
           "minutes": [
             "5"
@@ -3254,37 +2591,22 @@
       "0:1:1": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "18968b7b"
-      },
-      "0:1:2": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "2fe7a462"
+        "signature": "eb241863"
       },
       "0:1:3": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "1271c199"
-      },
-      "0:1:4": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "88f2e7a4"
+        "signature": "e83d0a22"
       },
       "0:1:5": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "ac823fd9"
-      },
-      "0:1:6": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "057b2e8d"
+        "signature": "1405733c"
       },
       "1:1:1": {
         "phase": "planen",
         "mode": 1,
-        "signature": "5dae6271"
+        "signature": "93f07171"
       },
       "1:1:2": {
         "phase": "planen",
@@ -3294,32 +2616,32 @@
       "1:1:3": {
         "phase": "planen",
         "mode": 1,
-        "signature": "a56e0c5d"
+        "signature": "63769d81"
       },
       "2:1:1": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "90cac713"
+        "signature": "3cd363f3"
       },
       "2:1:2": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "7bccc2d9"
+        "signature": "0e0dd404"
       },
       "2:1:3": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "616fff04"
+        "signature": "81a2b66a"
       },
       "3:1:1": {
         "phase": "durchfuehren",
         "mode": 1,
-        "signature": "a7604c55"
+        "signature": "a3aabb71"
       },
       "4:1:1": {
         "phase": "bewerten",
         "mode": 1,
-        "signature": "c33f7d28"
+        "signature": "dd621243"
       },
       "4:1:2": {
         "phase": "bewerten",
@@ -3334,7 +2656,7 @@
       "5:1:2": {
         "phase": "reflektieren",
         "mode": 1,
-        "signature": "f0b12f41"
+        "signature": "c5ab2dfb"
       }
     },
     "frames": {
@@ -3342,56 +2664,32 @@
         {
           "id": "0:1:1",
           "number": "1",
-          "body": "16d5e23bf6cc6d15ff98e49d4123c0235d4cd5ad8e40587c5029653b9478781c",
+          "body": "b346ae74fb449cc8b714dcb44401927206e01b1ca690262e96a2b06095c350a3",
           "minutes": [
-            "30"
-          ]
-        },
-        {
-          "id": "0:1:2",
-          "number": "2",
-          "body": "533a0cb4a9d978b82ccb01aab7470b58ae085126392e7c5f5350ecdfd584f9df",
-          "minutes": [
-            "15"
+            "45"
           ]
         },
         {
           "id": "0:1:3",
-          "number": "3",
-          "body": "bf11e7c9bcf9e19a77df641364a826fc3f6c4c82ac345ee480b1a626d6a4ada9",
+          "number": "2",
+          "body": "140ea7e5d0dfc658e8f9d914a336d444d1ffd43f38f3c73868eabe05c84e72e2",
           "minutes": [
-            "20"
-          ]
-        },
-        {
-          "id": "0:1:4",
-          "number": "4",
-          "body": "5c0d60dc14a56215a152ca8d332345c199cfe1c5594678f3ba5393d68155c96c",
-          "minutes": [
-            "20"
+            "40"
           ]
         },
         {
           "id": "0:1:5",
-          "number": "5",
-          "body": "b1adbc9d4973b3e9b364503769b7ba43c90bcf26a1692768b8046ec44a2b1fa2",
+          "number": "3",
+          "body": "8f5cd64022773b06dbd25df4b175900d8ecce11cfa36c3e6a41fff3771e542f7",
           "minutes": [
-            "20"
-          ]
-        },
-        {
-          "id": "0:1:6",
-          "number": "6",
-          "body": "097373d17bf893e69611af1c8bf0d86568254db31589ac39e3ab6468bf5985bc",
-          "minutes": [
-            "10"
+            "30"
           ]
         }
       ],
       "planen": [
         {
           "id": "1:1:1",
-          "number": "7",
+          "number": "4",
           "body": "56f00f7945b8b21b8bf9d0929801e7fe8c6331931b75784de4a1653a551a64dc",
           "minutes": [
             "5"
@@ -3399,7 +2697,7 @@
         },
         {
           "id": "1:1:2",
-          "number": "8",
+          "number": "5",
           "body": "dbf363cd9baedc695801b1e9c8d7a79f4055de5b756e4bea43c8b3e54276947f",
           "minutes": [
             "25"
@@ -3407,7 +2705,7 @@
         },
         {
           "id": "1:1:3",
-          "number": "9",
+          "number": "6",
           "body": "5d5eda877fcf065ff7f468fd5fe29389273b3b05801c53209b78f4b78556d687",
           "minutes": [
             "15"
@@ -3417,7 +2715,7 @@
       "entscheiden": [
         {
           "id": "2:1:1",
-          "number": "10",
+          "number": "7",
           "body": "7a3c76bf3eaef46c0e9f94ffbd9695036bd65f651fc9b15e92183ef37ad27b23",
           "minutes": [
             "20"
@@ -3425,7 +2723,7 @@
         },
         {
           "id": "2:1:2",
-          "number": "11",
+          "number": "8",
           "body": "410431706135ed7484377cd3038989ec6842e0d29d6dc45de7dddd89311cd5bd",
           "minutes": [
             "15"
@@ -3433,7 +2731,7 @@
         },
         {
           "id": "2:1:3",
-          "number": "12",
+          "number": "9",
           "body": "4c9992d6ff4b8c6e422405d03c781673c1f16a97df627671b310cd395eb96a0b",
           "minutes": [
             "10"
@@ -3443,7 +2741,7 @@
       "durchfuehren": [
         {
           "id": "3:1:1",
-          "number": "13",
+          "number": "10",
           "body": "b5e48dd78e743aeda4232aec7f41b43efdc46dd285d7ad117595d31fa20a15b8",
           "minutes": [
             "60"
@@ -3453,7 +2751,7 @@
       "bewerten": [
         {
           "id": "4:1:1",
-          "number": "14",
+          "number": "11",
           "body": "9ffcd9a572dcbb78f7888fe1e80b5f54a665e475bad8e847ecfd6b1fc6e44136",
           "minutes": [
             "20"
@@ -3461,7 +2759,7 @@
         },
         {
           "id": "4:1:2",
-          "number": "15",
+          "number": "12",
           "body": "c17c6d1867200bd4d9a6d6e98890bb89087bf1ab49c66926d2c8139df342bce3",
           "minutes": [
             "20"
@@ -3471,7 +2769,7 @@
       "reflektieren": [
         {
           "id": "5:1:1",
-          "number": "16",
+          "number": "13",
           "body": "5e1c21aae79e3a2e6eacb8fb56da3382950c66080a0e0ddda39c609c324d0c26",
           "minutes": [
             "10"
@@ -3479,7 +2777,7 @@
         },
         {
           "id": "5:1:2",
-          "number": "17",
+          "number": "14",
           "body": "c3a6fbee8a5392d4694d523979cbe99d85ffc29e1627249715ea023aace254f9",
           "minutes": [
             "5"
@@ -4093,32 +3391,17 @@
       "0:1:1": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "4004ce74"
-      },
-      "0:1:2": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "47d9a04f"
+        "signature": "7a002185"
       },
       "0:1:3": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "3c125cd4"
-      },
-      "0:1:4": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "ad9c344e"
+        "signature": "25a770ff"
       },
       "0:1:5": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "32cc496c"
-      },
-      "0:1:6": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "77ae94ca"
+        "signature": "717c3fed"
       },
       "1:1:1": {
         "phase": "planen",
@@ -4128,7 +3411,7 @@
       "1:1:2": {
         "phase": "planen",
         "mode": 1,
-        "signature": "9cfd43f1"
+        "signature": "718e7bac"
       },
       "2:1:1": {
         "phase": "entscheiden",
@@ -4148,7 +3431,7 @@
       "3:1:1": {
         "phase": "durchfuehren",
         "mode": 1,
-        "signature": "9c40bc6a"
+        "signature": "9dcfebf6"
       },
       "4:1:1": {
         "phase": "bewerten",
@@ -4158,7 +3441,7 @@
       "4:1:2": {
         "phase": "bewerten",
         "mode": 1,
-        "signature": "82ea195d"
+        "signature": "37adf987"
       },
       "5:1:1": {
         "phase": "reflektieren",
@@ -4168,7 +3451,7 @@
       "5:1:2": {
         "phase": "reflektieren",
         "mode": 1,
-        "signature": "6ef72628"
+        "signature": "8a670646"
       }
     },
     "frames": {
@@ -4176,56 +3459,32 @@
         {
           "id": "0:1:1",
           "number": "1",
-          "body": "e47e0502cb85009f7f099215263f1dcd1129479582981aea9e8b168c35348202",
+          "body": "360a715f7cf4a3c829ab0f4b660581e0081a4205465cb940cff26337fc9f5ccf",
           "minutes": [
-            "25"
-          ]
-        },
-        {
-          "id": "0:1:2",
-          "number": "2",
-          "body": "1cff5f37c359ce32ccd909b3171a874843767ceabbd54380348c6160eef5c77b",
-          "minutes": [
-            "15"
+            "40"
           ]
         },
         {
           "id": "0:1:3",
-          "number": "3",
-          "body": "64329167d220583b81dea235c7a3935221124806f3197127133e69c9169941a3",
+          "number": "2",
+          "body": "ccaf8c897d83bf319341330082d223844b42c9cf7eca0f228d1b941da5f207e8",
           "minutes": [
-            "25"
-          ]
-        },
-        {
-          "id": "0:1:4",
-          "number": "4",
-          "body": "618639957a6baf506186e9dcd09b5db21ee2fbae859e2fae0375237cfc5861a8",
-          "minutes": [
-            "15"
+            "40"
           ]
         },
         {
           "id": "0:1:5",
-          "number": "5",
-          "body": "02616a9fc7cb97f5b4264673b296423f3b019b3d11a7f56c1c4edcf5798cc086",
+          "number": "3",
+          "body": "6277423aa87b9b76284c003d4f07a82575abecbf2430fa5243abf849ddffcbef",
           "minutes": [
-            "15"
-          ]
-        },
-        {
-          "id": "0:1:6",
-          "number": "6",
-          "body": "dff25ad17e0ae1fc075906190b2ced03b9dd00d9c008b0d25de1f48777c05397",
-          "minutes": [
-            "10"
+            "25"
           ]
         }
       ],
       "planen": [
         {
           "id": "1:1:1",
-          "number": "7",
+          "number": "4",
           "body": "fa7b8ae201eb0c6943a6c6558a08a2aad67ca8453d2b44cd16105296d1820158",
           "minutes": [
             "20"
@@ -4233,7 +3492,7 @@
         },
         {
           "id": "1:1:2",
-          "number": "8",
+          "number": "5",
           "body": "24a6f14f05cae8a94e58cf7d7e238816a56c24fe69ac99750be66aad6f5fbad2",
           "minutes": [
             "20"
@@ -4243,7 +3502,7 @@
       "entscheiden": [
         {
           "id": "2:1:1",
-          "number": "9",
+          "number": "6",
           "body": "728f3977e145a56a261f13ed1f014b4c8eff77bdda30f249674f3c14f38a983b",
           "minutes": [
             "15"
@@ -4251,7 +3510,7 @@
         },
         {
           "id": "2:1:2",
-          "number": "10",
+          "number": "7",
           "body": "03bf3508ddb7000c4d97f01db742c9547dbf26b80c3f1a089ba10f70fae025ed",
           "minutes": [
             "20"
@@ -4259,7 +3518,7 @@
         },
         {
           "id": "2:1:3",
-          "number": "11",
+          "number": "8",
           "body": "22425badd84b265733869f779af2ed318d5bb62d698abc3e870427f6053e7b47",
           "minutes": [
             "15"
@@ -4269,7 +3528,7 @@
       "durchfuehren": [
         {
           "id": "3:1:1",
-          "number": "12",
+          "number": "9",
           "body": "7780574376bc3dc4c5d6fc2bfd6fb95b2d69b81cbf852b33c2fd9072f503f59a",
           "minutes": [
             "60"
@@ -4279,7 +3538,7 @@
       "bewerten": [
         {
           "id": "4:1:1",
-          "number": "13",
+          "number": "10",
           "body": "95abd0844b857fabf1f9f06c005d2831edc3b483b38a29dc16e68f49185cf410",
           "minutes": [
             "20"
@@ -4287,7 +3546,7 @@
         },
         {
           "id": "4:1:2",
-          "number": "14",
+          "number": "11",
           "body": "426f5ee79191300dd82fa89e2667ebf74bc09dd366eabb7e8b3166f8cd61dee9",
           "minutes": [
             "20"
@@ -4297,7 +3556,7 @@
       "reflektieren": [
         {
           "id": "5:1:1",
-          "number": "15",
+          "number": "12",
           "body": "5bfa4430d8dd6d037a8fbdf74c471d07f0e6452e910076de166b77382499d0b0",
           "minutes": [
             "10"
@@ -4305,7 +3564,7 @@
         },
         {
           "id": "5:1:2",
-          "number": "16",
+          "number": "13",
           "body": "1c04125603649af74975ae4c5964f568b1f2750dc79b97fac9ebfb2a63573191",
           "minutes": [
             "5"
@@ -4390,27 +3649,17 @@
       "0:1:1": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "b2c3a2aa"
-      },
-      "0:1:2": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "ea888236"
+        "signature": "25a76fb0"
       },
       "0:1:3": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "1cce3a50"
-      },
-      "0:1:4": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "bc7bc2f8"
+        "signature": "fabaf555"
       },
       "0:1:5": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "0dd0dd2d"
+        "signature": "32da0c69"
       },
       "1:1:1": {
         "phase": "planen",
@@ -4425,17 +3674,17 @@
       "1:1:3": {
         "phase": "planen",
         "mode": 1,
-        "signature": "1f91724e"
+        "signature": "c419b653"
       },
       "2:1:1": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "42d7e55c"
+        "signature": "e2558574"
       },
       "2:1:2": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "82b8e7d7"
+        "signature": "ade57f68"
       },
       "2:1:3": {
         "phase": "entscheiden",
@@ -4445,7 +3694,7 @@
       "3:1:1": {
         "phase": "durchfuehren",
         "mode": 1,
-        "signature": "ea5608e7"
+        "signature": "8d4b55f3"
       },
       "3:1:2": {
         "phase": "durchfuehren",
@@ -4470,7 +3719,7 @@
       "5:1:1": {
         "phase": "reflektieren",
         "mode": 1,
-        "signature": "e4f4aaed"
+        "signature": "fb94f1cf"
       },
       "5:1:2": {
         "phase": "reflektieren",
@@ -4480,7 +3729,7 @@
       "5:1:3": {
         "phase": "reflektieren",
         "mode": 1,
-        "signature": "e97eecdc"
+        "signature": "c5358b02"
       }
     },
     "frames": {
@@ -4488,38 +3737,22 @@
         {
           "id": "0:1:1",
           "number": "1",
-          "body": "1b48c0a19797808c7da99ae8fca9543e38320defe480e511de83528b13772dd7",
+          "body": "f2f301783bd176fdb6cfbdb11ccb4b29f4ce3047c97b34adceff417912672c37",
           "minutes": [
-            "30"
-          ]
-        },
-        {
-          "id": "0:1:2",
-          "number": "2",
-          "body": "8908961a0cbe29cfbe6a19d5d829fa2a2727bc83db53755de645482a6458151c",
-          "minutes": [
-            "10"
+            "40"
           ]
         },
         {
           "id": "0:1:3",
-          "number": "3",
-          "body": "320579cbaa5ca0f13f3f37d5c2ca0315cf76842055ae5a6ae3ed8ca6bba42c63",
+          "number": "2",
+          "body": "bee86d474f1557441ec3552ca816ab7af756264b0dbbd8718a977dc678b90eef",
           "minutes": [
-            "20"
-          ]
-        },
-        {
-          "id": "0:1:4",
-          "number": "4",
-          "body": "e945bac206b97fc1efe8bd2abbfd3c03d7dc3ab1be1639db83c5cf671992f639",
-          "minutes": [
-            "20"
+            "40"
           ]
         },
         {
           "id": "0:1:5",
-          "number": "5",
+          "number": "3",
           "body": "268b8891f3fe95068995ab8519e30427b2c709915a444bf6182a5b963ebdb44a",
           "minutes": [
             "15"
@@ -4529,7 +3762,7 @@
       "planen": [
         {
           "id": "1:1:1",
-          "number": "6",
+          "number": "4",
           "body": "9d6f72123a2060403f26af256c412aae788df0d97e383ddd6185e29aa1b8ee4d",
           "minutes": [
             "20"
@@ -4537,7 +3770,7 @@
         },
         {
           "id": "1:1:2",
-          "number": "7",
+          "number": "5",
           "body": "01d7aebdc4fccbe6d8cbc812cb4bbd4c6556a4551bb4cc8372edd09096e3c16b",
           "minutes": [
             "15"
@@ -4545,7 +3778,7 @@
         },
         {
           "id": "1:1:3",
-          "number": "8",
+          "number": "6",
           "body": "be9e87f93e78ca5ac94931e75d78425ea9b2a29f1c2445aab61a1fbfc187cf99",
           "minutes": [
             "20"
@@ -4555,7 +3788,7 @@
       "entscheiden": [
         {
           "id": "2:1:1",
-          "number": "9",
+          "number": "7",
           "body": "827e0a2625147ee5d3b587585d7d8ac8d91866f09a31ac0661b12d4fbcb18bac",
           "minutes": [
             "30"
@@ -4563,7 +3796,7 @@
         },
         {
           "id": "2:1:2",
-          "number": "10",
+          "number": "8",
           "body": "558f3f759e357caedb46b6812994baa1f5a85f592f2e4b17bb9cf3035cf95084",
           "minutes": [
             "20"
@@ -4571,7 +3804,7 @@
         },
         {
           "id": "2:1:3",
-          "number": "11",
+          "number": "9",
           "body": "247a552d03edbee7862ecffaa7285c0ea0ab644840db640af0f891dd3774896d",
           "minutes": [
             "15"
@@ -4581,7 +3814,7 @@
       "durchfuehren": [
         {
           "id": "3:1:1",
-          "number": "12",
+          "number": "10",
           "body": "69e22c6407c7f96c0f31297a29b235152cf810696927114c73ed43f88c8467c2",
           "minutes": [
             "45"
@@ -4589,7 +3822,7 @@
         },
         {
           "id": "3:1:2",
-          "number": "13",
+          "number": "11",
           "body": "6b6c1ed49114f7973297141f75249a0132f7089f2b79e2e57c01244e1f5fb619",
           "minutes": [
             "20"
@@ -4599,7 +3832,7 @@
       "bewerten": [
         {
           "id": "4:1:1",
-          "number": "14",
+          "number": "12",
           "body": "0753af232f13f33c0d4dd4d655db06ffb4f9c1509581e680d323b5b335f237c3",
           "minutes": [
             "20"
@@ -4607,7 +3840,7 @@
         },
         {
           "id": "4:1:2",
-          "number": "15",
+          "number": "13",
           "body": "3f818a9be44470dd14acb31403db92fe3cea917445f79c8f330515952a683113",
           "minutes": [
             "20"
@@ -4615,7 +3848,7 @@
         },
         {
           "id": "4:1:3",
-          "number": "16",
+          "number": "14",
           "body": "a7278d33155db297a64949bd79821caceb3441622dee5346ba29094038f7ae22",
           "minutes": [
             "15"
@@ -4625,7 +3858,7 @@
       "reflektieren": [
         {
           "id": "5:1:1",
-          "number": "17",
+          "number": "15",
           "body": "68a39f79277fd2fc4c046e962291ab2cbc1cb620c9d44cd16d45ccaf83371b3c",
           "minutes": [
             "5"
@@ -4633,7 +3866,7 @@
         },
         {
           "id": "5:1:2",
-          "number": "18",
+          "number": "16",
           "body": "10475af598762b6f25ad73f5240aae5875016497d4984a3206b52675641fd432",
           "minutes": [
             "5"
@@ -4641,7 +3874,7 @@
         },
         {
           "id": "5:1:3",
-          "number": "19",
+          "number": "17",
           "body": "b22e41f5f23b816a5f2c64b015f317f9e7aaddfa59a782fc056c62e3438e611b",
           "minutes": [
             "5"
@@ -6588,47 +5821,22 @@
       "0:1:1": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "38dc67d4"
-      },
-      "0:1:2": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "a8eb3a96"
+        "signature": "fc08cb4d"
       },
       "0:1:3": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "e5fd0fbf"
-      },
-      "0:1:4": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "959bf404"
-      },
-      "0:1:5": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "68716f5b"
+        "signature": "a0e0c216"
       },
       "0:1:6": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "0e461e64"
-      },
-      "0:1:7": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "4c140f70"
+        "signature": "941ca6c3"
       },
       "0:1:8": {
         "phase": "informieren",
         "mode": 1,
-        "signature": "19dd28ed"
-      },
-      "0:1:9": {
-        "phase": "informieren",
-        "mode": 1,
-        "signature": "c407492d"
+        "signature": "1330ab47"
       },
       "1:1:1": {
         "phase": "planen",
@@ -6653,12 +5861,7 @@
       "2:1:1": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "0439df9a"
-      },
-      "2:1:2": {
-        "phase": "entscheiden",
-        "mode": 1,
-        "signature": "61380f68"
+        "signature": "f669e83d"
       },
       "2:1:3": {
         "phase": "entscheiden",
@@ -6668,12 +5871,7 @@
       "2:1:4": {
         "phase": "entscheiden",
         "mode": 1,
-        "signature": "a34b3e4c"
-      },
-      "2:1:5": {
-        "phase": "entscheiden",
-        "mode": 1,
-        "signature": "5ec40a52"
+        "signature": "1be85e0d"
       },
       "3:1:1": {
         "phase": "durchfuehren",
@@ -6696,80 +5894,40 @@
         {
           "id": "0:1:1",
           "number": "1",
-          "body": "c558173e4d28582e812af27a63b19a79ba0b51535b31af0440f9fba319f1ab42",
+          "body": "1300a44e55417f8f8e2daa9ecd97af65d85103ca72787c77656bc5d101dd013b",
           "minutes": [
-            "27.0"
-          ]
-        },
-        {
-          "id": "0:1:2",
-          "number": "2",
-          "body": "5af3bfd19642a52b7aa95ce8a14ee14002a4577434b8ae52af43f8dea99bb001",
-          "minutes": [
-            "26.5"
+            "53.5"
           ]
         },
         {
           "id": "0:1:3",
-          "number": "3",
-          "body": "46ddd05da4c450f97e3004007620c30f09dd5b60bdc8f587cd39c4ea2fa52075",
+          "number": "2",
+          "body": "7073188c8ff727ccc46dee3c4d3f26a459faac5fcc8d205a346952a79d92e82d",
           "minutes": [
-            "33.5"
-          ]
-        },
-        {
-          "id": "0:1:4",
-          "number": "4",
-          "body": "816fe3cbbfe10d522a4d7d7d6ab9b5ac583891080e088bfa3fec5c91569e861b",
-          "minutes": [
-            "28.5"
-          ]
-        },
-        {
-          "id": "0:1:5",
-          "number": "5",
-          "body": "8774ae1380288b58a8c89110269ea8c585fb5aef38708b75798239771be6b0f5",
-          "minutes": [
-            "30.0"
+            "92"
           ]
         },
         {
           "id": "0:1:6",
-          "number": "6",
-          "body": "a37b6d2f9a81b8d5a3de9281c71d5f8dec50f7ea6cb409ec35ce6c35671c7fa2",
+          "number": "3",
+          "body": "ccbb9b219930d3bd2d5de76cba02106b05495499a0ebc7234f677f93ee0ceec1",
           "minutes": [
-            "34.5"
-          ]
-        },
-        {
-          "id": "0:1:7",
-          "number": "7",
-          "body": "205629a3f83b137bfe17ec7c7d4fa5ba8944107700636df29fa8fabd91d51b8d",
-          "minutes": [
-            "31.5"
+            "66"
           ]
         },
         {
           "id": "0:1:8",
-          "number": "8",
-          "body": "df301cfd6ff99258ab71fefdf1b88526579f5c4797305311d68a8d81c122f4cd",
+          "number": "4",
+          "body": "6036cbd34c084c0b94cf649fec0b7bfd09a1ebec53b8841629bb69dc043c8002",
           "minutes": [
-            "24.0"
-          ]
-        },
-        {
-          "id": "0:1:9",
-          "number": "9",
-          "body": "d39050aed57b26d19b3edd1759b75f71641190bfd30f69f45e87f08151a1c72f",
-          "minutes": [
-            "34.5"
+            "58.5"
           ]
         }
       ],
       "planen": [
         {
           "id": "1:1:1",
-          "number": "1",
+          "number": "5",
           "body": "a4afc495a3293b28b853876c85bb634538832232919a0643ab519a141b8a0d8a",
           "minutes": [
             "35.0"
@@ -6777,7 +5935,7 @@
         },
         {
           "id": "1:1:2",
-          "number": "2",
+          "number": "6",
           "body": "f19b51eed1d81753238c6a96dfa87fa1fd95a73232cf12ae06c337738d0a4b59",
           "minutes": [
             "39.5"
@@ -6785,7 +5943,7 @@
         },
         {
           "id": "1:1:3",
-          "number": "3",
+          "number": "7",
           "body": "80133dd31fce3d21a0956e37606b711529a776cc34fa5b9c72932725aa72ab8a",
           "minutes": [
             "33.5"
@@ -6793,7 +5951,7 @@
         },
         {
           "id": "1:1:4",
-          "number": "4",
+          "number": "8",
           "body": "795918cd43ac224c3b3dda858369f62c45cebb11ac9c21ca66c09e442b19c46b",
           "minutes": [
             "27.0"
@@ -6803,23 +5961,15 @@
       "entscheiden": [
         {
           "id": "2:1:1",
-          "number": "1",
-          "body": "cbf155fc6ed342b4bd3cdf69f932830734991737d68ee7053f61db3f25938b85",
+          "number": "9",
+          "body": "d0fe924c5e3838eff2f17020e909af193ada0899038c98cfa72d9e2a22af3744",
           "minutes": [
-            "20.0"
-          ]
-        },
-        {
-          "id": "2:1:2",
-          "number": "2",
-          "body": "9e9610026f510cc997799e4cd6a6c01bbf12701da67bef9b98f797bf44884d14",
-          "minutes": [
-            "24.5"
+            "44.5"
           ]
         },
         {
           "id": "2:1:3",
-          "number": "3",
+          "number": "10",
           "body": "7c14724cf112a190685b9d4528e687d6dee919b3375aca7be31688c644bc9f9a",
           "minutes": [
             "29.5"
@@ -6827,25 +5977,17 @@
         },
         {
           "id": "2:1:4",
-          "number": "4",
-          "body": "4f22a6f3d74dbeabb57caeeeef5b9f0a7ec66e34dc1c5287b20ffe4785ed9f96",
+          "number": "11",
+          "body": "e0e30236a0d3497e5b06f346be8114486c4ca8e62cc253dc6b1ba668202dcbfe",
           "minutes": [
-            "33.5"
-          ]
-        },
-        {
-          "id": "2:1:5",
-          "number": "5",
-          "body": "186ea23ca09eebe4dd4144182bd7f663cef38a0ed5b311edd1513049134dccc2",
-          "minutes": [
-            "27.5"
+            "61"
           ]
         }
       ],
       "durchfuehren": [
         {
           "id": "3:1:1",
-          "number": "1",
+          "number": "12",
           "body": "3437a0a2af0dcee40e6aebece65ba0e210d23fc1e557c23347a754b96675c77b",
           "minutes": [
             "180.0"
@@ -6855,7 +5997,7 @@
       "bewerten": [
         {
           "id": "4:1:1",
-          "number": "1",
+          "number": "13",
           "body": "b5904831ea57dac69fa04cc52317f060b58065a162446914d68ecefa2895a337",
           "minutes": [
             "45.0"
@@ -6865,7 +6007,7 @@
       "reflektieren": [
         {
           "id": "5:1:1",
-          "number": "1",
+          "number": "14",
           "body": "94aec91a6f37d5b4baf414f2f7be01d6cb0a5d4e6a3dccb8ff9943cf1bec7a2e",
           "minutes": [
             "45.0"

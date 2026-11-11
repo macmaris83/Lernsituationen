@@ -1,43 +1,54 @@
 {
+  "LS04:informieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
+  "LS04:informieren:1:2": {
+    "kind": "pair",
+    "label": "Partnerarbeit"
+  },
+  "LS04:planen:1:1": {
+    "kind": "group",
+    "label": "Pitchteam"
+  },
+  "LS04:planen:1:2": {
+    "kind": "group",
+    "label": "Pitchteam"
+  },
+  "LS04:entscheiden:1:1": {
+    "kind": "group",
+    "label": "Pitchteam"
+  },
+  "LS04:entscheiden:1:2": {
+    "kind": "group",
+    "label": "Pitchteam"
+  },
+  "LS04:durchfuehren:1:1": {
+    "kind": "group",
+    "label": "Pitchteam und Rückmeldegruppe"
+  },
+  "LS04:bewerten:1:1": {
+    "kind": "partner-groups",
+    "label": "Rückmeldegruppe ↔ Pitchteam"
+  },
+  "LS04:reflektieren:1:1": {
+    "kind": "individual",
+    "label": "Einzelarbeit"
+  },
   "LS01:informieren:1:1": {
     "kind": "individual",
-    "label": "Einzelarbeit",
-    "reason": "Eigene Problemdiagnose sichert den persönlichen Einstieg vor dem Gruppenaustausch."
+    "label": "Einzelarbeit → Partnerarbeit",
+    "reason": "Eigene Problemdiagnose sichert den persönlichen Einstieg vor dem Gruppenaustausch. Zwei Lernende vergleichen und belegen die Gründerprofile; anschließend fließen die Befunde in die gemeinsame Diagnose. Kundenbedürfnisse lassen sich zu zweit auswerten und auf Materialbezug gegenprüfen."
   },
   "LS01:informieren:1:2": {
     "kind": "pair",
-    "label": "Partnerarbeit",
-    "reason": "Zwei Lernende vergleichen und belegen die Gründerprofile; anschließend fließen die Befunde in die gemeinsame Diagnose."
+    "label": "Partnerarbeit → Vierergruppe",
+    "reason": "Die Zuordnung der Ziele wird im Partnerabgleich fachlich überprüft. Die vier Interessenperspektiven werden gemeinsam mit Beiträgen und Zielkonflikten abgestimmt."
   },
   "LS01:informieren:1:3": {
     "kind": "pair",
-    "label": "Partnerarbeit",
-    "reason": "Kundenbedürfnisse lassen sich zu zweit auswerten und auf Materialbezug gegenprüfen."
-  },
-  "LS01:informieren:1:4": {
-    "kind": "pair",
-    "label": "Partnerarbeit",
-    "reason": "Die Zuordnung der Ziele wird im Partnerabgleich fachlich überprüft."
-  },
-  "LS01:informieren:1:5": {
-    "kind": "group",
-    "label": "Vierergruppe",
-    "reason": "Die vier Interessenperspektiven werden gemeinsam mit Beiträgen und Zielkonflikten abgestimmt."
-  },
-  "LS01:informieren:1:6": {
-    "kind": "pair",
-    "label": "Partnerarbeit",
-    "reason": "Betriebsarten und Begründungen werden zu zweit gegenübergestellt und gegengeprüft."
-  },
-  "LS01:informieren:1:7": {
-    "kind": "group",
-    "label": "Vierergruppe",
-    "reason": "Die Prozesskette verbindet Beiträge zu Einkauf, Produktion, Vertrieb und Zahlung in der Vierergruppe."
-  },
-  "LS01:informieren:1:8": {
-    "kind": "group",
-    "label": "Vierergruppe",
-    "reason": "Die zweiminütige Problemdiagnose ist eine gemeinsame Sicherung der vier Gruppenmitglieder."
+    "label": "Partnerarbeit → Vierergruppe",
+    "reason": "Betriebsarten und Begründungen werden zu zweit gegenübergestellt und gegengeprüft. Die Prozesskette verbindet Beiträge zu Einkauf, Produktion, Vertrieb und Zahlung in der Vierergruppe. Die zweiminütige Problemdiagnose ist eine gemeinsame Sicherung der vier Gruppenmitglieder."
   },
   "LS01:planen:1:1": {
     "kind": "group",
@@ -96,43 +107,23 @@
   },
   "LS02:informieren:1:1": {
     "kind": "individual",
-    "label": "Einzelarbeit",
-    "reason": "Die eigene Diagnose des Entscheidungsproblems und seiner Risiken geht dem Gruppenaustausch voraus."
+    "label": "Einzelarbeit → Partnerarbeit",
+    "reason": "Die eigene Diagnose des Entscheidungsproblems und seiner Risiken geht dem Gruppenaustausch voraus. Voraussetzungen und begründete Mehrfachzuordnungen werden zu zweit abgeglichen."
   },
   "LS02:informieren:1:2": {
     "kind": "pair",
-    "label": "Partnerarbeit",
-    "reason": "Voraussetzungen und begründete Mehrfachzuordnungen werden zu zweit abgeglichen."
+    "label": "Partnerarbeit → Vierergruppe",
+    "reason": "Standortfragen und Belege werden im Tandem auf Vollständigkeit überprüft. Kompetenzlücken und Verantwortungen der vier Gründerpersonen werden gemeinsam abgeglichen."
   },
   "LS02:informieren:1:3": {
-    "kind": "pair",
-    "label": "Partnerarbeit",
-    "reason": "Standortfragen und Belege werden im Tandem auf Vollständigkeit überprüft."
+    "kind": "group",
+    "label": "Vierergruppe → Partnerarbeit",
+    "reason": "Die Quellenakte wird innerhalb der Vierergruppe arbeitsteilig erschlossen und danach zusammengeführt. Die drei ungeprüften Quellen werden zu zweit anhand derselben Qualitätsmerkmale gegengeprüft."
   },
   "LS02:informieren:1:4": {
-    "kind": "group",
-    "label": "Vierergruppe",
-    "reason": "Kompetenzlücken und Verantwortungen der vier Gründerpersonen werden gemeinsam abgeglichen."
-  },
-  "LS02:informieren:1:5": {
-    "kind": "group",
-    "label": "Vierergruppe",
-    "reason": "Die Quellenakte wird innerhalb der Vierergruppe arbeitsteilig erschlossen und danach zusammengeführt."
-  },
-  "LS02:informieren:1:6": {
-    "kind": "pair",
-    "label": "Partnerarbeit",
-    "reason": "Die drei ungeprüften Quellen werden zu zweit anhand derselben Qualitätsmerkmale gegengeprüft."
-  },
-  "LS02:informieren:1:7": {
     "kind": "individual",
-    "label": "Einzelarbeit",
-    "reason": "Jede Person erklärt selbst den Zusammenhang von Gründungsfahrplan und Businessplan."
-  },
-  "LS02:informieren:1:8": {
-    "kind": "group",
-    "label": "Vierergruppe",
-    "reason": "Die gemeinsame Übersicht führt die arbeitsteiligen Ergebnisse mit offiziellen Quellen zusammen."
+    "label": "Einzelarbeit → Vierergruppe",
+    "reason": "Jede Person erklärt selbst den Zusammenhang von Gründungsfahrplan und Businessplan. Die gemeinsame Übersicht führt die arbeitsteiligen Ergebnisse mit offiziellen Quellen zusammen."
   },
   "LS02:planen:1:1": {
     "kind": "group",
@@ -191,48 +182,23 @@
   },
   "LS03:informieren:1:1": {
     "kind": "individual",
-    "label": "Einzelarbeit",
-    "reason": "Zunächst wird das Unternehmensproblem eigenständig verstanden, bevor Expertisen verteilt werden."
+    "label": "Einzelarbeit → Expertengruppe · Produkt",
+    "reason": "Zunächst wird das Unternehmensproblem eigenständig verstanden, bevor Expertisen verteilt werden. Die Produktexpertise erschließt alle fünf Konzepte für die spätere Stammgruppe."
   },
   "LS03:informieren:1:2": {
     "kind": "expert-group",
-    "label": "Expertengruppe · Produkt",
-    "reason": "Die Produktexpertise erschließt alle fünf Konzepte für die spätere Stammgruppe."
+    "label": "Expertengruppe · Markt → Expertengruppe · Marketing",
+    "reason": "Die Marktexpertise wertet Kundendaten und Absatzannahmen nachvollziehbar aus. Die Wettbewerbsanalyse ergänzt die Marktexpertise und wird später materialgestützt erklärt. Die Marketingexpertise prüft die vier Instrumente und ihre Abhängigkeiten."
   },
   "LS03:informieren:1:3": {
     "kind": "expert-group",
-    "label": "Expertengruppe · Markt",
-    "reason": "Die Marktexpertise wertet Kundendaten und Absatzannahmen nachvollziehbar aus."
+    "label": "Expertengruppe · Kapital → Expertengruppe · Kapazität",
+    "reason": "Die Kapitalexpertise erstellt nachvollziehbare Berechnungen für das gesamte Team. Die Kapazitätsexpertise prüft Mengen, Kapazität und Überschuss für die Stammgruppe."
   },
   "LS03:informieren:1:4": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Markt",
-    "reason": "Die Wettbewerbsanalyse ergänzt die Marktexpertise und wird später materialgestützt erklärt."
-  },
-  "LS03:informieren:1:5": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Marketing",
-    "reason": "Die Marketingexpertise prüft die vier Instrumente und ihre Abhängigkeiten."
-  },
-  "LS03:informieren:1:6": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Kapital",
-    "reason": "Die Kapitalexpertise erstellt nachvollziehbare Berechnungen für das gesamte Team."
-  },
-  "LS03:informieren:1:7": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Kapazität",
-    "reason": "Die Kapazitätsexpertise prüft Mengen, Kapazität und Überschuss für die Stammgruppe."
-  },
-  "LS03:informieren:1:8": {
     "kind": "group",
-    "label": "Stammgruppe",
-    "reason": "Widerspruchsnotizen verbinden alle Fachkapitel und werden gemeinsam in der Stammgruppe geklärt."
-  },
-  "LS03:informieren:1:9": {
-    "kind": "expert-group",
-    "label": "Expertengruppe → Stammgruppe",
-    "reason": "Der Kurzbericht wird in der Expertise vorbereitet und nur nachvollziehbar in die Stammgruppe übernommen."
+    "label": "Stammgruppe → Expertengruppe → Stammgruppe",
+    "reason": "Widerspruchsnotizen verbinden alle Fachkapitel und werden gemeinsam in der Stammgruppe geklärt. Der Kurzbericht wird in der Expertise vorbereitet und nur nachvollziehbar in die Stammgruppe übernommen."
   },
   "LS03:planen:1:1": {
     "kind": "group",
@@ -269,16 +235,6 @@
     "label": "Stammgruppe · Geschäftsführung",
     "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
   },
-  "LS03:entscheiden:1:4": {
-    "kind": "group",
-    "label": "Stammgruppe · Geschäftsführung",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
-  },
-  "LS03:entscheiden:1:5": {
-    "kind": "group",
-    "label": "Stammgruppe · Geschäftsführung",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
-  },
   "LS03:durchfuehren:1:1": {
     "kind": "group",
     "label": "Stammgruppe · Redaktion",
@@ -294,86 +250,25 @@
     "label": "Einzelarbeit",
     "reason": "Persönliche Urteile, eigene Lernentwicklung und der nächste Lernschritt werden individuell dokumentiert; die vorgesehene anschließende Runde bleibt erhalten."
   },
-  "LS04:informieren:1:1": {
-    "kind": "individual",
-    "label": "Einzelarbeit"
-  },
-  "LS04:informieren:1:2": {
-    "kind": "pair",
-    "label": "Partnerarbeit"
-  },
-  "LS04:planen:1:1": {
-    "kind": "group",
-    "label": "Pitchteam"
-  },
-  "LS04:planen:1:2": {
-    "kind": "group",
-    "label": "Pitchteam"
-  },
-  "LS04:entscheiden:1:1": {
-    "kind": "group",
-    "label": "Pitchteam"
-  },
-  "LS04:entscheiden:1:2": {
-    "kind": "group",
-    "label": "Pitchteam"
-  },
-  "LS04:durchfuehren:1:1": {
-    "kind": "group",
-    "label": "Pitchteam und Rückmeldegruppe"
-  },
-  "LS04:bewerten:1:1": {
-    "kind": "partner-groups",
-    "label": "Rückmeldegruppe ↔ Pitchteam"
-  },
-  "LS04:reflektieren:1:1": {
-    "kind": "individual",
-    "label": "Einzelarbeit"
-  },
   "LS05:informieren:1:1": {
     "kind": "individual",
-    "label": "Einzelarbeit",
-    "reason": "Der persönliche Einstieg identifiziert Entscheidungsproblem und benötigte Auskünfte."
+    "label": "Einzelarbeit → Partnerarbeit",
+    "reason": "Der persönliche Einstieg identifiziert Entscheidungsproblem und benötigte Auskünfte. Gründerinteressen, Beiträge und Rechte werden zu zweit materialgestützt abgeglichen. Wirtschaftliche Haftungsfolgen der Verpflichtungen werden im Tandem überprüft."
   },
   "LS05:informieren:1:2": {
-    "kind": "pair",
-    "label": "Partnerarbeit",
-    "reason": "Gründerinteressen, Beiträge und Rechte werden zu zweit materialgestützt abgeglichen."
+    "kind": "expert-group",
+    "label": "Expertengruppe · Rechtsform → Stammgruppe",
+    "reason": "Die Quelle verlangt ausdrücklich die arbeitsteilige Erschließung je einer Rechtsform. Die vier Rechtsformexpertisen werden anhand gemeinsamer Merkmale in der Stammgruppe verglichen."
   },
   "LS05:informieren:1:3": {
     "kind": "pair",
     "label": "Partnerarbeit",
-    "reason": "Wirtschaftliche Haftungsfolgen der Verpflichtungen werden im Tandem überprüft."
+    "reason": "Die konkreten Haftungsfälle werden anhand derselben Rechtsgrundlagen gegenseitig geprüft. Gesetzesbelege und korrigierte Chat-Aussagen werden im Partnercheck kontrolliert."
   },
   "LS05:informieren:1:4": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Rechtsform",
-    "reason": "Die Quelle verlangt ausdrücklich die arbeitsteilige Erschließung je einer Rechtsform."
-  },
-  "LS05:informieren:1:5": {
     "kind": "group",
-    "label": "Stammgruppe",
-    "reason": "Die vier Rechtsformexpertisen werden anhand gemeinsamer Merkmale in der Stammgruppe verglichen."
-  },
-  "LS05:informieren:1:6": {
-    "kind": "pair",
-    "label": "Partnerarbeit",
-    "reason": "Die konkreten Haftungsfälle werden anhand derselben Rechtsgrundlagen gegenseitig geprüft."
-  },
-  "LS05:informieren:1:7": {
-    "kind": "pair",
-    "label": "Partnerarbeit",
-    "reason": "Gesetzesbelege und korrigierte Chat-Aussagen werden im Partnercheck kontrolliert."
-  },
-  "LS05:informieren:1:8": {
-    "kind": "group",
-    "label": "Vierergruppe",
-    "reason": "Die formalen Gründungsschritte werden gemeinsam in eine belastbare Folge gebracht."
-  },
-  "LS05:informieren:1:9": {
-    "kind": "group",
-    "label": "Stammgruppe",
-    "reason": "Die quellenbelegte Vergleichstabelle sichert die Ergebnisse aller Expertisen."
+    "label": "Vierergruppe → Stammgruppe",
+    "reason": "Die formalen Gründungsschritte werden gemeinsam in eine belastbare Folge gebracht. Die quellenbelegte Vergleichstabelle sichert die Ergebnisse aller Expertisen."
   },
   "LS05:planen:1:1": {
     "kind": "group",
@@ -405,21 +300,6 @@
     "label": "Gründerrollen · Rechtsformwahl",
     "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
   },
-  "LS05:entscheiden:1:3": {
-    "kind": "group",
-    "label": "Gründerrollen · Rechtsformwahl",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
-  },
-  "LS05:entscheiden:1:4": {
-    "kind": "group",
-    "label": "Gründerrollen · Rechtsformwahl",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
-  },
-  "LS05:entscheiden:1:5": {
-    "kind": "group",
-    "label": "Gründerrollen · Rechtsformwahl",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
-  },
   "LS05:durchfuehren:1:1": {
     "kind": "group",
     "label": "Vierergruppe · Zusammenführung",
@@ -437,85 +317,35 @@
   },
   "LS06:informieren:1:1": {
     "kind": "individual",
-    "label": "Einzelarbeit",
-    "reason": "Jede Person erschließt zuerst die Dokumentenkette und ihre rechtliche Funktion."
+    "label": "Einzelarbeit → Expertengruppe · Vertrag",
+    "reason": "Jede Person erschließt zuerst die Dokumentenkette und ihre rechtliche Funktion. Die Vertragsexpertise prüft den Zeitpunkt und Inhalt des Vertragsschlusses. Die Vertragsexpertise hält die endgültig geltenden Vertragsinhalte fest. Die Vertragsexpertise überprüft sämtliche Wirksamkeitsvoraussetzungen. Die Vertragsexpertise verbindet Hauptpflichten mit betrieblichen Folgen."
   },
   "LS06:informieren:1:2": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Vertrag",
-    "reason": "Die Vertragsexpertise prüft den Zeitpunkt und Inhalt des Vertragsschlusses."
-  },
-  "LS06:informieren:1:3": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Vertrag",
-    "reason": "Die Vertragsexpertise hält die endgültig geltenden Vertragsinhalte fest."
-  },
-  "LS06:informieren:1:4": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Vertrag",
-    "reason": "Die Vertragsexpertise überprüft sämtliche Wirksamkeitsvoraussetzungen."
-  },
-  "LS06:informieren:1:5": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Vertrag",
-    "reason": "Die Vertragsexpertise verbindet Hauptpflichten mit betrieblichen Folgen."
-  },
-  "LS06:informieren:1:6": {
     "kind": "expert-group",
     "label": "Expertengruppe · Zahlung",
     "reason": "Die Zahlungsexpertise vergleicht die vier Optionen mit nachvollziehbaren Rechnungen."
   },
-  "LS06:informieren:1:7": {
+  "LS06:informieren:1:3": {
     "kind": "expert-group",
     "label": "Expertengruppe · Reklamation",
-    "reason": "Die Reklamationsexpertise bestimmt Mangelart, Menge und Wert."
+    "reason": "Die Reklamationsexpertise bestimmt Mangelart, Menge und Wert. Die Reklamationsexpertise prüft Rüge und Käuferrechte mit Rechtsbelegen. Die Reklamationsexpertise grenzt gesicherte Ursachen und geeignete Reaktionen ab."
   },
-  "LS06:informieren:1:8": {
+  "LS06:informieren:1:4": {
     "kind": "expert-group",
-    "label": "Expertengruppe · Reklamation",
-    "reason": "Die Reklamationsexpertise prüft Rüge und Käuferrechte mit Rechtsbelegen."
-  },
-  "LS06:informieren:1:9": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Reklamation",
-    "reason": "Die Reklamationsexpertise grenzt gesicherte Ursachen und geeignete Reaktionen ab."
-  },
-  "LS06:informieren:1:10": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Personal",
-    "reason": "Die Personalexpertise vergleicht Stunden, Kosten und Wirkungen der Beschäftigungsformen."
-  },
-  "LS06:informieren:1:11": {
-    "kind": "expert-group",
-    "label": "Expertengruppe · Personal",
-    "reason": "Die Personalexpertise prüft den Arbeitsvertragsentwurf anhand der angegebenen Quellen."
-  },
-  "LS06:informieren:1:12": {
-    "kind": "expert-group",
-    "label": "Expertengruppe → Stammgruppe",
-    "reason": "Jede Expertise übergibt eine belegte Prüfnotiz und erläutert deren Folgerung für BioCasa."
+    "label": "Expertengruppe · Personal → Expertengruppe → Stammgruppe",
+    "reason": "Die Personalexpertise vergleicht Stunden, Kosten und Wirkungen der Beschäftigungsformen. Die Personalexpertise prüft den Arbeitsvertragsentwurf anhand der angegebenen Quellen. Jede Expertise übergibt eine belegte Prüfnotiz und erläutert deren Folgerung für BioCasa."
   },
   "LS06:planen:1:1": {
     "kind": "group",
-    "label": "Stammgruppe",
-    "reason": "Auftragsplanung wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+    "label": "Stammgruppe → Partnerarbeit",
+    "reason": "Auftragsplanung wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt. Kundeninformation wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
   },
   "LS06:planen:1:2": {
     "kind": "pair",
     "label": "Partnerarbeit",
-    "reason": "Kundeninformation wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
+    "reason": "Zahlungskriterien wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt. Personalkriterien wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
   },
   "LS06:planen:1:3": {
-    "kind": "pair",
-    "label": "Partnerarbeit",
-    "reason": "Zahlungskriterien wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
-  },
-  "LS06:planen:1:4": {
-    "kind": "pair",
-    "label": "Partnerarbeit",
-    "reason": "Personalkriterien wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
-  },
-  "LS06:planen:1:5": {
     "kind": "group",
     "label": "Stammgruppe",
     "reason": "Gründerrollen wird passend zur Aufgabe im Tandem vorbereitet oder gemeinsam koordiniert; Partnerentwürfe werden in der Vierer-/Stammgruppe abgestimmt."
@@ -531,16 +361,6 @@
     "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
   },
   "LS06:entscheiden:1:3": {
-    "kind": "group",
-    "label": "Stammgruppe · Fallentscheidung",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
-  },
-  "LS06:entscheiden:1:4": {
-    "kind": "group",
-    "label": "Stammgruppe · Fallentscheidung",
-    "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."
-  },
-  "LS06:entscheiden:1:5": {
     "kind": "group",
     "label": "Stammgruppe · Fallentscheidung",
     "reason": "Unternehmerische Auswahl, Gründerinteressen und Folgen müssen gemeinsam begründet und verantwortet werden; die einzelnen Perspektiven bleiben sichtbar."

@@ -1,97 +1,87 @@
 {
   "0:1:1": {
-    "lines": 24,
-    "reason": "Vier Widerstandsursachen mit Belegen unterscheiden; drei Prozentrechnungen mit Ansatz, Ergebnis, Summen- und Rundungsprüfung.",
-    "area": "grid"
-  },
-  "0:1:2": {
-    "lines": 6,
-    "reason": "Mehrere überzogene Erwartungen benennen und jeweils den fehlenden Realismus kurz erklären.",
-    "area": "lines"
+    "lines": 30,
+    "area": "grid",
+    "reason": "Vier Widerstandsursachen mit Belegen unterscheiden; drei Prozentrechnungen mit Ansatz, Ergebnis, Summen- und Rundungsprüfung. Mehrere überzogene Erwartungen benennen und jeweils den fehlenden Realismus kurz erklären."
   },
   "0:1:3": {
-    "lines": 18,
-    "reason": "Instrumente, acht Stakeholder und Ressourcen aus drei Materialien geordnet auswerten.",
-    "area": "lines"
-  },
-  "0:1:4": {
-    "lines": 24,
-    "reason": "Leitplanken, Einfluss und Betroffenheit der acht Stakeholder sowie Zeit- und Kapazitätsgrenzen zuordnen.",
-    "area": "grid"
+    "lines": 42,
+    "area": "grid",
+    "reason": "Instrumente, acht Stakeholder und Ressourcen aus drei Materialien geordnet auswerten. Leitplanken, Einfluss und Betroffenheit der acht Stakeholder sowie Zeit- und Kapazitätsgrenzen zuordnen."
   },
   "0:1:5": {
     "lines": 16,
-    "reason": "Sechs Schwierigkeiten und zwei nützliche Erfahrungen aus M8 mit Ursachen und Folgerungen verbinden.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Sechs Schwierigkeiten und zwei nützliche Erfahrungen aus M8 mit Ursachen und Folgerungen verbinden."
   },
   "1:1:1": {
     "lines": 15,
-    "reason": "Fünf Changephasen mit jeweiligen Aufgaben, Abhängigkeiten und Übergängen strukturieren.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Fünf Changephasen mit jeweiligen Aufgaben, Abhängigkeiten und Übergängen strukturieren."
   },
   "1:1:2": {
     "lines": 12,
-    "reason": "Mehrere Ziele mit Kennzahl, Zielwert und Messzeitpunkt definieren.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Mehrere Ziele mit Kennzahl, Zielwert und Messzeitpunkt definieren."
   },
   "1:1:3": {
     "lines": 20,
-    "reason": "Sechs Rollen mit Verantwortung, Übergaben und Rückkopplung nachvollziehbar zuordnen.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Sechs Rollen mit Verantwortung, Übergaben und Rückkopplung nachvollziehbar zuordnen."
   },
   "2:1:1": {
     "lines": 30,
-    "reason": "Drei Ressourcenrechnungen mit Rechenwegen und Einheiten, eigener Wochenbedarf, Kapazitätsabgleich und Prioritäten.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Drei Ressourcenrechnungen mit Rechenwegen und Einheiten, eigener Wochenbedarf, Kapazitätsabgleich und Prioritäten."
   },
   "2:1:2": {
     "lines": 18,
-    "reason": "Mehrere Aktivitäten drei Zeithorizonten zuordnen und ihre zeitliche Notwendigkeit begründen.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Mehrere Aktivitäten drei Zeithorizonten zuordnen und ihre zeitliche Notwendigkeit begründen."
   },
   "2:1:3": {
     "lines": 10,
-    "reason": "Konkrete Stop- und Anpassungskriterien mit Messgröße, Auslöser und Reaktion festlegen.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Konkrete Stop- und Anpassungskriterien mit Messgröße, Auslöser und Reaktion festlegen."
   },
   "3:1:1": {
     "lines": 44,
-    "reason": "Maßnahmenplan nach sieben Formbausteinen mit mehreren Maßnahmen, konkretem Befund und erwarteter Wirkung ausarbeiten.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Maßnahmenplan nach sieben Formbausteinen mit mehreren Maßnahmen, konkretem Befund und erwarteter Wirkung ausarbeiten."
   },
   "3:1:2": {
     "lines": 16,
-    "reason": "Für mindestens vier Stakeholder Botschaft, Kommunikations-/Beteiligungsweg und Zugang konsistent festhalten.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Für mindestens vier Stakeholder Botschaft, Kommunikations-/Beteiligungsweg und Zugang konsistent festhalten."
   },
   "4:1:1": {
     "lines": 8,
-    "reason": "Mündlicher Lenkungskreis; zentrale Rückmeldungen, Risiken und Beschlüsse kurz protokollieren.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Mündlicher Lenkungskreis; zentrale Rückmeldungen, Risiken und Beschlüsse kurz protokollieren."
   },
   "4:1:2": {
     "lines": 18,
-    "reason": "Sechs Qualitätskriterien prüfen und Lehrkraftfeedback sowie konkrete Schwachstellen dokumentieren.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Sechs Qualitätskriterien prüfen und Lehrkraftfeedback sowie konkrete Schwachstellen dokumentieren."
   },
   "4:1:3": {
     "lines": 12,
-    "reason": "Mehrere Maßnahmen mit unklarer Wirkung überarbeiten und die Änderung begründen.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Mehrere Maßnahmen mit unklarer Wirkung überarbeiten und die Änderung begründen."
   },
   "5:1:1": {
     "lines": 4,
-    "reason": "Einen Widerstand, seine konkrete Ursache und die betroffene Gruppe knapp zuordnen.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Einen Widerstand, seine konkrete Ursache und die betroffene Gruppe knapp zuordnen."
   },
   "5:1:2": {
     "lines": 5,
-    "reason": "Wirkmechanismus einer Maßnahme und beobachtbares Verbesserungsmerkmal verständlich erklären.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Wirkmechanismus einer Maßnahme und beobachtbares Verbesserungsmerkmal verständlich erklären."
   },
   "5:1:3": {
     "lines": 3,
-    "reason": "Online-Feedback und Selbsteinschätzung; nur kurze persönliche Abschlussnotiz nötig.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Online-Feedback und Selbsteinschätzung; nur kurze persönliche Abschlussnotiz nötig."
   }
 }

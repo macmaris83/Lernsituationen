@@ -1,102 +1,77 @@
 {
   "0:1:1": {
-    "lines": 10,
-    "reason": "Entscheidungsrelevante Ausgangslage aus vier Materialien knapp festhalten.",
-    "area": "lines"
-  },
-  "0:1:2": {
-    "lines": 30,
-    "reason": "Sechs Bereiche mit je drei Rechenschritten; Formeln, eingesetzte Zahlen und FTE müssen lesbar bleiben.",
-    "area": "grid"
-  },
-  "0:1:3": {
-    "lines": 10,
-    "reason": "Gesamtsummen unabhängig kontrollieren und das Vorzeichen des Nettobedarfs deuten.",
-    "area": "grid"
+    "lines": 50,
+    "area": "grid",
+    "reason": "Entscheidungsrelevante Ausgangslage aus vier Materialien knapp festhalten. Sechs Bereiche mit je drei Rechenschritten; Formeln, eingesetzte Zahlen und FTE müssen lesbar bleiben. Gesamtsummen unabhängig kontrollieren und das Vorzeichen des Nettobedarfs deuten."
   },
   "0:1:4": {
-    "lines": 14,
-    "reason": "Fünf qualitative Bedarfsprofile mit wesentlichen Kenntnissen und Fähigkeiten herausarbeiten.",
-    "area": "lines"
-  },
-  "0:1:5": {
-    "lines": 12,
-    "reason": "Startkompetenzen und entwickelbare Kompetenzen den fünf Rollen zuordnen.",
-    "area": "grid"
+    "lines": 26,
+    "area": "grid",
+    "reason": "Fünf qualitative Bedarfsprofile mit wesentlichen Kenntnissen und Fähigkeiten herausarbeiten. Startkompetenzen und entwickelbare Kompetenzen den fünf Rollen zuordnen."
   },
   "0:1:6": {
     "lines": 8,
-    "reason": "Arbeitsmarktaussage passenden Berufsgruppen zuordnen und ihre Übertragungsgrenze erklären.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Arbeitsmarktaussage passenden Berufsgruppen zuordnen und ihre Übertragungsgrenze erklären."
   },
   "1:1:1": {
     "lines": 16,
-    "reason": "Personalpaket und Beschlussstruktur mit vier voneinander abhängigen Funktionsbeiträgen planen.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Personalpaket und Beschlussstruktur mit vier voneinander abhängigen Funktionsbeiträgen planen."
   },
   "1:1:2": {
     "lines": 18,
-    "reason": "Tätigkeitsbezogene Auswahlkriterien mit Gewichten und terminierter Umsetzung festhalten.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Tätigkeitsbezogene Auswahlkriterien mit Gewichten und terminierter Umsetzung festhalten."
   },
   "1:1:3": {
     "lines": 8,
-    "reason": "Berufsbezogene Angaben von sachfremden Auswahlmerkmalen unterscheiden und begründen.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Berufsbezogene Angaben von sachfremden Auswahlmerkmalen unterscheiden und begründen."
   },
   "2:1:1": {
     "lines": 14,
-    "reason": "Beschaffungsweg für die einzelnen Bedarfe mit knapper Begründung zuordnen.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Beschaffungsweg für die einzelnen Bedarfe mit knapper Begründung zuordnen."
   },
   "2:1:2": {
-    "lines": 22,
-    "reason": "Drei Kandidaturen anhand gewichteter tätigkeitsbezogener Kriterien vergleichen und Auswahl begründen.",
-    "area": "grid"
-  },
-  "2:1:3": {
-    "lines": 14,
-    "reason": "Einarbeitung, Qualifizierung und mögliche Folgevakanz mit Kosten- und Terminfolgen erläutern.",
-    "area": "lines"
+    "lines": 36,
+    "area": "grid",
+    "reason": "Drei Kandidaturen anhand gewichteter tätigkeitsbezogener Kriterien vergleichen und Auswahl begründen. Einarbeitung, Qualifizierung und mögliche Folgevakanz mit Kosten- und Terminfolgen erläutern."
   },
   "2:1:4": {
-    "lines": 40,
-    "reason": "Bereichsvollkosten, Recruiting und Qualifizierung getrennt berechnen; beide Budgetreste und Schulungstage je Woche prüfen.",
-    "area": "grid"
-  },
-  "2:1:5": {
-    "lines": 8,
-    "reason": "Wesentliches Besetzungsrisiko mit Ausweichmaßnahme und deren Einsatzbedingung dokumentieren.",
-    "area": "lines"
+    "lines": 48,
+    "area": "grid",
+    "reason": "Bereichsvollkosten, Recruiting und Qualifizierung getrennt berechnen; beide Budgetreste und Schulungstage je Woche prüfen. Wesentliches Besetzungsrisiko mit Ausweichmaßnahme und deren Einsatzbedingung dokumentieren."
   },
   "3:1:1": {
     "lines": 44,
-    "reason": "Beschlussvorlage mit Vorschlag, Anlass, Bedarf, Alternativen, Kosten, Risiken und Umsetzung ausformulieren.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Beschlussvorlage mit Vorschlag, Anlass, Bedarf, Alternativen, Kosten, Risiken und Umsetzung ausformulieren."
   },
   "3:1:2": {
     "lines": 30,
-    "reason": "Rechen- und Bewertungsanlagen lesbar zusammenstellen sowie eindeutige Beschlussformel formulieren.",
-    "area": "grid"
+    "area": "grid",
+    "reason": "Rechen- und Bewertungsanlagen lesbar zusammenstellen sowie eindeutige Beschlussformel formulieren."
   },
   "4:1:1": {
     "lines": 12,
-    "reason": "Befunde aus vier Funktionsperspektiven und fachliche Rückmeldung zur Kernrechnung dokumentieren.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Befunde aus vier Funktionsperspektiven und fachliche Rückmeldung zur Kernrechnung dokumentieren."
   },
   "4:1:2": {
     "lines": 10,
-    "reason": "Festgestellte Widersprüche und konkrete korrigierte Passagen festhalten.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Festgestellte Widersprüche und konkrete korrigierte Passagen festhalten."
   },
   "5:1:1": {
     "lines": 8,
-    "reason": "Qualitative Kompetenz und bevorzugte Entwicklungsmaßnahme mit nachvollziehbarem Fallbezug benennen.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Qualitative Kompetenz und bevorzugte Entwicklungsmaßnahme mit nachvollziehbarem Fallbezug benennen."
   },
   "5:1:2": {
     "lines": 2,
-    "reason": "Kurze persönliche Notiz zum ansonsten in Moodle ausgeführten Abschluss.",
-    "area": "lines"
+    "area": "lines",
+    "reason": "Kurze persönliche Notiz zum ansonsten in Moodle ausgeführten Abschluss."
   }
 }

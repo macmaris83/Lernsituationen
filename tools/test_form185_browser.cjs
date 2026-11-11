@@ -21,11 +21,20 @@ const server=http.createServer((req,res)=>{
    await page.route('**/*',route=>route.request().url().startsWith('http://127.0.0.1:')?route.continue():route.abort());
    await page.goto(base+'index.html');
    await page.waitForFunction(()=>window.SOZ_READY===true);
-   if(item.id==='BRC-LG01-LS04'){
+   if(['BRC-LG01-LS04','BRC-LG01-LS05'].includes(item.id)){
     const titleCard=page.locator('.lesson-content>.card.hero');
     assert.equal(await titleCard.count(),1,item.id+': framed lesson heading');
-    assert.equal(await titleCard.locator('h1').innerText(),'Bei Business-Angels pitchen');
+    assert.equal(await titleCard.locator('h1').innerText(),item.title);
     assert.ok(await titleCard.evaluate(e=>parseFloat(getComputedStyle(e).borderTopWidth)>0),item.id+': visible heading border');
+   }
+   if(item.id==='BRC-LG01-LS05'){
+    const orientation=await page.evaluate(()=>{
+     const actual=SOZ_PROGRESS_CORE.metadataFrom(JSON.parse(JSON.stringify(SOZPAED)),new DOMParser());
+     return {actual:actual.orientationSignature,expected:SOZ_PROGRESS_META.orientationSignature};
+    });
+    assert.equal(orientation.actual,orientation.expected,item.id+': framed orientation and metadata agree');
+   }
+   if(item.id==='BRC-LG01-LS04'){
     const audit=await page.evaluate(()=>{
      const d=JSON.parse(JSON.stringify(SOZPAED));
      const actual=SOZ_PROGRESS_CORE.metadataFrom(d,new DOMParser());
@@ -57,12 +66,21 @@ const server=http.createServer((req,res)=>{
       modes:[...new Set(Object.values(SOZ_PROGRESS_META.tasks).map(t=>t.mode))],
       phases:SOZ_PROGRESS_CORE.phases.map(phase=>{
         const doc=new DOMParser().parseFromString(SOZPAED.pages[phase+'.html'],'text/html');
-        return {phase,panels:[...doc.querySelectorAll('[data-mode-panel]')].map(e=>e.dataset.modePanel)};
+        return {phase,panels:[...doc.querySelectorAll('[data-mode-panel]')].map(e=>e.dataset.modePanel),numbers:[...doc.querySelectorAll('.assignment-frame')].map(e=>Number(e.dataset.taskNumber))};
       })
     }));
     assert.deepEqual(inventory.modes,[1],item.id+': W1 metadata only');
     for(const phase of inventory.phases)assert.deepEqual([...new Set(phase.panels)],['1'],item.id+': removed path panels '+phase.phase);
+    for(const phase of inventory.phases)assert.ok(phase.numbers.length>=1&&phase.numbers.length<=4,item.id+': one to four assignments in '+phase.phase);
+    const numbers=inventory.phases.flatMap(phase=>phase.numbers);
+    assert.deepEqual(numbers,numbers.map((_,i)=>i+1),item.id+': continuous task numbering across all phases');
    }
+   const emptyXP=await page.evaluate(()=>{
+    const grade=SOZ_PROGRESS_CORE.grading(SOZ_PROGRESS.read(),SOZ_PROGRESS_META);
+    const battery=document.querySelector('[data-phase-points] .points-battery');
+    return {points:grade.points,max:grade.maxPoints,ariaMax:battery?.getAttribute('aria-valuemax'),label:battery?.querySelector('.points-battery-label')?.textContent};
+   });
+   assert.deepEqual(emptyXP,{points:0,max:100,ariaMax:'100',label:'0 / 100 XP'},item.id+': consistent empty 100-XP battery');
    assert.equal(await page.locator('[data-share-workbook]').count(),0,item.id+': no orientation workbook');
    assert.equal(await page.locator('.lesson-content .material-access').count(),0,item.id+': no orientation materials');
    assert.equal(await page.locator('[data-package-version]').first().innerText(),'Version '+item.version,item.id);
@@ -143,6 +161,12 @@ const server=http.createServer((req,res)=>{
    await page.locator('.task-focus-panel [data-task-complete]').check();
    assert.equal(await page.locator('.focus-next:visible').isEnabled(),true,item.id+': manual next');
    await page.goto(base+'reflektieren.html');await page.waitForFunction(()=>window.SOZ_READY===true);
+   const fullXP=await page.evaluate(()=>{
+    const grade=SOZ_PROGRESS_CORE.grading(SOZ_PROGRESS.read(),SOZ_PROGRESS_META);
+    const battery=document.querySelector('[data-phase-points] .points-battery');
+    return {points:grade.points,max:grade.maxPoints,ariaMax:battery?.getAttribute('aria-valuemax'),ariaNow:battery?.getAttribute('aria-valuenow'),label:battery?.querySelector('.points-battery-label')?.textContent};
+   });
+   assert.deepEqual(fullXP,{points:100,max:100,ariaMax:'100',ariaNow:'100',label:'100 / 100 XP'},item.id+': perfect work earns and displays exactly 100 XP');
    const complete=page.locator('[data-complete-package]');
    assert.equal(await complete.isEnabled(),true,item.id+': complete enabled '+JSON.stringify(await page.evaluate(()=>({grade:SOZ_PROGRESS_CORE.grading(SOZ_PROGRESS.read(),SOZ_PROGRESS_META),video:SOZ_PROGRESS.read().ov,flashcard:SOZ_PROGRESS.read().fc?.complete}))));
    await complete.click();
