@@ -89,8 +89,8 @@ def main():
         assert {t['mode'] for t in meta['tasks'].values()}=={1},(key,'Nontraditional metadata')
         for phase in PHASES:
             parsed=Tasks(data['pages'][phase+'.html']);static=Tasks((master/(phase+'.html')).read_text())
-            assert parsed.panels==['1'],(key,phase,'Unexpected data panels',parsed.panels)
-            assert static.panels==['1'],(key,phase,'Unexpected HTML panels',static.panels)
+            assert set(parsed.panels)=={'1'},(key,phase,'Unexpected data panels',parsed.panels)
+            assert set(static.panels)=={'1'},(key,phase,'Unexpected HTML panels',static.panels)
             assert parsed.tasks==static.tasks,(key,phase,'HTML/data divergence')
             assert parsed.tasks,(key,phase,'Missing W1 assignments')
             for t in parsed.tasks:

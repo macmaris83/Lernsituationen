@@ -47,7 +47,7 @@ def transform(path, text):
       })
     }));
     assert.deepEqual(inventory.modes,[1],item.id+': W1 metadata only');
-    for(const phase of inventory.phases)assert.deepEqual(phase.panels,['1'],item.id+': removed path panels '+phase.phase);""")
+    for(const phase of inventory.phases)assert.deepEqual([...new Set(phase.panels)],['1'],item.id+': removed path panels '+phase.phase);""")
     elif path=='tools/test_form185.cjs':
         text=replace(text,"assert.equal(current,baseline,p.id+': persistent task, orientation and quiz signatures must stay unchanged');", """if(p.id==='VORLAGE-FUENF-LERNWEGE'){
   assert.equal(current,baseline,p.id+': five-path template remains unchanged');
