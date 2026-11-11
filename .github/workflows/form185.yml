@@ -33,6 +33,7 @@ jobs:
           NODE_PATH: /tmp/form185-tests/node_modules
         run: node tools/test_form185_browser.cjs
       - name: Materialoberflächen und unveränderte Materialtexte prüfen
+        if: always()
         env:
           NODE_PATH: /tmp/form185-tests/node_modules
         run: node tools/test_material_surfaces.cjs

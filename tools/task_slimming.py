@@ -147,6 +147,12 @@ MIGRATE = """const migrationSource={...(raw.t||{})};const matches=(rule,source)=
 
 def patch_core(path):
     source=path.read_text(encoding='utf-8')
+    # The traditional template's original timer belongs to its legacy body
+    # signature. Only new display-only group timers carry data-time-ui and
+    # must be excluded here, exactly as they are in signature() above.
+    source=source.replace(
+        "const text=e=>(e.textContent||'').replace(/\\s+/g,' ').trim();",
+        "const text=e=>{const copy=e.cloneNode(true);copy.querySelectorAll('.assignment-time[data-time-ui]').forEach(t=>t.remove());return (copy.textContent||'').replace(/\\s+/g,' ').trim();};")
     if 'const migrationSource=' not in source:
         start=source.find('for(const [id,rule]of Object.entries(meta.migration?.tasks||{}))')
         if start>=0:
@@ -215,7 +221,9 @@ def apply(root):
         master=root/package['master'];data_path=master/'lesson-data.js';meta_path=master/'progress-meta.js'
         data=payload(data_path);meta=payload(meta_path)
         if data.get('taskGroupingVersion')==VERSION:
-            assert package['id'] in old_reports,('Missing migration report',package['id']);reports.append(old_reports[package['id']]);continue
+            assert package['id'] in old_reports,('Missing migration report',package['id'])
+            if old_reports[package['id']]['changed'] and (master/'assets/progress-core.js').exists():patch_core(master/'assets/progress-core.js')
+            reports.append(old_reports[package['id']]);continue
         old_data=copy.deepcopy(data);old_meta=copy.deepcopy(meta);plan=PLANS.get(package['id'],{})
         old_numbers=[int(n.attrs.get('data-task-number','0')) for phase in PHASES for n in nodes(data['pages'][phase+'.html'],'assignment-frame')]
         transform=bool(plan) or old_numbers!=list(range(1,len(old_numbers)+1))
