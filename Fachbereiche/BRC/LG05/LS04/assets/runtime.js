@@ -225,6 +225,22 @@ const svg='<svg class="focus-net" viewBox="0 0 100 100" aria-hidden="true"><poly
 const clockSvg='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg>';
 function element(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text)e.textContent=text;return e;}
 function button(text,fn){const b=element('button','',text);b.type='button';b.addEventListener('click',fn);return b;}
+function separateTaskCommands(body){
+ // Format the current, editor-adjusted DOM once for both views. Ranges retain
+ // nested emphasis and links; lowercase/inline operators remain in their sentence.
+ for(const paragraph of [...body.querySelectorAll('p')]){
+  if(paragraph.closest('.assignment-note,.book-reference,.chronology,[data-assessment-widget],table'))continue;
+  const starts=[...paragraph.querySelectorAll('strong')].filter(node=>
+   (node.matches('.operator:not(.operator-inline)')&&/^[A-ZÄÖÜ]/.test(node.textContent.trim()))||
+   /^(Zwischensicherung|Ergebnissicherung):$/.test(node.textContent.trim()));
+  for(const start of starts.reverse()){
+   const before=document.createRange();before.selectNodeContents(paragraph);before.setEndBefore(start);
+   if(!before.toString().trim())continue;
+   const tail=document.createRange();tail.selectNodeContents(paragraph);tail.setStartBefore(start);
+   const next=paragraph.cloneNode(false);next.removeAttribute('id');next.append(tail.extractContents());paragraph.after(next);
+  }
+ }
+}
 function prepareAudio(){try{const K=window.AudioContext||window.webkitAudioContext;if(K){audio||=new K();if(audio.state==='suspended')audio.resume().catch(()=>{});}}catch{}}
 function chime(r){if(!r.sound.checked||audio?.state!=='running')return;try{const now=audio.currentTime;[0,.38,.76].forEach(delay=>{[880,1320].forEach((frequency,i)=>{const o=audio.createOscillator(),g=audio.createGain();o.frequency.value=frequency;g.gain.setValueAtTime(0,now+delay);g.gain.linearRampToValueAtTime(i?.055:.11,now+delay+.015);g.gain.exponentialRampToValueAtTime(.001,now+delay+.32);o.connect(g);g.connect(audio.destination);o.start(now+delay);o.stop(now+delay+.34);});});}catch{}}
 function timerState(total,key){const base={total,remaining:total,running:false,deadline:0,key};try{const saved=JSON.parse(sessionStorage.getItem(key)||'null');if(saved&&saved.total===total&&Number.isInteger(saved.remaining)&&saved.remaining>=0&&saved.remaining<=total)base.remaining=saved.remaining;}catch{}return base;}
@@ -253,9 +269,10 @@ for(const card of cards){
  const opener=element('span','task-open-label','Bearbeiten');
  const focus=element('div','task-focus-panel');focus.tabIndex=-1;focus.setAttribute('role','region');focus.setAttribute('aria-label','Aufgabenfokus');const competence=element('aside','focus-competence');const copy=element('div','focus-competence-copy');copy.append(element('strong','','Fachkompetenz'),element('p','',D.competencies.find(c=>c.label==='Fachkompetenz')?.statement||''));competence.append(copy);const net=element('span','focus-net-wrap');net.innerHTML=svg;competence.append(net);focus.append(competence);
  const tools=element('div','focus-toolbar'),back=button('Phasenübersicht',()=>close());tools.append(back);const headingRow=element('div','focus-task-heading');headingRow.append(competence,tools);focus.append(headingRow);
+ separateTaskCommands(body);
  const originalPreview=body.cloneNode(true);originalPreview.className='task-original-preview';originalPreview.querySelectorAll('.chronology,[data-assessment-widget]').forEach(e=>e.remove());const doneMarker=element('span','task-done-check','✓');doneMarker.setAttribute('aria-label','Aufgabe erledigt');doneMarker.setAttribute('role','img');const r={card,details,summary,checkbox,completion,originalPreview,doneMarker,next:null,sound:null};
  if(seconds){const key=(window.SOZ_TEACHER_VIEW?.active?'teacher:':'')+'task-focus-clock:'+D.id+':'+location.pathname.replace(/[^/]+$/,'')+':'+card.dataset.taskId;timers.set(card,timerState(seconds,key));const timer=element('div','focus-timer'),row=element('div','focus-timer-row'),icon=element('span','focus-clock');icon.innerHTML=clockSvg;const time=element('span','focus-countdown');time.setAttribute('role','timer');time.setAttribute('aria-label','Verbleibende Orientierungszeit');const pauseButton=button('Pause',()=>{prepareAudio();timers.get(card).running?pause(r):start(r);});row.append(icon,time,pauseButton);const note=element('p','focus-timer-note');const soundLabel=element('label','focus-sound'),sound=element('input');sound.type='checkbox';sound.checked=true;sound.addEventListener('change',()=>{if(sound.checked)prepareAudio();});soundLabel.append(sound,document.createTextNode(' 🔔'));soundLabel.title='Signalton ein- oder ausschalten';sound.setAttribute('aria-label','Signalton bei Zeitablauf');const alarm=element('p','focus-alarm');alarm.setAttribute('role','status');const bell=element('span','focus-bell','🔔');bell.setAttribute('aria-hidden','true');alarm.append(bell,document.createTextNode(' Orientierungszeit erreicht'));alarm.hidden=true;row.append(soundLabel);timer.append(row,note,alarm);tools.append(timer);Object.assign(r,{time,pause:pauseButton,sound,timerNote:note,alarm});draw(r);}
- for(const paragraph of [...body.querySelectorAll('p')]){if(paragraph.querySelectorAll('strong.operator:not(.operator-inline)').length<2)continue;const parts=paragraph.innerHTML.split(/(?=<strong[^>]*class=["']operator["'][^>]*>[A-ZÄÖÜ])/);const stack=element('div','task-command-stack');for(const part of parts){if(!part.trim())continue;const line=element('p');line.innerHTML=part;stack.append(line);}paragraph.replaceWith(stack);}focus.append(body);
+ focus.append(body);
  const help=element('aside','focus-ai-help');
  const helpButton=button('KI-Hilfe öffnen',()=>{
  let dialog=document.querySelector('.ais-help-dialog');

@@ -1,7 +1,7 @@
 {
-  "version": "1.8.12",
+  "version": "1.8.13",
   "formVersion": "1.8.8",
   "updated": "2026-11-11",
   "changes": "Titelkasten Ein Unternehmen gründen auf der Orientierung ergänzt; bisherige Lesemarkierung bleibt durch gezielte Migration erhalten.",
-  "formSourceSha256": "7f3a0530578ef5e8e5b20c9b17a6d4a472fb64ca6af78b58d9252dc2d8f66cbd"
+  "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
 }

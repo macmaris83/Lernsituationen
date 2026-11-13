@@ -1,1 +1,1 @@
-window.SOZ_CONFIG={"mode":1,"allowStudentMode":false,"moodle":{},"media":{},"overrides":{},"packageRevision":"LS-MASTER-BILDER-GRUPPEN-20261014","pinHash":1509442,"packageVersion":"1.8.12","formVersion":"1.8.8"};
+window.SOZ_CONFIG={"mode":1,"allowStudentMode":false,"moodle":{},"media":{},"overrides":{},"packageRevision":"LS-MASTER-BILDER-GRUPPEN-20261014","pinHash":1509442,"packageVersion":"1.8.13","formVersion":"1.8.8"};

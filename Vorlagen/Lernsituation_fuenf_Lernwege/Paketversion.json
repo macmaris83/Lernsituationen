@@ -1,8 +1,8 @@
 {
-  "version": "1.8.11",
+  "version": "1.8.12",
   "format": "SCORM 1.2",
   "updated": "2026-11-03",
   "changes": "Gemeinsamer Formstand: kompakte Orientierung, Materialzugriff, XP im Footer, ausdrücklicher speicherbestätigter Abschluss und Wiederaufnahme. Aufgaben, Kennungen, Lernstände und vorhandene Bewertungslogik erhalten.",
   "formVersion": "1.8.8",
-  "formSourceSha256": "7f3a0530578ef5e8e5b20c9b17a6d4a472fb64ca6af78b58d9252dc2d8f66cbd"
+  "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
 }
