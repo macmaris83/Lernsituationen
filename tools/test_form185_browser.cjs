@@ -108,6 +108,53 @@ const server=http.createServer((req,res)=>{
     if(!SOZ_PROGRESS.write(p))throw Error('Test progress not saved');
    });
    await page.goto(base+'informieren.html');await page.waitForFunction(()=>window.SOZ_READY===true);
+   assert.equal(await page.locator('.lesson-content [data-mode-panel]>.phase-meta:visible').count(),0,item.id+': redundant phase time and work-form block is hidden');
+   const phaseWorkbook=page.locator('.lesson-content .phase-workbook-import:visible');
+   assert.equal(await phaseWorkbook.count(),1,item.id+': current phase workbook import remains visible');
+   assert.equal(await phaseWorkbook.locator('[data-share-workbook]').isVisible(),true,item.id+': phase workbook import button remains available');
+   if(item.id==='BRC-LG01-LS05'){
+    // Regression for the reported bundled task: both views need the same three
+    // readable instruction blocks, including the separate interim submission.
+    const bundled=page.locator('[data-mode-panel="1"] .assignment-frame[data-task-number="4"]');
+    assert.equal(await bundled.count(),1,item.id+': reported task 4 exists');
+    const original=await bundled.evaluate(card=>{
+     const source=new DOMParser().parseFromString(SOZPAED.pages['informieren.html'],'text/html');
+     const task=[...source.querySelectorAll('[data-mode-panel="1"] .assignment-frame')].find(e=>e.dataset.taskId===card.dataset.taskId);
+     if(!task)throw Error('Original bundled task is missing');
+     const text=[...task.querySelectorAll('.assignment-body p')].map(p=>p.textContent).join(' ').replace(/\s+/g,' ').trim();
+     return {id:card.dataset.taskId,signature:card.dataset.taskSignature,text};
+    });
+    const assertInstructionSpacing=async(selector,label)=>{
+     const actual=await bundled.locator(selector).evaluate(copy=>{
+      const paragraphs=[...copy.querySelectorAll('p')].filter(p=>p.textContent.trim());
+      const boxes=paragraphs.map(p=>p.getBoundingClientRect());
+      return {text:paragraphs.map(p=>p.textContent).join(' ').replace(/\s+/g,' ').trim(),
+       paragraphs:paragraphs.map(p=>p.textContent.trim()),
+       gaps:boxes.slice(1).map((rect,i)=>rect.top-boxes[i].bottom)};
+     });
+     assert.equal(actual.paragraphs.length,3,item.id+': three instruction paragraphs '+label);
+     for(const [index,start] of ['Analysieren','Arbeiten','Zwischensicherung'].entries())assert.ok(actual.paragraphs[index].startsWith(start),item.id+': paragraph '+(index+1)+' starts with '+start+' '+label);
+     assert.match(actual.paragraphs[1],/^Arbeiten Sie die Schritte heraus,/,item.id+': separable operator remains together '+label);
+     assert.equal(actual.text,original.text,item.id+': complete original instruction text '+label);
+     for(const gap of actual.gaps)assert.ok(gap>=12,item.id+': visible paragraph spacing '+label+' ('+gap+'px)');
+     assert.equal(await bundled.getAttribute('data-task-id'),original.id,item.id+': unchanged task ID '+label);
+     assert.equal(await bundled.getAttribute('data-task-signature'),original.signature,item.id+': unchanged task signature '+label);
+    };
+    for(const width of [390,1024]){
+     await page.setViewportSize({width,height:844});
+     await assertInstructionSpacing('.task-original-preview','overview '+width);
+     await page.screenshot({path:path.join(output,item.id+'-task4-overview-'+width+'.png'),fullPage:true,animations:'disabled'});
+     await bundled.locator('.task-original-preview').click();
+     await page.waitForFunction(()=>document.body.classList.contains('task-focus'));
+     await page.evaluate(()=>Promise.all(document.getAnimations().filter(a=>a.effect?.getTiming().iterations!==Infinity).map(a=>a.finished.catch(()=>{}))));
+     await assertInstructionSpacing('.task-focus-panel .assignment-body','focus '+width);
+     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),true,item.id+': reported task focus overflow '+width);
+     await page.screenshot({path:path.join(output,item.id+'-task4-focus-'+width+'.png'),fullPage:true,animations:'disabled'});
+     await bundled.locator('.focus-back-actions button').click();
+     await page.waitForFunction(()=>!document.body.classList.contains('task-focus'));
+     await assertInstructionSpacing('.task-original-preview','returned overview '+width);
+    }
+   }
    const task=page.locator('[data-mode-panel="1"] .assignment-frame').first();
    await task.locator('.task-original-preview').click();
    assert.equal(await page.locator('body').evaluate(e=>e.classList.contains('task-focus')),true,item.id+': focus');
@@ -251,3 +298,4 @@ const server=http.createServer((req,res)=>{
   }
  }finally{await browser.close();await new Promise(resolve=>server.close(resolve));}
 })().catch(e=>{console.error(e);process.exitCode=1;server.close();});
+
