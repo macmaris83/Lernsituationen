@@ -1,6 +1,6 @@
 {
   "title": "Vom Mythos zum Krieg",
-  "version": "1.8.13",
+  "version": "1.8.14",
   "country": "Russland",
   "format": "SCORM 1.2",
   "reference": "BRC_LG01_LS04_v1.8_SCORM12.zip",
@@ -8,7 +8,7 @@
   "changes": "Ausschließlich tradierter Lernweg 1. Alternative Aufgaben, Lernwege und PDF-Dateien entfernt; W1-Aufgaben, Kennungen, PDFs und vorhandene Lernstände erhalten.",
   "revision": "interactive-video-20261102",
   "formVersion": "1.8.8",
-  "formSourceSha256": "7f3a0530578ef5e8e5b20c9b17a6d4a472fb64ca6af78b58d9252dc2d8f66cbd",
+  "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
   "taskPolicy": {
     "preferred": 2,
     "maximumPerPhase": 4,

@@ -4,7 +4,7 @@
     "master": "Fachbereiche/BRC/LG01/LS01",
     "file": "pdf/GoodNotes_LG01_LS01_W1.pdf",
     "kind": "workbook",
-    "inputHash": "d83ce933aebffe5bb7d2718d8e0215c1c522ddd5edcdf061763f6bc9a699ed6d",
+    "inputHash": "0659b6e627ebf0c2ddb171b21e0bf2305655a4f5fd8df9f0189f74a97b049eee",
     "pages": 9,
     "taskNumbers": [
       1,
@@ -38,14 +38,14 @@
       "4:1:1",
       "5:1:1"
     ],
-    "sha256": "ddc0e84432d7ec608385262423eaf9fc708b75682e80eed5452a0e2dfdde3749"
+    "sha256": "c2b989399c09ee2c8a6e3e9b5283a86cf78e8cad9529f4f26d3550d900788dea"
   },
   {
     "id": "BRC-LG01-LS01",
     "master": "Fachbereiche/BRC/LG01/LS01",
     "file": "pdf/GoodNotes_Phase_bewerten_W1.pdf",
     "kind": "phase",
-    "inputHash": "d83ce933aebffe5bb7d2718d8e0215c1c522ddd5edcdf061763f6bc9a699ed6d",
+    "inputHash": "0659b6e627ebf0c2ddb171b21e0bf2305655a4f5fd8df9f0189f74a97b049eee",
     "pages": 1,
     "taskNumbers": [
       13
@@ -53,14 +53,14 @@
     "taskIds": [
       "4:1:1"
     ],
-    "sha256": "9d05f30993f9d59c858a8c4e54b243fd4b2ef45ac6b68a4cfa812e8bb79c1cd1"
+    "sha256": "e24c36690c7d297124bf3088bd19e469cbfd1e20e0afaa42535192596a708723"
   },
   {
     "id": "BRC-LG01-LS01",
     "master": "Fachbereiche/BRC/LG01/LS01",
     "file": "pdf/GoodNotes_Phase_durchfuehren_W1.pdf",
     "kind": "phase",
-    "inputHash": "d83ce933aebffe5bb7d2718d8e0215c1c522ddd5edcdf061763f6bc9a699ed6d",
+    "inputHash": "0659b6e627ebf0c2ddb171b21e0bf2305655a4f5fd8df9f0189f74a97b049eee",
     "pages": 1,
     "taskNumbers": [
       12
@@ -68,14 +68,14 @@
     "taskIds": [
       "3:1:1"
     ],
-    "sha256": "ee2805a5cafebed31626558582fbe716049f330df7369ed6b9b90763ba901d62"
+    "sha256": "6b9b08933da3952af3745795a1276b4960f5cf240d81c287172d130d86464f03"
   },
   {
     "id": "BRC-LG01-LS01",
     "master": "Fachbereiche/BRC/LG01/LS01",
     "file": "pdf/GoodNotes_Phase_entscheiden_W1.pdf",
     "kind": "phase",
-    "inputHash": "d83ce933aebffe5bb7d2718d8e0215c1c522ddd5edcdf061763f6bc9a699ed6d",
+    "inputHash": "0659b6e627ebf0c2ddb171b21e0bf2305655a4f5fd8df9f0189f74a97b049eee",
     "pages": 2,
     "taskNumbers": [
       8,
@@ -89,14 +89,14 @@
       "2:1:3",
       "2:1:4"
     ],
-    "sha256": "075b06a2f0df13ab046ef040394215ac638f9b663c9a9c2ef420431c78144bd4"
+    "sha256": "7ebc61098a9aa445d88fd9a5f6e90c648708ebf70bd4bd0b259e6044ef8ee315"
   },
   {
     "id": "BRC-LG01-LS01",
     "master": "Fachbereiche/BRC/LG01/LS01",
     "file": "pdf/GoodNotes_Phase_informieren_W1.pdf",
     "kind": "phase",
-    "inputHash": "d83ce933aebffe5bb7d2718d8e0215c1c522ddd5edcdf061763f6bc9a699ed6d",
+    "inputHash": "0659b6e627ebf0c2ddb171b21e0bf2305655a4f5fd8df9f0189f74a97b049eee",
     "pages": 2,
     "taskNumbers": [
       1,
@@ -108,14 +108,14 @@
       "0:1:4",
       "0:1:6"
     ],
-    "sha256": "c201182faf4bc106012c2a7affa5eea0882bc264fec1e1fbe2454d4d3c3cc858"
+    "sha256": "31e3847e3441b6513afcc7d08dc272ab31d67fa79e2d36963729d34c46c94b95"
   },
   {
     "id": "BRC-LG01-LS01",
     "master": "Fachbereiche/BRC/LG01/LS01",
     "file": "pdf/GoodNotes_Phase_planen_W1.pdf",
     "kind": "phase",
-    "inputHash": "d83ce933aebffe5bb7d2718d8e0215c1c522ddd5edcdf061763f6bc9a699ed6d",
+    "inputHash": "0659b6e627ebf0c2ddb171b21e0bf2305655a4f5fd8df9f0189f74a97b049eee",
     "pages": 2,
     "taskNumbers": [
       4,
@@ -129,14 +129,14 @@
       "1:1:3",
       "1:1:4"
     ],
-    "sha256": "e88e44fd4112eff119caf6bf14f5f974d91dd9591c022d9ea76fbb61a0e7346f"
+    "sha256": "16082a70fbae6c8ee746de73dfb33be574f442885741d2287d06bd7fd2958fc6"
   },
   {
     "id": "BRC-LG01-LS01",
     "master": "Fachbereiche/BRC/LG01/LS01",
     "file": "pdf/GoodNotes_Phase_reflektieren_W1.pdf",
     "kind": "phase",
-    "inputHash": "d83ce933aebffe5bb7d2718d8e0215c1c522ddd5edcdf061763f6bc9a699ed6d",
+    "inputHash": "0659b6e627ebf0c2ddb171b21e0bf2305655a4f5fd8df9f0189f74a97b049eee",
     "pages": 1,
     "taskNumbers": [
       14
@@ -144,14 +144,14 @@
     "taskIds": [
       "5:1:1"
     ],
-    "sha256": "131d96a9797d71801bfd7e64169d7d5196b410121ea19a369912dd02d3cf25d7"
+    "sha256": "6efa85677691689df67a94a7df53f8898f34b8c0bc7d05a95325e5e18b813868"
   },
   {
     "id": "BRC-LG01-LS01",
     "master": "Fachbereiche/BRC/LG01/LS01",
     "file": "pdf/LG01_LS01_Gesamtdruck_A4.pdf",
     "kind": "print",
-    "inputHash": "d83ce933aebffe5bb7d2718d8e0215c1c522ddd5edcdf061763f6bc9a699ed6d",
+    "inputHash": "0659b6e627ebf0c2ddb171b21e0bf2305655a4f5fd8df9f0189f74a97b049eee",
     "pages": 38,
     "taskNumbers": [
       1,
@@ -185,14 +185,14 @@
       "4:1:1",
       "5:1:1"
     ],
-    "sha256": "91905d958a9dca7fc686ee472ed6db926ec4954cd3273ad6d81e04655bf536d4"
+    "sha256": "7cf0d4eec3881a01386fbddaeea1e0de4848dfc9124bd41f61c2bfd2b2dea4ef"
   },
   {
     "id": "BRC-LG01-LS02",
     "master": "Fachbereiche/BRC/LG01/LS02",
     "file": "pdf/GoodNotes_LG01_LS02_W1.pdf",
     "kind": "workbook",
-    "inputHash": "92214113a676f60563eb488116c5d5063aa275ee2cbe366e86eba6d7895ac4c5",
+    "inputHash": "c38df8cdc35355792ccb7f599659074c7ce66f5f20e39603f6c2e9becb103b76",
     "pages": 11,
     "taskNumbers": [
       1,
@@ -228,14 +228,14 @@
       "4:1:1",
       "5:1:1"
     ],
-    "sha256": "595866bdf4bfa871529d4d067768dc62c4e5c43ec6d5cb7cf33d88c36d15ba12"
+    "sha256": "c855ccf9347b7315e18774c900d85a947368fa35e73e55686105fb858398bab5"
   },
   {
     "id": "BRC-LG01-LS02",
     "master": "Fachbereiche/BRC/LG01/LS02",
     "file": "pdf/GoodNotes_Phase_bewerten_W1.pdf",
     "kind": "phase",
-    "inputHash": "92214113a676f60563eb488116c5d5063aa275ee2cbe366e86eba6d7895ac4c5",
+    "inputHash": "c38df8cdc35355792ccb7f599659074c7ce66f5f20e39603f6c2e9becb103b76",
     "pages": 1,
     "taskNumbers": [
       14
@@ -243,14 +243,14 @@
     "taskIds": [
       "4:1:1"
     ],
-    "sha256": "2954e9b13ed27248142444f771025273014c73afe2613073402aff9a91a1539e"
+    "sha256": "155445347dcd1c80b041e9968f305a39eff28f198b8e5a5479bb314cfa88f8b9"
   },
   {
     "id": "BRC-LG01-LS02",
     "master": "Fachbereiche/BRC/LG01/LS02",
     "file": "pdf/GoodNotes_Phase_durchfuehren_W1.pdf",
     "kind": "phase",
-    "inputHash": "92214113a676f60563eb488116c5d5063aa275ee2cbe366e86eba6d7895ac4c5",
+    "inputHash": "c38df8cdc35355792ccb7f599659074c7ce66f5f20e39603f6c2e9becb103b76",
     "pages": 1,
     "taskNumbers": [
       13
@@ -258,14 +258,14 @@
     "taskIds": [
       "3:1:1"
     ],
-    "sha256": "587be0e87175a90d37a971bc1bf5daa68b1ef1a0bbcc8520f90ab68b1f860d9c"
+    "sha256": "80d7dc5fb4b7a34abdace7a030ad1d7834a88863b168db03c0f576e7d127bb75"
   },
   {
     "id": "BRC-LG01-LS02",
     "master": "Fachbereiche/BRC/LG01/LS02",
     "file": "pdf/GoodNotes_Phase_entscheiden_W1.pdf",
     "kind": "phase",
-    "inputHash": "92214113a676f60563eb488116c5d5063aa275ee2cbe366e86eba6d7895ac4c5",
+    "inputHash": "c38df8cdc35355792ccb7f599659074c7ce66f5f20e39603f6c2e9becb103b76",
     "pages": 2,
     "taskNumbers": [
       9,
@@ -279,14 +279,14 @@
       "2:1:3",
       "2:1:4"
     ],
-    "sha256": "da7757d7c4629dfa55157d112942ed9a86ece583afe8c2221ca4d47b9685c143"
+    "sha256": "b7b84823dae6590230d45cf1492a29d1d5ede17c3ae779eb5a778d6142bf9ebe"
   },
   {
     "id": "BRC-LG01-LS02",
     "master": "Fachbereiche/BRC/LG01/LS02",
     "file": "pdf/GoodNotes_Phase_informieren_W1.pdf",
     "kind": "phase",
-    "inputHash": "92214113a676f60563eb488116c5d5063aa275ee2cbe366e86eba6d7895ac4c5",
+    "inputHash": "c38df8cdc35355792ccb7f599659074c7ce66f5f20e39603f6c2e9becb103b76",
     "pages": 3,
     "taskNumbers": [
       1,
@@ -300,14 +300,14 @@
       "0:1:5",
       "0:1:7"
     ],
-    "sha256": "f9e3dfccc6a9c698d335d96fe1ecbcbc80c203d3d5d4ce401f324dbefba714cc"
+    "sha256": "9dd8dd092ed43fac351c34139cbb5806ef7a803d3526a14f402fdf77c8af0c3c"
   },
   {
     "id": "BRC-LG01-LS02",
     "master": "Fachbereiche/BRC/LG01/LS02",
     "file": "pdf/GoodNotes_Phase_planen_W1.pdf",
     "kind": "phase",
-    "inputHash": "92214113a676f60563eb488116c5d5063aa275ee2cbe366e86eba6d7895ac4c5",
+    "inputHash": "c38df8cdc35355792ccb7f599659074c7ce66f5f20e39603f6c2e9becb103b76",
     "pages": 3,
     "taskNumbers": [
       5,
@@ -321,14 +321,14 @@
       "1:1:3",
       "1:1:4"
     ],
-    "sha256": "19cc29502cc3caf1084f7b6dad2af1b6f261078e5c4898ad2a83e03cb64a7574"
+    "sha256": "d7226a85228291c236887158e5f6df339af0fa61be8562efa3d650729f2f760e"
   },
   {
     "id": "BRC-LG01-LS02",
     "master": "Fachbereiche/BRC/LG01/LS02",
     "file": "pdf/GoodNotes_Phase_reflektieren_W1.pdf",
     "kind": "phase",
-    "inputHash": "92214113a676f60563eb488116c5d5063aa275ee2cbe366e86eba6d7895ac4c5",
+    "inputHash": "c38df8cdc35355792ccb7f599659074c7ce66f5f20e39603f6c2e9becb103b76",
     "pages": 1,
     "taskNumbers": [
       15
@@ -336,14 +336,14 @@
     "taskIds": [
       "5:1:1"
     ],
-    "sha256": "e7ffcff0ced6dcc85153b179f99b5c92d7f5e45402f5f0f6228d14e09699ef96"
+    "sha256": "dc9482c61cb2301a4608542e527b98017b78a85802dc52e4f832a9175f2365d1"
   },
   {
     "id": "BRC-LG01-LS02",
     "master": "Fachbereiche/BRC/LG01/LS02",
     "file": "pdf/LG01_LS02_Gesamtdruck_A4.pdf",
     "kind": "print",
-    "inputHash": "92214113a676f60563eb488116c5d5063aa275ee2cbe366e86eba6d7895ac4c5",
+    "inputHash": "c38df8cdc35355792ccb7f599659074c7ce66f5f20e39603f6c2e9becb103b76",
     "pages": 39,
     "taskNumbers": [
       1,
@@ -379,14 +379,14 @@
       "4:1:1",
       "5:1:1"
     ],
-    "sha256": "ee4bbeca09e9f48408322b8fb16c4f5c600cbe052c3a3db3b761227dbe6a8b9b"
+    "sha256": "acac590bffa82c64a006169fce9ddd193c9b54c9bc51b9b044eeced2f708d3ef"
   },
   {
     "id": "BRC-LG01-LS03",
     "master": "Fachbereiche/BRC/LG01/LS03",
     "file": "pdf/GoodNotes_LG01_LS03_W1.pdf",
     "kind": "workbook",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 12,
     "taskNumbers": [
       1,
@@ -420,14 +420,14 @@
       "4:1:1",
       "5:1:1"
     ],
-    "sha256": "e6cbc7cee1cd9de79dad7f7343be5fbfc193753d01a0a9cdfe53ffac1100559c"
+    "sha256": "1a81b3109701c7633a2c470129223fc4ca5bf7a2a912574bc8d725fc9fb27cfb"
   },
   {
     "id": "BRC-LG01-LS03",
     "master": "Fachbereiche/BRC/LG01/LS03",
     "file": "pdf/GoodNotes_Phase_bewerten_W1.pdf",
     "kind": "phase",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 1,
     "taskNumbers": [
       13
@@ -435,14 +435,14 @@
     "taskIds": [
       "4:1:1"
     ],
-    "sha256": "f0167de910abbfd2a90e88515b6aad08bbb62ab267a4f6bbd5c0b82a0e93391a"
+    "sha256": "d5c4b266af5db2c089eeca5ae68dd26b7559498c332d4e7a39fd31bc3e4ca9e2"
   },
   {
     "id": "BRC-LG01-LS03",
     "master": "Fachbereiche/BRC/LG01/LS03",
     "file": "pdf/GoodNotes_Phase_durchfuehren_W1.pdf",
     "kind": "phase",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 1,
     "taskNumbers": [
       12
@@ -450,14 +450,14 @@
     "taskIds": [
       "3:1:1"
     ],
-    "sha256": "8f619f662693478b2dfbd6facb38200cf28be53cbabb5e6a884975d36bb44e43"
+    "sha256": "d5a60447d786d77af976ac2df8e7db3c773842a303fe7e7537713dae0f611b17"
   },
   {
     "id": "BRC-LG01-LS03",
     "master": "Fachbereiche/BRC/LG01/LS03",
     "file": "pdf/GoodNotes_Phase_entscheiden_W1.pdf",
     "kind": "phase",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 2,
     "taskNumbers": [
       9,
@@ -469,14 +469,14 @@
       "2:1:3",
       "2:1:4"
     ],
-    "sha256": "59b35b765fa7963071eea0b09b66662d7d9632ddf45940ec564a6c65ba6e90b7"
+    "sha256": "6f6cfc3576f2d7019d850ccdf1fa6d070472804cbf9b06e91af08cd6d1850c6e"
   },
   {
     "id": "BRC-LG01-LS03",
     "master": "Fachbereiche/BRC/LG01/LS03",
     "file": "pdf/GoodNotes_Phase_informieren_W1.pdf",
     "kind": "phase",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 4,
     "taskNumbers": [
       1,
@@ -490,14 +490,14 @@
       "0:1:6",
       "0:1:8"
     ],
-    "sha256": "1bb599197ead66ab807140221f85ca0e1f446d5ecf97aacceb342e56636fca46"
+    "sha256": "7242739277dd186cbe8d7f0f594066861d4d5dcbe6b5c97c2cbea8b39f2b5595"
   },
   {
     "id": "BRC-LG01-LS03",
     "master": "Fachbereiche/BRC/LG01/LS03",
     "file": "pdf/GoodNotes_Phase_planen_W1.pdf",
     "kind": "phase",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 3,
     "taskNumbers": [
       5,
@@ -511,14 +511,14 @@
       "1:1:3",
       "1:1:4"
     ],
-    "sha256": "6ce8b7552485f601bcd47b08486f3f14a1c40fb10d69055e0593fd4a2c744fb2"
+    "sha256": "e2501974e2471c5ee27563c158323fa93c6ed6a123876a071c666bfd37ee6793"
   },
   {
     "id": "BRC-LG01-LS03",
     "master": "Fachbereiche/BRC/LG01/LS03",
     "file": "pdf/GoodNotes_Phase_reflektieren_W1.pdf",
     "kind": "phase",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 1,
     "taskNumbers": [
       14
@@ -526,14 +526,14 @@
     "taskIds": [
       "5:1:1"
     ],
-    "sha256": "cd3d78c0d0763137e8b59f38fdb97ce6c0d0fa4ba3fc2373efa8b3a61f829601"
+    "sha256": "401ce2ed00649b1ad35997d598f4740f6d8b1a1429a846d1f32fa1b5dc074688"
   },
   {
     "id": "BRC-LG01-LS03",
     "master": "Fachbereiche/BRC/LG01/LS03",
     "file": "pdf/LG01_LS03_Gesamtdruck_A4.pdf",
     "kind": "print",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 41,
     "taskNumbers": [
       1,
@@ -567,14 +567,14 @@
       "4:1:1",
       "5:1:1"
     ],
-    "sha256": "9a36cfd64413ee094a7f7ddb6ac8e08a624084537983c8d79d2bcfc7459e2eb0"
+    "sha256": "53f63ba98e247868e30a4769c0b651f58cf55cd77893be9bce3d6652e3d3057f"
   },
   {
     "id": "BRC-LG01-LS05",
     "master": "Fachbereiche/BRC/LG01/LS05",
     "file": "pdf/GoodNotes_LG01_LS05_W1.pdf",
     "kind": "workbook",
-    "inputHash": "d01fc5b2f9a99e340075680cec734b085d08ed7ced0b5886d9e71953e7394993",
+    "inputHash": "f07ba77bf374f6e273dbc97eac975520df590cd1862b394654d8f23a09ab76b8",
     "pages": 10,
     "taskNumbers": [
       1,
@@ -606,14 +606,14 @@
       "4:1:1",
       "5:1:1"
     ],
-    "sha256": "68cd85d4437dee7dc63ad3adb9b24b7feba8cbb8089521417cccc2d333a03299"
+    "sha256": "831eb42b09e515bdb17a9483871ababe4b11a2ea0fb84987adc12dc0c5689c8b"
   },
   {
     "id": "BRC-LG01-LS05",
     "master": "Fachbereiche/BRC/LG01/LS05",
     "file": "pdf/GoodNotes_Phase_bewerten_W1.pdf",
     "kind": "phase",
-    "inputHash": "d01fc5b2f9a99e340075680cec734b085d08ed7ced0b5886d9e71953e7394993",
+    "inputHash": "f07ba77bf374f6e273dbc97eac975520df590cd1862b394654d8f23a09ab76b8",
     "pages": 1,
     "taskNumbers": [
       12
@@ -621,14 +621,14 @@
     "taskIds": [
       "4:1:1"
     ],
-    "sha256": "8b7926772724f65f08aad18bc53596293d8516fa036648af4d71f0e3cf246448"
+    "sha256": "22d993cade2d3078b0f877d5a3bd47905a4d8ba4608f29b8d1dab2449ebfb429"
   },
   {
     "id": "BRC-LG01-LS05",
     "master": "Fachbereiche/BRC/LG01/LS05",
     "file": "pdf/GoodNotes_Phase_durchfuehren_W1.pdf",
     "kind": "phase",
-    "inputHash": "d01fc5b2f9a99e340075680cec734b085d08ed7ced0b5886d9e71953e7394993",
+    "inputHash": "f07ba77bf374f6e273dbc97eac975520df590cd1862b394654d8f23a09ab76b8",
     "pages": 1,
     "taskNumbers": [
       11
@@ -636,14 +636,14 @@
     "taskIds": [
       "3:1:1"
     ],
-    "sha256": "2e977cb8206325d15da7251c15ca91dc70b1b3df4ba1e0f413ed9c7ef4dbe078"
+    "sha256": "9ba7c08ca4c57c0a460ab6191bf63dd56e4d97879f7d53196ce48b82ab7dc882"
   },
   {
     "id": "BRC-LG01-LS05",
     "master": "Fachbereiche/BRC/LG01/LS05",
     "file": "pdf/GoodNotes_Phase_entscheiden_W1.pdf",
     "kind": "phase",
-    "inputHash": "d01fc5b2f9a99e340075680cec734b085d08ed7ced0b5886d9e71953e7394993",
+    "inputHash": "f07ba77bf374f6e273dbc97eac975520df590cd1862b394654d8f23a09ab76b8",
     "pages": 2,
     "taskNumbers": [
       9,
@@ -653,14 +653,14 @@
       "2:1:1",
       "2:1:4"
     ],
-    "sha256": "afad2f6b5a32ab2cd03fcae566ef0b36136228a0cbb9dfd3b754f7d6f92e6cea"
+    "sha256": "2ea6b78d2fa5f5d3b70ee36674dd983287af72cc5b2043c81488b20a3de6d6c3"
   },
   {
     "id": "BRC-LG01-LS05",
     "master": "Fachbereiche/BRC/LG01/LS05",
     "file": "pdf/GoodNotes_Phase_informieren_W1.pdf",
     "kind": "phase",
-    "inputHash": "d01fc5b2f9a99e340075680cec734b085d08ed7ced0b5886d9e71953e7394993",
+    "inputHash": "f07ba77bf374f6e273dbc97eac975520df590cd1862b394654d8f23a09ab76b8",
     "pages": 3,
     "taskNumbers": [
       1,
@@ -674,14 +674,14 @@
       "0:1:6",
       "0:1:8"
     ],
-    "sha256": "91f0e0fe856fc82889ede0794bb86ff732b69fa32c954949bc075a532bada0eb"
+    "sha256": "ddfd0dd982d105396e1e8ab72746164454fd478c28894e398e2412ef859c997a"
   },
   {
     "id": "BRC-LG01-LS05",
     "master": "Fachbereiche/BRC/LG01/LS05",
     "file": "pdf/GoodNotes_Phase_planen_W1.pdf",
     "kind": "phase",
-    "inputHash": "d01fc5b2f9a99e340075680cec734b085d08ed7ced0b5886d9e71953e7394993",
+    "inputHash": "f07ba77bf374f6e273dbc97eac975520df590cd1862b394654d8f23a09ab76b8",
     "pages": 2,
     "taskNumbers": [
       5,
@@ -695,14 +695,14 @@
       "1:1:3",
       "1:1:4"
     ],
-    "sha256": "58ece4ce18769253d7c24b79db264bd703ec1371cb487220cc9b5be46bed2bd7"
+    "sha256": "3def17394d1006ff5a375b3bd394f8bba5a3cb40c386db32d56e8d691c2b1315"
   },
   {
     "id": "BRC-LG01-LS05",
     "master": "Fachbereiche/BRC/LG01/LS05",
     "file": "pdf/GoodNotes_Phase_reflektieren_W1.pdf",
     "kind": "phase",
-    "inputHash": "d01fc5b2f9a99e340075680cec734b085d08ed7ced0b5886d9e71953e7394993",
+    "inputHash": "f07ba77bf374f6e273dbc97eac975520df590cd1862b394654d8f23a09ab76b8",
     "pages": 1,
     "taskNumbers": [
       13
@@ -710,14 +710,14 @@
     "taskIds": [
       "5:1:1"
     ],
-    "sha256": "f166a207c2db1fa5ffd23e36dc18324f74c48b4128a2038e006ce870afeb5717"
+    "sha256": "9326a8c6ec43fd42fb06132af470184465b917ef735372c88789bd3e95646738"
   },
   {
     "id": "BRC-LG01-LS05",
     "master": "Fachbereiche/BRC/LG01/LS05",
     "file": "pdf/LG01_LS05_Gesamtdruck_A4.pdf",
     "kind": "print",
-    "inputHash": "d01fc5b2f9a99e340075680cec734b085d08ed7ced0b5886d9e71953e7394993",
+    "inputHash": "f07ba77bf374f6e273dbc97eac975520df590cd1862b394654d8f23a09ab76b8",
     "pages": 39,
     "taskNumbers": [
       1,
@@ -749,14 +749,14 @@
       "4:1:1",
       "5:1:1"
     ],
-    "sha256": "06fcae8d3b7f0413fbdfb7b94fe095b5d504c6c58c45f7c98b4d936e52e763d3"
+    "sha256": "52cb90ac5a3efe102cf5ad60c01c0bc4d61a672afdadc98af4b6a3bf91911401"
   },
   {
     "id": "BRC-LG01-LS06",
     "master": "Fachbereiche/BRC/LG01/LS06",
     "file": "pdf/GoodNotes_LG01_LS06_W1.pdf",
     "kind": "workbook",
-    "inputHash": "bc351ed5dc71386cfd98dc6df375361fd2601cb0d1c9c71d806a9aa6ed968c62",
+    "inputHash": "eac974fb601e3e04d0ed422d6f1327c0fc7f78d3d99c81dbd42b77362c605b37",
     "pages": 10,
     "taskNumbers": [
       1,
@@ -788,14 +788,14 @@
       "4:1:1",
       "5:1:1"
     ],
-    "sha256": "add7aa5633f96477e356b322e2b7e2533e58e7db5c4a9972fb711ee1cda0feea"
+    "sha256": "e5bd15fcc2e19336559b3a36ac4c7216276fab92c8a214bf4f69e03b3189aa7d"
   },
   {
     "id": "BRC-LG01-LS06",
     "master": "Fachbereiche/BRC/LG01/LS06",
     "file": "pdf/GoodNotes_Phase_bewerten_W1.pdf",
     "kind": "phase",
-    "inputHash": "bc351ed5dc71386cfd98dc6df375361fd2601cb0d1c9c71d806a9aa6ed968c62",
+    "inputHash": "eac974fb601e3e04d0ed422d6f1327c0fc7f78d3d99c81dbd42b77362c605b37",
     "pages": 1,
     "taskNumbers": [
       12
@@ -803,14 +803,14 @@
     "taskIds": [
       "4:1:1"
     ],
-    "sha256": "37acac165ac0d318c06dc4e92dffa068bd3f7ca0855e32a7cdf5f02058300deb"
+    "sha256": "bc3ce86398cfc51809719e275e2d719f787a9b0c0ebdab941d5c4d641d55d42a"
   },
   {
     "id": "BRC-LG01-LS06",
     "master": "Fachbereiche/BRC/LG01/LS06",
     "file": "pdf/GoodNotes_Phase_durchfuehren_W1.pdf",
     "kind": "phase",
-    "inputHash": "bc351ed5dc71386cfd98dc6df375361fd2601cb0d1c9c71d806a9aa6ed968c62",
+    "inputHash": "eac974fb601e3e04d0ed422d6f1327c0fc7f78d3d99c81dbd42b77362c605b37",
     "pages": 1,
     "taskNumbers": [
       11
@@ -818,14 +818,14 @@
     "taskIds": [
       "3:1:1"
     ],
-    "sha256": "43d2c4a0ae7d2fd638265b575f8cc0057418a88234fb2d3c8164250bd860a91c"
+    "sha256": "fb586e0aadcf3928d90c0d59d628db14086efd3a70817726ba7193f6f3601117"
   },
   {
     "id": "BRC-LG01-LS06",
     "master": "Fachbereiche/BRC/LG01/LS06",
     "file": "pdf/GoodNotes_Phase_entscheiden_W1.pdf",
     "kind": "phase",
-    "inputHash": "bc351ed5dc71386cfd98dc6df375361fd2601cb0d1c9c71d806a9aa6ed968c62",
+    "inputHash": "eac974fb601e3e04d0ed422d6f1327c0fc7f78d3d99c81dbd42b77362c605b37",
     "pages": 2,
     "taskNumbers": [
       8,
@@ -837,14 +837,14 @@
       "2:1:3",
       "2:1:4"
     ],
-    "sha256": "389470faeabc1383af111ec3d27a32bf8afe4433d0ab2d8094e13bcffc41263f"
+    "sha256": "8f3c4916db2bd166cb9b662e50128697767e1338da53972690d7a555a66365ea"
   },
   {
     "id": "BRC-LG01-LS06",
     "master": "Fachbereiche/BRC/LG01/LS06",
     "file": "pdf/GoodNotes_Phase_informieren_W1.pdf",
     "kind": "phase",
-    "inputHash": "bc351ed5dc71386cfd98dc6df375361fd2601cb0d1c9c71d806a9aa6ed968c62",
+    "inputHash": "eac974fb601e3e04d0ed422d6f1327c0fc7f78d3d99c81dbd42b77362c605b37",
     "pages": 3,
     "taskNumbers": [
       1,
@@ -858,14 +858,14 @@
       "0:1:7",
       "0:1:10"
     ],
-    "sha256": "277f15cf66e4ab3de57ed6beaaf87f7634fc681abb5f06302e1323d871fa403e"
+    "sha256": "4ddd3eb215a21d7e9eedf9add55a999255bda73b046b3d99502a72dd3ef037af"
   },
   {
     "id": "BRC-LG01-LS06",
     "master": "Fachbereiche/BRC/LG01/LS06",
     "file": "pdf/GoodNotes_Phase_planen_W1.pdf",
     "kind": "phase",
-    "inputHash": "bc351ed5dc71386cfd98dc6df375361fd2601cb0d1c9c71d806a9aa6ed968c62",
+    "inputHash": "eac974fb601e3e04d0ed422d6f1327c0fc7f78d3d99c81dbd42b77362c605b37",
     "pages": 2,
     "taskNumbers": [
       5,
@@ -877,14 +877,14 @@
       "1:1:3",
       "1:1:5"
     ],
-    "sha256": "62b2a38a253cd048e9570b705bae8bdaf8b486f2d6876401dabb7490978285a5"
+    "sha256": "55047affa2444a616f59137033f9f5d835ee02a556ffa23486ca76182fe6baf6"
   },
   {
     "id": "BRC-LG01-LS06",
     "master": "Fachbereiche/BRC/LG01/LS06",
     "file": "pdf/GoodNotes_Phase_reflektieren_W1.pdf",
     "kind": "phase",
-    "inputHash": "bc351ed5dc71386cfd98dc6df375361fd2601cb0d1c9c71d806a9aa6ed968c62",
+    "inputHash": "eac974fb601e3e04d0ed422d6f1327c0fc7f78d3d99c81dbd42b77362c605b37",
     "pages": 1,
     "taskNumbers": [
       13
@@ -892,15 +892,15 @@
     "taskIds": [
       "5:1:1"
     ],
-    "sha256": "9d40c2f606de2de4801fbbab1b8db07b440ad36e466952ff04f9def298c990ec"
+    "sha256": "42ac7b06545e71865e96461eda4f2c2a9ed9b0105bca2ebdff3dab836c2b8d77"
   },
   {
     "id": "BRC-LG01-LS06",
     "master": "Fachbereiche/BRC/LG01/LS06",
     "file": "pdf/LG01_LS06_Gesamtdruck_A4.pdf",
     "kind": "print",
-    "inputHash": "bc351ed5dc71386cfd98dc6df375361fd2601cb0d1c9c71d806a9aa6ed968c62",
-    "pages": 42,
+    "inputHash": "eac974fb601e3e04d0ed422d6f1327c0fc7f78d3d99c81dbd42b77362c605b37",
+    "pages": 41,
     "taskNumbers": [
       1,
       2,
@@ -931,14 +931,14 @@
       "4:1:1",
       "5:1:1"
     ],
-    "sha256": "73e880c15f1cf02303ea71ad358133cff67bc2cb7f3389eafc9ab9135c45cd10"
+    "sha256": "9d686620b826b78cf4b8bdd6fdc708f8b34323eda697a6c1100d2a6b23118ab0"
   },
   {
     "id": "BRC-LG05-LS05",
     "master": "Fachbereiche/BRC/LG05/LS05",
     "file": "pdf/GoodNotes_Arbeitsheft_LS05_Weg1.pdf",
     "kind": "workbook",
-    "inputHash": "8ea5e07d87381e68bd94a91f3493219ba65e99656472313bc7f6f7825c6cdcbc",
+    "inputHash": "1f658fb041a3bc279eec0770df0ad3f04e0af96dcc18e6a2922bdfcaddc5084c",
     "pages": 17,
     "taskNumbers": [
       1,
@@ -974,14 +974,14 @@
       "5:1:1",
       "5:1:2"
     ],
-    "sha256": "5fdae3bbe802a27f7ed76fb6b688052c1b0b3c4b9549ec41c6cdfcb399270ed5"
+    "sha256": "c6607c19d4c16d3b5b1eac36cd0d861b92c6e16d0906a494af0929a103b260c3"
   },
   {
     "id": "BRC-LG05-LS05",
     "master": "Fachbereiche/BRC/LG05/LS05",
     "file": "pdf/LS05_Lernpaket_Gesamtdruck_A4.pdf",
     "kind": "print",
-    "inputHash": "8ea5e07d87381e68bd94a91f3493219ba65e99656472313bc7f6f7825c6cdcbc",
+    "inputHash": "1f658fb041a3bc279eec0770df0ad3f04e0af96dcc18e6a2922bdfcaddc5084c",
     "pages": 29,
     "taskNumbers": [
       1,
@@ -1017,14 +1017,14 @@
       "5:1:1",
       "5:1:2"
     ],
-    "sha256": "467f074c4df3f6181b4ca276e94c925bfb14e1121f4ef3319e3e7bd4805793db"
+    "sha256": "cafaefce9b8d088de8cb53bd1c61828a14d47cc811c5e58d7ab622311ee0fb5a"
   },
   {
     "id": "BRC-LG05-LS05",
     "master": "Fachbereiche/BRC/LG05/LS05",
     "file": "pdf/pages/bewerten-W1.pdf",
     "kind": "phase",
-    "inputHash": "8ea5e07d87381e68bd94a91f3493219ba65e99656472313bc7f6f7825c6cdcbc",
+    "inputHash": "1f658fb041a3bc279eec0770df0ad3f04e0af96dcc18e6a2922bdfcaddc5084c",
     "pages": 2,
     "taskNumbers": [
       12,
@@ -1034,14 +1034,14 @@
       "4:1:1",
       "4:1:2"
     ],
-    "sha256": "9f53e68f05bff8fff6669c3ff2b229d9d3ff29e9ce1d6967c02239ca81f31073"
+    "sha256": "2ac3028361b3e20d216b3fc1a34bbf0dfd769b79e3bbbb527a6443987afd4369"
   },
   {
     "id": "BRC-LG05-LS05",
     "master": "Fachbereiche/BRC/LG05/LS05",
     "file": "pdf/pages/durchfuehren-W1.pdf",
     "kind": "phase",
-    "inputHash": "8ea5e07d87381e68bd94a91f3493219ba65e99656472313bc7f6f7825c6cdcbc",
+    "inputHash": "1f658fb041a3bc279eec0770df0ad3f04e0af96dcc18e6a2922bdfcaddc5084c",
     "pages": 3,
     "taskNumbers": [
       10,
@@ -1051,14 +1051,14 @@
       "3:1:1",
       "3:1:2"
     ],
-    "sha256": "e37c7e9fa4dd97d050e632275b5d0fc4603fac17b6660550614544c1e40dcadc"
+    "sha256": "3e5539627c38ec15879989d0221911832e2593f461164396a4f0bf7e03136468"
   },
   {
     "id": "BRC-LG05-LS05",
     "master": "Fachbereiche/BRC/LG05/LS05",
     "file": "pdf/pages/entscheiden-W1.pdf",
     "kind": "phase",
-    "inputHash": "8ea5e07d87381e68bd94a91f3493219ba65e99656472313bc7f6f7825c6cdcbc",
+    "inputHash": "1f658fb041a3bc279eec0770df0ad3f04e0af96dcc18e6a2922bdfcaddc5084c",
     "pages": 4,
     "taskNumbers": [
       7,
@@ -1070,14 +1070,14 @@
       "2:1:2",
       "2:1:4"
     ],
-    "sha256": "01b536b2cf21db4d889595989d75f7b8704b7bb660d04a011ac089e96fa3ea70"
+    "sha256": "7a1a5e49b205fb462f21fd771718602932f475e3c442dfec6c4f81addae6c9d4"
   },
   {
     "id": "BRC-LG05-LS05",
     "master": "Fachbereiche/BRC/LG05/LS05",
     "file": "pdf/pages/informieren-W1.pdf",
     "kind": "phase",
-    "inputHash": "8ea5e07d87381e68bd94a91f3493219ba65e99656472313bc7f6f7825c6cdcbc",
+    "inputHash": "1f658fb041a3bc279eec0770df0ad3f04e0af96dcc18e6a2922bdfcaddc5084c",
     "pages": 4,
     "taskNumbers": [
       1,
@@ -1089,14 +1089,14 @@
       "0:1:4",
       "0:1:6"
     ],
-    "sha256": "3ad54d1c6912074ec31fbe3088c17987d087c90f922b6a294e42e93bea80b372"
+    "sha256": "35538140f2f1c51494825c87b28505fa5710fa9ebfff7e120020cd8584620ed2"
   },
   {
     "id": "BRC-LG05-LS05",
     "master": "Fachbereiche/BRC/LG05/LS05",
     "file": "pdf/pages/planen-W1.pdf",
     "kind": "phase",
-    "inputHash": "8ea5e07d87381e68bd94a91f3493219ba65e99656472313bc7f6f7825c6cdcbc",
+    "inputHash": "1f658fb041a3bc279eec0770df0ad3f04e0af96dcc18e6a2922bdfcaddc5084c",
     "pages": 3,
     "taskNumbers": [
       4,
@@ -1108,14 +1108,14 @@
       "1:1:2",
       "1:1:3"
     ],
-    "sha256": "e206a8fdfc360132870f70060acb99b47d3278b45cd733e24a05afb416cec36f"
+    "sha256": "4da8dbde55d994d2415e36b70ee53bf9ec9f33f73a4439f19ba6f415979e9875"
   },
   {
     "id": "BRC-LG05-LS05",
     "master": "Fachbereiche/BRC/LG05/LS05",
     "file": "pdf/pages/reflektieren-W1.pdf",
     "kind": "phase",
-    "inputHash": "8ea5e07d87381e68bd94a91f3493219ba65e99656472313bc7f6f7825c6cdcbc",
+    "inputHash": "1f658fb041a3bc279eec0770df0ad3f04e0af96dcc18e6a2922bdfcaddc5084c",
     "pages": 1,
     "taskNumbers": [
       14,
@@ -1125,14 +1125,14 @@
       "5:1:1",
       "5:1:2"
     ],
-    "sha256": "1ab49867ca116670fe48c359c809be9b53d49c5333857c33721c1b3272d1f0fe"
+    "sha256": "90d7fb1bca4f12871072074073958f8d106178f5cbdada8163039dcd99b35299"
   },
   {
     "id": "BRC-LG05-LS06",
     "master": "Fachbereiche/BRC/LG05/LS06",
     "file": "pdf/GoodNotes_Arbeitsheft_LS06_Weg1.pdf",
     "kind": "workbook",
-    "inputHash": "12b03a8b3483380a1b1f63b8efd8b9657d10cdb4eccda8e2dad9ab87ced0174b",
+    "inputHash": "f1236b2945f6d5a70273a6c41e9d0daa24e1591058679d6f5640c4263e22b1c7",
     "pages": 13,
     "taskNumbers": [
       1,
@@ -1166,14 +1166,14 @@
       "5:1:1",
       "5:1:2"
     ],
-    "sha256": "bd2186a360c37c2f21a36afd55df4ac1836a27816ecb53913c8aa41ccd63898e"
+    "sha256": "43fe4e7ebaf04dd6442de58f13e6d10b797ce805f3e1de665516c5d3e0c13fff"
   },
   {
     "id": "BRC-LG05-LS06",
     "master": "Fachbereiche/BRC/LG05/LS06",
     "file": "pdf/LS06_Lernpaket_Gesamtdruck_A4.pdf",
     "kind": "print",
-    "inputHash": "12b03a8b3483380a1b1f63b8efd8b9657d10cdb4eccda8e2dad9ab87ced0174b",
+    "inputHash": "f1236b2945f6d5a70273a6c41e9d0daa24e1591058679d6f5640c4263e22b1c7",
     "pages": 26,
     "taskNumbers": [
       1,
@@ -1207,14 +1207,14 @@
       "5:1:1",
       "5:1:2"
     ],
-    "sha256": "5e2ab5a6f787b5978c5113ec07c975ccc12a8957f48e5fccbb6e9c0c9a1b4f3f"
+    "sha256": "55f7e9c1691f09924e7562c0244505e3fc5f60ea245794736dedc11aa9e1dfcf"
   },
   {
     "id": "BRC-LG05-LS06",
     "master": "Fachbereiche/BRC/LG05/LS06",
     "file": "pdf/pages/bewerten-W1.pdf",
     "kind": "phase",
-    "inputHash": "12b03a8b3483380a1b1f63b8efd8b9657d10cdb4eccda8e2dad9ab87ced0174b",
+    "inputHash": "f1236b2945f6d5a70273a6c41e9d0daa24e1591058679d6f5640c4263e22b1c7",
     "pages": 2,
     "taskNumbers": [
       11,
@@ -1224,14 +1224,14 @@
       "4:1:1",
       "4:1:2"
     ],
-    "sha256": "e6154a5c883d4705130182668e023c83f72fe3bb8f44928c70c4edf1c16417e8"
+    "sha256": "c268dbf304e03dead05c9d854dc007e0a551f04518de2118702f546c0820632a"
   },
   {
     "id": "BRC-LG05-LS06",
     "master": "Fachbereiche/BRC/LG05/LS06",
     "file": "pdf/pages/durchfuehren-W1.pdf",
     "kind": "phase",
-    "inputHash": "12b03a8b3483380a1b1f63b8efd8b9657d10cdb4eccda8e2dad9ab87ced0174b",
+    "inputHash": "f1236b2945f6d5a70273a6c41e9d0daa24e1591058679d6f5640c4263e22b1c7",
     "pages": 2,
     "taskNumbers": [
       10
@@ -1239,14 +1239,14 @@
     "taskIds": [
       "3:1:1"
     ],
-    "sha256": "30a931a9b68ded2cf93845970bddbd9f4510892db83a14d53c07efac3b9e8254"
+    "sha256": "eee3162a26c29ef2719010ccf730a925386e377beb24b603817424c6f092ad87"
   },
   {
     "id": "BRC-LG05-LS06",
     "master": "Fachbereiche/BRC/LG05/LS06",
     "file": "pdf/pages/entscheiden-W1.pdf",
     "kind": "phase",
-    "inputHash": "12b03a8b3483380a1b1f63b8efd8b9657d10cdb4eccda8e2dad9ab87ced0174b",
+    "inputHash": "f1236b2945f6d5a70273a6c41e9d0daa24e1591058679d6f5640c4263e22b1c7",
     "pages": 2,
     "taskNumbers": [
       7,
@@ -1258,14 +1258,14 @@
       "2:1:2",
       "2:1:3"
     ],
-    "sha256": "ffab8dd4ac24293011aaad890b3914ee33c7f5dfdd44dfe74c7e7ed6f3199385"
+    "sha256": "53b5c5564f0c608de4cdc0904bb7c26342fdb6cb516ce25d0987fac975e0e18c"
   },
   {
     "id": "BRC-LG05-LS06",
     "master": "Fachbereiche/BRC/LG05/LS06",
     "file": "pdf/pages/informieren-W1.pdf",
     "kind": "phase",
-    "inputHash": "12b03a8b3483380a1b1f63b8efd8b9657d10cdb4eccda8e2dad9ab87ced0174b",
+    "inputHash": "f1236b2945f6d5a70273a6c41e9d0daa24e1591058679d6f5640c4263e22b1c7",
     "pages": 4,
     "taskNumbers": [
       1,
@@ -1277,14 +1277,14 @@
       "0:1:3",
       "0:1:5"
     ],
-    "sha256": "cc48006c46878b5c22468591b2bd6366bbef60877f97712c84c32ec7973bd800"
+    "sha256": "3610f73f6a80b6f8cef5269cb6bfa2fdec8390107cc721c5c529ced60b09f399"
   },
   {
     "id": "BRC-LG05-LS06",
     "master": "Fachbereiche/BRC/LG05/LS06",
     "file": "pdf/pages/planen-W1.pdf",
     "kind": "phase",
-    "inputHash": "12b03a8b3483380a1b1f63b8efd8b9657d10cdb4eccda8e2dad9ab87ced0174b",
+    "inputHash": "f1236b2945f6d5a70273a6c41e9d0daa24e1591058679d6f5640c4263e22b1c7",
     "pages": 2,
     "taskNumbers": [
       4,
@@ -1296,14 +1296,14 @@
       "1:1:2",
       "1:1:3"
     ],
-    "sha256": "ad5b87cbbca54d4cd7596fa9134aba1cf385b2c973def32f662f49fec87a862b"
+    "sha256": "46cd73ba4eac590302fff441684fb92a707dbabaf7d2b20a405eb678042e6322"
   },
   {
     "id": "BRC-LG05-LS06",
     "master": "Fachbereiche/BRC/LG05/LS06",
     "file": "pdf/pages/reflektieren-W1.pdf",
     "kind": "phase",
-    "inputHash": "12b03a8b3483380a1b1f63b8efd8b9657d10cdb4eccda8e2dad9ab87ced0174b",
+    "inputHash": "f1236b2945f6d5a70273a6c41e9d0daa24e1591058679d6f5640c4263e22b1c7",
     "pages": 1,
     "taskNumbers": [
       13,
@@ -1313,14 +1313,14 @@
       "5:1:1",
       "5:1:2"
     ],
-    "sha256": "356ea475c2d5bbc31b009d8dad948490b67e7ce547cc135f3d9e5456325ca988"
+    "sha256": "6bdbf78ee7ff4f3a55e872e02d520ebd4aa0ed8d3afee00890a0a1b62058b14a"
   },
   {
     "id": "BRC-LG05-LS09",
     "master": "Fachbereiche/BRC/LG05/LS09",
     "file": "pdf/GoodNotes_Arbeitsheft_LS09_Weg1.pdf",
     "kind": "workbook",
-    "inputHash": "9d914c22c1674c7fd3578441d91cc9e943ddd805c00b5fd3296e148f40e2d8b5",
+    "inputHash": "a7ef354b2307d55a1cbf22b9572cf1c7cb690b25b9d3a0c797ac83645de6b604",
     "pages": 14,
     "taskNumbers": [
       1,
@@ -1352,14 +1352,14 @@
       "5:1:1",
       "5:1:2"
     ],
-    "sha256": "3d7db5eca5a5839e53fcfa0ad7cfc02357d7ec1bcacd392edb36b2f34d00a954"
+    "sha256": "878aeff49e667d4bfb3a6780f9375ccec0fd41afe67cfa47aec9c191c34ba724"
   },
   {
     "id": "BRC-LG05-LS09",
     "master": "Fachbereiche/BRC/LG05/LS09",
     "file": "pdf/LS09_Lernpaket_Gesamtdruck_A4.pdf",
     "kind": "print",
-    "inputHash": "9d914c22c1674c7fd3578441d91cc9e943ddd805c00b5fd3296e148f40e2d8b5",
+    "inputHash": "a7ef354b2307d55a1cbf22b9572cf1c7cb690b25b9d3a0c797ac83645de6b604",
     "pages": 22,
     "taskNumbers": [
       1,
@@ -1391,14 +1391,14 @@
       "5:1:1",
       "5:1:2"
     ],
-    "sha256": "d1218d87907a281698741f34606316edbc70cf175a1b3837c8a643b996c3e22b"
+    "sha256": "587892115cab587f6499ad9fe0db5dcdccb8034382b3018331fd2b0327fa6165"
   },
   {
     "id": "BRC-LG05-LS09",
     "master": "Fachbereiche/BRC/LG05/LS09",
     "file": "pdf/pages/bewerten-W1.pdf",
     "kind": "phase",
-    "inputHash": "9d914c22c1674c7fd3578441d91cc9e943ddd805c00b5fd3296e148f40e2d8b5",
+    "inputHash": "a7ef354b2307d55a1cbf22b9572cf1c7cb690b25b9d3a0c797ac83645de6b604",
     "pages": 2,
     "taskNumbers": [
       10,
@@ -1408,14 +1408,14 @@
       "4:1:1",
       "4:1:2"
     ],
-    "sha256": "938dac6a851c5e59f6d683695811ba5a157a29f6c80ef911e2b2b90aa39b4998"
+    "sha256": "1f4b89938edaca19f555e7a61e880a60da1caf2bddd1320eed5f5ced8d777947"
   },
   {
     "id": "BRC-LG05-LS09",
     "master": "Fachbereiche/BRC/LG05/LS09",
     "file": "pdf/pages/durchfuehren-W1.pdf",
     "kind": "phase",
-    "inputHash": "9d914c22c1674c7fd3578441d91cc9e943ddd805c00b5fd3296e148f40e2d8b5",
+    "inputHash": "a7ef354b2307d55a1cbf22b9572cf1c7cb690b25b9d3a0c797ac83645de6b604",
     "pages": 2,
     "taskNumbers": [
       9
@@ -1423,14 +1423,14 @@
     "taskIds": [
       "3:1:1"
     ],
-    "sha256": "8bb7effb7ec143292aa995bb30ae124e99b311effdedb76e66465cfb652b6f11"
+    "sha256": "0223fbed3745dbe272e857006800b3a3a2e27b1f492218fd631ef3cce6ab1b6c"
   },
   {
     "id": "BRC-LG05-LS09",
     "master": "Fachbereiche/BRC/LG05/LS09",
     "file": "pdf/pages/entscheiden-W1.pdf",
     "kind": "phase",
-    "inputHash": "9d914c22c1674c7fd3578441d91cc9e943ddd805c00b5fd3296e148f40e2d8b5",
+    "inputHash": "a7ef354b2307d55a1cbf22b9572cf1c7cb690b25b9d3a0c797ac83645de6b604",
     "pages": 3,
     "taskNumbers": [
       6,
@@ -1442,14 +1442,14 @@
       "2:1:2",
       "2:1:3"
     ],
-    "sha256": "f9bc3f820153d7a3fe7c2eb4ef98f352236b63261aa4c272fefdd84485450f7c"
+    "sha256": "98d32d7d752d8ff839924ec9d313437aa76d3f7f535d7d50e08b1df03b314be8"
   },
   {
     "id": "BRC-LG05-LS09",
     "master": "Fachbereiche/BRC/LG05/LS09",
     "file": "pdf/pages/informieren-W1.pdf",
     "kind": "phase",
-    "inputHash": "9d914c22c1674c7fd3578441d91cc9e943ddd805c00b5fd3296e148f40e2d8b5",
+    "inputHash": "a7ef354b2307d55a1cbf22b9572cf1c7cb690b25b9d3a0c797ac83645de6b604",
     "pages": 4,
     "taskNumbers": [
       1,
@@ -1461,14 +1461,14 @@
       "0:1:3",
       "0:1:5"
     ],
-    "sha256": "d26b80e4265314f30c302a57986f03fe66767ad239cec24b578a790fe01345f3"
+    "sha256": "b819fc7159bd669ddb69517994187b664726b62417b5157afbbef3f0c643688e"
   },
   {
     "id": "BRC-LG05-LS09",
     "master": "Fachbereiche/BRC/LG05/LS09",
     "file": "pdf/pages/planen-W1.pdf",
     "kind": "phase",
-    "inputHash": "9d914c22c1674c7fd3578441d91cc9e943ddd805c00b5fd3296e148f40e2d8b5",
+    "inputHash": "a7ef354b2307d55a1cbf22b9572cf1c7cb690b25b9d3a0c797ac83645de6b604",
     "pages": 2,
     "taskNumbers": [
       4,
@@ -1478,14 +1478,14 @@
       "1:1:1",
       "1:1:2"
     ],
-    "sha256": "000747b380d5a702ed6b3cebf89e1aa9a303472d885021ab3a1ad17bed176351"
+    "sha256": "8143aaff070958889300c1f1ff38d5f6804b0d9228a41008f238777db4433fd0"
   },
   {
     "id": "BRC-LG05-LS09",
     "master": "Fachbereiche/BRC/LG05/LS09",
     "file": "pdf/pages/reflektieren-W1.pdf",
     "kind": "phase",
-    "inputHash": "9d914c22c1674c7fd3578441d91cc9e943ddd805c00b5fd3296e148f40e2d8b5",
+    "inputHash": "a7ef354b2307d55a1cbf22b9572cf1c7cb690b25b9d3a0c797ac83645de6b604",
     "pages": 1,
     "taskNumbers": [
       12,
@@ -1495,14 +1495,14 @@
       "5:1:1",
       "5:1:2"
     ],
-    "sha256": "124580394e6431de5c80ea9485b3410c7f0d37857c61bbf0fb12aa7845e9b76e"
+    "sha256": "e483b0454680d2a04584b5b2fdbfea03ecf87490edd7e92a5f91d384959cb5c8"
   },
   {
     "id": "BRC-LG05-LS10",
     "master": "Fachbereiche/BRC/LG05/LS10",
     "file": "pdf/GoodNotes_Arbeitsheft_LS10_Weg1.pdf",
     "kind": "workbook",
-    "inputHash": "245e151bae5ba51835c29860b870d4f25df8a8423d080eb10bd6f2e12cada250",
+    "inputHash": "dd1edb565974c497d2541ae43b332f100bb62df24f969b1d08bdc7377def7949",
     "pages": 19,
     "taskNumbers": [
       1,
@@ -1542,14 +1542,14 @@
       "5:1:2",
       "5:1:3"
     ],
-    "sha256": "d98a2d86b8c8b6d9204a86a00246839a78c82d362b015b2041f861db86177a74"
+    "sha256": "7817b284cf33fe49e9563758882d134a9231ff9e8b8a33b9faf3342c08151527"
   },
   {
     "id": "BRC-LG05-LS10",
     "master": "Fachbereiche/BRC/LG05/LS10",
     "file": "pdf/LS10_Lernpaket_Gesamtdruck_A4.pdf",
     "kind": "print",
-    "inputHash": "245e151bae5ba51835c29860b870d4f25df8a8423d080eb10bd6f2e12cada250",
+    "inputHash": "dd1edb565974c497d2541ae43b332f100bb62df24f969b1d08bdc7377def7949",
     "pages": 25,
     "taskNumbers": [
       1,
@@ -1589,14 +1589,14 @@
       "5:1:2",
       "5:1:3"
     ],
-    "sha256": "dfd5d302d0eb812631ee990f666673a85463b6a349691884c6306dbff2ac3d2a"
+    "sha256": "dfd03ae259f9c4cde5d302de9605a39d32b0c95eb7fba57116ac3a59e2493091"
   },
   {
     "id": "BRC-LG05-LS10",
     "master": "Fachbereiche/BRC/LG05/LS10",
     "file": "pdf/pages/bewerten-W1.pdf",
     "kind": "phase",
-    "inputHash": "245e151bae5ba51835c29860b870d4f25df8a8423d080eb10bd6f2e12cada250",
+    "inputHash": "dd1edb565974c497d2541ae43b332f100bb62df24f969b1d08bdc7377def7949",
     "pages": 3,
     "taskNumbers": [
       12,
@@ -1608,14 +1608,14 @@
       "4:1:2",
       "4:1:3"
     ],
-    "sha256": "0ee68e1630777e1820cc410b26530ad84aa1ad69901716ec18a650fc4cc2f5fc"
+    "sha256": "90ed9cb096d56fd6aa8b94314bcb47ec143c8570831c38a19a912acb127d5544"
   },
   {
     "id": "BRC-LG05-LS10",
     "master": "Fachbereiche/BRC/LG05/LS10",
     "file": "pdf/pages/durchfuehren-W1.pdf",
     "kind": "phase",
-    "inputHash": "245e151bae5ba51835c29860b870d4f25df8a8423d080eb10bd6f2e12cada250",
+    "inputHash": "dd1edb565974c497d2541ae43b332f100bb62df24f969b1d08bdc7377def7949",
     "pages": 3,
     "taskNumbers": [
       10,
@@ -1625,14 +1625,14 @@
       "3:1:1",
       "3:1:2"
     ],
-    "sha256": "8d1a4921339b0966eb2db5087f1e3b7714fab12fdf235df36fdbf242404b24ff"
+    "sha256": "9cba9a508caa4dd488732d24d7ed726e6a9c0699da1feaca92e1af355f3a7c7d"
   },
   {
     "id": "BRC-LG05-LS10",
     "master": "Fachbereiche/BRC/LG05/LS10",
     "file": "pdf/pages/entscheiden-W1.pdf",
     "kind": "phase",
-    "inputHash": "245e151bae5ba51835c29860b870d4f25df8a8423d080eb10bd6f2e12cada250",
+    "inputHash": "dd1edb565974c497d2541ae43b332f100bb62df24f969b1d08bdc7377def7949",
     "pages": 4,
     "taskNumbers": [
       7,
@@ -1644,14 +1644,14 @@
       "2:1:2",
       "2:1:3"
     ],
-    "sha256": "a9ed046acffada66f634dce439cc7956af3eb5dd5955deb816b7bfb7fb02d08c"
+    "sha256": "d635516b51c7b2b18c9fd1804507e481085bfaf7152df066423efb83c98d0eb3"
   },
   {
     "id": "BRC-LG05-LS10",
     "master": "Fachbereiche/BRC/LG05/LS10",
     "file": "pdf/pages/informieren-W1.pdf",
     "kind": "phase",
-    "inputHash": "245e151bae5ba51835c29860b870d4f25df8a8423d080eb10bd6f2e12cada250",
+    "inputHash": "dd1edb565974c497d2541ae43b332f100bb62df24f969b1d08bdc7377def7949",
     "pages": 4,
     "taskNumbers": [
       1,
@@ -1663,14 +1663,14 @@
       "0:1:3",
       "0:1:5"
     ],
-    "sha256": "efad7d4658a41d1769809f60df9663f70436b6cb48609c1a162fb12b3f6f8052"
+    "sha256": "4e1603a27c2b86d6325183bc97374504f33c7eb9fac2a6566503f5956b2bd672"
   },
   {
     "id": "BRC-LG05-LS10",
     "master": "Fachbereiche/BRC/LG05/LS10",
     "file": "pdf/pages/planen-W1.pdf",
     "kind": "phase",
-    "inputHash": "245e151bae5ba51835c29860b870d4f25df8a8423d080eb10bd6f2e12cada250",
+    "inputHash": "dd1edb565974c497d2541ae43b332f100bb62df24f969b1d08bdc7377def7949",
     "pages": 3,
     "taskNumbers": [
       4,
@@ -1682,14 +1682,14 @@
       "1:1:2",
       "1:1:3"
     ],
-    "sha256": "b9c543614b25ed562f9939cb60222c7e2022ef21c0a7ed3d9e7968fc8ce474ed"
+    "sha256": "92c3cbff180484077925ae21afb1c6059a3724ea1c8227ed97961cc63d331761"
   },
   {
     "id": "BRC-LG05-LS10",
     "master": "Fachbereiche/BRC/LG05/LS10",
     "file": "pdf/pages/reflektieren-W1.pdf",
     "kind": "phase",
-    "inputHash": "245e151bae5ba51835c29860b870d4f25df8a8423d080eb10bd6f2e12cada250",
+    "inputHash": "dd1edb565974c497d2541ae43b332f100bb62df24f969b1d08bdc7377def7949",
     "pages": 2,
     "taskNumbers": [
       15,
@@ -1701,14 +1701,14 @@
       "5:1:2",
       "5:1:3"
     ],
-    "sha256": "94756dd9724926ae8e71780afc61ccda35bfd4b92324d7fc338b24a24f006401"
+    "sha256": "2a019fe24f00a0a41a783c4145c0b98da302d637f5a8317e3f84d282daa02fed"
   },
   {
     "id": "LS-MASTER",
     "master": "Vorlagen/LS-Master",
     "file": "pdf/GoodNotes_LG01_LS03_W1.pdf",
     "kind": "workbook",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 12,
     "taskNumbers": [
       1,
@@ -1742,14 +1742,14 @@
       "4:1:1",
       "5:1:1"
     ],
-    "sha256": "d07e113dc55c253e641ff46281d608b6e639c9ca0da89a6a05504d19adceaf0e"
+    "sha256": "4fe8d3faa2efaab8e2d6e13f526e8c19c282a2be1bf66dd3eb94bc974cfef8da"
   },
   {
     "id": "LS-MASTER",
     "master": "Vorlagen/LS-Master",
     "file": "pdf/GoodNotes_Phase_bewerten_W1.pdf",
     "kind": "phase",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 1,
     "taskNumbers": [
       13
@@ -1757,14 +1757,14 @@
     "taskIds": [
       "4:1:1"
     ],
-    "sha256": "0774ed978558bffc7c501d3482a0bf1cc6efe7ed3cbefec279fd1dcbf726c0e8"
+    "sha256": "1edbfea3ddee663bb941bf009da9eb81c71280ac9879a791b8770969aaa0d2b8"
   },
   {
     "id": "LS-MASTER",
     "master": "Vorlagen/LS-Master",
     "file": "pdf/GoodNotes_Phase_durchfuehren_W1.pdf",
     "kind": "phase",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 1,
     "taskNumbers": [
       12
@@ -1772,14 +1772,14 @@
     "taskIds": [
       "3:1:1"
     ],
-    "sha256": "f9d7bdd83e9a3d4fe6dcf464d211a539d883ec4b67e987a89df76480ddbff0eb"
+    "sha256": "40f36e208d39f36b01a6ca9f6fee056e8f32890f6afab658eb87202742a6674c"
   },
   {
     "id": "LS-MASTER",
     "master": "Vorlagen/LS-Master",
     "file": "pdf/GoodNotes_Phase_entscheiden_W1.pdf",
     "kind": "phase",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 2,
     "taskNumbers": [
       9,
@@ -1791,14 +1791,14 @@
       "2:1:3",
       "2:1:4"
     ],
-    "sha256": "ed7aedc229a2caeeca52351012ae1179fb7ee675b82cd5c413ca9827f9759224"
+    "sha256": "9a980b4f77ff6705703bae2a5057f3a944f1721545225dba518cc91005cb4c8e"
   },
   {
     "id": "LS-MASTER",
     "master": "Vorlagen/LS-Master",
     "file": "pdf/GoodNotes_Phase_informieren_W1.pdf",
     "kind": "phase",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 4,
     "taskNumbers": [
       1,
@@ -1812,14 +1812,14 @@
       "0:1:6",
       "0:1:8"
     ],
-    "sha256": "11952860a876cc919587a199c2f1f7d9ccdcf913323d08f7860683e3f6e41597"
+    "sha256": "e367dd1069c69c255b68abc3b7e256908151a430a11b6abf5ca20a9d885e1ff4"
   },
   {
     "id": "LS-MASTER",
     "master": "Vorlagen/LS-Master",
     "file": "pdf/GoodNotes_Phase_planen_W1.pdf",
     "kind": "phase",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 3,
     "taskNumbers": [
       5,
@@ -1833,14 +1833,14 @@
       "1:1:3",
       "1:1:4"
     ],
-    "sha256": "d12c7d6cfd97cce632411c8c11e73d0a0dfaa24f648d30adb5f5998d69a218c8"
+    "sha256": "2909caae43d49980b4ab79ef2ec5ae27ba1a82c19a4425b6a552c7e1d7f6c10e"
   },
   {
     "id": "LS-MASTER",
     "master": "Vorlagen/LS-Master",
     "file": "pdf/GoodNotes_Phase_reflektieren_W1.pdf",
     "kind": "phase",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 1,
     "taskNumbers": [
       14
@@ -1848,14 +1848,14 @@
     "taskIds": [
       "5:1:1"
     ],
-    "sha256": "5109aedeac010e9e5229c67d03d9b8db19fd60a55f6d79b92b853f9ade675582"
+    "sha256": "052dd87789aad039c87cd6de7147697b7c1d020f81a199ac1a7d4385fba12e7e"
   },
   {
     "id": "LS-MASTER",
     "master": "Vorlagen/LS-Master",
     "file": "pdf/LG01_LS03_Gesamtdruck_A4.pdf",
     "kind": "print",
-    "inputHash": "847dc9eaa365d79885e9eb7d5d4a9e8b91907b4c7a67daf414fcaa93328155ff",
+    "inputHash": "f34a6fda72359f7c621679604fa83d89e28e638cebe7310866cf7284b2f823fb",
     "pages": 41,
     "taskNumbers": [
       1,
@@ -1889,14 +1889,14 @@
       "4:1:1",
       "5:1:1"
     ],
-    "sha256": "2132f7f2040ebf861fb68b65f26b927cf6fdae8f137155118a0129c769d43a60"
+    "sha256": "1cce812f224e62ea4546e44d3cc351e08fe4c6a72c4f7b393999390f9f410504"
   },
   {
     "id": "VORLAGE-TRADIERT",
     "master": "Vorlagen/Lernsituation_tradiert",
     "file": "pdf/Gesamtdruck_LS1_1_Stufe1_A4.pdf",
     "kind": "print",
-    "inputHash": "251832e6f25bcbfbf9e9807f80c2c693b4b76b72c929eaffc7bc284eb451458c",
+    "inputHash": "751b4eda68a6ccd4f26d92ce0fd5c6b259c5ae5469a50a7f8a123ac6922a461d",
     "pages": 86,
     "taskNumbers": [
       1,
@@ -1940,14 +1940,14 @@
       "5:1:2",
       "5:1:3"
     ],
-    "sha256": "d69e66f229dd123ba36b751f54500f4eb73112e1bc0e23ec5e54a30efe90ba89"
+    "sha256": "392410ce3df0c9ae95c61fc7be40d453c89526b83fceffdbe4af5967e538872c"
   },
   {
     "id": "VORLAGE-TRADIERT",
     "master": "Vorlagen/Lernsituation_tradiert",
     "file": "pdf/GoodNotes_Arbeitsheft_LS1_1.pdf",
     "kind": "workbook",
-    "inputHash": "251832e6f25bcbfbf9e9807f80c2c693b4b76b72c929eaffc7bc284eb451458c",
+    "inputHash": "751b4eda68a6ccd4f26d92ce0fd5c6b259c5ae5469a50a7f8a123ac6922a461d",
     "pages": 17,
     "taskNumbers": [
       1,
@@ -1991,14 +1991,14 @@
       "5:1:2",
       "5:1:3"
     ],
-    "sha256": "11a43e83b8779d0bcf7e279967fb9645d5d39ed00c57588a8f00aca89fd58829"
+    "sha256": "bcc6c4ff803535b8eaaeddb77580c332c47d6fbc9e3944d406b227db046ef49f"
   },
   {
     "id": "VORLAGE-TRADIERT",
     "master": "Vorlagen/Lernsituation_tradiert",
     "file": "pdf/GoodNotes_Phase_bewerten_W1.pdf",
     "kind": "phase",
-    "inputHash": "251832e6f25bcbfbf9e9807f80c2c693b4b76b72c929eaffc7bc284eb451458c",
+    "inputHash": "751b4eda68a6ccd4f26d92ce0fd5c6b259c5ae5469a50a7f8a123ac6922a461d",
     "pages": 3,
     "taskNumbers": [
       13,
@@ -2012,14 +2012,14 @@
       "4:1:3",
       "4:1:4"
     ],
-    "sha256": "b7d3edf825827f4e35534ade24a228f5ead166f96d5a3669ba412641f0841714"
+    "sha256": "7025186ff1807ff1dbd34d089d07004e6920276e59211988e20322399020f0c9"
   },
   {
     "id": "VORLAGE-TRADIERT",
     "master": "Vorlagen/Lernsituation_tradiert",
     "file": "pdf/GoodNotes_Phase_durchfuehren_W1.pdf",
     "kind": "phase",
-    "inputHash": "251832e6f25bcbfbf9e9807f80c2c693b4b76b72c929eaffc7bc284eb451458c",
+    "inputHash": "751b4eda68a6ccd4f26d92ce0fd5c6b259c5ae5469a50a7f8a123ac6922a461d",
     "pages": 3,
     "taskNumbers": [
       10,
@@ -2031,14 +2031,14 @@
       "3:1:3",
       "3:1:5"
     ],
-    "sha256": "51205310941e061c7f48e06b8990ebf915e5a19b926597b35f9041187c399578"
+    "sha256": "8fa5cdae09f6a844bea5884c4f4ececc20671d9f92826ae1459b465db8fe1475"
   },
   {
     "id": "VORLAGE-TRADIERT",
     "master": "Vorlagen/Lernsituation_tradiert",
     "file": "pdf/GoodNotes_Phase_entscheiden_W1.pdf",
     "kind": "phase",
-    "inputHash": "251832e6f25bcbfbf9e9807f80c2c693b4b76b72c929eaffc7bc284eb451458c",
+    "inputHash": "751b4eda68a6ccd4f26d92ce0fd5c6b259c5ae5469a50a7f8a123ac6922a461d",
     "pages": 3,
     "taskNumbers": [
       7,
@@ -2050,14 +2050,14 @@
       "2:1:4",
       "2:1:6"
     ],
-    "sha256": "c239a47391281d8f346d6e220870018d872d0a5c752616c6662fbb5cece17521"
+    "sha256": "a3af1adefc1dba29e35bf7c0b215e3cc24a2b65b3b56e4d5ce15df80c50a898f"
   },
   {
     "id": "VORLAGE-TRADIERT",
     "master": "Vorlagen/Lernsituation_tradiert",
     "file": "pdf/GoodNotes_Phase_informieren_W1.pdf",
     "kind": "phase",
-    "inputHash": "251832e6f25bcbfbf9e9807f80c2c693b4b76b72c929eaffc7bc284eb451458c",
+    "inputHash": "751b4eda68a6ccd4f26d92ce0fd5c6b259c5ae5469a50a7f8a123ac6922a461d",
     "pages": 3,
     "taskNumbers": [
       1,
@@ -2069,14 +2069,14 @@
       "0:1:3",
       "0:1:5"
     ],
-    "sha256": "1cf379a8dd0cf8017b0563daad298515c01cc82ed63014aa4e592bca42266247"
+    "sha256": "8e225112f57e5459f54967fa514a1e4cc595e8fd1310dd69f87d10834c75fbe3"
   },
   {
     "id": "VORLAGE-TRADIERT",
     "master": "Vorlagen/Lernsituation_tradiert",
     "file": "pdf/GoodNotes_Phase_planen_W1.pdf",
     "kind": "phase",
-    "inputHash": "251832e6f25bcbfbf9e9807f80c2c693b4b76b72c929eaffc7bc284eb451458c",
+    "inputHash": "751b4eda68a6ccd4f26d92ce0fd5c6b259c5ae5469a50a7f8a123ac6922a461d",
     "pages": 3,
     "taskNumbers": [
       4,
@@ -2088,14 +2088,14 @@
       "1:1:3",
       "1:1:5"
     ],
-    "sha256": "d934bfbb61da40129757a18f0d2c162a0764434d952c9b912481f1e64e096b42"
+    "sha256": "3799c5fef4d8ce8030f1dee0e29e7b4fb5a0a3267054e1a941ae3b031e35a7b8"
   },
   {
     "id": "VORLAGE-TRADIERT",
     "master": "Vorlagen/Lernsituation_tradiert",
     "file": "pdf/GoodNotes_Phase_reflektieren_W1.pdf",
     "kind": "phase",
-    "inputHash": "251832e6f25bcbfbf9e9807f80c2c693b4b76b72c929eaffc7bc284eb451458c",
+    "inputHash": "751b4eda68a6ccd4f26d92ce0fd5c6b259c5ae5469a50a7f8a123ac6922a461d",
     "pages": 2,
     "taskNumbers": [
       17,
@@ -2107,6 +2107,6 @@
       "5:1:2",
       "5:1:3"
     ],
-    "sha256": "5e99c9f0c5fa7c6472e5f90adeb40bc80e5884c182072ef45b2a77ea799a445e"
+    "sha256": "719c272831d2346be02f2220f580292a9bb7ea9963faaf5a6021faea229ff8bc"
   }
 ]

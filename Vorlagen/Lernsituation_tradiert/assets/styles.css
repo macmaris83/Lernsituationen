@@ -291,8 +291,14 @@ body.task-focus .lesson-content .assignment-frame.focus-suppressed{display:none!
 body.material-reading .source-document .paper{min-height:0;padding:28px 32px}
 body.material-reading .source-document .paper table{table-layout:auto;min-width:0;overflow-wrap:anywhere}
 @media(max-width:600px){body.material-reading .source-document .paper{padding:20px 16px}}
-.task-focus-panel .focus-assignment-copy p{margin-bottom:1em}
+/* Teilaufträge und gebündelte Schritte in Übersicht und Fokus gleich absetzen.
+   Nur direkte Textblöcke erfassen; Tabellen- und Listeninhalte bleiben kompakt. */
+body :is(.task-original-preview,.task-focus-panel .assignment-body)>:is(p,ul,ol,.assignment-step,.task-command-stack)+:is(p,ul,ol,.assignment-step,.task-command-stack),
+body :is(.task-original-preview,.task-focus-panel .assignment-body) :is(.assignment-step,.task-command-stack)>:is(p,ul,ol,.task-command-stack)+:is(p,ul,ol,.task-command-stack){margin-top:max(14px,.85em)}
 body:not([data-teacher]) :is(.mode-badge,.phase-mode-title,.series-ways),body:not([data-teacher]) label:has([data-student-mode]){display:none!important}
+/* Phasenmetadaten für Editor und Aufgaben-Fallback erhalten, im Lernweg entfallen
+   die doppelten Zeit-/Arbeitsformzeilen oberhalb des GoodNotes-Imports. */
+body:not([data-teacher]) .lesson-content [data-mode-panel]>.phase-meta{display:none}
 body:not([data-teacher]) .brand-header{justify-content:flex-end}
 body[data-teacher] label:has([data-allow-mode]){display:none!important}
 body[data-page="index.html"] .orientation-competence-layout{grid-template-columns:minmax(0,320px) minmax(0,1fr)}
@@ -307,6 +313,10 @@ body .quiz-check [data-quiz-question]>label input{flex:0 0 18px;width:18px;heigh
 @media(max-width:600px){body[data-page="index.html"] .orientation-competence-layout{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:599px){body[data-page="index.html"] .orientation-competence-list{grid-template-columns:minmax(0,1fr);grid-template-rows:auto}}
 body[data-mode="1"] .mode-badge{background:#333;color:white}body[data-mode="2"] .mode-badge{background:#E6E8EA;color:#333}body[data-mode="3"] .mode-badge{background:#EFF5CE;color:#333}body[data-mode="4"] .mode-badge{background:#E5F5FC;color:#333}body[data-mode="5"] .mode-badge{background:#CCEBF7;color:#333}
+
+/* Historische Rollendossiers bleiben Dokumente statt moderner App-Ansichten. */
+body.material-reading .lesson-content :is(.role-dossier,.ruler-dossier){background:#fffdf8!important;border:1px solid #d7d1c3;border-radius:3px;box-shadow:0 3px 12px #3a342516}
+@media print{body.material-reading .lesson-content :is(.role-dossier,.ruler-dossier){background:#fff!important;box-shadow:none}}
 
 /* Compatibility for the existing tradierte editor and symbol settings. */
 .editor [data-mode-panel]:not([hidden]){display:block!important}.editor [data-mode-panel][hidden]{display:none!important}
