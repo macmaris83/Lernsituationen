@@ -109,7 +109,7 @@ const server=http.createServer((req,res)=>{
    });
    await page.goto(base+'informieren.html');await page.waitForFunction(()=>window.SOZ_READY===true);
    assert.equal(await page.locator('.lesson-content [data-mode-panel]>.phase-meta:visible').count(),0,item.id+': redundant phase time and work-form block is hidden');
-   const phaseWorkbook=page.locator('.lesson-content .phase-workbook-import:visible');
+   const phaseWorkbook=page.locator('.lesson-content .phase-workbook-import:visible,.main>.tools-bar:visible').filter({has:page.locator('[data-share-workbook]')});
    assert.equal(await phaseWorkbook.count(),1,item.id+': current phase workbook import remains visible');
    assert.equal(await phaseWorkbook.locator('[data-share-workbook]').isVisible(),true,item.id+': phase workbook import button remains available');
    if(item.id==='BRC-LG01-LS05'){

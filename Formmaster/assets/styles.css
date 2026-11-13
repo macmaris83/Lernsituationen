@@ -314,3 +314,7 @@ body .quiz-check [data-quiz-question]>label input{flex:0 0 18px;width:18px;heigh
 @media(max-width:599px){body[data-page="index.html"] .orientation-competence-list{grid-template-columns:minmax(0,1fr);grid-template-rows:auto}}
 body[data-mode="1"] .mode-badge{background:#333;color:white}body[data-mode="2"] .mode-badge{background:#E6E8EA;color:#333}body[data-mode="3"] .mode-badge{background:#EFF5CE;color:#333}body[data-mode="4"] .mode-badge{background:#E5F5FC;color:#333}body[data-mode="5"] .mode-badge{background:#CCEBF7;color:#333}
 
+/* Historische Rollendossiers bleiben Dokumente statt moderner App-Ansichten. */
+body.material-reading .lesson-content :is(.role-dossier,.ruler-dossier){background:#fffdf8!important;border:1px solid #d7d1c3;border-radius:3px;box-shadow:0 3px 12px #3a342516}
+@media print{body.material-reading .lesson-content :is(.role-dossier,.ruler-dossier){background:#fff!important;box-shadow:none}}
+
