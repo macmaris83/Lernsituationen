@@ -1,0 +1,866 @@
+{
+  "1": [
+    {
+      "title": "Ausgangsproblem",
+      "question": "Warum reicht Christian die gestiegene Umsatzsumme für eine positive Bewertung nicht aus?",
+      "options": [
+        "Zusätzliche Verkäufe gehen mit mehr Kühlverlusten, Auftragskorrekturen und Belastungen in den Abläufen einher.",
+        "BioCasa hat die Produktion sämtlicher Tiefkühlpizzen bereits eingestellt.",
+        "Die neue Umsatzübersicht enthält ausschließlich den Umsatz des niederländischen Piloten.",
+        "Das Gründerteam hat für GJ06 bereits eine landesweite Expansion beschlossen.",
+        "Der Vergleichsbetrieb soll BioCasa noch vor dem Strategietag übernehmen.",
+        "Die vier Gründenden wollen nur den Namen des Unternehmens ändern."
+      ],
+      "correct": 0,
+      "feedback": "In der Handlungssituation steigt der Umsatz, während Aluna zugleich mehr Kühlverluste und Auftragskorrekturen meldet. Das Team muss deshalb die Entwicklung insgesamt untersuchen."
+    },
+    {
+      "title": "Anfrage aus den Niederlanden",
+      "question": "Was möchte der niederländische Handelspartner laut Handlungssituation?",
+      "options": [
+        "Das gesamte Sortiment sofort in allen europäischen Ländern verkaufen.",
+        "Die Produktion aller Pizzen in die Niederlande verlagern lassen.",
+        "Ausgewählte Bio-Tiefkühlpizzen in einem kleinen regionalen Pilot testen und innerhalb von vier Wochen eine Antwort erhalten.",
+        "BioCasa für vier Jahre einen festen Jahresgewinn garantieren.",
+        "Ausschließlich ungekühlte Pizza-Kits ohne weiteren Test abnehmen.",
+        "Die BioCasa GmbH noch in derselben Woche an die Börse bringen."
+      ],
+      "correct": 2,
+      "feedback": "Julia berichtet von einem kleinen regionalen Test ausgewählter Bio-Tiefkühlpizzen. Eine Antwort wird in vier Wochen erwartet; ein breiter Ausbau ist noch nicht beschlossen."
+    },
+    {
+      "title": "Vergleichsbetrieb",
+      "question": "Welche Besonderheit erschwert die unmittelbare Übernahme der Ideen des Vergleichsbetriebs?",
+      "options": [
+        "Er hat laut Handlungssituation noch nie Tiefkühlprodukte geliefert.",
+        "Er arbeitet ausschließlich ohne Verpackungen und ohne Lieferprozesse.",
+        "Er hat dieselben Abläufe, dieselben Kennzahlen und dieselbe Entwicklung wie BioCasa.",
+        "Er stellt BioCasa ausschließlich fertige Rezepte zur Verfügung.",
+        "Er verwendet andere Verpackungsgrößen und hat die digitale Auftragserfassung früher eingeführt.",
+        "Er ist der niederländische Handelspartner und zugleich BioCasas Hausbank."
+      ],
+      "correct": 4,
+      "feedback": "Der Betrieb erzielt bei ähnlicher Lieferstruktur bessere Prozesswerte. Andere Verpackungsgrößen und ein früherer Digitalstart begrenzen jedoch die direkte Vergleichbarkeit."
+    },
+    {
+      "title": "Faris Vorbehalt",
+      "question": "Wovor warnt Fari im Strategietag?",
+      "options": [
+        "Die vorhandenen Prozessprobleme überhaupt in die Entscheidung einzubeziehen.",
+        "Neue Rezepte und Verpackungen gleichzeitig einzuführen, solange bestehende Abläufe noch nicht zuverlässig funktionieren.",
+        "Die Pizzateige für verschiedene Geschmackswünsche zu nutzen.",
+        "Den Handelspartner innerhalb der genannten Frist zu informieren.",
+        "Zunächst die bereitgestellten Unternehmensdaten zu untersuchen.",
+        "Die Auswirkungen einer Änderung auf Produktion und Beschäftigte zu prüfen."
+      ],
+      "correct": 1,
+      "feedback": "Fari sieht Chancen in kombinierbaren Teigen und Belägen. Zugleich fordert er verlässliche Abläufe, bevor mehrere Produktänderungen gleichzeitig begonnen werden."
+    },
+    {
+      "title": "Auftrag an Ihr Team",
+      "question": "Welche Entscheidung soll Ihr Team vorbereiten?",
+      "options": [
+        "Welche konkrete Aktie BioCasa an einer Börse kaufen soll.",
+        "Welche Preisnachlässe für NordMenü bereits verbindlich vereinbart werden.",
+        "Welcher Liefervertrag ohne weitere Prüfung sofort zu unterschreiben ist.",
+        "Welche endgültigen Produktpreise allein aus der Umsatzsumme folgen.",
+        "Welche Rezeptur ohne Datenprüfung das gesamte bisherige Sortiment ersetzt.",
+        "Welche drei Maßnahmen BioCasa auf Grundlage interner und externer Informationen zuerst angehen sollte."
+      ],
+      "correct": 5,
+      "feedback": "Der Auftrag verlangt begründete Prioritäten. Dabei sollen selbst beeinflussbare Bedingungen und äußere Entwicklungen unterschieden werden; Kapitalfragen folgen anschließend."
+    }
+  ],
+  "2": [
+    {
+      "title": "Finanzierungsanlass",
+      "question": "Wofür werden in der Handlungssituation insgesamt 600.000 Euro benötigt?",
+      "options": [
+        "Für eine bereits beschlossene vollständige Verlagerung der Produktion ins Ausland.",
+        "Für erneuerte Kühltechnik, verlässlichere Auftragserfassung, den Niederlande-Pilot sowie Qualifizierung und Umstellung.",
+        "Nur für eine einmalige Werbeanzeige ohne weitere betriebliche Änderungen.",
+        "Für die Auszahlung des gesamten Betrags als Gewinn an die Gründenden.",
+        "Für die Rückabwicklung sämtlicher bisherigen Kundenaufträge.",
+        "Nur für die Namensänderung auf den bestehenden Pizzaverpackungen."
+      ],
+      "correct": 1,
+      "feedback": "Christian verbindet den Betrag mit konkreten Investitionen und Veränderungen. Die vorhandene Liquidität wird teilweise für den laufenden Betrieb benötigt."
+    },
+    {
+      "title": "Interessen neuer Beteiligter",
+      "question": "Welche Rolle streben die zwei Personen aus dem regionalen Investorenkreis an?",
+      "options": [
+        "Sie möchten die tägliche Schichtplanung übernehmen, aber kein Kapital einbringen.",
+        "Sie möchten ausschließlich als kurzfristige Lieferanten von Zutaten auftreten.",
+        "Sie möchten BioCasa ohne Einblick in Finanzinformationen sofort unbegrenzt Geld zusagen.",
+        "Sie möchten langfristig Kapital einbringen, ohne die tägliche Arbeit in Produktion und Logistik zu übernehmen.",
+        "Sie möchten nur die niederländischen Kunden beliefern und keine Beteiligung halten.",
+        "Sie möchten sämtliche Qualitäts- und Arbeitsbedingungen allein festlegen."
+      ],
+      "correct": 3,
+      "feedback": "Die Interessierten bevorzugen neue Aktien einer nicht börsennotierten AG und geregelte Kontrolle. Ihr Interesse ist noch keine automatische Finanzierungszusage."
+    },
+    {
+      "title": "Faris Sorge",
+      "question": "Welche mögliche Folge einer neuen Beteiligung beschäftigt Fari besonders?",
+      "options": [
+        "Dass BioCasa danach keine Informationen mehr über Zutaten benötigt.",
+        "Dass die Gartenpizza sofort durch sämtliche Pizza-Kits ersetzt werden muss.",
+        "Dass die Hausbank automatisch alle laufenden Betriebsausgaben übernimmt.",
+        "Dass neue Beteiligte zwingend jede Pizza selbst herstellen müssen.",
+        "Dass BioCasa in Zukunft keine Kundinnen und Kunden mehr haben darf.",
+        "Dass Renditedruck die Produktqualität oder faire Arbeitsbedingungen beeinträchtigen könnte."
+      ],
+      "correct": 5,
+      "feedback": "Fari verbindet die Kapitalfrage mit Qualität und fairen Arbeitsbedingungen. Diese Interessen sollen in der Bewertung der Beteiligung berücksichtigt werden."
+    },
+    {
+      "title": "Zu prüfende Behauptung",
+      "question": "Welche Behauptung wird im Gespräch ausdrücklich zur fachlichen Prüfung gestellt?",
+      "options": [
+        "Dass BioCasa bislang Bio-Tiefkühlpizzen herstellt.",
+        "Dass Christian den Finanzierungsbedarf zusammengestellt hat.",
+        "Dass allein der Rechtsformwechsel das fehlende Geld bringe und die AG sofort an die Börse müsse.",
+        "Dass die Hausbank nicht den gesamten Betrag allein finanzieren möchte.",
+        "Dass ein Teil der vorhandenen Liquidität für den laufenden Betrieb gebraucht wird.",
+        "Dass sich zwei Personen aus einem regionalen Investorenkreis interessieren."
+      ],
+      "correct": 2,
+      "feedback": "Die Handlungssituation kennzeichnet die Verbindung von Rechtsformwechsel, Geldzufluss und Börsengang ausdrücklich als zu klärende Behauptung. Die rechtliche Prüfung erfolgt in den Arbeitsphasen."
+    },
+    {
+      "title": "Gesprächsvorbereitung",
+      "question": "Welches Arbeitsergebnis benötigt das Team für das gemeinsame Gespräch?",
+      "options": [
+        "Eine Tischvorlage zu Bedingungen des Wechsels, Folgen der Kapitalerhöhung und rechtlich getrennten Aufgaben.",
+        "Ein sofort veröffentlichtes Börsenangebot mit garantiertem Ausgabekurs.",
+        "Eine neue Rezeptur ohne Bezug zur Finanzierung oder Rechtsform.",
+        "Eine unkommentierte Liste möglicher Unternehmensnamen.",
+        "Einen fertigen Auftrag zur Verlagerung aller Arbeitsplätze.",
+        "Eine Zusage, dass neue Beteiligte unabhängig von Bedingungen investieren."
+      ],
+      "correct": 0,
+      "feedback": "Das Beratungsteam soll den Wechsel über den Namenszusatz hinaus begründen. Erwartet wird eine entscheidungsfähige Grundlage für das Gespräch der Beteiligten."
+    }
+  ],
+  "3": [
+    {
+      "title": "Julias erste Einschätzung",
+      "question": "Welche Beobachtung veranlasst Julia, die Pizza-Kits als zukünftigen „Star“ zu bezeichnen?",
+      "options": [
+        "Die Pizza-Kits verursachen nachweislich keine Produktionskosten.",
+        "Die Pizza-Kits besitzen bereits in jedem Teilmarkt den höchsten Marktanteil.",
+        "Der Umsatz der Pizza-Kits ist im letzten Jahr stark gestiegen.",
+        "Die Klassik-Pizzen wurden bereits vollständig aus dem Sortiment genommen.",
+        "Für die Pizza-Kits liegt bereits eine verbindliche Verkaufsgarantie vor.",
+        "Die Pizza-Kits sind die einzige Produktfamilie von BioCasa."
+      ],
+      "correct": 2,
+      "feedback": "Julia stützt ihre spontane Einschätzung auf den stark gestiegenen eigenen Umsatz. Die Produktbesprechung soll nun eine gemeinsame, weitergehende Datengrundlage schaffen."
+    },
+    {
+      "title": "Bedeutung der Klassik-Pizzen",
+      "question": "Welchen Einwand bringt Fari zugunsten der Klassik-Pizzen vor?",
+      "options": [
+        "Sie haben laut Handlungssituation gar keine Berührungspunkte mit anderen Produkten.",
+        "Sie werden inzwischen ausschließlich vom niederländischen Handelspartner produziert.",
+        "Sie sind bereits vollständig verkauft und müssen nie wieder hergestellt werden.",
+        "Sie ersetzen automatisch jede weitere Marktanalyse.",
+        "Sie liefern weiterhin den größten Umsatzanteil; ihre Produktionsprozesse werden auch für weitere Pizzavarianten genutzt.",
+        "Sie werden in der neuen Produktbesprechung ausdrücklich nicht berücksichtigt."
+      ],
+      "correct": 4,
+      "feedback": "Fari verweist auf den großen Umsatzanteil und auf gemeinsam genutzte Teig-, Beleg- und Verpackungsprozesse. Die Bedeutung einer Familie soll umfassend untersucht werden."
+    },
+    {
+      "title": "Vorschlag zur Spezial-Pizza",
+      "question": "Welcher Vorschlag löst Alunas Nachfrage zu bestehenden Abnehmern und Produktionsschritten aus?",
+      "options": [
+        "Die Spezial-Pizzen wegen gesunkener Verkäufe sofort zu streichen.",
+        "Die Klassik-Pizzen ohne Prüfung in vier neue Produktfamilien umzubenennen.",
+        "Das gesamte neue Kapital ohne Diskussion auf ein Sparkonto zu legen.",
+        "Die Pizza-Kits nur noch als Verpackungsmaterial zu verwenden.",
+        "Alle Produktdaten ausschließlich aus einer Werbeanzeige abzulesen.",
+        "Den Vorstandstermin durch eine reine Rezeptverkostung zu ersetzen."
+      ],
+      "correct": 0,
+      "feedback": "Ein Vertriebsmitarbeiter möchte die Spezial-Pizzen sofort streichen. Aluna fragt nach den Folgen für Abnehmer und gemeinsame Prozesse; diese Fragen sind noch zu untersuchen."
+    },
+    {
+      "title": "Unterschiedliche Teilmärkte",
+      "question": "Was zeigt die Marktübersicht laut Handlungssituation?",
+      "options": [
+        "Alle Produktfamilien befinden sich zwingend im selben Teilmarkt mit identischer Entwicklung.",
+        "Der eigene Umsatz entspricht in jedem Teilmarkt bereits dem gesamten Marktvolumen.",
+        "Der stärkste Wettbewerber ist für alle Familien aus der Betrachtung ausgeschlossen.",
+        "Die Produktfamilien stehen in unterschiedlichen Wettbewerbsumfeldern mit wachsenden, stabilen oder rückläufigen Teilmärkten.",
+        "Die vorhandenen Umsatzwerte beantworten bereits jede Kosten- und Kapazitätsfrage.",
+        "Für jede Familie ist die endgültige Entscheidung schon rechtsverbindlich festgelegt."
+      ],
+      "correct": 3,
+      "feedback": "Die Handlungssituation beschreibt unterschiedliche Marktbedingungen. Manche offenen Fragen benötigen zusätzliche Kunden- oder Kosteninformationen."
+    },
+    {
+      "title": "Vorlage für den Vorstand",
+      "question": "Was soll Ihr Team neben Kennzahlen, Produktlebenszyklus und Portfolio vorlegen?",
+      "options": [
+        "Nur eine Rangliste nach persönlichem Geschmack ohne Begründung.",
+        "Einen nächsten Schritt je Produktfamilie, zwei Bereiche für vertiefte Untersuchungen und konkrete Fragen für die Marktforschung.",
+        "Einen endgültigen Liefervertrag für alle vier Familien ohne weitere Informationen.",
+        "Eine vollständige neue Aktienausgabe mit Börsenzulassung.",
+        "Eine feste Streichliste ausschließlich nach dem letzten Umsatzwert.",
+        "Nur eine Liste von Modellbezeichnungen ohne Konsequenzen für BioCasa."
+      ],
+      "correct": 1,
+      "feedback": "Der Auftrag verlangt begründete nächste Schritte und präzisen Informationsbedarf. Die Empfehlungen sollen über die bloßen Wörter „fördern“ oder „streichen“ hinausgehen."
+    }
+  ],
+  "4": [
+    {
+      "title": "Vorgeschlagene Produktidee",
+      "question": "Welche Idee möchte Fari vor einer Entwicklung untersuchen lassen?",
+      "options": [
+        "Einen ungekühlten Snack für den sofortigen Verzehr ohne Zubereitung.",
+        "Eine ausschließlich für Restaurants bestimmte Pizza mit zwei Kilogramm Portionsgewicht.",
+        "Ein neues Sortiment an warm gelieferten Frühstücksgerichten.",
+        "Eine rein pflanzliche Gartenpizza mit 400 Gramm für ein unkompliziertes Abendessen nach der Arbeit.",
+        "Eine Getränkemarke ohne Bezug zum bestehenden Pizzageschäft.",
+        "Eine Pizza, die nur mit neu angeschafften Spezialöfen gebacken werden kann."
+      ],
+      "correct": 3,
+      "feedback": "Fari skizziert eine 400-g-Gartenpizza mit knusprigem Boden und überzeugendem Gemüsebelag für das Abendessen zu Hause."
+    },
+    {
+      "title": "Herkunft der Rückmeldungen",
+      "question": "Wie sind die 240 vollständigen Antworten zustande gekommen?",
+      "options": [
+        "Ausschließlich durch eine vollständige Befragung aller Menschen in Norddeutschland.",
+        "Durch garantierte Vorbestellungen des gesamten niederländischen Handels.",
+        "Nur durch den Verkaufstest zweier Verpackungen ohne Befragung.",
+        "Durch eine automatische Zusammenrechnung sämtlicher europäischen Kundendaten.",
+        "Ausschließlich durch eine verpflichtende Befragung aller BioCasa-Beschäftigten.",
+        "Über einen QR-Code auf bestehenden Verpackungen, Aushänge in zwei Betrieben und einen Stand an einer Hochschule."
+      ],
+      "correct": 5,
+      "feedback": "Julia hat mehrere Zugänge genutzt. Aluna spricht ausdrücklich die Herkunft der Antworten und die Bekanntheit der Marke bei bisherigen Käufern an."
+    },
+    {
+      "title": "Zubereitungsangabe",
+      "question": "Wie ist die diskutierte Backzeit von höchstens 15 Minuten zu verstehen?",
+      "options": [
+        "Sie umfasst ausdrücklich Einkaufen, Vorheizen, Backen und Abkühlen.",
+        "Sie gilt im bereits vorgeheizten Ofen; die Vorheizzeit kommt zusätzlich hinzu.",
+        "Sie gilt ausschließlich für einen ungeheizten Ofen.",
+        "Sie bezeichnet nur die Zeit für den Transport vom Handel nach Hause.",
+        "Sie setzt voraus, dass die Pizza ohne Backofen gegessen wird.",
+        "Sie ist bereits eine nachgewiesene Garantie für alle denkbaren Geräte."
+      ],
+      "correct": 1,
+      "feedback": "Die Handlungssituation trennt Backzeit und zusätzliche Vorheizzeit. Für eine Nutzung im Betrieb wären außerdem geeigneter Backofen und Tiefkühlung erforderlich."
+    },
+    {
+      "title": "Verpackungstest",
+      "question": "Welche Veränderungen wurden im kleinen Verpackungstest gleichzeitig vorgenommen?",
+      "options": [
+        "Nur die Temperatur des Lagers wurde verändert; beide Verpackungen blieben identisch.",
+        "Nur die Rechtsform des Herstellers wurde geändert.",
+        "Ausschließlich der Name der verantwortlichen Buchhalterin wurde geändert.",
+        "Nur die Anzahl der Gründer wurde verändert.",
+        "Das Verpackungsbild und die Zubereitungsinformation wurden verändert.",
+        "Alle Produkte wurden ohne Verpackung statt mit Verpackung angeboten."
+      ],
+      "correct": 4,
+      "feedback": "Im Test wurden Bild und Zubereitungsinformation zugleich verändert. Die Handlungssituation lässt offen, welche Eigenschaft die unterschiedlichen Kaufraten ausgelöst hat."
+    },
+    {
+      "title": "Forschungsrahmen",
+      "question": "Welche Grenze setzt der Vorstand für die ergänzende Untersuchung?",
+      "options": [
+        "12.000 Euro und ein ganzes Geschäftsjahr.",
+        "600.000 Euro und vier Jahre.",
+        "1.800 Euro und zehn Arbeitstage.",
+        "150.000 Euro und einen unbefristeten Untersuchungszeitraum.",
+        "30.000 Euro und zwölf Monate.",
+        "Keine Budgetgrenze und keine zeitliche Begrenzung."
+      ],
+      "correct": 2,
+      "feedback": "Der Auftrag nennt 1.800 Euro und zehn Arbeitstage. Das Team soll damit ein tragfähiges Forschungsvorgehen für die noch offene Produktentscheidung vorbereiten."
+    }
+  ],
+  "5": [
+    {
+      "title": "Gemeinsame Anliegen",
+      "question": "Welche drei Anliegen stehen auf den Karten im Besprechungsraum?",
+      "options": [
+        "„Neue Rechtsform“, „Sofortiger Börsengang“ und „Alle Anteile verkaufen“.",
+        "„Weniger Informationen“, „Mehr Fehlbestellungen“ und „Keine Tests“.",
+        "„Nur Pizza-Kits“, „Keine Kühlkette“ und „Keine Produktion“.",
+        "„Unbegrenzte Varianten“, „Unbegrenztes Budget“ und „Unbegrenzte Kapazität“.",
+        "„Mehr Kunden“, „Bessere Marge“ und „Weniger Abschriften“.",
+        "„Weniger Kunden“, „Keine Preise“ und „Keine Liefertermine“."
+      ],
+      "correct": 4,
+      "feedback": "Die drei Karten benennen gemeinsame Anliegen. Die Uneinigkeit beginnt bei der Frage, wie BioCasa diese Anliegen in ein abgestimmtes Vorgehen übersetzt."
+    },
+    {
+      "title": "Vorgegebene Jahresziele",
+      "question": "Welche Zielwerte bringt Christian in das Gespräch ein?",
+      "options": [
+        "2,64 Millionen Euro Umsatz, mindestens 900.000 Euro absoluter Jahres-Deckungsbeitrag und höchstens 2,0 Prozent Verderbquote.",
+        "2,4 Millionen Euro Umsatz, genau 600.000 Euro Investition und 15 Prozent Verderbquote.",
+        "900.000 Euro Umsatz, 2,64 Millionen Euro Werbebudget und 48 Prozent Verderbquote.",
+        "12.000 Euro Umsatz, mindestens 150.000 Euro Abschriften und keine Verderbgrenze.",
+        "600.000 Euro Umsatz, mindestens 2,4 Millionen Euro Personalaufwand und 10 Prozent Verderbquote.",
+        "Ein beliebiger Umsatz, unbegrenzte Werbeausgaben und ein vollständiger Verzicht auf Qualitätsziele."
+      ],
+      "correct": 0,
+      "feedback": "Christian nennt diese drei Jahresziele ausdrücklich. Die Aufgabe besteht darin, daraus ein abgestimmtes Zielsystem und eine passende strategische Richtung zu entwickeln."
+    },
+    {
+      "title": "Alunas Einwand",
+      "question": "Welche Folgen zusätzlicher Varianten hebt Aluna hervor?",
+      "options": [
+        "Dass dadurch jede bisherige Kostenposition automatisch entfällt.",
+        "Dass neue Varianten grundsätzlich ohne Verpackung verkauft werden.",
+        "Zusätzliche Lagerplätze, kleinere Produktionslose und aufwendigere Kühltransporte.",
+        "Dass der niederländische Markt automatisch alle zusätzlichen Mengen abnimmt.",
+        "Dass eine Variante immer die gesamte bisherige Produktion ersetzt.",
+        "Dass mehr Varianten zwingend weniger Abstimmung und keine Planung benötigen."
+      ],
+      "correct": 2,
+      "feedback": "Aluna bringt die Auswirkungen auf Lagerung, Produktionslose und Transport ein. Diese Ressourcenfragen gehören zur Entscheidung über die Wachstumsrichtung."
+    },
+    {
+      "title": "Niederländischer Markt",
+      "question": "Was ist zum niederländischen Händler bereits bekannt?",
+      "options": [
+        "Er hat die flächendeckende Vermarktung bereits verbindlich abgeschlossen.",
+        "Er verlangt den sofortigen Rückzug aus dem norddeutschen Markt.",
+        "Er übernimmt automatisch sämtliche Kosten neuer Produktvarianten.",
+        "Er hat sämtliche Forschungsfragen bereits repräsentativ beantwortet.",
+        "Er hat den gesamten Vorstand von BioCasa ersetzt.",
+        "Er interessiert sich für einen Test; Julia möchte die Chance nutzen, aber keinen unvorbereiteten Rollout versprechen."
+      ],
+      "correct": 5,
+      "feedback": "Es liegt Interesse an einem Test vor. Die Handlungssituation verlangt ausdrücklich eine Entscheidung darüber, was im Pilotjahr noch nicht begonnen werden sollte."
+    },
+    {
+      "title": "Strategieauftrag",
+      "question": "Welche Vorlage erwartet der Vorstand von Ihrem Team?",
+      "options": [
+        "Eine Sammlung unverbindlicher Wünsche ohne Messgrößen.",
+        "Ausschließlich einen bereits druckfertigen Werbeprospekt.",
+        "Nur einen neuen Pizzanamen ohne Bezug zur Unternehmenslage.",
+        "Messbare Ziele und eine begründete Verbindung von Zielkunden, Wettbewerbsvorteil sowie Produkten und Märkten.",
+        "Eine endgültige Rezeptur, ohne die strategische Richtung zu klären.",
+        "Eine ungeprüfte Zusage, alle Kundengruppen gleichzeitig zu bedienen."
+      ],
+      "correct": 3,
+      "feedback": "Das Team soll eine entscheidungsfähige strategische Beschlussvorlage erstellen. Die konkrete Ausarbeitung von Rezeptur, Preisen und Werbemitteln folgt später."
+    }
+  ],
+  "6": [
+    {
+      "title": "Produktumfang",
+      "question": "Wie soll sich die neue Gartenpizza in das Sortiment einfügen?",
+      "options": [
+        "Als zwingender Ersatz für sämtliche bisherigen pflanzlichen Pizzen.",
+        "Als erste Pizza eines Unternehmens, das bisher nur Getränke herstellt.",
+        "Als unveränderte Neuverpackung eines bestehenden Fleischprodukts.",
+        "Als einziges Produkt nach der sofortigen Schließung aller übrigen Linien.",
+        "Als Pizza-Kit, das ausschließlich ungebackene Einzelzutaten enthält.",
+        "Als zusätzliche rein pflanzliche Variante; die bisherige mediterrane Pizza bleibt erhältlich."
+      ],
+      "correct": 5,
+      "feedback": "Der Vorstand hat die Entwicklung einer zusätzlichen Variante freigegeben. Die bestehende mediterrane Pizza bleibt ausdrücklich im Sortiment."
+    },
+    {
+      "title": "Aussagen im Entwurf",
+      "question": "Welche Behauptungen des Verpackungsentwurfs sind bisher nicht belegt?",
+      "options": [
+        "Dass eine Verpackung Boden und Belag beim Transport schützen soll.",
+        "Die pauschalen Gesundheits- und Klimaversprechen „gesundes, klimaneutrales Abendessen“.",
+        "Dass vor der nächsten Entwicklungsstufe Tests stattfinden sollen.",
+        "Dass die bisherige mediterrane Pizza weiterhin erhältlich bleibt.",
+        "Dass das Entwicklungs- und Testbudget 12.000 Euro beträgt.",
+        "Dass die zusätzliche Vorheizzeit in der Anleitung erkennbar sein muss."
+      ],
+      "correct": 1,
+      "feedback": "Für die pauschalen Gesundheits- und Klimaversprechen liegen laut Handlungssituation keine Belege vor. Die Aussagenprüfung gehört deshalb zur Produktentscheidung."
+    },
+    {
+      "title": "Mehrwegbox",
+      "question": "Welche Aufgabe hätte die diskutierte Mehrwegbox?",
+      "options": [
+        "Sie wäre ein Backofen, der die Zubereitungszeit vollständig ersetzt.",
+        "Sie würde ausschließlich als fertige Verbraucherportion verkauft.",
+        "Sie würde sämtliche Primärverpackungen ohne weitere Prüfung ersetzen.",
+        "Sie wäre eine zusätzliche Transportverpackung; Rückgabe, Reinigung und Verlustquoten sind noch ungeklärt.",
+        "Sie wäre bereits durch vollständig nachgewiesene Rückläufe abgesichert.",
+        "Sie wäre ein einmalig verwendetes Werbeplakat ohne Transportfunktion."
+      ],
+      "correct": 3,
+      "feedback": "Die Mehrwegbox wird ausdrücklich als Transportverpackung beschrieben. Ihre Rückgabe, Reinigung und Verlustquoten müssen erst geklärt werden."
+    },
+    {
+      "title": "Ressourcenrahmen",
+      "question": "Welchen Betrag nennt Christian für Entwicklung und Tests?",
+      "options": [
+        "12.000 Euro.",
+        "1.800 Euro.",
+        "30.000 Euro.",
+        "150.000 Euro.",
+        "600.000 Euro.",
+        "2.400.000 Euro."
+      ],
+      "correct": 0,
+      "feedback": "Für Entwicklung und Tests stehen 12.000 Euro bereit. Christian erinnert außerdem daran, dass auch das bestehende Produktprogramm Aufmerksamkeit benötigt."
+    },
+    {
+      "title": "Endpunkt des Auftrags",
+      "question": "Womit endet der Auftrag des Produktteams?",
+      "options": [
+        "Mit der bloßen Zusage, dass die neue Pizza sicher allen Kundinnen und Kunden gefallen wird.",
+        "Mit einem ungeprüften landesweiten Verkaufsstart aller Verpackungsvarianten.",
+        "Mit der sofortigen Streichung aller Produkte mit sinkendem Umsatz.",
+        "Mit einem Werbespruch, der sämtliche technischen Prüfungen ersetzt.",
+        "Mit einer nachvollziehbaren Pilotfreigabe auf Grundlage konkreter Anforderungen und definierter Tests.",
+        "Mit der endgültigen Festlegung aller künftigen Verkaufspreise ohne Kalkulation."
+      ],
+      "correct": 4,
+      "feedback": "Der Vorstand verlangt konkrete Anforderungen und eine begründete Produkt-, Marken- und Verpackungswahl. Erst nach definierten Tests soll über die nächste Stufe entschieden werden."
+    }
+  ],
+  "7": [
+    {
+      "title": "Erster Blick auf die Monatszahlen",
+      "question": "Welche erste Einschätzung äußert Christian zur Monatsauswertung?",
+      "options": [
+        "Der Buchführungsgewinn könnte aus seiner Sicht Spielraum für den niederländischen Pilotmarkt schaffen.",
+        "Die Buchführung enthalte überhaupt keine Erträge aus dem untersuchten Monat.",
+        "Die vollständige Produktkalkulation sei bereits geprüft und freigegeben.",
+        "Der Verkauf sämtlicher Maschinen sei bereits für jeden Folgemonat garantiert.",
+        "Der Jahresabschluss des gesamten Unternehmens sei damit schon abgeschlossen.",
+        "Die Agentur habe die Werbeausgaben bereits ohne Rückfrage übernommen."
+      ],
+      "correct": 0,
+      "feedback": "Christian sieht den ausgewiesenen Gewinn zunächst als möglichen Spielraum. Die weitere Diskussion zeigt, dass die Zusammensetzung dieses Ergebnisses noch geprüft werden muss."
+    },
+    {
+      "title": "Einmaliger Ertrag",
+      "question": "Welche Position fällt Aluna zwischen den Erträgen besonders auf?",
+      "options": [
+        "Eine bereits garantierte jährliche Zahlung aller niederländischen Kunden.",
+        "Ein neuer Erlös aus einer Börseneinführung der Gartenpizza.",
+        "Ein Gewinn aus dem Verkauf einer alten Maschine, der nicht jeden Monat erneut entsteht.",
+        "Eine vollständige Erstattung sämtlicher künftigen Produktionskosten.",
+        "Der Verkauf von Produkten, die BioCasa laut Handlungssituation gar nicht herstellt.",
+        "Eine beliebige Schätzung ohne zugrunde liegenden Buchführungsbeleg."
+      ],
+      "correct": 2,
+      "feedback": "Aluna nennt den Gewinn aus einem Maschinenverkauf und dessen fehlende Wiederholbarkeit. Außerdem spricht sie die Vermietung einer ungenutzten Halle an."
+    },
+    {
+      "title": "Bewertung der Anlagennutzung",
+      "question": "Welche neue Information kommt aus der Buchhaltung?",
+      "options": [
+        "Die bisherige Anlage wurde nie genutzt und erzeugt daher keinerlei Bewertungsfragen.",
+        "Die Ersatzanlage wäre heute garantiert kostenlos erhältlich.",
+        "Alle vorhandenen Abschreibungswerte beziehen sich bereits auf künftige Werbekampagnen.",
+        "Die Buchhaltung hat sämtliche Anlagen bereits ohne Prüfung aus der Rechnung entfernt.",
+        "Die Abschreibung beruht auf ursprünglichen Anschaffungskosten, während eine vergleichbare Ersatzanlage heute teurer wäre.",
+        "Die Anschaffungskosten der alten Maschine sind zugleich der sichere Verkaufspreis aller Pizzen."
+      ],
+      "correct": 4,
+      "feedback": "Die Handlungssituation stellt die ursprünglichen Anschaffungskosten den höheren heutigen Ersatzkosten gegenüber. Die interne Bewertung muss anschließend nachvollziehbar erklärt werden."
+    },
+    {
+      "title": "Faris Verständnisfrage",
+      "question": "Worauf bezieht sich Faris Sorge vor einer möglichen Doppelzählung?",
+      "options": [
+        "Auf die doppelte Zahl von Mitarbeiterinnen und Mitarbeitern in zwei Schichten.",
+        "Auf den Maschinenverbrauch und die Zinsen bei der Berücksichtigung interner Bewertungsansätze.",
+        "Auf zwei gleichzeitig verschickte niederländische Werbemotive.",
+        "Auf die Verdoppelung der Pizzagröße von 400 auf 800 Gramm.",
+        "Auf zwei Verpackungsbilder mit derselben Farbe.",
+        "Auf die zweimalige Zählung freiwilliger Antworten einer Kundenbefragung."
+      ],
+      "correct": 1,
+      "feedback": "Fari fragt, ob Maschinenverbrauch oder Zinsen doppelt gerechnet würden. Julia verlangt zugleich, Gewinn, Zahlungsmittel und Produktkosten sauber auseinanderzuhalten."
+    },
+    {
+      "title": "Controllingauftrag",
+      "question": "Welche Unterlage soll Ihr Team für den Vorstand erstellen?",
+      "options": [
+        "Ein endgültiges Angebot an den Großhandel ohne vorherige Prüfung der Daten.",
+        "Einen neuen Produktnamen, der alle Ergebnisfragen ersetzt.",
+        "Eine Zusage an die Agentur allein aufgrund des Buchführungsgewinns.",
+        "Einen vollständigen Jahresabschluss ohne zusätzliche Unternehmensdaten.",
+        "Einen pauschalen Ausschluss aller unerwünschten Zahlen ohne feste Regeln.",
+        "Eine Controllingnotiz auf Basis nachvollziehbar aufbereiteter Monatsdaten, die den Ergebnisbeitrag des Kerngeschäfts und Aussagegrenzen erklärt."
+      ],
+      "correct": 5,
+      "feedback": "Der Vorstand benötigt Klarheit über den abgegrenzten Pizza-Bereich. Christian will die Daten erst nach dieser Prüfung für die anschließende Produktkalkulation freigeben."
+    }
+  ],
+  "8": [
+    {
+      "title": "Kundenanfrage",
+      "question": "Welche Konditionen erwartet der Lebensmittelgroßhändler im Angebot für die Gartenpizza?",
+      "options": [
+        "Ausschließlich einen Endverbraucherpreis ohne weitere Konditionen.",
+        "Rabatt, Skonto und Vermittlungsprovision.",
+        "Eine kostenlose Lieferung aller zukünftigen Produkte ohne Mengenbegrenzung.",
+        "Eine garantierte Beteiligung an BioCasas Grundkapital.",
+        "Nur einen Preis für ungekühlte Zutaten ohne fertige Pizza.",
+        "Einen Festpreis, der ohne Bezug zu Kosten oder Markt dauerhaft unveränderbar bleibt."
+      ],
+      "correct": 1,
+      "feedback": "Der Großhändler möchte die Gartenpizza aufnehmen und verlangt ein Angebot mit Rabatt, Skonto und Vermittlungsprovision. Die Angebote müssen bis Ende der Woche vorliegen."
+    },
+    {
+      "title": "Offene Kalkulationsfrage",
+      "question": "Warum kann Julia aus der freigegebenen Bereichsübersicht noch kein Angebot schreiben?",
+      "options": [
+        "Die Übersicht enthält laut Handlungssituation überhaupt keine Kostenwerte.",
+        "Der Vorstand hat jede weitere Rechnung bereits untersagt.",
+        "Der Großhändler möchte gar keinen Preis erfahren.",
+        "Die Bereichskosten zeigen noch nicht, welchen Kostenanteil eine einzelne Tiefkühlpizza tragen muss.",
+        "Alle Kosten werden ausschließlich von einem externen Investor getragen.",
+        "Die Gartenpizza wird in diesem Fall gar nicht hergestellt."
+      ],
+      "correct": 3,
+      "feedback": "Julia unterscheidet ausdrücklich die Kosten des gesamten untersuchten Bereichs von der Belastung einer einzelnen Pizza. Diese Zuordnung ist noch zu erarbeiten."
+    },
+    {
+      "title": "Gemeinsame Betriebsversorgung",
+      "question": "Welche gemeinsam genutzten Leistungen nennt Aluna?",
+      "options": [
+        "Ausschließlich die Zutaten einer einzigen Gartenpizza.",
+        "Nur die Vermittlungsprovision des Großhändlers.",
+        "Ausschließlich die persönliche Werbeidee einer Gründerin.",
+        "Nur den Verkaufserlös einer alten Maschine.",
+        "Ausschließlich ein Preisangebot für den niederländischen Pilotmarkt.",
+        "Reinigung, Pausenversorgung und Infrastruktur, die von mehreren Kostenstellen genutzt werden."
+      ],
+      "correct": 5,
+      "feedback": "Aluna verweist auf die gemeinsame Betriebsversorgung. Die Kostenverteilung und ihre Grenzen sollen für Christian nachvollziehbar werden."
+    },
+    {
+      "title": "Nachkalkulation im Juli",
+      "question": "Welche Entwicklung wird drei Monate später berichtet?",
+      "options": [
+        "Sämtliche Kosten bleiben unverändert und neue Daten werden ausdrücklich ausgeschlossen.",
+        "Die Gartenpizza wurde inzwischen vollständig durch ein Getränkesortiment ersetzt.",
+        "Der Zutatenverbrauch je Gartenpizza ist günstiger als geplant, der Lohnaufwand etwas höher; neue Zuschlagssätze liegen vor.",
+        "Der Großhändler hat sämtliche Kosten rückwirkend übernommen.",
+        "Alle Mitarbeitenden arbeiten nun ohne Lohn und ohne Arbeitszeit.",
+        "Der tatsächliche Zutatenverbrauch und die Lohnwerte sind vollständig unbekannt geblieben."
+      ],
+      "correct": 2,
+      "feedback": "Die Handlungssituation nennt geänderte Zutaten- und Lohnwerte sowie neue Zuschlagssätze. Der Juli soll deshalb eigenständig nachkalkuliert werden."
+    },
+    {
+      "title": "Lieferantenabwägung",
+      "question": "Was spricht gegen einen ungeprüften Wechsel zur billigeren Zutat?",
+      "options": [
+        "Der weitere Lieferant kann die verlangten Herkunftsinformationen nicht vollständig liefern.",
+        "Der Lieferant bietet nachweislich dieselbe vollständige Herkunftsdokumentation und alle Qualitätsbelege.",
+        "BioCasa hat laut Handlungssituation keine Anforderungen an Herkunft oder Qualität.",
+        "Der neue Lieferant verlangt, dass überhaupt keine Zutaten mehr verwendet werden.",
+        "Die günstigere Zutat wurde bereits abschließend von allen Abteilungen freigegeben.",
+        "Fari hat bereits entschieden, die gesamte Rezeptur ungeprüft zu ersetzen."
+      ],
+      "correct": 0,
+      "feedback": "Fari möchte die Rezeptur nicht vorschnell ändern. Julia erinnert an nachvollziehbare Herkunft und gleichbleibende Qualität als Teil von BioCasas Versprechen."
+    }
+  ],
+  "9": [
+    {
+      "title": "Kapazitätslage im Mai",
+      "question": "Welche Ausgangslage beschreibt die Handlungssituation für Mai?",
+      "options": [
+        "Die Linie ist bereits vollständig ausgelastet und kann keine weitere Pizza herstellen.",
+        "Alle Produktionsräume sind geschlossen und sämtliche Beschäftigten entlassen.",
+        "Die Nachfrage bleibt hinter dem Plan zurück; die Linie könnte noch 13.000 weitere Gartenpizzen herstellen.",
+        "Die Wartung des Folgemonats hat die gesamte Mai-Produktion schon beendet.",
+        "Die Nachfrage ist höher als jede vorhandene Kapazität.",
+        "Die vorhandene Kapazität wird ausschließlich für ein neues Getränkesortiment genutzt."
+      ],
+      "correct": 2,
+      "feedback": "Im Mai bestehen freie Kapazitäten für 13.000 zusätzliche Gartenpizzen. Personal, Kühltechnik und Räume verursachen weiterhin Kosten."
+    },
+    {
+      "title": "NordMenü-Anfrage",
+      "question": "Was fragt NordMenü aus Oldenburg an?",
+      "options": [
+        "13.000 Pizza-Kits für einen sofortigen weltweiten Markteintritt.",
+        "Eine dauerhafte Übernahme der gesamten BioCasa AG.",
+        "Nur eine einzelne Pizza für ein privates Abendessen.",
+        "Den Kauf aller Maschinen für einen vierjährigen Produktionsstillstand.",
+        "10.000 Gartenpizzen für einen vierwöchigen Test in der Gemeinschaftsverpflegung.",
+        "Eine unbegrenzte Menge sämtlicher Produktfamilien zu noch unbekannten Bedingungen."
+      ],
+      "correct": 4,
+      "feedback": "NordMenü plant einen zeitlich begrenzten Test. Der angebotene Preis liegt deutlich unter dem üblichen direkten Nettoerlös."
+    },
+    {
+      "title": "Zusätzliche Anforderungen",
+      "question": "Welche zusätzlichen Anforderungen nennt NordMenü?",
+      "options": [
+        "Lieferungen an vier Standorte und eine eigene Kennzeichnung.",
+        "Eine vollständige Verlagerung der BioCasa-Produktion nach Oldenburg.",
+        "Eine Lieferung ausschließlich ohne Kühlung und ohne Verpackung.",
+        "Die sofortige Einstellung aller bestehenden Kundenbeziehungen.",
+        "Den Verzicht auf jede Preisverhandlung und jede Vertragsbedingung.",
+        "Die Abschaffung aller Liefertermine während des Tests."
+      ],
+      "correct": 0,
+      "feedback": "Vier Lieferstandorte und eine eigene Kennzeichnung gehören zur Anfrage. Die Handlungssituation verlangt, dass diese Anforderungen in der Rechnung berücksichtigt werden."
+    },
+    {
+      "title": "Getrennter Engpassfall",
+      "question": "Was verändert die Entscheidungslage im Folgemonat?",
+      "options": [
+        "Alle Produktionskapazitäten stehen dann unbegrenzt und kostenlos bereit.",
+        "NordMenü übernimmt ab dann sämtliche Bestandskunden von BioCasa.",
+        "Die Gemeinkosten verschwinden durch eine bloße Umbenennung der Produktfamilien.",
+        "Eine angekündigte Wartung führt dazu, dass mehrere Produkte um knappe Belege- und Verpackungszeit konkurrieren.",
+        "Fari stellt bereits im Mai sämtliche Produktionsdaten auf ein anderes Geschäftsjahr um.",
+        "Die Wartung betrifft ausschließlich Julias Bildschirm und keine Fertigungsprozesse."
+      ],
+      "correct": 3,
+      "feedback": "Fari weist auf die Wartung und die knappe gemeinsame Bearbeitungszeit hin. Der Fall im Folgemonat wird ausdrücklich getrennt von der freien Mai-Kapazität betrachtet."
+    },
+    {
+      "title": "Entscheidungsunterlage",
+      "question": "Welche zwei unterschiedlichen Entscheidungen muss Ihr Positionspapier vorbereiten?",
+      "options": [
+        "Einen Börsengang im Mai und eine Schließung des Unternehmens im Juni.",
+        "Eine Verhandlungsgrenze mit Vertragsbedingungen für Mai und ein wirtschaftliches Produktionsprogramm für den getrennten Engpassfall.",
+        "Eine neue Verpackungsfarbe und den endgültigen Standort der Hauptversammlung.",
+        "Zwei identische Preiszusagen ohne Berücksichtigung der jeweiligen Kapazität.",
+        "Ausschließlich den Verkauf der alten Maschine und die Vermietung der Halle.",
+        "Nur eine unverbindliche Werbeidee für NordMenü und einen neuen Markennamen."
+      ],
+      "correct": 1,
+      "feedback": "Der Auftrag unterscheidet freie Kapazität und Engpass. Zahlen, Annahmen und strategische Folgen sollen so verbunden werden, dass eine nachvollziehbare Entscheidung möglich ist."
+    }
+  ],
+  "10": [
+    {
+      "title": "Kommunikationsidee",
+      "question": "Welche Alltagssituation zeigt Julias erster Anzeigenentwurf?",
+      "options": [
+        "Eine Person beim Verzehr einer ungebackenen Pizza während einer Autofahrt.",
+        "Einen Großhändler, der ausschließlich Getränke an Restaurants verkauft.",
+        "Eine Schichtgruppe ohne Backofen, die eine Tiefkühlpizza sofort kalt essen soll.",
+        "Eine Berufstätige nach Feierabend am heimischen Küchentisch mit gebackener Gartenpizza.",
+        "Eine Börsenversammlung ohne Bezug zur Produktverwendung.",
+        "Einen privaten Garten, in dem BioCasa angeblich sämtliche Zutaten selbst anbaut."
+      ],
+      "correct": 3,
+      "feedback": "Der Entwurf trägt die Überschrift „Deine Pizza zum Feierabend“. Christian möchte wissen, wie aus diesem Bild tatsächlich Nachfrage entstehen kann."
+    },
+    {
+      "title": "Bisherige Schwäche",
+      "question": "Welche Information fehlt Interessierten nach Rückmeldungen aus dem Handel häufig?",
+      "options": [
+        "Der genaue Termin jeder einzelnen Mitarbeiterschicht.",
+        "Die private Anschrift sämtlicher Gründerinnen und Gründer.",
+        "Die Zahl der auf BioCasas Konto gebuchten Banktransaktionen.",
+        "Die genaue Reihenfolge der Vorstandswahl.",
+        "Der Wiederbeschaffungswert jeder Produktionsmaschine.",
+        "Packungsgröße und Bezugsort der Gartenpizza."
+      ],
+      "correct": 5,
+      "feedback": "Bisherige Beiträge erscheinen unregelmäßig. Der Handel meldet, dass Interessierte Packungsgröße und Bezugsort häufig nicht erkennen."
+    },
+    {
+      "title": "Unbelegtes Versprechen",
+      "question": "Warum widerspricht Fari dem Satz „Die klimaneutrale Pizza aus ausschließlich regionalen Zutaten“?",
+      "options": [
+        "BioCasa möchte grundsätzlich keine Angaben zu Zutaten oder Herkunft machen.",
+        "Nicht jede Zutat stammt aus der Region, und eine belastbare Klimabilanz für diese Aussage liegt nicht vor.",
+        "Die Aussage ist bereits durch eine vollständige Klimabilanz und regionale Herkunft aller Zutaten belegt.",
+        "Die Gartenpizza wird ausschließlich als Restaurantdienstleistung angeboten.",
+        "Alle angebotenen Pizzen haben laut Handlungssituation überhaupt keine Zutaten.",
+        "Der Satz enthält bereits die vollständige Medien- und Budgetplanung."
+      ],
+      "correct": 1,
+      "feedback": "Die Handlungssituation nennt beide fehlenden Grundlagen ausdrücklich. Julia braucht eine attraktive Botschaft, deren Aussagen nachvollziehbar bleiben."
+    },
+    {
+      "title": "Budget und Zeitraum",
+      "question": "Welchen Rahmen gibt Christian für die Kommunikation frei?",
+      "options": [
+        "12.000 Euro ausschließlich für Gestaltung; alle weiteren Kosten sind unbegrenzt.",
+        "1.800 Euro für zehn Arbeitstage ausschließlich zur Produktforschung.",
+        "150.000 Euro für einen jährlichen Vertriebsaufbau.",
+        "600.000 Euro ausschließlich für einen sofortigen landesweiten Werbestart.",
+        "12.000 Euro netto für zwölf Wochen einschließlich Gestaltung, Ausspielung, Aktionen und Erfolgskontrolle.",
+        "30.000 Euro für ein ganzes Jahr ohne Erfolgskontrolle."
+      ],
+      "correct": 4,
+      "feedback": "Der freigegebene Gesamtbetrag beträgt 12.000 Euro netto für zwölf Wochen. Mehr Geld steht nicht automatisch zur Verfügung."
+    },
+    {
+      "title": "Liefergebiet berücksichtigen",
+      "question": "Welche Grenze muss eine breite Kampagne beachten?",
+      "options": [
+        "Sie soll möglichst viele unbedienbare Bestellungen erzeugen, um Reichweite nachzuweisen.",
+        "Sie darf die tatsächlichen Bezugswege vollständig offenlassen.",
+        "Sie darf keine Bestellungen aus Gebieten auslösen, die BioCasa noch nicht zuverlässig beliefern kann.",
+        "Sie soll ausschließlich auf Sichtkontakte ohne Zielgruppenbezug ausgerichtet werden.",
+        "Sie darf den Lieferumfang unabhängig von Alunas Planung beliebig versprechen.",
+        "Sie ersetzt automatisch den Nachweis einer funktionierenden Kühlkette."
+      ],
+      "correct": 2,
+      "feedback": "Der Kommunikationsauftrag verlangt eine Abstimmung mit den tatsächlichen Bezugswegen und der Lieferfähigkeit. Hohe Klickzahlen allein genügen nicht als Erfolgsbegründung."
+    }
+  ],
+  "11": [
+    {
+      "title": "Vier Angebote",
+      "question": "Welche vier Alternativen lässt Christian für den Vertrieb vorbereiten?",
+      "options": [
+        "Börsengang, Kapitalerhöhung, Maschinenverkauf und Hallenvermietung.",
+        "Vier unterschiedliche Rezepte ohne Veränderung der Vertriebswege.",
+        "Ausschließlich vier Agenturen für dasselbe Plakatmotiv.",
+        "Nur vier Kreditangebote für einen identischen Bankkredit.",
+        "Angestellter Reisender, selbstständige Handelsvertreterin, Bio-Großhandel und Ausbau des Webshops.",
+        "Je eine Verpackungsfarbe für vier bereits fest zugesagte Kunden."
+      ],
+      "correct": 4,
+      "feedback": "Die Handlungssituation nennt diese vier Vertriebsalternativen. Sie unterscheiden sich unter anderem in Kundenkontakt, Verträgen, Kosten und übernommenen Aufgaben."
+    },
+    {
+      "title": "Absatzprognosen",
+      "question": "Warum lassen sich die Prognosen der vier Angebote nicht einfach addieren?",
+      "options": [
+        "Mehrere Angebote beziehen sich auf dieselben potenziellen Kunden.",
+        "Alle vier Prognosen enthalten ausdrücklich vollständig getrennte Kundengruppen ohne Überschneidungen.",
+        "Für keines der Angebote werden überhaupt mögliche Kunden genannt.",
+        "Der Vorstand möchte grundsätzlich keinerlei Zahlen verwenden.",
+        "Die Angebote beziehen sich auf vier verschiedene Unternehmen ohne Bezug zu BioCasa.",
+        "Die Herstellungskosten werden durch das Addieren der Prognosen automatisch verdoppelt."
+      ],
+      "correct": 0,
+      "feedback": "Einige Angebote betreffen dieselben potenziellen Kunden. Die Handlungssituation warnt daher vor einer einfachen Addition der Prognosen."
+    },
+    {
+      "title": "Mehrwegfragen",
+      "question": "Welche offenen Fragen stellt Aluna zum Mehrwegkonzept?",
+      "options": [
+        "Ob Mehrwegboxen die Pizza ohne Ofen vollständig backen können.",
+        "Ob allein die Farbe der Box sämtliche Umweltwirkungen bestimmt.",
+        "Wie oft Boxen zurückkommen, wer sie reinigt und ob zusätzliche Rückfahrten nötig werden.",
+        "Ob Boxen unabhängig vom Rücklauf immer unbegrenzt wiederverwendet werden.",
+        "Ob die Webshop-Adresse die Reinigung automatisch ersetzt.",
+        "Ob die Bezeichnung „Mehrweg“ jede weitere Prüfung entbehrlich macht."
+      ],
+      "correct": 2,
+      "feedback": "Aluna richtet den Blick auf tatsächliche Rückläufe, Reinigung und Transport. Die Wirkung des Systems soll anhand belastbarer Angaben beurteilt werden."
+    },
+    {
+      "title": "Vertriebsbudget",
+      "question": "Wofür gelten die höchstens 150.000 Euro des Vorstands?",
+      "options": [
+        "Für sämtliche Produktionskosten und den kompletten Jahresumsatz zusammen.",
+        "Ausschließlich für den einmaligen Einkauf einer neuen Maschine.",
+        "Für die Forschung in zehn Arbeitstagen.",
+        "Ausschließlich für die zwölfwöchige Kommunikationskampagne.",
+        "Für die garantierte Gewinnauszahlung an alle Aktionärinnen und Aktionäre.",
+        "Für zusätzliche Vertriebsausgaben des betrachteten jährlichen Vertriebsaufbaus."
+      ],
+      "correct": 5,
+      "feedback": "Der Vorstand nennt höchstens 150.000 Euro zusätzliche Vertriebsausgaben. Die Handlungssituation stellt ausdrücklich klar, dass dies kein Produktionsbudget ist."
+    },
+    {
+      "title": "Kanalentscheidung",
+      "question": "Was soll Ihr Team für den Vorstand vorbereiten?",
+      "options": [
+        "Eine unbegrenzte Lieferzusage für jede neue Anfrage ohne Prüfung.",
+        "Nur eine Summe der vier Prognosen ohne Entscheidung für einen Kanal.",
+        "Eine automatische Einstufung aller digitalen Abläufe als emissionsfrei.",
+        "Einen empfohlenen Kanal, einen organisatorisch abgesicherten begrenzten Niederlande-Pilot und Kriterien zum Stoppen oder Anpassen des Ausbaus.",
+        "Einen vollständigen Verzicht auf Kühlkette, Mindestmengen und feste Übergaben.",
+        "Eine garantierte landesweite Expansion allein aufgrund der geografischen Nähe."
+      ],
+      "correct": 3,
+      "feedback": "Die Vorlage soll Absatzpotenzial, wirtschaftlichen Beitrag, Kontrollmöglichkeiten und Umweltwirkungen zusammenführen. Der Niederlande-Pilot bleibt ausdrücklich begrenzt."
+    }
+  ],
+  "12": [
+    {
+      "title": "Zeitpunkt der Auswertung",
+      "question": "Zu welchem Zeitpunkt lädt Christian zur gemeinsamen Auswertung ein?",
+      "options": [
+        "Noch vor der Gründung der BioCasa GmbH.",
+        "Ausschließlich vor dem ersten Verkauf einer Klassik-Pizza.",
+        "Unmittelbar vor der Erhebung der ersten 240 Forschungsantworten.",
+        "Am ersten Tag des Geschäftsjahres GJ01.",
+        "Vor der Entscheidung, überhaupt Tiefkühlpizza herzustellen.",
+        "Zum Abschluss des Geschäftsjahres GJ06."
+      ],
+      "correct": 5,
+      "feedback": "Die Handlungssituation betrachtet den Abschluss von GJ06. Der Vorstand möchte den Marketing-Mix und die Zielerreichung auswerten."
+    },
+    {
+      "title": "Positive Entwicklung",
+      "question": "Welche positiven Beobachtungen hebt Julia zu Beginn hervor?",
+      "options": [
+        "Alle Lieferprobleme sind nachweislich vollständig verschwunden.",
+        "Der Umsatz liegt über dem Vorjahr, die Gartenpizza stärkt Pflanzliche Pizzen und mehr Bestellungen erreichen BioCasa digital.",
+        "Der niederländische Pilot ist bereits landesweit und abschließend bewertet.",
+        "Die Verderbquote hat das gesetzte Ziel bereits sicher erreicht.",
+        "Sämtliche gestiegenen Umsätze sind bereits zweifelsfrei einer einzelnen Werbemaßnahme zugeordnet.",
+        "Alle Unternehmensausgaben sind gegenüber dem Vorjahr auf null gefallen."
+      ],
+      "correct": 1,
+      "feedback": "Die Auswertung beginnt mit höheren Umsätzen und mehr digitalen Bestellungen. Andere Berichte nennen gleichzeitig Probleme, die in die Gesamtbewertung einfließen müssen."
+    },
+    {
+      "title": "Gegensätzliche Signale",
+      "question": "Welche Schwierigkeiten nennt Aluna in ihrem Bericht?",
+      "options": [
+        "Eine vollständige Einstellung sämtlicher digitalen Bestellungen.",
+        "Eine fehlende Nachfrage nach allen Produktfamilien ohne Ausnahme.",
+        "Einen bereits endgültig gescheiterten Börsengang.",
+        "Mehr reklamierte Aufträge, häufiger verfehlte Liefertermine und Verkaufsstellen, die ihre Kundschaft vertrösten mussten.",
+        "Eine nicht durchgeführte Gründung des Unternehmens.",
+        "Einen vollständigen Verzicht aller Verkaufsstellen auf jede weitere Lieferung."
+      ],
+      "correct": 3,
+      "feedback": "Alunas Bericht beschreibt Reklamationen und Lieferprobleme. Fari ergänzt, dass trotz weniger verworfener Ware das Verderbziel noch nicht erreicht ist."
+    },
+    {
+      "title": "Nachweis einer Wirkung",
+      "question": "Welche Begründung überzeugt Christian allein noch nicht?",
+      "options": [
+        "Der einfache Vergleich „mehr Werbung – mehr Umsatz“.",
+        "Dass unterschiedliche Datenquellen vor einer Entscheidung getrennt betrachtet werden müssen.",
+        "Dass gestiegene Ausgaben bei der Auswertung berücksichtigt werden sollen.",
+        "Dass auch der Deckungsbeitrag für die Bewertung relevant ist.",
+        "Dass positive Zahlen und bestehende Probleme gemeinsam betrachtet werden sollen.",
+        "Dass der niederländische Pilot bisher nur wenige Rückmeldungen geliefert hat."
+      ],
+      "correct": 0,
+      "feedback": "Christian fragt ausdrücklich, welcher Teil des Wachstums auf bestimmte Maßnahmen zurückzuführen ist. Jahreszahlen, Kampagnentests und kleine Befragungen müssen dafür unterschieden werden."
+    },
+    {
+      "title": "Auftrag für das nächste Quartal",
+      "question": "Welche Aufgabe erhält Ihr Team unter dem zusätzlichen Budget von höchstens 30.000 Euro?",
+      "options": [
+        "Jeder Abteilung ihr Wunschprojekt unabhängig vom Gesamtbudget zusagen.",
+        "Ausschließlich den Onlineumsatz darstellen und alle anderen Signale weglassen.",
+        "Den niederländischen Markt ohne weitere Daten sofort flächendeckend ausbauen.",
+        "Nur ein neues Werbemotiv erstellen, ohne Produkt, Preis oder Lieferfähigkeit zu prüfen.",
+        "Den Marketing-Mix als Ganzes prüfen, priorisierte Verbesserungen empfehlen und Werte zur späteren Wirkungskontrolle festlegen.",
+        "Alle bisherigen Ziele nachträglich ohne Begründung als erreicht erklären."
+      ],
+      "correct": 4,
+      "feedback": "Der Vorstand erwartet eine kurze Tischvorlage zur Passung von Produktversprechen, Preis, Kommunikation und Lieferfähigkeit. Maßnahmen und spätere Kontrollwerte müssen begründet sein."
+    }
+  ]
+}

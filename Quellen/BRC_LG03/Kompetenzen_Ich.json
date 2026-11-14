@@ -1,0 +1,362 @@
+{
+  "1": {
+    "priorityStatement": "Ich analysiere die Markt- und Unternehmenssituation anhand interner und externer Informationen, führe ein vergleichbares Benchmarking durch und leite begründete Strategien unter Berücksichtigung von Expansion, Internationalisierung, Nachhaltigkeit und Digitalisierung ab.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich trenne interne Stärken und Schwächen von externen Chancen und Risiken, berechne Leistungslücken und begründe passende Strategien."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 3,
+        "statement": "Ich benenne eine voreilige eigene Annahme und zeige, wie die Daten meine Einschätzung verändern."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 4,
+        "statement": "Ich prüfe die Folgen eines Vorschlags aus Sicht von Produktion, Vertrieb und Beschäftigten und bearbeite begründete Einwände."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 4,
+        "statement": "Ich dokumentiere Datenquelle, Bezugsgröße und Unsicherheit; jede meiner Empfehlungen ist auf einen Befund zurückführbar."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 3,
+        "statement": "Ich gestalte ein lesbares Handout; meine Berechnungen und Quellen bleiben auch bei digitaler oder KI-gestützter Bearbeitung nachvollziehbar."
+      }
+    ]
+  },
+  "2": {
+    "priorityStatement": "Ich begründe den Wechsel der BioCasa GmbH zur AG im Zusammenhang mit Kapitalbedarf, Expansion, Internationalisierung, Nachhaltigkeit und Digitalisierung; ich erläutere wesentliche Merkmale, Organe und Eigenkapitalbestandteile der AG und berechne die Wirkung einer getrennten Kapitalerhöhung.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich vergleiche die Rechtsformen und stelle die Organbeziehungen korrekt dar; ich unterscheide Kapitalzufluss, Grundkapital, Kapitalrücklage und Beteiligungsquote."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 3,
+        "statement": "Ich begründe eine eigene Position und korrigiere eine zunächst plausible Fehlannahme über die AG."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 4,
+        "statement": "Ich berücksichtige Kontrollinteressen der Gründenden und Informationsinteressen neuer Beteiligter."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 4,
+        "statement": "Ich trenne Rechtsnorm, Fallannahme und wirtschaftliches Urteil in einer entscheidungsfähigen Tischvorlage."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 3,
+        "statement": "Ich verweise auf überprüfbare Rechtsquellen und stelle Geldflüsse sowie Organbeziehungen verständlich dar."
+      }
+    ]
+  },
+  "3": {
+    "priorityStatement": "Ich werte das Produktprogramm anhand von Marktgrößen, Umsatzentwicklung, Produktlebenszyklus und Marktanteils-Marktwachstums-Portfolio aus, leite begründete Handlungsoptionen ab und benenne die Grenzen der Modelle sowie einen daraus entstehenden Informationsbedarf.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich berechne Umsatzanteile, eigene Umsatzveränderung, Marktanteile, Marktwachstum und relativen Marktanteil korrekt und leite differenzierte Empfehlungen ab."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 3,
+        "statement": "Ich revidiere eine vorschnelle Produktbewertung und benenne eine verbleibende Unsicherheit."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 3,
+        "statement": "Ich wäge Interessen von Produktion und Vertrieb ab und prüfe eine alternative Empfehlung sachlich."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 4,
+        "statement": "Ich dokumentiere Bezugsmarkt, Zeitraum, Einheit und Rundung; ich verwende Produktlebenszyklus und Portfolio als verschiedene Modelle."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 4,
+        "statement": "Ich erstelle eine verständlich beschriftete Portfolio-Darstellung mit lesbarer Legende; meine digitalen Rechenwege bleiben prüfbar."
+      }
+    ]
+  },
+  "4": {
+    "priorityStatement": "Ich entwickle eine auf das betriebliche Informationsproblem abgestimmte Marktforschung, werte quantitative und qualitative Befunde aus und beurteile deren Aussagekraft für die Produktentscheidung.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich unterscheide Primär- und Sekundärforschung, Befragung, Beobachtung und Experiment sachgerecht und berücksichtige Stichproben- und Messfehler bei meiner Empfehlung."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 3,
+        "statement": "Ich korrigiere eine zunächst bevorzugte Produktidee bei widersprechenden Daten begründet."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 4,
+        "statement": "Ich erfrage im Pretest Verständnisprobleme, ohne die Testperson zu einer gewünschten Antwort zu lenken."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 4,
+        "statement": "Ich operationalisiere eine Forschungsfrage, wäge mindestens zwei Methoden ab, berechne Prozentwerte mit passenden Nennern und prüfe den Fragebogen vor."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 4,
+        "statement": "Ich beschrifte Tabellen oder Diagramme mit Stichprobe und Bezugsgröße und trenne simulierte Daten und eigene Testnotizen kenntlich."
+      }
+    ]
+  },
+  "5": {
+    "priorityStatement": "Ich entwickle auf Grundlage von Unternehmenslage, Leitbild und Marktforschungsbefunden ein widerspruchsarmes System von Marketingzielen und begründe eine kombinierte Wettbewerbs-, Marktbearbeitungs- und Wachstumsstrategie.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich erläutere Zielbeziehungen und kombiniere Porter, Segmentierung sowie Ansoff als unterschiedliche Entscheidungsperspektiven sachgerecht."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 4,
+        "statement": "Ich prüfe Wunschziele an verfügbaren Ressourcen und benenne Zielkonflikte offen."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 4,
+        "statement": "Ich führe Interessen von Finanzen, Produktentwicklung, Logistik und Marketing zu einer begründeten Entscheidung zusammen."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 4,
+        "statement": "Ich vergleiche mindestens zwei konsistente Strategiebündel anhand gemeinsamer Kriterien und operationalisiere Ziele."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 3,
+        "statement": "Ich erstelle eine kurze Beschlussvorlage mit kenntlich gemachter Datenbasis und überprüfbaren Zielgrößen."
+      }
+    ]
+  },
+  "6": {
+    "priorityStatement": "Ich entwickle auf Grundlage von Kundenbedarf und Unternehmensstrategie begründete produkt- und markenpolitische Maßnahmen und prüfe ein neues Produktkonzept auf Nutzen, technische Umsetzbarkeit, Wirtschaftlichkeit und glaubwürdige Kommunikation.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich unterscheide Innovation, Variation, Differenzierung, Elimination und Diversifikation und begründe Markenarchitektur, Verpackung und Zusatzleistungen fallbezogen."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 4,
+        "statement": "Ich überprüfe Lieblingsideen an Testbefunden und Ressourcen und benenne Grenzen meiner eigenen Behauptungen."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 4,
+        "statement": "Ich übersetze Konflikte zwischen Küche, Logistik und Marketing in einen tragfähigen Produktbeschluss."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 4,
+        "statement": "Ich übersetze Kundenwünsche in messbare Lastenheftanforderungen und plane Entwicklungsschritte mit Freigabekriterien."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 4,
+        "statement": "Ich erstelle ein verständliches Produktdossier mit unterscheidbaren Fakten, Entwürfen und noch ausstehenden Nachweisen."
+      }
+    ]
+  },
+  "7": {
+    "priorityStatement": "Ich grenze Aufwand/Ertrag von Kosten/Leistungen ab, berechne kalkulatorische Abschreibungen und Zinsen und erkläre die Überleitung zum Betriebsergebnis.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich erstelle eine vollständige Ergebnistabelle und eine rechnerisch schlüssige Ergebnisbrücke."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 4,
+        "statement": "Ich markiere unsichere Zuordnungen und kläre sie gezielt."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 3,
+        "statement": "Ich entscheide Streitfälle anhand von Belegen sachlich."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 5,
+        "statement": "Ich nutze ein Prüfraster für Betriebszweck, Periode, Regelmäßigkeit und Bewertung."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 4,
+        "statement": "Ich dokumentiere Rechenwege und Quellen und prüfe fremde Ausgaben."
+      }
+    ]
+  },
+  "8": {
+    "priorityStatement": "Ich verteile Gemeinkosten in einem mehrstufigen BAB, kalkuliere Selbstkosten und Listenverkaufspreise und beurteile Vorwärts-, Rückwärts-, Differenz- und Nachkalkulation.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich erstelle einen schlüssigen BAB, vollständige Kalkulationen und eine korrekte Nachkalkulation."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 4,
+        "statement": "Ich kläre Rundungs- und Übertragungsfehler selbst auf."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 3,
+        "statement": "Ich verbinde Kalkulation und Produktqualität im Entscheidungsgespräch."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 5,
+        "statement": "Ich führe Mengen-, Bezugsbasis- und Summenkontrollen durch."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 4,
+        "statement": "Ich erstelle ein prüffähiges Rechenblatt mit Formeln oder klaren Rechenwegen."
+      }
+    ]
+  },
+  "9": {
+    "priorityStatement": "Ich beurteile kosten-, nachfrage- und wettbewerbsorientierte Preisentscheidungen, berechne Deckungsbeiträge und Preisuntergrenzen und entwickle bei freier Kapazität sowie einem Engpass begründete Entscheidungen.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich erstelle eine Ergebnisrechnung, beurteile einen Zusatzauftrag, entwickle ein Produktionsprogramm anhand relativer Deckungsbeiträge und berücksichtige Opportunitätskosten."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 4,
+        "statement": "Ich begründe meine eigenen Verhandlungsgrenzen und überprüfe sie bei neuen Informationen."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 4,
+        "statement": "Ich verhandle sachlich, nehme Gegenargumente auf und gebe nicht unbegründet nach."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 5,
+        "statement": "Ich halte Fallrechnungen getrennt und prüfe Einheiten und Kapazität."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 4,
+        "statement": "Ich kontrolliere mein Rechenmodell und kennzeichne ein KI-Rollenspiel als Simulation."
+      }
+    ]
+  },
+  "10": {
+    "priorityStatement": "Ich entwickle für ein erklärtes Marketingziel zielgruppengerechte, wirtschaftlich begründete und aufeinander abgestimmte Kommunikationsmaßnahmen und entwerfe eine aussagefähige Erfolgskontrolle.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich grenze Kommunikationsinstrumente ab, begründe einen Medienmix, kalkuliere Kosten und beurteile Wirkungskennzahlen."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 4,
+        "statement": "Ich verwerfe eine attraktive, aber unbelegte Werbeaussage und begründe meinen Umgang mit Unsicherheit."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 4,
+        "statement": "Ich prüfe fremde Entwürfe aus Sicht von Handel und Endkundschaft und überarbeite nach konkretem Feedback."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 4,
+        "statement": "Ich erstelle einen Werbeplan und unterscheide Informationen, Annahmen und Entscheidungskriterien."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 4,
+        "statement": "Ich trenne Werbemittel und Werbeträger und prüfe mögliche KI-Vorschläge auf Fallbezug und erfundene Versprechen."
+      }
+    ]
+  },
+  "11": {
+    "priorityStatement": "Ich beurteile direkte und indirekte Absatzwege unter wirtschaftlichen, digitalen, internationalen und ökologischen Gesichtspunkten und entwickle ein abgestimmtes, rechnerisch begründetes Distributionskonzept.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich unterscheide Absatzhelfer und Absatzmittler, rechne Kanalbeiträge und begründe eine Kühlkettenentscheidung."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 4,
+        "statement": "Ich kennzeichne unsichere Absatzprognosen und verantworte eine begrenzte Pilotentscheidung."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 4,
+        "statement": "Ich führe die Interessen von Vertrieb, Logistik, Finanzen und Kundenservice zusammen."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 4,
+        "statement": "Ich vergleiche Alternativen mit einheitlicher Rechenlogik und lege Systemgrenzen offen."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 4,
+        "statement": "Ich plane digitale Übergaben einschließlich Fehlerkontrolle und vermeide die Gleichsetzung von digital und nachhaltig."
+      }
+    ]
+  },
+  "12": {
+    "priorityStatement": "Ich überprüfe die Abstimmung eines Marketing-Mix mit Strategie und Zielen, berechne geeignete finanzielle und nichtfinanzielle Kennzahlen, beurteile Abweichungen und entwickle kontrollierbare Verbesserungsmaßnahmen.",
+    "competencies": [
+      {
+        "label": "Fachkompetenz",
+        "weight": 5,
+        "statement": "Ich beurteile Produkt-, Preis-, Kommunikations- und Distributionspolitik anhand korrekter Kennzahlen und einer Ergebnisrechnung."
+      },
+      {
+        "label": "Personalkompetenz",
+        "weight": 4,
+        "statement": "Ich priorisiere trotz widersprüchlicher Signale und lege die Unsicherheit meiner Empfehlung offen."
+      },
+      {
+        "label": "Sozialkompetenz",
+        "weight": 4,
+        "statement": "Ich formuliere Rückmeldungen so, dass Marketing und Logistik eine gemeinsame Maßnahme übernehmen können."
+      },
+      {
+        "label": "Methodenkompetenz",
+        "weight": 5,
+        "statement": "Ich trenne Soll-Ist-Vergleich, Zeitvergleich, Ursache-Hypothese und belegte Wirkung."
+      },
+      {
+        "label": "Medienkompetenz",
+        "weight": 4,
+        "statement": "Ich gestalte ein verständliches Cockpit ohne irreführende Achsen, Prozentangaben oder automatische Ampelfarbe ohne Schwelle."
+      }
+    ]
+  }
+}
