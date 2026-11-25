@@ -30,7 +30,7 @@ Das Set verwendet die acht Stationen der GitHub-Vorlage: **Orientierung**, **Han
 
 ### Drei Lernpakete als Ergänzung zum Formstand
 
-Die Auswahl erscheint in der Handlungssituation nach dem Fall und vor dem Einstieg in die Arbeitsphasen. Die Lernenden wählen je LS **genau ein Paket**. Jedes Paket beschreibt, wie sie die Informationen erschließen und wie sie die zentrale Entscheidung vorbereiten. Auf den Aufgabenseiten stehen die gemeinsamen Aufträge sowie die Hinweise für das gewählte Paket.
+Die Lernenden wählen zu Beginn der Phase **Entscheiden** je LS **genau ein Paket**. In Orientierung, Handlungssituation, Informieren und Planen bearbeiten alle denselben Fallstand und bereiten ihre Entscheidung mit den gemeinsamen Materialien vor. Nach der Wahl bearbeiten sie die fachliche Entscheidung und das Handlungsprodukt mit dem gewählten Zugang.
 
 | Kennung | Zugang | Typische Materialien und Tätigkeiten |
 | --- | --- | --- |
@@ -43,9 +43,9 @@ Für A, B und C gelten **dieselbe Fachkompetenz, dieselben Fallinformationen, da
 ### Vorgaben für die spätere Paketumsetzung
 
 - **Einordnung.** BFSdual erhält eine eigene Vorlagenkonfiguration auf Basis des gemeinsamen Formmasters. Jede Lernsituation bekommt eine eigene Kennung, z. B. `BFSDUAL-LF06-LS01`, und lokal zugeordnete Materialien. Die Kennungen A, B und C werden mit der LS-Kennung gespeichert.
-- **Auswahl und Ansicht.** Drei gleich gestaltete Karten zeigen Zugang, Tätigkeit und gemeinsames Handlungsprodukt. Die gewählte Karte bleibt im Lernweg erkennbar. Materialzugriff und Rücksprung zur Aufgabe behalten die aktuelle Wahl. Audio verfügt über eine zugängliche Textfassung. Materialien und Arbeitsergebnisse sind mit Tastatur und auf schmalen Bildschirmen erreichbar.
-- **Fortschritt.** Der Abschluss bezieht sich auf die Aufgaben des gewählten Pakets in dieser LS. Jede der acht Situationen lässt sich mit einem leeren Lernstand starten und vollständig bearbeiten. Bei einer Wiederaufnahme stimmen LS, Auswahl und bearbeitete Aufgaben mit dem gespeicherten Stand überein.
-- **Prüfung.** Für jede LS alle drei Varianten mit den beigefügten Materialien durchspielen. Prüfen, ob die Lernenden denselben fachlichen Nachweis erbringen, die Materialien des gewählten Pakets erreichbar sind und der Abschluss mit dem eigenen Handlungsprodukt gelingt.
+- **Auswahl und Ansicht.** Drei gleich gestaltete Karten erscheinen zu Beginn von Entscheiden und zeigen Zugang, Tätigkeit und gemeinsames Handlungsprodukt. Nach der Auswahl bleibt das Paket im Lernweg erkennbar. Materialzugriff und Rücksprung zur Aufgabe behalten die aktuelle Wahl. Audio verfügt über eine zugängliche Textfassung. Materialien und Arbeitsergebnisse sind mit Tastatur und auf schmalen Bildschirmen erreichbar.
+- **Fortschritt.** Bis einschließlich Planen funktionieren Aufgaben, Materialzugriff und Wiederaufnahme mit noch offener Paketwahl. Die Wahl ist Teil von Entscheiden und muss vor Durchführen vorliegen. Der Abschluss berücksichtigt die gemeinsamen Aufgaben sowie die Aufgaben im gewählten Paket der aktuellen LS. Bei der Wiederaufnahme werden der Aufgabenstand und, sobald getroffen, die Paketwahl wiederhergestellt.
+- **Prüfung.** Für jede LS den Start, die Bearbeitung bis Planen ohne Paketwahl und die Wiederaufnahme vor Entscheiden prüfen. Anschließend alle drei Varianten ab Entscheiden durchspielen. Prüfen, ob Paketwahl und Materialien nach Wiederaufnahme erreichbar sind und alle drei Wege mit demselben fachlichen Nachweis abschließen.
 
 ## LS 6.1 · Die Nachfrage an zwei Standorten vergleichen
 
@@ -77,19 +77,9 @@ Beide Geschäfte haben die gleiche Aktionswoche vorgemerkt. Um 10 Uhr sitzen ihr
 1. Welche Entscheidung muss Jana vor dem gemeinsamen Gespräch vorbereiten?
 2. Welche Unterschiede zwischen den Läden könnten das Angebot oder seine Präsentation beeinflussen?
 
-### Lernpakete
-
-Wählt einen Zugang. In allen drei Paketen erstellt ihr dieselbe Vergleichsmatrix für Jana.
-
-| Paket | So erschließt ihr den Fall |
-| --- | --- |
-| **A · Visuell** | Legt M1 und M2 nebeneinander. Markiert Nachfrage und Verkaufsform mit unterschiedlichen Farben. Zeichnet aus M3 zwei Skizzen im gleichen Maßstab und markiert Fläche und freizuhaltende Bereiche. |
-| **B · Auditiv** | Hört oder lest euch die beiden Sprachnachrichten aus M4 vor. Sortiert die gehörten Hinweise im Gespräch nach Nachfrage, Verkauf und Fläche. Prüft Zahlen und Maße bei Bedarf in M1 bis M3 nach. |
-| **C · Haptisch-handelnd** | Zeichnet die Grundrisse aus M3 auf Papier oder markiert sie am Boden. Schneidet Karten mit den Beobachtungen aus M1 und M2 aus und legt sie an den passenden Standort. Legt aus Papier passende Warenträger aus und erkundet, wie sich Fläche und Verkaufsform auf den Zugriff auswirken. |
-
 ### Informieren
 
-**Vergleicht** die Standorte mit eurem gewählten Lernpaket. Haltet zu Nachfrage, Verkaufsform und Fläche jeweils mindestens einen belegbaren Unterschied fest.
+**Vergleicht** die Standorte anhand von M1 bis M3. Haltet zu Nachfrage, Verkaufsform und Fläche jeweils mindestens einen belegbaren Unterschied fest.
 
 ### Planen
 
@@ -97,7 +87,19 @@ Wählt einen Zugang. In allen drei Paketen erstellt ihr dieselbe Vergleichsmatri
 
 ### Entscheiden
 
-**Wählt** für jeden Standort drei Anforderungen aus und stuft jede als zwingend oder wünschenswert ein. Legt fest, welcher Unterschied für die Aktion am folgenreichsten ist.
+#### Lernpaket wählen
+
+**Wählt** eines der drei Lernpakete. In allen drei Paketen erstellt ihr dieselbe Vergleichsmatrix für Jana.
+
+| Paket | So erschließt ihr den Fall |
+| --- | --- |
+| **A · Visuell** | Legt M1 und M2 nebeneinander. Markiert Nachfrage und Verkaufsform mit unterschiedlichen Farben. Zeichnet aus M3 zwei Skizzen im gleichen Maßstab und markiert Fläche und freizuhaltende Bereiche. |
+| **B · Auditiv** | Hört oder lest euch die beiden Sprachnachrichten aus M4 vor. Sortiert die gehörten Hinweise im Gespräch nach Nachfrage, Verkauf und Fläche. Prüft Zahlen und Maße bei Bedarf in M1 bis M3 nach. |
+| **C · Haptisch-handelnd** | Zeichnet die Grundrisse aus M3 auf Papier oder markiert sie am Boden. Schneidet Karten mit den Beobachtungen aus M1 und M2 aus und legt sie an den passenden Standort. Legt aus Papier passende Warenträger aus und erkundet, wie sich Fläche und Verkaufsform auf den Zugriff auswirken. |
+
+#### Fachliche Entscheidung
+
+**Leitet** mit dem gewählten Lernpaket aus euren Belegen je Standort drei Anforderungen ab. Stuft sie als zwingend oder wünschenswert ein und legt fest, welcher Standortunterschied für die Aktion am wichtigsten ist.
 
 ### Durchführen
 
@@ -192,16 +194,6 @@ Das Fahrradfachgeschäft möchte wenig Ware auf der kleinen Fläche unterbringen
 1. Was muss Jana für beide Geschäfte gemeinsam entscheiden?
 2. Welche Informationen braucht sie, bevor sie einen Artikel freigeben kann?
 
-### Lernpakete
-
-Wählt einen Zugang. Für alle Pakete gelten dieselben Daten, Sortimentsvorgaben und Begründungen.
-
-| Paket | So erschließt ihr den Fall |
-| --- | --- |
-| **A · Visuell** | Erstellt aus M1 und M2 eine Übersicht. Legt je Artikel die passenden Kundensignale nebeneinander und kennzeichnet freie beziehungsweise belegte Plätze sichtbar. |
-| **B · Auditiv** | Hört oder lest euch die Gesprächsauszüge in M4 vor. Führt eine Sortimentsrunde mit den Rollen Global Bike, Fachgeschäft und Sportfachmarkt. Sucht Belege und Lieferstatus in M1 und M2 nach. |
-| **C · Haptisch-handelnd** | Kopiert die Zeilen von M2 als Produktkarten, jeweils zweimal für die Ladenflächen. Erstellt aus M3 zwei Flächenraster. Legt probeweise die Produkte und markiert den gemeinsamen Kern farblich. Ordnet ausgewählten Artikeln passende Nachfragebelege aus M1 zu. |
-
 ### Informieren
 
 **Ermittelt** aus M1 die häufigsten und wichtigsten Anliegen je Standort. Gleicht sie mit den in M2 dokumentierten Eigenschaften und der Lieferbarkeit ab.
@@ -212,7 +204,19 @@ Wählt einen Zugang. Für alle Pakete gelten dieselben Daten, Sortimentsvorgaben
 
 ### Entscheiden
 
-**Wählt** die vier gemeinsamen Artikel sowie die Ergänzungen für beide Standorte. Nennt einen lieferbaren Artikel, den ihr bewusst auslasst, und begründet eure Entscheidung.
+#### Lernpaket wählen
+
+**Wählt** eines der drei Lernpakete. Für alle Pakete gelten dieselben Daten, Sortimentsvorgaben und Begründungen.
+
+| Paket | So erschließt ihr den Fall |
+| --- | --- |
+| **A · Visuell** | Erstellt aus M1 und M2 eine Übersicht. Legt je Artikel die passenden Kundensignale nebeneinander und kennzeichnet freie beziehungsweise belegte Plätze sichtbar. |
+| **B · Auditiv** | Hört oder lest euch die Gesprächsauszüge in M4 vor. Führt eine Sortimentsrunde mit den Rollen Global Bike, Fachgeschäft und Sportfachmarkt. Sucht Belege und Lieferstatus in M1 und M2 nach. |
+| **C · Haptisch-handelnd** | Kopiert die Zeilen von M2 als Produktkarten, jeweils zweimal für die Ladenflächen. Erstellt aus M3 zwei Flächenraster. Legt probeweise die Produkte und markiert den gemeinsamen Kern farblich. Ordnet ausgewählten Artikeln passende Nachfragebelege aus M1 zu. |
+
+#### Fachliche Entscheidung
+
+**Erprobt** eure Sortimentsideen mit dem gewählten Lernpaket. Legt vier gemeinsame Artikel und die Ergänzungen für beide Standorte fest. Begründet auch, warum ihr einen lieferbaren Artikel auslasst.
 
 ### Durchführen
 
@@ -332,25 +336,29 @@ Eine Kundin schiebt ihr Fahrrad herein und fragt nach einer Lampe für ihren Len
 1. Warum braucht das Fachgeschäft neben der Warenpräsentation Platz zum Vorführen?
 2. Was könnte beim Aufbau schiefgehen, wenn nur die Stellfläche für Regale betrachtet wird?
 
-### Lernpakete
-
-| Wahl | So arbeitet ihr |
-|---|---|
-| **A · Visuell – Maßskizze** | Übertragt die Koordinaten aus M1 in einen Plan im Maßstab 1:20. Zeichnet zwei Anordnungen mit verschiedenen Farben und markiert Beratungsplatz, Zugriff und Wege. |
-| **B · Auditiv – Beratung mithören** | Hört den Dialog aus M4 an oder lest ihn mit verteilten Rollen vor. Spielt einen zweiten Beratungsvorgang mit der Minipumpe durch. Sagt die Bewegungen und Handgriffe laut an und übertragt die erkannten Anforderungen auf zwei Planskizzen. |
-| **C · Haptisch – Fläche aufbauen** | Legt die Fläche, die beiden Regale und den Tisch nach der Modellanleitung in M4 aus. Bewegt ein Fahrradmodell und ein Muster durch zwei Anordnungen und zeichnet die gewählte Lösung anschließend auf. |
-
 ### Informieren
 
 **Entnehmt** M1 bis M3 die Maße, die Betriebsregeln und die Anforderungen der ausgewählten Artikel. **Markiert** im Plan, wo Zugriff, Durchgang und Vorführen gleichzeitig möglich sein müssen.
 
 ### Planen
 
-**Entwerft** zwei unterschiedliche Anordnungen für die vorgegebenen Artikel. Tragt bei beiden Entwürfen die Warenträger, ihre Maße und den Platz zum Vorführen ein.
+**Skizziert** zwei grobe Anordnungen für Warenträger und Vorführplatz. Haltet fest, welche Zugänge, Maße und Vorgaben ihr bei beiden Anordnungen prüfen müsst.
 
 ### Entscheiden
 
-**Vergleicht** beide Entwürfe mithilfe von M5. **Begründet**, welche Anordnung ihr der Inhaberin vorschlagt und welchen konkreten Nachteil die andere Anordnung im Beratungsbetrieb hätte.
+#### Lernpaket wählen
+
+**Wählt** eines der drei Lernpakete.
+
+| Wahl | So arbeitet ihr |
+|---|---|
+| **A · Visuell – Maßskizze** | Übertragt die Koordinaten aus M1 in einen Plan im Maßstab 1:20. Arbeitet eure beiden Anordnungen mit verschiedenen Farben aus und markiert Beratungsplatz, Zugriff und Wege. |
+| **B · Auditiv – Beratung mithören** | Hört den Dialog aus M4 an oder lest ihn mit verteilten Rollen vor. Spielt einen zweiten Beratungsvorgang mit der Minipumpe durch. Sagt die Bewegungen und Handgriffe laut an und übertragt die erkannten Anforderungen auf zwei Planskizzen. |
+| **C · Haptisch – Fläche aufbauen** | Legt die Fläche, die beiden Regale und den Tisch nach der Modellanleitung in M4 aus. Bewegt ein Fahrradmodell und ein Muster durch zwei Anordnungen und zeichnet die gewählte Lösung anschließend auf. |
+
+#### Fachliche Entscheidung
+
+**Vergleicht** beide Anordnungen mit dem gewählten Lernpaket und den Kriterien aus M5. Begründet eure Empfehlung für die Inhaberin mit einem konkreten Vorteil im Beratungsbetrieb und benennt, welches Problem bei der anderen Anordnung auftreten könnte.
 
 ### Durchführen
 
@@ -452,25 +460,29 @@ Der Abteilungsleiter sieht auf die Uhr. „Genau dafür brauchen wir morgen eine
 1. Woran scheitert die selbstständige Auswahl der Pumpe in der Szene?
 2. Welche beiden Anforderungen stellt der Abteilungsleiter an die Fläche für den Samstag?
 
-### Lernpakete
-
-| Wahl | So arbeitet ihr |
-|---|---|
-| **A · Visuell – Kundenlaufplan** | Übertragt M1 in eine Zeichnung. Markiert die in M2 beobachteten Wege als Pfeile und skizziert zwei Regalansichten mit Beschilderung und Vergleichsinformationen. |
-| **B · Auditiv – Einkauf mithören** | Hört oder lest den Dialog aus M4 mit verteilten Rollen. Spielt kurze Nachfragen zur Pumpe und zum Flaschenhalter durch. Zeichnet daraus zwei Vorschläge mit den Orten, an denen Antworten sichtbar sein sollen. |
-| **C · Haptisch – Regalmodell** | Setzt die Grundfläche als Modell nach M4 um. Verschiebt Artikel- und Schilderkarten, während eine Person mit einem Einkaufswagenmodell die Fälle aus M2 durchspielt. Skizziert zwei Anordnungen. |
-
 ### Informieren
 
 **Wertet** den Grundriss, die Beobachtungen und die Produktkarten in M1 bis M3 aus. **Haltet fest**, welche Kundenwege und welche Kriterien für die Artikelauswahl eure Präsentation aufgreifen muss.
 
 ### Planen
 
-**Entwerft** zwei unterschiedliche Anordnungen mit Wegeführung, Artikelgruppen und Positionen der Schilder. Nutzt die gleichen Vorgaben zu Warenträgern, Durchgängen und Artikeln für beide Entwürfe.
+**Skizziert** zwei grobe Anordnungen für Wege und Warenträger. Haltet fest, wo die Kundschaft in beiden Varianten eine Orientierung oder Angaben zum Produktvergleich braucht.
 
 ### Entscheiden
 
-**Vergleicht** die Anordnungen mit M5. **Begründet**, welche Lösung die Kundschaft besser führt und beim Produktvergleich unterstützt.
+#### Lernpaket wählen
+
+**Wählt** eines der drei Lernpakete.
+
+| Wahl | So arbeitet ihr |
+|---|---|
+| **A · Visuell – Kundenlaufplan** | Übertragt M1 in eine Zeichnung. Markiert die in M2 beobachteten Wege als Pfeile und ergänzt eure beiden Entwürfe um Regalansichten mit Beschilderung und Vergleichsinformationen. |
+| **B · Auditiv – Einkauf mithören** | Hört oder lest den Dialog aus M4 mit verteilten Rollen. Spielt kurze Nachfragen zur Pumpe und zum Flaschenhalter durch. Ergänzt in beiden Entwürfen die Orte, an denen die Antworten sichtbar sein sollen. |
+| **C · Haptisch – Regalmodell** | Setzt die Grundfläche als Modell nach M4 um. Verschiebt Artikel- und Schilderkarten, während eine Person mit einem Einkaufswagenmodell die Fälle aus M2 durchspielt. Prüft auf diese Weise eure beiden Anordnungen. |
+
+#### Fachliche Entscheidung
+
+**Vergleicht** beide Anordnungen mit dem gewählten Lernpaket und den Kriterien aus M5. Begründet, welche Lösung die Kundschaft besser führt und beim Produktvergleich unterstützt.
 
 ### Durchführen
 
@@ -576,7 +588,19 @@ Am Mittwoch vor der Aktion legt Jana, die Vertriebsleiterin von Global Bike, den
 - Worüber sind sich die Partner bereits einig?
 - Was muss vor dem frühesten Freigabetermin entschieden sein?
 
-### Lernpakete
+### Informieren
+
+**Klärt**, wen beide Läden erreichen wollen, welche Werbeplätze zur Verfügung stehen und bis wann Material und Freigaben gebraucht werden.
+
+### Planen
+
+**Skizziert** zwei mögliche Abläufe für die Werbeaktion. Notiert wichtige Fristen und eine Kennzahl, die beide Standorte für ein gemeinsames Ziel erfassen können.
+
+### Entscheiden
+
+#### Lernpaket wählen
+
+**Wählt** eines der drei Lernpakete.
 
 | Paket | So arbeitet ihr |
 | --- | --- |
@@ -584,17 +608,9 @@ Am Mittwoch vor der Aktion legt Jana, die Vertriebsleiterin von Global Bike, den
 | **B · Auditiv** | Lasst die drei Partnerstimmen in M4 vorlesen oder als Sprachnachrichten einsprechen. Haltet danach eine kurze Abstimmung in den drei Rollen ab. Gleiche Fakten und Fristen stehen in M1–M3 zum Nachsehen bereit. |
 | **C · Haptisch-handelnd** | Legt zu M1–M3 die Karten aus M5 auf zwei Zeitachsen. Verschiebt die Karten für Produktion und Freigabe, bis jeder Werbeplatz fristgerecht bedient wird. Ordnet zu jedem Schritt einen Verantwortlichen. |
 
-### Informieren
+#### Fachliche Entscheidung
 
-**Klärt**, wen beide Läden erreichen wollen, welche Werbeplätze zur Verfügung stehen und bis wann Material und Freigaben gebraucht werden.
-
-### Planen
-
-**Skizziert** zwei mögliche Abläufe mit einem passenden Werbeträger je Standort. **Überlegt**, welche bereits erfassbare Kennzahl sich an beiden Standorten für ein gemeinsames Ziel eignet.
-
-### Entscheiden
-
-**Einigt euch** auf ein Werbeziel mit Kennzahl, Zielwert und Zeitraum. **Wählt und begründet** pro Standort einen Werbeträger und legt seine Einsatzzeit fest.
+**Stimmt** mit dem gewählten Lernpaket einen Ablauf ab. Einigt euch auf ein Werbeziel mit Kennzahl, Zielwert und Zeitraum. Begründet je Standort den Werbeträger und legt seine Einsatzzeit fest.
 
 ### Durchführen
 
@@ -691,7 +707,19 @@ Jana öffnet kurz vor der internen Freigabe zwei Rohentwürfe. „Schaut hier. I
 - Was soll die Kundschaft in beiden Medien als dieselbe Aktion erkennen?
 - Welche Aussagen aus den Rohentwürfen brauchen eine Prüfung anhand der Produktblätter?
 
-### Lernpakete
+### Informieren
+
+**Erschließt** Werbeauftrag, Zielgruppen und Produktdaten in M1 und M2. **Markiert** in M3, welche Aussagen ihr übernehmen, einschränken oder streichen müsst.
+
+### Planen
+
+**Haltet fest**, welche Zielgruppe ihr mit jedem Format erreichen wollt, welche Handlung die Werbung auslösen soll und welche Produktangaben dafür in Frage kommen.
+
+### Entscheiden
+
+#### Lernpaket wählen
+
+**Wählt** eines der drei Lernpakete.
 
 | Paket | So arbeitet ihr |
 | --- | --- |
@@ -699,21 +727,13 @@ Jana öffnet kurz vor der internen Freigabe zwei Rohentwürfe. „Schaut hier. I
 | **B · Auditiv** | Hört die zwei Kundenstimmen aus M4 als Aufnahme oder Vorlesetext. Sprecht eure Überschriften und Werbetexte probeweise ein oder lest sie im Team vor. Lasst jemand wiedergeben, was hängen bleibt. Übertragt die geprüften Texte in Newsletter und Schild. |
 | **C · Haptisch-handelnd** | Verwendet die Papierbausteine aus M5. Legt zuerst eine Fassung in einem Handyrahmen und die andere auf einer Schildfläche. Verschiebt Bausteine, bis die Aussagen gut erfassbar sind. Stellt anschließend die beiden Werbemittel fertig. |
 
-### Informieren
+#### Fachliche Entscheidung
 
-**Erschließt** Werbeauftrag, Zielgruppen und Produktdaten in M1 und M2. **Markiert** in M3, welche Aussagen ihr übernehmen, einschränken oder streichen müsst.
-
-### Planen
-
-**Skizziert** für jedes Format Zielgruppe, Blickfang, Produktbotschaft und gewünschte Handlung. Nutzt dafür euren gewählten Lernweg.
-
-### Entscheiden
-
-**Wählt** je Format zwei passende Produktinformationen und **begründet**, warum sie für die jeweilige Kundschaft wichtig sind. Stimmt eine wiedererkennbare gemeinsame Formulierung für beide Fassungen ab.
+**Entwickelt** mit dem gewählten Lernpaket eure Entwürfe. Einigt euch auf eine wiedererkennbare gemeinsame Botschaft und begründet je Format zwei passende Produktinformationen.
 
 ### Durchführen
 
-**Gestaltet** den Newsletter-Ausschnitt und das Eingangsschild. **Dokumentiert** für jeden übernommenen Produktvorteil kurz, wo er im Produktblatt belegt ist.
+**Stellt** den Newsletter-Ausschnitt und das Eingangsschild im gewählten Lernpaket fertig. **Dokumentiert** für jeden übernommenen Produktvorteil kurz, wo er im Produktblatt belegt ist.
 
 ### Bewerten
 
@@ -802,12 +822,6 @@ Beim Blick auf den Plan des Sportfachmarkts fragt ein Kollege: „Welchen Eingan
 1. Welche zwei Arten von Entwürfen liegen für jedes Geschäft vor?
 2. Welche zwei Dinge möchte Jana vor der Freigabe klären?
 
-### Lernpakete
-
-- **A · Wege sichtbar machen.** Arbeitet mit den Werbe- und Flächenentwürfen aus M1 und M2. Beobachtet, wohin die Testpersonen zuerst zeigen und wo sie ihren Weg ändern. Zeichnet die Wege im Plan ein und erfasst die Antworten zur Werbung.
-- **B · Beim Suchen zuhören.** Nutzt dieselben Entwürfe und sprecht die neutrale Einführung aus M3. Bittet die Testpersonen, beim Suchen laut zu denken. Ordnet ihre Äußerungen den Stellen im Plan oder in der Werbung zu.
-- **C · Im Modell testen.** Legt beide Entwürfe nach M4 auf dem Tisch oder Boden. Lasst Testpersonen mit Figuren oder zu Fuß suchen und die Botschaft wiedergeben. Markiert die Stellen, an denen sie stehen bleiben, umkehren oder eine Frage stellen.
-
 ### Informieren
 
 **Vergleicht** in Partnerarbeit für jeden Standort den Werbeentwurf mit dem Flächenplan. Markiert, welches Produkt beworben wird, welche Orientierung die Werbung bietet und wo das Produkt tatsächlich liegt. Nutzt M1 und M2.
@@ -818,11 +832,21 @@ Beim Blick auf den Plan des Sportfachmarkts fragt ein Kollege: „Welchen Eingan
 
 ### Entscheiden
 
-**Entscheidet**, an welchem Punkt die Suche beginnt und wann sie endet. Legt fest, wie ihr die Suche mit möglichst wenig Hilfe begleitet und die Werbebotschaft anschließend abfragt.
+#### Lernpaket wählen
+
+**Wählt** eines der drei Lernpakete.
+
+- **A · Wege sichtbar machen.** Arbeitet mit den Werbe- und Flächenentwürfen aus M1 und M2. Beobachtet, wohin die Testpersonen zuerst zeigen und wo sie ihren Weg ändern. Zeichnet die Wege im Plan ein und erfasst die Antworten zur Werbung.
+- **B · Beim Suchen zuhören.** Nutzt dieselben Entwürfe und sprecht die neutrale Einführung aus M3. Bittet die Testpersonen, beim Suchen laut zu denken. Ordnet ihre Äußerungen den Stellen im Plan oder in der Werbung zu.
+- **C · Im Modell testen.** Legt beide Entwürfe nach M4 auf dem Tisch oder Boden. Lasst Testpersonen mit Figuren oder zu Fuß suchen und die Botschaft wiedergeben. Markiert die Stellen, an denen sie stehen bleiben, umkehren oder eine Frage stellen.
+
+#### Fachliche Entscheidung
+
+**Legt** für den Test im gewählten Lernpaket fest, wann die Suche endet und wie ihr neutral begleitet und nach der Werbebotschaft fragt. Nutzt die in M3 vorgegebenen Startpunkte.
 
 ### Durchführen
 
-**Testet** beide Standortentwürfe mit Testpersonen, die den jeweiligen Entwurf noch nicht kennen. **Haltet fest**, welchen Weg sie wählen, ob sie das Produkt finden und wie sie die Werbung verstehen.
+**Testet** beide Standortentwürfe im gewählten Lernpaket mit Personen, die den jeweiligen Entwurf noch nicht kennen. **Haltet fest**, welchen Weg sie wählen, ob sie das Produkt finden und wie sie die Werbung verstehen.
 
 ### Bewerten
 
@@ -915,12 +939,6 @@ Jana stellt euch den Aktionsbericht mit vergleichbaren Absatzdaten, Kundenrückm
 1. Welche Entscheidung steht bis Freitag an?
 2. Welche Unterlagen hat Jana für die Entscheidung bereitgelegt?
 
-### Lernpakete
-
-- **A · Zahlen und Stimmen sichtbar machen.** Stellt Referenz- und Aktionsabsatz je Laden als Balken dar oder markiert sie in M2. Verbindet auffällige Ergebnisse mit Rückmeldungen aus M3 und den umgesetzten Maßnahmen aus M1.
-- **B · Das Abschlussgespräch vorbereiten.** Hört die Stimmen aus M3 oder lest sie mit verteilten Rollen. Besprecht anhand der Zahlen aus M2, welche Aussagen gestützt werden. Sprecht eure Empfehlung probeweise für Jana aus und sichert die Belege in M5.
-- **C · Entscheidungstafel legen.** Legt die Zahlen- und Rückmeldungskarten nach M4 aus. Ordnet sie den Standorten und den drei Entscheidungsbereichen zu. Verschiebt je eine Vorschlagskarte in „beibehalten“ oder „ändern“ und legt die zugehörigen Belege daneben.
-
 ### Informieren
 
 **Erschließt** das Aktionsziel, die eingesetzten Maßnahmen und die Absatzdaten in M1 und M2. **Ordnet** die Rückmeldungen aus M3 dem richtigen Standort sowie Sortiment, Platzierung oder Werbung zu.
@@ -931,7 +949,17 @@ Jana stellt euch den Aktionsbericht mit vergleichbaren Absatzdaten, Kundenrückm
 
 ### Entscheiden
 
-**Berechnet** je Standort die Veränderung gegenüber der Vergleichswoche und **entscheidet**, ob das vereinbarte Ziel erreicht wurde. Wählt passende Belege für eure Empfehlungen aus.
+#### Lernpaket wählen
+
+**Wählt** eines der drei Lernpakete.
+
+- **A · Zahlen und Stimmen sichtbar machen.** Stellt Referenz- und Aktionsabsatz je Laden als Balken dar oder markiert sie in M2. Verbindet auffällige Ergebnisse mit Rückmeldungen aus M3 und den umgesetzten Maßnahmen aus M1.
+- **B · Das Abschlussgespräch vorbereiten.** Hört die Stimmen aus M3 oder lest sie mit verteilten Rollen. Besprecht anhand der Zahlen aus M2, welche Aussagen gestützt werden. Sprecht eure Empfehlung probeweise für Jana aus und sichert die Belege in M5.
+- **C · Entscheidungstafel legen.** Legt die Zahlen- und Rückmeldungskarten nach M4 aus. Ordnet sie den Standorten und den drei Entscheidungsbereichen zu. Verschiebt je eine Vorschlagskarte in „beibehalten“ oder „ändern“ und legt die zugehörigen Belege daneben.
+
+#### Fachliche Entscheidung
+
+**Berechnet** je Standort die Veränderung gegenüber der Vergleichswoche. Beurteilt mit dem gewählten Lernpaket, ob das vereinbarte Ziel erreicht wurde, und wählt passende Belege für eure Empfehlungen aus.
 
 ### Durchführen
 
