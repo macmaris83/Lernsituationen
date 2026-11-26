@@ -1,13 +1,39 @@
 /* BFS Dual · Lernfeld 06 · eigenständige Lernpfadübung · Lernpfad mit 30 Aufgaben. */
 const Engine={
- initial:()=>({v:1401,rows:[],current:null,hint:0,before:[0,0,0,0,0],after:[0,0,0,0,0],screen:'intro',stage:1,checkpointStage:0,storyAnswers:{},storyEval:null,remediation:[],stageAttempts:{1:0,2:0}}),
+ initial:()=>({v:1401,rows:[],current:null,hint:0,before:[0,0,0,0,0],after:[0,0,0,0,0],screen:'intro',stage:1,checkpointStage:0,storyAnswers:{},storyEval:null,remediation:[],reserveUses:{},stageAttempts:{1:0,2:0}}),
  plan(level){return CORE_PLAN[String(level)]||[]},
  stageRows(s,level){const ids=new Set(this.plan(level));return s.rows.filter(r=>ids.has(r[0]))},
- next(s){if(Array.isArray(s.remediation)&&s.remediation.length)return BANK[s.remediation[0]];const plan=this.plan(s.stage),done=this.stageRows(s,s.stage).length;return done<plan.length?BANK[plan[done]]:null},
+ next(s) {
+   if (s.remediation?.length) {
+     const coreId = s.remediation[0];
+     const variants = BANK.filter(question => question.coreId === coreId);
+     const seen = s.reserveUses?.[coreId] || 0;
+     return variants[seen % variants.length];
+   }
+   const coreId = this.plan(s.stage)[this.stageRows(s, s.stage).length];
+   return BANK[coreId] || null;
+ },
+ recordStandard(s, question, mark) {
+   const score = Math.round(mark * 1000) / 1000;
+   const hints = Number(s.hint || 0);
+   if (!Number.isInteger(question.coreId)) {
+     s.rows.push([question.id, score, hints]);
+     return;
+   }
+   const coreId = question.coreId;
+   const row = s.rows.find(record => record[0] === coreId);
+   if (!row || s.remediation[0] !== coreId) throw new Error('Festigungsaufgabe ohne zugehörigen Nachweis');
+   if (score > row[1] || (score === row[1] && hints <= row[2])) {
+     row.splice(1, row.length - 1, score, hints, question.id);
+   }
+   s.reserveUses ??= {};
+   s.reserveUses[coreId] = (s.reserveUses[coreId] || 0) + 1;
+   s.remediation.shift();
+ },
  evidence(s,c){return s.rows.filter(r=>BANK[r[0]]&&BANK[r[0]].c===c)},
  evidenceByLevel(s,c,l){return this.evidence(s,c).filter(r=>BANK[r[0]].l===l)},
  stageCompetenceScores(s,l){return [0,1,2,3,4].map(c=>{const rows=this.evidenceByLevel(s,c,l).filter(r=>typeof r[1]==='number');return rows.length?rows.reduce((t,r)=>t+r[1],0)/rows.length:null})},
- stageGate(s,l){const rows=this.stageRows(s,l).filter(r=>typeof r[1]==='number'),overall=this.stageScore(s,l),complete=rows.length===this.plan(l).length,pass=complete&&overall>=.66;return {pass,complete,overall,scores:this.stageCompetenceScores(s,l),thresholds:{overall:.66}}},
+ stageGate(s,l){const rows=this.stageRows(s,l).filter(r=>typeof r[1]==='number'),overall=this.stageScore(s,l),complete=rows.length===this.plan(l).length,pass=complete&&overall+Number.EPSILON>=.66;return {pass,complete,overall,scores:this.stageCompetenceScores(s,l),thresholds:{overall:.66}}},
  remediationTargets(s,l){const plan=new Set(this.plan(l));return s.rows.filter(r=>plan.has(r[0])&&typeof r[1]==='number'&&r[1]<1).sort((a,b)=>a[1]-b[1]).map(r=>r[0])},
  normalize:x=>String(x).trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ß/g,'ss').replace(/[^a-z0-9]/g,''),
  grade(q,a){if(q.type==='short')return q.answer.some(k=>this.normalize(k)===this.normalize(a))?1:0;if(q.type==='single')return a===q.answer?1:0;if(q.type==='multi'){const correct=q.answer,chosen=a;return Math.max(0,(chosen.filter(x=>correct.includes(x)).length-chosen.filter(x=>!correct.includes(x)).length)/correct.length)}if(q.type==='match'||q.type==='order')return a.reduce((n,v,i)=>n+(v===q.answer[i]?1:0),0)/q.answer.length;return 0},
