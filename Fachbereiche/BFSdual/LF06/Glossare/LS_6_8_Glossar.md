@@ -42,7 +42,7 @@ Ein zusätzlicher Artikel neben dem gemeinsamen Kern, der einen Bedarf an einem 
 
 Die Entscheidung, wo und wie Artikel auf der Verkaufsfläche angeboten werden.
 
-**Beispiel.** Die beiden Aktionsgondeln im Sportfachmarkt und die Warenträger im Fachgeschäft zeigen unterschiedliche Platzierungen (M1).
+**Beispiel.** Die beiden Aktionsgondeln in der Bike Arena und die Warenträger bei Block zeigen unterschiedliche Platzierungen (M1).
 
 ## Prozentuale Absatzveränderung
 
@@ -54,7 +54,7 @@ Die Veränderung der verkauften Stückzahl im Verhältnis zum Ausgangswert, ausg
 
 Ein geeigneter früherer Zeitraum, dessen Daten als Ausgangswert dienen.
 
-**Beispiel.** Im Fall haben die Vergleichswoche und die Aktionswoche jeweils sechs reguläre Öffnungstage (M1).
+**Beispiel.** Im Fall haben die Vergleichswoche und die Aktionswoche jeweils fünf reguläre Öffnungstage (M1).
 
 ## Zielerreichung
 

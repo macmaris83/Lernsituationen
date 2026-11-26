@@ -6,7 +6,7 @@ Hier könnt ihr Begriffe aus **Ein gemeinsames Sortiment mit lokalen Ergänzunge
 
 Ein für einen Artikel dieser Aktion vorgesehener Stellplatz im Laden.
 
-**Beispiel.** Im Sportfachmarkt stehen sechs Plätze für Aktionsartikel bereit. Der siebte bleibt für das eigene Sortiment reserviert (M3).
+**Beispiel.** In der Bike Arena stehen sechs Plätze für Aktionsartikel bereit. Der siebte bleibt für das eigene Sortiment reserviert (M3).
 
 ## Artikelkennung
 

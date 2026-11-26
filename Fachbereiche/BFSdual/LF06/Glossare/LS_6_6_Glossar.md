@@ -18,19 +18,19 @@ Eine Aussage zu Eigenschaften, Eignung oder Ausstattung eines Artikels, die mit 
 
 Die Zeile einer E-Mail, die im Posteingang ankündigt, worum es in der Nachricht geht.
 
-**Beispiel.** Der Newsletter für das Fachgeschäft erhält eine Betreffzeile, die die Frühjahrsaktion ankündigen kann (M1).
+**Beispiel.** Der Newsletter für Block erhält eine Betreffzeile, die die Frühjahrsaktion ankündigen kann (M1).
 
 ## Blickfang
 
 Ein auffälliges Element eines Werbemittels, etwa eine Überschrift oder ein Bild, das zuerst Aufmerksamkeit weckt.
 
-**Beispiel.** Die gut sichtbare Überschrift kann am Markteingang auf die Aktion aufmerksam machen (M1, M5).
+**Beispiel.** Die gut sichtbare Überschrift kann am Eingang der Bike Arena auf die Aktion aufmerksam machen (M1, M5).
 
 ## Handlungsaufforderung
 
 Ein Hinweis an die Kundschaft, welcher konkrete nächste Schritt möglich oder gewünscht ist.
 
-**Beispiel.** „Kommt zur Beratung ins Fachgeschäft“ nennt den Leserinnen und Lesern einen konkreten nächsten Schritt (M1).
+**Beispiel.** „Kommt zur Beratung zu Block“ nennt den Leserinnen und Lesern einen konkreten nächsten Schritt (M1).
 
 ## Lieferumfang
 

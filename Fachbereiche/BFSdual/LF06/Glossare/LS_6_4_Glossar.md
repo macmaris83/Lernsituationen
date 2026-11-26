@@ -6,11 +6,11 @@ Hier könnt ihr Begriffe aus **Waren im Selbstbedienungsmarkt präsentieren** na
 
 Der freie Bereich vor einer Warenseite, in dem die Kundschaft Artikel ansehen und entnehmen kann.
 
-**Beispiel.** Vor jeder bestückten Längsseite ist im Markt eine Bedienzone von 1,20 m Breite vorgesehen (M1).
+**Beispiel.** Vor jeder bestückten Längsseite ist auf der Aktionsfläche in der Bike Arena eine Bedienzone von 1,20 m Breite vorgesehen (M1).
 
 ## Gondel
 
-Ein freistehendes Verkaufsregal, das der Markt hier von beiden Längsseiten mit Ware bestückt.
+Ein freistehendes Verkaufsregal, das die Bike Arena im Fall von beiden Längsseiten mit Ware bestückt.
 
 **Beispiel.** Die beiden Gondeln bieten auf ihren beiden Längsseiten Platz für Waren und Vergleichskarten (M1).
 
@@ -60,6 +60,6 @@ Eine gleichartig dargestellte Angabe, an der sich mehrere Produkte unterscheiden
 
 Mehrere Artikel mit ähnlichem Zweck, die ein Geschäft zusammenfasst.
 
-**Beispiel.** Mini- und Standpumpen bilden im Markt eine Warengruppe (M3).
+**Beispiel.** Mini- und Standpumpen bilden auf der Aktionsfläche in der Bike Arena eine Warengruppe (M3).
 
 [Zurück zur Übersicht von LF 06](../BFSdual_LF06_Vorlagenset.md)

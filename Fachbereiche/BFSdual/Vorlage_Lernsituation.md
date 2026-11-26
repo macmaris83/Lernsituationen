@@ -115,7 +115,7 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 
 ### Lernpaket wählen
 
-**Wählt** einen der drei Arbeitswege. Achtet darauf, welcher euch bei der fachlichen Entscheidung am besten hilft.
+**Wählt** einen der drei Arbeitswege. Achtet darauf, welcher euch bei der fachlichen Entscheidung am besten hilft. Sichert bei der Bearbeitung ein Zwischenergebnis eures Lernpakets und einen Fallbeleg für den Abschlusspitch.
 
 **Gemeinsames Fachziel und Handlungsprodukt.** [Benennt die konkrete vorrangige Fachkompetenz der LS. Sagt, welche Entscheidung die Lernenden treffen oder prüfen, welche Belege sie dabei sichern und welches gemeinsame Handlungsprodukt entsteht. Für alle drei Pakete gelten dieselben Aufgabenanforderungen, Fallvorgaben und Bewertungskriterien.]
 
@@ -157,6 +157,18 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 
 **Fachbuchverweis.** [Später ergänzen]
 
+**Abschlusspitch.**
+
+**Pitcht** euer gewähltes Lernpaket mit eurem Handlungsprodukt und den vorhandenen Unterlagen. Für die Kurzfassung im Unterricht habt ihr etwa zwei Minuten. Wenn Zeit bleibt, beantwortet anschließend eine Rückfrage.
+
+1. **Ergebnis zeigen.** Stellt euer Handlungsprodukt vor und nennt eure wichtigste fachliche Entscheidung.
+2. **Entscheidung belegen.** Zeigt einen konkreten Fallbeleg und erklärt, warum er eure Entscheidung stützt.
+3. **Arbeitsweg begründen.** Begründet, warum ihr dieses Lernpaket gewählt habt. Zeigt an einem Zwischenergebnis, wie der Arbeitsweg euch bei der Entscheidung geholfen hat.
+
+**Das könnt ihr zeigen.** [Nennt eine Stelle im gemeinsamen Handlungsprodukt und einen Fallbeleg, die Lernende aus jedem der drei Pakete im Pitch zeigen können.]
+
+**Fachbuchverweis.** [Später ergänzen]
+
 **Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_URL}}) aus.
 
 **Fachbuchverweis.** [Später ergänzen]
@@ -183,6 +195,8 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 - **LS-Glossar.** Erstellt für jede LS eine eigene [Nachschlageseite](Vorlage_LS_Glossar.md). Prüft alle Begriffe aus dem Fachbegriffscheck und verlinkt sie im Material, wo sie im Fall sinnvoll gebraucht werden. Verlinkt dort auch weitere Begriffe, deren Erklärung bei der Bearbeitung hilft. Die Zahl der Links richtet sich nach dem Material. Setzt den Link direkt an den Fachbegriff im Satz oder in der Tabelle. Beispiel für M2: `[Absatzmenge](Glossare/LS_6_8_Glossar.md#absatzmenge)`. Erklärt die Begriffe in einfacher Sprache und ergänzt je ein kurzes Beispiel aus dem Fall. Das Begriffsblatt für die Vorbereitung auf den Fachbegriffscheck bleibt bei „Informieren“ verfügbar.
 - **Gemeinsamer Einstieg.** Orientierung, Handlungssituation, Informieren und Planen verwenden gemeinsame Fachaufträge und Fallunterlagen. Die Lernpaketwahl erscheint zu Beginn von **Entscheiden**. Die fachliche Entscheidung folgt auf Basis des gewählten Zugangs.
 - **Gleichwertige Zugänge.** A, B und C haben dieselbe Fachkompetenz, dieselbe fachliche Datengrundlage, dasselbe Handlungsprodukt, dieselben Bewertungskriterien und denselben Zeitrahmen. Die Pakete verändern die Arbeitsweise. Alle erhalten Zugriff auf genaue Zahlen, Maße und fachliche Belege. Sprachfassungen und Modelle enthalten die Informationen, die zur Bearbeitung tatsächlich nötig sind.
+- **Regionale Betriebe.** Wenn ihr reale Betriebe verwendet, verlinkt deren Websites und übernehmt passende belegbare Angaben zum Standort oder Angebot. Kennzeichnet die erfundene Zusammenarbeit, Fallbelege, Flächen und Geschäftsdaten als Unterrichtsfall.
+- **Abschlusspitch.** Legt für A, B und C dieselben Anforderungen fest. Plant den Kurzpitch in der vorgesehenen Unterrichtszeit ein. Findet ein gemeinsamer Pitch am Ende des Lernfelds statt, kann jede abgeschlossene LS dafür gewählt und mit ihrem Handlungsprodukt, einem Zwischenergebnis und einem Fallbeleg vorgestellt werden. Das Material der gewählten LS reicht für den Pitch aus. Eine Folienpräsentation ist freiwillig.
 - **Eigenständiger Fall.** Jede Lernsituation enthält eine vollständige Ausgangslage, eigene erreichbare Materialien, eine fachliche Entscheidung und ein abschließendes Handlungsprodukt. Ergebnisse innerhalb der LS werden weiterverwendet. Der Start einer anderen LS erfolgt mit den dort bereitgestellten Fallunterlagen.
 - **Aufträge.** Verwendet pro Phase klare, gebündelte Aufgaben mit fett gesetzten Operatoren. Benennt die nötigen Arbeitsformen und Materialien dort, wo sie gebraucht werden. Setzt den Platzhalter für den Fachbuchverweis direkt unter den jeweiligen Arbeitsauftrag.
 - **Kompetenznetz im SCORM-Paket.** Verwendet den Wert aus dem Block „Vorrangige Fachkompetenz“ für die erste Achse. Die vier weiteren Achsen folgen der Tabellenreihenfolge. Beschriftet die sechs Skalenringe von **1 innen bis 6 außen** und zeigt die fünf Werte auch als Text. Übertragt die fünf Werte je LS in `competencies[].weight`. Die separate Selbsteinschätzung in Reflektieren folgt der SCORM-Skala **1–4** vom Arbeiten mit enger Hilfe bis zur selbstständigen, begründeten Anwendung im Transfer und kann mit einem Arbeitsbeleg ergänzt werden.
