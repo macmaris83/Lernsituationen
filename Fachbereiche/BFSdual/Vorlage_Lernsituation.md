@@ -6,9 +6,10 @@
 **Lernsituation:** [Nummer und handlungsorientierter Titel]  
 **Zeit:** [Anzahl] UStd.  
 **Unterrichtlicher Bezug:** [Kompetenz oder Inhaltsbezug aus der Planung]  
-**Formgrundlage:** [Gemeinsamer Formmaster 1.8.8](../../Formmaster/README.md)
+**Formgrundlage:** [Gemeinsamer Formmaster 1.8.8](../../Formmaster/README.md)  
+**SCORM-Referenz für Aufbau und Kompetenznetz:** `BRC_LG01_LS04_v1.8.15_SCORM12.zip`
 
-Diese Vorlage gilt für **alle Lernfelder der BFSdual**. Übernehmt die acht Stationen und füllt die Platzhalter für den jeweiligen Fall aus. Dieselbe Lernsituation muss auch mit einer neu zusammengesetzten Gruppe startklar sein. Sie bringt alle nötigen Informationen, Unterlagen und Materialien mit und endet mit einem eigenen Handlungsprodukt. Zusammenhängende Fälle können Figuren und beruflichen Kontext teilen. Fachliche Ausgangsentscheidungen aus der Geschichte stehen bei Bedarf als Unterlage im aktuellen Fall bereit.
+Diese Vorlage gilt für **alle Lernfelder der BFSdual**. Übernehmt die acht Stationen mit dem ergänzenden Fachbegriffscheck und füllt die Platzhalter für den jeweiligen Fall aus. Dieselbe Lernsituation muss auch mit einer neu zusammengesetzten Gruppe startklar sein. Sie bringt alle nötigen Informationen, Unterlagen und Materialien mit und endet mit einem eigenen Handlungsprodukt. Zusammenhängende Fälle können Figuren und beruflichen Kontext teilen. Fachliche Ausgangsentscheidungen aus der Geschichte stehen bei Bedarf als Unterlage im aktuellen Fall bereit.
 
 ## Orientierung
 
@@ -16,14 +17,28 @@ Diese Vorlage gilt für **alle Lernfelder der BFSdual**. Übernehmt die acht Sta
 
 [Schreibt zwei bis vier kurze Sätze direkt an die Lernenden. Beginnt mit einer konkreten Situation, die ihnen aus ihrem Alltag begegnen kann, etwa beim Einkaufen, unterwegs, online, in der Schule oder im Praktikum. Zeigt, **was sie mit der Fachkompetenz dort besser entscheiden, einschätzen oder selbst tun können**. Führt von diesem persönlichen Nutzen zum beruflichen Fall der Lernsituation.]
 
-### Vorrangige Kompetenz dieser Lernsituation
+### Kompetenzprofil und Kompetenznetz
 
-**Fachkompetenz.** Ich [beschreibe die gemeinsame fachliche Handlung und die Kriterien, die für alle Lernpakete gelten].
+**Vorrangige Fachkompetenz.** Ich [beschreibe die gemeinsame fachliche Handlung und die Kriterien, die für alle Lernpakete gelten].
 
-- **Personalkompetenz.** Ich [plane, prüfe oder begründe mein eigenes Vorgehen].
-- **Sozialkompetenz.** Ich [bringe Belege ein, stimme mich ab oder nutze Rückmeldungen].
-- **Methodenkompetenz.** Ich [erschließe, vergleiche oder strukturiere fallbezogene Informationen].
-- **Medienkompetenz.** Ich [nutze oder gestalte Materialien und stelle das Ergebnis verständlich dar].
+Die Skala von **1 bis 6** zeigt, wie stark die verbindlichen Aufgaben einer LS jede Kompetenz ansteuern. Wählt die Werte anhand der Aufgaben und des Handlungsprodukts. Sie gelten für alle drei Lernpakete.
+
+| Wert | Wie stark wird die Kompetenz angesteuert? |
+| ---: | --- |
+| 1 | Sie spielt in einer Aufgabe am Rande eine Rolle. |
+| 2 | Sie wird in einer kurzen Teilhandlung gebraucht. |
+| 3 | Sie begleitet die Bearbeitung wiederholt. |
+| 4 | Sie wird in mehreren Phasen gezielt geübt. |
+| 5 | Sie ist für das Handlungsprodukt oder seine Prüfung wesentlich. |
+| 6 | Sie prägt die Lernsituation von der Vorbereitung bis zur Auswertung. |
+
+| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| --- | ---: | --- | --- |
+| Fachkompetenz | [1–6] | Ich [beschreibe die fachliche Handlung]. | [Konkrete Aufgabe oder Ergebnismerkmal] |
+| Personalkompetenz | [1–6] | Ich [plane, prüfe oder begründe mein Vorgehen]. | [Beobachtbare Handlung] |
+| Sozialkompetenz | [1–6] | Ich [stimme mich ab, höre zu oder nutze Rückmeldungen]. | [Beobachtbare Handlung] |
+| Methodenkompetenz | [1–6] | Ich [erschließe, vergleiche oder strukturiere Informationen]. | [Beobachtbare Handlung] |
+| Medienkompetenz | [1–6] | Ich [nutze oder gestalte Medien passend zur Aufgabe]. | [Beobachtbare Handlung] |
 
 ## Handlungssituation
 
@@ -37,6 +52,16 @@ Diese Vorlage gilt für **alle Lernfelder der BFSdual**. Übernehmt die acht Sta
 ## Informieren
 
 **Entnehmt** den gemeinsamen Fallmaterialien [M-Nummern und Titel] die Angaben, die für [fachliche Fragestellung] wichtig sind. Haltet [konkrete Fakten oder Belege] fest.
+
+## Fachbegriffscheck
+
+Der eigene Check folgt **nach Informieren und vor Planen**. Er ist für alle drei Lernpakete gleich. Die Lernenden ordnen zentralen Fachbegriffen die zutreffende Erklärung zu. Die Rückmeldung erklärt den Begriff am aktuellen Fall. Offene Begriffe können anschließend gezielt nachgearbeitet werden.
+
+| Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fall- und Materialbezug |
+| --- | --- | --- | --- | --- | --- |
+| `[LS-ID]-B01` | [Begriff] | [Kurze, fachlich genaue Erklärung] | [Naheliegende Verwechslung] | [Plausible zweite Verwechslung] | [Beispiel und M-Nummer] |
+
+Füllt eine Zeile pro Fachbegriff aus. Stellt die zutreffenden Erklärungen bei **Informieren** als Begleitmaterial zum Fall bereit. Zeigt die drei Antwortmöglichkeiten im Check gemischt und die Rückmeldung nach der Antwort an. Die Spalte „Zutreffende Erklärung“ dient in der Markdown-Quelle als Lösungsschlüssel. Plant den Check in das Zeitbudget der LS ein.
 
 ## Planen
 
@@ -62,7 +87,7 @@ Diese Vorlage gilt für **alle Lernfelder der BFSdual**. Übernehmt die acht Sta
 
 **Erstellt** [gemeinsames Handlungsprodukt] für [Adressatin oder Adressat]. Nutzt das gewählte Lernpaket und sichert die fachliche Entscheidung mit [Dokumentationsform].
 
-## Bewerten
+## Überprüfen
 
 **Prüft** [Handlungsprodukt] an den gemeinsamen Kriterien und holt bei Bedarf gezielt Rückmeldung ein. Überarbeitet eine begründete Stelle oder haltet fest, woran ihr erkennt, dass euer Ergebnis die Kriterien erfüllt.
 
@@ -95,6 +120,8 @@ Fügt die Unterlagen direkt in die LS ein oder verlinkt die zugehörigen Dateien
 - **Gleichwertige Zugänge.** A, B und C haben dieselbe Fachkompetenz, dieselbe fachliche Datengrundlage, dasselbe Handlungsprodukt, dieselben Bewertungskriterien und denselben Zeitrahmen. Die Pakete verändern die Arbeitsweise. Alle erhalten Zugriff auf genaue Zahlen, Maße und fachliche Belege. Sprachfassungen und Modelle enthalten die Informationen, die zur Bearbeitung tatsächlich nötig sind.
 - **Eigenständiger Fall.** Jede Lernsituation enthält eine vollständige Ausgangslage, eigene erreichbare Materialien, eine fachliche Entscheidung und ein abschließendes Handlungsprodukt. Ergebnisse innerhalb der LS werden weiterverwendet. Der Start einer anderen LS erfolgt mit den dort bereitgestellten Fallunterlagen.
 - **Aufträge.** Verwendet pro Phase klare, gebündelte Aufgaben mit fett gesetzten Operatoren. Benennt die nötigen Arbeitsformen und Materialien dort, wo sie gebraucht werden.
-- **Paketansicht bei einer digitalen Umsetzung.** Zeigt in Entscheiden drei gleich gestaltete Wahlkarten mit Zugang, Tätigkeit und Ergebnis. Bis einschließlich Planen funktionieren Navigation, Materialzugriff und Wiederaufnahme bei offener Paketwahl. Für Durchführen ist eine Auswahl erforderlich. Speichert Aufgabenstand und Auswahl je LS und prüft die Wiederaufnahme vor und nach der Wahl. Der Abschluss berücksichtigt die gemeinsamen Aufgaben und den gewählten Lernweg.
+- **Kompetenznetz im SCORM-Paket.** Übernehmt in der Orientierung fünf Achsen in Tabellenreihenfolge. Beschriftet die sechs Skalenringe von **1 innen bis 6 außen** und zeigt die fünf Werte auch als Text. Übertragt die Tabellenwerte je LS in `competencies[].weight`. Die separate Selbsteinschätzung in Reflektieren folgt der SCORM-Skala **1–4** vom Arbeiten mit enger Hilfe bis zur selbstständigen, begründeten Anwendung im Transfer und kann mit einem Arbeitsbeleg ergänzt werden.
+- **Fachbegriffscheck im SCORM-Paket.** Verlinkt nach Informieren **„Begriffe prüfen“** auf `begriffstraining.html`. Übernehmt die Karten mit stabiler ID, Definition, Antwortalternativen und Rückmeldung. Hinterlegt den Check in der Navigation, den Fortschrittsdaten und dem Paketmanifest. Die Auswertung öffnet den Weg zu Planen und zeigt gezielte Nacharbeit zu unsicheren Begriffen an. Der Kurzcheck zur Handlungssituation bleibt ein eigener Schritt.
+- **Paketansicht bei einer digitalen Umsetzung.** Zeigt in Entscheiden drei gleich gestaltete Wahlkarten mit Zugang, Tätigkeit und Ergebnis. Bis einschließlich Planen funktionieren Navigation, Materialzugriff und Wiederaufnahme bei offener Paketwahl. Für Durchführen ist eine Auswahl erforderlich. Speichert Aufgabenstand, Fachbegriffscheck und Auswahl je LS und prüft die Wiederaufnahme vor und nach der Wahl. Der Abschluss berücksichtigt die gemeinsamen Aufgaben und den gewählten Lernweg.
 
-[Ausgearbeitetes Reihenbeispiel für LF 06](LF06/BFSdual_LF06_Vorlagenset.md)
+[Ausgearbeitetes Reihenbeispiel für LF 06](LF06/BFSdual_LF06_Vorlagenset.md) · [Technisches Referenzbeispiel für den Fachbegriffscheck](../Geschichte/IdentitaetUndNation/Lernpaket/begriffstraining.html)

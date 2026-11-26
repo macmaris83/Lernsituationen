@@ -26,7 +26,9 @@ Jede LS enthält den vollständigen Projektstand für ihre Szene, eigene Materia
 
 ## Aufbau der Lernsituationen
 
-Die acht Fälle sind ausgearbeitete Beispiele zur [gemeinsamen Vorlage für alle BFSdual-Lernfelder](../Vorlage_Lernsituation.md). Jede LS verwendet die acht Stationen des Formmasters 1.8.8. Die drei gleichwertigen Lernpakete werden jeweils zu Beginn von **Entscheiden** gewählt.
+Die acht Fälle sind ausgearbeitete Beispiele zur [gemeinsamen Vorlage für alle BFSdual-Lernfelder](../Vorlage_Lernsituation.md). Jede LS verwendet die acht Stationen des Formmasters 1.8.8. Der Fachbegriffscheck liegt als gemeinsamer Schritt zwischen **Informieren** und **Planen** innerhalb der vorgesehenen Zeit. Die drei gleichwertigen Lernpakete werden zu Beginn von **Entscheiden** gewählt.
+
+Die Werte im Kompetenznetz zeigen, wie stark die verbindlichen Aufgaben die fünf Kompetenzen ansteuern. **1** steht für einen Randbezug, **6** für einen prägenden Schwerpunkt. Die fünf Werte folgen in jeder LS derselben [Skalenlegende](../Vorlage_Lernsituation.md#kompetenzprofil-und-kompetenznetz).
 
 ## LS 6.1 · Die Nachfrage an zwei Standorten vergleichen
 
@@ -38,14 +40,17 @@ Die acht Fälle sind ausgearbeitete Beispiele zur [gemeinsamen Vorlage für alle
 
 Am Kiosk neben der Schule wollt ihr in der Pause schnell etwas finden. In einem Laden auf dem Weg zum Badesee suchen viele eher nach Dingen für einen ganzen Nachmittag. Wenn ihr im Praktikum eine Aktion mitplant, könnt ihr solche Unterschiede gezielt beobachten und begründen, welches Angebot und welche Präsentation zum jeweiligen Standort passen.
 
-#### Vorrangige Kompetenz dieser Lernsituation
+#### Kompetenzprofil und Kompetenznetz
 
-**Fachkompetenz.** Ich vergleiche zwei Standorte anhand von Nachfrage, Verkaufsform und Fläche. Ich leite für jeden Laden begründete Anforderungen an das Sortiment und die Warenpräsentation ab und erkenne, welche Vorgaben zwingend sind.
+**Vorrangige Fachkompetenz.** Ich vergleiche zwei Standorte anhand von Nachfrage, Verkaufsform und Fläche. Ich leite für jeden Laden begründete Anforderungen an das Sortiment und die Warenpräsentation ab und erkenne, welche Vorgaben zwingend sind.
 
-- **Personalkompetenz.** Ich prüfe meine erste Einschätzung anhand von Belegen.
-- **Sozialkompetenz.** Ich höre andere Einschätzungen an und begründe meine Prioritäten im Team.
-- **Methodenkompetenz.** Ich ordne Standortdaten nach einheitlichen Kriterien.
-- **Medienkompetenz.** Ich entnehme einer Tabelle, einer Audionachricht oder einer Skizze die für meine Entscheidung nötigen Informationen.
+| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| --- | ---: | --- | --- |
+| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Alle Aufgaben führen zum begründeten Standortvergleich. |
+| Personalkompetenz | **3** | Ich prüfe meine erste Einschätzung anhand von Belegen. | Die erste Einschätzung an Fallbelegen prüfen. |
+| Sozialkompetenz | **3** | Ich höre andere Einschätzungen an und begründe meine Prioritäten im Team. | Prioritäten im Team besprechen. |
+| Methodenkompetenz | **4** | Ich ordne Standortdaten nach einheitlichen Kriterien. | Belege nach einheitlichen Kriterien ordnen und vergleichen. |
+| Medienkompetenz | **3** | Ich entnehme einer Tabelle, einer Audionachricht oder einer Skizze die für meine Entscheidung nötigen Informationen. | Angaben aus Tabellen, Hörmaterial oder Skizzen entnehmen. |
 
 ### Handlungssituation
 
@@ -61,6 +66,17 @@ Beide Geschäfte haben die gleiche Aktionswoche vorgemerkt. Um 10 Uhr sitzen ihr
 ### Informieren
 
 **Vergleicht** die Standorte anhand von M1 bis M3. Haltet zu Nachfrage, Verkaufsform und Fläche jeweils mindestens einen belegbaren Unterschied fest.
+
+#### Fachbegriffscheck
+
+**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+| Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
+| --- | --- | --- | --- | --- | --- |
+| `BFSDUAL-LF06-LS01-B01` | Nachfragebeleg | Eine Angabe aus Kundenanfragen oder Rückmeldungen, die ein konkretes Bedürfnis zeigt. | Die Liste der Regale, die der Laden nutzen kann. | Die Übersicht der Artikel, die im Katalog stehen. | Die neun Anfragen zur Sichtbarkeit zeigen einen konkreten Bedarf im Fachgeschäft (M1). |
+| `BFSDUAL-LF06-LS01-B02` | Verkaufsform | Die Art, wie die Kundschaft die Ware auswählt und welche Beratung sie dabei erhält. | Die Fläche, die ein Geschäft für eine Aktion reserviert. | Die Gruppe von Artikeln, die beide Läden anbieten. | Das Fachgeschäft berät persönlich. Im Sportfachmarkt wählen viele selbst aus (M1 und M2). |
+| `BFSDUAL-LF06-LS01-B03` | Aktionsfläche | Der für eine Verkaufsaktion vorgesehene Bereich eines Geschäfts. | Der gesamte Bereich zwischen Eingang und Kasse. | Die Zeit, in der die beworbene Ware im Angebot ist. | Die Maße in M3 zeigen, welcher Bereich je Standort gestaltet werden kann. |
+| `BFSDUAL-LF06-LS01-B04` | Zwingende Anforderung | Eine Bedingung, die ein brauchbarer Vorschlag erfüllen muss. | Eine Verbesserung, die das Team bei zusätzlichem Platz einbauen kann. | Eine Anforderung, für die sich die meisten Kundinnen und Kunden interessieren. | Hauptgang und Werkstattzugang müssen im Fachgeschäft frei bleiben (M3). |
 
 ### Planen
 
@@ -86,7 +102,7 @@ Beide Geschäfte haben die gleiche Aktionswoche vorgemerkt. Um 10 Uhr sitzen ihr
 
 **Erstellt** die Vergleichsmatrix nach M5. Formuliert die Anforderungen so, dass Jana daraus erkennen kann, worauf Global Bike beim Angebot und bei der Präsentation achten muss.
 
-### Bewerten
+### Überprüfen
 
 **Prüft** zu zweit jede Anforderung am angegebenen Beleg. **Überarbeitet** eine Formulierung, wenn sie für den Standort zu allgemein ist oder der Beleg die Anforderung nicht trägt.
 
@@ -144,6 +160,12 @@ Zeichnet bei Bedarf im Maßstab 1:20. Im Plan entsprechen beispielsweise 20 cm i
 
 **Größter Unterschied und Folge für die Aktion:** …
 
+#### M6 · Fachbegriffe zu dieser Lernsituation
+
+- **Nachfragebeleg.** Eine Angabe aus Kundenanfragen oder Rückmeldungen, die ein konkretes Bedürfnis zeigt.
+- **Verkaufsform.** Die Art, wie die Kundschaft die Ware auswählt und welche Beratung sie dabei erhält.
+- **Aktionsfläche.** Der für eine Verkaufsaktion vorgesehene Bereich eines Geschäfts.
+- **Zwingende Anforderung.** Eine Bedingung, die ein brauchbarer Vorschlag erfüllen muss.
 
 ## LS 6.2 · Ein gemeinsames Sortiment mit lokalen Ergänzungen zusammenstellen
 
@@ -155,14 +177,17 @@ Zeichnet bei Bedarf im Maßstab 1:20. Im Plan entsprechen beispielsweise 20 cm i
 
 Beim Schulfest habt ihr an zwei Ständen nur begrenzt Platz. Wasser wird an beiden gebraucht, am Sportplatz fragen viele auch nach etwas, das sie unterwegs essen können. Wenn ihr gemeinsame Wünsche und Besonderheiten vor Ort auseinanderhaltet, könnt ihr gezielter einkaufen. Nach demselben Prinzip stellt ihr im Fall ein passendes Angebot für zwei Läden zusammen.
 
-#### Vorrangige Kompetenz dieser Lernsituation
+#### Kompetenzprofil und Kompetenznetz
 
-**Fachkompetenz.** Ich wähle für zwei Läden ein gemeinsames Kernsortiment und passende Ergänzungsartikel. Ich begründe die einzelnen Artikel mit Nachfragebelegen und beachte Platz und Lieferbarkeit.
+**Vorrangige Fachkompetenz.** Ich wähle für zwei Läden ein gemeinsames Kernsortiment und passende Ergänzungsartikel. Ich begründe die einzelnen Artikel mit Nachfragebelegen und beachte Platz und Lieferbarkeit.
 
-- **Personalkompetenz.** Ich hinterfrage meine Vorlieben bei der Produktauswahl.
-- **Sozialkompetenz.** Ich bringe meine Argumente ein und handle eine gemeinsame Auswahl aus.
-- **Methodenkompetenz.** Ich kann eine Artikelliste mit Nachfrage, Platz und Lieferstatus abgleichen.
-- **Medienkompetenz.** Ich lese Produktdaten aus dem Katalog und dokumentiere die Auswahl übersichtlich.
+| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| --- | ---: | --- | --- |
+| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Eine begründete Auswahl für zwei unterschiedliche Läden entwickeln. |
+| Personalkompetenz | **3** | Ich hinterfrage meine Vorlieben bei der Produktauswahl. | Eigene Vorlieben an Nachfragebelegen überprüfen. |
+| Sozialkompetenz | **4** | Ich bringe meine Argumente ein und handle eine gemeinsame Auswahl aus. | Eine gemeinsame Auswahl mit begründeten Vorschlägen aushandeln. |
+| Methodenkompetenz | **4** | Ich kann eine Artikelliste mit Nachfrage, Platz und Lieferstatus abgleichen. | Nachfrage, Fläche und Lieferdaten beim Vergleich zusammenführen. |
+| Medienkompetenz | **3** | Ich lese Produktdaten aus dem Katalog und dokumentiere die Auswahl übersichtlich. | Katalogdaten auswerten und die Auswahl dokumentieren. |
 
 ### Handlungssituation
 
@@ -178,6 +203,17 @@ Das Fahrradfachgeschäft möchte wenig Ware auf der kleinen Fläche unterbringen
 ### Informieren
 
 **Ermittelt** aus M1 die häufigsten und wichtigsten Anliegen je Standort. Gleicht sie mit den in M2 dokumentierten Eigenschaften und der Lieferbarkeit ab.
+
+#### Fachbegriffscheck
+
+**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+| Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
+| --- | --- | --- | --- | --- | --- |
+| `BFSDUAL-LF06-LS02-B01` | Kernsortiment | Die zentralen Artikel, die bei dieser gemeinsamen Aktion beide Läden anbieten. | Alle Artikel, die Global Bike im Katalog führt. | Die Artikel, die nur der Sportfachmarkt ergänzend anbietet. | In dieser Aktion sind vier Plätze je Laden für den gemeinsamen Kern vorgesehen (M3). |
+| `BFSDUAL-LF06-LS02-B02` | Lokale Sortimentsergänzung | Ein zusätzlicher Artikel, den ein Laden aufgrund der Nachfrage vor Ort anbietet. | Ein Artikel, der bei beiden Läden zwingend zum gemeinsamen Kern gehört. | Ein Artikel, dessen Lieferung erst für die Folgewoche möglich ist. | Der Sattelüberzug lässt sich im Fachgeschäft mit den Nennungen zum nassen Sattel begründen (M1 und M2). |
+| `BFSDUAL-LF06-LS02-B03` | Lieferbarkeit | Die Möglichkeit, den Artikel rechtzeitig für den geplanten Zeitraum zu erhalten. | Die Anzahl an Stellplätzen, die der Artikel auf der Fläche belegt. | Die Zahl der Kundinnen und Kunden, die nach dem Artikel gefragt haben. | Für K70 nennt der Katalog die Folgewoche. Für den Aktionsbeginn kommt die Klingel damit zu spät (M2). |
+| `BFSDUAL-LF06-LS02-B04` | Platzbedarf | Der Raum oder die Zahl der Plätze, die ein Artikel auf der Fläche beansprucht. | Die Zahl der Stücke, die im Lager bereitliegen. | Die Menge an Artikeln, die beide Läden zusammen verkaufen wollen. | Je Artikel wird ein Platz berechnet. Das Fachgeschäft hat fünf Aktionsplätze (M2 und M3). |
 
 ### Planen
 
@@ -203,7 +239,7 @@ Das Fahrradfachgeschäft möchte wenig Ware auf der kleinen Fläche unterbringen
 
 **Erstellt** für Jana die Sortimentsliste nach M5. Begründet gemeinsame Artikel für beide Läden und lokale Artikel für den jeweiligen Standort mit einem konkreten Nachfragehinweis.
 
-### Bewerten
+### Überprüfen
 
 **Prüft** die Plätze, die Lieferbarkeit und die Nachfragebelege. **Überarbeitet** eine Auswahl oder Begründung, wenn eine Vorgabe oder ein Beleg fehlt.
 
@@ -285,6 +321,13 @@ Die Zahlen geben registrierte Nennungen im Beratungstagebuch an. Eine Person kon
 
 **Ausgelassener lieferbarer Artikel und Grund:** …
 
+#### M6 · Fachbegriffe zu dieser Lernsituation
+
+- **Kernsortiment.** Die zentralen Artikel, die bei dieser gemeinsamen Aktion beide Läden anbieten.
+- **Lokale Sortimentsergänzung.** Ein zusätzlicher Artikel, den ein Laden aufgrund der Nachfrage vor Ort anbietet.
+- **Lieferbarkeit.** Die Möglichkeit, den Artikel rechtzeitig für den geplanten Zeitraum zu erhalten.
+- **Platzbedarf.** Der Raum oder die Zahl der Plätze, die ein Artikel auf der Fläche beansprucht.
+
 ## LS 6.3 · Waren im Fahrradfachgeschäft präsentieren
 
 **Zeit:** 8 UStd.
@@ -295,16 +338,17 @@ Die Zahlen geben registrierte Nennungen im Beratungstagebuch an. Eine Person kon
 
 Wenn ihr Schuhe anprobiert, merkt ihr schnell, ob ihr Platz zum Sitzen habt und ob sich ein zweites Paar gut dazuholen lässt. Auch bei Fahrradzubehör hilft das Ausprobieren, um zu sehen, ob ein Teil zum Rad passt. Hier lernt ihr, eine kleine Verkaufsfläche so zu planen, dass ihr im Praktikum Produkte zeigen und gleichzeitig Platz für andere Kundinnen und Kunden lassen könnt.
 
-#### Vorrangige Kompetenz dieser Lernsituation
+#### Kompetenzprofil und Kompetenznetz
 
-**Fachkompetenz.** Ich plane eine kleine Beratungsfläche und begründe, welche Artikel ich zusammen präsentiere und wie ich sie gut erreichbar und vorführbar mache.
+**Vorrangige Fachkompetenz.** Ich plane eine kleine Beratungsfläche und begründe, welche Artikel ich zusammen präsentiere und wie ich sie gut erreichbar und vorführbar mache.
 
-| Kompetenz | Das kann ich zeigen |
-|---|---|
-| Personalkompetenz | Ich passe einen Entwurf an, wenn er im Beratungsablauf Probleme verursacht. |
-| Sozialkompetenz | Ich stimme mit anderen ab, welche Wege Kundschaft und Verkaufspersonal brauchen. |
-| Methodenkompetenz | Ich übertrage Maße in eine Skizze oder ein Modell und vergleiche damit zwei Anordnungen. |
-| Medienkompetenz | Ich setze Beschriftung und Legende so ein, dass andere den Plan lesen können. |
+| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| --- | ---: | --- | --- |
+| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Die Benutzbarkeit einer Beratungsfläche aus mehreren Blickwinkeln prüfen. |
+| Personalkompetenz | **3** | Ich passe einen Entwurf an, wenn er im Beratungsablauf Probleme verursacht. | Den Entwurf bei erkannten Problemen ändern. |
+| Sozialkompetenz | **3** | Ich stimme mit anderen ab, welche Wege Kundschaft und Verkaufspersonal brauchen. | Bedürfnisse von Kundschaft und Verkaufspersonal abgleichen. |
+| Methodenkompetenz | **4** | Ich übertrage Maße in eine Skizze oder ein Modell und vergleiche damit zwei Anordnungen. | Zwei Anordnungen anhand von Maßen und Vorführabläufen prüfen. |
+| Medienkompetenz | **4** | Ich setze Beschriftung und Legende so ein, dass andere den Plan lesen können. | Einen bemaßten, beschrifteten Plan verständlich darstellen. |
 
 ### Handlungssituation
 
@@ -320,6 +364,17 @@ Eine Kundin schiebt ihr Fahrrad herein und fragt nach einer Lampe für ihren Len
 ### Informieren
 
 **Entnehmt** M1 bis M3 die Maße, die Betriebsregeln und die Anforderungen der ausgewählten Artikel. **Markiert** im Plan, wo Zugriff, Durchgang und Vorführen gleichzeitig möglich sein müssen.
+
+#### Fachbegriffscheck
+
+**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+| Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
+| --- | --- | --- | --- | --- | --- |
+| `BFSDUAL-LF06-LS03-B01` | Warenträger | Ein Regal, Tisch oder anderes Element, auf oder an dem Artikel präsentiert werden. | Eine markierte Fläche zum Vorführen eines Artikels. | Ein Weg, den die Kundschaft zwischen Eingang und Werkstatt nutzt. | Die Rollregale und der Ausstellungstisch sind die Warenträger der Aktion (M2). |
+| `BFSDUAL-LF06-LS03-B02` | Bedienseite | Die Seite eines Warenträgers, von der aus die Ware angesehen oder entnommen wird. | Die Seite des Regals, die dem Eingang am nächsten liegt. | Der Teil des Bodens, auf dem das Fahrrad für die Beratung steht. | Bei den Rollregalen ist die markierte Längsseite für den Zugriff vorgesehen (M2). |
+| `BFSDUAL-LF06-LS03-B03` | Vorführplatz | Der freie Bereich, in dem die Anwendung eines Artikels gezeigt oder erprobt wird. | Der Platz für verpackte Ware im Rollregal. | Der Durchgang, durch den Fahrräder zur Werkstatt geschoben werden. | Der Platz muss groß genug sein, damit die Beratung Zubehör am Vorführrad zeigen kann (M2 und M3). |
+| `BFSDUAL-LF06-LS03-B04` | Hauptdurchgang | Der zentrale freie Weg, auf dem sich die Kundschaft im Laden bewegt. | Die Bedienseite, an der die Ware aus dem Regal gegriffen wird. | Der für die Aktion reservierte Teil der Verkaufsfläche. | Der links eingezeichnete Weg bleibt auf seiner vollen Breite frei und führt Richtung Werkstatt (M1). |
 
 ### Planen
 
@@ -345,7 +400,7 @@ Eine Kundin schiebt ihr Fahrrad herein und fragt nach einer Lampe für ihren Len
 
 **Erstellt** einen beschrifteten Plan für eure gewählte Anordnung. Zeigt darin, welche Artikel zusammenstehen, wie Muster erreichbar sind und an welcher Stelle das Personal die Lampe oder Pumpe am Fahrrad vorführt.
 
-### Bewerten
+### Überprüfen
 
 **Prüft** den Plan an einer Lampenberatung und an einer Beratung zur Minipumpe. Nutzt M5 und korrigiert eine Stelle, falls beim Erreichen der Ware, Vorführen oder Vorbeigehen ein Hindernis entsteht.
 
@@ -409,6 +464,13 @@ Der abgebildete Verkaufsbereich ist 4,80 m breit und 4,00 m tief. Der Nullpunkt 
 | Ist der Zusammenhang zwischen den gemeinsam gezeigten Artikeln nachvollziehbar? | Artikelkombination und Begründung |
 | Wo liegen das Bügelschloss und das Muster der Rahmentasche? | Platzierung und Grund |
 
+#### M6 · Fachbegriffe zu dieser Lernsituation
+
+- **Warenträger.** Ein Regal, Tisch oder anderes Element, auf oder an dem Artikel präsentiert werden.
+- **Bedienseite.** Die Seite eines Warenträgers, von der aus die Ware angesehen oder entnommen wird.
+- **Vorführplatz.** Der freie Bereich, in dem die Anwendung eines Artikels gezeigt oder erprobt wird.
+- **Hauptdurchgang.** Der zentrale freie Weg, auf dem sich die Kundschaft im Laden bewegt.
+
 ## LS 6.4 · Waren im Selbstbedienungsmarkt präsentieren
 
 **Zeit:** 8 UStd.
@@ -419,16 +481,17 @@ Der abgebildete Verkaufsbereich ist 4,80 m breit und 4,00 m tief. Der Nullpunkt 
 
 Ihr sucht im Elektronikmarkt ein Ladekabel. Das Schild führt euch zum richtigen Regal, aber welche der ähnlich aussehenden Packungen passt zu eurem Gerät? Ihr lernt, woran ihr euch beim selbstständigen Einkaufen orientieren könnt und wie ihr im Praktikum Waren so anordnet und beschriftet, dass andere diese Entscheidung selbst treffen können.
 
-#### Vorrangige Kompetenz dieser Lernsituation
+#### Kompetenzprofil und Kompetenznetz
 
-**Fachkompetenz.** Ich gestalte eine Selbstbedienungsfläche und begründe, wie Kundenlauf, Artikelplatzierung und Produktinformationen das selbstständige Finden, Vergleichen und Auswählen erleichtern.
+**Vorrangige Fachkompetenz.** Ich gestalte eine Selbstbedienungsfläche und begründe, wie Kundenlauf, Artikelplatzierung und Produktinformationen das selbstständige Finden, Vergleichen und Auswählen erleichtern.
 
-| Kompetenz | Das kann ich zeigen |
-|---|---|
-| Personalkompetenz | Ich prüfe meinen Entwurf aus der Sicht einer Person, die den Markt wenig kennt. |
-| Sozialkompetenz | Ich nehme Rückmeldungen zur Orientierung auf und begründe meine Änderungen im Team. |
-| Methodenkompetenz | Ich verknüpfe Beobachtungen zum Kundenlauf mit einem Lageplan und Produktdaten. |
-| Medienkompetenz | Ich gestalte Orientierungsschilder und Produktinformationen, die in der vorgesehenen Situation lesbar und verständlich sind. |
+| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| --- | ---: | --- | --- |
+| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Die Fläche so gestalten, dass die Kundschaft selbstständig auswählen kann. |
+| Personalkompetenz | **3** | Ich prüfe meinen Entwurf aus der Sicht einer Person, die den Markt wenig kennt. | Den Entwurf aus Sicht der Kundschaft betrachten. |
+| Sozialkompetenz | **3** | Ich nehme Rückmeldungen zur Orientierung auf und begründe meine Änderungen im Team. | Rückmeldungen zur Orientierung aufnehmen. |
+| Methodenkompetenz | **4** | Ich verknüpfe Beobachtungen zum Kundenlauf mit einem Lageplan und Produktdaten. | Kundenlauf, Platzierung und Produktdaten in beiden Entwürfen abgleichen. |
+| Medienkompetenz | **4** | Ich gestalte Orientierungsschilder und Produktinformationen, die in der vorgesehenen Situation lesbar und verständlich sind. | Schilder und Vergleichsinformationen lesbar gestalten. |
 
 ### Handlungssituation
 
@@ -444,6 +507,17 @@ Der Abteilungsleiter sieht auf die Uhr. „Genau dafür brauchen wir morgen eine
 ### Informieren
 
 **Wertet** den Grundriss, die Beobachtungen und die Produktkarten in M1 bis M3 aus. **Haltet fest**, welche Kundenwege und welche Kriterien für die Artikelauswahl eure Präsentation aufgreifen muss.
+
+#### Fachbegriffscheck
+
+**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+| Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
+| --- | --- | --- | --- | --- | --- |
+| `BFSDUAL-LF06-LS04-B01` | Selbstbedienung | Die Kundschaft findet, vergleicht und entnimmt Artikel weitgehend selbst. | Eine Fachkraft wählt bei jedem Einkauf die passenden Artikel aus. | Kundinnen und Kunden holen zuvor zusammengestellte Ware an der Kasse ab. | Im Markt brauchen Familien verständliche Angaben direkt am Regal, damit sie die Pumpen selbst vergleichen können (M2 und M3). |
+| `BFSDUAL-LF06-LS04-B02` | Kundenlauf | Die Wege, die Kundinnen und Kunden im Laden typischerweise nehmen. | Die Zeit, die eine Person am Regal für die Produktauswahl braucht. | Die Reihenfolge, in der das Personal die Regale auffüllt. | Viele kommen vom Eingang und gehen zunächst in Richtung Fahrradabteilung (M1 und M2). |
+| `BFSDUAL-LF06-LS04-B03` | Orientierungsschild | Ein Hinweis, der den Weg zu einem Bereich oder zu einer Warengruppe zeigt. | Eine Tabelle mit technischen Daten mehrerer Produkte. | Eine Kennzeichnung des einzelnen Preises direkt an einer Packung. | Ein sichtbares Schild kann schon am Hauptgang auf die Zubehörfläche hinweisen (M1 und M5). |
+| `BFSDUAL-LF06-LS04-B04` | Vergleichsinformation | Eine gleichartig dargestellte Angabe, an der sich mehrere Produkte unterscheiden oder auf Eignung prüfen lassen. | Eine Überschrift, die nur den Weg zur Warengruppe zeigt. | Eine Artikelnummer, die den Lagerplatz für das Personal angibt. | Ventilarten, Abmessungen und Ausstattung helfen beim Vergleich von P50 und P51 (M3). |
 
 ### Planen
 
@@ -469,7 +543,7 @@ Der Abteilungsleiter sieht auf die Uhr. „Genau dafür brauchen wir morgen eine
 
 **Erstellt** einen beschrifteten Flächenplan mit den eingezeichneten Kundenwegen, Warenträgern und Artikelgruppen. Ergänzt die Orientierungsschilder und je eine tatsächlich nutzbare Vergleichsinformation für Pumpen und Flaschenhalter.
 
-### Bewerten
+### Überprüfen
 
 **Erprobt** euren Plan anhand der beiden Einkaufsfälle aus M2. Holt von einer Person, die den Plan gerade zum ersten Mal sieht, eine Rückmeldung zur Orientierung ein. Überarbeitet bei Bedarf eine Stelle und dokumentiert den Grund.
 
@@ -537,6 +611,13 @@ Verfügbar sind zwei frei drehbare Gondeln von je 1,60 m × 0,60 m mit Artikeln 
 | Kann sie anhand der Angaben über den Flaschenhalter entscheiden? | Welche Angaben hat sie tatsächlich genutzt? |
 | Bleiben Hauptgang, Durchgang und die Bedienseiten frei und erreichbar? | An welcher Stelle im Plan lässt sich dies überprüfen? |
 
+#### M6 · Fachbegriffe zu dieser Lernsituation
+
+- **Selbstbedienung.** Die Kundschaft findet, vergleicht und entnimmt Artikel weitgehend selbst.
+- **Kundenlauf.** Die Wege, die Kundinnen und Kunden im Laden typischerweise nehmen.
+- **Orientierungsschild.** Ein Hinweis, der den Weg zu einem Bereich oder zu einer Warengruppe zeigt.
+- **Vergleichsinformation.** Eine gleichartig dargestellte Angabe, an der sich mehrere Produkte unterscheiden oder auf Eignung prüfen lassen.
+
 ## LS 6.5 · Eine gemeinsame Werbeaktion abstimmen
 
 **Zeit:** 6 UStd.
@@ -547,16 +628,17 @@ Verfügbar sind zwei frei drehbare Gondeln von je 1,60 m × 0,60 m mit Artikeln 
 
 Ihr kündigt einen Flohmarkt an. Im Gruppenchat steht 14 Uhr, auf dem Aushang 15 Uhr. Wer das Plakat gesehen hat, kommt womöglich zu spät. Hier übt ihr, eine Aktion gemeinsam abzusprechen, die passenden Kanäle zu wählen und festzulegen, wer welche Information wann veröffentlicht. Das hilft euch bei eigenen Veranstaltungen und bei Aktionen im Praktikum.
 
-#### Vorrangige Kompetenz dieser Lernsituation
+#### Kompetenzprofil und Kompetenznetz
 
-**Fachkompetenz.** Ich stimme für zwei Handelspartner ein überprüfbares Werbeziel, passende Werbeträger, verbindliche Termine und die Aufgaben von Groß- und Einzelhandel ab.
+**Vorrangige Fachkompetenz.** Ich stimme für zwei Handelspartner ein überprüfbares Werbeziel, passende Werbeträger, verbindliche Termine und die Aufgaben von Groß- und Einzelhandel ab.
 
-| Kompetenzbereich | Das übe ich |
-| --- | --- |
-| Personalkompetenz | Ich behalte die Fristen im Blick und prüfe meine Zusagen auf Umsetzbarkeit. |
-| Sozialkompetenz | Ich höre mir die Interessen der Beteiligten an und suche eine tragfähige Vereinbarung. |
-| Methodenkompetenz | Ich verknüpfe Ziel, Maßnahmen und Termine in einem gemeinsamen Plan. |
-| Medienkompetenz | Ich wähle passende Werbeträger nach ihrer Reichweite am jeweiligen Standort. |
+| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| --- | ---: | --- | --- |
+| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Eine gemeinsame Werbeaktion für mehrere Verantwortliche abstimmen. |
+| Personalkompetenz | **3** | Ich behalte die Fristen im Blick und prüfe meine Zusagen auf Umsetzbarkeit. | Freigaben und Fristen im Blick behalten. |
+| Sozialkompetenz | **4** | Ich höre mir die Interessen der Beteiligten an und suche eine tragfähige Vereinbarung. | Unterschiedliche Interessen zu einer verbindlichen Vereinbarung führen. |
+| Methodenkompetenz | **4** | Ich verknüpfe Ziel, Maßnahmen und Termine in einem gemeinsamen Plan. | Kennzahl, Ziel, Maßnahmen, Fristen und Rollen zusammenführen. |
+| Medienkompetenz | **4** | Ich wähle passende Werbeträger nach ihrer Reichweite am jeweiligen Standort. | Den Werbeträger passend zum Standort und seiner Zielgruppe wählen. |
 
 ### Handlungssituation
 
@@ -572,6 +654,17 @@ Am Mittwoch vor der Aktion legt Jana, die Vertriebsleiterin von Global Bike, den
 ### Informieren
 
 **Klärt**, wen beide Läden erreichen wollen, welche Werbeplätze zur Verfügung stehen und bis wann Material und Freigaben gebraucht werden.
+
+#### Fachbegriffscheck
+
+**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+| Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
+| --- | --- | --- | --- | --- | --- |
+| `BFSDUAL-LF06-LS05-B01` | Überprüfbares Werbeziel | Ein Ziel, das Kennzahl, Zielwert und Zeitraum so festlegt, dass die Beteiligten die Zielerreichung prüfen können. | Ein Hinweis, an welchem Tag ein Werbemittel freigegeben werden soll. | Eine Liste aller Kanäle, die das Team für die Aktion in Betracht zieht. | Vergleichs- und Aktionsabsatz lassen sich bei beiden Geschäften erheben (M2). |
+| `BFSDUAL-LF06-LS05-B02` | Werbeträger | Ein Medium oder Werbeplatz, über den die Werbebotschaft die Zielgruppe erreicht. | Der Inhalt, den die Zielgruppe aus der Werbung mitnehmen soll. | Die Menge an Artikeln, die die Werbung verkaufen helfen soll. | Newsletter und Aufsteller sind zwei unterschiedliche Werbeträger (M3). |
+| `BFSDUAL-LF06-LS05-B03` | Kooperative Werbung | Mehrere beteiligte Unternehmen stimmen ihr Ziel und ihre Beiträge zu einer Werbeaktion ab. | Jeder Partner gestaltet seine Werbung getrennt nach einem eigenen Ziel. | Ein einzelnes Geschäft nutzt für dieselbe Aktion mehr als ein Werbemedium. | Global Bike liefert Produktdaten und Entwürfe. Die Geschäfte geben ihre Fassungen frei und setzen sie ein (M3). |
+| `BFSDUAL-LF06-LS05-B04` | Freigabefrist | Der späteste Zeitpunkt, zu dem eine Fassung bestätigt sein muss, damit sie rechtzeitig eingesetzt werden kann. | Der erste Zeitpunkt, zu dem die Kundschaft die Werbung sehen kann. | Der Termin, an dem die Geschäfte ihre Verkaufszahlen melden. | Für den Aufsteller muss die Druckfreigabe schon am Mittwoch der Vorwoche bis 16 Uhr vorliegen (M3). |
 
 ### Planen
 
@@ -597,7 +690,7 @@ Am Mittwoch vor der Aktion legt Jana, die Vertriebsleiterin von Global Bike, den
 
 **Erstellt** euren Werbeplan für beide Standorte. Haltet jeweils fest, wer das Werbemittel erstellt, wer es freigibt, wer es veröffentlicht oder aufstellt und wer das Ergebnis erfasst.
 
-### Bewerten
+### Überprüfen
 
 **Prüft** den Plan gegen die Fristen in M3 und das Ziel gegen die verfügbaren Daten. **Korrigiert** eine erkannte Lücke oder begründet, warum eure Abfolge funktioniert.
 
@@ -656,6 +749,13 @@ Schreibt für jede Standort-Zeitachse die Tage der Vorbereitungswoche, die Tage 
 | Zuständigkeiten | Global Bike · Fahrradfachgeschäft · Sportfachmarkt · Druckerei |
 | Daten für die Erfolgskontrolle | 40 Stück Vergleichswoche · 60 Stück Vergleichswoche · Stückzahlen Aktionswoche · Beratungszahl nur Fachgeschäft |
 
+#### M6 · Fachbegriffe zu dieser Lernsituation
+
+- **Überprüfbares Werbeziel.** Ein Ziel, das Kennzahl, Zielwert und Zeitraum so festlegt, dass die Beteiligten die Zielerreichung prüfen können.
+- **Werbeträger.** Ein Medium oder Werbeplatz, über den die Werbebotschaft die Zielgruppe erreicht.
+- **Kooperative Werbung.** Mehrere beteiligte Unternehmen stimmen ihr Ziel und ihre Beiträge zu einer Werbeaktion ab.
+- **Freigabefrist.** Der späteste Zeitpunkt, zu dem eine Fassung bestätigt sein muss, damit sie rechtzeitig eingesetzt werden kann.
+
 ## LS 6.6 · Werbemittel für beide Standorte gestalten
 
 **Zeit:** 8 UStd.
@@ -666,16 +766,17 @@ Schreibt für jede Standort-Zeitachse die Tage der Vorbereitungswoche, die Tage 
 
 Beim Scrollen klingt „passt für jedes Gerät“ praktisch. Bevor ihr bestellt, könnt ihr prüfen, ob die Produktdaten das Versprechen tatsächlich stützen. Hier nutzt ihr dieselbe Fähigkeit beim Erstellen von Werbung. Ihr entscheidet, welche Informationen die jeweilige Zielgruppe braucht und wie ihr sie auf dem Handy oder auf einem Schild verständlich zeigt.
 
-#### Vorrangige Kompetenz dieser Lernsituation
+#### Kompetenzprofil und Kompetenznetz
 
-**Fachkompetenz.** Ich übertrage eine gemeinsame Botschaft auf zwei Zielgruppen und Werbeformate und überprüfe meine Produktaussagen mit Produktblättern.
+**Vorrangige Fachkompetenz.** Ich übertrage eine gemeinsame Botschaft auf zwei Zielgruppen und Werbeformate und überprüfe meine Produktaussagen mit Produktblättern.
 
-| Kompetenzbereich | Das übe ich |
-| --- | --- |
-| Personalkompetenz | Ich plane einen prüfbaren Entwurf vor dem Freigabetermin. |
-| Sozialkompetenz | Ich nutze Rückmeldungen zur Verständlichkeit und begründe meine Textentscheidungen. |
-| Methodenkompetenz | Ich gleiche eine Werbeaussage mit einer konkreten Quelle ab. |
-| Medienkompetenz | Ich gestalte Text, Bild und Blickfang passend zum jeweiligen Werbeträger. |
+| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| --- | ---: | --- | --- |
+| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Werbeaussagen fachlich absichern und an zwei Zielgruppen anpassen. |
+| Personalkompetenz | **3** | Ich plane einen prüfbaren Entwurf vor dem Freigabetermin. | Einen prüfbaren Entwurf rechtzeitig fertigstellen. |
+| Sozialkompetenz | **3** | Ich nutze Rückmeldungen zur Verständlichkeit und begründe meine Textentscheidungen. | Rückmeldung zur Verständlichkeit aufnehmen. |
+| Methodenkompetenz | **4** | Ich gleiche eine Werbeaussage mit einer konkreten Quelle ab. | Werbeaussagen systematisch mit Produktblättern abgleichen. |
+| Medienkompetenz | **5** | Ich gestalte Text, Bild und Blickfang passend zum jeweiligen Werbeträger. | Zwei unterschiedlich einsetzbare Werbemittel verständlich gestalten. |
 
 ### Handlungssituation
 
@@ -691,6 +792,17 @@ Jana öffnet kurz vor der internen Freigabe zwei Rohentwürfe. „Schaut hier. I
 ### Informieren
 
 **Erschließt** Werbeauftrag, Zielgruppen und Produktdaten in M1 und M2. **Markiert** in M3, welche Aussagen ihr übernehmen, einschränken oder streichen müsst.
+
+#### Fachbegriffscheck
+
+**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+| Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
+| --- | --- | --- | --- | --- | --- |
+| `BFSDUAL-LF06-LS06-B01` | Werbebotschaft | Der Kerngedanke, den die Zielgruppe aus der Werbung mitnehmen soll. | Das Medium, in dem die Werbung erscheint. | Die Reihenfolge, in der die Produktdaten geprüft werden. | Der Frühjahrsstart mit Fahrradzubehör von Global Bike ist der gemeinsame Inhalt beider Formate (M1). |
+| `BFSDUAL-LF06-LS06-B02` | Zielgruppe | Die Personen, für deren Interessen und Situation ein Werbemittel gestaltet wird. | Die Beschäftigten, die das Werbemittel freigeben und anbringen. | Die Gruppe der Produkte, die in einem Werbemittel gezeigt wird. | Der Newsletter richtet sich an Alltagsradelnde mit Beratungsbedarf. Das Eingangsschild spricht vor allem Familien und Freizeitradelnde an (M1 und M4). |
+| `BFSDUAL-LF06-LS06-B03` | Belegbare Produktaussage | Eine Aussage zur Eigenschaft, Eignung oder Ausstattung, die durch eine überprüfbare Produktangabe gedeckt ist. | Eine Aufforderung, die Kundschaft zur Aktionsfläche zu führen. | Eine Vermutung zum Produkt, die sich aus der Zielgruppe ableiten lässt. | Für P50 nennt das Produktblatt Sclaverand- und Autoventile. Diese beiden Ventilarten können in der Werbung genannt werden (M2). |
+| `BFSDUAL-LF06-LS06-B04` | Handlungsaufforderung | Ein Hinweis an die Kundschaft, welcher konkrete nächste Schritt möglich oder gewünscht ist. | Eine Beschreibung des Materials oder der Maße eines Produkts. | Eine interne Anweisung, wann die Ladenleitung das Werbemittel freigibt. | Die Aufforderung zum Vergleichen an der Aktionsfläche im Hauptgang benennt Handlung und Ort (M1). |
 
 ### Planen
 
@@ -716,7 +828,7 @@ Jana öffnet kurz vor der internen Freigabe zwei Rohentwürfe. „Schaut hier. I
 
 **Stellt** den Newsletter-Ausschnitt und das Eingangsschild im gewählten Lernpaket fertig. **Dokumentiert** für jeden übernommenen Produktvorteil kurz, wo er im Produktblatt belegt ist.
 
-### Bewerten
+### Überprüfen
 
 **Prüft** zu zweit, ob die Botschaft in beiden Medien erkennbar ist und die Produktinformationen mit M2 übereinstimmen. **Überarbeitet** anschließend unklare oder unzutreffende Stellen.
 
@@ -773,6 +885,13 @@ Zeichnet einen Handyrahmen, der auf ein Blatt A5 passt, und daneben den Umriss e
 | Beleg aus dem Produktblatt | Artikelnummer und passende Angabe notieren |
 | Schlussprüfung | Aussage freigeben, präzisieren oder streichen |
 
+#### M6 · Fachbegriffe zu dieser Lernsituation
+
+- **Werbebotschaft.** Der Kerngedanke, den die Zielgruppe aus der Werbung mitnehmen soll.
+- **Zielgruppe.** Die Personen, für deren Interessen und Situation ein Werbemittel gestaltet wird.
+- **Belegbare Produktaussage.** Eine Aussage zur Eigenschaft, Eignung oder Ausstattung, die durch eine überprüfbare Produktangabe gedeckt ist.
+- **Handlungsaufforderung.** Ein Hinweis an die Kundschaft, welcher konkrete nächste Schritt möglich oder gewünscht ist.
+
 ## LS 6.7 · Die Entwürfe vor der Freigabe prüfen
 
 **Zeit:** 8 UStd.
@@ -783,14 +902,17 @@ Zeichnet einen Handyrahmen, der auf ein Blatt A5 passt, und daneben den Umriss e
 
 Ihr schickt jemandem eine Wegbeschreibung zum Treffpunkt. Für euch ist sie klar, die andere Person wartet am falschen Eingang. Wenn ihr beobachtet, wo jemand abbiegt oder nachfragt, könnt ihr genau diese Stelle verbessern. Das übt ihr hier mit Werbung und einer Verkaufsfläche und könnt es auch für eure nächsten Aushänge oder Wegbeschreibungen nutzen.
 
-#### Vorrangige Kompetenz dieser Lernsituation
+#### Kompetenzprofil und Kompetenznetz
 
-**Fachkompetenz.** Ich prüfe mit Testpersonen, ob die Waren auffindbar sind und die Werbung verstanden wird. Ich leite aus den Beobachtungen begründete Änderungen ab.
+**Vorrangige Fachkompetenz.** Ich prüfe mit Testpersonen, ob die Waren auffindbar sind und die Werbung verstanden wird. Ich leite aus den Beobachtungen begründete Änderungen ab.
 
-- **Personalkompetenz:** Ich erfasse auch Beobachtungen, die meinen eigenen Erwartungen widersprechen.
-- **Sozialkompetenz:** Ich leite einen Test neutral an und höre den Testpersonen zu.
-- **Methodenkompetenz:** Ich unterscheide zwischen beobachtetem Verhalten und meiner Erklärung dafür.
-- **Medienkompetenz:** Ich überarbeite eine Werbeaussage oder Kennzeichnung so, dass sie leichter zu verstehen ist.
+| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| --- | ---: | --- | --- |
+| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Werbung und Warenpräsentation prüfen und begründet verbessern. |
+| Personalkompetenz | **4** | Ich erfasse auch Beobachtungen, die meinen eigenen Erwartungen widersprechen. | Auch unerwartete Ergebnisse in die Überarbeitung einbeziehen. |
+| Sozialkompetenz | **4** | Ich leite einen Test neutral an und höre den Testpersonen zu. | Testpersonen neutral anleiten und ihnen zuhören. |
+| Methodenkompetenz | **5** | Ich unterscheide zwischen beobachtetem Verhalten und meiner Erklärung dafür. | Tests planen, Beobachtungen dokumentieren, auswerten und zur Überarbeitung nutzen. |
+| Medienkompetenz | **3** | Ich überarbeite eine Werbeaussage oder Kennzeichnung so, dass sie leichter zu verstehen ist. | Werbetext oder Beschilderung gezielt verständlicher machen. |
 
 ### Handlungssituation
 
@@ -806,6 +928,17 @@ Beim Blick auf den Plan des Sportfachmarkts fragt ein Kollege: „Welchen Eingan
 ### Informieren
 
 **Vergleicht** in Partnerarbeit für jeden Standort den Werbeentwurf mit dem Flächenplan. Markiert, welches Produkt beworben wird, welche Orientierung die Werbung bietet und wo das Produkt tatsächlich liegt. Nutzt M1 und M2.
+
+#### Fachbegriffscheck
+
+**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+| Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
+| --- | --- | --- | --- | --- | --- |
+| `BFSDUAL-LF06-LS07-B01` | Auffindbarkeit | Wie leicht eine Person das gesuchte Produkt am gegebenen Startpunkt finden kann. | Wie gut eine Person die Werbeaussage in eigenen Worten wiedergeben kann. | Wie attraktiv eine Person die Farbe eines Schildes bewertet. | Der gewählte Weg und die Fundstelle zeigen, ob die P50 im Markt gut auffindbar ist (M2 und M5). |
+| `BFSDUAL-LF06-LS07-B02` | Verständlichkeit | Wie gut eine Person den gemeinten Inhalt einer Information erfasst. | Wie schnell eine Person vom Eingang zur richtigen Regalfläche kommt. | Wie viele Werbemittel ein Laden während der Aktion einsetzt. | Die Wiedergabe der Botschaft in eigenen Worten zeigt, was aus der Werbung angekommen ist (M3). |
+| `BFSDUAL-LF06-LS07-B03` | Neutrale Testanleitung | Eine Aufgabenbeschreibung, die Ziel und Start klärt und den Weg der Testperson offenlässt. | Eine Wegbeschreibung, die bereits das richtige Regal nennt. | Eine Rückfrage, die der Testperson die erwartete Werbebotschaft vorsagt. | Im Test entscheidet die Person selbst, wo sie die Pumpe zuerst sucht (M3). |
+| `BFSDUAL-LF06-LS07-B04` | Beobachtung | Ein konkret wahrnehmbares Verhalten oder eine tatsächliche Äußerung aus dem Test. | Eine Vermutung darüber, warum eine Person falsch abgebogen ist. | Eine vorgeschlagene Änderung am Flächenplan. | „Die Person zeigte auf die alte Zubehörinsel und fragte nach der P50“ lässt sich direkt protokollieren (M5). |
 
 ### Planen
 
@@ -829,7 +962,7 @@ Beim Blick auf den Plan des Sportfachmarkts fragt ein Kollege: „Welchen Eingan
 
 **Testet** beide Standortentwürfe im gewählten Lernpaket mit Personen, die den jeweiligen Entwurf noch nicht kennen. **Haltet fest**, welchen Weg sie wählen, ob sie das Produkt finden und wie sie die Werbung verstehen.
 
-### Bewerten
+### Überprüfen
 
 **Wertet** die Beobachtungen je Standort aus. **Überarbeitet** die Teile des Werbe- oder Flächenentwurfs, für die euer Test ein Problem zeigt. Belegt jede Änderung mit einer Beobachtung. Begründet ebenso, wenn ihr einen Teil nach dem Test freigebt.
 
@@ -890,6 +1023,13 @@ Zeichnet die Raster aus M1 und M2 auf ein Blatt oder markiert sie mit Klebeband.
 | Fachgeschäft | | | | |
 | Sportfachmarkt | | | | |
 
+#### M6 · Fachbegriffe zu dieser Lernsituation
+
+- **Auffindbarkeit.** Wie leicht eine Person das gesuchte Produkt am gegebenen Startpunkt finden kann.
+- **Verständlichkeit.** Wie gut eine Person den gemeinten Inhalt einer Information erfasst.
+- **Neutrale Testanleitung.** Eine Aufgabenbeschreibung, die Ziel und Start klärt und den Weg der Testperson offenlässt.
+- **Beobachtung.** Ein konkret wahrnehmbares Verhalten oder eine tatsächliche Äußerung aus dem Test.
+
 ## LS 6.8 · Über die Fortführung der Aktion entscheiden
 
 **Zeit:** 6 UStd.
@@ -900,14 +1040,17 @@ Zeichnet die Raster aus M1 und M2 auf ein Blatt oder markiert sie mit Klebeband.
 
 Bei einem Schulturnier haben sich diesmal mehr Leute angemeldet. Trotzdem sagen einige, dass sie wegen langer Wartezeiten nächstes Mal lieber aussetzen. Wenn ihr über die nächste Runde entscheidet, helfen euch Zahlen und Rückmeldungen zusammen. In dieser LS beurteilt ihr damit, ob eine Verkaufsaktion ihr Ziel erreicht hat und welche Änderungen ihr begründet empfehlen könnt.
 
-#### Vorrangige Kompetenz dieser Lernsituation
+#### Kompetenzprofil und Kompetenznetz
 
-**Fachkompetenz.** Ich vergleiche Absatzdaten und Kundenrückmeldungen beider Standorte, beurteile die Zielerreichung und begründe Änderungen für Sortiment, Platzierung und Werbung.
+**Vorrangige Fachkompetenz.** Ich vergleiche Absatzdaten und Kundenrückmeldungen beider Standorte, beurteile die Zielerreichung und begründe Änderungen für Sortiment, Platzierung und Werbung.
 
-- **Personalkompetenz:** Ich mache klar, wie sicher meine Empfehlung durch die Daten gestützt wird.
-- **Sozialkompetenz:** Ich gehe auf unterschiedliche Anliegen der Handelspartner ein und begründe eine gemeinsame Entscheidung.
-- **Methodenkompetenz:** Ich vergleiche Absatzmengen mit der jeweiligen Referenzwoche und prüfe das Ergebnis am Zielwert.
-- **Medienkompetenz:** Ich bereite wichtige Zahlen und Kundenbelege für eine nachvollziehbare Entscheidung auf.
+| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| --- | ---: | --- | --- |
+| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Die Zielerreichung beurteilen und eine Folgeaktion begründet empfehlen. |
+| Personalkompetenz | **4** | Ich mache klar, wie sicher meine Empfehlung durch die Daten gestützt wird. | Die Reichweite der eigenen Schlussfolgerung nachvollziehbar machen. |
+| Sozialkompetenz | **3** | Ich gehe auf unterschiedliche Anliegen der Handelspartner ein und begründe eine gemeinsame Entscheidung. | Anliegen beider Handelspartner berücksichtigen. |
+| Methodenkompetenz | **5** | Ich vergleiche Absatzmengen mit der jeweiligen Referenzwoche und prüfe das Ergebnis am Zielwert. | Absatzzahlen und Kundenstimmen zur begründeten Bewertung verknüpfen. |
+| Medienkompetenz | **3** | Ich bereite wichtige Zahlen und Kundenbelege für eine nachvollziehbare Entscheidung auf. | Zahlen und Rückmeldungen adressatengerecht aufbereiten. |
 
 ### Handlungssituation
 
@@ -923,6 +1066,17 @@ Jana stellt euch den Aktionsbericht mit vergleichbaren Absatzdaten, Kundenrückm
 ### Informieren
 
 **Erschließt** das Aktionsziel, die eingesetzten Maßnahmen und die Absatzdaten in M1 und M2. **Ordnet** die Rückmeldungen aus M3 dem richtigen Standort sowie Sortiment, Platzierung oder Werbung zu.
+
+#### Fachbegriffscheck
+
+**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+| Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
+| --- | --- | --- | --- | --- | --- |
+| `BFSDUAL-LF06-LS08-B01` | Absatzmenge | Die Zahl der verkauften Einheiten eines Artikels oder Sortiments in einem Zeitraum. | Der in Euro ausgedrückte Erlös aus den Verkäufen. | Die Zahl der Kundenanfragen zu einem Artikel. | In der Aktionswoche wurden im Sportfachmarkt 22 Minipumpen P50 verkauft (M2). |
+| `BFSDUAL-LF06-LS08-B02` | Vergleichswoche | Ein geeigneter früherer Zeitraum, dessen Daten als Ausgangswert dienen. | Die Woche, für die das Team bereits die Folgeaktion plant. | Die Aktionswoche des Ladens mit der größeren Verkaufsfläche. | Beide Wochen im Bericht umfassen sechs reguläre Öffnungstage. Der Bezugswert kommt jeweils aus demselben Laden (M1 und M2). |
+| `BFSDUAL-LF06-LS08-B03` | Zielerreichung | Das Ergebnis des Vergleichs zwischen dem tatsächlichen Wert und dem vorher festgelegten Zielwert. | Der Unterschied zwischen den gesamten Absatzmengen der beiden Läden. | Die Zahl positiver Kundenrückmeldungen in der Aktionswoche. | Das Ziel beträgt mindestens 20 Prozent Zuwachs je Standort. Das Fachgeschäft erreicht 15 Prozent, der Sportfachmarkt 25 Prozent (M1, M2 und M5). |
+| `BFSDUAL-LF06-LS08-B04` | Begründete Empfehlung | Ein konkreter Vorschlag, der sich nachvollziehbar auf Zahlen oder Fallbelege stützt. | Ein allgemeiner Wunsch nach mehr Absatz beim nächsten Mal. | Eine Liste von Verkaufszahlen ohne Folgerung für die nächste Aktion. | Eine Empfehlung zur Beschilderung kann sich auf die Rückmeldung zur fehlenden Angabe bei den Rahmentaschen stützen (M3). |
 
 ### Planen
 
@@ -946,7 +1100,7 @@ Jana stellt euch den Aktionsbericht mit vergleichbaren Absatzdaten, Kundenrückm
 
 **Erstellt** eine kurze Empfehlung für Global Bike und beide Handelspartner. Haltet für Sortiment, Platzierung und Werbung fest, was ihr pro Standort beibehalten oder ändern würdet. Nutzt M5.
 
-### Bewerten
+### Überprüfen
 
 **Prüft** im Partnerfeedback, ob Ausgangswerte, Veränderung und Zielerreichung nachvollziehbar sind. **Schärft** eine Empfehlung, wenn die Begründung unklar ist oder Zahlen und Rückmeldungen unterschiedliche Hinweise geben.
 
@@ -1008,3 +1162,10 @@ Rechenhilfe. Prozentuale Veränderung = (Aktionsabsatz − Vergleichsabsatz) ÷ 
 | --- | --- | --- | --- |
 | Fachgeschäft | Vorschlag und Beleg | Vorschlag und Beleg | Vorschlag und Beleg |
 | Sportfachmarkt | Vorschlag und Beleg | Vorschlag und Beleg | Vorschlag und Beleg |
+
+#### M6 · Fachbegriffe zu dieser Lernsituation
+
+- **Absatzmenge.** Die Zahl der verkauften Einheiten eines Artikels oder Sortiments in einem Zeitraum.
+- **Vergleichswoche.** Ein geeigneter früherer Zeitraum, dessen Daten als Ausgangswert dienen.
+- **Zielerreichung.** Das Ergebnis des Vergleichs zwischen dem tatsächlichen Wert und dem vorher festgelegten Zielwert.
+- **Begründete Empfehlung.** Ein konkreter Vorschlag, der sich nachvollziehbar auf Zahlen oder Fallbelege stützt.
