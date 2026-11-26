@@ -1,0 +1,7 @@
+# Prüfung · Lernpfadübung LS 6.8
+
+Ausgangsform: SozPäd-Lernpfadübung. Quelle: Fachbereiche/BFSdual/LF06/LS_6_8_Folgeaktion_entscheiden.md.
+Fachliche Inhaltsprüfung und Paketprüfung anhand der LF06-Unterlagen.
+Browserprüfung mit Chromium und simulierter SCORM-1.2-Schnittstelle: Mehrfachauswahl, Teilpunkte, Hilfen, Festigung, Transferkette, Kompetenzziele, Fortsetzung und neuer Versuch.
+Lehrkrafteditor mit PIN, Validierung und ZIP-Export sowie Tablet- und Smartphone-Ansichten geprüft.
+Der Test erfolgte außerhalb der Moodle-Installation der Schule.

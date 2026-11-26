@@ -1,0 +1,20 @@
+/* BFSdual v14 · compact three-level learner view with mastery-gated level progression. */
+const Progress={
+ levels:['','Orientierung','Anwendung','Transfer'],
+ colors:['','#4c5862','#009bd9','#afca0b'],
+ escape(v){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))},
+ stats(s,c){return [1,2,3].map(l=>{const rows=Engine.evidenceByLevel(s,c,l),done=rows.filter(r=>typeof r[1]==='number');return {l,n:rows.length,score:done.length?done.reduce((t,r)=>t+r[1],0)/done.length:null,help:done.length?done.reduce((t,r)=>t+Number(r[2]||0),0)/done.length:null}})},
+ chart(s,c){
+  const H=this.escape,st=this.stats(s,c),xs=[105,310,515],base=184,range=120;
+  let svg='';
+  for(const yv of [0,50,100]){const y=base-yv/100*range;svg+=`<line x1="70" x2="550" y1="${y}" y2="${y}" stroke="#d3dfe5" stroke-dasharray="3 5"/><text x="58" y="${y+5}" text-anchor="end" font-size="13" fill="#60737e">${yv}%</text>`}
+  const pts=st.filter(x=>x.score!==null).map(x=>`${xs[x.l-1]},${base-x.score*range}`).join(' ');if(pts.split(' ').length>1)svg+=`<polyline points="${pts}" fill="none" stroke="#546b77" stroke-width="3"/>`;
+  st.forEach(x=>{const cx=xs[x.l-1],label=this.levels[x.l],cy=x.score===null?base:base-x.score*range;svg+=`<text x="${cx}" y="226" text-anchor="middle" font-size="14" font-weight="700" fill="#425965">${label}</text>`;if(x.score===null){svg+=`<circle cx="${cx}" cy="${cy}" r="10" fill="#e4eaed"/><text x="${cx}" y="246" text-anchor="middle" font-size="11" fill="#778892">offen</text>`}else{svg+=`<circle cx="${cx}" cy="${cy}" r="17" fill="${this.colors[x.l]}" stroke="white" stroke-width="4"/><text x="${cx}" y="${cy+5}" text-anchor="middle" font-size="12" font-weight="800" fill="${x.l===1?'white':'#14232c'}">${Math.round(x.score*100)}</text>`}
+  });
+  return `<svg class="competence-chart" viewBox="0 0 620 260" role="img" aria-label="${H(COMP[c][0])}: Ergebnisverlauf von Orientierung über Anwendung zu Transfer"><title>${H(COMP[c][0])} · drei Anspruchsniveaus</title>${svg}</svg>`
+ },
+ trend(s,c){const st=this.stats(s,c).filter(x=>x.score!==null);if(!st.length)return {label:'Noch offen',text:'Nachweise folgen im Lernweg.'};const now=st[st.length-1],prev=st.length>1?st[st.length-2]:null;if(!prev)return {label:'Ausgangspunkt sichtbar',text:`${this.levels[now.l]} ist jetzt erfasst.`};const d=now.score-prev.score;if(now.l===3)return {label:Engine.result(s,c).label,text:'Transfer wird erst nach Abschluss der zusammenhängenden Entscheidungskette bewertet.'};if(d>.08)return {label:'Entwicklung sichtbar',text:'Beim höheren Anspruch steigt auch das Aufgabenergebnis.'};if(d<-.12)return {label:'Höherer Anspruch fordert mehr',text:'Der neue Anspruch ist deutlich schwieriger. Nutze die Rückmeldungen für den nächsten Schritt.'};return {label:'Stabil beim höheren Anspruch',text:'Das Ergebnis bleibt trotz höherer Anforderung in einem ähnlichen Bereich.'}},
+ legend(){return `<div class="chart-legend compact-legend"><b>So liest du die Kurve:</b><span><i class="dot d1"></i>Orientierung</span><span><i class="dot d2"></i>Anwendung</span><span><i class="dot d3"></i>Transfer</span><small>Die Zahl im Punkt zeigt den Anteil tragfähiger Lösungen. Transfer entsteht aus der gesamten Entscheidungslogik – nicht aus einer einzelnen Antwort.</small></div>`},
+ summary(s,c){const st=this.stats(s,c);return `<div class="checkpoint-stats">${st.map(x=>`<div><b>${this.levels[x.l]}</b>${x.score===null?'<span>Noch offen</span>':`<strong>${Math.round(x.score*100)} %</strong><span>${x.n} Nachweise</span>`}</div>`).join('')}</div>`},
+ table(s,c){const rows=Engine.evidence(s,c);return `<details class="chart-data"><summary>Nachweise im Detail</summary><div class="scroll"><table><thead><tr><th>Aufgabe</th><th>Niveau</th><th>Ergebnis</th></tr></thead><tbody>${rows.map(r=>{const q=BANK[r[0]],v=typeof r[1]==='number'?Math.round(r[1]*100)+' %':'wird am Ende der Logikkette bewertet';return `<tr><td>${this.escape(q.title)}</td><td>${this.levels[q.l]}</td><td>${v}</td></tr>`}).join('')}</tbody></table></div></details>`}
+};
