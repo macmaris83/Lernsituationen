@@ -120,6 +120,8 @@ Alle Standort- und Kundendaten sind für den Unterricht erstellt.
 
 #### M1 · Kurzprofil Fahrradfachgeschäft Innenstadt
 
+Das [Standortprofil](Glossare/LS_6_1_Glossar.md#standortprofil) fasst die bisherigen Beobachtungen des Fachgeschäfts zusammen.
+
 | Merkmal | Beobachtung |
 | --- | --- |
 | [Nachfragebelege](Glossare/LS_6_1_Glossar.md#nachfragebeleg) | In 20 protokollierten Zubehöranfragen ging es neunmal um Sichtbarkeit auf dem Arbeitsweg, sechsmal um sicheres Abstellen und fünfmal um den Transport kleiner Dinge. Jede Anfrage wurde einem Hauptanliegen zugeordnet. |
@@ -131,7 +133,7 @@ Alle Standort- und Kundendaten sind für den Unterricht erstellt.
 
 | Merkmal | Beobachtung |
 | --- | --- |
-| Kundschaft | In 20 protokollierten Zubehöranfragen ging es achtmal um Zubehör für Familienausflüge, siebenmal um Reparaturen unterwegs und fünfmal um besseren Regenschutz. Jede Anfrage wurde einem Hauptanliegen zugeordnet. |
+| Kundschaft und [Zielgruppen](Glossare/LS_6_1_Glossar.md#zielgruppe) | In 20 protokollierten Zubehöranfragen ging es achtmal um Zubehör für Familienausflüge, siebenmal um Reparaturen unterwegs und fünfmal um besseren Regenschutz. Jede Anfrage wurde einem Hauptanliegen zugeordnet. |
 | Verkauf | Die Aktionsfläche funktioniert in Selbstbedienung. Samstags ist dort keine feste Beratung eingeplant. An der Information kann die Kundschaft bei Bedarf nachfragen. |
 | Kundenstimme | „Wir wollen am Wochenende mit den Kindern los. Ich möchte auf einen Blick erkennen, welche Pumpe zu unseren Ventilen passt.“ |
 | Kundenstimme | „Wo liegt das Zubehör, das wir unterwegs bei einer Panne brauchen?“ |
@@ -275,6 +277,8 @@ Die Zahlen geben registrierte Nennungen im Beratungstagebuch an. Eine Person kon
 
 **Beobachtung Sportfachmarkt.** Bei Familienausflügen gibt es immer wieder Fragen zu Trinkpausen, Pannen unterwegs und sichtbarem Zubehör für alle Mitfahrenden. Die Nachfrage nach Regenschutz wurde vor allem nach zwei nassen Wochenenden erfasst.
 
+Die Nachfrageübersicht hilft dabei, mögliche [Sortimentslücken](Glossare/LS_6_2_Glossar.md#sortimentsl%C3%BCcke) zu erkennen.
+
 #### M2 · Global-Bike-Zubehörkatalog für die Aktionswoche
 
 | Artikel | Kurzbeschreibung | [Lieferbarkeit](Glossare/LS_6_2_Glossar.md#lieferbarkeit) zum Aktionsbeginn | [Platzbedarf](Glossare/LS_6_2_Glossar.md#platzbedarf) je Laden |
@@ -291,7 +295,7 @@ Die Zahlen geben registrierte Nennungen im Beratungstagebuch an. Eine Person kon
 
 #### M3 · Sortimentsvorgaben aus dem Vertrieb
 
-- Fachgeschäft Innenstadt hat fünf Plätze, der Sportfachmarkt sieben. Für die Aktion sind davon sechs Plätze im Sportfachmarkt vorgesehen. Einen weiteren Platz benötigt der Markt für sein bestehendes eigenes Sortiment.
+- Das Fachgeschäft hat fünf Aktionsplätze, der Sportfachmarkt sechs. Dadurch ist die [Sortimentsbreite](Glossare/LS_6_2_Glossar.md#sortimentsbreite) der Aktion begrenzt. Einen siebten Platz benötigt der Markt für sein bestehendes eigenes Sortiment.
 - Global Bike kündigt **vier gemeinsame Artikel** als [Kernsortiment](Glossare/LS_6_2_Glossar.md#kernsortiment) an. Diese erscheinen in beiden Läden.
 - Das Fachgeschäft erhält **einen**, der Sportfachmarkt **zwei** zusätzliche Artikel. Eine [lokale Sortimentsergänzung](Glossare/LS_6_2_Glossar.md#lokale-sortimentserg%C3%A4nzung) wird nur in dem Laden angeboten, für den ihr sie auswählt. Jeder gewählte Artikel zählt als ein Platz je Laden.
 - Das Lager liefert pro Standort ausreichend Stück von allen ab Aktionsbeginn lieferbaren Artikeln.
@@ -436,11 +440,11 @@ Der abgebildete Verkaufsbereich ist 4,80 m breit und 4,00 m tief. Der Nullpunkt 
 
 | Artikel | Was die Kundschaft beim Kauf wissen will | Vorgabe des Fachgeschäfts |
 |---|---|---|
-| L10 LED-Lichtset | Wie sitzt die Halterung am Lenker und wie löse ich das Licht wieder? | Ein Muster am Vorführplatz. Die Schachteln stehen erreichbar am Warenplatz. |
+| L10 LED-Lichtset | Wie sitzt die Halterung am Lenker und wie löse ich das Licht wieder? | Ein Muster am Vorführplatz. Die Schachteln stehen erreichbar am [Warenplatz](Glossare/LS_6_3_Glossar.md#warenplatz). |
 | R40 Sattelüberzug | Kann ich den Überzug am eigenen Sattel ausprobieren? | Ein Muster darf angefasst und am Vorführrad gezeigt werden. Verpackte Ware bleibt zugänglich. |
 | P50 Minipumpe | Passt die Pumpe zu meinem Ventil und wie setze ich sie an? | Vorführung am Ventil des Fahrrads möglich halten. |
 | T30 Rahmentasche | Komme ich leicht an meine Kleinteile? | Ein leeres Muster darf angefasst und geöffnet werden. |
-| S20 Bügelschloss | Wie groß ist der Bügel und wie schwer ist das Schloss? | Aufgrund des Gewichts in der unteren Regalzone zeigen. |
+| S20 Bügelschloss | Wie groß ist der Bügel und wie schwer ist das Schloss? | Aufgrund des Gewichts in der unteren [Regalzone](Glossare/LS_6_3_Glossar.md#regalzone) zeigen. |
 
 #### M4 · Material für die drei Arbeitswege
 
@@ -574,10 +578,12 @@ Verfügbar sind zwei frei drehbare Gondeln von je 1,60 m × 0,60 m mit Artikeln 
 
 **Beobachtungen zum [Kundenlauf](Glossare/LS_6_4_Glossar.md#kundenlauf).** Ein Teil der Kundschaft geht vom Zugang direkt Richtung Fahrradabteilung. Familien lassen Einkaufswagen häufig kurz am Rand der Aktionsfläche stehen, um Angaben zu lesen. Pumpen werden öfter in die Hand genommen und anschließend zurückgelegt. Am ähnlichen Verpackungsdesign erkennen Testkundinnen und -kunden die Ventilart auf den ersten Blick schwer.
 
-1. **Fall Pumpe.** Eine Person mit Einkaufswagen kommt vom Zugang. Das Fahrrad ihres Kindes hat ein Autoventil. Die Person sucht eine Pumpe, kann zwischen zwei Größen wählen und möchte wissen, ob beide Modelle zum Ventil passen.
+1. **Fall Pumpe.** Eine Person mit Einkaufswagen kommt vom Zugang. Das Fahrrad ihres Kindes hat ein Autoventil. Die Person sucht eine Pumpe, kann zwischen zwei Größen wählen und möchte die [Kompatibilität](Glossare/LS_6_4_Glossar.md#kompatibilit%C3%A4t) beider Modelle mit dem Ventil prüfen.
 2. **Fall Flaschenhalter.** Eine Person kommt aus Richtung Fahrradabteilung und hat eine 74 mm breite Flasche. Die Befestigungsgewinde am Fahrrad sind zugänglich. Die Person möchte erkennen, ob der Halter zur Flasche passt und was zur Montage erforderlich ist.
 
 #### M3 · Festes Aktionssortiment und Angaben für die Auswahl
+
+Die Mini- und die Standpumpe gehören zur gleichen [Warengruppe](Glossare/LS_6_4_Glossar.md#warengruppe). Anhand der Produktkarten lässt sich prüfen, für welchen Einsatz sich das jeweilige Modell eignet.
 
 | Artikel | Angaben laut Produktkarte |
 |---|---|
@@ -717,7 +723,7 @@ Ein gemeinsamer, freigabereifer Werbeplan. Er enthält ein überprüfbares Ziel,
 
 - Die Frühjahrsaktion läuft in beiden Läden von Montag bis Samstag in derselben Woche. Die gemeinsame Botschaft soll Fahrradzubehör für den Frühjahrsstart sichtbar machen. Jeder Standort kann einen [Werbeträger](Glossare/LS_6_5_Glossar.md#werbetr%C3%A4ger) aus M3 verbindlich nutzen.
 - In einer vergleichbaren Verkaufswoche wurden von den Artikeln des Aktionssortiments im Fahrradfachgeschäft **40 Stück** und im Sportfachmarkt **60 Stück** verkauft. Beide Läden können als [Kennzahl](Glossare/LS_6_5_Glossar.md#kennzahl) die verkauften Stücke dieser Artikel für die Aktionswoche auswerten. Die Vergleichswerte stammen aus Wochen mit denselben Öffnungstagen.
-- Das Fachgeschäft kann Beratungen zählen. Der Sportfachmarkt erfasst Beratungen und Laufkundschaft für diese Aktion nicht verlässlich. Beide Partner können am Montag nach der Aktion ihre Absatzwerte an Global Bike melden.
+- Das Fachgeschäft kann Beratungen zählen. Der Sportfachmarkt erfasst Beratungen und Laufkundschaft für diese Aktion nicht verlässlich. Beide Partner können am Montag nach der Aktion ihre Absatzwerte an Global Bike melden. Vor dem Start vereinbaren die Beteiligten ein [überprüfbares Werbeziel](Glossare/LS_6_5_Glossar.md#%C3%BCberpr%C3%BCfbares-werbeziel).
 
 #### M3 · Werbeplätze, Fristen und Rollen
 
@@ -730,7 +736,7 @@ Alle Vorbereitungsfristen beziehen sich auf die Woche vor der Aktion, sofern ein
 | Sportfachmarkt · Aufsteller am Eingang | Ab Freitag der Aktionswoche | [Freigabefrist](Glossare/LS_6_5_Glossar.md#freigabefrist) für den Druck: Mittwoch, 16:00 Uhr. Die Druckerei liefert bis Donnerstag der Aktionswoche. Der Markt stellt das Schild auf. |
 | Sportfachmarkt · Hinweis am Hauptgang | Ab Montag zur Öffnung | Freigabe bis Freitag, 12:00 Uhr. Der Markt druckt und platziert das Schild selbst. |
 
-Jana stellt am Mittwoch ab 10:00 Uhr Produktangaben und Bildmaterial bereit. Global Bike kann an diesem Tag bis 14:00 Uhr einen gemeinsamen Textentwurf und je eine Fassung pro Standort liefern. Die Ladenleitungen entscheiden über die Freigabe ihres Werbemittels. Vor Veröffentlichung prüft der jeweilige Partner Preisangaben und Platzierung. Jede Maßnahme lässt sich an den genannten Fristen prüfen.
+Für die [kooperative Werbung](Glossare/LS_6_5_Glossar.md#kooperative-werbung) stellt Jana am Mittwoch ab 10:00 Uhr Produktangaben und Bildmaterial bereit. Global Bike kann an diesem Tag bis 14:00 Uhr einen gemeinsamen Textentwurf und je eine Fassung pro Standort liefern. Die Ladenleitungen entscheiden über die Freigabe ihres Werbemittels. Vor Veröffentlichung prüft der jeweilige Partner Preisangaben und Platzierung. Jede Maßnahme lässt sich an den genannten Fristen prüfen.
 
 #### M4 · Drei Partnerstimmen zum Vorlesen oder Einsprechen
 
@@ -848,13 +854,13 @@ Ein Newsletter-Ausschnitt für das Fahrradfachgeschäft und ein Eingangsschild f
 
 | Vorgabe | Fahrradfachgeschäft, Innenstadt Aurich | Sportfachmarkt, Stadtrand Aurich |
 | --- | --- | --- |
-| Medium | Newsletter-Ausschnitt für das Handy | Eingangsschild im Hochformat |
+| [Werbemittel](Glossare/LS_6_6_Glossar.md#werbemittel) | Newsletter-Ausschnitt für das Handy | Eingangsschild im Hochformat |
 | [Zielgruppe](Glossare/LS_6_6_Glossar.md#zielgruppe) | Alltagsradelnde, die Zubehör passend zu ihrem eigenen Fahrrad suchen | Familien und Freizeitradelnde, die sich vor Ort schnell orientieren möchten |
 | Nutzen und Aufforderung | Auf passende Beratung hinweisen und zur Aktionsfläche im Laden einladen | Zum Selbstvergleichen der Produkte an der markierten Aktionsfläche im Hauptgang einladen |
-| Umfang | Eine Betreffzeile, ein kurzer Absatz mit bis zu 75 Wörtern und eine klare Aufforderung | Eine gut lesbare Überschrift, wenige eindeutige Angaben und ein Weg-Hinweis |
+| Umfang | Eine Betreffzeile, ein kurzer Absatz mit bis zu 75 Wörtern und eine klare Aufforderung | Eine gut lesbare Überschrift als [Blickfang](Glossare/LS_6_6_Glossar.md#blickfang), wenige eindeutige Angaben und ein Weghinweis |
 | Artikel | L10 LED-Lichtset und T30 Rahmentasche | P50 Minipumpe und B80 Reflektorband |
 
-Gemeinsame [Werbebotschaft](Glossare/LS_6_6_Glossar.md#werbebotschaft) **Frühjahrsstart mit Fahrradzubehör von Global Bike**. Die Aktion läuft in beiden Geschäften von Montag bis Samstag derselben Woche. Global Bike stellt Produktdaten bereit. Preisangaben sind in diesem Auftrag nicht vorgesehen. Als Bildmaterial stehen beschriftete neutrale Produktabbildungen oder eigene Produktzeichnungen zur Verfügung. Zeigt nur Ausstattung, die laut Produktblatt tatsächlich enthalten ist.
+Die gemeinsame [Werbebotschaft](Glossare/LS_6_6_Glossar.md#werbebotschaft) lautet **„Frühjahrsstart mit Fahrradzubehör von Global Bike“**. Die Aktion läuft in beiden Geschäften von Montag bis Samstag derselben Woche. Global Bike stellt Produktdaten bereit. Preisangaben sind in diesem Auftrag nicht vorgesehen. Als Bildmaterial stehen beschriftete neutrale Produktabbildungen oder eigene Produktzeichnungen zur Verfügung. Zeigt nur Ausstattung, die laut Produktblatt tatsächlich enthalten ist.
 
 #### M2 · Geprüfte Produktblätter des Modellunternehmens
 
@@ -1014,6 +1020,8 @@ Der [Praxistest](Glossare/LS_6_7_Glossar.md#praxistest) beginnt bei Feld B1 im P
 
 > „Schau dir diese Werbung an. Stell dir vor, du gehst jetzt durch den Eingang. Zeig mir, wo du das beworbene Zubehör suchen würdest. Sag Bescheid, wenn du dich entschieden hast. Sag mir danach in eigenen Worten, was dir die Werbung verspricht.“
 
+Mit der letzten Frage prüft ihr die [Verständlichkeit](Glossare/LS_6_7_Glossar.md#verst%C3%A4ndlichkeit) der Werbung.
+
 Zusatz für Paket B vor dem Start: „Sag beim Suchen gern laut, worauf du achtest und was du gerade erwartest.“ Fachgeschäft und Sportfachmarkt erhalten jeweils eine frische Testbeobachtung. Wartet mit der Erläuterung des Entwurfs bis zum Ende der Beobachtung.
 
 #### M4 · Material für den Modelltest
@@ -1021,6 +1029,8 @@ Zusatz für Paket B vor dem Start: „Sag beim Suchen gern laut, worauf du achte
 Zeichnet die Raster aus M1 und M2 auf ein Blatt oder markiert sie mit Klebeband. Beschriftet je eine Karte für Eingang, Warenträger, Beratung, Kasse und gegebenenfalls Fahrradschaufläche. Legt die Warenträger und Artikel gemäß Entwurf. Verwendet eine Figur oder einen Papierpfeil, um den Weg sichtbar zu machen. Für die Überarbeitung reichen zusätzliche Schilder aus Papier und versetzbare Artikelkarten.
 
 #### M5 · Testprotokoll
+
+Haltet die Ergebnisse für jedes Geschäft im [Testprotokoll](Glossare/LS_6_7_Glossar.md#testprotokoll) fest.
 
 | Standort und Testperson (Kürzel) | Gewählter Weg und Fundstelle | Werbebotschaft in eigenen Worten | [Beobachtung](Glossare/LS_6_7_Glossar.md#beobachtung) zum Problem oder gelungenen Punkt | Änderung und Begründung |
 | --- | --- | --- | --- | --- |
@@ -1162,7 +1172,10 @@ Schreibt die Werte aus M2 je Standort und Artikel auf eine Karte. Schreibt für 
 | Fachgeschäft | | | | |
 | Sportfachmarkt | | | | |
 
-Rechenhilfe. Prozentuale Veränderung = (Aktionsabsatz − Vergleichsabsatz) ÷ Vergleichsabsatz × 100.
+**Rechenhilfe**  
+[Prozentuale Absatzveränderung](Glossare/LS_6_8_Glossar.md#prozentuale-absatzver%C3%A4nderung) = (Aktionsabsatz − Vergleichsabsatz) ÷ Vergleichsabsatz × 100.
+
+Haltet je Standort und Bereich eine [begründete Empfehlung](Glossare/LS_6_8_Glossar.md#begr%C3%BCndete-empfehlung) fest.
 
 | Standort | Entscheidung zum Sortiment | Entscheidung zur Platzierung | Entscheidung zur Werbung |
 | --- | --- | --- | --- |
