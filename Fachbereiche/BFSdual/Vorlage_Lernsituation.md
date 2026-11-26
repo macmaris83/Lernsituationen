@@ -115,17 +115,17 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 
 ### Lernpaket wählen
 
-**Wählt** zu Beginn dieser Phase eines der drei Lernpakete. Entscheidet, welche Arbeitsweise euch bei der Aufgabe am meisten hilft.
+**Wählt** einen der drei Arbeitswege. Achtet darauf, welcher euch bei der fachlichen Entscheidung am besten hilft.
 
 **Gemeinsames Fachziel und Handlungsprodukt.** [Benennt die konkrete vorrangige Fachkompetenz der LS. Sagt, welche Entscheidung die Lernenden treffen oder prüfen, welche Belege sie dabei sichern und welches gemeinsame Handlungsprodukt entsteht. Für alle drei Pakete gelten dieselben Aufgabenanforderungen, Fallvorgaben und Bewertungskriterien.]
 
-| Lernpaket | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
-| --- | --- | --- | --- |
-| **A · Visuell · [Tätigkeit]** | [Nennt den Plan, die Grafik oder die Übersicht. Beschreibt, was die Lernenden darin markieren, vergleichen oder entwerfen.] | [Nennt die konkrete Skizze, Zuordnung oder Beobachtung, die ins gemeinsame Ergebnis eingeht.] | [Erklärt, welchen Unterschied oder Zusammenhang ihr mit diesem Zugang leichter erkennen könnt.] |
-| **B · Auditiv · [Tätigkeit]** | [Nennt die Aufnahme oder den Vorlesetext. Beschreibt, was die Lernenden beim Zuhören, Nachfragen oder im Gespräch herausarbeiten und wie sie Angaben absichern.] | [Nennt die konkrete Aussage, Vereinbarung oder Begründung, die die Lernenden schriftlich für das gemeinsame Ergebnis festhalten.] | [Erklärt, welches Interesse, welche Unklarheit oder welche Begründung im Gespräch deutlicher wird.] |
-| **C · Haptisch-handelnd · [Tätigkeit]** | [Nennt die Karten, Gegenstände oder Modelle. Beschreibt, was die Lernenden legen, umbauen oder erproben.] | [Nennt die konkrete Beobachtung oder erprobte Lösung, die die Lernenden für das gemeinsame Ergebnis sichern.] | [Erklärt, welche Anordnung oder Handlungsfolge ihr durch Ausprobieren leichter überprüfen könnt.] |
+| Lernpaket | Lernzugänge | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| --- | --- | --- | --- | --- |
+| **A · [Tätigkeit benennen]** | [Zum Beispiel lesen, skizzieren und vergleichen] | [Nennt den Plan, die Grafik oder die Übersicht. Beschreibt, was die Lernenden darin markieren, vergleichen oder entwerfen.] | [Nennt die konkrete Skizze, Zuordnung oder Beobachtung, die ins gemeinsame Ergebnis eingeht.] | [Erklärt, welchen Unterschied oder Zusammenhang ihr mit diesem Zugang leichter erkennen könnt.] |
+| **B · [Tätigkeit benennen]** | [Zum Beispiel zuhören, nachfragen und aushandeln] | [Nennt die Aufnahme oder den Vorlesetext. Beschreibt, was die Lernenden beim Zuhören, Nachfragen oder im Gespräch herausarbeiten und wie sie Angaben absichern.] | [Nennt die konkrete Aussage, Vereinbarung oder Begründung, die die Lernenden schriftlich für das gemeinsame Ergebnis festhalten.] | [Erklärt, welches Interesse, welche Unklarheit oder welche Begründung im Gespräch deutlicher wird.] |
+| **C · [Tätigkeit benennen]** | [Zum Beispiel legen, umbauen und praktisch erproben] | [Nennt die Karten, Gegenstände oder Modelle. Beschreibt, was die Lernenden legen, umbauen oder erproben.] | [Nennt die konkrete Beobachtung oder erprobte Lösung, die die Lernenden für das gemeinsame Ergebnis sichern.] | [Erklärt, welche Anordnung oder Handlungsfolge ihr durch Ausprobieren leichter überprüfen könnt.] |
 
-[Stimmt die Pakete so ab, dass jedes mit den beigefügten Materialien in der vorgesehenen Zeit bearbeitbar ist. Macht in jeder Zeile sichtbar, wie das Zwischenergebnis zur selben fachlichen Entscheidung beiträgt.]
+[Verwendet in jeder LS dieselbe Reihenfolge und dieselben Spalten. Paket A nutzt vor allem Darstellungen und Vergleiche, Paket B Zuhören und Austausch, Paket C praktisches Erproben. Benennt die Pakete nach der konkreten Tätigkeit. Nennt unter „Lernzugänge“, was die Lernenden auf diesem Weg tatsächlich tun. Gemeinsame Tätigkeiten wie das Lesen von Belegen, das schriftliche Begründen oder das Rechnen stehen beim gemeinsamen Auftrag, wenn sie für alle Wege erforderlich sind. Stellt für jedes Paket die Materialien bereit und plant die Bearbeitung in derselben Unterrichtszeit.]
 
 **Fachbuchverweis.** [Später ergänzen]
 
