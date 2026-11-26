@@ -42,11 +42,12 @@ Am Kiosk neben der Schule wollt ihr in der Pause schnell etwas finden. In einem 
 
 #### Kompetenzprofil und Kompetenznetz
 
-**Vorrangige Fachkompetenz.** Ich vergleiche zwei Standorte anhand von Nachfrage, Verkaufsform und Fläche. Ich leite für jeden Laden begründete Anforderungen an das Sortiment und die Warenpräsentation ab und erkenne, welche Vorgaben zwingend sind.
+**Vorrangige Fachkompetenz · 6 von 6**
+
+Ich vergleiche zwei Standorte anhand von Nachfrage, Verkaufsform und Fläche. Ich leite für jeden Laden begründete Anforderungen an das Sortiment und die Warenpräsentation ab und erkenne, welche Vorgaben zwingend sind.
 
 | Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
 | --- | ---: | --- | --- |
-| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Alle Aufgaben führen zum begründeten Standortvergleich. |
 | Personalkompetenz | **3** | Ich prüfe meine erste Einschätzung anhand von Belegen. | Die erste Einschätzung an Fallbelegen prüfen. |
 | Sozialkompetenz | **3** | Ich höre andere Einschätzungen an und begründe meine Prioritäten im Team. | Prioritäten im Team besprechen. |
 | Methodenkompetenz | **4** | Ich ordne Standortdaten nach einheitlichen Kriterien. | Belege nach einheitlichen Kriterien ordnen und vergleichen. |
@@ -260,11 +261,12 @@ Beim Schulfest habt ihr an zwei Ständen nur begrenzt Platz. Wasser wird an beid
 
 #### Kompetenzprofil und Kompetenznetz
 
-**Vorrangige Fachkompetenz.** Ich wähle für zwei Läden ein gemeinsames Kernsortiment und passende Ergänzungsartikel. Ich begründe die einzelnen Artikel mit Nachfragebelegen und beachte Platz und Lieferbarkeit.
+**Vorrangige Fachkompetenz · 6 von 6**
+
+Ich wähle für zwei Läden ein gemeinsames Kernsortiment und passende Ergänzungsartikel. Ich begründe die einzelnen Artikel mit Nachfragebelegen und beachte Platz und Lieferbarkeit.
 
 | Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
 | --- | ---: | --- | --- |
-| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Eine begründete Auswahl für zwei unterschiedliche Läden entwickeln. |
 | Personalkompetenz | **3** | Ich hinterfrage meine Vorlieben bei der Produktauswahl. | Eigene Vorlieben an Nachfragebelegen überprüfen. |
 | Sozialkompetenz | **4** | Ich bringe meine Argumente ein und handle eine gemeinsame Auswahl aus. | Eine gemeinsame Auswahl mit begründeten Vorschlägen aushandeln. |
 | Methodenkompetenz | **4** | Ich kann eine Artikelliste mit Nachfrage, Platz und Lieferstatus abgleichen. | Nachfrage, Fläche und Lieferdaten beim Vergleich zusammenführen. |
@@ -500,11 +502,12 @@ Wenn ihr Schuhe anprobiert, merkt ihr schnell, ob ihr Platz zum Sitzen habt und 
 
 #### Kompetenzprofil und Kompetenznetz
 
-**Vorrangige Fachkompetenz.** Ich plane eine kleine Beratungsfläche und begründe, welche Artikel ich zusammen präsentiere und wie ich sie gut erreichbar und vorführbar mache.
+**Vorrangige Fachkompetenz · 6 von 6**
+
+Ich plane eine kleine Beratungsfläche und begründe, welche Artikel ich zusammen präsentiere und wie ich sie gut erreichbar und vorführbar mache.
 
 | Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
 | --- | ---: | --- | --- |
-| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Die Benutzbarkeit einer Beratungsfläche aus mehreren Blickwinkeln prüfen. |
 | Personalkompetenz | **3** | Ich passe einen Entwurf an, wenn er im Beratungsablauf Probleme verursacht. | Den Entwurf bei erkannten Problemen ändern. |
 | Sozialkompetenz | **3** | Ich stimme mit anderen ab, welche Wege Kundschaft und Verkaufspersonal brauchen. | Bedürfnisse von Kundschaft und Verkaufspersonal abgleichen. |
 | Methodenkompetenz | **4** | Ich übertrage Maße in eine Skizze oder ein Modell und vergleiche damit zwei Anordnungen. | Zwei Anordnungen anhand von Maßen und Vorführabläufen prüfen. |
@@ -720,11 +723,12 @@ Ihr sucht im Elektronikmarkt ein Ladekabel. Das Schild führt euch zum richtigen
 
 #### Kompetenzprofil und Kompetenznetz
 
-**Vorrangige Fachkompetenz.** Ich gestalte eine Selbstbedienungsfläche und begründe, wie Kundenlauf, Artikelplatzierung und Produktinformationen das selbstständige Finden, Vergleichen und Auswählen erleichtern.
+**Vorrangige Fachkompetenz · 6 von 6**
+
+Ich gestalte eine Selbstbedienungsfläche und begründe, wie Kundenlauf, Artikelplatzierung und Produktinformationen das selbstständige Finden, Vergleichen und Auswählen erleichtern.
 
 | Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
 | --- | ---: | --- | --- |
-| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Die Fläche so gestalten, dass die Kundschaft selbstständig auswählen kann. |
 | Personalkompetenz | **3** | Ich prüfe meinen Entwurf aus der Sicht einer Person, die den Markt wenig kennt. | Den Entwurf aus Sicht der Kundschaft betrachten. |
 | Sozialkompetenz | **3** | Ich nehme Rückmeldungen zur Orientierung auf und begründe meine Änderungen im Team. | Rückmeldungen zur Orientierung aufnehmen. |
 | Methodenkompetenz | **4** | Ich verknüpfe Beobachtungen zum Kundenlauf mit einem Lageplan und Produktdaten. | Kundenlauf, Platzierung und Produktdaten in beiden Entwürfen abgleichen. |
@@ -948,11 +952,12 @@ Ihr kündigt einen Flohmarkt an. Im Gruppenchat steht 14 Uhr, auf dem Aushang 15
 
 #### Kompetenzprofil und Kompetenznetz
 
-**Vorrangige Fachkompetenz.** Ich stimme für zwei Handelspartner ein überprüfbares Werbeziel, passende Werbeträger, verbindliche Termine und die Aufgaben von Groß- und Einzelhandel ab.
+**Vorrangige Fachkompetenz · 6 von 6**
+
+Ich stimme für zwei Handelspartner ein überprüfbares Werbeziel, passende Werbeträger, verbindliche Termine und die Aufgaben von Groß- und Einzelhandel ab.
 
 | Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
 | --- | ---: | --- | --- |
-| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Eine gemeinsame Werbeaktion für mehrere Verantwortliche abstimmen. |
 | Personalkompetenz | **3** | Ich behalte die Fristen im Blick und prüfe meine Zusagen auf Umsetzbarkeit. | Freigaben und Fristen im Blick behalten. |
 | Sozialkompetenz | **4** | Ich höre mir die Interessen der Beteiligten an und suche eine tragfähige Vereinbarung. | Unterschiedliche Interessen zu einer verbindlichen Vereinbarung führen. |
 | Methodenkompetenz | **4** | Ich verknüpfe Ziel, Maßnahmen und Termine in einem gemeinsamen Plan. | Kennzahl, Ziel, Maßnahmen, Fristen und Rollen zusammenführen. |
@@ -1163,11 +1168,12 @@ Beim Scrollen klingt „passt für jedes Gerät“ praktisch. Bevor ihr bestellt
 
 #### Kompetenzprofil und Kompetenznetz
 
-**Vorrangige Fachkompetenz.** Ich übertrage eine gemeinsame Botschaft auf zwei Zielgruppen und Werbeformate und überprüfe meine Produktaussagen mit Produktblättern.
+**Vorrangige Fachkompetenz · 6 von 6**
+
+Ich übertrage eine gemeinsame Botschaft auf zwei Zielgruppen und Werbeformate und überprüfe meine Produktaussagen mit Produktblättern.
 
 | Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
 | --- | ---: | --- | --- |
-| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Werbeaussagen fachlich absichern und an zwei Zielgruppen anpassen. |
 | Personalkompetenz | **3** | Ich plane einen prüfbaren Entwurf vor dem Freigabetermin. | Einen prüfbaren Entwurf rechtzeitig fertigstellen. |
 | Sozialkompetenz | **3** | Ich nutze Rückmeldungen zur Verständlichkeit und begründe meine Textentscheidungen. | Rückmeldung zur Verständlichkeit aufnehmen. |
 | Methodenkompetenz | **4** | Ich gleiche eine Werbeaussage mit einer konkreten Quelle ab. | Werbeaussagen systematisch mit Produktblättern abgleichen. |
@@ -1376,11 +1382,12 @@ Ihr schickt jemandem eine Wegbeschreibung zum Treffpunkt. Für euch ist sie klar
 
 #### Kompetenzprofil und Kompetenznetz
 
-**Vorrangige Fachkompetenz.** Ich prüfe mit Testpersonen, ob die Waren auffindbar sind und die Werbung verstanden wird. Ich leite aus den Beobachtungen begründete Änderungen ab.
+**Vorrangige Fachkompetenz · 6 von 6**
+
+Ich prüfe mit Testpersonen, ob die Waren auffindbar sind und die Werbung verstanden wird. Ich leite aus den Beobachtungen begründete Änderungen ab.
 
 | Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
 | --- | ---: | --- | --- |
-| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Werbung und Warenpräsentation prüfen und begründet verbessern. |
 | Personalkompetenz | **4** | Ich erfasse auch Beobachtungen, die meinen eigenen Erwartungen widersprechen. | Auch unerwartete Ergebnisse in die Überarbeitung einbeziehen. |
 | Sozialkompetenz | **4** | Ich leite einen Test neutral an und höre den Testpersonen zu. | Testpersonen neutral anleiten und ihnen zuhören. |
 | Methodenkompetenz | **5** | Ich unterscheide zwischen beobachtetem Verhalten und meiner Erklärung dafür. | Tests planen, Beobachtungen dokumentieren, auswerten und zur Überarbeitung nutzen. |
@@ -1597,11 +1604,12 @@ Bei einem Schulturnier haben sich diesmal mehr Leute angemeldet. Trotzdem sagen 
 
 #### Kompetenzprofil und Kompetenznetz
 
-**Vorrangige Fachkompetenz.** Ich vergleiche Absatzdaten und Kundenrückmeldungen beider Standorte, beurteile die Zielerreichung und begründe Änderungen für Sortiment, Platzierung und Werbung.
+**Vorrangige Fachkompetenz · 6 von 6**
+
+Ich vergleiche Absatzdaten und Kundenrückmeldungen beider Standorte, beurteile die Zielerreichung und begründe Änderungen für Sortiment, Platzierung und Werbung.
 
 | Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
 | --- | ---: | --- | --- |
-| Fachkompetenz | **6** | Vorrangige Fachkompetenz siehe oben. | Die Zielerreichung beurteilen und eine Folgeaktion begründet empfehlen. |
 | Personalkompetenz | **4** | Ich mache klar, wie sicher meine Empfehlung durch die Daten gestützt wird. | Die Reichweite der eigenen Schlussfolgerung nachvollziehbar machen. |
 | Sozialkompetenz | **3** | Ich gehe auf unterschiedliche Anliegen der Handelspartner ein und begründe eine gemeinsame Entscheidung. | Anliegen beider Handelspartner berücksichtigen. |
 | Methodenkompetenz | **5** | Ich vergleiche Absatzmengen mit der jeweiligen Referenzwoche und prüfe das Ergebnis am Zielwert. | Absatzzahlen und Kundenstimmen zur begründeten Bewertung verknüpfen. |

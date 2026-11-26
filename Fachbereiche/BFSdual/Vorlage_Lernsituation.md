@@ -19,7 +19,11 @@ Diese Vorlage gilt für **alle Lernfelder der BFSdual**. Übernehmt die acht Sta
 
 ### Kompetenzprofil und Kompetenznetz
 
-**Vorrangige Fachkompetenz.** Ich [beschreibe die gemeinsame fachliche Handlung und die Kriterien, die für alle Lernpakete gelten].
+**Vorrangige Fachkompetenz · [1–6] von 6**
+
+Ich [beschreibe die konkrete fachliche Handlung, die ich in dieser LS ausführe, und woran eine gute Ausführung erkennbar ist].
+
+[Wenn die LS mehrere eigenständige fachliche Schwerpunkte hat, nennt sie hier einzeln als konkrete Ich-Formulierungen.]
 
 Die Skala von **1 bis 6** zeigt, wie stark die verbindlichen Aufgaben einer LS jede Kompetenz ansteuern. Wählt die Werte anhand der Aufgaben und des Handlungsprodukts. Sie gelten für alle drei Lernpakete.
 
@@ -34,7 +38,6 @@ Die Skala von **1 bis 6** zeigt, wie stark die verbindlichen Aufgaben einer LS j
 
 | Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
 | --- | ---: | --- | --- |
-| Fachkompetenz | [1–6] | Ich [beschreibe die fachliche Handlung]. | [Konkrete Aufgabe oder Ergebnismerkmal] |
 | Personalkompetenz | [1–6] | Ich [plane, prüfe oder begründe mein Vorgehen]. | [Beobachtbare Handlung] |
 | Sozialkompetenz | [1–6] | Ich [stimme mich ab, höre zu oder nutze Rückmeldungen]. | [Beobachtbare Handlung] |
 | Methodenkompetenz | [1–6] | Ich [erschließe, vergleiche oder strukturiere Informationen]. | [Beobachtbare Handlung] |
@@ -178,7 +181,7 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 - **Gleichwertige Zugänge.** A, B und C haben dieselbe Fachkompetenz, dieselbe fachliche Datengrundlage, dasselbe Handlungsprodukt, dieselben Bewertungskriterien und denselben Zeitrahmen. Die Pakete verändern die Arbeitsweise. Alle erhalten Zugriff auf genaue Zahlen, Maße und fachliche Belege. Sprachfassungen und Modelle enthalten die Informationen, die zur Bearbeitung tatsächlich nötig sind.
 - **Eigenständiger Fall.** Jede Lernsituation enthält eine vollständige Ausgangslage, eigene erreichbare Materialien, eine fachliche Entscheidung und ein abschließendes Handlungsprodukt. Ergebnisse innerhalb der LS werden weiterverwendet. Der Start einer anderen LS erfolgt mit den dort bereitgestellten Fallunterlagen.
 - **Aufträge.** Verwendet pro Phase klare, gebündelte Aufgaben mit fett gesetzten Operatoren. Benennt die nötigen Arbeitsformen und Materialien dort, wo sie gebraucht werden. Setzt den Platzhalter für den Fachbuchverweis direkt unter den jeweiligen Arbeitsauftrag.
-- **Kompetenznetz im SCORM-Paket.** Übernehmt in der Orientierung fünf Achsen in Tabellenreihenfolge. Beschriftet die sechs Skalenringe von **1 innen bis 6 außen** und zeigt die fünf Werte auch als Text. Übertragt die Tabellenwerte je LS in `competencies[].weight`. Die separate Selbsteinschätzung in Reflektieren folgt der SCORM-Skala **1–4** vom Arbeiten mit enger Hilfe bis zur selbstständigen, begründeten Anwendung im Transfer und kann mit einem Arbeitsbeleg ergänzt werden.
+- **Kompetenznetz im SCORM-Paket.** Verwendet den Wert aus dem Block „Vorrangige Fachkompetenz“ für die erste Achse. Die vier weiteren Achsen folgen der Tabellenreihenfolge. Beschriftet die sechs Skalenringe von **1 innen bis 6 außen** und zeigt die fünf Werte auch als Text. Übertragt die fünf Werte je LS in `competencies[].weight`. Die separate Selbsteinschätzung in Reflektieren folgt der SCORM-Skala **1–4** vom Arbeiten mit enger Hilfe bis zur selbstständigen, begründeten Anwendung im Transfer und kann mit einem Arbeitsbeleg ergänzt werden.
 - **Fachbegriffscheck im SCORM-Paket.** Verlinkt nach Informieren **„Begriffe prüfen“** auf `begriffstraining.html`. Übernehmt je LS alle 10 bis 20 Karten mit stabiler ID, Definition, Antwortalternativen und Rückmeldung. Prüft die Kartenzahl vor dem Export und hinterlegt den Check in der Navigation, den Fortschrittsdaten und dem Paketmanifest. Die Auswertung öffnet den Weg zu Planen und zeigt gezielte Nacharbeit zu unsicheren Begriffen an. Der Kurzcheck zur Handlungssituation bleibt ein eigener Schritt.
 - **LS-Glossar im SCORM-Paket.** Nehmt die eigene Seite `ls-glossar.html` in das Paketmanifest auf und blendet sie aus Phasenübersicht und Materialmenü aus. Übertragt die Links an den Fachbegriffen in die jeweiligen Materialseiten und verwendet die passende Sprungmarke, etwa `ls-glossar.html#absatzmenge`. Der Link steht bereit, sobald das betreffende Material zugänglich ist. Beim Öffnen zeigt die Seite den ausgewählten Begriff. **„Zurück zum Material“** führt zur verlinkten Stelle zurück. Die Nutzung ist freiwillig und kann unabhängig vom Fachbegriffscheck erfolgen.
 - **Paketansicht bei einer digitalen Umsetzung.** Zeigt in Entscheiden drei gleich gestaltete Wahlkarten mit Zugang, Tätigkeit und Ergebnis. Bis einschließlich Planen funktionieren Navigation, Materialzugriff und Wiederaufnahme bei offener Paketwahl. Für Durchführen ist eine Auswahl erforderlich. Speichert Aufgabenstand, Fachbegriffscheck und Auswahl je LS und prüft die Wiederaufnahme vor und nach der Wahl. Der Abschluss berücksichtigt die gemeinsamen Aufgaben und den gewählten Lernweg.
