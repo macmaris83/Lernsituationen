@@ -2,10 +2,12 @@
 
 Hier könnt ihr Begriffe aus **[Titel der Lernsituation]** nachschlagen.
 
-| Fachbegriff | Kurz erklärt | Beispiel aus dieser Lernsituation |
-| --- | --- | --- |
-| [Begriff] | [In einem kurzen Satz erklären.] | [Am Fall zeigen, wie man den Begriff verwendet. Bei Bedarf die M-Nummer angeben.] |
+## [Fachbegriff]
+
+[Den Begriff in einem kurzen Satz erklären.]
+
+**Beispiel.** [Am Fall zeigen, wie man den Begriff verwendet. Bei Bedarf die M-Nummer angeben.]
 
 ---
 
-**Für die Redaktion.** Alle Begriffe alphabetisch anordnen. Kurze Beispiele helfen beim Nachschlagen, während die Lernenden ihre fachliche Entscheidung selbst treffen. Im SCORM-Paket führt von hier ein Link zur vorherigen Ansicht zurück. Die [LS-Vorlage](Vorlage_Lernsituation.md) beschreibt, wann der Glossarlink sichtbar wird.
+**Für die Redaktion.** Ordnet die Fachbegriffe alphabetisch an. Gebt jedem Begriff eine eigene Überschrift und verlinkt sie direkt im passenden Material. Übernehmt für HTML die Sprungmarke der jeweiligen Überschrift als Abschnitts-ID. Im SCORM-Paket führt „Zurück zum Material“ an die verlinkte Stelle zurück. Die [LS-Vorlage](Vorlage_Lernsituation.md) enthält ein Linkbeispiel.

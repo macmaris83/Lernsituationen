@@ -4,4 +4,4 @@ Verwende für jede neue oder überarbeitete BFSdual-Lernsituation die gemeinsame
 
 Die drei gleichwertigen Lernpakete werden zu Beginn von **Entscheiden** gewählt. Die vorangehenden Stationen arbeiten mit gemeinsamen Fallunterlagen. Jede Lernsituation hat einen vollständigen eigenen Fall und ein abschließendes Handlungsprodukt.
 
-Jede LS erhält ein eigenes Glossar. Der Link erscheint im SCORM-Paket erstmals nach dem Fachbegriffscheck und ab „Planen“. Die Umsetzung folgt der gemeinsamen LS-Vorlage.
+Jede LS erhält ein eigenes Glossar. Ausgewählte Fachbegriffe in den Materialien führen direkt zur jeweiligen Erklärung. Der Glossarlink ist mit dem jeweiligen Material zugänglich. Die Umsetzung folgt der gemeinsamen LS-Vorlage.
