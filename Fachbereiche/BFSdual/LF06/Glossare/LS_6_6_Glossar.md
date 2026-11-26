@@ -10,7 +10,7 @@ Ein Abgleich, bei dem ihr eine Werbeaussage mit ihrer Quelle vergleicht und sie 
 
 ## Belegbare Produktaussage
 
-Eine Aussage zur Eigenschaft, Eignung oder Ausstattung, die durch eine überprüfbare Produktangabe gedeckt ist.
+Eine Aussage zu Eigenschaften, Eignung oder Ausstattung eines Artikels, die mit einer überprüften Produktinformation übereinstimmt.
 
 **Beispiel.** Die Angabe „Höchstdruck 6 bar“ zur P50 steht im Produktblatt und lässt sich prüfen (M2).
 
@@ -22,7 +22,7 @@ Die Zeile einer E-Mail, die im Posteingang ankündigt, worum es in der Nachricht
 
 ## Blickfang
 
-Ein Element, das bei einem Werbemittel zuerst ins Auge fällt.
+Ein auffälliges Element eines Werbemittels, etwa eine Überschrift oder ein Bild, das zuerst Aufmerksamkeit weckt.
 
 **Beispiel.** Die gut sichtbare Überschrift kann am Markteingang auf die Aktion aufmerksam machen (M1, M5).
 
@@ -52,13 +52,13 @@ Der Kerngedanke, den die Zielgruppe aus der Werbung mitnehmen soll.
 
 ## Werbemittel
 
-Die konkret gestaltete Werbung mit Text, Bild oder Ton.
+Die konkret gestaltete Form, in der eine Werbebotschaft vermittelt wird, etwa ein Newsletter-Ausschnitt oder ein Schild.
 
 **Beispiel.** Der fertige Newsletter-Ausschnitt ist das Werbemittel für das Fahrradfachgeschäft (M1).
 
 ## Zielgruppe
 
-Die Personen, für deren Interessen und Situation ein Werbemittel gestaltet wird.
+Die Menschen, die ein Werbemittel erreichen soll und auf deren Bedürfnisse und Interessen es abgestimmt ist.
 
 **Beispiel.** Der Newsletter richtet sich an Alltagsradelnde, die Zubehör am eigenen Fahrrad ausprobieren möchten (M1, M4).
 

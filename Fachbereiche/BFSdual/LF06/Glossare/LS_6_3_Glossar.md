@@ -28,13 +28,13 @@ Der zentrale freie Weg, auf dem sich die Kundschaft im Laden bewegt.
 
 ## Muster
 
-Ein Exemplar eines Artikels, das die Kundschaft ansehen, anfassen oder ausprobieren kann.
+Ein bereitgestelltes Exemplar eines Artikels, an dem die Kundschaft Eigenschaften prüfen oder die Nutzung ausprobieren kann.
 
 **Beispiel.** Die Kundschaft darf das Muster des Sattelüberzugs anfassen und am Vorführrad ausprobieren (M3).
 
 ## Regalzone
 
-Ein Teil des Regals, der durch seine Höhe bestimmt ist.
+Ein Höhenbereich eines Regals, in dem Ware unterschiedlich gut zu sehen oder zu greifen ist.
 
 **Beispiel.** Für das schwere Bügelschloss ist die untere Regalzone vorgesehen (M3).
 
@@ -52,13 +52,13 @@ Der freie Bereich, in dem die Anwendung eines Artikels gezeigt oder erprobt wird
 
 ## Warenplatz
 
-Die vorgesehene Stelle, an der ein bestimmter Artikel zum Verkauf angeboten wird.
+Die festgelegte Stelle im Verkaufsraum oder im Regal, an der Kundinnen und Kunden einen bestimmten Artikel finden.
 
 **Beispiel.** Das Musterlicht ist beim Vorführen griffbereit. Die verpackten Lichtsets stehen am vorgesehenen Warenplatz (M3).
 
 ## Warenträger
 
-Ein Regal, Tisch oder anderes Element, auf oder an dem Artikel präsentiert werden.
+Ein Einrichtungsstück wie ein Regal oder ein Tisch, auf dem Ware angeboten wird.
 
 **Beispiel.** Die Rollregale und der Tisch dienen zur Präsentation der Ware (M2).
 

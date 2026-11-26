@@ -10,7 +10,7 @@ Der Zeitpunkt, an dem ein Werbemittel veröffentlicht, verteilt oder aufgestellt
 
 ## Erfolgskontrolle
 
-Die Prüfung nach der Aktion, ob das vereinbarte Ziel anhand der erhobenen Daten erreicht wurde.
+Ein Vergleich der gemessenen Ergebnisse einer Werbeaktion mit dem zuvor festgelegten Ziel.
 
 **Beispiel.** Beide Geschäfte können ihren Aktionsabsatz melden und mit dem jeweiligen Ausgangswert vergleichen (M2, M5).
 
@@ -40,13 +40,13 @@ Eine frühere Woche mit vergleichbaren Bedingungen, deren Werte als Ausgangspunk
 
 ## Werbeplan
 
-Eine Übersicht über Ziel, Werbeträger, Termine und Zuständigkeiten einer Aktion.
+Eine Übersicht, die Werbeziel, Werbemittel und Verbreitung, Einsatztermine und Zuständigkeiten festlegt.
 
 **Beispiel.** Beim Newsletter hält der Plan fest, wer ihn vorbereitet und bis wann die Ladenleitung ihn freigeben muss (M3).
 
 ## Werbeträger
 
-Ein Medium oder Werbeplatz, über den die Werbebotschaft die Zielgruppe erreicht.
+Ein Kanal, ein Medium oder ein Werbeplatz, über den das Werbemittel die angesprochenen Menschen erreicht.
 
 **Beispiel.** Newsletter und Aufsteller sind zwei Möglichkeiten, die Werbebotschaft zu verbreiten (M3).
 
@@ -58,7 +58,7 @@ Eine Vereinbarung darüber, wer einen bestimmten Arbeitsschritt übernimmt.
 
 ## Überprüfbares Werbeziel
 
-Ein Ziel, das Kennzahl, Zielwert und Zeitraum so festlegt, dass die Beteiligten die Zielerreichung prüfen können.
+Ein angestrebtes Ergebnis der Werbung mit einer messbaren Größe, einem Zielwert und einem festgelegten Zeitraum.
 
 **Beispiel.** Ein mögliches Ziel nennt für die Aktionswoche einen messbaren Absatzanstieg gegenüber der Vergleichswoche (M2).
 

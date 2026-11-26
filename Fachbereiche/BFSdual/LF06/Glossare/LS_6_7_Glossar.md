@@ -4,7 +4,7 @@ Hier könnt ihr Begriffe aus **Die Entwürfe vor der Freigabe prüfen** nachschl
 
 ## Auffindbarkeit
 
-Wie leicht eine Person das gesuchte Produkt am gegebenen Startpunkt finden kann.
+Wie leicht die Kundschaft das gesuchte Produkt mithilfe der Wege und Hinweise auf der Fläche findet.
 
 **Beispiel.** Beim Test zeigt der gewählte Weg, ob eine Person die Minipumpe findet (M2, M5).
 
@@ -28,19 +28,19 @@ Eine Aufgabenbeschreibung, die Ziel und Start klärt und den Weg der Testperson 
 
 ## Praxistest
 
-Eine Erprobung, bei der jemand eine typische Aufgabe aus der Situation ausführt.
+Eine Probe vor der Freigabe, bei der eine Testperson eine typische Aufgabe aus Sicht der Kundschaft ausführt.
 
 **Beispiel.** Eine Testperson sieht das Schild und versucht, vom Eingang aus die Minipumpe zu finden (M2, M3).
 
 ## Testprotokoll
 
-Eine Übersicht über den Ablauf, die Beobachtungen und mögliche Folgerungen aus einem Test.
+Eine Übersicht, die den Ablauf der Probe, das beobachtete Verhalten und die daraus abgeleiteten Änderungen festhält.
 
 **Beispiel.** Das Team hält im Protokoll den gewählten Weg und die von der Testperson genannte Werbebotschaft fest (M5).
 
 ## Verständlichkeit
 
-Wie gut eine Person den gemeinten Inhalt einer Information erfasst.
+Wie klar die Kundschaft erfasst, welches Angebot und welche Handlung die Werbung vermittelt.
 
 **Beispiel.** Die Person sagt in eigenen Worten, was der Newsletter anbietet (M1, M3).
 

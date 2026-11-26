@@ -10,7 +10,7 @@ Der freie Bereich vor einer Warenseite, in dem die Kundschaft Artikel ansehen un
 
 ## Gondel
 
-Ein frei stehendes Verkaufsregal, das im Fall von beiden Längsseiten bestückt und genutzt wird.
+Ein freistehendes Verkaufsregal, das der Markt hier von beiden Längsseiten mit Ware bestückt.
 
 **Beispiel.** Die beiden Gondeln bieten auf ihren beiden Längsseiten Platz für Waren und Vergleichskarten (M1).
 
@@ -22,7 +22,7 @@ Die Eigenschaft, dass zwei Dinge zusammenpassen und sich gemeinsam wie vorgesehe
 
 ## Kundenlauf
 
-Die Wege, die Kundinnen und Kunden im Laden typischerweise nehmen.
+Der typische Weg der Kundschaft durch den Verkaufsraum, etwa vom Eingang zu den Warengruppen.
 
 **Beispiel.** Viele Kundinnen und Kunden gehen vom Zugang zuerst Richtung Fahrradabteilung (M1, M2).
 
@@ -34,7 +34,7 @@ Eine Anzeige, mit der sich der Druck ablesen lässt.
 
 ## Orientierungsschild
 
-Ein Hinweis, der den Weg zu einem Bereich oder zu einer Warengruppe zeigt.
+Ein sichtbarer Hinweis, der im Verkaufsraum den Weg zu einer Abteilung, Aktionsfläche oder Warengruppe weist.
 
 **Beispiel.** Ein Schild mit der Aufschrift „Fahrradzubehör“ weist auf die Aktionsfläche hin (M1, M5).
 
@@ -46,7 +46,7 @@ Eine Stelle am Fahrradrahmen mit einem Gewinde, in das sich eine passende Schrau
 
 ## Selbstbedienung
 
-Die Kundschaft findet, vergleicht und entnimmt Artikel weitgehend selbst.
+Eine Verkaufsform, bei der die Kundschaft die Ware weitgehend eigenständig findet, auswählt und vom Warenplatz nimmt.
 
 **Beispiel.** Eine Kundin liest die Ventilangaben auf der Produktkarte und wählt selbst eine Pumpe (M2, M3).
 

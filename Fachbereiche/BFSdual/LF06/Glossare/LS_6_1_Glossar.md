@@ -28,19 +28,19 @@ Das feste Verhältnis zwischen einer Länge im Plan und der entsprechenden Läng
 
 ## Nachfragebeleg
 
-Eine Angabe aus Kundenanfragen oder Rückmeldungen, die ein konkretes Bedürfnis zeigt.
+Eine dokumentierte Anfrage oder Rückmeldung, die zeigt, welche Ware oder Lösung die Kundschaft am Standort sucht.
 
 **Beispiel.** Im Fachgeschäft beziehen sich neun Anfragen auf Sichtbarkeit auf dem Arbeitsweg (M1).
 
 ## Standortprofil
 
-Eine Übersicht über Kundschaft, Verkaufsform und räumliche Bedingungen eines Geschäfts.
+Eine Übersicht über Merkmale eines Geschäfts, die sein Angebot und seinen Verkauf beeinflussen. In diesem Fall gehören Kundschaft, Verkaufsform und Fläche dazu.
 
 **Beispiel.** Das Profil des Fachgeschäfts nennt die persönliche Beratung und den freien Werkstattzugang (M1, M3).
 
 ## Verkaufsform
 
-Die Art, wie die Kundschaft die Ware auswählt und welche Beratung sie dabei erhält.
+Die Art, wie die Kundschaft Ware auswählt und erhält und welche Rolle das Verkaufspersonal dabei übernimmt.
 
 **Beispiel.** Im Fachgeschäft wird persönlich beraten. Im Sportfachmarkt wählt die Kundschaft hauptsächlich selbst (M1, M2).
 

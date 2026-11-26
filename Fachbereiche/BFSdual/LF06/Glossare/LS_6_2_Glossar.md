@@ -22,7 +22,7 @@ Eine Sammlung von Notizen zu Beratungsgesprächen und Kundenanliegen eines Gesch
 
 ## Kernsortiment
 
-Die zentralen Artikel, die bei dieser gemeinsamen Aktion beide Läden anbieten.
+Die zentralen Waren eines Angebots, die Kundinnen und Kunden dort erwarten. Bei der gemeinsamen Aktion sind das die vier Artikel, die beide Läden anbieten.
 
 **Beispiel.** Die vier gemeinsamen Artikel der Aktion gehören in beiden Läden zum Kern (M3).
 
@@ -34,7 +34,7 @@ Die Möglichkeit, den Artikel rechtzeitig für den geplanten Zeitraum zu erhalte
 
 ## Lokale Sortimentsergänzung
 
-Ein zusätzlicher Artikel, den ein Laden aufgrund der Nachfrage vor Ort anbietet.
+Ein zusätzlicher Artikel neben dem gemeinsamen Kern, der einen Bedarf an einem bestimmten Standort aufgreift.
 
 **Beispiel.** Ein Sattelüberzug kann eine Ergänzung sein, wenn im jeweiligen Laden häufig nach Regenschutz für den Sattel gefragt wird (M1, M2).
 
@@ -52,13 +52,13 @@ Der Raum oder die Zahl der Plätze, die ein Artikel auf der Fläche beansprucht.
 
 ## Sortimentsbreite
 
-Die Zahl unterschiedlicher Warengruppen, die ein Laden anbietet.
+Die Anzahl der verschiedenen Warengruppen im Angebot eines Geschäfts.
 
 **Beispiel.** Beleuchtung, Schlösser und Taschen sind drei verschiedene Warengruppen im Katalog (M2).
 
 ## Sortimentslücke
 
-Ein Bedarf der Kundschaft, für den der Laden keinen passenden Artikel anbietet.
+Ein Bedarf, den Kundinnen und Kunden äußern und für den das Angebot des Geschäfts keinen passenden Artikel enthält.
 
 **Beispiel.** Wenn viele nach Regenschutz für den Sattel fragen und kein passender Artikel im Angebot ist, kann dort eine Lücke liegen (M1, M2).
 

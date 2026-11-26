@@ -87,13 +87,17 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 
 **Erstellt** [gemeinsames Handlungsprodukt] für [Adressatin oder Adressat]. Nutzt das gewählte Lernpaket und sichert die fachliche Entscheidung mit [Dokumentationsform].
 
-## Überprüfen
+## Bewerten
 
-**Prüft** [Handlungsprodukt] an den gemeinsamen Kriterien und holt bei Bedarf gezielt Rückmeldung ein. Überarbeitet eine begründete Stelle oder haltet fest, woran ihr erkennt, dass euer Ergebnis die Kriterien erfüllt.
+**Prüft** [Handlungsprodukt] an den gemeinsamen Kriterien. Überarbeitet eine Stelle, falls der eigene Check einen konkreten Verbesserungsbedarf zeigt.
+
+**Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_URL}}). Reicht euer Handlungsprodukt mit einem neutralen Titel und Dateinamen ein und entfernt Namen aus dem Dokument und den Dateieigenschaften. Moodle teilt euch zufällig eine Arbeit zur Bewertung zu. Beurteilt sie anhand von [fachliche Kriterien] und nennt eine gelungene Stelle sowie einen konkreten Verbesserungsvorschlag. Die Person, deren Arbeit ihr bewertet, sieht euren Klarnamen bei eurer Rückmeldung. Die zugeteilte Arbeit wird euch anonym angezeigt.
 
 ## Reflektieren
 
 **Erklärt** einzeln, welcher Beleg eure Entscheidung besonders beeinflusst hat. Haltet fest, was ihr bei einer ähnlichen beruflichen Situation wieder so machen oder ändern würdet.
+
+**Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_URL}}) aus.
 
 ## Handlungsprodukt und Kriterien
 
@@ -125,5 +129,19 @@ Fügt die Unterlagen direkt in die LS ein oder verlinkt die zugehörigen Dateien
 - **Fachbegriffscheck im SCORM-Paket.** Verlinkt nach Informieren **„Begriffe prüfen“** auf `begriffstraining.html`. Übernehmt je LS alle 10 bis 20 Karten mit stabiler ID, Definition, Antwortalternativen und Rückmeldung. Prüft die Kartenzahl vor dem Export und hinterlegt den Check in der Navigation, den Fortschrittsdaten und dem Paketmanifest. Die Auswertung öffnet den Weg zu Planen und zeigt gezielte Nacharbeit zu unsicheren Begriffen an. Der Kurzcheck zur Handlungssituation bleibt ein eigener Schritt.
 - **LS-Glossar im SCORM-Paket.** Nehmt die eigene Seite `ls-glossar.html` in das Paketmanifest auf und blendet sie aus Phasenübersicht und Materialmenü aus. Übertragt die Links an den Fachbegriffen in die jeweiligen Materialseiten und verwendet die passende Sprungmarke, etwa `ls-glossar.html#absatzmenge`. Der Link steht bereit, sobald das betreffende Material zugänglich ist. Beim Öffnen zeigt die Seite den ausgewählten Begriff. **„Zurück zum Material“** führt zur verlinkten Stelle zurück. Die Nutzung ist freiwillig und kann unabhängig vom Fachbegriffscheck erfolgen.
 - **Paketansicht bei einer digitalen Umsetzung.** Zeigt in Entscheiden drei gleich gestaltete Wahlkarten mit Zugang, Tätigkeit und Ergebnis. Bis einschließlich Planen funktionieren Navigation, Materialzugriff und Wiederaufnahme bei offener Paketwahl. Für Durchführen ist eine Auswahl erforderlich. Speichert Aufgabenstand, Fachbegriffscheck und Auswahl je LS und prüft die Wiederaufnahme vor und nach der Wahl. Der Abschluss berücksichtigt die gemeinsamen Aufgaben und den gewählten Lernweg.
+
+## Moodle-Einrichtung für die Lehrkraft
+
+1. Legt je LS eine **Gegenseitige Beurteilung** mit dem Namen **Peer-Feedback** an. Übernehmt die gemeinsamen fachlichen Kriterien der LS in den Bewertungsbogen. Die Einreichenden verwenden neutrale Abgabetitel und Dateinamen sowie Dateien ohne Namen oder identifizierende Dateieigenschaften.
+2. Wählt nach der Einreichung **Einreichungen zuordnen → Zufällige Zuordnung**. Setzt als Ausgangspunkt einen Beurteilungsauftrag **pro Einreichung**, deaktiviert die Selbstbeurteilung und prüft die Zuteilungen. Schließt die Aktivität nach der Auswertung, damit die Einreichenden ihre Rückmeldungen einsehen können. [MoodleDocs zur gegenseitigen Beurteilung](https://docs.moodle.org/401/de/Gegenseitige_Beurteilung_nutzen)
+3. Setzt in den **Rechten der Aktivität** für **Teilnehmer/in** die beiden Berechtigungen wie unten angegeben. Prüft mit Teilnehmendenrechten die Ansicht der zugeteilten Einreichung und die Ansicht des empfangenen Peer-Feedbacks. Verwendet in der Aktivität die zugeteilten, anonym dargestellten Arbeiten.
+4. Legt für den Abschluss eine Moodle-Aktivität vom Typ **Feedback** an. Ersetzt `{{MOODLE_PEER_FEEDBACK_URL}}` und `{{MOODLE_FEEDBACK_URL}}` durch die tatsächlichen Direktlinks der jeweiligen LS. Der Feedback-Link bildet die **letzte Aufgabe in „Reflektieren“**. [MoodleDocs zur Feedback-Aktivität](https://docs.moodle.org/401/en/Feedback_activity)
+
+| Berechtigung für Teilnehmer/in | Einstellung | Anzeige für Lernende |
+| --- | --- | --- |
+| `mod/workshop:viewauthornames` | **Verhindern** | Zugewiesene Einreichung ohne Autorennamen. |
+| `mod/workshop:viewreviewernames` | **Erlauben** | Klarname der beurteilenden Person beim erhaltenen Peer-Feedback. |
+
+[MoodleDocs zu Autorennamen](https://docs.moodle.org/401/en/Capabilities/mod/workshop:viewauthornames) · [MoodleDocs zu Beurteilernamen](https://docs.moodle.org/401/en/Capabilities/mod/workshop:viewreviewernames)
 
 [Ausgearbeitetes Reihenbeispiel für LF 06](LF06/BFSdual_LF06_Vorlagenset.md) · [Technisches Referenzbeispiel für den Fachbegriffscheck](../Geschichte/IdentitaetUndNation/Lernpaket/begriffstraining.html)
