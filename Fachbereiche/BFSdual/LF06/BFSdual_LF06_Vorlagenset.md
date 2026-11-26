@@ -34,9 +34,9 @@ Die acht Fälle sind ausgearbeitete Beispiele zur [gemeinsamen Vorlage für alle
 
 ### Orientierung
 
-#### Darum ist das Thema relevant
+#### Warum wir das lernen
 
-Welche Waren an einem Standort gefragt sind und wie man sie am besten zeigt, hängt von der Kundschaft, der Verkaufsform und der verfügbaren Fläche ab. Wer diese Bedingungen vergleicht, kann eine gemeinsame Aktion für zwei unterschiedliche Läden vorbereiten.
+Am Kiosk neben der Schule wollt ihr in der Pause schnell etwas finden. In einem Laden auf dem Weg zum Badesee suchen viele eher nach Dingen für einen ganzen Nachmittag. Wenn ihr im Praktikum eine Aktion mitplant, könnt ihr solche Unterschiede gezielt beobachten und begründen, welches Angebot und welche Präsentation zum jeweiligen Standort passen.
 
 #### Vorrangige Kompetenz dieser Lernsituation
 
@@ -151,9 +151,9 @@ Zeichnet bei Bedarf im Maßstab 1:20. Im Plan entsprechen beispielsweise 20 cm i
 
 ### Orientierung
 
-#### Darum ist das Thema relevant
+#### Warum wir das lernen
 
-Ein gemeinsames Sortiment lässt sich gut als eine Aktion ankündigen. Ergänzungen helfen, auf Unterschiede zwischen den Läden einzugehen. Fläche und Lieferbarkeit begrenzen, welche Artikel tatsächlich aufgenommen werden können.
+Beim Schulfest habt ihr an zwei Ständen nur begrenzt Platz. Wasser wird an beiden gebraucht, am Sportplatz fragen viele auch nach etwas, das sie unterwegs essen können. Wenn ihr gemeinsame Wünsche und Besonderheiten vor Ort auseinanderhaltet, könnt ihr gezielter einkaufen. Nach demselben Prinzip stellt ihr im Fall ein passendes Angebot für zwei Läden zusammen.
 
 #### Vorrangige Kompetenz dieser Lernsituation
 
@@ -291,9 +291,9 @@ Die Zahlen geben registrierte Nennungen im Beratungstagebuch an. Eine Person kon
 
 ### Orientierung
 
-#### Darum ist das Thema relevant
+#### Warum wir das lernen
 
-Im Fahrradfachgeschäft möchte die Kundschaft sehen, ob ein Zubehörteil am eigenen Rad funktioniert. Auf kleiner Fläche entscheiden Warenträger, Artikelanordnung und verfügbare Bewegungsfläche darüber, ob eine Beratung im laufenden Betrieb praktikabel ist.
+Wenn ihr Schuhe anprobiert, merkt ihr schnell, ob ihr Platz zum Sitzen habt und ob sich ein zweites Paar gut dazuholen lässt. Auch bei Fahrradzubehör hilft das Ausprobieren, um zu sehen, ob ein Teil zum Rad passt. Hier lernt ihr, eine kleine Verkaufsfläche so zu planen, dass ihr im Praktikum Produkte zeigen und gleichzeitig Platz für andere Kundinnen und Kunden lassen könnt.
 
 #### Vorrangige Kompetenz dieser Lernsituation
 
@@ -415,9 +415,9 @@ Der abgebildete Verkaufsbereich ist 4,80 m breit und 4,00 m tief. Der Nullpunkt 
 
 ### Orientierung
 
-#### Darum ist das Thema relevant
+#### Warum wir das lernen
 
-Im Selbstbedienungsmarkt müssen die Kundinnen und Kunden selbst an der richtigen Stelle ankommen, passende Varianten erkennen und eine Kaufentscheidung treffen. Die Anordnung der Ware, die Wege und die Informationen am Regal helfen ihnen dabei.
+Ihr sucht im Elektronikmarkt ein Ladekabel. Das Schild führt euch zum richtigen Regal, aber welche der ähnlich aussehenden Packungen passt zu eurem Gerät? Ihr lernt, woran ihr euch beim selbstständigen Einkaufen orientieren könnt und wie ihr im Praktikum Waren so anordnet und beschriftet, dass andere diese Entscheidung selbst treffen können.
 
 #### Vorrangige Kompetenz dieser Lernsituation
 
@@ -543,9 +543,9 @@ Verfügbar sind zwei frei drehbare Gondeln von je 1,60 m × 0,60 m mit Artikeln 
 
 ### Orientierung
 
-#### Darum ist das Thema relevant
+#### Warum wir das lernen
 
-Wenn Großhandel und Geschäfte dieselbe Aktion bewerben, müssen sie ihre Termine, Werbemittel und Zuständigkeiten abstimmen. Eine verspätete Freigabe kann einen bereits reservierten Werbeplatz kosten.
+Ihr kündigt einen Flohmarkt an. Im Gruppenchat steht 14 Uhr, auf dem Aushang 15 Uhr. Wer das Plakat gesehen hat, kommt womöglich zu spät. Hier übt ihr, eine Aktion gemeinsam abzusprechen, die passenden Kanäle zu wählen und festzulegen, wer welche Information wann veröffentlicht. Das hilft euch bei eigenen Veranstaltungen und bei Aktionen im Praktikum.
 
 #### Vorrangige Kompetenz dieser Lernsituation
 
@@ -662,9 +662,9 @@ Schreibt für jede Standort-Zeitachse die Tage der Vorbereitungswoche, die Tage 
 
 ### Orientierung
 
-#### Darum ist das Thema relevant
+#### Warum wir das lernen
 
-Ein Newsletter kann zu einem Beratungsgespräch einladen. Ein Schild am Eingang muss beim Vorbeigehen verständlich sein. Beide können dieselbe Aktion bewerben, solange sie zutreffend erklären, was die Kundschaft vor Ort erwartet.
+Beim Scrollen klingt „passt für jedes Gerät“ praktisch. Bevor ihr bestellt, könnt ihr prüfen, ob die Produktdaten das Versprechen tatsächlich stützen. Hier nutzt ihr dieselbe Fähigkeit beim Erstellen von Werbung. Ihr entscheidet, welche Informationen die jeweilige Zielgruppe braucht und wie ihr sie auf dem Handy oder auf einem Schild verständlich zeigt.
 
 #### Vorrangige Kompetenz dieser Lernsituation
 
@@ -779,9 +779,9 @@ Zeichnet einen Handyrahmen, der auf ein Blatt A5 passt, und daneben den Umriss e
 
 ### Orientierung
 
-#### Darum ist das Thema relevant
+#### Warum wir das lernen
 
-Kurz vor einer Verkaufsaktion lassen sich ein missverständliches Schild oder eine schwer auffindbare Ware noch mit wenig Aufwand korrigieren. Ein Test mit anderen Personen zeigt, an welchen Stellen der Entwurf im Ladenalltag Fragen auslöst.
+Ihr schickt jemandem eine Wegbeschreibung zum Treffpunkt. Für euch ist sie klar, die andere Person wartet am falschen Eingang. Wenn ihr beobachtet, wo jemand abbiegt oder nachfragt, könnt ihr genau diese Stelle verbessern. Das übt ihr hier mit Werbung und einer Verkaufsfläche und könnt es auch für eure nächsten Aushänge oder Wegbeschreibungen nutzen.
 
 #### Vorrangige Kompetenz dieser Lernsituation
 
@@ -896,9 +896,9 @@ Zeichnet die Raster aus M1 und M2 auf ein Blatt oder markiert sie mit Klebeband.
 
 ### Orientierung
 
-#### Darum ist das Thema relevant
+#### Warum wir das lernen
 
-Geschäfte entscheiden nach einer Aktion, welche Artikel und Maßnahmen sich für eine Wiederholung eignen. Dafür brauchen sie Zahlen zum eigenen Ziel und Hinweise darauf, wie die Kundschaft das Angebot erlebt hat.
+Bei einem Schulturnier haben sich diesmal mehr Leute angemeldet. Trotzdem sagen einige, dass sie wegen langer Wartezeiten nächstes Mal lieber aussetzen. Wenn ihr über die nächste Runde entscheidet, helfen euch Zahlen und Rückmeldungen zusammen. In dieser LS beurteilt ihr damit, ob eine Verkaufsaktion ihr Ziel erreicht hat und welche Änderungen ihr begründet empfehlen könnt.
 
 #### Vorrangige Kompetenz dieser Lernsituation
 

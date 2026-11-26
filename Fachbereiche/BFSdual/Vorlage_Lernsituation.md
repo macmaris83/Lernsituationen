@@ -12,9 +12,9 @@ Diese Vorlage gilt für **alle Lernfelder der BFSdual**. Übernehmt die acht Sta
 
 ## Orientierung
 
-### Darum ist das Thema relevant
+### Warum wir das lernen
 
-[Erklärt in zwei bis drei Sätzen, in welchem beruflichen Zusammenhang die Lernenden diese Fähigkeit brauchen und woran eine gute Entscheidung erkennbar ist.]
+[Schreibt zwei bis vier kurze Sätze direkt an die Lernenden. Beginnt mit einer konkreten Situation, die ihnen aus ihrem Alltag begegnen kann, etwa beim Einkaufen, unterwegs, online, in der Schule oder im Praktikum. Zeigt, **was sie mit der Fachkompetenz dort besser entscheiden, einschätzen oder selbst tun können**. Führt von diesem persönlichen Nutzen zum beruflichen Fall der Lernsituation.]
 
 ### Vorrangige Kompetenz dieser Lernsituation
 
@@ -90,6 +90,7 @@ Fügt die Unterlagen direkt in die LS ein oder verlinkt die zugehörigen Dateien
 
 ## Redaktionshinweise für das Vorlagenset
 
+- **Lernbedeutsamkeit.** Wählt einen Lebensweltbezug, bei dem dieselbe Fähigkeit tatsächlich gebraucht wird. Der Abschnitt beantwortet aus Sicht der Lernenden die Fragen „Wann hilft mir das?“ und „Was kann ich danach besser?“. Ein kurzer Denkimpuls kann eigene Erfahrungen aufgreifen und bleibt freiwillig.
 - **Gemeinsamer Einstieg.** Orientierung, Handlungssituation, Informieren und Planen verwenden gemeinsame Fachaufträge und Fallunterlagen. Die Lernpaketwahl erscheint zu Beginn von **Entscheiden**. Die fachliche Entscheidung folgt auf Basis des gewählten Zugangs.
 - **Gleichwertige Zugänge.** A, B und C haben dieselbe Fachkompetenz, dieselbe fachliche Datengrundlage, dasselbe Handlungsprodukt, dieselben Bewertungskriterien und denselben Zeitrahmen. Die Pakete verändern die Arbeitsweise. Alle erhalten Zugriff auf genaue Zahlen, Maße und fachliche Belege. Sprachfassungen und Modelle enthalten die Informationen, die zur Bearbeitung tatsächlich nötig sind.
 - **Eigenständiger Fall.** Jede Lernsituation enthält eine vollständige Ausgangslage, eigene erreichbare Materialien, eine fachliche Entscheidung und ein abschließendes Handlungsprodukt. Ergebnisse innerhalb der LS werden weiterverwendet. Der Start einer anderen LS erfolgt mit den dort bereitgestellten Fallunterlagen.
