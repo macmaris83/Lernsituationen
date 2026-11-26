@@ -26,7 +26,7 @@ Jede LS enthält den vollständigen Projektstand für ihre Szene, eigene Materia
 
 ## Aufbau der Lernsituationen
 
-Die acht Fälle sind ausgearbeitete Beispiele zur [gemeinsamen Vorlage für alle BFSdual-Lernfelder](../Vorlage_Lernsituation.md). Jede LS verwendet die acht Stationen des Formmasters 1.8.8. Der Fachbegriffscheck liegt als gemeinsamer Schritt zwischen **Informieren** und **Planen** innerhalb der vorgesehenen Zeit. Die drei gleichwertigen Lernpakete werden zu Beginn von **Entscheiden** gewählt.
+Die acht Fälle sind ausgearbeitete Beispiele zur [gemeinsamen Vorlage für alle BFSdual-Lernfelder](../Vorlage_Lernsituation.md). Jede LS verwendet die acht Stationen des Formmasters 1.8.8. Der Fachbegriffscheck umfasst je LS zehn Begriffe und liegt als gemeinsamer Schritt zwischen **Informieren** und **Planen** innerhalb der vorgesehenen Zeit. Die drei gleichwertigen Lernpakete werden zu Beginn von **Entscheiden** gewählt.
 
 Die Werte im Kompetenznetz zeigen, wie stark die verbindlichen Aufgaben die fünf Kompetenzen ansteuern. **1** steht für einen Randbezug, **6** für einen prägenden Schwerpunkt. Die fünf Werte folgen in jeder LS derselben [Skalenlegende](../Vorlage_Lernsituation.md#kompetenzprofil-und-kompetenznetz).
 
@@ -69,7 +69,7 @@ Beide Geschäfte haben die gleiche Aktionswoche vorgemerkt. Um 10 Uhr sitzen ihr
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -77,6 +77,12 @@ Beide Geschäfte haben die gleiche Aktionswoche vorgemerkt. Um 10 Uhr sitzen ihr
 | `BFSDUAL-LF06-LS01-B02` | Verkaufsform | Die Art, wie die Kundschaft die Ware auswählt und welche Beratung sie dabei erhält. | Die Fläche, die ein Geschäft für eine Aktion reserviert. | Die Gruppe von Artikeln, die beide Läden anbieten. | Das Fachgeschäft berät persönlich. Im Sportfachmarkt wählen viele selbst aus (M1 und M2). |
 | `BFSDUAL-LF06-LS01-B03` | Aktionsfläche | Der für eine Verkaufsaktion vorgesehene Bereich eines Geschäfts. | Der gesamte Bereich zwischen Eingang und Kasse. | Die Zeit, in der die beworbene Ware im Angebot ist. | Die Maße in M3 zeigen, welcher Bereich je Standort gestaltet werden kann. |
 | `BFSDUAL-LF06-LS01-B04` | Zwingende Anforderung | Eine Bedingung, die ein brauchbarer Vorschlag erfüllen muss. | Eine Verbesserung, die das Team bei zusätzlichem Platz einbauen kann. | Eine Anforderung, für die sich die meisten Kundinnen und Kunden interessieren. | Hauptgang und Werkstattzugang müssen im Fachgeschäft frei bleiben (M3). |
+| `BFSDUAL-LF06-LS01-B05` | Standortprofil | Eine Übersicht über Kundschaft, Verkaufsform und räumliche Bedingungen eines Geschäfts. | Ein Grundriss mit allen Wänden und Wegen eines Geschäfts. | Ein Protokoll, in dem nur verkaufte Artikel erfasst werden. | Die Angaben zu Kundenwünschen und persönlicher Beratung gehören ebenso ins Standortprofil wie die Flächenmaße (M1 und M3). |
+| `BFSDUAL-LF06-LS01-B06` | Zielgruppe | Die Menschen, für die ein Angebot oder eine Aktion gedacht ist. | Die Beschäftigten, die ein Angebot im Laden zusammenstellen. | Die Artikel, die für dieselbe Aktion vorgesehen sind. | Familien, die Zubehör für Radtouren suchen, sind eine mögliche Zielgruppe des Sportfachmarkts (M2). |
+| `BFSDUAL-LF06-LS01-B07` | Hauptanliegen | Das wichtigste Thema, dem eine Kundenanfrage in der Auswertung zugeordnet wird. | Das Thema, nach dem die Kundschaft im ganzen Laden am meisten fragt. | Die Teilfrage, die das Personal im Beratungsgespräch zuerst beantwortet. | Die Anfrage eines Kunden aus dem Fachgeschäft kann dem Hauptanliegen „Fahrrad sicher abstellen“ zugeordnet werden (M1). |
+| `BFSDUAL-LF06-LS01-B08` | Maßstab | Das feste Verhältnis zwischen einer Länge im Plan und der entsprechenden Länge in Wirklichkeit. | Die Mindestbreite, die ein Weg im Geschäft haben muss. | Das Verhältnis zwischen den Stellflächen beider Geschäfte. | Bei 1:20 entsprechen 20 cm im Laden 1 cm im Plan (M3). |
+| `BFSDUAL-LF06-LS01-B09` | Gondel | Ein frei stehendes Verkaufsregal, das von gegenüberliegenden Seiten zugänglich ist. | Ein fest mit der Ladenwand verbundenes Regal mit nur einer zugänglichen Seite. | Ein freistehender Schildhalter zur Orientierung. | In der Aktionsfläche des Sportfachmarkts stehen zwei beidseitig bestückte Gondeln bereit (M3). |
+| `BFSDUAL-LF06-LS01-B10` | Wünschenswerte Anforderung | Eine sinnvolle Verbesserung, auf die man bei knappen Möglichkeiten verzichten kann. | Eine feste Bedingung, die beim Aufbau erfüllt sein muss. | Ein Wunsch einer Kundin oder eines Kunden, den der Laden bereits erfüllt hat. | Gänge müssen frei bleiben. Die Entscheidung, ob Artikel mit zusätzlichem Schild oder direkt am Regal beschriftet werden, lässt Spielraum (M3 und M5). |
 
 ### Planen
 
@@ -124,7 +130,7 @@ Das [Standortprofil](Glossare/LS_6_1_Glossar.md#standortprofil) fasst die bisher
 
 | Merkmal | Beobachtung |
 | --- | --- |
-| [Nachfragebelege](Glossare/LS_6_1_Glossar.md#nachfragebeleg) | In 20 protokollierten Zubehöranfragen ging es neunmal um Sichtbarkeit auf dem Arbeitsweg, sechsmal um sicheres Abstellen und fünfmal um den Transport kleiner Dinge. Jede Anfrage wurde einem Hauptanliegen zugeordnet. |
+| [Nachfragebelege](Glossare/LS_6_1_Glossar.md#nachfragebeleg) | In 20 protokollierten Zubehöranfragen ging es neunmal um Sichtbarkeit auf dem Arbeitsweg, sechsmal um sicheres Abstellen und fünfmal um den Transport kleiner Dinge. Jede Anfrage wurde einem [Hauptanliegen](Glossare/LS_6_1_Glossar.md#hauptanliegen) zugeordnet. |
 | [Verkaufsform](Glossare/LS_6_1_Glossar.md#verkaufsform) | Eine Fachkraft berät persönlich. Viele Kundinnen und Kunden bringen ihr Fahrrad mit. Die Beratung findet am Werkstattzugang statt, wo das Fahrrad abgestellt werden kann. |
 | Kundenstimme | „Ich stelle mein Rad jeden Tag am Bahnhof ab. Vor dem Kauf möchte ich sehen, ob das Schloss durch den Rahmen passt.“ |
 | Kundenstimme | „Ich bin abends unterwegs. Könnte ich sehen, wie man das Licht am Lenker befestigt?“ |
@@ -140,12 +146,12 @@ Das [Standortprofil](Glossare/LS_6_1_Glossar.md#standortprofil) fasst die bisher
 
 #### M3 · Flächen und Warenträger
 
-Zeichnet bei Bedarf im Maßstab 1:20. Im Plan entsprechen beispielsweise 20 cm in Wirklichkeit 1 cm auf Papier. Alle genannten Gänge und Zugänge freizuhalten ist eine [zwingende Anforderung](Glossare/LS_6_1_Glossar.md#zwingende-anforderung).
+Zeichnet bei Bedarf im [Maßstab](Glossare/LS_6_1_Glossar.md#ma%C3%9Fstab) 1:20. Im Plan entsprechen beispielsweise 20 cm in Wirklichkeit 1 cm auf Papier. Alle genannten Gänge und Zugänge freizuhalten ist eine [zwingende Anforderung](Glossare/LS_6_1_Glossar.md#zwingende-anforderung).
 
 | Standort | Verfügbare [Aktionsfläche](Glossare/LS_6_1_Glossar.md#aktionsfl%C3%A4che) | Umgebung und Ausstattung |
 | --- | --- | --- |
 | Fachgeschäft | 3,60 m × 3,20 m einschließlich festem Beratungstresen. | Links verläuft ein 1,20 m breiter Hauptdurchgang zum Werkstattzugang. Verfügbar sind zwei Rollregale (je 1,00 m × 0,40 m) und ein niedriger Tisch (0,80 m × 0,55 m). In der Fläche muss Platz für die Beratung mit Fahrrad bleiben. |
-| Sportfachmarkt | 6,40 m × 3,50 m als rechteckige Fläche. | Der Hauptgang verläuft an der 6,40-m-Seite. Verfügbar sind zwei beidseitig bestückte Gondeln (je 1,60 m × 0,60 m) und ein freistehender Schildhalter (0,40 m × 0,40 m). |
+| Sportfachmarkt | 6,40 m × 3,50 m als rechteckige Fläche. | Der Hauptgang verläuft an der 6,40-m-Seite. Verfügbar sind zwei beidseitig bestückte [Gondeln](Glossare/LS_6_1_Glossar.md#gondel) (je 1,60 m × 0,60 m) und ein freistehender Schildhalter (0,40 m × 0,40 m). |
 
 #### M4 · Sprechtexte für die beiden Sprachnachrichten
 
@@ -160,6 +166,8 @@ Zeichnet bei Bedarf im Maßstab 1:20. Im Plan entsprechen beispielsweise 20 cm i
 | Fachgeschäft · 3 Zeilen | Sortiment oder Präsentation | … | … | zwingend oder wünschenswert · … |
 | Sportfachmarkt · 3 Zeilen | Sortiment oder Präsentation | … | … | zwingend oder wünschenswert · … |
 
+Bei der Priorität unterscheidet die Matrix zwischen zwingenden und [wünschenswerten Anforderungen](Glossare/LS_6_1_Glossar.md#w%C3%BCnschenswerte-anforderung).
+
 **Größter Unterschied und Folge für die Aktion:** …
 
 #### M6 · Fachbegriffe zu dieser Lernsituation
@@ -168,6 +176,12 @@ Zeichnet bei Bedarf im Maßstab 1:20. Im Plan entsprechen beispielsweise 20 cm i
 - **Verkaufsform.** Die Art, wie die Kundschaft die Ware auswählt und welche Beratung sie dabei erhält.
 - **Aktionsfläche.** Der für eine Verkaufsaktion vorgesehene Bereich eines Geschäfts.
 - **Zwingende Anforderung.** Eine Bedingung, die ein brauchbarer Vorschlag erfüllen muss.
+- **Standortprofil.** Eine Übersicht über Kundschaft, Verkaufsform und räumliche Bedingungen eines Geschäfts.
+- **Zielgruppe.** Die Menschen, für die ein Angebot oder eine Aktion gedacht ist.
+- **Hauptanliegen.** Das wichtigste Thema, dem eine Kundenanfrage in der Auswertung zugeordnet wird.
+- **Maßstab.** Das feste Verhältnis zwischen einer Länge im Plan und der entsprechenden Länge in Wirklichkeit.
+- **Gondel.** Ein frei stehendes Verkaufsregal, das von gegenüberliegenden Seiten zugänglich ist.
+- **Wünschenswerte Anforderung.** Eine sinnvolle Verbesserung, auf die man bei knappen Möglichkeiten verzichten kann.
 
 ## LS 6.2 · Ein gemeinsames Sortiment mit lokalen Ergänzungen zusammenstellen
 
@@ -208,7 +222,7 @@ Das Fahrradfachgeschäft möchte wenig Ware auf der kleinen Fläche unterbringen
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -216,6 +230,12 @@ Das Fahrradfachgeschäft möchte wenig Ware auf der kleinen Fläche unterbringen
 | `BFSDUAL-LF06-LS02-B02` | Lokale Sortimentsergänzung | Ein zusätzlicher Artikel, den ein Laden aufgrund der Nachfrage vor Ort anbietet. | Ein Artikel, der bei beiden Läden zwingend zum gemeinsamen Kern gehört. | Ein Artikel, dessen Lieferung erst für die Folgewoche möglich ist. | Der Sattelüberzug lässt sich im Fachgeschäft mit den Nennungen zum nassen Sattel begründen (M1 und M2). |
 | `BFSDUAL-LF06-LS02-B03` | Lieferbarkeit | Die Möglichkeit, den Artikel rechtzeitig für den geplanten Zeitraum zu erhalten. | Die Anzahl an Stellplätzen, die der Artikel auf der Fläche belegt. | Die Zahl der Kundinnen und Kunden, die nach dem Artikel gefragt haben. | Für K70 nennt der Katalog die Folgewoche. Für den Aktionsbeginn kommt die Klingel damit zu spät (M2). |
 | `BFSDUAL-LF06-LS02-B04` | Platzbedarf | Der Raum oder die Zahl der Plätze, die ein Artikel auf der Fläche beansprucht. | Die Zahl der Stücke, die im Lager bereitliegen. | Die Menge an Artikeln, die beide Läden zusammen verkaufen wollen. | Je Artikel wird ein Platz berechnet. Das Fachgeschäft hat fünf Aktionsplätze (M2 und M3). |
+| `BFSDUAL-LF06-LS02-B05` | Sortimentsbreite | Die Zahl unterschiedlicher Warengruppen, die ein Laden anbietet. | Die Zahl der unterschiedlichen Varianten innerhalb einer einzelnen Warengruppe. | Die Zahl der vorhandenen Stücke eines Artikels. | Beleuchtung, Schlösser und Taschen sind drei unterschiedliche Warengruppen. Mehr Stück vom selben Schloss vergrößern die Breite nicht (M2 und M3). |
+| `BFSDUAL-LF06-LS02-B06` | Sortimentslücke | Ein Bedarf der Kundschaft, für den der Laden keinen passenden Artikel anbietet. | Ein unbesetzter Stellplatz zwischen zwei angebotenen Artikeln. | Ein fehlendes Merkmal in der Artikelbeschreibung des Katalogs. | Wenn Kundinnen und Kunden nach Schutz für nasse Sättel fragen und kein passender Artikel im Angebot ist, kann eine Sortimentslücke vorliegen (M1 und M2). |
+| `BFSDUAL-LF06-LS02-B07` | Beratungstagebuch | Eine Sammlung von Notizen zu Beratungsgesprächen und Kundenanliegen eines Geschäfts. | Eine Planung, wann Kundinnen und Kunden Beratungstermine haben. | Eine Liste der Artikel, die nach einer Beratung gekauft wurden. | Die Nennungen zu Licht, Schloss und anderen Anliegen stammen aus den Beratungstagebüchern beider Läden (M1). |
+| `BFSDUAL-LF06-LS02-B08` | Nennung | Einmaliges Erfassen eines angesprochenen Anliegens in der Nachfrageübersicht. | Einmaliges Erfassen einer Person, unabhängig von der Zahl ihrer Anliegen. | Einmaliges Erfassen eines verkauften Artikels. | Wer sowohl nach Licht als auch nach einem Schloss fragt, kann in der Übersicht zu zwei Nennungen beitragen (M1). |
+| `BFSDUAL-LF06-LS02-B09` | Artikelkennung | Ein Code, durch den ein bestimmter Artikel im Katalog eindeutig zugeordnet werden kann. | Die Nummer des Stellplatzes, an dem der Artikel liegt. | Eine Zahl dafür, wie häufig der Artikel nachgefragt wurde. | P50 steht im Katalog für die Minipumpe. Die Kennung hilft, sie auf dem Ergebnisblatt eindeutig zu benennen (M2 und M5). |
+| `BFSDUAL-LF06-LS02-B10` | Aktionsplatz | Ein für einen Artikel dieser Aktion vorgesehener Stellplatz im Laden. | Der gesamte Ladenbereich, den die Kundschaft während der Aktion betreten darf. | Ein Lagerplatz für den Ersatzvorrat während der Aktionswoche. | Im Sportfachmarkt stehen sechs Plätze für Aktionsartikel bereit. Der siebte bleibt für das eigene Sortiment reserviert (M3). |
 
 ### Planen
 
@@ -259,7 +279,7 @@ Alle Artikel, Mengen und Kundendaten sind für den Unterricht erstellt.
 
 #### M1 · Nachfrageübersicht beider Handelspartner
 
-Die Zahlen geben registrierte Nennungen im Beratungstagebuch an. Eine Person konnte mehrere Anliegen äußern. Kleine Zahlen können für eine spezifische Kundengruppe trotzdem relevant sein.
+Die Zahlen geben registrierte [Nennungen](Glossare/LS_6_2_Glossar.md#nennung) im [Beratungstagebuch](Glossare/LS_6_2_Glossar.md#beratungstagebuch) an. Eine Person konnte mehrere Anliegen äußern. Kleine Zahlen können für eine spezifische Kundengruppe trotzdem relevant sein.
 
 | Was Kundinnen und Kunden angesprochen haben | Fachgeschäft Innenstadt | Sportfachmarkt am Stadtrand |
 | --- | ---: | ---: |
@@ -295,7 +315,7 @@ Die Nachfrageübersicht hilft dabei, mögliche [Sortimentslücken](Glossare/LS_6
 
 #### M3 · Sortimentsvorgaben aus dem Vertrieb
 
-- Das Fachgeschäft hat fünf Aktionsplätze, der Sportfachmarkt sechs. Dadurch ist die [Sortimentsbreite](Glossare/LS_6_2_Glossar.md#sortimentsbreite) der Aktion begrenzt. Einen siebten Platz benötigt der Markt für sein bestehendes eigenes Sortiment.
+- Das Fachgeschäft hat fünf [Aktionsplätze](Glossare/LS_6_2_Glossar.md#aktionsplatz), der Sportfachmarkt sechs. Dadurch ist die [Sortimentsbreite](Glossare/LS_6_2_Glossar.md#sortimentsbreite) der Aktion begrenzt. Einen siebten Platz benötigt der Markt für sein bestehendes eigenes Sortiment.
 - Global Bike kündigt **vier gemeinsame Artikel** als [Kernsortiment](Glossare/LS_6_2_Glossar.md#kernsortiment) an. Diese erscheinen in beiden Läden.
 - Das Fachgeschäft erhält **einen**, der Sportfachmarkt **zwei** zusätzliche Artikel. Eine [lokale Sortimentsergänzung](Glossare/LS_6_2_Glossar.md#lokale-sortimentserg%C3%A4nzung) wird nur in dem Laden angeboten, für den ihr sie auswählt. Jeder gewählte Artikel zählt als ein Platz je Laden.
 - Das Lager liefert pro Standort ausreichend Stück von allen ab Aktionsbeginn lieferbaren Artikeln.
@@ -317,7 +337,7 @@ Die Nachfrageübersicht hilft dabei, mögliche [Sortimentslücken](Glossare/LS_6
 
 #### M5 · Ergebnisblatt für Jana
 
-| Artikel und Kennung | Bereich | Laden | Nachfragebeleg und Begründung | Lieferbereit |
+| Artikel und [Artikelkennung](Glossare/LS_6_2_Glossar.md#artikelkennung) | Bereich | Laden | Nachfragebeleg und Begründung | Lieferbereit |
 | --- | --- | --- | --- | --- |
 | … | gemeinsamer Kern oder lokale Ergänzung | beide, Fachgeschäft oder Sportfachmarkt | … | … |
 
@@ -331,6 +351,12 @@ Die Nachfrageübersicht hilft dabei, mögliche [Sortimentslücken](Glossare/LS_6
 - **Lokale Sortimentsergänzung.** Ein zusätzlicher Artikel, den ein Laden aufgrund der Nachfrage vor Ort anbietet.
 - **Lieferbarkeit.** Die Möglichkeit, den Artikel rechtzeitig für den geplanten Zeitraum zu erhalten.
 - **Platzbedarf.** Der Raum oder die Zahl der Plätze, die ein Artikel auf der Fläche beansprucht.
+- **Sortimentsbreite.** Die Zahl unterschiedlicher Warengruppen, die ein Laden anbietet.
+- **Sortimentslücke.** Ein Bedarf der Kundschaft, für den der Laden keinen passenden Artikel anbietet.
+- **Beratungstagebuch.** Eine Sammlung von Notizen zu Beratungsgesprächen und Kundenanliegen eines Geschäfts.
+- **Nennung.** Einmaliges Erfassen eines angesprochenen Anliegens in der Nachfrageübersicht.
+- **Artikelkennung.** Ein Code, durch den ein bestimmter Artikel im Katalog eindeutig zugeordnet werden kann.
+- **Aktionsplatz.** Ein für einen Artikel dieser Aktion vorgesehener Stellplatz im Laden.
 
 ## LS 6.3 · Waren im Fahrradfachgeschäft präsentieren
 
@@ -371,7 +397,7 @@ Eine Kundin schiebt ihr Fahrrad herein und fragt nach einer Lampe für ihren Len
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -379,6 +405,12 @@ Eine Kundin schiebt ihr Fahrrad herein und fragt nach einer Lampe für ihren Len
 | `BFSDUAL-LF06-LS03-B02` | Bedienseite | Die Seite eines Warenträgers, von der aus die Ware angesehen oder entnommen wird. | Die Seite des Regals, die dem Eingang am nächsten liegt. | Der Teil des Bodens, auf dem das Fahrrad für die Beratung steht. | Bei den Rollregalen ist die markierte Längsseite für den Zugriff vorgesehen (M2). |
 | `BFSDUAL-LF06-LS03-B03` | Vorführplatz | Der freie Bereich, in dem die Anwendung eines Artikels gezeigt oder erprobt wird. | Der Platz für verpackte Ware im Rollregal. | Der Durchgang, durch den Fahrräder zur Werkstatt geschoben werden. | Der Platz muss groß genug sein, damit die Beratung Zubehör am Vorführrad zeigen kann (M2 und M3). |
 | `BFSDUAL-LF06-LS03-B04` | Hauptdurchgang | Der zentrale freie Weg, auf dem sich die Kundschaft im Laden bewegt. | Die Bedienseite, an der die Ware aus dem Regal gegriffen wird. | Der für die Aktion reservierte Teil der Verkaufsfläche. | Der links eingezeichnete Weg bleibt auf seiner vollen Breite frei und führt Richtung Werkstatt (M1). |
+| `BFSDUAL-LF06-LS03-B05` | Regalzone | Ein Teil des Regals, der durch seine Höhe bestimmt ist. | Die Seite des Regals, an der Kundschaft und Personal zugreifen. | Die Reihenfolge, in der Warenträger nebeneinanderstehen. | Das schwere Bügelschloss S20 wird in der unteren Regalzone präsentiert (M3). |
+| `BFSDUAL-LF06-LS03-B06` | Warenplatz | Die vorgesehene Stelle, an der ein bestimmter Artikel zum Verkauf angeboten wird. | Der Platz, an dem ein Produkt am Fahrrad vorgeführt wird. | Der gesamte Abschnitt des Ladens, den das Geschäft für die Aktion freihält. | Die Schachteln mit dem Lichtset L10 bleiben am Warenplatz erreichbar, während ein Muster zur Beratung bereitliegt (M3). |
+| `BFSDUAL-LF06-LS03-B07` | Aktionsfläche | Die für ein zeitlich begrenztes Angebot vorgesehene Fläche im Geschäft. | Der zentrale Weg, auf dem die Kundschaft durch das Geschäft geht. | Der Platz innerhalb eines Regals, den ein einzelner Artikel einnimmt. | Die markierte Aktionsfläche bietet Platz für Warenträger und einen Vorführplatz. Der Hauptdurchgang ist separat eingezeichnet (M1). |
+| `BFSDUAL-LF06-LS03-B08` | Beratungstresen | Ein fest eingeplanter Arbeitsplatz im Laden, an dem Verkaufspersonal die Kundschaft bedient. | Ein beweglicher Tisch zur Präsentation der Aktionsartikel. | Eine frei gehaltene Fläche, auf der ein Fahrrad für die Vorführung steht. | Der Tresen bleibt an seiner eingezeichneten Stelle und muss während der Aktion erreichbar bleiben (M1 und M2). |
+| `BFSDUAL-LF06-LS03-B09` | Vorführmodell | Ein Gegenstand, an dem die Anwendung eines Produkts gezeigt werden kann. | Eine Skizze, die die Maße der Aktionsfläche zeigt. | Ein Warenträger, auf dem ausschließlich verpackte Artikel präsentiert werden. | Am bereitgestellten Fahrrad kann die Verkäuferin zeigen, wie die Minipumpe am Ventil angesetzt wird (M2 und M3). |
+| `BFSDUAL-LF06-LS03-B10` | Muster | Ein Exemplar eines Artikels, das die Kundschaft ansehen, anfassen oder ausprobieren kann. | Eine Artikelverpackung, die den festen Warenplatz markiert. | Ein Warenbestand, der bis zum Ende der Aktion im Lager zurückgehalten wird. | Die Kundschaft darf das Muster des Sattelüberzugs anfassen und am Vorführrad ausprobieren (M3). |
 
 ### Planen
 
@@ -426,22 +458,22 @@ Der abgebildete Verkaufsbereich ist 4,80 m breit und 4,00 m tief. Der Nullpunkt 
 |---|---:|---:|---|
 | Haupteingang | 0,00–1,20 | 0,00 | Die Kundschaft betritt den Bereich von Süden und schiebt ihre Fahrräder hinein. |
 | [Hauptdurchgang](Glossare/LS_6_3_Glossar.md#hauptdurchgang) | 0,00–1,20 | 0,00–4,00 | Die volle Breite bleibt für Kunden und Fahrräder frei. |
-| Aktionsfläche | 1,20–4,80 | 0,80–4,00 | Hier dürfen Warenträger und Vorführplatz angeordnet werden. |
-| Fester Beratungstresen | 3,60–4,80 | 0,80–1,50 | Die Ware am Tresen wird regulär verkauft. Der Tresen bleibt an dieser Stelle. |
+| [Aktionsfläche](Glossare/LS_6_3_Glossar.md#aktionsfl%C3%A4che) | 1,20–4,80 | 0,80–4,00 | Hier dürfen Warenträger und Vorführplatz angeordnet werden. |
+| Fester [Beratungstresen](Glossare/LS_6_3_Glossar.md#beratungstresen) | 3,60–4,80 | 0,80–1,50 | Die Ware am Tresen wird regulär verkauft. Der Tresen bleibt an dieser Stelle. |
 
 #### M2 · Ladenregeln und Warenträger
 
 - Der [Vorführplatz](Glossare/LS_6_3_Glossar.md#vorf%C3%BChrplatz) beansprucht eine zusammenhängende freie Fläche von mindestens 2,00 m × 1,30 m. Seine lange Seite darf parallel zu einer der beiden Raumachsen liegen.
 - Eine durchgehende Verbindung von mindestens 0,90 m führt vom Hauptdurchgang zum Vorführplatz und zur jeweiligen [Bedienseite](Glossare/LS_6_3_Glossar.md#bedienseite) der Warenträger. Hauptdurchgang und Tresen bleiben benutzbar.
 - Zwei frei drehbare Rollregale messen jeweils 1,00 m × 0,40 m. Ihre markierte Längsseite ist die Bedienseite. Ein Tisch misst 0,80 m × 0,55 m. Die [Warenträger](Glossare/LS_6_3_Glossar.md#warentr%C3%A4ger) stehen vollständig innerhalb der markierten Aktionsfläche.
-- Das Fachgeschäft stellt für die Aktion ein Fahrrad mit geradem Lenker und einem Reifen mit Sclaverandventil als Vorführmodell bereit. Die verpackte Ware bleibt in Reichweite der Beratung.
+- Das Fachgeschäft stellt für die Aktion ein Fahrrad mit geradem Lenker und einem Reifen mit Sclaverandventil als [Vorführmodell](Glossare/LS_6_3_Glossar.md#vorf%C3%BChrmodell) bereit. Die verpackte Ware bleibt in Reichweite der Beratung.
 
 #### M3 · Festes Aktionssortiment
 
 | Artikel | Was die Kundschaft beim Kauf wissen will | Vorgabe des Fachgeschäfts |
 |---|---|---|
 | L10 LED-Lichtset | Wie sitzt die Halterung am Lenker und wie löse ich das Licht wieder? | Ein Muster am Vorführplatz. Die Schachteln stehen erreichbar am [Warenplatz](Glossare/LS_6_3_Glossar.md#warenplatz). |
-| R40 Sattelüberzug | Kann ich den Überzug am eigenen Sattel ausprobieren? | Ein Muster darf angefasst und am Vorführrad gezeigt werden. Verpackte Ware bleibt zugänglich. |
+| R40 Sattelüberzug | Kann ich den Überzug am eigenen Sattel ausprobieren? | Ein [Muster](Glossare/LS_6_3_Glossar.md#muster) darf angefasst und am Vorführrad gezeigt werden. Verpackte Ware bleibt zugänglich. |
 | P50 Minipumpe | Passt die Pumpe zu meinem Ventil und wie setze ich sie an? | Vorführung am Ventil des Fahrrads möglich halten. |
 | T30 Rahmentasche | Komme ich leicht an meine Kleinteile? | Ein leeres Muster darf angefasst und geöffnet werden. |
 | S20 Bügelschloss | Wie groß ist der Bügel und wie schwer ist das Schloss? | Aufgrund des Gewichts in der unteren [Regalzone](Glossare/LS_6_3_Glossar.md#regalzone) zeigen. |
@@ -474,6 +506,12 @@ Der abgebildete Verkaufsbereich ist 4,80 m breit und 4,00 m tief. Der Nullpunkt 
 - **Bedienseite.** Die Seite eines Warenträgers, von der aus die Ware angesehen oder entnommen wird.
 - **Vorführplatz.** Der freie Bereich, in dem die Anwendung eines Artikels gezeigt oder erprobt wird.
 - **Hauptdurchgang.** Der zentrale freie Weg, auf dem sich die Kundschaft im Laden bewegt.
+- **Regalzone.** Ein Teil des Regals, der durch seine Höhe bestimmt ist.
+- **Warenplatz.** Die vorgesehene Stelle, an der ein bestimmter Artikel zum Verkauf angeboten wird.
+- **Aktionsfläche.** Die für ein zeitlich begrenztes Angebot vorgesehene Fläche im Geschäft.
+- **Beratungstresen.** Ein fest eingeplanter Arbeitsplatz im Laden, an dem Verkaufspersonal die Kundschaft bedient.
+- **Vorführmodell.** Ein Gegenstand, an dem die Anwendung eines Produkts gezeigt werden kann.
+- **Muster.** Ein Exemplar eines Artikels, das die Kundschaft ansehen, anfassen oder ausprobieren kann.
 
 ## LS 6.4 · Waren im Selbstbedienungsmarkt präsentieren
 
@@ -514,7 +552,7 @@ Der Abteilungsleiter sieht auf die Uhr. „Genau dafür brauchen wir morgen eine
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -522,6 +560,12 @@ Der Abteilungsleiter sieht auf die Uhr. „Genau dafür brauchen wir morgen eine
 | `BFSDUAL-LF06-LS04-B02` | Kundenlauf | Die Wege, die Kundinnen und Kunden im Laden typischerweise nehmen. | Die Zeit, die eine Person am Regal für die Produktauswahl braucht. | Die Reihenfolge, in der das Personal die Regale auffüllt. | Viele kommen vom Eingang und gehen zunächst in Richtung Fahrradabteilung (M1 und M2). |
 | `BFSDUAL-LF06-LS04-B03` | Orientierungsschild | Ein Hinweis, der den Weg zu einem Bereich oder zu einer Warengruppe zeigt. | Eine Tabelle mit technischen Daten mehrerer Produkte. | Eine Kennzeichnung des einzelnen Preises direkt an einer Packung. | Ein sichtbares Schild kann schon am Hauptgang auf die Zubehörfläche hinweisen (M1 und M5). |
 | `BFSDUAL-LF06-LS04-B04` | Vergleichsinformation | Eine gleichartig dargestellte Angabe, an der sich mehrere Produkte unterscheiden oder auf Eignung prüfen lassen. | Eine Überschrift, die nur den Weg zur Warengruppe zeigt. | Eine Artikelnummer, die den Lagerplatz für das Personal angibt. | Ventilarten, Abmessungen und Ausstattung helfen beim Vergleich von P50 und P51 (M3). |
+| `BFSDUAL-LF06-LS04-B05` | Kompatibilität | Die Eigenschaft, dass zwei Dinge zusammenpassen und sich gemeinsam wie vorgesehen nutzen lassen. | Die Eigenschaft, dass zwei Artikel dieselben Abmessungen haben. | Die Zuordnung zweier Artikel zur gleichen Warengruppe. | Für das Kinderrad kommt eine Pumpe mit passendem Aufsatz für das Autoventil infrage. P50 und P51 erfüllen diese Anforderung (M2 und M3). |
+| `BFSDUAL-LF06-LS04-B06` | Warengruppe | Mehrere Artikel mit ähnlichem Zweck, die ein Geschäft zusammenfasst. | Mehrere Produktvarianten, die zwingend dieselbe Artikelnummer tragen. | Alle Artikel, die auf derselben Aktionsfläche präsentiert werden. | Mini- und Standpumpe gehören gemeinsam zur Warengruppe Fahrradpumpen, auch wenn sich ihre Ausstattung unterscheidet (M3). |
+| `BFSDUAL-LF06-LS04-B07` | Gondel | Ein frei stehendes Verkaufsregal, das im Fall von beiden Längsseiten bestückt und genutzt wird. | Ein Wandregal, das die Kundschaft ausschließlich von vorn erreicht. | Ein frei stehender Aufsteller, an dem nur ein Hinweisschild befestigt ist. | Die beiden Gondeln bieten auf ihren beiden Längsseiten Platz für Waren und Vergleichskarten (M1). |
+| `BFSDUAL-LF06-LS04-B08` | Bedienzone | Der freie Bereich vor einer Warenseite, in dem die Kundschaft Artikel ansehen und entnehmen kann. | Das vordere Stück eines Regalfachs, auf dem die Ware steht. | Der dem Personal vorbehaltene Bereich für die Warenannahme. | Vor jeder bestückten Längsseite ist im Markt eine Bedienzone von 1,20 m Breite vorgesehen (M1). |
+| `BFSDUAL-LF06-LS04-B09` | Manometer | Eine Anzeige, mit der sich der Druck ablesen lässt. | Ein Aufsatz, der den Anschluss an verschiedene Ventile ermöglicht. | Eine Skala, die das geförderte Luftvolumen pro Hub anzeigt. | Die Standpumpe P51 hat ein Manometer. Bei der Auswahl lässt sich dieses Ausstattungsmerkmal mit der Minipumpe vergleichen (M3). |
+| `BFSDUAL-LF06-LS04-B10` | Rahmengewinde | Eine Stelle am Fahrradrahmen mit einem Gewinde, in das sich eine passende Schraube eindrehen lässt. | Ein Riemen, mit dem sich Zubehör um den Rahmen spannen lässt. | Ein Maß für den Durchmesser des Fahrradrohrs an der Befestigungsstelle. | Für den Flaschenhalter F60 braucht das Fahrrad zwei passende Rahmengewinde im Abstand von 64 mm (M3). |
 
 ### Planen
 
@@ -572,7 +616,7 @@ Der Bereich ist 8,00 m breit und 5,00 m tief. Der Nullpunkt liegt in der südwes
 | Durchgang zur Fahrradabteilung | 6,40–8,00 | 1,50–5,00 | Die Breite bleibt auf dem gesamten Weg frei. |
 | Aktionsfläche | 0,00–6,40 | 1,50–5,00 | Warenträger, Schilder und [Vergleichsinformationen](Glossare/LS_6_4_Glossar.md#vergleichsinformation) stehen innerhalb dieser Fläche. |
 
-Verfügbar sind zwei frei drehbare Gondeln von je 1,60 m × 0,60 m mit Artikeln auf beiden Längsseiten. Vor jeder bestückten Längsseite bleibt eine 1,20 m breite Bedienzone. Beide Gondeln müssen vom Hauptgang erreichbar sein. Ein frei stehendes [Orientierungsschild](Glossare/LS_6_4_Glossar.md#orientierungsschild) mit integriertem Fuß von 0,40 m × 0,40 m ist verfügbar. Kleine Schilder und Vergleichskarten lassen sich an den Gondeln befestigen.
+Verfügbar sind zwei frei drehbare [Gondeln](Glossare/LS_6_4_Glossar.md#gondel) von je 1,60 m × 0,60 m mit Artikeln auf beiden Längsseiten. Vor jeder bestückten Längsseite bleibt eine 1,20 m breite [Bedienzone](Glossare/LS_6_4_Glossar.md#bedienzone). Beide Gondeln müssen vom Hauptgang erreichbar sein. Ein frei stehendes [Orientierungsschild](Glossare/LS_6_4_Glossar.md#orientierungsschild) mit integriertem Fuß von 0,40 m × 0,40 m ist verfügbar. Kleine Schilder und Vergleichskarten lassen sich an den Gondeln befestigen.
 
 #### M2 · Kundenlauf und zwei Einkaufsfälle
 
@@ -588,8 +632,8 @@ Die Mini- und die Standpumpe gehören zur gleichen [Warengruppe](Glossare/LS_6_4
 | Artikel | Angaben laut Produktkarte |
 |---|---|
 | P50 Minipumpe | 18 cm lang. Pumpenkopf für Auto- und Sclaverandventil. Für unterwegs vorgesehen. |
-| P51 Standpumpe | Regulärer Artikel auf einem ergänzenden Warenplatz. 62 cm hoch. Pumpenkopf für Auto- und Sclaverandventil. Mit Manometer. |
-| F60 Flaschenhalter | Für Flaschen mit 72 bis 75 mm Durchmesser. Zwei passende Rahmengewinde mit 64 mm Abstand erforderlich. Montageschrauben liegen bei. |
+| P51 Standpumpe | Regulärer Artikel auf einem ergänzenden Warenplatz. 62 cm hoch. Pumpenkopf für Auto- und Sclaverandventil. Mit [Manometer](Glossare/LS_6_4_Glossar.md#manometer). |
+| F60 Flaschenhalter | Für Flaschen mit 72 bis 75 mm Durchmesser. Zwei passende [Rahmengewinde](Glossare/LS_6_4_Glossar.md#rahmengewinde) mit 64 mm Abstand erforderlich. Montageschrauben liegen bei. |
 | L10 LED-Lichtset | Vorder- und Rücklicht. Frontleuchtenhalterung für Lenker mit 22 bis 32 mm Durchmesser. Die restlichen Angaben stehen auf der Packung. |
 | B80 Reflektorband | Ein verstellbares Klettband für 20–40 cm Umfang. Reflektiert auftreffendes Licht. |
 | S20 Bügelschloss | Schloss zum Anschließen von Rahmen oder Laufrad an eine geeignete Abstellanlage. In der unteren Regalzone präsentieren. |
@@ -625,6 +669,12 @@ Mit den Fragen prüft ihr die Fläche für die [Selbstbedienung](Glossare/LS_6_4
 - **Kundenlauf.** Die Wege, die Kundinnen und Kunden im Laden typischerweise nehmen.
 - **Orientierungsschild.** Ein Hinweis, der den Weg zu einem Bereich oder zu einer Warengruppe zeigt.
 - **Vergleichsinformation.** Eine gleichartig dargestellte Angabe, an der sich mehrere Produkte unterscheiden oder auf Eignung prüfen lassen.
+- **Kompatibilität.** Die Eigenschaft, dass zwei Dinge zusammenpassen und sich gemeinsam wie vorgesehen nutzen lassen.
+- **Warengruppe.** Mehrere Artikel mit ähnlichem Zweck, die ein Geschäft zusammenfasst.
+- **Gondel.** Ein frei stehendes Verkaufsregal, das im Fall von beiden Längsseiten bestückt und genutzt wird.
+- **Bedienzone.** Der freie Bereich vor einer Warenseite, in dem die Kundschaft Artikel ansehen und entnehmen kann.
+- **Manometer.** Eine Anzeige, mit der sich der Druck ablesen lässt.
+- **Rahmengewinde.** Eine Stelle am Fahrradrahmen mit einem Gewinde, in das sich eine passende Schraube eindrehen lässt.
 
 ## LS 6.5 · Eine gemeinsame Werbeaktion abstimmen
 
@@ -665,7 +715,7 @@ Am Mittwoch vor der Aktion legt Jana, die Vertriebsleiterin von Global Bike, den
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -673,6 +723,12 @@ Am Mittwoch vor der Aktion legt Jana, die Vertriebsleiterin von Global Bike, den
 | `BFSDUAL-LF06-LS05-B02` | Werbeträger | Ein Medium oder Werbeplatz, über den die Werbebotschaft die Zielgruppe erreicht. | Der Inhalt, den die Zielgruppe aus der Werbung mitnehmen soll. | Die Menge an Artikeln, die die Werbung verkaufen helfen soll. | Newsletter und Aufsteller sind zwei unterschiedliche Werbeträger (M3). |
 | `BFSDUAL-LF06-LS05-B03` | Kooperative Werbung | Mehrere beteiligte Unternehmen stimmen ihr Ziel und ihre Beiträge zu einer Werbeaktion ab. | Jeder Partner gestaltet seine Werbung getrennt nach einem eigenen Ziel. | Ein einzelnes Geschäft nutzt für dieselbe Aktion mehr als ein Werbemedium. | Global Bike liefert Produktdaten und Entwürfe. Die Geschäfte geben ihre Fassungen frei und setzen sie ein (M3). |
 | `BFSDUAL-LF06-LS05-B04` | Freigabefrist | Der späteste Zeitpunkt, zu dem eine Fassung bestätigt sein muss, damit sie rechtzeitig eingesetzt werden kann. | Der erste Zeitpunkt, zu dem die Kundschaft die Werbung sehen kann. | Der Termin, an dem die Geschäfte ihre Verkaufszahlen melden. | Für den Aufsteller muss die Druckfreigabe schon am Mittwoch der Vorwoche bis 16 Uhr vorliegen (M3). |
+| `BFSDUAL-LF06-LS05-B05` | Kennzahl | Eine messbare Größe, mit der sich ein Ergebnis beschreiben oder prüfen lässt. | Der angestrebte Mindestwert, auf den sich die Partner vorab einigen. | Der Zeitpunkt, zu dem die Werbung veröffentlicht wird. | Beide Läden erfassen die in der Aktionswoche verkauften Stücke aus dem Aktionssortiment (M2). |
+| `BFSDUAL-LF06-LS05-B06` | Werbeplan | Eine Übersicht über Ziel, Werbeträger, Termine und Zuständigkeiten einer Aktion. | Eine Sammlung fertiger Werbetexte und Produktfotos für beide Geschäfte. | Ein Bericht mit den Verkaufszahlen nach der Aktion. | Für den Newsletter hält der Plan fest, wer ihn vorbereitet, freigibt und verschickt (M3, M5). |
+| `BFSDUAL-LF06-LS05-B07` | Zuständigkeit | Eine Vereinbarung darüber, wer einen bestimmten Arbeitsschritt übernimmt. | Die Reihenfolge der Arbeitsschritte bis zur Veröffentlichung. | Der letzte Zeitpunkt, an dem eine Aufgabe erledigt sein muss. | Das Fahrradfachgeschäft plant und verschickt seinen Newsletter selbst (M3, M5). |
+| `BFSDUAL-LF06-LS05-B08` | Einsatztermin | Der Zeitpunkt, an dem ein Werbemittel veröffentlicht, verteilt oder aufgestellt wird. | Der Zeitpunkt, bis zu dem die Fassung für die Produktion bestätigt sein muss. | Der Zeitpunkt, zu dem Global Bike Bildmaterial bereitstellt. | Der Aufsteller ist ab Freitag der Aktionswoche am Eingang zu sehen. Die Druckfreigabe liegt früher (M3). |
+| `BFSDUAL-LF06-LS05-B09` | Vergleichswoche | Eine frühere Woche mit vergleichbaren Bedingungen, deren Werte als Ausgangspunkt dienen. | Die Woche, in der die Werbung in beiden Läden läuft. | Die Woche nach der Aktion, in der beide Läden ihre Absatzwerte melden. | Die beiden Vergleichswerte stammen aus Wochen mit denselben Öffnungstagen und betragen 40 beziehungsweise 60 Stück (M2, M4). |
+| `BFSDUAL-LF06-LS05-B10` | Erfolgskontrolle | Die Prüfung nach der Aktion, ob das vereinbarte Ziel anhand der erhobenen Daten erreicht wurde. | Die Prüfung, ob der Text für den Newsletter die richtigen Produktmerkmale enthält. | Die Planung, an welchem Tag die Werbemittel in beiden Läden eingesetzt werden. | Beide Geschäfte können ihren Aktionsabsatz melden und mit dem jeweiligen Ausgangswert vergleichen (M2, M5). |
 
 ### Planen
 
@@ -722,14 +778,14 @@ Ein gemeinsamer, freigabereifer Werbeplan. Er enthält ein überprüfbares Ziel,
 #### M2 · Eckdaten und messbare Ausgangslage
 
 - Die Frühjahrsaktion läuft in beiden Läden von Montag bis Samstag in derselben Woche. Die gemeinsame Botschaft soll Fahrradzubehör für den Frühjahrsstart sichtbar machen. Jeder Standort kann einen [Werbeträger](Glossare/LS_6_5_Glossar.md#werbetr%C3%A4ger) aus M3 verbindlich nutzen.
-- In einer vergleichbaren Verkaufswoche wurden von den Artikeln des Aktionssortiments im Fahrradfachgeschäft **40 Stück** und im Sportfachmarkt **60 Stück** verkauft. Beide Läden können als [Kennzahl](Glossare/LS_6_5_Glossar.md#kennzahl) die verkauften Stücke dieser Artikel für die Aktionswoche auswerten. Die Vergleichswerte stammen aus Wochen mit denselben Öffnungstagen.
+- In der [Vergleichswoche](Glossare/LS_6_5_Glossar.md#vergleichswoche) wurden von den Artikeln des Aktionssortiments im Fahrradfachgeschäft **40 Stück** und im Sportfachmarkt **60 Stück** verkauft. Beide Läden können als [Kennzahl](Glossare/LS_6_5_Glossar.md#kennzahl) die verkauften Stücke dieser Artikel für die Aktionswoche auswerten. Die Vergleichswerte stammen aus Wochen mit denselben Öffnungstagen.
 - Das Fachgeschäft kann Beratungen zählen. Der Sportfachmarkt erfasst Beratungen und Laufkundschaft für diese Aktion nicht verlässlich. Beide Partner können am Montag nach der Aktion ihre Absatzwerte an Global Bike melden. Vor dem Start vereinbaren die Beteiligten ein [überprüfbares Werbeziel](Glossare/LS_6_5_Glossar.md#%C3%BCberpr%C3%BCfbares-werbeziel).
 
 #### M3 · Werbeplätze, Fristen und Rollen
 
 Alle Vorbereitungsfristen beziehen sich auf die Woche vor der Aktion, sofern ein Zeitpunkt ausdrücklich in der Aktionswoche liegt.
 
-| Standort und Werbeträger | Reservierter Einsatz | Freigabe und Übergabe |
+| Standort und Werbeträger | Reservierter [Einsatztermin](Glossare/LS_6_5_Glossar.md#einsatztermin) | Freigabe und Übergabe |
 | --- | --- | --- |
 | Fahrradfachgeschäft · Bestandsnewsletter | Montag, 08:00 Uhr | Freigabe der Ladenleitung bis Donnerstag, 12:00 Uhr. Das Geschäft plant und verschickt den Newsletter selbst. |
 | Fahrradfachgeschäft · Hinweis am Schaufenster | Ab Montag zur Öffnung | Freigabe und Ausdruck bis Freitag, 14:00 Uhr. Das Geschäft bringt den Hinweis an. |
@@ -754,8 +810,8 @@ Für den [Werbeplan](Glossare/LS_6_5_Glossar.md#werbeplan) schreibt ihr auf jede
 | --- | --- |
 | Werbeplätze | Newsletter · Schaufenster · Eingang · Hauptgang |
 | Arbeitsschritte | Produktdaten bereitstellen · Standortfassung erstellen · Produktangaben prüfen · Freigabe erteilen · drucken · veröffentlichen oder aufstellen · Stückzahlen melden |
-| Zuständigkeiten | Global Bike · Fahrradfachgeschäft · Sportfachmarkt · Druckerei |
-| Daten für die Erfolgskontrolle | 40 Stück Vergleichswoche · 60 Stück Vergleichswoche · Stückzahlen Aktionswoche · Beratungszahl nur Fachgeschäft |
+| [Zuständigkeiten](Glossare/LS_6_5_Glossar.md#zust%C3%A4ndigkeit) | Global Bike · Fahrradfachgeschäft · Sportfachmarkt · Druckerei |
+| Daten für die [Erfolgskontrolle](Glossare/LS_6_5_Glossar.md#erfolgskontrolle) | 40 Stück Vergleichswoche · 60 Stück Vergleichswoche · Stückzahlen Aktionswoche · Beratungszahl nur Fachgeschäft |
 
 #### M6 · Fachbegriffe zu dieser Lernsituation
 
@@ -763,6 +819,12 @@ Für den [Werbeplan](Glossare/LS_6_5_Glossar.md#werbeplan) schreibt ihr auf jede
 - **Werbeträger.** Ein Medium oder Werbeplatz, über den die Werbebotschaft die Zielgruppe erreicht.
 - **Kooperative Werbung.** Mehrere beteiligte Unternehmen stimmen ihr Ziel und ihre Beiträge zu einer Werbeaktion ab.
 - **Freigabefrist.** Der späteste Zeitpunkt, zu dem eine Fassung bestätigt sein muss, damit sie rechtzeitig eingesetzt werden kann.
+- **Kennzahl.** Eine messbare Größe, mit der sich ein Ergebnis beschreiben oder prüfen lässt.
+- **Werbeplan.** Eine Übersicht über Ziel, Werbeträger, Termine und Zuständigkeiten einer Aktion.
+- **Zuständigkeit.** Eine Vereinbarung darüber, wer einen bestimmten Arbeitsschritt übernimmt.
+- **Einsatztermin.** Der Zeitpunkt, an dem ein Werbemittel veröffentlicht, verteilt oder aufgestellt wird.
+- **Vergleichswoche.** Eine frühere Woche mit vergleichbaren Bedingungen, deren Werte als Ausgangspunkt dienen.
+- **Erfolgskontrolle.** Die Prüfung nach der Aktion, ob das vereinbarte Ziel anhand der erhobenen Daten erreicht wurde.
 
 ## LS 6.6 · Werbemittel für beide Standorte gestalten
 
@@ -803,7 +865,7 @@ Jana öffnet kurz vor der internen Freigabe zwei Rohentwürfe. „Schaut hier. I
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -811,6 +873,12 @@ Jana öffnet kurz vor der internen Freigabe zwei Rohentwürfe. „Schaut hier. I
 | `BFSDUAL-LF06-LS06-B02` | Zielgruppe | Die Personen, für deren Interessen und Situation ein Werbemittel gestaltet wird. | Die Beschäftigten, die das Werbemittel freigeben und anbringen. | Die Gruppe der Produkte, die in einem Werbemittel gezeigt wird. | Der Newsletter richtet sich an Alltagsradelnde mit Beratungsbedarf. Das Eingangsschild spricht vor allem Familien und Freizeitradelnde an (M1 und M4). |
 | `BFSDUAL-LF06-LS06-B03` | Belegbare Produktaussage | Eine Aussage zur Eigenschaft, Eignung oder Ausstattung, die durch eine überprüfbare Produktangabe gedeckt ist. | Eine Aufforderung, die Kundschaft zur Aktionsfläche zu führen. | Eine Vermutung zum Produkt, die sich aus der Zielgruppe ableiten lässt. | Für P50 nennt das Produktblatt Sclaverand- und Autoventile. Diese beiden Ventilarten können in der Werbung genannt werden (M2). |
 | `BFSDUAL-LF06-LS06-B04` | Handlungsaufforderung | Ein Hinweis an die Kundschaft, welcher konkrete nächste Schritt möglich oder gewünscht ist. | Eine Beschreibung des Materials oder der Maße eines Produkts. | Eine interne Anweisung, wann die Ladenleitung das Werbemittel freigibt. | Die Aufforderung zum Vergleichen an der Aktionsfläche im Hauptgang benennt Handlung und Ort (M1). |
+| `BFSDUAL-LF06-LS06-B05` | Blickfang | Ein Element, das bei einem Werbemittel zuerst ins Auge fällt. | Eine detailreiche Produktangabe, die erst beim näheren Lesen auffällt. | Eine interne Notiz, anhand der Global Bike den Entwurf freigibt. | Eine gut sichtbare Überschrift soll am Markteingang Aufmerksamkeit für die Aktion wecken (M1, M5). |
+| `BFSDUAL-LF06-LS06-B06` | Werbemittel | Die konkret gestaltete Werbung mit Text, Bild oder Ton. | Der Kerngedanke, der in beiden Werbeformaten gleich bleibt. | Die interne Übersicht über die Zuständigkeiten für eine Werbeaktion. | Der fertige Newsletter-Ausschnitt ist das Werbemittel für das Fahrradfachgeschäft (M1). |
+| `BFSDUAL-LF06-LS06-B07` | Betreffzeile | Die Zeile einer E-Mail, die im Posteingang ankündigt, worum es in der Nachricht geht. | Die letzte Zeile einer E-Mail, die zur Aktionsfläche einlädt. | Der kurze Infotext unter dem Bild eines beworbenen Artikels. | Der Newsletter für das Fachgeschäft erhält eine Betreffzeile, die die Frühjahrsaktion ankündigen kann (M1). |
+| `BFSDUAL-LF06-LS06-B08` | Produktblatt | Eine Unterlage mit überprüften Angaben zu einem bestimmten Artikel. | Eine Übersicht über die Vorlieben der Kundschaft in einem Geschäft. | Ein Entwurf mit Formulierungen, die erst noch überprüft werden müssen. | Das Produktblatt der P50 nennt die passenden Ventile und den Höchstdruck. Diese Angaben können die Werbung stützen (M2). |
+| `BFSDUAL-LF06-LS06-B09` | Lieferumfang | Die Teile, die beim Kauf eines Artikels tatsächlich mitgeliefert werden. | Die technischen Bedingungen, unter denen ein Produkt eingesetzt werden kann. | Die Anzahl der Exemplare, die ein Geschäft in der Aktionswoche anbietet. | Zum L10 gehören ein Ladekabel und Halterungen. Das Netzteil ist nicht enthalten (M2). |
+| `BFSDUAL-LF06-LS06-B10` | Aussagencheck | Ein Abgleich, bei dem ihr eine Werbeaussage mit ihrer Quelle vergleicht und sie danach freigebt, präzisiert oder streicht. | Ein Vergleich, mit dem ihr die eindrucksvollste Werbeüberschrift auswählt. | Eine Prüfung, ob die Aktionsfläche groß genug für beide Werbeformate ist. | Der Entwurf nennt bei der P50 eine Druckanzeige. Laut Produktblatt hat sie kein Manometer. Daher wird die Aussage gestrichen (M2, M3, M5). |
 
 ### Planen
 
@@ -857,14 +925,14 @@ Ein Newsletter-Ausschnitt für das Fahrradfachgeschäft und ein Eingangsschild f
 | [Werbemittel](Glossare/LS_6_6_Glossar.md#werbemittel) | Newsletter-Ausschnitt für das Handy | Eingangsschild im Hochformat |
 | [Zielgruppe](Glossare/LS_6_6_Glossar.md#zielgruppe) | Alltagsradelnde, die Zubehör passend zu ihrem eigenen Fahrrad suchen | Familien und Freizeitradelnde, die sich vor Ort schnell orientieren möchten |
 | Nutzen und Aufforderung | Auf passende Beratung hinweisen und zur Aktionsfläche im Laden einladen | Zum Selbstvergleichen der Produkte an der markierten Aktionsfläche im Hauptgang einladen |
-| Umfang | Eine Betreffzeile, ein kurzer Absatz mit bis zu 75 Wörtern und eine klare Aufforderung | Eine gut lesbare Überschrift als [Blickfang](Glossare/LS_6_6_Glossar.md#blickfang), wenige eindeutige Angaben und ein Weghinweis |
+| Umfang | Eine [Betreffzeile](Glossare/LS_6_6_Glossar.md#betreffzeile), ein kurzer Absatz mit bis zu 75 Wörtern und eine klare Aufforderung | Eine gut lesbare Überschrift als [Blickfang](Glossare/LS_6_6_Glossar.md#blickfang), wenige eindeutige Angaben und ein Weghinweis |
 | Artikel | L10 LED-Lichtset und T30 Rahmentasche | P50 Minipumpe und B80 Reflektorband |
 
-Die gemeinsame [Werbebotschaft](Glossare/LS_6_6_Glossar.md#werbebotschaft) lautet **„Frühjahrsstart mit Fahrradzubehör von Global Bike“**. Die Aktion läuft in beiden Geschäften von Montag bis Samstag derselben Woche. Global Bike stellt Produktdaten bereit. Preisangaben sind in diesem Auftrag nicht vorgesehen. Als Bildmaterial stehen beschriftete neutrale Produktabbildungen oder eigene Produktzeichnungen zur Verfügung. Zeigt nur Ausstattung, die laut Produktblatt tatsächlich enthalten ist.
+Die gemeinsame [Werbebotschaft](Glossare/LS_6_6_Glossar.md#werbebotschaft) lautet **„Frühjahrsstart mit Fahrradzubehör von Global Bike“**. Die Aktion läuft in beiden Geschäften von Montag bis Samstag derselben Woche. Global Bike stellt Produktdaten bereit. Preisangaben sind in diesem Auftrag nicht vorgesehen. Als Bildmaterial stehen beschriftete neutrale Produktabbildungen oder eigene Produktzeichnungen zur Verfügung. Zeigt nur Ausstattung, die laut [Produktblatt](Glossare/LS_6_6_Glossar.md#produktblatt) tatsächlich enthalten ist.
 
 #### M2 · Geprüfte Produktblätter des Modellunternehmens
 
-| Artikel | Gesicherte Angaben | Lieferumfang |
+| Artikel | Gesicherte Angaben | [Lieferumfang](Glossare/LS_6_6_Glossar.md#lieferumfang) |
 | --- | --- | --- |
 | **L10 LED-Lichtset** | Vorder- und Rückleuchte, über USB-C wiederaufladbar. Die Frontbefestigung ist für runde Lenker mit 22–32 mm Durchmesser vorgesehen. | Vorder- und Rückleuchte, Halterungen sowie ein USB-C-Ladekabel. Ein Netzteil gehört nicht zum Set. |
 | **T30 Rahmentasche** | Volumen 1,2 Liter. Befestigung mit verstellbaren Klettbändern. Material wasserabweisend. Der Platz im Rahmendreieck lässt sich im Fachgeschäft prüfen. | Eine Rahmentasche mit Befestigungsbändern. |
@@ -887,7 +955,7 @@ Die gemeinsame [Werbebotschaft](Glossare/LS_6_6_Glossar.md#werbebotschaft) laute
 
 Zeichnet einen Handyrahmen, der auf ein Blatt A5 passt, und daneben den Umriss eines Eingangsschilds im Hochformat auf ein Blatt A4. Schneidet oder faltet für jedes Format je einen verschiebbaren Papierstreifen für **Überschrift**, **gemeinsame Botschaft**, **Bild mit Artikelnummer**, **[belegbare Produktaussage](Glossare/LS_6_6_Glossar.md#belegbare-produktaussage)**, **Aktionszeitraum** und **[Handlungsaufforderung](Glossare/LS_6_6_Glossar.md#handlungsaufforderung) mit Standort oder Weg**. Verwendet für weitere Angaben leere Streifen. Probiert die Anordnung im Handyrahmen aus und betrachtet das Schild aus einigen Schritten Entfernung.
 
-| Aussagencheck für beide Medien | Eintrag |
+| [Aussagencheck](Glossare/LS_6_6_Glossar.md#aussagencheck) für beide Medien | Eintrag |
 | --- | --- |
 | Werbeaussage, wie sie im Entwurf steht | Abschreiben oder markieren |
 | Beleg aus dem Produktblatt | Artikelnummer und passende Angabe notieren |
@@ -899,6 +967,12 @@ Zeichnet einen Handyrahmen, der auf ein Blatt A5 passt, und daneben den Umriss e
 - **Zielgruppe.** Die Personen, für deren Interessen und Situation ein Werbemittel gestaltet wird.
 - **Belegbare Produktaussage.** Eine Aussage zur Eigenschaft, Eignung oder Ausstattung, die durch eine überprüfbare Produktangabe gedeckt ist.
 - **Handlungsaufforderung.** Ein Hinweis an die Kundschaft, welcher konkrete nächste Schritt möglich oder gewünscht ist.
+- **Blickfang.** Ein Element, das bei einem Werbemittel zuerst ins Auge fällt.
+- **Werbemittel.** Die konkret gestaltete Werbung mit Text, Bild oder Ton.
+- **Betreffzeile.** Die Zeile einer E-Mail, die im Posteingang ankündigt, worum es in der Nachricht geht.
+- **Produktblatt.** Eine Unterlage mit überprüften Angaben zu einem bestimmten Artikel.
+- **Lieferumfang.** Die Teile, die beim Kauf eines Artikels tatsächlich mitgeliefert werden.
+- **Aussagencheck.** Ein Abgleich, bei dem ihr eine Werbeaussage mit ihrer Quelle vergleicht und sie danach freigebt, präzisiert oder streicht.
 
 ## LS 6.7 · Die Entwürfe vor der Freigabe prüfen
 
@@ -939,7 +1013,7 @@ Beim Blick auf den Plan des Sportfachmarkts fragt ein Kollege: „Welchen Eingan
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -947,6 +1021,12 @@ Beim Blick auf den Plan des Sportfachmarkts fragt ein Kollege: „Welchen Eingan
 | `BFSDUAL-LF06-LS07-B02` | Verständlichkeit | Wie gut eine Person den gemeinten Inhalt einer Information erfasst. | Wie schnell eine Person vom Eingang zur richtigen Regalfläche kommt. | Wie viele Werbemittel ein Laden während der Aktion einsetzt. | Die Wiedergabe der Botschaft in eigenen Worten zeigt, was aus der Werbung angekommen ist (M3). |
 | `BFSDUAL-LF06-LS07-B03` | Neutrale Testanleitung | Eine Aufgabenbeschreibung, die Ziel und Start klärt und den Weg der Testperson offenlässt. | Eine Wegbeschreibung, die bereits das richtige Regal nennt. | Eine Rückfrage, die der Testperson die erwartete Werbebotschaft vorsagt. | Im Test entscheidet die Person selbst, wo sie die Pumpe zuerst sucht (M3). |
 | `BFSDUAL-LF06-LS07-B04` | Beobachtung | Ein konkret wahrnehmbares Verhalten oder eine tatsächliche Äußerung aus dem Test. | Eine Vermutung darüber, warum eine Person falsch abgebogen ist. | Eine vorgeschlagene Änderung am Flächenplan. | „Die Person zeigte auf die alte Zubehörinsel und fragte nach der P50“ lässt sich direkt protokollieren (M5). |
+| `BFSDUAL-LF06-LS07-B05` | Praxistest | Eine Erprobung, bei der jemand eine typische Aufgabe aus der Situation ausführt. | Eine Besprechung, in der das Team allein über die Entwürfe entscheidet. | Eine Befragung dazu, welche Farben der Kundschaft gefallen. | Im Markt sieht die Testperson das Schild und sucht vom Eingang aus die Minipumpe (M2, M3). |
+| `BFSDUAL-LF06-LS07-B06` | Testprotokoll | Eine Übersicht über den Ablauf, die Beobachtungen und mögliche Folgerungen aus einem Test. | Eine Übersicht, die vor dem Test den richtigen Weg ins Regal vorgibt. | Eine Übersicht über verkaufte Artikel und den erzielten Erlös. | Der gewählte Weg und die wiedergegebene Werbebotschaft stehen im selben Protokoll (M5). |
+| `BFSDUAL-LF06-LS07-B07` | Vorführmuster | Ein Exemplar, mit dem das Personal die Anwendung eines Artikels zeigen kann. | Ein Aufkleber, der die passende Zubehörgruppe im Laden kennzeichnet. | Ein Werbebild, auf dem alle Artikel der Aktion zu sehen sind. | Das Personal zeigt die Befestigung des Lichtsets am Beratungsplatz. Die Ware zur Auswahl liegt am Wandregal (M1). |
+| `BFSDUAL-LF06-LS07-B08` | Werbeentwurf | Eine vorbereitete Fassung eines Werbemittels, die vor der Freigabe geprüft und geändert werden kann. | Eine Zeichnung, die den Flächenaufbau und die Wege durch das Geschäft zeigt. | Eine Liste, in der das Team das Verhalten der Testpersonen notiert. | Der Text des Eingangsschilds ist ein Werbeentwurf. Das Team kann den Hinweis auf die grüne Markierung nach dem Test ändern (M2, M3). |
+| `BFSDUAL-LF06-LS07-B09` | Werbebotschaft | Die zentrale Aussage, die eine Werbung der Kundschaft vermitteln soll. | Der konkrete Weg, den eine Testperson bei der Produktsuche nimmt. | Der Platz, an dem das Geschäft ein Werbemittel veröffentlicht. | Das Eingangsschild wirbt für Fahrradzubehör zum Frühjahrsstart. Die Testperson gibt die Botschaft in eigenen Worten wieder (M2, M3). |
+| `BFSDUAL-LF06-LS07-B10` | Fundstelle | Der Ort, an dem eine Person den gesuchten Artikel tatsächlich findet. | Der Eingang, an dem die Testperson mit ihrer Suche beginnt. | Die erste Stelle, an der eine Testperson nach dem Artikel schaut. | Die Suche beginnt am Eingang. Bei der P50 kann die neue Aktionsgondel die Fundstelle sein (M2, M3, M5). |
 
 ### Planen
 
@@ -997,7 +1077,7 @@ Schematischer Ausschnitt des Flächenplans. Die Buchstaben bezeichnen Spalten vo
 | 2 | Lichtset L10 und Schloss S20 am Wandregal | Freier Gang | Rahmentasche T30 und Sattelüberzug R40 |
 | 1 | Schaufenster | Eingang von der Straße | Kasse |
 
-Wortlaut der Beschilderung. Am Beratungsplatz „Beratung“, am Wandregal „Zubehör“. Das L10 in Reihe 2 ist die Ware zur Auswahl. Am Beratungsplatz zeigt das Personal ein Vorführmuster bei Bedarf.
+Wortlaut der Beschilderung. Am Beratungsplatz „Beratung“, am Wandregal „Zubehör“. Das L10 in Reihe 2 ist die Ware zur Auswahl. Am Beratungsplatz zeigt das Personal ein [Vorführmuster](Glossare/LS_6_7_Glossar.md#vorf%C3%BChrmuster) bei Bedarf.
 
 #### M2 · Eingangsschild und Flächenentwurf des Sportfachmarkts
 
@@ -1014,7 +1094,7 @@ Schematischer Ausschnitt des Flächenplans. Die alte Zubehörinsel und die neue 
 
 #### M3 · Testanleitung und Vorlesefassung
 
-Der [Praxistest](Glossare/LS_6_7_Glossar.md#praxistest) beginnt bei Feld B1 im Plan des jeweiligen Standorts. Gebt jeder Testperson den zugehörigen Werbeentwurf und den zugehörigen Plan oder das dazu passende Modell. Für die Prüfung der [Auffindbarkeit](Glossare/LS_6_7_Glossar.md#auffindbarkeit) wird im Fachgeschäft das L10 gesucht und im Sportfachmarkt die P50.
+Der [Praxistest](Glossare/LS_6_7_Glossar.md#praxistest) beginnt bei Feld B1 im Plan des jeweiligen Standorts. Gebt jeder Testperson den zugehörigen [Werbeentwurf](Glossare/LS_6_7_Glossar.md#werbeentwurf) und den zugehörigen Plan oder das dazu passende Modell. Für die Prüfung der [Auffindbarkeit](Glossare/LS_6_7_Glossar.md#auffindbarkeit) wird im Fachgeschäft das L10 gesucht und im Sportfachmarkt die P50.
 
 **[Neutrale Testanleitung](Glossare/LS_6_7_Glossar.md#neutrale-testanleitung) zum Vorlesen.**
 
@@ -1032,7 +1112,7 @@ Zeichnet die Raster aus M1 und M2 auf ein Blatt oder markiert sie mit Klebeband.
 
 Haltet die Ergebnisse für jedes Geschäft im [Testprotokoll](Glossare/LS_6_7_Glossar.md#testprotokoll) fest.
 
-| Standort und Testperson (Kürzel) | Gewählter Weg und Fundstelle | Werbebotschaft in eigenen Worten | [Beobachtung](Glossare/LS_6_7_Glossar.md#beobachtung) zum Problem oder gelungenen Punkt | Änderung und Begründung |
+| Standort und Testperson (Kürzel) | Gewählter Weg und [Fundstelle](Glossare/LS_6_7_Glossar.md#fundstelle) | [Werbebotschaft](Glossare/LS_6_7_Glossar.md#werbebotschaft) in eigenen Worten | [Beobachtung](Glossare/LS_6_7_Glossar.md#beobachtung) zum Problem oder gelungenen Punkt | Änderung und Begründung |
 | --- | --- | --- | --- | --- |
 | Fachgeschäft | | | | |
 | Sportfachmarkt | | | | |
@@ -1043,6 +1123,12 @@ Haltet die Ergebnisse für jedes Geschäft im [Testprotokoll](Glossare/LS_6_7_Gl
 - **Verständlichkeit.** Wie gut eine Person den gemeinten Inhalt einer Information erfasst.
 - **Neutrale Testanleitung.** Eine Aufgabenbeschreibung, die Ziel und Start klärt und den Weg der Testperson offenlässt.
 - **Beobachtung.** Ein konkret wahrnehmbares Verhalten oder eine tatsächliche Äußerung aus dem Test.
+- **Praxistest.** Eine Erprobung, bei der jemand eine typische Aufgabe aus der Situation ausführt.
+- **Testprotokoll.** Eine Übersicht über den Ablauf, die Beobachtungen und mögliche Folgerungen aus einem Test.
+- **Vorführmuster.** Ein Exemplar, mit dem das Personal die Anwendung eines Artikels zeigen kann.
+- **Werbeentwurf.** Eine vorbereitete Fassung eines Werbemittels, die vor der Freigabe geprüft und geändert werden kann.
+- **Werbebotschaft.** Die zentrale Aussage, die eine Werbung der Kundschaft vermitteln soll.
+- **Fundstelle.** Der Ort, an dem eine Person den gesuchten Artikel tatsächlich findet.
 
 ## LS 6.8 · Über die Fortführung der Aktion entscheiden
 
@@ -1083,7 +1169,7 @@ Jana stellt euch den Aktionsbericht mit vergleichbaren Absatzdaten, Kundenrückm
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem Fachbegriff die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -1091,6 +1177,12 @@ Jana stellt euch den Aktionsbericht mit vergleichbaren Absatzdaten, Kundenrückm
 | `BFSDUAL-LF06-LS08-B02` | Vergleichswoche | Ein geeigneter früherer Zeitraum, dessen Daten als Ausgangswert dienen. | Die Woche, für die das Team bereits die Folgeaktion plant. | Die Aktionswoche des Ladens mit der größeren Verkaufsfläche. | Beide Wochen im Bericht umfassen sechs reguläre Öffnungstage. Der Bezugswert kommt jeweils aus demselben Laden (M1 und M2). |
 | `BFSDUAL-LF06-LS08-B03` | Zielerreichung | Das Ergebnis des Vergleichs zwischen dem tatsächlichen Wert und dem vorher festgelegten Zielwert. | Der Unterschied zwischen den gesamten Absatzmengen der beiden Läden. | Die Zahl positiver Kundenrückmeldungen in der Aktionswoche. | Das Ziel beträgt mindestens 20 Prozent Zuwachs je Standort. Das Fachgeschäft erreicht 15 Prozent, der Sportfachmarkt 25 Prozent (M1, M2 und M5). |
 | `BFSDUAL-LF06-LS08-B04` | Begründete Empfehlung | Ein konkreter Vorschlag, der sich nachvollziehbar auf Zahlen oder Fallbelege stützt. | Ein allgemeiner Wunsch nach mehr Absatz beim nächsten Mal. | Eine Liste von Verkaufszahlen ohne Folgerung für die nächste Aktion. | Eine Empfehlung zur Beschilderung kann sich auf die Rückmeldung zur fehlenden Angabe bei den Rahmentaschen stützen (M3). |
+| `BFSDUAL-LF06-LS08-B05` | Kundenrückmeldung | Eine Äußerung dazu, wie eine Person das Angebot oder den Einkauf erlebt hat. | Eine Kennzahl, die die Kasse für jeden verkauften Artikel erfasst. | Eine Vorgabe, mit der Global Bike vor dem Start sein Absatzziel festlegt. | Eine Kundin oder ein Kunde berichtet, dass beim Vergleich der Rahmentaschen eine Angabe zur Rahmengröße fehlte (M3). |
+| `BFSDUAL-LF06-LS08-B06` | Prozentuale Absatzveränderung | Sie gibt an, um wie viel Prozent die verkaufte Stückzahl gegenüber dem Ausgangswert gestiegen oder gesunken ist. | Sie gibt an, wie viele Stück in der Aktionswoche zusätzlich verkauft wurden. | Sie gibt an, wie viel Prozent aller verkauften Artikel ein Standort verkauft hat. | Der Sportfachmarkt verkauft 15 Stück mehr als in seiner Vergleichswoche. Bezogen auf 60 Stück ergibt das 25 % Zuwachs (M2, M5). |
+| `BFSDUAL-LF06-LS08-B07` | Aktionssortiment | Die Gesamtheit der Artikel, die zu der befristeten Verkaufsaktion gehören. | Sämtliche Waren, die ein Laden dauerhaft anbietet. | Ausschließlich die Artikel, die in beiden Geschäften angeboten werden. | Zum Aktionssortiment des Fahrradfachgeschäfts gehören die vier gemeinsamen Artikel und der Sattelüberzug (M1). |
+| `BFSDUAL-LF06-LS08-B08` | Kernsortiment | Die zentralen Artikel, die bei dieser gemeinsamen Aktion beide Läden anbieten. | Die Artikel, die ausschließlich einer der beiden Läden zur Aktion anbietet. | Die Artikel, die nach der Aktion die meisten Kundenrückmeldungen erhalten haben. | Die Minipumpe P50 gehört zum Kernsortiment und erscheint deshalb in beiden Standortspalten (M1). |
+| `BFSDUAL-LF06-LS08-B09` | Lokale Sortimentsergänzung | Ein zusätzlicher Artikel, den ein Laden aufgrund der Nachfrage vor Ort anbietet. | Ein Artikel, der in beiden Geschäften verpflichtend verkauft wird. | Ein Artikel aus dem regulären Angebot, der außerhalb der Aktion verkauft wird. | Der Sattelüberzug R40 ergänzt das gemeinsame Angebot im Fahrradfachgeschäft (M1). |
+| `BFSDUAL-LF06-LS08-B10` | Platzierung | Die Entscheidung, wo und wie Artikel auf der Verkaufsfläche angeboten werden. | Die Entscheidung, in welcher Woche beide Partner ihr Zubehör bewerben. | Die Entscheidung, welche Artikel zum gemeinsamen Sortiment gehören. | Die beiden Aktionsgondeln im Sportfachmarkt und die Warenträger im Fachgeschäft zeigen unterschiedliche Platzierungen (M1). |
 
 ### Planen
 
@@ -1130,13 +1222,13 @@ Eine Entscheidungsvorlage für beide Standorte mit korrektem Absatzvergleich, Ur
 
 #### M1 · Aktionsbericht von Global Bike
 
-Vergleichs- und Aktionswoche umfassen je sechs reguläre Öffnungstage. Das Ziel lautet **mindestens 20 % mehr verkaufte Stücke im jeweiligen Aktionssortiment je Standort** gegenüber der [Vergleichswoche](Glossare/LS_6_8_Glossar.md#vergleichswoche). In beiden Wochen waren alle aufgeführten Artikel lieferbar. Die Angaben bilden einen simulierten Fall ab.
+Vergleichs- und Aktionswoche umfassen je sechs reguläre Öffnungstage. Das Ziel lautet **mindestens 20 % mehr verkaufte Stücke im jeweiligen [Aktionssortiment](Glossare/LS_6_8_Glossar.md#aktionssortiment) je Standort** gegenüber der [Vergleichswoche](Glossare/LS_6_8_Glossar.md#vergleichswoche). In beiden Wochen waren alle aufgeführten Artikel lieferbar. Die Angaben bilden einen simulierten Fall ab.
 
 | Merkmal | Fahrradfachgeschäft Innenstadt | Sportfachmarkt Stadtrand |
 | --- | --- | --- |
-| Kernsortiment | L10 LED-Lichtset, S20 Bügelschloss, T30 Rahmentasche, P50 Minipumpe | L10 LED-Lichtset, S20 Bügelschloss, T30 Rahmentasche, P50 Minipumpe |
-| Lokale Ergänzung | R40 Sattelüberzug | F60 Flaschenhalter und B80 Reflektorband |
-| Platzierung | Zubehör an Warenträgern, Vorführung am Beratungsplatz | Zwei Aktionsgondeln zur Selbstbedienung mit Produktkarten |
+| [Kernsortiment](Glossare/LS_6_8_Glossar.md#kernsortiment) | L10 LED-Lichtset, S20 Bügelschloss, T30 Rahmentasche, P50 Minipumpe | L10 LED-Lichtset, S20 Bügelschloss, T30 Rahmentasche, P50 Minipumpe |
+| [Lokale Sortimentsergänzung](Glossare/LS_6_8_Glossar.md#lokale-sortimentserg%C3%A4nzung) | R40 Sattelüberzug | F60 Flaschenhalter und B80 Reflektorband |
+| [Platzierung](Glossare/LS_6_8_Glossar.md#platzierung) | Zubehör an Warenträgern, Vorführung am Beratungsplatz | Zwei Aktionsgondeln zur Selbstbedienung mit Produktkarten |
 | Werbung | Newsletter am Montag mit Einladung zur Beratung | Eingangsschild ab Freitag mit Hinweis auf das Zubehör für die nächste Tour |
 
 #### M2 · Absatzmengen in Stück
@@ -1188,3 +1280,9 @@ Haltet je Standort und Bereich eine [begründete Empfehlung](Glossare/LS_6_8_Glo
 - **Vergleichswoche.** Ein geeigneter früherer Zeitraum, dessen Daten als Ausgangswert dienen.
 - **Zielerreichung.** Das Ergebnis des Vergleichs zwischen dem tatsächlichen Wert und dem vorher festgelegten Zielwert.
 - **Begründete Empfehlung.** Ein konkreter Vorschlag, der sich nachvollziehbar auf Zahlen oder Fallbelege stützt.
+- **Kundenrückmeldung.** Eine Äußerung dazu, wie eine Person das Angebot oder den Einkauf erlebt hat.
+- **Prozentuale Absatzveränderung.** Sie gibt an, um wie viel Prozent die verkaufte Stückzahl gegenüber dem Ausgangswert gestiegen oder gesunken ist.
+- **Aktionssortiment.** Die Gesamtheit der Artikel, die zu der befristeten Verkaufsaktion gehören.
+- **Kernsortiment.** Die zentralen Artikel, die bei dieser gemeinsamen Aktion beide Läden anbieten.
+- **Lokale Sortimentsergänzung.** Ein zusätzlicher Artikel, den ein Laden aufgrund der Nachfrage vor Ort anbietet.
+- **Platzierung.** Die Entscheidung, wo und wie Artikel auf der Verkaufsfläche angeboten werden.

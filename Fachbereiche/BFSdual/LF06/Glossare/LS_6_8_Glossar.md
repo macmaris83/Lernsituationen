@@ -8,17 +8,41 @@ Die Zahl der verkauften Einheiten eines Artikels oder Sortiments in einem Zeitra
 
 **Beispiel.** Der Absatz der P50 wird im Bericht in Stück angegeben (M2).
 
+## Aktionssortiment
+
+Die Gesamtheit der Artikel, die zu der befristeten Verkaufsaktion gehören.
+
+**Beispiel.** Zum Aktionssortiment des Fahrradfachgeschäfts gehören die vier gemeinsamen Artikel und der Sattelüberzug (M1).
+
 ## Begründete Empfehlung
 
 Ein konkreter Vorschlag, der sich nachvollziehbar auf Zahlen oder Fallbelege stützt.
 
 **Beispiel.** Wer eine zusätzliche Produktangabe anregt, kann dazu eine passende Kundenrückmeldung anführen (M3).
 
+## Kernsortiment
+
+Die zentralen Artikel, die bei dieser gemeinsamen Aktion beide Läden anbieten.
+
+**Beispiel.** Die Minipumpe P50 gehört zum Kernsortiment und erscheint deshalb in beiden Standortspalten (M1).
+
 ## Kundenrückmeldung
 
 Eine Äußerung dazu, wie eine Person das Angebot oder den Einkauf erlebt hat.
 
 **Beispiel.** Eine Person berichtet, dass ihr beim Vergleich der Rahmentaschen eine Angabe zur Rahmengröße fehlte (M3).
+
+## Lokale Sortimentsergänzung
+
+Ein zusätzlicher Artikel, den ein Laden aufgrund der Nachfrage vor Ort anbietet.
+
+**Beispiel.** Der Sattelüberzug R40 ergänzt das gemeinsame Angebot im Fahrradfachgeschäft (M1).
+
+## Platzierung
+
+Die Entscheidung, wo und wie Artikel auf der Verkaufsfläche angeboten werden.
+
+**Beispiel.** Die beiden Aktionsgondeln im Sportfachmarkt und die Warenträger im Fachgeschäft zeigen unterschiedliche Platzierungen (M1).
 
 ## Prozentuale Absatzveränderung
 

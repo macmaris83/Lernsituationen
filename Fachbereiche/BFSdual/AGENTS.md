@@ -4,4 +4,4 @@ Verwende für jede neue oder überarbeitete BFSdual-Lernsituation die gemeinsame
 
 Die drei gleichwertigen Lernpakete werden zu Beginn von **Entscheiden** gewählt. Die vorangehenden Stationen arbeiten mit gemeinsamen Fallunterlagen. Jede Lernsituation hat einen vollständigen eigenen Fall und ein abschließendes Handlungsprodukt.
 
-Jede LS erhält ein eigenes Glossar. Verlinke die Begriffe aus dem Fachbegriffscheck und weitere hilfreiche Fachbegriffe direkt im Material, wo sie im Fall sinnvoll gebraucht werden. Der Glossarlink ist mit dem jeweiligen Material zugänglich. Die Umsetzung folgt der gemeinsamen LS-Vorlage.
+Jeder Fachbegriffscheck umfasst mindestens 10 und höchstens 20 unterschiedliche Begriffe. Jede LS erhält ein eigenes Glossar. Verlinke die Begriffe aus dem Fachbegriffscheck und weitere hilfreiche Fachbegriffe direkt im Material, wo sie im Fall sinnvoll gebraucht werden. Der Glossarlink ist mit dem jeweiligen Material zugänglich. Die Umsetzung folgt der gemeinsamen LS-Vorlage.
