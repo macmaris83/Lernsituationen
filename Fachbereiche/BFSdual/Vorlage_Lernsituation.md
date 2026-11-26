@@ -9,34 +9,34 @@
 **Formgrundlage:** [Gemeinsamer Formmaster 1.8.8](../../Formmaster/README.md)  
 **SCORM-Referenz für Aufbau und Kompetenznetz:** `BRC_LG01_LS04_v1.8.15_SCORM12.zip`
 
-Diese Vorlage gilt für **alle Lernfelder der BFSdual**. Übernehmt die acht Stationen mit dem ergänzenden Fachbegriffscheck und füllt die Platzhalter für den jeweiligen Fall aus. Dieselbe Lernsituation muss auch mit einer neu zusammengesetzten Gruppe startklar sein. Sie bringt alle nötigen Informationen, Unterlagen und Materialien mit und endet mit einem eigenen Handlungsprodukt. Zusammenhängende Fälle können Figuren und beruflichen Kontext teilen. Fachliche Ausgangsentscheidungen aus der Geschichte stehen bei Bedarf als Unterlage im aktuellen Fall bereit.
+Diese Vorlage gilt für **alle Lernfelder der BFSdual**. Nutzt die acht Stationen und den Fachbegriffscheck. Füllt die Platzhalter für den aktuellen Fall aus. Jede LS enthält ihre eigenen Aufgaben und Materialien. Auch ein neues Team kann sie von Anfang bis Ende bearbeiten. Wenn vorherige Entscheidungen für den Fall wichtig sind, legt sie als Material bei.
 
 ## Orientierung
 
 ### Warum wir das lernen
 
-[Schreibt zwei bis vier kurze Sätze direkt an die Lernenden. Beginnt mit einem konkreten Erlebnis aus ihrem Alltag oder Praktikum, das unmittelbar zur Handlungssituation passt. Greift einen Ort, einen Gegenstand oder eine Frage aus dem Fall auf. Nennt im letzten Satz die Entscheidung oder Aufgabe aus der Handlungssituation und zeigt, was die Lernenden dabei für sich oder andere besser entscheiden, einschätzen oder tun können.]
+[Schreibt zwei bis vier kurze Sätze an die Lernenden. Beginnt mit einem Erlebnis aus ihrem Alltag oder Praktikum. Greift einen Ort, einen Gegenstand oder eine Frage aus dem Fall auf. Zeigt am Schluss, was die Lernenden im Fall tun und wofür ihnen das hilft.]
 
 ### Kompetenzprofil und Kompetenznetz
 
 **Vorrangige Fachkompetenz · [1–6] von 6**
 
-Ich [beschreibe die konkrete fachliche Handlung, die ich in dieser LS ausführe, und woran eine gute Ausführung erkennbar ist].
+Ich kann [eine konkrete Aufgabe lösen]. Ich zeige das, indem ich [sichtbares Ergebnis oder fachlichen Beleg nennen].
 
 [Wenn die LS mehrere eigenständige fachliche Schwerpunkte hat, nennt sie hier einzeln als konkrete Ich-Formulierungen.]
 
-Die Skala von **1 bis 6** zeigt, wie stark die verbindlichen Aufgaben einer LS jede Kompetenz ansteuern. Wählt die Werte anhand der Aufgaben und des Handlungsprodukts. Sie gelten für alle drei Lernpakete.
+Die Zahlen von **1 bis 6** zeigen, wie stark ihr die jeweilige Kompetenz in dieser LS übt. Die Werte gelten für alle drei Lernpakete. [Legt die Werte anhand der Aufgaben und des Handlungsprodukts fest.]
 
 | Wert | Wie stark wird die Kompetenz angesteuert? |
 | ---: | --- |
-| 1 | Sie spielt in einer Aufgabe am Rande eine Rolle. |
-| 2 | Sie wird in einer kurzen Teilhandlung gebraucht. |
-| 3 | Sie begleitet die Bearbeitung wiederholt. |
-| 4 | Sie wird in mehreren Phasen gezielt geübt. |
-| 5 | Sie ist für das Handlungsprodukt oder seine Prüfung wesentlich. |
-| 6 | Sie prägt die Lernsituation von der Vorbereitung bis zur Auswertung. |
+| 1 | Ihr braucht sie kurz in einer Aufgabe. |
+| 2 | Ihr übt sie in einem Teil einer Aufgabe. |
+| 3 | Ihr nutzt sie an mehreren Stellen. |
+| 4 | Ihr übt sie gezielt in mehreren Phasen. |
+| 5 | Ihr braucht sie für euer Handlungsprodukt oder für die Prüfung des Ergebnisses. |
+| 6 | Ihr übt sie von der Vorbereitung bis zur Auswertung. |
 
-| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| Kompetenz | Wie stark? (1–6) | Das übe ich in dieser LS | Woran merkt ihr das? |
 | --- | ---: | --- | --- |
 | Personalkompetenz | [1–6] | Ich [plane, prüfe oder begründe mein Vorgehen]. | [Beobachtbare Handlung] |
 | Sozialkompetenz | [1–6] | Ich [stimme mich ab, höre zu oder nutze Rückmeldungen]. | [Beobachtbare Handlung] |
@@ -45,51 +45,51 @@ Die Skala von **1 bis 6** zeigt, wie stark die verbindlichen Aufgaben einer LS j
 
 ## Handlungssituation
 
-[Erzählt eine kurze berufliche Szene mit einem konkreten Problem. Benennt Anlass, Ausgangslage und Rolle der Lernenden. Lasst möglichst zwei oder mehr Beteiligte mit unterschiedlichen, fachlich nachvollziehbaren Anliegen aufeinandertreffen. Zeigt an einer Beobachtung, einem Widerspruch in den Unterlagen oder einer Frist, was auf dem Spiel steht. Bei Global Bike nutzt ihr nach Möglichkeit Personen und Funktionen aus dem Organigramm. Übergebt dem Team die offene Entscheidung und macht deutlich, wer das Handlungsprodukt wofür braucht. Fügt alle nötigen Unterlagen für diesen Fall bei.]
+[Erzählt eine kurze Szene aus dem Betrieb. Wer ist dabei? Was wollen die Beteiligten jeweils und wo entsteht das Problem? Bei Global Bike nutzt ihr nach Möglichkeit Namen und Aufgaben aus dem Organigramm. Macht deutlich, was die Lernenden entscheiden sollen und wer das Ergebnis braucht. Legt die nötigen Unterlagen bei.]
 
 ### Kurz prüfen · Handlungssituation
 
-Direkt auf die Handlungssituation folgen **drei bis sechs kurze Fragen oder Aufgaben zum Leseverständnis**. Die Antworten ergeben sich aus dem Falltext. Jede Frage hat eine aufklappbare Hilfe, etwa einen Suchhinweis, eine Lesestrategie oder einen Satzanfang. Die Lernenden formulieren die Antwort selbst. Das folgende Muster mit vier Fragen wird an den jeweiligen Fall angepasst.
+Stellt nach der Szene **drei bis sechs Fragen zum Text**. Der Text enthält alle Antworten. Gebt zu jeder Frage eine aufklappbare Hilfe. Sie kann auf einen Absatz zeigen oder einen Satzanfang anbieten. Die Lernenden schreiben die Antwort selbst. Passt die Fragen an den Fall an.
 
-**1. Wer ist beteiligt und welche Rolle hat die Person im Fall?**
+**1. Wer kommt im Fall vor? Welche Aufgabe hat diese Person?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im Einstieg den Namen der Person und die Stelle, an der ihre Aufgabe oder Funktion genannt wird.
+Lest den ersten Absatz. Sucht den Namen und die Aufgabe der Person.
 
 </details>
 
-**2. Welche Anliegen treffen aufeinander und wodurch entsteht das Problem?**
+**2. Was wollen die Beteiligten? Wo liegt das Problem?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht die Stelle, an der die Beteiligten sagen oder zeigen, was ihnen wichtig ist. Ergänzt „[Name] möchte …, [Name] achtet darauf, dass …. Das führt zu einem Problem, weil …“.
+Lest, was die Personen sagen. Beginnt mit „[Name] möchte … Für [Name] ist wichtig, dass … Das Problem ist …“.
 
 </details>
 
-**3. Welche konkrete Vorgabe muss das Team berücksichtigen?**
+**3. Welche Vorgabe muss das Team beachten?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im Text nach einer Frist, einer Begrenzung oder einer verbindlichen Bedingung. Nennt die Vorgabe mit dem Detail aus der Szene.
+Sucht nach einer Uhrzeit, einem Datum, einem Maß oder einer Anweisung. Schreibt auf, woran sich das Team halten muss.
 
 </details>
 
-**4. Was soll das Team in dieser Situation entscheiden oder vorbereiten?**
+**4. Was soll das Team entscheiden oder vorbereiten?**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest die letzte Bitte oder Aussage der Ansprechperson erneut. Ergänzt „Das Team soll …, damit …“.
+Lest am Ende der Szene nach, was die Person vom Team braucht. Beginnt mit „Das Team soll …, damit …“.
 
 </details>
 
 ## Informieren
 
-**Entnehmt** den gemeinsamen Fallmaterialien [M-Nummern und Titel] die Angaben, die für [fachliche Fragestellung] wichtig sind. Haltet [konkrete Fakten oder Belege] fest.
+**Sucht** in [M-Nummer und Titel] die Angaben zu [fachliche Frage]. **Notiert** [Angaben und Belege, die ihr später braucht].
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -107,7 +107,7 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 
 ## Planen
 
-**Skizziert** mögliche Vorgehensweisen oder Lösungen. Haltet fest, welche Vorgaben, Belege und Entscheidungskriterien ihr später prüfen müsst.
+**Skizziert** eure Ideen. Haltet mit Stichworten oder einer Zeichnung fest, wie ihr vorgehen könnt. **Notiert**, welche Vorgaben ihr beachten müsst und woran ihr eine passende Lösung erkennt.
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -115,11 +115,11 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 
 ### Lernpaket wählen
 
-**Wählt** einen der drei Arbeitswege. Achtet darauf, welcher euch bei der fachlichen Entscheidung am besten hilft. Sichert bei der Bearbeitung ein Zwischenergebnis eures Lernpakets und einen Fallbeleg für den Abschlusspitch.
+**Wählt** einen der drei Arbeitswege. Überlegt, welcher Weg euch bei der Entscheidung am besten hilft. **Haltet** beim Arbeiten ein Zwischenergebnis und einen Beleg für den Pitch fest. Ein Beleg kann zum Beispiel eine Zahl, ein Maß oder eine Kundenstimme sein.
 
 **Gemeinsames Fachziel und Handlungsprodukt.** [Benennt die konkrete vorrangige Fachkompetenz der LS. Sagt, welche Entscheidung die Lernenden treffen oder prüfen, welche Belege sie dabei sichern und welches gemeinsame Handlungsprodukt entsteht. Für alle drei Pakete gelten dieselben Aufgabenanforderungen, Fallvorgaben und Bewertungskriterien.]
 
-| Lernpaket | Lernzugänge | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| Lernpaket | Lernzugänge | So arbeitet ihr | Euer Zwischenergebnis | Wählt dieses Paket, wenn … |
 | --- | --- | --- | --- | --- |
 | **A · [Tätigkeit benennen]** | [Zum Beispiel lesen, skizzieren und vergleichen] | [Nennt den Plan, die Grafik oder die Übersicht. Beschreibt, was die Lernenden darin markieren, vergleichen oder entwerfen.] | [Nennt die konkrete Skizze, Zuordnung oder Beobachtung, die ins gemeinsame Ergebnis eingeht.] | [Erklärt, welchen Unterschied oder Zusammenhang ihr mit diesem Zugang leichter erkennen könnt.] |
 | **B · [Tätigkeit benennen]** | [Zum Beispiel zuhören, nachfragen und aushandeln] | [Nennt die Aufnahme oder den Vorlesetext. Beschreibt, was die Lernenden beim Zuhören, Nachfragen oder im Gespräch herausarbeiten und wie sie Angaben absichern.] | [Nennt die konkrete Aussage, Vereinbarung oder Begründung, die die Lernenden schriftlich für das gemeinsame Ergebnis festhalten.] | [Erklärt, welches Interesse, welche Unklarheit oder welche Begründung im Gespräch deutlicher wird.] |
@@ -131,45 +131,58 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 
 ### Fachliche Entscheidung
 
-**Entscheidet** anhand eurer Fallbelege und Kriterien, welche Lösung oder Vorgehensweise ihr umsetzt. Begründet eure Wahl mit [konkreten fachlichen Belegen].
+**Entscheidet** euch für eine Lösung oder einen Arbeitsweg. **Begründet** eure Wahl mit [konkreten Belegen aus den Materialien].
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ## Durchführen
 
-**Erstellt** [gemeinsames Handlungsprodukt] für [Adressatin oder Adressat]. Nutzt das gewählte Lernpaket und sichert die fachliche Entscheidung mit [Dokumentationsform].
+**Erstellt** [gemeinsames Handlungsprodukt] für [Person oder Betrieb]. Nutzt euer Lernpaket. **Haltet** eure Entscheidung in [Dokumentationsform] fest.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ## Bewerten
 
-**Prüft** [Handlungsprodukt] an den gemeinsamen Kriterien. Überarbeitet eine Stelle, falls der eigene Check einen konkreten Verbesserungsbedarf zeigt.
+**Prüft** euer [Handlungsprodukt] mit den Fragen unter der Aufgabe. **Verbessert** eine Stelle, wenn das nötig ist.
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_URL}}). Reicht euer Handlungsprodukt mit einem neutralen Titel und Dateinamen ein und entfernt Namen aus dem Dokument und den Dateieigenschaften. Moodle teilt euch zufällig eine Arbeit zur Bewertung zu. Beurteilt sie anhand von [fachliche Kriterien] und nennt eine gelungene Stelle sowie einen konkreten Verbesserungsvorschlag. Die Person, deren Arbeit ihr bewertet, sieht euren Klarnamen bei eurer Rückmeldung. Die zugeteilte Arbeit wird euch anonym angezeigt.
+**Bewertet** eine andere Arbeit in Moodle unter [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_URL}}).
+
+1. **Ladet euer Handlungsprodukt hoch.** Wählt einen Titel und einen Dateinamen ohne eure Namen. Entfernt eure Namen aus der Arbeit und aus den Dateieigenschaften.
+2. **Schaut euch die zugeteilte Arbeit an.** Moodle lost aus, welche Arbeit ihr bekommt. Ihr seht die Arbeit ohne Namen.
+3. **Gebt Rückmeldung.** Nutzt [fachliche Prüffragen]. Nennt eine Stelle, die gut gelungen ist. Schreibt, was die Person verbessern kann. Die Person sieht bei eurer Antwort euren Klarnamen.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ## Reflektieren
 
-**Erklärt** einzeln, welcher Beleg eure Entscheidung besonders beeinflusst hat. Haltet fest, was ihr bei einer ähnlichen beruflichen Situation wieder so machen oder ändern würdet.
+**Notiert** einzeln, welcher Beleg euch bei der Entscheidung am meisten geholfen hat. **Erklärt**, was ihr beim nächsten Mal genauso oder anders machen würdet.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 **Abschlusspitch.**
 
-**Pitcht** euer gewähltes Lernpaket mit eurem Handlungsprodukt und den vorhandenen Unterlagen. Für die Kurzfassung im Unterricht habt ihr etwa zwei Minuten. Wenn Zeit bleibt, beantwortet anschließend eine Rückfrage.
+**Pitcht** euer Lernpaket. Ein Pitch ist eine kurze Vorstellung. Nutzt euer Handlungsprodukt und eure Unterlagen. Ihr habt für den Kurzpitch etwa zwei Minuten. Wenn noch Zeit ist, beantwortet eine Rückfrage.
 
-1. **Ergebnis zeigen.** Stellt euer Handlungsprodukt vor und nennt eure wichtigste fachliche Entscheidung.
-2. **Entscheidung belegen.** Zeigt einen konkreten Fallbeleg und erklärt, warum er eure Entscheidung stützt.
-3. **Arbeitsweg begründen.** Begründet, warum ihr dieses Lernpaket gewählt habt. Zeigt an einem Zwischenergebnis, wie der Arbeitsweg euch bei der Entscheidung geholfen hat.
+1. **Ergebnis zeigen.** Zeigt euer Handlungsprodukt. Sagt, was ihr entschieden habt.
+2. **Entscheidung belegen.** Zeigt einen Beleg aus dem Fall. Erklärt, wie er eure Entscheidung stützt.
+3. **Arbeitsweg begründen.** Sagt, warum ihr euer Lernpaket gewählt habt. Zeigt ein Zwischenergebnis. Erklärt, wie es euch bei der Entscheidung geholfen hat.
 
 **Das könnt ihr zeigen.** [Nennt eine Stelle im gemeinsamen Handlungsprodukt und einen Fallbeleg, die Lernende aus jedem der drei Pakete im Pitch zeigen können.]
 
+<details>
+<summary>Sprachhilfe für den Pitch</summary>
+
+- „Unser Ergebnis ist … Wir schlagen vor, dass …“
+- „Unser Beleg ist … Er zeigt, dass …“
+- „Wir haben Paket … gewählt. Beim Arbeiten hat uns … geholfen.“
+
+</details>
+
 **Fachbuchverweis.** [Später ergänzen]
 
-**Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_URL}}) aus.
+**Füllt** zum Schluss [Feedback]({{MOODLE_FEEDBACK_URL}}) in Moodle aus.
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -198,7 +211,8 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 - **Regionale Betriebe.** Wenn ihr reale Betriebe verwendet, verlinkt deren Websites und übernehmt passende belegbare Angaben zum Standort oder Angebot. Kennzeichnet die erfundene Zusammenarbeit, Fallbelege, Flächen und Geschäftsdaten als Unterrichtsfall.
 - **Abschlusspitch.** Legt für A, B und C dieselben Anforderungen fest. Plant den Kurzpitch in der vorgesehenen Unterrichtszeit ein. Findet ein gemeinsamer Pitch am Ende des Lernfelds statt, kann jede abgeschlossene LS dafür gewählt und mit ihrem Handlungsprodukt, einem Zwischenergebnis und einem Fallbeleg vorgestellt werden. Das Material der gewählten LS reicht für den Pitch aus. Eine Folienpräsentation ist freiwillig.
 - **Eigenständiger Fall.** Jede Lernsituation enthält eine vollständige Ausgangslage, eigene erreichbare Materialien, eine fachliche Entscheidung und ein abschließendes Handlungsprodukt. Ergebnisse innerhalb der LS werden weiterverwendet. Der Start einer anderen LS erfolgt mit den dort bereitgestellten Fallunterlagen.
-- **Aufträge.** Verwendet pro Phase klare, gebündelte Aufgaben mit fett gesetzten Operatoren. Benennt die nötigen Arbeitsformen und Materialien dort, wo sie gebraucht werden. Setzt den Platzhalter für den Fachbuchverweis direkt unter den jeweiligen Arbeitsauftrag.
+- **Sprache.** Schreibt in direkter Ansprache und in kurzen Sätzen. Nennt pro Satz möglichst eine Handlung. Nutzt Fachbegriffe dort, wo sie fachlich gebraucht werden. Erklärt sie beim ersten Auftreten oder verlinkt das Glossar. Bietet zusätzliche Sprachhilfen zum Aufklappen an, etwa Wörter, Suchhinweise und Satzanfänge. Die Hilfen erleichtern das Lesen und Formulieren. Fachziele und Bewertungskriterien gelten für alle Lernenden.
+- **Aufträge.** Beginnt mit einem klaren Arbeitsverb in Fettdruck. Nennt die M-Nummer und das erwartete Ergebnis direkt im Auftrag. Teilt längere Aufträge in kurze Schritte. Setzt den Fachbuchplatzhalter unter die Aufgabe.
 - **Kompetenznetz im SCORM-Paket.** Verwendet den Wert aus dem Block „Vorrangige Fachkompetenz“ für die erste Achse. Die vier weiteren Achsen folgen der Tabellenreihenfolge. Beschriftet die sechs Skalenringe von **1 innen bis 6 außen** und zeigt die fünf Werte auch als Text. Übertragt die fünf Werte je LS in `competencies[].weight`. Die separate Selbsteinschätzung in Reflektieren folgt der SCORM-Skala **1–4** vom Arbeiten mit enger Hilfe bis zur selbstständigen, begründeten Anwendung im Transfer und kann mit einem Arbeitsbeleg ergänzt werden.
 - **Fachbegriffscheck im SCORM-Paket.** Verlinkt nach Informieren **„Begriffe prüfen“** auf `begriffstraining.html`. Übernehmt je LS alle 10 bis 20 Karten mit stabiler ID, Definition, Antwortalternativen und Rückmeldung. Prüft die Kartenzahl vor dem Export und hinterlegt den Check in der Navigation, den Fortschrittsdaten und dem Paketmanifest. Die Auswertung öffnet den Weg zu Planen und zeigt gezielte Nacharbeit zu unsicheren Begriffen an. Der Kurzcheck zur Handlungssituation bleibt ein eigener Schritt.
 - **LS-Glossar im SCORM-Paket.** Nehmt die eigene Seite `ls-glossar.html` in das Paketmanifest auf und blendet sie aus Phasenübersicht und Materialmenü aus. Übertragt die Links an den Fachbegriffen in die jeweiligen Materialseiten und verwendet die passende Sprungmarke, etwa `ls-glossar.html#absatzmenge`. Der Link steht bereit, sobald das betreffende Material zugänglich ist. Beim Öffnen zeigt die Seite den ausgewählten Begriff. **„Zurück zum Material“** führt zur verlinkten Stelle zurück. Die Nutzung ist freiwillig und kann unabhängig vom Fachbegriffscheck erfolgen.

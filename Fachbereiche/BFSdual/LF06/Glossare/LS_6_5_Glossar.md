@@ -4,62 +4,62 @@ Hier könnt ihr Begriffe aus **Eine gemeinsame Werbeaktion abstimmen** nachschla
 
 ## Einsatztermin
 
-Der Zeitpunkt, an dem ein Werbemittel veröffentlicht, verteilt oder aufgestellt wird.
+Der Zeitpunkt, ab dem ein Werbemittel zu sehen ist, verteilt oder aufgestellt wird.
 
-**Beispiel.** Der Aufsteller ist ab Freitag der Aktionswoche am Eingang zu sehen. Die Druckfreigabe liegt früher (M3).
+**Beispiel.** Der Aufsteller steht ab Freitag der Aktionswoche am Eingang. Die Druckerei braucht die Freigabe schon vorher (M3).
 
 ## Erfolgskontrolle
 
-Ein Vergleich der gemessenen Ergebnisse einer Werbeaktion mit dem zuvor festgelegten Ziel.
+Ihr vergleicht das gemessene Ergebnis der Werbung mit dem vorher vereinbarten Ziel.
 
-**Beispiel.** Beide Geschäfte können ihren Aktionsabsatz melden und mit dem jeweiligen Ausgangswert vergleichen (M2, M5).
+**Beispiel.** Beide Läden können melden, wie viele Stücke sie während der Aktion verkauft haben. Den Wert vergleichen sie mit der Zahl aus ihrer Vergleichswoche (M2, M5).
 
 ## Freigabefrist
 
-Der späteste Zeitpunkt, zu dem eine Fassung bestätigt sein muss, damit sie rechtzeitig eingesetzt werden kann.
+Der späteste Zeitpunkt, bis zu dem die Fassung bestätigt sein muss. So lässt sich die Werbung rechtzeitig einsetzen.
 
-**Beispiel.** Die Druckerei braucht die bestätigte Fassung des Aufstellers am Mittwoch bis 16 Uhr (M3).
+**Beispiel.** Die Druckerei braucht die Freigabe für den Aufsteller am Mittwoch vor der Aktionswoche bis 16 Uhr (M3).
 
 ## Kennzahl
 
-Eine messbare Größe, mit der sich ein Ergebnis beschreiben oder prüfen lässt.
+Ein messbarer Wert, mit dem ihr ein Ergebnis beschreiben oder prüfen könnt.
 
-**Beispiel.** Beide Läden erfassen die in der Aktionswoche verkauften Stücke aus dem Aktionssortiment (M2).
+**Beispiel.** Beide Läden zählen, wie viele Stücke aus dem Aktionssortiment sie in der Aktionswoche verkaufen (M2).
 
 ## Kooperative Werbung
 
-Mehrere beteiligte Unternehmen stimmen ihr Ziel und ihre Beiträge zu einer Werbeaktion ab.
+Mehrere Unternehmen werben gemeinsam. Sie stimmen das Ziel ab und klären, wer was beiträgt.
 
-**Beispiel.** Global Bike bereitet Produktdaten und Entwürfe vor. Die Läden geben ihre Werbemittel frei und setzen sie ein (M3).
+**Beispiel.** Global Bike liefert Produktdaten und Entwürfe. Die Läden geben ihre Fassungen frei und setzen sie ein (M3).
 
 ## Vergleichswoche
 
-Eine frühere Woche mit vergleichbaren Bedingungen, deren Werte als Ausgangspunkt dienen.
+Eine frühere Woche mit ähnlichen Bedingungen. Ihre Zahlen dienen als Ausgangspunkt für einen Vergleich.
 
-**Beispiel.** Die beiden Vergleichswerte stammen aus Wochen mit denselben Öffnungstagen und betragen 40 beziehungsweise 60 Stück (M2, M4).
+**Beispiel.** An denselben Öffnungstagen verkaufte Block 40 Stück und die Bike Arena 60 Stück (M2, M4).
 
 ## Werbeplan
 
-Eine Übersicht, die Werbeziel, Werbemittel und Verbreitung, Einsatztermine und Zuständigkeiten festlegt.
+Eine Übersicht über das Werbeziel, die Werbung und ihre Verbreitung. Sie nennt die Termine und zeigt, wer welche Aufgabe übernimmt.
 
-**Beispiel.** Beim Newsletter hält der Plan fest, wer ihn vorbereitet und bis wann die Ladenleitung ihn freigeben muss (M3).
+**Beispiel.** Der Plan zeigt, wer den Newsletter vorbereitet und bis wann die Ladenleitung ihn freigibt (M3).
 
 ## Werbeträger
 
-Ein Kanal, ein Medium oder ein Werbeplatz, über den das Werbemittel die angesprochenen Menschen erreicht.
+Der Kanal, das Medium oder der Platz, über den die Werbung die gewünschte Kundschaft erreicht.
 
-**Beispiel.** Newsletter und Aufsteller sind zwei Möglichkeiten, die Werbebotschaft zu verbreiten (M3).
+**Beispiel.** Newsletter und Aufsteller verbreiten die Werbung auf verschiedenen Wegen (M3).
 
 ## Zuständigkeit
 
-Eine Vereinbarung darüber, wer einen bestimmten Arbeitsschritt übernimmt.
+Eine Absprache, wer einen bestimmten Arbeitsschritt übernimmt.
 
-**Beispiel.** Das Fahrradfachgeschäft plant und verschickt seinen Newsletter selbst (M3, M5).
+**Beispiel.** Block plant und verschickt seinen Newsletter selbst (M3, M5).
 
 ## Überprüfbares Werbeziel
 
-Ein angestrebtes Ergebnis der Werbung mit einer messbaren Größe, einem Zielwert und einem festgelegten Zeitraum.
+Ein Ziel für die Werbung. Es nennt, was ihr messt, welchen Wert ihr erreichen wollt und in welcher Zeit das gelingen soll.
 
-**Beispiel.** Ein mögliches Ziel nennt für die Aktionswoche einen messbaren Absatzanstieg gegenüber der Vergleichswoche (M2).
+**Beispiel.** Die Läden können als Ziel festlegen, um wie viel sie ihre Verkäufe in der Aktionswoche im Vergleich zur früheren Woche steigern wollen (M2).
 
 [Zurück zur Übersicht von LF 06](../BFSdual_LF06_Vorlagenset.md)

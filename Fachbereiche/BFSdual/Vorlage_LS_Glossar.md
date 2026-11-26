@@ -4,9 +4,9 @@ Hier könnt ihr Begriffe aus **[Titel der Lernsituation]** nachschlagen.
 
 ## [Fachbegriff]
 
-[Den Begriff in einem kurzen Satz erklären.]
+[Erklärt den Fachbegriff in einem oder zwei kurzen Sätzen. Verwendet vertraute Wörter. Wenn ein zweiter Fachbegriff nötig ist, erklärt ihn kurz oder verlinkt ihn.]
 
-**Beispiel.** [Am Fall zeigen, wie man den Begriff verwendet. Bei Bedarf die M-Nummer angeben.]
+**Beispiel.** [Zeigt an einer Stelle aus dem Fall, was der Begriff bedeutet. Nennt bei Bedarf die M-Nummer.]
 
 ---
 

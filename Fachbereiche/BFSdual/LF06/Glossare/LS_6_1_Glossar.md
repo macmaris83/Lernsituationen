@@ -4,62 +4,62 @@ Hier könnt ihr Begriffe aus **Die Nachfrage an zwei Standorten vergleichen** na
 
 ## Aktionsfläche
 
-Der für eine Verkaufsaktion vorgesehene Bereich eines Geschäfts.
+Der Bereich im Laden, den das Geschäft für eine Verkaufsaktion nutzt.
 
-**Beispiel.** Beide Läden haben einen eigenen Bereich für das Fahrradzubehör der Frühjahrsaktion (M3).
+**Beispiel.** Beide Läden haben für die Frühjahrsaktion einen eigenen Bereich für Fahrradzubehör (M3).
 
 ## Gondel
 
-Ein frei stehendes Verkaufsregal, das von gegenüberliegenden Seiten zugänglich ist.
+Ein freistehendes Regal. Die Kundschaft kommt von zwei gegenüberliegenden Seiten an das Regal.
 
-**Beispiel.** Auf der geplanten Aktionsfläche der Bike Arena stehen zwei beidseitig bestückte Gondeln bereit (M3).
+**Beispiel.** Auf der geplanten Aktionsfläche der Bike Arena gibt es zwei Gondeln. Auf beiden Seiten steht Ware (M3).
 
 ## Hauptanliegen
 
-Das wichtigste Thema, dem eine Kundenanfrage in der Auswertung zugeordnet wird.
+Das wichtigste Thema einer einzelnen Anfrage. In der Auswertung zählt die Anfrage zu diesem Thema.
 
-**Beispiel.** Die Anfrage eines Kunden von Block kann dem Hauptanliegen „Fahrrad sicher abstellen“ zugeordnet werden (M1).
+**Beispiel.** Bei Block fragt ein Kunde nach einem passenden Schloss. Die Anfrage zählt zu „Fahrrad sicher abstellen“ (M1).
 
 ## Maßstab
 
-Das feste Verhältnis zwischen einer Länge im Plan und der entsprechenden Länge in Wirklichkeit.
+Ein festes Verhältnis. Es zeigt, welche Länge im Laden zu einer Länge im Plan passt.
 
-**Beispiel.** Bei 1:20 entsprechen 20 cm im Laden 1 cm im Plan (M3).
+**Beispiel.** Bei 1:20 steht 1 cm im Plan für 20 cm im Laden (M3).
 
 ## Nachfragebeleg
 
-Eine dokumentierte Anfrage oder Rückmeldung, die zeigt, welche Ware oder Lösung die Kundschaft am Standort sucht.
+Eine festgehaltene Frage oder Rückmeldung. Sie zeigt, was die Kundschaft im Laden sucht.
 
-**Beispiel.** Bei Block beziehen sich neun Anfragen auf Sichtbarkeit auf dem Arbeitsweg (M1).
+**Beispiel.** Bei Block geht es in neun Anfragen um Sichtbarkeit auf dem Arbeitsweg (M1).
 
 ## Standortprofil
 
-Eine Übersicht über Merkmale eines Geschäfts, die sein Angebot und seinen Verkauf beeinflussen. In diesem Fall gehören Kundschaft, Verkaufsform und Fläche dazu.
+Eine Übersicht über wichtige Merkmale eines Ladens. Dazu gehören hier Kundschaft, Verkaufsform und Fläche.
 
-**Beispiel.** Das Unterrichtsprofil von Block nennt die persönliche Beratung und den freien Werkstattzugang (M1, M3).
+**Beispiel.** Im Profil von Block stehen zum Beispiel die persönliche Beratung und der freie Zugang zur Werkstatt (M1, M3).
 
 ## Verkaufsform
 
-Die Art, wie die Kundschaft Ware auswählt und erhält und welche Rolle das Verkaufspersonal dabei übernimmt.
+Die Art, wie die Kundschaft Ware auswählt und bekommt. Dazu gehört auch, wie das Personal dabei hilft.
 
-**Beispiel.** Bei Block wird persönlich beraten. Auf der geplanten Aktionsfläche in der Bike Arena wählt die Kundschaft selbst (M1, M2).
+**Beispiel.** Block berät persönlich. Auf der geplanten Aktionsfläche der Bike Arena wählt die Kundschaft selbst aus (M1, M2).
 
 ## Wünschenswerte Anforderung
 
-Eine sinnvolle Verbesserung, auf die man bei knappen Möglichkeiten verzichten kann.
+Eine sinnvolle Verbesserung. Wenn Platz oder andere Möglichkeiten fehlen, könnt ihr darauf verzichten.
 
-**Beispiel.** Gänge müssen frei bleiben. Die Entscheidung, ob Artikel mit zusätzlichem Schild oder direkt am Regal beschriftet werden, lässt Spielraum (M3 und M5).
+**Beispiel.** Gänge müssen frei bleiben. Bei der Beschriftung könnt ihr wählen. Nutzt ein zusätzliches Schild oder beschriftet das Regal direkt (M3 und M5).
 
 ## Zielgruppe
 
 Die Menschen, für die ein Angebot oder eine Aktion gedacht ist.
 
-**Beispiel.** Familien, die am Wochenende Radtouren planen, sind eine mögliche Zielgruppe für die Aktionsfläche in der Bike Arena (M2).
+**Beispiel.** In der Bike Arena kommt zum Beispiel eine Aktion für Familien infrage, die am Wochenende Radtouren planen (M2).
 
 ## Zwingende Anforderung
 
-Eine Bedingung, die ein brauchbarer Vorschlag erfüllen muss.
+Eine Vorgabe, die ihr im Vorschlag unbedingt einhalten müsst.
 
-**Beispiel.** Der Werkstattzugang bei Block muss frei bleiben (M3).
+**Beispiel.** Der Zugang zur Werkstatt bei Block muss frei bleiben (M3).
 
 [Zurück zur Übersicht von LF 06](../BFSdual_LF06_Vorlagenset.md)

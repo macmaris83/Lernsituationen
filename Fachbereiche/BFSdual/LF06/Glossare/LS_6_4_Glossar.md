@@ -4,61 +4,61 @@ Hier könnt ihr Begriffe aus **Waren im Selbstbedienungsmarkt präsentieren** na
 
 ## Bedienzone
 
-Der freie Bereich vor einer Warenseite, in dem die Kundschaft Artikel ansehen und entnehmen kann.
+Der freie Platz vor einem Regal, an dem die Kundschaft Artikel ansehen und aus dem Regal nehmen kann.
 
-**Beispiel.** Vor jeder bestückten Längsseite ist auf der Aktionsfläche in der Bike Arena eine Bedienzone von 1,20 m Breite vorgesehen (M1).
+**Beispiel.** Die Bike Arena lässt vor jeder langen Regalseite mit Ware einen Platz von 1,20 m Breite frei (M1).
 
 ## Gondel
 
-Ein freistehendes Verkaufsregal, das die Bike Arena im Fall von beiden Längsseiten mit Ware bestückt.
+Ein Verkaufsregal, das frei im Raum steht. In der Bike Arena steht hier Ware auf beiden langen Seiten.
 
-**Beispiel.** Die beiden Gondeln bieten auf ihren beiden Längsseiten Platz für Waren und Vergleichskarten (M1).
+**Beispiel.** An beiden langen Seiten der Gondeln ist Platz für die Ware und Karten mit Produktangaben (M1).
 
 ## Kompatibilität
 
-Die Eigenschaft, dass zwei Dinge zusammenpassen und sich gemeinsam wie vorgesehen nutzen lassen.
+Zwei Dinge passen zusammen und lassen sich gemeinsam wie geplant nutzen.
 
 **Beispiel.** Die Minipumpe P50 passt unter anderem zu einem Autoventil (M3).
 
 ## Kundenlauf
 
-Der typische Weg der Kundschaft durch den Verkaufsraum, etwa vom Eingang zu den Warengruppen.
+Der Weg, den viele Kundinnen und Kunden im Laden nehmen, etwa vom Eingang zu den Warengruppen.
 
 **Beispiel.** Viele Kundinnen und Kunden gehen vom Zugang zuerst Richtung Fahrradabteilung (M1, M2).
 
 ## Manometer
 
-Eine Anzeige, mit der sich der Druck ablesen lässt.
+Eine Anzeige, auf der man den Druck ablesen kann.
 
-**Beispiel.** Die Standpumpe P51 hat ein Manometer. Bei der Auswahl lässt sich dieses Ausstattungsmerkmal mit der Minipumpe vergleichen (M3).
+**Beispiel.** Die Standpumpe P51 hat ein Manometer. Beim Vergleich mit der Minipumpe kann das für die Auswahl wichtig sein (M3).
 
 ## Orientierungsschild
 
-Ein sichtbarer Hinweis, der im Verkaufsraum den Weg zu einer Abteilung, Aktionsfläche oder Warengruppe weist.
+Ein Schild im Laden, das hilft, eine Abteilung, eine Aktionsfläche oder eine Warengruppe zu finden.
 
 **Beispiel.** Ein Schild mit der Aufschrift „Fahrradzubehör“ weist auf die Aktionsfläche hin (M1, M5).
 
 ## Rahmengewinde
 
-Eine Stelle am Fahrradrahmen mit einem Gewinde, in das sich eine passende Schraube eindrehen lässt.
+Eine Stelle am Fahrradrahmen, in die man eine passende Schraube drehen kann. Die Rillen für die Schraube bilden das Gewinde.
 
-**Beispiel.** Für den Flaschenhalter F60 braucht das Fahrrad zwei passende Rahmengewinde im Abstand von 64 mm (M3).
+**Beispiel.** Für den Flaschenhalter F60 braucht das Fahrrad zwei passende Rahmengewinde. Der Abstand zwischen ihnen muss 64 mm betragen (M3).
 
 ## Selbstbedienung
 
-Eine Verkaufsform, bei der die Kundschaft die Ware weitgehend eigenständig findet, auswählt und vom Warenplatz nimmt.
+Eine Verkaufsform, bei der die Kundschaft die Ware meist selbst findet, auswählt und aus dem Regal nimmt.
 
 **Beispiel.** Eine Kundin liest die Ventilangaben auf der Produktkarte und wählt selbst eine Pumpe (M2, M3).
 
 ## Vergleichsinformation
 
-Eine gleichartig dargestellte Angabe, an der sich mehrere Produkte unterscheiden oder auf Eignung prüfen lassen.
+Die gleiche Art von Angabe für mehrere Produkte. So kann die Kundschaft die Produkte vergleichen und prüfen, welches passt.
 
-**Beispiel.** Für die beiden Pumpen lassen sich Ventilarten, Maße und Ausstattung nebeneinander darstellen (M3).
+**Beispiel.** Bei beiden Pumpen könnt ihr die passenden Ventilarten, die Maße und die Ausstattung nebeneinander schreiben (M3).
 
 ## Warengruppe
 
-Mehrere Artikel mit ähnlichem Zweck, die ein Geschäft zusammenfasst.
+Eine Gruppe von Artikeln, die einem ähnlichen Zweck dienen. Das Geschäft fasst sie zusammen.
 
 **Beispiel.** Mini- und Standpumpen bilden auf der Aktionsfläche in der Bike Arena eine Warengruppe (M3).
 

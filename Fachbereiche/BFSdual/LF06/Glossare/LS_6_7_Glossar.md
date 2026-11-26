@@ -4,62 +4,62 @@ Hier könnt ihr Begriffe aus **Die Entwürfe vor der Freigabe prüfen** nachschl
 
 ## Auffindbarkeit
 
-Wie leicht die Kundschaft das gesuchte Produkt mithilfe der Wege und Hinweise auf der Fläche findet.
+Wie leicht die Kundschaft einen Artikel mithilfe der Wege und Hinweise findet.
 
-**Beispiel.** Beim Test zeigt der gewählte Weg, ob eine Person die Minipumpe findet (M2, M5).
+**Beispiel.** Beim Test seht ihr am Weg, ob eine Person die Minipumpe leicht findet (M2, M5).
 
 ## Beobachtung
 
-Ein konkret wahrnehmbares Verhalten oder eine tatsächliche Äußerung aus dem Test.
+Etwas, das ihr im Test seht oder hört.
 
-**Beispiel.** „Die Person zeigte zuerst auf die alte Zubehörinsel“ beschreibt, was im Test zu sehen war (M2, M5).
+**Beispiel.** „Die Person zeigte zuerst auf die alte Zubehörinsel.“ Das habt ihr im Test gesehen und könnt es aufschreiben (M2, M5).
 
 ## Fundstelle
 
-Der Ort, an dem eine Person den gesuchten Artikel tatsächlich findet.
+Die Stelle, an der jemand den gesuchten Artikel findet.
 
-**Beispiel.** Die Suche beginnt am Eingang. Bei der P50 kann die neue Aktionsgondel die Fundstelle sein (M2, M3, M5).
+**Beispiel.** Die Suche startet am Eingang. Die Minipumpe P50 liegt an der neuen Aktionsgondel, dem Regal für die Aktion (M2, M3, M5).
 
 ## Neutrale Testanleitung
 
-Eine Aufgabenbeschreibung, die Ziel und Start klärt und den Weg der Testperson offenlässt.
+Sie sagt, wo die Testperson startet und was sie tun soll. Die Person wählt den Weg selbst.
 
-**Beispiel.** „Zeig mir, wo du die Pumpe suchen würdest“ lässt den Weg offen (M3).
+**Beispiel.** „Zeig mir, wo du die Pumpe suchen würdest.“ Die Frage gibt keinen Weg vor (M3).
 
 ## Praxistest
 
-Eine Probe vor der Freigabe, bei der eine Testperson eine typische Aufgabe aus Sicht der Kundschaft ausführt.
+Eine Probe vor der Freigabe. Eine Testperson löst eine Aufgabe, wie es die Kundschaft im Laden tun würde.
 
-**Beispiel.** Eine Testperson sieht das Schild und versucht, vom Eingang aus die Minipumpe zu finden (M2, M3).
+**Beispiel.** Eine Testperson liest das Schild am Eingang und sucht die Minipumpe (M2, M3).
 
 ## Testprotokoll
 
-Eine Übersicht, die den Ablauf der Probe, das beobachtete Verhalten und die daraus abgeleiteten Änderungen festhält.
+Darin steht, wie der Test lief, was ihr beobachtet habt und welche Änderungen sich daraus ergeben.
 
-**Beispiel.** Das Team hält im Protokoll den gewählten Weg und die von der Testperson genannte Werbebotschaft fest (M5).
+**Beispiel.** In M5 schreibt ihr den Weg der Testperson auf. Ihr notiert auch, wie sie die Werbung erklärt (M5).
 
 ## Verständlichkeit
 
-Wie klar die Kundschaft erfasst, welches Angebot und welche Handlung die Werbung vermittelt.
+Wie leicht die Kundschaft versteht, worum es in der Werbung geht und was sie tun kann.
 
-**Beispiel.** Die Person sagt in eigenen Worten, was der Newsletter anbietet (M1, M3).
+**Beispiel.** Die Testperson sagt in eigenen Worten, was im Newsletter angeboten wird (M1, M3).
 
 ## Vorführmuster
 
-Ein Exemplar, mit dem das Personal die Anwendung eines Artikels zeigen kann.
+Ein Artikel, an dem das Personal zeigt, wie er benutzt wird.
 
-**Beispiel.** Das Personal zeigt die Befestigung des Lichtsets am Beratungsplatz. Die Ware zur Auswahl liegt am Wandregal (M1).
+**Beispiel.** Das Personal zeigt am Beratungsplatz, wie man das Lichtset befestigt. Die Ware zum Kauf liegt am Wandregal (M1).
 
 ## Werbebotschaft
 
-Die zentrale Aussage, die eine Werbung der Kundschaft vermitteln soll.
+Die wichtigste Aussage, die die Kundschaft aus der Werbung mitnehmen soll.
 
-**Beispiel.** Das Eingangsschild wirbt für Fahrradzubehör zum Frühjahrsstart. Die Testperson gibt die Botschaft in eigenen Worten wieder (M2, M3).
+**Beispiel.** Das Schild wirbt für Fahrradzubehör zum Start in den Frühling. Die Testperson sagt in eigenen Worten, was das Schild verspricht (M2, M3).
 
 ## Werbeentwurf
 
-Eine vorbereitete Fassung eines Werbemittels, die vor der Freigabe geprüft und geändert werden kann.
+Eine erste Fassung der Werbung. Das Team kann sie bis zur Freigabe prüfen und ändern.
 
-**Beispiel.** Der Text des Eingangsschilds ist ein Werbeentwurf. Das Team kann den Hinweis auf die grüne Markierung nach dem Test ändern (M2, M3).
+**Beispiel.** Der Text für das Eingangsschild ist ein Werbeentwurf. Nach dem Test könnt ihr den Hinweis auf die grüne Markierung ändern (M2, M3).
 
 [Zurück zur Übersicht von LF 06](../BFSdual_LF06_Vorlagenset.md)

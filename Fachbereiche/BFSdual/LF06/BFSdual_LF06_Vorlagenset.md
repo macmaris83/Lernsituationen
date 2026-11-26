@@ -8,7 +8,7 @@
 
 ## Rahmen der Reihe
 
-Im Unterrichtsfall plant Global Bike eine Frühjahrsaktion für Fahrradzubehör mit **2-Rad Center Block in Aurich** und **Bike Arena Oltmanns in Leer**. Bei Block soll die Kundschaft ausgewähltes Zubehör am Rad ausprobieren können. In der Bike Arena soll eine eigens eingerichtete Aktionsfläche die selbstständige Auswahl ermöglichen. Jan Richter, Leiter Verkauf und Marketing, begleitet die Aktion von der ersten Standortfrage bis zur Entscheidung über eine Fortsetzung.
+Im Unterrichtsfall plant Global Bike eine Frühjahrsaktion für Fahrradzubehör mit **2-Rad Center Block in Aurich** und **Bike Arena Oltmanns in Leer**. Bei Block sollen Kundinnen und Kunden Zubehör am eigenen Rad ausprobieren können. In der Bike Arena sollen sie das Zubehör auf einer Aktionsfläche selbst finden und auswählen. Jan Richter leitet bei Global Bike den Verkauf und das Marketing. Er begleitet die Aktion vom Start bis zur Frage, ob sie wiederholt werden soll.
 
 ### Die realen Fahrradgeschäfte
 
@@ -18,9 +18,9 @@ Im Unterrichtsfall plant Global Bike eine Frühjahrsaktion für Fahrradzubehör 
 | **Bike Arena Oltmanns** · Am Nüttermoorer Sieltief 7, Leer | Die Bike Arena gibt ihre Ladenfläche mit 1.400 m² an und bietet Beratung, Fahrräder, E-Bikes und Zubehör. [Unser Laden](https://www.bikearena-oltmanns.de/unser-laden) |
 | **Zweiradladen Aurich** · Hoheberger Weg 5, Aurich | Der Betrieb verbindet Fahrradfachhandel und Reparaturwerkstatt. In LS 6.8 dient er als Beispiel für einen möglichen weiteren Standort. [Laden und Werkstatt](https://zweiradladen-aurich.de/fahrradladen-aurich-fahrradgeschaeft-ostfriesland-2/) · [Kontakt](https://zweiradladen-aurich.de/kontakt/) |
 
-Die Websites liefern den realen regionalen Bezug. Die Kooperation mit Global Bike, die Kundenaussagen, Aktionsflächen, Werbeentwürfe und Geschäfts- und Produktdaten sind für den Unterricht erstellt. Die Mitarbeitenden von Global Bike treten mit ihren Funktionen aus dem [Organigramm](https://docs.google.com/document/d/1H-QndMW_XPMw10yRQ8IgLvG7cLmLTGVGEJBY-TkF2Js/edit) auf.
+Die Websites zeigen die echten Geschäfte. Die Zusammenarbeit mit Global Bike, die Aktionsflächen, die Werbung, Kundenaussagen und Daten gehören zum Unterrichtsfall. Wer bei Global Bike welche Aufgabe hat, steht im [Organigramm](https://docs.google.com/document/d/1H-QndMW_XPMw10yRQ8IgLvG7cLmLTGVGEJBY-TkF2Js/edit).
 
-Jede LS enthält die vollständige Ausgangslage, eigene Materialien und einen eigenen Abschluss. Teams können bei jeder LS neu gebildet werden.
+Jede Lernsituation (LS) enthält alle Infos und Materialien für ihre Aufgabe. Ihr könnt bei jeder LS ein neues Team bilden.
 
 | LS | Lernsituation | Handlungsprodukt | UStd. |
 | --- | --- | --- | ---: |
@@ -36,9 +36,11 @@ Jede LS enthält die vollständige Ausgangslage, eigene Materialien und einen ei
 
 ## Aufbau der Lernsituationen
 
-Die acht Fälle sind ausgearbeitete Beispiele zur [gemeinsamen Vorlage für alle BFSdual-Lernfelder](../Vorlage_Lernsituation.md). Jede LS verwendet die acht Stationen des Formmasters 1.8.8. Der Fachbegriffscheck umfasst je LS zehn Begriffe und liegt als gemeinsamer Schritt zwischen **Informieren** und **Planen** innerhalb der vorgesehenen Zeit. Zu Beginn von **Entscheiden** wählen die Lernenden eines von drei Lernpaketen. Die Pakete verfolgen je LS dieselbe Fachkompetenz und führen zu einem gemeinsamen Handlungsprodukt. Die Wahlblöcke folgen demselben Aufbau. Sie nennen die Tätigkeit, die Lernzugänge, das Vorgehen, das Zwischenergebnis und den Grund für die Wahl. Am Ende kann jedes Lernpaket anhand des Handlungsprodukts, eines Fallbelegs und eines Zwischenergebnisses gepitcht werden. Für jede LS sind zwei Moodle-Direktlinks vorgesehen. Die Platzhalter verweisen nach dem Eintragen der Kurslinks auf die Aktivitäten **Peer-Feedback** und **Feedback**. Die [gemeinsame Vorlage](../Vorlage_Lernsituation.md#moodle-einrichtung-für-die-lehrkraft) beschreibt Zuteilung und Namensanzeige.
+Die Reihe zeigt, wie ihr mit der [BFSdual-Vorlage für alle Lernfelder](../Vorlage_Lernsituation.md) arbeitet. Nach **Informieren** prüft ihr zehn Fachbegriffe. Zu Beginn von **Entscheiden** wählt ihr eines von drei Lernpaketen. In allen drei Paketen übt ihr dieselbe Fachkompetenz und erstellt dasselbe Handlungsprodukt. Der Arbeitsweg unterscheidet sich: Die Pakete zeigen euch, was ihr tut und was ihr dabei für eure Entscheidung gewinnt.
 
-Die Werte im Kompetenznetz zeigen, wie stark die verbindlichen Aufgaben die fünf Kompetenzen ansteuern. **1** steht für einen Randbezug, **6** für einen prägenden Schwerpunkt. Die fünf Werte folgen in jeder LS derselben [Skalenlegende](../Vorlage_Lernsituation.md#kompetenzprofil-und-kompetenznetz).
+Zum Schluss stellt ihr euer Lernpaket in einem kurzen Pitch vor. In Moodle nutzt ihr **Peer-Feedback** für die Rückmeldung zu einer anderen Arbeit. Mit **Feedback** meldet ihr zurück, wie ihr mit der Lernsituation zurechtgekommen seid. Die [BFSdual-Vorlage](../Vorlage_Lernsituation.md#moodle-einrichtung-für-die-lehrkraft) erklärt der Lehrkraft, wie Moodle die Arbeiten zuteilt und welche Namen sichtbar sind.
+
+Im Kompetenznetz seht ihr, wie stark ihr jede der fünf Kompetenzen übt. **1** bedeutet, dass ihr die Kompetenz kurz braucht. Bei **6** übt ihr sie von der Vorbereitung bis zur Auswertung. Die [Skala von 1 bis 6](../Vorlage_Lernsituation.md#kompetenzprofil-und-kompetenznetz) gilt für jede LS.
 
 ## LS 6.1 · Die Nachfrage an zwei Standorten vergleichen
 
@@ -48,41 +50,43 @@ Die Werte im Kompetenznetz zeigen, wie stark die verbindlichen Aufgaben die fün
 
 #### Warum wir das lernen
 
-Für den Schulweg mit dem Rad wollt ihr vielleicht vor dem Kauf sehen, ob ein Licht an euren Lenker passt. Wer Zubehör für einen Familienausflug sucht, möchte womöglich schnell erkennen, welche Pumpe zu den Rädern passt. Für die Global-Bike-Aktion bei Block in Aurich und in der Bike Arena in Leer vergleicht ihr die Kundenanfragen, die Beratung und den Platz. So könnt ihr begründen, was die Kundschaft an jedem der beiden Standorte braucht und wie sie das Zubehör dort findet oder ausprobiert.
+Passt das neue Licht an euren Lenker? Welche Pumpe passt zu den Rädern für den Familienausflug? Für die Aktion vergleicht ihr die Kundenanfragen, die Beratung und den Platz bei Block in Aurich und in der Bike Arena in Leer. So könnt ihr begründen, welche Waren jeder Laden braucht und wie die Kundschaft sie dort findet oder ausprobiert.
 
 #### Kompetenzprofil und Kompetenznetz
 
 **Vorrangige Fachkompetenz · 6 von 6**
 
-Ich vergleiche zwei Standorte anhand von Nachfrage, Verkaufsform und Fläche. Ich leite für jeden Laden begründete Anforderungen an das Sortiment und die Warenpräsentation ab und erkenne, welche Vorgaben zwingend sind.
+Ich vergleiche zwei Läden. Ich schaue auf Nachfrage, Verkaufsform und Fläche. Aus den Unterschieden leite ich Anforderungen an das Sortiment und die Warenpräsentation ab. Ich begründe diese Anforderungen für jeden Laden. Ich erkenne, welche Vorgaben der Laden unbedingt erfüllen muss.
 
-| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| Kompetenz | Wie stark? (1–6) | Das übe ich in dieser LS | Woran merkt ihr das? |
 | --- | ---: | --- | --- |
-| Personalkompetenz | **3** | Ich prüfe meine erste Einschätzung anhand von Belegen. | Die erste Einschätzung an Fallbelegen prüfen. |
-| Sozialkompetenz | **3** | Ich höre andere Einschätzungen an und begründe meine Prioritäten im Team. | Prioritäten im Team besprechen. |
-| Methodenkompetenz | **4** | Ich ordne Standortdaten nach einheitlichen Kriterien. | Belege nach einheitlichen Kriterien ordnen und vergleichen. |
-| Medienkompetenz | **3** | Ich entnehme einer Tabelle, einer Audionachricht oder einer Skizze die für meine Entscheidung nötigen Informationen. | Angaben aus Tabellen, Hörmaterial oder Skizzen entnehmen. |
+| Personalkompetenz | **3** | Ich prüfe meine erste Idee mit Belegen. | Die erste Idee mit Angaben aus dem Fall vergleichen. |
+| Sozialkompetenz | **3** | Ich höre die Ideen der anderen an. Ich begründe im Team, was für mich am wichtigsten ist. | Im Team besprechen, was Vorrang hat. |
+| Methodenkompetenz | **4** | Ich ordne die Angaben zu beiden Läden nach denselben Kriterien. | Die Angaben ordnen und vergleichen. |
+| Medienkompetenz | **3** | Ich finde in einer Tabelle, Sprachnachricht oder Skizze die Angaben für meine Entscheidung. | Wichtige Angaben lesen, hören oder in einer Skizze finden. |
 
 ### Handlungssituation
 
-**Unterrichtsfall.** Die Betriebe sind real. Die Global-Bike-Aktion und die dazugehörigen Daten sind für den Unterricht erstellt.
+**Unterrichtsfall.** Die beiden Betriebe gibt es wirklich. Die Aktion von Global Bike und alle Daten zur Aktion sind für den Unterricht erfunden.
 
-Um 8.12 Uhr ruft das 2-Rad Center Block in Aurich bei Global Bike an. Viele Kundinnen und Kunden suchen Zubehör für den Arbeitsweg und lassen sich vor dem Kauf beraten. Für die Frühjahrsaktion hat der Laden nur eine schmale Fläche. Kurz darauf meldet sich die Bike Arena Oltmanns in Leer. Für die Aktion stellt sie eine größere Fläche zur Verfügung. Am Samstag werden im Unterrichtsfall viele Familien erwartet, die das Zubehör an dieser Station selbst finden und vergleichen sollen.
+Um 8.12 Uhr ruft das 2-Rad Center Block in Aurich bei Global Bike an. Viele Kunden suchen Zubehör für den Arbeitsweg. Vor dem Kauf möchten sie Beratung. Block hat für die Frühjahrsaktion nur eine schmale Fläche.
 
-Sarah Huber aus dem Marketing hat für die gemeinsame Aktionswoche einen Vorschlag. „Wir geben beiden Läden dieselben Vorgaben fürs Angebot und den Aufbau. Dann können wir die Aktion aus einem Guss vorbereiten.“ Sebastian Wolf aus dem Außendienst schiebt ihr die beiden Ladenprofile hin. „Schau dir an, wie die Leute dort einkaufen. Was im einen Laden funktioniert, kann im anderen Kunden im Weg stehen oder ihnen bei der Auswahl wenig helfen.“
+Kurz darauf ruft die Bike Arena Oltmanns in Leer an. Dort gibt es für die Aktion mehr Platz. Am Samstag rechnet der Laden im Unterrichtsfall mit vielen Familien. Sie sollen das Zubehör auf der Aktionsfläche selbst finden und vergleichen können.
 
-Um 10 Uhr kommen beide Handelspartner zur Besprechung. Jan Richter, Leiter Verkauf und Marketing, braucht von euch einen belegten Standortvergleich. Daraus soll hervorgehen, welche Anforderungen je Laden zwingend sind und welchen Unterschied Global Bike bei der Planung zuerst berücksichtigen muss.
+Sarah Huber aus dem Marketing schlägt vor, für beide Läden dasselbe Angebot und denselben Aufbau zu planen. „So können wir die gemeinsame Aktion leichter vorbereiten.“ Sebastian Wolf aus dem Außendienst zeigt ihr die beiden Ladenprofile. „Schau, wie die Leute dort einkaufen. Ein Aufbau kann in einem Laden gut passen. Im anderen Laden könnte er den Weg versperren oder die Auswahl erschweren.“
+
+Um 10 Uhr kommen beide Läden zur Besprechung. Jan Richter leitet Verkauf und Marketing. Er braucht von euch einen Vergleich mit Belegen. Daraus muss er erkennen können, welche Vorgaben für jeden Laden zwingend sind. Er will auch wissen, welcher Unterschied für die Aktion am wichtigsten ist.
 
 #### Kurz prüfen · Handlungssituation
 
-**Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
+**Beantwortet** die Fragen mit dem Text der Handlungssituation. Öffnet die Hilfe, wenn ihr Unterstützung braucht.
 
 **1. Was erfährt Global Bike beim ersten Anruf über Kundschaft, Beratung und Fläche?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im ersten Absatz die Sätze zu Block. Baut eure Antwort mit „Die Kundschaft …“, „Beim Kauf …“ und „Die Fläche …“ auf.
+Lest den Absatz zu Block. Beginnt mit „Die Kundschaft sucht … Beim Kauf … Die Fläche …“.
 
 </details>
 
@@ -91,16 +95,16 @@ Sucht im ersten Absatz die Sätze zu Block. Baut eure Antwort mit „Die Kundsch
 <details>
 <summary>Hilfe</summary>
 
-Vergleicht die beiden Anrufe. Achtet darauf, was jeweils über Platz, Kundschaft und Hilfe beim Einkauf gesagt wird.
+Vergleicht die Absätze zum Anruf von Block und zum Anruf der Bike Arena. Beginnt mit „Bei Block … In der Bike Arena dagegen …“.
 
 </details>
 
-**3. Warum geraten Sarah und Sebastian bei den Vorgaben aneinander?**
+**3. Worin sind sich Sarah und Sebastian bei der Planung uneinig?**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest beide Aussagen im zweiten Absatz. Beginnt mit „Sarah schlägt vor …, weil …“ und „Sebastian wendet ein, dass …“.
+Lest den Absatz über Sarah und Sebastian. Beginnt mit „Sarah möchte … Sebastian sagt dagegen …“.
 
 </details>
 
@@ -109,40 +113,40 @@ Lest beide Aussagen im zweiten Absatz. Beginnt mit „Sarah schlägt vor …, we
 <details>
 <summary>Hilfe</summary>
 
-Lest die letzten beiden Sätze. Ergänzt „Der Vergleich soll zeigen, welche … und welchen …“.
+Lest den letzten Absatz. Beginnt mit „Für das Treffen braucht Jan … Daraus will er erkennen, …“.
 
 </details>
 
 ### Informieren
 
-**Fachlicher Einstieg.** Kundenorientierung beginnt damit, dass ihr herausfindet, was die Menschen am jeweiligen Standort brauchen. Vergleicht in M1 und M2 die Anfragen und schaut, wie die Kundschaft dort ihre Ware auswählt. Prüft mit M3, welche Folgen Beratung, Selbstbedienung und verfügbare Fläche für das Angebot haben.
+**Fachlicher Einstieg.** Kundenorientierung heißt hier: Das Angebot passt zu den Menschen, die im Laden einkaufen. Lest in M1 und M2, wonach die Kundschaft fragt und wie sie die Ware auswählt. Prüft in M3, was Beratung, Selbstbedienung und Platz für das Angebot bedeuten.
 
-**Vergleicht** die Standorte anhand von M1 bis M3. Haltet zu Nachfrage, Verkaufsform und Fläche jeweils mindestens einen belegbaren Unterschied fest.
+**Vergleicht** die Läden mit M1 bis M3. Notiert mindestens einen Unterschied bei der Nachfrage, einen bei der Verkaufsform und einen bei der Fläche. Schreibt jeweils dazu, woran ihr den Unterschied erkennt.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Lest** die Erklärungen zu den zehn Fachbegriffen in M6. **Wählt** danach im Fachbegriffscheck für jeden Begriff die passende Erklärung. Die Antworten stehen in gemischter Reihenfolge. Nach jeder Antwort bekommt ihr eine kurze Rückmeldung zum Fall.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
-| `BFSDUAL-LF06-LS01-B01` | Nachfragebeleg | Eine dokumentierte Anfrage oder Rückmeldung, die zeigt, welche Ware oder Lösung die Kundschaft am Standort sucht. | Die Liste der Regale, die der Laden nutzen kann. | Die Übersicht der Artikel, die im Katalog stehen. | Die neun Anfragen zur Sichtbarkeit zeigen einen konkreten Bedarf bei Block (M1). |
-| `BFSDUAL-LF06-LS01-B02` | Verkaufsform | Die Art, wie die Kundschaft Ware auswählt und erhält und welche Rolle das Verkaufspersonal dabei übernimmt. | Die Fläche, die ein Geschäft für eine Aktion reserviert. | Die Gruppe von Artikeln, die beide Läden anbieten. | Block berät persönlich. Auf der Aktionsfläche in der Bike Arena wählen viele selbst aus (M1 und M2). |
-| `BFSDUAL-LF06-LS01-B03` | Aktionsfläche | Der für eine Verkaufsaktion vorgesehene Bereich eines Geschäfts. | Der gesamte Bereich zwischen Eingang und Kasse. | Die Zeit, in der die beworbene Ware im Angebot ist. | Die Maße in M3 zeigen, welcher Bereich je Standort gestaltet werden kann. |
-| `BFSDUAL-LF06-LS01-B04` | Zwingende Anforderung | Eine Bedingung, die ein brauchbarer Vorschlag erfüllen muss. | Eine Verbesserung, die das Team bei zusätzlichem Platz einbauen kann. | Eine Anforderung, für die sich die meisten Kundinnen und Kunden interessieren. | Hauptgang und Werkstattzugang müssen bei Block frei bleiben (M3). |
-| `BFSDUAL-LF06-LS01-B05` | Standortprofil | Eine Übersicht über Merkmale eines Geschäfts, die sein Angebot und seinen Verkauf beeinflussen. In diesem Fall gehören Kundschaft, Verkaufsform und Fläche dazu. | Ein Grundriss mit allen Wänden und Wegen eines Geschäfts. | Ein Protokoll, in dem nur verkaufte Artikel erfasst werden. | Die Angaben zu Kundenwünschen und persönlicher Beratung gehören ebenso ins Standortprofil wie die Flächenmaße (M1 und M3). |
-| `BFSDUAL-LF06-LS01-B06` | Zielgruppe | Die Menschen, für die ein Angebot oder eine Aktion gedacht ist. | Die Beschäftigten, die ein Angebot im Laden zusammenstellen. | Die Artikel, die für dieselbe Aktion vorgesehen sind. | Familien, die Zubehör für Radtouren suchen, sind eine mögliche Zielgruppe der Bike Arena (M2). |
-| `BFSDUAL-LF06-LS01-B07` | Hauptanliegen | Das wichtigste Thema, dem eine Kundenanfrage in der Auswertung zugeordnet wird. | Das Thema, nach dem die Kundschaft im ganzen Laden am meisten fragt. | Die Teilfrage, die das Personal im Beratungsgespräch zuerst beantwortet. | Die Anfrage eines Kunden von Block kann dem Hauptanliegen „Fahrrad sicher abstellen“ zugeordnet werden (M1). |
-| `BFSDUAL-LF06-LS01-B08` | Maßstab | Das feste Verhältnis zwischen einer Länge im Plan und der entsprechenden Länge in Wirklichkeit. | Die Mindestbreite, die ein Weg im Geschäft haben muss. | Das Verhältnis zwischen den Stellflächen beider Geschäfte. | Bei 1:20 entsprechen 20 cm im Laden 1 cm im Plan (M3). |
-| `BFSDUAL-LF06-LS01-B09` | Gondel | Ein frei stehendes Verkaufsregal, das von gegenüberliegenden Seiten zugänglich ist. | Ein fest mit der Ladenwand verbundenes Regal mit nur einer zugänglichen Seite. | Ein freistehender Schildhalter zur Orientierung. | In der Aktionsfläche der Bike Arena stehen zwei beidseitig bestückte Gondeln bereit (M3). |
-| `BFSDUAL-LF06-LS01-B10` | Wünschenswerte Anforderung | Eine sinnvolle Verbesserung, auf die man bei knappen Möglichkeiten verzichten kann. | Eine feste Bedingung, die beim Aufbau erfüllt sein muss. | Ein Wunsch einer Kundin oder eines Kunden, den der Laden bereits erfüllt hat. | Gänge müssen frei bleiben. Die Entscheidung, ob Artikel mit zusätzlichem Schild oder direkt am Regal beschriftet werden, lässt Spielraum (M3 und M5). |
+| `BFSDUAL-LF06-LS01-B01` | Nachfragebeleg | Eine festgehaltene Frage oder Rückmeldung. Sie zeigt, was die Kundschaft im Laden sucht. | Eine Liste der Regale, die der Laden nutzen kann. | Eine Übersicht über die Artikel im Katalog. | Neun Anfragen bei Block betreffen Sichtbarkeit auf dem Arbeitsweg (M1). |
+| `BFSDUAL-LF06-LS01-B02` | Verkaufsform | Die Art, wie die Kundschaft Ware auswählt und bekommt. Dazu gehört auch, wie das Personal dabei hilft. | Die Fläche, die der Laden für eine Aktion frei hält. | Die Artikelgruppe, die beide Läden anbieten. | Block berät persönlich. Auf der Aktionsfläche in der Bike Arena wählen viele selbst aus (M1 und M2). |
+| `BFSDUAL-LF06-LS01-B03` | Aktionsfläche | Der Bereich im Laden, den das Geschäft für eine Verkaufsaktion nutzt. | Der gesamte Bereich zwischen Eingang und Kasse. | Die Zeit, in der es das beworbene Angebot gibt. | Die Maße in M3 zeigen, welche Fläche jeder Laden für die Aktion nutzt. |
+| `BFSDUAL-LF06-LS01-B04` | Zwingende Anforderung | Eine Vorgabe, die ihr im Vorschlag unbedingt einhalten müsst. | Eine Verbesserung, die das Team bei mehr Platz umsetzen kann. | Eine Anforderung, für die sich die meisten Kunden interessieren. | Bei Block müssen der Hauptgang und der Werkstattzugang frei bleiben (M3). |
+| `BFSDUAL-LF06-LS01-B05` | Standortprofil | Eine Übersicht über wichtige Merkmale eines Ladens. Dazu gehören hier Kundschaft, Verkaufsform und Fläche. | Ein Plan mit allen Wänden und Wegen im Laden. | Eine Liste, in der nur verkaufte Artikel stehen. | Bei Block gehören Kundenwünsche, persönliche Beratung und Flächenmaße in das Profil (M1 und M3). |
+| `BFSDUAL-LF06-LS01-B06` | Zielgruppe | Die Menschen, für die ein Angebot oder eine Aktion gedacht ist. | Die Personen, die das Angebot im Laden zusammenstellen. | Die Artikel, die zur gleichen Aktion gehören. | Familien, die Zubehör für Radtouren suchen, sind eine mögliche Zielgruppe für die Bike Arena (M2). |
+| `BFSDUAL-LF06-LS01-B07` | Hauptanliegen | Das wichtigste Thema einer einzelnen Anfrage. In der Auswertung zählt die Anfrage zu diesem Thema. | Das Thema, nach dem die Kundschaft im ganzen Laden am häufigsten fragt. | Die Frage, die das Personal im Gespräch zuerst beantwortet. | Eine Anfrage bei Block kann zum Hauptanliegen „Fahrrad sicher abstellen“ zählen (M1). |
+| `BFSDUAL-LF06-LS01-B08` | Maßstab | Ein festes Verhältnis. Es zeigt, welche Länge im Laden zu einer Länge im Plan passt. | Die Mindestbreite für einen Weg im Laden. | Das Verhältnis zwischen den Flächen beider Läden. | Bei 1:20 steht 1 cm auf dem Plan für 20 cm im Laden (M3). |
+| `BFSDUAL-LF06-LS01-B09` | Gondel | Ein freistehendes Regal. Die Kundschaft kommt von zwei gegenüberliegenden Seiten an das Regal. | Ein Regal an der Wand, das nur von einer Seite erreichbar ist. | Ein freistehender Halter für ein Schild. | Auf der Aktionsfläche in der Bike Arena stehen zwei Gondeln. Auf beiden Seiten steht Ware (M3). |
+| `BFSDUAL-LF06-LS01-B10` | Wünschenswerte Anforderung | Eine sinnvolle Verbesserung. Wenn Platz oder andere Möglichkeiten fehlen, könnt ihr darauf verzichten. | Eine Vorgabe, die ihr beim Aufbau unbedingt einhalten müsst. | Ein Kundenwunsch, den der Laden bereits erfüllt hat. | Gänge müssen frei bleiben. Bei der Beschriftung habt ihr Spielraum. Ihr könnt zum Beispiel ein zusätzliches Schild nutzen oder das Regal direkt beschriften (M3 und M5). |
 
 ### Planen
 
-**Ordnet** eure Belege nach Standort und Vergleichskriterium. Kennzeichnet, welche Hinweise das Sortiment betreffen und welche sich auf die Präsentation auswirken.
+**Ordnet** eure Belege nach Laden und Thema. Markiert, welche Hinweise zur Auswahl der Waren gehören und welche dazu, wie der Laden sie zeigt.
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -150,69 +154,82 @@ Lest die letzten beiden Sätze. Ergänzt „Der Vergleich soll zeigen, welche �
 
 #### Lernpaket wählen
 
-**Wählt** einen der drei Arbeitswege. Achtet darauf, welcher euch bei der fachlichen Entscheidung am besten hilft. Sichert bei der Bearbeitung ein Zwischenergebnis eures Lernpakets und einen Fallbeleg für den Abschlusspitch.
+**Wählt** einen der drei Arbeitswege. Überlegt, welcher Weg euch bei der Entscheidung am besten hilft. **Haltet** beim Arbeiten ein Zwischenergebnis und einen Beleg für den Pitch fest. Ein Beleg kann zum Beispiel eine Zahl, ein Maß oder eine Kundenstimme sein.
 
-**Gemeinsames Fachziel und Handlungsprodukt.** Ihr vergleicht die beiden Läden anhand von Nachfrage, Verkaufsform und Fläche und leitet daraus Anforderungen an Sortiment und Präsentation ab. Dafür erstellt ihr die Vergleichsmatrix aus M5 für Jan Richter. Ihr nennt je Standort drei belegte Anforderungen an Sortiment und Präsentation und stuft sie begründet als zwingend oder wünschenswert ein. Am Ende benennt ihr den wichtigsten Standortunterschied und seine Folge für die Aktion. Für alle Pakete gelten dieselben Kriterien.
+**Gemeinsames Fachziel und Handlungsprodukt.** Vergleicht die Nachfrage, die Verkaufsform und die Fläche der beiden Läden. Leitet daraus Anforderungen an das Sortiment und die Präsentation ab. Nutzt die Vergleichsmatrix in M5 für Jan Richter. Nennt je Laden drei Anforderungen und belegt sie. Erklärt, welche davon zwingend und welche wünschenswert sind. Nennt zum Schluss den wichtigsten Unterschied und seine Folge für die Aktion. Für alle Pakete gelten dieselben Kriterien.
 
-| Lernpaket | Lernzugänge | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| Lernpaket | Lernzugänge | So arbeitet ihr | Euer Zwischenergebnis | Wählt dieses Paket, wenn … |
 | --- | --- | --- | --- | --- |
-| **A · Ladenprofile und Flächen vergleichen** | Lesen, vergleichen und skizzieren | Legt M1 und M2 nebeneinander und markiert Nachfrage und Verkaufsform farbig. Zeichnet die Flächen aus M3 im gleichen Maßstab und kennzeichnet die freien Wege. | Zwei beschriftete Skizzen und markierte Belege zeigen auf einen Blick, was ähnlich ist und welche Unterschiede für Angebot und Präsentation Folgen haben. | … ihr Informationen gern nebeneinander seht und räumliche Unterschiede in einer Skizze erkennt. |
-| **B · Die Stimmen beider Läden auswerten** | Zuhören, besprechen und notieren | Hört die Sprachnachrichten aus M4 oder lest sie euch vor. Sortiert die Hinweise im Gespräch nach Nachfrage, Verkaufsform und Fläche. Prüft Zahlen und Maße in M1 bis M3. | Eine kurze Gesprächsnotiz hält je Laden fest, welche Aussagen für eure Anforderungen sprechen und welche Angaben ihr überprüft habt. | … ihr Unterschiede gut erkennt, wenn ihr Aussagen hört, besprecht und euch gegenseitig erklärt. |
-| **C · Ladenflächen im Modell erproben** | Mit Grundrissen und Karten arbeiten, räumlich erproben | Legt oder markiert die Grundrisse aus M3. Ordnet Karten mit Beobachtungen aus M1 und M2 zu. Verschiebt Warenträger aus Papier und probiert aus, was auf der jeweiligen Fläche erreichbar bleibt. | Eure markierten Grundrisse und zugeordneten Karten zeigen, welche Anforderungen sich aus Nachfrage, Verkauf und Platz ergeben. Bei der Probe seht ihr, wo die Flächenmaße den Zugriff begrenzen. | … ihr Raum und Zugriff gut einschätzen könnt, wenn ihr etwas legt, verschiebt und ausprobiert. |
+| **A · Ladenprofile und Flächen vergleichen** | Lesen, vergleichen und skizzieren | Legt die Profile M1 und M2 nebeneinander. Markiert Nachfrage und Verkaufsform farbig. Zeichnet die Flächen aus M3 im gleichen Maßstab. Markiert die Wege, die frei bleiben müssen. | Ihr habt zwei beschriftete Skizzen und markierte Belege. Damit erkennt ihr Gemeinsamkeiten und Unterschiede beim Angebot und beim Aufbau. | … ihr Unterschiede gern in Texten und Zeichnungen markiert. |
+| **B · Die Stimmen beider Läden auswerten** | Zuhören, besprechen und notieren | Hört M4 an oder lest euch die Nachrichten vor. Sprecht darüber, was ihr zu Nachfrage, Verkaufsform und Fläche erfahren habt. Prüft Zahlen und Maße in M1 bis M3. | Ihr habt eine kurze Notiz für jeden Laden. Darin steht, welche Aussage eure Anforderung stützt und welche Angaben ihr geprüft habt. | … ihr Informationen gern hört und im Gespräch ordnet. |
+| **C · Ladenflächen im Modell erproben** | Grundrisse legen und Modelle ausprobieren | Zeichnet oder legt die Grundrisse aus M3. Schreibt Beobachtungen aus M1 und M2 auf Karten. Ordnet sie den Läden zu. Verschiebt Regale und Tische aus Papier. Probiert aus, was auf der Fläche erreichbar bleibt. | Ihr habt markierte Grundrisse und Karten mit Belegen zur Nachfrage und zur Verkaufsform. Im Modell seht ihr, wo der Platz den Zugriff auf Waren erschwert. | … ihr Raum und Wege gern mit einem Modell erkundet. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachliche Entscheidung
 
-**Leitet** mit dem gewählten Lernpaket aus euren Belegen je Standort drei Anforderungen ab. Stuft sie als zwingend oder wünschenswert ein und legt fest, welcher Standortunterschied für die Aktion am wichtigsten ist.
+**Leitet** mit eurem Lernpaket für jeden Laden drei Anforderungen aus den Belegen ab. Schreibt zu jeder Anforderung „zwingend“ oder „wünschenswert“. Entscheidet, welcher Unterschied zwischen den Läden für die Aktion am wichtigsten ist.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
-**Erstellt** die Vergleichsmatrix nach M5. Formuliert die Anforderungen so, dass Jan Richter daraus erkennen kann, worauf Global Bike beim Angebot und bei der Präsentation achten muss.
+**Füllt** die Vergleichsmatrix in M5 aus. Schreibt die Anforderungen so, dass Jan Richter weiß, worauf Global Bike bei der Warenauswahl und beim Aufbau achten muss.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Bewerten
 
-**Prüft** jede Anforderung am angegebenen Beleg. **Überarbeitet** eine Formulierung, wenn sie für den Standort zu allgemein ist oder der Beleg die Anforderung nicht trägt.
+**Prüft** zu jeder Anforderung, ob der gewählte Beleg dazu passt. **Verbessert** eure Formulierung, wenn sie für den Laden zu allgemein ist oder sich aus dem Beleg nicht ableiten lässt.
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_1_URL}}). Reicht die Vergleichsmatrix ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
+**Bewertet** eine andere Arbeit in Moodle unter [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_1_URL}}).
 
-- Sind pro Standort drei nachvollziehbare Anforderungen an Sortiment und Präsentation erkennbar?
-- Passen die Belege und Prioritäten zu den jeweiligen Anforderungen?
-- Erklärt die Matrix, was aus dem wichtigsten Standortunterschied für die Aktion folgt?
+1. **Ladet eure Vergleichsmatrix hoch.** Wählt einen Titel und einen Dateinamen ohne eure Namen. Entfernt eure Namen aus der Arbeit und aus den Dateieigenschaften.
+2. **Schaut euch die zugeteilte Arbeit an.** Moodle lost aus, welche Arbeit ihr bekommt. Ihr seht die Arbeit ohne Namen.
+3. **Gebt Rückmeldung.** Nutzt die Fragen unter dieser Aufgabe. Nennt eine Stelle, die gut gelungen ist. Schreibt, was die Person verbessern kann. Die Person sieht bei eurer Antwort euren Klarnamen.
+
+- Nennt die Matrix je Laden drei klare Anforderungen an Sortiment und Präsentation?
+- Passen die Belege dazu? Ist klar, was zwingend und was wünschenswert ist?
+- Zeigt die Matrix den wichtigsten Unterschied und seine Folge für die Aktion?
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Reflektieren
 
-**Erklärt** kurz, welcher Beleg eure erste Einschätzung am stärksten verändert hat.
+**Nennt** den Beleg, der eure erste Einschätzung am stärksten verändert hat. Erklärt kurz, was ihr jetzt anders seht.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 **Abschlusspitch.**
 
-**Pitcht** euer gewähltes Lernpaket mit eurem Handlungsprodukt und den vorhandenen Unterlagen. Für die Kurzfassung im Unterricht habt ihr etwa zwei Minuten. Wenn Zeit bleibt, beantwortet anschließend eine Rückfrage.
+**Pitcht** euer Lernpaket. Ein Pitch ist eine kurze Vorstellung. Nutzt euer Handlungsprodukt und eure Unterlagen. Ihr habt für den Kurzpitch etwa zwei Minuten. Wenn noch Zeit ist, beantwortet eine Rückfrage.
 
-1. **Ergebnis zeigen.** Stellt euer Handlungsprodukt vor und nennt eure wichtigste fachliche Entscheidung.
-2. **Entscheidung belegen.** Zeigt einen konkreten Fallbeleg und erklärt, warum er eure Entscheidung stützt.
-3. **Arbeitsweg begründen.** Begründet, warum ihr dieses Lernpaket gewählt habt. Zeigt an einem Zwischenergebnis, wie der Arbeitsweg euch bei der Entscheidung geholfen hat.
+1. **Ergebnis zeigen.** Zeigt euer Handlungsprodukt. Sagt, was ihr entschieden habt.
+2. **Entscheidung belegen.** Zeigt einen Beleg aus dem Fall. Erklärt, wie er eure Entscheidung stützt.
+3. **Arbeitsweg begründen.** Sagt, warum ihr euer Lernpaket gewählt habt. Zeigt ein Zwischenergebnis. Erklärt, wie es euch bei der Entscheidung geholfen hat.
 
-**Das könnt ihr zeigen.** Zeigt eine priorisierte Anforderung in eurer Vergleichsmatrix. Verweist auf die Kundenrückmeldung, die Zahl oder das Flächenmaß, das eure Einstufung stützt.
+**Das könnt ihr zeigen.** Zeigt eine Anforderung aus eurer Matrix. Sagt, ob sie zwingend oder wünschenswert ist. Zeigt die Kundenstimme, die Zahl oder das Flächenmaß, mit dem ihr das begründet.
+
+<details>
+<summary>Sprachhilfe für den Pitch</summary>
+
+- „Unser Ergebnis ist … Wir schlagen vor, dass …“
+- „Unser Beleg ist … Er zeigt, dass …“
+- „Wir haben Paket … gewählt. Beim Arbeiten hat uns … geholfen.“
+
+</details>
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_1_URL}}) aus.
+**Füllt** zum Schluss [Feedback]({{MOODLE_FEEDBACK_LS_6_1_URL}}) in Moodle aus.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
-**Vergleichsmatrix für Jan Richter.** Drei eigenständige Anforderungen je Standort mit Bezug zu Sortiment und Präsentation, je einem nachvollziehbaren Beleg und einer begründeten Priorität. Ein Abschlussfeld hält den wichtigsten Standortunterschied und dessen Folge für die Aktion fest.
+**Vergleichsmatrix für Jan Richter.** Für jeden Laden stehen drei verschiedene Anforderungen an Sortiment und Präsentation in der Matrix. Zu jeder nennt ihr einen Beleg und begründet, ob sie zwingend oder wünschenswert ist. Im letzten Feld stehen der wichtigste Unterschied und seine Folge für die Aktion.
 
 ### Materialien
 
@@ -222,40 +239,40 @@ Alle Standort- und Kundendaten sind für den Unterricht erstellt.
 
 **Website des Betriebs.** Das Auricher Fachgeschäft beschreibt persönliche Beratung und Probefahrten. [Unternehmensprofil](https://www.zweirad-block.de/unternehmen/)
 
-Das [Standortprofil](Glossare/LS_6_1_Glossar.md#standortprofil) enthält die simulierten Beobachtungen zur Aktion.
+Das [Standortprofil](Glossare/LS_6_1_Glossar.md#standortprofil) zeigt die Beobachtungen zur Aktion aus dem Unterrichtsfall.
 
 | Merkmal | Beobachtung |
 | --- | --- |
-| [Nachfragebelege](Glossare/LS_6_1_Glossar.md#nachfragebeleg) | In 20 protokollierten Zubehöranfragen ging es neunmal um Sichtbarkeit auf dem Arbeitsweg, sechsmal um sicheres Abstellen und fünfmal um den Transport kleiner Dinge. Jede Anfrage wurde einem [Hauptanliegen](Glossare/LS_6_1_Glossar.md#hauptanliegen) zugeordnet. |
-| [Verkaufsform](Glossare/LS_6_1_Glossar.md#verkaufsform) | Eine Fachkraft berät persönlich. Viele Kundinnen und Kunden bringen ihr Fahrrad mit. Die Beratung findet am Werkstattzugang statt, wo das Fahrrad abgestellt werden kann. |
+| [Nachfragebelege](Glossare/LS_6_1_Glossar.md#nachfragebeleg) | Block hat 20 Anfragen notiert. Neun betrafen Sichtbarkeit auf dem Arbeitsweg, sechs sicheres Abstellen und fünf den Transport kleiner Dinge. Zu jeder Anfrage hat Block ein [Hauptanliegen](Glossare/LS_6_1_Glossar.md#hauptanliegen) notiert. |
+| [Verkaufsform](Glossare/LS_6_1_Glossar.md#verkaufsform) | Eine Fachkraft berät persönlich. Viele Kundinnen und Kunden bringen ihr Fahrrad mit. Die Beratung findet am Werkstattzugang statt. Dort ist Platz, um das Fahrrad abzustellen. |
 | Kundenstimme | „Ich stelle mein Rad jeden Tag am Bahnhof ab. Vor dem Kauf möchte ich sehen, ob das Schloss durch den Rahmen passt.“ |
 | Kundenstimme | „Ich bin abends unterwegs. Könnte ich sehen, wie man das Licht am Lenker befestigt?“ |
 
 #### M2 · Kurzprofil Bike Arena Oltmanns, Leer
 
-**Website des Betriebs.** Das Fahrradfachgeschäft in Leer nennt eine Ladenfläche von 1.400 m² sowie Beratung und Zubehör im Ladengeschäft. Die folgende geplante Selbstbedienungsfläche gehört zum Unterrichtsfall. [Unser Laden](https://www.bikearena-oltmanns.de/unser-laden)
+**Website des Betriebs.** Das Fahrradfachgeschäft in Leer nennt eine Ladenfläche von 1.400 m². Es bietet Beratung und Zubehör im Laden an. Die Selbstbedienungsfläche unten ist Teil des Unterrichtsfalls. [Unser Laden](https://www.bikearena-oltmanns.de/unser-laden)
 
 | Merkmal | Beobachtung |
 | --- | --- |
-| Kundschaft und [Zielgruppen](Glossare/LS_6_1_Glossar.md#zielgruppe) | In 20 protokollierten Zubehöranfragen ging es achtmal um Zubehör für Familienausflüge, siebenmal um Reparaturen unterwegs und fünfmal um besseren Regenschutz. Jede Anfrage wurde einem Hauptanliegen zugeordnet. |
-| Verkauf | Die Aktionsfläche funktioniert in Selbstbedienung. Samstags ist dort keine feste Beratung eingeplant. An der Information kann die Kundschaft bei Bedarf nachfragen. |
+| Kundschaft und [Zielgruppen](Glossare/LS_6_1_Glossar.md#zielgruppe) | Die Bike Arena hat 20 Anfragen notiert. Acht betrafen Zubehör für Familienausflüge, sieben Reparaturen unterwegs und fünf besseren Regenschutz. Zu jeder Anfrage hat der Laden ein Hauptanliegen notiert. |
+| Verkauf | Die Kundschaft wählt die Ware auf der Aktionsfläche selbst aus. Das nennt man Selbstbedienung. Samstags ist dort niemand fest für die Beratung eingeteilt. Fragen kann die Kundschaft an der Information stellen. |
 | Kundenstimme | „Wir wollen am Wochenende mit den Kindern los. Ich möchte auf einen Blick erkennen, welche Pumpe zu unseren Ventilen passt.“ |
 | Kundenstimme | „Wo liegt das Zubehör, das wir unterwegs bei einer Panne brauchen?“ |
 
 #### M3 · Flächen und Warenträger
 
-Zeichnet bei Bedarf im [Maßstab](Glossare/LS_6_1_Glossar.md#ma%C3%9Fstab) 1:20. Im Plan entsprechen beispielsweise 20 cm in Wirklichkeit 1 cm auf Papier. Alle genannten Gänge und Zugänge freizuhalten ist eine [zwingende Anforderung](Glossare/LS_6_1_Glossar.md#zwingende-anforderung).
+Zeichnet bei Bedarf im [Maßstab](Glossare/LS_6_1_Glossar.md#ma%C3%9Fstab) 1:20. 1 cm im Plan steht für 20 cm im Laden. Haltet die genannten Gänge und Zugänge frei. Das ist eine [zwingende Anforderung](Glossare/LS_6_1_Glossar.md#zwingende-anforderung).
 
 | Standort | Verfügbare [Aktionsfläche](Glossare/LS_6_1_Glossar.md#aktionsfl%C3%A4che) | Umgebung und Ausstattung |
 | --- | --- | --- |
-| Block | 3,60 m × 3,20 m einschließlich festem Beratungstresen. | Links verläuft ein 1,20 m breiter Hauptdurchgang zum Werkstattzugang. Verfügbar sind zwei Rollregale (je 1,00 m × 0,40 m) und ein niedriger Tisch (0,80 m × 0,55 m). In der Fläche muss Platz für die Beratung mit Fahrrad bleiben. |
-| Bike Arena | 6,40 m × 3,50 m als rechteckige Fläche. | Der Hauptgang verläuft an der 6,40-m-Seite. Verfügbar sind zwei beidseitig bestückte [Gondeln](Glossare/LS_6_1_Glossar.md#gondel) (je 1,60 m × 0,60 m) und ein freistehender Schildhalter (0,40 m × 0,40 m). |
+| Block | 3,60 m × 3,20 m. Der feste Beratungstresen steht auf dieser Fläche. | Links verläuft ein 1,20 m breiter Hauptdurchgang zum Werkstattzugang. Ihr habt zwei Rollregale (je 1,00 m × 0,40 m) und einen niedrigen Tisch (0,80 m × 0,55 m). Lasst Platz für die Beratung mit einem Fahrrad. |
+| Bike Arena | Die Fläche ist rechteckig und misst 6,40 m × 3,50 m. | Der Hauptgang verläuft an der 6,40-m-Seite. Ihr habt zwei [Gondeln](Glossare/LS_6_1_Glossar.md#gondel) (je 1,60 m × 0,60 m). Die Ware steht dort auf beiden Seiten. Dazu gibt es einen freistehenden Schildhalter (0,40 m × 0,40 m). |
 
 #### M4 · Sprechtexte für die beiden Sprachnachrichten
 
-**Nachricht Block.** „Hier ist das 2-Rad Center Block in Aurich. Wir haben zwanzig Zubehöranfragen ausgewertet. Neun betreffen Sichtbarkeit auf dem Arbeitsweg, sechs das sichere Abstellen und fünf den Transport kleiner Dinge. Wir beraten persönlich. Eine Kundin wollte direkt am Lenker sehen, wie das Licht befestigt wird. Ein anderer Kunde wollte ausprobieren, ob ein Schloss durch seinen Rahmen passt. Die Fläche ist drei Meter sechzig breit und drei Meter zwanzig tief. Darin steht der feste Tresen. Links liegt der einen Meter zwanzig breite Durchgang zur Werkstatt. Wir haben zwei Rollregale und einen kleinen Tisch. Ein Fahrrad muss in der Beratung Platz finden. Gang und Zugang bleiben frei.“
+**Nachricht Block.** „Hier ist das 2-Rad Center Block in Aurich. Wir haben zwanzig Zubehöranfragen ausgewertet. Neun Fragen betrafen die Sichtbarkeit auf dem Arbeitsweg. Sechs betrafen sicheres Abstellen und fünf den Transport kleiner Dinge. Wir beraten persönlich. Wir sollten einer Kundin zeigen, wie sie das Licht am Lenker befestigt. Ein Kunde wollte ausprobieren, ob ein Schloss durch seinen Rahmen passt. Die Fläche ist drei Meter sechzig breit und drei Meter zwanzig tief. Darin steht der feste Tresen. Links liegt der einen Meter zwanzig breite Durchgang zur Werkstatt. Wir haben zwei Rollregale und einen kleinen Tisch. Wir brauchen Platz für ein Fahrrad bei der Beratung. Gang und Zugang müssen frei bleiben.“
 
-**Nachricht Bike Arena.** „Hier meldet sich die Bike Arena Oltmanns aus Leer. Von zwanzig erfassten Zubehöranfragen ging es achtmal um Familienausflüge, siebenmal um Reparaturen unterwegs und fünfmal um Regenschutz. Samstags ist niemand fest für die Beratung an der Aktionsfläche eingeplant. Kundinnen und Kunden fragen etwa, wo Pannenzubehör liegt und woran sie erkennen, ob eine Pumpe zum Ventil passt. Unsere freie Fläche ist sechs Meter vierzig breit und drei Meter fünfzig tief. An der langen Seite ist der Hauptgang. Wir haben zwei Regale, an deren beide Längsseiten die Kundschaft kommen muss, und einen Schildhalter.“
+**Nachricht Bike Arena.** „Hier meldet sich die Bike Arena Oltmanns aus Leer. Wir haben zwanzig Anfragen gezählt. Acht betrafen Familienausflüge, sieben Reparaturen unterwegs und fünf Regenschutz. Samstags ist dort niemand fest für die Beratung eingeteilt. Kunden fragen zum Beispiel nach Zubehör für Pannen. Sie wollen wissen, welche Pumpe zu ihrem Ventil passt. Unsere freie Fläche ist sechs Meter vierzig breit und drei Meter fünfzig tief. An der langen Seite ist der Hauptgang. Wir haben zwei Regale und einen Schildhalter. Die Kundschaft muss an beide langen Seiten der Regale kommen.“
 
 #### M5 · Vorlage für die Vergleichsmatrix
 
@@ -264,22 +281,22 @@ Zeichnet bei Bedarf im [Maßstab](Glossare/LS_6_1_Glossar.md#ma%C3%9Fstab) 1:20.
 | Block · 3 Zeilen | Sortiment oder Präsentation | … | … | zwingend oder wünschenswert · … |
 | Bike Arena · 3 Zeilen | Sortiment oder Präsentation | … | … | zwingend oder wünschenswert · … |
 
-Bei der Priorität unterscheidet die Matrix zwischen zwingenden und [wünschenswerten Anforderungen](Glossare/LS_6_1_Glossar.md#w%C3%BCnschenswerte-anforderung).
+Gebt bei jeder Anforderung die Priorität an. Unterscheidet zwischen zwingenden und [wünschenswerten Anforderungen](Glossare/LS_6_1_Glossar.md#w%C3%BCnschenswerte-anforderung).
 
 **Größter Unterschied und Folge für die Aktion:** …
 
 #### M6 · Fachbegriffe zu dieser Lernsituation
 
-- **Nachfragebeleg.** Eine dokumentierte Anfrage oder Rückmeldung, die zeigt, welche Ware oder Lösung die Kundschaft am Standort sucht.
-- **Verkaufsform.** Die Art, wie die Kundschaft Ware auswählt und erhält und welche Rolle das Verkaufspersonal dabei übernimmt.
-- **Aktionsfläche.** Der für eine Verkaufsaktion vorgesehene Bereich eines Geschäfts.
-- **Zwingende Anforderung.** Eine Bedingung, die ein brauchbarer Vorschlag erfüllen muss.
-- **Standortprofil.** Eine Übersicht über Merkmale eines Geschäfts, die sein Angebot und seinen Verkauf beeinflussen. In diesem Fall gehören Kundschaft, Verkaufsform und Fläche dazu.
+- **Nachfragebeleg.** Eine festgehaltene Frage oder Rückmeldung. Sie zeigt, was die Kundschaft im Laden sucht.
+- **Verkaufsform.** Die Art, wie die Kundschaft Ware auswählt und bekommt. Dazu gehört auch, wie das Personal dabei hilft.
+- **Aktionsfläche.** Der Bereich im Laden, den das Geschäft für eine Verkaufsaktion nutzt.
+- **Zwingende Anforderung.** Eine Vorgabe, die ihr im Vorschlag unbedingt einhalten müsst.
+- **Standortprofil.** Eine Übersicht über wichtige Merkmale eines Ladens. Dazu gehören hier Kundschaft, Verkaufsform und Fläche.
 - **Zielgruppe.** Die Menschen, für die ein Angebot oder eine Aktion gedacht ist.
-- **Hauptanliegen.** Das wichtigste Thema, dem eine Kundenanfrage in der Auswertung zugeordnet wird.
-- **Maßstab.** Das feste Verhältnis zwischen einer Länge im Plan und der entsprechenden Länge in Wirklichkeit.
-- **Gondel.** Ein frei stehendes Verkaufsregal, das von gegenüberliegenden Seiten zugänglich ist.
-- **Wünschenswerte Anforderung.** Eine sinnvolle Verbesserung, auf die man bei knappen Möglichkeiten verzichten kann.
+- **Hauptanliegen.** Das wichtigste Thema einer einzelnen Anfrage. In der Auswertung zählt die Anfrage zu diesem Thema.
+- **Maßstab.** Ein festes Verhältnis. Es zeigt, welche Länge im Laden zu einer Länge im Plan passt.
+- **Gondel.** Ein freistehendes Regal. Die Kundschaft kommt von zwei gegenüberliegenden Seiten an das Regal.
+- **Wünschenswerte Anforderung.** Eine sinnvolle Verbesserung. Wenn Platz oder andere Möglichkeiten fehlen, könnt ihr darauf verzichten.
 
 ## LS 6.2 · Ein gemeinsames Sortiment mit lokalen Ergänzungen zusammenstellen
 
@@ -289,41 +306,43 @@ Bei der Priorität unterscheidet die Matrix zwischen zwingenden und [wünschensw
 
 #### Warum wir das lernen
 
-Für den Schulweg bei Regen sucht ihr im Fahrradladen anderes Zubehör als für eine lange Tour. Manche Artikel helfen euch auf beiden Wegen, bei anderen kommt es darauf an, was ihr vorhabt. Für die Aktion bei Block und in der Bike Arena entscheidet ihr, welche Artikel beide Läden anbieten sollten und welche vor Ort dazukommen. Dazu prüft ihr Kundenanfragen, Lieferbarkeit und die verfügbaren Plätze.
+Für den Schulweg bei Regen braucht ihr anderes Zubehör als für eine lange Radtour. Manche Artikel helfen euch in beiden Fällen. Für die Aktion bei Block und in der Bike Arena entscheidet ihr, welche Waren beide Läden anbieten und was jeder Laden zusätzlich braucht. Prüft dafür Kundenanfragen, Lieferbarkeit und freie Plätze.
 
 #### Kompetenzprofil und Kompetenznetz
 
 **Vorrangige Fachkompetenz · 6 von 6**
 
-Ich wähle für zwei Läden ein gemeinsames Kernsortiment und passende Ergänzungsartikel. Ich begründe die einzelnen Artikel mit Nachfragebelegen und beachte Platz und Lieferbarkeit.
+Ich wähle ein gemeinsames Kernsortiment für beide Läden. Ich wähle passende Ergänzungen für jeden Laden. Ich begründe jeden Artikel mit Nachfragebelegen. Ich achte darauf, wie viel Platz da ist und ob die Waren lieferbar sind.
 
-| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| Kompetenz | Wie stark? (1–6) | Das übe ich in dieser LS | Woran merkt ihr das? |
 | --- | ---: | --- | --- |
-| Personalkompetenz | **3** | Ich hinterfrage meine Vorlieben bei der Produktauswahl. | Eigene Vorlieben an Nachfragebelegen überprüfen. |
-| Sozialkompetenz | **4** | Ich bringe meine Argumente ein und handle eine gemeinsame Auswahl aus. | Eine gemeinsame Auswahl mit begründeten Vorschlägen aushandeln. |
-| Methodenkompetenz | **4** | Ich kann eine Artikelliste mit Nachfrage, Platz und Lieferstatus abgleichen. | Nachfrage, Fläche und Lieferdaten beim Vergleich zusammenführen. |
-| Medienkompetenz | **3** | Ich lese Produktdaten aus dem Katalog und dokumentiere die Auswahl übersichtlich. | Katalogdaten auswerten und die Auswahl dokumentieren. |
+| Personalkompetenz | **3** | Ich prüfe, ob meine Lieblingsartikel auch zur Nachfrage passen. | Eigene Vorlieben mit Nachfragebelegen prüfen. |
+| Sozialkompetenz | **4** | Ich erkläre meine Gründe im Team. Ich einige mich mit den anderen auf eine Auswahl. | Eine gemeinsame Auswahl besprechen und begründen. |
+| Methodenkompetenz | **4** | Ich prüfe die Liste mit den Angaben zur Nachfrage, zum Platz und zur Lieferung. | Nachfrage, Plätze und Lieferbarkeit gemeinsam prüfen. |
+| Medienkompetenz | **3** | Ich finde im Katalog Angaben zu den Artikeln. Ich halte die Auswahl übersichtlich fest. | Katalogdaten nutzen und die Auswahl aufschreiben. |
 
 ### Handlungssituation
 
-**Unterrichtsfall.** Die Betriebe sind real. Die Global-Bike-Aktion und die dazugehörigen Daten sind für den Unterricht erstellt.
+**Unterrichtsfall.** Die beiden Betriebe gibt es wirklich. Die Aktion von Global Bike und alle Daten zur Aktion sind für den Unterricht erfunden.
 
-Bis zum Nachmittag hat Sebastian Wolf aus dem Außendienst Block in Aurich und der Bike Arena Oltmanns in Leer eine Empfehlung für die Global-Bike-Frühjahrsaktion zugesagt. Auf seiner vorläufigen Liste steht die neue Klingel K70. Beide Läden haben Anfragen dazu gemeldet. Christian Klein aus der Absatzlogistik legt den Lieferstand daneben. „Die K70 kommt frühestens in der Woche danach. Wenn wir sie jetzt fest einplanen, bleibt zum Start ein Platz leer.“
+Sebastian Wolf arbeitet im Außendienst. Er hat Block in Aurich und der Bike Arena Oltmanns in Leer bis zum Nachmittag eine Empfehlung für die Frühjahrsaktion zugesagt. Auf seiner Liste steht die neue Klingel K70. Beide Läden haben Anfragen dazu gemeldet.
 
-Sebastian geht die Liste noch einmal durch. „Bei der gemeinsamen Auswahl müssen wir beide Läden im Blick behalten. Block hat wenig Platz und viele Anfragen zum Arbeitsweg. Die Bike Arena erwartet Familien, die Zubehör für ihre Ausflüge suchen. Ich will den beiden erklären können, warum wir ihnen genau diese Artikel anbieten.“
+Christian Klein aus der Absatzlogistik zeigt Sebastian, wann die Artikel lieferbar sind. „Die K70 kommt frühestens in der Woche danach. Wenn wir sie fest einplanen, bleibt zum Start ein Platz leer.“
 
-Jan Richter lässt die Liste offen. Vier Artikel sollen in beiden Geschäften stehen. Dazu kommen ein lokaler Artikel für Block und zwei für die Bike Arena. Er gibt euch die Ladenprofile, die Sortimentsvorgaben und den aktuellen Katalog. Bis zur zugesagten Rückmeldung braucht er eine lieferbare Auswahl mit einer Begründung für beide Standorte.
+Sebastian prüft die Liste noch einmal. „Wir müssen auf beide Läden achten. Block hat wenig Platz. Viele fragen dort nach Zubehör für den Arbeitsweg. Die Bike Arena erwartet Familien, die Zubehör für ihre Ausflüge suchen. Ich will beiden Läden erklären können, warum wir ihnen genau diese Artikel empfehlen.“
+
+Jan Richter gibt die Liste noch nicht frei. Vier Artikel sollen in beiden Läden stehen. Block bekommt einen zusätzlichen Artikel, die Bike Arena bekommt zwei. Jan gibt euch die Ladenprofile, die Vorgaben für die Auswahl und den aktuellen Katalog. Für die zugesagte Rückmeldung braucht er eure Artikelliste. Die Artikel müssen zur Aktion lieferbar sein. Für beide Läden braucht Jan eine Begründung.
 
 #### Kurz prüfen · Handlungssituation
 
-**Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
+**Beantwortet** die Fragen mit dem Text der Handlungssituation. Öffnet die Hilfe, wenn ihr Unterstützung braucht.
 
 **1. Warum steht die K70 auf Sebastians Liste und was wendet Christian ein?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im ersten Absatz nach der Klingel und nach Christians Aussage. Nutzt „Sebastian hat die K70 ___, weil ___. Christian weist darauf hin, dass ___.“
+Lest Sebastians Zusage und Christians Nachricht zur Klingel K70. Beginnt mit „Sebastian hat die K70 auf seiner Liste, weil … Christian sagt dazu, dass …“.
 
 </details>
 
@@ -332,7 +351,7 @@ Sucht im ersten Absatz nach der Klingel und nach Christians Aussage. Nutzt „Se
 <details>
 <summary>Hilfe</summary>
 
-Lest Sebastians zweite Aussage. Ordnet beim Lesen jede Angabe dem jeweiligen Geschäft zu.
+Lest Sebastians Aussage nach dem Lieferhinweis. Beginnt mit „Bei Block … In der Bike Arena …“.
 
 </details>
 
@@ -341,7 +360,7 @@ Lest Sebastians zweite Aussage. Ordnet beim Lesen jede Angabe dem jeweiligen Ges
 <details>
 <summary>Hilfe</summary>
 
-Nutzt die Vorgabe direkt nach „Jan Richter lässt die Liste offen“. Schreibt eine Zahl für „beide Geschäfte“, eine für „Block“ und eine für „Bike Arena“.
+Lest den letzten Absatz. Sucht je eine Zahl für „beide Läden“, „nur Block“ und „nur Bike Arena“.
 
 </details>
 
@@ -350,40 +369,40 @@ Nutzt die Vorgabe direkt nach „Jan Richter lässt die Liste offen“. Schreibt
 <details>
 <summary>Hilfe</summary>
 
-Schaut auf den Anfang und das Ende der Szene. Ergänzt „Bis ___ soll die Empfehlung ___ und ___ enthalten.“
+Schaut auf den Anfang und den Schluss der Szene. Beginnt mit „Bis … braucht Jan eine Empfehlung. Sie soll …“.
 
 </details>
 
 ### Informieren
 
-**Fachlicher Einstieg.** Zum Kernsortiment gehören die zentralen Waren eines Angebots. M1 zeigt, welche Bedürfnisse beide Standorte teilen und welche besonders in einem Laden auftreten. Mit dem Katalog und den Vorgaben aus M2 und M3 könnt ihr prüfen, welche Auswahl rechtzeitig lieferbar ist und auf die vorgesehenen Plätze passt.
+**Fachlicher Einstieg.** Das Kernsortiment besteht aus den wichtigsten Artikeln eines Angebots. Lest in M1, welche Wünsche in beiden Läden vorkommen und welche vor allem in einem Laden. Prüft mit dem Katalog in M2, ob die Ware rechtzeitig kommt. Prüft dann mit M3, ob eure Auswahl auf die freien Plätze passt.
 
-**Ermittelt** aus M1 die häufigsten und wichtigsten Anliegen je Standort. Gleicht sie mit den in M2 dokumentierten Eigenschaften und der Lieferbarkeit ab.
+**Sucht** in M1 die häufigsten und wichtigsten Wünsche pro Laden. Prüft in M2, welche Artikel dazu passen und rechtzeitig lieferbar sind.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Lest** die Erklärungen zu den zehn Fachbegriffen in M6. **Wählt** danach im Fachbegriffscheck für jeden Begriff die passende Erklärung. Die Antworten stehen in gemischter Reihenfolge. Nach jeder Antwort bekommt ihr eine kurze Rückmeldung zum Fall.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
-| `BFSDUAL-LF06-LS02-B01` | Kernsortiment | Die zentralen Waren eines Angebots, die Kundinnen und Kunden dort erwarten. Bei der gemeinsamen Aktion sind das die vier Artikel, die beide Läden anbieten. | Alle Artikel, die Global Bike im Katalog führt. | Die Artikel, die nur die Bike Arena ergänzend anbietet. | In dieser Aktion sind vier Plätze je Laden für den gemeinsamen Kern vorgesehen (M3). |
-| `BFSDUAL-LF06-LS02-B02` | Lokale Sortimentsergänzung | Ein zusätzlicher Artikel neben dem gemeinsamen Kern, der einen Bedarf an einem bestimmten Standort aufgreift. | Ein Artikel, der bei beiden Läden zwingend zum gemeinsamen Kern gehört. | Ein Artikel, dessen Lieferung erst für die Folgewoche möglich ist. | Der Sattelüberzug lässt sich bei Block mit den Nennungen zum nassen Sattel begründen (M1 und M2). |
-| `BFSDUAL-LF06-LS02-B03` | Lieferbarkeit | Die Möglichkeit, den Artikel rechtzeitig für den geplanten Zeitraum zu erhalten. | Die Anzahl an Stellplätzen, die der Artikel auf der Fläche belegt. | Die Zahl der Kundinnen und Kunden, die nach dem Artikel gefragt haben. | Für K70 nennt der Katalog die Folgewoche. Für den Aktionsbeginn kommt die Klingel damit zu spät (M2). |
-| `BFSDUAL-LF06-LS02-B04` | Platzbedarf | Der Raum oder die Zahl der Plätze, die ein Artikel auf der Fläche beansprucht. | Die Zahl der Stücke, die im Lager bereitliegen. | Die Menge an Artikeln, die beide Läden zusammen verkaufen wollen. | Je Artikel wird ein Platz berechnet. Block hat fünf Aktionsplätze (M2 und M3). |
-| `BFSDUAL-LF06-LS02-B05` | Sortimentsbreite | Die Anzahl der verschiedenen Warengruppen im Angebot eines Geschäfts. | Die Zahl der unterschiedlichen Varianten innerhalb einer einzelnen Warengruppe. | Die Zahl der vorhandenen Stücke eines Artikels. | Beleuchtung, Schlösser und Taschen sind drei unterschiedliche Warengruppen. Mehr Stück vom selben Schloss vergrößern die Breite nicht (M2 und M3). |
-| `BFSDUAL-LF06-LS02-B06` | Sortimentslücke | Ein Bedarf, den Kundinnen und Kunden äußern und für den das Angebot des Geschäfts keinen passenden Artikel enthält. | Ein unbesetzter Stellplatz zwischen zwei angebotenen Artikeln. | Ein fehlendes Merkmal in der Artikelbeschreibung des Katalogs. | Wenn Kundinnen und Kunden nach Schutz für nasse Sättel fragen und kein passender Artikel im Angebot ist, kann eine Sortimentslücke vorliegen (M1 und M2). |
-| `BFSDUAL-LF06-LS02-B07` | Beratungstagebuch | Eine Sammlung von Notizen zu Beratungsgesprächen und Kundenanliegen eines Geschäfts. | Eine Planung, wann Kundinnen und Kunden Beratungstermine haben. | Eine Liste der Artikel, die nach einer Beratung gekauft wurden. | Die Nennungen zu Licht, Schloss und anderen Anliegen stammen aus den Beratungstagebüchern beider Läden (M1). |
-| `BFSDUAL-LF06-LS02-B08` | Nennung | Einmaliges Erfassen eines angesprochenen Anliegens in der Nachfrageübersicht. | Einmaliges Erfassen einer Person, unabhängig von der Zahl ihrer Anliegen. | Einmaliges Erfassen eines verkauften Artikels. | Wer sowohl nach Licht als auch nach einem Schloss fragt, kann in der Übersicht zu zwei Nennungen beitragen (M1). |
-| `BFSDUAL-LF06-LS02-B09` | Artikelkennung | Ein Code, durch den ein bestimmter Artikel im Katalog eindeutig zugeordnet werden kann. | Die Nummer des Stellplatzes, an dem der Artikel liegt. | Eine Zahl dafür, wie häufig der Artikel nachgefragt wurde. | P50 steht im Katalog für die Minipumpe. Die Kennung hilft, sie auf dem Ergebnisblatt eindeutig zu benennen (M2 und M5). |
-| `BFSDUAL-LF06-LS02-B10` | Aktionsplatz | Ein für einen Artikel dieser Aktion vorgesehener Stellplatz im Laden. | Der gesamte Ladenbereich, den die Kundschaft während der Aktion betreten darf. | Ein Lagerplatz für den Ersatzvorrat während der Aktionswoche. | In der Bike Arena stehen sechs Plätze für Aktionsartikel bereit. Der siebte bleibt für das eigene Sortiment reserviert (M3). |
+| `BFSDUAL-LF06-LS02-B01` | Kernsortiment | Die wichtigsten Waren, die die Kundschaft in diesem Angebot erwartet. In der Aktion sind es die vier Artikel, die beide Läden anbieten. | Alle Artikel im Katalog von Global Bike. | Die Artikel, die nur die Bike Arena zusätzlich anbietet. | In jedem Laden gibt es vier Plätze für die gemeinsamen Artikel (M3). |
+| `BFSDUAL-LF06-LS02-B02` | Lokale Sortimentsergänzung | Ein zusätzlicher Artikel, der zu einem Kundenwunsch in einem bestimmten Laden passt. | Ein Artikel, den beide Läden im Kernsortiment anbieten müssen. | Ein Artikel, den das Lager erst in der nächsten Woche liefern kann. | Bei Block haben Kunden nach Schutz für nasse Sättel gefragt. Das spricht für den Sattelüberzug (M1 und M2). |
+| `BFSDUAL-LF06-LS02-B03` | Lieferbarkeit | Ob und wann ihr einen Artikel für den geplanten Zeitraum bekommen könnt. | Die Zahl der Plätze, die ein Artikel auf der Fläche braucht. | Die Zahl der Kunden, die nach dem Artikel gefragt haben. | Laut Katalog kommt die Klingel K70 in der Woche nach der Aktion. Zum Start ist sie noch nicht da (M2). |
+| `BFSDUAL-LF06-LS02-B04` | Platzbedarf | Der Raum oder die Zahl der Stellplätze, die ein Artikel braucht. | Die Menge, die das Lager hat. | Die Menge, die beide Läden zusammen verkaufen wollen. | Ein Artikel belegt einen Platz. Block hat fünf Plätze für die Aktion (M2 und M3). |
+| `BFSDUAL-LF06-LS02-B05` | Sortimentsbreite | Die Zahl der verschiedenen Warengruppen im Angebot. | Die Zahl der Varianten in einer Warengruppe. | Die Zahl der Stücke, die von einem Artikel vorhanden sind. | Licht, Schlösser und Taschen sind drei Warengruppen. Mehr Stück von einem Schloss ergeben keine weitere Warengruppe (M2 und M3). |
+| `BFSDUAL-LF06-LS02-B06` | Sortimentslücke | Die Kundschaft fragt nach etwas. Der Laden hat dafür keinen passenden Artikel im Angebot. | Ein leerer Stellplatz zwischen zwei Artikeln. | Eine Information, die in der Beschreibung eines Artikels fehlt. | Kunden fragen nach Schutz für nasse Sättel. Ohne passenden Artikel kann es hier eine Sortimentslücke geben (M1 und M2). |
+| `BFSDUAL-LF06-LS02-B07` | Beratungstagebuch | Notizen darüber, was die Kundschaft in Beratungsgesprächen gefragt oder gewünscht hat. | Ein Plan für die Beratungstermine. | Eine Liste der Artikel, die Kunden nach der Beratung gekauft haben. | Die Angaben zu Licht, Schlössern und weiteren Wünschen stehen in den Beratungstagebüchern der beiden Läden (M1). |
+| `BFSDUAL-LF06-LS02-B08` | Nennung | Ein Wunsch, der einmal in der Nachfrageübersicht gezählt wird. | Eine Person, die nur einmal gezählt wird, auch wenn sie mehrere Wünsche hat. | Ein verkaufter Artikel, den der Laden einmal zählt. | Wer nach Licht und nach einem Schloss fragt, kann zwei Nennungen beitragen (M1). |
+| `BFSDUAL-LF06-LS02-B09` | Artikelkennung | Ein Code, der im Katalog für genau einen Artikel steht. | Die Nummer des Stellplatzes im Laden. | Die Zahl, die zeigt, wie oft Kunden nach dem Artikel gefragt haben. | P50 ist die Kennung für die Minipumpe. Mit der Kennung ist im Ergebnisblatt klar, welche Pumpe gemeint ist (M2 und M5). |
+| `BFSDUAL-LF06-LS02-B10` | Aktionsplatz | Ein Platz im Laden, der für einen Artikel der Aktion frei ist. | Der gesamte Bereich, den Kunden während der Aktion betreten dürfen. | Ein Platz, auf dem Vorräte für die Aktion im Lager liegen. | Die Bike Arena hat sechs Plätze für die Aktion. Den siebten nutzt sie für ihr eigenes Sortiment (M3). |
 
 ### Planen
 
-**Plant** eure Auswahl mit den Vorgaben aus M3. Haltet fest, woran ein gemeinsamer Artikel und woran eine sinnvolle lokale Ergänzung zu erkennen sind.
+**Plant** eure Auswahl mit den Vorgaben aus M3. Schreibt auf, woran ihr einen Artikel für beide Läden erkennt. Schreibt auch auf, wann ein Artikel nur für einen Laden als Ergänzung passt.
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -391,79 +410,92 @@ Schaut auf den Anfang und das Ende der Szene. Ergänzt „Bis ___ soll die Empfe
 
 #### Lernpaket wählen
 
-**Wählt** einen der drei Arbeitswege. Achtet darauf, welcher euch bei der fachlichen Entscheidung am besten hilft. Sichert bei der Bearbeitung ein Zwischenergebnis eures Lernpakets und einen Fallbeleg für den Abschlusspitch.
+**Wählt** einen der drei Arbeitswege. Überlegt, welcher Weg euch bei der Entscheidung am besten hilft. **Haltet** beim Arbeiten ein Zwischenergebnis und einen Beleg für den Pitch fest. Ein Beleg kann zum Beispiel eine Zahl, ein Maß oder eine Kundenstimme sein.
 
-**Gemeinsames Fachziel und Handlungsprodukt.** Ihr wählt ein gemeinsames Kernsortiment mit passenden lokalen Ergänzungen und erstellt die Sortimentsliste aus M5 für Jan Richter. Ihr begründet vier gemeinsame Artikel, eine Ergänzung für Block und zwei für die Bike Arena mit Nachfragebelegen. Ihr prüft Lieferbarkeit und Platz und begründet, warum ein verfügbarer Artikel draußen bleibt. Für alle Pakete gelten dieselben Kriterien.
+**Gemeinsames Fachziel und Handlungsprodukt.** Wählt ein gemeinsames Kernsortiment und passende lokale Ergänzungen. Erstellt für Jan Richter die Sortimentsliste aus M5. Begründet vier gemeinsame Artikel, eine Ergänzung für Block und zwei für die Bike Arena mit Nachfragebelegen. Prüft, ob die Artikel lieferbar sind und auf die freien Plätze passen. Erklärt auch, warum ihr einen lieferbaren Artikel weglasst. Für alle Pakete gelten dieselben Kriterien.
 
-| Lernpaket | Lernzugänge | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| Lernpaket | Lernzugänge | So arbeitet ihr | Euer Zwischenergebnis | Wählt dieses Paket, wenn … |
 | --- | --- | --- | --- | --- |
-| **A · Artikeldaten gegenüberstellen** | Daten lesen, vergleichen und markieren | Stellt in einer Übersicht zu jedem Artikel aus M2 die Nachfrage beider Läden aus M1 und die Lieferbarkeit gegenüber. Markiert die freien bzw. belegten Plätze nach M3. | Die Übersicht zeigt, welche Artikel beide Läden brauchen könnten, welche vor allem örtlich gefragt sind und welche Auswahl in den Platzrahmen passt. | … ihr mehrere Angaben gern nebeneinanderlegt und Unterschiede farblich sichtbar macht. |
-| **B · Das Sortiment im Gespräch abstimmen** | Zuhören, aushandeln und begründen | Hört die Gesprächsauszüge aus M4 oder lest sie euch vor. Sprecht als Global Bike, Block und Bike Arena über Artikel und Kundenwünsche. Prüft Belege, Lieferbarkeit und verfügbare Plätze mit M1 bis M3. | Eine Notiz aus der Sortimentsrunde hält fest, welche Artikel bei beiden Läden gute Gründe haben, welche Ergänzungen vor Ort passen und was ihr begründet zurückstellt. | … ihr Vorschläge gern im Gespräch abwägt und anhand von Nachfragen überprüft. |
-| **C · Artikelkarten im Flächenraster legen** | Karten legen und Varianten ausprobieren | Erstellt aus M2 je zwei Karten pro Artikel. Legt Varianten in die beiden Raster aus M3, markiert den gemeinsamen Kern und legt zu jedem Vorschlag den passenden Nachfragebeleg aus M1. | Zwei belegte Platzraster zeigen, ob die Artikel zum jeweiligen Laden passen und welche anderen lieferbaren Artikel ihr bei knappen Plätzen beiseitelasst. | … ihr mehrere Möglichkeiten erproben möchtet, indem ihr Karten verschiebt und neu anordnet. |
+| **A · Artikeldaten gegenüberstellen** | Daten lesen, vergleichen und markieren | Listet die Artikel aus M2 auf. Schreibt zu jedem Artikel, wonach die Kundschaft in beiden Läden fragt (M1) und ob er lieferbar ist (M2). Markiert die freien und belegten Plätze nach M3. | Ihr habt eine Übersicht. Sie zeigt, welche Artikel beide Läden brauchen, welche vor allem in einem Laden gefragt sind und wie viele Plätze frei sind. | … ihr Daten gern nebeneinander seht und Unterschiede markiert. |
+| **B · Das Sortiment im Gespräch abstimmen** | Zuhören, Vorschläge besprechen und begründen | Hört M4 an oder lest euch die Gespräche vor. Übernehmt die Rollen Global Bike, Block und Bike Arena. Sprecht über Kundenwünsche und passende Artikel. Prüft Belege, Lieferbarkeit und freie Plätze mit M1 bis M3. | Ihr habt eine Notiz aus der Sortimentsrunde. Sie zeigt Gründe für gemeinsame und zusätzliche Artikel. Haltet auch fest, warum ihr einen lieferbaren Artikel weglasst. | … ihr Vorschläge gern besprecht und mit Nachfragen prüft. |
+| **C · Artikelkarten im Flächenraster legen** | Karten legen und mehrere Auswahlen testen | Erstellt für jeden Artikel aus M2 zwei Karten. Probiert mehrere Auswahlen in den beiden Rastern aus M3 aus. Markiert die gemeinsamen Artikel. Legt zu jedem Vorschlag einen passenden Nachfragebeleg aus M1. | Ihr habt zwei Raster mit Artikeln und Belegen. In den Rastern seht ihr, welche Artikel zu den Läden passen und welche ihr wegen der knappen Plätze weglasst. | … ihr Optionen gern mit Karten legt und ausprobiert. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachliche Entscheidung
 
-**Erprobt** eure Sortimentsideen mit dem gewählten Lernpaket. Legt vier gemeinsame Artikel und die Ergänzungen für beide Standorte fest. Begründet auch, warum ihr einen lieferbaren Artikel auslasst.
+**Testet** eure Ideen mit dem gewählten Lernpaket. Wählt vier gemeinsame Artikel und die Ergänzungen für die beiden Läden. Wählt auch einen lieferbaren Artikel, den ihr weglasst. Begründet, warum.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
-**Erstellt** für Jan Richter die Sortimentsliste nach M5. Begründet gemeinsame Artikel für beide Läden und lokale Artikel für den jeweiligen Standort mit einem konkreten Nachfragehinweis.
+**Füllt** die Sortimentsliste in M5 für Jan Richter aus. Begründet jeden gemeinsamen Artikel mit der Nachfrage in beiden Läden. Begründet jede Ergänzung mit der Nachfrage in dem Laden, der sie anbieten soll.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Bewerten
 
-**Prüft** die Plätze, die Lieferbarkeit und die Nachfragebelege. **Überarbeitet** eine Auswahl oder Begründung, wenn eine Vorgabe oder ein Beleg fehlt.
+**Prüft** eure Liste. Reichen die Plätze? Kommt die Ware rechtzeitig? Gibt es für jeden gewählten Artikel einen Nachfragebeleg? **Verbessert** die Auswahl oder Begründung, wenn etwas fehlt oder nicht passt.
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_2_URL}}). Reicht die Sortimentsliste ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
+**Bewertet** eine andere Arbeit in Moodle unter [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_2_URL}}).
 
-- Enthält die Liste vier gemeinsame und eine beziehungsweise zwei lokale Ergänzungen, die zum Aktionsbeginn lieferbar sind?
-- Begründet die Liste die Auswahl nachvollziehbar mit Nachfragebelegen für beide Standorte?
-- Erklärt die Liste, warum ein lieferbarer Artikel ausgelassen wurde?
+1. **Ladet eure Sortimentsliste hoch.** Wählt einen Titel und einen Dateinamen ohne eure Namen. Entfernt eure Namen aus der Arbeit und aus den Dateieigenschaften.
+2. **Schaut euch die zugeteilte Arbeit an.** Moodle lost aus, welche Arbeit ihr bekommt. Ihr seht die Arbeit ohne Namen.
+3. **Gebt Rückmeldung.** Nutzt die Fragen unter dieser Aufgabe. Nennt eine Stelle, die gut gelungen ist. Schreibt, was die Person verbessern kann. Die Person sieht bei eurer Antwort euren Klarnamen.
+
+- Stehen vier gemeinsame Artikel, eine Ergänzung für Block und zwei für die Bike Arena in der Liste? Sind sie zum Start lieferbar?
+- Passt die Begründung für jeden Artikel zu den Nachfragebelegen im jeweiligen Laden?
+- Erklärt die Liste, warum das Team einen lieferbaren Artikel weglässt?
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Reflektieren
 
-**Beschreibt** kurz eine Abwägung, bei der ihr euch zwischen zwei fachlich passenden Artikeln entscheiden musstet.
+**Nennt** zwei Artikel, die für die Aktion gepasst hätten, zwischen denen ihr aber wählen musstet. Erklärt kurz, was den Ausschlag gegeben hat.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 **Abschlusspitch.**
 
-**Pitcht** euer gewähltes Lernpaket mit eurem Handlungsprodukt und den vorhandenen Unterlagen. Für die Kurzfassung im Unterricht habt ihr etwa zwei Minuten. Wenn Zeit bleibt, beantwortet anschließend eine Rückfrage.
+**Pitcht** euer Lernpaket. Ein Pitch ist eine kurze Vorstellung. Nutzt euer Handlungsprodukt und eure Unterlagen. Ihr habt für den Kurzpitch etwa zwei Minuten. Wenn noch Zeit ist, beantwortet eine Rückfrage.
 
-1. **Ergebnis zeigen.** Stellt euer Handlungsprodukt vor und nennt eure wichtigste fachliche Entscheidung.
-2. **Entscheidung belegen.** Zeigt einen konkreten Fallbeleg und erklärt, warum er eure Entscheidung stützt.
-3. **Arbeitsweg begründen.** Begründet, warum ihr dieses Lernpaket gewählt habt. Zeigt an einem Zwischenergebnis, wie der Arbeitsweg euch bei der Entscheidung geholfen hat.
+1. **Ergebnis zeigen.** Zeigt euer Handlungsprodukt. Sagt, was ihr entschieden habt.
+2. **Entscheidung belegen.** Zeigt einen Beleg aus dem Fall. Erklärt, wie er eure Entscheidung stützt.
+3. **Arbeitsweg begründen.** Sagt, warum ihr euer Lernpaket gewählt habt. Zeigt ein Zwischenergebnis. Erklärt, wie es euch bei der Entscheidung geholfen hat.
 
-**Das könnt ihr zeigen.** Zeigt in eurer Sortimentsliste einen gemeinsamen Artikel und eine lokale Ergänzung. Macht an einem Nachfragebeleg deutlich, warum einer der Artikel zum jeweiligen Standort passt.
+**Das könnt ihr zeigen.** Zeigt in eurer Liste einen gemeinsamen Artikel und eine Ergänzung für einen Laden. Wählt einen der beiden Artikel. Erklärt mit einem Nachfragebeleg, warum er zum Laden passt.
+
+<details>
+<summary>Sprachhilfe für den Pitch</summary>
+
+- „Unser Ergebnis ist … Wir schlagen vor, dass …“
+- „Unser Beleg ist … Er zeigt, dass …“
+- „Wir haben Paket … gewählt. Beim Arbeiten hat uns … geholfen.“
+
+</details>
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_2_URL}}) aus.
+**Füllt** zum Schluss [Feedback]({{MOODLE_FEEDBACK_LS_6_2_URL}}) in Moodle aus.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
-**Begründete Sortimentsliste.** Vier gemeinsame Artikel, eine Ergänzung für Block und zwei Ergänzungen für die Bike Arena. Alle Artikel sind während der Aktion lieferbar. Die Begründungen beziehen sich auf Kundendaten und passen zum konkreten Standort. Die Liste zeigt einen ausgelassenen lieferbaren Artikel und einen nachvollziehbaren Grund.
+**Begründete Sortimentsliste.** Eure Liste enthält vier gemeinsame Artikel, eine Ergänzung für Block und zwei für die Bike Arena. Alle gewählten Artikel sind während der Aktion lieferbar. Zu jedem Artikel nutzt ihr Kundendaten aus dem jeweiligen Laden. Ihr nennt auch einen lieferbaren Artikel, den ihr weglasst, und erklärt warum.
 
 ### Materialien
 
-**Websites der Betriebe.** Block führt auf seiner Zubehörseite unter anderem Beleuchtung, Pumpen und Schlösser. Die Bike Arena verlinkt ihr Fahrradzubehör aus dem Onlineangebot. [Zubehör bei Block](https://www.zweirad-block.de/fahrraeder/zubehoer/) · [Bike Arena Oltmanns](https://www.bikearena-oltmanns.de/)
+**Websites der Betriebe.** Auf seiner Zubehörseite zeigt Block zum Beispiel Beleuchtung, Pumpen und Schlösser. Die Bike Arena zeigt ihr Fahrradzubehör im Onlineangebot. [Zubehör bei Block](https://www.zweirad-block.de/fahrraeder/zubehoer/) · [Bike Arena Oltmanns](https://www.bikearena-oltmanns.de/)
 
 Alle Artikel, Mengen und Kundendaten unten sind für den Unterricht erstellt.
 
 #### M1 · Nachfrageübersicht beider Handelspartner
 
-Die Zahlen geben registrierte [Nennungen](Glossare/LS_6_2_Glossar.md#nennung) im [Beratungstagebuch](Glossare/LS_6_2_Glossar.md#beratungstagebuch) an. Eine Person konnte mehrere Anliegen äußern. Kleine Zahlen können für eine spezifische Kundengruppe trotzdem relevant sein.
+Die Zahlen zeigen, wie oft Kunden nach etwas gefragt haben. Diese [Nennungen](Glossare/LS_6_2_Glossar.md#nennung) stehen im [Beratungstagebuch](Glossare/LS_6_2_Glossar.md#beratungstagebuch). Eine Person konnte mehrere Wünsche nennen. Auch wenige Anfragen können für eine Kundengruppe wichtig sein.
 
 | Was Kundinnen und Kunden angesprochen haben | Block, Aurich | Bike Arena Oltmanns, Leer |
 | --- | ---: | ---: |
@@ -477,9 +509,9 @@ Die Zahlen geben registrierte [Nennungen](Glossare/LS_6_2_Glossar.md#nennung) im
 | Eine leicht bedienbare Klingel nachrüsten | 4 | 5 |
 | Unterwegs lockere Fahrradschrauben nachziehen | 5 | 8 |
 
-**Beobachtung bei Block.** Kundinnen und Kunden fahren häufig bei Regen zur Arbeit und stellen ihr Rad tagsüber draußen ab. Mehrfach wurde nach einer Lösung für den nassen Sattel gefragt.
+**Beobachtung bei Block.** Kundinnen und Kunden fahren häufig bei Regen zur Arbeit und stellen ihr Rad tagsüber draußen ab. Kunden haben mehrfach nach Schutz für nasse Sättel gefragt.
 
-**Beobachtung in der Bike Arena.** Bei Familienausflügen gibt es immer wieder Fragen zu Trinkpausen, Pannen unterwegs und sichtbarem Zubehör für alle Mitfahrenden. Die Nachfrage nach Regenschutz wurde vor allem nach zwei nassen Wochenenden erfasst.
+**Beobachtung in der Bike Arena.** Familien fragen für ihre Ausflüge nach Zubehör fürs Trinken, für Pannen und für bessere Sichtbarkeit. Nach Regenschutz haben sie vor allem nach zwei nassen Wochenenden gefragt.
 
 Die Nachfrageübersicht hilft dabei, mögliche [Sortimentslücken](Glossare/LS_6_2_Glossar.md#sortimentsl%C3%BCcke) zu erkennen.
 
@@ -487,22 +519,22 @@ Die Nachfrageübersicht hilft dabei, mögliche [Sortimentslücken](Glossare/LS_6
 
 | Artikel | Kurzbeschreibung | [Lieferbarkeit](Glossare/LS_6_2_Glossar.md#lieferbarkeit) zum Aktionsbeginn | [Platzbedarf](Glossare/LS_6_2_Glossar.md#platzbedarf) je Laden |
 | --- | --- | --- | ---: |
-| L10 LED-Lichtset | Vorder- und Rückleuchte zum Anbringen an Lenker und Sattelstütze | ja | 1 Platz |
-| S20 Bügelschloss | Für das Abschließen von Rahmen oder Laufrad an geeigneten Abstellanlagen | ja | 1 Platz |
+| L10 LED-Lichtset | Licht für vorne am Lenker und hinten an der Sattelstütze | ja | 1 Platz |
+| S20 Bügelschloss | Zum Anschließen des Rahmens oder eines Laufrads, etwa an einem passenden Fahrradständer | ja | 1 Platz |
 | T30 Rahmentasche | Tasche für Schlüssel und kleine Gegenstände, mit Klettgurten | ja | 1 Platz |
-| R40 Sattelüberzug | Wasserabweisender Bezug für einen abgestellten Fahrradsattel | ja | 1 Platz |
-| P50 Minipumpe | Mobiles Aufpumpen für zwei gängige Ventilarten, siehe Kennzeichnung am Artikel | ja | 1 Platz |
-| F60 Flaschenhalter | Zur Montage am Fahrradrahmen mit passenden Gewindeösen | ja | 1 Platz |
-| K70 Klingel | Daumenhebel für passende Lenkerdurchmesser | nein, ab Folgewoche | 1 Platz |
-| B80 Reflektorband | Reflektierendes Klettband zur Ergänzung der Sichtbarkeit | ja | 1 Platz |
-| W90 Multitool | Kompaktes Werkzeug für gängige Innensechskantschrauben | ja | 1 Platz |
+| R40 Sattelüberzug | Wasserabweisender Überzug für den Sattel eines abgestellten Fahrrads | ja | 1 Platz |
+| P50 Minipumpe | Pumpe für unterwegs. Passt auf zwei gängige Ventilarten. Die Typen stehen auf dem Artikel. | ja | 1 Platz |
+| F60 Flaschenhalter | Halter für einen Rahmen mit passenden Schraublöchern (Gewindeösen) | ja | 1 Platz |
+| K70 Klingel | Klingel mit Daumenhebel für Lenker mit passendem Durchmesser | nein, ab Folgewoche | 1 Platz |
+| B80 Reflektorband | Klettband, das Licht zurückwirft. Es macht euch besser sichtbar. | ja | 1 Platz |
+| W90 Multitool | Kleines Werkzeug für gängige Innensechskantschrauben | ja | 1 Platz |
 
 #### M3 · Sortimentsvorgaben aus dem Vertrieb
 
-- Block hat fünf [Aktionsplätze](Glossare/LS_6_2_Glossar.md#aktionsplatz), die Bike Arena sechs. Dadurch ist die [Sortimentsbreite](Glossare/LS_6_2_Glossar.md#sortimentsbreite) der Aktion begrenzt. Einen siebten Platz benötigt die Bike Arena für sein bestehendes eigenes Sortiment.
-- Global Bike kündigt **vier gemeinsame Artikel** als [Kernsortiment](Glossare/LS_6_2_Glossar.md#kernsortiment) an. Diese erscheinen in beiden Läden.
-- Block erhält **einen**, die Bike Arena **zwei** zusätzliche Artikel. Eine [lokale Sortimentsergänzung](Glossare/LS_6_2_Glossar.md#lokale-sortimentserg%C3%A4nzung) wird nur in dem Laden angeboten, für den ihr sie auswählt. Jeder gewählte Artikel zählt als ein Platz je Laden.
-- Das Lager liefert pro Standort ausreichend Stück von allen ab Aktionsbeginn lieferbaren Artikeln.
+- Block hat fünf [Aktionsplätze](Glossare/LS_6_2_Glossar.md#aktionsplatz), die Bike Arena sechs. Dadurch bleibt die [Sortimentsbreite](Glossare/LS_6_2_Glossar.md#sortimentsbreite) der Aktion begrenzt. Den siebten Platz nutzt die Bike Arena für ihr eigenes Sortiment.
+- Global Bike kündigt **vier gemeinsame Artikel** als [Kernsortiment](Glossare/LS_6_2_Glossar.md#kernsortiment) an. Diese Artikel bieten beide Läden an.
+- Block erhält **einen**, die Bike Arena **zwei** zusätzliche Artikel. Eine [lokale Sortimentsergänzung](Glossare/LS_6_2_Glossar.md#lokale-sortimentserg%C3%A4nzung) bietet nur der Laden an, für den ihr sie auswählt. Jeder gewählte Artikel belegt einen Platz pro Laden.
+- Für jeden Artikel, der zum Start lieferbar ist, hat das Lager genug Stück für beide Läden.
 
 **Raster zum Ausschneiden oder Nachzeichnen**
 
@@ -513,11 +545,11 @@ Die Nachfrageübersicht hilft dabei, mögliche [Sortimentslücken](Glossare/LS_6
 
 #### M4 · Sprechtext der Sortimentsrunde
 
-**Block.** „Wir haben fünf Plätze. Besonders häufig haben wir Licht, Schlösser und etwas für einen nassen Sattel auf der Liste. Die Leute stellen ihre Räder tagsüber oft draußen ab. Auch die kleinen Dinge wie Schlüssel oder Karten müssen sie morgens irgendwo unterbringen.“
+**Block.** „Wir haben fünf Plätze. Viele haben nach Licht, Schlössern oder einem Schutz für nasse Sättel gefragt. Tagsüber stehen die Räder oft draußen. Morgens brauchen viele auch einen Platz für Schlüssel oder Karten.“
 
-**Bike Arena.** „Sechs Plätze sind für die Aktion fest eingeplant. In den letzten Gesprächen ging es vor allem um Trinkpausen, Pannen und die Frage, wie Familien sich unterwegs besser sichtbar machen. Licht und Schlösser kamen ebenfalls vor. Den Hauptteil der Aktion möchten wir gerne zusammen bewerben.“
+**Bike Arena.** „Sechs Plätze sind für die Aktion fest eingeplant. In den letzten Gesprächen ging es vor allem um Trinkpausen und Pannen. Familien wollten auch wissen, wie man sie unterwegs besser sieht. Einige haben nach Licht und Schlössern gefragt. Den Hauptteil der Aktion möchten wir gerne zusammen bewerben.“
 
-**Global Bike.** „Vier Artikel sollen in beiden Läden stehen. Dazu kommt ein lokaler Artikel bei Block und zwei in der Bike Arena. Nehmt den aktuellen Katalog. Gerade ist die Nachricht gekommen, dass K70 erst in der Folgewoche geliefert werden kann.“
+**Global Bike.** „Vier Artikel sollen in beiden Läden stehen. Dazu kommt ein lokaler Artikel bei Block und zwei in der Bike Arena. Nehmt den aktuellen Katalog. Das Lager meldet gerade: Die Klingel K70 kommt erst in der Woche nach der Aktion.“
 
 #### M5 · Ergebnisblatt für Jan Richter
 
@@ -531,16 +563,16 @@ Die Nachfrageübersicht hilft dabei, mögliche [Sortimentslücken](Glossare/LS_6
 
 #### M6 · Fachbegriffe zu dieser Lernsituation
 
-- **Kernsortiment.** Die zentralen Waren eines Angebots, die Kundinnen und Kunden dort erwarten. Bei der gemeinsamen Aktion sind das die vier Artikel, die beide Läden anbieten.
-- **Lokale Sortimentsergänzung.** Ein zusätzlicher Artikel neben dem gemeinsamen Kern, der einen Bedarf an einem bestimmten Standort aufgreift.
-- **Lieferbarkeit.** Die Möglichkeit, den Artikel rechtzeitig für den geplanten Zeitraum zu erhalten.
-- **Platzbedarf.** Der Raum oder die Zahl der Plätze, die ein Artikel auf der Fläche beansprucht.
-- **Sortimentsbreite.** Die Anzahl der verschiedenen Warengruppen im Angebot eines Geschäfts.
-- **Sortimentslücke.** Ein Bedarf, den Kundinnen und Kunden äußern und für den das Angebot des Geschäfts keinen passenden Artikel enthält.
-- **Beratungstagebuch.** Eine Sammlung von Notizen zu Beratungsgesprächen und Kundenanliegen eines Geschäfts.
-- **Nennung.** Einmaliges Erfassen eines angesprochenen Anliegens in der Nachfrageübersicht.
-- **Artikelkennung.** Ein Code, durch den ein bestimmter Artikel im Katalog eindeutig zugeordnet werden kann.
-- **Aktionsplatz.** Ein für einen Artikel dieser Aktion vorgesehener Stellplatz im Laden.
+- **Kernsortiment.** Die wichtigsten Waren, die die Kundschaft in diesem Angebot erwartet. In der Aktion sind es die vier Artikel, die beide Läden anbieten.
+- **Lokale Sortimentsergänzung.** Ein zusätzlicher Artikel, der zu einem Kundenwunsch in einem bestimmten Laden passt.
+- **Lieferbarkeit.** Ob und wann ihr einen Artikel für den geplanten Zeitraum bekommen könnt.
+- **Platzbedarf.** Der Raum oder die Zahl der Stellplätze, die ein Artikel braucht.
+- **Sortimentsbreite.** Die Zahl der verschiedenen Warengruppen im Angebot.
+- **Sortimentslücke.** Die Kundschaft fragt nach etwas. Der Laden hat dafür keinen passenden Artikel im Angebot.
+- **Beratungstagebuch.** Notizen darüber, was die Kundschaft in Beratungsgesprächen gefragt oder gewünscht hat.
+- **Nennung.** Ein Wunsch, der einmal in der Nachfrageübersicht gezählt wird.
+- **Artikelkennung.** Ein Code, der im Katalog für genau einen Artikel steht.
+- **Aktionsplatz.** Ein Platz im Laden, der für einen Artikel der Aktion frei ist.
 
 ## LS 6.3 · Waren im Fahrradfachgeschäft präsentieren
 
@@ -550,101 +582,101 @@ Die Nachfrageübersicht hilft dabei, mögliche [Sortimentslücken](Glossare/LS_6
 
 #### Warum wir das lernen
 
-Beim Kauf eines Fahrradlichts könnt ihr am eigenen Rad prüfen, ob die Halterung neben eure Klingel passt. Dafür braucht ihr im Laden Platz am Lenker, und das Personal muss sowohl an das Muster als auch an die verpackte Ware herankommen. Für die Aktion bei Block plant ihr, welche Artikel zusammenstehen und wo die Vorführung stattfinden kann, damit andere auch mit einem Fahrrad vorbeikommen.
+Beim Kauf eines Fahrradlichts könnt ihr am eigenen Rad prüfen, ob die Halterung neben die Klingel passt. Dafür brauchen euer Rad und die Verkäuferin Platz im Laden. Das Personal muss an das Muster und an die verpackte Ware kommen. Ihr plant für Block, welche Artikel zusammenstehen und wo das Personal das Licht zeigen kann. Andere sollen mit ihrem Fahrrad vorbeikommen können.
 
 #### Kompetenzprofil und Kompetenznetz
 
 **Vorrangige Fachkompetenz · 6 von 6**
 
-Ich plane eine kleine Beratungsfläche und begründe, welche Artikel ich zusammen präsentiere und wie ich sie gut erreichbar und vorführbar mache.
+Ich plane eine kleine Beratungsfläche. Ich begründe, welche Artikel ich zusammen zeige. Ich erkläre, wie man die Artikel gut erreicht und am Fahrrad zeigen kann.
 
-| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| Kompetenz | Wie stark? (1–6) | Das übe ich in dieser LS | Woran merkt ihr das? |
 | --- | ---: | --- | --- |
-| Personalkompetenz | **3** | Ich passe einen Entwurf an, wenn er im Beratungsablauf Probleme verursacht. | Den Entwurf bei erkannten Problemen ändern. |
-| Sozialkompetenz | **3** | Ich stimme mit anderen ab, welche Wege Kundschaft und Verkaufspersonal brauchen. | Bedürfnisse von Kundschaft und Verkaufspersonal abgleichen. |
-| Methodenkompetenz | **4** | Ich übertrage Maße in eine Skizze oder ein Modell und vergleiche damit zwei Anordnungen. | Zwei Anordnungen anhand von Maßen und Vorführabläufen prüfen. |
-| Medienkompetenz | **4** | Ich setze Beschriftung und Legende so ein, dass andere den Plan lesen können. | Einen bemaßten, beschrifteten Plan verständlich darstellen. |
+| Personalkompetenz | **3** | Ich ändere meinen Entwurf, wenn er bei der Beratung zu Problemen führt. | Den Entwurf bei einem Problem ändern. |
+| Sozialkompetenz | **3** | Ich bespreche mit anderen, welche Wege die Kundschaft und das Verkaufspersonal brauchen. | Die Wege von Kundschaft und Verkaufspersonal vergleichen. |
+| Methodenkompetenz | **4** | Ich übertrage Maße in eine Skizze oder ein Modell. Damit vergleiche ich zwei Anordnungen. | Zwei Anordnungen anhand der Maße und der Vorführung prüfen. |
+| Medienkompetenz | **4** | Ich beschrifte den Plan und erkläre die Zeichen in einer Legende. So können andere ihn lesen. | Maße und Beschriftungen gut lesbar eintragen. |
 
 ### Handlungssituation
 
-**Unterrichtsfall.** Die Betriebe sind real. Die Global-Bike-Aktion und die dazugehörigen Daten sind für den Unterricht erstellt.
+**Unterrichtsfall.** Die Betriebe gibt es wirklich. Die Aktion von Global Bike und die Daten gehören zum Unterrichtsfall.
 
-Sebastian Wolf aus dem Außendienst und Christian Klein aus der Absatzlogistik besuchen das 2-Rad Center Block in Aurich. Das Zubehör für die Global-Bike-Frühjahrsaktion steht fest. Für den Aufbau hat die Ladenleitung zwei Rollregale und einen schmalen Tisch reserviert. Morgen Vormittag will sie den Aufbau erproben.
+Sebastian Wolf und Christian Klein besuchen das 2-Rad Center Block in Aurich. Sebastian betreut die Geschäfte für Global Bike im Außendienst. Christian kümmert sich in der Absatzlogistik darum, dass die Ware zu den Geschäften kommt. Das Zubehör für die Frühjahrsaktion steht schon fest. Die Ladenleitung hat zwei Rollregale und einen schmalen Tisch reserviert. Morgen Vormittag will sie den Aufbau testen.
 
-Eine Kundin schiebt ihr Rad herein und bittet darum, die Halterung eines Lichts am Lenker zu sehen. Als die Verkäuferin mit dem Muster zu ihr tritt, kommt ein weiterer Kunde mit seinem Fahrrad durch denselben Bereich. Beide halten an. Sebastian möchte bei der Aktion genug Platz vorsehen, um Zubehör direkt am Rad zu zeigen. Christian tippt auf den Ladenplan. „Wenn wir dafür zu viel Platz am Tisch blockieren, kommt das Personal während einer Beratung schlecht an die verpackte Ware heran.“
+Eine Kundin schiebt ihr Rad in den Laden. Sie möchte sehen, wie die Halterung eines Lichts am Lenker sitzt. Die Verkäuferin bringt ihr das Muster. Gerade in diesem Moment kommt ein zweiter Kunde mit seinem Fahrrad durch denselben Bereich. Beide halten an. Sebastian möchte mehr Platz einplanen, damit das Personal Zubehör am Rad zeigen kann. Christian tippt auf den Ladenplan. „Wenn wir zu viel Platz am Tisch brauchen, kommt das Personal bei der Beratung schlecht an die verpackte Ware heran.“
 
-Die Ladenleitung schaut auf die beiden Räder im Gang. „Am Samstag passiert das mehrmals am Vormittag. Ich will sehen, wo ihr am Rad etwas zeigen könnt und wie Kundschaft und Personal dabei vorbeikommen.“ Für die Probe braucht sie von euch einen Plan, der Vorführung, Zugriff auf die Ware und freie Wege zusammenbringt.
+Die Ladenleitung schaut auf die beiden Räder im Gang. „Am Samstag passiert das mehrmals am Vormittag. Wo können wir etwas am Rad zeigen? Wie kommen alle dabei vorbei?“ Für die Probe braucht sie euren Plan. Er soll zeigen, wie das Personal etwas vorführen und gleichzeitig die Ware erreichen kann. Die Wege sollen dabei frei bleiben.
 
 #### Kurz prüfen · Handlungssituation
 
-**Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
+**Beantwortet** die Fragen zum Fall. Klickt auf „Hilfe“, wenn ihr beim Lesen Unterstützung braucht.
 
-**1. Welche Ausstattung steht für den Aktionsaufbau bereit und wann wird der Aufbau erprobt?**
+**1. Nennt, was für den Aufbau bereitsteht und wann die Ladenleitung den Aufbau testet.**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im ersten Absatz die Sätze über die Reservierung und die Probe. Beginnt mit „Bereit stehen …“ und „Die Probe findet … statt.“
+Sucht die Stelle, an der die Ladenleitung den Aufbau vorbereitet. Beginnt mit „Für den Aufbau gibt es …“ und „Die Ladenleitung testet den Aufbau …“.
 
 </details>
 
-**2. Was passiert, als die Verkäuferin das Licht am Rad zeigen will?**
+**2. Beschreibt, was passiert, als die Verkäuferin das Licht am Rad zeigen will.**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest im zweiten Absatz von der Bitte der Kundin bis zum Anhalten. Beschreibt den Moment aus Sicht der Person, die mit dem zweiten Rad hereinkommt.
+Lest ab „Eine Kundin schiebt ihr Rad in den Laden“ bis zu „Beide halten an“. Beginnt mit „Die Verkäuferin kommt mit dem Muster. In diesem Moment …“.
 
 </details>
 
-**3. Worauf achten Sebastian und Christian bei der Planung jeweils?**
+**3. Erklärt, worauf Sebastian bei der Planung achtet und was Christian wichtig ist.**
 
 <details>
 <summary>Hilfe</summary>
 
-Vergleicht Sebastians Vorschlag mit Christians Satz. Ergänzt „Für Sebastian ist wichtig, dass …“ und „Christian will sicherstellen, dass …“.
+Sucht Sebastians Vorschlag am Vorführplatz und Christians Antwort am Ladenplan. Beginnt mit „Sebastian möchte …“ und „Christian achtet darauf, dass …“.
 
 </details>
 
-**4. Welche drei Dinge soll der Plan für die Ladenleitung zusammenbringen?**
+**4. Nennt drei Dinge, die der Plan für die Ladenleitung möglich machen soll.**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest den letzten Satz. Formuliert daraus, was Personal und Kundschaft gleichzeitig tun können sollen.
+Lest die letzten beiden Sätze. Beginnt mit „Der Plan soll zeigen, wie …“.
 
 </details>
 
 ### Informieren
 
-**Fachlicher Einstieg.** Bei Block ergänzt die Vorführung die persönliche Beratung. Prüft mit M1 und M2, ob Kundschaft und Personal die Ware gut erreichen und am Vorführrad ausreichend Platz haben. Nutzt M3, um sinnvolle Artikelkombinationen und passende Warenplätze zu begründen.
+**Fachlicher Einstieg.** Bei Block gehört es zur Beratung, Ware am Fahrrad zu zeigen. Prüft mit M1 und M2, ob alle an die Ware kommen und genug Platz am Vorführrad haben. Nutzt M3, um zu begründen, welche Artikel zusammengehören und wo sie stehen sollen.
 
-**Entnehmt** M1 bis M3 die Maße, die Betriebsregeln und die Anforderungen der ausgewählten Artikel. **Markiert** im Plan, wo Zugriff, Durchgang und Vorführen gleichzeitig möglich sein müssen.
+**Sucht** in M1 bis M3 die Maße, die Ladenregeln und die Vorgaben für die Artikel. **Markiert** im Plan, wo das Personal Ware greifen und am Rad zeigen können muss. Markiert auch die Wege, die dafür frei bleiben müssen.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Lest** die Erklärungen zu den zehn Fachbegriffen in M6. **Wählt** danach im Fachbegriffscheck für jeden Begriff die passende Erklärung. Die Antworten stehen in gemischter Reihenfolge. Nach jeder Antwort bekommt ihr eine kurze Rückmeldung zum Fall.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
-| `BFSDUAL-LF06-LS03-B01` | Warenträger | Ein Einrichtungsstück wie ein Regal oder ein Tisch, auf dem Ware angeboten wird. | Eine markierte Fläche zum Vorführen eines Artikels. | Ein Weg, den die Kundschaft zwischen Eingang und Werkstatt nutzt. | Die Rollregale und der Ausstellungstisch sind die Warenträger der Aktion (M2). |
-| `BFSDUAL-LF06-LS03-B02` | Bedienseite | Die Seite eines Warenträgers, von der aus die Ware angesehen oder entnommen wird. | Die Seite des Regals, die dem Eingang am nächsten liegt. | Der Teil des Bodens, auf dem das Fahrrad für die Beratung steht. | Bei den Rollregalen ist die markierte Längsseite für den Zugriff vorgesehen (M2). |
-| `BFSDUAL-LF06-LS03-B03` | Vorführplatz | Der freie Bereich, in dem die Anwendung eines Artikels gezeigt oder erprobt wird. | Der Platz für verpackte Ware im Rollregal. | Der Durchgang, durch den Fahrräder zur Werkstatt geschoben werden. | Der Platz muss groß genug sein, damit die Beratung Zubehör am Vorführrad zeigen kann (M2 und M3). |
-| `BFSDUAL-LF06-LS03-B04` | Hauptdurchgang | Der zentrale freie Weg, auf dem sich die Kundschaft im Laden bewegt. | Die Bedienseite, an der die Ware aus dem Regal gegriffen wird. | Der für die Aktion reservierte Teil der Verkaufsfläche. | Der links eingezeichnete Weg bleibt auf seiner vollen Breite frei und führt Richtung Werkstatt (M1). |
-| `BFSDUAL-LF06-LS03-B05` | Regalzone | Ein Höhenbereich eines Regals, in dem Ware unterschiedlich gut zu sehen oder zu greifen ist. | Die Seite des Regals, an der Kundschaft und Personal zugreifen. | Die Reihenfolge, in der Warenträger nebeneinanderstehen. | Das schwere Bügelschloss S20 wird in der unteren Regalzone präsentiert (M3). |
-| `BFSDUAL-LF06-LS03-B06` | Warenplatz | Die festgelegte Stelle im Verkaufsraum oder im Regal, an der Kundinnen und Kunden einen bestimmten Artikel finden. | Der Platz, an dem ein Produkt am Fahrrad vorgeführt wird. | Der gesamte Abschnitt des Ladens, den das Geschäft für die Aktion freihält. | Die Schachteln mit dem Lichtset L10 bleiben am Warenplatz erreichbar, während ein Muster zur Beratung bereitliegt (M3). |
-| `BFSDUAL-LF06-LS03-B07` | Aktionsfläche | Die für ein zeitlich begrenztes Angebot vorgesehene Fläche im Geschäft. | Der zentrale Weg, auf dem die Kundschaft durch das Geschäft geht. | Der Platz innerhalb eines Regals, den ein einzelner Artikel einnimmt. | Die markierte Aktionsfläche bietet Platz für Warenträger und einen Vorführplatz. Der Hauptdurchgang ist separat eingezeichnet (M1). |
-| `BFSDUAL-LF06-LS03-B08` | Beratungstresen | Ein fest eingeplanter Arbeitsplatz im Laden, an dem Verkaufspersonal die Kundschaft bedient. | Ein beweglicher Tisch zur Präsentation der Aktionsartikel. | Eine frei gehaltene Fläche, auf der ein Fahrrad für die Vorführung steht. | Der Tresen bleibt an seiner eingezeichneten Stelle und muss während der Aktion erreichbar bleiben (M1 und M2). |
-| `BFSDUAL-LF06-LS03-B09` | Vorführmodell | Ein Gegenstand, an dem die Anwendung eines Produkts gezeigt werden kann. | Eine Skizze, die die Maße der Aktionsfläche zeigt. | Ein Warenträger, auf dem ausschließlich verpackte Artikel präsentiert werden. | Am bereitgestellten Fahrrad kann die Verkäuferin zeigen, wie die Minipumpe am Ventil angesetzt wird (M2 und M3). |
-| `BFSDUAL-LF06-LS03-B10` | Muster | Ein bereitgestelltes Exemplar eines Artikels, an dem die Kundschaft Eigenschaften prüfen oder die Nutzung ausprobieren kann. | Eine Artikelverpackung, die den festen Warenplatz markiert. | Ein Warenbestand, der bis zum Ende der Aktion im Lager zurückgehalten wird. | Die Kundschaft darf das Muster des Sattelüberzugs anfassen und am Vorführrad ausprobieren (M3). |
+| `BFSDUAL-LF06-LS03-B01` | Warenträger | Ein Regal, ein Tisch oder etwas Ähnliches, auf dem ein Laden seine Ware zeigt. | Eine markierte Fläche, um einen Artikel vorzuführen. | Ein Weg vom Eingang zur Werkstatt. | Die Rollregale und der Tisch sind die Warenträger der Aktion (M2). |
+| `BFSDUAL-LF06-LS03-B02` | Bedienseite | Die Seite eines Regals oder eines anderen Warenträgers, an der man die Ware ansehen und greifen kann. | Die Seite des Regals, die dem Eingang am nächsten liegt. | Der Teil des Bodens, auf dem das Fahrrad für die Beratung steht. | Bei den Rollregalen ist die markierte Längsseite für den Zugriff vorgesehen (M2). |
+| `BFSDUAL-LF06-LS03-B03` | Vorführplatz | Ein freier Platz, an dem man einen Artikel zeigen und ausprobieren kann. | Der Platz für verpackte Ware im Rollregal. | Der Durchgang, durch den Fahrräder zur Werkstatt geschoben werden. | Der Platz muss groß genug sein, damit die Beratung Zubehör am Vorführrad zeigen kann (M2 und M3). |
+| `BFSDUAL-LF06-LS03-B04` | Hauptdurchgang | Der wichtigste freie Weg für Kundinnen und Kunden im Laden. | Die Bedienseite, an der die Ware aus dem Regal gegriffen wird. | Der für die Aktion reservierte Teil der Verkaufsfläche. | Der links eingezeichnete Weg bleibt auf seiner vollen Breite frei und führt Richtung Werkstatt (M1). |
+| `BFSDUAL-LF06-LS03-B05` | Regalzone | Ein Bereich des Regals auf einer bestimmten Höhe. Je nach Höhe sieht oder erreicht man die Ware unterschiedlich gut. | Die Seite des Regals, an der Kundschaft und Personal die Ware greifen. | Die Reihenfolge, in der die Warenträger nebeneinanderstehen. | Das schwere Bügelschloss S20 gehört in die untere Regalzone (M3). |
+| `BFSDUAL-LF06-LS03-B06` | Warenplatz | Die feste Stelle im Laden oder im Regal, an der die Kundschaft einen bestimmten Artikel findet. | Der Platz, an dem das Personal ein Produkt am Fahrrad zeigt. | Der ganze Bereich des Ladens, den das Geschäft für die Aktion freihält. | Ein Muster des Lichtsets L10 liegt für die Beratung bereit. Die Schachteln sind am Warenplatz erreichbar (M3). |
+| `BFSDUAL-LF06-LS03-B07` | Aktionsfläche | Ein Bereich im Laden für ein Angebot, das es nur eine bestimmte Zeit gibt. | Der wichtigste Weg für die Kundschaft durch den Laden. | Der Platz im Regal, an dem ein einzelner Artikel steht. | Auf der Aktionsfläche stehen die Warenträger. Dort ist auch Platz für die Vorführung. Der Hauptdurchgang ist extra eingezeichnet (M1). |
+| `BFSDUAL-LF06-LS03-B08` | Beratungstresen | Ein fester Arbeitsplatz im Laden, an dem das Verkaufspersonal die Kundschaft bedient. | Ein beweglicher Tisch zur Präsentation der Aktionsartikel. | Eine frei gehaltene Fläche, auf der ein Fahrrad für die Vorführung steht. | Der Tresen bleibt an der Stelle im Plan. Auch während der Aktion muss man ihn erreichen können (M1 und M2). |
+| `BFSDUAL-LF06-LS03-B09` | Vorführmodell | Ein Gegenstand, an dem man zeigen kann, wie ein Produkt funktioniert oder wie man es benutzt. | Eine Skizze, die die Maße der Aktionsfläche zeigt. | Ein Warenträger, auf dem nur verpackte Artikel stehen. | Am Vorführrad zeigt die Verkäuferin, wie sie die Minipumpe am Ventil ansetzt (M2 und M3). |
+| `BFSDUAL-LF06-LS03-B10` | Muster | Ein Artikel, den die Kundschaft ansehen, genauer prüfen oder ausprobieren darf. | Eine Packung, die den festen Platz eines Artikels markiert. | Ware, die das Geschäft bis zum Ende der Aktion im Lager behält. | Die Kundschaft darf das Muster des Sattelüberzugs anfassen und am Vorführrad ausprobieren (M3). |
 
 ### Planen
 
-**Skizziert** zwei grobe Anordnungen für Warenträger und Vorführplatz. Haltet fest, welche Zugänge, Maße und Vorgaben ihr bei beiden Anordnungen prüfen müsst.
+**Skizziert** zwei Möglichkeiten, Regale, Tisch und Vorführplatz anzuordnen. **Notiert** die Zugänge, Maße und Vorgaben, die ihr für beide Skizzen prüfen müsst.
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -652,37 +684,41 @@ Lest den letzten Satz. Formuliert daraus, was Personal und Kundschaft gleichzeit
 
 #### Lernpaket wählen
 
-**Wählt** einen der drei Arbeitswege. Achtet darauf, welcher euch bei der fachlichen Entscheidung am besten hilft. Sichert bei der Bearbeitung ein Zwischenergebnis eures Lernpakets und einen Fallbeleg für den Abschlusspitch.
+**Wählt** einen der drei Arbeitswege. Überlegt, welcher Weg euch bei der Entscheidung am besten hilft. **Haltet** beim Arbeiten ein Zwischenergebnis und einen Beleg für den Pitch fest. Ein Beleg kann zum Beispiel eine Zahl, ein Maß oder eine Kundenstimme sein.
 
-**Gemeinsames Fachziel und Handlungsprodukt.** Ihr plant eine kleine Beratungsfläche und begründet, welche Artikel zusammenstehen und wie das Personal sie gut erreichen und am Fahrrad zeigen kann. Alle drei Pakete führen zum selben Handlungsprodukt, einem bemaßten, beschrifteten Flächenplan mit kurzer Begründung. Vergleicht eure Entwürfe mit denselben Kriterien aus M5.
+**Gemeinsames Fachziel und Handlungsprodukt.** Plant eine kleine Beratungsfläche. Begründet, welche Artikel zusammenstehen. Erklärt, wie das Personal sie gut erreicht und am Rad zeigen kann. Bei allen drei Lernpaketen erstellt ihr einen Flächenplan mit Maßen, Beschriftungen und einer kurzen Begründung. Vergleicht eure Entwürfe mit denselben Kriterien aus M5.
 
-| Lernpaket | Lernzugänge | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| Lernpaket | Lernzugänge | So arbeitet ihr | Euer Zwischenergebnis | Wählt dieses Paket, wenn … |
 | --- | --- | --- | --- | --- |
-| **A · Beratungsflächen maßstäblich zeichnen** | Zeichnen und Abstände vergleichen | Zeichnet beide Anordnungen mit M1 und M4 im Maßstab 1:20. Markiert Vorführplatz, Zugriff auf die Ware und Durchgänge. | Zwei markierte Skizzen zeigen euch, an welchen Stellen Maße und Abstände ausreichen oder zu knapp werden. | … ihr Wege und Platzverhältnisse gern in einer Zeichnung vergleicht. |
-| **B · Eine Beratung nachspielen** | Zuhören, in Rollen sprechen und Abläufe nachstellen | Hört den Dialog aus M4 oder lest ihn mit verteilten Rollen vor. Spielt die Beratung zur Minipumpe durch und sprecht aus, wohin sich die Beteiligten bewegen und was sie greifen. Markiert die Stellen in beiden Skizzen. | Zwei Skizzen mit Notizen zum Beratungsablauf zeigen euch, wo jemand schlecht an die Ware kommt oder ein Fahrrad den Weg versperrt. | … ihr am besten im Gespräch nachvollzieht, was die Beteiligten nacheinander tun. |
-| **C · Die Beratungsfläche im Modell aufbauen** | Aufbauen und den Zugriff am Fahrradmodell erproben | Legt Grundriss, Rollregale und Tisch nach M4 als Modell aus. Bewegt das Fahrradmodell durch beide Anordnungen und probiert den Zugriff auf die Muster aus. Haltet eure Beobachtungen in beiden Skizzen fest. | Zwei am Modell erprobte Varianten zeigen euch, was sich beim Verschieben der Regale für Zugriff und freie Wege verändert. | … ihr durch Aufbauen und Verschieben am besten beurteilt, ob eine Anordnung funktioniert. |
+| **A · Beratungsflächen maßstäblich zeichnen** | Zeichnen und Abstände vergleichen | Zeichnet beide Anordnungen mit M1 und M4 im Maßstab 1:20. Markiert den Vorführplatz, die Stellen zum Greifen und die freien Wege. | Eure beiden Skizzen zeigen, wo genug Platz ist und wo es eng wird. | … ihr Wege und Abstände gern auf einer Zeichnung vergleicht. |
+| **B · Eine Beratung nachspielen** | Zuhören, in Rollen sprechen und eine Beratung nachspielen | Hört den Dialog aus M4 oder lest ihn in Rollen vor. Spielt die Beratung zur Minipumpe nach. Sagt laut, wer sich wohin bewegt und was die Person greift. Markiert diese Stellen in beiden Skizzen. | Eure Skizzen und Notizen zeigen, wann jemand schlecht an die Ware kommt oder ein Fahrrad im Weg steht. | … ihr im Gespräch gut erkennt, was die Personen nacheinander tun. |
+| **C · Die Beratungsfläche im Modell aufbauen** | Aufbauen und den Zugriff am Fahrradmodell testen | Legt den Grundriss mit Rollregalen und Tisch nach M4 als Modell aus. Bewegt das Fahrrad durch beide Anordnungen. Testet, wo ihr die Muster gut erreichen könnt. Notiert eure Beobachtungen in beiden Skizzen. | Die beiden Aufbauten zeigen am Modell, wie sich Wege und Zugriff auf die Ware ändern, wenn ihr Regale verschiebt. | … ihr durch Aufbauen und Verschieben sehen möchtet, welche Anordnung gut funktioniert. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachliche Entscheidung
 
-**Vergleicht** beide Anordnungen mit dem gewählten Lernpaket und den Kriterien aus M5. Begründet eure Empfehlung für die Ladenleitung mit einem konkreten Vorteil im Beratungsbetrieb und benennt, welches Problem bei der anderen Anordnung auftreten könnte.
+**Vergleicht** mit eurem Lernpaket beide Anordnungen anhand der Kriterien aus M5. **Begründet** eure Empfehlung für die Ladenleitung. Nennt einen konkreten Vorteil für die Beratung und ein mögliches Problem bei der anderen Anordnung.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
-**Erstellt** einen beschrifteten Plan für eure gewählte Anordnung. Zeigt darin, welche Artikel zusammenstehen, wie Muster erreichbar sind und an welcher Stelle das Personal die Lampe oder Pumpe am Fahrrad vorführt.
+**Erstellt** für die gewählte Anordnung einen Plan mit Maßen und Beschriftungen. Zeigt, welche Artikel zusammenstehen und wo man die Muster greifen kann. Tragt ein, wo das Personal das Licht oder die Pumpe am Fahrrad vorführt.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Bewerten
 
-**Prüft** den Plan an einer Lampenberatung und an einer Beratung zur Minipumpe. Nutzt M5 und korrigiert eine Stelle, falls beim Erreichen der Ware, Vorführen oder Vorbeigehen ein Hindernis entsteht.
+**Prüft** den Plan mit M5 bei einer Beratung zum Licht und einer Beratung zur Minipumpe. **Verbessert** eine Stelle, falls die Ware schwer erreichbar ist oder der Platz zum Vorführen oder Vorbeigehen fehlt.
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_3_URL}}). Reicht den bemaßten Flächenplan für Block ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
+**Bewertet** eine andere Arbeit in Moodle unter [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_3_URL}}).
+
+1. **Ladet euren Flächenplan mit Maßen für Block hoch.** Wählt einen Titel und einen Dateinamen ohne eure Namen. Entfernt eure Namen aus der Arbeit und aus den Dateieigenschaften.
+2. **Schaut euch die zugeteilte Arbeit an.** Moodle lost aus, welche Arbeit ihr bekommt. Ihr seht die Arbeit ohne Namen.
+3. **Gebt Rückmeldung.** Nutzt die Fragen unter dieser Aufgabe. Nennt eine Stelle, die gut gelungen ist. Schreibt, was die Person verbessern kann. Die Person sieht bei eurer Antwort euren Klarnamen.
 
 - Passen Warenträger, Vorführplatz und freie Durchgänge zu den Maßen und Vorgaben?
 - Stehen passende Artikel zusammen und lässt sich die Ware gut erreichen?
@@ -692,96 +728,105 @@ Lest den letzten Satz. Formuliert daraus, was Personal und Kundschaft gleichzeit
 
 ### Reflektieren
 
-**Haltet fest**, welche Beobachtung eure Anordnung besonders beeinflusst hat. **Erklärt**, welche Änderung ihr am Plan vornehmen würdet, wenn Block künftig nur noch einen der beiden fahrbaren Warenträger bereitstellen könnte.
+**Notiert**, welche Beobachtung bei eurer Entscheidung am wichtigsten war. **Erklärt**, was ihr am Plan ändern würdet, wenn Block nur noch eines der beiden Rollregale bereitstellen könnte.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 **Abschlusspitch.**
 
-**Pitcht** euer gewähltes Lernpaket mit eurem Handlungsprodukt und den vorhandenen Unterlagen. Für die Kurzfassung im Unterricht habt ihr etwa zwei Minuten. Wenn Zeit bleibt, beantwortet anschließend eine Rückfrage.
+**Pitcht** euer Lernpaket. Ein Pitch ist eine kurze Vorstellung. Nutzt euer Handlungsprodukt und eure Unterlagen. Ihr habt für den Kurzpitch etwa zwei Minuten. Wenn noch Zeit ist, beantwortet eine Rückfrage.
 
-1. **Ergebnis zeigen.** Stellt euer Handlungsprodukt vor und nennt eure wichtigste fachliche Entscheidung.
-2. **Entscheidung belegen.** Zeigt einen konkreten Fallbeleg und erklärt, warum er eure Entscheidung stützt.
-3. **Arbeitsweg begründen.** Begründet, warum ihr dieses Lernpaket gewählt habt. Zeigt an einem Zwischenergebnis, wie der Arbeitsweg euch bei der Entscheidung geholfen hat.
+1. **Ergebnis zeigen.** Zeigt euer Handlungsprodukt. Sagt, was ihr entschieden habt.
+2. **Entscheidung belegen.** Zeigt einen Beleg aus dem Fall. Erklärt, wie er eure Entscheidung stützt.
+3. **Arbeitsweg begründen.** Sagt, warum ihr euer Lernpaket gewählt habt. Zeigt ein Zwischenergebnis. Erklärt, wie es euch bei der Entscheidung geholfen hat.
 
-**Das könnt ihr zeigen.** Zeigt am Flächenplan, wo die Beratung und Vorführung stattfinden und wie das Verkaufspersonal die Ware erreicht. Markiert den Weg, der dabei frei bleibt.
+**Das könnt ihr zeigen.** Zeigt im Plan den Platz für die Beratung und die Vorführung. Zeigt, wie das Personal an die Ware kommt. Markiert den Weg, der dabei frei bleibt.
+
+<details>
+<summary>Sprachhilfe für den Pitch</summary>
+
+- „Unser Ergebnis ist … Wir schlagen vor, dass …“
+- „Unser Beleg ist … Er zeigt, dass …“
+- „Wir haben Paket … gewählt. Beim Arbeiten hat uns … geholfen.“
+
+</details>
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_3_URL}}) aus.
+**Füllt** zum Schluss [Feedback]({{MOODLE_FEEDBACK_LS_6_3_URL}}) in Moodle aus.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
-Block erhält einen beschrifteten, bemaßten Flächenplan mit einer kurzen Begründung. Für alle Pakete zählen passende Artikelkombinationen, die Einhaltung der Flächenvorgaben, der erkennbare Zugriff auf die Ware und ein praktikabler Platz für die Vorführung am Fahrrad.
+Block erhält einen Flächenplan mit Maßen, Beschriftungen und einer kurzen Begründung. Bei allen Paketen gelten dieselben Kriterien. Passende Artikel stehen zusammen. Die Maße und die Flächenvorgaben sind eingehalten. Die Ware bleibt erreichbar. Es gibt genug Platz, um Zubehör am Fahrrad zu zeigen.
 
 ### Materialien
 
 #### M1 · Modellgrundriss für die Beratung bei Block
 
-**Website des Betriebs.** Block beschreibt persönliche Beratung sowie die Möglichkeit zum Probesitzen und Probefahren. Im Unterrichtsfall wird dieser Gedanke auf eine Vorführung von Zubehör am Rad übertragen. [Unternehmen](https://www.zweirad-block.de/unternehmen/)
+**Website des Betriebs.** Block bietet persönliche Beratung an. Die Kundschaft kann auf einem Rad probesitzen und probefahren. Im Unterrichtsfall kann die Kundschaft auch Zubehör am Rad ausprobieren. [Unternehmen](https://www.zweirad-block.de/unternehmen/)
 
-Der abgebildete Verkaufsbereich ist 4,80 m breit und 4,00 m tief. Der Nullpunkt liegt in der südwestlichen Ecke. x wächst nach Osten, y nach Norden. Zeichnet ein Rechteck im Maßstab 1:20 und übertragt diese Bereiche.
+Der Verkaufsbereich ist 4,80 m breit und 4,00 m tief. Der Nullpunkt liegt im Südwesten, also links unten im Plan. Nach rechts laufen die x-Werte, nach oben die y-Werte. **Zeichnet** ein Rechteck im Maßstab 1:20 und tragt die Bereiche aus der Tabelle ein.
 
 | Bereich | x in m | y in m | Bedeutung |
 |---|---:|---:|---|
-| Haupteingang | 0,00–1,20 | 0,00 | Die Kundschaft betritt den Bereich von Süden und schiebt ihre Fahrräder hinein. |
+| Haupteingang | 0,00–1,20 | 0,00 | Die Kundschaft kommt von Süden und schiebt die Fahrräder hinein. |
 | [Hauptdurchgang](Glossare/LS_6_3_Glossar.md#hauptdurchgang) | 0,00–1,20 | 0,00–4,00 | Die volle Breite bleibt für Kunden und Fahrräder frei. |
-| [Aktionsfläche](Glossare/LS_6_3_Glossar.md#aktionsfl%C3%A4che) | 1,20–4,80 | 0,80–4,00 | Hier dürfen Warenträger und Vorführplatz angeordnet werden. |
-| Fester [Beratungstresen](Glossare/LS_6_3_Glossar.md#beratungstresen) | 3,60–4,80 | 0,80–1,50 | Die Ware am Tresen wird regulär verkauft. Der Tresen bleibt an dieser Stelle. |
+| [Aktionsfläche](Glossare/LS_6_3_Glossar.md#aktionsfl%C3%A4che) | 1,20–4,80 | 0,80–4,00 | Hier ist Platz für die Warenträger und die Vorführung. |
+| Fester [Beratungstresen](Glossare/LS_6_3_Glossar.md#beratungstresen) | 3,60–4,80 | 0,80–1,50 | Am Tresen verkauft Block weiter Ware wie sonst auch. Der Tresen bleibt an seinem Platz. |
 
 #### M2 · Ladenregeln und Warenträger
 
-- Der [Vorführplatz](Glossare/LS_6_3_Glossar.md#vorf%C3%BChrplatz) beansprucht eine zusammenhängende freie Fläche von mindestens 2,00 m × 1,30 m. Seine lange Seite darf parallel zu einer der beiden Raumachsen liegen.
-- Eine durchgehende Verbindung von mindestens 0,90 m führt vom Hauptdurchgang zum Vorführplatz und zur jeweiligen [Bedienseite](Glossare/LS_6_3_Glossar.md#bedienseite) der Warenträger. Hauptdurchgang und Tresen bleiben benutzbar.
-- Zwei frei drehbare Rollregale messen jeweils 1,00 m × 0,40 m. Ihre markierte Längsseite ist die Bedienseite. Ein Tisch misst 0,80 m × 0,55 m. Die [Warenträger](Glossare/LS_6_3_Glossar.md#warentr%C3%A4ger) stehen vollständig innerhalb der markierten Aktionsfläche.
-- Block stellt für die Aktion ein Fahrrad mit geradem Lenker und einem Reifen mit Sclaverandventil als [Vorführmodell](Glossare/LS_6_3_Glossar.md#vorf%C3%BChrmodell) bereit. Die verpackte Ware bleibt in Reichweite der Beratung.
+- Der [Vorführplatz](Glossare/LS_6_3_Glossar.md#vorf%C3%BChrplatz) braucht eine durchgehend freie Fläche von mindestens 2,00 m × 1,30 m. Im Plan darf seine lange Seite in x- oder y-Richtung liegen.
+- Vom Hauptdurchgang führt ein freier Weg zum Vorführplatz und zur [Bedienseite](Glossare/LS_6_3_Glossar.md#bedienseite) jedes Warenträgers. Dieser Weg ist überall mindestens 0,90 m breit. Hauptdurchgang und Tresen bleiben nutzbar.
+- Die zwei Rollregale lassen sich frei drehen. Sie sind jeweils 1,00 m × 0,40 m groß. An der markierten langen Seite greift man die Ware. Ein Tisch ist 0,80 m × 0,55 m groß. Alle [Warenträger](Glossare/LS_6_3_Glossar.md#warentr%C3%A4ger) stehen ganz auf der markierten Aktionsfläche.
+- Block stellt ein Fahrrad als [Vorführmodell](Glossare/LS_6_3_Glossar.md#vorf%C3%BChrmodell) bereit. Es hat einen geraden Lenker und einen Reifen mit Sclaverandventil. Das Personal muss bei der Beratung auch an die verpackte Ware kommen.
 
 #### M3 · Festes Aktionssortiment
 
 | Artikel | Was die Kundschaft beim Kauf wissen will | Vorgabe bei Block |
 |---|---|---|
 | L10 LED-Lichtset | Wie sitzt die Halterung am Lenker und wie löse ich das Licht wieder? | Ein Muster am Vorführplatz. Die Schachteln stehen erreichbar am [Warenplatz](Glossare/LS_6_3_Glossar.md#warenplatz). |
-| R40 Sattelüberzug | Kann ich den Überzug am eigenen Sattel ausprobieren? | Ein [Muster](Glossare/LS_6_3_Glossar.md#muster) darf angefasst und am Vorführrad gezeigt werden. Verpackte Ware bleibt zugänglich. |
-| P50 Minipumpe | Passt die Pumpe zu meinem Ventil und wie setze ich sie an? | Vorführung am Ventil des Fahrrads möglich halten. |
-| T30 Rahmentasche | Komme ich leicht an meine Kleinteile? | Ein leeres Muster darf angefasst und geöffnet werden. |
-| S20 Bügelschloss | Wie groß ist der Bügel und wie schwer ist das Schloss? | Aufgrund des Gewichts in der unteren [Regalzone](Glossare/LS_6_3_Glossar.md#regalzone) zeigen. |
+| R40 Sattelüberzug | Kann ich den Überzug am eigenen Sattel ausprobieren? | Die Kundschaft darf ein [Muster](Glossare/LS_6_3_Glossar.md#muster) anfassen. Das Personal kann es am Vorführrad zeigen. Die verpackte Ware bleibt erreichbar. |
+| P50 Minipumpe | Passt die Pumpe zu meinem Ventil und wie setze ich sie an? | Das Personal soll die Pumpe am Ventil des Fahrrads zeigen können. |
+| T30 Rahmentasche | Komme ich leicht an meine Kleinteile? | Die Kundschaft darf ein leeres Muster anfassen und öffnen. |
+| S20 Bügelschloss | Wie groß ist der Bügel und wie schwer ist das Schloss? | Zeigt das Schloss wegen seines Gewichts in der unteren [Regalzone](Glossare/LS_6_3_Glossar.md#regalzone). |
 
 #### M4 · Material für die drei Arbeitswege
 
-**A · Visuell.** Nutzt M1 als Zeichenauftrag. Markiert die Bedienseite der Warenträger mit einem Pfeil und zeichnet ein Fahrrad als 1,80 m × 0,65 m große Umrissfläche ein. So lässt sich an der Skizze erkennen, ob daneben Platz für das Personal ist.
+**A · Visuell.** **Zeichnet** den Plan mit M1. Markiert jede Bedienseite mit einem Pfeil. Zeichnet für das Fahrrad eine Fläche von 1,80 m × 0,65 m ein. Prüft, ob daneben genug Platz für das Personal ist.
 
-**B · Auditiv.** Die Ladenleitung hat eine Beratung nachstellen lassen. Nutzt den folgenden Dialog als Hörskript. Bei der anschließenden Probe kommt ein weiterer Kunde mit einer Frage zur Minipumpe herein.
+**B · Auditiv.** **Hört** den Dialog oder lest ihn in Rollen. Die Ladenleitung hat für euch eine Beratung nachgestellt. Spielt danach, wie ein weiterer Kunde hereinkommt und nach der Minipumpe fragt.
 
 > **Kundin:** „Ich habe mein Rad dabei. Könnten Sie mir bitte zeigen, ob die Lampe neben meine Klingel passt?“  
 > **Verkäuferin:** „Gern. Ich brauche kurz das Musterlicht. Halten Sie das Rad bitte gerade, dann kann ich die Halterung ansetzen.“  
 > **Zweiter Kunde:** „Komme ich mit meinem Rad an Ihnen vorbei? Ich muss zur Werkstatt.“  
 > **Kundin:** „Ich kann ein Stück zurück. Dann steht mein Vorderrad aber vor dem Regal.“
 
-**C · Haptisch.** Schneidet im Maßstab 1:20 zwei Rechtecke mit 5,0 cm × 2,0 cm für die Regale und ein Rechteck mit 4,0 cm × 2,75 cm für den Tisch aus. Legt den Grundriss und die festen Bereiche aus M1 an. Ein Kartonstreifen von 9,0 cm × 3,25 cm steht für das Fahrrad, ein Plättchen für die beratende Person. Legt für jede Anordnung die Wege und Artikelplätze mit Fäden und beschrifteten Karten.
+**C · Haptisch.** **Schneidet** im Maßstab 1:20 zwei Rechtecke von je 5,0 cm × 2,0 cm für die Regale aus. Schneidet für den Tisch ein Rechteck von 4,0 cm × 2,75 cm aus. Legt den Plan aus M1 mit den festen Bereichen aus. Nutzt einen Kartonstreifen von 9,0 cm × 3,25 cm für das Fahrrad und ein kleines Plättchen für die beratende Person. Legt in jeder Anordnung Fäden für die Wege und beschriftete Karten für die Artikelplätze.
 
 #### M5 · Kurzprüfung für die Beratung
 
 | Beobachtung | Eintrag |
 |---|---|
 | Kommt die Kundschaft mit einem Fahrrad am Vorführplatz vorbei? | Stelle im Plan und Beobachtung |
-| Kann das Personal L10 und P50 für die Vorführung ohne Umweg greifen? | Stelle im Plan und Beobachtung |
-| Ist der Zusammenhang zwischen den gemeinsam gezeigten Artikeln nachvollziehbar? | Artikelkombination und Begründung |
+| Kommt das Personal ohne Umweg an L10 und P50, wenn es beide Artikel zeigen möchte? | Stelle im Plan und Beobachtung |
+| Ist verständlich, warum bestimmte Artikel zusammenstehen? | Welche Artikel zusammenstehen und warum |
 | Wo liegen das Bügelschloss und das Muster der Rahmentasche? | Platzierung und Grund |
 
 #### M6 · Fachbegriffe zu dieser Lernsituation
 
-- **Warenträger.** Ein Einrichtungsstück wie ein Regal oder ein Tisch, auf dem Ware angeboten wird.
-- **Bedienseite.** Die Seite eines Warenträgers, von der aus die Ware angesehen oder entnommen wird.
-- **Vorführplatz.** Der freie Bereich, in dem die Anwendung eines Artikels gezeigt oder erprobt wird.
-- **Hauptdurchgang.** Der zentrale freie Weg, auf dem sich die Kundschaft im Laden bewegt.
-- **Regalzone.** Ein Höhenbereich eines Regals, in dem Ware unterschiedlich gut zu sehen oder zu greifen ist.
-- **Warenplatz.** Die festgelegte Stelle im Verkaufsraum oder im Regal, an der Kundinnen und Kunden einen bestimmten Artikel finden.
-- **Aktionsfläche.** Die für ein zeitlich begrenztes Angebot vorgesehene Fläche im Geschäft.
-- **Beratungstresen.** Ein fest eingeplanter Arbeitsplatz im Laden, an dem Verkaufspersonal die Kundschaft bedient.
-- **Vorführmodell.** Ein Gegenstand, an dem die Anwendung eines Produkts gezeigt werden kann.
-- **Muster.** Ein bereitgestelltes Exemplar eines Artikels, an dem die Kundschaft Eigenschaften prüfen oder die Nutzung ausprobieren kann.
+- **Warenträger.** Ein Regal, ein Tisch oder etwas Ähnliches, auf dem ein Laden seine Ware zeigt.
+- **Bedienseite.** Die Seite eines Regals oder eines anderen Warenträgers, an der man die Ware ansehen und greifen kann.
+- **Vorführplatz.** Ein freier Platz, an dem man einen Artikel zeigen und ausprobieren kann.
+- **Hauptdurchgang.** Der wichtigste freie Weg für Kundinnen und Kunden im Laden.
+- **Regalzone.** Ein Bereich des Regals auf einer bestimmten Höhe. Je nach Höhe sieht oder erreicht man die Ware unterschiedlich gut.
+- **Warenplatz.** Die feste Stelle im Laden oder im Regal, an der die Kundschaft einen bestimmten Artikel findet.
+- **Aktionsfläche.** Ein Bereich im Laden für ein Angebot, das es nur eine bestimmte Zeit gibt.
+- **Beratungstresen.** Ein fester Arbeitsplatz im Laden, an dem das Verkaufspersonal die Kundschaft bedient.
+- **Vorführmodell.** Ein Gegenstand, an dem man zeigen kann, wie ein Produkt funktioniert oder wie man es benutzt.
+- **Muster.** Ein Artikel, den die Kundschaft ansehen, genauer prüfen oder ausprobieren darf.
 
 ## LS 6.4 · Waren auf einer Selbstbedienungsfläche präsentieren
 
@@ -791,101 +836,101 @@ Der abgebildete Verkaufsbereich ist 4,80 m breit und 4,00 m tief. Der Nullpunkt 
 
 #### Warum wir das lernen
 
-Ihr steht vor zwei ähnlich verpackten Pumpen und wollt erkennen, welche zu eurem Ventil passt. Gut sichtbare Angaben helfen euch bei der Entscheidung, sobald ihr das richtige Regal gefunden habt. Für die geplante Zubehörfläche in der Bike Arena legt ihr den Weg zum Regal fest und entscheidet, welche Hinweise dort sichtbar sein müssen, damit die Kundschaft selbst vergleichen und auswählen kann.
+Zwei Pumpen sehen auf der Packung ähnlich aus. Welche passt zu eurem Ventil? Ihr müsst das richtige Regal finden und dort die Angaben gut lesen können. Für die Zubehörfläche der Bike Arena plant ihr den Weg zum Regal und die Hinweise am Regal. So soll die Kundschaft die Ware selbst vergleichen und auswählen können.
 
 #### Kompetenzprofil und Kompetenznetz
 
 **Vorrangige Fachkompetenz · 6 von 6**
 
-Ich gestalte eine Selbstbedienungsfläche und begründe, wie Kundenlauf, Artikelplatzierung und Produktinformationen das selbstständige Finden, Vergleichen und Auswählen erleichtern.
+Ich gestalte eine Selbstbedienungsfläche. Ich begründe, wie der Kundenlauf, die Plätze für die Artikel und die Produktinformationen der Kundschaft helfen. Die Kundschaft soll die Ware selbst finden, vergleichen und auswählen können.
 
-| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| Kompetenz | Wie stark? (1–6) | Das übe ich in dieser LS | Woran merkt ihr das? |
 | --- | ---: | --- | --- |
-| Personalkompetenz | **3** | Ich prüfe meinen Entwurf aus der Sicht einer Person, die die Aktionsfläche noch nicht kennt. | Den Entwurf aus Sicht der Kundschaft betrachten. |
-| Sozialkompetenz | **3** | Ich nehme Rückmeldungen zur Orientierung auf und begründe meine Änderungen im Team. | Rückmeldungen zur Orientierung aufnehmen. |
-| Methodenkompetenz | **4** | Ich verknüpfe Beobachtungen zum Kundenlauf mit einem Lageplan und Produktdaten. | Kundenlauf, Platzierung und Produktdaten in beiden Entwürfen abgleichen. |
-| Medienkompetenz | **4** | Ich gestalte Orientierungsschilder und Produktinformationen, die in der vorgesehenen Situation lesbar und verständlich sind. | Schilder und Vergleichsinformationen lesbar gestalten. |
+| Personalkompetenz | **3** | Ich prüfe, ob eine Person sich mit meinem Entwurf zurechtfindet, wenn sie die Aktionsfläche noch nicht kennt. | Den Entwurf aus Sicht der Kundschaft prüfen. |
+| Sozialkompetenz | **3** | Ich höre mir Rückmeldungen dazu an, wie gut andere sich zurechtfinden. Ich erkläre dem Team, was ich deshalb ändere. | Rückmeldungen zur Orientierung annehmen und nutzen. |
+| Methodenkompetenz | **4** | Ich trage meine Beobachtungen zu den Kundenwegen und die Produktdaten in den Lageplan ein. | Kundenlauf, Artikelplätze und Produktdaten in beiden Entwürfen vergleichen. |
+| Medienkompetenz | **4** | Ich gestalte Orientierungsschilder und Produktinformationen so, dass die Kundschaft sie an der vorgesehenen Stelle gut lesen und verstehen kann. | Schilder und Vergleichsangaben lesbar gestalten. |
 
 ### Handlungssituation
 
-**Unterrichtsfall.** Die Betriebe sind real. Die Global-Bike-Aktion und die dazugehörigen Daten sind für den Unterricht erstellt.
+**Unterrichtsfall.** Die Betriebe gibt es wirklich. Die Aktion von Global Bike und die Daten gehören zum Unterrichtsfall.
 
-In der Bike Arena Oltmanns in Leer besichtigen Sarah Huber aus dem Marketing und Sebastian Wolf aus dem Außendienst die Fläche für die Global-Bike-Frühjahrsaktion. Sarah möchte die Warenträger möglichst nah am Zugang aufstellen. „Die Familien sollen die Aktion sehen, bevor sie in Richtung Fahrradabteilung weitergehen.“
+Sarah Huber und Sebastian Wolf besuchen die Bike Arena Oltmanns in Leer. Sarah arbeitet bei Global Bike im Marketing und Sebastian im Außendienst. Sie schauen sich die Fläche für die Frühjahrsaktion an. Sarah möchte die Warenträger möglichst nah am Zugang aufstellen. „Die Familien sollen die Aktion sehen, bevor sie zur Fahrradabteilung weitergehen.“
 
-Am regulären Zubehörregal nehmen ein Vater und sein Sohn je eine Pumpe in die Hand. Der Sohn fragt, welche zu seinem Rad passt. Sein Vater sucht die Angabe zum Ventil auf der Rückseite der Verpackung. Hinter dem Einkaufswagen müssen andere Kundinnen und Kunden ausweichen. Der Vater stellt beide Pumpen zurück und geht weiter. Sebastian schaut zu Sarah. „Wenn wir den Aufbau auf den ersten Blick vom Eingang aus planen, fehlt uns vielleicht genau dort Platz, wo die Leute stehen bleiben und vergleichen.“
+Am üblichen Zubehörregal nehmen ein Vater und sein Sohn je eine Pumpe in die Hand. Der Sohn fragt, welche Pumpe zu seinem Rad passt. Sein Vater sucht auf der Rückseite der Packung nach einer Angabe zum Ventil. Sein Einkaufswagen steht im Weg. Andere Kundinnen und Kunden müssen ausweichen. Der Vater stellt beide Pumpen zurück und geht weiter. Sebastian schaut zu Sarah. „Vorn am Eingang sieht man den Aufbau sofort. Aber haben die Leute dort genug Platz, wenn sie stehen bleiben und die Ware vergleichen?“
 
-Die Ladenleitung legt euch den Modellgrundriss, die Produktkarten und die Beobachtungen vom letzten Wochenende hin. Für die geplante Zubehörfläche ist am Samstag keine feste Beratung vorgesehen. Für morgen braucht die Ladenleitung einen Aufbauplan, mit dem die Kundschaft die Aktion bemerkt, passende Ware selbst findet und beim Vergleichen den Weg frei lässt.
+Die Ladenleitung gibt euch einen Modellgrundriss, Produktkarten und ihre Notizen vom letzten Wochenende. Am Samstag ist an der Zubehörfläche keine feste Beratung eingeplant. Bis morgen braucht die Leitung euren Aufbauplan. Die Kundschaft soll die Aktion bemerken und passende Ware selbst finden. Die Wege sollen frei bleiben, wenn jemand zum Vergleichen stehen bleibt.
 
 #### Kurz prüfen · Handlungssituation
 
-**Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
+**Beantwortet** die Fragen zum Fall. Klickt auf „Hilfe“, wenn ihr beim Lesen Unterstützung braucht.
 
-**1. Warum möchte Sarah die Warenträger nah am Zugang aufstellen?**
+**1. Erklärt, warum Sarah die Warenträger nah am Zugang aufstellen möchte.**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest Sarahs Aussage im ersten Absatz. Achtet darauf, welchen Weg die Familien nehmen.
+Lest, was Sarah über die Familien sagt. Beginnt mit „Sarah möchte, dass die Familien …“.
 
 </details>
 
-**2. Welche Angabe sucht der Vater und wie endet sein Einkauf an dieser Stelle?**
+**2. Nennt die Angabe, die der Vater sucht. Beschreibt, was er am Ende tut.**
 
 <details>
 <summary>Hilfe</summary>
 
-Verfolgt im zweiten Absatz, was der Vater nach der Frage seines Sohns tut. Sucht dann den Satz, in dem er weitergeht.
+Lest die Sätze über den Vater am Zubehörregal. Beginnt mit „Der Vater sucht …“ und „Dann …“.
 
 </details>
 
-**3. Welches Problem sieht Sebastian, wenn Kundinnen und Kunden am Zubehör stehen bleiben?**
+**3. Erklärt, welches Problem Sebastian sieht, wenn die Kundschaft am Zubehör stehen bleibt.**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest Sebastians Antwort und schaut auf den Satz mit dem Einkaufswagen. Verbindet beide Stellen mit „Wenn …, dann …“.
+Lest Sebastians Antwort und den Satz zum Einkaufswagen. Nutzt den Satzanfang „Wenn Kundinnen und Kunden stehen bleiben, dann …“.
 
 </details>
 
-**4. Was soll die Kundschaft am Samstag mit dem neuen Aufbau selbst schaffen?**
+**4. Nennt, was die Kundschaft am Samstag am neuen Aufbau selbst schaffen soll.**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest im letzten Absatz, welche Hilfe kaum verfügbar ist und welche drei Erwartungen die Ladenleitung an den Aufbau hat.
+Lest im letzten Absatz die letzten beiden Sätze. Beginnt mit „Die Kundschaft soll …“.
 
 </details>
 
 ### Informieren
 
-**Fachlicher Einstieg.** In der Selbstbedienung müssen Kundinnen und Kunden die Ware auf der Aktionsfläche finden und ihre Auswahl am Regal treffen können. Nutzt M1 und M2, um zu entscheiden, wo Schilder auffallen und der Weg zum Regal frei bleibt. Stellt die entscheidenden Angaben aus M3 so dar, dass Interessierte die Produkte am Regal vergleichen und ihre Eignung selbst prüfen können.
+**Fachlicher Einstieg.** Bei der Selbstbedienung findet die Kundschaft die Ware selbst und wählt sie am Regal aus. Nutzt M1 und M2, um gut sichtbare Plätze für Schilder und freie Wege zum Regal zu finden. Schreibt die wichtigen Angaben aus M3 so auf, dass die Kundschaft die Produkte vergleichen und selbst prüfen kann, welches passt.
 
-**Wertet** den Grundriss, die Beobachtungen und die Produktkarten in M1 bis M3 aus. **Haltet fest**, welche Kundenwege und welche Kriterien für die Artikelauswahl eure Präsentation aufgreifen muss.
+**Prüft** den Grundriss, die Beobachtungen und die Produktkarten in M1 bis M3. **Notiert**, welche Wege die Kundschaft nimmt und welche Angaben sie braucht, um am Regal einen Artikel auszuwählen.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Lest** die Erklärungen zu den zehn Fachbegriffen in M6. **Wählt** danach im Fachbegriffscheck für jeden Begriff die passende Erklärung. Die Antworten stehen in gemischter Reihenfolge. Nach jeder Antwort bekommt ihr eine kurze Rückmeldung zum Fall.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
-| `BFSDUAL-LF06-LS04-B01` | Selbstbedienung | Eine Verkaufsform, bei der die Kundschaft die Ware weitgehend eigenständig findet, auswählt und vom Warenplatz nimmt. | Eine Fachkraft wählt bei jedem Einkauf die passenden Artikel aus. | Kundinnen und Kunden holen zuvor zusammengestellte Ware an der Kasse ab. | Auf der Aktionsfläche in der Bike Arena brauchen Familien verständliche Angaben direkt am Regal, damit sie die Pumpen selbst vergleichen können (M2 und M3). |
-| `BFSDUAL-LF06-LS04-B02` | Kundenlauf | Der typische Weg der Kundschaft durch den Verkaufsraum, etwa vom Eingang zu den Warengruppen. | Die Zeit, die eine Person am Regal für die Produktauswahl braucht. | Die Reihenfolge, in der das Personal die Regale auffüllt. | Viele kommen vom Eingang und gehen zunächst in Richtung Fahrradabteilung (M1 und M2). |
-| `BFSDUAL-LF06-LS04-B03` | Orientierungsschild | Ein sichtbarer Hinweis, der im Verkaufsraum den Weg zu einer Abteilung, Aktionsfläche oder Warengruppe weist. | Eine Tabelle mit technischen Daten mehrerer Produkte. | Eine Kennzeichnung des einzelnen Preises direkt an einer Packung. | Ein sichtbares Schild kann schon am Hauptgang auf die Zubehörfläche hinweisen (M1 und M5). |
-| `BFSDUAL-LF06-LS04-B04` | Vergleichsinformation | Eine gleichartig dargestellte Angabe, an der sich mehrere Produkte unterscheiden oder auf Eignung prüfen lassen. | Eine Überschrift, die nur den Weg zur Warengruppe zeigt. | Eine Artikelnummer, die den Lagerplatz für das Personal angibt. | Ventilarten, Abmessungen und Ausstattung helfen beim Vergleich von P50 und P51 (M3). |
-| `BFSDUAL-LF06-LS04-B05` | Kompatibilität | Die Eigenschaft, dass zwei Dinge zusammenpassen und sich gemeinsam wie vorgesehen nutzen lassen. | Die Eigenschaft, dass zwei Artikel dieselben Abmessungen haben. | Die Zuordnung zweier Artikel zur gleichen Warengruppe. | Für das Kinderrad kommt eine Pumpe mit passendem Aufsatz für das Autoventil infrage. P50 und P51 erfüllen diese Anforderung (M2 und M3). |
-| `BFSDUAL-LF06-LS04-B06` | Warengruppe | Mehrere Artikel mit ähnlichem Zweck, die ein Geschäft zusammenfasst. | Mehrere Produktvarianten, die zwingend dieselbe Artikelnummer tragen. | Alle Artikel, die auf derselben Aktionsfläche präsentiert werden. | Mini- und Standpumpe gehören gemeinsam zur Warengruppe Fahrradpumpen, auch wenn sich ihre Ausstattung unterscheidet (M3). |
-| `BFSDUAL-LF06-LS04-B07` | Gondel | Ein freistehendes Verkaufsregal, das die Bike Arena im Fall von beiden Längsseiten mit Ware bestückt. | Ein Wandregal, das die Kundschaft ausschließlich von vorn erreicht. | Ein frei stehender Aufsteller, an dem nur ein Hinweisschild befestigt ist. | Die beiden Gondeln bieten auf ihren beiden Längsseiten Platz für Waren und Vergleichskarten (M1). |
-| `BFSDUAL-LF06-LS04-B08` | Bedienzone | Der freie Bereich vor einer Warenseite, in dem die Kundschaft Artikel ansehen und entnehmen kann. | Das vordere Stück eines Regalfachs, auf dem die Ware steht. | Der dem Personal vorbehaltene Bereich für die Warenannahme. | Vor jeder bestückten Längsseite ist auf der Aktionsfläche eine Bedienzone von 1,20 m Breite vorgesehen (M1). |
-| `BFSDUAL-LF06-LS04-B09` | Manometer | Eine Anzeige, mit der sich der Druck ablesen lässt. | Ein Aufsatz, der den Anschluss an verschiedene Ventile ermöglicht. | Eine Skala, die das geförderte Luftvolumen pro Hub anzeigt. | Die Standpumpe P51 hat ein Manometer. Bei der Auswahl lässt sich dieses Ausstattungsmerkmal mit der Minipumpe vergleichen (M3). |
-| `BFSDUAL-LF06-LS04-B10` | Rahmengewinde | Eine Stelle am Fahrradrahmen mit einem Gewinde, in das sich eine passende Schraube eindrehen lässt. | Ein Riemen, mit dem sich Zubehör um den Rahmen spannen lässt. | Ein Maß für den Durchmesser des Fahrradrohrs an der Befestigungsstelle. | Für den Flaschenhalter F60 braucht das Fahrrad zwei passende Rahmengewinde im Abstand von 64 mm (M3). |
+| `BFSDUAL-LF06-LS04-B01` | Selbstbedienung | Eine Verkaufsform, bei der die Kundschaft die Ware meist selbst findet, auswählt und aus dem Regal nimmt. | Eine Fachkraft wählt bei jedem Einkauf die passenden Artikel aus. | Die Kundschaft holt fertig zusammengestellte Ware an der Kasse ab. | In der Bike Arena brauchen die Familien klare Angaben am Regal. So können sie die Pumpen selbst vergleichen (M2 und M3). |
+| `BFSDUAL-LF06-LS04-B02` | Kundenlauf | Der Weg, den viele Kundinnen und Kunden im Laden nehmen, etwa vom Eingang zu den Warengruppen. | Die Zeit, die eine Person am Regal für die Produktauswahl braucht. | Die Reihenfolge, in der das Personal die Regale auffüllt. | Viele kommen vom Eingang und gehen zunächst in Richtung Fahrradabteilung (M1 und M2). |
+| `BFSDUAL-LF06-LS04-B03` | Orientierungsschild | Ein Schild im Laden, das hilft, eine Abteilung, eine Aktionsfläche oder eine Warengruppe zu finden. | Eine Tabelle mit technischen Angaben zu mehreren Produkten. | Ein Preisaufkleber an einer einzelnen Packung. | Ein sichtbares Schild kann schon am Hauptgang auf die Zubehörfläche hinweisen (M1 und M5). |
+| `BFSDUAL-LF06-LS04-B04` | Vergleichsinformation | Die gleiche Art von Angabe für mehrere Produkte. So kann die Kundschaft die Produkte vergleichen und prüfen, welches passt. | Eine Überschrift, die nur den Weg zur Warengruppe zeigt. | Eine Artikelnummer, die dem Personal den Platz im Lager zeigt. | Die Ventilarten, Maße und Ausstattung helfen beim Vergleich von P50 und P51 (M3). |
+| `BFSDUAL-LF06-LS04-B05` | Kompatibilität | Zwei Dinge passen zusammen und lassen sich gemeinsam wie geplant nutzen. | Zwei Artikel sind gleich groß. | Zwei Artikel gehören zur gleichen Warengruppe. | Das Rad hat ein Autoventil. Die Pumpen P50 und P51 haben einen passenden Aufsatz dafür (M2 und M3). |
+| `BFSDUAL-LF06-LS04-B06` | Warengruppe | Eine Gruppe von Artikeln, die einem ähnlichen Zweck dienen. Das Geschäft fasst sie zusammen. | Mehrere Varianten eines Produkts, die immer dieselbe Artikelnummer haben. | Alle Artikel auf derselben Aktionsfläche. | Die Mini- und die Standpumpe gehören zur Warengruppe Fahrradpumpen. Sie sind unterschiedlich ausgestattet (M3). |
+| `BFSDUAL-LF06-LS04-B07` | Gondel | Ein Verkaufsregal, das frei im Raum steht. In der Bike Arena steht hier Ware auf beiden langen Seiten. | Ein Regal an der Wand, an das man nur von vorn kommt. | Ein freistehender Aufsteller, an dem nur ein Hinweisschild hängt. | An beiden langen Seiten der Gondeln ist Platz für die Ware und Karten mit Produktangaben (M1). |
+| `BFSDUAL-LF06-LS04-B08` | Bedienzone | Der freie Platz vor einem Regal, an dem die Kundschaft Artikel ansehen und aus dem Regal nehmen kann. | Das vordere Stück eines Regalfachs, auf dem die Ware steht. | Der Bereich, in dem nur das Personal Ware entgegennimmt. | Vor jeder langen Regalseite mit Ware bleibt auf der Aktionsfläche eine Bedienzone von 1,20 m Breite (M1). |
+| `BFSDUAL-LF06-LS04-B09` | Manometer | Eine Anzeige, auf der man den Druck ablesen kann. | Ein Aufsatz, der zu mehreren Ventilen passt. | Eine Anzeige dafür, wie viel Luft man mit einer Bewegung der Pumpe fördert. | Die Standpumpe P51 hat ein Manometer. Beim Vergleich mit der Minipumpe kann das für die Auswahl wichtig sein (M3). |
+| `BFSDUAL-LF06-LS04-B10` | Rahmengewinde | Eine Stelle am Fahrradrahmen, in die man eine passende Schraube drehen kann. Die Rillen für die Schraube bilden das Gewinde. | Ein Band, mit dem man Zubehör am Rahmen festmacht. | Der Durchmesser des Fahrradrohrs an der Stelle, an der das Zubehör befestigt wird. | Für den Flaschenhalter F60 braucht das Fahrrad zwei passende Rahmengewinde. Der Abstand zwischen ihnen muss 64 mm betragen (M3). |
 
 ### Planen
 
-**Skizziert** zwei grobe Anordnungen für Wege und Warenträger. Haltet fest, wo die Kundschaft in beiden Varianten eine Orientierung oder Angaben zum Produktvergleich braucht.
+**Skizziert** zwei Möglichkeiten, die Warenträger aufzustellen und die Wege zu führen. **Markiert** in beiden Skizzen, wo die Kundschaft ein Schild zur Orientierung oder Angaben zum Vergleichen braucht.
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -893,37 +938,41 @@ Lest im letzten Absatz, welche Hilfe kaum verfügbar ist und welche drei Erwartu
 
 #### Lernpaket wählen
 
-**Wählt** einen der drei Arbeitswege. Achtet darauf, welcher euch bei der fachlichen Entscheidung am besten hilft. Sichert bei der Bearbeitung ein Zwischenergebnis eures Lernpakets und einen Fallbeleg für den Abschlusspitch.
+**Wählt** einen der drei Arbeitswege. Überlegt, welcher Weg euch bei der Entscheidung am besten hilft. **Haltet** beim Arbeiten ein Zwischenergebnis und einen Beleg für den Pitch fest. Ein Beleg kann zum Beispiel eine Zahl, ein Maß oder eine Kundenstimme sein.
 
-**Gemeinsames Fachziel und Handlungsprodukt.** Ihr gestaltet eine Selbstbedienungsfläche und begründet, wie die Kundschaft die Ware selbst findet, vergleicht und auswählt. Alle drei Pakete führen zum selben Handlungsprodukt, einem bemaßten, beschrifteten Flächenplan mit Kundenwegen, Orientierungsschildern und fachlich richtigen Vergleichsangaben für Pumpen und Flaschenhalter. Vergleicht eure Entwürfe mit denselben Kriterien aus M5.
+**Gemeinsames Fachziel und Handlungsprodukt.** Gestaltet eine Selbstbedienungsfläche und begründet, wie die Kundschaft die Ware selbst findet, vergleicht und auswählt. Bei allen drei Lernpaketen erstellt ihr einen Flächenplan mit Maßen und Beschriftungen. Tragt die Kundenwege, Orientierungsschilder und die richtigen Vergleichsangaben für Pumpen und Flaschenhalter ein. Vergleicht eure Entwürfe mit denselben Kriterien aus M5.
 
-| Lernpaket | Lernzugänge | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| Lernpaket | Lernzugänge | So arbeitet ihr | Euer Zwischenergebnis | Wählt dieses Paket, wenn … |
 | --- | --- | --- | --- | --- |
-| **A · Kundenwege und Schilder einzeichnen** | Wege und Informationen zeichnerisch darstellen | Zeichnet die Kundenwege aus M2 in beide Pläne auf Grundlage von M1 ein. Ergänzt Regalansichten, Schilder und Vergleichsangaben aus M3. | Zwei Pläne zeigen, wo die Kundschaft die Schilder aus beiden Richtungen sieht und wo sie zum Vergleichen stehen bleibt. | … ihr möglichst viele Wege und Informationen auf einen Blick sehen und vergleichen möchtet. |
-| **B · Einen Einkauf nachspielen** | Zuhören, in Rollen sprechen und Kundenfragen festhalten | Hört den Dialog aus M4 oder lest ihn mit verteilten Rollen. Spielt den Einkauf zur Pumpe und zum Flaschenhalter nach. Markiert in beiden Entwürfen, wo Kundinnen und Kunden Antworten auf ihre Fragen brauchen. | Zwei Entwürfe mit notierten Kundenfragen zeigen, welche Angaben am Regal die selbstständige Auswahl ermöglichen. | … ihr im Gespräch gut erkennt, an welchem Punkt Kundinnen und Kunden eine Auskunft brauchen. |
-| **C · Einkaufswege am Regalmodell erproben** | Anordnungen umbauen und Wege im Modell nachstellen | Baut das Modell aus M4. Verschiebt Artikel- und Schilderkarten und spielt die Einkaufsfälle aus M2 mit dem Wagenmodell in beiden Anordnungen durch. Übertragt die Beobachtungen in eure Entwürfe. | Zwei erprobte Varianten zeigen, wo sich Artikel gut erreichen und vergleichen lassen und wo ein haltender Wagen den Weg versperrt. | … ihr Platzierung und Wege am liebsten ausprobiert, indem ihr den Aufbau verändert. |
+| **A · Kundenwege und Schilder einzeichnen** | Wege und Angaben in einer Zeichnung zeigen | Nutzt den Grundriss aus M1. Zeichnet die Kundenwege aus M2 in beide Pläne ein. Zeichnet die Regale und die Schilder. Ergänzt Angaben aus M3, mit denen die Kundschaft vergleichen kann. | Eure beiden Pläne zeigen, wo ein Schild aus beiden Richtungen zu sehen ist und wo die Kundschaft zum Vergleichen stehen bleibt. | … ihr Wege und Angaben gern auf einen Blick seht und vergleicht. |
+| **B · Einen Einkauf nachspielen** | Zuhören, in Rollen sprechen und Kundenfragen notieren | Hört den Dialog aus M4 oder lest ihn in Rollen. Spielt den Einkauf der Pumpe und des Flaschenhalters nach. Markiert in beiden Entwürfen, an welcher Stelle die Kundschaft Antworten braucht. | Aus euren Entwürfen und den Kundenfragen geht hervor, welche Angaben am Regal bei der Auswahl helfen. | … ihr im Gespräch gut erkennt, wann die Kundschaft eine Auskunft braucht. |
+| **C · Einkaufswege am Regalmodell erproben** | Regale und Schilder verschieben und Wege testen | Baut das Modell aus M4. Verschiebt die Artikel- und Schilderkarten. Spielt beide Einkaufsfälle aus M2 mit dem Wagenmodell in beiden Anordnungen nach. Notiert eure Beobachtungen in den Entwürfen. | Beide Anordnungen zeigen am Modell, wo man an die Ware kommt, wo man sie vergleichen kann und wo ein Einkaufswagen im Weg steht. | … ihr ausprobieren möchtet, wie sich Wege und Platz ändern, wenn ihr den Aufbau verändert. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachliche Entscheidung
 
-**Vergleicht** beide Anordnungen mit dem gewählten Lernpaket und den Kriterien aus M5. Begründet, welche Lösung die Kundschaft besser führt und beim Produktvergleich unterstützt.
+**Vergleicht** mit eurem Lernpaket beide Anordnungen anhand der Kriterien aus M5. **Begründet**, bei welcher Anordnung die Kundschaft den Weg besser findet und die Produkte besser vergleichen kann.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
-**Erstellt** einen beschrifteten Flächenplan mit den eingezeichneten Kundenwegen, Warenträgern und Artikelgruppen. Ergänzt die Orientierungsschilder und je eine tatsächlich nutzbare Vergleichsinformation für Pumpen und Flaschenhalter.
+**Erstellt** einen Flächenplan mit Maßen und Beschriftungen. Zeichnet die Kundenwege, Warenträger und Artikelgruppen ein. **Ergänzt** Schilder für die Orientierung. Schreibt bei den Pumpen und bei den Flaschenhaltern je eine Angabe dazu, die bei der Auswahl hilft.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Bewerten
 
-**Erprobt** euren Plan anhand der beiden Einkaufsfälle aus M2. Holt von einer Person, die den Plan gerade zum ersten Mal sieht, eine Rückmeldung zur Orientierung ein. Überarbeitet bei Bedarf eine Stelle und dokumentiert den Grund.
+**Testet** mit den beiden Einkaufsfällen aus M2, ob euer Plan funktioniert. Fragt eine Person, die den Plan noch nicht kennt, wie gut sie sich zurechtfindet. **Verbessert** bei Bedarf eine Stelle und notiert den Grund.
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_4_URL}}). Reicht den bemaßten Flächenplan für die Bike Arena mit Beschilderung und Produktangaben ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
+**Bewertet** eine andere Arbeit in Moodle unter [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_4_URL}}).
+
+1. **Ladet euren Flächenplan für die Bike Arena mit Maßen, Schildern und Produktangaben hoch.** Wählt einen Titel und einen Dateinamen ohne eure Namen. Entfernt eure Namen aus der Arbeit und aus den Dateieigenschaften.
+2. **Schaut euch die zugeteilte Arbeit an.** Moodle lost aus, welche Arbeit ihr bekommt. Ihr seht die Arbeit ohne Namen.
+3. **Gebt Rückmeldung.** Nutzt die Fragen unter dieser Aufgabe. Nennt eine Stelle, die gut gelungen ist. Schreibt, was die Person verbessern kann. Die Person sieht bei eurer Antwort euren Klarnamen.
 
 - Führt der Plan vom Hauptgang verständlich zur Ware und hält er die Wege frei?
 - Helfen die Schilder, die passenden Artikel selbst zu finden?
@@ -933,80 +982,89 @@ Lest im letzten Absatz, welche Hilfe kaum verfügbar ist und welche drei Erwartu
 
 ### Reflektieren
 
-**Erklärt**, an welcher Stelle die Information auf der Fläche für die Kaufentscheidung am wichtigsten war. **Haltet fest**, woran ihr bei der Gestaltung einer anderen Selbstbedienungsfläche früh erkennen könnt, dass weitere Produktinformationen nötig sind.
+**Erklärt**, an welcher Stelle die Information für die Kaufentscheidung am wichtigsten war. **Notiert**, woran ihr bei einer anderen Selbstbedienungsfläche früh erkennen könnt, dass die Kundschaft mehr Angaben zum Produkt braucht.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 **Abschlusspitch.**
 
-**Pitcht** euer gewähltes Lernpaket mit eurem Handlungsprodukt und den vorhandenen Unterlagen. Für die Kurzfassung im Unterricht habt ihr etwa zwei Minuten. Wenn Zeit bleibt, beantwortet anschließend eine Rückfrage.
+**Pitcht** euer Lernpaket. Ein Pitch ist eine kurze Vorstellung. Nutzt euer Handlungsprodukt und eure Unterlagen. Ihr habt für den Kurzpitch etwa zwei Minuten. Wenn noch Zeit ist, beantwortet eine Rückfrage.
 
-1. **Ergebnis zeigen.** Stellt euer Handlungsprodukt vor und nennt eure wichtigste fachliche Entscheidung.
-2. **Entscheidung belegen.** Zeigt einen konkreten Fallbeleg und erklärt, warum er eure Entscheidung stützt.
-3. **Arbeitsweg begründen.** Begründet, warum ihr dieses Lernpaket gewählt habt. Zeigt an einem Zwischenergebnis, wie der Arbeitsweg euch bei der Entscheidung geholfen hat.
+1. **Ergebnis zeigen.** Zeigt euer Handlungsprodukt. Sagt, was ihr entschieden habt.
+2. **Entscheidung belegen.** Zeigt einen Beleg aus dem Fall. Erklärt, wie er eure Entscheidung stützt.
+3. **Arbeitsweg begründen.** Sagt, warum ihr euer Lernpaket gewählt habt. Zeigt ein Zwischenergebnis. Erklärt, wie es euch bei der Entscheidung geholfen hat.
 
-**Das könnt ihr zeigen.** Zeigt im Plan den Weg vom Eingang bis zu den Pumpen. Zeigt die Angabe am Regal, mit der die Kundschaft selbst prüfen kann, welche Pumpe zum Ventil passt.
+**Das könnt ihr zeigen.** Zeigt im Plan den Weg vom Eingang zu den Pumpen. Zeigt dann die Angabe, mit der die Kundschaft am Regal selbst prüft, welche Pumpe zu ihrem Ventil passt.
+
+<details>
+<summary>Sprachhilfe für den Pitch</summary>
+
+- „Unser Ergebnis ist … Wir schlagen vor, dass …“
+- „Unser Beleg ist … Er zeigt, dass …“
+- „Wir haben Paket … gewählt. Beim Arbeiten hat uns … geholfen.“
+
+</details>
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_4_URL}}) aus.
+**Füllt** zum Schluss [Feedback]({{MOODLE_FEEDBACK_LS_6_4_URL}}) in Moodle aus.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
-Die Bike Arena erhält einen beschrifteten, bemaßten Flächenplan mit Schildern und Vergleichsinformationen. In allen drei Paketen zählen eine nachvollziehbare Wegeführung, passende Platzierung, verständliche Orientierung und korrekte Angaben, mit denen sich die vorgegebenen Produkte eigenständig vergleichen und auswählen lassen.
+Die Bike Arena erhält einen Flächenplan mit Maßen, Beschriftungen, Schildern und Angaben zum Vergleichen. Bei allen drei Paketen gelten dieselben Kriterien. Die Wege sind verständlich. Die Artikel stehen an passenden Stellen. Die Schilder helfen bei der Suche. Die Angaben stimmen und helfen der Kundschaft, die Produkte selbst zu vergleichen und auszuwählen.
 
 ### Materialien
 
 #### M1 · Modellgrundriss und Vorgaben für die Aktionsfläche in der Bike Arena
 
-**Website des Betriebs.** Die Bike Arena beschreibt ein 1.400 m² großes Fahrradfachgeschäft mit Beratung und Fahrradzubehör. Der Plan unten zeigt die im Unterricht entworfene Zubehörstation zur Selbstauswahl. [Unser Laden](https://www.bikearena-oltmanns.de/unser-laden)
+**Website des Betriebs.** Die Bike Arena zeigt ein 1.400 m² großes Fahrradfachgeschäft mit Beratung und Fahrradzubehör. Der Plan gehört zum Unterrichtsfall. Auf der geplanten Zubehörfläche soll die Kundschaft selbst auswählen. [Unser Laden](https://www.bikearena-oltmanns.de/unser-laden)
 
-Der Bereich ist 8,00 m breit und 5,00 m tief. Der Nullpunkt liegt in der südwestlichen Ecke. x wächst nach Osten, y nach Norden. Nutzt die Koordinaten zum Zeichnen der Fläche im Maßstab 1:25.
+Der Bereich ist 8,00 m breit und 5,00 m tief. Der Nullpunkt liegt im Südwesten, also links unten im Plan. Nach rechts laufen die x-Werte, nach oben die y-Werte. **Zeichnet** die Fläche im Maßstab 1:25. Nutzt dafür die x- und y-Werte aus der Tabelle.
 
 | Bereich | x in m | y in m | Bedeutung |
 |---|---:|---:|---|
 | Zugang aus dem Eingangsbereich | 0,00–2,00 | 0,00 | Die meisten Personen kommen hier in den Bereich. |
 | Hauptgang von West nach Ost | 0,00–8,00 | 0,00–1,50 | Die ganze Gangbreite bleibt frei. |
-| Durchgang zur Fahrradabteilung | 6,40–8,00 | 1,50–5,00 | Die Breite bleibt auf dem gesamten Weg frei. |
-| Aktionsfläche | 0,00–6,40 | 1,50–5,00 | Warenträger, Schilder und [Vergleichsinformationen](Glossare/LS_6_4_Glossar.md#vergleichsinformation) stehen innerhalb dieser Fläche. |
+| Durchgang zur Fahrradabteilung | 6,40–8,00 | 1,50–5,00 | Der Weg bleibt überall in seiner ganzen Breite frei. |
+| Aktionsfläche | 0,00–6,40 | 1,50–5,00 | Hier stehen die Warenträger und Schilder. Hier bringt ihr auch die [Vergleichsinformationen](Glossare/LS_6_4_Glossar.md#vergleichsinformation) an. |
 
-Verfügbar sind zwei frei drehbare [Gondeln](Glossare/LS_6_4_Glossar.md#gondel) von je 1,60 m × 0,60 m mit Artikeln auf beiden Längsseiten. Vor jeder bestückten Längsseite bleibt eine 1,20 m breite [Bedienzone](Glossare/LS_6_4_Glossar.md#bedienzone). Beide Gondeln müssen vom Hauptgang erreichbar sein. Ein frei stehendes [Orientierungsschild](Glossare/LS_6_4_Glossar.md#orientierungsschild) mit integriertem Fuß von 0,40 m × 0,40 m ist verfügbar. Kleine Schilder und Vergleichskarten lassen sich an den Gondeln befestigen.
+Ihr könnt zwei frei drehbare [Gondeln](Glossare/LS_6_4_Glossar.md#gondel) benutzen. Jede Gondel ist 1,60 m × 0,60 m groß und trägt Artikel auf beiden langen Seiten. Vor jeder langen Seite mit Ware bleibt eine 1,20 m breite [Bedienzone](Glossare/LS_6_4_Glossar.md#bedienzone) frei. Die Kundschaft muss beide Gondeln vom Hauptgang aus erreichen können. Ihr habt ein freistehendes [Orientierungsschild](Glossare/LS_6_4_Glossar.md#orientierungsschild) mit einem Fuß von 0,40 m × 0,40 m. Kleine Schilder und Karten mit Vergleichsangaben könnt ihr an den Gondeln befestigen.
 
 #### M2 · Kundenlauf und zwei Einkaufsfälle
 
-**Beobachtungen zum [Kundenlauf](Glossare/LS_6_4_Glossar.md#kundenlauf).** Ein Teil der Kundschaft geht vom Zugang direkt Richtung Fahrradabteilung. Familien lassen Einkaufswagen häufig kurz am Rand der Aktionsfläche stehen, um Angaben zu lesen. Pumpen werden öfter in die Hand genommen und anschließend zurückgelegt. Am ähnlichen Verpackungsdesign erkennen Testkundinnen und -kunden die Ventilart auf den ersten Blick schwer.
+**Beobachtungen zum [Kundenlauf](Glossare/LS_6_4_Glossar.md#kundenlauf).** Ein Teil der Kundschaft geht vom Zugang geradewegs in die Fahrradabteilung. Familien lassen den Einkaufswagen oft kurz am Rand der Aktionsfläche stehen. Dort lesen sie die Angaben. Viele nehmen eine Pumpe in die Hand und legen sie wieder zurück. Die Packungen sehen ähnlich aus. Deshalb erkennen Testkundinnen und Testkunden die Ventilart oft erst beim genauen Hinsehen.
 
-1. **Fall Pumpe.** Eine Person mit Einkaufswagen kommt vom Zugang. Das Fahrrad ihres Kindes hat ein Autoventil. Die Person sucht eine Pumpe, kann zwischen zwei Größen wählen und möchte die [Kompatibilität](Glossare/LS_6_4_Glossar.md#kompatibilit%C3%A4t) beider Modelle mit dem Ventil prüfen.
-2. **Fall Flaschenhalter.** Eine Person kommt aus Richtung Fahrradabteilung und hat eine 74 mm breite Flasche. Die Befestigungsgewinde am Fahrrad sind zugänglich. Die Person möchte erkennen, ob der Halter zur Flasche passt und was zur Montage erforderlich ist.
+1. **Fall Pumpe.** Eine Person kommt mit dem Einkaufswagen vom Zugang. Das Fahrrad ihres Kindes hat ein Autoventil. Sie sucht eine Pumpe und kann zwischen zwei Größen wählen. Sie prüft die [Kompatibilität](Glossare/LS_6_4_Glossar.md#kompatibilit%C3%A4t). Das heißt hier, sie will wissen, ob beide Pumpen zum Autoventil passen.
+2. **Fall Flaschenhalter.** Eine Person kommt aus der Fahrradabteilung. Sie hat eine 74 mm breite Flasche. Die Gewinde am Fahrradrahmen sind frei und erreichbar. Die Person möchte wissen, ob der Halter zur Flasche passt und was sie braucht, um ihn am Rad zu befestigen.
 
 #### M3 · Festes Aktionssortiment und Angaben für die Auswahl
 
-Die Mini- und die Standpumpe gehören zur gleichen [Warengruppe](Glossare/LS_6_4_Glossar.md#warengruppe). Anhand der Produktkarten lässt sich prüfen, für welchen Einsatz sich das jeweilige Modell eignet.
+Die Mini- und die Standpumpe gehören zur gleichen [Warengruppe](Glossare/LS_6_4_Glossar.md#warengruppe). Prüft anhand der Produktkarten, wofür sich welche Pumpe eignet.
 
 | Artikel | Angaben laut Produktkarte |
 |---|---|
-| P50 Minipumpe | 18 cm lang. Pumpenkopf für Auto- und Sclaverandventil. Für unterwegs vorgesehen. |
-| P51 Standpumpe | Regulärer Artikel auf einem ergänzenden Warenplatz. 62 cm hoch. Pumpenkopf für Auto- und Sclaverandventil. Mit [Manometer](Glossare/LS_6_4_Glossar.md#manometer). |
-| F60 Flaschenhalter | Für Flaschen mit 72 bis 75 mm Durchmesser. Zwei passende [Rahmengewinde](Glossare/LS_6_4_Glossar.md#rahmengewinde) mit 64 mm Abstand erforderlich. Montageschrauben liegen bei. |
-| L10 LED-Lichtset | Vorder- und Rücklicht. Frontleuchtenhalterung für Lenker mit 22 bis 32 mm Durchmesser. Die restlichen Angaben stehen auf der Packung. |
-| B80 Reflektorband | Ein verstellbares Klettband für 20–40 cm Umfang. Reflektiert auftreffendes Licht. |
-| S20 Bügelschloss | Schloss zum Anschließen von Rahmen oder Laufrad an eine geeignete Abstellanlage. In der unteren Regalzone präsentieren. |
-| T30 Rahmentasche | Wasserabweisende Tasche mit 1,2 Litern Volumen und verstellbaren Klettbändern. |
+| P50 Minipumpe | 18 cm lang. Der Pumpenkopf passt auf Auto- und Sclaverandventile. Die Pumpe ist für unterwegs gedacht. |
+| P51 Standpumpe | Die Standpumpe gehört zum normalen Angebot. Sie steht auf einem zusätzlichen Warenplatz bei der Aktion. 62 cm hoch. Der Pumpenkopf passt auf Auto- und Sclaverandventile. Die Pumpe hat ein [Manometer](Glossare/LS_6_4_Glossar.md#manometer). |
+| F60 Flaschenhalter | Für Flaschen mit 72 bis 75 mm Durchmesser. Am Rad braucht man zwei passende [Rahmengewinde](Glossare/LS_6_4_Glossar.md#rahmengewinde) mit 64 mm Abstand. Die Schrauben zum Befestigen liegen bei. |
+| L10 LED-Lichtset | Enthält Vorder- und Rücklicht. Die Halterung fürs Vorderlicht passt auf Lenker mit 22 bis 32 mm Durchmesser. Weitere Angaben stehen auf der Packung. |
+| B80 Reflektorband | Ein verstellbares Klettband für 20–40 cm Umfang. Es wirft Licht zurück, wenn man es anleuchtet. |
+| S20 Bügelschloss | Damit kann man den Rahmen oder ein Laufrad an einem geeigneten Platz anschließen, zum Beispiel an einem passenden Fahrradständer. Stellt das Schloss unten im Regal aus. |
+| T30 Rahmentasche | Die Tasche ist wasserabweisend und fasst 1,2 Liter. Sie hat verstellbare Klettbänder. |
 
 #### M4 · Material für die drei Arbeitswege
 
-**A · Visuell.** Nutzt je eine Farbe für den Hauptlaufweg, die Wege an den Warenträgern und die geplanten Stopps zum Vergleichen. Markiert in zwei Grundrissen, wo dasselbe Schild bei Annäherung aus beiden Richtungen zu sehen wäre.
+**A · Visuell.** **Nutzt** verschiedene Farben für den Hauptweg, die Wege bei den Regalen und die Stellen zum Vergleichen. Markiert in beiden Grundrissen, wo man das Schild aus beiden Richtungen sehen kann.
 
-**B · Auditiv.** Lest oder sprecht den Dialog ein. Ausgehend von den Fällen in M2 entwickelt ihr die zweite Einkaufsszene zum Flaschenhalter. Notiert, welche Produktinformation in eurem Entwurf an welcher Stelle als Antwort dienen würde.
+**B · Auditiv.** **Lest** den Dialog oder nehmt ihn auf. Spielt mit M2 eine zweite Einkaufsszene zum Flaschenhalter. Notiert in eurem Entwurf, welche Produktangabe die Frage beantwortet und an welcher Stelle die Kundschaft sie finden soll.
 
 > **Vater:** „Wir brauchen eine Pumpe fürs Kinderrad. Das Ventil sieht aus wie beim Auto.“  
 > **Sohn:** „Hier stehen zwei. Auf der Vorderseite steht bei beiden nur Fahrradpumpe.“  
 > **Vater:** „Bei der kleinen steht es hinten, ganz unten. Gehört die große überhaupt hierher?“  
 > **Vorbeigehende Kundin:** „Könnten Sie den Wagen kurz zur Seite schieben? Ich möchte zu den Fahrrädern.“
 
-**C · Haptisch.** Zeichnet die Bodenfläche im Maßstab 1:25 auf ein Blatt und schneidet zwei Gondeln zu je 6,4 cm × 2,4 cm und einen Schildfuß zu 1,6 cm × 1,6 cm aus. Legt die Artikel als Karten an die Bedienseiten. Ein Plättchen von 4,0 cm × 2,4 cm stellt einen Einkaufswagen dar. Spielt mit dem Wagen beide Fälle nach und setzt Marker an jede Stelle, an der jemand stehen bleibt, um etwas zu lesen.
+**C · Haptisch.** **Zeichnet** die Bodenfläche im Maßstab 1:25. Schneidet für die zwei Gondeln je ein Rechteck von 6,4 cm × 2,4 cm aus. Schneidet für den Schildfuß ein Quadrat von 1,6 cm × 1,6 cm aus. Legt die Artikelkarten an die Bedienseiten. Nutzt ein Plättchen von 4,0 cm × 2,4 cm als Einkaufswagen. Spielt damit beide Fälle nach. Markiert jede Stelle, an der jemand zum Lesen stehen bleibt.
 
 #### M5 · Kurzprüfung für die Selbstbedienung
 
@@ -1014,23 +1072,23 @@ Mit den Fragen prüft ihr die Fläche für die [Selbstbedienung](Glossare/LS_6_4
 
 | Prüffrage | Beobachtung oder Beleg |
 |---|---|
-| Ist der Weg zur Aktion vom Zugang und von der Fahrradabteilung aus verständlich? | Wo würde die Testperson das erste Signal bemerken? |
-| Findet die Testperson die Pumpen und kann sie beide Modelle für ihren Bedarf vergleichen? | Welches Merkmal war leicht oder schwer zu finden? |
-| Kann sie anhand der Angaben über den Flaschenhalter entscheiden? | Welche Angaben hat sie tatsächlich genutzt? |
-| Bleiben Hauptgang, Durchgang und die Bedienseiten frei und erreichbar? | An welcher Stelle im Plan lässt sich dies überprüfen? |
+| Findet man vom Zugang und von der Fahrradabteilung den Weg zur Aktion? | Wo bemerkt die Testperson den ersten Hinweis? |
+| Findet die Testperson die Pumpen und kann sie selbst vergleichen, welche zu ihrem Bedarf passt? | Welche Angabe ist leicht oder schwer zu finden? |
+| Kann die Testperson anhand der Angaben entscheiden, ob der Flaschenhalter passt? | Welche Angaben hat sie benutzt? |
+| Bleiben Hauptgang, Durchgang und die Bedienseiten frei und erreichbar? | Wo sieht man das im Plan? |
 
 #### M6 · Fachbegriffe zu dieser Lernsituation
 
-- **Selbstbedienung.** Eine Verkaufsform, bei der die Kundschaft die Ware weitgehend eigenständig findet, auswählt und vom Warenplatz nimmt.
-- **Kundenlauf.** Der typische Weg der Kundschaft durch den Verkaufsraum, etwa vom Eingang zu den Warengruppen.
-- **Orientierungsschild.** Ein sichtbarer Hinweis, der im Verkaufsraum den Weg zu einer Abteilung, Aktionsfläche oder Warengruppe weist.
-- **Vergleichsinformation.** Eine gleichartig dargestellte Angabe, an der sich mehrere Produkte unterscheiden oder auf Eignung prüfen lassen.
-- **Kompatibilität.** Die Eigenschaft, dass zwei Dinge zusammenpassen und sich gemeinsam wie vorgesehen nutzen lassen.
-- **Warengruppe.** Mehrere Artikel mit ähnlichem Zweck, die ein Geschäft zusammenfasst.
-- **Gondel.** Ein freistehendes Verkaufsregal, das die Bike Arena im Fall von beiden Längsseiten mit Ware bestückt.
-- **Bedienzone.** Der freie Bereich vor einer Warenseite, in dem die Kundschaft Artikel ansehen und entnehmen kann.
-- **Manometer.** Eine Anzeige, mit der sich der Druck ablesen lässt.
-- **Rahmengewinde.** Eine Stelle am Fahrradrahmen mit einem Gewinde, in das sich eine passende Schraube eindrehen lässt.
+- **Selbstbedienung.** Eine Verkaufsform, bei der die Kundschaft die Ware meist selbst findet, auswählt und aus dem Regal nimmt.
+- **Kundenlauf.** Der Weg, den viele Kundinnen und Kunden im Laden nehmen, etwa vom Eingang zu den Warengruppen.
+- **Orientierungsschild.** Ein Schild im Laden, das hilft, eine Abteilung, eine Aktionsfläche oder eine Warengruppe zu finden.
+- **Vergleichsinformation.** Die gleiche Art von Angabe für mehrere Produkte. So kann die Kundschaft die Produkte vergleichen und prüfen, welches passt.
+- **Kompatibilität.** Zwei Dinge passen zusammen und lassen sich gemeinsam wie geplant nutzen.
+- **Warengruppe.** Eine Gruppe von Artikeln, die einem ähnlichen Zweck dienen. Das Geschäft fasst sie zusammen.
+- **Gondel.** Ein Verkaufsregal, das frei im Raum steht. In der Bike Arena steht hier Ware auf beiden langen Seiten.
+- **Bedienzone.** Der freie Platz vor einem Regal, an dem die Kundschaft Artikel ansehen und aus dem Regal nehmen kann.
+- **Manometer.** Eine Anzeige, auf der man den Druck ablesen kann.
+- **Rahmengewinde.** Eine Stelle am Fahrradrahmen, in die man eine passende Schraube drehen kann. Die Rillen für die Schraube bilden das Gewinde.
 
 ## LS 6.5 · Eine gemeinsame Werbeaktion abstimmen
 
@@ -1040,101 +1098,101 @@ Mit den Fragen prüft ihr die Fläche für die [Selbstbedienung](Glossare/LS_6_4
 
 #### Warum wir das lernen
 
-Wenn ihr ein Licht für den Schulweg sucht, kann euch eine Nachricht auf dem Handy rechtzeitig zur Beratung einladen. Wer die Aktion erst beim Einkauf am Samstag entdeckt, muss den Hinweis vor Ort sehen können. Für Global Bike stimmt ihr mit Block und der Bike Arena ab, wie die Hinweise die Kundschaft zur passenden Zeit erreichen, wer sich darum kümmert und woran beide Läden den Erfolg messen.
+Ihr sucht ein Licht für den Schulweg. Eine Nachricht auf dem Handy kann euch rechtzeitig zur Beratung einladen. Wer erst am Samstag einkauft, kann den Hinweis auch im Laden entdecken. Für Global Bike plant ihr mit Block und der Bike Arena, wann und wo die Werbung erscheint. Ihr klärt, wer was übernimmt und wie beide Läden den Erfolg messen.
 
 #### Kompetenzprofil und Kompetenznetz
 
 **Vorrangige Fachkompetenz · 6 von 6**
 
-Ich stimme für zwei Handelspartner ein überprüfbares Werbeziel, passende Werbeträger, verbindliche Termine und die Aufgaben von Groß- und Einzelhandel ab.
+Ich vereinbare mit zwei Handelspartnern ein Werbeziel, das wir überprüfen können. Ich stimme passende Werbeträger und feste Termine ab. Ich kläre, welche Aufgaben der Großhandel und welche die beiden Läden übernehmen.
 
-| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| Kompetenz | Wie stark? (1–6) | Das übe ich in dieser LS | Woran merkt ihr das? |
 | --- | ---: | --- | --- |
-| Personalkompetenz | **3** | Ich behalte die Fristen im Blick und prüfe meine Zusagen auf Umsetzbarkeit. | Freigaben und Fristen im Blick behalten. |
-| Sozialkompetenz | **4** | Ich höre mir die Interessen der Beteiligten an und suche eine tragfähige Vereinbarung. | Unterschiedliche Interessen zu einer verbindlichen Vereinbarung führen. |
-| Methodenkompetenz | **4** | Ich verknüpfe Ziel, Maßnahmen und Termine in einem gemeinsamen Plan. | Kennzahl, Ziel, Maßnahmen, Fristen und Rollen zusammenführen. |
-| Medienkompetenz | **4** | Ich wähle passende Werbeträger nach ihrer Reichweite am jeweiligen Standort. | Den Werbeträger passend zum Standort und seiner Zielgruppe wählen. |
+| Personalkompetenz | **3** | Ich habe die Fristen im Blick und prüfe, ob ich meine Zusagen einhalten kann. | Freigaben und Fristen im Blick behalten. |
+| Sozialkompetenz | **4** | Ich höre, was den Beteiligten wichtig ist. Ich helfe, feste Absprachen zu finden. | Absprachen finden, die beide Läden einhalten können. |
+| Methodenkompetenz | **4** | Ich halte Ziel, Maßnahmen und Termine in einem gemeinsamen Plan fest. | Kennzahl, Ziel, Maßnahmen, Fristen und Aufgaben in einen Plan aufnehmen. |
+| Medienkompetenz | **4** | Ich wähle einen Werbeträger, der die gewünschte Kundschaft am jeweiligen Standort erreicht. | Prüfen, wen die Werbung an jedem Standort erreicht. |
 
 ### Handlungssituation
 
-**Unterrichtsfall.** Die Betriebe sind real. Die Global-Bike-Aktion und die dazugehörigen Daten sind für den Unterricht erstellt.
+**Unterrichtsfall.** Die Betriebe gibt es wirklich. Die Aktion von Global Bike und die Daten sind für diesen Unterrichtsfall erstellt.
 
-Am Mittwoch vor der Global-Bike-Frühjahrsaktion liegt der Terminplan bei Sarah Huber aus dem Marketing. Das 2-Rad Center Block in Aurich möchte im Newsletter zur Beratung einladen. Dafür braucht es am Donnerstag bis 12 Uhr den fertigen Text. Die Bike Arena Oltmanns in Leer hat einen Platz für einen Aufsteller am Eingang reserviert. Soll er am Freitag der Aktionswoche stehen, braucht die Druckerei noch heute bis 16 Uhr die Freigabe.
+Es ist Mittwoch vor der Frühjahrsaktion von Global Bike. Sarah Huber aus dem Marketing schaut in den Terminplan. Das 2-Rad Center Block in Aurich will per Newsletter zur Beratung einladen. Block braucht den fertigen Text am Donnerstag bis 12 Uhr. Die Bike Arena Oltmanns in Leer hat am Eingang einen Platz für ein Schild zum Aufstellen reserviert. Es soll am Freitag der Aktionswoche dort stehen. Dafür braucht die Druckerei noch heute bis 16 Uhr die Freigabe.
 
-„Wir sollten die Werbeplätze jetzt bestätigen, damit sie uns erhalten bleiben“, sagt Sarah. Jan Richter, Leiter Verkauf und Marketing, hält die beiden Rückmeldungen der Läden daneben. „Block möchte Beratungen zählen, die Bike Arena misst verkaufte Stücke. Wenn beide etwas anderes zählen, können wir kaum gemeinsam beurteilen, was die Aktion erreicht hat. Und ich muss wissen, wer die Freigaben rechtzeitig einholt.“
+„Lasst uns die Werbeplätze jetzt bestätigen, damit sie für uns frei bleiben“, sagt Sarah. Jan Richter leitet Verkauf und Marketing. Er schaut sich die Rückmeldungen der Läden an. „Block möchte Beratungen zählen. Die Bike Arena zählt verkaufte Artikel. So können wir schwer gemeinsam prüfen, ob die Aktion Erfolg hat. Ich muss auch wissen, wer die Freigaben rechtzeitig einholt.“
 
-Bis zum ersten Termin braucht ihr einen Werbeplan für beide Läden. Jan und Sarah wollen damit ein gemeinsames überprüfbares Ziel vereinbaren und für beide Standorte sehen, wer welches Werbemittel bis wann vorbereitet, prüft und einsetzt.
+Bis zum ersten Termin braucht ihr einen Werbeplan für beide Läden. Jan und Sarah wollen ein gemeinsames Ziel vereinbaren, das sich überprüfen lässt. Sie wollen außerdem wissen, wer die Werbung vorbereitet, prüft und einsetzt. Für jeden Schritt brauchen sie einen Termin.
 
 #### Kurz prüfen · Handlungssituation
 
 **Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
 
-**1. Welche beiden Werbemittel wünschen sich die Läden und wann brauchen sie jeweils Text oder Freigabe?**
+**1. Nennt das Werbemittel für jeden Laden. Bis wann muss der Text fertig oder das Schild zum Druck freigegeben sein?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im ersten Absatz zu jedem Geschäft das Werbemittel und die zugehörige Frist. Achtet beim Aufsteller auf den Unterschied zwischen Druckfreigabe und Aufstellung.
+Sucht die Termine bei Block und bei der Bike Arena im Abschnitt zum Terminplan. Achtet darauf, ob es um die Vorbereitung oder den Einsatz der Werbung geht.
 
 </details>
 
-**2. Warum möchte Sarah die Werbeplätze sofort bestätigen?**
+**2. Erklärt, warum Sarah die Werbeplätze sofort bestätigen möchte.**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest Sarahs ersten Satz im zweiten Absatz. Das Wort „damit“ führt zu ihrem Grund.
+Lest Sarahs Vorschlag zu den Werbeplätzen. Beginnt mit „Sarah möchte die Werbeplätze bestätigen, weil …“.
 
 </details>
 
-**3. Woran würden die beiden Händler den Erfolg jeweils messen und welches Problem sieht Jan darin?**
+**3. Nennt, was Block und die Bike Arena jeweils zählen wollen. Erklärt, welches Problem Jan sieht.**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest Jans Antwort. Unterstreicht die beiden Dinge, die gezählt werden sollen, und sucht danach nach der Folge für den Vergleich.
+Lest Jans Antwort auf Sarahs Vorschlag. Sucht zuerst, was jeder Laden zählt. Lest danach, was Jan daran schwierig findet.
 
 </details>
 
-**4. Was wollen Jan und Sarah mit eurem Werbeplan festlegen?**
+**4. Nennt, was Jan und Sarah mit eurem Werbeplan festlegen wollen.**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im letzten Absatz die Stelle nach „damit“. Nutzt „Der Plan enthält ein gemeinsames ___ und legt fest, wer ___ bis ___.“
+Lest den letzten Absatz. Beginnt mit „Der Plan enthält ein gemeinsames … und zeigt, wer … bis …“.
 
 </details>
 
 ### Informieren
 
-**Fachlicher Einstieg.** Ein gemeinsamer Werbeplan hält fest, wen die Aktion erreichen soll, wann die Werbung erscheint und wer welchen Beitrag übernimmt. M1 bis M3 zeigen, welche Werbeplätze zum Besuchsverhalten passen und wann welche Freigabe gebraucht wird. M2 enthält die Ausgangsdaten, mit denen ihr ein gemeinsames Werbeziel später überprüfen könnt.
+**Fachlicher Einstieg.** Ein gemeinsamer Werbeplan zeigt, wen die Werbung erreichen soll. Er zeigt auch, wann sie erscheint und wer welche Aufgabe übernimmt. Prüft mit M1 bis M3, wann die Kundschaft kommt und welche Werbeplätze und Fristen dazu passen. In M2 findet ihr die Zahlen, mit denen ihr euer Ziel später überprüfen könnt.
 
-**Klärt**, wen beide Läden erreichen wollen, welche Werbeplätze zur Verfügung stehen und bis wann Material und Freigaben gebraucht werden.
+**Klärt**, wen die beiden Läden erreichen wollen. Findet heraus, welche Werbeplätze frei sind. Haltet fest, bis wann die Werbung fertig und freigegeben sein muss.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Lest** die Erklärungen zu den zehn Fachbegriffen in M6. **Wählt** danach im Fachbegriffscheck für jeden Begriff die passende Erklärung. Die Antworten stehen in gemischter Reihenfolge. Nach jeder Antwort bekommt ihr eine kurze Rückmeldung zum Fall.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
-| `BFSDUAL-LF06-LS05-B01` | Überprüfbares Werbeziel | Ein angestrebtes Ergebnis der Werbung mit einer messbaren Größe, einem Zielwert und einem festgelegten Zeitraum. | Ein Hinweis, an welchem Tag ein Werbemittel freigegeben werden soll. | Eine Liste aller Kanäle, die das Team für die Aktion in Betracht zieht. | Vergleichs- und Aktionsabsatz lassen sich bei beiden Geschäften erheben (M2). |
-| `BFSDUAL-LF06-LS05-B02` | Werbeträger | Ein Kanal, ein Medium oder ein Werbeplatz, über den das Werbemittel die angesprochenen Menschen erreicht. | Der Inhalt, den die Zielgruppe aus der Werbung mitnehmen soll. | Die Menge an Artikeln, die die Werbung verkaufen helfen soll. | Newsletter und Aufsteller sind zwei unterschiedliche Werbeträger (M3). |
-| `BFSDUAL-LF06-LS05-B03` | Kooperative Werbung | Mehrere beteiligte Unternehmen stimmen ihr Ziel und ihre Beiträge zu einer Werbeaktion ab. | Jeder Partner gestaltet seine Werbung getrennt nach einem eigenen Ziel. | Ein einzelnes Geschäft nutzt für dieselbe Aktion mehr als ein Werbemedium. | Global Bike liefert Produktdaten und Entwürfe. Die Geschäfte geben ihre Fassungen frei und setzen sie ein (M3). |
-| `BFSDUAL-LF06-LS05-B04` | Freigabefrist | Der späteste Zeitpunkt, zu dem eine Fassung bestätigt sein muss, damit sie rechtzeitig eingesetzt werden kann. | Der erste Zeitpunkt, zu dem die Kundschaft die Werbung sehen kann. | Der Termin, an dem die Geschäfte ihre Verkaufszahlen melden. | Für den Aufsteller muss die Druckfreigabe schon am Mittwoch der Vorwoche bis 16 Uhr vorliegen (M3). |
-| `BFSDUAL-LF06-LS05-B05` | Kennzahl | Eine messbare Größe, mit der sich ein Ergebnis beschreiben oder prüfen lässt. | Der angestrebte Mindestwert, auf den sich die Partner vorab einigen. | Der Zeitpunkt, zu dem die Werbung veröffentlicht wird. | Beide Läden erfassen die in der Aktionswoche verkauften Stücke aus dem Aktionssortiment (M2). |
-| `BFSDUAL-LF06-LS05-B06` | Werbeplan | Eine Übersicht, die Werbeziel, Werbemittel und Verbreitung, Einsatztermine und Zuständigkeiten festlegt. | Eine Sammlung fertiger Werbetexte und Produktfotos für beide Geschäfte. | Ein Bericht mit den Verkaufszahlen nach der Aktion. | Für den Newsletter hält der Plan fest, wer ihn vorbereitet, freigibt und verschickt (M3, M5). |
-| `BFSDUAL-LF06-LS05-B07` | Zuständigkeit | Eine Vereinbarung darüber, wer einen bestimmten Arbeitsschritt übernimmt. | Die Reihenfolge der Arbeitsschritte bis zur Veröffentlichung. | Der letzte Zeitpunkt, an dem eine Aufgabe erledigt sein muss. | Block plant und verschickt seinen Newsletter selbst (M3, M5). |
-| `BFSDUAL-LF06-LS05-B08` | Einsatztermin | Der Zeitpunkt, an dem ein Werbemittel veröffentlicht, verteilt oder aufgestellt wird. | Der Zeitpunkt, bis zu dem die Fassung für die Produktion bestätigt sein muss. | Der Zeitpunkt, zu dem Global Bike Bildmaterial bereitstellt. | Der Aufsteller ist ab Freitag der Aktionswoche am Eingang zu sehen. Die Druckfreigabe liegt früher (M3). |
-| `BFSDUAL-LF06-LS05-B09` | Vergleichswoche | Eine frühere Woche mit vergleichbaren Bedingungen, deren Werte als Ausgangspunkt dienen. | Die Woche, in der die Werbung in beiden Läden läuft. | Die Woche nach der Aktion, in der beide Läden ihre Absatzwerte melden. | Die beiden Vergleichswerte stammen aus Wochen mit denselben Öffnungstagen und betragen 40 beziehungsweise 60 Stück (M2, M4). |
-| `BFSDUAL-LF06-LS05-B10` | Erfolgskontrolle | Ein Vergleich der gemessenen Ergebnisse einer Werbeaktion mit dem zuvor festgelegten Ziel. | Die Prüfung, ob der Text für den Newsletter die richtigen Produktmerkmale enthält. | Die Planung, an welchem Tag die Werbemittel in beiden Läden eingesetzt werden. | Beide Geschäfte können ihren Aktionsabsatz melden und mit dem jeweiligen Ausgangswert vergleichen (M2, M5). |
+| `BFSDUAL-LF06-LS05-B01` | Überprüfbares Werbeziel | Ein Ziel für die Werbung. Es nennt, was ihr messt, welchen Wert ihr erreichen wollt und in welcher Zeit das gelingen soll. | Der Tag, an dem jemand das Werbemittel freigeben soll. | Eine Liste mit allen Werbewegen, die für die Aktion möglich wären. | Beide Läden können zählen, wie viele Stücke sie vor und während der Aktion verkauft haben (M2). |
+| `BFSDUAL-LF06-LS05-B02` | Werbeträger | Der Kanal, das Medium oder der Platz, über den die Werbung die gewünschte Kundschaft erreicht. | Die Botschaft, die die Kundschaft aus der Werbung mitnehmen soll. | Die Zahl der Artikel, die durch die Werbung verkauft werden sollen. | Newsletter und Aufsteller verbreiten die Werbung auf verschiedenen Wegen (M3). |
+| `BFSDUAL-LF06-LS05-B03` | Kooperative Werbung | Mehrere Unternehmen werben gemeinsam. Sie stimmen das Ziel ab und klären, wer was beiträgt. | Jeder Partner macht seine eigene Werbung und verfolgt sein eigenes Ziel. | Ein Laden nutzt für eine Aktion mehrere Werbeträger. | Global Bike liefert Produktdaten und Entwürfe. Die Läden geben ihre Fassungen frei und setzen sie ein (M3). |
+| `BFSDUAL-LF06-LS05-B04` | Freigabefrist | Der späteste Zeitpunkt, bis zu dem die Fassung bestätigt sein muss. So lässt sich die Werbung rechtzeitig einsetzen. | Der erste Zeitpunkt, zu dem die Kundschaft die Werbung sieht. | Der Termin, an dem die Läden ihre Verkaufszahlen melden. | Die Druckerei braucht die Freigabe für den Aufsteller am Mittwoch vor der Aktionswoche bis 16 Uhr (M3). |
+| `BFSDUAL-LF06-LS05-B05` | Kennzahl | Ein messbarer Wert, mit dem ihr ein Ergebnis beschreiben oder prüfen könnt. | Der Mindestwert, den die Partner erreichen wollen. | Der Zeitpunkt, an dem die Werbung erscheint. | Beide Läden zählen, wie viele Stücke aus dem Aktionssortiment sie in der Aktionswoche verkaufen (M2). |
+| `BFSDUAL-LF06-LS05-B06` | Werbeplan | Eine Übersicht über das Werbeziel, die Werbung und ihre Verbreitung. Sie nennt die Termine und zeigt, wer welche Aufgabe übernimmt. | Eine Sammlung fertiger Werbetexte und Produktfotos für beide Läden. | Ein Bericht mit Verkaufszahlen nach der Aktion. | Im Plan steht, wer den Newsletter vorbereitet, freigibt und verschickt (M3, M5). |
+| `BFSDUAL-LF06-LS05-B07` | Zuständigkeit | Eine Absprache, wer einen bestimmten Arbeitsschritt übernimmt. | Die Reihenfolge der Arbeitsschritte bis zur Veröffentlichung. | Der späteste Zeitpunkt, bis zu dem jemand eine Aufgabe erledigen muss. | Block plant und verschickt seinen Newsletter selbst (M3, M5). |
+| `BFSDUAL-LF06-LS05-B08` | Einsatztermin | Der Zeitpunkt, ab dem ein Werbemittel zu sehen ist, verteilt oder aufgestellt wird. | Der späteste Zeitpunkt, bis zu dem jemand die Fassung für die Produktion freigibt. | Der Zeitpunkt, an dem Global Bike Bilder bereitstellt. | Der Aufsteller steht ab Freitag der Aktionswoche am Eingang. Die Druckerei braucht die Freigabe schon vorher (M3). |
+| `BFSDUAL-LF06-LS05-B09` | Vergleichswoche | Eine frühere Woche mit ähnlichen Bedingungen. Ihre Zahlen dienen als Ausgangspunkt für einen Vergleich. | Die Woche, in der die Werbung in beiden Läden läuft. | Die Woche nach der Aktion, in der die Läden ihre Verkaufszahlen melden. | An denselben Öffnungstagen verkaufte Block 40 Stück und die Bike Arena 60 Stück (M2, M4). |
+| `BFSDUAL-LF06-LS05-B10` | Erfolgskontrolle | Ihr vergleicht das gemessene Ergebnis der Werbung mit dem vorher vereinbarten Ziel. | Ihr prüft, ob der Newsletter die richtigen Angaben zu den Produkten enthält. | Ihr plant, an welchem Tag beide Läden die Werbemittel einsetzen. | Beide Läden können melden, wie viele Stücke sie während der Aktion verkauft haben. Den Wert vergleichen sie mit der Zahl aus ihrer Vergleichswoche (M2, M5). |
 
 ### Planen
 
-**Skizziert** zwei mögliche Abläufe für die Werbeaktion. Notiert wichtige Fristen und eine Kennzahl, die beide Standorte für ein gemeinsames Ziel erfassen können.
+**Skizziert** zwei mögliche Abläufe für die Werbeaktion. Notiert die wichtigen Fristen. Wählt eine Kennzahl, die beide Läden für das gemeinsame Ziel erfassen können.
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -1142,69 +1200,82 @@ Sucht im letzten Absatz die Stelle nach „damit“. Nutzt „Der Plan enthält 
 
 #### Lernpaket wählen
 
-**Wählt** einen der drei Arbeitswege. Achtet darauf, welcher euch bei der fachlichen Entscheidung am besten hilft. Sichert bei der Bearbeitung ein Zwischenergebnis eures Lernpakets und einen Fallbeleg für den Abschlusspitch.
+**Wählt** einen der drei Arbeitswege. Überlegt, welcher Weg euch bei der Entscheidung am besten hilft. **Haltet** beim Arbeiten ein Zwischenergebnis und einen Beleg für den Pitch fest. Ein Beleg kann zum Beispiel eine Zahl, ein Maß oder eine Kundenstimme sein.
 
-**Gemeinsames Fachziel und Handlungsprodukt.** Ihr stimmt mit beiden Handelspartnern eine Werbeaktion ab. Euer Handlungsprodukt ist ein gemeinsamer Werbeplan für Block und die Bike Arena. Er enthält ein überprüfbares Ziel mit Kennzahl, Zielwert und Zeitraum sowie je Standort einen begründet gewählten Werbeträger, Einsatzzeit, Zuständigkeiten und Freigabefristen. Für alle drei Pakete gelten die Kriterien unter „Handlungsprodukt und Kriterien“.
+**Gemeinsames Fachziel und Handlungsprodukt.** Ihr stimmt die Werbung mit Block und der Bike Arena ab. Euer Ergebnis ist ein gemeinsamer Werbeplan. Nennt darin das überprüfbare Ziel mit Kennzahl, Zielwert und Zeitraum. Begründet die Wahl des Werbeträgers für jeden Laden. Haltet fest, wann die Werbung zu sehen ist, wer welche Aufgabe übernimmt und bis wann die Freigabe vorliegen muss. Für alle drei Pakete gelten die Kriterien unter „Handlungsprodukt und Kriterien“.
 
-| Lernpaket | Lernzugänge | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| Lernpaket | Lernzugänge | So arbeitet ihr | Euer Zwischenergebnis | Wählt dieses Paket, wenn … |
 | --- | --- | --- | --- | --- |
-| **A · Werbetermine vergleichen** | Angaben lesen, zeitlich ordnen und vergleichen | Tragt die Werbeplätze, Freigabefristen und Zuständigkeiten aus M1–M3 in zwei Kalenderzeilen ein. Markiert kritische Termine und verbindet die Arbeitsschritte der drei Beteiligten mit Pfeilen. | Zwei Kalenderzeilen zeigen, welche Zusagen zusammenpassen, wann die Werbung eingesetzt werden kann und wo ihr noch eine Zuständigkeit klären müsst. | … ihr Abhängigkeiten zwischen zwei Terminen am besten seht, wenn ihr beide Kalenderzeilen vor euch habt. |
-| **B · Mit beiden Partnern abstimmen** | Zuhören, nachfragen und aushandeln | Hört die drei Partnerstimmen aus M4 oder lest sie mit verteilten Rollen vor. Einigt euch in einem kurzen Gespräch auf einen Ablauf. Prüft die Zusagen mit M1–M3. | Eine kurze Gesprächsnotiz hält fest, welche Interessen die Beteiligten eingebracht haben, worauf sie sich einigen und wer eine Aufgabe verbindlich übernimmt. | … ihr unterschiedliche Interessen im Gespräch aufgreifen und Zusagen durch Nachfragen klären wollt. |
-| **C · Abläufe mit Karten erproben** | Karten legen und die Abfolge von Freigaben prüfen | Legt die Karten aus M5 auf zwei Zeitachsen. Probiert verschiedene Anordnungen für Entwurf, Freigabe und Veröffentlichung aus und prüft die Fristen aus M3. Ordnet jedem Schritt eine Zuständigkeit zu. | Eure gelegten Zeitachsen zeigen die machbare Reihenfolge der Schritte und machen sichtbar, welche Aufgaben vor der nächsten Zusage erledigt sein müssen. | … ihr Varianten am liebsten durch Verschieben ausprobiert und dabei seht, welche Freigabe zuerst gebraucht wird. |
+| **A · Werbetermine vergleichen** | Angaben lesen, ordnen und vergleichen | Tragt Werbeplätze, Freigabefristen und Aufgaben aus M1–M3 in zwei Kalenderzeilen ein. Markiert enge Termine. Verbindet mit Pfeilen, welche Schritte aufeinander folgen. | Eure Kalenderzeilen zeigen, wann Werbung möglich ist, welche Zusagen zusammenpassen und welche Aufgaben noch offen sind. | … ihr Termine und ihre Reihenfolge besser seht, wenn ihr beide Kalenderzeilen vor euch habt. |
+| **B · Mit beiden Partnern abstimmen** | Zuhören, nachfragen und sich einigen | Hört die drei Stimmen aus M4 oder lest sie mit verteilten Rollen vor. Einigt euch im Gespräch auf einen Ablauf. Prüft die Zusagen mit M1–M3. | Eure Gesprächsnotiz zeigt, was den Beteiligten wichtig ist, was sie vereinbaren und wer welche Aufgabe fest übernimmt. | … ihr gern nachfragt und Absprachen im Gespräch klärt. |
+| **C · Abläufe mit Karten erproben** | Karten legen und die Reihenfolge prüfen | Legt die Karten aus M5 auf zwei Zeitachsen. Verschiebt die Karten für Entwurf, Freigabe und Veröffentlichung. Prüft die Fristen aus M3. Legt zu jedem Schritt, wer ihn übernimmt. | Eure Zeitachsen zeigen, in welcher Reihenfolge die Schritte klappen und was vor der nächsten Zusage fertig sein muss. | … ihr durch Verschieben ausprobieren wollt, welche Freigabe zuerst nötig ist. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachliche Entscheidung
 
-**Stimmt** mit dem gewählten Lernpaket einen Ablauf ab. Einigt euch auf ein Werbeziel mit Kennzahl, Zielwert und Zeitraum. Begründet je Standort den Werbeträger und legt seine Einsatzzeit fest.
+**Stimmt** mit eurem Lernpaket den Ablauf ab. Einigt euch auf ein Werbeziel mit Kennzahl, Zielwert und Zeitraum. Erklärt für jeden Standort, warum ihr diesen Werbeträger wählt. Legt fest, wann er zum Einsatz kommt.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
-**Erstellt** euren Werbeplan für beide Standorte. Haltet jeweils fest, wer das Werbemittel erstellt, wer es freigibt, wer es veröffentlicht oder aufstellt und wer das Ergebnis erfasst.
+**Erstellt** den Werbeplan für beide Läden. Notiert für jeden Laden, wer die Werbung erstellt und freigibt. Haltet auch fest, wer sie veröffentlicht oder aufstellt und wer später die Ergebnisse erfasst.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Bewerten
 
-**Prüft** den Plan gegen die Fristen in M3 und das Ziel gegen die verfügbaren Daten. **Korrigiert** eine erkannte Lücke oder begründet, warum eure Abfolge funktioniert.
+**Prüft** die Termine im Plan mit M3. Klärt mit den vorhandenen Daten, ob sich euer Ziel messen lässt. **Korrigiert** eine Lücke oder erklärt, warum eure Reihenfolge funktioniert.
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_5_URL}}). Reicht den gemeinsamen Werbeplan ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
+**Bewertet** eine andere Arbeit in Moodle unter [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_5_URL}}).
 
-- Enthält das gemeinsame Werbeziel eine Kennzahl, einen Zielwert und einen Zeitraum?
-- Passt der gewählte Werbeträger je Laden zur Kundschaft und zu den verfügbaren Möglichkeiten?
-- Sind Einsatztermine, Freigabefristen und Zuständigkeiten klar und miteinander vereinbar?
+1. **Ladet euren gemeinsamen Werbeplan hoch.** Wählt einen Titel und einen Dateinamen ohne eure Namen. Entfernt eure Namen aus der Arbeit und aus den Dateieigenschaften.
+2. **Schaut euch die zugeteilte Arbeit an.** Moodle lost aus, welche Arbeit ihr bekommt. Ihr seht die Arbeit ohne Namen.
+3. **Gebt Rückmeldung.** Nutzt die Fragen unter dieser Aufgabe. Nennt eine Stelle, die gut gelungen ist. Schreibt, was die Person verbessern kann. Die Person sieht bei eurer Antwort euren Klarnamen.
+
+- Prüft, ob das gemeinsame Werbeziel eine Kennzahl, einen Zielwert und einen Zeitraum nennt.
+- Prüft, ob der Werbeträger zu den Kundinnen und Kunden passt und im jeweiligen Laden möglich ist.
+- Prüft, ob Einsatztermine, Freigabefristen und Aufgaben klar sind und zusammenpassen.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Reflektieren
 
-**Notiert**, welche Abstimmung zwischen Global Bike und den Geschäften für euren Plan am wichtigsten war und warum.
+**Notiert**, welche Absprache zwischen Global Bike und den beiden Läden für euren Plan am wichtigsten war. Erklärt, warum.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 **Abschlusspitch.**
 
-**Pitcht** euer gewähltes Lernpaket mit eurem Handlungsprodukt und den vorhandenen Unterlagen. Für die Kurzfassung im Unterricht habt ihr etwa zwei Minuten. Wenn Zeit bleibt, beantwortet anschließend eine Rückfrage.
+**Pitcht** euer Lernpaket. Ein Pitch ist eine kurze Vorstellung. Nutzt euer Handlungsprodukt und eure Unterlagen. Ihr habt für den Kurzpitch etwa zwei Minuten. Wenn noch Zeit ist, beantwortet eine Rückfrage.
 
-1. **Ergebnis zeigen.** Stellt euer Handlungsprodukt vor und nennt eure wichtigste fachliche Entscheidung.
-2. **Entscheidung belegen.** Zeigt einen konkreten Fallbeleg und erklärt, warum er eure Entscheidung stützt.
-3. **Arbeitsweg begründen.** Begründet, warum ihr dieses Lernpaket gewählt habt. Zeigt an einem Zwischenergebnis, wie der Arbeitsweg euch bei der Entscheidung geholfen hat.
+1. **Ergebnis zeigen.** Zeigt euer Handlungsprodukt. Sagt, was ihr entschieden habt.
+2. **Entscheidung belegen.** Zeigt einen Beleg aus dem Fall. Erklärt, wie er eure Entscheidung stützt.
+3. **Arbeitsweg begründen.** Sagt, warum ihr euer Lernpaket gewählt habt. Zeigt ein Zwischenergebnis. Erklärt, wie es euch bei der Entscheidung geholfen hat.
 
-**Das könnt ihr zeigen.** Zeigt im Werbeplan einen Werbeträger und nennt, wer ihn bis wann freigibt. Erklärt, wie diese Wahl zum gemeinsamen Werbeziel beiträgt.
+**Das könnt ihr zeigen.** Zeigt im Werbeplan einen Werbeträger. Nennt, wer die Werbung bis wann freigibt. Erklärt, wie der Werbeträger dem gemeinsamen Ziel hilft.
+
+<details>
+<summary>Sprachhilfe für den Pitch</summary>
+
+- „Unser Ergebnis ist … Wir schlagen vor, dass …“
+- „Unser Beleg ist … Er zeigt, dass …“
+- „Wir haben Paket … gewählt. Beim Arbeiten hat uns … geholfen.“
+
+</details>
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_5_URL}}) aus.
+**Füllt** zum Schluss [Feedback]({{MOODLE_FEEDBACK_LS_6_5_URL}}) in Moodle aus.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
-Ein gemeinsamer, freigabereifer Werbeplan. Er enthält ein überprüfbares Ziel, für jeden Standort einen begründet ausgewählten Werbeträger mit Einsatzzeit sowie verbindliche Zuständigkeiten und rechtzeitige Freigaben. Die Zielerreichung lässt sich mit den genannten Daten für beide Standorte prüfen.
+Ein gemeinsamer Werbeplan, den die Beteiligten freigeben können. Der Plan nennt ein überprüfbares Ziel. Für jeden Standort nennt und begründet ihr einen Werbeträger. Ihr haltet die Einsatzzeit fest und klärt, wer welche Aufgabe übernimmt. Die Werbemittel werden rechtzeitig freigegeben. Mit den genannten Daten lässt sich für beide Standorte prüfen, ob sie das Ziel erreichen.
 
 ### Materialien
 
@@ -1212,19 +1283,19 @@ Ein gemeinsamer, freigabereifer Werbeplan. Er enthält ein überprüfbares Ziel,
 
 | Standort | Kundschaft und Besuchszeit | Interessen des Geschäfts |
 | --- | --- | --- |
-| 2-Rad Center Block, Aurich | Viele Alltagsradelnde kommen unter der Woche nach der Arbeit. Die Kundschaft lässt sich persönlich beraten. Der bestehende Newsletter erreicht Kundinnen und Kunden mit vorherigem Kontakt zum Geschäft. | Zubehör samt Beratung sichtbar machen. Die Zahl der Beratungsgespräche interessiert die Ladenleitung zusätzlich. |
-| Bike Arena Oltmanns, Leer | Familien und Freizeitradelnde besuchen im Fall die Bike Arena vor allem am Samstag. Für die Aktion ist eine Zubehörfläche zur Selbstauswahl geplant. Der Eingang und der Hauptgang sind im Modell gut frequentiert. | Aufmerksamkeit beim Einkauf wecken und den Abverkauf erfassen. |
+| 2-Rad Center Block, Aurich | Viele Menschen, die im Alltag Rad fahren, kommen unter der Woche nach der Arbeit. Sie lassen sich persönlich beraten. Der Newsletter erreicht Menschen, die schon Kontakt zu Block hatten. | Auf Zubehör und Beratung aufmerksam machen. Die Ladenleitung möchte auch wissen, wie viele Beratungen stattfinden. |
+| Bike Arena Oltmanns, Leer | In diesem Fall kommen Familien und Menschen, die in der Freizeit Rad fahren, vor allem samstags in die Bike Arena. Auf der geplanten Aktionsfläche wählen sie das Zubehör selbst aus. Am Eingang und im Hauptgang kommen viele Menschen vorbei. | Beim Einkauf auf das Zubehör aufmerksam machen und die Verkäufe zählen. |
 
 #### M2 · Eckdaten und messbare Ausgangslage
 
-- Die Frühjahrsaktion läuft in beiden Läden von Dienstag bis Samstag. Das entspricht den auf den Websites veröffentlichten regulären Verkaufstagen. Der Newsletter kann bereits am Montag versendet werden. [Block](https://www.zweirad-block.de/unternehmen/) · [Bike Arena](https://www.bikearena-oltmanns.de/)
-- Die gemeinsame Botschaft soll Fahrradzubehör für den Frühjahrsstart sichtbar machen. Jeder Standort kann einen [Werbeträger](Glossare/LS_6_5_Glossar.md#werbetr%C3%A4ger) aus M3 verbindlich nutzen.
-- In der [Vergleichswoche](Glossare/LS_6_5_Glossar.md#vergleichswoche) wurden von den Artikeln des Aktionssortiments bei Block **40 Stück** und in der Bike Arena **60 Stück** verkauft. Beide Läden können als [Kennzahl](Glossare/LS_6_5_Glossar.md#kennzahl) die verkauften Stücke dieser Artikel für die Aktionswoche auswerten. Die Vergleichswerte stammen aus Wochen mit denselben Öffnungstagen.
-- Block kann Beratungen zählen. Die Bike Arena erfasst Beratungen und Laufkundschaft für diese Aktion nicht verlässlich. Beide Partner können am Montag nach der Aktion ihre Absatzwerte an Global Bike melden. Vor dem Start vereinbaren die Beteiligten ein [überprüfbares Werbeziel](Glossare/LS_6_5_Glossar.md#%C3%BCberpr%C3%BCfbares-werbeziel).
+- Die Frühjahrsaktion läuft in beiden Läden von Dienstag bis Samstag. Laut den Websites sind die Läden normalerweise an diesen Tagen geöffnet. Der Newsletter kann bereits am Montag versendet werden. [Block](https://www.zweirad-block.de/unternehmen/) · [Bike Arena](https://www.bikearena-oltmanns.de/)
+- Beide Läden wollen auf Fahrradzubehör für den Frühjahrsstart aufmerksam machen. Jeder Laden kann einen [Werbeträger](Glossare/LS_6_5_Glossar.md#werbetr%C3%A4ger) aus M3 fest einplanen.
+- In der [Vergleichswoche](Glossare/LS_6_5_Glossar.md#vergleichswoche) verkaufte Block **40 Stück** aus dem Aktionssortiment. Die Bike Arena verkaufte **60 Stück**. Beide Läden können als [Kennzahl](Glossare/LS_6_5_Glossar.md#kennzahl) die Zahl der verkauften Stücke dieser Artikel in der Aktionswoche erfassen. In der Vergleichswoche waren die Läden an denselben Tagen geöffnet.
+- Block kann die Beratungen zählen. Die Bike Arena hat für diese Aktion keine verlässlichen Zahlen zu Beratungen und zu Menschen, die spontan in den Laden kommen. Beide Läden können Global Bike am Montag nach der Aktion melden, wie viele Stücke sie verkauft haben. Vor dem Start vereinbaren die Beteiligten ein [überprüfbares Werbeziel](Glossare/LS_6_5_Glossar.md#%C3%BCberpr%C3%BCfbares-werbeziel).
 
 #### M3 · Werbeplätze, Fristen und Rollen
 
-Alle Vorbereitungsfristen beziehen sich auf die Woche vor der Aktion, sofern ein Zeitpunkt ausdrücklich in der Aktionswoche liegt.
+Die Fristen für die Vorbereitung liegen in der Woche vor der Aktion. Wenn ein Termin in der Aktionswoche liegt, steht das in der Tabelle.
 
 | Standort und Werbeträger | Reservierter [Einsatztermin](Glossare/LS_6_5_Glossar.md#einsatztermin) | Freigabe und Übergabe |
 | --- | --- | --- |
@@ -1233,39 +1304,39 @@ Alle Vorbereitungsfristen beziehen sich auf die Woche vor der Aktion, sofern ein
 | Bike Arena · Aufsteller am Eingang | Ab Freitag der Aktionswoche | [Freigabefrist](Glossare/LS_6_5_Glossar.md#freigabefrist) für den Druck: Mittwoch, 16:00 Uhr. Die Druckerei liefert bis Donnerstag der Aktionswoche. Die Bike Arena stellt das Schild auf. |
 | Bike Arena · Hinweis am Hauptgang | Ab Dienstag zur Öffnung | Freigabe bis Freitag, 12:00 Uhr. Die Bike Arena druckt und platziert das Schild selbst. |
 
-Für die [kooperative Werbung](Glossare/LS_6_5_Glossar.md#kooperative-werbung) stellt Sarah Huber am Mittwoch ab 10:00 Uhr Produktangaben und Bildmaterial bereit. Global Bike kann an diesem Tag bis 14:00 Uhr einen gemeinsamen Textentwurf und je eine Fassung pro Standort liefern. Die Ladenleitungen entscheiden über die Freigabe ihres Werbemittels. Vor Veröffentlichung prüft der jeweilige Partner Preisangaben und Platzierung. Jede Maßnahme lässt sich an den genannten Fristen prüfen.
+Für die [kooperative Werbung](Glossare/LS_6_5_Glossar.md#kooperative-werbung) stellt Sarah Huber am Mittwoch ab 10:00 Uhr Produktangaben und Bilder bereit. Global Bike kann bis 14:00 Uhr einen gemeinsamen Textentwurf und je eine Fassung für Block und die Bike Arena liefern. Die Ladenleitungen geben die Werbung für ihren Laden frei. Vor der Veröffentlichung prüft jeder Laden die Preise und den Platz der Werbung. Nutzt die Tabelle, um zu prüfen, ob jede Maßnahme rechtzeitig fertig wird.
 
 #### M4 · Drei Partnerstimmen zum Vorlesen oder Einsprechen
 
-**Sarah Huber, Global Bike (Marketing).** „Euer Material liegt heute ab zehn bereit. Zwei Standortfassungen können wir euch heute bis zwei Uhr schicken. Die Ladenleitungen geben die eigenen Fassungen frei. Wenn wir den Aufsteller am Eingang der Bike Arena nutzen, braucht die Druckerei die Freigabe heute um vier. Nach der Aktion brauchen wir Vergleichszahlen aus beiden Kassen.“
+**Sarah Huber, Global Bike (Marketing).** „Die Unterlagen liegen heute ab zehn Uhr bereit. Bis zwei Uhr können wir euch je einen Entwurf für Block und die Bike Arena schicken. Jede Ladenleitung gibt ihre Fassung frei. Wenn wir den Aufsteller am Eingang der Bike Arena nutzen, braucht die Druckerei die Freigabe heute um vier Uhr. Nach der Aktion brauchen wir Verkaufszahlen aus beiden Kassen für den Vergleich.“
 
-**Ladenleitung bei Block.** „Viele meiner Stammkundinnen und Stammkunden kommen nach Feierabend auf dem Rad vorbei. Ich würde sie vorab gern auf die Beratung hinweisen. Unser Newsletter ist am Montag um acht eingeplant. Dafür brauche ich den fertigen Text am Donnerstag bis mittags. Einen Aushang im Schaufenster kann ich bis Freitag um zwei Uhr vorbereiten. In der Vergleichswoche lag der Absatz der Aktionsartikel bei 40 Stück. Beratungen kann ich zusätzlich zählen.“
+**Ladenleitung bei Block.** „Viele meiner Stammkundinnen und Stammkunden kommen nach der Arbeit mit dem Rad vorbei. Ich möchte sie vorher zur Beratung einladen. Unser Newsletter ist für Montag um acht Uhr geplant. Den fertigen Text brauche ich am Donnerstag bis Mittag. Einen Aushang im Schaufenster kann ich bis Freitag um zwei Uhr vorbereiten. In der Vergleichswoche haben wir 40 Stück aus dem Aktionssortiment verkauft. Beratungen kann ich auch zählen.“
 
-**Ladenleitung in der Bike Arena.** „Bei uns kommen besonders viele Familien am Samstag. Den Aufsteller können wir ab Freitag in der Aktionswoche am Eingang platzieren. Die Druckfreigabe braucht ihr heute bis vier. Ein Hinweis im Hauptgang wäre ab Dienstag möglich, wenn ich bis Freitagmittag die Freigabe habe. Die Kasse hat in der Vergleichswoche 60 Stück erfasst. Wie viele Kundinnen und Kunden nur zur Beratung kamen, kann ich nicht sicher ermitteln.“
+**Ladenleitung in der Bike Arena.** „Am Samstag kommen besonders viele Familien zu uns. Den Aufsteller können wir in der Aktionswoche ab Freitag an den Eingang stellen. Die Druckerei braucht die Freigabe heute bis vier Uhr. Einen Hinweis im Hauptgang kann ich ab Dienstag aufstellen, wenn ich bis Freitagmittag die Freigabe habe. In der Vergleichswoche haben wir 60 Stück verkauft. Ich kann nicht sicher sagen, wie viele Menschen nur zur Beratung kamen.“
 
 #### M5 · Karten zum Ausschneiden oder Abschreiben
 
-Für den [Werbeplan](Glossare/LS_6_5_Glossar.md#werbeplan) schreibt ihr auf jede Standort-Zeitachse die Tage der Vorbereitungswoche, die Tage der Aktionswoche und den Montag danach auf Streifen. Legt zu den folgenden Karten die exakte Uhrzeit aus M3. Fügt bei Bedarf leere Karten hinzu.
+Für den [Werbeplan](Glossare/LS_6_5_Glossar.md#werbeplan) baut ihr für jeden Standort eine Zeitachse. Schreibt die Tage der Vorbereitungswoche, der Aktionswoche und den Montag danach auf Streifen. Legt zu den Karten die genaue Uhrzeit aus M3. Fügt bei Bedarf leere Karten hinzu.
 
 | Kartenart | Je ein Eintrag pro Karte |
 | --- | --- |
 | Werbeplätze | Newsletter · Schaufenster · Eingang · Hauptgang |
-| Arbeitsschritte | Produktdaten bereitstellen · Standortfassung erstellen · Produktangaben prüfen · Freigabe erteilen · drucken · veröffentlichen oder aufstellen · Stückzahlen melden |
+| Arbeitsschritte | Produktdaten bereitstellen · Werbung für den Laden erstellen · Produktangaben prüfen · Werbung freigeben · drucken · veröffentlichen oder aufstellen · Stückzahlen melden |
 | [Zuständigkeiten](Glossare/LS_6_5_Glossar.md#zust%C3%A4ndigkeit) | Global Bike · Block · Bike Arena · Druckerei |
 | Daten für die [Erfolgskontrolle](Glossare/LS_6_5_Glossar.md#erfolgskontrolle) | 40 Stück Vergleichswoche · 60 Stück Vergleichswoche · Stückzahlen Aktionswoche · Beratungszahl nur bei Block |
 
 #### M6 · Fachbegriffe zu dieser Lernsituation
 
-- **Überprüfbares Werbeziel.** Ein angestrebtes Ergebnis der Werbung mit einer messbaren Größe, einem Zielwert und einem festgelegten Zeitraum.
-- **Werbeträger.** Ein Kanal, ein Medium oder ein Werbeplatz, über den das Werbemittel die angesprochenen Menschen erreicht.
-- **Kooperative Werbung.** Mehrere beteiligte Unternehmen stimmen ihr Ziel und ihre Beiträge zu einer Werbeaktion ab.
-- **Freigabefrist.** Der späteste Zeitpunkt, zu dem eine Fassung bestätigt sein muss, damit sie rechtzeitig eingesetzt werden kann.
-- **Kennzahl.** Eine messbare Größe, mit der sich ein Ergebnis beschreiben oder prüfen lässt.
-- **Werbeplan.** Eine Übersicht, die Werbeziel, Werbemittel und Verbreitung, Einsatztermine und Zuständigkeiten festlegt.
-- **Zuständigkeit.** Eine Vereinbarung darüber, wer einen bestimmten Arbeitsschritt übernimmt.
-- **Einsatztermin.** Der Zeitpunkt, an dem ein Werbemittel veröffentlicht, verteilt oder aufgestellt wird.
-- **Vergleichswoche.** Eine frühere Woche mit vergleichbaren Bedingungen, deren Werte als Ausgangspunkt dienen.
-- **Erfolgskontrolle.** Ein Vergleich der gemessenen Ergebnisse einer Werbeaktion mit dem zuvor festgelegten Ziel.
+- **Überprüfbares Werbeziel.** Ein Ziel für die Werbung. Es nennt, was ihr messt, welchen Wert ihr erreichen wollt und in welcher Zeit das gelingen soll.
+- **Werbeträger.** Der Kanal, das Medium oder der Platz, über den die Werbung die gewünschte Kundschaft erreicht.
+- **Kooperative Werbung.** Mehrere Unternehmen werben gemeinsam. Sie stimmen das Ziel ab und klären, wer was beiträgt.
+- **Freigabefrist.** Der späteste Zeitpunkt, bis zu dem die Fassung bestätigt sein muss. So lässt sich die Werbung rechtzeitig einsetzen.
+- **Kennzahl.** Ein messbarer Wert, mit dem ihr ein Ergebnis beschreiben oder prüfen könnt.
+- **Werbeplan.** Eine Übersicht über das Werbeziel, die Werbung und ihre Verbreitung. Sie nennt die Termine und zeigt, wer welche Aufgabe übernimmt.
+- **Zuständigkeit.** Eine Absprache, wer einen bestimmten Arbeitsschritt übernimmt.
+- **Einsatztermin.** Der Zeitpunkt, ab dem ein Werbemittel zu sehen ist, verteilt oder aufgestellt wird.
+- **Vergleichswoche.** Eine frühere Woche mit ähnlichen Bedingungen. Ihre Zahlen dienen als Ausgangspunkt für einen Vergleich.
+- **Erfolgskontrolle.** Ihr vergleicht das gemessene Ergebnis der Werbung mit dem vorher vereinbarten Ziel.
 
 ## LS 6.6 · Werbemittel für beide Standorte gestalten
 
@@ -1275,101 +1346,101 @@ Für den [Werbeplan](Glossare/LS_6_5_Glossar.md#werbeplan) schreibt ihr auf jede
 
 #### Warum wir das lernen
 
-Wenn ihr ein Licht für euer Rad sucht, klingt „passt an jeden Lenker“ praktisch. Ob ihr es tatsächlich befestigen könnt, hängt von eurem Lenker und der Halterung ab. Für Global Bike prüft ihr solche Aussagen an den Produktblättern und macht die gemeinsame Aktion sowohl im Newsletter für Block als auch auf dem Eingangsschild in der Bike Arena verständlich.
+Ihr sucht ein Licht für euer Rad. „Passt an jeden Lenker“ klingt erst mal praktisch. Ob das Licht passt, hängt vom Lenker und von der Halterung ab. Für Global Bike prüft ihr solche Angaben mit den Produktblättern. Dann bewerbt ihr dieselbe Aktion im Newsletter für Block und auf dem Eingangsschild für die Bike Arena.
 
 #### Kompetenzprofil und Kompetenznetz
 
 **Vorrangige Fachkompetenz · 6 von 6**
 
-Ich übertrage eine gemeinsame Botschaft auf zwei Zielgruppen und Werbeformate und überprüfe meine Produktaussagen mit Produktblättern.
+Ich gestalte dieselbe Werbebotschaft für zwei Zielgruppen und zwei Werbeformate. Ich prüfe meine Aussagen zu den Produkten mit den Produktblättern.
 
-| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| Kompetenz | Wie stark? (1–6) | Das übe ich in dieser LS | Woran merkt ihr das? |
 | --- | ---: | --- | --- |
-| Personalkompetenz | **3** | Ich plane einen prüfbaren Entwurf vor dem Freigabetermin. | Einen prüfbaren Entwurf rechtzeitig fertigstellen. |
-| Sozialkompetenz | **3** | Ich nutze Rückmeldungen zur Verständlichkeit und begründe meine Textentscheidungen. | Rückmeldung zur Verständlichkeit aufnehmen. |
-| Methodenkompetenz | **4** | Ich gleiche eine Werbeaussage mit einer konkreten Quelle ab. | Werbeaussagen systematisch mit Produktblättern abgleichen. |
-| Medienkompetenz | **5** | Ich gestalte Text, Bild und Blickfang passend zum jeweiligen Werbeträger. | Zwei unterschiedlich einsetzbare Werbemittel verständlich gestalten. |
+| Personalkompetenz | **3** | Ich plane so, dass mein Entwurf vor der Freigabe geprüft werden kann. | Einen Entwurf rechtzeitig zur Prüfung vorlegen. |
+| Sozialkompetenz | **3** | Ich nutze Rückmeldungen dazu, wie verständlich der Text ist. Ich erkläre, warum ich bestimmte Formulierungen auswähle. | Tipps zum Text aufnehmen und nutzen. |
+| Methodenkompetenz | **4** | Ich prüfe eine Werbeaussage mit einer passenden Quelle. | Aussage für Aussage mit den Produktblättern prüfen. |
+| Medienkompetenz | **5** | Ich gestalte Text, Bild und Blickfang passend zum jeweiligen Werbeträger. | Newsletter und Eingangsschild so gestalten, dass man die Werbung schnell versteht. |
 
 ### Handlungssituation
 
-**Unterrichtsfall.** Die Betriebe sind real. Die Global-Bike-Aktion und die dazugehörigen Daten sind für den Unterricht erstellt.
+**Unterrichtsfall.** Die Betriebe gibt es wirklich. Die Aktion von Global Bike und die Daten sind für diesen Unterrichtsfall erstellt.
 
-Zwei Werbeplätze für die Frühjahrsaktion in Aurich und Leer sind gebucht. Das 2-Rad Center Block verschickt einen Newsletter für Alltagsradelnde. In der Bike Arena Oltmanns in Leer sehen Familien und Freizeitradelnde beim Eintreten einen Aufsteller. Beide Werbemittel sollen auf dieselbe Zubehöraktion aufmerksam machen.
+Für die Frühjahrsaktion in Aurich und Leer gibt es zwei feste Werbeplätze. Das 2-Rad Center Block in Aurich verschickt einen Newsletter für Menschen, die im Alltag Rad fahren. In der Bike Arena Oltmanns in Leer sehen Familien und Menschen, die in der Freizeit Rad fahren, am Eingang ein Schild zum Aufstellen. Der Newsletter und das Schild werben für dieselbe Zubehöraktion.
 
-Kurz vor der internen Freigabe öffnet Sarah Huber aus dem Marketing die beiden Rohentwürfe. „Beim Newsletter brauche ich einen klaren Einstieg, sonst scrollen die Leute weiter. Für den Aufsteller muss auch das Bild schnell verständlich sein.“ Alexander Sahin aus dem Einkauf, zuständig für Handelswaren, hält die Produktblätter daneben. „Hier steht, das Lichtset passe an jeden Lenker. Und auf dem Entwurf fürs Schild hat die Pumpe eine Druckanzeige wie das Modell auf der anderen Vorlage. Ich würde beide Fassungen so noch nicht freigeben.“
+Sarah Huber aus dem Marketing schaut sich die ersten Entwürfe an. Global Bike will sie gleich freigeben. „Im Newsletter muss sofort klar sein, worum es geht. Sonst scrollen die Leute weiter. Auch das Bild auf dem Schild müssen sie schnell verstehen.“ Alexander Sahin kauft für Global Bike Handelswaren ein. Er legt die Produktblätter neben die Entwürfe. „Hier steht, das Lichtset passe an jeden Lenker. Auf dem Schild hat die Pumpe eine Druckanzeige. Die sieht aus wie beim Modell auf der anderen Vorlage. So würde ich die beiden Entwürfe noch nicht freigeben.“
 
-Jan Richter braucht heute zwei einsatzfähige Fassungen. Das Briefing und die Produktblätter liegen für euch bereit. Euer Auftrag ist, die gemeinsame Botschaft in beiden Formaten verständlich zu machen und die Produktangaben zu prüfen.
+Jan Richter braucht heute zwei fertige Fassungen, die die Läden einsetzen können. Ihr bekommt den Werbeauftrag und die Produktblätter. Macht die gemeinsame Botschaft im Newsletter und auf dem Schild verständlich. Prüft, ob die Angaben zu den Produkten stimmen.
 
 #### Kurz prüfen · Handlungssituation
 
 **Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
 
-**1. Wer soll welches der beiden Werbemittel sehen?**
+**1. Nennt für jedes Werbemittel die Menschen, die es erreichen soll.**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im ersten Absatz zu jedem Geschäft den Werbeplatz und die Personengruppe. Beginnt je mit „Das ___ richtet sich an …“.
+Sucht bei Block und bei der Bike Arena die Werbung und die Menschen, die sie sehen sollen. Nutzt „Mit … erreicht der Laden …“.
 
 </details>
 
-**2. Warum sind Sarah ein klarer Einstieg und ein schnell verständliches Bild wichtig?**
+**2. Erklärt, was Sarah am Anfang des Newsletters und beim Bild auf dem Schild wichtig ist.**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest Sarahs zwei Sätze. Ordnet ihre Wünsche dem Newsletter und dem Aufsteller zu.
+Lest, was Sarah zu den beiden Entwürfen sagt. Beginnt mit „Beim Newsletter möchte Sarah …“ und „Beim Schild soll das Bild …“.
 
 </details>
 
-**3. Welche zwei Stellen fallen Alexander in den Entwürfen auf?**
+**3. Nennt die zwei Stellen, die Alexander in den Entwürfen auffallen.**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest Alexanders Aussage noch einmal. Achtet im ersten Satz auf die Zusage zum Lichtset und im zweiten auf das abgebildete Ausstattungsmerkmal.
+Lest, was Alexander über das Lichtset und die Pumpe sagt. Sucht, was zum Lichtset versprochen wird und was auf dem Bild der Pumpe zu sehen ist.
 
 </details>
 
-**4. Was braucht Jan heute und welche Unterlagen helfen euch dabei?**
+**4. Nennt, was Jan heute braucht und welche Unterlagen ihr dafür bekommt.**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest den letzten Absatz. Ergänzt „Jan braucht ___ für ___. Zum Nachprüfen gibt es ___.“
+Lest den letzten Absatz. Ergänzt „Jan braucht heute … Die Unterlagen dafür sind …“.
 
 </details>
 
 ### Informieren
 
-**Fachlicher Einstieg.** Sprache, Blickfang und Aufforderung können sich zwischen Newsletter und Eingangsschild unterscheiden. Die gemeinsame Werbebotschaft bleibt dabei erkennbar. M1 und M4 zeigen euch, welche Informationen die jeweilige Kundschaft braucht. M2 hilft euch, die Produktaussagen aus M3 zu prüfen.
+**Fachlicher Einstieg.** Newsletter und Eingangsschild können anders klingen und anders aussehen. Die Kundschaft soll in beiden dieselbe Aktion erkennen. Nutzt M1 und M4, um herauszufinden, welche Informationen die Menschen in den beiden Läden brauchen. Prüft die Werbung aus M3 mit den Produktblättern in M2.
 
-**Erschließt** Werbeauftrag, Zielgruppen und Produktdaten in M1 und M2. **Markiert** in M3, welche Aussagen ihr übernehmen, einschränken oder streichen müsst.
+**Lest** den Werbeauftrag und die Produktdaten in M1 und M2. Schaut, wen beide Läden erreichen wollen. **Markiert** dann in M3, welche Aussagen ihr behalten, genauer schreiben oder streichen müsst.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Lest** die Erklärungen zu den zehn Fachbegriffen in M6. **Wählt** danach im Fachbegriffscheck für jeden Begriff die passende Erklärung. Die Antworten stehen in gemischter Reihenfolge. Nach jeder Antwort bekommt ihr eine kurze Rückmeldung zum Fall.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
-| `BFSDUAL-LF06-LS06-B01` | Werbebotschaft | Der Kerngedanke, den die Zielgruppe aus der Werbung mitnehmen soll. | Das Medium, in dem die Werbung erscheint. | Die Reihenfolge, in der die Produktdaten geprüft werden. | Der Frühjahrsstart mit Fahrradzubehör von Global Bike ist der gemeinsame Inhalt beider Formate (M1). |
-| `BFSDUAL-LF06-LS06-B02` | Zielgruppe | Die Menschen, die ein Werbemittel erreichen soll und auf deren Bedürfnisse und Interessen es abgestimmt ist. | Die Beschäftigten, die das Werbemittel freigeben und anbringen. | Die Gruppe der Produkte, die in einem Werbemittel gezeigt wird. | Der Newsletter richtet sich an Alltagsradelnde mit Beratungsbedarf. Das Eingangsschild spricht vor allem Familien und Freizeitradelnde an (M1 und M4). |
-| `BFSDUAL-LF06-LS06-B03` | Belegbare Produktaussage | Eine Aussage zu Eigenschaften, Eignung oder Ausstattung eines Artikels, die mit einer überprüften Produktinformation übereinstimmt. | Eine Aufforderung, die Kundschaft zur Aktionsfläche zu führen. | Eine Vermutung zum Produkt, die sich aus der Zielgruppe ableiten lässt. | Für P50 nennt das Produktblatt Sclaverand- und Autoventile. Diese beiden Ventilarten können in der Werbung genannt werden (M2). |
-| `BFSDUAL-LF06-LS06-B04` | Handlungsaufforderung | Ein Hinweis an die Kundschaft, welcher konkrete nächste Schritt möglich oder gewünscht ist. | Eine Beschreibung des Materials oder der Maße eines Produkts. | Eine interne Anweisung, wann die Ladenleitung das Werbemittel freigibt. | Die Aufforderung zum Vergleichen an der Aktionsfläche im Hauptgang benennt Handlung und Ort (M1). |
-| `BFSDUAL-LF06-LS06-B05` | Blickfang | Ein auffälliges Element eines Werbemittels, etwa eine Überschrift oder ein Bild, das zuerst Aufmerksamkeit weckt. | Eine detailreiche Produktangabe, die erst beim näheren Lesen auffällt. | Eine interne Notiz, anhand der Global Bike den Entwurf freigibt. | Eine gut sichtbare Überschrift soll am Eingang der Bike Arena Aufmerksamkeit für die Aktion wecken (M1, M5). |
-| `BFSDUAL-LF06-LS06-B06` | Werbemittel | Die konkret gestaltete Form, in der eine Werbebotschaft vermittelt wird, etwa ein Newsletter-Ausschnitt oder ein Schild. | Der Kerngedanke, der in beiden Werbeformaten gleich bleibt. | Die interne Übersicht über die Zuständigkeiten für eine Werbeaktion. | Der fertige Newsletter-Ausschnitt ist das Werbemittel für Block (M1). |
-| `BFSDUAL-LF06-LS06-B07` | Betreffzeile | Die Zeile einer E-Mail, die im Posteingang ankündigt, worum es in der Nachricht geht. | Die letzte Zeile einer E-Mail, die zur Aktionsfläche einlädt. | Der kurze Infotext unter dem Bild eines beworbenen Artikels. | Der Newsletter für Block erhält eine Betreffzeile, die die Frühjahrsaktion ankündigen kann (M1). |
-| `BFSDUAL-LF06-LS06-B08` | Produktblatt | Eine Unterlage mit überprüften Angaben zu einem bestimmten Artikel. | Eine Übersicht über die Vorlieben der Kundschaft in einem Geschäft. | Ein Entwurf mit Formulierungen, die erst noch überprüft werden müssen. | Das Produktblatt der P50 nennt die passenden Ventile und den Höchstdruck. Diese Angaben können die Werbung stützen (M2). |
-| `BFSDUAL-LF06-LS06-B09` | Lieferumfang | Die Teile, die beim Kauf eines Artikels tatsächlich mitgeliefert werden. | Die technischen Bedingungen, unter denen ein Produkt eingesetzt werden kann. | Die Anzahl der Exemplare, die ein Geschäft in der Aktionswoche anbietet. | Zum L10 gehören ein Ladekabel und Halterungen. Das Netzteil ist nicht enthalten (M2). |
-| `BFSDUAL-LF06-LS06-B10` | Aussagencheck | Ein Abgleich, bei dem ihr eine Werbeaussage mit ihrer Quelle vergleicht und sie danach freigebt, präzisiert oder streicht. | Ein Vergleich, mit dem ihr die eindrucksvollste Werbeüberschrift auswählt. | Eine Prüfung, ob die Aktionsfläche groß genug für beide Werbeformate ist. | Der Entwurf nennt bei der P50 eine Druckanzeige. Laut Produktblatt hat sie kein Manometer. Daher wird die Aussage gestrichen (M2, M3, M5). |
+| `BFSDUAL-LF06-LS06-B01` | Werbebotschaft | Die wichtigste Aussage, die der Kundschaft von der Werbung im Kopf bleiben soll. | Der Ort oder Weg, über den die Werbung erscheint. | Die Reihenfolge, in der jemand die Produktdaten prüft. | Beide Werbemittel teilen dieselbe Botschaft zum Frühjahrsstart mit Fahrradzubehör von Global Bike (M1). |
+| `BFSDUAL-LF06-LS06-B02` | Zielgruppe | Die Menschen, die eine Werbung erreichen soll. Die Werbung passt zu dem, was sie interessiert oder brauchen. | Die Menschen im Betrieb, die die Werbung freigeben und anbringen. | Die Artikel, die in der Werbung zu sehen sind. | Der Newsletter spricht Menschen an, die im Alltag Rad fahren und Beratung suchen. Das Eingangsschild ist vor allem für Familien und Menschen gedacht, die in ihrer Freizeit Rad fahren (M1, M4). |
+| `BFSDUAL-LF06-LS06-B03` | Belegbare Produktaussage | Eine Aussage darüber, was ein Artikel kann, wofür er geeignet ist oder was dazugehört. Die Aussage stimmt mit einer geprüften Produktangabe überein. | Eine Einladung, die der Kundschaft den Weg zur Aktionsfläche zeigt. | Eine Vermutung über das Produkt, die allein auf den Wünschen der Zielgruppe beruht. | Im Produktblatt steht, dass die P50 zu Sclaverand- und Autoventilen passt. Beide Ventilarten dürfen in der Werbung stehen (M2). |
+| `BFSDUAL-LF06-LS06-B04` | Handlungsaufforderung | Ein Hinweis darauf, was Kundinnen und Kunden als Nächstes tun können oder sollen. | Eine Beschreibung der Maße oder des Materials eines Produkts. | Eine Anweisung für den Betrieb, wann die Ladenleitung die Werbung freigibt. | Die Werbung lädt dazu ein, die Artikel an der Aktionsfläche im Hauptgang zu vergleichen. Man erfährt, was man tun kann und wo (M1). |
+| `BFSDUAL-LF06-LS06-B05` | Blickfang | Etwas in der Werbung, das zuerst auffällt, zum Beispiel eine Überschrift oder ein Bild. | Eine genaue Produktangabe, die man erst beim Lesen entdeckt. | Eine Notiz für Global Bike zur Freigabe des Entwurfs. | Eine gut sichtbare Überschrift am Eingang der Bike Arena soll auf die Aktion aufmerksam machen (M1, M5). |
+| `BFSDUAL-LF06-LS06-B06` | Werbemittel | Die gestaltete Werbung, etwa der Newsletter-Ausschnitt oder das Schild. Sie macht die Werbebotschaft sichtbar oder hörbar. | Die wichtigste Aussage, die in beiden Formaten gleich bleibt. | Eine Übersicht für den Betrieb, die zeigt, wer welche Aufgabe bei der Werbung übernimmt. | Der fertige Newsletter-Ausschnitt ist das Werbemittel für Block (M1). |
+| `BFSDUAL-LF06-LS06-B07` | Betreffzeile | Die Zeile einer E-Mail, die im Posteingang zeigt, worum es in der Nachricht geht. | Die letzte Zeile einer E-Mail, die zur Aktionsfläche einlädt. | Ein kurzer Text unter dem Bild eines Artikels. | Block kann die Frühjahrsaktion in der Betreffzeile des Newsletters ankündigen (M1). |
+| `BFSDUAL-LF06-LS06-B08` | Produktblatt | Ein Blatt mit geprüften Angaben zu einem Artikel. | Eine Liste mit Dingen, die der Kundschaft im Laden gefallen. | Ein Werbeentwurf, bei dem jemand die Aussagen erst noch prüfen muss. | Im Produktblatt der P50 stehen die passenden Ventile und der Höchstdruck. Diese Angaben kann die Werbung nutzen (M2). |
+| `BFSDUAL-LF06-LS06-B09` | Lieferumfang | Alles, was beim Kauf eines Artikels mitgeliefert wird. | Die Voraussetzungen dafür, dass sich ein Produkt nutzen lässt. | Die Zahl der Stücke, die ein Laden während der Aktion anbietet. | Zum L10 gehören ein Ladekabel und Halterungen. Ein Netzteil gehört nicht dazu (M2). |
+| `BFSDUAL-LF06-LS06-B10` | Aussagencheck | Ihr vergleicht eine Werbeaussage mit ihrer Quelle. Dann gebt ihr die Aussage frei, schreibt sie genauer oder streicht sie. | Ihr vergleicht Überschriften, um die auffälligste auszuwählen. | Ihr prüft, ob die Aktionsfläche groß genug für beide Werbeformate ist. | Der Entwurf verspricht eine Druckanzeige für die P50. Laut Produktblatt hat sie kein Manometer. Deshalb streicht ihr die Aussage (M2, M3, M5). |
 
 ### Planen
 
-**Haltet fest**, welche Zielgruppe ihr mit jedem Format erreichen wollt, welche Handlung die Werbung auslösen soll und welche Produktangaben dafür in Frage kommen.
+**Haltet fest**, wen ihr mit dem Newsletter und dem Schild erreichen wollt. Notiert, was die Menschen nach dem Lesen tun sollen. Sammelt für beide Formate passende Produktangaben.
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -1377,69 +1448,82 @@ Lest den letzten Absatz. Ergänzt „Jan braucht ___ für ___. Zum Nachprüfen g
 
 #### Lernpaket wählen
 
-**Wählt** einen der drei Arbeitswege. Achtet darauf, welcher euch bei der fachlichen Entscheidung am besten hilft. Sichert bei der Bearbeitung ein Zwischenergebnis eures Lernpakets und einen Fallbeleg für den Abschlusspitch.
+**Wählt** einen der drei Arbeitswege. Überlegt, welcher Weg euch bei der Entscheidung am besten hilft. **Haltet** beim Arbeiten ein Zwischenergebnis und einen Beleg für den Pitch fest. Ein Beleg kann zum Beispiel eine Zahl, ein Maß oder eine Kundenstimme sein.
 
-**Gemeinsames Fachziel und Handlungsprodukt.** Ihr übertragt dieselbe Botschaft auf zwei Zielgruppen und prüft eure Produktaussagen anhand von M2. Euer Handlungsprodukt besteht aus einem einsatzfähigen Newsletter-Ausschnitt für Block, einem einsatzfähigen Eingangsschild für die Bike Arena und einem kurzen Aussagencheck. Für alle drei Pakete gelten die Kriterien unter „Handlungsprodukt und Kriterien“.
+**Gemeinsames Fachziel und Handlungsprodukt.** Ihr gestaltet dieselbe Botschaft für zwei Zielgruppen und prüft eure Produktaussagen mit M2. Euer Ergebnis besteht aus drei Teilen. Ihr erstellt einen fertigen Newsletter-Ausschnitt für Block und ein fertiges Eingangsschild für die Bike Arena. Im kurzen Aussagencheck zeigt ihr, wo die Produktangaben stehen. Für alle drei Pakete gelten die Kriterien unter „Handlungsprodukt und Kriterien“.
 
-| Lernpaket | Lernzugänge | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| Lernpaket | Lernzugänge | So arbeitet ihr | Euer Zwischenergebnis | Wählt dieses Paket, wenn … |
 | --- | --- | --- | --- | --- |
-| **A · Bild und Text skizzieren** | Zeichnen und Bildwirkung vergleichen | Skizziert beide Formate, markiert den Blickfang und ordnet die geprüften Angaben aus M2 an. Schaut euch die Entwürfe in der vorgesehenen Größe an. | Zwei Skizzen zeigen, was zuerst auffällt, wie Bild und Text zusammenwirken und an welcher Stelle die Kundschaft wichtige Informationen findet. | … ihr Blickfang, Lesbarkeit und Bildwirkung direkt in den zwei vorgesehenen Formaten beurteilen möchtet. |
-| **B · Werbetexte laut erproben** | Zuhören, vorlesen und Formulierungen überarbeiten | Hört die Kundenstimmen aus M4 oder lest sie im Team vor. Sprecht Überschriften und Texte probeweise ein oder lest sie vor. Lasst jemanden in eigenen Worten wiedergeben, was angekommen ist. | Zwei überarbeitete Textentwürfe und die Rückmeldungen zeigen, welche Botschaft und Einladung verständlich ankommen. Setzt die Texte im Newsletter und auf dem Schild ein. | … ihr durch Zuhören und Wiedergeben prüfen möchtet, was Kundinnen und Kunden aus dem Text mitnehmen. |
-| **C · Das Layout mit Bausteinen legen** | Gestalten durch Verschieben, Lesbarkeit praktisch prüfen | Legt die Bausteine aus M5 einmal im Handyrahmen und einmal auf der Schildfläche aus. Verschiebt Bild, Überschrift und Angaben und betrachtet das Schild auch aus einigen Schritten Entfernung. | Zwei Papierentwürfe zeigen, wie ihr Texte, Bilder und geprüfte Produktangaben in den beiden Formaten platzieren wollt. Übertragt die Anordnung in eure Endfassungen. | … ihr die Reihenfolge und Platzierung von Bild und Text am liebsten durch Verschieben ausprobiert. |
+| **A · Bild und Text skizzieren** | Zeichnen und die Wirkung vergleichen | Skizziert Newsletter und Schild. Markiert den Blickfang und platziert die geprüften Angaben aus M2. Schaut euch die Entwürfe in der vorgesehenen Größe an. | Eure Skizzen zeigen, was sofort auffällt, wie Bild und Text zusammenpassen und wo man wichtige Angaben findet. | … ihr direkt an einer Skizze prüfen wollt, was auffällt und sich gut lesen lässt. |
+| **B · Werbetexte laut erproben** | Zuhören, vorlesen und Texte verbessern | Hört die Kundenstimmen aus M4 oder lest sie im Team vor. Sprecht eure Überschriften und Texte zur Probe ein oder lest sie vor. Bittet jemanden, in eigenen Worten zu sagen, was angekommen ist. | Eure Rückmeldungen und die verbesserten Texte zeigen, was man an der Botschaft und Einladung gut versteht. Nutzt die Texte im Newsletter und auf dem Schild. | … ihr durch Zuhören prüfen wollt, was von eurem Text hängen bleibt. |
+| **C · Das Layout mit Bausteinen legen** | Bausteine verschieben und prüfen, was sich gut lesen lässt | Legt die Bausteine aus M5 in einen Handyrahmen und auf eine Schildfläche. Verschiebt Bilder, Überschriften und Angaben. Schaut euch das Schild auch aus ein paar Schritten Abstand an. | Eure Papierentwürfe zeigen, wo Text, Bild und geprüfte Angaben stehen sollen. Übernehmt diese Anordnung in eure fertigen Fassungen. | … ihr durch Verschieben von Text und Bild am besten ausprobieren könnt, was zusammenpasst. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachliche Entscheidung
 
-**Entwickelt** mit dem gewählten Lernpaket eure Entwürfe. Einigt euch auf eine wiedererkennbare gemeinsame Botschaft und begründet je Format zwei passende Produktinformationen.
+**Entwickelt** eure Entwürfe mit dem gewählten Lernpaket. Nutzt die gemeinsame Botschaft aus M1 für beide Entwürfe. Wählt für jedes Format zwei Produktangaben. Erklärt, warum sie zur jeweiligen Kundschaft passen.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
-**Stellt** den Newsletter-Ausschnitt und das Eingangsschild im gewählten Lernpaket fertig. **Dokumentiert** für jeden übernommenen Produktvorteil kurz, wo er im Produktblatt belegt ist.
+**Stellt** den Newsletter-Ausschnitt und das Eingangsschild im gewählten Lernpaket fertig. **Notiert** zu jedem Produktvorteil in eurer Werbung, wo ihr ihn im Produktblatt findet.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Bewerten
 
-**Prüft**, ob die Botschaft in beiden Medien erkennbar ist und die Produktinformationen mit M2 übereinstimmen. **Überarbeitet** anschließend unklare oder unzutreffende Stellen.
+**Prüft**, ob man in beiden Werbemitteln dieselbe Botschaft erkennt. Vergleicht die Produktangaben mit M2. **Überarbeitet** alles, was unklar ist oder nicht stimmt.
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_6_URL}}). Reicht die beiden Werbemittel mit Aussagencheck ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
+**Bewertet** eine andere Arbeit in Moodle unter [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_6_URL}}).
 
-- Ist in beiden Werbemitteln dieselbe Frühjahrsaktion erkennbar?
-- Passen die Formate zur jeweiligen Kundschaft und ist die Handlungsaufforderung verständlich?
-- Lassen sich die Produktaussagen mit den Produktblättern in M2 belegen?
+1. **Ladet eure beiden Werbemittel mit dem Aussagencheck hoch.** Wählt einen Titel und einen Dateinamen ohne eure Namen. Entfernt eure Namen aus der Arbeit und aus den Dateieigenschaften.
+2. **Schaut euch die zugeteilte Arbeit an.** Moodle lost aus, welche Arbeit ihr bekommt. Ihr seht die Arbeit ohne Namen.
+3. **Gebt Rückmeldung.** Nutzt die Fragen unter dieser Aufgabe. Nennt eine Stelle, die gut gelungen ist. Schreibt, was die Person verbessern kann. Die Person sieht bei eurer Antwort euren Klarnamen.
+
+- Prüft, ob man in beiden Werbemitteln dieselbe Frühjahrsaktion erkennt.
+- Prüft, ob Newsletter und Schild zur jeweiligen Kundschaft passen. Versteht ihr, was die Kundschaft nach dem Lesen tun soll?
+- Prüft mit M2, ob jede Aussage über ein Produkt im passenden Produktblatt steht.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Reflektieren
 
-**Erläutert** an je einer Formulierung, welche Anpassung Newsletter und Schild für ihre unterschiedlichen Einsatzorte brauchen.
+**Wählt** je eine Formulierung aus dem Newsletter und vom Schild. Erklärt daran, warum ihr am Handy anders formuliert als auf einem Schild am Eingang.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 **Abschlusspitch.**
 
-**Pitcht** euer gewähltes Lernpaket mit eurem Handlungsprodukt und den vorhandenen Unterlagen. Für die Kurzfassung im Unterricht habt ihr etwa zwei Minuten. Wenn Zeit bleibt, beantwortet anschließend eine Rückfrage.
+**Pitcht** euer Lernpaket. Ein Pitch ist eine kurze Vorstellung. Nutzt euer Handlungsprodukt und eure Unterlagen. Ihr habt für den Kurzpitch etwa zwei Minuten. Wenn noch Zeit ist, beantwortet eine Rückfrage.
 
-1. **Ergebnis zeigen.** Stellt euer Handlungsprodukt vor und nennt eure wichtigste fachliche Entscheidung.
-2. **Entscheidung belegen.** Zeigt einen konkreten Fallbeleg und erklärt, warum er eure Entscheidung stützt.
-3. **Arbeitsweg begründen.** Begründet, warum ihr dieses Lernpaket gewählt habt. Zeigt an einem Zwischenergebnis, wie der Arbeitsweg euch bei der Entscheidung geholfen hat.
+1. **Ergebnis zeigen.** Zeigt euer Handlungsprodukt. Sagt, was ihr entschieden habt.
+2. **Entscheidung belegen.** Zeigt einen Beleg aus dem Fall. Erklärt, wie er eure Entscheidung stützt.
+3. **Arbeitsweg begründen.** Sagt, warum ihr euer Lernpaket gewählt habt. Zeigt ein Zwischenergebnis. Erklärt, wie es euch bei der Entscheidung geholfen hat.
 
-**Das könnt ihr zeigen.** Zeigt den Newsletter-Ausschnitt und das Eingangsschild. Erklärt einen Unterschied in der Ansprache und belegt eine eurer Produktaussagen mit M2.
+**Das könnt ihr zeigen.** Zeigt euren Newsletter-Ausschnitt und euer Eingangsschild. Erklärt, wo und warum ihr die Kundschaft unterschiedlich ansprecht. Wählt eine Aussage zu einem Produkt und zeigt die passende Stelle in M2.
+
+<details>
+<summary>Sprachhilfe für den Pitch</summary>
+
+- „Unser Ergebnis ist … Wir schlagen vor, dass …“
+- „Unser Beleg ist … Er zeigt, dass …“
+- „Wir haben Paket … gewählt. Beim Arbeiten hat uns … geholfen.“
+
+</details>
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_6_URL}}) aus.
+**Füllt** zum Schluss [Feedback]({{MOODLE_FEEDBACK_LS_6_6_URL}}) in Moodle aus.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
-Ein Newsletter-Ausschnitt für Block und ein Eingangsschild für die Bike Arena. Beide enthalten die gemeinsame Frühjahrsbotschaft, nennen den jeweiligen Standort und informieren darüber, was die Kundschaft vor Ort tun kann. Sie passen zu Einsatzort und Zielgruppe. Alle fachlichen Produktaussagen sind in M2 belegbar. Ein kurzer Aussagencheck zeigt die Zuordnung von Werbeaussage und Produktblatt.
+Ein Newsletter-Ausschnitt für Block und ein Eingangsschild für die Bike Arena. Beide zeigen dieselbe Frühjahrsaktion. Sie nennen den jeweiligen Laden und zeigen, was man dort tun kann. Die Werbung passt zu den Menschen, die sie lesen, und zu dem Ort, an dem sie zu sehen ist. Alle Produktaussagen lassen sich mit M2 belegen. Im kurzen Aussagencheck zeigt ihr die passende Stelle im Produktblatt für jede Aussage.
 
 ### Materialien
 
@@ -1448,27 +1532,27 @@ Ein Newsletter-Ausschnitt für Block und ein Eingangsschild für die Bike Arena.
 | Vorgabe | 2-Rad Center Block, Aurich | Bike Arena Oltmanns, Leer |
 | --- | --- | --- |
 | [Werbemittel](Glossare/LS_6_6_Glossar.md#werbemittel) | Newsletter-Ausschnitt für das Handy | Eingangsschild im Hochformat |
-| [Zielgruppe](Glossare/LS_6_6_Glossar.md#zielgruppe) | Alltagsradelnde, die Zubehör passend zu ihrem eigenen Fahrrad suchen | Familien und Freizeitradelnde, die sich vor Ort schnell orientieren möchten |
-| Nutzen und Aufforderung | Auf passende Beratung hinweisen und zur Aktionsfläche im Laden einladen | Zum Selbstvergleichen der Produkte an der markierten Aktionsfläche im Hauptgang einladen |
-| Umfang | Eine [Betreffzeile](Glossare/LS_6_6_Glossar.md#betreffzeile), ein kurzer Absatz mit bis zu 75 Wörtern und eine klare Aufforderung | Eine gut lesbare Überschrift als [Blickfang](Glossare/LS_6_6_Glossar.md#blickfang), wenige eindeutige Angaben und ein Weghinweis |
+| [Zielgruppe](Glossare/LS_6_6_Glossar.md#zielgruppe) | Menschen, die im Alltag Rad fahren und passendes Zubehör für ihr Rad suchen | Familien und Menschen, die in der Freizeit Rad fahren. Sie wollen vor Ort schnell finden, was sie suchen. |
+| Nutzen und Aufforderung | Zur Beratung und zur Aktionsfläche im Laden einladen | Zur markierten Aktionsfläche im Hauptgang einladen. Dort können Kunden die Produkte selbst vergleichen. |
+| Umfang | Eine [Betreffzeile](Glossare/LS_6_6_Glossar.md#betreffzeile), ein kurzer Absatz mit bis zu 75 Wörtern und ein klarer Hinweis, was die Kundschaft tun kann | Eine gut lesbare Überschrift als [Blickfang](Glossare/LS_6_6_Glossar.md#blickfang), wenige klare Angaben und ein Hinweis auf den Weg |
 | Artikel | L10 LED-Lichtset und T30 Rahmentasche | P50 Minipumpe und B80 Reflektorband |
 
-Die gemeinsame [Werbebotschaft](Glossare/LS_6_6_Glossar.md#werbebotschaft) lautet **„Frühjahrsstart mit Fahrradzubehör von Global Bike“**. Die Aktion läuft in beiden Geschäften von Dienstag bis Samstag derselben Woche. Global Bike stellt Produktdaten bereit. Die beiden Werbeplätze und Rohentwürfe wurden für den Unterricht erstellt. Preisangaben sind in diesem Auftrag nicht vorgesehen. Als Bildmaterial stehen beschriftete neutrale Produktabbildungen oder eigene Produktzeichnungen zur Verfügung. Zeigt nur Ausstattung, die laut [Produktblatt](Glossare/LS_6_6_Glossar.md#produktblatt) tatsächlich enthalten ist.
+Die gemeinsame [Werbebotschaft](Glossare/LS_6_6_Glossar.md#werbebotschaft) lautet **„Frühjahrsstart mit Fahrradzubehör von Global Bike“**. Die Aktion läuft in beiden Läden von Dienstag bis Samstag derselben Woche. Global Bike liefert die Produktdaten. Die Werbeplätze und ersten Entwürfe gehören zum Unterrichtsfall. Lasst Preise in diesem Auftrag weg. Nutzt beschriftete, neutrale Produktbilder oder zeichnet die Artikel selbst. Zeigt nur Ausstattung, die laut [Produktblatt](Glossare/LS_6_6_Glossar.md#produktblatt) zum Artikel gehört.
 
 #### M2 · Geprüfte Produktblätter des Modellunternehmens
 
 | Artikel | Gesicherte Angaben | [Lieferumfang](Glossare/LS_6_6_Glossar.md#lieferumfang) |
 | --- | --- | --- |
-| **L10 LED-Lichtset** | Vorder- und Rückleuchte, über USB-C wiederaufladbar. Die Frontbefestigung ist für runde Lenker mit 22–32 mm Durchmesser vorgesehen. | Vorder- und Rückleuchte, Halterungen sowie ein USB-C-Ladekabel. Ein Netzteil gehört nicht zum Set. |
-| **T30 Rahmentasche** | Volumen 1,2 Liter. Befestigung mit verstellbaren Klettbändern. Material wasserabweisend. Der Platz im Rahmendreieck lässt sich bei Block prüfen. | Eine Rahmentasche mit Befestigungsbändern. |
-| **P50 Minipumpe** | Für Sclaverand- und Autoventile. Höchstdruck 6 bar. Kein Manometer. | Eine Minipumpe und eine Rahmenhalterung. |
-| **B80 Reflektorband** | Verstellbarer Umfang 20–40 cm. Reflektiert auftreffendes Licht. | Ein Reflektorband ohne eigene Beleuchtung. |
+| **L10 LED-Lichtset** | Vorder- und Rückleuchte. Ihr könnt beide über USB-C aufladen. Die Halterung für die Vorderleuchte passt an runde Lenker mit 22–32 mm Durchmesser. | Vorder- und Rückleuchte, Halterungen und ein USB-C-Ladekabel. Ein Netzteil gehört nicht zum Set. |
+| **T30 Rahmentasche** | Die Tasche fasst 1,2 Liter. Sie wird mit verstellbaren Klettbändern befestigt. Das Material ist wasserabweisend. Bei Block könnt ihr prüfen, ob im Rahmendreieck genug Platz ist. | Eine Rahmentasche mit Befestigungsbändern. |
+| **P50 Minipumpe** | Passt zu Sclaverand- und Autoventilen. Höchstdruck 6 bar. Hat kein Manometer, also keine Druckanzeige. | Eine Minipumpe und eine Rahmenhalterung. |
+| **B80 Reflektorband** | Der Umfang lässt sich von 20–40 cm einstellen. Das Band wirft Licht zurück, das darauf fällt. | Ein Reflektorband ohne eigene Beleuchtung. |
 
 #### M3 · Rohentwürfe zur Überprüfung
 
 **Fahrradfachgeschäft, Newsletter.** „Startklar für jedes Rad! Unser LED-Lichtset L10 passt an jeden Lenker und kommt mit Netzteil. Die T30 hält selbst bei Starkregen garantiert alles trocken. Probiert das Zubehör vor Ort aus.“
 
-**Bike Arena, Eingangsschild.** „Jetzt für den Frühling ausrüsten! P50 für alle Ventile, mit Druckanzeige. B80 leuchtet selbst. Hier entlang zur Zubehöraktion.“ Entwurfsskizze zum Schild: Die Minipumpe ist mit einer runden Druckanzeige eingezeichnet. Ein konkreter Standort der Aktionsfläche fehlt.
+**Bike Arena, Eingangsschild.** „Jetzt für den Frühling ausrüsten! P50 für alle Ventile, mit Druckanzeige. B80 leuchtet selbst. Hier entlang zur Zubehöraktion.“ Auf der Skizze hat die Minipumpe eine runde Druckanzeige. Das Schild sagt nicht genau, wo die Aktionsfläche liegt.
 
 #### M4 · Zwei Kundenstimmen zum Vorlesen oder Einsprechen
 
@@ -1478,26 +1562,26 @@ Die gemeinsame [Werbebotschaft](Glossare/LS_6_6_Glossar.md#werbebotschaft) laute
 
 #### M5 · Bausteine für Entwurf und Prüfung
 
-Zeichnet einen Handyrahmen, der auf ein Blatt A5 passt, und daneben den Umriss eines Eingangsschilds im Hochformat auf ein Blatt A4. Schneidet oder faltet für jedes Format je einen verschiebbaren Papierstreifen für **Überschrift**, **gemeinsame Botschaft**, **Bild mit Artikelnummer**, **[belegbare Produktaussage](Glossare/LS_6_6_Glossar.md#belegbare-produktaussage)**, **Aktionszeitraum** und **[Handlungsaufforderung](Glossare/LS_6_6_Glossar.md#handlungsaufforderung) mit Standort oder Weg**. Verwendet für weitere Angaben leere Streifen. Probiert die Anordnung im Handyrahmen aus und betrachtet das Schild aus einigen Schritten Entfernung.
+**Zeichnet** einen Handyrahmen auf ein Blatt A5. Zeichnet daneben das Eingangsschild auf ein Blatt A4 im Hochformat. Schneidet oder faltet für beide Formate Papierstreifen, die ihr verschieben könnt. Nutzt je einen Streifen für **Überschrift**, **gemeinsame Botschaft**, **Bild mit Artikelnummer**, **[belegbare Produktaussage](Glossare/LS_6_6_Glossar.md#belegbare-produktaussage)**, **Aktionszeitraum** und **[Handlungsaufforderung](Glossare/LS_6_6_Glossar.md#handlungsaufforderung) mit Standort oder Weg**. Nehmt leere Streifen für weitere Angaben. Probiert die Anordnung im Handyrahmen aus. Schaut euch das Schild aus ein paar Schritten Abstand an.
 
 | [Aussagencheck](Glossare/LS_6_6_Glossar.md#aussagencheck) für beide Medien | Eintrag |
 | --- | --- |
-| Werbeaussage, wie sie im Entwurf steht | Abschreiben oder markieren |
-| Beleg aus dem Produktblatt | Artikelnummer und passende Angabe notieren |
-| Schlussprüfung | Aussage freigeben, präzisieren oder streichen |
+| Werbeaussage aus dem Entwurf | Schreibt sie ab oder markiert sie. |
+| Beleg aus dem Produktblatt | Notiert die Artikelnummer und die passende Angabe. |
+| Schlussprüfung | Gebt die Aussage frei, schreibt sie genauer oder streicht sie. |
 
 #### M6 · Fachbegriffe zu dieser Lernsituation
 
-- **Werbebotschaft.** Der Kerngedanke, den die Zielgruppe aus der Werbung mitnehmen soll.
-- **Zielgruppe.** Die Menschen, die ein Werbemittel erreichen soll und auf deren Bedürfnisse und Interessen es abgestimmt ist.
-- **Belegbare Produktaussage.** Eine Aussage zu Eigenschaften, Eignung oder Ausstattung eines Artikels, die mit einer überprüften Produktinformation übereinstimmt.
-- **Handlungsaufforderung.** Ein Hinweis an die Kundschaft, welcher konkrete nächste Schritt möglich oder gewünscht ist.
-- **Blickfang.** Ein auffälliges Element eines Werbemittels, etwa eine Überschrift oder ein Bild, das zuerst Aufmerksamkeit weckt.
-- **Werbemittel.** Die konkret gestaltete Form, in der eine Werbebotschaft vermittelt wird, etwa ein Newsletter-Ausschnitt oder ein Schild.
-- **Betreffzeile.** Die Zeile einer E-Mail, die im Posteingang ankündigt, worum es in der Nachricht geht.
-- **Produktblatt.** Eine Unterlage mit überprüften Angaben zu einem bestimmten Artikel.
-- **Lieferumfang.** Die Teile, die beim Kauf eines Artikels tatsächlich mitgeliefert werden.
-- **Aussagencheck.** Ein Abgleich, bei dem ihr eine Werbeaussage mit ihrer Quelle vergleicht und sie danach freigebt, präzisiert oder streicht.
+- **Werbebotschaft.** Die wichtigste Aussage, die der Kundschaft von der Werbung im Kopf bleiben soll.
+- **Zielgruppe.** Die Menschen, die eine Werbung erreichen soll. Die Werbung passt zu dem, was sie interessiert oder brauchen.
+- **Belegbare Produktaussage.** Eine Aussage darüber, was ein Artikel kann, wofür er geeignet ist oder was dazugehört. Die Aussage stimmt mit einer geprüften Produktangabe überein.
+- **Handlungsaufforderung.** Ein Hinweis darauf, was Kundinnen und Kunden als Nächstes tun können oder sollen.
+- **Blickfang.** Etwas in der Werbung, das zuerst auffällt, zum Beispiel eine Überschrift oder ein Bild.
+- **Werbemittel.** Die gestaltete Werbung, etwa der Newsletter-Ausschnitt oder das Schild. Sie macht die Werbebotschaft sichtbar oder hörbar.
+- **Betreffzeile.** Die Zeile einer E-Mail, die im Posteingang zeigt, worum es in der Nachricht geht.
+- **Produktblatt.** Ein Blatt mit geprüften Angaben zu einem Artikel.
+- **Lieferumfang.** Alles, was beim Kauf eines Artikels mitgeliefert wird.
+- **Aussagencheck.** Ihr vergleicht eine Werbeaussage mit ihrer Quelle. Dann gebt ihr die Aussage frei, schreibt sie genauer oder streicht sie.
 
 ## LS 6.7 · Die Entwürfe vor der Freigabe prüfen
 
@@ -1507,41 +1591,41 @@ Zeichnet einen Handyrahmen, der auf ein Blatt A5 passt, und daneben den Umriss e
 
 #### Warum wir das lernen
 
-Am Eingang seht ihr einen Hinweis auf eine Minipumpe. Ob euch die grüne Markierung zur richtigen Pumpe führt, merkt ihr erst beim Suchen. Vor der Freigabe für Block und die Bike Arena beobachtet ihr, wie Testpersonen mit der Werbung und den Plänen zurechtkommen. Ihre Wege und Antworten zeigen euch, welche Hinweise oder Platzierungen ihr ändern solltet.
+Am Eingang seht ihr Werbung für eine Minipumpe. Versteht ihr den Hinweis auf dem Schild? Findet ihr die Pumpe, wenn ihr der grünen Markierung folgt? Lasst das für Block und die Bike Arena testen. An den Wegen und Antworten der Testpersonen seht ihr, ob ihr die Hinweise oder den Plan ändern müsst.
 
 #### Kompetenzprofil und Kompetenznetz
 
 **Vorrangige Fachkompetenz · 6 von 6**
 
-Ich prüfe mit Testpersonen, ob die Waren auffindbar sind und die Werbung verstanden wird. Ich leite aus den Beobachtungen begründete Änderungen ab.
+Ich teste, ob andere Personen die Ware finden und die Werbung verstehen. Ich begründe Änderungen mit meinen Beobachtungen.
 
-| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| Kompetenz | Wie stark? (1–6) | Das übe ich in dieser LS | Woran merkt ihr das? |
 | --- | ---: | --- | --- |
-| Personalkompetenz | **4** | Ich erfasse auch Beobachtungen, die meinen eigenen Erwartungen widersprechen. | Auch unerwartete Ergebnisse in die Überarbeitung einbeziehen. |
-| Sozialkompetenz | **4** | Ich leite einen Test neutral an und höre den Testpersonen zu. | Testpersonen neutral anleiten und ihnen zuhören. |
-| Methodenkompetenz | **5** | Ich unterscheide zwischen beobachtetem Verhalten und meiner Erklärung dafür. | Tests planen, Beobachtungen dokumentieren, auswerten und zur Überarbeitung nutzen. |
-| Medienkompetenz | **3** | Ich überarbeite eine Werbeaussage oder Kennzeichnung so, dass sie leichter zu verstehen ist. | Werbetext oder Beschilderung gezielt verständlicher machen. |
+| Personalkompetenz | **4** | Ich halte auch fest, was mich im Test überrascht. | Auch überraschende Ergebnisse nutzen, um den Entwurf zu ändern. |
+| Sozialkompetenz | **4** | Ich leite den Test neutral an und höre den Personen zu. | Die Aufgabe erklären, ohne beim Suchen zu helfen. |
+| Methodenkompetenz | **5** | Ich trenne, was ich beobachte und wie ich es erkläre. | Einen Test planen. Beobachtungen notieren und für Änderungen nutzen. |
+| Medienkompetenz | **3** | Ich mache einen Werbetext oder ein Schild leichter verständlich. | Eine unklare Stelle im Text oder auf einem Schild verbessern. |
 
 ### Handlungssituation
 
 **Unterrichtsfall.** Die Betriebe sind real. Die Global-Bike-Aktion und die dazugehörigen Daten sind für den Unterricht erstellt.
 
-Sarah Huber aus dem Marketing hat für die Global-Bike-Frühjahrsaktion zwei Flächenpläne und zwei Werbeentwürfe vor sich. Das 2-Rad Center Block in Aurich hat den Newsletter vorbereitet. Für die Bike Arena Oltmanns in Leer wartet die Druckerei auf das Eingangsschild. „Um 16 Uhr ist die letzte Abgabe. Ich würde das Schild jetzt schicken, solange noch Zeit für Rückfragen bleibt.“
+Vor Sarah Huber aus dem Marketing liegen zwei Flächenpläne und zwei Werbeentwürfe. Das 2-Rad Center Block in Aurich hat den Newsletter vorbereitet. Die Druckerei wartet auf das Eingangsschild für die Bike Arena Oltmanns in Leer. Sarah sagt: „Um 16 Uhr ist die Abgabe. Ich möchte das Schild jetzt schicken. Dann bleibt Zeit für Rückfragen.“
 
-Sebastian Wolf aus dem Außendienst liest den Weghinweis auf dem Schild. „Hier steht, die Kundschaft soll auf die grüne Markierung achten. Auf dem Plan sehe ich zwei grüne Stellen. Wo würde jemand hingehen, der heute zum ersten Mal in den Laden kommt?“ Auch beim Newsletter will er wissen, ob die angekündigten Artikel mit Hilfe des Flächenplans auffindbar sind.
+Sebastian Wolf aus dem Außendienst liest das Schild. „Darauf steht, dass die grüne Markierung den Weg zeigt. Auf dem Plan sind aber zwei Stellen grün. Wohin geht jemand, der zum ersten Mal im Laden ist?“ Sebastian will auch wissen, ob man die Artikel aus dem Newsletter mit dem Flächenplan findet.
 
-Jan Richter bittet euch um einen kurzen Test mit Personen, die beide Entwürfe zum ersten Mal sehen. Vor der Freigabe möchte er für beide Läden sehen, wo die Testpersonen ins Stocken geraten und was ihr auf dieser Grundlage noch ändern müsst.
+Jan Richter bittet euch um einen kurzen Test. Die Testpersonen sollen die Entwürfe zum ersten Mal sehen. Jan will vor der Freigabe wissen, wo das Suchen oder Lesen schwierig ist. Zeigt ihm für beide Läden, was ihr nach dem Test noch ändern müsst.
 
 #### Kurz prüfen · Handlungssituation
 
 **Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
 
-**1. Welche Unterlagen liegen Sarah vor und welche davon erwartet die Druckerei?**
+**1. Welche Unterlagen hat Sarah vor sich? Was erwartet die Druckerei?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im ersten Absatz die beiden Arten von Entwürfen. Lest anschließend, für welchen Laden die Druckerei etwas erwartet.
+Lest den Abschnitt über Sarah und die Druckerei. Ergänzt die Sätze „Vor Sarah liegen … und …“ und „Die Druckerei wartet auf … für …“
 
 </details>
 
@@ -1550,16 +1634,16 @@ Sucht im ersten Absatz die beiden Arten von Entwürfen. Lest anschließend, für
 <details>
 <summary>Hilfe</summary>
 
-Lest Sarahs Aussage. Achtet auf die Uhrzeit und darauf, was ihr bis dahin wichtig ist.
+Lest, was Sarah sagt. Beginnt mit „Sarah will das Schild jetzt schicken, weil …“
 
 </details>
 
-**3. Was macht Sebastian am Weghinweis stutzig?**
+**3. Welches Problem sieht Sebastian beim Hinweis auf den Weg?**
 
 <details>
 <summary>Hilfe</summary>
 
-Vergleicht im zweiten Absatz den Hinweis auf dem Schild mit dem, was Sebastian auf dem Plan sieht. Beginnt mit „Der Hinweis sagt …, auf dem Plan …“.
+Lest, was Sebastian über das Schild und den Plan sagt. Ergänzt den Satz „Auf dem Schild steht … Auf dem Plan sieht Sebastian …“
 
 </details>
 
@@ -1568,40 +1652,40 @@ Vergleicht im zweiten Absatz den Hinweis auf dem Schild mit dem, was Sebastian a
 <details>
 <summary>Hilfe</summary>
 
-Lest die letzten beiden Sätze. Ergänzt „Beim Test soll sichtbar werden, wo ___ und was wir deshalb ___.“
+Lest den letzten Absatz. Beginnt mit „Jan will nach dem Test wissen, wo … und was das Team …“
 
 </details>
 
 ### Informieren
 
-**Fachlicher Einstieg.** Eine Probe vor der Freigabe zeigt, durch welche Hinweise sich die Kundschaft auf der Fläche orientiert und welche Werbebotschaft sie versteht. Achtet beim Test der Entwürfe aus M1 und M2 darauf, wo die Testpersonen tatsächlich suchen und wie sie die Werbung in eigenen Worten wiedergeben. Aus diesen Beobachtungen begründet ihr Änderungen und haltet sie im Testprotokoll M5 fest.
+**Fachlicher Einstieg.** Beim Praxistest probieren andere Personen die Entwürfe aus M1 und M2 aus. Beobachtet, welchen Weg sie wählen und wo sie suchen. Lasst sie in eigenen Worten sagen, was sie aus der Werbung verstanden haben. Notiert die Beobachtungen in M5. Erklärt damit, was ihr am Entwurf ändert.
 
-**Vergleicht** in Partnerarbeit für jeden Standort den Werbeentwurf mit dem Flächenplan. Markiert, welches Produkt beworben wird, welche Orientierung die Werbung bietet und wo das Produkt tatsächlich liegt. Nutzt M1 und M2.
+**Vergleicht** zu zweit die Werbung und den Flächenplan für jeden Laden. Nutzt M1 und M2. Markiert in der Werbung den Artikel und den Hinweis auf den Weg. Markiert im Plan, wo der Artikel liegt.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Lest** die Erklärungen zu den zehn Fachbegriffen in M6. **Wählt** danach im Fachbegriffscheck für jeden Begriff die passende Erklärung. Die Antworten stehen in gemischter Reihenfolge. Nach jeder Antwort bekommt ihr eine kurze Rückmeldung zum Fall.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
-| `BFSDUAL-LF06-LS07-B01` | Auffindbarkeit | Wie leicht die Kundschaft das gesuchte Produkt mithilfe der Wege und Hinweise auf der Fläche findet. | Wie gut eine Person die Werbeaussage in eigenen Worten wiedergeben kann. | Wie attraktiv eine Person die Farbe eines Schildes bewertet. | Der gewählte Weg und die Fundstelle zeigen, ob die P50 auf der Aktionsfläche gut auffindbar ist (M2 und M5). |
-| `BFSDUAL-LF06-LS07-B02` | Verständlichkeit | Wie klar die Kundschaft erfasst, welches Angebot und welche Handlung die Werbung vermittelt. | Wie schnell eine Person vom Eingang zur richtigen Regalfläche kommt. | Wie viele Werbemittel ein Laden während der Aktion einsetzt. | Die Wiedergabe der Botschaft in eigenen Worten zeigt, was aus der Werbung angekommen ist (M3). |
-| `BFSDUAL-LF06-LS07-B03` | Neutrale Testanleitung | Eine Aufgabenbeschreibung, die Ziel und Start klärt und den Weg der Testperson offenlässt. | Eine Wegbeschreibung, die bereits das richtige Regal nennt. | Eine Rückfrage, die der Testperson die erwartete Werbebotschaft vorsagt. | Im Test entscheidet die Person selbst, wo sie die Pumpe zuerst sucht (M3). |
-| `BFSDUAL-LF06-LS07-B04` | Beobachtung | Ein konkret wahrnehmbares Verhalten oder eine tatsächliche Äußerung aus dem Test. | Eine Vermutung darüber, warum eine Person falsch abgebogen ist. | Eine vorgeschlagene Änderung am Flächenplan. | „Die Person zeigte auf die alte Zubehörinsel und fragte nach der P50“ lässt sich direkt protokollieren (M5). |
-| `BFSDUAL-LF06-LS07-B05` | Praxistest | Eine Probe vor der Freigabe, bei der eine Testperson eine typische Aufgabe aus Sicht der Kundschaft ausführt. | Eine Besprechung, in der das Team allein über die Entwürfe entscheidet. | Eine Befragung dazu, welche Farben der Kundschaft gefallen. | In der Bike Arena sieht die Testperson das Schild und sucht vom Eingang aus die Minipumpe (M2, M3). |
-| `BFSDUAL-LF06-LS07-B06` | Testprotokoll | Eine Übersicht, die den Ablauf der Probe, das beobachtete Verhalten und die daraus abgeleiteten Änderungen festhält. | Eine Übersicht, die vor dem Test den richtigen Weg ins Regal vorgibt. | Eine Übersicht über verkaufte Artikel und den erzielten Erlös. | Der gewählte Weg und die wiedergegebene Werbebotschaft stehen im selben Protokoll (M5). |
-| `BFSDUAL-LF06-LS07-B07` | Vorführmuster | Ein Exemplar, mit dem das Personal die Anwendung eines Artikels zeigen kann. | Ein Aufkleber, der die passende Zubehörgruppe im Laden kennzeichnet. | Ein Werbebild, auf dem alle Artikel der Aktion zu sehen sind. | Das Personal zeigt die Befestigung des Lichtsets am Beratungsplatz. Die Ware zur Auswahl liegt am Wandregal (M1). |
-| `BFSDUAL-LF06-LS07-B08` | Werbeentwurf | Eine vorbereitete Fassung eines Werbemittels, die vor der Freigabe geprüft und geändert werden kann. | Eine Zeichnung, die den Flächenaufbau und die Wege durch das Geschäft zeigt. | Eine Liste, in der das Team das Verhalten der Testpersonen notiert. | Der Text des Eingangsschilds ist ein Werbeentwurf. Das Team kann den Hinweis auf die grüne Markierung nach dem Test ändern (M2, M3). |
-| `BFSDUAL-LF06-LS07-B09` | Werbebotschaft | Die zentrale Aussage, die eine Werbung der Kundschaft vermitteln soll. | Der konkrete Weg, den eine Testperson bei der Produktsuche nimmt. | Der Platz, an dem das Geschäft ein Werbemittel veröffentlicht. | Das Eingangsschild wirbt für Fahrradzubehör zum Frühjahrsstart. Die Testperson gibt die Botschaft in eigenen Worten wieder (M2, M3). |
-| `BFSDUAL-LF06-LS07-B10` | Fundstelle | Der Ort, an dem eine Person den gesuchten Artikel tatsächlich findet. | Der Eingang, an dem die Testperson mit ihrer Suche beginnt. | Die erste Stelle, an der eine Testperson nach dem Artikel schaut. | Die Suche beginnt am Eingang. Bei der P50 kann die neue Aktionsgondel die Fundstelle sein (M2, M3, M5). |
+| `BFSDUAL-LF06-LS07-B01` | Auffindbarkeit | Wie leicht die Kundschaft einen Artikel mithilfe der Wege und Hinweise findet. | Wie gut jemand den Inhalt der Werbung in eigenen Worten sagen kann. | Wie gut jemand die Farbe eines Schildes findet. | Weg und Fundstelle zeigen, ob die Testperson die Minipumpe P50 leicht findet (M2 und M5). |
+| `BFSDUAL-LF06-LS07-B02` | Verständlichkeit | Wie leicht die Kundschaft versteht, worum es in der Werbung geht und was sie tun kann. | Wie schnell jemand vom Eingang zum richtigen Regal kommt. | Wie viele Werbemittel ein Laden während der Aktion einsetzt. | Die Testperson sagt in eigenen Worten, was sie von der Werbung verstanden hat (M3). |
+| `BFSDUAL-LF06-LS07-B03` | Neutrale Testanleitung | Sie sagt, wo die Testperson startet und was sie tun soll. Die Person wählt den Weg selbst. | Sie zeigt der Testperson den Weg zum richtigen Regal. | Sie sagt der Testperson vor, was die Werbung bedeutet. | Die Testperson entscheidet selbst, wo sie die Pumpe zuerst sucht (M3). |
+| `BFSDUAL-LF06-LS07-B04` | Beobachtung | Etwas, das ihr im Test seht oder hört. | Eine Vermutung, warum jemand falsch abgebogen ist. | Ein Vorschlag, wie der Flächenplan aussehen soll. | Beispiel für eine Notiz aus dem Test: „Die Person zeigte auf die alte Zubehörinsel und fragte nach der P50“ (M5). |
+| `BFSDUAL-LF06-LS07-B05` | Praxistest | Eine Probe vor der Freigabe. Eine Testperson löst eine Aufgabe, wie es die Kundschaft im Laden tun würde. | Ein Gespräch, in dem das Team ohne Testpersonen über die Entwürfe entscheidet. | Eine Befragung dazu, welche Farben der Kundschaft gefallen. | In der Bike Arena liest die Testperson das Schild und sucht vom Eingang aus die Minipumpe (M2, M3). |
+| `BFSDUAL-LF06-LS07-B06` | Testprotokoll | Darin steht, wie der Test lief, was ihr beobachtet habt und welche Änderungen sich daraus ergeben. | Ein Plan, der vor dem Test den richtigen Weg zum Regal zeigt. | Eine Liste mit den Verkäufen und dem Geld, das der Laden dafür bekommen hat. | Im Testprotokoll stehen der Weg und das, was die Testperson aus der Werbung verstanden hat (M5). |
+| `BFSDUAL-LF06-LS07-B07` | Vorführmuster | Ein Artikel, an dem das Personal zeigt, wie er benutzt wird. | Ein Aufkleber, der die passende Zubehörgruppe im Laden markiert. | Ein Bild mit allen Artikeln der Aktion. | Das Personal zeigt am Beratungsplatz, wie man das Lichtset befestigt. Die Ware zum Kauf liegt am Wandregal (M1). |
+| `BFSDUAL-LF06-LS07-B08` | Werbeentwurf | Eine erste Fassung der Werbung. Das Team kann sie bis zur Freigabe prüfen und ändern. | Eine Zeichnung mit Flächen und Wegen im Laden. | Eine Liste mit Notizen zu den Testpersonen. | Der Text für das Eingangsschild ist ein Werbeentwurf. Das Team kann nach dem Test den Hinweis auf die grüne Markierung ändern (M2, M3). |
+| `BFSDUAL-LF06-LS07-B09` | Werbebotschaft | Die wichtigste Aussage, die die Kundschaft aus der Werbung mitnehmen soll. | Der Weg, den eine Testperson bei der Suche nimmt. | Der Platz für die Werbung im Laden. | Das Schild wirbt für Fahrradzubehör zum Frühjahrsstart. Die Testperson sagt in eigenen Worten, was die Werbung verspricht (M2, M3). |
+| `BFSDUAL-LF06-LS07-B10` | Fundstelle | Die Stelle, an der jemand den gesuchten Artikel findet. | Der Eingang, an dem jemand mit dem Suchen beginnt. | Der erste Ort, an dem jemand nach dem Artikel schaut. | Die Suche startet am Eingang. Die Minipumpe P50 findet ihr am Regal für die Aktion. Das ist die Aktionsgondel (M2, M3, M5). |
 
 ### Planen
 
-**Plant** im Team je Standort einen kurzen Such- und Verständnistest. Verteilt die Rollen für Anleitung und Beobachtung. Legt mit M3 und M5 fest, was ihr protokolliert.
+**Plant** für jeden Laden einen kurzen Test. Klärt im Team, wer den Test erklärt und wer beobachtet. Legt mit M3 und M5 fest, was ihr aufschreibt.
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -1609,69 +1693,82 @@ Lest die letzten beiden Sätze. Ergänzt „Beim Test soll sichtbar werden, wo _
 
 #### Lernpaket wählen
 
-**Wählt** einen der drei Arbeitswege. Achtet darauf, welcher euch bei der fachlichen Entscheidung am besten hilft. Sichert bei der Bearbeitung ein Zwischenergebnis eures Lernpakets und einen Fallbeleg für den Abschlusspitch.
+**Wählt** einen der drei Arbeitswege. Überlegt, welcher Weg euch bei der Entscheidung am besten hilft. **Haltet** beim Arbeiten ein Zwischenergebnis und einen Beleg für den Pitch fest. Ein Beleg kann zum Beispiel eine Zahl, ein Maß oder eine Kundenstimme sein.
 
-**Gemeinsames Fachziel und Handlungsprodukt.** In allen drei Paketen prüft ihr mit Testpersonen, ob sie das gesuchte Zubehör finden und die Werbung verstehen. Ihr führt dasselbe Testprotokoll (M5) für beide Läden und begründet eure Änderungen an den Entwürfen mit den Beobachtungen. In allen Paketen gelten dieselben Prüfkriterien.
+**Gemeinsames Fachziel und Handlungsprodukt.** Prüft mit Testpersonen, ob sie das Zubehör finden und die Werbung verstehen. Nutzt in jedem Lernpaket das Testprotokoll M5 für beide Läden. Begründet Änderungen am Entwurf mit euren Beobachtungen. Für alle Lernpakete gelten dieselben Prüfkriterien.
 
-| Lernpaket | Lernzugänge | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| Lernpaket | Lernzugänge | So arbeitet ihr | Euer Zwischenergebnis | Wählt dieses Paket, wenn … |
 | --- | --- | --- | --- | --- |
-| **A · Suchwege einzeichnen** | Beobachten, Wege im Plan markieren und Antworten notieren | Legt Werbung und Flächenplan aus M1 und M2 vor. Zeichnet den gezeigten Weg, Suchstopps und Richtungswechsel ein. Notiert, wie die Testperson die Werbung wiedergibt. | Markierte Suchwege für beide Läden und die dazugehörigen Antworten. Damit könnt ihr eine unklare Stelle im Weg oder in der Werbung gezielt überarbeiten. | … ihr Suchwege und mögliche Irrwege lieber im Plan nachvollzieht. |
-| **B · Beim Suchen zuhören** | Zuhören, nachfragen und Aussagen festhalten | Nutzt M1 bis M3. Lasst die Testpersonen beim Suchen laut denken. Haltet die Wegwahl und wichtige Aussagen fest und fragt am Ende nach der Werbebotschaft. | Notizen zu den Wegen und kurze Aussagen darüber, welche Hinweise die Testpersonen wahrgenommen und wie sie diese verstanden haben. | … ihr durch Zuhören herausfinden wollt, warum jemand einen Hinweis anders versteht als beabsichtigt. |
-| **C · Suchwege im Modell testen** | Mit einer Figur oder durch Bewegung im Bodenraster testen | Legt beide Flächen nach M4. Lasst die Testpersonen mit einer Figur oder im Bodenraster suchen und anschließend die Werbung wiedergeben. Markiert Stopps und Umwege im Modell. | Markierte Stellen im Modell und die Aussagen zur Werbung. Daran könnt ihr erproben, ob zum Beispiel ein versetztes Schild einen beobachteten Umweg vermeidet. | … ihr räumliche Probleme am besten beim Nachstellen und Verschieben von Elementen untersucht. |
+| **A · Suchwege einzeichnen** | Beobachten, Wege im Plan markieren und Antworten notieren | Gebt der Testperson die Werbung und den Plan aus M1 oder M2. Zeichnet ihren Weg ein. Markiert, wo sie stehen bleibt oder abbiegt. Notiert, was sie über die Werbung sagt. | Ein markierter Weg und die Antworten zur Werbung für jeden Laden. So erkennt ihr Stellen, die ihr ändern könnt. | … ihr Wege und Umwege gern auf dem Plan seht. |
+| **B · Beim Suchen zuhören** | Zuhören, nachfragen und Aussagen festhalten | Nutzt M1 bis M3. Bittet die Personen zu sagen, worauf sie beim Suchen achten. Schreibt ihre Wege und wichtigen Aussagen auf. Fragt am Ende, was die Werbung ihnen sagt. | Notizen zu den Wegen und dazu, welche Hinweise die Personen gesehen und verstanden haben. | … ihr durch Zuhören herausfinden wollt, wie andere Personen einen Hinweis verstehen. |
+| **C · Suchwege im Modell testen** | Mit einer Figur oder durch Bewegung im Bodenraster testen | Baut beide Ladenflächen nach M4. Lasst die Personen mit einer Figur oder auf dem Boden suchen. Fragt danach, was sie aus der Werbung verstanden haben. Markiert die Stellen, an denen sie gestoppt haben oder einen Umweg gegangen sind. | Markierte Stellen im Modell und die Aussagen zur Werbung. Damit könnt ihr prüfen, ob zum Beispiel ein Schild an einer anderen Stelle besser hilft. | … ihr einen Weg gern nachstellt und Schilder oder Regale im Modell verschiebt. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachliche Entscheidung
 
-**Legt** für den Test im gewählten Lernpaket fest, wann die Suche endet und wie ihr neutral begleitet und nach der Werbebotschaft fragt. Nutzt die in M3 vorgegebenen Startpunkte.
+**Legt fest**, wann ihr die Suche beendet. Nehmt den Startpunkt und die Frage zur Werbung aus M3. Überlegt, wie ihr die Aufgabe erklärt, ohne den richtigen Weg zu nennen.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
-**Testet** beide Standortentwürfe im gewählten Lernpaket mit Personen, die den jeweiligen Entwurf noch nicht kennen. **Haltet fest**, welchen Weg sie wählen, ob sie das Produkt finden und wie sie die Werbung verstehen.
+**Testet** die Entwürfe für beide Läden mit Personen, die diese Entwürfe noch nicht kennen. Nutzt euer Lernpaket. **Notiert** für jeden Test den Weg, die Fundstelle und was die Person aus der Werbung verstanden hat. Haltet auch fest, wenn sie den Artikel nicht findet.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Bewerten
 
-**Wertet** die Beobachtungen je Standort aus. **Überarbeitet** die Teile des Werbe- oder Flächenentwurfs, für die euer Test ein Problem zeigt. Belegt jede Änderung mit einer Beobachtung. Begründet ebenso, wenn ihr einen Teil nach dem Test freigebt.
+**Wertet** den Test für jeden Laden aus. **Ändert** Stellen in der Werbung oder im Plan, bei denen der Test ein Problem zeigt. Nennt zu jeder Änderung eine Beobachtung. Begründet auch, warum ihr einen Teil so freigebt, wie er ist.
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_7_URL}}). Reicht das Testprotokoll und die geprüften Entwürfe ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
+**Bewertet** eine andere Arbeit in Moodle unter [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_7_URL}}).
 
-- Dokumentiert das Protokoll für beide Standorte die Auffindbarkeit und das Verständnis der Werbung?
-- Sind die Beobachtungen so festgehalten, dass sich Verhalten und Deutung unterscheiden lassen?
-- Sind Änderungen oder Freigaben aus dem Test nachvollziehbar begründet?
+1. **Ladet euer Testprotokoll und die geprüften Entwürfe hoch.** Wählt einen Titel und einen Dateinamen ohne eure Namen. Entfernt eure Namen aus der Arbeit und aus den Dateieigenschaften.
+2. **Schaut euch die zugeteilte Arbeit an.** Moodle lost aus, welche Arbeit ihr bekommt. Ihr seht die Arbeit ohne Namen.
+3. **Gebt Rückmeldung.** Nutzt die Fragen unter dieser Aufgabe. Nennt eine Stelle, die gut gelungen ist. Schreibt, was die Person verbessern kann. Die Person sieht bei eurer Antwort euren Klarnamen.
+
+- Steht im Protokoll für jeden Laden, ob die Personen die Ware gefunden und die Werbung verstanden haben?
+- Ist klar, was die Personen getan oder gesagt haben und wie ihr das erklärt?
+- Zeigt ihr mit einer Beobachtung, warum ihr etwas ändert oder freigebt?
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Reflektieren
 
-**Notiert** zunächst einzeln, welche Beobachtung eure Entscheidung am stärksten beeinflusst hat und welche zusätzliche Frage ihr bei einem weiteren Test klären würdet. Tauscht euch anschließend kurz aus.
+**Notiert** zuerst für euch allein: Welche Beobachtung hat euch bei der Entscheidung am meisten geholfen? Welche Frage würdet ihr beim nächsten Test klären? Sprecht danach kurz darüber.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 **Abschlusspitch.**
 
-**Pitcht** euer gewähltes Lernpaket mit eurem Handlungsprodukt und den vorhandenen Unterlagen. Für die Kurzfassung im Unterricht habt ihr etwa zwei Minuten. Wenn Zeit bleibt, beantwortet anschließend eine Rückfrage.
+**Pitcht** euer Lernpaket. Ein Pitch ist eine kurze Vorstellung. Nutzt euer Handlungsprodukt und eure Unterlagen. Ihr habt für den Kurzpitch etwa zwei Minuten. Wenn noch Zeit ist, beantwortet eine Rückfrage.
 
-1. **Ergebnis zeigen.** Stellt euer Handlungsprodukt vor und nennt eure wichtigste fachliche Entscheidung.
-2. **Entscheidung belegen.** Zeigt einen konkreten Fallbeleg und erklärt, warum er eure Entscheidung stützt.
-3. **Arbeitsweg begründen.** Begründet, warum ihr dieses Lernpaket gewählt habt. Zeigt an einem Zwischenergebnis, wie der Arbeitsweg euch bei der Entscheidung geholfen hat.
+1. **Ergebnis zeigen.** Zeigt euer Handlungsprodukt. Sagt, was ihr entschieden habt.
+2. **Entscheidung belegen.** Zeigt einen Beleg aus dem Fall. Erklärt, wie er eure Entscheidung stützt.
+3. **Arbeitsweg begründen.** Sagt, warum ihr euer Lernpaket gewählt habt. Zeigt ein Zwischenergebnis. Erklärt, wie es euch bei der Entscheidung geholfen hat.
 
-**Das könnt ihr zeigen.** Zeigt eine geprüfte Stelle im Entwurf und die passende Beobachtung im Testprotokoll. Erklärt damit, welche Änderung ihr vorschlagt oder warum die Stelle bleiben kann.
+**Das könnt ihr zeigen.** Zeigt eine Stelle im Entwurf und lest dazu eine Beobachtung aus M5 vor. Erklärt, warum ihr die Stelle ändert oder freigebt.
+
+<details>
+<summary>Sprachhilfe für den Pitch</summary>
+
+- „Unser Ergebnis ist … Wir schlagen vor, dass …“
+- „Unser Beleg ist … Er zeigt, dass …“
+- „Wir haben Paket … gewählt. Beim Arbeiten hat uns … geholfen.“
+
+</details>
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_7_URL}}) aus.
+**Füllt** zum Schluss [Feedback]({{MOODLE_FEEDBACK_LS_6_7_URL}}) in Moodle aus.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
-Jan Richter erhält ein Testprotokoll und die geprüften Entwürfe für beide Standorte. Das Protokoll enthält je Standort einen Beleg zu Auffindbarkeit und Werbeverständnis. Markierte Änderungen sind aus dem Test begründet. Die Fassung für die Freigabe zeigt die Änderungen unmittelbar im Werbemittel oder im Flächenplan.
+Jan Richter bekommt das Testprotokoll und die geprüften Entwürfe für beide Läden. Zeigt im Protokoll für jeden Laden, ob die Person das Zubehör findet und wie sie die Werbung versteht. Begründet Änderungen mit dem Test. Markiert die Änderungen direkt in der Werbung oder im Plan.
 
 ### Materialien
 
@@ -1680,7 +1777,7 @@ Jan Richter erhält ein Testprotokoll und die geprüften Entwürfe für beide St
 > **Frühjahrsaktion im Fahrradfachgeschäft**  
 > Frühjahrsstart mit Fahrradzubehör von Global Bike. Das LED-Lichtset L10 zeigen wir euch in der Aktionswoche direkt am Beratungsplatz. Auch die Rahmentasche T30 könnt ihr hier am eigenen Rad ansehen. Schaut während unserer Öffnungszeiten vorbei.
 
-Schematischer Ausschnitt des Flächenplans. Die Buchstaben bezeichnen Spalten von links nach rechts, die Ziffern Zeilen vom Eingang in den Raum hinein. Bewegungsrichtungen sind über gemeinsame Kanten möglich.
+Der Plan zeigt einen Teil des Ladens. Die Buchstaben markieren die Spalten von links nach rechts. Die Zahlen zeigen die Reihen vom Eingang in den Laden hinein. Geht nur auf ein Feld, das eine Seite mit eurem Feld teilt.
 
 | Reihe | A | B | C |
 | --- | --- | --- | --- |
@@ -1688,14 +1785,14 @@ Schematischer Ausschnitt des Flächenplans. Die Buchstaben bezeichnen Spalten vo
 | 2 | Lichtset L10 und Schloss S20 am Wandregal | Freier Gang | Rahmentasche T30 und Sattelüberzug R40 |
 | 1 | Schaufenster | Eingang von der Straße | Kasse |
 
-Wortlaut der Beschilderung. Am Beratungsplatz „Beratung“, am Wandregal „Zubehör“. Das L10 in Reihe 2 ist die Ware zur Auswahl. Am Beratungsplatz zeigt das Personal ein [Vorführmuster](Glossare/LS_6_7_Glossar.md#vorf%C3%BChrmuster) bei Bedarf.
+Am Beratungsplatz steht „Beratung“, am Wandregal „Zubehör“. In Reihe 2 liegt das Lichtset L10 zum Verkauf. Am Beratungsplatz kann das Personal ein [Vorführmuster](Glossare/LS_6_7_Glossar.md#vorf%C3%BChrmuster) zeigen.
 
 #### M2 · Eingangsschild und Flächenentwurf der Bike Arena
 
 > **Startklar für die nächste Tour**  
 > Frühjahrsstart mit Fahrradzubehör von Global Bike. Die Minipumpe P50 und das Reflektorband B80 findet ihr in der Aktionswoche gleich vorn bei den Fahrrädern. Achtet auf die grüne Markierung.
 
-Schematischer Ausschnitt des Flächenplans. Die alte Zubehörinsel und die neue Aktionsgondel tragen beide eine grüne Kante. Inventar und Beschilderung sind von den Gangfeldern aus erreichbar.
+Der Plan zeigt einen Teil des Ladens. Die alte Zubehörinsel und die neue Aktionsgondel haben beide eine grüne Kante. Von den freien Feldern im Gang kommt ihr zu den Regalen und Schildern.
 
 | Reihe | A | B | C | D |
 | --- | --- | --- | --- | --- |
@@ -1705,7 +1802,7 @@ Schematischer Ausschnitt des Flächenplans. Die alte Zubehörinsel und die neue 
 
 #### M3 · Testanleitung und Vorlesefassung
 
-Der [Praxistest](Glossare/LS_6_7_Glossar.md#praxistest) beginnt bei Feld B1 im Plan des jeweiligen Standorts. Gebt jeder Testperson den zugehörigen [Werbeentwurf](Glossare/LS_6_7_Glossar.md#werbeentwurf) und den zugehörigen Plan oder das dazu passende Modell. Für die Prüfung der [Auffindbarkeit](Glossare/LS_6_7_Glossar.md#auffindbarkeit) wird bei Block das L10 gesucht und in der Bike Arena die P50.
+Beginnt den [Praxistest](Glossare/LS_6_7_Glossar.md#praxistest) in beiden Plänen auf Feld B1. Gebt der Testperson den [Werbeentwurf](Glossare/LS_6_7_Glossar.md#werbeentwurf) und den Plan oder das Modell des Ladens. Für die Prüfung der [Auffindbarkeit](Glossare/LS_6_7_Glossar.md#auffindbarkeit) sucht die Person bei Block das Lichtset L10 und in der Bike Arena die Minipumpe P50.
 
 **[Neutrale Testanleitung](Glossare/LS_6_7_Glossar.md#neutrale-testanleitung) zum Vorlesen.**
 
@@ -1713,33 +1810,33 @@ Der [Praxistest](Glossare/LS_6_7_Glossar.md#praxistest) beginnt bei Feld B1 im P
 
 Mit der letzten Frage prüft ihr die [Verständlichkeit](Glossare/LS_6_7_Glossar.md#verst%C3%A4ndlichkeit) der Werbung.
 
-Zusatz für Paket B vor dem Start: „Sag beim Suchen gern laut, worauf du achtest und was du gerade erwartest.“ Block und Bike Arena erhalten jeweils eine frische Testbeobachtung. Wartet mit der Erläuterung des Entwurfs bis zum Ende der Beobachtung.
+Zusatz für Paket B vor dem Start: „Sag beim Suchen gern laut, worauf du achtest und was du gerade erwartest.“ Testet jeden Laden mit einer Person, die den Entwurf zum ersten Mal sieht. Erklärt den Entwurf erst, wenn der Test vorbei ist.
 
 #### M4 · Material für den Modelltest
 
-Zeichnet die Raster aus M1 und M2 auf ein Blatt oder markiert sie mit Klebeband. Beschriftet je eine Karte für Eingang, Warenträger, Beratung, Kasse und gegebenenfalls Fahrradschaufläche. Legt die Warenträger und Artikel gemäß Entwurf. Verwendet eine Figur oder einen Papierpfeil, um den Weg sichtbar zu machen. Für die Überarbeitung reichen zusätzliche Schilder aus Papier und versetzbare Artikelkarten.
+Zeichnet die Felder aus M1 und M2 auf Papier oder klebt sie auf dem Boden ab. Schreibt die Namen auf Karten: Eingang, Warenträger, Beratung und Kasse. Nutzt bei Bedarf eine Karte für die Schaufläche mit den Fahrrädern. Legt Regale und Artikel so hin, wie sie im Plan stehen. Zeigt den Weg mit einer Figur oder einem Pfeil aus Papier. Für Änderungen könnt ihr Schilder aus Papier ergänzen oder Artikelkarten verschieben.
 
 #### M5 · Testprotokoll
 
 Haltet die Ergebnisse für jedes Geschäft im [Testprotokoll](Glossare/LS_6_7_Glossar.md#testprotokoll) fest.
 
-| Standort und Testperson (Kürzel) | Gewählter Weg und [Fundstelle](Glossare/LS_6_7_Glossar.md#fundstelle) | [Werbebotschaft](Glossare/LS_6_7_Glossar.md#werbebotschaft) in eigenen Worten | [Beobachtung](Glossare/LS_6_7_Glossar.md#beobachtung) zum Problem oder gelungenen Punkt | Änderung und Begründung |
+| Laden und Kürzel der Testperson | Weg und [Fundstelle](Glossare/LS_6_7_Glossar.md#fundstelle) | [Werbebotschaft](Glossare/LS_6_7_Glossar.md#werbebotschaft) in eigenen Worten | [Beobachtung](Glossare/LS_6_7_Glossar.md#beobachtung): Was hat gut geklappt? Wo gab es ein Problem? | Was ändert ihr und warum? |
 | --- | --- | --- | --- | --- |
 | Block | | | | |
 | Bike Arena | | | | |
 
 #### M6 · Fachbegriffe zu dieser Lernsituation
 
-- **Auffindbarkeit.** Wie leicht die Kundschaft das gesuchte Produkt mithilfe der Wege und Hinweise auf der Fläche findet.
-- **Verständlichkeit.** Wie klar die Kundschaft erfasst, welches Angebot und welche Handlung die Werbung vermittelt.
-- **Neutrale Testanleitung.** Eine Aufgabenbeschreibung, die Ziel und Start klärt und den Weg der Testperson offenlässt.
-- **Beobachtung.** Ein konkret wahrnehmbares Verhalten oder eine tatsächliche Äußerung aus dem Test.
-- **Praxistest.** Eine Probe vor der Freigabe, bei der eine Testperson eine typische Aufgabe aus Sicht der Kundschaft ausführt.
-- **Testprotokoll.** Eine Übersicht, die den Ablauf der Probe, das beobachtete Verhalten und die daraus abgeleiteten Änderungen festhält.
-- **Vorführmuster.** Ein Exemplar, mit dem das Personal die Anwendung eines Artikels zeigen kann.
-- **Werbeentwurf.** Eine vorbereitete Fassung eines Werbemittels, die vor der Freigabe geprüft und geändert werden kann.
-- **Werbebotschaft.** Die zentrale Aussage, die eine Werbung der Kundschaft vermitteln soll.
-- **Fundstelle.** Der Ort, an dem eine Person den gesuchten Artikel tatsächlich findet.
+- **Auffindbarkeit.** Wie leicht die Kundschaft einen Artikel mithilfe der Wege und Hinweise findet.
+- **Verständlichkeit.** Wie leicht die Kundschaft versteht, worum es in der Werbung geht und was sie tun kann.
+- **Neutrale Testanleitung.** Sie sagt, wo die Testperson startet und was sie tun soll. Die Person wählt den Weg selbst.
+- **Beobachtung.** Etwas, das ihr im Test seht oder hört.
+- **Praxistest.** Eine Probe vor der Freigabe. Eine Testperson löst eine Aufgabe, wie es die Kundschaft im Laden tun würde.
+- **Testprotokoll.** Darin steht, wie der Test lief, was ihr beobachtet habt und welche Änderungen sich daraus ergeben.
+- **Vorführmuster.** Ein Artikel, an dem das Personal zeigt, wie er benutzt wird.
+- **Werbeentwurf.** Eine erste Fassung der Werbung. Das Team kann sie bis zur Freigabe prüfen und ändern.
+- **Werbebotschaft.** Die wichtigste Aussage, die die Kundschaft aus der Werbung mitnehmen soll.
+- **Fundstelle.** Die Stelle, an der jemand den gesuchten Artikel findet.
 
 ## LS 6.8 · Über die Fortführung der Aktion entscheiden
 
@@ -1749,59 +1846,59 @@ Haltet die Ergebnisse für jedes Geschäft im [Testprotokoll](Glossare/LS_6_7_Gl
 
 #### Warum wir das lernen
 
-Wenn ihr bei einer Aktion eine Pumpe kauft, kann der Laden den Verkauf zählen. Ob ihr sie schnell gefunden habt oder euch beim Vergleich eine Angabe gefehlt hat, erfährt der Laden durch eure Rückmeldung. Für Global Bike wertet ihr beides bei Block und in der Bike Arena aus. So könnt ihr begründen, ob die Aktion ihr Ziel erreicht hat und was die Läden beim nächsten Mal beibehalten oder ändern sollten.
+Der Laden zählt, wie viele Pumpen verkauft wurden. Eure Rückmeldung zeigt, ob ihr die passende Pumpe leicht gefunden habt. Für Global Bike vergleicht ihr die Verkaufszahlen und Rückmeldungen von Block und der Bike Arena. So prüft ihr das Ziel der Aktion und empfehlt, was die Läden beim nächsten Mal ändern oder beibehalten sollten.
 
 #### Kompetenzprofil und Kompetenznetz
 
 **Vorrangige Fachkompetenz · 6 von 6**
 
-Ich vergleiche Absatzdaten und Kundenrückmeldungen beider Standorte, beurteile die Zielerreichung und begründe Änderungen für Sortiment, Platzierung und Werbung.
+Ich vergleiche die Absatzzahlen und die Kundenrückmeldungen der beiden Läden. Ich prüfe, ob sie das Ziel erreicht haben. Ich begründe, was die Läden bei Sortiment, Platzierung und Werbung ändern oder beibehalten sollten.
 
-| Kompetenz | Angesteuert (1–6) | Das übe ich in dieser LS | Woran zeigt sich der Schwerpunkt? |
+| Kompetenz | Wie stark? (1–6) | Das übe ich in dieser LS | Woran merkt ihr das? |
 | --- | ---: | --- | --- |
-| Personalkompetenz | **4** | Ich mache klar, wie sicher meine Empfehlung durch die Daten gestützt wird. | Die Reichweite der eigenen Schlussfolgerung nachvollziehbar machen. |
-| Sozialkompetenz | **3** | Ich gehe auf unterschiedliche Anliegen der Handelspartner ein und begründe eine gemeinsame Entscheidung. | Anliegen beider Handelspartner berücksichtigen. |
-| Methodenkompetenz | **5** | Ich vergleiche Absatzmengen mit der jeweiligen Referenzwoche und prüfe das Ergebnis am Zielwert. | Absatzzahlen und Kundenstimmen zur begründeten Bewertung verknüpfen. |
-| Medienkompetenz | **3** | Ich bereite wichtige Zahlen und Kundenbelege für eine nachvollziehbare Entscheidung auf. | Zahlen und Rückmeldungen adressatengerecht aufbereiten. |
+| Personalkompetenz | **4** | Ich erkläre, was die Daten über meine Empfehlung aussagen und was offen bleibt. | Zeigen, wie gut die Angaben zur Empfehlung passen. |
+| Sozialkompetenz | **3** | Ich beachte, was beiden Läden wichtig ist. Ich begründe eine gemeinsame Entscheidung. | Auf die Wünsche der beiden Läden eingehen. |
+| Methodenkompetenz | **5** | Ich vergleiche die Absatzmengen mit der Vergleichswoche. Ich prüfe, ob das Ergebnis zum Zielwert passt. | Zahlen und Rückmeldungen als Belege für eine Entscheidung nutzen. |
+| Medienkompetenz | **3** | Ich stelle wichtige Zahlen und Rückmeldungen übersichtlich zusammen. | Die Gründe für die Entscheidung so zeigen, dass die Läden sie verstehen. |
 
 ### Handlungssituation
 
 **Unterrichtsfall.** Die Betriebe sind real. Die Global-Bike-Aktion und die dazugehörigen Daten sind für den Unterricht erstellt.
 
-Die Global-Bike-Frühjahrsaktion in Aurich und Leer ist vorbei. Beim Außendienst liegen zwei Nachrichten. Die Bike Arena Oltmanns in Leer möchte den nächsten Termin sichern. Auch die Ladenleitung bei Block in Aurich würde die Fläche erneut reservieren. Sie bittet vor einer Zusage um Änderungen. Beide Handelspartner möchten bis Freitag eine Antwort.
+Die Frühjahrsaktion von Global Bike ist vorbei. Zwei Läden haben dem Außendienst geschrieben. Die Bike Arena Oltmanns in Leer möchte den nächsten Termin festlegen. Block in Aurich hält die Fläche gern wieder frei. Vor der Zusage möchte die Ladenleitung aber etwas ändern. Beide Läden erwarten bis Freitag eine Antwort.
 
-„Wenn wir jetzt zögern, geben sie die Flächen vielleicht anderweitig frei“, sagt Sebastian Wolf aus dem Außendienst. Er möchte die Aktion beiden Läden gleich erneut anbieten. Christian Klein aus der Absatzlogistik legt den Aktionsbericht zwischen die beiden Anfragen. „Wir hatten für jeden Laden mindestens 20 Prozent mehr verkaufte Stücke als in der Vergleichswoche vereinbart. Prüfen wir erst, ob das je Standort gelungen ist und welche Änderungen die Kundenrückmeldungen für die nächste Aktion nahelegen.“
+Sebastian Wolf aus dem Außendienst möchte beiden Läden schnell zusagen. „Wenn wir länger warten, nutzen die Läden ihre Flächen vielleicht für etwas anderes.“ Christian Klein aus der Absatzlogistik legt den Aktionsbericht auf den Tisch. „Das Ziel war für jeden Laden gleich: mindestens 20 Prozent mehr verkaufte Stücke als in der Vergleichswoche. Prüfen wir zuerst, ob beide Läden das Ziel erreicht haben. Die Rückmeldungen der Kundschaft zeigen, was wir beim nächsten Mal ändern können.“
 
-Jan Richter braucht von euch bis Freitag eine Empfehlung für jeden Laden. Haltet fest, wie die Aktion gemessen am vereinbarten Ziel ausgefallen ist und was Global Bike beim nächsten Mal bei Sortiment, Platzierung und Werbung beibehalten oder ändern sollte. Für eine spätere Runde möchte er außerdem prüfen, ob die Aktion zum Zweiradladen Aurich passen könnte.
+Jan Richter braucht bis Freitag eure Empfehlung für jeden Laden. Prüft, ob die Läden das Ziel erreicht haben. Sagt, was Global Bike beim nächsten Mal an Sortiment, Platzierung und Werbung ändern oder beibehalten sollte. Später möchte Jan auch prüfen, ob die Aktion zum Zweiradladen Aurich passt.
 
 #### Kurz prüfen · Handlungssituation
 
 **Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
 
-**1. Was wünschen sich die zwei Händler und bis wann erwarten sie eine Antwort?**
+**1. Was wünschen sich die beiden Läden? Bis wann wollen sie eine Antwort?**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest die beiden Nachrichten im ersten Absatz. Achtet darauf, was die Ladenleitung vor einer Zusage anspricht und welche Frist für beide gilt.
+Lest die beiden Nachrichten am Anfang der Szene. Beginnt mit „Die Bike Arena möchte … Block möchte … Beide wollen bis … eine Antwort.“
 
 </details>
 
-**2. Warum möchte Sebastian die Aktion sofort erneut anbieten?**
+**2. Warum will Sebastian den Läden schnell zusagen?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht Sebastians Aussage im zweiten Absatz. Ergänzt „Wenn Global Bike zu lange wartet, könnte …“.
+Lest, warum Sebastian schnell antworten möchte. Ergänzt den Satz „Wenn Global Bike zu lange wartet, könnten die Läden …“
 
 </details>
 
-**3. Welches vereinbarte Ziel nennt Christian und was will er zusätzlich heranziehen?**
+**3. Welches Ziel nennt Christian? Was will er zusätzlich prüfen?**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest Christians Aussage. Achtet auf Zahl, Vergleichszeitraum und weitere Hinweise neben den Verkaufszahlen.
+Lest, welches Ziel Christian nennt. Achtet auf die Zahl in Prozent und darauf, mit welcher Woche er vergleicht. Sucht dann, was er außer den Zahlen braucht.
 
 </details>
 
@@ -1810,40 +1907,40 @@ Lest Christians Aussage. Achtet auf Zahl, Vergleichszeitraum und weitere Hinweis
 <details>
 <summary>Hilfe</summary>
 
-Lest den letzten Satz. Beginnt mit „Für beide Läden empfehlen wir, bei ___, ___ und ___ etwas beizubehalten oder zu ändern.“
+Lest im letzten Absatz den Satz, der mit „Sagt“ beginnt. Ergänzt den Satz „Wir empfehlen für jeden Laden, bei ___, ___ und ___ etwas zu ändern oder beizubehalten.“
 
 </details>
 
 ### Informieren
 
-**Fachlicher Einstieg.** Nach der Aktion vergleicht ihr die verkauften Stückzahlen jedes Geschäfts mit seiner eigenen Vergleichswoche und prüft das Ergebnis am gemeinsamen Ziel in M1. Nutzt die Kundenstimmen aus M3, um Änderungen an Sortiment, Platzierung oder Werbung zu begründen. Die Absatzzahlen zeigen die Veränderung während der Aktion und lassen offen, welchen Anteil die Werbung daran hatte.
+**Fachlicher Einstieg.** Vergleicht für jeden Laden die verkaufte Stückzahl in der Aktionswoche mit der Stückzahl in seiner Vergleichswoche. Prüft das Ergebnis am Ziel aus M1. Nutzt die Rückmeldungen aus M3, um Änderungen an Sortiment, Platzierung oder Werbung zu begründen. Die Zahlen zeigen, wie sich der Absatz verändert hat. Wie viel davon auf die Werbung zurückgeht, bleibt offen.
 
-**Erschließt** das Aktionsziel, die eingesetzten Maßnahmen und die Absatzdaten in M1 und M2. **Ordnet** die Rückmeldungen aus M3 dem richtigen Standort sowie Sortiment, Platzierung oder Werbung zu.
+**Lest** in M1 das Ziel und die Maßnahmen der Aktion. **Sucht** in M2 die Absatzzahlen für beide Läden und Wochen. **Ordnet** jede Rückmeldung aus M3 dem richtigen Laden und einem Bereich zu: Sortiment, Platzierung oder Werbung.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
-**Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+**Lest** die Erklärungen zu den zehn Fachbegriffen in M6. **Wählt** danach im Fachbegriffscheck für jeden Begriff die passende Erklärung. Die Antworten stehen in gemischter Reihenfolge. Nach jeder Antwort bekommt ihr eine kurze Rückmeldung zum Fall.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
-| `BFSDUAL-LF06-LS08-B01` | Absatzmenge | Die in einem festgelegten Zeitraum verkaufte Stückzahl eines Artikels oder Sortiments. | Der in Euro ausgedrückte Erlös aus den Verkäufen. | Die Zahl der Kundenanfragen zu einem Artikel. | In der Aktionswoche wurden in der Bike Arena 22 Minipumpen P50 verkauft (M2). |
-| `BFSDUAL-LF06-LS08-B02` | Vergleichswoche | Ein geeigneter früherer Zeitraum, dessen Daten als Ausgangswert dienen. | Die Woche, für die das Team bereits die Folgeaktion plant. | Die Aktionswoche des Ladens mit der größeren Verkaufsfläche. | Beide Wochen im Bericht umfassen fünf reguläre Öffnungstage. Der Bezugswert kommt jeweils aus demselben Laden (M1 und M2). |
-| `BFSDUAL-LF06-LS08-B03` | Zielerreichung | Das Ergebnis der Prüfung, ob der tatsächlich gemessene Wert den vorab festgelegten Zielwert erfüllt. | Der Unterschied zwischen den gesamten Absatzmengen der beiden Läden. | Die Zahl positiver Kundenrückmeldungen in der Aktionswoche. | Das Ziel beträgt mindestens 20 Prozent Zuwachs je Standort. Block erreicht 15 Prozent, die Bike Arena 25 Prozent (M1, M2 und M5). |
-| `BFSDUAL-LF06-LS08-B04` | Begründete Empfehlung | Ein konkreter Vorschlag, der sich nachvollziehbar auf Zahlen oder Fallbelege stützt. | Ein allgemeiner Wunsch nach mehr Absatz beim nächsten Mal. | Eine Liste von Verkaufszahlen ohne Folgerung für die nächste Aktion. | Eine Empfehlung zur Beschilderung kann sich auf die Rückmeldung zur fehlenden Angabe bei den Rahmentaschen stützen (M3). |
-| `BFSDUAL-LF06-LS08-B05` | Kundenrückmeldung | Eine Aussage der Kundschaft dazu, wie sie das Angebot, die Warenpräsentation oder die Werbung wahrgenommen hat. | Eine Kennzahl, die die Kasse für jeden verkauften Artikel erfasst. | Eine Vorgabe, mit der Global Bike vor dem Start sein Absatzziel festlegt. | Eine Kundin oder ein Kunde berichtet, dass beim Vergleich der Rahmentaschen eine Angabe zur Rahmengröße fehlte (M3). |
-| `BFSDUAL-LF06-LS08-B06` | Prozentuale Absatzveränderung | Die Veränderung der verkauften Stückzahl im Verhältnis zum Ausgangswert, ausgedrückt in Prozent. | Sie gibt an, wie viele Stück in der Aktionswoche zusätzlich verkauft wurden. | Sie gibt an, wie viel Prozent aller verkauften Artikel ein Standort verkauft hat. | Die Bike Arena verkauft 15 Stück mehr als in seiner Vergleichswoche. Bezogen auf 60 Stück ergibt das 25 % Zuwachs (M2, M5). |
-| `BFSDUAL-LF06-LS08-B07` | Aktionssortiment | Die Gesamtheit der Artikel, die zu der befristeten Verkaufsaktion gehören. | Sämtliche Waren, die ein Laden dauerhaft anbietet. | Ausschließlich die Artikel, die in beiden Geschäften angeboten werden. | Zum Aktionssortiment bei Block gehören die vier gemeinsamen Artikel und der Sattelüberzug (M1). |
-| `BFSDUAL-LF06-LS08-B08` | Kernsortiment | Die zentralen Waren eines Angebots, die Kundinnen und Kunden dort erwarten. Bei der gemeinsamen Aktion sind das die vier Artikel, die beide Läden anbieten. | Die Artikel, die ausschließlich einer der beiden Läden zur Aktion anbietet. | Die Artikel, die nach der Aktion die meisten Kundenrückmeldungen erhalten haben. | Die Minipumpe P50 gehört zum Kernsortiment und erscheint deshalb in beiden Standortspalten (M1). |
-| `BFSDUAL-LF06-LS08-B09` | Lokale Sortimentsergänzung | Ein zusätzlicher Artikel neben dem gemeinsamen Kern, der einen Bedarf an einem bestimmten Standort aufgreift. | Ein Artikel, der in beiden Geschäften verpflichtend verkauft wird. | Ein Artikel aus dem regulären Angebot, der außerhalb der Aktion verkauft wird. | Der Sattelüberzug R40 ergänzt das gemeinsame Angebot bei Block (M1). |
-| `BFSDUAL-LF06-LS08-B10` | Platzierung | Die Entscheidung, wo und wie Artikel auf der Verkaufsfläche angeboten werden. | Die Entscheidung, in welcher Woche beide Partner ihr Zubehör bewerben. | Die Entscheidung, welche Artikel zum gemeinsamen Sortiment gehören. | Die beiden Aktionsgondeln in der Bike Arena und die Warenträger bei Block zeigen unterschiedliche Platzierungen (M1). |
+| `BFSDUAL-LF06-LS08-B01` | Absatzmenge | Die Zahl der verkauften Stücke in einem bestimmten Zeitraum. Sie kann einen Artikel oder eine Gruppe von Artikeln betreffen. | Das Geld in Euro, das der Laden durch die Verkäufe einnimmt. | Die Zahl der Anfragen zu einem Artikel. | Die Bike Arena hat in der Aktionswoche 22 Minipumpen P50 verkauft (M2). |
+| `BFSDUAL-LF06-LS08-B02` | Vergleichswoche | Eine frühere Woche, deren Verkaufszahlen ihr mit der Aktionswoche vergleicht. | Die Woche, für die das Team die nächste Aktion plant. | Die Aktionswoche des Ladens mit der größeren Fläche. | Vergleicht die Werte für jeden Laden mit seiner eigenen früheren Woche. Die Läden waren in beiden Wochen jeweils fünf Tage geöffnet (M1, M2). |
+| `BFSDUAL-LF06-LS08-B03` | Zielerreichung | Sie zeigt, ob das erreichte Ergebnis das festgelegte Ziel erfüllt. | Der Unterschied zwischen den gesamten Verkaufszahlen der beiden Läden. | Die Zahl der guten Rückmeldungen zur Aktion. | Das Ziel sind mindestens 20 Prozent mehr Stück je Laden. Block schafft 15 Prozent mehr, die Bike Arena 25 Prozent (M1, M2, M5). |
+| `BFSDUAL-LF06-LS08-B04` | Begründete Empfehlung | Ein konkreter Vorschlag mit einem Beleg aus den Zahlen oder dem Fall. | Ein allgemeiner Wunsch nach mehr Verkäufen beim nächsten Mal. | Eine Liste mit Verkaufszahlen ohne Vorschlag für die nächste Aktion. | Wollt ihr eine neue Angabe zur Rahmentasche auf ein Schild schreiben? Dann könnt ihr als Beleg die passende Kundenrückmeldung nutzen (M3). |
+| `BFSDUAL-LF06-LS08-B05` | Kundenrückmeldung | Was jemand aus der Kundschaft über das Angebot, die Präsentation im Laden oder die Werbung sagt. | Eine Zahl, die die Kasse für jeden Verkauf erfasst. | Eine Vorgabe, mit der Global Bike vor der Aktion das Verkaufsziel festlegt. | Eine Person sagt, beim Vergleich der Rahmentaschen fehlte eine Angabe zur Rahmengröße (M3). |
+| `BFSDUAL-LF06-LS08-B06` | Prozentuale Absatzveränderung | Um wie viel Prozent ein Laden mehr oder weniger verkauft hat. Als Basis dienen die Stückzahlen der Vergleichswoche. | Die Zahl der Stücke, die ein Laden während der Aktion zusätzlich verkauft hat. | Der Anteil eines Standorts an allen verkauften Artikeln, angegeben in Prozent. | Die Bike Arena verkauft 15 Stück mehr als in ihrer Vergleichswoche. Bezogen auf die 60 Stück von vorher sind das 25 % mehr (M2, M5). |
+| `BFSDUAL-LF06-LS08-B07` | Aktionssortiment | Alle Artikel, die während der Verkaufsaktion dazugehören. | Alle Waren, die ein Laden dauerhaft verkauft. | Nur die Artikel, die es in beiden Läden gibt. | Zum Aktionssortiment bei Block gehören die vier gemeinsamen Artikel und der Sattelüberzug (M1). |
+| `BFSDUAL-LF06-LS08-B08` | Kernsortiment | Die wichtigsten Waren, die die Kundschaft im Angebot erwartet. In dieser Aktion sind es vier Artikel, die beide Läden anbieten. | Die Artikel, die nur einer der beiden Läden während der Aktion verkauft. | Die Artikel mit den meisten Rückmeldungen nach der Aktion. | Die Minipumpe P50 gehört zum Kernsortiment. Sie steht bei beiden Läden in der Tabelle (M1). |
+| `BFSDUAL-LF06-LS08-B09` | Lokale Sortimentsergänzung | Ein zusätzlicher Artikel neben dem gemeinsamen Kernsortiment. Er passt zum Bedarf in einem der Läden. | Ein Artikel, den beide Läden verkaufen müssen. | Ein Artikel aus dem normalen Angebot außerhalb der Aktion. | Block bietet zusätzlich den Sattelüberzug R40 an (M1). |
+| `BFSDUAL-LF06-LS08-B10` | Platzierung | Sie legt fest, wo und wie der Laden die Artikel auf der Verkaufsfläche zeigt. | Sie legt fest, in welcher Woche die Läden für das Zubehör werben. | Sie legt fest, welche Artikel zum gemeinsamen Sortiment gehören. | Die Bike Arena zeigt das Zubehör an zwei Aktionsgondeln. Block zeigt es an Warenträgern und führt es am Beratungsplatz vor (M1). |
 
 ### Planen
 
-**Plant** einen Vergleich, der für beide Geschäfte dieselben Fragen beantwortet. Legt fest, wo ihr die Zielerreichung, die wichtigsten Produktdaten und passende Rückmeldungen festhaltet.
+**Plant** den Vergleich. Nutzt für beide Läden dieselben Fragen. Legt fest, wo ihr die wichtigsten Zahlen, die Rückmeldungen und das Ergebnis zur Zielerreichung eintragt.
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -1851,75 +1948,88 @@ Lest den letzten Satz. Beginnt mit „Für beide Läden empfehlen wir, bei ___, 
 
 #### Lernpaket wählen
 
-**Wählt** einen der drei Arbeitswege. Achtet darauf, welcher euch bei der fachlichen Entscheidung am besten hilft. Sichert bei der Bearbeitung ein Zwischenergebnis eures Lernpakets und einen Fallbeleg für den Abschlusspitch.
+**Wählt** einen der drei Arbeitswege. Überlegt, welcher Weg euch bei der Entscheidung am besten hilft. **Haltet** beim Arbeiten ein Zwischenergebnis und einen Beleg für den Pitch fest. Ein Beleg kann zum Beispiel eine Zahl, ein Maß oder eine Kundenstimme sein.
 
-**Gemeinsames Fachziel und Handlungsprodukt.** In allen drei Paketen berechnet ihr die Absatzveränderung für beide Standorte, vergleicht sie mit dem Aktionsziel und wertet Kundenrückmeldungen aus. Daraus leitet ihr begründete Empfehlungen zu Sortiment, Platzierung und Werbung ab. Ihr sichert dieselbe Entscheidungsvorlage (M5) nach denselben Kriterien.
+**Gemeinsames Fachziel und Handlungsprodukt.** Berechnet in jedem Lernpaket die Absatzveränderung für beide Läden. Vergleicht sie mit dem Ziel. Nutzt die Zahlen und die Kundenrückmeldungen, um Vorschläge zu Sortiment, Platzierung und Werbung zu begründen. Füllt für beide Läden dieselbe Entscheidungsvorlage M5 aus. Für alle Lernpakete gelten dieselben Kriterien.
 
-| Lernpaket | Lernzugänge | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| Lernpaket | Lernzugänge | So arbeitet ihr | Euer Zwischenergebnis | Wählt dieses Paket, wenn … |
 | --- | --- | --- | --- | --- |
-| **A · Absatz und Rückmeldungen gegenüberstellen** | Zahlen grafisch vergleichen und Rückmeldungen zuordnen | Stellt Vergleichs- und Aktionsabsatz je Laden als Balken dar oder markiert sie in M2. Verknüpft die berechnete Veränderung und auffällige Artikeldaten mit Maßnahmen aus M1 und Kundenstimmen aus M3. | Eine Übersicht für beide Standorte, in der ihr die Zielerreichung und die Belege zu euren Vorschlägen wiederfindet. | … ihr Unterschiede und Zusammenhänge leichter erkennt, wenn Zahlen und Rückmeldungen nebeneinanderstehen. |
-| **B · Das Abschlussgespräch erproben** | Zuhören, im Gespräch begründen und Rückfragen beantworten | Hört oder lest die Stimmen aus M3 mit verteilten Rollen. Vergleicht sie im Gespräch mit den Zahlen aus M2 und dem Ziel aus M1. Sprecht eure Empfehlungen für Jan Richter probeweise aus und beantwortet Rückfragen mit Belegen. | Schriftlich gesicherte Vorschläge mit dem zugehörigen Zahlenbeleg oder der passenden Kundenstimme. Ihr merkt beim Erklären, wo eine Begründung noch fehlt. | … ihr prüfen wollt, ob eure Empfehlung auch in einem Gespräch mit Rückfragen trägt. |
-| **C · Empfehlungen mit Karten abwägen** | Zahlen und Kundenstimmen mit Karten zuordnen und Vorschläge abwägen | Legt die Zahlen- und Rückmeldungskarten nach M4 zu den beiden Standorten und drei Entscheidungsbereichen. Ordnet auch die berechnete Veränderung dem Ziel zu. Verschiebt Vorschlagskarten zu „beibehalten“ oder „ändern“ und legt die Belege dazu. | Eine geordnete Auswahl aus sechs Vorschlägen mit Belegen. Ihr übertragt sie mit dem Ergebnis der Zielprüfung in M5. | … ihr mehrere Vorschläge abwägen möchtet, indem ihr Karten zuordnet, austauscht und erneut prüft. |
+| **A · Absatz und Rückmeldungen gegenüberstellen** | Zahlen grafisch vergleichen und Rückmeldungen zuordnen | Zeichnet für jeden Laden die Zahlen aus beiden Wochen als Balken oder markiert sie in M2. Sucht in M1 und M3 Maßnahmen und Rückmeldungen, die zu eurer Rechnung oder zu auffälligen Zahlen passen. | Eine Übersicht für beide Läden. Dort seht ihr, ob das Ziel erreicht ist und welche Belege zu euren Vorschlägen passen. | … ihr Zahlen und Kundenstimmen gern nebeneinander anschaut. |
+| **B · Das Abschlussgespräch erproben** | Zuhören, im Gespräch begründen und Rückfragen beantworten | Verteilt die Rollen. Hört oder lest die Stimmen in M3. Besprecht, welche Rückmeldungen zu den Zahlen in M2 und zum Ziel in M1 passen. Stellt eure Vorschläge für Jan Richter zur Probe vor. Beantwortet Fragen mit einem Beleg. | Vorschläge mit Zahl oder Kundenstimme im Heft oder auf dem Blatt. Im Gespräch merkt ihr, wo noch eine Begründung fehlt. | … ihr eure Empfehlung lieber im Gespräch erklärt und Fragen beantwortet. |
+| **C · Empfehlungen mit Karten abwägen** | Zahlen und Kundenstimmen mit Karten zuordnen und Vorschläge abwägen | Legt mit M4 je eine Gruppe von Karten für jeden Laden. Ordnet Zahlen und Rückmeldungen Sortiment, Platzierung oder Werbung zu. Legt die Karte mit eurer Rechnung zum Zielwert. Legt jeden Vorschlag zu „beibehalten“ oder „ändern“. Legt den passenden Beleg daneben. | Sechs Vorschläge mit Belegen. Schreibt sie und das Ergebnis der Zielprüfung in M5. | … ihr Vorschläge und Belege gern auf Karten legt, verschiebt und neu prüft. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
 #### Fachliche Entscheidung
 
-**Berechnet** je Standort die Veränderung gegenüber der Vergleichswoche. Beurteilt mit dem gewählten Lernpaket, ob das vereinbarte Ziel erreicht wurde, und wählt passende Belege für eure Empfehlungen aus.
+**Berechnet** für jeden Laden die Absatzveränderung im Vergleich zur früheren Woche. Nutzt euer Lernpaket. **Prüft**, ob der Laden das Ziel erreicht hat. **Wählt** passende Belege zu euren Vorschlägen.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
-**Erstellt** eine kurze Empfehlung für Global Bike und beide Handelspartner. Haltet für Sortiment, Platzierung und Werbung fest, was ihr pro Standort beibehalten oder ändern würdet. Nutzt M5.
+**Schreibt** eine kurze Empfehlung für Global Bike und beide Läden. Nutzt M5. **Haltet** für jeden Laden fest, was ihr beim Sortiment, bei der Platzierung und bei der Werbung so lassen oder ändern würdet.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Bewerten
 
-**Prüft**, ob Ausgangswerte, Veränderung und Zielerreichung nachvollziehbar sind. **Schärft** eine Empfehlung, wenn die Begründung unklar ist oder Zahlen und Rückmeldungen unterschiedliche Hinweise geben.
+**Prüft**, ob die Stückzahlen, die Rechnung und euer Urteil zum Ziel verständlich sind. **Verbessert** eure Begründung, wenn sie unklar ist oder Zahlen und Rückmeldungen auf verschiedene Lösungen hinweisen.
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_8_URL}}). Reicht die Empfehlung für beide Handelspartner ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
+**Bewertet** eine andere Arbeit in Moodle unter [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_8_URL}}).
 
-- Sind die Absatzveränderung und die Zielerreichung für beide Standorte korrekt?
-- Enthält die Empfehlung konkrete Vorschläge zu Sortiment, Platzierung und Werbung?
-- Stützen Zahlen und Kundenrückmeldungen die Empfehlung nachvollziehbar?
+1. **Ladet eure Empfehlung für beide Läden hoch.** Wählt einen Titel und einen Dateinamen ohne eure Namen. Entfernt eure Namen aus der Arbeit und aus den Dateieigenschaften.
+2. **Schaut euch die zugeteilte Arbeit an.** Moodle lost aus, welche Arbeit ihr bekommt. Ihr seht die Arbeit ohne Namen.
+3. **Gebt Rückmeldung.** Nutzt die Fragen unter dieser Aufgabe. Nennt eine Stelle, die gut gelungen ist. Schreibt, was die Person verbessern kann. Die Person sieht bei eurer Antwort euren Klarnamen.
+
+- Stimmt für beide Läden die Rechnung und das Urteil zum Ziel?
+- Gibt es konkrete Vorschläge zu Sortiment, Platzierung und Werbung?
+- Zeigt ihr mit Zahlen und Kundenstimmen, warum eure Empfehlung passt?
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Reflektieren
 
-**Überlegt** einzeln, welche Information für eure Empfehlung ausschlaggebend war. Der Zweiradladen Aurich verbindet laut seiner Website Fahrradfachhandel und Reparaturwerkstatt. Er veröffentlicht Verkaufszeiten von Dienstag bis Freitag. **Nennt** eine Angabe zu Nachfrage, Fläche oder Beratung, die ihr für eine Empfehlung an diesen weiteren Standort brauchen würdet. [Zweiradladen Aurich](https://zweiradladen-aurich.de/kontakt/)
+**Überlegt** für euch allein: Welche Information war für eure Empfehlung am wichtigsten? Der Zweiradladen Aurich verkauft Fahrräder und hat eine Werkstatt. Laut Website ist der Verkauf von Dienstag bis Freitag geöffnet. **Nennt** eine Information, die ihr für eine Empfehlung an diesen Laden braucht. Denkt an die Nachfrage, die Fläche oder die Beratung. [Zweiradladen Aurich](https://zweiradladen-aurich.de/kontakt/)
 
 **Fachbuchverweis.** [Später ergänzen]
 
 **Abschlusspitch.**
 
-**Pitcht** euer gewähltes Lernpaket mit eurem Handlungsprodukt und den vorhandenen Unterlagen. Für die Kurzfassung im Unterricht habt ihr etwa zwei Minuten. Wenn Zeit bleibt, beantwortet anschließend eine Rückfrage.
+**Pitcht** euer Lernpaket. Ein Pitch ist eine kurze Vorstellung. Nutzt euer Handlungsprodukt und eure Unterlagen. Ihr habt für den Kurzpitch etwa zwei Minuten. Wenn noch Zeit ist, beantwortet eine Rückfrage.
 
-1. **Ergebnis zeigen.** Stellt euer Handlungsprodukt vor und nennt eure wichtigste fachliche Entscheidung.
-2. **Entscheidung belegen.** Zeigt einen konkreten Fallbeleg und erklärt, warum er eure Entscheidung stützt.
-3. **Arbeitsweg begründen.** Begründet, warum ihr dieses Lernpaket gewählt habt. Zeigt an einem Zwischenergebnis, wie der Arbeitsweg euch bei der Entscheidung geholfen hat.
+1. **Ergebnis zeigen.** Zeigt euer Handlungsprodukt. Sagt, was ihr entschieden habt.
+2. **Entscheidung belegen.** Zeigt einen Beleg aus dem Fall. Erklärt, wie er eure Entscheidung stützt.
+3. **Arbeitsweg begründen.** Sagt, warum ihr euer Lernpaket gewählt habt. Zeigt ein Zwischenergebnis. Erklärt, wie es euch bei der Entscheidung geholfen hat.
 
-**Das könnt ihr zeigen.** Zeigt in eurer Entscheidungsvorlage, wie sich der Absatz an einem Standort verändert hat. Verbindet die Zahl und eine Kundenrückmeldung mit einer konkreten Empfehlung für die nächste Aktion.
+**Das könnt ihr zeigen.** Zeigt in M5, wie sich der Absatz bei einem Laden verändert hat. Erklärt mit der Zahl und einer Kundenrückmeldung, was der Laden bei der nächsten Aktion tun sollte.
+
+<details>
+<summary>Sprachhilfe für den Pitch</summary>
+
+- „Unser Ergebnis ist … Wir schlagen vor, dass …“
+- „Unser Beleg ist … Er zeigt, dass …“
+- „Wir haben Paket … gewählt. Beim Arbeiten hat uns … geholfen.“
+
+</details>
 
 **Fachbuchverweis.** [Später ergänzen]
 
-**Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_8_URL}}) aus.
+**Füllt** zum Schluss [Feedback]({{MOODLE_FEEDBACK_LS_6_8_URL}}) in Moodle aus.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
-Eine Entscheidungsvorlage für beide Standorte mit korrektem Absatzvergleich, Urteil zur Zielerreichung und begründeten Empfehlungen für Sortiment, Platzierung und Werbung. Zahlen stammen aus M2 und Kundenbelege aus M3. Bei widersprüchlichen Signalen macht das Team nachvollziehbar, welcher Beleg seine Empfehlung trägt.
+Füllt die Entscheidungsvorlage für beide Läden aus. Vergleicht die Absatzzahlen, prüft das Ziel und begründet Vorschläge für Sortiment, Platzierung und Werbung. Die Zahlen findet ihr in M2 und die Kundenstimmen in M3. Wenn sie auf verschiedene Lösungen hinweisen, erklärt, welcher Beleg euch für die Empfehlung am meisten überzeugt und warum.
 
 ### Materialien
 
 #### M1 · Aktionsbericht von Global Bike
 
-Vergleichs- und Aktionswoche umfassen je fünf reguläre Öffnungstage. Das Ziel lautet **mindestens 20 % mehr verkaufte Stücke im jeweiligen [Aktionssortiment](Glossare/LS_6_8_Glossar.md#aktionssortiment) je Standort** gegenüber der [Vergleichswoche](Glossare/LS_6_8_Glossar.md#vergleichswoche). In beiden Wochen waren alle aufgeführten Artikel lieferbar. Die Angaben bilden einen simulierten Fall ab.
+Die Läden waren in der Vergleichswoche und in der Aktionswoche jeweils fünf Tage geöffnet. Das Ziel gilt für jeden Laden: **Mindestens 20 % mehr Stück aus dem [Aktionssortiment](Glossare/LS_6_8_Glossar.md#aktionssortiment) verkaufen** als in der [Vergleichswoche](Glossare/LS_6_8_Glossar.md#vergleichswoche). Beide Male waren alle Artikel aus der Liste lieferbar. Die Angaben sind für den Unterricht erstellt.
 
 | Merkmal | 2-Rad Center Block, Aurich | Bike Arena Oltmanns, Leer |
 | --- | --- | --- |
@@ -1944,7 +2054,7 @@ Die Tabelle zeigt die [Absatzmenge](Glossare/LS_6_8_Glossar.md#absatzmenge) pro 
 
 #### M3 · Stimmen der beiden Geschäfte und Vorlesefassung
 
-Die vier Kundenstimmen je Geschäft sind ausgewählte [Kundenrückmeldungen](Glossare/LS_6_8_Glossar.md#kundenr%C3%BCckmeldung). Die beiden folgenden Abschnitte können für Paket B direkt vorgelesen werden.
+Hier stehen vier [Kundenrückmeldungen](Glossare/LS_6_8_Glossar.md#kundenr%C3%BCckmeldung) pro Laden. Für Paket B könnt ihr die beiden Abschnitte vorlesen.
 
 > **Block.** „Im Newsletter stand, dass ich das Licht am Rad sehen kann. Deshalb bin ich gekommen.“ · „Das Schloss war griffbereit. Ich konnte es am Rahmen ausprobieren.“ · „Ich habe kurz im Durchgang gewartet, weil am Beratungsplatz gerade ein zweites Fahrrad stand.“ · „Den Sattelüberzug habe ich erst gesehen, als ich an der Kasse stand.“ Die Ladenleitung ergänzt: „Den Newsletter würde ich wieder einsetzen. Für die Beratung am Samstag wünsche ich mir einen besser nutzbaren Platz.“
 
@@ -1952,7 +2062,7 @@ Die vier Kundenstimmen je Geschäft sind ausgewählte [Kundenrückmeldungen](Glo
 
 #### M4 · Karten für die Entscheidungstafel
 
-Schreibt die Werte aus M2 je Standort und Artikel auf eine Karte. Schreibt für jede Rückmeldung aus M3 eine weitere Karte. Legt auf dem Tisch je Standort die Überschriften „Sortiment“, „Platzierung“ und „Werbung“ aus. Verwendet sechs leere Vorschlagskarten mit je einem Feld für „beibehalten“ oder „ändern“ und einem Feld für den tragenden Beleg.
+Schreibt für jeden Laden und Artikel seine Zahlen aus M2 auf eine Karte. Schreibt jede Rückmeldung aus M3 auf eine weitere Karte. Legt für jeden Laden drei Überschriften auf den Tisch: „Sortiment“, „Platzierung“ und „Werbung“. Legt sechs leere Karten für Vorschläge bereit. Lasst auf jeder Karte Platz für „beibehalten“ oder „ändern“ und für einen Beleg.
 
 #### M5 · Vorlage für die Abschlussentscheidung
 
@@ -1964,7 +2074,9 @@ Schreibt die Werte aus M2 je Standort und Artikel auf eine Karte. Schreibt für 
 **Rechenhilfe**  
 [Prozentuale Absatzveränderung](Glossare/LS_6_8_Glossar.md#prozentuale-absatzver%C3%A4nderung) = (Aktionsabsatz − Vergleichsabsatz) ÷ Vergleichsabsatz × 100.
 
-Haltet je Standort und Bereich eine [begründete Empfehlung](Glossare/LS_6_8_Glossar.md#begr%C3%BCndete-empfehlung) fest.
+Zieht die Stückzahl der Vergleichswoche von der Stückzahl der Aktionswoche ab. Teilt das Ergebnis durch die Stückzahl der Vergleichswoche. Multipliziert das Ergebnis mit 100.
+
+Schreibt in jedes Feld eine [begründete Empfehlung](Glossare/LS_6_8_Glossar.md#begr%C3%BCndete-empfehlung) für den Laden und den Bereich.
 
 | Standort | Entscheidung zum Sortiment | Entscheidung zur Platzierung | Entscheidung zur Werbung |
 | --- | --- | --- | --- |
@@ -1973,13 +2085,13 @@ Haltet je Standort und Bereich eine [begründete Empfehlung](Glossare/LS_6_8_Glo
 
 #### M6 · Fachbegriffe zu dieser Lernsituation
 
-- **Absatzmenge.** Die in einem festgelegten Zeitraum verkaufte Stückzahl eines Artikels oder Sortiments.
-- **Vergleichswoche.** Ein geeigneter früherer Zeitraum, dessen Daten als Ausgangswert dienen.
-- **Zielerreichung.** Das Ergebnis der Prüfung, ob der tatsächlich gemessene Wert den vorab festgelegten Zielwert erfüllt.
-- **Begründete Empfehlung.** Ein konkreter Vorschlag, der sich nachvollziehbar auf Zahlen oder Fallbelege stützt.
-- **Kundenrückmeldung.** Eine Aussage der Kundschaft dazu, wie sie das Angebot, die Warenpräsentation oder die Werbung wahrgenommen hat.
-- **Prozentuale Absatzveränderung.** Die Veränderung der verkauften Stückzahl im Verhältnis zum Ausgangswert, ausgedrückt in Prozent.
-- **Aktionssortiment.** Die Gesamtheit der Artikel, die zu der befristeten Verkaufsaktion gehören.
-- **Kernsortiment.** Die zentralen Waren eines Angebots, die Kundinnen und Kunden dort erwarten. Bei der gemeinsamen Aktion sind das die vier Artikel, die beide Läden anbieten.
-- **Lokale Sortimentsergänzung.** Ein zusätzlicher Artikel neben dem gemeinsamen Kern, der einen Bedarf an einem bestimmten Standort aufgreift.
-- **Platzierung.** Die Entscheidung, wo und wie Artikel auf der Verkaufsfläche angeboten werden.
+- **Absatzmenge.** Die Zahl der verkauften Stücke in einem bestimmten Zeitraum. Sie kann einen Artikel oder eine Gruppe von Artikeln betreffen.
+- **Vergleichswoche.** Eine frühere Woche, deren Verkaufszahlen ihr mit der Aktionswoche vergleicht.
+- **Zielerreichung.** Sie zeigt, ob das erreichte Ergebnis das festgelegte Ziel erfüllt.
+- **Begründete Empfehlung.** Ein konkreter Vorschlag mit einem Beleg aus den Zahlen oder dem Fall.
+- **Kundenrückmeldung.** Was jemand aus der Kundschaft über das Angebot, die Präsentation im Laden oder die Werbung sagt.
+- **Prozentuale Absatzveränderung.** Um wie viel Prozent ein Laden mehr oder weniger verkauft hat. Als Basis dienen die Stückzahlen der Vergleichswoche.
+- **Aktionssortiment.** Alle Artikel, die während der Verkaufsaktion dazugehören.
+- **Kernsortiment.** Die wichtigsten Waren, die die Kundschaft im Angebot erwartet. In dieser Aktion sind es vier Artikel, die beide Läden anbieten.
+- **Lokale Sortimentsergänzung.** Ein zusätzlicher Artikel neben dem gemeinsamen Kernsortiment. Er passt zum Bedarf in einem der Läden.
+- **Platzierung.** Sie legt fest, wo und wie der Laden die Artikel auf der Verkaufsfläche zeigt.

@@ -4,62 +4,62 @@ Hier könnt ihr Begriffe aus **Werbemittel für beide Standorte gestalten** nach
 
 ## Aussagencheck
 
-Ein Abgleich, bei dem ihr eine Werbeaussage mit ihrer Quelle vergleicht und sie danach freigebt, präzisiert oder streicht.
+Ihr vergleicht eine Werbeaussage mit ihrer Quelle. Dann gebt ihr die Aussage frei, schreibt sie genauer oder streicht sie.
 
-**Beispiel.** Der Entwurf nennt bei der P50 eine Druckanzeige. Laut Produktblatt hat sie kein Manometer. Daher wird die Aussage gestrichen (M2, M3, M5).
+**Beispiel.** Der Entwurf verspricht eine Druckanzeige für die P50. Laut Produktblatt hat sie kein Manometer. Deshalb streicht ihr die Aussage (M2, M3, M5).
 
 ## Belegbare Produktaussage
 
-Eine Aussage zu Eigenschaften, Eignung oder Ausstattung eines Artikels, die mit einer überprüften Produktinformation übereinstimmt.
+Eine Aussage darüber, was ein Artikel kann, wofür er geeignet ist oder was dazugehört. Die Aussage stimmt mit einer geprüften Produktangabe überein.
 
-**Beispiel.** Die Angabe „Höchstdruck 6 bar“ zur P50 steht im Produktblatt und lässt sich prüfen (M2).
+**Beispiel.** Im Produktblatt der P50 steht „Höchstdruck 6 bar“. Damit könnt ihr diese Aussage belegen (M2).
 
 ## Betreffzeile
 
-Die Zeile einer E-Mail, die im Posteingang ankündigt, worum es in der Nachricht geht.
+Die Zeile einer E-Mail, die im Posteingang zeigt, worum es in der Nachricht geht.
 
-**Beispiel.** Der Newsletter für Block erhält eine Betreffzeile, die die Frühjahrsaktion ankündigen kann (M1).
+**Beispiel.** Block kann die Frühjahrsaktion in der Betreffzeile des Newsletters ankündigen (M1).
 
 ## Blickfang
 
-Ein auffälliges Element eines Werbemittels, etwa eine Überschrift oder ein Bild, das zuerst Aufmerksamkeit weckt.
+Etwas in der Werbung, das zuerst auffällt, zum Beispiel eine Überschrift oder ein Bild.
 
-**Beispiel.** Die gut sichtbare Überschrift kann am Eingang der Bike Arena auf die Aktion aufmerksam machen (M1, M5).
+**Beispiel.** Eine gut sichtbare Überschrift am Eingang der Bike Arena soll auf die Aktion aufmerksam machen (M1, M5).
 
 ## Handlungsaufforderung
 
-Ein Hinweis an die Kundschaft, welcher konkrete nächste Schritt möglich oder gewünscht ist.
+Ein Hinweis darauf, was Kundinnen und Kunden als Nächstes tun können oder sollen.
 
-**Beispiel.** „Kommt zur Beratung zu Block“ nennt den Leserinnen und Lesern einen konkreten nächsten Schritt (M1).
+**Beispiel.** „Kommt zur Beratung zu Block“ sagt den Menschen, was sie als Nächstes tun können (M1).
 
 ## Lieferumfang
 
-Die Teile, die beim Kauf eines Artikels tatsächlich mitgeliefert werden.
+Alles, was beim Kauf eines Artikels mitgeliefert wird.
 
-**Beispiel.** Zum L10 gehören ein Ladekabel und Halterungen. Das Netzteil ist nicht enthalten (M2).
+**Beispiel.** Zum L10 gehören ein Ladekabel und Halterungen. Ein Netzteil gehört nicht dazu (M2).
 
 ## Produktblatt
 
-Eine Unterlage mit überprüften Angaben zu einem bestimmten Artikel.
+Ein Blatt mit geprüften Angaben zu einem Artikel.
 
-**Beispiel.** Das Produktblatt der P50 nennt die passenden Ventile und den Höchstdruck. Diese Angaben können die Werbung stützen (M2).
+**Beispiel.** Im Produktblatt der P50 stehen die passenden Ventile und der Höchstdruck. Diese Angaben kann die Werbung nutzen (M2).
 
 ## Werbebotschaft
 
-Der Kerngedanke, den die Zielgruppe aus der Werbung mitnehmen soll.
+Die wichtigste Aussage, die der Kundschaft von der Werbung im Kopf bleiben soll.
 
-**Beispiel.** Newsletter und Eingangsschild werben beide für den Frühjahrsstart mit Fahrradzubehör (M1).
+**Beispiel.** Beide Werbemittel teilen dieselbe Botschaft zum Frühjahrsstart mit Fahrradzubehör von Global Bike (M1).
 
 ## Werbemittel
 
-Die konkret gestaltete Form, in der eine Werbebotschaft vermittelt wird, etwa ein Newsletter-Ausschnitt oder ein Schild.
+Die gestaltete Werbung, etwa der Newsletter-Ausschnitt oder das Schild. Sie macht die Werbebotschaft sichtbar oder hörbar.
 
-**Beispiel.** Der fertige Newsletter-Ausschnitt ist das Werbemittel für das Fahrradfachgeschäft (M1).
+**Beispiel.** Der fertige Newsletter-Ausschnitt ist das Werbemittel für Block (M1).
 
 ## Zielgruppe
 
-Die Menschen, die ein Werbemittel erreichen soll und auf deren Bedürfnisse und Interessen es abgestimmt ist.
+Die Menschen, die eine Werbung erreichen soll. Die Werbung passt zu dem, was sie interessiert oder brauchen.
 
-**Beispiel.** Der Newsletter richtet sich an Alltagsradelnde, die Zubehör am eigenen Fahrrad ausprobieren möchten (M1, M4).
+**Beispiel.** Der Newsletter richtet sich an Menschen, die im Alltag Rad fahren und Zubehör am eigenen Rad ausprobieren möchten (M1, M4).
 
 [Zurück zur Übersicht von LF 06](../BFSdual_LF06_Vorlagenset.md)
