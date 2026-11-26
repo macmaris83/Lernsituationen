@@ -60,8 +60,43 @@ Beide Geschäfte haben die gleiche Aktionswoche vorgemerkt. Um 10 Uhr sitzen ihr
 
 #### Kurz prüfen · Handlungssituation
 
-1. Welche Entscheidung muss Jana vor dem gemeinsamen Gespräch vorbereiten?
-2. Welche Unterschiede zwischen den Läden könnten das Angebot oder seine Präsentation beeinflussen?
+Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+
+**1. Was möchte das Fahrradfachgeschäft seiner Kundschaft bei der Frühjahrsaktion zeigen?**
+
+<details>
+<summary>Hilfe</summary>
+
+Lest den Satz direkt nach Janas erster Nachricht. Achtet darauf, wofür die Kundschaft das Zubehör braucht.
+
+</details>
+
+**2. Was erfährt Jana über die Fläche, die Kundschaft und die Beratung im Sportfachmarkt?**
+
+<details>
+<summary>Hilfe</summary>
+
+Sucht im ersten Absatz die drei Angaben nach dem Anruf vom Stadtrand.
+
+</details>
+
+**3. Was haben die beiden Geschäfte bereits gemeinsam vorgemerkt?**
+
+<details>
+<summary>Hilfe</summary>
+
+Beginnt beim ersten Satz des zweiten Absatzes.
+
+</details>
+
+**4. Was möchte Jana den beiden Geschäften beim Treffen erklären können?**
+
+<details>
+<summary>Hilfe</summary>
+
+Nutzt Janas Satz in Anführungszeichen. Beginnt mit „Jana möchte erklären, welche …“.
+
+</details>
 
 ### Informieren
 
@@ -243,8 +278,43 @@ Das Fahrradfachgeschäft möchte wenig Ware auf der kleinen Fläche unterbringen
 
 #### Kurz prüfen · Handlungssituation
 
-1. Was muss Jana für beide Geschäfte gemeinsam entscheiden?
-2. Welche Informationen braucht sie, bevor sie einen Artikel freigeben kann?
+Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+
+**1. Welche Nachricht aus dem Lager kommt, als Jana die Artikellisten übernehmen will?**
+
+<details>
+<summary>Hilfe</summary>
+
+Schaut ans Ende des ersten Absatzes. Sucht nach dem Artikel und dem Zeitpunkt, ab dem er lieferbar ist.
+
+</details>
+
+**2. Für welche Fahrten wird in den beiden Geschäften jeweils Zubehör gesucht?**
+
+<details>
+<summary>Hilfe</summary>
+
+Vergleicht die ersten beiden Sätze im zweiten Absatz. Beginnt mit „Im Fachgeschäft geht es häufig um …, im Sportfachmarkt um …“.
+
+</details>
+
+**3. Welche drei Unterlagen schickt Jana an den Vertrieb?**
+
+<details>
+<summary>Hilfe</summary>
+
+Sucht im zweiten Absatz den Satz, in dem Jana etwas verschickt.
+
+</details>
+
+**4. Worauf warten die beiden Geschäfte und bis wann erwarten sie es?**
+
+<details>
+<summary>Hilfe</summary>
+
+Lest den letzten Satz der Szene. Achtet auf die Sache, auf die sie warten, und auf die Zeitangabe.
+
+</details>
 
 ### Informieren
 
@@ -448,8 +518,43 @@ Eine Kundin schiebt ihr Fahrrad herein und fragt nach einer Lampe für ihren Len
 
 #### Kurz prüfen · Handlungssituation
 
-1. Warum braucht das Fachgeschäft neben der Warenpräsentation Platz zum Vorführen?
-2. Was könnte beim Aufbau schiefgehen, wenn nur die Stellfläche für Regale betrachtet wird?
+Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+
+**1. Welche Möbel hat das Fachgeschäft für die Frühjahrsaktion reserviert?**
+
+<details>
+<summary>Hilfe</summary>
+
+Sucht im ersten Absatz die Gegenstände, die der Laden für die Aktion bereithält. Achtet auch auf ihre Anzahl.
+
+</details>
+
+**2. Was möchte die Kundin wissen, als sie ihr Fahrrad in den Laden schiebt?**
+
+<details>
+<summary>Hilfe</summary>
+
+Lest den Anfang des zweiten Absatzes. Beginnt mit „Die Kundin fragt nach …“.
+
+</details>
+
+**3. Warum halten die Kundin und der Kunde mit ihren Fahrrädern an?**
+
+<details>
+<summary>Hilfe</summary>
+
+Geht die Begegnung Satz für Satz durch. Achtet auf die Wege der beteiligten Personen.
+
+</details>
+
+**4. Was will die Inhaberin am Samstag auch dann noch können, wenn jemand Zubehör vorführt?**
+
+<details>
+<summary>Hilfe</summary>
+
+Lest den letzten Satz der Inhaberin. Ergänzt „Während dort etwas gezeigt wird, möchte sie …“.
+
+</details>
 
 ### Informieren
 
@@ -633,8 +738,43 @@ Der Abteilungsleiter sieht auf die Uhr. „Genau dafür brauchen wir morgen eine
 
 #### Kurz prüfen · Handlungssituation
 
-1. Woran scheitert die selbstständige Auswahl der Pumpe in der Szene?
-2. Welche beiden Anforderungen stellt der Abteilungsleiter an die Fläche für den Samstag?
+Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+
+**1. Was möchte der Sohn über die Pumpen herausfinden?**
+
+<details>
+<summary>Hilfe</summary>
+
+Sucht im ersten Absatz die Stelle, an der der Sohn seinen Vater etwas fragt.
+
+</details>
+
+**2. Wo sucht der Vater nach der Information und was macht er anschließend mit den Pumpen?**
+
+<details>
+<summary>Hilfe</summary>
+
+Lest die beiden Sätze ab „Sein Vater sucht“. Nennt den Ort und die Handlung danach.
+
+</details>
+
+**3. Bis wann braucht der Abteilungsleiter einen Aufbauplan?**
+
+<details>
+<summary>Hilfe</summary>
+
+Sucht die Zeitangabe im ersten Satz des Abteilungsleiters.
+
+</details>
+
+**4. Was soll für die nächste Familie möglich sein, wenn andere Personen die Angaben an der Ware vergleichen?**
+
+<details>
+<summary>Hilfe</summary>
+
+Sucht den Satz des Abteilungsleiters, der mit „Wenn jemand hier stehen bleibt“ beginnt.
+
+</details>
 
 ### Informieren
 
@@ -826,8 +966,43 @@ Am Mittwoch vor der Aktion legt Jana, die Vertriebsleiterin von Global Bike, den
 
 #### Kurz prüfen · Handlungssituation
 
-- Worüber sind sich die Partner bereits einig?
-- Was muss vor dem frühesten Freigabetermin entschieden sein?
+Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+
+**1. Was wollen Global Bike und die beiden Geschäfte im Frühjahr gemeinsam bewerben?**
+
+<details>
+<summary>Hilfe</summary>
+
+Lest die ersten beiden Sätze. Beginnt mit „Gemeinsam wollen sie …“.
+
+</details>
+
+**2. Welcher Entwurf braucht laut Jana noch am selben Tag eine Freigabe?**
+
+<details>
+<summary>Hilfe</summary>
+
+Vergleicht die beiden Termine in Janas Aussage. Achtet auf „morgen“ und „heute“.
+
+</details>
+
+**3. Was muss feststehen, bevor Jana den nächsten Entwurf herausschickt?**
+
+<details>
+<summary>Hilfe</summary>
+
+Sucht in Janas erster Aussage die Wörter „erst … wenn“.
+
+</details>
+
+**4. Was möchte das Fachgeschäft zählen und womit rechnet der Sportfachmarkt?**
+
+<details>
+<summary>Hilfe</summary>
+
+Schaut ans Ende der Szene. Ergänzt getrennt „Das Fachgeschäft …“ und „Der Sportfachmarkt …“.
+
+</details>
 
 ### Informieren
 
@@ -1006,8 +1181,43 @@ Jana öffnet kurz vor der internen Freigabe zwei Rohentwürfe. „Schaut hier. I
 
 #### Kurz prüfen · Handlungssituation
 
-- Was soll die Kundschaft in beiden Medien als dieselbe Aktion erkennen?
-- Welche Aussagen aus den Rohentwürfen brauchen eine Prüfung anhand der Produktblätter?
+Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+
+**1. Wen spricht das Fahrradfachgeschäft mit seinem Newsletter an und wer soll den Aufsteller im Sportfachmarkt sehen?**
+
+<details>
+<summary>Hilfe</summary>
+
+Sucht im ersten Absatz zu jedem Geschäft die Personen, die dort genannt werden.
+
+</details>
+
+**2. Was steht im Entwurf des Newsletters darüber, an welche Fahrräder das Licht passt?**
+
+<details>
+<summary>Hilfe</summary>
+
+Lest in Janas Aussage den Satz, der mit „Im Newsletter“ beginnt.
+
+</details>
+
+**3. Woher stammt das Foto der Minipumpe im Schildentwurf?**
+
+<details>
+<summary>Hilfe</summary>
+
+Sucht im zweiten Absatz den Satz, der mit „Das Foto“ beginnt.
+
+</details>
+
+**4. Was muss Jana noch an diesem Tag fertig zur Freigabe haben?**
+
+<details>
+<summary>Hilfe</summary>
+
+Sucht in Janas letzter Aussage die Stelle mit „heute“ und achtet auf die Anzahl.
+
+</details>
 
 ### Informieren
 
@@ -1184,8 +1394,43 @@ Beim Blick auf den Plan des Sportfachmarkts fragt ein Kollege: „Welchen Eingan
 
 #### Kurz prüfen · Handlungssituation
 
-1. Welche zwei Arten von Entwürfen liegen für jedes Geschäft vor?
-2. Welche zwei Dinge möchte Jana vor der Freigabe klären?
+Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+
+**1. Welche zwei Arten von Unterlagen liegen für die Frühjahrsaktion vor Jana?**
+
+<details>
+<summary>Hilfe</summary>
+
+Im ersten Satz der Szene findet ihr zwei Dinge, die jeweils in doppelter Ausführung vorliegen.
+
+</details>
+
+**2. Bis wann lässt sich das Eingangsschild noch ändern?**
+
+<details>
+<summary>Hilfe</summary>
+
+Sucht im ersten Absatz den Satz zur letzten Änderungsmöglichkeit.
+
+</details>
+
+**3. Was ist dem Kollegen unklar, als er auf den Plan des Sportfachmarkts schaut?**
+
+<details>
+<summary>Hilfe</summary>
+
+Lest die kurze Frage am Anfang des zweiten Absatzes.
+
+</details>
+
+**4. Warum schiebt Jana die Freigabe nach der Frage des Kollegen auf?**
+
+<details>
+<summary>Hilfe</summary>
+
+Lest, was Jana über Personen sagt, die Werbung und Fläche zum ersten Mal sehen. Ergänzt „Jana möchte erst testen, weil …“.
+
+</details>
 
 ### Informieren
 
@@ -1370,8 +1615,43 @@ Jana stellt euch den Aktionsbericht mit vergleichbaren Absatzdaten, Kundenrückm
 
 #### Kurz prüfen · Handlungssituation
 
-1. Welche Entscheidung steht bis Freitag an?
-2. Welche Unterlagen hat Jana für die Entscheidung bereitgelegt?
+Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+
+**1. Was möchte der Sportfachmarkt laut Betreff seiner Nachricht?**
+
+<details>
+<summary>Hilfe</summary>
+
+Schaut im ersten Absatz auf die Wörter in Anführungszeichen.
+
+</details>
+
+**2. Was möchte die Inhaberin des Fahrradfachgeschäfts erneut tun?**
+
+<details>
+<summary>Hilfe</summary>
+
+Der Satz über die Inhaberin steht direkt nach der zweiten Anfrage. Sucht das Verb zu „erneut“.
+
+</details>
+
+**3. Welche drei Arten von Informationen stehen im Aktionsbericht?**
+
+<details>
+<summary>Hilfe</summary>
+
+Lest den ersten Satz des zweiten Absatzes. Die Aufzählung beginnt direkt hinter „mit“.
+
+</details>
+
+**4. Was muss Jana den beiden Geschäften am Freitag erklären können?**
+
+<details>
+<summary>Hilfe</summary>
+
+Achtet in Janas letztem Satz auf „welche“ und „warum“.
+
+</details>
 
 ### Informieren
 

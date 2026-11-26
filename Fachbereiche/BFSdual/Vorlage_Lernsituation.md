@@ -46,8 +46,43 @@ Die Skala von **1 bis 6** zeigt, wie stark die verbindlichen Aufgaben einer LS j
 
 ### Kurz prüfen · Handlungssituation
 
-1. Welche Aufgabe oder Entscheidung steht im Fall an?
-2. Welche Vorgabe oder Schwierigkeit muss dabei berücksichtigt werden?
+Direkt auf die Handlungssituation folgen **drei bis sechs kurze Fragen oder Aufgaben zum Leseverständnis**. Die Antworten ergeben sich aus dem Falltext. Jede Frage hat eine aufklappbare Hilfe, etwa einen Suchhinweis, eine Lesestrategie oder einen Satzanfang. Die Lernenden formulieren die Antwort selbst. Das folgende Muster mit vier Fragen wird an den jeweiligen Fall angepasst.
+
+**1. Wer ist beteiligt und welche Rolle hat die Person im Fall?**
+
+<details>
+<summary>Hilfe</summary>
+
+Sucht im Einstieg den Namen der Person und die Stelle, an der ihre Aufgabe oder Funktion genannt wird.
+
+</details>
+
+**2. Was ist der Anlass für den Auftrag?**
+
+<details>
+<summary>Hilfe</summary>
+
+Achtet auf das Ereignis oder die Nachricht, nach der die Beteiligten handeln müssen. Beginnt mit „Der Auftrag entsteht, weil …“.
+
+</details>
+
+**3. Welche konkrete Vorgabe muss das Team berücksichtigen?**
+
+<details>
+<summary>Hilfe</summary>
+
+Sucht im Text nach einer Frist, einer Begrenzung oder einer verbindlichen Bedingung. Nennt die Vorgabe mit dem Detail aus der Szene.
+
+</details>
+
+**4. Was soll das Team in dieser Situation entscheiden oder vorbereiten?**
+
+<details>
+<summary>Hilfe</summary>
+
+Lest die letzte Bitte oder Aussage der Ansprechperson erneut. Ergänzt „Das Team soll …, damit …“.
+
+</details>
 
 ## Informieren
 
