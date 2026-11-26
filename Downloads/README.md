@@ -61,6 +61,14 @@ Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-K
 | Geschichte | Vom Mythos zum Krieg · Russland | 1.8.14 | [ZIP](GESCHICHTE-J1914-Russland/Julikrise_1914_Russland_v1.8.14_SCORM12.zip) |
 | Geschichte | Identität und Nation | 1.8.15 | [ZIP](GESCHICHTE-IDN/Identitaet_und_Nation_v1.8.15_SCORM12.zip) |
 | Vorlagen | LS-Master im BRC-Design | 1.8.13 | [ZIP](LS-MASTER/LS_Master_BRC_v1.8.13_SCORM12.zip) |
+| BFS Dual · LF06 | LS 6.1 · Die Nachfrage an zwei Standorten vergleichen | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF06-LS6_1/BFSdual_LF06_Lernpfad_LS6_1_v1.1_SCORM12.zip) |
+| BFS Dual · LF06 | LS 6.2 · Ein gemeinsames Sortiment mit lokalen Ergänzungen zusammenstellen | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF06-LS6_2/BFSdual_LF06_Lernpfad_LS6_2_v1.1_SCORM12.zip) |
+| BFS Dual · LF06 | LS 6.3 · Waren im Fahrradfachgeschäft präsentieren | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF06-LS6_3/BFSdual_LF06_Lernpfad_LS6_3_v1.1_SCORM12.zip) |
+| BFS Dual · LF06 | LS 6.4 · Waren auf einer Selbstbedienungsfläche präsentieren | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF06-LS6_4/BFSdual_LF06_Lernpfad_LS6_4_v1.1_SCORM12.zip) |
+| BFS Dual · LF06 | LS 6.5 · Eine gemeinsame Werbeaktion abstimmen | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF06-LS6_5/BFSdual_LF06_Lernpfad_LS6_5_v1.1_SCORM12.zip) |
+| BFS Dual · LF06 | LS 6.6 · Werbemittel für beide Standorte gestalten | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF06-LS6_6/BFSdual_LF06_Lernpfad_LS6_6_v1.1_SCORM12.zip) |
+| BFS Dual · LF06 | LS 6.7 · Die Entwürfe vor der Freigabe prüfen | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF06-LS6_7/BFSdual_LF06_Lernpfad_LS6_7_v1.1_SCORM12.zip) |
+| BFS Dual · LF06 | LS 6.8 · Über die Fortführung der Aktion entscheiden | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF06-LS6_8/BFSdual_LF06_Lernpfad_LS6_8_v1.1_SCORM12.zip) |
 
 Maschinenlesbare Zuordnung und Prüfsummen: [aktuell.json](aktuell.json).
 Vor einer automatischen Nutzung: `python tools/master.py check --archives`.

@@ -706,6 +706,102 @@
       "masterSha256": "f439eaf208cffe79a91b6b9cdd89a2ecf54f51a75b3d4205f053ed79a8280716",
       "archiveSha256": "ec38809dbdcc44d2e362ada02cb2c9f4312205bf62a156d807bce2a07898112d",
       "files": 85
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF06-LS6_1",
+      "title": "LS 6.1 · Die Nachfrage an zwei Standorten vergleichen",
+      "bereich": "BFS Dual · LF06",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF06/LS6_1",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF06-LS6_1/BFSdual_LF06_Lernpfad_LS6_1_v1.1_SCORM12.zip",
+      "masterSha256": "2ed6936f9442f96a416b1eeb07de95571e9ee50ca56b40eaee5d25be6d820c23",
+      "archiveSha256": "47342de8b9d9a9c6a8daca03469cf15f45f131279a5c91304c17e4ba2f021f9f",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF06-LS6_2",
+      "title": "LS 6.2 · Ein gemeinsames Sortiment mit lokalen Ergänzungen zusammenstellen",
+      "bereich": "BFS Dual · LF06",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF06/LS6_2",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF06-LS6_2/BFSdual_LF06_Lernpfad_LS6_2_v1.1_SCORM12.zip",
+      "masterSha256": "fee430127faa3e7f9c0e66e12b95ee788e0f6828c3d5ebae8513710c80fce3e6",
+      "archiveSha256": "e1a910bf5c3f0419434d6ccc9b70103273154ab1b0b4883cb92c28cc49b19561",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF06-LS6_3",
+      "title": "LS 6.3 · Waren im Fahrradfachgeschäft präsentieren",
+      "bereich": "BFS Dual · LF06",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF06/LS6_3",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF06-LS6_3/BFSdual_LF06_Lernpfad_LS6_3_v1.1_SCORM12.zip",
+      "masterSha256": "bedab745d611883fd91901d3dfb4602bff4af0c31fc1596f457804bec4c04a35",
+      "archiveSha256": "a0696dce510ba98129b9151df138f47afa0062546efc87e46f3036de50ac71b9",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF06-LS6_4",
+      "title": "LS 6.4 · Waren auf einer Selbstbedienungsfläche präsentieren",
+      "bereich": "BFS Dual · LF06",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF06/LS6_4",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF06-LS6_4/BFSdual_LF06_Lernpfad_LS6_4_v1.1_SCORM12.zip",
+      "masterSha256": "2f12f2b3caf478f9816100a99474a50d58dac444cfc8df7640ad7856422b7f8d",
+      "archiveSha256": "99b7264f7a56491375869b116a8a89c17167a84303e13cf51769ac32fa2f21f8",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF06-LS6_5",
+      "title": "LS 6.5 · Eine gemeinsame Werbeaktion abstimmen",
+      "bereich": "BFS Dual · LF06",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF06/LS6_5",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF06-LS6_5/BFSdual_LF06_Lernpfad_LS6_5_v1.1_SCORM12.zip",
+      "masterSha256": "9f8b644c770546300af1ae666308d84d517390c718cbd4ed645fbe97967d4831",
+      "archiveSha256": "12adfed41f63d78e883ca5b245f55f62a7688ad86d4cd90ab424df0598b6f09f",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF06-LS6_6",
+      "title": "LS 6.6 · Werbemittel für beide Standorte gestalten",
+      "bereich": "BFS Dual · LF06",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF06/LS6_6",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF06-LS6_6/BFSdual_LF06_Lernpfad_LS6_6_v1.1_SCORM12.zip",
+      "masterSha256": "476e79b3fabd793451b9142b4026e11626fbd91527a799ddbded83ac4f9a3ae5",
+      "archiveSha256": "03132f890ef1edc3c4037e663994b8472adb8b5adc7ed08f3e27cbbe4d26baf1",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF06-LS6_7",
+      "title": "LS 6.7 · Die Entwürfe vor der Freigabe prüfen",
+      "bereich": "BFS Dual · LF06",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF06/LS6_7",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF06-LS6_7/BFSdual_LF06_Lernpfad_LS6_7_v1.1_SCORM12.zip",
+      "masterSha256": "463148dc9a3bca4f83c72bea177a6760ca4343ee2620c69ae33b3db37a68f6dc",
+      "archiveSha256": "31e8dc97ab997f61aa88b90f151891638d005c25ca21caaf26d24380eff3626b",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF06-LS6_8",
+      "title": "LS 6.8 · Über die Fortführung der Aktion entscheiden",
+      "bereich": "BFS Dual · LF06",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF06/LS6_8",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF06-LS6_8/BFSdual_LF06_Lernpfad_LS6_8_v1.1_SCORM12.zip",
+      "masterSha256": "4e4e4c877c95c5ab0fe41ff17c273bc6be591fcf1e3db230746be27c4f71ddf6",
+      "archiveSha256": "e80ba22bffe3528546a005fbe92d3b4fd7354cff1f325faeaa356ef5bcb12da7",
+      "files": 18
     }
   ]
 }

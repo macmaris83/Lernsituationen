@@ -1,0 +1,8 @@
+# Prüfung · Lernpfadübung LS 6.7
+
+Ausgangsform: SozPäd-Lernpfadübung. Quelle: Fachbereiche/BFSdual/LF06/LS_6_7_Entwuerfe_testen.md.
+Fachliche Inhaltsprüfung und Paketprüfung anhand der LF06-Unterlagen.
+Browserprüfung mit Chromium und simulierter SCORM-1.2-Schnittstelle: Mehrfachauswahl, Teilpunkte, Hilfen, Festigung, Transferkette, Kompetenzziele, Fortsetzung und neuer Versuch.
+Lehrkrafteditor mit PIN, Validierung und ZIP-Export sowie Tablet- und Smartphone-Ansichten geprüft.
+Je 24 Reserveaufgaben zur Orientierung und zur Anwendung, zwei Varianten pro Kernaufgabe. Erste und zweite Festigungsrunde, Wiederholung, freiwilliges Üben, Erhalt der Bestleistung und Fortsetzen geprüft.
+Der Test erfolgte außerhalb der Moodle-Installation der Schule.
