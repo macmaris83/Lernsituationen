@@ -24,10 +24,6 @@ Jede LS enthält den vollständigen Projektstand für ihre Szene, eigene Materia
 | 6.8 | Über die Fortführung der Aktion entscheiden | Begründete Empfehlung für beide Standorte | 6 |
 | | **Gesamt** | | **60** |
 
-## Fachliche Grundlage zu LF 06
-
-M7 erklärt die fachlichen Zusammenhänge am Global-Bike-Fall und bezieht sich auf die jeweilige Fachkompetenz. Der Platzhalter in M7 kann für einen späteren Verweis auf passendes BFSdual-Fachmaterial genutzt werden.
-
 ## Aufbau der Lernsituationen
 
 Die acht Fälle sind ausgearbeitete Beispiele zur [gemeinsamen Vorlage für alle BFSdual-Lernfelder](../Vorlage_Lernsituation.md). Jede LS verwendet die acht Stationen des Formmasters 1.8.8. Der Fachbegriffscheck umfasst je LS zehn Begriffe und liegt als gemeinsamer Schritt zwischen **Informieren** und **Planen** innerhalb der vorgesehenen Zeit. Die drei gleichwertigen Lernpakete werden zu Beginn von **Entscheiden** gewählt. Für jede LS sind zwei Moodle-Direktlinks vorgesehen. Die Platzhalter verweisen nach dem Eintragen der Kurslinks auf die Aktivitäten **Peer-Feedback** und **Feedback**. Die [gemeinsame Vorlage](../Vorlage_Lernsituation.md#moodle-einrichtung-für-die-lehrkraft) beschreibt Zuteilung und Namensanzeige.
@@ -69,11 +65,17 @@ Beide Geschäfte haben die gleiche Aktionswoche vorgemerkt. Um 10 Uhr sitzen ihr
 
 ### Informieren
 
-**Vergleicht** die Standorte anhand von M1 bis M3. Haltet zu Nachfrage, Verkaufsform und Fläche jeweils mindestens einen belegbaren Unterschied fest. Nutzt dazu M7 als Fachgrundlage.
+**Fachlicher Einstieg.** Kundenorientierung beginnt damit, dass ihr herausfindet, was die Menschen am jeweiligen Standort brauchen. Vergleicht in M1 und M2 die Anfragen und schaut, wie die Kundschaft dort ihre Ware auswählt. Prüft mit M3, welche Folgen Beratung, Selbstbedienung und verfügbare Fläche für das Angebot haben.
+
+**Vergleicht** die Standorte anhand von M1 bis M3. Haltet zu Nachfrage, Verkaufsform und Fläche jeweils mindestens einen belegbaren Unterschied fest.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
 **Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -92,6 +94,8 @@ Beide Geschäfte haben die gleiche Aktionswoche vorgemerkt. Um 10 Uhr sitzen ihr
 
 **Ordnet** eure Belege nach Standort und Vergleichskriterium. Kennzeichnet, welche Hinweise das Sortiment betreffen und welche sich auf die Präsentation auswirken.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Entscheiden
 
 #### Lernpaket wählen
@@ -104,17 +108,25 @@ Beide Geschäfte haben die gleiche Aktionswoche vorgemerkt. Um 10 Uhr sitzen ihr
 | **B · Auditiv** | Hört oder lest euch die beiden Sprachnachrichten aus M4 vor. Sortiert die gehörten Hinweise im Gespräch nach Nachfrage, Verkauf und Fläche. Prüft Zahlen und Maße bei Bedarf in M1 bis M3 nach. |
 | **C · Haptisch-handelnd** | Zeichnet die Grundrisse aus M3 auf Papier oder markiert sie am Boden. Schneidet Karten mit den Beobachtungen aus M1 und M2 aus und legt sie an den passenden Standort. Legt aus Papier passende Warenträger aus und erkundet, wie sich Fläche und Verkaufsform auf den Zugriff auswirken. |
 
+**Fachbuchverweis.** [Später ergänzen]
+
 #### Fachliche Entscheidung
 
 **Leitet** mit dem gewählten Lernpaket aus euren Belegen je Standort drei Anforderungen ab. Stuft sie als zwingend oder wünschenswert ein und legt fest, welcher Standortunterschied für die Aktion am wichtigsten ist.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
 **Erstellt** die Vergleichsmatrix nach M5. Formuliert die Anforderungen so, dass Jana daraus erkennen kann, worauf Global Bike beim Angebot und bei der Präsentation achten muss.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Bewerten
 
 **Prüft** jede Anforderung am angegebenen Beleg. **Überarbeitet** eine Formulierung, wenn sie für den Standort zu allgemein ist oder der Beleg die Anforderung nicht trägt.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 **Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_1_URL}}). Reicht die Vergleichsmatrix ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
 
@@ -122,11 +134,17 @@ Beide Geschäfte haben die gleiche Aktionswoche vorgemerkt. Um 10 Uhr sitzen ihr
 - Passen die Belege und Prioritäten zu den jeweiligen Anforderungen?
 - Erklärt die Matrix, was aus dem wichtigsten Standortunterschied für die Aktion folgt?
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Reflektieren
 
 **Erklärt** kurz, welcher Beleg eure erste Einschätzung am stärksten verändert hat.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 **Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_1_URL}}) aus.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
@@ -195,12 +213,6 @@ Bei der Priorität unterscheidet die Matrix zwischen zwingenden und [wünschensw
 - **Gondel.** Ein frei stehendes Verkaufsregal, das von gegenüberliegenden Seiten zugänglich ist.
 - **Wünschenswerte Anforderung.** Eine sinnvolle Verbesserung, auf die man bei knappen Möglichkeiten verzichten kann.
 
-#### M7 · Fachgrundlage für diese LS
-
-Kundenorientierung beginnt damit, dass ihr herausfindet, was die Menschen am jeweiligen Standort brauchen. Vergleicht in M1 und M2 die Anfragen und schaut, wie die Kundschaft dort ihre Ware auswählt. Prüft mit M3, welche Folgen Beratung, Selbstbedienung und verfügbare Fläche für das Angebot haben.
-
-**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]
-
 ## LS 6.2 · Ein gemeinsames Sortiment mit lokalen Ergänzungen zusammenstellen
 
 **Zeit:** 10 UStd.
@@ -236,11 +248,17 @@ Das Fahrradfachgeschäft möchte wenig Ware auf der kleinen Fläche unterbringen
 
 ### Informieren
 
-**Ermittelt** aus M1 die häufigsten und wichtigsten Anliegen je Standort. Gleicht sie mit den in M2 dokumentierten Eigenschaften und der Lieferbarkeit ab. Nutzt dazu M7 als Fachgrundlage.
+**Fachlicher Einstieg.** Zum Kernsortiment gehören die zentralen Waren eines Angebots. M1 zeigt, welche Bedürfnisse beide Standorte teilen und welche besonders in einem Laden auftreten. Mit dem Katalog und den Vorgaben aus M2 und M3 könnt ihr prüfen, welche Auswahl rechtzeitig lieferbar ist und auf die vorgesehenen Plätze passt.
+
+**Ermittelt** aus M1 die häufigsten und wichtigsten Anliegen je Standort. Gleicht sie mit den in M2 dokumentierten Eigenschaften und der Lieferbarkeit ab.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
 **Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -259,6 +277,8 @@ Das Fahrradfachgeschäft möchte wenig Ware auf der kleinen Fläche unterbringen
 
 **Plant** eure Auswahl mit den Vorgaben aus M3. Haltet fest, woran ein gemeinsamer Artikel und woran eine sinnvolle lokale Ergänzung zu erkennen sind.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Entscheiden
 
 #### Lernpaket wählen
@@ -271,17 +291,25 @@ Das Fahrradfachgeschäft möchte wenig Ware auf der kleinen Fläche unterbringen
 | **B · Auditiv** | Hört oder lest euch die Gesprächsauszüge in M4 vor. Führt eine Sortimentsrunde mit den Rollen Global Bike, Fachgeschäft und Sportfachmarkt. Sucht Belege und Lieferstatus in M1 und M2 nach. |
 | **C · Haptisch-handelnd** | Kopiert die Zeilen von M2 als Produktkarten, jeweils zweimal für die Ladenflächen. Erstellt aus M3 zwei Flächenraster. Legt probeweise die Produkte und markiert den gemeinsamen Kern farblich. Ordnet ausgewählten Artikeln passende Nachfragebelege aus M1 zu. |
 
+**Fachbuchverweis.** [Später ergänzen]
+
 #### Fachliche Entscheidung
 
 **Erprobt** eure Sortimentsideen mit dem gewählten Lernpaket. Legt vier gemeinsame Artikel und die Ergänzungen für beide Standorte fest. Begründet auch, warum ihr einen lieferbaren Artikel auslasst.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
 **Erstellt** für Jana die Sortimentsliste nach M5. Begründet gemeinsame Artikel für beide Läden und lokale Artikel für den jeweiligen Standort mit einem konkreten Nachfragehinweis.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Bewerten
 
 **Prüft** die Plätze, die Lieferbarkeit und die Nachfragebelege. **Überarbeitet** eine Auswahl oder Begründung, wenn eine Vorgabe oder ein Beleg fehlt.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 **Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_2_URL}}). Reicht die Sortimentsliste ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
 
@@ -289,11 +317,17 @@ Das Fahrradfachgeschäft möchte wenig Ware auf der kleinen Fläche unterbringen
 - Begründet die Liste die Auswahl nachvollziehbar mit Nachfragebelegen für beide Standorte?
 - Erklärt die Liste, warum ein lieferbarer Artikel ausgelassen wurde?
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Reflektieren
 
 **Beschreibt** kurz eine Abwägung, bei der ihr euch zwischen zwei fachlich passenden Artikeln entscheiden musstet.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 **Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_2_URL}}) aus.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
@@ -384,12 +418,6 @@ Die Nachfrageübersicht hilft dabei, mögliche [Sortimentslücken](Glossare/LS_6
 - **Artikelkennung.** Ein Code, durch den ein bestimmter Artikel im Katalog eindeutig zugeordnet werden kann.
 - **Aktionsplatz.** Ein für einen Artikel dieser Aktion vorgesehener Stellplatz im Laden.
 
-#### M7 · Fachgrundlage für diese LS
-
-Zum Kernsortiment gehören die zentralen Waren eines Angebots. M1 zeigt, welche Bedürfnisse beide Standorte teilen und welche besonders in einem Laden auftreten. Mit dem Katalog und den Vorgaben aus M2 und M3 könnt ihr prüfen, welche Auswahl rechtzeitig lieferbar ist und auf die vorgesehenen Plätze passt.
-
-**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]
-
 ## LS 6.3 · Waren im Fahrradfachgeschäft präsentieren
 
 **Zeit:** 8 UStd.
@@ -425,11 +453,17 @@ Eine Kundin schiebt ihr Fahrrad herein und fragt nach einer Lampe für ihren Len
 
 ### Informieren
 
-**Entnehmt** M1 bis M3 die Maße, die Betriebsregeln und die Anforderungen der ausgewählten Artikel. **Markiert** im Plan, wo Zugriff, Durchgang und Vorführen gleichzeitig möglich sein müssen. Nutzt dazu M7 als Fachgrundlage.
+**Fachlicher Einstieg.** Im Fachgeschäft ergänzt die Vorführung die persönliche Beratung. Prüft mit M1 und M2, ob Kundschaft und Personal die Ware gut erreichen und am Vorführrad ausreichend Platz haben. Nutzt M3, um sinnvolle Artikelkombinationen und passende Warenplätze zu begründen.
+
+**Entnehmt** M1 bis M3 die Maße, die Betriebsregeln und die Anforderungen der ausgewählten Artikel. **Markiert** im Plan, wo Zugriff, Durchgang und Vorführen gleichzeitig möglich sein müssen.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
 **Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -448,6 +482,8 @@ Eine Kundin schiebt ihr Fahrrad herein und fragt nach einer Lampe für ihren Len
 
 **Skizziert** zwei grobe Anordnungen für Warenträger und Vorführplatz. Haltet fest, welche Zugänge, Maße und Vorgaben ihr bei beiden Anordnungen prüfen müsst.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Entscheiden
 
 #### Lernpaket wählen
@@ -460,17 +496,25 @@ Eine Kundin schiebt ihr Fahrrad herein und fragt nach einer Lampe für ihren Len
 | **B · Auditiv – Beratung mithören** | Hört den Dialog aus M4 an oder lest ihn mit verteilten Rollen vor. Spielt einen zweiten Beratungsvorgang mit der Minipumpe durch. Sagt die Bewegungen und Handgriffe laut an und übertragt die erkannten Anforderungen auf zwei Planskizzen. |
 | **C · Haptisch – Fläche aufbauen** | Legt die Fläche, die beiden Regale und den Tisch nach der Modellanleitung in M4 aus. Bewegt ein Fahrradmodell und ein Muster durch zwei Anordnungen und zeichnet die gewählte Lösung anschließend auf. |
 
+**Fachbuchverweis.** [Später ergänzen]
+
 #### Fachliche Entscheidung
 
 **Vergleicht** beide Anordnungen mit dem gewählten Lernpaket und den Kriterien aus M5. Begründet eure Empfehlung für die Inhaberin mit einem konkreten Vorteil im Beratungsbetrieb und benennt, welches Problem bei der anderen Anordnung auftreten könnte.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
 **Erstellt** einen beschrifteten Plan für eure gewählte Anordnung. Zeigt darin, welche Artikel zusammenstehen, wie Muster erreichbar sind und an welcher Stelle das Personal die Lampe oder Pumpe am Fahrrad vorführt.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Bewerten
 
 **Prüft** den Plan an einer Lampenberatung und an einer Beratung zur Minipumpe. Nutzt M5 und korrigiert eine Stelle, falls beim Erreichen der Ware, Vorführen oder Vorbeigehen ein Hindernis entsteht.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 **Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_3_URL}}). Reicht den bemaßten Flächenplan für das Fahrradfachgeschäft ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
 
@@ -478,11 +522,17 @@ Eine Kundin schiebt ihr Fahrrad herein und fragt nach einer Lampe für ihren Len
 - Stehen passende Artikel zusammen und lässt sich die Ware gut erreichen?
 - Kann das Personal das Zubehör am Fahrrad zeigen, während andere die Fläche nutzen?
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Reflektieren
 
 **Haltet fest**, welche Beobachtung eure Anordnung besonders beeinflusst hat. **Erklärt**, welche Änderung ihr am Plan vornehmen würdet, wenn das Fachgeschäft künftig nur noch einen der beiden fahrbaren Warenträger bereitstellen könnte.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 **Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_3_URL}}) aus.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
@@ -553,12 +603,6 @@ Der abgebildete Verkaufsbereich ist 4,80 m breit und 4,00 m tief. Der Nullpunkt 
 - **Vorführmodell.** Ein Gegenstand, an dem die Anwendung eines Produkts gezeigt werden kann.
 - **Muster.** Ein bereitgestelltes Exemplar eines Artikels, an dem die Kundschaft Eigenschaften prüfen oder die Nutzung ausprobieren kann.
 
-#### M7 · Fachgrundlage für diese LS
-
-Im Fachgeschäft ergänzt die Vorführung die persönliche Beratung. Prüft mit M1 und M2, ob Kundschaft und Personal die Ware gut erreichen und am Vorführrad ausreichend Platz haben. Nutzt M3, um sinnvolle Artikelkombinationen und passende Warenplätze zu begründen.
-
-**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]
-
 ## LS 6.4 · Waren im Selbstbedienungsmarkt präsentieren
 
 **Zeit:** 8 UStd.
@@ -594,11 +638,17 @@ Der Abteilungsleiter sieht auf die Uhr. „Genau dafür brauchen wir morgen eine
 
 ### Informieren
 
-**Wertet** den Grundriss, die Beobachtungen und die Produktkarten in M1 bis M3 aus. **Haltet fest**, welche Kundenwege und welche Kriterien für die Artikelauswahl eure Präsentation aufgreifen muss. Nutzt dazu M7 als Fachgrundlage.
+**Fachlicher Einstieg.** In der Selbstbedienung müssen Kundinnen und Kunden die Ware im Markt finden und ihre Auswahl am Regal treffen können. Nutzt M1 und M2, um zu entscheiden, wo Schilder auffallen und der Weg zum Regal frei bleibt. Stellt die entscheidenden Angaben aus M3 so dar, dass Interessierte die Produkte am Regal vergleichen und ihre Eignung selbst prüfen können.
+
+**Wertet** den Grundriss, die Beobachtungen und die Produktkarten in M1 bis M3 aus. **Haltet fest**, welche Kundenwege und welche Kriterien für die Artikelauswahl eure Präsentation aufgreifen muss.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
 **Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -617,6 +667,8 @@ Der Abteilungsleiter sieht auf die Uhr. „Genau dafür brauchen wir morgen eine
 
 **Skizziert** zwei grobe Anordnungen für Wege und Warenträger. Haltet fest, wo die Kundschaft in beiden Varianten eine Orientierung oder Angaben zum Produktvergleich braucht.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Entscheiden
 
 #### Lernpaket wählen
@@ -629,17 +681,25 @@ Der Abteilungsleiter sieht auf die Uhr. „Genau dafür brauchen wir morgen eine
 | **B · Auditiv – Einkauf mithören** | Hört oder lest den Dialog aus M4 mit verteilten Rollen. Spielt kurze Nachfragen zur Pumpe und zum Flaschenhalter durch. Ergänzt in beiden Entwürfen die Orte, an denen die Antworten sichtbar sein sollen. |
 | **C · Haptisch – Regalmodell** | Setzt die Grundfläche als Modell nach M4 um. Verschiebt Artikel- und Schilderkarten, während eine Person mit einem Einkaufswagenmodell die Fälle aus M2 durchspielt. Prüft auf diese Weise eure beiden Anordnungen. |
 
+**Fachbuchverweis.** [Später ergänzen]
+
 #### Fachliche Entscheidung
 
 **Vergleicht** beide Anordnungen mit dem gewählten Lernpaket und den Kriterien aus M5. Begründet, welche Lösung die Kundschaft besser führt und beim Produktvergleich unterstützt.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
 **Erstellt** einen beschrifteten Flächenplan mit den eingezeichneten Kundenwegen, Warenträgern und Artikelgruppen. Ergänzt die Orientierungsschilder und je eine tatsächlich nutzbare Vergleichsinformation für Pumpen und Flaschenhalter.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Bewerten
 
 **Erprobt** euren Plan anhand der beiden Einkaufsfälle aus M2. Holt von einer Person, die den Plan gerade zum ersten Mal sieht, eine Rückmeldung zur Orientierung ein. Überarbeitet bei Bedarf eine Stelle und dokumentiert den Grund.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 **Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_4_URL}}). Reicht den bemaßten Flächenplan für den Sportfachmarkt mit Beschilderung und Produktangaben ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
 
@@ -647,11 +707,17 @@ Der Abteilungsleiter sieht auf die Uhr. „Genau dafür brauchen wir morgen eine
 - Helfen die Schilder, die passenden Artikel selbst zu finden?
 - Sind die Vergleichsangaben korrekt und reichen sie für eine selbstständige Auswahl?
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Reflektieren
 
 **Erklärt**, an welcher Stelle die Information auf der Fläche für die Kaufentscheidung am wichtigsten war. **Haltet fest**, woran ihr bei der Gestaltung einer anderen Selbstbedienungsfläche früh erkennen könnt, dass weitere Produktinformationen nötig sind.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 **Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_4_URL}}) aus.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
@@ -730,12 +796,6 @@ Mit den Fragen prüft ihr die Fläche für die [Selbstbedienung](Glossare/LS_6_4
 - **Manometer.** Eine Anzeige, mit der sich der Druck ablesen lässt.
 - **Rahmengewinde.** Eine Stelle am Fahrradrahmen mit einem Gewinde, in das sich eine passende Schraube eindrehen lässt.
 
-#### M7 · Fachgrundlage für diese LS
-
-In der Selbstbedienung müssen Kundinnen und Kunden die Ware im Markt finden und ihre Auswahl am Regal treffen können. Nutzt M1 und M2, um zu entscheiden, wo Schilder auffallen und der Weg zum Regal frei bleibt. Stellt die entscheidenden Angaben aus M3 so dar, dass Interessierte die Produkte am Regal vergleichen und ihre Eignung selbst prüfen können.
-
-**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]
-
 ## LS 6.5 · Eine gemeinsame Werbeaktion abstimmen
 
 **Zeit:** 6 UStd.
@@ -771,11 +831,17 @@ Am Mittwoch vor der Aktion legt Jana, die Vertriebsleiterin von Global Bike, den
 
 ### Informieren
 
-**Klärt**, wen beide Läden erreichen wollen, welche Werbeplätze zur Verfügung stehen und bis wann Material und Freigaben gebraucht werden. Nutzt dazu M7 als Fachgrundlage.
+**Fachlicher Einstieg.** Ein gemeinsamer Werbeplan hält fest, wen die Aktion erreichen soll, wann die Werbung erscheint und wer welchen Beitrag übernimmt. M1 bis M3 zeigen, welche Werbeplätze zum Besuchsverhalten passen und wann welche Freigabe gebraucht wird. M2 enthält die Ausgangsdaten, mit denen ihr ein gemeinsames Werbeziel später überprüfen könnt.
+
+**Klärt**, wen beide Läden erreichen wollen, welche Werbeplätze zur Verfügung stehen und bis wann Material und Freigaben gebraucht werden.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
 **Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -794,6 +860,8 @@ Am Mittwoch vor der Aktion legt Jana, die Vertriebsleiterin von Global Bike, den
 
 **Skizziert** zwei mögliche Abläufe für die Werbeaktion. Notiert wichtige Fristen und eine Kennzahl, die beide Standorte für ein gemeinsames Ziel erfassen können.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Entscheiden
 
 #### Lernpaket wählen
@@ -806,17 +874,25 @@ Am Mittwoch vor der Aktion legt Jana, die Vertriebsleiterin von Global Bike, den
 | **B · Auditiv** | Lasst die drei Partnerstimmen in M4 vorlesen oder als Sprachnachrichten einsprechen. Haltet danach eine kurze Abstimmung in den drei Rollen ab. Gleiche Fakten und Fristen stehen in M1–M3 zum Nachsehen bereit. |
 | **C · Haptisch-handelnd** | Legt zu M1–M3 die Karten aus M5 auf zwei Zeitachsen. Verschiebt die Karten für Produktion und Freigabe, bis jeder Werbeplatz fristgerecht bedient wird. Ordnet zu jedem Schritt einen Verantwortlichen. |
 
+**Fachbuchverweis.** [Später ergänzen]
+
 #### Fachliche Entscheidung
 
 **Stimmt** mit dem gewählten Lernpaket einen Ablauf ab. Einigt euch auf ein Werbeziel mit Kennzahl, Zielwert und Zeitraum. Begründet je Standort den Werbeträger und legt seine Einsatzzeit fest.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
 **Erstellt** euren Werbeplan für beide Standorte. Haltet jeweils fest, wer das Werbemittel erstellt, wer es freigibt, wer es veröffentlicht oder aufstellt und wer das Ergebnis erfasst.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Bewerten
 
 **Prüft** den Plan gegen die Fristen in M3 und das Ziel gegen die verfügbaren Daten. **Korrigiert** eine erkannte Lücke oder begründet, warum eure Abfolge funktioniert.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 **Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_5_URL}}). Reicht den gemeinsamen Werbeplan ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
 
@@ -824,11 +900,17 @@ Am Mittwoch vor der Aktion legt Jana, die Vertriebsleiterin von Global Bike, den
 - Passt der gewählte Werbeträger je Laden zur Kundschaft und zu den verfügbaren Möglichkeiten?
 - Sind Einsatztermine, Freigabefristen und Zuständigkeiten klar und miteinander vereinbar?
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Reflektieren
 
 **Notiert**, welche Abstimmung zwischen Global Bike und den Geschäften für euren Plan am wichtigsten war und warum.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 **Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_5_URL}}) aus.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
@@ -894,12 +976,6 @@ Für den [Werbeplan](Glossare/LS_6_5_Glossar.md#werbeplan) schreibt ihr auf jede
 - **Vergleichswoche.** Eine frühere Woche mit vergleichbaren Bedingungen, deren Werte als Ausgangspunkt dienen.
 - **Erfolgskontrolle.** Ein Vergleich der gemessenen Ergebnisse einer Werbeaktion mit dem zuvor festgelegten Ziel.
 
-#### M7 · Fachgrundlage für diese LS
-
-Ein gemeinsamer Werbeplan hält fest, wen die Aktion erreichen soll, wann die Werbung erscheint und wer welchen Beitrag übernimmt. M1 bis M3 zeigen, welche Werbeplätze zum Besuchsverhalten passen und wann welche Freigabe gebraucht wird. M2 enthält die Ausgangsdaten, mit denen ihr ein gemeinsames Werbeziel später überprüfen könnt.
-
-**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]
-
 ## LS 6.6 · Werbemittel für beide Standorte gestalten
 
 **Zeit:** 8 UStd.
@@ -935,11 +1011,17 @@ Jana öffnet kurz vor der internen Freigabe zwei Rohentwürfe. „Schaut hier. I
 
 ### Informieren
 
-**Erschließt** Werbeauftrag, Zielgruppen und Produktdaten in M1 und M2. **Markiert** in M3, welche Aussagen ihr übernehmen, einschränken oder streichen müsst. Nutzt dazu M7 als Fachgrundlage.
+**Fachlicher Einstieg.** Sprache, Blickfang und Aufforderung können sich zwischen Newsletter und Eingangsschild unterscheiden. Die gemeinsame Werbebotschaft bleibt dabei erkennbar. M1 und M4 zeigen euch, welche Informationen die jeweilige Kundschaft braucht. M2 hilft euch, die Produktaussagen aus M3 zu prüfen.
+
+**Erschließt** Werbeauftrag, Zielgruppen und Produktdaten in M1 und M2. **Markiert** in M3, welche Aussagen ihr übernehmen, einschränken oder streichen müsst.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
 **Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -958,6 +1040,8 @@ Jana öffnet kurz vor der internen Freigabe zwei Rohentwürfe. „Schaut hier. I
 
 **Haltet fest**, welche Zielgruppe ihr mit jedem Format erreichen wollt, welche Handlung die Werbung auslösen soll und welche Produktangaben dafür in Frage kommen.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Entscheiden
 
 #### Lernpaket wählen
@@ -970,17 +1054,25 @@ Jana öffnet kurz vor der internen Freigabe zwei Rohentwürfe. „Schaut hier. I
 | **B · Auditiv** | Hört die zwei Kundenstimmen aus M4 als Aufnahme oder Vorlesetext. Sprecht eure Überschriften und Werbetexte probeweise ein oder lest sie im Team vor. Lasst jemand wiedergeben, was hängen bleibt. Übertragt die geprüften Texte in Newsletter und Schild. |
 | **C · Haptisch-handelnd** | Verwendet die Papierbausteine aus M5. Legt zuerst eine Fassung in einem Handyrahmen und die andere auf einer Schildfläche. Verschiebt Bausteine, bis die Aussagen gut erfassbar sind. Stellt anschließend die beiden Werbemittel fertig. |
 
+**Fachbuchverweis.** [Später ergänzen]
+
 #### Fachliche Entscheidung
 
 **Entwickelt** mit dem gewählten Lernpaket eure Entwürfe. Einigt euch auf eine wiedererkennbare gemeinsame Botschaft und begründet je Format zwei passende Produktinformationen.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
 **Stellt** den Newsletter-Ausschnitt und das Eingangsschild im gewählten Lernpaket fertig. **Dokumentiert** für jeden übernommenen Produktvorteil kurz, wo er im Produktblatt belegt ist.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Bewerten
 
 **Prüft**, ob die Botschaft in beiden Medien erkennbar ist und die Produktinformationen mit M2 übereinstimmen. **Überarbeitet** anschließend unklare oder unzutreffende Stellen.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 **Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_6_URL}}). Reicht die beiden Werbemittel mit Aussagencheck ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
 
@@ -988,11 +1080,17 @@ Jana öffnet kurz vor der internen Freigabe zwei Rohentwürfe. „Schaut hier. I
 - Passen die Formate zur jeweiligen Kundschaft und ist die Handlungsaufforderung verständlich?
 - Lassen sich die Produktaussagen mit den Produktblättern in M2 belegen?
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Reflektieren
 
 **Erläutert** an je einer Formulierung, welche Anpassung Newsletter und Schild für ihre unterschiedlichen Einsatzorte brauchen.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 **Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_6_URL}}) aus.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
@@ -1056,12 +1154,6 @@ Zeichnet einen Handyrahmen, der auf ein Blatt A5 passt, und daneben den Umriss e
 - **Lieferumfang.** Die Teile, die beim Kauf eines Artikels tatsächlich mitgeliefert werden.
 - **Aussagencheck.** Ein Abgleich, bei dem ihr eine Werbeaussage mit ihrer Quelle vergleicht und sie danach freigebt, präzisiert oder streicht.
 
-#### M7 · Fachgrundlage für diese LS
-
-Sprache, Blickfang und Aufforderung können sich zwischen Newsletter und Eingangsschild unterscheiden. Die gemeinsame Werbebotschaft bleibt dabei erkennbar. M1 und M4 zeigen euch, welche Informationen die jeweilige Kundschaft braucht. M2 hilft euch, die Produktaussagen aus M3 zu prüfen.
-
-**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]
-
 ## LS 6.7 · Die Entwürfe vor der Freigabe prüfen
 
 **Zeit:** 8 UStd.
@@ -1097,11 +1189,17 @@ Beim Blick auf den Plan des Sportfachmarkts fragt ein Kollege: „Welchen Eingan
 
 ### Informieren
 
-**Vergleicht** in Partnerarbeit für jeden Standort den Werbeentwurf mit dem Flächenplan. Markiert, welches Produkt beworben wird, welche Orientierung die Werbung bietet und wo das Produkt tatsächlich liegt. Nutzt M1 und M2. Nutzt dazu M7 als Fachgrundlage.
+**Fachlicher Einstieg.** Eine Probe vor der Freigabe zeigt, durch welche Hinweise sich die Kundschaft auf der Fläche orientiert und welche Werbebotschaft sie versteht. Achtet beim Test der Entwürfe aus M1 und M2 darauf, wo die Testpersonen tatsächlich suchen und wie sie die Werbung in eigenen Worten wiedergeben. Aus diesen Beobachtungen begründet ihr Änderungen und haltet sie im Testprotokoll M5 fest.
+
+**Vergleicht** in Partnerarbeit für jeden Standort den Werbeentwurf mit dem Flächenplan. Markiert, welches Produkt beworben wird, welche Orientierung die Werbung bietet und wo das Produkt tatsächlich liegt. Nutzt M1 und M2.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
 **Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -1120,6 +1218,8 @@ Beim Blick auf den Plan des Sportfachmarkts fragt ein Kollege: „Welchen Eingan
 
 **Plant** im Team je Standort einen kurzen Such- und Verständnistest. Verteilt die Rollen für Anleitung und Beobachtung. Legt mit M3 und M5 fest, was ihr protokolliert.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Entscheiden
 
 #### Lernpaket wählen
@@ -1130,17 +1230,25 @@ Beim Blick auf den Plan des Sportfachmarkts fragt ein Kollege: „Welchen Eingan
 - **B · Beim Suchen zuhören.** Nutzt dieselben Entwürfe und sprecht die neutrale Einführung aus M3. Bittet die Testpersonen, beim Suchen laut zu denken. Ordnet ihre Äußerungen den Stellen im Plan oder in der Werbung zu.
 - **C · Im Modell testen.** Legt beide Entwürfe nach M4 auf dem Tisch oder Boden. Lasst Testpersonen mit Figuren oder zu Fuß suchen und die Botschaft wiedergeben. Markiert die Stellen, an denen sie stehen bleiben, umkehren oder eine Frage stellen.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 #### Fachliche Entscheidung
 
 **Legt** für den Test im gewählten Lernpaket fest, wann die Suche endet und wie ihr neutral begleitet und nach der Werbebotschaft fragt. Nutzt die in M3 vorgegebenen Startpunkte.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
 **Testet** beide Standortentwürfe im gewählten Lernpaket mit Personen, die den jeweiligen Entwurf noch nicht kennen. **Haltet fest**, welchen Weg sie wählen, ob sie das Produkt finden und wie sie die Werbung verstehen.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Bewerten
 
 **Wertet** die Beobachtungen je Standort aus. **Überarbeitet** die Teile des Werbe- oder Flächenentwurfs, für die euer Test ein Problem zeigt. Belegt jede Änderung mit einer Beobachtung. Begründet ebenso, wenn ihr einen Teil nach dem Test freigebt.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 **Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_7_URL}}). Reicht das Testprotokoll und die geprüften Entwürfe ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
 
@@ -1148,11 +1256,17 @@ Beim Blick auf den Plan des Sportfachmarkts fragt ein Kollege: „Welchen Eingan
 - Sind die Beobachtungen so festgehalten, dass sich Verhalten und Deutung unterscheiden lassen?
 - Sind Änderungen oder Freigaben aus dem Test nachvollziehbar begründet?
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Reflektieren
 
 **Notiert** zunächst einzeln, welche Beobachtung eure Entscheidung am stärksten beeinflusst hat und welche zusätzliche Frage ihr bei einem weiteren Test klären würdet. Tauscht euch anschließend kurz aus.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 **Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_7_URL}}) aus.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
@@ -1226,12 +1340,6 @@ Haltet die Ergebnisse für jedes Geschäft im [Testprotokoll](Glossare/LS_6_7_Gl
 - **Werbebotschaft.** Die zentrale Aussage, die eine Werbung der Kundschaft vermitteln soll.
 - **Fundstelle.** Der Ort, an dem eine Person den gesuchten Artikel tatsächlich findet.
 
-#### M7 · Fachgrundlage für diese LS
-
-Eine Probe vor der Freigabe zeigt, durch welche Hinweise sich die Kundschaft auf der Fläche orientiert und welche Werbebotschaft sie versteht. Achtet beim Test der Entwürfe aus M1 und M2 darauf, wo die Testpersonen tatsächlich suchen und wie sie die Werbung in eigenen Worten wiedergeben. Aus diesen Beobachtungen begründet ihr Änderungen und haltet sie im Testprotokoll M5 fest.
-
-**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]
-
 ## LS 6.8 · Über die Fortführung der Aktion entscheiden
 
 **Zeit:** 6 UStd.
@@ -1267,11 +1375,17 @@ Jana stellt euch den Aktionsbericht mit vergleichbaren Absatzdaten, Kundenrückm
 
 ### Informieren
 
-**Erschließt** das Aktionsziel, die eingesetzten Maßnahmen und die Absatzdaten in M1 und M2. **Ordnet** die Rückmeldungen aus M3 dem richtigen Standort sowie Sortiment, Platzierung oder Werbung zu. Nutzt dazu M7 als Fachgrundlage.
+**Fachlicher Einstieg.** Nach der Aktion vergleicht ihr die verkauften Stückzahlen jedes Geschäfts mit seiner eigenen Vergleichswoche und prüft das Ergebnis am gemeinsamen Ziel in M1. Nutzt die Kundenstimmen aus M3, um Änderungen an Sortiment, Platzierung oder Werbung zu begründen. Die Absatzzahlen zeigen die Veränderung während der Aktion und lassen offen, welchen Anteil die Werbung daran hatte.
+
+**Erschließt** das Aktionsziel, die eingesetzten Maßnahmen und die Absatzdaten in M1 und M2. **Ordnet** die Rückmeldungen aus M3 dem richtigen Standort sowie Sortiment, Platzierung oder Werbung zu.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 #### Fachbegriffscheck
 
 **Ordnet** nach Informieren jedem der zehn Fachbegriffe die passende Erklärung zu. Bereitet euch mit M6 vor. Im SCORM-Check erscheinen die Antwortmöglichkeiten gemischt. Ihr erhaltet nach jeder Antwort eine kurze Rückmeldung zum Fall.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fallbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -1290,6 +1404,8 @@ Jana stellt euch den Aktionsbericht mit vergleichbaren Absatzdaten, Kundenrückm
 
 **Plant** einen Vergleich, der für beide Geschäfte dieselben Fragen beantwortet. Legt fest, wo ihr die Zielerreichung, die wichtigsten Produktdaten und passende Rückmeldungen festhaltet.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Entscheiden
 
 #### Lernpaket wählen
@@ -1300,17 +1416,25 @@ Jana stellt euch den Aktionsbericht mit vergleichbaren Absatzdaten, Kundenrückm
 - **B · Das Abschlussgespräch vorbereiten.** Hört die Stimmen aus M3 oder lest sie mit verteilten Rollen. Besprecht anhand der Zahlen aus M2, welche Aussagen gestützt werden. Sprecht eure Empfehlung probeweise für Jana aus und sichert die Belege in M5.
 - **C · Entscheidungstafel legen.** Legt die Zahlen- und Rückmeldungskarten nach M4 aus. Ordnet sie den Standorten und den drei Entscheidungsbereichen zu. Verschiebt je eine Vorschlagskarte in „beibehalten“ oder „ändern“ und legt die zugehörigen Belege daneben.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 #### Fachliche Entscheidung
 
 **Berechnet** je Standort die Veränderung gegenüber der Vergleichswoche. Beurteilt mit dem gewählten Lernpaket, ob das vereinbarte Ziel erreicht wurde, und wählt passende Belege für eure Empfehlungen aus.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Durchführen
 
 **Erstellt** eine kurze Empfehlung für Global Bike und beide Handelspartner. Haltet für Sortiment, Platzierung und Werbung fest, was ihr pro Standort beibehalten oder ändern würdet. Nutzt M5.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Bewerten
 
 **Prüft**, ob Ausgangswerte, Veränderung und Zielerreichung nachvollziehbar sind. **Schärft** eine Empfehlung, wenn die Begründung unklar ist oder Zahlen und Rückmeldungen unterschiedliche Hinweise geben.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 **Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_LS_6_8_URL}}). Reicht die Empfehlung für beide Handelspartner ein. Verwendet einen neutralen Titel und Dateinamen. Entfernt Namen aus Inhalt und Dateieigenschaften. Moodle teilt euch per Zufall eine Arbeit zu und zeigt sie anonym an. Bei eurer Rückmeldung sieht die Person, deren Arbeit ihr bewertet, euren Klarnamen. Nennt eine gelungene Stelle und einen konkreten Verbesserungsvorschlag.
 
@@ -1318,11 +1442,17 @@ Jana stellt euch den Aktionsbericht mit vergleichbaren Absatzdaten, Kundenrückm
 - Enthält die Empfehlung konkrete Vorschläge zu Sortiment, Platzierung und Werbung?
 - Stützen Zahlen und Kundenrückmeldungen die Empfehlung nachvollziehbar?
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Reflektieren
 
 **Haltet** einzeln fest, welche Information für euch ausschlaggebend war und welche zusätzliche Information eure Entscheidung beim nächsten Mal verlässlicher machen würde.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 **Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_LS_6_8_URL}}) aus.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ### Handlungsprodukt und Kriterien
 
@@ -1396,9 +1526,3 @@ Haltet je Standort und Bereich eine [begründete Empfehlung](Glossare/LS_6_8_Glo
 - **Kernsortiment.** Die zentralen Waren eines Angebots, die Kundinnen und Kunden dort erwarten. Bei der gemeinsamen Aktion sind das die vier Artikel, die beide Läden anbieten.
 - **Lokale Sortimentsergänzung.** Ein zusätzlicher Artikel neben dem gemeinsamen Kern, der einen Bedarf an einem bestimmten Standort aufgreift.
 - **Platzierung.** Die Entscheidung, wo und wie Artikel auf der Verkaufsfläche angeboten werden.
-
-#### M7 · Fachgrundlage für diese LS
-
-Nach der Aktion vergleicht ihr die verkauften Stückzahlen jedes Geschäfts mit seiner eigenen Vergleichswoche und prüft das Ergebnis am gemeinsamen Ziel in M1. Nutzt die Kundenstimmen aus M3, um Änderungen an Sortiment, Platzierung oder Werbung zu begründen. Die Absatzzahlen zeigen die Veränderung während der Aktion und lassen offen, welchen Anteil die Werbung daran hatte.
-
-**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]

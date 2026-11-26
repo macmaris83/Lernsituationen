@@ -53,9 +53,13 @@ Die Skala von **1 bis 6** zeigt, wie stark die verbindlichen Aufgaben einer LS j
 
 **Entnehmt** den gemeinsamen Fallmaterialien [M-Nummern und Titel] die Angaben, die für [fachliche Fragestellung] wichtig sind. Haltet [konkrete Fakten oder Belege] fest.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ## Fachbegriffscheck
 
 Der eigene Check folgt **nach Informieren und vor Planen**. Er umfasst je LS **mindestens 10 und höchstens 20 unterschiedliche Fachbegriffe** und ist für alle drei Lernpakete gleich. Die Lernenden ordnen jedem Begriff die zutreffende Erklärung zu. Die Rückmeldung erklärt den Begriff am aktuellen Fall. Offene Begriffe können anschließend gezielt nachgearbeitet werden.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 | Karten-ID | Fachbegriff | Zutreffende Erklärung | Falsche Erklärung 1 | Falsche Erklärung 2 | Rückmeldung mit Fall- und Materialbezug |
 | --- | --- | --- | --- | --- | --- |
@@ -66,6 +70,8 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 ## Planen
 
 **Skizziert** mögliche Vorgehensweisen oder Lösungen. Haltet fest, welche Vorgaben, Belege und Entscheidungskriterien ihr später prüfen müsst.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ## Entscheiden
 
@@ -79,25 +85,39 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 | **B · Auditiv und im Gespräch** | [Hört eine Nachricht, ein Gespräch oder eine Schilderung. Besprecht die gehörten Hinweise und prüft genaue Angaben bei Bedarf im gemeinsamen Datenblatt. Sichert eure Belege schriftlich.] |
 | **C · Haptisch-handelnd** | [Legt, baut, verschiebt oder erprobt mit Karten, Gegenständen oder Modellen mehrere Möglichkeiten. Haltet fest, was die Erprobung für die Entscheidung zeigt.] |
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ### Fachliche Entscheidung
 
 **Entscheidet** anhand eurer Fallbelege und Kriterien, welche Lösung oder Vorgehensweise ihr umsetzt. Begründet eure Wahl mit [konkreten fachlichen Belegen].
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ## Durchführen
 
 **Erstellt** [gemeinsames Handlungsprodukt] für [Adressatin oder Adressat]. Nutzt das gewählte Lernpaket und sichert die fachliche Entscheidung mit [Dokumentationsform].
 
+**Fachbuchverweis.** [Später ergänzen]
+
 ## Bewerten
 
 **Prüft** [Handlungsprodukt] an den gemeinsamen Kriterien. Überarbeitet eine Stelle, falls der eigene Check einen konkreten Verbesserungsbedarf zeigt.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 **Bewertet** euch gegenseitig in der Moodle-Aktivität [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_URL}}). Reicht euer Handlungsprodukt mit einem neutralen Titel und Dateinamen ein und entfernt Namen aus dem Dokument und den Dateieigenschaften. Moodle teilt euch zufällig eine Arbeit zur Bewertung zu. Beurteilt sie anhand von [fachliche Kriterien] und nennt eine gelungene Stelle sowie einen konkreten Verbesserungsvorschlag. Die Person, deren Arbeit ihr bewertet, sieht euren Klarnamen bei eurer Rückmeldung. Die zugeteilte Arbeit wird euch anonym angezeigt.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ## Reflektieren
 
 **Erklärt** einzeln, welcher Beleg eure Entscheidung besonders beeinflusst hat. Haltet fest, was ihr bei einer ähnlichen beruflichen Situation wieder so machen oder ändern würdet.
 
+**Fachbuchverweis.** [Später ergänzen]
+
 **Füllt** zum Abschluss die Moodle-Aktivität [Feedback]({{MOODLE_FEEDBACK_URL}}) aus.
+
+**Fachbuchverweis.** [Später ergänzen]
 
 ## Handlungsprodukt und Kriterien
 
@@ -107,15 +127,13 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 
 ## Materialien
 
-Fügt die Unterlagen direkt in die LS ein oder verlinkt die zugehörigen Dateien aus ihrem Materialordner. Nummeriert nur die tatsächlich verwendeten Materialien und nennt in den Aufgaben die passende M-Nummer. Die folgende Liste dient als Ausgangspunkt und kann je nach Fall angepasst werden.
+**M1 bis Mxx** sind Platzhalter für die Belege und Materialien der jeweiligen LS. Wählt Anzahl, Reihenfolge und Materialarten nach dem Fall. Geeignet sind zum Beispiel E-Mails, Geschäftsbelege, Produktdatenblätter, Pläne, Fotos, Audios oder Arbeitshilfen. Fügt die Unterlagen ein oder verlinkt sie aus dem Materialordner. Nennt in jedem Arbeitsauftrag die M-Nummer, die dort gebraucht wird.
 
-| Material | Was in der fertigen LS vorliegen muss |
-| --- | --- |
-| **M1 · Fallunterlagen** | [Belege, Nachrichten, Daten oder Vorgaben, die alle für Informieren und Planen brauchen] |
-| **M2 · Visuelle Unterlagen** | [Einsatzbereite Pläne, Abbildungen oder Übersichten für Paket A] |
-| **M3 · Hörmaterial** | [Aufnahme oder Vorlesefassung für Paket B, mit lesbarem Skript] |
-| **M4 · Material zum Erproben** | [Karten, Modelle, Bau- oder Legeanleitung für Paket C] |
-| **M5 · Dokumentation und Prüfung** | [Passende Vorlage oder gemeinsame Kriterien zur Ergebnissicherung] |
+| Kennung | Titel und Materialart | Inhalt, Datei oder Link |
+| --- | --- | --- |
+| **M1** | [Titel und Art des Belegs oder Materials] | [Inhalt einfügen oder Datei verlinken] |
+| **M2** | [Titel und Art des Belegs oder Materials] | [Inhalt einfügen oder Datei verlinken] |
+| **… bis Mxx** | [Weitere Belege und Materialien nach Bedarf] | [Inhalt einfügen oder Datei verlinken] |
 
 ## Redaktionshinweise für das Vorlagenset
 
@@ -124,7 +142,7 @@ Fügt die Unterlagen direkt in die LS ein oder verlinkt die zugehörigen Dateien
 - **Gemeinsamer Einstieg.** Orientierung, Handlungssituation, Informieren und Planen verwenden gemeinsame Fachaufträge und Fallunterlagen. Die Lernpaketwahl erscheint zu Beginn von **Entscheiden**. Die fachliche Entscheidung folgt auf Basis des gewählten Zugangs.
 - **Gleichwertige Zugänge.** A, B und C haben dieselbe Fachkompetenz, dieselbe fachliche Datengrundlage, dasselbe Handlungsprodukt, dieselben Bewertungskriterien und denselben Zeitrahmen. Die Pakete verändern die Arbeitsweise. Alle erhalten Zugriff auf genaue Zahlen, Maße und fachliche Belege. Sprachfassungen und Modelle enthalten die Informationen, die zur Bearbeitung tatsächlich nötig sind.
 - **Eigenständiger Fall.** Jede Lernsituation enthält eine vollständige Ausgangslage, eigene erreichbare Materialien, eine fachliche Entscheidung und ein abschließendes Handlungsprodukt. Ergebnisse innerhalb der LS werden weiterverwendet. Der Start einer anderen LS erfolgt mit den dort bereitgestellten Fallunterlagen.
-- **Aufträge.** Verwendet pro Phase klare, gebündelte Aufgaben mit fett gesetzten Operatoren. Benennt die nötigen Arbeitsformen und Materialien dort, wo sie gebraucht werden.
+- **Aufträge.** Verwendet pro Phase klare, gebündelte Aufgaben mit fett gesetzten Operatoren. Benennt die nötigen Arbeitsformen und Materialien dort, wo sie gebraucht werden. Setzt den Platzhalter für den Fachbuchverweis direkt unter den jeweiligen Arbeitsauftrag.
 - **Kompetenznetz im SCORM-Paket.** Übernehmt in der Orientierung fünf Achsen in Tabellenreihenfolge. Beschriftet die sechs Skalenringe von **1 innen bis 6 außen** und zeigt die fünf Werte auch als Text. Übertragt die Tabellenwerte je LS in `competencies[].weight`. Die separate Selbsteinschätzung in Reflektieren folgt der SCORM-Skala **1–4** vom Arbeiten mit enger Hilfe bis zur selbstständigen, begründeten Anwendung im Transfer und kann mit einem Arbeitsbeleg ergänzt werden.
 - **Fachbegriffscheck im SCORM-Paket.** Verlinkt nach Informieren **„Begriffe prüfen“** auf `begriffstraining.html`. Übernehmt je LS alle 10 bis 20 Karten mit stabiler ID, Definition, Antwortalternativen und Rückmeldung. Prüft die Kartenzahl vor dem Export und hinterlegt den Check in der Navigation, den Fortschrittsdaten und dem Paketmanifest. Die Auswertung öffnet den Weg zu Planen und zeigt gezielte Nacharbeit zu unsicheren Begriffen an. Der Kurzcheck zur Handlungssituation bleibt ein eigener Schritt.
 - **LS-Glossar im SCORM-Paket.** Nehmt die eigene Seite `ls-glossar.html` in das Paketmanifest auf und blendet sie aus Phasenübersicht und Materialmenü aus. Übertragt die Links an den Fachbegriffen in die jeweiligen Materialseiten und verwendet die passende Sprungmarke, etwa `ls-glossar.html#absatzmenge`. Der Link steht bereit, sobald das betreffende Material zugänglich ist. Beim Öffnen zeigt die Seite den ausgewählten Begriff. **„Zurück zum Material“** führt zur verlinkten Stelle zurück. Die Nutzung ist freiwillig und kann unabhängig vom Fachbegriffscheck erfolgen.
