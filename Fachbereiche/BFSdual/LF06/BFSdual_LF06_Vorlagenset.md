@@ -1,6 +1,6 @@
 # BFSdual · LF 06 · Sortimente gestalten und den Verkauf fördern
 
-**Vorlagenset:** Zwei Läden, eine Freigabe  
+**Reihe:** Zwei Läden, eine Freigabe  
 **Bildungsgang:** BFS dual · Profil Wirtschaft · LÖPPT · 2. Halbjahr  
 **Modellunternehmen:** Global Bike Deutschland GmbH  
 **Umfang:** 8 eigenständig einsetzbare Lernsituationen · 60 UStd.  
@@ -24,28 +24,9 @@ Jede LS enthält den vollständigen Projektstand für ihre Szene, eigene Materia
 | 6.8 | Über die Fortführung der Aktion entscheiden | Begründete Empfehlung für beide Standorte | 6 |
 | | **Gesamt** | | **60** |
 
-## Aufbau des BFSdual-Vorlagensets
+## Aufbau der Lernsituationen
 
-Das Set verwendet die acht Stationen der GitHub-Vorlage: **Orientierung**, **Handlungssituation**, **Informieren**, **Planen**, **Entscheiden**, **Durchführen**, **Bewerten** und **Reflektieren**. Im Schritt Bewerten prüfen die Lernenden das Arbeitsergebnis, holen bei Bedarf Rückmeldung ein und überarbeiten es. Die Orientierung nennt den beruflichen Nutzen und stellt die fünf Kompetenzen aus der Ich-Perspektive voran. Die Handlungssituation erzählt den Fall und endet mit kurzen Verständnisfragen. Die Aufgaben beginnen mit verständlichen, fett gesetzten Operatoren.
-
-### Drei Lernpakete als Ergänzung zum Formstand
-
-Die Lernenden wählen zu Beginn der Phase **Entscheiden** je LS **genau ein Paket**. In Orientierung, Handlungssituation, Informieren und Planen bearbeiten alle denselben Fallstand und bereiten ihre Entscheidung mit den gemeinsamen Materialien vor. Nach der Wahl bearbeiten sie die fachliche Entscheidung und das Handlungsprodukt mit dem gewählten Zugang.
-
-| Kennung | Zugang | Typische Materialien und Tätigkeiten |
-| --- | --- | --- |
-| **A · Visuell** | Informationen im Bild oder in einer Übersicht erfassen und Beziehungen sichtbar machen. | Skizzen, Pläne, Diagramme, markierte Quellen, visuelle Vergleiche. |
-| **B · Auditiv und im Gespräch** | Informationen hören, mündlich ordnen und Entscheidungen besprechen. | Kurze Sprachnachrichten oder Vorlesefassungen, Rollengespräche und mündliche Auswertungen. |
-| **C · Haptisch-handelnd** | Informationen und Optionen durch Legen, Bauen, Verschieben oder Erproben erschließen. | Karten, maßstäbliche Modelle, Papierprototypen und praktische Tests. |
-
-Für A, B und C gelten **dieselbe Fachkompetenz, dieselben Fallinformationen, dasselbe Zeitbudget und dieselben Produktkriterien**. Das Datenblatt mit Maßen, Zahlen und Produktangaben steht allen offen. Hörtexte sind als Skripte enthalten. Karten und Modelle lassen sich aus den angegebenen Daten mit Papier, Schere, Klebeband oder vorhandenen Gegenständen herstellen. Ergebnisse aus Gesprächen oder Modellen werden in der jeweils geforderten Form dokumentiert. Die Wahl gilt für die aktuelle LS.
-
-### Vorgaben für die spätere Paketumsetzung
-
-- **Einordnung.** BFSdual erhält eine eigene Vorlagenkonfiguration auf Basis des gemeinsamen Formmasters. Jede Lernsituation bekommt eine eigene Kennung, z. B. `BFSDUAL-LF06-LS01`, und lokal zugeordnete Materialien. Die Kennungen A, B und C werden mit der LS-Kennung gespeichert.
-- **Auswahl und Ansicht.** Drei gleich gestaltete Karten erscheinen zu Beginn von Entscheiden und zeigen Zugang, Tätigkeit und gemeinsames Handlungsprodukt. Nach der Auswahl bleibt das Paket im Lernweg erkennbar. Materialzugriff und Rücksprung zur Aufgabe behalten die aktuelle Wahl. Audio verfügt über eine zugängliche Textfassung. Materialien und Arbeitsergebnisse sind mit Tastatur und auf schmalen Bildschirmen erreichbar.
-- **Fortschritt.** Bis einschließlich Planen funktionieren Aufgaben, Materialzugriff und Wiederaufnahme mit noch offener Paketwahl. Die Wahl ist Teil von Entscheiden und muss vor Durchführen vorliegen. Der Abschluss berücksichtigt die gemeinsamen Aufgaben sowie die Aufgaben im gewählten Paket der aktuellen LS. Bei der Wiederaufnahme werden der Aufgabenstand und, sobald getroffen, die Paketwahl wiederhergestellt.
-- **Prüfung.** Für jede LS den Start, die Bearbeitung bis Planen ohne Paketwahl und die Wiederaufnahme vor Entscheiden prüfen. Anschließend alle drei Varianten ab Entscheiden durchspielen. Prüfen, ob Paketwahl und Materialien nach Wiederaufnahme erreichbar sind und alle drei Wege mit demselben fachlichen Nachweis abschließen.
+Die acht Fälle sind ausgearbeitete Beispiele zur [gemeinsamen Vorlage für alle BFSdual-Lernfelder](../Vorlage_Lernsituation.md). Jede LS verwendet die acht Stationen des Formmasters 1.8.8. Die drei gleichwertigen Lernpakete werden jeweils zu Beginn von **Entscheiden** gewählt.
 
 ## LS 6.1 · Die Nachfrage an zwei Standorten vergleichen
 
