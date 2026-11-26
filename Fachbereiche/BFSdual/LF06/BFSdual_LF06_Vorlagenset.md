@@ -26,10 +26,7 @@ Jede LS enthält den vollständigen Projektstand für ihre Szene, eigene Materia
 
 ## Fachliche Grundlage zu LF 06
 
-- Andreas Blank (Hrsg.), *Ausbildung im Einzelhandel*, Band 1, 13. Auflage, Westermann 2026, Bestellnummer 37821.
-- Andreas Blank und Helge Meyer (Hrsg.), *Ausbildung im Groß- und Außenhandel*, Band 1, 10. Auflage, Westermann 2026, Bestellnummer 10852.
-
-M7 nennt je LS die passenden Buchseiten und erklärt die fachlichen Zusammenhänge am Global-Bike-Fall. Die Quellenbezüge beziehen sich auf die in dieser Reihe ausgewiesenen Fachkompetenzen.
+M7 erklärt die fachlichen Zusammenhänge am Global-Bike-Fall und bezieht sich auf die jeweilige Fachkompetenz. Der Platzhalter in M7 kann für einen späteren Verweis auf passendes BFSdual-Fachmaterial genutzt werden.
 
 ## Aufbau der Lernsituationen
 
@@ -202,7 +199,7 @@ Bei der Priorität unterscheidet die Matrix zwischen zwingenden und [wünschensw
 
 Kundenorientierung beginnt damit, dass ihr herausfindet, was die Menschen am jeweiligen Standort brauchen. Vergleicht in M1 und M2 die Anfragen und schaut, wie die Kundschaft dort ihre Ware auswählt. Prüft mit M3, welche Folgen Beratung, Selbstbedienung und verfügbare Fläche für das Angebot haben.
 
-**Fachbezug.** Einzelhandel, Bd. 1, S. 102–104, 123–124, 128–130 und 141–143 · Groß- und Außenhandel, Bd. 1, S. 86–89
+**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]
 
 ## LS 6.2 · Ein gemeinsames Sortiment mit lokalen Ergänzungen zusammenstellen
 
@@ -391,7 +388,7 @@ Die Nachfrageübersicht hilft dabei, mögliche [Sortimentslücken](Glossare/LS_6
 
 Zum Kernsortiment gehören die zentralen Waren eines Angebots. M1 zeigt, welche Bedürfnisse beide Standorte teilen und welche besonders in einem Laden auftreten. Mit dem Katalog und den Vorgaben aus M2 und M3 könnt ihr prüfen, welche Auswahl rechtzeitig lieferbar ist und auf die vorgesehenen Plätze passt.
 
-**Fachbezug.** Einzelhandel, Bd. 1, S. 124–126 · Groß- und Außenhandel, Bd. 1, S. 328–330
+**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]
 
 ## LS 6.3 · Waren im Fahrradfachgeschäft präsentieren
 
@@ -560,7 +557,7 @@ Der abgebildete Verkaufsbereich ist 4,80 m breit und 4,00 m tief. Der Nullpunkt 
 
 Im Fachgeschäft ergänzt die Vorführung die persönliche Beratung. Prüft mit M1 und M2, ob Kundschaft und Personal die Ware gut erreichen und am Vorführrad ausreichend Platz haben. Nutzt M3, um sinnvolle Artikelkombinationen und passende Warenplätze zu begründen.
 
-**Fachbezug.** Einzelhandel, Bd. 1, S. 470–471, 473–476 und 494–495 · Groß- und Außenhandel, Bd. 1, S. 243–244
+**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]
 
 ## LS 6.4 · Waren im Selbstbedienungsmarkt präsentieren
 
@@ -737,7 +734,7 @@ Mit den Fragen prüft ihr die Fläche für die [Selbstbedienung](Glossare/LS_6_4
 
 In der Selbstbedienung müssen Kundinnen und Kunden die Ware im Markt finden und ihre Auswahl am Regal treffen können. Nutzt M1 und M2, um zu entscheiden, wo Schilder auffallen und der Weg zum Regal frei bleibt. Stellt die entscheidenden Angaben aus M3 so dar, dass Interessierte die Produkte am Regal vergleichen und ihre Eignung selbst prüfen können.
 
-**Fachbezug.** Einzelhandel, Bd. 1, S. 142–143, 465–471 und 473–474 · Groß- und Außenhandel, Bd. 1, S. 98 und 245–246
+**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]
 
 ## LS 6.5 · Eine gemeinsame Werbeaktion abstimmen
 
@@ -901,7 +898,7 @@ Für den [Werbeplan](Glossare/LS_6_5_Glossar.md#werbeplan) schreibt ihr auf jede
 
 Ein gemeinsamer Werbeplan hält fest, wen die Aktion erreichen soll, wann die Werbung erscheint und wer welchen Beitrag übernimmt. M1 bis M3 zeigen, welche Werbeplätze zum Besuchsverhalten passen und wann welche Freigabe gebraucht wird. M2 enthält die Ausgangsdaten, mit denen ihr ein gemeinsames Werbeziel später überprüfen könnt.
 
-**Fachbezug.** Einzelhandel, Bd. 1, S. 518, 523, 526–531 und 534–535 · Groß- und Außenhandel, Bd. 1, S. 97
+**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]
 
 ## LS 6.6 · Werbemittel für beide Standorte gestalten
 
@@ -1063,7 +1060,7 @@ Zeichnet einen Handyrahmen, der auf ein Blatt A5 passt, und daneben den Umriss e
 
 Sprache, Blickfang und Aufforderung können sich zwischen Newsletter und Eingangsschild unterscheiden. Die gemeinsame Werbebotschaft bleibt dabei erkennbar. M1 und M4 zeigen euch, welche Informationen die jeweilige Kundschaft braucht. M2 hilft euch, die Produktaussagen aus M3 zu prüfen.
 
-**Fachbezug.** Einzelhandel, Bd. 1, S. 520, 526–527, 531–534 und 539 · Groß- und Außenhandel, Bd. 1, S. 245–246
+**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]
 
 ## LS 6.7 · Die Entwürfe vor der Freigabe prüfen
 
@@ -1233,7 +1230,7 @@ Haltet die Ergebnisse für jedes Geschäft im [Testprotokoll](Glossare/LS_6_7_Gl
 
 Eine Probe vor der Freigabe zeigt, durch welche Hinweise sich die Kundschaft auf der Fläche orientiert und welche Werbebotschaft sie versteht. Achtet beim Test der Entwürfe aus M1 und M2 darauf, wo die Testpersonen tatsächlich suchen und wie sie die Werbung in eigenen Worten wiedergeben. Aus diesen Beobachtungen begründet ihr Änderungen und haltet sie im Testprotokoll M5 fest.
 
-**Fachbezug.** Einzelhandel, Bd. 1, S. 499–502 (Probe, Rückmeldung und Dokumentation) · Einzelhandel, Bd. 1, S. 549, 551 (Werbekommunikation und Kundenmeinungen) · Die Quellenimpulse zu Probe, Dokumentation und Kundenrückmeldung sind auf den Test vor der Freigabe übertragen.
+**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]
 
 ## LS 6.8 · Über die Fortführung der Aktion entscheiden
 
@@ -1404,4 +1401,4 @@ Haltet je Standort und Bereich eine [begründete Empfehlung](Glossare/LS_6_8_Glo
 
 Nach der Aktion vergleicht ihr die verkauften Stückzahlen jedes Geschäfts mit seiner eigenen Vergleichswoche und prüft das Ergebnis am gemeinsamen Ziel in M1. Nutzt die Kundenstimmen aus M3, um Änderungen an Sortiment, Platzierung oder Werbung zu begründen. Die Absatzzahlen zeigen die Veränderung während der Aktion und lassen offen, welchen Anteil die Werbung daran hatte.
 
-**Fachbezug.** Einzelhandel, Bd. 1, S. 547–552 (Zielerreichung, Abverkaufsanalyse und Kundenmeinungen) · Groß- und Außenhandel, Bd. 1, S. 329–331 (Sortimentskontrolle mit Absatzdaten)
+**Weiterführendes BFSdual-Fachmaterial.** [Titel oder Materiallink ergänzen]
