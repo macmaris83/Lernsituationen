@@ -48,7 +48,7 @@ Die Werte im Kompetenznetz zeigen, wie stark die verbindlichen Aufgaben die fün
 
 #### Warum wir das lernen
 
-Am Kiosk neben der Schule wollt ihr in der Pause schnell etwas finden. In einem Laden auf dem Weg zum Badesee suchen viele eher nach Dingen für einen ganzen Nachmittag. Wenn ihr im Praktikum eine Aktion mitplant, könnt ihr solche Unterschiede gezielt beobachten und begründen, welches Angebot und welche Präsentation zum jeweiligen Standort passen.
+Für den Schulweg mit dem Rad wollt ihr vielleicht vor dem Kauf sehen, ob ein Licht an euren Lenker passt. Wer Zubehör für einen Familienausflug sucht, möchte womöglich schnell erkennen, welche Pumpe zu den Rädern passt. Für die Global-Bike-Aktion bei Block in Aurich und in der Bike Arena in Leer vergleicht ihr die Kundenanfragen, die Beratung und den Platz. So könnt ihr begründen, was die Kundschaft an jedem der beiden Standorte braucht und wie sie das Zubehör dort findet oder ausprobiert.
 
 #### Kompetenzprofil und Kompetenznetz
 
@@ -289,7 +289,7 @@ Bei der Priorität unterscheidet die Matrix zwischen zwingenden und [wünschensw
 
 #### Warum wir das lernen
 
-Beim Schulfest habt ihr an zwei Ständen nur begrenzt Platz. Wasser wird an beiden gebraucht, am Sportplatz fragen viele auch nach etwas, das sie unterwegs essen können. Wenn ihr gemeinsame Wünsche und Besonderheiten vor Ort auseinanderhaltet, könnt ihr gezielter einkaufen. Nach demselben Prinzip stellt ihr im Fall ein passendes Angebot für zwei Läden zusammen.
+Für den Schulweg bei Regen sucht ihr im Fahrradladen anderes Zubehör als für eine lange Tour. Manche Artikel helfen euch auf beiden Wegen, bei anderen kommt es darauf an, was ihr vorhabt. Für die Aktion bei Block und in der Bike Arena entscheidet ihr, welche Artikel beide Läden anbieten sollten und welche vor Ort dazukommen. Dazu prüft ihr Kundenanfragen, Lieferbarkeit und die verfügbaren Plätze.
 
 #### Kompetenzprofil und Kompetenznetz
 
@@ -550,7 +550,7 @@ Die Nachfrageübersicht hilft dabei, mögliche [Sortimentslücken](Glossare/LS_6
 
 #### Warum wir das lernen
 
-Wenn ihr Schuhe anprobiert, merkt ihr schnell, ob ihr Platz zum Sitzen habt und ob sich ein zweites Paar gut dazuholen lässt. Auch bei Fahrradzubehör hilft das Ausprobieren, um zu sehen, ob ein Teil zum Rad passt. Hier lernt ihr, eine kleine Verkaufsfläche so zu planen, dass ihr im Praktikum Produkte zeigen und gleichzeitig Platz für andere Kundinnen und Kunden lassen könnt.
+Beim Kauf eines Fahrradlichts könnt ihr am eigenen Rad prüfen, ob die Halterung neben eure Klingel passt. Dafür braucht ihr im Laden Platz am Lenker, und das Personal muss sowohl an das Muster als auch an die verpackte Ware herankommen. Für die Aktion bei Block plant ihr, welche Artikel zusammenstehen und wo die Vorführung stattfinden kann, damit andere auch mit einem Fahrrad vorbeikommen.
 
 #### Kompetenzprofil und Kompetenznetz
 
@@ -791,7 +791,7 @@ Der abgebildete Verkaufsbereich ist 4,80 m breit und 4,00 m tief. Der Nullpunkt 
 
 #### Warum wir das lernen
 
-Ihr sucht im Elektronikmarkt ein Ladekabel. Das Schild führt euch zum richtigen Regal, aber welche der ähnlich aussehenden Packungen passt zu eurem Gerät? Ihr lernt, woran ihr euch beim selbstständigen Einkaufen orientieren könnt und wie ihr im Praktikum Waren so anordnet und beschriftet, dass andere diese Entscheidung selbst treffen können.
+Ihr steht vor zwei ähnlich verpackten Pumpen und wollt erkennen, welche zu eurem Ventil passt. Gut sichtbare Angaben helfen euch bei der Entscheidung, sobald ihr das richtige Regal gefunden habt. Für die geplante Zubehörfläche in der Bike Arena legt ihr den Weg zum Regal fest und entscheidet, welche Hinweise dort sichtbar sein müssen, damit die Kundschaft selbst vergleichen und auswählen kann.
 
 #### Kompetenzprofil und Kompetenznetz
 
@@ -1040,7 +1040,7 @@ Mit den Fragen prüft ihr die Fläche für die [Selbstbedienung](Glossare/LS_6_4
 
 #### Warum wir das lernen
 
-Ihr kündigt einen Flohmarkt an. Im Gruppenchat steht 14 Uhr, auf dem Aushang 15 Uhr. Wer das Plakat gesehen hat, kommt womöglich zu spät. Hier übt ihr, eine Aktion gemeinsam abzusprechen, die passenden Kanäle zu wählen und festzulegen, wer welche Information wann veröffentlicht. Das hilft euch bei eigenen Veranstaltungen und bei Aktionen im Praktikum.
+Wenn ihr ein Licht für den Schulweg sucht, kann euch eine Nachricht auf dem Handy rechtzeitig zur Beratung einladen. Wer die Aktion erst beim Einkauf am Samstag entdeckt, muss den Hinweis vor Ort sehen können. Für Global Bike stimmt ihr mit Block und der Bike Arena ab, wie die Hinweise die Kundschaft zur passenden Zeit erreichen, wer sich darum kümmert und woran beide Läden den Erfolg messen.
 
 #### Kompetenzprofil und Kompetenznetz
 
@@ -1275,7 +1275,7 @@ Für den [Werbeplan](Glossare/LS_6_5_Glossar.md#werbeplan) schreibt ihr auf jede
 
 #### Warum wir das lernen
 
-Beim Scrollen klingt „passt für jedes Gerät“ praktisch. Bevor ihr bestellt, könnt ihr prüfen, ob die Produktdaten das Versprechen tatsächlich stützen. Hier nutzt ihr dieselbe Fähigkeit beim Erstellen von Werbung. Ihr entscheidet, welche Informationen die jeweilige Zielgruppe braucht und wie ihr sie auf dem Handy oder auf einem Schild verständlich zeigt.
+Wenn ihr ein Licht für euer Rad sucht, klingt „passt an jeden Lenker“ praktisch. Ob ihr es tatsächlich befestigen könnt, hängt von eurem Lenker und der Halterung ab. Für Global Bike prüft ihr solche Aussagen an den Produktblättern und macht die gemeinsame Aktion sowohl im Newsletter für Block als auch auf dem Eingangsschild in der Bike Arena verständlich.
 
 #### Kompetenzprofil und Kompetenznetz
 
@@ -1507,7 +1507,7 @@ Zeichnet einen Handyrahmen, der auf ein Blatt A5 passt, und daneben den Umriss e
 
 #### Warum wir das lernen
 
-Ihr schickt jemandem eine Wegbeschreibung zum Treffpunkt. Für euch ist sie klar, die andere Person wartet am falschen Eingang. Wenn ihr beobachtet, wo jemand abbiegt oder nachfragt, könnt ihr genau diese Stelle verbessern. Das übt ihr hier mit Werbung und einer Verkaufsfläche und könnt es auch für eure nächsten Aushänge oder Wegbeschreibungen nutzen.
+Am Eingang seht ihr einen Hinweis auf eine Minipumpe. Ob euch die grüne Markierung zur richtigen Pumpe führt, merkt ihr erst beim Suchen. Vor der Freigabe für Block und die Bike Arena beobachtet ihr, wie Testpersonen mit der Werbung und den Plänen zurechtkommen. Ihre Wege und Antworten zeigen euch, welche Hinweise oder Platzierungen ihr ändern solltet.
 
 #### Kompetenzprofil und Kompetenznetz
 
@@ -1749,7 +1749,7 @@ Haltet die Ergebnisse für jedes Geschäft im [Testprotokoll](Glossare/LS_6_7_Gl
 
 #### Warum wir das lernen
 
-Bei einem Schulturnier haben sich diesmal mehr Leute angemeldet. Trotzdem sagen einige, dass sie wegen langer Wartezeiten nächstes Mal lieber aussetzen. Wenn ihr über die nächste Runde entscheidet, helfen euch Zahlen und Rückmeldungen zusammen. In dieser LS beurteilt ihr damit, ob eine Verkaufsaktion ihr Ziel erreicht hat und welche Änderungen ihr begründet empfehlen könnt.
+Wenn ihr bei einer Aktion eine Pumpe kauft, kann der Laden den Verkauf zählen. Ob ihr sie schnell gefunden habt oder euch beim Vergleich eine Angabe gefehlt hat, erfährt der Laden durch eure Rückmeldung. Für Global Bike wertet ihr beides bei Block und in der Bike Arena aus. So könnt ihr begründen, ob die Aktion ihr Ziel erreicht hat und was die Läden beim nächsten Mal beibehalten oder ändern sollten.
 
 #### Kompetenzprofil und Kompetenznetz
 

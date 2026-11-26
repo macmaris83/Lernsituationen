@@ -15,7 +15,7 @@ Diese Vorlage gilt für **alle Lernfelder der BFSdual**. Übernehmt die acht Sta
 
 ### Warum wir das lernen
 
-[Schreibt zwei bis vier kurze Sätze direkt an die Lernenden. Beginnt mit einer konkreten Situation, die ihnen aus ihrem Alltag begegnen kann, etwa beim Einkaufen, unterwegs, online, in der Schule oder im Praktikum. Zeigt, **was sie mit der Fachkompetenz dort besser entscheiden, einschätzen oder selbst tun können**. Führt von diesem persönlichen Nutzen zum beruflichen Fall der Lernsituation.]
+[Schreibt zwei bis vier kurze Sätze direkt an die Lernenden. Beginnt mit einem konkreten Erlebnis aus ihrem Alltag oder Praktikum, das unmittelbar zur Handlungssituation passt. Greift einen Ort, einen Gegenstand oder eine Frage aus dem Fall auf. Nennt im letzten Satz die Entscheidung oder Aufgabe aus der Handlungssituation und zeigt, was die Lernenden dabei für sich oder andere besser entscheiden, einschätzen oder tun können.]
 
 ### Kompetenzprofil und Kompetenznetz
 
@@ -191,7 +191,7 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 
 ## Redaktionshinweise für das Vorlagenset
 
-- **Lernbedeutsamkeit.** Wählt einen Lebensweltbezug, bei dem dieselbe Fähigkeit tatsächlich gebraucht wird. Der Abschnitt beantwortet aus Sicht der Lernenden die Fragen „Wann hilft mir das?“ und „Was kann ich danach besser?“. Ein kurzer Denkimpuls kann eigene Erfahrungen aufgreifen und bleibt freiwillig.
+- **Lernbedeutsamkeit.** Prüft, ob das Alltagsbeispiel und der Fall dieselbe konkrete Frage aufwerfen. Der Einstieg nennt den Fall oder einen seiner Schauplätze und führt in den fachlichen Auftrag. In LF 06 steht die Kundschaft zum Beispiel vor zwei Pumpen und braucht eine verständliche Angabe zum Ventil. Auf der Aktionsfläche entscheiden die Lernenden, wo die Kundschaft diese Angabe findet.
 - **LS-Glossar.** Erstellt für jede LS eine eigene [Nachschlageseite](Vorlage_LS_Glossar.md). Prüft alle Begriffe aus dem Fachbegriffscheck und verlinkt sie im Material, wo sie im Fall sinnvoll gebraucht werden. Verlinkt dort auch weitere Begriffe, deren Erklärung bei der Bearbeitung hilft. Die Zahl der Links richtet sich nach dem Material. Setzt den Link direkt an den Fachbegriff im Satz oder in der Tabelle. Beispiel für M2: `[Absatzmenge](Glossare/LS_6_8_Glossar.md#absatzmenge)`. Erklärt die Begriffe in einfacher Sprache und ergänzt je ein kurzes Beispiel aus dem Fall. Das Begriffsblatt für die Vorbereitung auf den Fachbegriffscheck bleibt bei „Informieren“ verfügbar.
 - **Gemeinsamer Einstieg.** Orientierung, Handlungssituation, Informieren und Planen verwenden gemeinsame Fachaufträge und Fallunterlagen. Die Lernpaketwahl erscheint zu Beginn von **Entscheiden**. Die fachliche Entscheidung folgt auf Basis des gewählten Zugangs.
 - **Gleichwertige Zugänge.** A, B und C haben dieselbe Fachkompetenz, dieselbe fachliche Datengrundlage, dasselbe Handlungsprodukt, dieselben Bewertungskriterien und denselben Zeitrahmen. Die Pakete verändern die Arbeitsweise. Alle erhalten Zugriff auf genaue Zahlen, Maße und fachliche Belege. Sprachfassungen und Modelle enthalten die Informationen, die zur Bearbeitung tatsächlich nötig sind.
