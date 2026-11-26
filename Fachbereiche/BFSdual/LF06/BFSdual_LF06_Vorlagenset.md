@@ -82,6 +82,8 @@ Beide Geschäfte haben die gleiche Aktionswoche vorgemerkt. Um 10 Uhr sitzen ihr
 
 **Ordnet** eure Belege nach Standort und Vergleichskriterium. Kennzeichnet, welche Hinweise das Sortiment betreffen und welche sich auf die Präsentation auswirken.
 
+[LS-Glossar öffnen](Glossare/LS_6_1_Glossar.md) · Hier könnt ihr Fachbegriffe zu dieser LS nachschlagen.
+
 ### Entscheiden
 
 #### Lernpaket wählen
@@ -218,6 +220,8 @@ Das Fahrradfachgeschäft möchte wenig Ware auf der kleinen Fläche unterbringen
 ### Planen
 
 **Plant** eure Auswahl mit den Vorgaben aus M3. Haltet fest, woran ein gemeinsamer Artikel und woran eine sinnvolle lokale Ergänzung zu erkennen sind.
+
+[LS-Glossar öffnen](Glossare/LS_6_2_Glossar.md) · Hier könnt ihr Fachbegriffe zu dieser LS nachschlagen.
 
 ### Entscheiden
 
@@ -380,6 +384,8 @@ Eine Kundin schiebt ihr Fahrrad herein und fragt nach einer Lampe für ihren Len
 
 **Skizziert** zwei grobe Anordnungen für Warenträger und Vorführplatz. Haltet fest, welche Zugänge, Maße und Vorgaben ihr bei beiden Anordnungen prüfen müsst.
 
+[LS-Glossar öffnen](Glossare/LS_6_3_Glossar.md) · Hier könnt ihr Fachbegriffe zu dieser LS nachschlagen.
+
 ### Entscheiden
 
 #### Lernpaket wählen
@@ -522,6 +528,8 @@ Der Abteilungsleiter sieht auf die Uhr. „Genau dafür brauchen wir morgen eine
 ### Planen
 
 **Skizziert** zwei grobe Anordnungen für Wege und Warenträger. Haltet fest, wo die Kundschaft in beiden Varianten eine Orientierung oder Angaben zum Produktvergleich braucht.
+
+[LS-Glossar öffnen](Glossare/LS_6_4_Glossar.md) · Hier könnt ihr Fachbegriffe zu dieser LS nachschlagen.
 
 ### Entscheiden
 
@@ -670,6 +678,8 @@ Am Mittwoch vor der Aktion legt Jana, die Vertriebsleiterin von Global Bike, den
 
 **Skizziert** zwei mögliche Abläufe für die Werbeaktion. Notiert wichtige Fristen und eine Kennzahl, die beide Standorte für ein gemeinsames Ziel erfassen können.
 
+[LS-Glossar öffnen](Glossare/LS_6_5_Glossar.md) · Hier könnt ihr Fachbegriffe zu dieser LS nachschlagen.
+
 ### Entscheiden
 
 #### Lernpaket wählen
@@ -808,6 +818,8 @@ Jana öffnet kurz vor der internen Freigabe zwei Rohentwürfe. „Schaut hier. I
 
 **Haltet fest**, welche Zielgruppe ihr mit jedem Format erreichen wollt, welche Handlung die Werbung auslösen soll und welche Produktangaben dafür in Frage kommen.
 
+[LS-Glossar öffnen](Glossare/LS_6_6_Glossar.md) · Hier könnt ihr Fachbegriffe zu dieser LS nachschlagen.
+
 ### Entscheiden
 
 #### Lernpaket wählen
@@ -943,6 +955,8 @@ Beim Blick auf den Plan des Sportfachmarkts fragt ein Kollege: „Welchen Eingan
 ### Planen
 
 **Plant** im Team je Standort einen kurzen Such- und Verständnistest. Verteilt die Rollen für Anleitung und Beobachtung. Legt mit M3 und M5 fest, was ihr protokolliert.
+
+[LS-Glossar öffnen](Glossare/LS_6_7_Glossar.md) · Hier könnt ihr Fachbegriffe zu dieser LS nachschlagen.
 
 ### Entscheiden
 
@@ -1081,6 +1095,8 @@ Jana stellt euch den Aktionsbericht mit vergleichbaren Absatzdaten, Kundenrückm
 ### Planen
 
 **Plant** einen Vergleich, der für beide Geschäfte dieselben Fragen beantwortet. Legt fest, wo ihr die Zielerreichung, die wichtigsten Produktdaten und passende Rückmeldungen festhaltet.
+
+[LS-Glossar öffnen](Glossare/LS_6_8_Glossar.md) · Hier könnt ihr Fachbegriffe zu dieser LS nachschlagen.
 
 ### Entscheiden
 

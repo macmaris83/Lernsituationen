@@ -67,6 +67,8 @@ Füllt eine Zeile pro Fachbegriff aus. Stellt die zutreffenden Erklärungen bei 
 
 **Skizziert** mögliche Vorgehensweisen oder Lösungen. Haltet fest, welche Vorgaben, Belege und Entscheidungskriterien ihr später prüfen müsst.
 
+[LS-Glossar öffnen](Vorlage_LS_Glossar.md) · Hier könnt ihr Fachbegriffe aus dieser Lernsituation nachschlagen.
+
 ## Entscheiden
 
 ### Lernpaket wählen
@@ -116,12 +118,14 @@ Fügt die Unterlagen direkt in die LS ein oder verlinkt die zugehörigen Dateien
 ## Redaktionshinweise für das Vorlagenset
 
 - **Lernbedeutsamkeit.** Wählt einen Lebensweltbezug, bei dem dieselbe Fähigkeit tatsächlich gebraucht wird. Der Abschnitt beantwortet aus Sicht der Lernenden die Fragen „Wann hilft mir das?“ und „Was kann ich danach besser?“. Ein kurzer Denkimpuls kann eigene Erfahrungen aufgreifen und bleibt freiwillig.
+- **LS-Glossar.** Erstellt für jede LS eine eigene Nachschlageseite nach der [Glossarvorlage](Vorlage_LS_Glossar.md) und ersetzt den Musterlink unter „Planen“ durch den Link zum Glossar der LS. Erklärt die zentralen Begriffe in einfacher Sprache und ergänzt je ein kurzes Beispiel aus dem Fall. Das Glossar darf weitere Begriffe aus den Aufgaben und Materialien aufnehmen. Das Begriffsblatt zum Vorbereiten auf den Fachbegriffscheck bleibt bei „Informieren“ verfügbar.
 - **Gemeinsamer Einstieg.** Orientierung, Handlungssituation, Informieren und Planen verwenden gemeinsame Fachaufträge und Fallunterlagen. Die Lernpaketwahl erscheint zu Beginn von **Entscheiden**. Die fachliche Entscheidung folgt auf Basis des gewählten Zugangs.
 - **Gleichwertige Zugänge.** A, B und C haben dieselbe Fachkompetenz, dieselbe fachliche Datengrundlage, dasselbe Handlungsprodukt, dieselben Bewertungskriterien und denselben Zeitrahmen. Die Pakete verändern die Arbeitsweise. Alle erhalten Zugriff auf genaue Zahlen, Maße und fachliche Belege. Sprachfassungen und Modelle enthalten die Informationen, die zur Bearbeitung tatsächlich nötig sind.
 - **Eigenständiger Fall.** Jede Lernsituation enthält eine vollständige Ausgangslage, eigene erreichbare Materialien, eine fachliche Entscheidung und ein abschließendes Handlungsprodukt. Ergebnisse innerhalb der LS werden weiterverwendet. Der Start einer anderen LS erfolgt mit den dort bereitgestellten Fallunterlagen.
 - **Aufträge.** Verwendet pro Phase klare, gebündelte Aufgaben mit fett gesetzten Operatoren. Benennt die nötigen Arbeitsformen und Materialien dort, wo sie gebraucht werden.
 - **Kompetenznetz im SCORM-Paket.** Übernehmt in der Orientierung fünf Achsen in Tabellenreihenfolge. Beschriftet die sechs Skalenringe von **1 innen bis 6 außen** und zeigt die fünf Werte auch als Text. Übertragt die Tabellenwerte je LS in `competencies[].weight`. Die separate Selbsteinschätzung in Reflektieren folgt der SCORM-Skala **1–4** vom Arbeiten mit enger Hilfe bis zur selbstständigen, begründeten Anwendung im Transfer und kann mit einem Arbeitsbeleg ergänzt werden.
 - **Fachbegriffscheck im SCORM-Paket.** Verlinkt nach Informieren **„Begriffe prüfen“** auf `begriffstraining.html`. Übernehmt die Karten mit stabiler ID, Definition, Antwortalternativen und Rückmeldung. Hinterlegt den Check in der Navigation, den Fortschrittsdaten und dem Paketmanifest. Die Auswertung öffnet den Weg zu Planen und zeigt gezielte Nacharbeit zu unsicheren Begriffen an. Der Kurzcheck zur Handlungssituation bleibt ein eigener Schritt.
+- **LS-Glossar im SCORM-Paket.** Nehmt die eigene Seite `ls-glossar.html` in das Paketmanifest auf und blendet sie aus Phasenübersicht und Materialmenü aus. Zeigt **„LS-Glossar öffnen“** erstmals in der Auswertung des Fachbegriffschecks, sobald Planen freigegeben ist, und anschließend in den freigegebenen Phasen ab Planen. **„Zurück“** führt zur zuvor geöffneten Aufgabe oder zur Auswertung. Die Nutzung ist freiwillig. Stellt beim Zurückkehren Aufgabenstatus, Punkte und Lernpaketwahl aus dem gespeicherten LS-Stand dar.
 - **Paketansicht bei einer digitalen Umsetzung.** Zeigt in Entscheiden drei gleich gestaltete Wahlkarten mit Zugang, Tätigkeit und Ergebnis. Bis einschließlich Planen funktionieren Navigation, Materialzugriff und Wiederaufnahme bei offener Paketwahl. Für Durchführen ist eine Auswahl erforderlich. Speichert Aufgabenstand, Fachbegriffscheck und Auswahl je LS und prüft die Wiederaufnahme vor und nach der Wahl. Der Abschluss berücksichtigt die gemeinsamen Aufgaben und den gewählten Lernweg.
 
 [Ausgearbeitetes Reihenbeispiel für LF 06](LF06/BFSdual_LF06_Vorlagenset.md) · [Technisches Referenzbeispiel für den Fachbegriffscheck](../Geschichte/IdentitaetUndNation/Lernpaket/begriffstraining.html)
