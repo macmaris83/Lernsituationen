@@ -16,7 +16,7 @@ Die Seite eines Regals oder eines anderen Warenträgers, an der man die Ware ans
 
 ## Beratungstresen
 
-Ein fester Arbeitsplatz im Laden, an dem das Verkaufspersonal die Kundschaft bedient.
+Eine Theke im Laden, an der das Verkaufspersonal die Kundschaft berät und bedient.
 
 **Beispiel.** Der Tresen bleibt an der Stelle im Plan. Auch während der Aktion muss man ihn erreichen können (M1 und M2).
 
@@ -28,7 +28,7 @@ Der wichtigste freie Weg für Kundinnen und Kunden im Laden.
 
 ## Muster
 
-Ein Artikel, den die Kundschaft ansehen, genauer prüfen oder ausprobieren darf.
+Ein Exemplar eines Artikels, das der Laden zum Ansehen, Prüfen oder Ausprobieren bereitlegt.
 
 **Beispiel.** Die Kundschaft darf das Muster des Sattelüberzugs anfassen und am Vorführrad ausprobieren (M3).
 
@@ -58,8 +58,8 @@ Die feste Stelle im Laden oder im Regal, an der die Kundschaft einen bestimmten 
 
 ## Warenträger
 
-Ein Regal, ein Tisch oder etwas Ähnliches, auf dem ein Laden seine Ware zeigt.
+Ein Regal, ein Tisch oder etwas Ähnliches, auf oder an dem ein Laden seine Ware zeigt.
 
 **Beispiel.** Das Fachgeschäft zeigt die Ware in zwei Rollregalen und auf einem Tisch (M2).
 
-[Zurück zur Übersicht von LF 06](../BFSdual_LF06_Vorlagenset.md)
+[Zur Lernsituation 6.3](../LS_6_3_Fachgeschaeft_gestalten.md)

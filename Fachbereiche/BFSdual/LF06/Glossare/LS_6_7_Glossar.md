@@ -12,19 +12,19 @@ Wie leicht die Kundschaft einen Artikel mithilfe der Wege und Hinweise findet.
 
 Etwas, das ihr im Test seht oder hört.
 
-**Beispiel.** „Die Person zeigte zuerst auf die alte Zubehörinsel.“ Das habt ihr im Test gesehen und könnt es aufschreiben (M2, M5).
+**Beispiel.** „Die Person blieb am ersten Regal stehen.“ Das könnt ihr im Test beobachten und aufschreiben (M5).
 
 ## Fundstelle
 
 Die Stelle, an der jemand den gesuchten Artikel findet.
 
-**Beispiel.** Die Suche startet am Eingang. Die Minipumpe P50 liegt an der neuen Aktionsgondel, dem Regal für die Aktion (M2, M3, M5).
+**Beispiel.** Die Suche startet am Eingang. Als Fundstelle notiert ihr zum Beispiel „Wandregal, Reihe 2“ (M5).
 
 ## Neutrale Testanleitung
 
 Sie sagt, wo die Testperson startet und was sie tun soll. Die Person wählt den Weg selbst.
 
-**Beispiel.** „Zeig mir, wo du die Pumpe suchen würdest.“ Die Frage gibt keinen Weg vor (M3).
+**Beispiel.** „Du willst die Minipumpe P50 kaufen. Zeig deinen Weg.“ Die Aufgabe gibt keinen Weg vor (M3).
 
 ## Praxistest
 
@@ -62,4 +62,4 @@ Eine erste Fassung der Werbung. Das Team kann sie bis zur Freigabe prüfen und �
 
 **Beispiel.** Der Text für das Eingangsschild ist ein Werbeentwurf. Nach dem Test könnt ihr den Hinweis auf die grüne Markierung ändern (M2, M3).
 
-[Zurück zur Übersicht von LF 06](../BFSdual_LF06_Vorlagenset.md)
+[Zur Lernsituation 6.7](../LS_6_7_Entwuerfe_testen.md)

@@ -30,7 +30,7 @@ Etwas in der Werbung, das zuerst auffällt, zum Beispiel eine Überschrift oder 
 
 Ein Hinweis darauf, was Kundinnen und Kunden als Nächstes tun können oder sollen.
 
-**Beispiel.** „Kommt zur Beratung zu Block“ sagt den Menschen, was sie als Nächstes tun können (M1).
+**Beispiel.** „Lasst euch bei Block beraten“ sagt den Menschen, was sie als Nächstes tun können (M1).
 
 ## Lieferumfang
 
@@ -54,7 +54,7 @@ Die wichtigste Aussage, die der Kundschaft von der Werbung im Kopf bleiben soll.
 
 Die gestaltete Werbung, etwa der Newsletter-Ausschnitt oder das Schild. Sie macht die Werbebotschaft sichtbar oder hörbar.
 
-**Beispiel.** Der fertige Newsletter-Ausschnitt ist das Werbemittel für Block (M1).
+**Beispiel.** Bei Block ist der fertige Beitrag das Werbemittel. Der E-Mail-Newsletter verbreitet ihn (M1).
 
 ## Zielgruppe
 
@@ -62,4 +62,4 @@ Die Menschen, die eine Werbung erreichen soll. Die Werbung passt zu dem, was sie
 
 **Beispiel.** Der Newsletter richtet sich an Menschen, die im Alltag Rad fahren und Zubehör am eigenen Rad ausprobieren möchten (M1, M4).
 
-[Zurück zur Übersicht von LF 06](../BFSdual_LF06_Vorlagenset.md)
+[Zur Lernsituation 6.6](../LS_6_6_Werbemittel_gestalten.md)

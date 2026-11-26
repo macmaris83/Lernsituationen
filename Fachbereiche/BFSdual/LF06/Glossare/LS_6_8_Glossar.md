@@ -6,7 +6,7 @@ Hier könnt ihr Begriffe aus **Über die Fortführung der Aktion entscheiden** n
 
 Die Zahl der verkauften Stücke in einem bestimmten Zeitraum. Sie kann einen Artikel oder eine Gruppe von Artikeln betreffen.
 
-**Beispiel.** In M2 steht, wie viele Stück der Minipumpe P50 verkauft wurden (M2).
+**Beispiel.** In der Tabelle steht, wie viele Minipumpen P50 jeder Laden verkauft hat (M2).
 
 ## Aktionssortiment
 
@@ -18,7 +18,7 @@ Alle Artikel, die während der Verkaufsaktion dazugehören.
 
 Ein konkreter Vorschlag mit einem Beleg aus den Zahlen oder dem Fall.
 
-**Beispiel.** Wollt ihr eine Produktangabe ergänzen? Dann nennt die Kundenrückmeldung, die zeigt, warum die Angabe fehlt (M3).
+**Beispiel.** Wollt ihr eine Produktangabe ergänzen? Dann nennt die Kundenrückmeldung, die zeigt, welche Angabe gefehlt hat (M3).
 
 ## Kernsortiment
 
@@ -62,4 +62,4 @@ Sie zeigt, ob das erreichte Ergebnis das festgelegte Ziel erfüllt.
 
 **Beispiel.** Jeder Laden will mindestens 20 Prozent mehr Stück verkaufen. Vergleicht dafür den berechneten Wert mit dem Ziel (M1, M5).
 
-[Zurück zur Übersicht von LF 06](../BFSdual_LF06_Vorlagenset.md)
+[Zur Lernsituation 6.8](../LS_6_8_Folgeaktion_entscheiden.md)

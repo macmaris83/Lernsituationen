@@ -62,4 +62,4 @@ Die Kundschaft fragt nach etwas. Der Laden hat dafür keinen passenden Artikel i
 
 **Beispiel.** Kunden fragen nach Schutz für nasse Sättel. Wenn der Laden keinen passenden Artikel anbietet, kann es eine Lücke geben (M1, M2).
 
-[Zurück zur Übersicht von LF 06](../BFSdual_LF06_Vorlagenset.md)
+[Zur Lernsituation 6.2](../LS_6_2_Sortiment_auswaehlen.md)

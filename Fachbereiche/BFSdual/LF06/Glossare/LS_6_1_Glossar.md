@@ -62,4 +62,4 @@ Eine Vorgabe, die ihr im Vorschlag unbedingt einhalten müsst.
 
 **Beispiel.** Der Zugang zur Werkstatt bei Block muss frei bleiben (M3).
 
-[Zurück zur Übersicht von LF 06](../BFSdual_LF06_Vorlagenset.md)
+[Zur Lernsituation 6.1](../LS_6_1_Standorte_vergleichen.md)

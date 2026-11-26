@@ -46,13 +46,13 @@ Eine Stelle am Fahrradrahmen, in die man eine passende Schraube drehen kann. Die
 
 ## Selbstbedienung
 
-Eine Verkaufsform, bei der die Kundschaft die Ware meist selbst findet, auswählt und aus dem Regal nimmt.
+Eine Verkaufsform, bei der die Kundschaft die Ware meist selbst findet, auswählt und vom Warenplatz nimmt.
 
 **Beispiel.** Eine Kundin liest die Ventilangaben auf der Produktkarte und wählt selbst eine Pumpe (M2, M3).
 
 ## Vergleichsinformation
 
-Die gleiche Art von Angabe für mehrere Produkte. So kann die Kundschaft die Produkte vergleichen und prüfen, welches passt.
+Eine Produktangabe, mit der man Artikel vergleichen oder ihre Eignung prüfen kann.
 
 **Beispiel.** Bei beiden Pumpen könnt ihr die passenden Ventilarten, die Maße und die Ausstattung nebeneinander schreiben (M3).
 
@@ -62,4 +62,4 @@ Eine Gruppe von Artikeln, die einem ähnlichen Zweck dienen. Das Geschäft fasst
 
 **Beispiel.** Mini- und Standpumpen bilden auf der Aktionsfläche in der Bike Arena eine Warengruppe (M3).
 
-[Zurück zur Übersicht von LF 06](../BFSdual_LF06_Vorlagenset.md)
+[Zur Lernsituation 6.4](../LS_6_4_Selbstbedienungsflaeche_gestalten.md)

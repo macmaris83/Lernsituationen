@@ -10,9 +10,9 @@ Der Zeitpunkt, ab dem ein Werbemittel zu sehen ist, verteilt oder aufgestellt wi
 
 ## Erfolgskontrolle
 
-Ihr vergleicht das gemessene Ergebnis der Werbung mit dem vorher vereinbarten Ziel.
+Ihr prüft mit den gemessenen Ergebnissen, ob die Aktion das vereinbarte Ziel erreicht hat.
 
-**Beispiel.** Beide Läden können melden, wie viele Stücke sie während der Aktion verkauft haben. Den Wert vergleichen sie mit der Zahl aus ihrer Vergleichswoche (M2, M5).
+**Beispiel.** Beide Läden melden die verkauften Stücke. Aus der Veränderung zur Vergleichswoche ermitteln sie, ob sie ihren Zielwert erreicht haben (M2, M5).
 
 ## Freigabefrist
 
@@ -48,7 +48,7 @@ Eine Übersicht über das Werbeziel, die Werbung und ihre Verbreitung. Sie nennt
 
 Der Kanal, das Medium oder der Platz, über den die Werbung die gewünschte Kundschaft erreicht.
 
-**Beispiel.** Newsletter und Aufsteller verbreiten die Werbung auf verschiedenen Wegen (M3).
+**Beispiel.** Bei Block verbreitet der E-Mail-Newsletter den Werbebeitrag. In der Bike Arena trägt der Aufsteller am Eingang das bedruckte Schild (M3).
 
 ## Zuständigkeit
 
@@ -62,4 +62,4 @@ Ein Ziel für die Werbung. Es nennt, was ihr messt, welchen Wert ihr erreichen w
 
 **Beispiel.** Die Läden können als Ziel festlegen, um wie viel sie ihre Verkäufe in der Aktionswoche im Vergleich zur früheren Woche steigern wollen (M2).
 
-[Zurück zur Übersicht von LF 06](../BFSdual_LF06_Vorlagenset.md)
+[Zur Lernsituation 6.5](../LS_6_5_Werbeaktion_planen.md)

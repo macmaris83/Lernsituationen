@@ -11,6 +11,18 @@
 
 Diese Vorlage gilt für **alle Lernfelder der BFSdual**. Nutzt die acht Stationen und den Fachbegriffscheck. Füllt die Platzhalter für den aktuellen Fall aus. Jede LS enthält ihre eigenen Aufgaben und Materialien. Auch ein neues Team kann sie von Anfang bis Ende bearbeiten. Wenn vorherige Entscheidungen für den Fall wichtig sind, legt sie als Material bei.
 
+## Aufgabenzeiten und Gong
+
+Verteilt die Zeit vor dem Export auf die einzelnen Aufgaben. Gebt auch dem Einstieg, jeder Lesefrage, dem Fachbegriffscheck, der Wahl, dem Peer-Feedback, dem Pitch und der letzten Moodle-Aufgabe eine Zeit. Große Produkte lassen sich in Arbeitsstücke mit eigenem Ergebnis teilen. Zählt bei A, B und C nur den gewählten Arbeitsweg. Gebt allen drei Wegen gleich viel Zeit. Die Summe der Minuten muss der geplanten Zahl an Unterrichtsstunden entsprechen. Eine Unterrichtsstunde umfasst hier 45 Minuten.
+
+Im Markdown steht direkt am jeweiligen Auftrag eine maschinenlesbare Zeitmarke. Ersetzt die Werte in diesem Muster. Der sichtbare Text und der Zahlenwert müssen übereinstimmen. Jede Kennung ist innerhalb der LS eindeutig und bleibt bei späteren Bearbeitungen erhalten.
+
+```html
+<span class="assignment-time" data-task-id="BFSDUAL-LF06-LS01-T01" data-task-minutes="29">29 Minuten</span>
+```
+
+In den sechs Aufgabenphasen wandern `data-task-id` und `data-task-minutes` auf die zugehörige `.assignment-frame`. Die sichtbare Zeit bleibt als `.assignment-time` am Auftrag. Die sechs Aufgabenphasen nutzen den Aufgabenfokus des gemeinsamen Formmasters. Die Zeit startet beim Öffnen der Aufgabe. Pause und Tonschalter bleiben bedienbar. Bei null bleiben die Arbeit und das manuelle Weiter möglich. Für Orientierung, Handlungssituation samt Lesefragen und die eigenständige Checkseite liegt [der BFSdual-Zusatztimer](assets/zusatzzeiten.js) bereit. Kopiert diese Datei samt Manifest-Eintrag nach `assets/zusatzzeiten.js` und bindet sie dort mit `<script defer src="assets/zusatzzeiten.js"></script>` ein. Auf diesen drei Seiten bleiben die Attribute am Span. Hier startet jede Person die gewünschte Uhr selbst. Der Fachcheck erhält seine Zeitmarke auf der Checkseite. Ein Quiz mit zehn zusammengehörigen Karten verwendet einen Timer für den ganzen Check. Beim Wechsel von Informieren zum Quiz läuft nur dieser eine Timer. Die freie Wahl zwischen drei Paketen startet keinen zusätzlichen Countdown.
+
 ## Orientierung
 
 ### Warum wir das lernen
@@ -149,15 +161,16 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 
 **Bewertet** eine andere Arbeit in Moodle unter [Peer-Feedback]({{MOODLE_PEER_FEEDBACK_URL}}).
 
-1. **Ladet euer Handlungsprodukt hoch.** Wählt einen Titel und einen Dateinamen ohne eure Namen. Entfernt eure Namen aus der Arbeit und aus den Dateieigenschaften.
+1. **Ladet euer Handlungsprodukt hoch.** Bei Teamarbeit reicht jede Person eine Kopie im eigenen Konto ein. Wählt einen Titel und einen Dateinamen ohne eure Namen. Entfernt eure Namen aus der Arbeit und aus den Dateieigenschaften.
 2. **Schaut euch die zugeteilte Arbeit an.** Moodle lost aus, welche Arbeit ihr bekommt. Ihr seht die Arbeit ohne Namen.
 3. **Gebt Rückmeldung.** Nutzt [fachliche Prüffragen]. Nennt eine Stelle, die gut gelungen ist. Schreibt, was die Person verbessern kann. Die Person sieht bei eurer Antwort euren Klarnamen.
+4. **Lest** die empfangene Rückmeldung nach der Freigabe. Verbessert eine Stelle oder erklärt, warum ihr bei eurer Lösung bleibt.
 
 **Fachbuchverweis.** [Später ergänzen]
 
 ## Reflektieren
 
-**Notiert** einzeln, welcher Beleg euch bei der Entscheidung am meisten geholfen hat. **Erklärt**, was ihr beim nächsten Mal genauso oder anders machen würdet.
+**Notiert** einzeln, welcher Beleg euch bei der Entscheidung am meisten geholfen hat. **Erklärt**, was ihr beim nächsten Mal genauso oder anders machen würdet. Schätzt euer eigenes Können zur Fachkompetenz auf der Skala von 1 bis 4 ein. Zeigt eine passende Stelle in eurem Produkt. 1 bedeutet „mit Hilfe bei jedem Schritt“, 2 „mit einzelnen Tipps“, 3 „selbstständig lösen und begründen“ und 4 „auch in einem neuen Fall“.
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -194,7 +207,7 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 
 ## Materialien
 
-**M1 bis Mxx** sind Platzhalter für die Belege und Materialien der jeweiligen LS. Wählt Anzahl, Reihenfolge und Materialarten nach dem Fall. Geeignet sind zum Beispiel E-Mails, Geschäftsbelege, Produktdatenblätter, Pläne, Fotos, Audios oder Arbeitshilfen. Fügt die Unterlagen ein oder verlinkt sie aus dem Materialordner. Nennt in jedem Arbeitsauftrag die M-Nummer, die dort gebraucht wird.
+**M1 bis Mxx** sind Platzhalter für die Belege und Materialien der jeweiligen LS. Wählt Anzahl, Reihenfolge und Materialarten nach dem Fall. Geeignet sind zum Beispiel E-Mails, Geschäftsbelege, Produktdatenblätter, Pläne, Fotos, Audios oder Arbeitshilfen. Fügt die Unterlagen ein oder verlinkt sie aus dem Materialordner. Ein Vorlesetext ist ein nutzbares Hörangebot zu zweit. Versprecht eine Audiodatei nur, wenn sie mitgeliefert wird. Nennt in jedem Arbeitsauftrag die M-Nummer, die dort gebraucht wird.
 
 | Kennung | Titel und Materialart | Inhalt, Datei oder Link |
 | --- | --- | --- |
@@ -205,7 +218,7 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 ## Redaktionshinweise für das Vorlagenset
 
 - **Lernbedeutsamkeit.** Prüft, ob das Alltagsbeispiel und der Fall dieselbe konkrete Frage aufwerfen. Der Einstieg nennt den Fall oder einen seiner Schauplätze und führt in den fachlichen Auftrag. In LF 06 steht die Kundschaft zum Beispiel vor zwei Pumpen und braucht eine verständliche Angabe zum Ventil. Auf der Aktionsfläche entscheiden die Lernenden, wo die Kundschaft diese Angabe findet.
-- **LS-Glossar.** Erstellt für jede LS eine eigene [Nachschlageseite](Vorlage_LS_Glossar.md). Prüft alle Begriffe aus dem Fachbegriffscheck und verlinkt sie im Material, wo sie im Fall sinnvoll gebraucht werden. Verlinkt dort auch weitere Begriffe, deren Erklärung bei der Bearbeitung hilft. Die Zahl der Links richtet sich nach dem Material. Setzt den Link direkt an den Fachbegriff im Satz oder in der Tabelle. Beispiel für M2: `[Absatzmenge](Glossare/LS_6_8_Glossar.md#absatzmenge)`. Erklärt die Begriffe in einfacher Sprache und ergänzt je ein kurzes Beispiel aus dem Fall. Das Begriffsblatt für die Vorbereitung auf den Fachbegriffscheck bleibt bei „Informieren“ verfügbar.
+- **LS-Glossar.** Erstellt für jede LS eine eigene [Nachschlageseite](Vorlage_LS_Glossar.md). Prüft alle Begriffe aus dem Fachbegriffscheck und verlinkt sie im Material, wo sie im Fall sinnvoll gebraucht werden. Verlinkt dort auch weitere Begriffe, deren Erklärung bei der Bearbeitung hilft. Die Zahl der Links richtet sich nach dem Material. Setzt den Link direkt an den Fachbegriff im Satz oder in der Tabelle. In einer eigenständigen MD verlinkt M2 z. B. `[Absatzmenge](#absatzmenge)` auf den Glossareintrag derselben Datei. Erklärt die Begriffe in einfacher Sprache und ergänzt je ein kurzes Beispiel aus dem Fall. Das Begriffsblatt für die Vorbereitung auf den Fachbegriffscheck bleibt bei „Informieren“ verfügbar.
 - **Gemeinsamer Einstieg.** Orientierung, Handlungssituation, Informieren und Planen verwenden gemeinsame Fachaufträge und Fallunterlagen. Die Lernpaketwahl erscheint zu Beginn von **Entscheiden**. Die fachliche Entscheidung folgt auf Basis des gewählten Zugangs.
 - **Gleichwertige Zugänge.** A, B und C haben dieselbe Fachkompetenz, dieselbe fachliche Datengrundlage, dasselbe Handlungsprodukt, dieselben Bewertungskriterien und denselben Zeitrahmen. Die Pakete verändern die Arbeitsweise. Alle erhalten Zugriff auf genaue Zahlen, Maße und fachliche Belege. Sprachfassungen und Modelle enthalten die Informationen, die zur Bearbeitung tatsächlich nötig sind.
 - **Regionale Betriebe.** Wenn ihr reale Betriebe verwendet, verlinkt deren Websites und übernehmt passende belegbare Angaben zum Standort oder Angebot. Kennzeichnet die erfundene Zusammenarbeit, Fallbelege, Flächen und Geschäftsdaten als Unterrichtsfall.
@@ -218,10 +231,16 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 - **LS-Glossar im SCORM-Paket.** Nehmt die eigene Seite `ls-glossar.html` in das Paketmanifest auf und blendet sie aus Phasenübersicht und Materialmenü aus. Übertragt die Links an den Fachbegriffen in die jeweiligen Materialseiten und verwendet die passende Sprungmarke, etwa `ls-glossar.html#absatzmenge`. Der Link steht bereit, sobald das betreffende Material zugänglich ist. Beim Öffnen zeigt die Seite den ausgewählten Begriff. **„Zurück zum Material“** führt zur verlinkten Stelle zurück. Die Nutzung ist freiwillig und kann unabhängig vom Fachbegriffscheck erfolgen.
 - **Paketansicht bei einer digitalen Umsetzung.** Zeigt in Entscheiden drei gleich gestaltete Wahlkarten mit Zugang, Tätigkeit und Ergebnis. Bis einschließlich Planen funktionieren Navigation, Materialzugriff und Wiederaufnahme bei offener Paketwahl. Für Durchführen ist eine Auswahl erforderlich. Speichert Aufgabenstand, Fachbegriffscheck und Auswahl je LS und prüft die Wiederaufnahme vor und nach der Wahl. Der Abschluss berücksichtigt die gemeinsamen Aufgaben und den gewählten Lernweg.
 
+### Übergabe an den HTML-Export
+
+- Erzeugt pro LS einen eigenen Satz von Seiten. Die acht Stationen reichen von Orientierung bis Reflektieren. Dazu kommen der eigenständige Fachbegriffscheck, die tatsächlich aufgeführten Materialien und das LS-Glossar. Den Produktauftrag mit Kriterien zeigt ihr bei Durchführen und Bewerten. Die Lösungsspalten der Karten und Lehrkräftenschlüssel werden ausschließlich bei der Erzeugung bzw. in der Lehrkräftefassung verwendet. Gebt die freien Leseantworten sinngemäß frei. Eine automatische Prüfung auf exakte Zeichenfolgen wäre für diese Aufgaben ungeeignet.
+- Gebt dem Glossar stabile Abschnitts-IDs. Beim Export ersetzt ihr den Markdown-Link im Fachbegriff durch einen HTML-Link mit derselben Sprungmarke. Wenn die Quelle ein Glossar im selben Dokument enthält, nehmt genau den als LS-Glossar ausgezeichneten Abschnitt für die Zusatzseite. Merkt euch die konkrete Textstelle und den Materialnamen für den Rücksprung. Zeigt Wahlmöglichkeiten als lesbare Karten und breite Ausfülltabellen mit klaren Zeilen- und Spaltenüberschriften.
+- Setzt unbefüllte Fachbuchfelder als neutralen Text. Fehlt die echte URL einer Moodle-Aktivität, zeigt eine verständliche Information ohne anklickbaren Platzhalter. Die Unterrichtsfassung erhält für beide Aktivitäten je LS ihre eigene Kurs-URL. Aufgabenzeit und Gong werden an der einzelnen Aufgabe geprüft. Ein Lehrkräftenschlüssel erscheint weder im Lernendenmenü noch im öffentlichen Lösungs-HTML eines Lernendenpakets.
+
 ## Moodle-Einrichtung für die Lehrkraft
 
 1. Legt je LS eine **Gegenseitige Beurteilung** mit dem Namen **Peer-Feedback** an. Übernehmt die gemeinsamen fachlichen Kriterien der LS in den Bewertungsbogen. Die Einreichenden verwenden neutrale Abgabetitel und Dateinamen sowie Dateien ohne Namen oder identifizierende Dateieigenschaften.
-2. Wählt nach der Einreichung **Einreichungen zuordnen → Zufällige Zuordnung**. Setzt als Ausgangspunkt einen Beurteilungsauftrag **pro Einreichung**, deaktiviert die Selbstbeurteilung und prüft die Zuteilungen. Schließt die Aktivität nach der Auswertung, damit die Einreichenden ihre Rückmeldungen einsehen können. [MoodleDocs zur gegenseitigen Beurteilung](https://docs.moodle.org/401/de/Gegenseitige_Beurteilung_nutzen)
+2. Wählt nach der Einreichung **Einreichungen zuordnen → Zufällige Zuordnung**. Plant eine Rückmeldung je Person und je Einreichung ein. Bei einem gemeinsamen Teamprodukt reicht jede Person eine Kopie im eigenen Konto ein. Lost einen Auftrag pro Person aus. Deaktiviert die Selbstbeurteilung und kontrolliert, ob jede Arbeit eine Rückmeldung erhält. Erwischt jemand die Arbeit aus dem eigenen Team, lost ihr unter den übrigen passenden Einreichungen erneut und kontrolliert die Verteilung. Plant die Zuteilung, das Schließen der Aktivität und die Rückgabe in der Bewertungszeit ein. Schließt die Aktivität nach der Auswertung, damit die Einreichenden ihre Rückmeldungen einsehen können. [MoodleDocs zur gegenseitigen Beurteilung](https://docs.moodle.org/401/de/Gegenseitige_Beurteilung_nutzen)
 3. Setzt in den **Rechten der Aktivität** für **Teilnehmer/in** die beiden Berechtigungen wie unten angegeben. Prüft mit Teilnehmendenrechten die Ansicht der zugeteilten Einreichung und die Ansicht des empfangenen Peer-Feedbacks. Verwendet in der Aktivität die zugeteilten, anonym dargestellten Arbeiten.
 4. Legt für den Abschluss eine Moodle-Aktivität vom Typ **Feedback** an. Ersetzt `{{MOODLE_PEER_FEEDBACK_URL}}` und `{{MOODLE_FEEDBACK_URL}}` durch die tatsächlichen Direktlinks der jeweiligen LS. Der Feedback-Link bildet die **letzte Aufgabe in „Reflektieren“**. [MoodleDocs zur Feedback-Aktivität](https://docs.moodle.org/401/en/Feedback_activity)
 
