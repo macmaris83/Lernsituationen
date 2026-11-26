@@ -45,7 +45,7 @@ Die Skala von **1 bis 6** zeigt, wie stark die verbindlichen Aufgaben einer LS j
 
 ## Handlungssituation
 
-[Erzählt eine plausible berufliche Szene. Benennt Rolle, Anlass, Beteiligte und Ausgangslage. Zeigt durch einen Konflikt oder eine offene Entscheidung, welches Handlungsprodukt gebraucht wird. Fügt alle nötigen Unterlagen für diesen Fall bei.]
+[Erzählt eine kurze berufliche Szene mit einem konkreten Problem. Benennt Anlass, Ausgangslage und Rolle der Lernenden. Lasst möglichst zwei oder mehr Beteiligte mit unterschiedlichen, fachlich nachvollziehbaren Anliegen aufeinandertreffen. Zeigt an einer Beobachtung, einem Widerspruch in den Unterlagen oder einer Frist, was auf dem Spiel steht. Bei Global Bike nutzt ihr nach Möglichkeit Personen und Funktionen aus dem Organigramm. Übergebt dem Team die offene Entscheidung und macht deutlich, wer das Handlungsprodukt wofür braucht. Fügt alle nötigen Unterlagen für diesen Fall bei.]
 
 ### Kurz prüfen · Handlungssituation
 
@@ -60,12 +60,12 @@ Sucht im Einstieg den Namen der Person und die Stelle, an der ihre Aufgabe oder 
 
 </details>
 
-**2. Was ist der Anlass für den Auftrag?**
+**2. Welche Anliegen treffen aufeinander und wodurch entsteht das Problem?**
 
 <details>
 <summary>Hilfe</summary>
 
-Achtet auf das Ereignis oder die Nachricht, nach der die Beteiligten handeln müssen. Beginnt mit „Der Auftrag entsteht, weil …“.
+Sucht die Stelle, an der die Beteiligten sagen oder zeigen, was ihnen wichtig ist. Ergänzt „[Name] möchte …, [Name] achtet darauf, dass …. Das führt zu einem Problem, weil …“.
 
 </details>
 
@@ -115,13 +115,17 @@ Füllt eine Zeile pro Fachbegriff aus. Wählt Begriffe, die für das Verständni
 
 ### Lernpaket wählen
 
-**Wählt** zu Beginn dieser Phase eines der drei Lernpakete. In allen drei Paketen bearbeitet ihr dieselbe fachliche Entscheidung und erstellt das vereinbarte Handlungsprodukt.
+**Wählt** zu Beginn dieser Phase eines der drei Lernpakete. Entscheidet, welche Arbeitsweise euch bei der Aufgabe am meisten hilft.
 
-| Paket | So arbeitet ihr ab „Entscheiden“ |
-| --- | --- |
-| **A · Visuell** | [Wertet einen Plan, eine Grafik oder eine bebilderte Übersicht aus. Markiert, ergänzt oder vergleicht darin die Merkmale, die eure Entscheidung tragen.] |
-| **B · Auditiv und im Gespräch** | [Hört eine Nachricht, ein Gespräch oder eine Schilderung. Besprecht die gehörten Hinweise und prüft genaue Angaben bei Bedarf im gemeinsamen Datenblatt. Sichert eure Belege schriftlich.] |
-| **C · Haptisch-handelnd** | [Legt, baut, verschiebt oder erprobt mit Karten, Gegenständen oder Modellen mehrere Möglichkeiten. Haltet fest, was die Erprobung für die Entscheidung zeigt.] |
+**Gemeinsames Fachziel und Handlungsprodukt.** [Benennt die konkrete vorrangige Fachkompetenz der LS. Sagt, welche Entscheidung die Lernenden treffen oder prüfen, welche Belege sie dabei sichern und welches gemeinsame Handlungsprodukt entsteht. Für alle drei Pakete gelten dieselben Aufgabenanforderungen, Fallvorgaben und Bewertungskriterien.]
+
+| Lernpaket | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| --- | --- | --- | --- |
+| **A · Visuell · [Tätigkeit]** | [Nennt den Plan, die Grafik oder die Übersicht. Beschreibt, was die Lernenden darin markieren, vergleichen oder entwerfen.] | [Nennt die konkrete Skizze, Zuordnung oder Beobachtung, die ins gemeinsame Ergebnis eingeht.] | [Erklärt, welchen Unterschied oder Zusammenhang ihr mit diesem Zugang leichter erkennen könnt.] |
+| **B · Auditiv · [Tätigkeit]** | [Nennt die Aufnahme oder den Vorlesetext. Beschreibt, was die Lernenden beim Zuhören, Nachfragen oder im Gespräch herausarbeiten und wie sie Angaben absichern.] | [Nennt die konkrete Aussage, Vereinbarung oder Begründung, die die Lernenden schriftlich für das gemeinsame Ergebnis festhalten.] | [Erklärt, welches Interesse, welche Unklarheit oder welche Begründung im Gespräch deutlicher wird.] |
+| **C · Haptisch-handelnd · [Tätigkeit]** | [Nennt die Karten, Gegenstände oder Modelle. Beschreibt, was die Lernenden legen, umbauen oder erproben.] | [Nennt die konkrete Beobachtung oder erprobte Lösung, die die Lernenden für das gemeinsame Ergebnis sichern.] | [Erklärt, welche Anordnung oder Handlungsfolge ihr durch Ausprobieren leichter überprüfen könnt.] |
+
+[Stimmt die Pakete so ab, dass jedes mit den beigefügten Materialien in der vorgesehenen Zeit bearbeitbar ist. Macht in jeder Zeile sichtbar, wie das Zwischenergebnis zur selben fachlichen Entscheidung beiträgt.]
 
 **Fachbuchverweis.** [Später ergänzen]
 

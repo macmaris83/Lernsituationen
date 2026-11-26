@@ -8,9 +8,9 @@
 
 ## Rahmen der Reihe
 
-Global Bike plant eine Frühjahrsaktion für Fahrradzubehör. Zwei Handelspartner in Aurich reservieren dafür Flächen in derselben Aktionswoche. Im Innenstadt-Fachgeschäft ist die Beratung Teil des Einkaufs. Im Sportfachmarkt am Stadtrand muss sich die Kundschaft selbst zurechtfinden. Jana aus dem Global-Bike-Vertrieb begleitet die Aktion von der ersten Standortfrage bis zur Entscheidung über eine Fortsetzung. In jeder Szene übernimmt das jeweilige Team eine Entscheidung, für die Jana auf ein fachlich tragfähiges Ergebnis angewiesen ist.
+Global Bike plant eine Frühjahrsaktion für Fahrradzubehör. Zwei Handelspartner in Aurich reservieren dafür Flächen in derselben Aktionswoche. Im Innenstadt-Fachgeschäft ist die Beratung Teil des Einkaufs. Im Sportfachmarkt am Stadtrand muss sich die Kundschaft selbst zurechtfinden. Jan Richter, Leiter Verkauf und Marketing, begleitet die Aktion von der ersten Standortfrage bis zur Entscheidung über eine Fortsetzung. Sein Team muss bei jeder Etappe berücksichtigen, was die Händler brauchen, was in der Aktionswoche machbar ist und was Global Bike beiden zusagen kann.
 
-Jede LS enthält den vollständigen Projektstand für ihre Szene, eigene Materialien und einen eigenen Abschluss. Die Modellunterlagen von Global Bike setzen den jeweiligen Ausgangspunkt. Teams können bei jeder LS neu gebildet werden. Geschäftsdaten, Personen, Produkteigenschaften und Kampagnenergebnisse in dieser Reihe dienen als fiktive Unterrichtsdaten.
+Jede LS enthält den vollständigen Projektstand für ihre Szene, eigene Materialien und einen eigenen Abschluss. Die Modellunterlagen von Global Bike setzen den jeweiligen Ausgangspunkt. Teams können bei jeder LS neu gebildet werden. Die Mitarbeitenden von Global Bike treten mit ihren Funktionen aus dem [Organigramm](https://docs.google.com/document/d/1H-QndMW_XPMw10yRQ8IgLvG7cLmLTGVGEJBY-TkF2Js/edit) auf. Die Auricher Partner, ihre Geschäftsdaten, die Produktangaben und die Kampagnenergebnisse gehören zum fiktiven Unterrichtsfall.
 
 | LS | Lernsituation | Handlungsprodukt | UStd. |
 | --- | --- | --- | ---: |
@@ -26,7 +26,7 @@ Jede LS enthält den vollständigen Projektstand für ihre Szene, eigene Materia
 
 ## Aufbau der Lernsituationen
 
-Die acht Fälle sind ausgearbeitete Beispiele zur [gemeinsamen Vorlage für alle BFSdual-Lernfelder](../Vorlage_Lernsituation.md). Jede LS verwendet die acht Stationen des Formmasters 1.8.8. Der Fachbegriffscheck umfasst je LS zehn Begriffe und liegt als gemeinsamer Schritt zwischen **Informieren** und **Planen** innerhalb der vorgesehenen Zeit. Die drei gleichwertigen Lernpakete werden zu Beginn von **Entscheiden** gewählt. Für jede LS sind zwei Moodle-Direktlinks vorgesehen. Die Platzhalter verweisen nach dem Eintragen der Kurslinks auf die Aktivitäten **Peer-Feedback** und **Feedback**. Die [gemeinsame Vorlage](../Vorlage_Lernsituation.md#moodle-einrichtung-für-die-lehrkraft) beschreibt Zuteilung und Namensanzeige.
+Die acht Fälle sind ausgearbeitete Beispiele zur [gemeinsamen Vorlage für alle BFSdual-Lernfelder](../Vorlage_Lernsituation.md). Jede LS verwendet die acht Stationen des Formmasters 1.8.8. Der Fachbegriffscheck umfasst je LS zehn Begriffe und liegt als gemeinsamer Schritt zwischen **Informieren** und **Planen** innerhalb der vorgesehenen Zeit. Zu Beginn von **Entscheiden** wählen die Lernenden eines von drei Lernpaketen. Die Pakete verfolgen je LS dieselbe Fachkompetenz und führen zu einem gemeinsamen Handlungsprodukt. Die Wahlbeschreibungen machen sichtbar, welche Belege oder Beobachtungen die Lernenden auf jedem Arbeitsweg für ihre Entscheidung gewinnen. Für jede LS sind zwei Moodle-Direktlinks vorgesehen. Die Platzhalter verweisen nach dem Eintragen der Kurslinks auf die Aktivitäten **Peer-Feedback** und **Feedback**. Die [gemeinsame Vorlage](../Vorlage_Lernsituation.md#moodle-einrichtung-für-die-lehrkraft) beschreibt Zuteilung und Namensanzeige.
 
 Die Werte im Kompetenznetz zeigen, wie stark die verbindlichen Aufgaben die fünf Kompetenzen ansteuern. **1** steht für einen Randbezug, **6** für einen prägenden Schwerpunkt. Die fünf Werte folgen in jeder LS derselben [Skalenlegende](../Vorlage_Lernsituation.md#kompetenzprofil-und-kompetenznetz).
 
@@ -55,47 +55,49 @@ Ich vergleiche zwei Standorte anhand von Nachfrage, Verkaufsform und Fläche. Ic
 
 ### Handlungssituation
 
-Um 8.12 Uhr hört Jana aus dem Vertrieb von Global Bike die erste Nachricht. Das Fahrradfachgeschäft in der Auricher Innenstadt möchte bei der Frühjahrsaktion endlich zeigen, welches Zubehör sich für den täglichen Arbeitsweg lohnt. Sieben Minuten später ruft der Sportfachmarkt am Stadtrand an. Dort steht eine größere Fläche bereit, aber am Samstag sind viele Familien unterwegs und auf der Fläche ist keine feste Beratung vorgesehen.
+Um 8.12 Uhr ruft das Fahrradfachgeschäft in der Auricher Innenstadt bei Global Bike an. Viele Kundinnen und Kunden suchen Zubehör für den Arbeitsweg und lassen sich vor dem Kauf beraten. Für die Frühjahrsaktion hat der Laden nur eine schmale Fläche. Kurz darauf meldet sich der Sportfachmarkt am Stadtrand. Dort ist mehr Platz. Am Samstag kommen viele Familien, die sich auf der Fläche selbst zurechtfinden müssen.
 
-Beide Geschäfte haben die gleiche Aktionswoche vorgemerkt. Um 10 Uhr sitzen ihre Vertreterinnen und Vertreter bei Jana am Tisch. Jana legt zwei Ladenprofile und einen Umschlag mit Kundenstimmen bereit. „Ich muss beiden erklären können, welche Anforderungen für ihren Laden gelten. Die eine Fläche ist gerade erst vermessen worden. Einen zweiten Platz hat das Fachgeschäft nicht.“
+Sarah Huber aus dem Marketing hat für die gemeinsame Aktionswoche einen Vorschlag. „Wir geben beiden Läden dieselben Vorgaben fürs Angebot und den Aufbau. Dann können wir die Aktion aus einem Guss vorbereiten.“ Sebastian Wolf aus dem Außendienst schiebt ihr die beiden Ladenprofile hin. „Schau dir an, wie die Leute dort einkaufen. Was im einen Laden funktioniert, kann im anderen Kunden im Weg stehen oder ihnen bei der Auswahl wenig helfen.“
+
+Um 10 Uhr kommen beide Handelspartner zur Besprechung. Jan Richter, Leiter Verkauf und Marketing, braucht von euch einen belegten Standortvergleich. Daraus soll hervorgehen, welche Anforderungen je Laden zwingend sind und welchen Unterschied Global Bike bei der Planung zuerst berücksichtigen muss.
 
 #### Kurz prüfen · Handlungssituation
 
-Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+**Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
 
-**1. Was möchte das Fahrradfachgeschäft seiner Kundschaft bei der Frühjahrsaktion zeigen?**
+**1. Was erfährt Global Bike beim ersten Anruf über Kundschaft, Beratung und Fläche?**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest den Satz direkt nach Janas erster Nachricht. Achtet darauf, wofür die Kundschaft das Zubehör braucht.
+Sucht im ersten Absatz die Sätze zum Fachgeschäft. Baut eure Antwort mit „Die Kundschaft …“, „Beim Kauf …“ und „Die Fläche …“ auf.
 
 </details>
 
-**2. Was erfährt Jana über die Fläche, die Kundschaft und die Beratung im Sportfachmarkt?**
+**2. Was ist im Sportfachmarkt anders als im Fachgeschäft?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im ersten Absatz die drei Angaben nach dem Anruf vom Stadtrand.
+Vergleicht die beiden Anrufe. Achtet darauf, was jeweils über Platz, Kundschaft und Hilfe beim Einkauf gesagt wird.
 
 </details>
 
-**3. Was haben die beiden Geschäfte bereits gemeinsam vorgemerkt?**
+**3. Warum geraten Sarah und Sebastian bei den Vorgaben aneinander?**
 
 <details>
 <summary>Hilfe</summary>
 
-Beginnt beim ersten Satz des zweiten Absatzes.
+Lest beide Aussagen im zweiten Absatz. Beginnt mit „Sarah schlägt vor …, weil …“ und „Sebastian wendet ein, dass …“.
 
 </details>
 
-**4. Was möchte Jana den beiden Geschäften beim Treffen erklären können?**
+**4. Was braucht Jan für die Besprechung um 10 Uhr?**
 
 <details>
 <summary>Hilfe</summary>
 
-Nutzt Janas Satz in Anführungszeichen. Beginnt mit „Jana möchte erklären, welche …“.
+Lest die letzten beiden Sätze. Ergänzt „Der Vergleich soll zeigen, welche … und welchen …“.
 
 </details>
 
@@ -136,13 +138,15 @@ Nutzt Janas Satz in Anführungszeichen. Beginnt mit „Jana möchte erklären, w
 
 #### Lernpaket wählen
 
-**Wählt** eines der drei Lernpakete. In allen drei Paketen erstellt ihr dieselbe Vergleichsmatrix für Jana.
+**Wählt** den Arbeitsweg, mit dem ihr die Unterschiede am besten herausarbeiten könnt.
 
-| Paket | So erschließt ihr den Fall |
-| --- | --- |
-| **A · Visuell** | Legt M1 und M2 nebeneinander. Markiert Nachfrage und Verkaufsform mit unterschiedlichen Farben. Zeichnet aus M3 zwei Skizzen im gleichen Maßstab und markiert Fläche und freizuhaltende Bereiche. |
-| **B · Auditiv** | Hört oder lest euch die beiden Sprachnachrichten aus M4 vor. Sortiert die gehörten Hinweise im Gespräch nach Nachfrage, Verkauf und Fläche. Prüft Zahlen und Maße bei Bedarf in M1 bis M3 nach. |
-| **C · Haptisch-handelnd** | Zeichnet die Grundrisse aus M3 auf Papier oder markiert sie am Boden. Schneidet Karten mit den Beobachtungen aus M1 und M2 aus und legt sie an den passenden Standort. Legt aus Papier passende Warenträger aus und erkundet, wie sich Fläche und Verkaufsform auf den Zugriff auswirken. |
+**Gemeinsames Fachziel und Handlungsprodukt.** Ihr vergleicht die beiden Läden anhand von Nachfrage, Verkaufsform und Fläche und leitet daraus Anforderungen an Sortiment und Präsentation ab. Dafür erstellt ihr die Vergleichsmatrix aus M5 für Jan Richter. Ihr nennt je Standort drei belegte Anforderungen an Sortiment und Präsentation und stuft sie begründet als zwingend oder wünschenswert ein. Am Ende benennt ihr den wichtigsten Standortunterschied und seine Folge für die Aktion. Für alle Pakete gelten dieselben Kriterien.
+
+| Lernpaket | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| --- | --- | --- | --- |
+| **A · Visuell · Ladenprofile und Skizzen** | Legt M1 und M2 nebeneinander und markiert Nachfrage und Verkaufsform farbig. Zeichnet die Flächen aus M3 im gleichen Maßstab und kennzeichnet die freien Wege. | Zwei beschriftete Skizzen und markierte Belege zeigen auf einen Blick, was ähnlich ist und welche Unterschiede für Angebot und Präsentation Folgen haben. | … ihr Informationen gern nebeneinander seht und räumliche Unterschiede in einer Skizze erkennt. |
+| **B · Auditiv · Beide Läden zu Wort kommen lassen** | Hört die Sprachnachrichten aus M4 oder lest sie euch vor. Sortiert die Hinweise im Gespräch nach Nachfrage, Verkaufsform und Fläche. Prüft Zahlen und Maße in M1 bis M3. | Eine kurze Gesprächsnotiz hält je Laden fest, welche Aussagen für eure Anforderungen sprechen und welche Angaben ihr überprüft habt. | … ihr Unterschiede gut erkennt, wenn ihr Aussagen hört, besprecht und euch gegenseitig erklärt. |
+| **C · Haptisch-handelnd · Mit Grundrissen und Karten arbeiten** | Legt oder markiert die Grundrisse aus M3. Ordnet Karten mit Beobachtungen aus M1 und M2 zu. Verschiebt Warenträger aus Papier und probiert aus, was auf der jeweiligen Fläche erreichbar bleibt. | Eure markierten Grundrisse und zugeordneten Karten zeigen, welche Anforderungen sich aus Nachfrage, Verkauf und Platz ergeben. Bei der Probe seht ihr, wo die Flächenmaße den Zugriff begrenzen. | … ihr Raum und Zugriff gut einschätzen könnt, wenn ihr etwas legt, verschiebt und ausprobiert. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -154,7 +158,7 @@ Nutzt Janas Satz in Anführungszeichen. Beginnt mit „Jana möchte erklären, w
 
 ### Durchführen
 
-**Erstellt** die Vergleichsmatrix nach M5. Formuliert die Anforderungen so, dass Jana daraus erkennen kann, worauf Global Bike beim Angebot und bei der Präsentation achten muss.
+**Erstellt** die Vergleichsmatrix nach M5. Formuliert die Anforderungen so, dass Jan Richter daraus erkennen kann, worauf Global Bike beim Angebot und bei der Präsentation achten muss.
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -184,7 +188,7 @@ Nutzt Janas Satz in Anführungszeichen. Beginnt mit „Jana möchte erklären, w
 
 ### Handlungsprodukt und Kriterien
 
-**Vergleichsmatrix für Jana.** Drei eigenständige Anforderungen je Standort mit Bezug zu Sortiment und Präsentation, je einem nachvollziehbaren Beleg und einer begründeten Priorität. Ein Abschlussfeld hält den wichtigsten Standortunterschied und dessen Folge für die Aktion fest.
+**Vergleichsmatrix für Jan Richter.** Drei eigenständige Anforderungen je Standort mit Bezug zu Sortiment und Präsentation, je einem nachvollziehbaren Beleg und einer begründeten Priorität. Ein Abschlussfeld hält den wichtigsten Standortunterschied und dessen Folge für die Aktion fest.
 
 ### Materialien
 
@@ -274,47 +278,49 @@ Ich wähle für zwei Läden ein gemeinsames Kernsortiment und passende Ergänzun
 
 ### Handlungssituation
 
-Jana hat die Freigabe für die Frühjahrsaktion auf dem Bildschirm. In beiden Auricher Geschäften soll dieselbe Aktion starten. Gerade als sie die Artikellisten übernehmen will, meldet das Lager, dass das neue Klingelmodell erst nach der Aktionswoche lieferbar ist.
+Bis zum Nachmittag hat Sebastian Wolf aus dem Außendienst den beiden Auricher Handelspartnern eine Empfehlung für die Global-Bike-Frühjahrsaktion zugesagt. Auf seiner vorläufigen Liste steht die neue Klingel K70. Beide Läden haben Anfragen dazu gemeldet. Christian Klein aus der Absatzlogistik legt den Lieferstand daneben. „Die K70 kommt frühestens in der Woche danach. Wenn wir sie jetzt fest einplanen, bleibt zum Start ein Platz leer.“
 
-Das Fahrradfachgeschäft möchte wenig Ware auf der kleinen Fläche unterbringen und hat häufig Anfragen zum Arbeitsweg. Der Sportfachmarkt rechnet mit Familien, die ihr Rad für Ausflüge ausstatten. Beide haben Platz für Artikel, die sich am anderen Standort möglicherweise weniger gut verkaufen. Jana schickt dem Vertrieb die aktuellen Ladenprofile, die Sortimentsvorgaben und die Liste der lieferbaren Artikel. Die Geschäfte erwarten bis zum Nachmittag eine verbindliche Empfehlung.
+Sebastian geht die Liste noch einmal durch. „Bei der gemeinsamen Auswahl müssen wir beide Läden im Blick behalten. Das Fachgeschäft hat wenig Platz und viele Anfragen zum Arbeitsweg. Der Sportfachmarkt erwartet Familien, die Zubehör für ihre Ausflüge suchen. Ich will den beiden erklären können, warum wir ihnen genau diese Artikel anbieten.“
+
+Jan Richter lässt die Liste offen. Vier Artikel sollen in beiden Geschäften stehen. Dazu kommen ein lokaler Artikel für das Fachgeschäft und zwei für den Sportfachmarkt. Er gibt euch die Ladenprofile, die Sortimentsvorgaben und den aktuellen Katalog. Bis zur zugesagten Rückmeldung braucht er eine lieferbare Auswahl mit einer Begründung für beide Standorte.
 
 #### Kurz prüfen · Handlungssituation
 
-Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+**Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
 
-**1. Welche Nachricht aus dem Lager kommt, als Jana die Artikellisten übernehmen will?**
+**1. Warum steht die K70 auf Sebastians Liste und was wendet Christian ein?**
 
 <details>
 <summary>Hilfe</summary>
 
-Schaut ans Ende des ersten Absatzes. Sucht nach dem Artikel und dem Zeitpunkt, ab dem er lieferbar ist.
+Sucht im ersten Absatz nach der Klingel und nach Christians Aussage. Nutzt „Sebastian hat die K70 ___, weil ___. Christian weist darauf hin, dass ___.“
 
 </details>
 
-**2. Für welche Fahrten wird in den beiden Geschäften jeweils Zubehör gesucht?**
+**2. Welche Unterschiede der beiden Läden nennt Sebastian für die Auswahl?**
 
 <details>
 <summary>Hilfe</summary>
 
-Vergleicht die ersten beiden Sätze im zweiten Absatz. Beginnt mit „Im Fachgeschäft geht es häufig um …, im Sportfachmarkt um …“.
+Lest Sebastians zweite Aussage. Ordnet beim Lesen jede Angabe dem jeweiligen Geschäft zu.
 
 </details>
 
-**3. Welche drei Unterlagen schickt Jana an den Vertrieb?**
+**3. Wie viele gemeinsame und wie viele lokale Artikel sind vorgesehen?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im zweiten Absatz den Satz, in dem Jana etwas verschickt.
+Nutzt die Vorgabe direkt nach „Jan Richter lässt die Liste offen“. Schreibt eine Zahl für „beide Geschäfte“, eine für „Fachgeschäft“ und eine für „Sportfachmarkt“.
 
 </details>
 
-**4. Worauf warten die beiden Geschäfte und bis wann erwarten sie es?**
+**4. Was braucht Jan bis zur Rückmeldung an die Händler?**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest den letzten Satz der Szene. Achtet auf die Sache, auf die sie warten, und auf die Zeitangabe.
+Schaut auf den Anfang und das Ende der Szene. Ergänzt „Bis ___ soll die Empfehlung ___ und ___ enthalten.“
 
 </details>
 
@@ -355,13 +361,15 @@ Lest den letzten Satz der Szene. Achtet auf die Sache, auf die sie warten, und a
 
 #### Lernpaket wählen
 
-**Wählt** eines der drei Lernpakete. Für alle Pakete gelten dieselben Daten, Sortimentsvorgaben und Begründungen.
+**Wählt** den Arbeitsweg, mit dem ihr Nachfrage, Lieferbarkeit und Platz am besten abgleichen könnt.
 
-| Paket | So erschließt ihr den Fall |
-| --- | --- |
-| **A · Visuell** | Erstellt aus M1 und M2 eine Übersicht. Legt je Artikel die passenden Kundensignale nebeneinander und kennzeichnet freie beziehungsweise belegte Plätze sichtbar. |
-| **B · Auditiv** | Hört oder lest euch die Gesprächsauszüge in M4 vor. Führt eine Sortimentsrunde mit den Rollen Global Bike, Fachgeschäft und Sportfachmarkt. Sucht Belege und Lieferstatus in M1 und M2 nach. |
-| **C · Haptisch-handelnd** | Kopiert die Zeilen von M2 als Produktkarten, jeweils zweimal für die Ladenflächen. Erstellt aus M3 zwei Flächenraster. Legt probeweise die Produkte und markiert den gemeinsamen Kern farblich. Ordnet ausgewählten Artikeln passende Nachfragebelege aus M1 zu. |
+**Gemeinsames Fachziel und Handlungsprodukt.** Ihr wählt ein gemeinsames Kernsortiment mit passenden lokalen Ergänzungen und erstellt die Sortimentsliste aus M5 für Jan Richter. Ihr begründet vier gemeinsame Artikel, eine Ergänzung fürs Fachgeschäft und zwei für den Sportfachmarkt mit Nachfragebelegen. Ihr prüft Lieferbarkeit und Platz und begründet, warum ein verfügbarer Artikel draußen bleibt. Für alle Pakete gelten dieselben Kriterien.
+
+| Lernpaket | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| --- | --- | --- | --- |
+| **A · Visuell · Artikelübersicht** | Stellt in einer Übersicht zu jedem Artikel aus M2 die Nachfrage beider Läden aus M1 und die Lieferbarkeit gegenüber. Markiert die freien bzw. belegten Plätze nach M3. | Die Übersicht zeigt, welche Artikel beide Läden brauchen könnten, welche vor allem örtlich gefragt sind und welche Auswahl in den Platzrahmen passt. | … ihr mehrere Angaben gern nebeneinanderlegt und Unterschiede farblich sichtbar macht. |
+| **B · Auditiv · Sortimentsrunde** | Hört die Gesprächsauszüge aus M4 oder lest sie euch vor. Sprecht als Global Bike, Fachgeschäft und Sportfachmarkt über Artikel und Kundenwünsche. Prüft Belege, Lieferbarkeit und verfügbare Plätze mit M1 bis M3. | Eine Notiz aus der Sortimentsrunde hält fest, welche Artikel bei beiden Läden gute Gründe haben, welche Ergänzungen vor Ort passen und was ihr begründet zurückstellt. | … ihr Vorschläge gern im Gespräch abwägt und anhand von Nachfragen überprüft. |
+| **C · Haptisch-handelnd · Artikelkarten legen** | Erstellt aus M2 je zwei Karten pro Artikel. Legt Varianten in die beiden Raster aus M3, markiert den gemeinsamen Kern und legt zu jedem Vorschlag den passenden Nachfragebeleg aus M1. | Zwei belegte Platzraster zeigen, ob die Artikel zum jeweiligen Laden passen und welche anderen lieferbaren Artikel ihr bei knappen Plätzen beiseitelasst. | … ihr mehrere Möglichkeiten erproben möchtet, indem ihr Karten verschiebt und neu anordnet. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -373,7 +381,7 @@ Lest den letzten Satz der Szene. Achtet auf die Sache, auf die sie warten, und a
 
 ### Durchführen
 
-**Erstellt** für Jana die Sortimentsliste nach M5. Begründet gemeinsame Artikel für beide Läden und lokale Artikel für den jeweiligen Standort mit einem konkreten Nachfragehinweis.
+**Erstellt** für Jan Richter die Sortimentsliste nach M5. Begründet gemeinsame Artikel für beide Läden und lokale Artikel für den jeweiligen Standort mit einem konkreten Nachfragehinweis.
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -467,7 +475,7 @@ Die Nachfrageübersicht hilft dabei, mögliche [Sortimentslücken](Glossare/LS_6
 
 **Global Bike.** „Vier Artikel sollen in beiden Läden stehen. Dazu kommt ein lokaler Artikel im Fachgeschäft und zwei im Sportfachmarkt. Nehmt den aktuellen Katalog. Gerade ist die Nachricht gekommen, dass K70 erst in der Folgewoche geliefert werden kann.“
 
-#### M5 · Ergebnisblatt für Jana
+#### M5 · Ergebnisblatt für Jan Richter
 
 | Artikel und [Artikelkennung](Glossare/LS_6_2_Glossar.md#artikelkennung) | Bereich | Laden | Nachfragebeleg und Begründung | Lieferbereit |
 | --- | --- | --- | --- | --- |
@@ -515,47 +523,49 @@ Ich plane eine kleine Beratungsfläche und begründe, welche Artikel ich zusamme
 
 ### Handlungssituation
 
-Zu Beginn der Aktionsvorbereitung kommt Jana von Global Bike ins Fahrradfachgeschäft in der Auricher Innenstadt. Für die Frühjahrsaktion ist das Zubehör bereits ausgewählt. Der Laden hat genau zwei fahrbare Regale und einen schmalen Tisch reserviert. Am nächsten Vormittag will die Inhaberin den Aufbau einmal in Ruhe ausprobieren.
+Sebastian Wolf aus dem Außendienst und Christian Klein aus der Absatzlogistik besuchen das Fahrradfachgeschäft in der Auricher Innenstadt. Das Zubehör für die Global-Bike-Frühjahrsaktion steht fest. Für den Aufbau hat die Inhaberin zwei Rollregale und einen schmalen Tisch reserviert. Morgen Vormittag will sie den Aufbau erproben.
 
-Eine Kundin schiebt ihr Fahrrad herein und fragt nach einer Lampe für ihren Lenker. Die Verkäuferin greift zum Muster und geht mit ihr zur Seite. Auf dem Rückweg kreuzt ein Kunde mit einem Rad denselben Bereich. Beide halten an. Die Inhaberin schaut auf den Bodenplan. „Am Samstag geht das hier den ganzen Vormittag so“, sagt sie leise zu Jana. „An der Stelle, an der ihr zum Vorführen stehen würdet, will ich auch mit einem Fahrrad vorbeikommen.“
+Eine Kundin schiebt ihr Rad herein und bittet darum, die Halterung eines Lichts am Lenker zu sehen. Als die Verkäuferin mit dem Muster zu ihr tritt, kommt ein weiterer Kunde mit seinem Fahrrad durch denselben Bereich. Beide halten an. Sebastian möchte bei der Aktion genug Platz vorsehen, um Zubehör direkt am Rad zu zeigen. Christian tippt auf den Ladenplan. „Wenn wir dafür zu viel Platz am Tisch blockieren, kommt das Personal während einer Beratung schlecht an die verpackte Ware heran.“
+
+Die Inhaberin schaut auf die beiden Räder im Gang. „Am Samstag passiert das mehrmals am Vormittag. Ich will sehen, wo ihr am Rad etwas zeigen könnt und wie Kundschaft und Personal dabei vorbeikommen.“ Für die Probe braucht sie von euch einen Plan, der Vorführung, Zugriff auf die Ware und freie Wege zusammenbringt.
 
 #### Kurz prüfen · Handlungssituation
 
-Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+**Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
 
-**1. Welche Möbel hat das Fachgeschäft für die Frühjahrsaktion reserviert?**
+**1. Welche Ausstattung steht für den Aktionsaufbau bereit und wann wird der Aufbau erprobt?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im ersten Absatz die Gegenstände, die der Laden für die Aktion bereithält. Achtet auch auf ihre Anzahl.
+Sucht im ersten Absatz die Sätze über die Reservierung und die Probe. Beginnt mit „Bereit stehen …“ und „Die Probe findet … statt.“
 
 </details>
 
-**2. Was möchte die Kundin wissen, als sie ihr Fahrrad in den Laden schiebt?**
+**2. Was passiert, als die Verkäuferin das Licht am Rad zeigen will?**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest den Anfang des zweiten Absatzes. Beginnt mit „Die Kundin fragt nach …“.
+Lest im zweiten Absatz von der Bitte der Kundin bis zum Anhalten. Beschreibt den Moment aus Sicht der Person, die mit dem zweiten Rad hereinkommt.
 
 </details>
 
-**3. Warum halten die Kundin und der Kunde mit ihren Fahrrädern an?**
+**3. Worauf achten Sebastian und Christian bei der Planung jeweils?**
 
 <details>
 <summary>Hilfe</summary>
 
-Geht die Begegnung Satz für Satz durch. Achtet auf die Wege der beteiligten Personen.
+Vergleicht Sebastians Vorschlag mit Christians Satz. Ergänzt „Für Sebastian ist wichtig, dass …“ und „Christian will sicherstellen, dass …“.
 
 </details>
 
-**4. Was will die Inhaberin am Samstag auch dann noch können, wenn jemand Zubehör vorführt?**
+**4. Welche drei Dinge soll der Plan für die Inhaberin zusammenbringen?**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest den letzten Satz der Inhaberin. Ergänzt „Während dort etwas gezeigt wird, möchte sie …“.
+Lest den letzten Satz. Formuliert daraus, was Personal und Kundschaft gleichzeitig tun können sollen.
 
 </details>
 
@@ -596,13 +606,15 @@ Lest den letzten Satz der Inhaberin. Ergänzt „Während dort etwas gezeigt wir
 
 #### Lernpaket wählen
 
-**Wählt** eines der drei Lernpakete.
+**Wählt** als Team eines der drei Lernpakete. Je nachdem, wie ihr die Beratungsfläche am besten erkunden möchtet, arbeitet ihr mit einer Zeichnung, einem Gespräch oder einem Modell.
 
-| Wahl | So arbeitet ihr |
-|---|---|
-| **A · Visuell – Maßskizze** | Übertragt die Koordinaten aus M1 in einen Plan im Maßstab 1:20. Arbeitet eure beiden Anordnungen mit verschiedenen Farben aus und markiert Beratungsplatz, Zugriff und Wege. |
-| **B · Auditiv – Beratung mithören** | Hört den Dialog aus M4 an oder lest ihn mit verteilten Rollen vor. Spielt einen zweiten Beratungsvorgang mit der Minipumpe durch. Sagt die Bewegungen und Handgriffe laut an und übertragt die erkannten Anforderungen auf zwei Planskizzen. |
-| **C · Haptisch – Fläche aufbauen** | Legt die Fläche, die beiden Regale und den Tisch nach der Modellanleitung in M4 aus. Bewegt ein Fahrradmodell und ein Muster durch zwei Anordnungen und zeichnet die gewählte Lösung anschließend auf. |
+**Gemeinsames Fachziel und Handlungsprodukt.** Ihr plant eine kleine Beratungsfläche und begründet, welche Artikel zusammenstehen und wie das Personal sie gut erreichen und am Fahrrad zeigen kann. Alle drei Pakete führen zum selben Handlungsprodukt, einem bemaßten, beschrifteten Flächenplan mit kurzer Begründung. Vergleicht eure Entwürfe mit denselben Kriterien aus M5.
+
+| Lernpaket | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| --- | --- | --- | --- |
+| **A · Visuell · Maßskizze** | Zeichnet beide Anordnungen mit M1 und M4 im Maßstab 1:20. Markiert Vorführplatz, Zugriff auf die Ware und Durchgänge. | Zwei markierte Skizzen zeigen euch, an welchen Stellen Maße und Abstände ausreichen oder zu knapp werden. | … ihr Wege und Platzverhältnisse gern in einer Zeichnung vergleicht. |
+| **B · Auditiv · Beratung mithören** | Hört den Dialog aus M4 oder lest ihn mit verteilten Rollen vor. Spielt die Beratung zur Minipumpe durch und sprecht aus, wohin sich die Beteiligten bewegen und was sie greifen. Markiert die Stellen in beiden Skizzen. | Zwei Skizzen mit Notizen zum Beratungsablauf zeigen euch, wo jemand schlecht an die Ware kommt oder ein Fahrrad den Weg versperrt. | … ihr am besten im Gespräch nachvollzieht, was die Beteiligten nacheinander tun. |
+| **C · Haptisch-handelnd · Fläche aufbauen** | Legt Grundriss, Rollregale und Tisch nach M4 als Modell aus. Bewegt das Fahrradmodell durch beide Anordnungen und probiert den Zugriff auf die Muster aus. Haltet eure Beobachtungen in beiden Skizzen fest. | Zwei am Modell erprobte Varianten zeigen euch, was sich beim Verschieben der Regale für Zugriff und freie Wege verändert. | … ihr durch Aufbauen und Verschieben am besten beurteilt, ob eine Anordnung funktioniert. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -736,47 +748,49 @@ Ich gestalte eine Selbstbedienungsfläche und begründe, wie Kundenlauf, Artikel
 
 ### Handlungssituation
 
-Für die Frühjahrsaktion hat der Sportfachmarkt am Auricher Stadtrand eine Fläche nahe dem Eingang reserviert. Als Jana von Global Bike die Fläche besichtigt, beobachtet sie einen Vater mit seinem Sohn am regulären Zubehörregal. Beide halten je eine Pumpe in der Hand. Der Sohn fragt, welche ans Rad passt. Sein Vater sucht das Ventilwort auf der Rückseite der Verpackung. Nach kurzer Zeit stellt er beide Packungen zurück und schiebt den Einkaufswagen weiter.
+Im Sportfachmarkt am Auricher Stadtrand besichtigen Sarah Huber aus dem Marketing und Sebastian Wolf aus dem Außendienst die Fläche für die Global-Bike-Frühjahrsaktion. Sarah möchte die Warenträger möglichst nah am Zugang aufstellen. „Die Familien sollen die Aktion sehen, bevor sie in Richtung Fahrradabteilung weitergehen.“
 
-Der Abteilungsleiter sieht auf die Uhr. „Genau dafür brauchen wir morgen einen Aufbauplan. Samstags können wir an dieser Stelle kaum beraten. Wenn jemand hier stehen bleibt und die Angaben vergleichen will, muss die nächste Familie trotzdem vorbeikommen.“ Er legt Jana den Grundriss, die Produktkarten und seine Beobachtungen aus dem letzten Wochenende hin.
+Am regulären Zubehörregal nehmen ein Vater und sein Sohn je eine Pumpe in die Hand. Der Sohn fragt, welche zu seinem Rad passt. Sein Vater sucht die Angabe zum Ventil auf der Rückseite der Verpackung. Hinter dem Einkaufswagen müssen andere Kundinnen und Kunden ausweichen. Der Vater stellt beide Pumpen zurück und geht weiter. Sebastian schaut zu Sarah. „Wenn wir den Aufbau auf den ersten Blick vom Eingang aus planen, fehlt uns vielleicht genau dort Platz, wo die Leute stehen bleiben und vergleichen.“
+
+Der Abteilungsleiter legt euch den Grundriss, die Produktkarten und seine Beobachtungen zum letzten Wochenende hin. Am Samstag kann er auf der Fläche kaum Beratung anbieten. Für morgen braucht er einen Aufbauplan, mit dem die Kundschaft die Aktion bemerkt, passende Ware selbst findet und beim Vergleichen den Weg frei lässt.
 
 #### Kurz prüfen · Handlungssituation
 
-Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+**Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
 
-**1. Was möchte der Sohn über die Pumpen herausfinden?**
+**1. Warum möchte Sarah die Warenträger nah am Zugang aufstellen?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im ersten Absatz die Stelle, an der der Sohn seinen Vater etwas fragt.
+Lest Sarahs Aussage im ersten Absatz. Achtet darauf, welchen Weg die Familien nehmen.
 
 </details>
 
-**2. Wo sucht der Vater nach der Information und was macht er anschließend mit den Pumpen?**
+**2. Welche Angabe sucht der Vater und wie endet sein Einkauf an dieser Stelle?**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest die beiden Sätze ab „Sein Vater sucht“. Nennt den Ort und die Handlung danach.
+Verfolgt im zweiten Absatz, was der Vater nach der Frage seines Sohns tut. Sucht dann den Satz, in dem er weitergeht.
 
 </details>
 
-**3. Bis wann braucht der Abteilungsleiter einen Aufbauplan?**
+**3. Welches Problem sieht Sebastian, wenn Kundinnen und Kunden am Zubehör stehen bleiben?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht die Zeitangabe im ersten Satz des Abteilungsleiters.
+Lest Sebastians Antwort und schaut auf den Satz mit dem Einkaufswagen. Verbindet beide Stellen mit „Wenn …, dann …“.
 
 </details>
 
-**4. Was soll für die nächste Familie möglich sein, wenn andere Personen die Angaben an der Ware vergleichen?**
+**4. Was soll die Kundschaft am Samstag mit dem neuen Aufbau selbst schaffen?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht den Satz des Abteilungsleiters, der mit „Wenn jemand hier stehen bleibt“ beginnt.
+Lest im letzten Absatz, welche Hilfe kaum verfügbar ist und welche drei Erwartungen der Abteilungsleiter an den Aufbau hat.
 
 </details>
 
@@ -817,13 +831,15 @@ Sucht den Satz des Abteilungsleiters, der mit „Wenn jemand hier stehen bleibt�
 
 #### Lernpaket wählen
 
-**Wählt** eines der drei Lernpakete.
+**Wählt** als Team eines der drei Lernpakete. Je nachdem, wie ihr euch am besten in den Einkauf hineinversetzen könnt, arbeitet ihr mit einem Kundenlaufplan, mit Gesprächen oder mit einem Regalmodell.
 
-| Wahl | So arbeitet ihr |
-|---|---|
-| **A · Visuell – Kundenlaufplan** | Übertragt M1 in eine Zeichnung. Markiert die in M2 beobachteten Wege als Pfeile und ergänzt eure beiden Entwürfe um Regalansichten mit Beschilderung und Vergleichsinformationen. |
-| **B · Auditiv – Einkauf mithören** | Hört oder lest den Dialog aus M4 mit verteilten Rollen. Spielt kurze Nachfragen zur Pumpe und zum Flaschenhalter durch. Ergänzt in beiden Entwürfen die Orte, an denen die Antworten sichtbar sein sollen. |
-| **C · Haptisch – Regalmodell** | Setzt die Grundfläche als Modell nach M4 um. Verschiebt Artikel- und Schilderkarten, während eine Person mit einem Einkaufswagenmodell die Fälle aus M2 durchspielt. Prüft auf diese Weise eure beiden Anordnungen. |
+**Gemeinsames Fachziel und Handlungsprodukt.** Ihr gestaltet eine Selbstbedienungsfläche und begründet, wie die Kundschaft die Ware selbst findet, vergleicht und auswählt. Alle drei Pakete führen zum selben Handlungsprodukt, einem bemaßten, beschrifteten Flächenplan mit Kundenwegen, Orientierungsschildern und fachlich richtigen Vergleichsangaben für Pumpen und Flaschenhalter. Vergleicht eure Entwürfe mit denselben Kriterien aus M5.
+
+| Lernpaket | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| --- | --- | --- | --- |
+| **A · Visuell · Kundenlaufplan** | Zeichnet die Kundenwege aus M2 in beide Pläne auf Grundlage von M1 ein. Ergänzt Regalansichten, Schilder und Vergleichsangaben aus M3. | Zwei Pläne zeigen, wo die Kundschaft die Schilder aus beiden Richtungen sieht und wo sie zum Vergleichen stehen bleibt. | … ihr möglichst viele Wege und Informationen auf einen Blick sehen und vergleichen möchtet. |
+| **B · Auditiv · Einkauf mithören** | Hört den Dialog aus M4 oder lest ihn mit verteilten Rollen. Spielt den Einkauf zur Pumpe und zum Flaschenhalter nach. Markiert in beiden Entwürfen, wo Kundinnen und Kunden Antworten auf ihre Fragen brauchen. | Zwei Entwürfe mit notierten Kundenfragen zeigen, welche Angaben am Regal die selbstständige Auswahl ermöglichen. | … ihr im Gespräch gut erkennt, an welchem Punkt Kundinnen und Kunden eine Auskunft brauchen. |
+| **C · Haptisch-handelnd · Regalmodell** | Baut das Modell aus M4. Verschiebt Artikel- und Schilderkarten und spielt die Einkaufsfälle aus M2 mit dem Wagenmodell in beiden Anordnungen durch. Übertragt die Beobachtungen in eure Entwürfe. | Zwei erprobte Varianten zeigen, wo sich Artikel gut erreichen und vergleichen lassen und wo ein haltender Wagen den Weg versperrt. | … ihr Platzierung und Wege am liebsten ausprobiert, indem ihr den Aufbau verändert. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -965,47 +981,49 @@ Ich stimme für zwei Handelspartner ein überprüfbares Werbeziel, passende Werb
 
 ### Handlungssituation
 
-Ihr arbeitet bei Global Bike im Vertrieb. Das Unternehmen und zwei Auricher Geschäfte wollen in einer Frühjahrswoche gemeinsam Fahrradzubehör bewerben. Das Fahrradfachgeschäft in der Innenstadt hat einen Newsletterplatz. Der Sportfachmarkt am Stadtrand möchte möglichst viele Menschen erreichen, die ohnehin am Samstag durch den Markt laufen.
+Am Mittwoch vor der Global-Bike-Frühjahrsaktion liegt der Terminplan bei Sarah Huber aus dem Marketing. Das Fahrradfachgeschäft in der Auricher Innenstadt möchte im Newsletter zur Beratung einladen. Dafür braucht es am Donnerstag bis 12 Uhr den fertigen Text. Der Sportfachmarkt am Stadtrand hat einen Platz für einen Aufsteller am Eingang reserviert. Soll er am Freitag der Aktionswoche stehen, braucht die Druckerei noch heute bis 16 Uhr die Freigabe.
 
-Am Mittwoch vor der Aktion legt Jana, die Vertriebsleiterin von Global Bike, den Kalender auf den Tisch. „Der nächste Entwurf geht erst raus, wenn feststeht, wer ihn prüft. Der Newsletter braucht morgen eine Freigabe, das Schild für den Freitagstermin sogar schon heute. Wenn die Zuständigkeiten offenbleiben, verlieren wir einen Werbeplatz.“ Das Fachgeschäft möchte Beratungen zählen. Der Markt rechnet in verkauften Artikeln. Beide wollen am Ende erfahren, ob sich die Aktion gelohnt hat.
+„Wir sollten die Werbeplätze jetzt bestätigen, damit sie uns erhalten bleiben“, sagt Sarah. Jan Richter, Leiter Verkauf und Marketing, hält die beiden Rückmeldungen der Läden daneben. „Das Fachgeschäft möchte Beratungen zählen, der Markt misst verkaufte Stücke. Wenn beide etwas anderes zählen, können wir kaum gemeinsam beurteilen, was die Aktion erreicht hat. Und ich muss wissen, wer die Freigaben rechtzeitig einholt.“
+
+Bis zum ersten Termin braucht ihr einen Werbeplan für beide Läden. Jan und Sarah wollen damit ein gemeinsames überprüfbares Ziel vereinbaren und für beide Standorte sehen, wer welches Werbemittel bis wann vorbereitet, prüft und einsetzt.
 
 #### Kurz prüfen · Handlungssituation
 
-Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+**Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
 
-**1. Was wollen Global Bike und die beiden Geschäfte im Frühjahr gemeinsam bewerben?**
+**1. Welche beiden Werbemittel wünschen sich die Läden und wann brauchen sie jeweils Text oder Freigabe?**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest die ersten beiden Sätze. Beginnt mit „Gemeinsam wollen sie …“.
+Sucht im ersten Absatz zu jedem Geschäft das Werbemittel und die zugehörige Frist. Achtet beim Aufsteller auf den Unterschied zwischen Druckfreigabe und Aufstellung.
 
 </details>
 
-**2. Welcher Entwurf braucht laut Jana noch am selben Tag eine Freigabe?**
+**2. Warum möchte Sarah die Werbeplätze sofort bestätigen?**
 
 <details>
 <summary>Hilfe</summary>
 
-Vergleicht die beiden Termine in Janas Aussage. Achtet auf „morgen“ und „heute“.
+Lest Sarahs ersten Satz im zweiten Absatz. Das Wort „damit“ führt zu ihrem Grund.
 
 </details>
 
-**3. Was muss feststehen, bevor Jana den nächsten Entwurf herausschickt?**
+**3. Woran würden die beiden Händler den Erfolg jeweils messen und welches Problem sieht Jan darin?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht in Janas erster Aussage die Wörter „erst … wenn“.
+Lest Jans Antwort. Unterstreicht die beiden Dinge, die gezählt werden sollen, und sucht danach nach der Folge für den Vergleich.
 
 </details>
 
-**4. Was möchte das Fachgeschäft zählen und womit rechnet der Sportfachmarkt?**
+**4. Was wollen Jan und Sarah mit eurem Werbeplan festlegen?**
 
 <details>
 <summary>Hilfe</summary>
 
-Schaut ans Ende der Szene. Ergänzt getrennt „Das Fachgeschäft …“ und „Der Sportfachmarkt …“.
+Sucht im letzten Absatz die Stelle nach „damit“. Nutzt „Der Plan enthält ein gemeinsames ___ und legt fest, wer ___ bis ___.“
 
 </details>
 
@@ -1048,11 +1066,13 @@ Schaut ans Ende der Szene. Ergänzt getrennt „Das Fachgeschäft …“ und „
 
 **Wählt** eines der drei Lernpakete.
 
-| Paket | So arbeitet ihr |
-| --- | --- |
-| **A · Visuell** | Lest die Fakten in M1–M3 und markiert passende Werbeplätze, kritische Fristen und Zuständigkeiten in zwei übereinanderliegenden Kalenderzeilen. Verbindet die Schritte der drei Beteiligten mit Pfeilen. |
-| **B · Auditiv** | Lasst die drei Partnerstimmen in M4 vorlesen oder als Sprachnachrichten einsprechen. Haltet danach eine kurze Abstimmung in den drei Rollen ab. Gleiche Fakten und Fristen stehen in M1–M3 zum Nachsehen bereit. |
-| **C · Haptisch-handelnd** | Legt zu M1–M3 die Karten aus M5 auf zwei Zeitachsen. Verschiebt die Karten für Produktion und Freigabe, bis jeder Werbeplatz fristgerecht bedient wird. Ordnet zu jedem Schritt einen Verantwortlichen. |
+**Gemeinsames Fachziel und Handlungsprodukt.** Ihr stimmt mit beiden Handelspartnern eine Werbeaktion ab. Euer Handlungsprodukt ist ein gemeinsamer Werbeplan für das Fahrradfachgeschäft und den Sportfachmarkt. Er enthält ein überprüfbares Ziel mit Kennzahl, Zielwert und Zeitraum sowie je Standort einen begründet gewählten Werbeträger, Einsatzzeit, Zuständigkeiten und Freigabefristen. Für alle drei Pakete gelten die Kriterien unter „Handlungsprodukt und Kriterien“.
+
+| Lernpaket | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| --- | --- | --- | --- |
+| **A · Visuell · Werbetermine vergleichen** | Tragt die Werbeplätze, Freigabefristen und Zuständigkeiten aus M1–M3 in zwei Kalenderzeilen ein. Markiert kritische Termine und verbindet die Arbeitsschritte der drei Beteiligten mit Pfeilen. | Zwei Kalenderzeilen zeigen, welche Zusagen zusammenpassen, wann die Werbung eingesetzt werden kann und wo ihr noch eine Zuständigkeit klären müsst. | … ihr Abhängigkeiten zwischen zwei Terminen am besten seht, wenn ihr beide Kalenderzeilen vor euch habt. |
+| **B · Auditiv · Mit beiden Partnern abstimmen** | Hört die drei Partnerstimmen aus M4 oder lest sie mit verteilten Rollen vor. Einigt euch in einem kurzen Gespräch auf einen Ablauf. Prüft die Zusagen mit M1–M3. | Eine kurze Gesprächsnotiz hält fest, welche Interessen die Beteiligten eingebracht haben, worauf sie sich einigen und wer eine Aufgabe verbindlich übernimmt. | … ihr unterschiedliche Interessen im Gespräch aufgreifen und Zusagen durch Nachfragen klären wollt. |
+| **C · Haptisch-handelnd · Termine legen** | Legt die Karten aus M5 auf zwei Zeitachsen. Probiert verschiedene Anordnungen für Entwurf, Freigabe und Veröffentlichung aus und prüft die Fristen aus M3. Ordnet jedem Schritt eine Zuständigkeit zu. | Eure gelegten Zeitachsen zeigen die machbare Reihenfolge der Schritte und machen sichtbar, welche Aufgaben vor der nächsten Zusage erledigt sein müssen. | … ihr Varianten am liebsten durch Verschieben ausprobiert und dabei seht, welche Freigabe zuerst gebraucht wird. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -1122,11 +1142,11 @@ Alle Vorbereitungsfristen beziehen sich auf die Woche vor der Aktion, sofern ein
 | Sportfachmarkt · Aufsteller am Eingang | Ab Freitag der Aktionswoche | [Freigabefrist](Glossare/LS_6_5_Glossar.md#freigabefrist) für den Druck: Mittwoch, 16:00 Uhr. Die Druckerei liefert bis Donnerstag der Aktionswoche. Der Markt stellt das Schild auf. |
 | Sportfachmarkt · Hinweis am Hauptgang | Ab Montag zur Öffnung | Freigabe bis Freitag, 12:00 Uhr. Der Markt druckt und platziert das Schild selbst. |
 
-Für die [kooperative Werbung](Glossare/LS_6_5_Glossar.md#kooperative-werbung) stellt Jana am Mittwoch ab 10:00 Uhr Produktangaben und Bildmaterial bereit. Global Bike kann an diesem Tag bis 14:00 Uhr einen gemeinsamen Textentwurf und je eine Fassung pro Standort liefern. Die Ladenleitungen entscheiden über die Freigabe ihres Werbemittels. Vor Veröffentlichung prüft der jeweilige Partner Preisangaben und Platzierung. Jede Maßnahme lässt sich an den genannten Fristen prüfen.
+Für die [kooperative Werbung](Glossare/LS_6_5_Glossar.md#kooperative-werbung) stellt Sarah Huber am Mittwoch ab 10:00 Uhr Produktangaben und Bildmaterial bereit. Global Bike kann an diesem Tag bis 14:00 Uhr einen gemeinsamen Textentwurf und je eine Fassung pro Standort liefern. Die Ladenleitungen entscheiden über die Freigabe ihres Werbemittels. Vor Veröffentlichung prüft der jeweilige Partner Preisangaben und Platzierung. Jede Maßnahme lässt sich an den genannten Fristen prüfen.
 
 #### M4 · Drei Partnerstimmen zum Vorlesen oder Einsprechen
 
-**Jana, Global Bike.** „Euer Material liegt heute ab zehn bereit. Zwei Standortfassungen können wir euch heute bis zwei Uhr schicken. Die Ladenleitungen geben die eigenen Fassungen frei. Wenn wir den Aufsteller am Markt-Eingang nutzen, braucht die Druckerei die Freigabe heute um vier. Nach der Aktion brauchen wir Vergleichszahlen aus beiden Kassen.“
+**Sarah Huber, Global Bike (Marketing).** „Euer Material liegt heute ab zehn bereit. Zwei Standortfassungen können wir euch heute bis zwei Uhr schicken. Die Ladenleitungen geben die eigenen Fassungen frei. Wenn wir den Aufsteller am Markt-Eingang nutzen, braucht die Druckerei die Freigabe heute um vier. Nach der Aktion brauchen wir Vergleichszahlen aus beiden Kassen.“
 
 **Inhaberin des Fahrradfachgeschäfts.** „Viele meiner Stammkundinnen und Stammkunden kommen nach Feierabend auf dem Rad vorbei. Ich würde sie vorab gern auf die Beratung hinweisen. Unser Newsletter ist am Montag um acht eingeplant. Dafür brauche ich den fertigen Text am Donnerstag bis mittags. Einen Aushang im Schaufenster kann ich bis Freitag um zwei Uhr vorbereiten. In der Vergleichswoche lag der Absatz der Aktionsartikel bei 40 Stück. Beratungen kann ich zusätzlich zählen.“
 
@@ -1181,47 +1201,49 @@ Ich übertrage eine gemeinsame Botschaft auf zwei Zielgruppen und Werbeformate u
 
 ### Handlungssituation
 
-Ihr arbeitet im Vertriebsteam von Global Bike. Für die gemeinsame Frühjahrsaktion in Aurich sind zwei Werbeplätze gebucht. Das Fahrradfachgeschäft in der Innenstadt verschickt einen Newsletter für Alltagsradelnde. Im Sportfachmarkt am Stadtrand sehen Familien und Freizeitradelnde beim Eintreten einen Aufsteller. Beide Medien sollen auf dieselbe Fahrradzubehöraktion aufmerksam machen.
+Zwei Werbeplätze für die Auricher Frühjahrsaktion sind gebucht. Das Fahrradfachgeschäft verschickt einen Newsletter für Alltagsradelnde. Im Sportfachmarkt am Stadtrand sehen Familien und Freizeitradelnde beim Eintreten einen Aufsteller. Beide Werbemittel sollen auf dieselbe Zubehöraktion aufmerksam machen.
 
-Jana öffnet kurz vor der internen Freigabe zwei Rohentwürfe. „Schaut hier. Im Newsletter steht, das Licht passe an jedes Fahrrad. Im Schild ist bei der Minipumpe ein Manometer abgebildet. Das Foto hat jemand aus einem anderen Entwurf übernommen. Ich muss heute zwei Fassungen freigeben, auf die sich beide Läden verlassen können.“ Auf dem Tisch liegen die Produktblätter und das Briefing für beide Werbeplätze.
+Kurz vor der internen Freigabe öffnet Sarah Huber aus dem Marketing die beiden Rohentwürfe. „Beim Newsletter brauche ich einen klaren Einstieg, sonst scrollen die Leute weiter. Für den Aufsteller muss auch das Bild schnell verständlich sein.“ Alexander Sahin aus dem Einkauf, zuständig für Handelswaren, hält die Produktblätter daneben. „Hier steht, das Lichtset passe an jeden Lenker. Und auf dem Entwurf fürs Schild hat die Pumpe eine Druckanzeige wie das Modell auf der anderen Vorlage. Ich würde beide Fassungen so noch nicht freigeben.“
+
+Jan Richter braucht heute zwei einsatzfähige Fassungen. Das Briefing und die Produktblätter liegen für euch bereit. Euer Auftrag ist, die gemeinsame Botschaft in beiden Formaten verständlich zu machen und die Produktangaben zu prüfen.
 
 #### Kurz prüfen · Handlungssituation
 
-Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+**Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
 
-**1. Wen spricht das Fahrradfachgeschäft mit seinem Newsletter an und wer soll den Aufsteller im Sportfachmarkt sehen?**
+**1. Wer soll welches der beiden Werbemittel sehen?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im ersten Absatz zu jedem Geschäft die Personen, die dort genannt werden.
+Sucht im ersten Absatz zu jedem Geschäft den Werbeplatz und die Personengruppe. Beginnt je mit „Das ___ richtet sich an …“.
 
 </details>
 
-**2. Was steht im Entwurf des Newsletters darüber, an welche Fahrräder das Licht passt?**
+**2. Warum sind Sarah ein klarer Einstieg und ein schnell verständliches Bild wichtig?**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest in Janas Aussage den Satz, der mit „Im Newsletter“ beginnt.
+Lest Sarahs zwei Sätze. Ordnet ihre Wünsche dem Newsletter und dem Aufsteller zu.
 
 </details>
 
-**3. Woher stammt das Foto der Minipumpe im Schildentwurf?**
+**3. Welche zwei Stellen fallen Alexander in den Entwürfen auf?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im zweiten Absatz den Satz, der mit „Das Foto“ beginnt.
+Lest Alexanders Aussage noch einmal. Achtet im ersten Satz auf die Zusage zum Lichtset und im zweiten auf das abgebildete Ausstattungsmerkmal.
 
 </details>
 
-**4. Was muss Jana noch an diesem Tag fertig zur Freigabe haben?**
+**4. Was braucht Jan heute und welche Unterlagen helfen euch dabei?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht in Janas letzter Aussage die Stelle mit „heute“ und achtet auf die Anzahl.
+Lest den letzten Absatz. Ergänzt „Jan braucht ___ für ___. Zum Nachprüfen gibt es ___.“
 
 </details>
 
@@ -1264,11 +1286,13 @@ Sucht in Janas letzter Aussage die Stelle mit „heute“ und achtet auf die Anz
 
 **Wählt** eines der drei Lernpakete.
 
-| Paket | So arbeitet ihr |
-| --- | --- |
-| **A · Visuell** | Entwerft für beide Medien eine Bild- und Textskizze. Markiert den Blickfang und ordnet die Produktangaben aus M2 an. Prüft die Wirkung in der vorgesehenen Größe und arbeitet beide Fassungen aus. |
-| **B · Auditiv** | Hört die zwei Kundenstimmen aus M4 als Aufnahme oder Vorlesetext. Sprecht eure Überschriften und Werbetexte probeweise ein oder lest sie im Team vor. Lasst jemand wiedergeben, was hängen bleibt. Übertragt die geprüften Texte in Newsletter und Schild. |
-| **C · Haptisch-handelnd** | Verwendet die Papierbausteine aus M5. Legt zuerst eine Fassung in einem Handyrahmen und die andere auf einer Schildfläche. Verschiebt Bausteine, bis die Aussagen gut erfassbar sind. Stellt anschließend die beiden Werbemittel fertig. |
+**Gemeinsames Fachziel und Handlungsprodukt.** Ihr übertragt dieselbe Botschaft auf zwei Zielgruppen und prüft eure Produktaussagen anhand von M2. Euer Handlungsprodukt besteht aus einem einsatzfähigen Newsletter-Ausschnitt für das Fahrradfachgeschäft, einem einsatzfähigen Eingangsschild für den Sportfachmarkt und einem kurzen Aussagencheck. Für alle drei Pakete gelten die Kriterien unter „Handlungsprodukt und Kriterien“.
+
+| Lernpaket | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| --- | --- | --- | --- |
+| **A · Visuell · Bild und Text skizzieren** | Skizziert beide Formate, markiert den Blickfang und ordnet die geprüften Angaben aus M2 an. Schaut euch die Entwürfe in der vorgesehenen Größe an. | Zwei Skizzen zeigen, was zuerst auffällt, wie Bild und Text zusammenwirken und an welcher Stelle die Kundschaft wichtige Informationen findet. | … ihr Blickfang, Lesbarkeit und Bildwirkung direkt in den zwei vorgesehenen Formaten beurteilen möchtet. |
+| **B · Auditiv · Werbetexte probehören** | Hört die Kundenstimmen aus M4 oder lest sie im Team vor. Sprecht Überschriften und Texte probeweise ein oder lest sie vor. Lasst jemanden in eigenen Worten wiedergeben, was angekommen ist. | Zwei überarbeitete Textentwürfe und die Rückmeldungen zeigen, welche Botschaft und Einladung verständlich ankommen. Setzt die Texte im Newsletter und auf dem Schild ein. | … ihr durch Zuhören und Wiedergeben prüfen möchtet, was Kundinnen und Kunden aus dem Text mitnehmen. |
+| **C · Haptisch-handelnd · Layout aus Bausteinen legen** | Legt die Bausteine aus M5 einmal im Handyrahmen und einmal auf der Schildfläche aus. Verschiebt Bild, Überschrift und Angaben und betrachtet das Schild auch aus einigen Schritten Entfernung. | Zwei Papierentwürfe zeigen, wie ihr Texte, Bilder und geprüfte Produktangaben in den beiden Formaten platzieren wollt. Übertragt die Anordnung in eure Endfassungen. | … ihr die Reihenfolge und Platzierung von Bild und Text am liebsten durch Verschieben ausprobiert. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -1395,47 +1419,49 @@ Ich prüfe mit Testpersonen, ob die Waren auffindbar sind und die Werbung versta
 
 ### Handlungssituation
 
-Jana hat zwei Flächenpläne und zwei Werbeentwürfe für die Global-Bike-Frühjahrsaktion vor sich. Das Fahrradfachgeschäft in der Auricher Innenstadt hat den Newsletter vorbereitet. Für den Sportfachmarkt am Stadtrand wartet die Druckerei auf das Eingangsschild. Die letzte Möglichkeit, das Schild noch zu ändern, ist heute um 16 Uhr.
+Sarah Huber aus dem Marketing hat für die Global-Bike-Frühjahrsaktion zwei Flächenpläne und zwei Werbeentwürfe vor sich. Das Fahrradfachgeschäft in der Auricher Innenstadt hat den Newsletter vorbereitet. Für den Sportfachmarkt am Stadtrand wartet die Druckerei auf das Eingangsschild. „Um 16 Uhr ist die letzte Abgabe. Ich würde das Schild jetzt schicken, solange noch Zeit für Rückfragen bleibt.“
 
-Beim Blick auf den Plan des Sportfachmarkts fragt ein Kollege: „Welchen Eingang meint das Schild eigentlich?“ Jana schaut auf die beiden Pläne und legt den Freigabevermerk zur Seite. „Wer heute zum ersten Mal auf die Werbung und die Fläche schaut, kennt unsere Überlegungen nicht. Zwischen dem Test und der Freigabe bleibt uns noch Zeit für Korrekturen.“
+Sebastian Wolf aus dem Außendienst liest den Weghinweis auf dem Schild. „Hier steht, die Kundschaft soll auf die grüne Markierung achten. Auf dem Plan sehe ich zwei grüne Stellen. Wo würde jemand hingehen, der heute zum ersten Mal in den Laden kommt?“ Auch beim Newsletter will er wissen, ob die angekündigten Artikel mit Hilfe des Flächenplans auffindbar sind.
+
+Jan Richter bittet euch um einen kurzen Test mit Personen, die beide Entwürfe zum ersten Mal sehen. Vor der Freigabe möchte er für beide Läden sehen, wo die Testpersonen ins Stocken geraten und was ihr auf dieser Grundlage noch ändern müsst.
 
 #### Kurz prüfen · Handlungssituation
 
-Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+**Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
 
-**1. Welche zwei Arten von Unterlagen liegen für die Frühjahrsaktion vor Jana?**
+**1. Welche Unterlagen liegen Sarah vor und welche davon erwartet die Druckerei?**
 
 <details>
 <summary>Hilfe</summary>
 
-Im ersten Satz der Szene findet ihr zwei Dinge, die jeweils in doppelter Ausführung vorliegen.
+Sucht im ersten Absatz die beiden Arten von Entwürfen. Lest anschließend, für welchen Laden die Druckerei etwas erwartet.
 
 </details>
 
-**2. Bis wann lässt sich das Eingangsschild noch ändern?**
+**2. Warum möchte Sarah das Schild sofort abgeben?**
 
 <details>
 <summary>Hilfe</summary>
 
-Sucht im ersten Absatz den Satz zur letzten Änderungsmöglichkeit.
+Lest Sarahs Aussage. Achtet auf die Uhrzeit und darauf, was ihr bis dahin wichtig ist.
 
 </details>
 
-**3. Was ist dem Kollegen unklar, als er auf den Plan des Sportfachmarkts schaut?**
+**3. Was macht Sebastian am Weghinweis stutzig?**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest die kurze Frage am Anfang des zweiten Absatzes.
+Vergleicht im zweiten Absatz den Hinweis auf dem Schild mit dem, was Sebastian auf dem Plan sieht. Beginnt mit „Der Hinweis sagt …, auf dem Plan …“.
 
 </details>
 
-**4. Warum schiebt Jana die Freigabe nach der Frage des Kollegen auf?**
+**4. Was möchte Jan vor der Freigabe von euch erfahren?**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest, was Jana über Personen sagt, die Werbung und Fläche zum ersten Mal sehen. Ergänzt „Jana möchte erst testen, weil …“.
+Lest die letzten beiden Sätze. Ergänzt „Beim Test soll sichtbar werden, wo ___ und was wir deshalb ___.“
 
 </details>
 
@@ -1476,11 +1502,15 @@ Lest, was Jana über Personen sagt, die Werbung und Fläche zum ersten Mal sehen
 
 #### Lernpaket wählen
 
-**Wählt** eines der drei Lernpakete.
+**Wählt** eines der drei Lernpakete für den Test.
 
-- **A · Wege sichtbar machen.** Arbeitet mit den Werbe- und Flächenentwürfen aus M1 und M2. Beobachtet, wohin die Testpersonen zuerst zeigen und wo sie ihren Weg ändern. Zeichnet die Wege im Plan ein und erfasst die Antworten zur Werbung.
-- **B · Beim Suchen zuhören.** Nutzt dieselben Entwürfe und sprecht die neutrale Einführung aus M3. Bittet die Testpersonen, beim Suchen laut zu denken. Ordnet ihre Äußerungen den Stellen im Plan oder in der Werbung zu.
-- **C · Im Modell testen.** Legt beide Entwürfe nach M4 auf dem Tisch oder Boden. Lasst Testpersonen mit Figuren oder zu Fuß suchen und die Botschaft wiedergeben. Markiert die Stellen, an denen sie stehen bleiben, umkehren oder eine Frage stellen.
+**Gemeinsames Fachziel und Handlungsprodukt.** In allen drei Paketen prüft ihr mit Testpersonen, ob sie das gesuchte Zubehör finden und die Werbung verstehen. Ihr führt dasselbe Testprotokoll (M5) für beide Läden und begründet eure Änderungen an den Entwürfen mit den Beobachtungen. In allen Paketen gelten dieselben Prüfkriterien.
+
+| Lernpaket | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| --- | --- | --- | --- |
+| **A · Visuell · Wege einzeichnen** | Legt Werbung und Flächenplan aus M1 und M2 vor. Zeichnet den gezeigten Weg, Suchstopps und Richtungswechsel ein. Notiert, wie die Testperson die Werbung wiedergibt. | Markierte Suchwege für beide Läden und die dazugehörigen Antworten. Damit könnt ihr eine unklare Stelle im Weg oder in der Werbung gezielt überarbeiten. | … ihr Suchwege und mögliche Irrwege lieber im Plan nachvollzieht. |
+| **B · Auditiv · Beim Suchen zuhören** | Nutzt M1 bis M3. Lasst die Testpersonen beim Suchen laut denken. Haltet die Wegwahl und wichtige Aussagen fest und fragt am Ende nach der Werbebotschaft. | Notizen zu den Wegen und kurze Aussagen darüber, welche Hinweise die Testpersonen wahrgenommen und wie sie diese verstanden haben. | … ihr durch Zuhören herausfinden wollt, warum jemand einen Hinweis anders versteht als beabsichtigt. |
+| **C · Haptisch-handelnd · Im Modell testen** | Legt beide Flächen nach M4. Lasst die Testpersonen mit einer Figur oder im Bodenraster suchen und anschließend die Werbung wiedergeben. Markiert Stopps und Umwege im Modell. | Markierte Stellen im Modell und die Aussagen zur Werbung. Daran könnt ihr erproben, ob zum Beispiel ein versetztes Schild einen beobachteten Umweg vermeidet. | … ihr räumliche Probleme am besten beim Nachstellen und Verschieben von Elementen untersucht. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
@@ -1522,7 +1552,7 @@ Lest, was Jana über Personen sagt, die Werbung und Fläche zum ersten Mal sehen
 
 ### Handlungsprodukt und Kriterien
 
-Jana erhält ein Testprotokoll und die geprüften Entwürfe für beide Standorte. Das Protokoll enthält je Standort einen Beleg zu Auffindbarkeit und Werbeverständnis. Markierte Änderungen sind aus dem Test begründet. Die Fassung für die Freigabe zeigt die Änderungen unmittelbar im Werbemittel oder im Flächenplan.
+Jan Richter erhält ein Testprotokoll und die geprüften Entwürfe für beide Standorte. Das Protokoll enthält je Standort einen Beleg zu Auffindbarkeit und Werbeverständnis. Markierte Änderungen sind aus dem Test begründet. Die Fassung für die Freigabe zeigt die Änderungen unmittelbar im Werbemittel oder im Flächenplan.
 
 ### Materialien
 
@@ -1617,47 +1647,49 @@ Ich vergleiche Absatzdaten und Kundenrückmeldungen beider Standorte, beurteile 
 
 ### Handlungssituation
 
-Die Frühjahrsaktion von Global Bike ist vorbei. Der Sportfachmarkt am Auricher Stadtrand hat Jana eine Nachricht mit dem Betreff „Nächsten Termin sichern“ geschickt. Vom Fahrradfachgeschäft in der Innenstadt kommt ebenfalls eine Anfrage. Die Inhaberin möchte die Fläche erneut reservieren, hat aber Änderungswünsche. Beide Partner möchten bis Freitag eine Antwort.
+Die Global-Bike-Frühjahrsaktion in Aurich ist vorbei. Beim Außendienst liegen zwei Nachrichten. Der Sportfachmarkt am Stadtrand möchte den nächsten Termin sichern. Auch die Inhaberin des Fachgeschäfts in der Innenstadt würde die Fläche erneut reservieren. Sie bittet vor einer Zusage um Änderungen. Beide Handelspartner möchten bis Freitag eine Antwort.
 
-Jana stellt euch den Aktionsbericht mit vergleichbaren Absatzdaten, Kundenrückmeldungen und der vereinbarten Zielgröße zur Verfügung. „Beide Läden wollen weitermachen“, sagt sie. „Sie wollen allerdings Unterschiedliches beibehalten. Am Freitag muss ich beiden erklären können, welche Änderungen wir empfehlen und warum.“
+„Wenn wir jetzt zögern, geben sie die Flächen vielleicht anderweitig frei“, sagt Sebastian Wolf aus dem Außendienst. Er möchte die Aktion beiden Läden gleich erneut anbieten. Christian Klein aus der Absatzlogistik legt den Aktionsbericht zwischen die beiden Anfragen. „Wir hatten für jeden Laden mindestens 20 Prozent mehr verkaufte Stücke als in der Vergleichswoche vereinbart. Prüfen wir erst, ob das je Standort gelungen ist und welche Änderungen die Kundenrückmeldungen für die nächste Aktion nahelegen.“
+
+Jan Richter braucht von euch bis Freitag eine Empfehlung für jeden Laden. Haltet fest, wie die Aktion gemessen am vereinbarten Ziel ausgefallen ist und was Global Bike beim nächsten Mal bei Sortiment, Platzierung und Werbung beibehalten oder ändern sollte.
 
 #### Kurz prüfen · Handlungssituation
 
-Beantwortet die Fragen in kurzen Stichpunkten oder eigenen Sätzen. Wenn ihr stockt, öffnet die Hilfe zur jeweiligen Frage.
+**Beantwortet** die Fragen mit Informationen aus der Handlungssituation. Öffnet bei Bedarf die Hilfe.
 
-**1. Was möchte der Sportfachmarkt laut Betreff seiner Nachricht?**
+**1. Was wünschen sich die zwei Händler und bis wann erwarten sie eine Antwort?**
 
 <details>
 <summary>Hilfe</summary>
 
-Schaut im ersten Absatz auf die Wörter in Anführungszeichen.
+Lest die beiden Nachrichten im ersten Absatz. Achtet darauf, was die Inhaberin vor einer Zusage anspricht und welche Frist für beide gilt.
 
 </details>
 
-**2. Was möchte die Inhaberin des Fahrradfachgeschäfts erneut tun?**
+**2. Warum möchte Sebastian die Aktion sofort erneut anbieten?**
 
 <details>
 <summary>Hilfe</summary>
 
-Der Satz über die Inhaberin steht direkt nach der zweiten Anfrage. Sucht das Verb zu „erneut“.
+Sucht Sebastians Aussage im zweiten Absatz. Ergänzt „Wenn Global Bike zu lange wartet, könnte …“.
 
 </details>
 
-**3. Welche drei Arten von Informationen stehen im Aktionsbericht?**
+**3. Welches vereinbarte Ziel nennt Christian und was will er zusätzlich heranziehen?**
 
 <details>
 <summary>Hilfe</summary>
 
-Lest den ersten Satz des zweiten Absatzes. Die Aufzählung beginnt direkt hinter „mit“.
+Lest Christians Aussage. Achtet auf Zahl, Vergleichszeitraum und weitere Hinweise neben den Verkaufszahlen.
 
 </details>
 
-**4. Was muss Jana den beiden Geschäften am Freitag erklären können?**
+**4. Welche drei Bereiche soll eure Empfehlung für die Folgeaktion abdecken?**
 
 <details>
 <summary>Hilfe</summary>
 
-Achtet in Janas letztem Satz auf „welche“ und „warum“.
+Lest den letzten Satz. Beginnt mit „Für beide Läden empfehlen wir, bei ___, ___ und ___ etwas beizubehalten oder zu ändern.“
 
 </details>
 
@@ -1698,11 +1730,15 @@ Achtet in Janas letztem Satz auf „welche“ und „warum“.
 
 #### Lernpaket wählen
 
-**Wählt** eines der drei Lernpakete.
+**Wählt** eines der drei Lernpakete für die Auswertung.
 
-- **A · Zahlen und Stimmen sichtbar machen.** Stellt Referenz- und Aktionsabsatz je Laden als Balken dar oder markiert sie in M2. Verbindet auffällige Ergebnisse mit Rückmeldungen aus M3 und den umgesetzten Maßnahmen aus M1.
-- **B · Das Abschlussgespräch vorbereiten.** Hört die Stimmen aus M3 oder lest sie mit verteilten Rollen. Besprecht anhand der Zahlen aus M2, welche Aussagen gestützt werden. Sprecht eure Empfehlung probeweise für Jana aus und sichert die Belege in M5.
-- **C · Entscheidungstafel legen.** Legt die Zahlen- und Rückmeldungskarten nach M4 aus. Ordnet sie den Standorten und den drei Entscheidungsbereichen zu. Verschiebt je eine Vorschlagskarte in „beibehalten“ oder „ändern“ und legt die zugehörigen Belege daneben.
+**Gemeinsames Fachziel und Handlungsprodukt.** In allen drei Paketen vergleicht ihr für beide Standorte den Absatz und die Kundenrückmeldungen, prüft das Aktionsziel und leitet begründete Empfehlungen zu Sortiment, Platzierung und Werbung ab. Ihr sichert dieselbe Entscheidungsvorlage (M5) nach denselben Kriterien.
+
+| Lernpaket | So arbeitet ihr | Das nehmt ihr für die Entscheidung mit | Wählt dieses Paket, wenn … |
+| --- | --- | --- | --- |
+| **A · Visuell · Absatz und Rückmeldungen gegenüberstellen** | Stellt Vergleichs- und Aktionsabsatz je Laden als Balken dar oder markiert sie in M2. Verknüpft die berechnete Veränderung und auffällige Artikeldaten mit Maßnahmen aus M1 und Kundenstimmen aus M3. | Eine Übersicht für beide Standorte, in der ihr die Zielerreichung und die Belege zu euren Vorschlägen wiederfindet. | … ihr Unterschiede und Zusammenhänge leichter erkennt, wenn Zahlen und Rückmeldungen nebeneinanderstehen. |
+| **B · Auditiv · Das Abschlussgespräch erproben** | Hört oder lest die Stimmen aus M3 mit verteilten Rollen. Vergleicht sie im Gespräch mit den Zahlen aus M2 und dem Ziel aus M1. Sprecht eure Empfehlungen für Jan Richter probeweise aus und beantwortet Rückfragen mit Belegen. | Schriftlich gesicherte Vorschläge mit dem zugehörigen Zahlenbeleg oder der passenden Kundenstimme. Ihr merkt beim Erklären, wo eine Begründung noch fehlt. | … ihr prüfen wollt, ob eure Empfehlung auch in einem Gespräch mit Rückfragen trägt. |
+| **C · Haptisch-handelnd · Eine Entscheidungstafel legen** | Legt die Zahlen- und Rückmeldungskarten nach M4 zu den beiden Standorten und drei Entscheidungsbereichen. Ordnet auch die berechnete Veränderung dem Ziel zu. Verschiebt Vorschlagskarten zu „beibehalten“ oder „ändern“ und legt die Belege dazu. | Eine geordnete Auswahl aus sechs Vorschlägen mit Belegen. Ihr übertragt sie mit dem Ergebnis der Zielprüfung in M5. | … ihr mehrere Vorschläge abwägen möchtet, indem ihr Karten zuordnet, austauscht und erneut prüft. |
 
 **Fachbuchverweis.** [Später ergänzen]
 
