@@ -1,0 +1,6 @@
+Lernpfadübung LS 1.1
+
+Grundlage: LF01_LS01_1.md · Übungsaufgaben – Aufgabenfassung · UE-01 bis UE-10
+30 Kernaufgaben und 48 Reserveaufgaben.
+Paket und Browserablauf mit simulierter SCORM-1.2-Schnittstelle geprüft. Beide Festigungsvarianten, Stufenaufstieg, Transfer, Fortsetzen und Lehrkraft-Export geprüft.
+Antwortlängen, Formulierungen und Lösungsschlüssel geprüft. Neue Mischungen bei einem neuen Versuch und gleichbleibende Reihenfolge beim Fortsetzen im Browser geprüft.

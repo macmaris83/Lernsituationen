@@ -61,6 +61,16 @@ Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-K
 | Geschichte | Vom Mythos zum Krieg · Russland | 1.8.14 | [ZIP](GESCHICHTE-J1914-Russland/Julikrise_1914_Russland_v1.8.14_SCORM12.zip) |
 | Geschichte | Identität und Nation | 1.8.15 | [ZIP](GESCHICHTE-IDN/Identitaet_und_Nation_v1.8.15_SCORM12.zip) |
 | Vorlagen | LS-Master im BRC-Design | 1.8.13 | [ZIP](LS-MASTER/LS_Master_BRC_v1.8.13_SCORM12.zip) |
+| BFS Dual · LF01 | LS 1.1 · Unternehmen erkunden, vergleichen und präsentieren | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF01-LS1_1/BFSdual_LF01_Lernpfad_LS1_1_v1.1_SCORM12.zip) |
+| BFS Dual · LF01 | LS 1.3 · Betriebliche Strukturen und Zuständigkeiten verstehen | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF01-LS1_3/BFSdual_LF01_Lernpfad_LS1_3_v1.1_SCORM12.zip) |
+| BFS Dual · LF02 | LS 2.1 · Kommunikation und Absatz I (Theorie) | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF02-LS2_1/BFSdual_LF02_Lernpfad_LS2_1_v1.1_SCORM12.zip) |
+| BFS Dual · LF02 | LS 2.2 · Kommunikation und Absatz II (Praxis) | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF02-LS2_2/BFSdual_LF02_Lernpfad_LS2_2_v1.1_SCORM12.zip) |
+| BFS Dual · LF02 | LS 2.3 · Rechtliche Grundlagen für Kaufverträge (Theorie) | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF02-LS2_3/BFSdual_LF02_Lernpfad_LS2_3_v1.1_SCORM12.zip) |
+| BFS Dual · LF02 | LS 2.4 · Kundenangebote erstellen und Bestellungen prüfen | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF02-LS2_4/BFSdual_LF02_Lernpfad_LS2_4_v1.1_SCORM12.zip) |
+| BFS Dual · LF02 | LS 2.5 · Auftrag abwickeln und auswerten | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF02-LS2_5/BFSdual_LF02_Lernpfad_LS2_5_v1.1_SCORM12.zip) |
+| BFS Dual · LF03 | LS 3.1 · Beschaffung wirtschaftlich planen – die richtige Bestellstrategie für Global Bike | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF03-LS3_1/BFSdual_LF03_Lernpfad_LS3_1_v1.1_SCORM12.zip) |
+| BFS Dual · LF03 | LS 3.2 · Lagerhaltung optimieren – ABC-Analyse und Entscheidung über Eigen- oder Fremdlagerung | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF03-LS3_2/BFSdual_LF03_Lernpfad_LS3_2_v1.1_SCORM12.zip) |
+| BFS Dual · LF03 | LS 3.3 · Wenn Lieferungen nicht wie vereinbart erfolgen | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF03-LS3_3/BFSdual_LF03_Lernpfad_LS3_3_v1.1_SCORM12.zip) |
 
 Maschinenlesbare Zuordnung und Prüfsummen: [aktuell.json](aktuell.json).
 Vor einer automatischen Nutzung: `python tools/master.py check --archives`.

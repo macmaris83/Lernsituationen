@@ -10,6 +10,7 @@ Frühere Fassungen bleiben in der Git-Historie nachvollziehbar.
 |---|---|
 | BRC · BioCasa OS | [Lernunternehmen: Quellcode, Tests und Codex-Einstieg](Fachbereiche/BRC/BioCasaOS/) |
 | BRC · BioCasa LG01 | [Sechs Lernsituationen](Fachbereiche/BRC/LG01/) |
+| BFS Dual · LF01–03 | [Zehn Lernpfadübungen für Lernfeld 1 bis 3](Fachbereiche/BFSdual/Lernpfaduebungen/) |
 | Sozialpädagogik | [30 Lernpfadübungen](Fachbereiche/Sozialpaedagogik/Lernpfaduebungen/) |
 | ReNo | [Fachbereich mit Einstieg zum LS-Master](Fachbereiche/ReNo/) |
 | Geschichte | [Identität und Nation sowie sechs Julikrise-Rollenpakete](Fachbereiche/Geschichte/) |

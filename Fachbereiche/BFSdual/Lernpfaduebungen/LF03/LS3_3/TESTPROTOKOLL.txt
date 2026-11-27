@@ -1,0 +1,6 @@
+Lernpfadübung LS 3.3
+
+Grundlage: Global_Bike_Kaufvertragsstoerungen_mit_Outro.docx · M14 – Übungsaufgaben zu Kaufvertragsstörungen
+30 Kernaufgaben und 48 Reserveaufgaben.
+Paket und Browserablauf mit simulierter SCORM-1.2-Schnittstelle geprüft. Beide Festigungsvarianten, Stufenaufstieg, Transfer, Fortsetzen und Lehrkraft-Export geprüft.
+Antwortlängen, Formulierungen und Lösungsschlüssel geprüft. Neue Mischungen bei einem neuen Versuch und gleichbleibende Reihenfolge beim Fortsetzen im Browser geprüft.
