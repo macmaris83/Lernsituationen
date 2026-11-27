@@ -27,6 +27,13 @@ PHASES = dict(informieren='Informieren', planen='Planen', entscheiden='Entscheid
 ORDER = ('index', 'handlungssituation', 'informieren', 'begriffstraining', 'planen',
          'entscheiden', 'durchfuehren', 'bewerten', 'reflektieren', 'materialien', 'ls-glossar')
 PRINTER = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"/></svg>'
+MATH_TASKS = {
+    '2.4': {'07','09','12','13A','13B','13C'},
+    '2.5': {'08','10','12','13A','13B','13C'},
+    '3.1': {'06','09','11','12','13A','13B','13C','14'},
+    '3.2': {'07','09','12'},
+    '3.3': {'12'},
+}
 NS = 'http://www.imsproject.org/xsd/imscp_rootv1p1p2'
 ET.register_namespace('', NS)
 ET.register_namespace('adlcp', 'http://www.adlnet.org/xsd/adlcp_rootv1p2')
@@ -85,12 +92,22 @@ def add_page(title, body_html, cls='pdf-document', controls='', css='assets/pdf-
 <body class="{cls}"><main>{controls}{body_html}</main></body></html>'''
 
 def heading(title, ls, phase='', logo='assets/bbs1-aurich.svg'):
-    return f'<header class="pdf-heading"><img src="{logo}" alt="BBS 1 Aurich"><div class="pdf-brand">BBS 1 Aurich · BFS dual · Global Bike · LS {ls}</div><h1>{escape(title)}</h1>' + (f'<h2>{escape(phase)}</h2>' if phase else '') + '</header>'
+    loeppt=logo.rsplit("/",1)[0]+"/loept.png"
+    return f'<header class="pdf-heading"><div class="pdf-logos"><img src="{logo}" alt="BBS 1 Aurich"><img src="{loeppt}" alt="Löppt"></div><div class="pdf-brand">BBS 1 Aurich · BFS dual · Global Bike · LS {ls}</div><h1>{escape(title)}</h1>' + (f'<h2>{escape(phase)}</h2>' if phase else '') + '</header>'
 
-def task_html(task):
+def answer_space(ls, task, large):
+    match=re.match(r'Aufgabe ([A-Z0-9]+)',task[1])
+    math=match and match[1] in MATH_TASKS.get(ls,set())
+    if math:
+        rows=18 if large else 10
+        return '<div class="pdf-notes pdf-grid"><p>Rechenweg · 5-mm-Karo</p><div class="pdf-squares" style="height:'+str(rows*5)+'mm"></div></div>'
+    rows=12 if large else 6
+    return '<div class="pdf-notes"><p>Notizen</p>'+'<div class="pdf-line"></div>'*rows+'</div>'
+
+def task_html(task,ls,large=False):
     code, meta, content=task
     variant=f' data-pdf-path="{code}"' if code else ''
-    return f'<article class="pdf-task"{variant}><div class="pdf-task-meta">{escape(meta)}</div>{content}</article>'
+    return f'<article class="pdf-task"{variant}><div class="pdf-task-meta">{escape(meta)}</div>{content}{answer_space(ls,task,large)}</article>'
 
 def download(phase, ls, variant=''):
     suffix='-'+variant if variant else ''
@@ -112,7 +129,7 @@ def interactive_view(d,title,ls,chunks,back):
 <label for="pdf-lernweg">Lernweg</label><select id="pdf-lernweg"><option value="">Alle Lernwege</option><option>A</option><option>B</option><option>C</option></select>
 <button type="button" data-print-document>Drucken / als PDF sichern</button>
 <a href="pdf/Gesamtdokument-LS-{ls}.pdf" download>PDF mit allen Lernwegen herunterladen</a></nav>
-<script defer src="assets/pdf-ui.js"></script>'''
+<script defer src="assets/editor-config.js"></script><script defer src="assets/editor-settings.js"></script><script defer src="assets/pdf-ui.js"></script>'''
     (d/'druckansicht.html').write_text(add_page(f'{title} · Gesamtdokument',heading(title,ls)+''.join(chunks),controls=controls))
 
 def source_plan(d):
@@ -137,7 +154,7 @@ def source_plan(d):
             structured=[numbered_task(node) for node in tasks]
             phases[page]=structured
             for node, task in zip(tasks,structured):
-                node.getparent().replace(node,fragment(task_html(task))[0])
+                node.getparent().replace(node,fragment(task_html(task,ls))[0])
         for node in content.xpath('.//*[@id="wahlhinweis"]'):
             node.drop_tree()
         for node in content.xpath('.//*[@data-require-path]'):
@@ -196,8 +213,11 @@ def office_plan(d):
         if phase=='handlungssituation':
             check=node.xpath('.//*[@id="quiz0"]')
             if check:
-                for q in content['quiz0']:
-                    check[0].append(fragment('<p>'+escape(q.get('q',''))+'</p>')[0])
+                for i,q in enumerate(content['quiz0'],1):
+                    key=f'index.html#handlungssituation::office-check-{i}'
+                    options=''.join(f'<li>○ <span data-edit-text="{key}-a{j}">{escape(answer)}</span></li>' for j,answer in enumerate(q['o']))
+                    check[0].append(fragment(f'<p data-edit-text="{key}-q">{escape(q["q"])}</p><ul>{options}</ul>')[0])
+                    check[0].append(fragment(f'<ul>{options}</ul>')[0])
         chunks.append(f'<section class="pdf-chapter">{body(clean(node))}</section>')
     return ls,title,phases,chunks
 
@@ -279,15 +299,14 @@ def render(work):
                 for item in items:
                     if item[0] and code and item[0]!=code:continue
                     section=heading(title,ls,PHASES[phase],'../assets/bbs1-aurich.svg')
-                    section+=task_html((None,item[1],item[2]))
-                    section+='<div class="pdf-notes" aria-label="Platz für Notizen"><p>Notizen</p>'+'<div></div>'*9+'</div>'
+                    section+=task_html((None,item[1],item[2]),ls,large=True)
                     nodes.append(f'<section class="workbook-sheet">{section}</section>')
                 assert nodes,(ls,phase,code)
                 dest=d/download(phase,ls,code)
                 scratch=pdf/f'_render-{phase}-{code}.html'
                 scratch.write_text(add_page(title,''.join(nodes),'pdf-workbook',css='../assets/pdf-document.css'))
                 printed=make(base+'/pdf/'+scratch.name,dest)
-                assert PHASES[phase] in printed,(ls,phase,code)
+                assert PHASES[phase] in printed and ('Notizen' in printed or '5-mm-Karo' in printed),(ls,phase,code)
                 if code:
                     assert f'Lernweg {code}' in printed,(ls,phase,code,printed[:300])
                     assert all(f'Lernweg {other}' not in printed for other in 'ABC' if other!=code),(ls,phase,code)
@@ -303,7 +322,10 @@ def main():
     server=ThreadingHTTPServer(('127.0.0.1',0),partial(Handler,directory=ROOT))
     Thread(target=server.serve_forever,daemon=True).start()
     builds=[]
+    selected=set(os.environ.get('BFS_PDF_CASES','').split())
     for d in all_dirs:
+        case='6.9' if d==OFFICE else f'{int(d.parent.name[2:])}.{int(d.name[2:])}'
+        if selected and case not in selected:continue
         ls,title,phases,chunks=(office_plan if d==OFFICE else source_plan)(d)
         for name in ('pdf-ui.js','pdf-ui.css','pdf-document.css'):
             shutil.copyfile(HERE/name,d/'assets'/name)
@@ -315,6 +337,7 @@ def main():
         builds.append((d,ls,title,phases,base))
     with ThreadPoolExecutor(3) as pool:
         list(pool.map(render,builds))
+    if selected and '6.9' not in selected:return
     zpath=OFFICE.parent/'LS_6_9_Buero_mit_Zukunft_Erklaerbilder_SCORM12.zip'
     with ZipFile(zpath,'w',ZIP_DEFLATED) as z:
         for f in sorted(OFFICE.rglob('*')):

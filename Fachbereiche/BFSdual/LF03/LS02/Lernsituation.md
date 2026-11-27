@@ -64,13 +64,9 @@ Die Gewichtung zeigt, wie häufig und wofür die Kompetenz in den Aufgaben gebra
 
 [Digitale Fassung öffnen](handlungssituation.html)
 
-Lies den betrieblichen Auftrag und beantworte die Fragen in eigenen Worten.
-
  [![Ali Gül prüft unterschiedliche Lagerartikel. Das Motiv führt zur ABC-Analyse nach Verbrauchswert und zur Entscheidung über Eigen- oder Fremdlagerung hin.](assets/LS_3_2_Ali_Guel_prueft_Lagerartikel_fuer_ABC_Analyse.png)](assets/LS_3_2_Ali_Guel_prueft_Lagerartikel_fuer_ABC_Analyse.png)
 
 Ali Gül prüft unterschiedliche Lagerartikel. Das Motiv führt zur ABC-Analyse nach Verbrauchswert und zur Entscheidung über Eigen- oder Fremdlagerung hin.
-
-#### Den Fall lesen
 
 Jan Richter aus Verkauf und Marketing möchte Kunden im Nordwesten zuverlässig beliefern. Ali Gül leitet Lager und Logistik. Er fragt, welche Artikel besonders eng gesteuert werden müssen und wann sich externe Lagerleistungen anbieten.
 
@@ -78,51 +74,30 @@ Peter Schwarz und Hans-Werner Schoor erwarten eine wirtschaftlich begründete Em
 
 Erstelle eine ABC-Analyse in Excel, leite für die drei Artikelklassen Maßnahmen ab und wäge eigene und externe Lagerung gegeneinander ab.
 
-<span class="assignment-time" data-task-id="BFSDUAL-LF03-LS02-T02" data-task-minutes="12">12 Minuten</span>
-
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Wer braucht am Ende eine Entscheidung und wer hilft bei der Umsetzung?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Suche Geschäftsleitung, Lagerleitung und Vertrieb im Fall.
-</details>
-
-Deine Antwort
+- Peter Schwarz und Hans-Werner Schoor entscheiden. Ali Gül aus Lager und Logistik unterstützt die Umsetzung.
+- Ali Gül entscheidet allein. Die Verkaufsabteilung führt die Lageranalyse ohne Belege durch.
+- Die Lieferanten entscheiden, welche Global-Bike-Standorte geschlossen werden.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF03-LS02-T03" data-task-minutes="6">6 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Wo bewegt sich die Ware und welche Rolle spielt Ostfriesland?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Unterscheide den Standort der Logistik von der Region der Kunden.
-</details>
-
-Deine Antwort
+- Alle Waren werden schon in Ostfriesland gelagert. Hamburg ist nur ein Absatzmarkt.
+- Die Warenbewegung läuft über bestehende Standorte wie Hamburg. Ostfriesland ist der Absatzmarkt.
+- Die Ware liegt ausschließlich in Ostfriesland und wird aus Hamburg bestellt.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF03-LS02-T04" data-task-minutes="6">6 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welche Angaben brauchst du, um den Verbrauchswert eines Artikels zu berechnen?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Schau auf die beiden Zahlenspalten des Ausgangsdatensatzes.
-</details>
-
-Deine Antwort
+- Nur die Anzahl der laufenden Bestellungen.
+- Lagerhöhe und erwartete Lieferzeit.
+- Jahresverbrauch und Preis je Stück.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF03-LS02-T05" data-task-minutes="6">6 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
 
 <a id="informieren"></a>
 

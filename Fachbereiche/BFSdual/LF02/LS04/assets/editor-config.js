@@ -1,0 +1,1 @@
+window.BFS_EDITOR_CONFIG={"id": "BFSDUAL-LF02-LS04"};

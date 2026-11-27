@@ -91,6 +91,16 @@
       <file href="pdf/GoodNotes-LS-2.2-informieren.pdf" />
       <file href="pdf/GoodNotes-LS-2.2-planen.pdf" />
       <file href="pdf/GoodNotes-LS-2.2-reflektieren.pdf" />
+      <file href="assets/bfs-checks-xp.js" />
+      <file href="assets/bfs-xp-config.js" />
+      <file href="assets/editor-config.js" />
+      <file href="assets/editor-settings.js" />
+      <file href="assets/editor.css" />
+      <file href="assets/editor.js" />
+      <file href="assets/jszip.min.js" />
+      <file href="assets/points-ui.js" />
+      <file href="lehrkraft.html" />
+      <file href="assets/loept.png" />
     </resource>
   </resources>
 </manifest>

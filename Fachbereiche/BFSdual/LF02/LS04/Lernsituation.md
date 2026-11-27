@@ -64,13 +64,9 @@ Die Gewichtung zeigt, wie häufig und wofür die Kompetenz in den Aufgaben gebra
 
 [Digitale Fassung öffnen](handlungssituation.html)
 
-Lies den betrieblichen Auftrag und beantworte die Fragen in eigenen Worten.
-
  [![Emil Werner vergleicht Anfrage, Angebot und Bestellung von Alster Cycling in der Auftragsbearbeitung.](assets/LS_2_4_Emil_Werner_vergleicht_Anfrage_Angebot_und_Bestellung.png)](assets/LS_2_4_Emil_Werner_vergleicht_Anfrage_Angebot_und_Bestellung.png)
 
 Emil Werner vergleicht Anfrage, Angebot und Bestellung von Alster Cycling in der Auftragsbearbeitung.
-
-#### Den Fall lesen
 
 Am 2. Februar 2027 bittet Alster Cycling e.K. die Global Bike Deutschland GmbH um ein schriftliches Angebot für 20 silberne Deluxe Touringbikes. Der Händler plant sein Sortiment für Ostfriesland. Er möchte Preise, Mengenrabatt, Liefer- und Zahlungsbedingungen sowie die Gültigkeitsdauer kennen.
 
@@ -78,51 +74,30 @@ Emil Werner aus der Auftragsbearbeitung gibt dir den Fall. Jan Richter hat die L
 
 Nach der Prüfung deines Angebots erhältst du eine zweite Nachricht von Alster Cycling. Vergleiche die Bestellung mit deinem eigenen Angebot, prüfe die Rechtswirkung und bereite für Emil Werner eine begründete Entscheidung über das weitere Vorgehen vor.
 
-<span class="assignment-time" data-task-id="BFSDUAL-LF02-LS04-T02" data-task-minutes="20">20 Minuten</span>
-
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welches Produkt, welche Menge und welche Informationen fordert der Händler an?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Lies die Anfrage vom 2. Februar in M1.
-</details>
-
-Deine Antwort
+- Ein schriftliches Angebot für 20 silberne Deluxe Touringbikes mit Preisen, Rabatt, Bedingungen und Gültigkeit.
+- Eine Rechnung für zehn bereits gelieferte Tourenräder.
+- Ein unverbindliches Telefonat über zwei Demoräder.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS04-T03" data-task-minutes="10">10 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Wer darf die Lieferfähigkeit und die Konditionen freigeben?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Im Fall sind die Verantwortung für die Auftragsbearbeitung und die Freigabe im Vertrieb getrennt.
-</details>
-
-Deine Antwort
+- Der Händler gibt die Lieferfähigkeit für Global Bike frei.
+- Jan Richter hat Lieferfähigkeit und Konditionen freigegeben.
+- Die Freigabe erfolgt erst durch den Zusteller.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS04-T04" data-task-minutes="10">10 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Warum bewahrst du deine erste Angebotsfassung auf?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Überlege, welche beiden Erklärungen du nach Eingang der Bestellung vergleichen musst.
-</details>
-
-Deine Antwort
+- Sie ersetzt den späteren Liefer- und Zahlungsnachweis.
+- Sie muss anstelle der Bestellung als Rechnung archiviert werden.
+- Sie wird später mit der tatsächlichen Bestellung verglichen.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS04-T05" data-task-minutes="10">10 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
 
 <a id="informieren"></a>
 

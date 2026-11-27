@@ -64,77 +64,46 @@ Die Gewichtung zeigt, wie häufig und wofür die Kompetenz in den Aufgaben gebra
 
 [Digitale Fassung öffnen](handlungssituation.html)
 
-Lies den betrieblichen Auftrag und beantworte die Fragen in eigenen Worten.
-
  [![Jan Richter hört einer Fachhändlerin zu und ermittelt ihren Bedarf, bevor er mit ihr zwei Fahrräder vergleicht. Im Board erteilt er den Beratungsauftrag an das Verkaufsteam. Die Illustration zeigt eine mögliche Gesprächssituation.](assets/LS_2_2_Jan_Richter_ermittelt_Bedarf_im_Beratungsgespraech.png)](assets/LS_2_2_Jan_Richter_ermittelt_Bedarf_im_Beratungsgespraech.png)
 
 Jan Richter hört einer Fachhändlerin zu und ermittelt ihren Bedarf, bevor er mit ihr zwei Fahrräder vergleicht. Im Board erteilt er den Beratungsauftrag an das Verkaufsteam. Die Illustration zeigt eine mögliche Gesprächssituation.
-
-#### Den Fall lesen
 
 Jan Richter leitet bei Global Bike den Verkauf und das Marketing. Sebastian Wolf hat für ihn drei ostfriesische Fachhändler befragt. Der erste achtet auf den Preis für seine Freizeitkundschaft, der zweite sucht überzeugende Qualität für sportliche Nutzer, der dritte möchte sein Sortiment erweitern. Welche Modelle und Stückzahlen tatsächlich sinnvoll sind, wissen Jan und Sebastian noch nicht.
 
 Sie übernehmen die Verkaufsrolle. Bereiten Sie die Beratung anhand eines öffentlichen Händlerprofils vor. Im Rollengespräch gibt die Kundenvertretung weitere Informationen preis, wenn Sie gezielt nachfragen. Vergleichen Sie mindestens zwei geeignete Produkte und erklären Sie die Empfehlung mit belegten Eigenschaften, Kosten und Nutzen. Für kaufmännische Rückfragen ist Emil Werner zuständig, für offene Lieferfragen Christian Klein. Produktzusagen benötigen einen Beleg. Vereinbaren Sie zum Gesprächsende den nächsten Schritt, auch wenn die Entscheidung vertagt wird.
 
-<span class="assignment-time" data-task-id="BFSDUAL-LF02-LS02-T02" data-task-minutes="11">11 Minuten</span>
-
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welche unterschiedlichen Ziele verfolgen die drei Händler?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Suchen Sie die drei Beschreibungen in Sebastian Wolfs Bericht.
-</details>
-
-Deine Antwort
+- Einer achtet auf den Preis, einer auf Qualität für sportliche Nutzer, einer will sein Sortiment erweitern.
+- Alle drei suchen das günstigste identische Modell.
+- Alle drei möchten zuerst bestehende Lieferverträge kündigen.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS02-T03" data-task-minutes="6">6 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welche Informationen brauchen Sie, bevor Sie eine Menge und ein Modell empfehlen können?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Denken Sie an die offenen Anforderungen des Händlers und die nächsten Schritte im Gespräch.
-</details>
-
-Deine Antwort
+- Nur den Kundennamen und die Öffnungszeiten.
+- Bedarf, Nutzung, gewünschte Eigenschaften und Budget des jeweiligen Händlers.
+- Nur die Anzahl der Fahrräder in der Global-Bike-Ausstellung.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS02-T04" data-task-minutes="6">6 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Wer klärt kaufmännische Rückfragen und wer offene Lieferfragen?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Lesen Sie die beiden im zweiten Absatz genannten Zuständigkeiten.
-</details>
-
-Deine Antwort
+- Die Logistik legt den Verkaufspreis fest. Der Händler bestätigt die Lieferfähigkeit.
+- Der Händler entscheidet beide Punkte selbst aus der öffentlich sichtbaren Preisliste.
+- Emil Werner klärt kaufmännische Rückfragen. Christian Klein klärt offene Lieferfragen.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS02-T05" data-task-minutes="6">6 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welchen Gesprächsabschluss können Sie vereinbaren, wenn der Händler heute noch nicht bestellt?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Achten Sie auf die letzte Anweisung.
-</details>
-
-Deine Antwort
+- Einen nächsten Schritt vereinbaren, etwa einen Rückruf nach Klärung der offenen Fragen.
+- Die Bestellung ohne ausdrückliche Zusage fest verbuchen.
+- Eine sofortige Lieferung mit festem Termin versprechen.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS02-T06" data-task-minutes="6">6 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
 
 <a id="informieren"></a>
 

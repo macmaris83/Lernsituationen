@@ -64,63 +64,38 @@ Die Gewichtung zeigt, wie häufig und wofür die Kompetenz in den Aufgaben gebra
 
 [Digitale Fassung öffnen](handlungssituation.html)
 
-Lies den betrieblichen Auftrag und beantworte die Fragen in eigenen Worten.
-
  [![Jan Richter und Emma Fuchs gleichen Auftragsbelege und Zahlungseingang ab. Die Szene führt in die Prüfung von Liefermenge, Rabatt und Skonto ein.](assets/LS_2_5_Jan_Richter_und_Emma_Fuchs_pruefen_Auftragsbelege.png)](assets/LS_2_5_Jan_Richter_und_Emma_Fuchs_pruefen_Auftragsbelege.png)
 
 Jan Richter und Emma Fuchs gleichen Auftragsbelege und Zahlungseingang ab. Die Szene führt in die Prüfung von Liefermenge, Rabatt und Skonto ein.
-
-#### Den Fall lesen
 
 In der Verkaufsabteilung von Global Bike häufen sich Rückfragen aus Ostfriesland. Jan Richter berichtet von einem Kunden, dessen Liefermenge von der Bestellung abweicht. Ein anderer hält den Rabatt auf seiner Rechnung für falsch.
 
 Emma Fuchs hat in der Verwaltung geringere Zahlungseingänge festgestellt, als auf den Rechnungen stehen. Sie möchte wissen, ob die Kunden zu Recht Skonto abziehen durften. Jan und Emma legen Ihnen drei Aufträge vom November 2026 vor. Untersuchen Sie die Belegketten vom Kundenkontakt bis zur Zahlung. Bereiten Sie eine Arbeitshilfe vor, mit der die Mitarbeitenden die nächsten Aufträge zuverlässig kontrollieren können.
 
-<span class="assignment-time" data-task-id="BFSDUAL-LF02-LS05-T02" data-task-minutes="14">14 Minuten</span>
-
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welche Unstimmigkeiten melden die Kunden an Jan?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Suchen Sie im ersten Absatz nach den zwei Kundenhinweisen.
-</details>
-
-Deine Antwort
+- Eine abweichende Liefermenge und einen möglicherweise falschen Rabatt.
+- Einen unleserlichen Werbeflyer und einen fehlerhaften Rückruf.
+- Einen falsch berechneten Lagerbestand und eine fehlende Bestellung.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS05-T03" data-task-minutes="7">7 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Warum genügt Emma der Vergleich von Rechnungsbetrag und Zahlungseingang noch nicht?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Lesen Sie, welchen vereinbarten Abzug ein Kunde unter bestimmten Voraussetzungen nutzen kann.
-</details>
-
-Deine Antwort
+- Sie muss den Verkaufsprospekt mit dem Rechnungsbetrag vergleichen.
+- Sie muss zusätzlich prüfen, ob Skonto vereinbart war und innerhalb der Frist abgezogen wurde.
+- Sie kann jede Differenz unabhängig von Vereinbarung und Frist als Skonto buchen.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS05-T04" data-task-minutes="7">7 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welches Ergebnis erwartet die Verkaufsabteilung von Ihnen?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Suchen Sie nach dem Auftrag, der auf die Untersuchung der drei Fälle folgt.
-</details>
-
-Deine Antwort
+- Einen neuen Einzelhandelspreis für alle Räder.
+- Eine Übersicht der Lagerbestände ohne Rechnungsbezug.
+- Eine Arbeitshilfe für die Prüfung der Belegkette vom Kundenkontakt bis zur Zahlung.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS05-T05" data-task-minutes="7">7 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
 
 <a id="informieren"></a>
 

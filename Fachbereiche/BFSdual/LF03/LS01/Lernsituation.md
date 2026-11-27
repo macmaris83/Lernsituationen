@@ -64,13 +64,9 @@ Die Gewichtung zeigt, wie häufig und wofür die Kompetenz in den Aufgaben gebra
 
 [Digitale Fassung öffnen](handlungssituation.html)
 
-Lies den betrieblichen Auftrag und beantworte die Fragen in eigenen Worten.
-
  [![Jan Richter und Birgit Horst besprechen, welche Bestellmengen und Bestellzeitpunkte zu Kosten und Versorgungssicherheit passen.](assets/LS_3_1_Jan_Richter_und_Birgit_Horst_planen_Bestellstrategie.png)](assets/LS_3_1_Jan_Richter_und_Birgit_Horst_planen_Bestellstrategie.png)
 
 Jan Richter und Birgit Horst besprechen, welche Bestellmengen und Bestellzeitpunkte zu Kosten und Versorgungssicherheit passen.
-
-#### Den Fall lesen
 
 Jan Richter aus Vertrieb und Marketing sieht neue Absatzmöglichkeiten in der Region Nordwest. Er bittet Birgit Horst im Einkauf der Global Bike Deutschland GmbH, die Versorgung zu planen. Häufige kleine Bestellungen verursachen Bearbeitungskosten. Bei großen Bestellungen liegt mehr Ware im Lager.
 
@@ -78,51 +74,30 @@ Birgit braucht für die Geschäftsleitung um Peter Schwarz und Hans-Werner Schoo
 
 Dein Auftrag ist eine Beschaffungsempfehlung, in der die Geschäftsleitung Rechenwege, Voraussetzungen und mögliche Folgen deiner Entscheidung prüfen kann.
 
-<span class="assignment-time" data-task-id="BFSDUAL-LF03-LS01-T02" data-task-minutes="14">14 Minuten</span>
-
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Wer braucht wofür eine Entscheidung?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Folge der Anfrage vom Vertrieb über den Einkauf bis zur Geschäftsleitung.
-</details>
-
-Deine Antwort
+- Birgit Horst braucht für die Geschäftsleitung eine Empfehlung zur Versorgung.
+- Jan Richter braucht einen Entwurf der nächsten Werbekampagne.
+- Die Geschäftsleitung braucht einen Entwurf für neue Arbeitsverträge.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF03-LS01-T03" data-task-minutes="7">7 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welche zwei Kostenarten reagieren unterschiedlich auf die Bestellmenge?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Überlege, was bei vielen einzelnen Vorgängen und bei großen Warenbeständen anfällt.
-</details>
-
-Deine Antwort
+- Ausbildungskosten und Reisekosten.
+- Bestellkosten und Lagerhaltungskosten.
+- Werbekosten und Versandetiketten.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF03-LS01-T04" data-task-minutes="7">7 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welche beiden Ziele musst du gegeneinander abwägen?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Jan Richter denkt an die Kunden in Ostfriesland. Birgit Horst muss außerdem die Aufwendungen des Einkaufs im Blick behalten.
-</details>
-
-Deine Antwort
+- Möglichst große Lagerbestände und möglichst häufige Bestellungen.
+- Einen hohen Verkaufspreis und einen neuen Unternehmensstandort.
+- Niedrige Beschaffungskosten und eine verlässliche Versorgung.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF03-LS01-T05" data-task-minutes="7">7 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
 
 <a id="informieren"></a>
 

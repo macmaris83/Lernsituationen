@@ -64,13 +64,9 @@ Die Gewichtung zeigt, wie häufig und wofür die Kompetenz in den Aufgaben gebra
 
 [Digitale Fassung öffnen](handlungssituation.html)
 
-Lies den betrieblichen Auftrag und beantworte die Fragen in eigenen Worten.
-
  [![Jan Richter vergleicht Fahrradproduktion, Fachhandel und Reparaturwerkstatt für ein regionales Netzwerktreffen.](assets/LS_1_1_Jan_Richter_vergleicht_Betriebsarten.png)](assets/LS_1_1_Jan_Richter_vergleicht_Betriebsarten.png)
 
 Jan Richter vergleicht Fahrradproduktion, Fachhandel und Reparaturwerkstatt für ein regionales Netzwerktreffen.
-
-#### Den Fall lesen
 
 Jan Richter leitet Verkauf und Marketing der Global Bike Deutschland GmbH. Mit Sarah Huber aus dem Marketing bereitet er ein regionales Netzwerktreffen vor. Global Bike möchte in Ostfriesland neue Geschäftskontakte knüpfen. Heidelberg und Hamburg bleiben die bestehenden Standorte.
 
@@ -78,65 +74,38 @@ Dem Team fehlt ein verlässlicher Überblick über die regionalen Betriebe, ihre
 
 Recherchieren Sie drei regionale Betriebe mit unterschiedlichen wirtschaftlichen Schwerpunkten, vergleichen Sie sie mit Global Bike und erstellen Sie ein Betriebsprofil für Jan Richter. Entscheiden Sie, welche zwei bis drei Angaben er im Gespräch mit möglichen Geschäftspartnern hervorheben sollte.
 
-<span class="assignment-time" data-task-id="BFSDUAL-LF01-LS01-T02" data-task-minutes="4">4 Minuten</span>
-
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Wer bereitet das Treffen vor, und welches Ziel verfolgen die Beteiligten?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Beachten Sie die Funktion von Jan Richter und Sarah Huber sowie die gewünschte Wirkung des Treffens.
-</details>
-
-Deine Antwort
+- Jan Richter und Sarah Huber bereiten ein regionales Netzwerktreffen vor, um Geschäftskontakte in Ostfriesland zu knüpfen.
+- Sarah Huber bereitet mit der Logistik einen Standortwechsel nach Ostfriesland vor.
+- Jan Richter plant mit der Verwaltung eine interne Schulung zum Verkauf.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF01-LS01-T03" data-task-minutes="3">3 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welche Information fehlt Jan Richter derzeit?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Vergleichen Sie den Wissensstand des Teams mit dem Auftrag an Sie.
-</details>
-
-Deine Antwort
+- Eine Liste der Mitarbeitenden an beiden Standorten fehlt.
+- Ein verlässlicher Überblick über regionale Betriebe und ihre Leistungen fehlt.
+- Die Preise der laufenden Aufträge sind unbekannt.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF01-LS01-T04" data-task-minutes="3">3 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welche Rolle spielt Ostfriesland im Unterschied zu Hamburg und Heidelberg?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Suchen Sie in der Handlungssituation nach dem Ziel der regionalen Kontaktaufnahme.
-</details>
-
-Deine Antwort
+- Ostfriesland ist ein bestehender Standort. Hamburg ist nur ein Absatzmarkt.
+- Ostfriesland soll Heidelberg als Standort sofort ersetzen.
+- Ostfriesland ist eine Region für neue Geschäftskontakte. Hamburg und Heidelberg sind bestehende Standorte.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF01-LS01-T05" data-task-minutes="3">3 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Was soll Jan Richter als Ergebnis für seine Gesprächsvorbereitung erhalten?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Achten Sie auf die Anzahl der regionalen Betriebe und die gezielte Auswahl von Informationen.
-</details>
-
-Deine Antwort
+- Ein Betriebsprofil mit Vergleich und Stichpunkten für das Netzwerktreffen.
+- Eine verbindliche Bestellung bei einem ausgewählten Betrieb.
+- Einen neuen Lieferplan für die Standorte Hamburg und Heidelberg.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF01-LS01-T06" data-task-minutes="2">2 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
 
 <a id="informieren"></a>
 

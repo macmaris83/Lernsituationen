@@ -64,13 +64,9 @@ Die Gewichtung zeigt, wie häufig und wofür die Kompetenz in den Aufgaben gebra
 
 [Digitale Fassung öffnen](handlungssituation.html)
 
-Lies den betrieblichen Auftrag und beantworte die Fragen in eigenen Worten.
-
  [![Jan Richter, Emma Fuchs und Lina Peters stimmen ab, wer die Fragen eines Fachhändlers zu Sortiment, Versand und umweltfreundlicher Belieferung bearbeitet.](assets/LS_1_3_Jan_Richter_Emma_Fuchs_und_Lina_Peters_klaeren_Zustaendigkeiten.png)](assets/LS_1_3_Jan_Richter_Emma_Fuchs_und_Lina_Peters_klaeren_Zustaendigkeiten.png)
 
 Jan Richter, Emma Fuchs und Lina Peters stimmen ab, wer die Fragen eines Fachhändlers zu Sortiment, Versand und umweltfreundlicher Belieferung bearbeitet.
-
-#### Den Fall lesen
 
 Ein Fahrradfachhändler aus der Region Nordwest möchte Mountainbikes und Fahrradzubehör beziehen. Er fragt nach verfügbaren Produkten, Liefermöglichkeiten, Versandkosten und umweltfreundlicher Belieferung. Für Lagerbestand und Versand ist der bestehende Standort Hamburg relevant.
 
@@ -78,65 +74,38 @@ Jan Richter leitet Verkauf und Marketing. Bevor er dem Fachhändler antwortet, b
 
 Ordnen Sie jeder Aufgabe eine geeignete betriebliche Stelle zu. Erklären Sie die Zusammenarbeit und kennzeichnen Sie, welche Entscheidungsbefugnis vor einer verbindlichen Zusage noch zu klären ist. Das Ergebnis soll Jan Richter und den beteiligten Mitarbeitenden als Arbeitsunterlage dienen.
 
-<span class="assignment-time" data-task-id="BFSDUAL-LF01-LS03-T02" data-task-minutes="4">4 Minuten</span>
-
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Woran hat der Fachhändler Interesse, und worüber braucht er Auskunft?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Suchen Sie nach dem Sortiment und den offenen Fragen zum Versand.
-</details>
-
-Deine Antwort
+- Mountainbikes und Zubehör sowie Auskünfte zu Liefermöglichkeiten, Kosten und umweltfreundlichem Versand.
+- Gravelbikes und Ersatzteile sowie einen Termin für eine Schulung.
+- Büroausstattung und Angaben zur Lagergebühr.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF01-LS03-T03" data-task-minutes="3">3 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Wer braucht Ihre Übersicht und wofür?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Beachten Sie Jan Richters Funktion und den Zeitpunkt der Antwort an den Kunden.
-</details>
-
-Deine Antwort
+- Lina Peters braucht die Übersicht zur Planung einer Betriebsfeier.
+- Jan Richter braucht die Übersicht, um Zuständigkeiten zu klären und dem Fachhändler zu antworten.
+- Der Fachhändler braucht sie, um das interne Organigramm von Global Bike zu ändern.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF01-LS03-T04" data-task-minutes="3">3 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welche Aufgaben betreffen den Standort Hamburg?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Unterscheiden Sie die physische Verfügbarkeit der Waren und die Beförderung der Lieferung.
-</details>
-
-Deine Antwort
+- Die regionale Werbung entwerfen und die Verkaufsfläche gestalten.
+- Das Rechnungswesen umstellen und neue Arbeitsverträge prüfen.
+- Lagerbestand klären und Versandmöglichkeiten prüfen.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF01-LS03-T05" data-task-minutes="3">3 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welche Art von Frage bleibt möglicherweise trotz Organigramm offen?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Beachten Sie den Unterschied zwischen einer geeigneten Fachstelle und einer verbindlichen Zusage.
-</details>
-
-Deine Antwort
+- Wer im konkreten Vorgang eine verbindliche Zusage freigeben darf.
+- Welche Stellen es im Unternehmen gibt.
+- Welche Abteilungen im Organigramm aufgeführt werden.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF01-LS03-T06" data-task-minutes="2">2 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
 
 <a id="informieren"></a>
 

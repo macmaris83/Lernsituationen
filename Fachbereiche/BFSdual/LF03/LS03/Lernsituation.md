@@ -64,13 +64,9 @@ Die Gewichtung zeigt, wie häufig und wofür die Kompetenz in den Aufgaben gebra
 
 [Digitale Fassung öffnen](handlungssituation.html)
 
-Lies den betrieblichen Auftrag und beantworte die Fragen in eigenen Worten.
-
  [![Elias Schmidt prüft eine verspätete Lieferung von Verbandkästen in Hamburg und meldet die Abweichung an Alexander Sahin im Einkauf.](assets/LS_3_3_Elias_Schmidt_prueft_Verspaetete_Verbandkastenlieferung.png)](assets/LS_3_3_Elias_Schmidt_prueft_Verspaetete_Verbandkastenlieferung.png)
 
 Elias Schmidt prüft eine verspätete Lieferung von Verbandkästen in Hamburg und meldet die Abweichung an Alexander Sahin im Einkauf.
-
-#### Den Fall lesen
 
 Die Global Bike Deutschland GmbH hat bei der Cologne Bike GmbH 100 Verbandkästen bestellt. Für den Einkauf in Hamburg wurde der 15. Juni 2026 verbindlich als Liefertermin bestätigt. Am 16. Juni ist keine Ware da. Am 17. Juni meldet der Lieferant einen internen Bearbeitungsfehler.
 
@@ -78,51 +74,30 @@ Jan Richter aus dem Vertrieb meldet wartende Kunden. Am 19. Juni prüft Elias Sc
 
 Birgit Horst beauftragt dich, den Vorgang für den Einkauf aufzubereiten. Beurteile die Lage einmal mit dem Wissen vom 16. Juni und dann erneut am 19. Juni. Bereite zwei sachliche Lieferanten-E-Mails vor. Nutze Bestellung, Lieferschein, tatsächlichen Eingang und Kommunikationsverlauf als Belege.
 
-<span class="assignment-time" data-task-id="BFSDUAL-LF03-LS03-T02" data-task-minutes="16">16 Minuten</span>
-
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welche Vereinbarung war am 16. Juni bereits fällig?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Suche den bestätigten Termin und die an diesem Tag geschuldete Lieferung.
-</details>
-
-Deine Antwort
+- Die zum 15. Juni 2026 zugesagte Lieferung von 100 Verbandkästen.
+- Eine Rücksendung, die bis zum 16. Juni abgeschlossen sein sollte.
+- Eine Nachlieferung von acht Kästen am 19. Juni.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF03-LS03-T03" data-task-minutes="8">8 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welche drei Mengen musst du beim Wareneingang auseinanderhalten?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Vergleiche die Angabe auf dem Lieferschein mit dem Zählergebnis und den festgestellten Schäden.
-</details>
-
-Deine Antwort
+- 95 bestellt, 100 eingetroffen und 5 beschädigt.
+- 100 bestellt bzw. laut Lieferschein, 95 eingetroffen und 8 davon beschädigt.
+- 100 bestellt, 87 eingetroffen und 8 zusätzlich geliefert.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF03-LS03-T04" data-task-minutes="8">8 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Wer erhält die Meldung aus dem Wareneingang und wer wartet auf eine Entscheidung?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Unterscheide die Rollen von Elias Schmidt, Alexander Sahin, Birgit Horst und Jan Richter.
-</details>
-
-Deine Antwort
+- Die Meldung geht nur an den Lieferanten. Im Betrieb wartet niemand auf eine Entscheidung.
+- Die Rechnung geht unmittelbar an den Vertrieb. Der Wareneingang bleibt außen vor.
+- Alexander Sahin im Einkauf erhält die Meldung. Birgit Horst braucht eine Entscheidung.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF03-LS03-T05" data-task-minutes="8">8 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
 
 <a id="informieren"></a>
 

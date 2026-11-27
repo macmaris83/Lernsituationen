@@ -63,7 +63,8 @@ def case(d):
     with page.expect_download() as event:page.get_by_role('link',name='GoodNotes-Export').click()
     pdf=event.value
     assert pdf.suggested_filename==f'GoodNotes-LS-{ls}-{phase}.pdf'
-    assert 'Notizen' in inspect_pdf(pdf.path().read_bytes())
+    text=inspect_pdf(pdf.path().read_bytes())
+    assert 'Notizen' in text or '5-mm-Karo' in text
   page.get_by_role('link',name='Gesamtdokument als PDF').click()
   page.wait_for_function("document.querySelector('#pdf-lernweg')?.value === 'C'",timeout=7000)
   assert page.locator('[data-pdf-path="A"]:visible').count()==0
@@ -82,5 +83,9 @@ def case(d):
   assert not errors_response,(ls,errors_response)
   print(ls,'Phasen-Downloads A/B/C, Gesamtdokument, Fußleiste, A4 ohne Leerseiten',flush=True)
   b.close()
+selected=set(os.environ.get('BFS_PDF_CASES','').split())
+folders=[*sorted(BFS.glob('LF0[123]/LS*')),BFS/'LF06/Buero/LS09']
+if selected:
+ folders=[d for d in folders if ('6.9' if d.name=='LS09' else f'{int(d.parent.name[2:])}.{int(d.name[2:])}') in selected]
 with ThreadPoolExecutor(3) as pool:
- list(pool.map(case,[*sorted(BFS.glob('LF0[123]/LS*')),BFS/'LF06/Buero/LS09']))
+ list(pool.map(case,folders))

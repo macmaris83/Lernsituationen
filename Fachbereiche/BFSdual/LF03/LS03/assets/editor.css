@@ -1,0 +1,22 @@
+.bfs-editor-page .teacher-card{padding:1.2rem;border:1px solid #cbdde8;border-radius:.85rem;margin:1rem 0;background:white}
+.bfs-editor-page .teacher-card label{display:grid;gap:.25rem;margin:.7rem 0;font-weight:600}
+.bfs-editor-page :is(input,textarea,select){width:100%;padding:.55rem;border:1px solid #94aab8;border-radius:.4rem;font:inherit;color:#183449}
+.bfs-editor-page textarea{min-height:4.3rem}
+.bfs-editor-page details{padding:.55rem .85rem;margin:.6rem 0;border:1px solid #d5e3ec;border-radius:.45rem}
+.bfs-editor-page summary{cursor:pointer}
+.bfs-editor-page details img{max-width:min(100%,27rem);max-height:12rem;object-fit:contain}
+.bfs-editor-page .editor-actions{display:flex;gap:.6rem;flex-wrap:wrap}
+.bfs-editor-page [data-teacher-status]{min-height:1.5em}
+.bfs-document-footer .bfs-editor-link{display:inline-flex;gap:.4rem;align-items:center;color:#59636d;text-decoration:none;font-weight:650}
+.bfs-editor-link svg{height:1.2em;width:1.2em}
+.bfs-moodle-slot{margin:1rem 0;padding:.7rem .9rem;border-left:3px solid #8daa35;background:#f4f8ea;color:#324756}
+.bfs-mc{border:1px solid #c2d4df;border-radius:.65rem;padding:.6rem .85rem;margin:.6rem 0}
+.bfs-mc-option{display:block;padding:.28rem .2rem}
+.bfs-scoring .task-point-value{margin-inline:.4rem}
+.bfs-situation-note{font-size:.9rem;color:#35576d}
+@media print{.bfs-editor-link{display:none!important}}
+.bfs-brand-logos{display:flex;align-items:center;justify-content:flex-end;gap:.85rem;max-width:58%;min-width:0}
+.bfs-brand-logos img:first-child{width:min(9rem,65%);max-width:none;height:auto;max-height:3rem}
+.bfs-brand-logos img:last-child{width:min(5rem,30%);max-width:none;height:auto;max-height:2.2rem;object-fit:contain}
+.bfs-material-brand{display:flex;justify-content:flex-end;margin:0 0 .65rem}
+@media print{.bfs-material-brand{display:none}}

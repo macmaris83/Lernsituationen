@@ -64,63 +64,38 @@ Die Gewichtung zeigt, wie häufig und wofür die Kompetenz in den Aufgaben gebra
 
 [Digitale Fassung öffnen](handlungssituation.html)
 
-Lies den betrieblichen Auftrag und beantworte die Fragen in eigenen Worten.
-
  [![Jan Richter und Emma Fuchs klären den Kaufwunsch einer jugendlichen Kundin. Das Bild eröffnet die Prüfung der Geschäftsfähigkeit und der Wirksamkeit eines möglichen Kaufvertrags.](assets/LS_2_3_Jan_Richter_und_Emma_Fuchs_klaeren_Kaufwunsch.png)](assets/LS_2_3_Jan_Richter_und_Emma_Fuchs_klaeren_Kaufwunsch.png)
 
 Jan Richter und Emma Fuchs klären den Kaufwunsch einer jugendlichen Kundin. Das Bild eröffnet die Prüfung der Geschäftsfähigkeit und der Wirksamkeit eines möglichen Kaufvertrags.
-
-#### Den Fall lesen
 
 Jan Richter arbeitet im Verkauf der Global Bike Deutschland GmbH. Kinder und Jugendliche aus Ostfriesland kommen ins Geschäft, weil sie Fahrräder oder Zubehör erwerben möchten. Einige bezahlen sofort, andere möchten eine Rechnung oder Ratenzahlung. Manchmal wurden die Eltern zuvor gefragt, manchmal erfahren sie erst nach dem Kauf davon.
 
 Jan bittet Emma Fuchs aus der Verwaltung um Unterstützung. Eine allgemeine Altersgrenze allein hilft ihnen an der Kasse wenig. Ihr Auftrag lautet, vier Kundenfälle samt Varianten zu prüfen und neuen Mitarbeitenden eine verlässliche Entscheidungshilfe an die Hand zu geben. Die Mitarbeitenden sollen daraus entnehmen können, welche Rückfrage jetzt nötig ist und ob sie den Kauf abschließen können.
 
-<span class="assignment-time" data-task-id="BFSDUAL-LF02-LS03-T02" data-task-minutes="10">10 Minuten</span>
-
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Wer benötigt die Entscheidungshilfe und wofür?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Lesen Sie nach, welche Aufgabe Jan und Emma übernehmen und wer später am Verkaufstresen steht.
-</details>
-
-Deine Antwort
+- Jan und Emma brauchen eine Entscheidungshilfe für neue Mitarbeitende im Verkauf.
+- Die Einkaufsabteilung braucht eine Entscheidungshilfe zur Bestellmenge.
+- Die Eltern brauchen eine Übersicht über Fahrradmodelle.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS03-T03" data-task-minutes="5">5 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welche Zahlungswege kommen in den Anfragen vor?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Suchen Sie die drei genannten Möglichkeiten im ersten Absatz.
-</details>
-
-Deine Antwort
+- Ausschließlich Vorauszahlung per Überweisung.
+- Sofortzahlung, Rechnung und Ratenzahlung.
+- Nur Barzahlung und Kartenzahlung am Folgetag.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS03-T04" data-task-minutes="5">5 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Welche Information ist neben Alter und Zahlungsweise für Jan wichtig?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Achten Sie darauf, wann die Eltern vom Kauf erfahren und ob sie ihm zustimmen.
-</details>
-
-Deine Antwort
+- In welchem Ort das Zubehör hergestellt wurde.
+- Welche Farbe das Fahrrad hat.
+- Ob die Eltern vorher zugestimmt haben oder noch von dem Kauf erfahren.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS03-T05" data-task-minutes="5">5 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
 
 <a id="informieren"></a>
 

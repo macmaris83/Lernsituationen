@@ -72,13 +72,9 @@ Im aktuellen Lernweg ist Phase 5 der Peer-Check am Produkt. In Phase 6 gibst du 
 
 [Digitale Fassung öffnen](handlungssituation.html)
 
-Lies den betrieblichen Auftrag und beantworte die Fragen in eigenen Worten.
-
  [![Emil Werner bearbeitet die Anfrage von Alster Cycling zum silbernen Deluxe Touringbike. Das Motiv gehört zur Annahme und Klärung eines Kundenanliegens.](assets/LS_2_1_Emil_Werner_klaert_Kundenanfrage_zum_Touringbike.png)](assets/LS_2_1_Emil_Werner_klaert_Kundenanfrage_zum_Touringbike.png)
 
 Emil Werner bearbeitet die Anfrage von Alster Cycling zum silbernen Deluxe Touringbike. Das Motiv gehört zur Annahme und Klärung eines Kundenanliegens.
-
-#### Den Fall lesen
 
 Emil Werner arbeitet bei der Global Bike Deutschland GmbH in der Auftragsbearbeitung. Alster Cycling e.K. möchte sein Sortiment für den ostfriesischen Markt erweitern und interessiert sich für das silberne Deluxe Touringbike. Der Kunde bittet um Informationen und einen Abgleich der geschäftlichen Kontaktdaten. Emil hat schon kurz mit ihm telefoniert. Einige Fragen sind offen.
 
@@ -86,51 +82,30 @@ Emil Werner arbeitet bei der Global Bike Deutschland GmbH in der Auftragsbearbei
 
 Emil braucht eine nachvollziehbare Übergabe. Ein verbindliches Angebot gehört erst in einen späteren Vorgang. Die beiden Nachrichten im Wortlaut findest du in [M1](#m1).
 
-<span class="assignment-time" data-task-id="BFSDUAL-LF02-LS01-T02" data-task-minutes="10">10 Minuten</span>
-
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Was möchte Alster Cycling von Global Bike erfahren?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Schau auf das Produkt und den neuen Absatzmarkt in der E-Mail.
-</details>
-
-Deine Antwort
+- Informationen zum silbernen Deluxe Touringbike und zu einer möglichen Zusammenarbeit.
+- Ein bereits verbindliches Angebot für zwanzig Räder.
+- Eine Bestätigung der Zahlung für gelieferte Fahrräder.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS01-T03" data-task-minutes="5">5 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Weshalb reicht der bekannte Kundenname für die Rückmeldung noch nicht aus?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Die E-Mail beschreibt eine Änderung im Einkauf.
-</details>
-
-Deine Antwort
+- Der Kunde hat bereits eine neue Versandadresse verbindlich bestätigt.
+- Zuständigkeiten haben sich geändert. Die geschäftlichen Kontaktdaten müssen abgeglichen werden.
+- Der Kundenname gehört zu einem anderen Auftrag.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS01-T04" data-task-minutes="5">5 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
 #### Was soll Emil am Ende weiterverwenden können und welche Zusage wäre verfrüht?
 
-<details>
-<summary>Lesehilfe</summary>
-
-Lies den internen Auftrag noch einmal und achte auf die Grenze des Auftrags.
-</details>
-
-Deine Antwort
+- Emil braucht einen Lieferschein. Eine Prüfung der Kontaktdaten ist bereits abgeschlossen.
+- Emil braucht eine unterschriebene Bestellung mit verbindlichem Lieferdatum.
+- Emil braucht eine nachvollziehbare Übergabe und eine schriftliche Rückmeldung. Ein verbindliches Angebot wäre verfrüht.
 
 <span class="assignment-time" data-task-id="BFSDUAL-LF02-LS01-T05" data-task-minutes="5">5 Minuten</span>
 
-*Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
 
 <a id="informieren"></a>
 

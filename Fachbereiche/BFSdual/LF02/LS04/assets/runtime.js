@@ -4,7 +4,7 @@
   const checkCount = Number(window.GB_CHECK_COUNT);
   if (!packageId) throw Error('Die Kennung für die Lernsituation fehlt.');
   const root = new URL('../', document.currentScript.src);
-  const localKey = packageId + ':' + root.pathname;
+  const localKey = packageId + ':' + root.pathname + (window.BFS_EDITOR?.preview ? ':editor-preview' : '');
   const validPages = new Set(['index', 'handlungssituation', 'informieren', 'begriffstraining', 'planen', 'entscheiden', 'durchfuehren', 'bewerten', 'reflektieren', 'materialien', 'ls-glossar', 'peer-check', 'feedback']);
   const validPath = value => ['A', 'B', 'C'].includes(value);
   const clone = value => JSON.parse(JSON.stringify(value));
@@ -40,7 +40,7 @@
     return null;
   }
   function makeSession() {
-    const api = findAPI(window) || findAPI(window.opener);
+    const api = window.BFS_EDITOR?.preview ? null : (findAPI(window) || findAPI(window.opener));
     let state = fresh();
     let initialized = false;
     let readOnly = false;
@@ -179,11 +179,26 @@
   }
   window.GB = {
     getPath: () => session.read().path,
+    snapshot: () => session.read(),
+    answerSituation(id, choice, right) {
+      if (!(requirements.responses || []).includes(id) || ![0,1,2].includes(choice)) return false;
+      return session.change(state => {
+        if (state.done.includes(id)) return;
+        const old = state.responses[id];
+        const first = typeof old === 'string' && old.startsWith('mc:') ? old.split(':')[1] : Number(choice===right);
+        state.responses[id] = 'mc:' + first + ':' + choice;
+        if (choice===right) state.done.push(id);
+      });
+    },
     get readOnly() { return session.locked; },
     getCheck: () => session.read().check,
     saveCheck(value) {
       if (!Array.isArray(value) || value.length !== checkCount || !value.every(x => x === null || [0, 1, 2].includes(x))) return false;
-      return session.change(s => { s.check = value.slice(); });
+      return session.change(s => {
+        s.checkFirst ||= Array(checkCount).fill(null);
+        value.forEach((choice, i) => { if (s.checkFirst[i] == null) s.checkFirst[i]=choice; });
+        s.check = value.slice();
+      });
     }
   };
   function toggleSection(el, visible) {
@@ -224,6 +239,7 @@
     document.querySelectorAll('[data-finish-hint]').forEach(el => {
       el.textContent = state.completed ? session.message : ready ? 'Alle Pflichtaufgaben sind erledigt. Du kannst den Abschluss jetzt bestätigen.' : `Setze die Häkchen bei deinen erledigten Pflichtaufgaben. ${total - checked} noch offen.`;
     });
+    window.dispatchEvent(new Event('bfs-progress'));
   }
   const initial = session.read();
   formResponses.forEach(el => {
