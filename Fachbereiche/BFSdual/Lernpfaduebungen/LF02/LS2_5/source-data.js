@@ -1,0 +1,1 @@
+const SOURCES = {"case":"Ein Laden bestellt bei Global Bike Fahrradhelme. Zwei Helme fehlen in der ersten Lieferung. Du prüfst die Belege, die Rechnung und den Zahlungseingang. Zum Schluss legst du fest, wie der Betrieb Mengenfehler künftig vermeidet.","materials":[],"provenance":"M07a_Uebungsaufgaben_Vertriebsprozess_erweitert.xml · M07a, Übungen 1–18"};
