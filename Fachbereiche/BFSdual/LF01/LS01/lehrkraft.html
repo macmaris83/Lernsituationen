@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Editor · Unternehmen erkunden, vergleichen und präsentieren</title><link rel="stylesheet" href="assets/global-bike.css"><link rel="stylesheet" href="assets/editor.css">
+<script defer src="assets/editor-config.js"></script><script defer src="assets/editor-settings.js"></script><script defer src="assets/jszip.min.js"></script><script defer src="assets/editor.js"></script><link rel="stylesheet" href="assets/pdf-ui.css"><script defer src="assets/pdf-ui.js"></script><link rel="stylesheet" href="assets/bfs-chrome.css"><link rel="stylesheet" href="assets/pdf-ui.css"><script defer src="assets/pdf-ui.js"></script></head>
+<body class="bfs-editor-page" data-teacher="true"><div class="shell"><header data-bfs-school="" class="brand-header"><div class="bfs-brand-logos"><img src="assets/bbs1-aurich.svg" alt="BBS 1 Aurich"></div></header><main class="main">
+<div class="editor-intro"><nav aria-label="Editor"><a href="index.html">Zur Lernsituation</a></nav><h1>Editor</h1><p>Unternehmen erkunden, vergleichen und präsentieren</p></div>
+<section class="teacher-card" id="teacher-login"><label>PIN<input id="teacher-pin" type="password" inputmode="numeric" maxlength="4" autocomplete="off"></label><button id="teacher-unlock" type="button">Öffnen</button><p id="teacher-login-message" role="status"></p></section>
+<div id="teacher-panel" hidden>
+  <div class="editor-toolbar">
+    <label class="editor-source-label">Seite<select id="editor-page" data-edit-page disabled></select></label>
+    <div class="editor-primary-actions">
+      <a class="button" data-preview-page target="_blank" rel="noopener noreferrer" aria-disabled="true">Vorschau</a>
+      <button class="button primary" type="button" data-export-ims disabled>SCORM herunterladen</button>
+    </div>
+    <p data-teacher-status role="status"></p>
+  </div>
+  <div class="editor-secondary">
+    <details><summary>Moodle-Links</summary><div data-moodle-fields></div></details>
+    <details id="editor-options">
+      <summary>Weitere Optionen</summary>
+      <label>SCORM-ZIP öffnen<input type="file" accept=".zip,application/zip" id="editor-source"></label>
+      <div class="editor-actions">
+        <button type="button" data-reset-page disabled>Diese Seite zurücksetzen</button>
+        <a class="button" href="druckansicht.html?bfs-vorschau=1" target="_blank" rel="noopener noreferrer">Druckansicht</a>
+      </div>
+      <p>Die Druckansicht übernimmt den Entwurf. Die mitgelieferten PDFs zeigen den Stand der Paketvorlage.</p>
+    </details>
+  </div>
+  <div class="editor-workspace">
+    <div class="editor-tablist" role="tablist" aria-label="Bearbeitungsbereich" hidden>
+      <button type="button" role="tab" id="editor-tab-content" aria-controls="editor-content" aria-selected="true" data-editor-tab="content">Text</button>
+      <button type="button" role="tab" id="editor-tab-media" aria-controls="editor-media" aria-selected="false" tabindex="-1" data-editor-tab="media">Bilder</button>
+      <button type="button" role="tab" id="editor-tab-links" aria-controls="editor-links" aria-selected="false" tabindex="-1" data-editor-tab="links">Links</button>
+      <button type="button" role="tab" id="editor-tab-checks" aria-controls="editor-checks" aria-selected="false" tabindex="-1" data-editor-tab="checks">Checks</button>
+    </div>
+    <div id="editor-fields">
+      <label class="editor-filter" hidden>Textfelder filtern<input type="search" id="editor-filter" autocapitalize="none"></label>
+      <div id="editor-content" role="tabpanel" aria-labelledby="editor-tab-content"></div>
+      <div id="editor-media" role="tabpanel" aria-labelledby="editor-tab-media" hidden></div>
+      <div id="editor-links" role="tabpanel" aria-labelledby="editor-tab-links" hidden></div>
+      <div id="editor-checks" role="tabpanel" aria-labelledby="editor-tab-checks" hidden></div>
+      <p data-editor-empty hidden></p>
+    </div>
+  </div>
+</div>
+
+<footer class="bfs-material-footer"><div class="bfs-document-footer no-print"><a class="bfs-document-pdf" data-document-pdf href="druckansicht.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"/></svg>Gesamtdokument als PDF</a></div></footer></main><footer data-bfs-chrome="" class="bfs-standalone-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="index.html" aria-label="Löppt – zur Orientierung"><img src="assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav></footer></div></body></html>

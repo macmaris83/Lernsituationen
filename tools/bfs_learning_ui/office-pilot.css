@@ -1,0 +1,10 @@
+[data-office-pilot]{margin:.75rem 0;text-align:left}
+[data-office-pilot] button{display:inline-flex;align-items:center;gap:.55rem;padding:.42rem .65rem;border:1px solid #c5b4e8;border-radius:.55rem;background:#f4effc;color:#4e248c;font-weight:650}
+[data-office-pilot] svg{width:100px;height:auto}
+.ais-help-dialog{width:min(960px,96vw);height:min(90vh,96dvh);max-height:94dvh;padding:0;border:1px solid #bba4dd;border-radius:16px;background:#faf7ff;color:#492c75;overflow:hidden}
+.ais-help-dialog[open]{display:flex;flex-direction:column}
+.ais-help-dialog::backdrop{background:#23123799}
+.ais-help-heading{display:flex;justify-content:space-between;align-items:center;gap:.5rem;padding:.6rem .8rem}
+.ais-help-note{margin:.35rem .8rem;font-size:.9rem}
+.ais-help-frame{width:100%;min-height:0;flex:1;border:0;background:#fff}
+[hidden]{display:none!important}

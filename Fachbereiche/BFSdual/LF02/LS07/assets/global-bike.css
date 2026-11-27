@@ -1,0 +1,70 @@
+@import url('styles.css');
+@import url('phases.css');
+@import url('progress.css');
+@import url('print.css') print;
+
+[hidden]{display:none!important}
+.gb-learning .shell{width:min(1100px,100%);max-width:1100px}
+.gb-learning .brand-header{display:flex;align-items:center;justify-content:space-between}
+.gb-learning .gb-brand{display:flex;flex-direction:column;line-height:1.22;color:#12365a}
+.gb-brand strong{font-size:1.35rem}.gb-brand small{font-size:.89rem}
+.gb-learning .nav-heading{margin-bottom:15px}
+.gb-navcount{font-size:.85rem;color:#375766;text-align:right}
+.gb-learning .gb-resources{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:flex-start;margin:0 0 12px}
+.gb-resources a{font-size:.9rem;font-weight:650}
+.gb-intro{margin:18px 0 20px;padding:20px 24px;border-left:5px solid #009bd9;background:#fff;border-radius:4px 18px 18px 4px}
+.gb-intro h1{margin:3px 0 8px;font-size:clamp(1.55rem,4vw,2.45rem);color:#173a63;line-height:1.2}
+.gb-intro p{margin:0}
+.gb-learning .lesson-content{overflow-wrap:anywhere}
+.gb-learning .lesson-content figure{margin:1.2rem 0}
+.gb-learning .lesson-content figure img{display:block;max-width:min(100%,820px);max-height:540px;object-fit:contain;border-radius:.7rem}
+.gb-learning figcaption{margin:.4rem 0;font-size:.9rem;color:#435b6b}
+.gb-learning .lesson-content table{border-collapse:collapse;max-width:100%;font-size:.95rem;background:#fff;margin-block:12px}
+.gb-learning .lesson-content :is(td,th){padding:8px 12px;border:1px solid #c7dae4;text-align:left;vertical-align:top}
+.gb-learning .lesson-content th{background:#eaf5fa;color:#12365a}
+.gb-learning .assignment-title{margin:0 0 .6rem;color:#173a63;font-size:1.08rem;line-height:1.35}
+.gb-learning .assignment-time{display:inline-block;margin-top:.65rem;font-weight:600;color:#3b5866;font-size:.83rem}
+.gb-learning :is(ol,ul){padding-inline-start:1.35rem}
+.gb-learning .stations{padding-inline-start:0}
+.gb-learning .task-accordion:not([open])>.task-summary{cursor:pointer}
+.gb-learning .task-accordion:not([open])>.task-summary::after{content:'Öffnen';color:#346475;font-size:.72rem;font-weight:650}
+.gb-learning .gb-footerline{margin:1.2rem 0 .6rem;padding-top:15px;border-top:1px solid #d2e1e7;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.gb-learning .gb-footerline img{width:90px;max-height:45px}
+.gb-learning .gb-progress{display:flex;align-items:center;gap:.65rem;font-size:.85rem;font-weight:600;color:#345265;flex-wrap:wrap}
+.gb-learning .gb-progress progress{max-width:140px;accent-color:#517600}
+.gb-runtime-status:empty{display:none}
+.gb-learning .task-original-preview details{cursor:default}
+.gb-learning .focus-suppressed{display:none!important}
+.gb-learning :is(.wahlkarten,.path-cards,.choice-grid,.choices){display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:12px}
+.gb-learning :is(.wahlkarte,.path-card,.choice-card){background:#fff;border:1px solid #bfd2da;border-radius:12px;padding:16px;display:block}
+.gb-learning .choice-card:has(input:checked){border:2px solid #0580aa;background:#edf8fc}
+@media(max-width:650px){
+ .gb-learning .shell{margin:0;border-radius:0}
+ .gb-learning .navigation{padding:12px}
+ .gb-learning .stations{grid-template-columns:repeat(4,minmax(0,1fr))}
+ .gb-learning .nav-heading{flex-direction:row;align-items:center;gap:8px}
+ .gb-navcount{max-width:55%;line-height:1.3;font-size:.75rem}
+ .gb-learning .stations a{font-size:.73rem;line-height:1.18}
+ .gb-learning .gb-intro{padding:14px 16px}
+ .gb-learning .lesson-content :is(th,td){padding:5px}
+}
+@media print{
+ [hidden]{display:none!important}
+ .gb-learning .gb-resources,.gb-learning .gb-footerline,.gb-runtime-status,.gb-learning .page-turn,.gb-learning .focus-ai-help{display:none!important}
+ .gb-learning .gb-intro{padding:.4rem 0;border:0}
+ .gb-learning .lesson-content figure img{max-height:90mm}
+ .gb-learning .lesson-content h2,.gb-learning .lesson-content h3{break-after:avoid}
+}
+/* Master's task-card grid is important. Protect variant visibility and focus. */
+body.gb-learning[data-phase-layout] .lesson-content .assignment-frame:is([hidden],.focus-suppressed){display:none!important}
+body.gb-learning[data-phase-layout] .lesson-content [data-require-path][hidden]{display:none!important}
+body.gb-learning:not([data-teacher]) .brand-header{justify-content:space-between}
+body.gb-learning .assignment-frame .assignment-number{width:auto;min-width:27px;white-space:nowrap;overflow-wrap:normal;padding-inline:4px}
+@media screen and (max-width:550px){
+ .gb-learning .stations{grid-template-columns:1fr 1fr;gap:2px 8px}
+ .gb-learning .stations a{display:flex;flex-direction:row;align-items:center;justify-content:flex-start;gap:6px;text-align:left;padding:4px 0;font-size:.79rem}
+ .gb-learning .stations .station-icon{width:29px;height:29px;min-width:29px;margin:0}
+ .gb-learning .stations .station-icon svg{width:17px;height:17px}
+}
+
+.gb-learning .extra-task,.gb-learning .gb-material-list article,.gb-learning .gb-choice,.gb-learning .quiz fieldset{padding:clamp(.8rem,2vw,1.3rem);margin:1rem 0;border:1px solid #d5dfe6;border-radius:.6rem;background:#fff;min-width:0}.gb-learning .case-figure{margin:1rem 0 1.3rem}.gb-learning .case-figure img{max-width:100%;width:auto;max-height:38rem;margin:auto;display:block;object-fit:contain;border-radius:.5rem}.gb-learning .case-figure figcaption{font-size:.9rem;color:#374b58;text-align:center;margin-top:.5rem}.gb-learning .extra-task textarea{width:min(100%,40rem);font:inherit;border:1px solid #869aa5;border-radius:.35rem;padding:.6rem}.gb-learning .gb-pathgrid,.gb-learning .gb-material-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,16rem),1fr));gap:1rem}.gb-learning .gb-pathcard{position:relative;padding:1rem;border:1px solid #a1b3bf;border-radius:.6rem;cursor:pointer;display:grid;align-content:start;gap:.55rem;line-height:1.5}.gb-learning .gb-pathcard:has(:checked){border-color:#007c99;box-shadow:inset 0 0 0 2px #007c99;background:#eff8fa}.gb-learning .gb-pathcard input{width:1.1rem;height:1.1rem}.gb-learning .gb-done{display:inline-flex;gap:.4rem;align-items:center;margin-inline:.6rem}.gb-learning .competency-net{display:block;max-width:100%;margin:auto}.gb-learning .quiz fieldset label{display:block;padding:.4rem;cursor:pointer}.gb-learning .quiz fieldset legend{font-weight:700}.gb-learning .quiz-reply:not(:empty){padding:.65rem;background:#f0f7fa;border-left:3px solid #37718a}.gb-learning .gb-material-list article{margin:0}.gb-learning .lesson-content details{scroll-margin-top:2rem}.gb-learning [hidden]{display:none!important}.gb-learning :is(.extra-task,.lesson-content) table{max-width:100%;border-collapse:collapse}.gb-learning .lesson-content td,.gb-learning .lesson-content th{padding:.45rem;text-align:left}.gb-learning .lesson-content :is(p,li){overflow-wrap:anywhere}

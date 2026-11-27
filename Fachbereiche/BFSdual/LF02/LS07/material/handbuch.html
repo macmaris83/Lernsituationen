@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>SAP-Arbeitshandbuch zur Auftragsabwicklung · Global Bike</title><style>html{font:100%/1.6 system-ui,sans-serif;color:#19384b}body{max-width:58rem;margin:1.3rem auto;padding:0 1.15rem}main{overflow-wrap:anywhere}a{color:#155675}h1,h2,h3{line-height:1.23}li{margin:.25rem 0}table{border-collapse:collapse}th,td{border:1px solid #9baeb7;padding:.4rem .6rem}figure{margin-inline:0}img{max-width:100%;height:auto}blockquote{border-left:.25rem solid #86a857;margin-inline:0;padding-left:1rem}nav{margin:1rem 0}</style><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/requirements.js"></script><script defer src="../assets/pako.min.js"></script><script defer src="../assets/bfs-resume.js"></script><script defer src="../assets/runtime.js"></script><link rel="stylesheet" href="../assets/pdf-ui.css"><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main>
+<nav aria-label="Materialnavigation"><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app acrobat" data-material-view="acrobat" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">PDF</span>
+    <strong>Adobe Acrobat Reader</strong><span class="file">SAP-Arbeitshandbuch zur Auftragsabwicklung</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Werkzeuge</span><span class="material-tab">Kommentieren</span><span class="material-tab">Ansicht</span><span class="material-kind">PDF-Unterlage</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Dokument</span><span class="material-rail-item is-active">Seiten</span><span class="material-rail-item">Lesezeichen</span></aside>
+    <section class="canvas"><article class="paper"><h1 data-edit-text="material/handbuch.html::text-1">SAP-Arbeitshandbuch zur Auftragsabwicklung</h1></article></section>
+  </div>
+</div>
+</div>
+<p><a href="SAP-Arbeitshandbuch.md" download data-edit-text="material/handbuch.html::segment-1" data-edit-link="material/handbuch.html::link-1">Text als bearbeitbare Markdown-Datei herunterladen</a></p>
+<div class="source-document" data-bfs-document="">
+<div class="app acrobat" data-material-view="acrobat" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">PDF</span>
+    <strong>Adobe Acrobat Reader</strong><span class="file">SAP-Arbeitshandbuch zur Auftragsabwicklung</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Werkzeuge</span><span class="material-tab">Kommentieren</span><span class="material-tab">Ansicht</span><span class="material-kind">PDF-Unterlage</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Dokument</span><span class="material-rail-item is-active">Seiten</span><span class="material-rail-item">Lesezeichen</span></aside>
+    <section class="canvas"><article class="paper"><h2 id="handlungssituation-eine-kundenanfrage-mit-folgen" data-edit-text="material/handbuch.html::text-2">Handlungssituation – Eine Kundenanfrage mit Folgen</h2>
+<p data-edit-text="material/handbuch.html::text-3">Sie arbeiten im Vertrieb der Global Bike Deutschland GmbH. Heute erhalten Sie folgende interne E-Mail.</p>
+<p><strong data-edit-text="material/handbuch.html::segment-5">Von:</strong><span data-edit-text="material/handbuch.html::segment-2"> Jan Richter – Leitung Verkauf und Marketing</span><br>
+<strong data-edit-text="material/handbuch.html::segment-6">An:</strong><span data-edit-text="material/handbuch.html::segment-3"> Sachbearbeitung Vertrieb</span><br>
+<strong data-edit-text="material/handbuch.html::segment-7">Betreff:</strong><span data-edit-text="material/handbuch.html::segment-4"> Kundenanfrage der HOLZER GmbH</span></p>
+<p data-edit-text="material/handbuch.html::text-4">Guten Morgen,</p>
+<p data-edit-text="material/handbuch.html::text-5">unser Stammkunde, die HOLZER GmbH, hat eine Anfrage über Fahrradsatteltaschen zugesandt. Bitte übernehmen Sie die vollständige Bearbeitung des Geschäftsvorgangs. Die Lagerlogistik hat darauf hingewiesen, dass der Warenbestand möglicherweise nicht ausreicht. Verschaffen Sie sich zunächst einen Überblick über den gesamten Prozess. Stimmen Sie bei einem Engpass die weitere Vorgehensweise mit dem Einkauf ab.</p>
+<p data-edit-text="material/handbuch.html::text-6">Nutzen Sie unsere vorhandenen SAP-Anleitungen und dokumentieren Sie alle Vorgänge, damit wir den Geschäftsprozess von der Anfrage bis zum Zahlungseingang nachvollziehen können.</p>
+<p data-edit-text="material/handbuch.html::text-7">Vielen Dank! Jan Richter – Leitung Verkauf und Marketing</p>
+<p><a href="materialien/00_Einstieg.pdf" data-edit-text="material/handbuch.html::segment-9" data-edit-link="material/handbuch.html::link-2">Handlungssituation als PDF</a><span data-edit-text="material/handbuch.html::segment-8"> · </span><a href="materialien/A01_Original_Kundenanfrage.pdf" data-edit-text="material/handbuch.html::segment-10" data-edit-link="material/handbuch.html::link-3">Original-Kundenanfrage öffnen</a></p>
+<h2 id="phase-1-informieren-analysieren" data-edit-text="material/handbuch.html::text-8">Phase 1: Informieren / Analysieren</h2>
+<p data-edit-text="material/handbuch.html::text-9">Lesen Sie die Handlungssituation und die Original-Kundenanfrage. Welche Informationen liegen vor? Welche Abteilungen sind beteiligt? Welches Problem könnte auftreten?</p>
+<h3 id="den-prozess-der-auftragsabwicklung-gliedern" data-edit-text="material/handbuch.html::text-10">1.2 Den Prozess der Auftragsabwicklung gliedern</h3>
+<p data-edit-text="material/handbuch.html::text-11">Öffnen Sie die vorhandene PowerPoint-Datei. Drahtesel steht dort stellvertretend für den Kunden; im ersten Fall HOLZER, im zweiten Fahrrad Glocke.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-12">Ordnen Sie Vertrieb und Beschaffung den richtigen Bereichen zu.</li>
+<li data-edit-text="material/handbuch.html::text-13">Verschieben Sie die vorgegebenen Begriffe und Belege zu den beteiligten Unternehmen.</li>
+<li data-edit-text="material/handbuch.html::text-14">Ordnen Sie die Belege zeitlich sinnvoll an und ergänzen Sie Pfeile für Absender und Empfänger.</li>
+<li data-edit-text="material/handbuch.html::text-15">Markieren Sie die Schnittstelle, an der der fehlende Bestand die Beschaffung erforderlich macht.</li>
+<li data-edit-text="material/handbuch.html::text-16">Prüfen Sie Absender, Empfänger und Pfeilrichtung. Sie können das Ergebnis mit einer anderen Person vergleichen. Speichern Sie Ihre Datei.</li>
+</ol>
+<p><a href="materialien/01_Prozessdarstellung.pdf" data-edit-text="material/handbuch.html::segment-12" data-edit-link="material/handbuch.html::link-4">Arbeitsauftrag PDF</a><span data-edit-text="material/handbuch.html::segment-11"> · </span><a href="materialien/Prozess_der_Auftragsabwicklung.pptx" data-edit-text="material/handbuch.html::segment-13" data-edit-link="material/handbuch.html::link-5">PowerPoint-Arbeitsvorlage (editierbar)</a></p>
+<h2 id="phase-2-planen" data-edit-text="material/handbuch.html::text-17">Phase 2: Planen</h2>
+<p data-edit-text="material/handbuch.html::text-18">Planen Sie die Arbeitsschritte und Abhängigkeiten anhand Ihrer Prozessübersicht. Prüfen Sie, welche Anleitungen, Belege und Laufzettel Sie benötigen. Führen Sie für jeden Fall einen eigenen Laufzettel Vertrieb und Beschaffung. Holen Sie vor der SAP-Bearbeitung die Fallfreigabe ein.</p>
+<p><a href="materialien/02_Fallfreigabe.pdf" data-edit-text="material/handbuch.html::segment-16" data-edit-link="material/handbuch.html::link-6">Verbindliche Fallfreigabe / Abweichungen der Originalbelege</a><span data-edit-text="material/handbuch.html::segment-14"> · </span><a href="materialien/Laufzettel_Vertrieb_Original.pdf" data-edit-text="material/handbuch.html::segment-17" data-edit-link="material/handbuch.html::link-7">Laufzettel Vertrieb (Original)</a><span data-edit-text="material/handbuch.html::segment-15"> · </span><a href="materialien/Laufzettel_Beschaffung_mit_Auftragsbestaetigung.pdf" data-edit-text="material/handbuch.html::segment-18" data-edit-link="material/handbuch.html::link-8">Laufzettel Beschaffung (aus Original-SAP-Anleitung)</a></p>
+<h2 id="phase-3-entscheiden" data-edit-text="material/handbuch.html::text-19">Phase 3: Entscheiden</h2>
+<p data-edit-text="material/handbuch.html::text-20">Wählen Sie begründet eines der drei gleichwertigen Lernpakete. Alle bearbeiten beide Fälle vollständig in SAP und geben für beide Fälle Laufzettel, die Prozessübersicht, SAP-Belegnachweise, Bestandsprüfung, Belegfluss und Bestellentwicklung ab. A – Vorgangsmappe: strukturieren Sie die Belege chronologisch und erläutern Sie die Abhängigkeiten schriftlich. B – Visuelle Prozessdokumentation: erweitern Sie die Prozessübersicht um die Belegnummern beider Fälle und erläutern Sie die Abhängigkeiten an den Schnittstellen. C – Digitale Prozesspräsentation: erläutern Sie die beiden Belegketten anhand eigener SAP-Belege und kommentierter Folien; eine mündliche Präsentation ist freiwillig. Begründen Sie die Wahl mit Ihrem geplanten Arbeitsweg. Für alle gelten gleiche fachliche Kriterien: Vollständigkeit, fachliche Richtigkeit, Nachvollziehbarkeit und Sorgfalt. Die Lernpakete unterscheiden sich nur in der Darstellungsform.</p>
+<p><a href="materialien/03_Lernpakete.pdf" data-edit-text="material/handbuch.html::segment-19" data-edit-link="material/handbuch.html::link-9">Lernpakete und Arbeitsplanung</a></p>
+<h3 id="vorlagen-für-die-bestandsprüfung-und-die-dokumentation" data-edit-text="material/handbuch.html::text-21">Vorlagen für die Bestandsprüfung und die Dokumentation</h3>
+<p><a href="materialien/Notierhilfe_Bestandspruefung.pdf" data-edit-text="material/handbuch.html::segment-21" data-edit-link="material/handbuch.html::link-10">Notierhilfe Bestandsprüfung</a><span data-edit-text="material/handbuch.html::segment-20"> · </span><a href="materialien/Laufzettel_Beschaffung_Original.pdf" data-edit-text="material/handbuch.html::segment-22" data-edit-link="material/handbuch.html::link-11">Laufzettel Beschaffung aus der Fallvorlage</a></p>
+<p data-edit-text="material/handbuch.html::text-22">Der Laufzettel aus der SAP-Anleitung enthält ein eigenes Feld für die Auftragsbestätigung. Falls Sie den Laufzettel aus der Fallvorlage verwenden, notieren Sie die Bestätigungsnummer ergänzend.</p>
+<h2 id="phase-4-durchführen-geschäftsfall-1" data-edit-text="material/handbuch.html::text-23">Phase 4: Durchführen – Geschäftsfall 1</h2>
+<p><strong data-edit-text="material/handbuch.html::segment-23">HOLZER GmbH – 200 Fahrradsatteltaschen (FSTA1###)</strong></p>
+<p data-edit-text="material/handbuch.html::text-24">Die Originalbelege bleiben unverändert. Maßgeblich für abweichende Angaben ist die ausdrücklich bestätigte Fallfreigabe. Nutzen Sie die Anleitungen mit den angegebenen Seitenzahlen. Keine Stammdatenänderungen, keine Lieferantenanfragen, kein Angebotsvergleich, kein Einkaufsinfosatz, kein Orderbuch. Dokumentieren Sie alle eigenen SAP-Belegnummern. Die nachstehende Reihenfolge dient der Unterrichtsorganisation; die Auslieferung setzt ausreichenden verfügbaren Bestand voraus, nicht die Zahlung an den Lieferanten.</p>
+<h3 id="teil-a-vertrieb-bis-zum-beschaffungsbedarf" data-edit-text="material/handbuch.html::text-25">Teil A – Vertrieb bis zum Beschaffungsbedarf</h3>
+<h3 id="a01-kundenanfrage-bearbeiten" data-edit-text="material/handbuch.html::text-26">A01 – Kundenanfrage bearbeiten</h3>
+<p data-edit-text="material/handbuch.html::text-27">Die Originalanfrage der HOLZER GmbH liegt vor.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-28">Ermitteln Sie die individuellen Kunden- und Materialnummern sowie den Vertriebsbereich. Füllen Sie den Kopf des Laufzettels aus.</li>
+<li data-edit-text="material/handbuch.html::text-29">Erfassen Sie die Anfrage über 200 Fahrradsatteltaschen in SAP. Prüfen und notieren Sie die Verfügbarkeit; sichern Sie die Anfrage.</li>
+<li data-edit-text="material/handbuch.html::text-30">Ergänzen Sie den Laufzettel.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-25">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-24"> Vertrieb, Kap. 1, S. 4–5 · </span><a href="materialien/SAP_Anleitung_Vertrieb.pdf" data-edit-text="material/handbuch.html::segment-26" data-edit-link="material/handbuch.html::link-12">Anleitung öffnen</a></p>
+<p><a href="materialien/A01_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-29" data-edit-link="material/handbuch.html::link-13">Arbeitsauftrag als PDF</a><span data-edit-text="material/handbuch.html::segment-27"> · </span><a href="materialien/A01_Original_Kundenanfrage.pdf" data-edit-text="material/handbuch.html::segment-30" data-edit-link="material/handbuch.html::link-14">A01 Original Kundenanfrage</a><span data-edit-text="material/handbuch.html::segment-28"> · </span><a href="materialien/Laufzettel_Vertrieb_Original.pdf" data-edit-text="material/handbuch.html::segment-31" data-edit-link="material/handbuch.html::link-15">Laufzettel Vertrieb Original</a></p>
+<h3 id="a02-angebot-erstellen" data-edit-text="material/handbuch.html::text-31">A02 – Angebot erstellen</h3>
+<p data-edit-text="material/handbuch.html::text-32">Jan Richter gibt vor: 21,00 EUR netto je Stück, vier Wochen gültig, Lieferung 10 Arbeitstage nach Bestelleingang, DDP Memmingen, sofort ohne Abzug. Lieferfrist vor verbindlicher Zusage mit Einkauf abstimmen.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-33">Legen Sie das Angebot mit Bezug zur Anfrage an. Prüfen Sie die Konditionen und die Lieferbarkeit.</li>
+<li data-edit-text="material/handbuch.html::text-34">Speichern Sie das Angebot, geben Sie es als PDF aus und ergänzen Sie den Laufzettel.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-33">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-32"> Vertrieb, Kap. 2, S. 6–8 · </span><a href="materialien/SAP_Anleitung_Vertrieb.pdf" data-edit-text="material/handbuch.html::segment-34" data-edit-link="material/handbuch.html::link-16">Anleitung öffnen</a></p>
+<p><a href="materialien/A02_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-35" data-edit-link="material/handbuch.html::link-17">Arbeitsauftrag als PDF</a></p>
+<h3 id="a03-kundenauftrag-bearbeiten" data-edit-text="material/handbuch.html::text-35">A03 – Kundenauftrag bearbeiten</h3>
+<p data-edit-text="material/handbuch.html::text-36">Die HOLZER GmbH hat das Angebot angenommen. Ihre Originalbestellung liegt vor.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-37">Vergleichen Sie Bestellung und Angebot. Legen Sie den Terminauftrag mit Angebotsbezug an; erfassen Sie Kundenreferenz und Datum.</li>
+<li data-edit-text="material/handbuch.html::text-38">Speichern Sie den Auftrag, geben Sie die Auftragsbestätigung aus und ergänzen Sie den Laufzettel.</li>
+<li data-edit-text="material/handbuch.html::text-39">Zeigen Sie den bisherigen Belegfluss an.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-37">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-36"> Vertrieb, Kap. 3, S. 9–10 · </span><a href="materialien/SAP_Anleitung_Vertrieb.pdf" data-edit-text="material/handbuch.html::segment-38" data-edit-link="material/handbuch.html::link-18">Anleitung öffnen</a></p>
+<p><a href="materialien/A03_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-40" data-edit-link="material/handbuch.html::link-19">Arbeitsauftrag als PDF</a><span data-edit-text="material/handbuch.html::segment-39"> · </span><a href="materialien/A03_Original_Kundenbestellung.pdf" data-edit-text="material/handbuch.html::segment-41" data-edit-link="material/handbuch.html::link-20">A03 Original Kundenbestellung</a></p>
+<h3 id="a04-beschaffungsbedarf-ermitteln" data-edit-text="material/handbuch.html::text-40">A04 – Beschaffungsbedarf ermitteln</h3>
+<p data-edit-text="material/handbuch.html::text-41">Christian Klein aus der Absatzlogistik benötigt eine Rückmeldung zur Lieferfähigkeit.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-42">Prüfen Sie in MD04 die Bestands- und Bedarfssituation im freigegebenen Werk. Notieren Sie Bestand, weitere Bedarfe, rechtzeitige Zugänge, verfügbare Menge und Fehlmenge.</li>
+<li data-edit-text="material/handbuch.html::text-43">Berücksichtigen Sie den bereits angelegten Kundenauftrag nur einmal. Prüfen Sie die zugesagte Lieferfrist.</li>
+<li data-edit-text="material/handbuch.html::text-44">Melden Sie den Engpass und die erforderliche Maßnahme in einer kurzen Mitteilung an Birgit Horst. Bei ausreichendem Bestand oder unklaren Daten Rücksprache mit der Lehrkraft.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-43">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-42"> Fallvorlage S. 7; bekannte MD04-Unterlagen · </span><a href="materialien/SAP_Anleitung_Vertrieb.pdf" data-edit-text="material/handbuch.html::segment-44" data-edit-link="material/handbuch.html::link-21">Anleitung öffnen</a></p>
+<p><a href="materialien/A04_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-46" data-edit-link="material/handbuch.html::link-22">Arbeitsauftrag als PDF</a><span data-edit-text="material/handbuch.html::segment-45"> · </span><a href="materialien/Notierhilfe_Bestandspruefung.pdf" data-edit-text="material/handbuch.html::segment-47" data-edit-link="material/handbuch.html::link-23">Notierhilfe Bestandspruefung</a></p>
+<h3 id="teil-b-beschaffung" data-edit-text="material/handbuch.html::text-45">Teil B – Beschaffung</h3>
+<h3 id="a05-bestellung-anlegen" data-edit-text="material/handbuch.html::text-46">A05 – Bestellung anlegen</h3>
+<p data-edit-text="material/handbuch.html::text-47">Die Einkaufsleitung gibt die Beschaffung verbindlich vor. Die zusätzliche Menge dient der Bevorratung.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-48">Lesen Sie den Beschaffungsauftrag. Prüfen Sie, ob 300 Stück ausreichen und die Lieferung fristgerecht erfolgen kann.</li>
+<li data-edit-text="material/handbuch.html::text-49">Legen Sie die Bestellung bei Cologne Bike GmbH an: 300 Stück zu 12,00 EUR netto pro Stück, sofort ohne Abzug. Werk/Lagerort gemäß Freigabe.</li>
+<li data-edit-text="material/handbuch.html::text-50">Verändern Sie keine Stammdaten; deaktivieren Sie ggf. die Infosatzaktualisierung. Sichern Sie die Bestellung und ergänzen Sie den Laufzettel.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-49">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-48"> Beschaffung, Kap. 2, S. 4 · </span><a href="materialien/SAP_Anleitung_Beschaffung.pdf" data-edit-text="material/handbuch.html::segment-50" data-edit-link="material/handbuch.html::link-24">Anleitung öffnen</a></p>
+<p><a href="materialien/A05_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-53" data-edit-link="material/handbuch.html::link-25">Arbeitsauftrag als PDF</a><span data-edit-text="material/handbuch.html::segment-51"> · </span><a href="materialien/A05_Beschaffungsauftrag.pdf" data-edit-text="material/handbuch.html::segment-54" data-edit-link="material/handbuch.html::link-26">A05 Beschaffungsauftrag</a><span data-edit-text="material/handbuch.html::segment-52"> · </span><a href="materialien/Laufzettel_Beschaffung_mit_Auftragsbestaetigung.pdf" data-edit-text="material/handbuch.html::segment-55" data-edit-link="material/handbuch.html::link-27">Laufzettel Beschaffung mit Auftragsbestaetigung</a></p>
+<h3 id="a06-auftragsbestätigung-bearbeiten" data-edit-text="material/handbuch.html::text-51">A06 – Auftragsbestätigung bearbeiten</h3>
+<p data-edit-text="material/handbuch.html::text-52">Die Original-Auftragsbestätigung des Lieferanten liegt vor.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-53">Vergleichen Sie Menge, Preis, Lieferdatum, Ort und Zahlungsbedingungen mit Ihrer Bestellung. Beachten Sie die verbindliche Fallfreigabe.</li>
+<li data-edit-text="material/handbuch.html::text-54">Erfassen Sie nach Klärung die Nummer der Bestätigung in der Bestellung. Sichern und dokumentieren Sie den Vorgang.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-57">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-56"> Beschaffung, Kap. 3, S. 5 · </span><a href="materialien/SAP_Anleitung_Beschaffung.pdf" data-edit-text="material/handbuch.html::segment-58" data-edit-link="material/handbuch.html::link-28">Anleitung öffnen</a></p>
+<p><a href="materialien/A06_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-60" data-edit-link="material/handbuch.html::link-29">Arbeitsauftrag als PDF</a><span data-edit-text="material/handbuch.html::segment-59"> · </span><a href="materialien/A06_Original_Auftragsbestaetigung.pdf" data-edit-text="material/handbuch.html::segment-61" data-edit-link="material/handbuch.html::link-30">A06 Original Auftragsbestaetigung</a></p>
+<h3 id="a07-wareneingang-buchen" data-edit-text="material/handbuch.html::text-55">A07 – Wareneingang buchen</h3>
+<p data-edit-text="material/handbuch.html::text-56">Der Originallieferschein liegt vor. Die Ware wird im freigegebenen Werk angenommen.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-57">Vergleichen Sie Lieferschein und Bestellung; prüfen Sie Material, Menge (300 Stück) und Werk.</li>
+<li data-edit-text="material/handbuch.html::text-58">Buchen Sie den Wareneingang mit Bestellbezug erst nach Klärung. Notieren Sie die Materialbelegnummer.</li>
+<li data-edit-text="material/handbuch.html::text-59">Prüfen Sie erneut die Verfügbarkeit für den Kundenauftrag.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-63">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-62"> Beschaffung, Kap. 4, S. 6–7 · </span><a href="materialien/SAP_Anleitung_Beschaffung.pdf" data-edit-text="material/handbuch.html::segment-64" data-edit-link="material/handbuch.html::link-31">Anleitung öffnen</a></p>
+<p><a href="materialien/A07_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-66" data-edit-link="material/handbuch.html::link-32">Arbeitsauftrag als PDF</a><span data-edit-text="material/handbuch.html::segment-65"> · </span><a href="materialien/A07_Original_Lieferschein.pdf" data-edit-text="material/handbuch.html::segment-67" data-edit-link="material/handbuch.html::link-33">A07 Original Lieferschein</a></p>
+<h3 id="a08-eingangsrechnung-erfassen" data-edit-text="material/handbuch.html::text-60">A08 – Eingangsrechnung erfassen</h3>
+<p data-edit-text="material/handbuch.html::text-61">Die Originalrechnung des Lieferanten ist eingegangen.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-62">Vergleichen Sie Rechnung, Bestellung und Wareneingang. Prüfen Sie Nettobetrag und Umsatzsteuer. Klären Sie die abweichenden Zahlungsbedingungen gemäß Fallfreigabe.</li>
+<li data-edit-text="material/handbuch.html::text-63">Erfassen und buchen Sie die Eingangsrechnung mit Bestellbezug. Ergänzen Sie den Laufzettel.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-69">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-68"> Beschaffung, Kap. 5, S. 8–9 · </span><a href="materialien/SAP_Anleitung_Beschaffung.pdf" data-edit-text="material/handbuch.html::segment-70" data-edit-link="material/handbuch.html::link-34">Anleitung öffnen</a></p>
+<p><a href="materialien/A08_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-72" data-edit-link="material/handbuch.html::link-35">Arbeitsauftrag als PDF</a><span data-edit-text="material/handbuch.html::segment-71"> · </span><a href="materialien/A08_Original_Eingangsrechnung.pdf" data-edit-text="material/handbuch.html::segment-73" data-edit-link="material/handbuch.html::link-36">A08 Original Eingangsrechnung</a></p>
+<h3 id="a09-zahlungsausgang-buchen" data-edit-text="material/handbuch.html::text-64">A09 – Zahlungsausgang buchen</h3>
+<p data-edit-text="material/handbuch.html::text-65">Die Rechnung wird ohne Abzug bezahlt. Der Originalkontoauszug liegt vor.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-66">Zeigen Sie die offenen Posten des Lieferanten an. Prüfen Sie Referenz und Betrag anhand des SAP-Belegs.</li>
+<li data-edit-text="material/handbuch.html::text-67">Buchen Sie den Zahlungsausgang gemäß Kontoauszug, ordnen Sie ihn dem offenen Posten zu und prüfen Sie dessen Ausgleich.</li>
+<li data-edit-text="material/handbuch.html::text-68">Ergänzen Sie den Laufzettel.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-75">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-74"> Beschaffung, Kap. 6–7, S. 10–12 · </span><a href="materialien/SAP_Anleitung_Beschaffung.pdf" data-edit-text="material/handbuch.html::segment-76" data-edit-link="material/handbuch.html::link-37">Anleitung öffnen</a></p>
+<p><a href="materialien/A09_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-78" data-edit-link="material/handbuch.html::link-38">Arbeitsauftrag als PDF</a><span data-edit-text="material/handbuch.html::segment-77"> · </span><a href="materialien/A09_Original_Kontoauszug_Ausgang.pdf" data-edit-text="material/handbuch.html::segment-79" data-edit-link="material/handbuch.html::link-39">A09 Original Kontoauszug Ausgang</a></p>
+<h3 id="a10-beschaffungsprozess-überprüfen" data-edit-text="material/handbuch.html::text-69">A10 – Beschaffungsprozess überprüfen</h3>
+<p data-edit-text="material/handbuch.html::text-70">Der Einkauf benötigt eine vollständige Dokumentation.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-71">Rufen Sie die Bestellentwicklung und den Status auf. Vergleichen Sie die Belegnummern mit Ihrem Laufzettel.</li>
+<li data-edit-text="material/handbuch.html::text-72">Sichern Sie die Bestellentwicklung. Ergänzen Sie ggf. die Nummer der Auftragsbestätigung separat.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-81">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-80"> Beschaffung, Kap. 8, S. 13 · </span><a href="materialien/SAP_Anleitung_Beschaffung.pdf" data-edit-text="material/handbuch.html::segment-82" data-edit-link="material/handbuch.html::link-40">Anleitung öffnen</a></p>
+<p><a href="materialien/A10_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-83" data-edit-link="material/handbuch.html::link-41">Arbeitsauftrag als PDF</a></p>
+<h3 id="teil-c-vertrieb-fortsetzen-und-kontrollieren" data-edit-text="material/handbuch.html::text-73">Teil C – Vertrieb fortsetzen und kontrollieren</h3>
+<h3 id="a11-warenauslieferung-durchführen" data-edit-text="material/handbuch.html::text-74">A11 – Warenauslieferung durchführen</h3>
+<p data-edit-text="material/handbuch.html::text-75">Die Ware ist verfügbar. Christian Klein gibt den Kundenauftrag zur Auslieferung frei. Die Lieferantenzahlung ist keine Voraussetzung.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-76">Prüfen Sie die bestätigte Menge und den Termin. Bei Bedarf Verfügbarkeit im Auftrag erneut prüfen und Änderungen mit der Lehrkraft klären.</li>
+<li data-edit-text="material/handbuch.html::text-77">Legen Sie die Auslieferung mit Auftragsbezug an, kommissionieren Sie 200 Stück aus dem freigegebenen Lagerort und buchen Sie den Warenausgang.</li>
+<li data-edit-text="material/handbuch.html::text-78">Geben Sie den Lieferschein aus, prüfen Sie den Bestand und ergänzen Sie den Laufzettel.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-85">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-84"> Vertrieb, Kap. 4–5, S. 11–18 · </span><a href="materialien/SAP_Anleitung_Vertrieb.pdf" data-edit-text="material/handbuch.html::segment-86" data-edit-link="material/handbuch.html::link-42">Anleitung öffnen</a></p>
+<p><a href="materialien/A11_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-87" data-edit-link="material/handbuch.html::link-43">Arbeitsauftrag als PDF</a></p>
+<h3 id="a12-ausgangsrechnung-erstellen" data-edit-text="material/handbuch.html::text-79">A12 – Ausgangsrechnung erstellen</h3>
+<p data-edit-text="material/handbuch.html::text-80">Die HOLZER GmbH erhält nach erfolgter Lieferung ihre Rechnung.</p>
+<ol type="1">
+<li><span data-edit-text="material/handbuch.html::text-81">Legen Sie die </span><a href="../ls-glossar.html?from=material%2Fhandbuch.html%23glossar-stelle-2#faktura" id="glossar-stelle-2" data-edit-text="material/handbuch.html::text-81-begriff" data-edit-link="material/handbuch.html::glossar-stelle-2">Faktura</a><span data-edit-text="material/handbuch.html::text-81-fortsetzung"> mit Auslieferungsbezug an. Prüfen Sie Preise, Menge, Steuer und Zahlungsbedingungen.</span></li>
+<li data-edit-text="material/handbuch.html::text-82">Speichern Sie die Rechnung, geben Sie sie aus und ergänzen Sie den Laufzettel.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-89">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-88"> Vertrieb, Kap. 6, S. 19–23 · </span><a href="materialien/SAP_Anleitung_Vertrieb.pdf" data-edit-text="material/handbuch.html::segment-90" data-edit-link="material/handbuch.html::link-44">Anleitung öffnen</a></p>
+<p><a href="materialien/A12_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-91" data-edit-link="material/handbuch.html::link-45">Arbeitsauftrag als PDF</a></p>
+<h3 id="a13-zahlungseingang-buchen" data-edit-text="material/handbuch.html::text-83">A13 – Zahlungseingang buchen</h3>
+<p data-edit-text="material/handbuch.html::text-84">Der Originalkontoauszug dokumentiert die Zahlung der HOLZER GmbH.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-85">Prüfen Sie die offene Forderung und die tatsächliche SAP-Rechnungsnummer. Buchen Sie die Zahlung ohne Abzug.</li>
+<li data-edit-text="material/handbuch.html::text-86">Ordnen Sie den Betrag der Rechnung zu und kontrollieren Sie den Ausgleich. Ergänzen Sie den Laufzettel.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-93">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-92"> Vertrieb, Kap. 7, S. 24–29 · </span><a href="materialien/SAP_Anleitung_Vertrieb.pdf" data-edit-text="material/handbuch.html::segment-94" data-edit-link="material/handbuch.html::link-46">Anleitung öffnen</a></p>
+<p><a href="materialien/A13_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-96" data-edit-link="material/handbuch.html::link-47">Arbeitsauftrag als PDF</a><span data-edit-text="material/handbuch.html::segment-95"> · </span><a href="materialien/A13_Original_Kontoauszug_Eingang.pdf" data-edit-text="material/handbuch.html::segment-97" data-edit-link="material/handbuch.html::link-48">A13 Original Kontoauszug Eingang</a></p>
+<h3 id="a14-gesamtprozess-überprüfen" data-edit-text="material/handbuch.html::text-87">A14 – Gesamtprozess überprüfen</h3>
+<p data-edit-text="material/handbuch.html::text-88">Der gesamte Geschäftsvorgang soll nachvollziehbar sein.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-89">Vergleichen Sie SAP-Vertriebsbelegfluss, Bestellentwicklung, offene Posten und Laufzettel.</li>
+<li data-edit-text="material/handbuch.html::text-90">Ergänzen Sie die Prozessübersicht um die tatsächlich vergebenen Belegnummern und erklären Sie die Schnittstelle über den Warenbestand. Die beiden Belegketten sind bei einer eigenständigen Bestellung nicht automatisch als ein gemeinsamer SAP-Belegfluss verknüpft.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-99">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-98"> Vertrieb S. 10, 18; Beschaffung S. 13 · </span><a href="materialien/SAP_Anleitung_Vertrieb.pdf" data-edit-text="material/handbuch.html::segment-100" data-edit-link="material/handbuch.html::link-49">Anleitung öffnen</a></p>
+<p><a href="materialien/A14_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-101" data-edit-link="material/handbuch.html::link-50">Arbeitsauftrag als PDF</a></p>
+<h2 id="phase-4-durchführen-geschäftsfall-2-übung" data-edit-text="material/handbuch.html::text-91">Phase 4: Durchführen – Geschäftsfall 2 (Übung)</h2>
+<p><strong data-edit-text="material/handbuch.html::segment-102">Fahrrad Glocke GmbH – 300 Fahrradlicht Set LED (FLSL1###)</strong></p>
+<p data-edit-text="material/handbuch.html::text-92">Guten Morgen,</p>
+<p data-edit-text="material/handbuch.html::text-93">nachdem Sie den ersten Vorgang bearbeitet haben, liegt eine Bestellung der Fahrrad Glocke GmbH vor. Übernehmen Sie den Auftrag einschließlich der erforderlichen Beschaffung und des Abschlusses im Rechnungswesen. Leiten Sie die notwendigen Arbeitsschritte aus Ihrer Prozessübersicht ab. Nutzen Sie bei Bedarf die bekannten SAP-Anleitungen.</p>
+<p data-edit-text="material/handbuch.html::text-94">Jan Richter – Leitung Verkauf und Marketing</p>
+<p><a href="materialien/B00_Einstieg.pdf" data-edit-text="material/handbuch.html::segment-104" data-edit-link="material/handbuch.html::link-51">Handlungssituation PDF</a><span data-edit-text="material/handbuch.html::segment-103"> · </span><a href="materialien/B01_Original_Kundenbestellung.pdf" data-edit-text="material/handbuch.html::segment-105" data-edit-link="material/handbuch.html::link-52">Original-Kundenbestellung</a></p>
+<p data-edit-text="material/handbuch.html::text-95">Der Fall beginnt bewusst mit einer Bestellung; Anfrage und Angebot entfallen. Führen Sie neue Laufzettel; wählen Sie die Anleitungen selbstständig aus. Die nicht vorhandenen Lieferantenbelege sind als neu erstellte Übungsbelege gekennzeichnet. Die Fallfreigabe gilt auch hier.</p>
+<h3 id="b01-kundenauftrag-und-bestandsprüfung" data-edit-text="material/handbuch.html::text-96">B01 – Kundenauftrag und Bestandsprüfung</h3>
+<p data-edit-text="material/handbuch.html::text-97">Die Originalbestellung der Fahrrad Glocke GmbH liegt vor: 300 Fahrradlicht Set LED zu 36,00 EUR netto, CPT Köln, 30 Tage 3 % Skonto / 45 Tage netto.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-98">Bearbeiten Sie den Kundenauftrag ohne Anfrage- oder Angebotsbezug. Verwenden Sie nur die gültige Materialposition; ignorieren Sie die #NV- und Nullzeilen der Vorlage.</li>
+<li data-edit-text="material/handbuch.html::text-99">Prüfen Sie den Bestand, ermitteln Sie den Fehlbedarf und dokumentieren Sie Ihre Entscheidung. Führen Sie einen neuen Laufzettel.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-107">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-106"> Vertrieb, Kap. 3; MD04 · </span><a href="materialien/SAP_Anleitung_Vertrieb.pdf" data-edit-text="material/handbuch.html::segment-108" data-edit-link="material/handbuch.html::link-53">Anleitung öffnen</a></p>
+<p><a href="materialien/B01_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-112" data-edit-link="material/handbuch.html::link-54">Arbeitsauftrag als PDF</a><span data-edit-text="material/handbuch.html::segment-109"> · </span><a href="materialien/B01_Original_Kundenbestellung.pdf" data-edit-text="material/handbuch.html::segment-113" data-edit-link="material/handbuch.html::link-55">B01 Original Kundenbestellung</a><span data-edit-text="material/handbuch.html::segment-110"> · </span><a href="materialien/Laufzettel_Vertrieb_Original.pdf" data-edit-text="material/handbuch.html::segment-114" data-edit-link="material/handbuch.html::link-56">Laufzettel Vertrieb Original</a><span data-edit-text="material/handbuch.html::segment-111"> · </span><a href="materialien/Notierhilfe_Bestandspruefung.pdf" data-edit-text="material/handbuch.html::segment-115" data-edit-link="material/handbuch.html::link-57">Notierhilfe Bestandspruefung</a></p>
+<h3 id="b02-beschaffung-durchführen" data-edit-text="material/handbuch.html::text-100">B02 – Beschaffung durchführen</h3>
+<p data-edit-text="material/handbuch.html::text-101">Birgit Horst gibt die Beschaffung von 400 Stück zu 24,00 EUR netto je Stück bei Cologne Bike GmbH vor.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-102">Prüfen Sie, ob die Menge ausreicht. Legen Sie die Bestellung an und bearbeiten Sie die Auftragsbestätigung.</li>
+<li data-edit-text="material/handbuch.html::text-103">Buchen Sie Wareneingang und Eingangsrechnung nach Prüfung der Übungsbelege. Prüfen und buchen Sie den Zahlungsausgang ohne Abzug.</li>
+<li data-edit-text="material/handbuch.html::text-104">Kontrollieren Sie Bestellentwicklung, offene Posten und Laufzettel. Nutzen Sie die Beschaffungsanleitung eigenständig.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-117">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-116"> Beschaffung, Kap. 2–8 · </span><a href="materialien/SAP_Anleitung_Beschaffung.pdf" data-edit-text="material/handbuch.html::segment-118" data-edit-link="material/handbuch.html::link-58">Anleitung öffnen</a></p>
+<p><a href="materialien/B02_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-122" data-edit-link="material/handbuch.html::link-59">Arbeitsauftrag als PDF</a><span data-edit-text="material/handbuch.html::segment-119"> · </span><a href="materialien/B02_Beschaffungsauftrag.pdf" data-edit-text="material/handbuch.html::segment-123" data-edit-link="material/handbuch.html::link-60">B02 Beschaffungsauftrag</a><span data-edit-text="material/handbuch.html::segment-120"> · </span><a href="materialien/B03_Uebungsbelege_Beschaffung.pdf" data-edit-text="material/handbuch.html::segment-124" data-edit-link="material/handbuch.html::link-61">B03 Uebungsbelege Beschaffung</a><span data-edit-text="material/handbuch.html::segment-121"> · </span><a href="materialien/Laufzettel_Beschaffung_mit_Auftragsbestaetigung.pdf" data-edit-text="material/handbuch.html::segment-125" data-edit-link="material/handbuch.html::link-62">Laufzettel Beschaffung mit Auftragsbestaetigung</a></p>
+<h3 id="b04-kundenauftrag-beliefern-und-fakturieren" data-edit-text="material/handbuch.html::text-105">B04 – Kundenauftrag beliefern und fakturieren</h3>
+<p data-edit-text="material/handbuch.html::text-106">Die Ware ist im freigegebenen Werk verfügbar.</p>
+<ol type="1">
+<li><span data-edit-text="material/handbuch.html::text-107">Prüfen Sie die Verfügbarkeit und bearbeiten Sie Auslieferung, </span><a href="../ls-glossar.html?from=material%2Fhandbuch.html%23glossar-stelle-1#kommissionierung" id="glossar-stelle-1" data-edit-text="material/handbuch.html::text-107-begriff" data-edit-link="material/handbuch.html::glossar-stelle-1">Kommissionierung</a><span data-edit-text="material/handbuch.html::text-107-fortsetzung"> und Warenausgang für 300 Stück.</span></li>
+<li data-edit-text="material/handbuch.html::text-108">Erstellen und prüfen Sie die Ausgangsrechnung. Geben Sie die erforderlichen Belege aus und ergänzen Sie den Laufzettel.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-127">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-126"> Vertrieb, Kap. 4–6 · </span><a href="materialien/SAP_Anleitung_Vertrieb.pdf" data-edit-text="material/handbuch.html::segment-128" data-edit-link="material/handbuch.html::link-63">Anleitung öffnen</a></p>
+<p><a href="materialien/B04_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-129" data-edit-link="material/handbuch.html::link-64">Arbeitsauftrag als PDF</a></p>
+<h3 id="b06-zahlungseingang-und-abschluss" data-edit-text="material/handbuch.html::text-109">B06 – Zahlungseingang und Abschluss</h3>
+<p data-edit-text="material/handbuch.html::text-110">Der Kunde zahlt innerhalb der Skontofrist. Der Originalkontoauszug enthält #NV; der Ergänzungsbeleg gibt die Übungszahlung vor.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-111">Prüfen Sie die offene Forderung, ermitteln Sie den Skontobetrag und den Zahlbetrag. Buchen Sie den Zahlungseingang mit Skonto gemäß SAP-Anleitung.</li>
+<li data-edit-text="material/handbuch.html::text-112">Kontrollieren Sie den Ausgleich der Forderung und die Vollständigkeit beider Prozessketten. Ergänzen Sie die Laufzettel und Ihr Lernpaket.</li>
+</ol>
+<p><strong data-edit-text="material/handbuch.html::segment-131">Hilfestellung:</strong><span data-edit-text="material/handbuch.html::segment-130"> Vertrieb, Kap. 7; Beschaffung, Kap. 8 · </span><a href="materialien/SAP_Anleitung_Vertrieb.pdf" data-edit-text="material/handbuch.html::segment-132" data-edit-link="material/handbuch.html::link-65">Anleitung öffnen</a></p>
+<p><a href="materialien/B06_Arbeitsauftrag.pdf" data-edit-text="material/handbuch.html::segment-135" data-edit-link="material/handbuch.html::link-66">Arbeitsauftrag als PDF</a><span data-edit-text="material/handbuch.html::segment-133"> · </span><a href="materialien/B06_Original_Kontoauszug_Eingang.pdf" data-edit-text="material/handbuch.html::segment-136" data-edit-link="material/handbuch.html::link-67">B06 Original Kontoauszug Eingang</a><span data-edit-text="material/handbuch.html::segment-134"> · </span><a href="materialien/B06_Ergaenzung_Zahlungseingang.pdf" data-edit-text="material/handbuch.html::segment-137" data-edit-link="material/handbuch.html::link-68">B06 Ergaenzung Zahlungseingang</a></p>
+<h3 id="übungsbelege-des-lieferanten-einzeln-öffnen" data-edit-text="material/handbuch.html::text-113">Übungsbelege des Lieferanten einzeln öffnen</h3>
+<ul>
+<li><a href="materialien/B03a_Uebungs_Auftragsbestaetigung.pdf" data-edit-text="material/handbuch.html::segment-138" data-edit-link="material/handbuch.html::link-69">Auftragsbestätigung</a></li>
+<li><a href="materialien/B03b_Uebungs_Lieferschein.pdf" data-edit-text="material/handbuch.html::segment-139" data-edit-link="material/handbuch.html::link-70">Lieferschein</a></li>
+<li><a href="materialien/B03c_Uebungs_Eingangsrechnung.pdf" data-edit-text="material/handbuch.html::segment-140" data-edit-link="material/handbuch.html::link-71">Eingangsrechnung</a></li>
+<li><a href="materialien/B03d_Uebungs_Kontoauszug_Ausgang.pdf" data-edit-text="material/handbuch.html::segment-141" data-edit-link="material/handbuch.html::link-72">Kontoauszug zum Zahlungsausgang</a></li>
+</ul>
+<h2 id="sap-anleitungen" data-edit-text="material/handbuch.html::text-114">SAP-Anleitungen</h2>
+<p><a href="materialien/SAP_Anleitung_Vertrieb.pdf" data-edit-text="material/handbuch.html::segment-143" data-edit-link="material/handbuch.html::link-73">Anleitungen Vertriebsprozess SAP S/4HANA (29 Seiten)</a><span data-edit-text="material/handbuch.html::segment-142"> · </span><a href="materialien/SAP_Anleitung_Beschaffung.pdf" data-edit-text="material/handbuch.html::segment-144" data-edit-link="material/handbuch.html::link-74">Beschaffungsvorgänge durchführen (14 Seiten)</a></p>
+<h2 id="übergabe-für-den-peer-check" data-edit-text="material/handbuch.html::text-115">Übergabe für den Peer-Check</h2>
+<p data-edit-text="material/handbuch.html::text-116">Wählen Sie aus jedem Fall eine belegte Übergabe zwischen Vertrieb und Einkauf. Legen Sie Prozessübersicht, Bestandsprüfung, die beiden Laufzettel und die zugehörigen SAP-Nachweise bereit. Verwenden Sie im Austausch die fallbezogenen Angaben und achten Sie bei Bildschirmfotos auf private Anmeldedaten.</p>
+<ol type="1">
+<li data-edit-text="material/handbuch.html::text-117">Folgen Sie in der Unterlage einer anderen Person einer Kundenposition von der Bestellung bis zur Zahlung. Stimmen Artikel, Menge, Belegnummern und Betrag?</li>
+<li data-edit-text="material/handbuch.html::text-118">Prüfen Sie, wie der verfügbare Bestand im richtigen Werk und die Fehlmenge hergeleitet wurden. Lässt sich der Zeitpunkt der Auslieferung am Beleg nachvollziehen?</li>
+<li data-edit-text="material/handbuch.html::text-119">Vergleichen Sie Bestellentwicklung und Vertriebsbelegfluss. Wo ist die Warenbewegung nachgewiesen, die Einkauf und Vertrieb verbindet?</li>
+<li data-edit-text="material/handbuch.html::text-120">Schauen Sie im Fall Fahrrad Glocke auf den Rechnungsbetrag, die Skontofrist, den tatsächlichen Zahlbetrag und den Ausgleich des offenen Postens.</li>
+<li><span data-edit-text="material/handbuch.html::segment-145">Geben Sie in der Moodle-Aktivität </span><strong data-edit-text="material/handbuch.html::segment-147">Peer-Check</strong><span data-edit-text="material/handbuch.html::segment-146"> eine konkrete Stärke und einen Verbesserungsvorschlag an. Nennen Sie dabei jeweils den Beleg oder die Stelle, auf die sich die Rückmeldung bezieht.</span></li>
+</ol>
+<p><span data-edit-text="material/handbuch.html::segment-148">Laden Sie Ihr fertiggestelltes Arbeitsprodukt in der für diese Lernsituation vorgesehenen Moodle-Ablagebox hoch. In der Phase </span><strong data-edit-text="material/handbuch.html::segment-151">Reflektieren</strong><span data-edit-text="material/handbuch.html::segment-149"> füllen Sie das </span><strong data-edit-text="material/handbuch.html::segment-152">Feedback zur Lernsituation in Moodle</strong><span data-edit-text="material/handbuch.html::segment-150"> aus. Der originale Wissens-Check wird von der Lehrkraft separat freigegeben.</span></p>
+<p><a href="materialien/06_Feedback.pdf" data-edit-text="material/handbuch.html::segment-153" data-edit-link="material/handbuch.html::link-75">Hinweis zur Feedback-Aktivität in Moodle (PDF)</a></p></article></section>
+  </div>
+</div>
+</div>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 746 588" width="746" height="588" lang="de" role="img" aria-labelledby="title desc">
+  <title id="title">Die Fläche bei Block zeichnen</title>
+  <desc id="desc">Leeres Koordinatenfeld, 4,80 m breit und 4,00 m tief. Der Nullpunkt liegt links unten. x wächst nach rechts und y nach oben. Maßstab zum Zeichnen 1:20.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L12 6 L0 12 Z" fill="#226c2b"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="1" y="1" width="744" height="586" rx="20" fill="#ffffff" stroke="#b2cdb1" stroke-width="2"/>
+    <rect x="22" y="21" width="702" height="70" rx="14" fill="#edf6eb" stroke="none" stroke-width="2"/>
+    <text x="43" y="67" text-anchor="start" font-size="32" font-weight="700" fill="#143920">Die Fläche bei Block zeichnen</text>
+    <rect x="105" y="219" width="331.2" height="276" rx="0" fill="#f6faf5" stroke="#226c2b" stroke-width="3"/>
+    <line x1="174" y1="495" x2="174" y2="219" stroke="#d5e5d6" stroke-width="2"/>
+    <text x="174" y="524" text-anchor="middle" font-size="20" font-weight="500" fill="#143920">1</text>
+    <line x1="243" y1="495" x2="243" y2="219" stroke="#d5e5d6" stroke-width="2"/>
+    <text x="243" y="524" text-anchor="middle" font-size="20" font-weight="500" fill="#143920">2</text>
+    <line x1="312" y1="495" x2="312" y2="219" stroke="#d5e5d6" stroke-width="2"/>
+    <text x="312" y="524" text-anchor="middle" font-size="20" font-weight="500" fill="#143920">3</text>
+    <line x1="381" y1="495" x2="381" y2="219" stroke="#d5e5d6" stroke-width="2"/>
+    <text x="381" y="524" text-anchor="middle" font-size="20" font-weight="500" fill="#143920">4</text>
+    <line x1="105" y1="426" x2="436.2" y2="426" stroke="#d5e5d6" stroke-width="2"/>
+    <text x="83" y="433" text-anchor="middle" font-size="20" font-weight="500" fill="#143920">1</text>
+    <line x1="105" y1="357" x2="436.2" y2="357" stroke="#d5e5d6" stroke-width="2"/>
+    <text x="83" y="364" text-anchor="middle" font-size="20" font-weight="500" fill="#143920">2</text>
+    <line x1="105" y1="288" x2="436.2" y2="288" stroke="#d5e5d6" stroke-width="2"/>
+    <text x="83" y="295" text-anchor="middle" font-size="20" font-weight="500" fill="#143920">3</text>
+    <text x="83" y="226" text-anchor="middle" font-size="20" font-weight="500" fill="#143920">4</text>
+    <line x1="105" y1="495" x2="463.2" y2="495" stroke="#226c2b" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="105" y1="495" x2="105" y2="189" stroke="#226c2b" stroke-width="3" marker-end="url(#arrow)"/>
+    <circle cx="105" cy="495" r="6" fill="#226c2b"/>
+    <text x="76" y="523" text-anchor="start" font-size="20" font-weight="500" fill="#143920">0</text>
+    <text x="100" y="177" text-anchor="start" font-size="24" font-weight="700" fill="#143920">y</text>
+    <text x="472.2" y="502" text-anchor="start" font-size="24" font-weight="700" fill="#143920">x</text>
+    <rect x="476.2" y="223" width="243" height="141" rx="14" fill="#edf6eb" stroke="none" stroke-width="2"/>
+    <text x="496.2" y="254" text-anchor="start" font-size="23" font-weight="700" fill="#143920">Gesamtfläche</text>
+    <text x="496.2" y="288" text-anchor="start" font-size="23" font-weight="500" fill="#143920">4,80 m breit</text>
+    <text x="496.2" y="319" text-anchor="start" font-size="23" font-weight="500" fill="#143920">4,00 m tief</text>
+    <text x="476.2" y="410" text-anchor="start" font-size="21" font-weight="500" fill="#143920">Maßstab zum Zeichnen</text>
+    <text x="476.2" y="446" text-anchor="start" font-size="33" font-weight="700" fill="#143920">1:20</text>
+    <text x="105" y="558" text-anchor="start" font-size="24" font-weight="500" fill="#143920">Beginne links unten bei 0. Die Achsen zeigen Meter.</text>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+.bfs-term-entry { margin: .75rem 0 0; }
+a.bfs-term-launch, summary.bfs-term-launch {
+  display: inline-flex; align-items: center; gap: .4rem; width: fit-content; min-height: 36px;
+  padding: .16rem .42rem; border: 1px solid #a9c4d6; border-radius: .4rem;
+  background: #f4f9fc; color: #145276; font: 600 .87rem/1.3 system-ui, sans-serif;
+  text-decoration: none; cursor: pointer; list-style: none;
+}
+summary.bfs-term-launch::-webkit-details-marker { display: none; }
+.bfs-term-launch:hover, .bfs-term-launch:focus-visible { background:#e3f1f7; color:#133a5a; }
+.bfs-term-launch:focus-visible { outline: 2px solid #005c86; outline-offset: 3px; }
+.bfs-term-launch svg { width:1.17rem;height:1.17rem;flex:none; }
+.bfs-term-entry[open] > summary { margin-bottom:.65rem; }
+@media print { .bfs-term-launch { display:none!important; } }

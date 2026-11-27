@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>M4 – Zahlen-, Datums-, Währungs- und Prozentformate</title><link href="../assets/global-bike.css" rel="stylesheet"><style>main.excel{max-width:72rem;margin:auto;padding:1rem 3vw;background:white;font:1rem/1.55 system-ui;color:#17324b}.excel img{max-width:100%;height:auto}.excel table{display:block;overflow:auto;border-collapse:collapse}.excel td,.excel th{padding:.4rem;border:1px solid #b7c7d0}.excel a{text-decoration:underline}</style><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main class="excel">
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app onenote" data-material-view="onenote" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">N</span>
+    <strong>OneNote</strong><span class="file">m4</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Notizen</span><span class="material-tab">Arbeitsunterlagen</span><span class="material-kind">Notiz / Arbeitsblatt</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Notizbuch</span><span class="material-rail-item is-active">Notizen</span><span class="material-rail-item">Unterlagen</span><span class="material-rail-item">Besprechungen</span></aside>
+    <section class="canvas"><article class="paper"><article><h1 id="m4--zahlen--datums--währungs--und-prozentformate" data-edit-text="material/m4.html::text-1">M4 – Zahlen-, Datums-, Währungs- und Prozentformate</h1>
+<p data-edit-text="material/m4.html::text-2">Global Bike Deutschland GmbH – Verwaltung</p>
+<h2 id="1-warum-zahlenformate-wichtig-sind" data-edit-text="material/m4.html::text-3">1. Warum Zahlenformate wichtig sind</h2>
+<p><span data-edit-text="material/m4.html::segment-1">In der Verwaltung werden Mengen, Geldbeträge, Termine und prozentuale Anteile verarbeitet. Eine Zahl ohne erkennbare Bedeutung kann zu Fehlentscheidungen führen. Ein einheitliches Format erleichtert das Lesen und Vergleichen. Zahlen müssen dabei weiterhin für Berechnungen verfügbar bleiben. Die Formatierung ersetzt weder eine korrekte Eingabe noch eine </span><a href="../ls-glossar.html?from=material%2Fm4.html%23wort-formel#formel" id="wort-formel" data-edit-text="material/m4.html::segment-3" data-edit-link="material/m4.html::link-1">Formel</a><span data-edit-text="material/m4.html::segment-2">.</span></p>
+<h2 id="2-zellwert-und-zellformat" data-edit-text="material/m4.html::text-4">2. Zellwert und Zellformat</h2>
+<p><img src="Grafiken/G6_Zellwert_Zellformat.png" alt="Ein Zellwert kann unterschiedlich angezeigt werden" data-edit-image="material/m4.html::image-1"></p>
+<p data-edit-text="material/m4.html::text-5">Excel speichert einen Wert und zeigt ihn entsprechend dem gewählten Format an. Der Wert 0,25 erscheint beispielsweise als 25 % im Prozentformat oder als 0,25 € im Währungsformat. Eine Formatänderung rechnet den Wert nicht um. Die Bearbeitungsleiste hilft bei der Kontrolle; bei Formeln zeigt sie die Formel statt des Ergebnisses.</p>
+<p data-edit-text="material/m4.html::text-6">Die Anzeige von zwei Dezimalstellen rundet nur die Darstellung. Aus 3,456 wird sichtbar 3,46; intern bleibt 3,456 erhalten. Wenn ein tatsächlich gerundeter Rechenwert benötigt wird, ist eine entsprechende Berechnung erforderlich (M5).</p>
+<h2 id="3-standard--zahlen--und-textformat" data-edit-text="material/m4.html::text-7">3. Standard-, Zahlen- und Textformat</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Format</th>
+<th>Verwendung</th>
+<th>Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Standard</td>
+<td>Allgemeine Eingabe ohne festgelegte Darstellung</td>
+<td>1250,5</td>
+</tr>
+<tr class="even">
+<td>Zahl</td>
+<td>Mengen und messbare Größen</td>
+<td>1.250,50</td>
+</tr>
+<tr class="odd">
+<td>Text</td>
+<td>Kennungen, die nicht berechnet werden</td>
+<td>0042</td>
+</tr>
+<tr class="even">
+<td>Währung</td>
+<td>Geldbeträge</td>
+<td>1.250,50 €</td>
+</tr>
+<tr class="odd">
+<td>Prozent</td>
+<td>Anteile und Quoten</td>
+<td>25 %</td>
+</tr>
+<tr class="even">
+<td>Datum</td>
+<td>Termine und Fristen</td>
+<td>15.03.2027</td>
+</tr>
+<tr class="odd">
+<td>Uhrzeit</td>
+<td>Uhrzeiten</td>
+<td>09:30</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m4.html::text-8">Eine Kennung mit führenden Nullen ist keine Rechengröße. Vor der Eingabe das Textformat wählen oder ein Apostroph voranstellen, etwa '0042. Das Apostroph wird nicht als Teil der sichtbaren Kennung angezeigt. Bereits verlorene führende Nullen werden durch nachträgliches Textformat nicht wiederhergestellt. Zahlen, mit denen gerechnet werden soll, nicht als Text erfassen.</p>
+<h2 id="4-dezimalstellen-und-tausendertrennzeichen" data-edit-text="material/m4.html::text-9">4. Dezimalstellen und Tausendertrennzeichen</h2>
+<p><strong data-edit-text="material/m4.html::segment-4">Klick-Anleitung: Zahlen übersichtlich darstellen</strong></p>
+<ol type="1">
+<li data-edit-text="material/m4.html::text-10">Zellen markieren.</li>
+<li><span data-edit-text="material/m4.html::segment-5">Registerkarte </span><strong data-edit-text="material/m4.html::segment-7">Start</strong><span data-edit-text="material/m4.html::segment-6"> öffnen.</span></li>
+<li><span data-edit-text="material/m4.html::segment-8">In der Gruppe </span><strong data-edit-text="material/m4.html::segment-11">Zahl</strong><span data-edit-text="material/m4.html::segment-9"> das Format </span><strong data-edit-text="material/m4.html::segment-12">Zahl</strong><span data-edit-text="material/m4.html::segment-10"> auswählen.</span></li>
+<li data-edit-text="material/m4.html::text-11">Mit den Schaltflächen für Dezimalstellen die gewünschte Anzahl einstellen.</li>
+<li data-edit-text="material/m4.html::text-12">Für das Tausendertrennzeichen Strg+1 drücken, Kategorie Zahl wählen und das Kontrollkästchen für das Tausendertrennzeichen aktivieren.</li>
+<li data-edit-text="material/m4.html::text-13">Anzeige und Werte kontrollieren.</li>
+</ol>
+<p data-edit-text="material/m4.html::text-14">In einer üblichen deutschen Excel-Konfiguration ist das Komma das Dezimaltrennzeichen und der Punkt das Tausendertrennzeichen. Regionale Einstellungen können abweichen. Stückzahlen benötigen meist keine Nachkommastellen, Messwerte je nach Genauigkeit unterschiedliche Anzahlen. Keine Einheiten als Text an berechenbare Zahlen anhängen; stattdessen die Spaltenüberschrift nutzen.</p>
+<h2 id="5-währungs--und-buchhaltungsformat" data-edit-text="material/m4.html::text-15">5. Währungs- und Buchhaltungsformat</h2>
+<p data-edit-text="material/m4.html::text-16">Beide Formate zeigen Geldbeträge mit Währungssymbol an. Das Buchhaltungsformat richtet Symbole und Dezimalstellen spaltenweise aus und stellt Nullwerte häufig als Strich dar. Das Währungsformat zeigt das Symbol in unmittelbarer Nähe zum Betrag. Beide Formate ändern weder die Währung rechnerisch noch den gespeicherten Betrag.</p>
+<p><strong data-edit-text="material/m4.html::segment-13">Klick-Anleitung: Eurobeträge formatieren</strong></p>
+<ol type="1">
+<li data-edit-text="material/m4.html::text-17">Betragszellen markieren.</li>
+<li data-edit-text="material/m4.html::text-18">Strg+1 drücken.</li>
+<li><span data-edit-text="material/m4.html::segment-14">Unter </span><strong data-edit-text="material/m4.html::segment-18">Zahlen</strong><span data-edit-text="material/m4.html::segment-15"> die Kategorie </span><strong data-edit-text="material/m4.html::segment-19">Währung</strong><span data-edit-text="material/m4.html::segment-16"> oder </span><strong data-edit-text="material/m4.html::segment-20">Buchhaltung</strong><span data-edit-text="material/m4.html::segment-17"> wählen.</span></li>
+<li data-edit-text="material/m4.html::text-19">Euro als Symbol und zwei Dezimalstellen einstellen.</li>
+<li data-edit-text="material/m4.html::text-20">Mit OK bestätigen und die Anzeige prüfen.</li>
+</ol>
+<p data-edit-text="material/m4.html::text-21">Beispiel: Die Eingabe 18,5 wird als 18,50 € angezeigt. Ob ein Betrag netto oder brutto ist, ergibt sich aus dem fachlichen Zusammenhang und der Spaltenüberschrift, nicht aus dem Format.</p>
+<h2 id="6-prozentformat" data-edit-text="material/m4.html::text-22">6. Prozentformat</h2>
+<p><img src="Grafiken/G6a_Prozentformat.png" alt="Prozentwerte richtig eingeben" data-edit-image="material/m4.html::image-2"></p>
+<p data-edit-text="material/m4.html::text-23">Prozent bedeutet von hundert. 8 % entsprechen dem Zahlenwert 0,08. Wird eine bereits als Zahl eingegebene 8 nachträglich als Prozent formatiert, erscheint 800 %. Sicher ist die direkte Eingabe 8 % oder die Eingabe 0,08 mit anschließender Prozentformatierung.</p>
+<p><strong data-edit-text="material/m4.html::segment-21">Klick-Anleitung</strong></p>
+<ol type="1">
+<li data-edit-text="material/m4.html::text-24">In einer Zelle mit Standardformat 0,08 eingeben.</li>
+<li><span data-edit-text="material/m4.html::segment-22">Zelle markieren und unter </span><strong data-edit-text="material/m4.html::segment-24">Start – Zahl</strong><span data-edit-text="material/m4.html::segment-23"> auf das Prozentzeichen klicken.</span></li>
+<li data-edit-text="material/m4.html::text-25">Bei Bedarf Dezimalstellen einstellen.</li>
+<li data-edit-text="material/m4.html::text-26">Kontrollieren, ob 8 % angezeigt werden.</li>
+</ol>
+<p data-edit-text="material/m4.html::text-27">Ein Anteil von 1/4 entspricht 0,25 beziehungsweise 25 %. Die Berechnung von Anteilen mit Zellbezügen wird in M8 vertieft. Prozentformat allein berechnet keinen Anteil.</p>
+<h2 id="7-datums--und-uhrzeitformat" data-edit-text="material/m4.html::text-28">7. Datums- und Uhrzeitformat</h2>
+<p><span data-edit-text="material/m4.html::segment-25">Excel speichert erkannte Datumsangaben als fortlaufende Zahlen und Uhrzeiten als Tagesbruchteile. Dadurch lassen sich Termine </span><a href="../ls-glossar.html?from=material%2Fm4.html%23wort-sortieren#sortieren" id="wort-sortieren" data-edit-text="material/m4.html::segment-27" data-edit-link="material/m4.html::link-2">sortieren</a><span data-edit-text="material/m4.html::segment-26"> und Zeitabstände berechnen. Eine als Text gespeicherte Datumsangabe kann dagegen bei Berechnungen und Sortierungen Probleme verursachen.</span></p>
+<p><strong data-edit-text="material/m4.html::segment-28">Klick-Anleitung: Datum und Uhrzeit darstellen</strong></p>
+<ol type="1">
+<li data-edit-text="material/m4.html::text-29">In eine Zelle mit Standardformat 15.03.2027 eingeben.</li>
+<li data-edit-text="material/m4.html::text-30">Zelle markieren und Strg+1 drücken.</li>
+<li><span data-edit-text="material/m4.html::segment-29">Kategorie </span><strong data-edit-text="material/m4.html::segment-31">Datum</strong><span data-edit-text="material/m4.html::segment-30"> wählen und eine Darstellung mit vierstelliger Jahreszahl auswählen.</span></li>
+<li><span data-edit-text="material/m4.html::segment-32">Alternativ unter </span><strong data-edit-text="material/m4.html::segment-34">Benutzerdefiniert</strong><span data-edit-text="material/m4.html::segment-33"> den Typ TT.MM.JJJJ verwenden (deutschsprachiges Excel).</span></li>
+<li data-edit-text="material/m4.html::text-31">Für Uhrzeiten beispielsweise 09:30 eingeben und das Uhrzeitformat auswählen.</li>
+<li data-edit-text="material/m4.html::text-32">Ergebnis kontrollieren.</li>
+</ol>
+<p data-edit-text="material/m4.html::text-33">Ein Datum kann auch als 15. März 2027 erscheinen. Der zugrunde liegende Tag bleibt derselbe. Eine Uhrzeit von 12:00 entspricht einem halben Tag. Datumsformate berechnen keine Fristen; die betrieblichen Fristenregeln werden in M9 behandelt. Bei #### zunächst die Spaltenbreite prüfen; auch negative Datums- oder Zeitwerte können diese Anzeige verursachen.</p>
+<h2 id="8-zahlenformate-auswählen-und-verändern" data-edit-text="material/m4.html::text-34">8. Zahlenformate auswählen und verändern</h2>
+<p><img src="Grafiken/G6b_Zellen_formatieren.png" alt="Klickweg zum Dialog Zellen formatieren" data-edit-image="material/m4.html::image-3"></p>
+<p><span data-edit-text="material/m4.html::segment-35">Für häufige Formate genügt das Auswahlfeld in Start – Zahl. Der Dialog </span><strong data-edit-text="material/m4.html::segment-37">Zellen formatieren</strong><span data-edit-text="material/m4.html::segment-36"> bietet weitere Einstellungen. Mehrere gleichartige Zellen können gemeinsam formatiert werden. Unterschiedliche Datenarten sollten getrennt markiert werden. Beim Kopieren können Formate mit übernommen werden; über Inhalte einfügen – Werte lassen sich Werte ohne Quellformat übertragen. Über Start – Löschen – Formate löschen kann die Formatierung zurückgesetzt werden, ohne die Inhalte zu entfernen.</span></p>
+<h2 id="9-unabhängiges-betriebliches-anwendungsbeispiel" data-edit-text="material/m4.html::text-35">9. Unabhängiges betriebliches Anwendungsbeispiel</h2>
+<p data-edit-text="material/m4.html::text-36">Die Verwaltung von Global Bike erfasst testweise Informationen zu einer internen Schulung. Diese Beispieldaten sind unabhängig von M1 und keine SAP-Daten.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Angabe</th>
+<th>Eingabe</th>
+<th>Geeignete Anzeige</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Schulungskennung</td>
+<td>'0042</td>
+<td>0042</td>
+</tr>
+<tr class="even">
+<td>Schulungstag</td>
+<td>15.03.2027</td>
+<td>15.03.2027</td>
+</tr>
+<tr class="odd">
+<td>Beginn</td>
+<td>09:30</td>
+<td>09:30</td>
+</tr>
+<tr class="even">
+<td>Teilnehmerzahl</td>
+<td>12</td>
+<td>12</td>
+</tr>
+<tr class="odd">
+<td>Kosten je Unterlage</td>
+<td>3,5</td>
+<td>3,50 €</td>
+</tr>
+<tr class="even">
+<td>Anteil digitaler Unterlagen</td>
+<td>0,75</td>
+<td>75 %</td>
+</tr>
+<tr class="odd">
+<td>Materialgewicht in kg</td>
+<td>1,256</td>
+<td>1,26</td>
+</tr>
+</tbody>
+</table>
+<p><span data-edit-text="material/m4.html::segment-38">Zur freiwilligen Erprobung können diese Angaben in einer separaten </span><a href="../ls-glossar.html?from=material%2Fm4.html%23wort-arbeitsmappe#arbeitsmappe" id="wort-arbeitsmappe" data-edit-text="material/m4.html::segment-40" data-edit-link="material/m4.html::link-3">Arbeitsmappe</a><span data-edit-text="material/m4.html::segment-39"> eingegeben und unterschiedlich formatiert werden. Besonders aufschlussreich ist der Vergleich der Anzeige von 0,75 im Standard- und Prozentformat. Das Beispiel ist keine Vorlage für die M1-Arbeitsmappe und muss nicht abgegeben werden.</span></p>
+<h2 id="10-typische-fehler-und-deren-behebung" data-edit-text="material/m4.html::text-37">10. Typische Fehler und deren Behebung</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Beobachtung</th>
+<th>Ursache oder Prüfung</th>
+<th>Abhilfe</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>800 % statt 8 %</td>
+<td>Wert 8 statt 0,08</td>
+<td>Wert korrigieren</td>
+</tr>
+<tr class="even">
+<td>0042 wird zu 42</td>
+<td>Kennung als Zahl erkannt</td>
+<td>Textformat vor Eingabe, Kennung neu erfassen</td>
+</tr>
+<tr class="odd">
+<td>Geldbetrag nicht berechenbar</td>
+<td>Betrag als Text gespeichert</td>
+<td>Als Zahl neu erfassen oder gezielt in Zahl umwandeln</td>
+</tr>
+<tr class="even">
+<td>####</td>
+<td>Spalte zu schmal oder negativer Datumswert</td>
+<td>Breite und Wert prüfen</td>
+</tr>
+<tr class="odd">
+<td>Datum wird nicht chronologisch sortiert</td>
+<td>Datumswerte möglicherweise Text</td>
+<td>Datentyp prüfen und echte Datumswerte erfassen</td>
+</tr>
+<tr class="even">
+<td>3,46 statt 3,456</td>
+<td>Anzeige auf zwei Stellen begrenzt</td>
+<td>Dezimalstellen erhöhen</td>
+</tr>
+<tr class="odd">
+<td>Euro statt Dollar</td>
+<td>Falsches Währungssymbol</td>
+<td>Format ändern; keine automatische Umrechnung</td>
+</tr>
+<tr class="even">
+<td>Datum erscheint als Zahl</td>
+<td>Zahlenformat statt Datum</td>
+<td>Datumsformat wählen</td>
+</tr>
+<tr class="odd">
+<td>Mengen zeigen Eurozeichen</td>
+<td>Falsches Format für ganze Spalte</td>
+<td>Mengenbereich als Zahl formatieren</td>
+</tr>
+<tr class="even">
+<td>Summen wirken um Cent abweichend</td>
+<td>Angezeigte und gespeicherte Genauigkeit unterscheiden sich</td>
+<td>Rechenwerte prüfen; Rundungsregeln beachten</td>
+</tr>
+</tbody>
+</table>
+<p><span data-edit-text="material/m4.html::segment-41">Bei importierten Zahlen als Text kann Excel eine Warnung mit der Option </span><strong data-edit-text="material/m4.html::segment-43">In eine Zahl umwandeln</strong><span data-edit-text="material/m4.html::segment-42"> anbieten. Diese nur für tatsächliche Rechengrößen verwenden, nicht für Kennungen. Eine bloße Änderung des Zahlenformats wandelt vorhandenen Text nicht zuverlässig in Zahlen um.</span></p>
+<h2 id="11-freiwillige-selbstkontrolle" data-edit-text="material/m4.html::text-38">11. Freiwillige Selbstkontrolle</h2>
+<ul>
+<li data-edit-text="material/m4.html::text-39">Welcher Zahlenwert entspricht 12 %?</li>
+<li data-edit-text="material/m4.html::text-40">Warum erscheint nach Prozentformatierung der Zahl 12 der Wert 1.200 %?</li>
+<li data-edit-text="material/m4.html::text-41">Welches Format eignet sich für eine Kennung 0007?</li>
+<li data-edit-text="material/m4.html::text-42">Wird der gespeicherte Wert 4,567 durch die Anzeige 4,57 verändert?</li>
+<li data-edit-text="material/m4.html::text-43">Warum sollten Termine als echte Datumswerte erfasst werden?</li>
+<li data-edit-text="material/m4.html::text-44">Was ist bei der Anzeige #### zuerst zu prüfen?</li>
+<li data-edit-text="material/m4.html::text-45">Kann ein Währungsformat Euro in Dollar umrechnen?</li>
+<li data-edit-text="material/m4.html::text-46">Woran lässt sich erkennen, ob ein Betrag netto oder brutto ist?</li>
+</ul>
+<p><strong data-edit-text="material/m4.html::segment-45">Kontrollhinweise:</strong><span data-edit-text="material/m4.html::segment-44"> 0,12; das Prozentformat zeigt den Wert mal hundert mit Prozentzeichen; Textformat vor Eingabe; nein, nur die Anzeige ändert sich; damit Datumsberechnungen und chronologische Sortierung möglich sind; Spaltenbreite, gegebenenfalls negativer Datumswert; nein; an der fachlichen Bezeichnung und den betrieblichen Angaben.</span></p>
+<h2 id="12-weiterführende-materialien" data-edit-text="material/m4.html::text-47">12. Weiterführende Materialien</h2>
+<p><span data-edit-text="material/m4.html::segment-46">M5 vertieft Formeln und Grundrechenarten, M6 Funktionen, M7 Zellbezüge, M8 prozentuale Anteile, M9 Termine und Fristen, M10 Sortieren und </span><a href="../ls-glossar.html?from=material%2Fm4.html%23wort-filtern#filtern" id="wort-filtern" data-edit-text="material/m4.html::segment-48" data-edit-link="material/m4.html::link-4">Filtern</a><span data-edit-text="material/m4.html::segment-47">. M13 behandelt die Druckaufbereitung, M14 die Qualitätskontrolle. M4 bleibt während der gesamten Lernsituation als Nachschlagewerk verfügbar.</span></p>
+</article></article></section>
+  </div>
+</div>
+</div>
+<p><a href="m4.md" download data-edit-text="material/m4.html::segment-49" data-edit-link="material/m4.html::link-5">Bearbeitbare Textfassung</a></p>
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

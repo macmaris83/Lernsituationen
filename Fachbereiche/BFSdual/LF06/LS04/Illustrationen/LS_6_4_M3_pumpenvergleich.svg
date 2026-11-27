@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 970 583" width="970" height="583" lang="de" role="img" aria-labelledby="title desc">
+  <title id="title">Zwei Pumpen im Größenvergleich</title>
+  <desc id="desc">P50 Minipumpe und P51 Standpumpe in maßgerechter Größenrelation. Die Minipumpe ist 18 cm lang. Die Standpumpe ist 62 cm hoch.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L12 6 L0 12 Z" fill="#226c2b"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="1" y="1" width="968" height="581" rx="20" fill="#ffffff" stroke="#b2cdb1" stroke-width="2"/>
+    <rect x="22" y="21" width="926" height="70" rx="14" fill="#edf6eb" stroke="none" stroke-width="2"/>
+    <text x="43" y="67" text-anchor="start" font-size="32" font-weight="700" fill="#143920">Zwei Pumpen im Größenvergleich</text>
+    <rect x="35" y="114" width="437" height="444" rx="14" fill="#f7faf6" stroke="#b2cdb1" stroke-width="2"/>
+    <rect x="495" y="114" width="437" height="444" rx="14" fill="#f7faf6" stroke="#b2cdb1" stroke-width="2"/>
+    <line x1="77" y1="467" x2="437" y2="467" stroke="#b2cdb1" stroke-width="2"/>
+    <line x1="537" y1="467" x2="897" y2="467" stroke="#b2cdb1" stroke-width="2"/>
+    <rect x="276" y="377" width="16" height="21" rx="3" fill="#143920" stroke="none" stroke-width="2"/>
+    <rect x="279" y="393" width="10" height="31" rx="3" fill="#bec8c1" stroke="none" stroke-width="2"/>
+    <rect x="275" y="419" width="18" height="49" rx="4" fill="#68766d" stroke="none" stroke-width="2"/>
+    <rect x="629" y="157" width="92" height="15" rx="7" fill="#143920" stroke="none" stroke-width="2"/>
+    <rect x="670" y="169" width="10" height="58" rx="3" fill="#bec8c1" stroke="none" stroke-width="2"/>
+    <rect x="662" y="221" width="26" height="245" rx="5" fill="#68766d" stroke="none" stroke-width="2"/>
+    <rect x="632" y="455" width="86" height="12" rx="4" fill="#143920" stroke="none" stroke-width="2"/>
+    <path d="M 686 443 Q 771 450 745 303 L 741 278" fill="none" stroke="#143920" stroke-width="6" stroke-linecap="round"/>
+    <rect x="733" y="257" width="15" height="25" rx="3" fill="#143920" stroke="none" stroke-width="2"/>
+    <circle cx="675" cy="426" r="14" fill="#fff" stroke="#143920" stroke-width="4"/>
+    <line x1="675" y1="426" x2="680" y2="420" stroke="#143920" stroke-width="2"/>
+    <line x1="218" y1="467" x2="218" y2="377" stroke="#226c2b" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+    <text x="102" y="431" text-anchor="start" font-size="29" font-weight="700" fill="#143920">18 cm</text>
+    <line x1="805" y1="467" x2="805" y2="157" stroke="#226c2b" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+    <text x="822" y="321" text-anchor="start" font-size="29" font-weight="700" fill="#143920">62 cm</text>
+    <text x="253" y="517" text-anchor="middle" font-size="24" font-weight="700" fill="#143920">P50 · Minipumpe</text>
+    <text x="713" y="517" text-anchor="middle" font-size="24" font-weight="700" fill="#143920">P51 · Standpumpe</text>
+  </g>
+</svg>

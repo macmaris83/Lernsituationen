@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="BFSDUAL-LF02-LS07" version="1.0">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="ORG">
+    <organization identifier="ORG">
+      <title>LS 2.7 · Einen Kundenauftrag abwickeln mit SAP (Praxis)</title>
+      <item identifier="ITEM" identifierref="RES">
+        <title>Einen Kundenauftrag abwickeln mit SAP (Praxis)</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES" type="webcontent" adlcp:scormtype="sco" href="scorm.html">
+      <file href="assets/bbs1-aurich.svg" />
+      <file href="assets/bbs1-campus-background.png" />
+      <file href="assets/begriffe.js" />
+      <file href="assets/boegen.js" />
+      <file href="assets/focus-adapter.js" />
+      <file href="assets/footer-2.svg" />
+      <file href="assets/global-bike.css" />
+      <file href="assets/glossar.js" />
+      <file href="assets/phases.css" />
+      <file href="assets/print.css" />
+      <file href="assets/progress.css" />
+      <file href="assets/requirements.js" />
+      <file href="assets/runtime.js" />
+      <file href="assets/styles.css" />
+      <file href="assets/zusatz.css" />
+      <file href="assets/zusatzzeiten.js" />
+      <file href="begriffstraining.html" />
+      <file href="bewerten.html" />
+      <file href="durchfuehren.html" />
+      <file href="entscheiden.html" />
+      <file href="feedback.html" />
+      <file href="handlungssituation.html" />
+      <file href="index.html" />
+      <file href="informieren.html" />
+      <file href="ls-glossar.html" />
+      <file href="material/Bilder/einstieg.png" />
+      <file href="material/SAP-Arbeitshandbuch.md" />
+      <file href="material/handbuch.html" />
+      <file href="material/m1.html" />
+      <file href="material/m2.html" />
+      <file href="material/m3.html" />
+      <file href="material/m4.html" />
+      <file href="material/m5.html" />
+      <file href="material/materialien/00_Einstieg.pdf" />
+      <file href="material/materialien/01_Prozessdarstellung.pdf" />
+      <file href="material/materialien/02_Fallfreigabe.pdf" />
+      <file href="material/materialien/03_Lernpakete.pdf" />
+      <file href="material/materialien/04_Selbstkontrolle.pdf" />
+      <file href="material/materialien/06_Feedback.pdf" />
+      <file href="material/materialien/A01_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/A01_Original_Kundenanfrage.pdf" />
+      <file href="material/materialien/A02_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/A03_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/A03_Original_Kundenbestellung.pdf" />
+      <file href="material/materialien/A04_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/A05_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/A05_Beschaffungsauftrag.pdf" />
+      <file href="material/materialien/A06_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/A06_Original_Auftragsbestaetigung.pdf" />
+      <file href="material/materialien/A07_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/A07_Original_Lieferschein.pdf" />
+      <file href="material/materialien/A08_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/A08_Original_Eingangsrechnung.pdf" />
+      <file href="material/materialien/A09_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/A09_Original_Kontoauszug_Ausgang.pdf" />
+      <file href="material/materialien/A10_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/A11_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/A12_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/A13_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/A13_Original_Kontoauszug_Eingang.pdf" />
+      <file href="material/materialien/A14_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/B00_Einstieg.pdf" />
+      <file href="material/materialien/B01_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/B01_Original_Kundenbestellung.pdf" />
+      <file href="material/materialien/B02_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/B02_Beschaffungsauftrag.pdf" />
+      <file href="material/materialien/B03_Uebungsbelege_Beschaffung.pdf" />
+      <file href="material/materialien/B03a_Uebungs_Auftragsbestaetigung.pdf" />
+      <file href="material/materialien/B03b_Uebungs_Lieferschein.pdf" />
+      <file href="material/materialien/B03c_Uebungs_Eingangsrechnung.pdf" />
+      <file href="material/materialien/B03d_Uebungs_Kontoauszug_Ausgang.pdf" />
+      <file href="material/materialien/B04_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/B06_Arbeitsauftrag.pdf" />
+      <file href="material/materialien/B06_Ergaenzung_Zahlungseingang.pdf" />
+      <file href="material/materialien/B06_Original_Kontoauszug_Eingang.pdf" />
+      <file href="material/materialien/Laufzettel_Beschaffung_Original.pdf" />
+      <file href="material/materialien/Laufzettel_Beschaffung_mit_Auftragsbestaetigung.pdf" />
+      <file href="material/materialien/Laufzettel_Vertrieb_Original.pdf" />
+      <file href="material/materialien/Lernsituation_Auftragsabwicklung_SAP_Gesamtpaket.pdf" />
+      <file href="material/materialien/Notierhilfe_Bestandspruefung.pdf" />
+      <file href="material/materialien/Prozess_der_Auftragsabwicklung.pptx" />
+      <file href="material/materialien/SAP_Anleitung_Beschaffung.pdf" />
+      <file href="material/materialien/SAP_Anleitung_Vertrieb.pdf" />
+      <file href="materialien.html" />
+      <file href="peer-check.html" />
+      <file href="planen.html" />
+      <file href="reflektieren.html" />
+      <file href="scorm.html" />
+      <file href="assets/footer-version.css" />
+      <file href="assets/footer-version.js" />
+      <file href="assets/material-access.js" />
+      <file href="assets/package-completion.css" />
+      <file href="assets/package-completion.js" />
+      <file href="assets/progress-core.js" />
+      <file href="assets/review-layout.css" />
+      <file href="assets/situation.css" />
+      <file href="lesson-data.js" />
+      <file href="assets/goodnotes.png" />
+      <file href="assets/loept.png" />
+      <file href="assets/pdf-document.css" />
+      <file href="assets/pdf-ui.css" />
+      <file href="assets/pdf-ui.js" />
+      <file href="assets/bfs-checks-xp.js" />
+      <file href="assets/bfs-xp-config.js" />
+      <file href="assets/editor-config.js" />
+      <file href="assets/editor-settings.js" />
+      <file href="assets/editor.css" />
+      <file href="assets/editor.js" />
+      <file href="assets/jszip.min.js" />
+      <file href="assets/points-ui.js" />
+      <file href="lehrkraft.html" />
+      <file href="assets/glossar.css" />
+      <file href="assets/pako.min.js" />
+      <file href="assets/pako-LICENSE.txt" />
+      <file href="assets/bfs-resume.js" />
+      <file href="assets/bfs-chrome.css" />
+      <file href="assets/footer-0.svg" />
+      <file href="assets/footer-1.svg" />
+      <file href="assets/footer-3.svg" />
+      <file href="assets/footer-4.svg" />
+      <file href="assets/footer-5.svg" />
+      <file href="assets/footer-6.svg" />
+      <file href="assets/bfs-document-views.css" />
+      <file href="assets/bfs-document-reader.css" />
+      <file href="assets/bfs-material-access.css" />
+      <file href="assets/bfs-material-access.js" />
+      <file href="assets/bfs-materials-data.js" />
+      <file href="assets/fokus.css" />
+      <file href="assets/lernweg.js" />
+      <file href="druckansicht.html" />
+      <file href="pdf/Gesamtdokument-LS-2.7.pdf" />
+      <file href="pdf/GoodNotes-LS-2.7-bewerten.pdf" />
+      <file href="pdf/GoodNotes-LS-2.7-durchfuehren-A.pdf" />
+      <file href="pdf/GoodNotes-LS-2.7-durchfuehren-B.pdf" />
+      <file href="pdf/GoodNotes-LS-2.7-durchfuehren-C.pdf" />
+      <file href="pdf/GoodNotes-LS-2.7-entscheiden.pdf" />
+      <file href="pdf/GoodNotes-LS-2.7-informieren.pdf" />
+      <file href="pdf/GoodNotes-LS-2.7-planen.pdf" />
+      <file href="pdf/GoodNotes-LS-2.7-reflektieren.pdf" />
+    </resource>
+  </resources>
+</manifest>

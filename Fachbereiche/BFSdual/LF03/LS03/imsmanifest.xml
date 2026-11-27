@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="BFSDUAL-LF03-LS03" version="1.0">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="ORG">
+    <organization identifier="ORG">
+      <title>LS 3.3 · Wenn Lieferungen nicht wie vereinbart erfolgen</title>
+      <item identifier="ITEM" identifierref="RES">
+        <title>Wenn Lieferungen nicht wie vereinbart erfolgen</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES" type="webcontent" adlcp:scormtype="sco" href="scorm.html">
+      <file href="assets/LS_3_3_Elias_Schmidt_prueft_Verspaetete_Verbandkastenlieferung.png" />
+      <file href="assets/bbs1-aurich.svg" />
+      <file href="assets/bbs1-campus-background.png" />
+      <file href="assets/begriffe.js" />
+      <file href="assets/boegen.js" />
+      <file href="assets/focus-adapter.js" />
+      <file href="assets/footer-2.svg" />
+      <file href="assets/global-bike.css" />
+      <file href="assets/glossar.js" />
+      <file href="assets/phases.css" />
+      <file href="assets/print.css" />
+      <file href="assets/progress.css" />
+      <file href="assets/requirements.js" />
+      <file href="assets/runtime.js" />
+      <file href="assets/styles.css" />
+      <file href="assets/zusatz.css" />
+      <file href="assets/zusatzzeiten.js" />
+      <file href="begriffstraining.html" />
+      <file href="bewerten.html" />
+      <file href="durchfuehren.html" />
+      <file href="entscheiden.html" />
+      <file href="feedback.html" />
+      <file href="handlungssituation.html" />
+      <file href="index.html" />
+      <file href="informieren.html" />
+      <file href="ls-glossar.html" />
+      <file href="material/Arbeitsmaterialien.docx" />
+      <file href="material/Arbeitsmaterialien.md" />
+      <file href="material/leseseite.css" />
+      <file href="material/m1.html" />
+      <file href="material/m10.html" />
+      <file href="material/m11.html" />
+      <file href="material/m13.html" />
+      <file href="material/m14.html" />
+      <file href="material/m2.html" />
+      <file href="material/m3.html" />
+      <file href="material/m4.html" />
+      <file href="material/m5.html" />
+      <file href="material/m6.html" />
+      <file href="material/m7.html" />
+      <file href="material/m8.html" />
+      <file href="material/m9.html" />
+      <file href="materialien.html" />
+      <file href="peer-check.html" />
+      <file href="planen.html" />
+      <file href="reflektieren.html" />
+      <file href="scorm.html" />
+      <file href="assets/footer-version.css" />
+      <file href="assets/footer-version.js" />
+      <file href="assets/material-access.js" />
+      <file href="assets/package-completion.css" />
+      <file href="assets/package-completion.js" />
+      <file href="assets/progress-core.js" />
+      <file href="assets/review-layout.css" />
+      <file href="assets/situation.css" />
+      <file href="lesson-data.js" />
+      <file href="material/erklaerbilder/LS_3_3_Lieferverzug_und_Mangel.png" />
+      <file href="assets/goodnotes.png" />
+      <file href="assets/pdf-document.css" />
+      <file href="assets/pdf-ui.css" />
+      <file href="assets/pdf-ui.js" />
+      <file href="druckansicht.html" />
+      <file href="pdf/Gesamtdokument-LS-3.3.pdf" />
+      <file href="pdf/GoodNotes-LS-3.3-bewerten.pdf" />
+      <file href="pdf/GoodNotes-LS-3.3-durchfuehren-A.pdf" />
+      <file href="pdf/GoodNotes-LS-3.3-durchfuehren-B.pdf" />
+      <file href="pdf/GoodNotes-LS-3.3-durchfuehren-C.pdf" />
+      <file href="pdf/GoodNotes-LS-3.3-entscheiden.pdf" />
+      <file href="pdf/GoodNotes-LS-3.3-informieren.pdf" />
+      <file href="pdf/GoodNotes-LS-3.3-planen.pdf" />
+      <file href="pdf/GoodNotes-LS-3.3-reflektieren.pdf" />
+      <file href="assets/bfs-checks-xp.js" />
+      <file href="assets/bfs-xp-config.js" />
+      <file href="assets/editor-config.js" />
+      <file href="assets/editor-settings.js" />
+      <file href="assets/editor.css" />
+      <file href="assets/editor.js" />
+      <file href="assets/jszip.min.js" />
+      <file href="assets/points-ui.js" />
+      <file href="lehrkraft.html" />
+      <file href="assets/loept.png" />
+      <file href="assets/glossar.css" />
+      <file href="assets/pako.min.js" />
+      <file href="assets/pako-LICENSE.txt" />
+      <file href="assets/bfs-resume.js" />
+      <file href="assets/bfs-chrome.css" />
+      <file href="assets/footer-0.svg" />
+      <file href="assets/footer-1.svg" />
+      <file href="assets/footer-3.svg" />
+      <file href="assets/footer-4.svg" />
+      <file href="assets/footer-5.svg" />
+      <file href="assets/footer-6.svg" />
+      <file href="assets/bfs-document-views.css" />
+      <file href="assets/bfs-document-reader.css" />
+      <file href="assets/bfs-material-access.css" />
+      <file href="assets/bfs-material-access.js" />
+      <file href="assets/bfs-materials-data.js" />
+      <file href="assets/fokus.css" />
+      <file href="assets/lernweg.js" />
+    </resource>
+  </resources>
+</manifest>

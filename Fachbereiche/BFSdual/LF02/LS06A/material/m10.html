@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>M10 – Sortieren, Filtern und Rangfolgen mit Excel</title><link href="../assets/global-bike.css" rel="stylesheet"><style>main.excel{max-width:72rem;margin:auto;padding:1rem 3vw;background:white;font:1rem/1.55 system-ui;color:#17324b}.excel img{max-width:100%;height:auto}.excel table{display:block;overflow:auto;border-collapse:collapse}.excel td,.excel th{padding:.4rem;border:1px solid #b7c7d0}.excel a{text-decoration:underline}</style><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main class="excel">
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app onenote" data-material-view="onenote" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">N</span>
+    <strong>OneNote</strong><span class="file">m10</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Notizen</span><span class="material-tab">Arbeitsunterlagen</span><span class="material-kind">Notiz / Arbeitsblatt</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Notizbuch</span><span class="material-rail-item is-active">Notizen</span><span class="material-rail-item">Unterlagen</span><span class="material-rail-item">Besprechungen</span></aside>
+    <section class="canvas"><article class="paper"><article><h1 id="m10--sortieren-filtern-und-rangfolgen-mit-excel" data-edit-text="material/m10.html::text-1">M10 – Sortieren, Filtern und Rangfolgen mit Excel</h1>
+<p data-edit-text="material/m10.html::text-2">Global Bike Deutschland GmbH – Verwaltung</p>
+<h2 id="1-bedeutung-für-die-betriebliche-büroorganisation" data-edit-text="material/m10.html::text-3">1. Bedeutung für die betriebliche Büroorganisation</h2>
+<p><span data-edit-text="material/m10.html::segment-1">Eine umfangreiche Liste ist erst dann eine zuverlässige Arbeitsgrundlage, wenn die benötigten Informationen schnell auffindbar sind. In der Verwaltung müssen beispielsweise offene Geschäftsvorgänge gefunden, Fristen nach Dringlichkeit geordnet und Büroausgaben verglichen werden. </span><a href="../ls-glossar.html?from=material%2Fm10.html%23wort-sortieren#sortieren" id="wort-sortieren" data-edit-text="material/m10.html::segment-3" data-edit-link="material/m10.html::link-1">Sortieren</a><span data-edit-text="material/m10.html::segment-2"> und Filtern unterstützen diese Aufgaben, ohne dass die Daten erneut erfasst werden müssen. Eine Rangfolge zeigt die Position eines Wertes im Vergleich zu anderen Werten. Sie ersetzt keine kaufmännische Beurteilung.</span></p>
+<p data-edit-text="material/m10.html::text-4">M1 liefert die verbindlichen Ausgangsdaten. Die folgenden Beispiele sind davon unabhängige simulierte Schulungsdaten der Global Bike Deutschland GmbH, keine SAP-Daten und keine Hauptfalllösungen.</p>
+<h2 id="2-unterschied-zwischen-sortieren-und-filtern" data-edit-text="material/m10.html::text-5">2. Unterschied zwischen Sortieren und Filtern</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Verfahren</th>
+<th>Wirkung</th>
+<th>Betrieblicher Nutzen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sortieren</td>
+<td>Ändert die Reihenfolge ganzer Datensätze</td>
+<td>Fristen zeitlich ordnen</td>
+</tr>
+<tr class="even">
+<td><a href="../ls-glossar.html?from=material%2Fm10.html%23wort-filtern#filtern" id="wort-filtern" data-edit-link="material/m10.html::link-2">Filtern</a></td>
+<td>Blendet nicht passende Zeilen vorübergehend aus</td>
+<td>Nur offene Vorgänge anzeigen</td>
+</tr>
+<tr class="odd">
+<td><a href="../ls-glossar.html?from=material%2Fm10.html%23wort-rangfolge#rangfolge" id="wort-rangfolge" data-edit-link="material/m10.html::link-3">Rangfolge</a></td>
+<td>Ordnet Werten eine Vergleichsposition zu</td>
+<td>Kostenpositionen vergleichen</td>
+</tr>
+</tbody>
+</table>
+<p><img src="Grafiken/G12_Sortieren_Filtern.png" alt="Sortieren und Filtern im Vergleich" data-edit-image="material/m10.html::image-1"></p>
+<p data-edit-text="material/m10.html::text-6">Ein Filter löscht keine Daten. Eine Sortierung verändert dagegen die Reihenfolge tatsächlich. Das Entfernen eines Filters stellt alle Zeilen wieder dar, macht aber eine Sortierung nicht rückgängig. Eine ursprüngliche Reihenfolge lässt sich beispielsweise über eine zuvor gespeicherte laufende Nummer wiederherstellen. IDs dürfen dabei nicht neu vergeben werden.</p>
+<h2 id="3-alphabetische-numerische-und-chronologische-sortierung" data-edit-text="material/m10.html::text-7">3. Alphabetische, numerische und chronologische Sortierung</h2>
+<p data-edit-text="material/m10.html::text-8">Text wird alphabetisch, Zahlen werden nach ihrer Größe und echte Datumswerte zeitlich sortiert. Aufsteigend bedeutet A bis Z, klein nach groß oder alt nach neu. Absteigend bedeutet die umgekehrte Richtung.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Merkmal</th>
+<th>Aufsteigend</th>
+<th>Absteigend</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Zuständigkeit</td>
+<td>A bis Z</td>
+<td>Z bis A</td>
+</tr>
+<tr class="even">
+<td>Nettobetrag</td>
+<td>Kleinster zuerst</td>
+<td>Größter zuerst</td>
+</tr>
+<tr class="odd">
+<td>Fristende</td>
+<td>Frühestes zuerst</td>
+<td>Spätestes zuerst</td>
+</tr>
+<tr class="even">
+<td>Tagesdifferenz offener Aufgaben</td>
+<td>Negativste zuerst</td>
+<td>Größte zuerst</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m10.html::text-9">Klick-Anleitung für eine Excel-Tabelle: Eine Zelle der gewünschten Spalte auswählen, Daten &gt; Sortieren und Filtern &gt; passende Sortierrichtung wählen. Alternativ den Pfeil in der Spaltenüberschrift öffnen und den entsprechenden Sortierbefehl auswählen. Die genaue Beschriftung hängt vom Datentyp und der Excel-Version ab. Ergebnis anhand der ersten und letzten Zeile prüfen.</p>
+<p data-edit-text="material/m10.html::text-10">Bei Zahlen, die als Text gespeichert sind, kann beispielsweise 100 vor 20 erscheinen. Ein Datumsformat allein wandelt Text nicht in echte Datumswerte um. M4 und M9 erläutern die Prüfung der Datentypen.</p>
+<h2 id="4-sortieren-nach-mehreren-kriterien" data-edit-text="material/m10.html::text-11">4. Sortieren nach mehreren Kriterien</h2>
+<p data-edit-text="material/m10.html::text-12">Bei mehreren Sortierebenen bestimmt die erste Ebene die Hauptreihenfolge. Die zweite Ebene ordnet nur Datensätze mit gleichem Wert der ersten Ebene. Weitere Ebenen wirken entsprechend.</p>
+<p data-edit-text="material/m10.html::text-13">Beispiel: Die Verwaltung möchte Vorgänge zunächst nach Zuständigkeit gruppieren und innerhalb jeder Zuständigkeit nach Fristende ordnen.</p>
+<p><img src="Grafiken/G12a_Sortierebenen.png" alt="Mehrstufige Sortierung" data-edit-image="material/m10.html::image-2"></p>
+<p data-edit-text="material/m10.html::text-14">Klick-Anleitung:</p>
+<ol type="1">
+<li data-edit-text="material/m10.html::text-15">Eine Zelle innerhalb der vollständigen Tabelle auswählen.</li>
+<li data-edit-text="material/m10.html::text-16">Daten &gt; Sortieren öffnen.</li>
+<li data-edit-text="material/m10.html::text-17">Bei einer normalen Liste den gesamten Datenbereich einschließlich Überschriften berücksichtigen; Daten haben Überschriften aktivieren.</li>
+<li data-edit-text="material/m10.html::text-18">Erste Ebene: Zuständigkeit, Zellwerte, A bis Z.</li>
+<li data-edit-text="material/m10.html::text-19">Ebene hinzufügen: Fristende, Zellwerte, älteste bis neueste.</li>
+<li data-edit-text="material/m10.html::text-20">Bei Bedarf eine weitere Ebene mit eindeutiger Vorgangs-ID ergänzen.</li>
+<li data-edit-text="material/m10.html::text-21">Mit OK bestätigen und prüfen, ob innerhalb jeder Zuständigkeit die Datumsreihenfolge stimmt.</li>
+</ol>
+<p data-edit-text="material/m10.html::text-22">Eine Sortierung nach Status in alphabetischer Reihenfolge ist keine automatische Dringlichkeitsreihenfolge. Für offene Aufgaben kann nach vorherigem Statusfilter das Fristende oder die Tagesdifferenz sortiert werden.</p>
+<h2 id="5-zusammengehörige-datensätze-erhalten" data-edit-text="material/m10.html::text-23">5. Zusammengehörige Datensätze erhalten</h2>
+<p data-edit-text="material/m10.html::text-24">Eine Zeile bildet einen vollständigen Vorgang oder Kostenbeleg. Beim Sortieren müssen ID, Datum, Zuständigkeit, Status und alle zugehörigen Werte gemeinsam verschoben werden. Eine isoliert sortierte Datumsspalte kann falsche Zuordnungen erzeugen, obwohl die einzelnen Datumswerte korrekt aussehen.</p>
+<p><img src="Grafiken/G12b_Datensatzschutz.png" alt="Datensätze zusammenhalten" data-edit-image="material/m10.html::image-3"></p>
+<p data-edit-text="material/m10.html::text-25">Bei einer normalen Liste kann Excel fragen, ob die Auswahl erweitert werden soll. Auswahl erweitern wählen, sofern die angrenzenden Spalten zum Datensatz gehören. Vorher sicherstellen, dass der vollständige Datenbereich erkannt wird. Eine formatierte Excel-Tabelle erleichtert das gemeinsame Sortieren. Summen, Stichtage und sonstige Parameter außerhalb der Datensätze halten. Keine verbundenen Zellen oder Leerzeilen innerhalb der Liste verwenden.</p>
+<p><span data-edit-text="material/m10.html::segment-4">Nach dem Sortieren mindestens zwei IDs mit den ursprünglichen Angaben vergleichen. Formeln und Zuordnungen ebenfalls prüfen: Insbesondere Bezüge auf feste Positionen innerhalb eines sortierten Bereichs können nach der Sortierung eine andere fachliche Bedeutung haben. Ein </span><a href="../ls-glossar.html?from=material%2Fm10.html%23wort-absoluter-zellbezug#absoluter-zellbezug" id="wort-absoluter-zellbezug" data-edit-text="material/m10.html::segment-6" data-edit-link="material/m10.html::link-4">absoluter Zellbezug</a><span data-edit-text="material/m10.html::segment-5"> fixiert eine Adresse, nicht die Identität eines Datensatzes.</span></p>
+<h2 id="6-filter-einrichten-und-verwenden" data-edit-text="material/m10.html::text-26">6. Filter einrichten und verwenden</h2>
+<p data-edit-text="material/m10.html::text-27">Klick-Anleitung für eine normale Liste:</p>
+<ol type="1">
+<li data-edit-text="material/m10.html::text-28">Vollständigen Datenbereich mit eindeutigen Überschriften markieren.</li>
+<li data-edit-text="material/m10.html::text-29">Daten &gt; Filter auswählen (alternativ Strg+Umschalt+L unter Windows).</li>
+<li data-edit-text="material/m10.html::text-30">Pfeil der gewünschten Spaltenüberschrift öffnen.</li>
+<li data-edit-text="material/m10.html::text-31">Auswahl Alle auswählen deaktivieren und benötigte Werte markieren.</li>
+<li data-edit-text="material/m10.html::text-32">Mit OK bestätigen.</li>
+<li data-edit-text="material/m10.html::text-33">Sichtbare Zeilen und Filtersymbol prüfen.</li>
+</ol>
+<p data-edit-text="material/m10.html::text-34">Formatierte Excel-Tabellen besitzen üblicherweise bereits Filterpfeile. Filter nicht unnötig erneut einschalten oder ausschalten.</p>
+<p><img src="Grafiken/G12c_Filter_Klickwege.png" alt="Filter einrichten und zurücksetzen" data-edit-image="material/m10.html::image-4"></p>
+<p data-edit-text="material/m10.html::text-35">Um einen einzelnen Filter zu entfernen, den betreffenden Pfeil öffnen und Filter löschen aus der betreffenden Spalte wählen. Daten &gt; Löschen in der Gruppe Sortieren und Filtern entfernt die Filterkriterien des aktiven Bereichs, ohne die Daten zu löschen. Nicht mit dem Löschen von Zellinhalten verwechseln. Daten &gt; Filter schaltet die Filterfunktion einer normalen Liste aus. Ausgeblendete Zeilen nicht versehentlich als fehlende Datensätze behandeln.</p>
+<h2 id="7-text--zahlen--und-datumsfilter" data-edit-text="material/m10.html::text-36">7. Text-, Zahlen- und Datumsfilter</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Filterart</th>
+<th>Beispiel</th>
+<th>Zweck</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Textfilter</td>
+<td>Ist gleich Offen</td>
+<td>Bearbeitungsstand auswählen</td>
+</tr>
+<tr class="even">
+<td>Textfilter</td>
+<td>Enthält Ablage</td>
+<td>Aufgaben mit passendem Text finden</td>
+</tr>
+<tr class="odd">
+<td>Zahlenfilter</td>
+<td>Kleiner als 0</td>
+<td>Negative Tagesdifferenzen finden</td>
+</tr>
+<tr class="even">
+<td>Zahlenfilter</td>
+<td>Größer oder gleich 100</td>
+<td>Beträge ab 100 EUR auswählen</td>
+</tr>
+<tr class="odd">
+<td>Datumsfilter</td>
+<td>Vor 15.09.2027</td>
+<td>Frühere Datumswerte finden</td>
+</tr>
+<tr class="even">
+<td>Datumsfilter</td>
+<td>Zwischen zwei Daten</td>
+<td>Zeitraum auswählen</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m10.html::text-37">Klick-Anleitung: Filterpfeil der Spalte öffnen, Textfilter, Zahlenfilter oder Datumsfilter wählen, Vergleichsbedingung auswählen, Vergleichswert eingeben und bestätigen. Die angebotene Filterart richtet sich nach den gespeicherten Datentypen. Bei Datumsfiltern kann Excel Werte zusätzlich nach Jahren und Monaten gruppieren. Für historische Auswertungen feste Datumsgrenzen verwenden, nicht relative Optionen wie Heute oder Diesen Monat.</p>
+<p data-edit-text="material/m10.html::text-38">Bei einem benutzerdefinierten Filter derselben Spalte können zwei Bedingungen mit UND oder ODER kombiniert werden. UND verlangt beide Bedingungen, ODER mindestens eine. Beispiel: Betrag größer oder gleich 50 UND kleiner oder gleich 100 schließt beide Grenzwerte ein. Bei Datumsgrenzen ebenfalls prüfen, ob die Grenze ein- oder ausgeschlossen ist.</p>
+<h2 id="8-mehrere-filterkriterien-kombinieren" data-edit-text="material/m10.html::text-39">8. Mehrere Filterkriterien kombinieren</h2>
+<p data-edit-text="material/m10.html::text-40">Filter auf unterschiedlichen Spalten wirken gemeinsam als UND-Verknüpfung. Wer Status Offen und Zuständigkeit Verwaltung auswählt, sieht nur offene Vorgänge der Verwaltung. Wer innerhalb einer Werteliste derselben Spalte Offen und Erledigt auswählt, lässt beide Werte zu (ODER).</p>
+<p><img src="Grafiken/G12d_Filterlogik.png" alt="Filterkriterien kombinieren" data-edit-image="material/m10.html::image-5"></p>
+<p data-edit-text="material/m10.html::text-41">Beispiel: Eine offene Aufgabe mit negativer Tagesdifferenz ist überfällig. Eine erledigte Aufgabe mit negativer Differenz ist verspätet erledigt und darf nicht als noch überfällig behandelt werden. Deshalb genügt ein Zahlenfilter kleiner als null allein nicht.</p>
+<p data-edit-text="material/m10.html::text-42">Nach Änderung von Eingabewerten oder Formelergebnissen können Filterergebnisse veraltet sein. Daten &gt; Erneut anwenden nutzen oder den Filter neu setzen und die sichtbaren Datensätze kontrollieren.</p>
+<h2 id="9-offene-und-überfällige-vorgänge-identifizieren" data-edit-text="material/m10.html::text-43">9. Offene und überfällige Vorgänge identifizieren</h2>
+<p><span data-edit-text="material/m10.html::segment-7">M9 erläutert die Berechnung der Tagesdifferenzen. Im Hauptfall gilt der feste </span><a href="../ls-glossar.html?from=material%2Fm10.html%23wort-stichtag#stichtag" id="wort-stichtag" data-edit-text="material/m10.html::segment-9" data-edit-link="material/m10.html::link-5">Stichtag</a><span data-edit-text="material/m10.html::segment-8"> 01.07.2027; die Fristen werden nach der internen Kalendertagsregel aus M1 beurteilt. Für offene Aufgaben bedeutet eine negative Differenz überfällig, null heute fällig und ein positiver Wert zukünftig fällig.</span></p>
+<p data-edit-text="material/m10.html::text-44">Klick-Anleitung:</p>
+<ol type="1">
+<li data-edit-text="material/m10.html::text-45">Vollständigkeit der Fristenliste und Plausibilität von Status und Erledigungsdatum prüfen.</li>
+<li data-edit-text="material/m10.html::text-46">Statusfilter auf Offen setzen.</li>
+<li data-edit-text="material/m10.html::text-47">Zahlenfilter in der Differenzspalte auf Kleiner als 0 setzen.</li>
+<li data-edit-text="material/m10.html::text-48">Nach Fristende aufsteigend sortieren, um die ältesten offenen Fristen zuerst zu sehen.</li>
+<li data-edit-text="material/m10.html::text-49">Für heute fällige Aufgaben den Zahlenfilter auf Gleich 0 ändern; für beide Gruppen zusammen Kleiner oder gleich 0 wählen.</li>
+<li data-edit-text="material/m10.html::text-50">Zuständigkeit bei Bedarf zusätzlich filtern.</li>
+<li data-edit-text="material/m10.html::text-51">Ergebnisse beurteilen, zuständige Stellen identifizieren und Filter anschließend zurücksetzen.</li>
+</ol>
+<p data-edit-text="material/m10.html::text-52">Eine bereits verspätet erledigte Aufgabe kann Anlass für eine Ursachenanalyse sein. Sie ist aber kein offener Bearbeitungsauftrag. Eine bevorstehende Frist kann wegen ihrer Auswirkungen wichtiger sein als eine ältere Frist. Prioritäten werden deshalb nicht allein aus der Sortierreihenfolge abgeleitet.</p>
+<h2 id="10-rangfolgen-erstellen" data-edit-text="material/m10.html::text-53">10. Rangfolgen erstellen</h2>
+<p data-edit-text="material/m10.html::text-54">Eine Rangfolge kann durch absteigendes Sortieren sichtbar gemacht werden. Soll der Rang auch bei anderer Sortierreihenfolge erhalten bleiben, kann Excel ihn berechnen. Für die Kostenpositionen ist zunächst zu klären, welche Vergleichseinheit gemeint ist: einzelne Belege oder zusammengefasste Kostenarten. Für eine Rangfolge der Kostenarten müssen gleichartige Belege zunächst zusammengefasst werden. Einzelbelege und Kostenartensummen dürfen nicht vermischt werden.</p>
+<p data-edit-text="material/m10.html::text-55">Die Funktion RANG.GLEICH ist eine mögliche technische Umsetzung. Sie wird als Lernhilfe erläutert; die verbindliche Kompetenz ist die fachlich korrekte Rangfolge.</p>
+<p><span data-edit-text="material/m10.html::segment-10">Syntax: </span><code>=RANG.GLEICH(Zahl;Bezug;[Reihenfolge])</code><span data-edit-text="material/m10.html::segment-11">. Reihenfolge 0 oder weggelassen bedeutet größter Wert erhält Rang 1; Reihenfolge 1 bedeutet kleinster Wert erhält Rang 1.</span></p>
+<p><span data-edit-text="material/m10.html::segment-12">Beispiel: In B2:B6 stehen fünf Kostenartensummen. In C2 steht </span><code>=RANG.GLEICH(B2;$B$2:$B$6;0)</code><span data-edit-text="material/m10.html::segment-13">. Der Vergleichsbereich bleibt beim Kopieren fest, der Einzelwert verändert sich zeilenweise.</span></p>
+<p><span data-edit-text="material/m10.html::segment-14">Klick-Anleitung: Rangspalte ergänzen, </span><a href="../ls-glossar.html?from=material%2Fm10.html%23wort-formel#formel" id="wort-formel" data-edit-text="material/m10.html::segment-17" data-edit-link="material/m10.html::link-6">Formel</a><span data-edit-text="material/m10.html::segment-15"> in erster Datenzeile eingeben, Enter drücken, Formel nach unten kopieren, Rang als ganze Zahl formatieren, anschließend Vergleichsbereich und Rang 1 prüfen. Bei Erweiterung einer normalen Liste den absoluten Vergleichsbereich erweitern. Eine Excel-Tabelle mit strukturierten Bezügen kann den Bereich automatisch erweitern; beispielsweise </span><code>=RANG.GLEICH([@Kosten];Kostenliste[Kosten];0)</code><span data-edit-text="material/m10.html::segment-16"> in einer Tabelle namens Kostenliste mit Spalte Kosten.</span></p>
+<h2 id="11-umgang-mit-gleichen-rangwerten" data-edit-text="material/m10.html::text-56">11. Umgang mit gleichen Rangwerten</h2>
+<p><img src="Grafiken/G12e_Rangfolge.png" alt="Gleiche Werte und Rangfolge" data-edit-image="material/m10.html::image-6"></p>
+<table>
+<thead>
+<tr class="header">
+<th>Kostenart</th>
+<th style="text-align: right;">Nettosumme</th>
+<th style="text-align: right;">Rang absteigend</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Versandmaterial</td>
+<td style="text-align: right;">180,00 EUR</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td>Druckmaterial</td>
+<td style="text-align: right;">120,00 EUR</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="odd">
+<td>Bürozubehör</td>
+<td style="text-align: right;">120,00 EUR</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td>Etiketten</td>
+<td style="text-align: right;">60,00 EUR</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="odd">
+<td>Notizmaterial</td>
+<td style="text-align: right;">20,00 EUR</td>
+<td style="text-align: right;">5</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m10.html::text-57">Gleiche Werte erhalten bei RANG.GLEICH denselben Rang. Der nächste Rang wird entsprechend übersprungen. Eine laufende Nummer 1 bis 5 wäre hier keine korrekte Rangfolge nach Kostenhöhe. Für die Darstellung können gleichrangige Kostenarten zusätzlich alphabetisch sortiert werden; dadurch ändert sich ihr fachlicher Rang nicht. RANG.MITTELW ist eine andere mögliche Rangkonvention, aber nicht erforderlich. Keine willkürlichen Unterschiede bei gleichen Beträgen erfinden.</p>
+<h2 id="12-auswirkungen-von-filtern-auf-berechnungen" data-edit-text="material/m10.html::text-58">12. Auswirkungen von Filtern auf Berechnungen</h2>
+<p><a href="../ls-glossar.html?from=material%2Fm10.html%23wort-summe#summe" id="wort-summe" data-edit-text="material/m10.html::segment-19" data-edit-link="material/m10.html::link-7">SUMME</a><span data-edit-text="material/m10.html::segment-18">, MIN, MAX, MITTELWERT und RANG.GLEICH berücksichtigen weiterhin die Werte ihres angegebenen Bereichs, auch wenn Zeilen durch einen Filter ausgeblendet sind. Ein Filter verändert daher nicht automatisch den Gesamtwert oder die Rangposition. Für eine Auswertung nur sichtbarer Zeilen kann TEILERGEBNIS als freiwillige Vertiefung verwendet werden.</span></p>
+<p><img src="Grafiken/G12f_Summe_Teilergebnis.png" alt="Gesamtsumme und sichtbare Teilsumme" data-edit-image="material/m10.html::image-7"></p>
+<table>
+<thead>
+<tr class="header">
+<th>Funktion</th>
+<th>Beispiel</th>
+<th>Wirkung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SUMME</td>
+<td><code>=SUMME(B2:B6)</code></td>
+<td>Alle Werte des Bereichs</td>
+</tr>
+<tr class="even">
+<td>TEILERGEBNIS</td>
+<td><code>=TEILERGEBNIS(9;B2:B6)</code></td>
+<td>Durch Filter ausgeblendete Zeilen ausgeschlossen</td>
+</tr>
+<tr class="odd">
+<td>TEILERGEBNIS</td>
+<td><code>=TEILERGEBNIS(109;B2:B6)</code></td>
+<td>Zusätzlich manuell ausgeblendete Zeilen ausgeschlossen</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m10.html::text-59">Die Funktionen 9 und 109 stehen für Summen. Bei einer formatierten Tabelle kann über Tabellenentwurf &gt; Ergebniszeile eine sichtbarkeitsabhängige Summe gewählt werden. Ergebniszeile und Gesamtwert eindeutig beschriften. Die Ergebniszeile nicht zusätzlich in den eigenen Summenbereich aufnehmen.</p>
+<p data-edit-text="material/m10.html::text-60">Beispiel aus Abschnitt 11: Gesamtsumme 500 EUR. Filter Nettosumme größer oder gleich 120 EUR: sichtbar sind 180, 120 und 120 EUR. SUMME bleibt 500 EUR; TEILERGEBNIS ergibt 420 EUR. Nach Entfernen des Filters beträgt auch das Teilergebnis wieder 500 EUR, sofern keine manuell ausgeblendeten Zeilen bei Funktion 109 vorliegen. Prozentuale Anteile am Gesamtbudget dürfen nicht versehentlich auf eine gefilterte Teilsumme bezogen werden.</p>
+<h2 id="13-durchgängiges-betriebliches-anwendungsbeispiel" data-edit-text="material/m10.html::text-61">13. Durchgängiges betriebliches Anwendungsbeispiel</h2>
+<p data-edit-text="material/m10.html::text-62">Unabhängige Schulungsdaten, Stichtag 15.09.2027. Die Differenz ist bei offenen Aufgaben Fristende minus Stichtag, bei erledigten Aufgaben Fristende minus Abschlussdatum.</p>
+<table>
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>Aufgabe</th>
+<th>Zuständigkeit</th>
+<th>Fristende</th>
+<th>Status</th>
+<th>Erledigt am</th>
+<th style="text-align: right;">Differenz</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>S01</td>
+<td>Rückmeldung</td>
+<td>Verkauf</td>
+<td>13.09.2027</td>
+<td>Offen</td>
+<td>leer</td>
+<td style="text-align: right;">−2</td>
+</tr>
+<tr class="even">
+<td>S02</td>
+<td>Unterlagen prüfen</td>
+<td>Verwaltung</td>
+<td>15.09.2027</td>
+<td>Offen</td>
+<td>leer</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td>S03</td>
+<td>Besprechung vorbereiten</td>
+<td>Verwaltung</td>
+<td>17.09.2027</td>
+<td>Offen</td>
+<td>leer</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td>S04</td>
+<td>Kopien ablegen</td>
+<td>Verwaltung</td>
+<td>12.09.2027</td>
+<td>Erledigt</td>
+<td>11.09.2027</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td>S05</td>
+<td>Liste aktualisieren</td>
+<td>Verwaltung</td>
+<td>11.09.2027</td>
+<td>Erledigt</td>
+<td>13.09.2027</td>
+<td style="text-align: right;">−2</td>
+</tr>
+<tr class="even">
+<td>S06</td>
+<td>Unterlagen versenden</td>
+<td>Auftragsbearbeitung</td>
+<td>12.09.2027</td>
+<td>Erledigt</td>
+<td>12.09.2027</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td>S07</td>
+<td>Anfrage klären</td>
+<td>Verkauf</td>
+<td>12.09.2027</td>
+<td>Offen</td>
+<td>leer</td>
+<td style="text-align: right;">−3</td>
+</tr>
+<tr class="even">
+<td>S08</td>
+<td>Ablage prüfen</td>
+<td>Verwaltung</td>
+<td>14.09.2027</td>
+<td>Offen</td>
+<td>leer</td>
+<td style="text-align: right;">−1</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m10.html::text-63">Auswertung A: Status Offen, Differenz kleiner als null, Fristende aufsteigend. Ergebnis S07, S01, S08. S05 ist ausgeschlossen, weil erledigt.</p>
+<p data-edit-text="material/m10.html::text-64">Auswertung B: Status Offen, Differenz kleiner oder gleich null, Zuständigkeit Verwaltung. Ergebnis S02 und S08; nach Fristende aufsteigend S08, S02.</p>
+<p data-edit-text="material/m10.html::text-65">Auswertung C: Alle Filter entfernen, Zuständigkeit A bis Z, innerhalb der Zuständigkeit Fristende aufsteigend. Reihenfolge S06, S07, S01, S05, S04, S08, S02, S03.</p>
+<p><img src="Grafiken/G12g_Anwendungsbeispiel.png" alt="Gefilterte Fristenübersicht" data-edit-image="material/m10.html::image-8"></p>
+<p data-edit-text="material/m10.html::text-66">Betriebliche Beurteilung: Verkauf muss die beiden überfälligen offenen Rückmeldungen prüfen, Verwaltung die überfällige Ablageprüfung und die heute fällige Unterlagenprüfung. Die verspätete Listenaktualisierung kann separat untersucht werden. Die genaue Bearbeitungsreihenfolge ist mit den zuständigen Stellen unter Berücksichtigung der Auswirkungen abzustimmen.</p>
+<p data-edit-text="material/m10.html::text-67">Kostenbeispiel: Die fünf Kostenartensummen aus Abschnitt 11 werden absteigend sortiert und mit RANG.GLEICH ausgewertet. Versandmaterial hat den höchsten Anteil an den betrachteten Kosten. Das ist ein Anlass zur Prüfung des Bedarfs, aber kein Beweis für unnötige Ausgaben. Die beiden gleich hohen Kostenarten bleiben gleichrangig.</p>
+<p data-edit-text="material/m10.html::text-68">Funktionsprobe: In einer Kopie die Kosten für Notizmaterial von 20 auf 200 EUR ändern. Neue Gesamtsumme 680 EUR; Notizmaterial Rang 1, Versandmaterial Rang 2, Druckmaterial und Bürozubehör Rang 3, Etiketten Rang 5. Filter erneut anwenden, falls aktiv. Ursprüngliche Werte anschließend wiederherstellen.</p>
+<h2 id="14-typische-fehler-und-deren-behebung" data-edit-text="material/m10.html::text-69">14. Typische Fehler und deren Behebung</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Fehler</th>
+<th>Abhilfe</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nur eine Spalte sortiert</td>
+<td>Vollständige Datensätze gemeinsam sortieren</td>
+</tr>
+<tr class="even">
+<td>Überschrift als Datenzeile behandelt</td>
+<td>Überschriftenoption prüfen</td>
+</tr>
+<tr class="odd">
+<td>Zahlen als Text gespeichert</td>
+<td>Datentyp korrigieren</td>
+</tr>
+<tr class="even">
+<td>Datumswerte alphabetisch sortiert</td>
+<td>Echte Excel-Datumswerte verwenden</td>
+</tr>
+<tr class="odd">
+<td>Summenzeile mitsortiert</td>
+<td>Auswertungsbereich getrennt halten</td>
+</tr>
+<tr class="even">
+<td>Sortierebenen vertauscht</td>
+<td>Hauptkriterium zuerst festlegen</td>
+</tr>
+<tr class="odd">
+<td>Filter mit Löschen verwechselt</td>
+<td>Filter zurücksetzen statt Zeilen löschen</td>
+</tr>
+<tr class="even">
+<td>Filterkriterien übersehen</td>
+<td>Filtersymbole und sichtbare Zeilen prüfen</td>
+</tr>
+<tr class="odd">
+<td>Erledigte verspätete Aufgabe als offen gewertet</td>
+<td>Status zusätzlich filtern</td>
+</tr>
+<tr class="even">
+<td>Filter nach Datenänderung nicht aktualisiert</td>
+<td>Erneut anwenden</td>
+</tr>
+<tr class="odd">
+<td>Rangbereich wandert beim Kopieren</td>
+<td>Vergleichsbereich absolut referenzieren</td>
+</tr>
+<tr class="even">
+<td>Gleiche Beträge erhalten willkürlich verschiedene Ränge</td>
+<td>Rangkonvention beachten</td>
+</tr>
+<tr class="odd">
+<td>Belege und Kostenartensummen vermischt</td>
+<td>Vergleichseinheit festlegen</td>
+</tr>
+<tr class="even">
+<td>SUMME als sichtbare Teilsumme interpretiert</td>
+<td>Gesamt- und Teilsumme unterscheiden</td>
+</tr>
+<tr class="odd">
+<td>Neue Zeilen fehlen im Filter oder Rangbereich</td>
+<td>Bereich erweitern und prüfen</td>
+</tr>
+<tr class="even">
+<td>Rang als automatische Sparentscheidung verstanden</td>
+<td>Bedarf und betriebliche Folgen beurteilen</td>
+</tr>
+</tbody>
+</table>
+<h2 id="15-qualitätskontrolle-und-wiederverwendbarkeit" data-edit-text="material/m10.html::text-70">15. Qualitätskontrolle und Wiederverwendbarkeit</h2>
+<p data-edit-text="material/m10.html::text-71">Freiwillige Kontrolle: Sind die Überschriften eindeutig, Datentypen korrekt und IDs unverändert? Stimmen die zugehörigen Werte nach dem Sortieren? Sind alle Datensätze nach Entfernen der Filter wieder sichtbar? Sind Sortierebenen und Filterbedingungen fachlich begründet? Werden offene und erledigte Vorgänge korrekt unterschieden? Sind Rangrichtung, Vergleichseinheit und Gleichstände nachvollziehbar? Bleiben Gesamtsummen beim Filtern unverändert, sofern sie alle Daten umfassen sollen? Werden neue Zeilen berücksichtigt? Sind Formeln nach einer Sortierung noch fachlich korrekt?</p>
+<p><span data-edit-text="material/m10.html::segment-20">Vor Weitergabe der </span><a href="../ls-glossar.html?from=material%2Fm10.html%23wort-arbeitsmappe#arbeitsmappe" id="wort-arbeitsmappe" data-edit-text="material/m10.html::segment-22" data-edit-link="material/m10.html::link-8">Arbeitsmappe</a><span data-edit-text="material/m10.html::segment-21"> den vorgesehenen Filterzustand dokumentieren. Für eine vollständige Ausgangsansicht alle Filter zurücksetzen. Für eine gezielte Arbeitsansicht die aktiven Kriterien kenntlich machen. Funktionsproben nur in einer Kopie oder mit anschließender Wiederherstellung durchführen. Originaldaten aus M1 bleiben erhalten.</span></p>
+<h2 id="16-freiwillige-selbstkontrolle" data-edit-text="material/m10.html::text-72">16. Freiwillige Selbstkontrolle</h2>
+<ol type="1">
+<li data-edit-text="material/m10.html::text-73">Was unterscheidet Sortieren und Filtern?</li>
+<li data-edit-text="material/m10.html::text-74">Werden ausgefilterte Zeilen gelöscht?</li>
+<li data-edit-text="material/m10.html::text-75">Wie werden echte Datumswerte vom frühesten zum spätesten sortiert?</li>
+<li data-edit-text="material/m10.html::text-76">Warum darf nicht nur die Datumsspalte sortiert werden?</li>
+<li data-edit-text="material/m10.html::text-77">Welche Ebene wirkt bei einer mehrstufigen Sortierung zuerst?</li>
+<li data-edit-text="material/m10.html::text-78">Wie lassen sich nur offene Vorgänge der Verwaltung anzeigen?</li>
+<li data-edit-text="material/m10.html::text-79">Welche Filterbedingungen finden offene überfällige Aufgaben?</li>
+<li data-edit-text="material/m10.html::text-80">Warum reicht eine negative Differenz allein nicht?</li>
+<li data-edit-text="material/m10.html::text-81">Was bedeutet UND bei zwei Filterkriterien?</li>
+<li data-edit-text="material/m10.html::text-82">Wie lässt sich ein Filter nach einer Datenänderung aktualisieren?</li>
+<li data-edit-text="material/m10.html::text-83">Welche Rangfolge ergibt sich für 90, 70, 70 und 40 bei absteigender Rangbildung mit RANG.GLEICH?</li>
+<li data-edit-text="material/m10.html::text-84">Warum wird der Vergleichsbereich beim Kopieren einer Rangformel absolut referenziert?</li>
+<li data-edit-text="material/m10.html::text-85">Welche Werte berücksichtigt SUMME bei einem Filter?</li>
+<li data-edit-text="material/m10.html::text-86">Was unterscheidet TEILERGEBNIS mit 9 und 109?</li>
+<li data-edit-text="material/m10.html::text-87">Warum ist der höchste Kostenrang nicht automatisch eine Sparentscheidung?</li>
+<li data-edit-text="material/m10.html::text-88">Was muss bei einer neu hinzugefügten Zeile überprüft werden?</li>
+</ol>
+<p><strong data-edit-text="material/m10.html::segment-23">Kontrollhinweise</strong></p>
+<ol type="1">
+<li data-edit-text="material/m10.html::text-89">Sortieren ändert die Reihenfolge, Filtern die sichtbare Auswahl.</li>
+<li data-edit-text="material/m10.html::text-90">Nein.</li>
+<li data-edit-text="material/m10.html::text-91">Aufsteigend, älteste bis neueste.</li>
+<li data-edit-text="material/m10.html::text-92">Sonst können Daten verschiedenen Vorgängen falsch zugeordnet werden.</li>
+<li data-edit-text="material/m10.html::text-93">Die erste Ebene.</li>
+<li data-edit-text="material/m10.html::text-94">Status Offen UND Zuständigkeit Verwaltung.</li>
+<li data-edit-text="material/m10.html::text-95">Status Offen UND Differenz kleiner als null.</li>
+<li data-edit-text="material/m10.html::text-96">Auch verspätet erledigte Aufgaben können negative Differenzen haben.</li>
+<li data-edit-text="material/m10.html::text-97">Beide Bedingungen müssen erfüllt sein.</li>
+<li data-edit-text="material/m10.html::text-98">Daten &gt; Erneut anwenden oder Filter neu setzen.</li>
+<li data-edit-text="material/m10.html::text-99">1, 2, 2, 4.</li>
+<li data-edit-text="material/m10.html::text-100">Damit alle Einzelwerte mit demselben Bereich verglichen werden.</li>
+<li data-edit-text="material/m10.html::text-101">Alle Werte des angegebenen Bereichs, auch ausgefilterte.</li>
+<li data-edit-text="material/m10.html::text-102">Beide ignorieren ausgefilterte Zeilen; 109 ignoriert zusätzlich manuell ausgeblendete Zeilen.</li>
+<li data-edit-text="material/m10.html::text-103">Bedarf, Alternativen und betriebliche Folgen müssen berücksichtigt werden.</li>
+<li data-edit-text="material/m10.html::text-104">Datenbereich, Filter, Formeln, Rangbereich und Auswertungen.</li>
+</ol>
+<p data-edit-text="material/m10.html::text-105">Keine zusätzliche Abgabe oder Bewertung.</p>
+<h2 id="17-weiterführende-materialien" data-edit-text="material/m10.html::text-106">17. Weiterführende Materialien</h2>
+<p data-edit-text="material/m10.html::text-107">M3 erläutert Tabellenstruktur, M4 Datentypen, M6 Funktionen, M7 Zellbezüge, M8 Prozentanteile und M9 Fristen. M11 und M12 vertiefen grafische Auswertungen, M14 die Qualitätskontrolle. M10 bleibt während der gesamten Lernsituation verfügbar.</p>
+</article></article></section>
+  </div>
+</div>
+</div>
+<p><a href="m10.md" download data-edit-text="material/m10.html::segment-24" data-edit-link="material/m10.html::link-9">Bearbeitbare Textfassung</a></p>
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

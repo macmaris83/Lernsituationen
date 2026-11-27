@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>M8 – Prozentuale Anteile in Excel berechnen und interpretieren</title><link href="../assets/global-bike.css" rel="stylesheet"><style>main.excel{max-width:72rem;margin:auto;padding:1rem 3vw;background:white;font:1rem/1.55 system-ui;color:#17324b}.excel img{max-width:100%;height:auto}.excel table{display:block;overflow:auto;border-collapse:collapse}.excel td,.excel th{padding:.4rem;border:1px solid #b7c7d0}.excel a{text-decoration:underline}</style><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main class="excel">
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app onenote" data-material-view="onenote" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">N</span>
+    <strong>OneNote</strong><span class="file">m8</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Notizen</span><span class="material-tab">Arbeitsunterlagen</span><span class="material-kind">Notiz / Arbeitsblatt</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Notizbuch</span><span class="material-rail-item is-active">Notizen</span><span class="material-rail-item">Unterlagen</span><span class="material-rail-item">Besprechungen</span></aside>
+    <section class="canvas"><article class="paper"><article><h1 id="m8--prozentuale-anteile-in-excel-berechnen-und-interpretieren" data-edit-text="material/m8.html::text-1">M8 – Prozentuale Anteile in Excel berechnen und interpretieren</h1>
+<p data-edit-text="material/m8.html::text-2">Global Bike Deutschland GmbH – Verwaltung</p>
+<h2 id="1-bedeutung-der-prozentrechnung-im-büroalltag" data-edit-text="material/m8.html::text-3">1. Bedeutung der Prozentrechnung im Büroalltag</h2>
+<p data-edit-text="material/m8.html::text-4">Absolute Zahlen zeigen Beträge oder Mengen. Prozentwerte zeigen, wie groß diese im Verhältnis zu einer Bezugsgröße sind. In der Verwaltung helfen sie beispielsweise bei der Überwachung von Kostenbudgets, der Auswertung erledigter Vorgänge und dem Vergleich verschiedener Kostenarten. Ein Prozentwert ist nur aussagekräftig, wenn klar ist, worauf er sich bezieht. 75 % eines kleinen Budgets können weniger Euro sein als 30 % eines großen Budgets.</p>
+<h2 id="2-grundwert-prozentwert-und-prozentsatz" data-edit-text="material/m8.html::text-5">2. Grundwert, Prozentwert und Prozentsatz</h2>
+<p data-edit-text="material/m8.html::text-6">Der Grundwert G ist die Bezugsgröße (100 %). Der Prozentwert W ist der betrachtete Teil in derselben Einheit wie der Grundwert. Der Prozentsatz p beschreibt das Verhältnis W/G. In Excel wird beispielsweise 25 % intern als 0,25 gespeichert.</p>
+<p><img src="Grafiken/G10_Prozentgrundlagen.png" alt="Grundwert, Prozentwert und Prozentsatz anhand von 800 und 200 Euro" data-edit-image="material/m8.html::image-1"></p>
+<p data-edit-text="material/m8.html::text-7">Beispiel: Von einem internen Schulungsbudget von 800 € wurden 200 € ausgegeben. 800 € sind der Grundwert, 200 € der Prozentwert und 25 % der Prozentsatz. Der verbleibende Betrag beträgt 600 €, entsprechend 75 % des Budgets. Die Bezugsgröße bleibt in beiden Anteilsberechnungen das ursprüngliche Budget.</p>
+<h2 id="3-die-drei-grundformeln-der-prozentrechnung" data-edit-text="material/m8.html::text-8">3. Die drei Grundformeln der Prozentrechnung</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Gesucht</th>
+<th>Berechnung</th>
+<th>Excel-Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Prozentwert W</td>
+<td>G × p</td>
+<td><code>=B2*C2</code></td>
+</tr>
+<tr class="even">
+<td>Prozentsatz p</td>
+<td>W / G</td>
+<td><code>=D2/B2</code></td>
+</tr>
+<tr class="odd">
+<td>Grundwert G</td>
+<td>W / p</td>
+<td><code>=D2/C2</code></td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m8.html::text-9">In einer unabhängigen Beispielzeile steht B2 für 800 €, C2 für 25 % und D2 für 200 €. Die Formeln zeigen drei alternative Berechnungen, je nachdem, welcher Wert fehlt. Sie dürfen nicht gleichzeitig so in die drei Eingabezellen eingetragen werden, weil sonst ein Zirkelbezug entsteht. Bei der Division darf der Nenner nicht null sein.</p>
+<p data-edit-text="material/m8.html::text-10">Ein Prozentsatz von 25 % entspricht 25/100. Wird der Satz als Prozentwert in Excel eingegeben, ist keine zusätzliche Division durch 100 notwendig.</p>
+<h2 id="4-prozentwerte-in-excel-eingeben-und-formatieren" data-edit-text="material/m8.html::text-11">4. Prozentwerte in Excel eingeben und formatieren</h2>
+<p><span data-edit-text="material/m8.html::segment-1">Excel unterscheidet </span><a href="../ls-glossar.html?from=material%2Fm8.html%23wort-zellwert#zellwert" id="wort-zellwert" data-edit-text="material/m8.html::segment-5" data-edit-link="material/m8.html::link-1">Zellwert</a><span data-edit-text="material/m8.html::segment-2"> und Anzeige (M4). Die Eingabe </span><code>25%</code><span data-edit-text="material/m8.html::segment-3"> speichert den numerischen Wert 0,25. Auch die Eingabe </span><code>0,25</code><span data-edit-text="material/m8.html::segment-4"> mit anschließender Prozentformatierung zeigt 25 %. Wer dagegen die Zahl 25 eingibt und anschließend das Prozentformat zuweist, erhält 2500 %.</span></p>
+<p><img src="Grafiken/G10a_Prozentformat.png" alt="Zellwert und Prozentanzeige im Vergleich" data-edit-image="material/m8.html::image-2"></p>
+<p data-edit-text="material/m8.html::text-12">Klick-Anleitung (deutschsprachiges Desktop-Excel für Windows):</p>
+<ol type="1">
+<li data-edit-text="material/m8.html::text-13">Ergebniszelle oder zusammenhängenden Ergebnisbereich markieren.</li>
+<li data-edit-text="material/m8.html::text-14">Registerkarte Start öffnen.</li>
+<li data-edit-text="material/m8.html::text-15">In der Gruppe Zahl auf das Prozentzeichen klicken.</li>
+<li data-edit-text="material/m8.html::text-16">Mit Dezimalstelle hinzufügen bzw. entfernen die gewünschte Genauigkeit einstellen.</li>
+<li><span data-edit-text="material/m8.html::segment-6">In der Bearbeitungsleiste den zugrunde liegenden Wert oder die </span><a href="../ls-glossar.html?from=material%2Fm8.html%23wort-formel#formel" id="wort-formel" data-edit-text="material/m8.html::segment-8" data-edit-link="material/m8.html::link-2">Formel</a><span data-edit-text="material/m8.html::segment-7"> prüfen.</span></li>
+</ol>
+<p data-edit-text="material/m8.html::text-17">Alternativ Strg+1 drücken, Kategorie Prozent wählen, Dezimalstellen festlegen und bestätigen. Geldbeträge bleiben im Währungsformat, Mengen im Zahlenformat. Prozentformatierung verändert normalerweise nur die Anzeige, nicht den zugrunde liegenden Wert.</p>
+<h2 id="5-prozentuale-anteile-an-einer-gesamtsumme" data-edit-text="material/m8.html::text-18">5. Prozentuale Anteile an einer Gesamtsumme</h2>
+<p><span data-edit-text="material/m8.html::segment-9">Bei einer Kostenstruktur ist die </span><a href="../ls-glossar.html?from=material%2Fm8.html%23wort-summe#summe" id="wort-summe" data-edit-text="material/m8.html::segment-11" data-edit-link="material/m8.html::link-3">Summe</a><span data-edit-text="material/m8.html::segment-10"> aller berücksichtigten Einzelkosten der Grundwert. Jeder Einzelbetrag wird durch diese Gesamtsumme geteilt. Bei vollständigen, überschneidungsfreien Kategorien mit nichtnegativen Beträgen und positiver Gesamtsumme ergeben die Anteile zusammen 100 %. Zwischensummen dürfen nicht erneut als Einzelpositionen einbezogen werden.</span></p>
+<p data-edit-text="material/m8.html::text-19">Bei einer gefilterten Liste muss vorab feststehen, ob sich die Anteile auf alle Daten oder nur auf die sichtbare Teilmenge beziehen sollen. SUMME berücksichtigt auch ausgefilterte Zeilen. Eine gefilterte Ansicht ändert deshalb nicht automatisch die Bezugsgröße. Für Auswertungen ausschließlich sichtbarer Zeilen kann ergänzend TEILERGEBNIS verwendet werden; diese Funktion ist hier kein verbindlicher Lerninhalt.</p>
+<h2 id="6-relative-und-absolute-zellbezüge-anwenden" data-edit-text="material/m8.html::text-20">6. Relative und absolute Zellbezüge anwenden</h2>
+<p><span data-edit-text="material/m8.html::segment-12">Bei mehreren Anteilen verändert sich der Zähler je Zeile, der Nenner bleibt gleich. Steht die Gesamtsumme in B6, lautet eine erste Formel </span><code>=B2/$B$6</code><span data-edit-text="material/m8.html::segment-13">. Beim Kopieren nach unten wird daraus </span><code>=B3/$B$6</code><span data-edit-text="material/m8.html::segment-14">. Die Dollarzeichen fixieren die Adresse beim Kopieren (M7), nicht den Wert der Gesamtsumme. Ändert sich ein Einzelbetrag, müssen sich Gesamtsumme und davon abhängige Anteile bei automatischer Berechnung entsprechend aktualisieren.</span></p>
+<h2 id="7-klick-anleitung-zur-anteilsberechnung" data-edit-text="material/m8.html::text-21">7. Klick-Anleitung zur Anteilsberechnung</h2>
+<p><img src="Grafiken/G10b_Klickanleitung.png" alt="Schritte zur Berechnung und Formatierung von Anteilen" data-edit-image="material/m8.html::image-3"></p>
+<ol type="1">
+<li data-edit-text="material/m8.html::text-22">Einzelbeträge in einer zusammenhängenden Spalte erfassen und als Währung formatieren.</li>
+<li data-edit-text="material/m8.html::text-23">Unterhalb der Einzelbeträge die Summe mit SUMME berechnen.</li>
+<li data-edit-text="material/m8.html::text-24">Erste Ergebniszelle in der Anteilsspalte anklicken.</li>
+<li data-edit-text="material/m8.html::text-25">Gleichheitszeichen eingeben, erste Betragszelle anklicken, Schrägstrich eingeben und Summenzelle anklicken.</li>
+<li data-edit-text="material/m8.html::text-26">Den Bezug auf die Summenzelle mit F4 oder manuell durch zwei Dollarzeichen fixieren.</li>
+<li data-edit-text="material/m8.html::text-27">Enter drücken und die Formel am Ausfüllkästchen bis zur letzten Einzelposition kopieren.</li>
+<li data-edit-text="material/m8.html::text-28">Anteilsspalte markieren und das Prozentformat mit zwei Dezimalstellen wählen.</li>
+<li data-edit-text="material/m8.html::text-29">Die Summe der Anteile berechnen und die erste sowie letzte Formel prüfen.</li>
+</ol>
+<p data-edit-text="material/m8.html::text-30">Die Summenzeile wird nicht als weitere Einzelposition in die Anteilsberechnung kopiert. Eine Kontrolle von 100 % ersetzt nicht die Prüfung der Datengrundlage.</p>
+<h2 id="8-unabhängiges-betriebliches-beispiel-kostenstruktur" data-edit-text="material/m8.html::text-31">8. Unabhängiges betriebliches Beispiel: Kostenstruktur</h2>
+<p data-edit-text="material/m8.html::text-32">Für eine interne Schulung der Global Bike Deutschland GmbH liegen folgende simulierte Nettokosten vor. Sie sind unabhängig vom Hauptfall M1 und keine SAP-Daten.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Zeile</th>
+<th>A – Kostenart</th>
+<th style="text-align: right;">B – Betrag</th>
+<th style="text-align: right;">C – Anteil</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2</td>
+<td>Schulungsunterlagen</td>
+<td style="text-align: right;">120,00 €</td>
+<td style="text-align: right;">20,00 %</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Raumausstattung</td>
+<td style="text-align: right;">180,00 €</td>
+<td style="text-align: right;">30,00 %</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Technische Ausstattung</td>
+<td style="text-align: right;">240,00 €</td>
+<td style="text-align: right;">40,00 %</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Verbrauchsmaterial</td>
+<td style="text-align: right;">60,00 €</td>
+<td style="text-align: right;">10,00 %</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>Gesamt</td>
+<td style="text-align: right;">600,00 €</td>
+<td style="text-align: right;">100,00 %</td>
+</tr>
+</tbody>
+</table>
+<p><span data-edit-text="material/m8.html::segment-15">B6: </span><code>=SUMME(B2:B5)</code><span data-edit-text="material/m8.html::segment-16">; C2: </span><code>=B2/$B$6</code><span data-edit-text="material/m8.html::segment-17">; C3 bis C5 durch Kopieren; C6: </span><code>=SUMME(C2:C5)</code><span data-edit-text="material/m8.html::segment-18">.</span></p>
+<p><img src="Grafiken/G10c_Kostenstruktur.png" alt="Kostenstruktur mit Beträgen und proportionalen Balken" data-edit-image="material/m8.html::image-4"></p>
+<p data-edit-text="material/m8.html::text-33">Technische Ausstattung hat mit 40 % den größten Anteil. Daraus folgt nicht automatisch, dass diese Kosten unangemessen sind. Vor einer Einsparentscheidung sind Bedarf, Qualität und mögliche Alternativen zu prüfen.</p>
+<p data-edit-text="material/m8.html::text-34">Funktionsprobe: B2 vorübergehend von 120 € auf 180 € ändern. Die Gesamtsumme steigt auf 660 €. Der Anteil der Schulungsunterlagen beträgt rund 27,27 %, der technischen Ausstattung rund 36,36 %. Auch unveränderte Einzelbeträge können einen anderen Anteil erhalten, weil sich der Grundwert geändert hat. Anschließend den ursprünglichen Wert wiederherstellen.</p>
+<h2 id="9-unabhängiges-betriebliches-beispiel-budgetüberwachung" data-edit-text="material/m8.html::text-35">9. Unabhängiges betriebliches Beispiel: Budgetüberwachung</h2>
+<p data-edit-text="material/m8.html::text-36">Für eine separate interne Schulungsmaßnahme stehen 1.200 € netto zur Verfügung. B2 enthält das Budget, B3 die bisherigen Ausgaben von 900 €.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Zelle</th>
+<th>Bedeutung</th>
+<th>Formel bzw. Eingabe</th>
+<th style="text-align: right;">Ergebnis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>B2</td>
+<td>Budget</td>
+<td>Eingabe</td>
+<td style="text-align: right;">1.200,00 €</td>
+</tr>
+<tr class="even">
+<td>B3</td>
+<td>Ausgaben</td>
+<td>Eingabe</td>
+<td style="text-align: right;">900,00 €</td>
+</tr>
+<tr class="odd">
+<td>B4</td>
+<td><a href="../ls-glossar.html?from=material%2Fm8.html%23wort-restbudget#restbudget" id="wort-restbudget" data-edit-link="material/m8.html::link-4">Restbudget</a></td>
+<td><code>=B2-B3</code></td>
+<td style="text-align: right;">300,00 €</td>
+</tr>
+<tr class="even">
+<td>B5</td>
+<td><a href="../ls-glossar.html?from=material%2Fm8.html%23wort-budgetauslastung#budgetauslastung" id="wort-budgetauslastung" data-edit-link="material/m8.html::link-5">Budgetauslastung</a></td>
+<td><code>=B3/B2</code></td>
+<td style="text-align: right;">75,00 %</td>
+</tr>
+<tr class="odd">
+<td>B6</td>
+<td>Verbleibender Budgetanteil</td>
+<td><code>=B4/B2</code></td>
+<td style="text-align: right;">25,00 %</td>
+</tr>
+</tbody>
+</table>
+<p><img src="Grafiken/G10d_Budget.png" alt="Budgetauslastung und verbleibender Anteil" data-edit-image="material/m8.html::image-5"></p>
+<p><span data-edit-text="material/m8.html::segment-19">B5 und B6 als Prozent formatieren. Die Ausgaben können in einer späteren </span><a href="../ls-glossar.html?from=material%2Fm8.html%23wort-arbeitsmappe#arbeitsmappe" id="wort-arbeitsmappe" data-edit-text="material/m8.html::segment-21" data-edit-link="material/m8.html::link-6">Arbeitsmappe</a><span data-edit-text="material/m8.html::segment-20"> aus einer Summe von Einzelpositionen stammen. Bei 1.350 € Ausgaben beträgt die Auslastung 112,50 %, das Restbudget −150 € und der verbleibende Anteil −12,50 %. Negative Restwerte dürfen nicht einfach auf null gesetzt werden, weil dadurch eine Überschreitung verborgen würde. Eine Budgetauslastung von 75 % bedeutet nicht automatisch, dass 25 % frei ausgegeben werden dürfen: Bereits geplante oder zugesagte Ausgaben und interne Freigaben sind zu beachten.</span></p>
+<h2 id="10-freiwillige-vertiefung-veränderungen-und-prozentpunkte" data-edit-text="material/m8.html::text-37">10. Freiwillige Vertiefung: Veränderungen und Prozentpunkte</h2>
+<p><span data-edit-text="material/m8.html::segment-22">Ein Anteil am Gesamtwert ist etwas anderes als eine Veränderung gegenüber einem früheren Wert. Steigen simulierte Monatskosten von 200 € (B2) auf 250 € (B3), beträgt die absolute Veränderung </span><code>=B3-B2</code><span data-edit-text="material/m8.html::segment-23"> = 50 €. Die relative Veränderung </span><code>=(B3-B2)/B2</code><span data-edit-text="material/m8.html::segment-24"> beträgt 25 %. Der alte Wert ist der Grundwert. Bei einem alten Wert von null ist diese Veränderungsrate nicht definiert.</span></p>
+<p data-edit-text="material/m8.html::text-38">Steigt eine Erledigungsquote von 60 % auf 75 %, beträgt die Differenz 15 Prozentpunkte. Relativ zur alten Quote ist dies eine Steigerung von 25 %. Beide Aussagen sind richtig, beschreiben aber unterschiedliche Größen. Prozentpunkte sind kein zusätzlicher verbindlicher Prüfungsinhalt.</p>
+<h2 id="11-rundung-und-nachkommastellen" data-edit-text="material/m8.html::text-39">11. Rundung und Nachkommastellen</h2>
+<p data-edit-text="material/m8.html::text-40">Drei gleich große Anteile von jeweils einem Drittel werden mit zwei Dezimalstellen als 33,33 % angezeigt. Die sichtbaren Zahlen ergeben 99,99 %, während die Summe der ungerundeten Zellwerte als 100,00 % angezeigt wird. Das ist eine Anzeigeabweichung und kein Rechenfehler.</p>
+<p><span data-edit-text="material/m8.html::segment-25">Mit den ungerundeten Werten weiterrechnen. Nur wenn eine fachliche Rundungsregel eine tatsächliche Rundung verlangt, ist beispielsweise </span><code>=RUNDEN(C2;4)</code><span data-edit-text="material/m8.html::segment-26"> für einen als Dezimalbruch gespeicherten Prozentsatz mit zwei Prozent-Nachkommastellen geeignet. Eine solche Rundung kann die Summe verändern. Nicht eigenmächtig einen Anteil anpassen, nur damit die Anzeige 100 % ergibt.</span></p>
+<h2 id="12-kaufmännische-interpretation" data-edit-text="material/m8.html::text-41">12. Kaufmännische Interpretation</h2>
+<p data-edit-text="material/m8.html::text-42">Eine aussagekräftige Auswertung nennt den betrachteten Wert, die Bezugsgröße, den Zeitraum und die Bedeutung für den Arbeitsauftrag. Prozentwerte können Prioritäten sichtbar machen, ersetzen aber keine Entscheidung über notwendige Ausgaben. Eine hohe Erledigungsquote kann einzelne dringende offene Vorgänge verdecken. Eine geringe Budgetauslastung kann auf noch nicht erfasste Kosten zurückgehen.</p>
+<p data-edit-text="material/m8.html::text-43">Bei Vergleichen müssen Zeitraum, Einheit und Abgrenzung zusammenpassen. Ein Nettobudget darf nicht mit Bruttoausgaben verglichen werden. Fehlende Angaben sind nicht automatisch null. Empfehlungen müssen sich auf überprüfte Daten stützen und Unsicherheiten kenntlich machen.</p>
+<h2 id="13-typische-fehler-und-deren-behebung" data-edit-text="material/m8.html::text-44">13. Typische Fehler und deren Behebung</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Beobachtung</th>
+<th>Ursache und Abhilfe</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2500 % statt 25 %</td>
+<td>Zahl 25 statt 0,25 bzw. 25 % eingegeben</td>
+</tr>
+<tr class="even">
+<td>Anteil hundertmal zu groß</td>
+<td>Zusätzlich mit 100 multipliziert und Prozentformat verwendet</td>
+</tr>
+<tr class="odd">
+<td>Anteil verändert sich unerwartet beim Kopieren</td>
+<td>Nenner nicht absolut referenziert</td>
+</tr>
+<tr class="even">
+<td>Alle Anteile gleich</td>
+<td>Zähler versehentlich fixiert</td>
+</tr>
+<tr class="odd">
+<td>Summe der Anteile deutlich über 100 %</td>
+<td>Zwischensumme doppelt erfasst oder falscher Grundwert</td>
+</tr>
+<tr class="even">
+<td>Summe deutlich unter 100 %</td>
+<td>Positionen fehlen oder Grundwert passt nicht zur Auswahl</td>
+</tr>
+<tr class="odd">
+<td>99,99 % statt 100 % in sichtbaren Einzelwerten</td>
+<td>Anzeige-Rundung prüfen</td>
+</tr>
+<tr class="even">
+<td>#DIV/0!</td>
+<td>Nenner null oder leer; Ursache klären, nicht als 0 % ausgeben</td>
+</tr>
+<tr class="odd">
+<td>#WERT!</td>
+<td>Text statt Zahl in Berechnungszellen; Datentyp prüfen</td>
+</tr>
+<tr class="even">
+<td>Budgetüberschreitung bleibt unsichtbar</td>
+<td>Negative Restwerte unterdrückt</td>
+</tr>
+<tr class="odd">
+<td>Gefilterte Anteile ergeben nicht 100 %</td>
+<td>Bezugsgröße umfasst weiterhin alle Daten</td>
+</tr>
+<tr class="even">
+<td>Anteil wird als Veränderungsrate bezeichnet</td>
+<td>Bezugsgröße und Fragestellung unterscheiden</td>
+</tr>
+</tbody>
+</table>
+<h2 id="14-qualitätskontrolle-und-wiederverwendbarkeit" data-edit-text="material/m8.html::text-45">14. Qualitätskontrolle und Wiederverwendbarkeit</h2>
+<p><span data-edit-text="material/m8.html::segment-27">Freiwillige Kontrolle an einer Kopie: Sind alle Beträge numerisch und in derselben Einheit? Ist der Grundwert eindeutig bezeichnet? Stimmen Summenbereiche und Zellbezüge? Sind Prozentwerte als solche formatiert? Reagieren die Formeln auf Änderungen? Werden neue Datenzeilen in die Berechnung einbezogen? Ist bei </span><a href="../ls-glossar.html?from=material%2Fm8.html%23wort-filtern#filtern" id="wort-filtern" data-edit-text="material/m8.html::segment-29" data-edit-link="material/m8.html::link-7">Filtern</a><span data-edit-text="material/m8.html::segment-28"> die Bezugsgröße weiterhin nachvollziehbar? Sind fehlende Werte und Budgetüberschreitungen sichtbar? Lassen sich die Aussagen aus den Zahlen begründen?</span></p>
+<p data-edit-text="material/m8.html::text-46">Einzelne Ergebnisse unabhängig nachrechnen. Bei einer neuen Datenzeile prüfen, ob die Summenformel und die Anteilsformeln erweitert wurden. Die ursprünglichen Testwerte wiederherstellen. Die Arbeitsmappe soll ohne erneute Eingabe aller Formeln nutzbar bleiben.</p>
+<h2 id="15-freiwillige-selbstkontrolle" data-edit-text="material/m8.html::text-47">15. Freiwillige Selbstkontrolle</h2>
+<ol type="1">
+<li data-edit-text="material/m8.html::text-48">Was ist der Grundwert bei einer Budgetauslastung?</li>
+<li data-edit-text="material/m8.html::text-49">Wie wird ein Anteil von 45 € an 180 € berechnet?</li>
+<li data-edit-text="material/m8.html::text-50">Welcher Zellwert entspricht 12,5 %?</li>
+<li data-edit-text="material/m8.html::text-51">Welche Formel berechnet den Anteil von B3 an der Gesamtsumme B9 kopierfähig?</li>
+<li data-edit-text="material/m8.html::text-52">Wie lautet diese Formel eine Zeile tiefer?</li>
+<li data-edit-text="material/m8.html::text-53">Ein Budget beträgt 500 €, die Ausgaben 350 €. Wie hoch sind Restbetrag und Auslastung?</li>
+<li data-edit-text="material/m8.html::text-54">Wie hoch ist die Auslastung bei 550 € Ausgaben und 500 € Budget?</li>
+<li data-edit-text="material/m8.html::text-55">Warum können drei angezeigte Drittel zusammen 99,99 % ergeben?</li>
+<li data-edit-text="material/m8.html::text-56">Was bedeutet #DIV/0! bei einer Anteilsberechnung?</li>
+<li data-edit-text="material/m8.html::text-57">Warum kann der Anteil eines unveränderten Betrags sinken?</li>
+<li data-edit-text="material/m8.html::text-58">Bedeutet der größte Kostenanteil automatisch, dass dort eingespart werden sollte?</li>
+<li data-edit-text="material/m8.html::text-59">Verändert ein Filter automatisch den durch SUMME berechneten Grundwert?</li>
+</ol>
+<p><strong data-edit-text="material/m8.html::segment-30">Kontrollhinweise</strong></p>
+<ol type="1">
+<li data-edit-text="material/m8.html::text-60">Das gesamte verfügbare Budget.</li>
+<li data-edit-text="material/m8.html::text-61">45/180 = 0,25 = 25 %.</li>
+<li data-edit-text="material/m8.html::text-62">0,125.</li>
+<li><code>=B3/$B$9</code><span data-edit-text="material/m8.html::segment-31">.</span></li>
+<li><code>=B4/$B$9</code><span data-edit-text="material/m8.html::segment-32">.</span></li>
+<li data-edit-text="material/m8.html::text-63">150 € Restbetrag, 70 % Auslastung.</li>
+<li data-edit-text="material/m8.html::text-64">110 %; das Budget ist um 50 € überschritten.</li>
+<li data-edit-text="material/m8.html::text-65">Durch die Rundung der Anzeige auf zwei Dezimalstellen.</li>
+<li data-edit-text="material/m8.html::text-66">Der Nenner ist null oder leer; eine Quote ist so nicht definiert.</li>
+<li data-edit-text="material/m8.html::text-67">Weil der Gesamtbetrag steigen kann.</li>
+<li data-edit-text="material/m8.html::text-68">Nein; Bedarf, Alternativen und betriebliche Folgen müssen geprüft werden.</li>
+<li data-edit-text="material/m8.html::text-69">Nein, SUMME berücksichtigt auch ausgefilterte Zeilen.</li>
+</ol>
+<p data-edit-text="material/m8.html::text-70">Keine zusätzliche Abgabe oder Bewertung.</p>
+<h2 id="16-weiterführende-materialien" data-edit-text="material/m8.html::text-71">16. Weiterführende Materialien</h2>
+<p data-edit-text="material/m8.html::text-72">M4 erläutert Zahlenformate, M5 Formeln und Grundrechenarten, M6 SUMME und weitere Funktionen, M7 Zellbezüge. M9 vertieft Postorganisation, Termine und Fristen. M11 und M12 behandeln Diagramme, M14 die Qualitätskontrolle. M8 bleibt während der gesamten Lernsituation verfügbar.</p>
+</article></article></section>
+  </div>
+</div>
+</div>
+<p><a href="m8.md" download data-edit-text="material/m8.html::segment-33" data-edit-link="material/m8.html::link-8">Bearbeitbare Textfassung</a></p>
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

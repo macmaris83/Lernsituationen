@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1030 565" width="1030" height="565" role="img" aria-labelledby="title desc"><title id="title">Verkauf in der Vergleichswoche</title><desc id="desc">Block in Aurich verkaufte 40 Stück. Bike Arena in Leer verkaufte 60 Stück. Die Balken beginnen bei null.</desc>
+<rect x="0" y="0" width="1030" height="565" rx="0" fill="#f7faf6" stroke="none" stroke-width="2"/>
+<rect x="0" y="0" width="1030" height="89" rx="0" fill="#eaf4e9" stroke="none" stroke-width="2"/>
+<text x="40" y="57" fill="#226532" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="35" text-anchor="start">Verkauf in der Vergleichswoche</text>
+<text x="40" y="128" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="24" text-anchor="start">Verkaufte Stücke aus dem Aktionssortiment</text>
+<rect x="216" y="295.0" width="186" height="180.0" rx="0" fill="#226532" stroke="none" stroke-width="2"/>
+<text x="309" y="277.0" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="37" text-anchor="middle">40 Stück</text>
+<text x="309" y="515" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="27" text-anchor="middle">Block</text>
+<text x="309" y="548" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="22" text-anchor="middle">Aurich</text>
+<rect x="627" y="205.0" width="186" height="270.0" rx="0" fill="#549735" stroke="none" stroke-width="2"/>
+<text x="720" y="187.0" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="37" text-anchor="middle">60 Stück</text>
+<text x="720" y="515" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="27" text-anchor="middle">Bike Arena</text>
+<text x="720" y="548" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="22" text-anchor="middle">Leer</text>
+<path d="M 95 475 H 938" fill="none" stroke="#183322" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+<text x="77" y="482" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="22" text-anchor="end">0</text>
+</svg>

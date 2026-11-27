@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>M5 – Formeln und Grundrechenarten in Excel</title><link href="../assets/global-bike.css" rel="stylesheet"><style>main.excel{max-width:72rem;margin:auto;padding:1rem 3vw;background:white;font:1rem/1.55 system-ui;color:#17324b}.excel img{max-width:100%;height:auto}.excel table{display:block;overflow:auto;border-collapse:collapse}.excel td,.excel th{padding:.4rem;border:1px solid #b7c7d0}.excel a{text-decoration:underline}</style><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main class="excel">
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app onenote" data-material-view="onenote" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">N</span>
+    <strong>OneNote</strong><span class="file">m5</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Notizen</span><span class="material-tab">Arbeitsunterlagen</span><span class="material-kind">Notiz / Arbeitsblatt</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Notizbuch</span><span class="material-rail-item is-active">Notizen</span><span class="material-rail-item">Unterlagen</span><span class="material-rail-item">Besprechungen</span></aside>
+    <section class="canvas"><article class="paper"><article><h1 id="m5--formeln-und-grundrechenarten-in-excel" data-edit-text="material/m5.html::text-1">M5 – Formeln und Grundrechenarten in Excel</h1>
+<p data-edit-text="material/m5.html::text-2">Global Bike Deutschland GmbH – Verwaltung</p>
+<h2 id="1-warum-automatische-berechnungen-wichtig-sind" data-edit-text="material/m5.html::text-3">1. Warum automatische Berechnungen wichtig sind</h2>
+<p><span data-edit-text="material/m5.html::segment-1">In der Verwaltung ändern sich Mengen, Preise und Termine. Eine manuell eingetragene </span><a href="../ls-glossar.html?from=material%2Fm5.html%23wort-summe#summe" id="wort-summe" data-edit-text="material/m5.html::segment-4" data-edit-link="material/m5.html::link-1">Summe</a><span data-edit-text="material/m5.html::segment-2"> bleibt unverändert, wenn sich eine Ausgangszahl ändert. Eine </span><a href="../ls-glossar.html?from=material%2Fm5.html%23wort-formel#formel" id="wort-formel" data-edit-text="material/m5.html::segment-5" data-edit-link="material/m5.html::link-2">Formel</a><span data-edit-text="material/m5.html::segment-3"> berechnet das Ergebnis dagegen aus den aktuellen Ausgangswerten. Das spart Arbeit und reduziert Übertragungsfehler. Eine falsche Formel kann allerdings viele falsche Ergebnisse erzeugen. Deshalb gehört die Kontrolle zur Arbeit mit Excel.</span></p>
+<h2 id="2-werte-formeln-und-funktionen" data-edit-text="material/m5.html::text-4">2. Werte, Formeln und Funktionen</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Begriff</th>
+<th>Bedeutung</th>
+<th>Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Wert</td>
+<td>Direkt eingegebene Information</td>
+<td>12</td>
+</tr>
+<tr class="even">
+<td>Formel</td>
+<td>Rechenvorschrift, die mit einem Gleichheitszeichen beginnt</td>
+<td><code>=12*4</code></td>
+</tr>
+<tr class="odd">
+<td>Zellbezug</td>
+<td>Verweis auf den Inhalt einer Zelle</td>
+<td><code>=B2</code></td>
+</tr>
+<tr class="even">
+<td>Funktion</td>
+<td>Vorgefertigte Rechenvorschrift innerhalb einer Formel</td>
+<td><code>=SUMME(B2:B5)</code></td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m5.html::text-5">Eine Formel steht in der Zelle, obwohl dort normalerweise ihr Ergebnis angezeigt wird. Die Bearbeitungsleiste zeigt die eigentliche Formel. Funktionen werden in M6 vertieft.</p>
+<h2 id="3-aufbau-einer-formel" data-edit-text="material/m5.html::text-6">3. Aufbau einer Formel</h2>
+<p><img src="Grafiken/G7_Formelaufbau.png" alt="Formelbestandteile und Ergebnisanzeige" data-edit-image="material/m5.html::image-1"></p>
+<p><span data-edit-text="material/m5.html::segment-6">Das Gleichheitszeichen signalisiert Excel, dass eine Berechnung folgen soll. Danach stehen Zahlen, Zellbezüge, Operatoren oder Funktionen. In </span><code>=B2*C2</code><span data-edit-text="material/m5.html::segment-7"> verweist B2 auf Spalte B, Zeile 2; C2 auf Spalte C, Zeile 2. Das Sternchen bedeutet Multiplikation. Die Ergebniszelle darf nicht auf sich selbst verweisen.</span></p>
+<h2 id="4-die-vier-grundrechenarten" data-edit-text="material/m5.html::text-7">4. Die vier Grundrechenarten</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Rechenart</th>
+<th>Operator</th>
+<th>Beispiel</th>
+<th style="text-align: right;">Ergebnis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Addition</td>
+<td>+</td>
+<td><code>=18+7</code></td>
+<td style="text-align: right;">25</td>
+</tr>
+<tr class="even">
+<td>Subtraktion</td>
+<td>-</td>
+<td><code>=18-7</code></td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr class="odd">
+<td>Multiplikation</td>
+<td>*</td>
+<td><code>=18*7</code></td>
+<td style="text-align: right;">126</td>
+</tr>
+<tr class="even">
+<td>Division</td>
+<td>/</td>
+<td><code>=18/6</code></td>
+<td style="text-align: right;">3</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m5.html::text-8">Excel verwendet für die Multiplikation das Sternchen und für die Division den Schrägstrich. Ein handschriftliches Malzeichen oder ein Doppelpunkt ist dafür ungeeignet. Der Doppelpunkt kennzeichnet in Zellbezügen einen zusammenhängenden Bereich, etwa B2:B5.</p>
+<p data-edit-text="material/m5.html::text-9">Im Büro werden beispielsweise Teilbeträge addiert, Restbudgets durch Subtraktion ermittelt, Mengen mit Einzelpreisen multipliziert und Gesamtkosten durch Stückzahlen dividiert.</p>
+<h2 id="5-rechenregeln-und-klammern" data-edit-text="material/m5.html::text-10">5. Rechenregeln und Klammern</h2>
+<p><img src="Grafiken/G7a_Rechenregeln.png" alt="Punkt vor Strich und Wirkung von Klammern" data-edit-image="material/m5.html::image-2"></p>
+<p data-edit-text="material/m5.html::text-11">Multiplikation und Division werden vor Addition und Subtraktion ausgeführt. Gleichrangige Grundrechenarten werden von links nach rechts verarbeitet. Klammern verändern die Reihenfolge.</p>
+<ul>
+<li><code>=10+4*3</code><span data-edit-text="material/m5.html::segment-8"> ergibt 22.</span></li>
+<li><code>=(10+4)*3</code><span data-edit-text="material/m5.html::segment-9"> ergibt 42.</span></li>
+<li><code>=24/6*2</code><span data-edit-text="material/m5.html::segment-10"> ergibt 8.</span></li>
+<li><code>=24/(6*2)</code><span data-edit-text="material/m5.html::segment-11"> ergibt 2.</span></li>
+</ul>
+<p data-edit-text="material/m5.html::text-12">Klammern müssen paarweise vorhanden sein. Eine verständliche Formel ist wichtiger als eine möglichst kurze Formel. Bei komplexeren Rechnungen können Zwischenergebnisse in eigenen Zellen sinnvoll sein.</p>
+<h2 id="6-mit-zellbezügen-rechnen" data-edit-text="material/m5.html::text-13">6. Mit Zellbezügen rechnen</h2>
+<p><span data-edit-text="material/m5.html::segment-12">Eine Formel wie </span><code>=6*8</code><span data-edit-text="material/m5.html::segment-13"> funktioniert, ist aber für wechselnde Eingaben ungeeignet. Steht die Menge in B2 und der Einzelpreis in C2, lautet die passende Formel </span><code>=B2*C2</code><span data-edit-text="material/m5.html::segment-14">. Bei einer Änderung der Menge oder des Preises bleibt die Formel unverändert und das Ergebnis wird neu berechnet.</span></p>
+<p><span data-edit-text="material/m5.html::segment-15">Eingabewerte und Berechnungsergebnisse sollten getrennt und eindeutig beschriftet sein. Wiederkehrende Berechnungen lassen sich kopieren. Dabei ändern sich normale Zellbezüge passend zur neuen Position: Aus </span><code>=B2*C2</code><span data-edit-text="material/m5.html::segment-16"> wird eine Zeile tiefer </span><code>=B3*C3</code><span data-edit-text="material/m5.html::segment-17">. Feste Zellbezüge mit Dollarzeichen werden in M7 ausführlich behandelt.</span></p>
+<h2 id="7-formeln-eingeben-bearbeiten-und-kopieren" data-edit-text="material/m5.html::text-14">7. Formeln eingeben, bearbeiten und kopieren</h2>
+<p><img src="Grafiken/G7b_Formeln_eingeben.png" alt="Klick-Anleitung für Formeleingabe und Ausfüllkästchen" data-edit-image="material/m5.html::image-3"></p>
+<p><strong data-edit-text="material/m5.html::segment-18">Klick-Anleitung: Formel erstellen</strong></p>
+<ol type="1">
+<li data-edit-text="material/m5.html::text-15">Die vorgesehene Ergebniszelle anklicken.</li>
+<li data-edit-text="material/m5.html::text-16">Das Gleichheitszeichen eingeben.</li>
+<li data-edit-text="material/m5.html::text-17">Die erste benötigte Zelle anklicken oder ihre Adresse eingeben.</li>
+<li data-edit-text="material/m5.html::text-18">Den Rechenoperator eingeben.</li>
+<li data-edit-text="material/m5.html::text-19">Die zweite benötigte Zelle anklicken oder ihre Adresse eingeben.</li>
+<li data-edit-text="material/m5.html::text-20">Mit Enter bestätigen.</li>
+<li data-edit-text="material/m5.html::text-21">Ergebnis und Formel in der Bearbeitungsleiste kontrollieren.</li>
+</ol>
+<p><strong data-edit-text="material/m5.html::segment-19">Klick-Anleitung: Formel korrigieren</strong></p>
+<ol type="1">
+<li data-edit-text="material/m5.html::text-22">Ergebniszelle auswählen.</li>
+<li data-edit-text="material/m5.html::text-23">In die Bearbeitungsleiste klicken oder F2 drücken.</li>
+<li data-edit-text="material/m5.html::text-24">Den fehlerhaften Bestandteil ändern.</li>
+<li data-edit-text="material/m5.html::text-25">Mit Enter bestätigen; mit Esc lässt sich eine noch nicht bestätigte Änderung abbrechen.</li>
+</ol>
+<p><strong data-edit-text="material/m5.html::segment-20">Klick-Anleitung: Formel nach unten übertragen</strong></p>
+<ol type="1">
+<li data-edit-text="material/m5.html::text-26">Zelle mit der geprüften Formel auswählen.</li>
+<li data-edit-text="material/m5.html::text-27">Das kleine Ausfüllkästchen unten rechts an der Zellmarkierung greifen.</li>
+<li data-edit-text="material/m5.html::text-28">Bis zur letzten benötigten Zeile nach unten ziehen.</li>
+<li data-edit-text="material/m5.html::text-29">Eine kopierte Formel anklicken und ihre Zellbezüge kontrollieren.</li>
+</ol>
+<p data-edit-text="material/m5.html::text-30">Alternativ kann die Formel mit Strg+C kopiert und mit Strg+V eingefügt werden. Dabei werden relative Bezüge ebenfalls angepasst. Nicht versehentlich nur Werte einfügen.</p>
+<h2 id="8-automatische-neuberechnung" data-edit-text="material/m5.html::text-31">8. Automatische Neuberechnung</h2>
+<p data-edit-text="material/m5.html::text-32">Excel berechnet Formeln normalerweise automatisch neu. Eine Funktionsprüfung gelingt durch vorübergehendes Ändern eines Eingabewerts. Das Ergebnis muss sich passend ändern. Anschließend den ursprünglichen Wert wiederherstellen.</p>
+<p><span data-edit-text="material/m5.html::segment-21">Wenn sich Ergebnisse nicht aktualisieren, unter </span><strong data-edit-text="material/m5.html::segment-24">Formeln – Berechnungsoptionen</strong><span data-edit-text="material/m5.html::segment-22"> prüfen, ob </span><strong data-edit-text="material/m5.html::segment-25">Automatisch</strong><span data-edit-text="material/m5.html::segment-23"> eingestellt ist. F9 stößt eine Neuberechnung an. Auch als Text gespeicherte Formeln oder falsche Zellbezüge können die Ursache sein.</span></p>
+<h2 id="9-rundung-und-dezimalstellen" data-edit-text="material/m5.html::text-33">9. Rundung und Dezimalstellen</h2>
+<p data-edit-text="material/m5.html::text-34">Wie in M4 erläutert, verändert die Anzeige von zwei Nachkommastellen nicht den gespeicherten Rechenwert. Für eine tatsächliche Rundung auf Cent kann die Funktion RUNDEN verwendet werden.</p>
+<p><code>=RUNDEN(10/3;2)</code><span data-edit-text="material/m5.html::segment-26"> ergibt 3,33. Die 2 bezeichnet die Anzahl der Nachkommastellen. Das Semikolon trennt in der üblichen deutschen Excel-Konfiguration die Funktionsargumente.</span></p>
+<p data-edit-text="material/m5.html::text-35">Bei kaufmännischen Berechnungen ist entscheidend, an welcher Stelle gerundet werden soll. Drei einzeln auf 3,33 gerundete Beträge ergeben 9,99; eine ungerundete Berechnung von drei Dritteln von 10 ergibt 10. Die betriebliche Rundungsregel bestimmt, welcher Rechenweg anzuwenden ist. Nicht wahllos Zwischenergebnisse runden.</p>
+<h2 id="10-unabhängiges-betriebliches-anwendungsbeispiel" data-edit-text="material/m5.html::text-36">10. Unabhängiges betriebliches Anwendungsbeispiel</h2>
+<p data-edit-text="material/m5.html::text-37">Für eine interne Schulung der Global Bike Deutschland GmbH werden beispielhaft Schulungsunterlagen kalkuliert. Die Daten gehören nicht zum Arbeitsauftrag M1.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Zeile</th>
+<th>A – Position</th>
+<th style="text-align: right;">B – Menge</th>
+<th style="text-align: right;">C – Einzelpreis</th>
+<th style="text-align: right;">D – Gesamtpreis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2</td>
+<td>Schulungshefte</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">4,50 €</td>
+<td style="text-align: right;">54,00 €</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Namensschilder</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">1,25 €</td>
+<td style="text-align: right;">15,00 €</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Moderationskarten</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">6,80 €</td>
+<td style="text-align: right;">20,40 €</td>
+</tr>
+</tbody>
+</table>
+<p><span data-edit-text="material/m5.html::segment-27">Die Überschriften stehen in Zeile 1. In D2 steht </span><code>=B2*C2</code><span data-edit-text="material/m5.html::segment-28">, in D3 </span><code>=B3*C3</code><span data-edit-text="material/m5.html::segment-29">, in D4 </span><code>=B4*C4</code><span data-edit-text="material/m5.html::segment-30">. Die Preise werden als Währung formatiert.</span></p>
+<table>
+<thead>
+<tr class="header">
+<th>Zelle</th>
+<th>Inhalt oder Formel</th>
+<th style="text-align: right;">Ergebnis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D5</td>
+<td><code>=D2+D3+D4</code></td>
+<td style="text-align: right;">89,40 €</td>
+</tr>
+<tr class="even">
+<td>D6</td>
+<td>Eingabewert: genehmigter Betrag</td>
+<td style="text-align: right;">120,00 €</td>
+</tr>
+<tr class="odd">
+<td>D7</td>
+<td><code>=D6-D5</code></td>
+<td style="text-align: right;">30,60 €</td>
+</tr>
+<tr class="even">
+<td>B8</td>
+<td>Eingabewert: Teilnehmende</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr class="odd">
+<td>D8</td>
+<td><code>=D5/B8</code></td>
+<td style="text-align: right;">7,45 €</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m5.html::text-38">Die Bezeichnungen für die Auswertungen stehen in Spalte A. Der genehmigte Betrag und die Teilnehmerzahl sind Eingabewerte, keine Ergebnisse. Wenn B2 auf 14 geändert wird, ergeben sich in D2 63,00 €, in D5 98,40 €, in D7 21,60 € und in D8 8,20 €. Die Teilnehmerzahl bleibt bei dieser Kontrolländerung unverändert. Anschließend B2 wieder auf 12 setzen.</p>
+<p data-edit-text="material/m5.html::text-39">Dieses Beispiel zeigt alle vier Grundrechenarten und die Abhängigkeit der Ergebnisse von den Eingaben. Die Addition mehrerer Zellen wird in M6 durch SUMME vereinfacht.</p>
+<h2 id="11-typische-fehler-und-deren-behebung" data-edit-text="material/m5.html::text-40">11. Typische Fehler und deren Behebung</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Beobachtung</th>
+<th>Mögliche Ursache</th>
+<th>Kontrolle und Behebung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Formel erscheint als Text</td>
+<td>Textformat oder vorangestelltes Apostroph</td>
+<td>Standardformat wählen, Apostroph entfernen, Formel erneut bestätigen</td>
+</tr>
+<tr class="even">
+<td>Ergebnis bleibt gleich</td>
+<td>Fest eingetragene Zahl statt Formel</td>
+<td>Bearbeitungsleiste prüfen, Formel einsetzen</td>
+</tr>
+<tr class="odd">
+<td>Falsches Produkt</td>
+<td>Falscher Zellbezug</td>
+<td>Adressen mit Überschriften vergleichen</td>
+</tr>
+<tr class="even">
+<td>Formel wird nicht akzeptiert</td>
+<td>Falscher Operator oder fehlende Klammer</td>
+<td>Syntax und Klammerpaare prüfen</td>
+</tr>
+<tr class="odd">
+<td>#DIV/0!</td>
+<td>Division durch null oder leere Bezugszelle</td>
+<td>Nenner prüfen; fehlende Eingabe klären</td>
+</tr>
+<tr class="even">
+<td>#WERT!</td>
+<td>Ungeeigneter Datentyp, etwa Text statt Zahl</td>
+<td>Eingabewerte und Formate prüfen</td>
+</tr>
+<tr class="odd">
+<td>#BEZUG!</td>
+<td>Ungültiger Zellbezug, etwa nach Löschen einer Spalte</td>
+<td>Richtigen Bezug wiederherstellen</td>
+</tr>
+<tr class="even">
+<td>#NAME?</td>
+<td>Unbekannter Funktionsname oder nicht definierter Name</td>
+<td>Schreibweise und Sprache prüfen</td>
+</tr>
+<tr class="odd">
+<td>####</td>
+<td>Spalte zu schmal, gegebenenfalls negativer Datumswert</td>
+<td>Spalte verbreitern und Wert prüfen</td>
+</tr>
+<tr class="even">
+<td>Zirkelbezug</td>
+<td>Formel hängt direkt oder indirekt von sich selbst ab</td>
+<td>Abhängigkeiten prüfen und korrigieren</td>
+</tr>
+<tr class="odd">
+<td>Unerwartete Centabweichung</td>
+<td>Anzeige gerundet, Rechenwert nicht</td>
+<td>Rundungsregel und tatsächliche Werte prüfen</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m5.html::text-41">Fehlermeldungen nicht durch beliebige Zahlen oder leere Texte verdecken. Zuerst die Ursache klären. Ein scheinbar plausibles Ergebnis ist kein Beweis für eine richtige Formel.</p>
+<h2 id="12-freiwillige-selbstkontrolle" data-edit-text="material/m5.html::text-42">12. Freiwillige Selbstkontrolle</h2>
+<p data-edit-text="material/m5.html::text-43">Die folgenden Fragen können zur eigenen Überprüfung genutzt werden. Es ist keine zusätzliche Abgabe erforderlich.</p>
+<ol type="1">
+<li data-edit-text="material/m5.html::text-44">Womit beginnt eine Formel?</li>
+<li data-edit-text="material/m5.html::text-45">Welche Formel multipliziert B4 mit C4?</li>
+<li><span data-edit-text="material/m5.html::segment-31">Was ergibt </span><code>=8+2*5</code><span data-edit-text="material/m5.html::segment-32">?</span></li>
+<li><span data-edit-text="material/m5.html::segment-33">Was ergibt </span><code>=(8+2)*5</code><span data-edit-text="material/m5.html::segment-34">?</span></li>
+<li><span data-edit-text="material/m5.html::segment-35">Wie verändert sich </span><code>=B4*C4</code><span data-edit-text="material/m5.html::segment-36">, wenn sie eine Zeile nach unten kopiert wird?</span></li>
+<li data-edit-text="material/m5.html::text-46">Warum ist eine Formel einem fest eingetragenen Ergebnis vorzuziehen?</li>
+<li data-edit-text="material/m5.html::text-47">Was bedeutet #DIV/0!?</li>
+<li data-edit-text="material/m5.html::text-48">Was unterscheidet das Zahlenformat mit zwei Dezimalstellen von RUNDEN?</li>
+<li data-edit-text="material/m5.html::text-49">Wie lässt sich prüfen, ob eine Berechnung auf geänderte Eingaben reagiert?</li>
+</ol>
+<p><strong data-edit-text="material/m5.html::segment-37">Kontrollhinweise</strong></p>
+<ol type="1">
+<li><span data-edit-text="material/m5.html::segment-38">Mit </span><code>=</code><span data-edit-text="material/m5.html::segment-39">.</span></li>
+<li><code>=B4*C4</code><span data-edit-text="material/m5.html::segment-40">.</span></li>
+<li><ol start="18" type="1">
+<li>
+</li></ol></li>
+<li><ol start="50" type="1">
+<li>
+</li></ol></li>
+<li><code>=B5*C5</code><span data-edit-text="material/m5.html::segment-41">.</span></li>
+<li data-edit-text="material/m5.html::text-50">Das Ergebnis wird bei geänderten Eingaben automatisch neu berechnet, sofern die automatische Berechnung aktiv ist.</li>
+<li data-edit-text="material/m5.html::text-51">Es wird durch null oder einen als null behandelten leeren Bezug dividiert.</li>
+<li data-edit-text="material/m5.html::text-52">Das Format verändert die Anzeige; RUNDEN verändert das berechnete Ergebnis.</li>
+<li data-edit-text="material/m5.html::text-53">Einen Eingabewert testweise ändern, erwartetes und tatsächliches Ergebnis vergleichen und den ursprünglichen Wert wiederherstellen.</li>
+</ol>
+<h2 id="13-weiterführende-materialien" data-edit-text="material/m5.html::text-54">13. Weiterführende Materialien</h2>
+<p><span data-edit-text="material/m5.html::segment-42">M6 vertieft SUMME, </span><a href="../ls-glossar.html?from=material%2Fm5.html%23wort-min#min" id="wort-min" data-edit-text="material/m5.html::segment-44" data-edit-link="material/m5.html::link-3">MIN</a><span data-edit-text="material/m5.html::segment-43">, MAX und MITTELWERT. M7 behandelt relative und absolute Zellbezüge, M8 prozentuale Anteile und M9 Datums- und Fristenberechnungen. M14 greift die Funktionsprüfung und Wiederverwendbarkeit auf. M5 bleibt während der gesamten Lernsituation als Nachschlagewerk verfügbar.</span></p>
+</article></article></section>
+  </div>
+</div>
+</div>
+<p><a href="m5.md" download data-edit-text="material/m5.html::segment-45" data-edit-link="material/m5.html::link-4">Bearbeitbare Textfassung</a></p>
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

@@ -1,0 +1,27 @@
+/* BFS dual school branding and three-part footer based on BRC LG01 LS04. */
+header[data-bfs-school]{display:flex;align-items:center;justify-content:flex-end!important}
+header[data-bfs-school] img[src$="bbs1-aurich.svg"]{display:block}
+footer[data-bfs-chrome]{display:block;min-width:0}
+footer[data-bfs-chrome].bfs-standalone-footer{box-sizing:border-box;width:min(100%,70rem);margin:1.5rem auto 0;padding:0 1.25rem 1rem}
+footer[data-bfs-chrome] .bfs-school-links{
+  width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);
+  align-items:center;gap:.65rem;margin:1rem 0;padding:.8rem 0;border-block:1px solid #d7e3e9
+}
+.bfs-school-links .bfs-school-group{display:flex;align-items:center;gap:.4rem}
+.bfs-school-links .bfs-school-tools{justify-self:start}
+.bfs-school-links .bfs-school-loeppt{justify-self:center}
+.bfs-school-links .bfs-school-social{justify-self:end}
+.bfs-school-links a{display:grid;place-items:center;min-width:42px;min-height:42px;border-radius:8px;padding:0;background:transparent;box-shadow:none}
+.bfs-school-links a:is(:hover,:focus-visible){background:#e6f4fa;outline:2px solid #157aa2;outline-offset:2px}
+.bfs-school-links .bfs-school-group img{display:block;object-fit:contain;width:42px;height:42px;max-width:none;max-height:none}
+.bfs-school-links .bfs-school-loeppt img{width:76px;height:46px}
+@media(max-width:610px){
+ .bfs-school-links .bfs-school-group{gap:4px}
+ .bfs-school-links .bfs-school-social{display:grid;grid-template-columns:repeat(2,42px)}
+}
+@media(max-width:355px){
+ footer[data-bfs-chrome] .bfs-school-links{gap:3px}
+ .bfs-school-links .bfs-school-tools{display:grid;grid-template-columns:42px}
+ .bfs-school-links .bfs-school-loeppt img{width:58px}
+}
+@media print{.bfs-school-links,.bfs-standalone-footer{display:none!important}}

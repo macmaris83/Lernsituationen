@@ -1,0 +1,43 @@
+/* The same compact disclosure and light-green paper as BRC LG01 LS04. */
+html body details.bfs-material-access,
+html body .main .lesson-content > details.bfs-material-access {
+  box-sizing:border-box; display:block; clear:both; min-width:0; width:100%;
+  margin:12px 0; padding:6px 12px; border:1px solid #dce8bc;
+  border-radius:12px; color:#173a63; background:#f3f8e7!important;
+  box-shadow:none; font:inherit; overflow:visible;
+}
+html body details.bfs-material-access > summary {
+  display:list-item; cursor:pointer; color:#173a63; font:700 1rem/1.4 system-ui,sans-serif;
+  list-style:revert; padding:4px 0; margin:0; background:transparent;
+}
+html body details.bfs-material-access[open] > summary {margin-bottom:8px}
+html body details.bfs-material-access:not([open]) > nav {display:none!important}
+html body details.bfs-material-access > .material-grid {
+  position:static; display:flex; flex-direction:row; flex-wrap:wrap; gap:6px;
+  align-items:stretch; width:100%; min-width:0; max-height:none; margin:0; padding:0 0 4px;
+  background:transparent; border:0; box-shadow:none; overflow:visible;
+}
+html body details.bfs-material-access .material-link {
+  display:inline-flex; flex:0 1 auto; align-items:baseline; gap:4px;
+  line-height:1.4; font-size:.82rem; min-height:32px; min-width:0; max-width:100%;
+  white-space:normal; overflow-wrap:anywhere; box-sizing:border-box; margin:0;
+  text-decoration:none; color:#174968; background:white; border:1px solid #cbdca0;
+  padding:6px 9px; border-radius:8px; font-family:system-ui,sans-serif; font-weight:500;
+}
+html body details.bfs-material-access .material-link b { flex:none; padding:0; color:#173a63; background:transparent; font-weight:750; }
+html body details.bfs-material-access .material-link span { min-width:0; }
+html body details.bfs-material-access .material-link:hover {border-color:#739136; text-decoration:underline}
+html body details.bfs-material-access .material-link[aria-current=page] {background:#e2edc4; border-color:#829c4c}
+html body details.bfs-material-access :is(summary,a):focus-visible,
+html body .bfs-material-return:focus-visible {outline:3px solid #1769a0; outline-offset:2px}
+html body.task-focus .lesson-content > details.bfs-material-access {
+  position:sticky; top:0; z-index:90; margin:0 0 12px;
+}
+html body.task-focus .lesson-content > details.bfs-material-access[open] > nav { max-height:42vh; overflow:auto; }
+.bfs-material-strip {box-sizing:border-box; max-width:100%; margin:.6rem 0 1rem}
+.bfs-material-strip .bfs-material-return {display:inline-block; color:#174968; font:650 .93rem/1.5 system-ui,sans-serif; text-decoration:underline; text-underline-offset:.15em; padding:.2rem 0}
+.gb-material > .bfs-material-strip {width:min(55rem,calc(100% - 2rem)); margin-inline:auto}
+.bfs-material-strip nav {margin:0}
+.bfs-material-access .bfs-directory {font-weight:700!important}
+[data-bfs-replaced] { display:none!important }
+@media print {html body details.bfs-material-access, .bfs-material-strip,.bfs-material-position{display:none!important}}

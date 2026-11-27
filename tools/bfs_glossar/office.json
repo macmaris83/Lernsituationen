@@ -1,0 +1,12 @@
+[
+  ["bueroform", "Büroform", "Die räumliche Organisation der Arbeitsplätze, etwa als Einzelbüro, Gruppenbüro, Großraumbüro oder Kombibüro.", "Welche Büroform passt, hängt unter anderem davon ab, wie viel Ruhe, Vertraulichkeit und Abstimmung die Aufgaben erfordern."],
+  ["einzelbuero", "Einzelbüro", "Ein Raum mit einem einzelnen Arbeitsplatz.", "Ein Einzelbüro erleichtert konzentriertes Arbeiten und vertrauliche Telefonate. Für Absprachen muss man bewusst Kontakt aufnehmen."],
+  ["gruppenbuero", "Gruppenbüro", "Ein gemeinsamer Raum für mehrere Mitarbeitende eines Teams.", "Kurze Rückfragen sind leicht möglich. Regelmäßige Telefonate können andere bei der Arbeit stören."],
+  ["grossraumbuero", "Großraumbüro", "Eine weitgehend offene Bürofläche mit vielen Arbeitsplätzen.", "Absprachen sind schnell möglich. Lärm und Ablenkung brauchen geeignete Maßnahmen."],
+  ["kombibuero", "Kombibüro", "Eine Büroform mit eigenen Arbeitsräumen und gemeinsam genutzten Bereichen.", "Konzentriertes Arbeiten und Austausch finden in unterschiedlichen Bereichen statt."],
+  ["ergonomie", "Ergonomie", "Die Gestaltung von Arbeitsplatz, Ausstattung und Arbeitsablauf passend zu den Menschen, die dort arbeiten.", "Ein verstellbarer Stuhl, ein passend positionierter Bildschirm und wechselnde Sitzpositionen können körperliche Belastungen senken."],
+  ["blickabstand", "Blickabstand", "Der Abstand zwischen den Augen und dem Bildschirm.", "Der passende Abstand hängt unter anderem von Bildschirmgröße und Schriftgröße ab."],
+  ["arbeitsschutz", "Arbeitsschutz", "Maßnahmen zur Vermeidung von Unfällen und arbeitsbedingten Gesundheitsgefahren.", "Ein freier Fluchtweg und gesicherte Kabel helfen, Gefährdungen im Büro zu verringern."],
+  ["fluchtweg", "Fluchtweg", "Ein gekennzeichneter Weg, über den Beschäftigte einen gefährdeten Bereich verlassen können.", "Er muss frei bleiben, damit er im Notfall sofort nutzbar ist."],
+  ["nachhaltigkeit", "Nachhaltigkeit", "Im Büro heißt das unter anderem, Material, Energie und andere Ressourcen bewusst einzusetzen.", "Weniger unnötige Ausdrucke und ein sparsamer Umgang mit Energie sind konkrete Maßnahmen."]
+]

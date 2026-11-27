@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="630" viewBox="0 0 1100 630" role="img" aria-labelledby="title description">
+<title id="title">Verkaufte Stücke je Artikel</title>
+<desc id="description">Vergleichswoche und Aktionswoche. L10 LED-Lichtset: Block 12 und 14. S20 Bügelschloss: Block 10 und 12. T30 Rahmentasche: Block 8 und 9. P50 Minipumpe: Block 5 und 6. R40 Sattelüberzug: Block 5 und 5. F60 Flaschenhalter: Block ohne Aktionsangebot. B80 Reflektorband: Block ohne Aktionsangebot. L10 LED-Lichtset: Bike Arena 10 und 13. S20 Bügelschloss: Bike Arena 8 und 10. T30 Rahmentasche: Bike Arena 10 und 11. P50 Minipumpe: Bike Arena 17 und 22. R40 Sattelüberzug: Bike Arena ohne Aktionsangebot. F60 Flaschenhalter: Bike Arena 8 und 10. B80 Reflektorband: Bike Arena 7 und 9</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="1" y="1" width="1098" height="628" rx="14" fill="#f5f8f5" stroke="#205e2b" stroke-width="2"/>
+<text x="27" y="45" fill="#205e2b" font-size="34" font-weight="700" text-anchor="start">Verkaufte Stücke je Artikel</text>
+<rect x="27" y="67" width="26" height="14" rx="3" fill="#78a36f" stroke="none" stroke-width="1"/>
+<text x="64" y="80" fill="#17251b" font-size="19" font-weight="400" text-anchor="start">Vergleichswoche</text>
+<rect x="270" y="67" width="26" height="14" rx="3" fill="#205e2b" stroke="none" stroke-width="1"/>
+<text x="307" y="80" fill="#17251b" font-size="19" font-weight="400" text-anchor="start">Aktionswoche</text>
+<text x="254" y="127" fill="#205e2b" font-size="23" font-weight="700" text-anchor="start">Block · Aurich</text>
+<text x="685" y="127" fill="#205e2b" font-size="23" font-weight="700" text-anchor="start">Bike Arena · Leer</text>
+<rect x="20" y="157" width="1060" height="55" rx="5" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="29" y="191" fill="#205e2b" font-size="19" font-weight="700" text-anchor="start">L10</text>
+<text x="88" y="191" fill="#17251b" font-size="20" font-weight="600" text-anchor="start">LED-Lichtset</text>
+<rect x="20" y="217" width="1060" height="55" rx="5" fill="#edf2ed" stroke="none" stroke-width="1"/>
+<text x="29" y="251" fill="#205e2b" font-size="19" font-weight="700" text-anchor="start">S20</text>
+<text x="88" y="251" fill="#17251b" font-size="20" font-weight="600" text-anchor="start">Bügelschloss</text>
+<rect x="20" y="277" width="1060" height="55" rx="5" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="29" y="311" fill="#205e2b" font-size="19" font-weight="700" text-anchor="start">T30</text>
+<text x="88" y="311" fill="#17251b" font-size="20" font-weight="600" text-anchor="start">Rahmentasche</text>
+<rect x="20" y="337" width="1060" height="55" rx="5" fill="#edf2ed" stroke="none" stroke-width="1"/>
+<text x="29" y="371" fill="#205e2b" font-size="19" font-weight="700" text-anchor="start">P50</text>
+<text x="88" y="371" fill="#17251b" font-size="20" font-weight="600" text-anchor="start">Minipumpe</text>
+<rect x="20" y="397" width="1060" height="55" rx="5" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="29" y="431" fill="#205e2b" font-size="19" font-weight="700" text-anchor="start">R40</text>
+<text x="88" y="431" fill="#17251b" font-size="20" font-weight="600" text-anchor="start">Sattelüberzug</text>
+<rect x="20" y="457" width="1060" height="55" rx="5" fill="#edf2ed" stroke="none" stroke-width="1"/>
+<text x="29" y="491" fill="#205e2b" font-size="19" font-weight="700" text-anchor="start">F60</text>
+<text x="88" y="491" fill="#17251b" font-size="20" font-weight="600" text-anchor="start">Flaschenhalter</text>
+<rect x="20" y="517" width="1060" height="55" rx="5" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="29" y="551" fill="#205e2b" font-size="19" font-weight="700" text-anchor="start">B80</text>
+<text x="88" y="551" fill="#17251b" font-size="20" font-weight="600" text-anchor="start">Reflektorband</text>
+<line x1="254.0" y1="151" x2="254.0" y2="574" stroke="#a4b1a6" stroke-width="1"/>
+<text x="254.0" y="597" fill="#4f5f52" font-size="16" font-weight="400" text-anchor="middle">0</text>
+<line x1="321.0" y1="151" x2="321.0" y2="574" stroke="#d8e0d8" stroke-width="1"/>
+<text x="321.0" y="597" fill="#4f5f52" font-size="16" font-weight="400" text-anchor="middle">5</text>
+<line x1="388.0" y1="151" x2="388.0" y2="574" stroke="#d8e0d8" stroke-width="1"/>
+<text x="388.0" y="597" fill="#4f5f52" font-size="16" font-weight="400" text-anchor="middle">10</text>
+<line x1="455.0" y1="151" x2="455.0" y2="574" stroke="#d8e0d8" stroke-width="1"/>
+<text x="455.0" y="597" fill="#4f5f52" font-size="16" font-weight="400" text-anchor="middle">15</text>
+<line x1="522.0" y1="151" x2="522.0" y2="574" stroke="#d8e0d8" stroke-width="1"/>
+<text x="522.0" y="597" fill="#4f5f52" font-size="16" font-weight="400" text-anchor="middle">20</text>
+<line x1="589.0" y1="151" x2="589.0" y2="574" stroke="#d8e0d8" stroke-width="1"/>
+<text x="589.0" y="597" fill="#4f5f52" font-size="16" font-weight="400" text-anchor="middle">25</text>
+<line x1="685.0" y1="151" x2="685.0" y2="574" stroke="#a4b1a6" stroke-width="1"/>
+<text x="685.0" y="597" fill="#4f5f52" font-size="16" font-weight="400" text-anchor="middle">0</text>
+<line x1="752.0" y1="151" x2="752.0" y2="574" stroke="#d8e0d8" stroke-width="1"/>
+<text x="752.0" y="597" fill="#4f5f52" font-size="16" font-weight="400" text-anchor="middle">5</text>
+<line x1="819.0" y1="151" x2="819.0" y2="574" stroke="#d8e0d8" stroke-width="1"/>
+<text x="819.0" y="597" fill="#4f5f52" font-size="16" font-weight="400" text-anchor="middle">10</text>
+<line x1="886.0" y1="151" x2="886.0" y2="574" stroke="#d8e0d8" stroke-width="1"/>
+<text x="886.0" y="597" fill="#4f5f52" font-size="16" font-weight="400" text-anchor="middle">15</text>
+<line x1="953.0" y1="151" x2="953.0" y2="574" stroke="#d8e0d8" stroke-width="1"/>
+<text x="953.0" y="597" fill="#4f5f52" font-size="16" font-weight="400" text-anchor="middle">20</text>
+<line x1="1020.0" y1="151" x2="1020.0" y2="574" stroke="#d8e0d8" stroke-width="1"/>
+<text x="1020.0" y="597" fill="#4f5f52" font-size="16" font-weight="400" text-anchor="middle">25</text>
+<rect x="254" y="166" width="160.8" height="15" rx="2" fill="#78a36f" stroke="none" stroke-width="1"/>
+<text x="421.8" y="179" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">12</text>
+<rect x="254" y="188" width="187.6" height="15" rx="2" fill="#205e2b" stroke="none" stroke-width="1"/>
+<text x="448.6" y="201" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">14</text>
+<rect x="685" y="166" width="134.0" height="15" rx="2" fill="#78a36f" stroke="none" stroke-width="1"/>
+<text x="826.0" y="179" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">10</text>
+<rect x="685" y="188" width="174.20000000000002" height="15" rx="2" fill="#205e2b" stroke="none" stroke-width="1"/>
+<text x="866.2" y="201" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">13</text>
+<rect x="254" y="226" width="134.0" height="15" rx="2" fill="#78a36f" stroke="none" stroke-width="1"/>
+<text x="395.0" y="239" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">10</text>
+<rect x="254" y="248" width="160.8" height="15" rx="2" fill="#205e2b" stroke="none" stroke-width="1"/>
+<text x="421.8" y="261" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">12</text>
+<rect x="685" y="226" width="107.2" height="15" rx="2" fill="#78a36f" stroke="none" stroke-width="1"/>
+<text x="799.2" y="239" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">8</text>
+<rect x="685" y="248" width="134.0" height="15" rx="2" fill="#205e2b" stroke="none" stroke-width="1"/>
+<text x="826.0" y="261" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">10</text>
+<rect x="254" y="286" width="107.2" height="15" rx="2" fill="#78a36f" stroke="none" stroke-width="1"/>
+<text x="368.2" y="299" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">8</text>
+<rect x="254" y="308" width="120.60000000000001" height="15" rx="2" fill="#205e2b" stroke="none" stroke-width="1"/>
+<text x="381.6" y="321" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">9</text>
+<rect x="685" y="286" width="134.0" height="15" rx="2" fill="#78a36f" stroke="none" stroke-width="1"/>
+<text x="826.0" y="299" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">10</text>
+<rect x="685" y="308" width="147.4" height="15" rx="2" fill="#205e2b" stroke="none" stroke-width="1"/>
+<text x="839.4" y="321" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">11</text>
+<rect x="254" y="346" width="67.0" height="15" rx="2" fill="#78a36f" stroke="none" stroke-width="1"/>
+<text x="328.0" y="359" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">5</text>
+<rect x="254" y="368" width="80.4" height="15" rx="2" fill="#205e2b" stroke="none" stroke-width="1"/>
+<text x="341.4" y="381" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">6</text>
+<rect x="685" y="346" width="227.8" height="15" rx="2" fill="#78a36f" stroke="none" stroke-width="1"/>
+<text x="919.8" y="359" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">17</text>
+<rect x="685" y="368" width="294.8" height="15" rx="2" fill="#205e2b" stroke="none" stroke-width="1"/>
+<text x="986.8" y="381" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">22</text>
+<rect x="254" y="406" width="67.0" height="15" rx="2" fill="#78a36f" stroke="none" stroke-width="1"/>
+<text x="328.0" y="419" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">5</text>
+<rect x="254" y="428" width="67.0" height="15" rx="2" fill="#205e2b" stroke="none" stroke-width="1"/>
+<text x="328.0" y="441" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">5</text>
+<text x="697" y="431" fill="#4f5f52" font-size="22" font-weight="700" text-anchor="start">–</text>
+<text x="266" y="491" fill="#4f5f52" font-size="22" font-weight="700" text-anchor="start">–</text>
+<rect x="685" y="466" width="107.2" height="15" rx="2" fill="#78a36f" stroke="none" stroke-width="1"/>
+<text x="799.2" y="479" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">8</text>
+<rect x="685" y="488" width="134.0" height="15" rx="2" fill="#205e2b" stroke="none" stroke-width="1"/>
+<text x="826.0" y="501" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">10</text>
+<text x="266" y="551" fill="#4f5f52" font-size="22" font-weight="700" text-anchor="start">–</text>
+<rect x="685" y="526" width="93.8" height="15" rx="2" fill="#78a36f" stroke="none" stroke-width="1"/>
+<text x="785.8" y="539" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">7</text>
+<rect x="685" y="548" width="120.60000000000001" height="15" rx="2" fill="#205e2b" stroke="none" stroke-width="1"/>
+<text x="812.6" y="561" fill="#17251b" font-size="17" font-weight="700" text-anchor="start">9</text>
+<text x="27" y="599" fill="#4f5f52" font-size="16" font-weight="400" text-anchor="start">– nicht im Aktionssortiment</text>
+</g>
+</svg>

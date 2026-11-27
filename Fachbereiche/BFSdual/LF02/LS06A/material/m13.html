@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>M13 – Seitenlayout und Druckaufbereitung in Excel</title><link href="../assets/global-bike.css" rel="stylesheet"><style>main.excel{max-width:72rem;margin:auto;padding:1rem 3vw;background:white;font:1rem/1.55 system-ui;color:#17324b}.excel img{max-width:100%;height:auto}.excel table{display:block;overflow:auto;border-collapse:collapse}.excel td,.excel th{padding:.4rem;border:1px solid #b7c7d0}.excel a{text-decoration:underline}</style><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main class="excel">
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app acrobat" data-material-view="acrobat" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">PDF</span>
+    <strong>Adobe Acrobat Reader</strong><span class="file">m13</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Werkzeuge</span><span class="material-tab">Kommentieren</span><span class="material-tab">Ansicht</span><span class="material-kind">PDF-Unterlage</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Dokument</span><span class="material-rail-item is-active">Seiten</span><span class="material-rail-item">Lesezeichen</span></aside>
+    <section class="canvas"><article class="paper"><article><h1 id="m13--seitenlayout-und-druckaufbereitung-in-excel" data-edit-text="material/m13.html::text-1">M13 – Seitenlayout und Druckaufbereitung in Excel</h1>
+<p data-edit-text="material/m13.html::text-2">Global Bike Deutschland GmbH – Verwaltung</p>
+<h2 id="1-betrieblicher-nutzen" data-edit-text="material/m13.html::text-3">1. Betrieblicher Nutzen</h2>
+<p data-edit-text="material/m13.html::text-4">Eine fachlich richtige Tabelle ist nicht automatisch eine geeignete Besprechungsunterlage. Abgeschnittene Spalten, fehlende Überschriften, unlesbare Zahlen und versehentlich mitgedruckte interne Notizen erschweren Entscheidungen. Die Druckaufbereitung stellt sicher, dass die benötigten Informationen vollständig, verständlich und adressatengerecht vorliegen.</p>
+<p><span data-edit-text="material/m13.html::segment-1">Die bearbeitbare Excel-</span><a href="../ls-glossar.html?from=material%2Fm13.html%23wort-arbeitsmappe#arbeitsmappe" id="wort-arbeitsmappe" data-edit-text="material/m13.html::segment-3" data-edit-link="material/m13.html::link-1">Arbeitsmappe</a><span data-edit-text="material/m13.html::segment-2"> bleibt die Grundlage. Ein PDF ist eine Momentaufnahme und ersetzt weder Formeln noch Filter oder aktualisierbare Diagramme. M13 ergänzt M3 und M12. Die verbindlichen Ausgangsdaten stehen weiterhin in M1. Alle Beispiele in M13 sind davon unabhängige simulierte Schulungsdaten der Global Bike Deutschland GmbH, keine SAP-Daten und keine Hauptfalllösungen.</span></p>
+<p data-edit-text="material/m13.html::text-5">Die Klickwege beziehen sich auf deutschsprachiges Desktop-Excel unter Windows. Menünamen können je nach Version und Druckertreiber abweichen. Die Abbildungen sind schematische Lernhilfen, keine Originalscreenshots.</p>
+<h2 id="2-arbeitsblatt-druckseite-und-pdf-unterscheiden" data-edit-text="material/m13.html::text-6">2. Arbeitsblatt, Druckseite und PDF unterscheiden</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Begriff</th>
+<th>Bedeutung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Arbeitsmappe</td>
+<td>Excel-Datei mit einem oder mehreren Arbeitsblättern</td>
+</tr>
+<tr class="even">
+<td>Arbeitsblatt</td>
+<td>Bearbeitungsfläche mit Zellen, Formeln und gegebenenfalls Diagrammen</td>
+</tr>
+<tr class="odd">
+<td><a href="../ls-glossar.html?from=material%2Fm13.html%23wort-druckbereich#druckbereich" id="wort-druckbereich" data-edit-link="material/m13.html::link-2">Druckbereich</a></td>
+<td>Festgelegter Zellbereich, der ausgegeben werden soll</td>
+</tr>
+<tr class="even">
+<td>Papierformat</td>
+<td>Abmessungen des Ausgabeblatts, beispielsweise A4</td>
+</tr>
+<tr class="odd">
+<td>Ausrichtung</td>
+<td>Hochformat oder Querformat</td>
+</tr>
+<tr class="even">
+<td>Seitenrand</td>
+<td>Abstand zwischen Papierkante und nutzbarem Inhalt</td>
+</tr>
+<tr class="odd">
+<td>Skalierung</td>
+<td>Verkleinerung oder Vergrößerung der Ausgabe, nicht der Zellwerte</td>
+</tr>
+<tr class="even">
+<td>Seitenumbruch</td>
+<td>Grenze zwischen zwei Druckseiten</td>
+</tr>
+<tr class="odd">
+<td>Drucktitel</td>
+<td>Zeilen oder Spalten, die auf mehreren Druckseiten wiederholt werden</td>
+</tr>
+<tr class="even">
+<td>Kopf- und Fußzeile</td>
+<td>Wiederkehrende Angaben oberhalb oder unterhalb des Seiteninhalts</td>
+</tr>
+<tr class="odd">
+<td><a href="../ls-glossar.html?from=material%2Fm13.html%23wort-druckvorschau#druckvorschau" id="wort-druckvorschau" data-edit-link="material/m13.html::link-3">Druckvorschau</a></td>
+<td>Kontrolle der vorgesehenen Ausgabe vor dem Drucken</td>
+</tr>
+<tr class="even">
+<td>PDF</td>
+<td>Datei mit festem Seitenlayout für die Weitergabe</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m13.html::text-7">Die Normalansicht dient der Bearbeitung. Ansicht &gt; Seitenlayout zeigt die Aufteilung auf Papierseiten und Kopf- und Fußzeilen. Ansicht &gt; Umbruchvorschau zeigt die Seitenbegrenzungen. Die endgültige Kontrolle erfolgt über Datei &gt; Drucken. Der Bildschirmzoom verändert nur die Anzeige, nicht die Druckgröße.</p>
+<p><img src="Grafiken/G15_Ansichten.png" alt="Drei Ansichten und ihre Aufgaben" data-edit-image="material/m13.html::image-1"></p>
+<h2 id="3-unabhängiges-schulungsbeispiel-vorbereiten" data-edit-text="material/m13.html::text-8">3. Unabhängiges Schulungsbeispiel vorbereiten</h2>
+<p data-edit-text="material/m13.html::text-9">Die Verwaltung erstellt für eine interne Schulung eine Übersicht über Büroverbrauchsmaterial im Juli 2027. In einer neuen Übungsmappe steht in A1 der Titel Büroverbrauchsmaterial – Juli 2027. Zeile 2 bleibt frei. In Zeile 3 stehen die Überschriften.</p>
+<table>
+<thead>
+<tr class="header">
+<th>A: Datum</th>
+<th>B: Material</th>
+<th style="text-align: right;">C: Menge</th>
+<th style="text-align: right;">D: Einzelpreis netto</th>
+<th style="text-align: right;">E: Gesamt netto</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>05.07.2027</td>
+<td>Briefumschläge</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">5,50 €</td>
+<td style="text-align: right;">22,00 €</td>
+</tr>
+<tr class="even">
+<td>08.07.2027</td>
+<td>Etiketten</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">8,00 €</td>
+<td style="text-align: right;">24,00 €</td>
+</tr>
+<tr class="odd">
+<td>12.07.2027</td>
+<td>Druckpapier</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">6,40 €</td>
+<td style="text-align: right;">32,00 €</td>
+</tr>
+<tr class="even">
+<td>19.07.2027</td>
+<td>Ordner</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">7,50 €</td>
+<td style="text-align: right;">15,00 €</td>
+</tr>
+</tbody>
+</table>
+<p><span data-edit-text="material/m13.html::segment-4">Die Daten stehen in Zeilen 4 bis 7. E4 enthält </span><code>=C4*D4</code><span data-edit-text="material/m13.html::segment-5">, bis E7 kopiert. D8 enthält Gesamt netto, E8 </span><code>=SUMME(E4:E7)</code><span data-edit-text="material/m13.html::segment-6"> mit Ergebnis 93,00 EUR. Die Datumsspalte erhält ein Datumsformat, D und E ein Währungsformat mit zwei Nachkommastellen. Spaltenbreiten so einstellen, dass Überschriften und Werte sichtbar sind. Für die Schulung kann in G3 eine Notiz stehen: Nur interne Testnotiz. Sie gehört nicht zur Besprechungsunterlage.</span></p>
+<p data-edit-text="material/m13.html::text-10">Ein optionales Diagramm zu Material und Gesamtbetrag kann nach M11 und M12 aus B3:B7 und E3:E7 erstellt und innerhalb A10:E21 platziert werden. Die Summenzeile bleibt aus der Diagrammquelle ausgeschlossen. Das Beispiel zeigt nur einen möglichen Aufbau, nicht die Gestaltung des Hauptfalls.</p>
+<p><img src="Grafiken/G15a_Druckbereich.png" alt="Beispieltabelle und optionaler Diagrammbereich" data-edit-image="material/m13.html::image-2"></p>
+<h2 id="4-klick-anleitung-druckbereich-festlegen-und-ändern" data-edit-text="material/m13.html::text-11">4. Klick-Anleitung: Druckbereich festlegen und ändern</h2>
+<ol type="1">
+<li data-edit-text="material/m13.html::text-12">Das gewünschte Arbeitsblatt aktivieren.</li>
+<li data-edit-text="material/m13.html::text-13">Für die reine Tabelle A1:E8 markieren.</li>
+<li data-edit-text="material/m13.html::text-14">Register Seitenlayout öffnen.</li>
+<li data-edit-text="material/m13.html::text-15">Druckbereich &gt; Druckbereich festlegen wählen.</li>
+<li data-edit-text="material/m13.html::text-16">Datei &gt; Drucken öffnen.</li>
+<li><span data-edit-text="material/m13.html::segment-7">Kontrollieren, dass Titel, Überschriften, vier Datensätze und </span><a href="../ls-glossar.html?from=material%2Fm13.html%23wort-summe#summe" id="wort-summe" data-edit-text="material/m13.html::segment-9" data-edit-link="material/m13.html::link-4">Summe</a><span data-edit-text="material/m13.html::segment-8"> erscheinen, nicht aber die Testnotiz in G3.</span></li>
+<li data-edit-text="material/m13.html::text-17">Mit dem Zurück-Pfeil zur Arbeitsmappe wechseln.</li>
+<li data-edit-text="material/m13.html::text-18">Soll das optionale Diagramm mit ausgegeben werden, A1:E21 markieren und den Druckbereich erneut festlegen. Das Diagramm vollständig innerhalb des Bereichs platzieren.</li>
+<li data-edit-text="material/m13.html::text-19">Druckvorschau erneut kontrollieren.</li>
+</ol>
+<p data-edit-text="material/m13.html::text-20">Druckbereich &gt; Druckbereich aufheben entfernt die gespeicherte Einschränkung, nicht die Daten. Danach kann Excel wieder den gesamten verwendeten Bereich ausgeben. Druckbereich hinzufügen kann einen bestehenden Bereich erweitern; getrennte Bereiche werden normalerweise auf getrennten Seiten gedruckt. Für eine gemeinsame Seite ist ein zusammenhängender Bereich zweckmäßiger.</p>
+<p data-edit-text="material/m13.html::text-21">Der Druckbereich wird mit der Arbeitsmappe gespeichert. Neue Zeilen außerhalb eines festgelegten Bereichs werden nicht automatisch zuverlässig berücksichtigt. Nach Erweiterungen ist die Einstellung zu prüfen.</p>
+<p data-edit-text="material/m13.html::text-22">Eine einmalige Alternative: Zellen markieren &gt; Datei &gt; Drucken &gt; unter Einstellungen Auswahl drucken. Das ist nicht dasselbe wie ein dauerhaft gespeicherter Druckbereich.</p>
+<h2 id="5-papierformat-ausrichtung-und-seitenränder" data-edit-text="material/m13.html::text-23">5. Papierformat, Ausrichtung und Seitenränder</h2>
+<h3 id="papierformat" data-edit-text="material/m13.html::text-24">Papierformat</h3>
+<p data-edit-text="material/m13.html::text-25">Seitenlayout &gt; Größe &gt; A4 auswählen. A4 misst 210 × 297 mm. Das Papierformat muss zum Drucker und zur vorgesehenen PDF-Ausgabe passen. Bei abweichenden Einstellungen können Seitenumbrüche anders ausfallen.</p>
+<h3 id="hoch--und-querformat" data-edit-text="material/m13.html::text-26">Hoch- und Querformat</h3>
+<p data-edit-text="material/m13.html::text-27">Seitenlayout &gt; Ausrichtung &gt; Hochformat oder Querformat. Hochformat bietet mehr Höhe, Querformat mehr Breite. Eine schmale Terminliste kann im Hochformat gut lesbar sein; eine breite Auswertung mit mehreren Spalten kann Querformat benötigen. Die Wahl hängt vom tatsächlichen Inhalt ab.</p>
+<h3 id="seitenränder" data-edit-text="material/m13.html::text-28">Seitenränder</h3>
+<p data-edit-text="material/m13.html::text-29">Seitenlayout &gt; Seitenränder &gt; Normal, Breit oder Schmal wählen. Unter Benutzerdefinierte Seitenränder lassen sich Abstände einzeln einstellen. Im Dialog Seite einrichten, Register Seitenränder, kann die Ausgabe horizontal oder vertikal zentriert werden. Horizontales Zentrieren eignet sich häufig für eine kleine Tabelle; vertikales Zentrieren ist nicht immer sinnvoll.</p>
+<p data-edit-text="material/m13.html::text-30">Ränder dürfen nicht so klein sein, dass der Drucker Inhalte abschneidet. Kopf- und Fußzeilen benötigen ebenfalls Platz. Nach jeder Änderung die Vorschau kontrollieren.</p>
+<p><img src="Grafiken/G15b_Seitenformat.png" alt="A4-Ausrichtung und Seitenränder" data-edit-image="material/m13.html::image-3"></p>
+<h2 id="6-skalierung-eine-seite-oder-mehrere-lesbare-seiten" data-edit-text="material/m13.html::text-31">6. Skalierung: eine Seite oder mehrere lesbare Seiten?</h2>
+<p data-edit-text="material/m13.html::text-32">Die Schulungsanforderung einer einseitigen Tabelle ist bei überschaubaren Daten sinnvoll. Eine große Liste auf eine einzige Seite zu zwingen, kann sie unbrauchbar machen.</p>
+<p data-edit-text="material/m13.html::text-33">Klickweg: Seitenlayout &gt; Gruppe An Format anpassen (je nach Version Skalierung). Breite und Höhe auswählen.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Einstellung</th>
+<th>Wirkung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Breite 1 Seite, Höhe 1 Seite</td>
+<td>Gesamter Druckbereich wird auf eine Seite angepasst</td>
+</tr>
+<tr class="even">
+<td>Breite 1 Seite, Höhe Automatisch</td>
+<td>Alle Spalten passen in die Breite; mehrere Seiten nach unten sind möglich</td>
+</tr>
+<tr class="odd">
+<td>Breite und Höhe Automatisch</td>
+<td>Keine feste Seitenzahl; Prozentmaßstab kann eingestellt werden</td>
+</tr>
+<tr class="even">
+<td>Skalierung 100 %</td>
+<td>Ausgabe in ursprünglicher Druckgröße, sofern keine Anpassung aktiv ist</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m13.html::text-34">Alternativ Datei &gt; Drucken &gt; Skalierungsmenü: Keine Skalierung, Blatt auf einer Seite darstellen, Alle Spalten auf einer Seite darstellen oder Alle Zeilen auf einer Seite darstellen. Die genaue Bezeichnung kann abweichen.</p>
+<p data-edit-text="material/m13.html::text-35">Für das kleine Beispiel zuerst A4 und passende Ausrichtung einstellen, dann die Vorschau betrachten. Nur bei Bedarf auf eine Seite skalieren. Für lange Listen ist eine Seite breit und automatisch viele Seiten hoch oft geeigneter. Bei unlesbarer Schrift zuerst unnötige Spalten aus der Ausgabe nehmen, Spaltenbreiten sinnvoll anpassen oder Querformat prüfen. Keine benötigten Daten aus der Arbeitsmappe löschen.</p>
+<p data-edit-text="material/m13.html::text-36">Skalierung verändert weder Zellwerte noch Formeln. Die angezeigte Prozentzahl ist abhängig von Druckbereich, Papierformat, Rändern und Druckertreiber. Es gibt keinen universell richtigen Prozentwert.</p>
+<p><img src="Grafiken/G15c_Skalierung.png" alt="Vergleich von einseitiger und mehrseitiger Skalierung" data-edit-image="material/m13.html::image-4"></p>
+<h2 id="7-seitenumbrüche-kontrollieren" data-edit-text="material/m13.html::text-37">7. Seitenumbrüche kontrollieren</h2>
+<p data-edit-text="material/m13.html::text-38">Ansicht &gt; Umbruchvorschau. Blaue Linien markieren Seitenbegrenzungen; gestrichelte Linien stehen typischerweise für automatische, durchgezogene für manuelle Begrenzungen beziehungsweise den äußeren Druckbereich. Seitenzahlen dienen der Orientierung und werden nicht als solche mitgedruckt.</p>
+<p data-edit-text="material/m13.html::text-39">Manuellen horizontalen Umbruch einfügen: Zeile unterhalb der gewünschten Trennstelle markieren &gt; Seitenlayout &gt; Umbrüche &gt; Seitenumbruch einfügen. Für einen vertikalen Umbruch die Spalte rechts der Trennstelle markieren. Wird eine einzelne Zelle gewählt, können beide Richtungen betroffen sein.</p>
+<p data-edit-text="material/m13.html::text-40">Umbruch entfernen: passende Zeile oder Spalte am manuellen Umbruch markieren &gt; Seitenlayout &gt; Umbrüche &gt; Seitenumbruch entfernen. Alle manuellen Umbrüche lassen sich über Alle Seitenumbrüche zurücksetzen entfernen. Automatische Umbrüche entstehen weiterhin durch das Seitenlayout.</p>
+<p data-edit-text="material/m13.html::text-41">In der Umbruchvorschau können Grenzen verschoben werden. Dadurch können sich Skalierung oder Druckbereich ändern. Bei der Anpassung auf eine feste Seitenzahl kann Excel manuelle Umbrüche ignorieren. Für bewusst gesetzte Umbrüche daher die feste Seitenanpassung aufheben und einen geeigneten Prozentmaßstab verwenden. Anschließend Datei &gt; Drucken prüfen.</p>
+<p><img src="Grafiken/G15d_Umbruch.png" alt="Seitenumbruch bei einer langen Liste" data-edit-image="material/m13.html::image-5"></p>
+<h2 id="8-drucktitel-bei-mehrseitigen-listen" data-edit-text="material/m13.html::text-42">8. Drucktitel bei mehrseitigen Listen</h2>
+<p data-edit-text="material/m13.html::text-43">Eine Liste mit vielen Vorgängen benötigt auf jeder Seite verständliche Spaltenüberschriften. Drucktitel wiederholen vorhandene Zeilen oder Spalten, ohne die Daten zu duplizieren.</p>
+<ol type="1">
+<li data-edit-text="material/m13.html::text-44">Arbeitsblatt aktivieren; gegebenenfalls Zellbearbeitung beenden und Blattgruppierung aufheben.</li>
+<li data-edit-text="material/m13.html::text-45">Seitenlayout &gt; Drucktitel öffnen.</li>
+<li data-edit-text="material/m13.html::text-46">Im Dialog Seite einrichten das Register Blatt auswählen.</li>
+<li data-edit-text="material/m13.html::text-47">Bei Wiederholungszeilen oben in das Eingabefeld klicken.</li>
+<li><span data-edit-text="material/m13.html::segment-10">Für die Beispielüberschrift Zeile 3 markieren. Der Bezug lautet </span><code>$3:$3</code><span data-edit-text="material/m13.html::segment-11">.</span></li>
+<li><span data-edit-text="material/m13.html::segment-12">Bei Bedarf Wiederholungsspalten links festlegen, beispielsweise </span><code>$A:$A</code><span data-edit-text="material/m13.html::segment-13"> bei horizontal verteilten Seiten.</span></li>
+<li data-edit-text="material/m13.html::text-48">OK wählen und in der Druckvorschau die zweite Seite kontrollieren.</li>
+</ol>
+<p data-edit-text="material/m13.html::text-49">Drucktitel sind nicht dasselbe wie Kopfzeilen. Sie enthalten tatsächliche Zellen des Arbeitsblatts. Ansicht &gt; Fenster fixieren hält Überschriften am Bildschirm sichtbar, wiederholt sie aber nicht automatisch im Ausdruck. Bei einem einseitigen Dokument ist die Wiederholung meist nicht nötig.</p>
+<p><img src="Grafiken/G15e_Drucktitel.png" alt="Wiederholte Überschriften auf zwei Druckseiten" data-edit-image="material/m13.html::image-6"></p>
+<h2 id="9-kopf--und-fußzeilen-einrichten" data-edit-text="material/m13.html::text-50">9. Kopf- und Fußzeilen einrichten</h2>
+<p data-edit-text="material/m13.html::text-51">Kopf- und Fußzeilen können betriebliche Dokumente eindeutig kennzeichnen. Geeignet sind Unternehmensname, Dokumentbezeichnung, Berichtszeitraum, Seitenzahl und gegebenenfalls ein freigegebener Bearbeitungsstand.</p>
+<p data-edit-text="material/m13.html::text-52">Klickweg: Einfügen &gt; Kopf- und Fußzeile. Excel wechselt in die Seitenlayoutansicht. In den linken, mittleren oder rechten Abschnitt klicken. Text eingeben oder über das kontextbezogene Register Kopf- und Fußzeile die Felder Seitenzahl, Anzahl der Seiten, aktuelles Datum oder Blattname einfügen. Alternativ Seitenlayout &gt; Dialogfeld Seite einrichten &gt; Kopfzeile/Fußzeile &gt; Benutzerdefinierte Kopfzeile beziehungsweise Fußzeile.</p>
+<p data-edit-text="material/m13.html::text-53">Beispiel Kopfzeile links: Global Bike Deutschland GmbH. Mitte: Verwaltung. Fußzeile links: Schulungsübersicht Juli 2027. Rechts: Seite [Seitenzahl] von [Anzahl der Seiten]. Die eckigen Klammern stehen hier für einzufügende Excel-Felder, nicht für wörtlich einzutippenden Text. Die Felder werden über die Schaltflächen eingefügt.</p>
+<p data-edit-text="material/m13.html::text-54">Das automatisch eingefügte aktuelle Datum ist das Ausgabedatum, nicht der Berichtszeitraum. Für einen festen Berichtszeitraum daher Text verwenden. Dateipfad oder Benutzername nur aufnehmen, wenn dies betrieblich erforderlich und freigegeben ist. Kopf- und Fußzeilen können für jedes Blatt unterschiedlich eingerichtet werden.</p>
+<p><img src="Grafiken/G15f_KopfFuss.png" alt="Aufbau einer Kopf- und Fußzeile" data-edit-image="material/m13.html::image-7"></p>
+<h2 id="10-gitternetzlinien-überschriften-und-diagramme" data-edit-text="material/m13.html::text-55">10. Gitternetzlinien, Überschriften und Diagramme</h2>
+<p data-edit-text="material/m13.html::text-56">Gitternetzlinien auf dem Bildschirm sind nicht automatisch gedruckte Rahmen. Seitenlayout &gt; Blattoptionen &gt; Gitternetzlinien &gt; Drucken aktiviert den Druck der Gitternetzlinien. Für eine professionelle Übersicht sind gezielt gesetzte Zellrahmen häufig übersichtlicher. Rahmen über Start &gt; Rahmenlinien einstellen.</p>
+<p data-edit-text="material/m13.html::text-57">Die Excel-Zeilen- und Spaltenköpfe (1, 2, 3 und A, B, C) lassen sich unter Seitenlayout &gt; Blattoptionen &gt; Überschriften &gt; Drucken einblenden. Für betriebliche Berichte werden sie normalerweise nicht benötigt. Fachliche Tabellenüberschriften müssen unabhängig davon vorhanden sein.</p>
+<p data-edit-text="material/m13.html::text-58">Für eine gemeinsame Ausgabe von Tabelle und Diagramm das Diagramm vollständig im Druckbereich positionieren. Falls es fehlt: Diagramm auswählen, über Rechtsklick auf die Diagrammfläche die Formatierungsoptionen und unter Größe und Eigenschaften die Einstellung Objekt drucken prüfen, sofern in der Version vorhanden. Vor dem Drucken eine Zelle anklicken, damit nicht versehentlich nur das ausgewählte Diagramm ausgegeben wird.</p>
+<h2 id="11-druckvorschau-und-ausgabeumfang" data-edit-text="material/m13.html::text-59">11. Druckvorschau und Ausgabeumfang</h2>
+<p data-edit-text="material/m13.html::text-60">Datei &gt; Drucken (Strg+P) öffnen. Drucker beziehungsweise Ausgabeziel, Seitenzahl, Papierformat, Ausrichtung, Ränder und Skalierung kontrollieren. Mit den Seitennavigationspfeilen jede Seite ansehen. Die Vorschau kann vergrößert werden; diese Vergrößerung verändert nicht die Druckgröße.</p>
+<p data-edit-text="material/m13.html::text-61">Unter Einstellungen unterscheiden:</p>
+<ul>
+<li data-edit-text="material/m13.html::text-62">Aktive Blätter drucken: aktuell ausgewählte Arbeitsblätter; bei gruppierten Blättern können mehrere betroffen sein.</li>
+<li data-edit-text="material/m13.html::text-63">Gesamte Arbeitsmappe drucken: alle für den Druck berücksichtigten Arbeitsblätter; nicht für eine einzelne Besprechungsunterlage verwenden, wenn andere Blätter nicht benötigt werden.</li>
+<li data-edit-text="material/m13.html::text-64">Auswahl drucken: markierte Zellen beziehungsweise ausgewähltes Objekt.</li>
+<li data-edit-text="material/m13.html::text-65">Druckbereiche ignorieren: nur bewusst verwenden, wenn die gespeicherten Bereiche nicht gelten sollen.</li>
+</ul>
+<p data-edit-text="material/m13.html::text-66">Bei gefilterten Listen werden ausgeblendete Zeilen normalerweise nicht gedruckt. Eine SUMME über den gesamten Bereich kann trotzdem auch ausgeblendete Werte enthalten. Daher prüfen, ob Überschrift, Filterzustand und berechnete Summen dieselbe Aussage treffen. Filter oder ausgeblendete Spalten sind keine Zugriffssicherung für eine weitergegebene Excel-Datei.</p>
+<p data-edit-text="material/m13.html::text-67">Erst nach vollständiger Vorschau und gegebenenfalls betrieblicher Freigabe den Druck auslösen. Für freiwillige Schulungsversuche genügt die Vorschau; Papierverbrauch ist nicht erforderlich.</p>
+<p><img src="Grafiken/G15g_Vorschau.png" alt="Prüfreihenfolge in der Druckvorschau" data-edit-image="material/m13.html::image-8"></p>
+<h2 id="12-klick-anleitung-pdf-erstellen-und-prüfen" data-edit-text="material/m13.html::text-68">12. Klick-Anleitung: PDF erstellen und prüfen</h2>
+<ol type="1">
+<li data-edit-text="material/m13.html::text-69">Excel-Arbeitsmappe im XLSX-Format speichern.</li>
+<li data-edit-text="material/m13.html::text-70">Gewünschtes Blatt aktivieren und Druckbereich sowie Layout prüfen.</li>
+<li data-edit-text="material/m13.html::text-71">Datei &gt; Exportieren &gt; PDF/XPS-Dokument erstellen &gt; PDF/XPS erstellen wählen. Alternativ Datei &gt; Speichern unter &gt; Dateityp PDF.</li>
+<li data-edit-text="material/m13.html::text-72">Einen geeigneten Speicherort und einen eindeutigen Dateinamen wählen, beispielsweise GB_Schulung_Bueroverbrauch_Juli_2027.pdf.</li>
+<li data-edit-text="material/m13.html::text-73">Unter Optionen den gewünschten Ausgabeumfang prüfen, etwa aktive Blätter oder Auswahl. Gespeicherten Druckbereich nicht unbeabsichtigt ignorieren.</li>
+<li data-edit-text="material/m13.html::text-74">Für gut lesbare Ausgabe die Standardqualität wählen, sofern keine andere betriebliche Vorgabe gilt.</li>
+<li data-edit-text="material/m13.html::text-75">Veröffentlichen beziehungsweise Speichern wählen.</li>
+<li data-edit-text="material/m13.html::text-76">PDF separat öffnen. Seitenzahl, Titel, Zahlen, Einheiten, Diagramme, Seitenränder und Vollständigkeit kontrollieren.</li>
+<li data-edit-text="material/m13.html::text-77">Prüfen, dass keine ungewollten internen Notizen oder zusätzlichen Blätter enthalten sind.</li>
+</ol>
+<p data-edit-text="material/m13.html::text-78">Die PDF-Datei ist nicht automatisch vertraulich oder manipulationssicher. Sie enthält keine weiterrechenbaren Excel-Formeln. Für spätere Aktualisierungen die XLSX-Datei bearbeiten und eine neue PDF-Fassung erzeugen. Eine alte PDF-Datei aktualisiert sich nicht automatisch. Vor Weitergabe betriebliche Berechtigungen und Empfängerkreis prüfen. Im Unterricht werden keine echten externen Empfänger angeschrieben.</p>
+<p><img src="Grafiken/G15h_PDF.png" alt="Von der bearbeitbaren Excel-Datei zur geprüften PDF-Ausgabe" data-edit-image="material/m13.html::image-9"></p>
+<h2 id="13-wiederverwendbare-druckaufbereitung" data-edit-text="material/m13.html::text-79">13. Wiederverwendbare Druckaufbereitung</h2>
+<p data-edit-text="material/m13.html::text-80">Eine universell einsetzbare Tabelle soll nicht für jeden Bericht neu aufgebaut werden müssen. Formeln, Zahlenformate, Überschriften und Diagramme bleiben erhalten. Die Druckeinstellungen werden in der XLSX-Datei gespeichert. Bei neuen Zeilen oder Spalten können Druckbereich, Drucktitel, Seitenzahl und Skalierung jedoch Anpassungen benötigen.</p>
+<p data-edit-text="material/m13.html::text-81">Freiwilliger Test in einer Kopie der Schulungsmappe: Eine zusätzliche Materialposition vor der Summenzeile einfügen, beispielsweise 2 Packungen Klebeband zu je 3,25 EUR. Die neue Zeilensumme beträgt 6,50 EUR, die Gesamtsumme 99,50 EUR. Die Summenformel muss den neuen Datenbereich einschließen. Wenn die neue Zeile nicht in der Druckvorschau erscheint, Druckbereich und Seitenaufteilung prüfen. Ein vorhandenes Diagramm muss ebenfalls auf die neue Position geprüft werden. Anschließend die Testkopie schließen oder die ursprünglichen Werte wiederherstellen.</p>
+<p data-edit-text="material/m13.html::text-82">Für die spätere Nutzung können die ursprüngliche Arbeitsmappe und eine eindeutig benannte Arbeitskopie getrennt gespeichert werden. Keine Hauptfalldaten für einen Test verändern.</p>
+<h2 id="14-typische-fehler-erkennen-und-beheben" data-edit-text="material/m13.html::text-83">14. Typische Fehler erkennen und beheben</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Beobachtung</th>
+<th>Mögliche Ursache</th>
+<th>Abhilfe</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Letzte Spalte fehlt</td>
+<td>Druckbereich zu klein</td>
+<td>Druckbereich neu festlegen</td>
+</tr>
+<tr class="even">
+<td>Zusätzliche leere Seite</td>
+<td>Formatierung außerhalb der Tabelle oder falscher Bereich</td>
+<td>Druckbereich und Umbruchvorschau prüfen</td>
+</tr>
+<tr class="odd">
+<td>Zahlen erscheinen als ####</td>
+<td>Spalte zu schmal oder nicht darstellbarer Datumswert</td>
+<td>Breite und <a href="../ls-glossar.html?from=material%2Fm13.html%23wort-zellwert#zellwert" id="wort-zellwert" data-edit-link="material/m13.html::link-5">Zellwert</a> prüfen</td>
+</tr>
+<tr class="even">
+<td>Schrift extrem klein</td>
+<td>Alles auf eine Seite skaliert</td>
+<td>Breite 1, Höhe automatisch; Layout anpassen</td>
+</tr>
+<tr class="odd">
+<td>Überschrift fehlt ab Seite 2</td>
+<td>Keine Drucktitel</td>
+<td>Wiederholungszeilen festlegen</td>
+</tr>
+<tr class="even">
+<td>Seitenumbruch wird ignoriert</td>
+<td>Feste Seitenanpassung aktiv</td>
+<td>Prozentmaßstab statt fester Seitenzahl prüfen</td>
+</tr>
+<tr class="odd">
+<td>Diagramm fehlt</td>
+<td>Außerhalb des Bereichs oder Objekt drucken deaktiviert</td>
+<td>Position und Eigenschaften prüfen</td>
+</tr>
+<tr class="even">
+<td>Nur Diagramm wird gedruckt</td>
+<td>Diagramm ausgewählt</td>
+<td>Zelle anklicken und Ausgabeumfang prüfen</td>
+</tr>
+<tr class="odd">
+<td>Interne Notiz erscheint</td>
+<td>Falscher Druckbereich</td>
+<td>Bereich und PDF-Inhalt kontrollieren</td>
+</tr>
+<tr class="even">
+<td>Summe passt nicht zur gefilterten Liste</td>
+<td>SUMME umfasst ausgeblendete Zeilen</td>
+<td>Aussage und Berechnungsgrundlage prüfen</td>
+</tr>
+<tr class="odd">
+<td>PDF enthält weitere Blätter</td>
+<td>Gesamte Arbeitsmappe gewählt</td>
+<td>Aktive Blätter oder Auswahl einstellen</td>
+</tr>
+<tr class="even">
+<td>PDF zeigt alte Werte</td>
+<td>Nach Änderung nicht neu exportiert</td>
+<td>XLSX neu berechnen und PDF neu erzeugen</td>
+</tr>
+<tr class="odd">
+<td>Kopfzeile überlappt Inhalt</td>
+<td>Ränder zu klein</td>
+<td>Kopfzeilenabstand und Seitenränder anpassen</td>
+</tr>
+<tr class="even">
+<td>Vorschau unterscheidet sich je Drucker</td>
+<td>Druckertreiber oder Papierformat</td>
+<td>Zielgerät und Vorschau erneut prüfen</td>
+</tr>
+</tbody>
+</table>
+<h2 id="15-freiwillige-praktische-erkundung" data-edit-text="material/m13.html::text-84">15. Freiwillige praktische Erkundung</h2>
+<p data-edit-text="material/m13.html::text-85">Die separate Schulungsmappe aus Abschnitt 3 kann für eine kurze Erkundung genutzt werden. Eine mögliche Reihenfolge ist: Druckbereich für die Tabelle festlegen, Hoch- und Querformat vergleichen, die lesbarere Einstellung begründen, Kopf- und Fußzeile ergänzen und eine PDF-Probeausgabe kontrollieren. Bei einer längeren Kopie der Liste können Drucktitel und Seitenumbrüche erprobt werden. Die zusätzlichen Testdaten sind keine betrieblichen Ist-Daten.</p>
+<p data-edit-text="material/m13.html::text-86">Eine persönliche Klick-Anleitung kann die gewählten Einstellungen und Kontrollschritte festhalten. Die Erkundung ist freiwillig, unbewertet und keine zusätzliche Pflichtabgabe. Die Lernenden entscheiden im Hauptfall selbst über die geeignete Ausgabeform ihres Lernpakets. Keine KI.</p>
+<h2 id="16-qualitätskontrolle" data-edit-text="material/m13.html::text-87">16. Qualitätskontrolle</h2>
+<p><img src="Grafiken/G15i_Qualitaet.png" alt="Prüfweg für die betriebliche Ausgabe" data-edit-image="material/m13.html::image-10"></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Richtige Arbeitsmappe und aktueller Datenstand.</label></li>
+<li><label><input type="checkbox">Benötigte Tabellen und Diagramme vollständig.</label></li>
+<li><label><input type="checkbox">Druckbereich enthält keine unbeabsichtigten Notizen.</label></li>
+<li><label><input type="checkbox">Papierformat und Ausrichtung passen zum Inhalt.</label></li>
+<li><label><input type="checkbox">Seitenränder und Skalierung ermöglichen gute Lesbarkeit.</label></li>
+<li><label><input type="checkbox">Keine abgeschnittenen Werte oder unnötigen Leerseiten.</label></li>
+<li><label><input type="checkbox">Überschriften bei mehrseitigen Listen wiederholt.</label></li>
+<li><label><input type="checkbox">Kopf- und Fußzeilen sachgerecht und ohne unnötige interne Angaben.</label></li>
+<li><label><input type="checkbox">Zahlen, Einheiten, Filterzustand und Summen stimmen überein.</label></li>
+<li><label><input type="checkbox">Alle Seiten in der Druckvorschau geprüft.</label></li>
+<li><label><input type="checkbox">PDF nach Export separat geöffnet und kontrolliert.</label></li>
+<li><label><input type="checkbox">Bearbeitbare XLSX-Datei erhalten; Teständerungen zurückgesetzt.</label></li>
+</ul>
+<h2 id="17-freiwillige-selbstkontrolle" data-edit-text="material/m13.html::text-88">17. Freiwillige Selbstkontrolle</h2>
+<ol type="1">
+<li data-edit-text="material/m13.html::text-89">Worin unterscheiden sich Arbeitsblatt und Druckseite?</li>
+<li data-edit-text="material/m13.html::text-90">Welcher Bereich umfasst im Schulungsbeispiel die reine Tabelle?</li>
+<li data-edit-text="material/m13.html::text-91">Wie wird dieser Druckbereich gespeichert?</li>
+<li data-edit-text="material/m13.html::text-92">Wie wird ein Druckbereich aufgehoben?</li>
+<li data-edit-text="material/m13.html::text-93">Welche Maße hat A4?</li>
+<li data-edit-text="material/m13.html::text-94">Wann kann Querformat sinnvoll sein?</li>
+<li data-edit-text="material/m13.html::text-95">Welche Skalierung eignet sich häufig für lange, breite Listen?</li>
+<li data-edit-text="material/m13.html::text-96">Ändert der Bildschirmzoom die Druckgröße?</li>
+<li data-edit-text="material/m13.html::text-97">Wie wird ein manueller horizontaler Seitenumbruch eingefügt?</li>
+<li><span data-edit-text="material/m13.html::segment-14">Was bedeutet </span><code>$3:$3</code><span data-edit-text="material/m13.html::segment-15"> bei Drucktiteln?</span></li>
+<li data-edit-text="material/m13.html::text-98">Wiederholt Fenster fixieren automatisch Überschriften im Druck?</li>
+<li data-edit-text="material/m13.html::text-99">Worin unterscheiden sich Drucktitel und Kopfzeilen?</li>
+<li data-edit-text="material/m13.html::text-100">Wie wird die Druckvorschau geöffnet?</li>
+<li data-edit-text="material/m13.html::text-101">Warum kann eine gefilterte Liste eine unerwartete SUMME zeigen?</li>
+<li data-edit-text="material/m13.html::text-102">Wie lässt sich vermeiden, dass weitere Arbeitsblätter im PDF erscheinen?</li>
+<li data-edit-text="material/m13.html::text-103">Aktualisiert sich ein bereits exportiertes PDF automatisch?</li>
+<li data-edit-text="material/m13.html::text-104">Wie hoch ist die Gesamtsumme im ursprünglichen Schulungsbeispiel?</li>
+<li data-edit-text="material/m13.html::text-105">Wie hoch ist sie nach Ergänzung der Klebebandposition?</li>
+<li data-edit-text="material/m13.html::text-106">Was ist nach Erweiterung einer Tabelle am Druckbereich zu prüfen?</li>
+<li data-edit-text="material/m13.html::text-107">Warum ersetzt ein PDF die XLSX-Datei nicht?</li>
+</ol>
+<h3 id="kontrollhinweise" data-edit-text="material/m13.html::text-108">Kontrollhinweise</h3>
+<ol type="1">
+<li data-edit-text="material/m13.html::text-109">Arbeitsblatt ist die Bearbeitungsfläche, Druckseite die auf Papier beziehungsweise im PDF ausgegebene Fläche.</li>
+<li data-edit-text="material/m13.html::text-110">A1:E8.</li>
+<li data-edit-text="material/m13.html::text-111">Seitenlayout &gt; Druckbereich &gt; Druckbereich festlegen.</li>
+<li data-edit-text="material/m13.html::text-112">Seitenlayout &gt; Druckbereich &gt; Druckbereich aufheben.</li>
+<li data-edit-text="material/m13.html::text-113">210 × 297 mm.</li>
+<li data-edit-text="material/m13.html::text-114">Bei breiten Tabellen, wenn dadurch mehr Spalten lesbar auf eine Seite passen.</li>
+<li data-edit-text="material/m13.html::text-115">Breite 1 Seite, Höhe Automatisch.</li>
+<li data-edit-text="material/m13.html::text-116">Nein.</li>
+<li data-edit-text="material/m13.html::text-117">Zeile unterhalb der Trennstelle markieren &gt; Seitenlayout &gt; Umbrüche &gt; Seitenumbruch einfügen.</li>
+<li data-edit-text="material/m13.html::text-118">Zeile 3 wird oben auf den Druckseiten wiederholt.</li>
+<li data-edit-text="material/m13.html::text-119">Nein.</li>
+<li data-edit-text="material/m13.html::text-120">Drucktitel wiederholen Zellen; Kopfzeilen enthalten separate Seitenangaben.</li>
+<li data-edit-text="material/m13.html::text-121">Datei &gt; Drucken oder Strg+P.</li>
+<li data-edit-text="material/m13.html::text-122">SUMME kann auch ausgeblendete Werte umfassen.</li>
+<li data-edit-text="material/m13.html::text-123">Gewünschtes Blatt aktivieren, Blattgruppierung prüfen und aktive Blätter beziehungsweise Auswahl als Umfang festlegen.</li>
+<li data-edit-text="material/m13.html::text-124">Nein, neu exportieren.</li>
+<li data-edit-text="material/m13.html::text-125">93,00 EUR.</li>
+<li data-edit-text="material/m13.html::text-126">99,50 EUR.</li>
+<li data-edit-text="material/m13.html::text-127">Ob die neuen Daten vollständig enthalten und lesbar sind.</li>
+<li data-edit-text="material/m13.html::text-128">PDF enthält eine feste Darstellung, keine bearbeitbaren Excel-Formeln.</li>
+</ol>
+<h2 id="18-weiterführende-materialien" data-edit-text="material/m13.html::text-129">18. Weiterführende Materialien</h2>
+<p data-edit-text="material/m13.html::text-130">M3 unterstützt die Tabellenstruktur, M4 die Zahlenformate, M5–M8 die Berechnungen, M10 die Listenbearbeitung, M11 und M12 die Diagrammauswahl und -gestaltung. M14 vertieft die Qualitätskontrolle und Wiederverwendbarkeit. M13 bleibt während der gesamten Lernsituation verfügbar.</p>
+</article></article></section>
+  </div>
+</div>
+</div>
+<p><a href="m13.md" download data-edit-text="material/m13.html::segment-16" data-edit-link="material/m13.html::link-6">Bearbeitbare Textfassung</a></p>
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

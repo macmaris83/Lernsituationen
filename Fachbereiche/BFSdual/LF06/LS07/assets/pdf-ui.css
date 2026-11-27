@@ -1,0 +1,22 @@
+.bfs-phase-export {
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:.7rem;
+  border:1px solid #c3d4dc;
+  background:#f4f9fc;
+  border-radius:.55rem;
+  padding:.65rem .9rem;
+  margin:.85rem 0;
+}
+.bfs-phase-export a img{width:22px;height:22px;vertical-align:middle;margin-right:.4rem}
+.bfs-document-footer{display:flex;justify-content:flex-end;align-items:center;gap:1rem;padding:.8rem 0}
+.bfs-document-pdf{color:#59636d;display:inline-flex;align-items:center;gap:.5rem;font-weight:650;text-decoration:none}
+.bfs-document-pdf:is(:hover,:focus-visible){text-decoration:underline}
+.bfs-document-pdf svg{width:1.2em;height:1.2em}
+.bfs-document-footer.standalone{max-width:72rem;margin:auto;padding:1rem}
+@media print {
+  html,body{min-height:0!important;height:auto!important}
+  body .shell,body .main{min-height:0!important;height:auto!important}
+  .bfs-phase-export,.bfs-document-footer,.gb-learning .bfs-extra-clock,.gb-learning .gb-done{display:none!important}
+}

@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>M11 – Diagrammtypen kennen, unterscheiden und begründet auswählen</title><link href="../assets/global-bike.css" rel="stylesheet"><style>main.excel{max-width:72rem;margin:auto;padding:1rem 3vw;background:white;font:1rem/1.55 system-ui;color:#17324b}.excel img{max-width:100%;height:auto}.excel table{display:block;overflow:auto;border-collapse:collapse}.excel td,.excel th{padding:.4rem;border:1px solid #b7c7d0}.excel a{text-decoration:underline}</style><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main class="excel">
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app onenote" data-material-view="onenote" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">N</span>
+    <strong>OneNote</strong><span class="file">m11</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Notizen</span><span class="material-tab">Arbeitsunterlagen</span><span class="material-kind">Notiz / Arbeitsblatt</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Notizbuch</span><span class="material-rail-item is-active">Notizen</span><span class="material-rail-item">Unterlagen</span><span class="material-rail-item">Besprechungen</span></aside>
+    <section class="canvas"><article class="paper"><article><h1 id="m11--diagrammtypen-kennen-unterscheiden-und-begründet-auswählen" data-edit-text="material/m11.html::text-1">M11 – Diagrammtypen kennen, unterscheiden und begründet auswählen</h1>
+<p data-edit-text="material/m11.html::text-2">Global Bike Deutschland GmbH – Verwaltung</p>
+<h2 id="1-warum-grafische-auswertungen" data-edit-text="material/m11.html::text-3">1. Warum grafische Auswertungen?</h2>
+<p data-edit-text="material/m11.html::text-4">In internen Besprechungen benötigt die Verwaltung schnell verständliche Informationen. Eine Tabelle liefert genaue Einzelwerte; ein Diagramm macht Unterschiede, Entwicklungen und Größenverhältnisse sichtbar. Beide Darstellungen ergänzen sich. Ein Diagramm ersetzt weder die Quelldaten noch die Prüfung der Berechnungen. Eine optisch ansprechende Grafik ist nur dann nützlich, wenn sie die betriebliche Frage korrekt beantwortet.</p>
+<p data-edit-text="material/m11.html::text-5">Die Beispiele in M11 sind eigenständige simulierte Schulungsdaten der Global Bike Deutschland GmbH, keine SAP-Daten. Die Ausgangsdaten aus M1 bleiben unverändert. Die Diagrammauswahl für das eigentliche Lernpaket bleibt offen.</p>
+<h2 id="2-grundbegriffe" data-edit-text="material/m11.html::text-6">2. Grundbegriffe</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Begriff</th>
+<th>Bedeutung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Diagrammtyp</td>
+<td>Grundform der grafischen Darstellung</td>
+</tr>
+<tr class="even">
+<td>Kategorie</td>
+<td>Bezeichnung eines dargestellten Merkmals, etwa Kostenart</td>
+</tr>
+<tr class="odd">
+<td><a href="../ls-glossar.html?from=material%2Fm11.html%23wort-datenreihe#datenreihe" id="wort-datenreihe" data-edit-link="material/m11.html::link-1">Datenreihe</a></td>
+<td>Zusammengehörige Werte, etwa monatliche Ausgaben</td>
+</tr>
+<tr class="even">
+<td>Datenpunkt</td>
+<td>Einzelner Wert einer Datenreihe</td>
+</tr>
+<tr class="odd">
+<td>Diagrammtitel</td>
+<td>Aussage über Inhalt und Zeitraum</td>
+</tr>
+<tr class="even">
+<td>Achsentitel</td>
+<td>Bezeichnung der dargestellten Größe und gegebenenfalls Einheit</td>
+</tr>
+<tr class="odd">
+<td>Achsenbeschriftung</td>
+<td>Kategorien oder Skalenwerte entlang einer Achse</td>
+</tr>
+<tr class="even">
+<td>Legende</td>
+<td>Zuordnung von Farben oder Symbolen zu Datenreihen bzw. Kategorien</td>
+</tr>
+<tr class="odd">
+<td>Datenbeschriftung</td>
+<td>Wert oder Kategorie direkt am Datenpunkt</td>
+</tr>
+<tr class="even">
+<td>Skalierung</td>
+<td>Wertebereich und Abstände der Zahlenachse</td>
+</tr>
+</tbody>
+</table>
+<p><img src="Grafiken/G13a_Diagrammelemente.png" alt="Beispiel mit Diagrammtitel, Achsentiteln, Legende und Datenbeschriftungen" data-edit-image="material/m11.html::image-1"></p>
+<p data-edit-text="material/m11.html::text-7">Bei Säulen- und Liniendiagrammen liegt die Kategorien- oder Zeitachse meist waagerecht, die Werteachse senkrecht. Beim Balkendiagramm ist dies umgekehrt. Ein Kreisdiagramm besitzt keine Achsen. Achsentitel werden dort nicht künstlich ergänzt; Kategorien und Anteile müssen dennoch eindeutig erkennbar sein.</p>
+<h2 id="3-die-vier-grundlegenden-diagrammtypen" data-edit-text="material/m11.html::text-8">3. Die vier grundlegenden Diagrammtypen</h2>
+<p><img src="Grafiken/G13_Diagrammtypen.png" alt="Vier Diagrammtypen im Überblick" data-edit-image="material/m11.html::image-2"></p>
+<h3 id="31-säulendiagramm" data-edit-text="material/m11.html::text-9">3.1 Säulendiagramm</h3>
+<p data-edit-text="material/m11.html::text-10">Senkrechte Säulen zeigen die Größe von Werten durch ihre Höhe. Die Säulen stehen nebeneinander; jede gehört zu einer Kategorie oder einem Zeitpunkt.</p>
+<p><strong data-edit-text="material/m11.html::segment-2">Stärken:</strong><span data-edit-text="material/m11.html::segment-1"> Größenunterschiede sind schnell erkennbar; wenige Kategorien oder Zeitpunkte lassen sich gut vergleichen; gruppierte Säulen ermöglichen den Vergleich mehrerer Datenreihen gleicher Einheit.</span></p>
+<p><strong data-edit-text="material/m11.html::segment-4">Grenzen:</strong><span data-edit-text="material/m11.html::segment-3"> Viele oder lange Kategorienamen erschweren die Lesbarkeit. Bei vielen Zeitpunkten wird die Entwicklung unübersichtlich. Eine abgeschnittene Werteachse kann Unterschiede übertreiben.</span></p>
+<p data-edit-text="material/m11.html::text-11">Schulungsbeispiel: In einer internen Dokumentenprüfung wurden im August 12, 18 und 10 Unterlagen in drei Bearbeitungsbereichen geprüft. Die Säulen zeigen den Mengenvergleich. Die Anzahl allein erlaubt keine Aussage über Arbeitsqualität oder Arbeitsbelastung.</p>
+<p><img src="Grafiken/G13b_Saeulen.png" alt="Säulendiagramm: 12, 18 und 10 geprüfte Unterlagen" data-edit-image="material/m11.html::image-3"></p>
+<h3 id="32-balkendiagramm" data-edit-text="material/m11.html::text-12">3.2 Balkendiagramm</h3>
+<p data-edit-text="material/m11.html::text-13">Waagerechte Balken zeigen die Größe eines Wertes durch ihre Länge. Kategorien stehen links, Werte auf der waagerechten Achse.</p>
+<p><strong data-edit-text="material/m11.html::segment-6">Stärken:</strong><span data-edit-text="material/m11.html::segment-5"> Besonders lesbar bei langen Kategorienamen; geeignet für Rangfolgen und Größenvergleiche; absteigende Sortierung macht Unterschiede schnell sichtbar.</span></p>
+<p><strong data-edit-text="material/m11.html::segment-8">Grenzen:</strong><span data-edit-text="material/m11.html::segment-7"> Zeitliche Entwicklungen sind weniger unmittelbar erkennbar; zu viele Balken erschweren die Übersicht. Auch hier muss die Längenskala grundsätzlich bei null beginnen.</span></p>
+<p data-edit-text="material/m11.html::text-14">Schulungsbeispiel: Vier Arten von Büroverbrauchsmaterial verursachen im August 150, 90, 40 und 20 EUR netto. Die Beträge können absteigend verglichen werden. Der größte Betrag ist nicht automatisch eine unnötige Ausgabe.</p>
+<p><img src="Grafiken/G13c_Balken.png" alt="Balkendiagramm: vier Kostenarten mit 150, 90, 40 und 20 EUR" data-edit-image="material/m11.html::image-4"></p>
+<h3 id="33-liniendiagramm" data-edit-text="material/m11.html::text-15">3.3 Liniendiagramm</h3>
+<p data-edit-text="material/m11.html::text-16">Datenpunkte werden in ihrer zeitlichen Reihenfolge durch Linien verbunden. Steigende, fallende und gleichbleibende Entwicklungen werden sichtbar.</p>
+<p><strong data-edit-text="material/m11.html::segment-10">Stärken:</strong><span data-edit-text="material/m11.html::segment-9"> Trends und Schwankungen über mehrere Zeitpunkte; Vergleich mehrerer zeitlich ausgerichteter Datenreihen; kompakte Darstellung.</span></p>
+<p><strong data-edit-text="material/m11.html::segment-12">Grenzen:</strong><span data-edit-text="material/m11.html::segment-11"> Ungeordnete Kategorien erhalten durch Verbindung eine irreführende Reihenfolge. Fehlende Werte sind nicht automatisch null. Bei unregelmäßigen Zeitabständen ist eine geeignete Datumsachse oder ein XY-Diagramm mit tatsächlichen Abständen erforderlich. Eine Linie zwischen Monatswerten beweist keine kontinuierlich gemessene Entwicklung zwischen diesen Punkten.</span></p>
+<p data-edit-text="material/m11.html::text-17">Schulungsbeispiel: In vier aufeinanderfolgenden Monaten wurden 8, 12, 9 und 15 interne Prüfungen abgeschlossen. Der letzte Wert ist der höchste; die Reihe steigt nicht durchgehend. Eine Prognose für den nächsten Monat ist daraus nicht gesichert.</p>
+<p><img src="Grafiken/G13d_Linie.png" alt="Liniendiagramm: 8, 12, 9 und 15 Prüfungen von Juli bis Oktober" data-edit-image="material/m11.html::image-5"></p>
+<h3 id="34-kreisdiagramm" data-edit-text="material/m11.html::text-18">3.4 Kreisdiagramm</h3>
+<p data-edit-text="material/m11.html::text-19">Ein Kreis stellt ein Ganzes dar. Kreissektoren zeigen die Anteile einzelner Kategorien an diesem Ganzen. Der gesamte Kreis entspricht 100 Prozent.</p>
+<p><strong data-edit-text="material/m11.html::segment-14">Stärken:</strong><span data-edit-text="material/m11.html::segment-13"> Wenige klar unterscheidbare Anteile sind leicht erkennbar; besonders geeignet für die Frage, welche Teile ein eindeutig definiertes Ganzes bilden.</span></p>
+<p><strong data-edit-text="material/m11.html::segment-16">Grenzen:</strong><span data-edit-text="material/m11.html::segment-15"> Ähnliche Anteile sind schwer zu vergleichen; viele kleine Sektoren sind unübersichtlich. Negative Werte, mehrere unabhängige Gesamtheiten oder zeitliche Entwicklungen sind ungeeignet. Bei einer Gesamtsumme von null sind Anteile nicht definiert. Ein Kreisdiagramm zeigt normalerweise eine Datenreihe.</span></p>
+<p data-edit-text="material/m11.html::text-20">Schulungsbeispiel: Die vier Kostenarten aus Abschnitt 3.2 ergeben 300 EUR. Die Anteile betragen 50 %, 30 %, rund 13,33 % und rund 6,67 %. Das Diagramm zeigt Anteile an diesen 300 EUR, nicht an einem anderen Budget. Die Gesamtzeile darf nicht als zusätzlicher Sektor ausgewählt werden.</p>
+<p><img src="Grafiken/G13e_Kreis.png" alt="Kreisdiagramm: vier Kostenanteile von 50, 30, 13,33 und 6,67 Prozent" data-edit-image="material/m11.html::image-6"></p>
+<h2 id="4-vergleich-der-einsatzmöglichkeiten" data-edit-text="material/m11.html::text-21">4. Vergleich der Einsatzmöglichkeiten</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Fragestellung</th>
+<th>Geeignete Grundform</th>
+<th>Begründung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Welche Kategorien haben größere oder kleinere Werte?</td>
+<td>Säulen oder Balken</td>
+<td>Höhen bzw. Längen direkt vergleichbar</td>
+</tr>
+<tr class="even">
+<td>Wie sieht eine <a href="../ls-glossar.html?from=material%2Fm11.html%23wort-rangfolge#rangfolge" id="wort-rangfolge" data-edit-link="material/m11.html::link-2">Rangfolge</a> mit langen Bezeichnungen aus?</td>
+<td>Balken</td>
+<td>Kategorien bleiben gut lesbar</td>
+</tr>
+<tr class="odd">
+<td>Wie verändern sich Werte über die Zeit?</td>
+<td>Linie, bei wenigen Zeitpunkten auch Säulen</td>
+<td>Verlauf bzw. einzelne Zeitwerte erkennbar</td>
+</tr>
+<tr class="even">
+<td>Wie setzt sich ein Gesamtbetrag zusammen?</td>
+<td>Kreis, alternativ Balken mit Anteilen</td>
+<td>Teile eines definierten Ganzen</td>
+</tr>
+<tr class="odd">
+<td>Wie lauten exakte Einzelwerte?</td>
+<td>Tabelle, ergänzend Diagramm</td>
+<td>Präzise Werte bleiben verfügbar</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m11.html::text-22">Mehrere Diagrammtypen können fachlich geeignet sein. Die Wahl hängt von der Fragestellung, den Ausgangsdaten und der Zielgruppe ab. Ein Diagrammtyp ist nicht allein deshalb richtig, weil Excel ihn empfiehlt.</p>
+<h2 id="5-entscheidungsweg" data-edit-text="material/m11.html::text-23">5. Entscheidungsweg</h2>
+<p><img src="Grafiken/G13f_Entscheidungsweg.png" alt="Entscheidungsweg: Frage, Daten, Zielgruppe, Diagrammtyp, Kontrolle" data-edit-image="material/m11.html::image-7"></p>
+<ol type="1">
+<li data-edit-text="material/m11.html::text-24">Aussageziel klären: Vergleich, Rangfolge, zeitliche Entwicklung oder Anteil?</li>
+<li data-edit-text="material/m11.html::text-25">Daten prüfen: Einheit, Zeitraum, Kategorien, Vollständigkeit, mögliche Summenzeilen.</li>
+<li data-edit-text="material/m11.html::text-26">Zielgruppe berücksichtigen: Welche Information muss in einer Besprechung schnell erkennbar sein?</li>
+<li data-edit-text="material/m11.html::text-27">Mindestens zwei grundsätzlich geeignete Darstellungen gedanklich vergleichen.</li>
+<li data-edit-text="material/m11.html::text-28">Diagrammtyp auswählen und begründen.</li>
+<li data-edit-text="material/m11.html::text-29">Prüfen, ob die Darstellung tatsächlich die gewünschte Aussage ermöglicht.</li>
+</ol>
+<p data-edit-text="material/m11.html::text-30">Begründungsstruktur: Aussageziel – Eigenschaften der Daten – Vorteil der gewählten Darstellung – Grenze einer Alternative. Eine bloße Aussage wie „Das sieht besser aus“ reicht nicht.</p>
+<h2 id="6-daten-für-ein-diagramm-vorbereiten" data-edit-text="material/m11.html::text-31">6. Daten für ein Diagramm vorbereiten</h2>
+<p data-edit-text="material/m11.html::text-32">Die Datenquelle benötigt eindeutige Überschriften, zusammengehörige Kategorien und numerische Werte. Geldbeträge, Stückzahlen und Prozentwerte sind verschiedene Einheiten und dürfen nicht ohne sachliche Erklärung auf derselben Werteachse verglichen werden.</p>
+<p data-edit-text="material/m11.html::text-33">Beispiel für die unabhängigen August-Kosten:</p>
+<table>
+<thead>
+<tr class="header">
+<th>A: Kostenart</th>
+<th style="text-align: right;">B: Betrag netto EUR</th>
+<th style="text-align: right;">C: Anteil</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Versandmaterial</td>
+<td style="text-align: right;">150</td>
+<td style="text-align: right;">50 %</td>
+</tr>
+<tr class="even">
+<td>Druckmaterial</td>
+<td style="text-align: right;">90</td>
+<td style="text-align: right;">30 %</td>
+</tr>
+<tr class="odd">
+<td>Etiketten</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">13,33 %</td>
+</tr>
+<tr class="even">
+<td>Notizmaterial</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">6,67 %</td>
+</tr>
+<tr class="odd">
+<td>Gesamt</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;">100 %</td>
+</tr>
+</tbody>
+</table>
+<p><span data-edit-text="material/m11.html::segment-17">Bei Überschriften in Zeile 1 lautet B6 </span><code>=SUMME(B2:B5)</code><span data-edit-text="material/m11.html::segment-18"> und C2 </span><code>=B2/$B$6</code><span data-edit-text="material/m11.html::segment-19">. C2 bis C5 kopieren und als Prozent formatieren. C6 kann mit </span><code>=SUMME(C2:C5)</code><span data-edit-text="material/m11.html::segment-20"> kontrolliert werden. Die Prozentwerte intern nicht vorzeitig runden. Für ein Betragsdiagramm A1:B5 markieren, nicht die Gesamtzeile. Für ein Kreisdiagramm genügen ebenfalls die vier positiven Beträge; Excel berechnet die Sektoranteile aus ihrer Summe. Alternativ können die vier berechneten Anteile verwendet werden, nicht Beträge und Anteile zugleich.</span></p>
+<p data-edit-text="material/m11.html::text-34">Leere Werte bedeuten fehlende Information, nicht automatisch null. Vor der Darstellung klären, ob tatsächlich kein Vorgang vorliegt oder die Meldung fehlt. Bei gefilterten Daten prüfen, welche Zeilen im Diagramm erscheinen. Excel stellt ausgeblendete Zeilen standardmäßig häufig nicht dar; die Einstellung kann je nach Diagramm und Version geändert werden.</p>
+<h2 id="7-klick-anleitung-diagrammtypen-ausprobieren" data-edit-text="material/m11.html::text-35">7. Klick-Anleitung: Diagrammtypen ausprobieren</h2>
+<p data-edit-text="material/m11.html::text-36">Die folgenden Wege beziehen sich auf deutschsprachiges Desktop-Excel unter Windows. Menübezeichnungen können je nach Version abweichen. M12 vertieft die Gestaltung.</p>
+<p data-edit-text="material/m11.html::text-37">Allgemeiner Ablauf:</p>
+<ol type="1">
+<li data-edit-text="material/m11.html::text-38">Geeignete Daten einschließlich Überschriften markieren.</li>
+<li data-edit-text="material/m11.html::text-39">Register Einfügen öffnen.</li>
+<li data-edit-text="material/m11.html::text-40">In der Gruppe Diagramme die gewünschte Diagrammfamilie auswählen.</li>
+<li data-edit-text="material/m11.html::text-41">Eine einfache 2D-Variante auswählen.</li>
+<li data-edit-text="material/m11.html::text-42">Kategorien, Werte und Datenreihen mit der Quelle vergleichen.</li>
+<li data-edit-text="material/m11.html::text-43">Diagrammtitel anpassen; erforderliche Achsentitel, Legende und Datenbeschriftungen ergänzen.</li>
+<li data-edit-text="material/m11.html::text-44">Ergebnis mit der betrieblichen Fragestellung vergleichen.</li>
+</ol>
+<p><img src="Grafiken/G13g_Klickweg.png" alt="Schematischer Klickweg vom Datenbereich zur Diagrammprüfung" data-edit-image="material/m11.html::image-8"></p>
+<table>
+<thead>
+<tr class="header">
+<th>Diagrammtyp</th>
+<th>Klickweg nach Markierung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Säule</td>
+<td>Einfügen &gt; Säulen- oder Balkendiagramm einfügen &gt; 2D-Säule &gt; Gruppierte Säulen</td>
+</tr>
+<tr class="even">
+<td>Balken</td>
+<td>Einfügen &gt; Säulen- oder Balkendiagramm einfügen &gt; 2D-Balken &gt; Gruppierte Balken</td>
+</tr>
+<tr class="odd">
+<td>Linie</td>
+<td>Einfügen &gt; Linien- oder Flächendiagramm einfügen &gt; 2D-Linie &gt; Linie mit Datenpunkten</td>
+</tr>
+<tr class="even">
+<td>Kreis</td>
+<td>Einfügen &gt; Kreis- oder Ringdiagramm einfügen &gt; 2D-Kreis</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m11.html::text-45">Für eine Vorschau kann auch Einfügen &gt; Empfohlene Diagramme verwendet werden. Vorschläge fachlich prüfen.</p>
+<h2 id="8-klick-anleitung-diagrammtyp-ändern-und-daten-prüfen" data-edit-text="material/m11.html::text-46">8. Klick-Anleitung: Diagrammtyp ändern und Daten prüfen</h2>
+<p data-edit-text="material/m11.html::text-47">Diagramm anklicken &gt; Diagrammentwurf &gt; Diagrammtyp ändern &gt; gewünschte Familie und Untertyp auswählen &gt; OK. Danach Datenzuordnung, Achsen, Legende und Beschriftungen erneut kontrollieren. Beim Wechsel zu einem Kreisdiagramm nur eine geeignete Datenreihe verwenden.</p>
+<p data-edit-text="material/m11.html::text-48">Wenn Kategorien und Datenreihen vertauscht sind: Diagrammentwurf &gt; Daten auswählen &gt; gegebenenfalls Zeile/Spalte wechseln. Im Dialog Datenquelle auswählen lassen sich Datenreihen und Kategorienbeschriftungen kontrollieren. Bei Kreisdiagrammen muss die Zuordnung der Kategorien zu den einzelnen Sektoren stimmen.</p>
+<p data-edit-text="material/m11.html::text-49">Für Diagrammelemente: Diagramm auswählen &gt; Diagrammentwurf &gt; Diagrammelement hinzufügen &gt; Diagrammtitel, Achsentitel, Legende oder Datenbeschriftungen. Alternativ kann bei unterstützten Desktop-Versionen das Pluszeichen neben dem Diagramm verwendet werden. Bei einem Kreisdiagramm Datenbeschriftungen formatieren und Kategorie bzw. Prozentsatz auswählen. Achsentitel sind nur bei Diagrammen mit Achsen sinnvoll. Eine Legende ist bei mehreren Datenreihen besonders wichtig; bei eindeutig direkt beschrifteten Einzelreihen kann sie redundant sein. Die Schulbuchanforderung an eine Legende wird in der technischen Übung berücksichtigt.</p>
+<h2 id="9-aussagekraft-und-irreführende-darstellungen" data-edit-text="material/m11.html::text-50">9. Aussagekraft und irreführende Darstellungen</h2>
+<p><img src="Grafiken/G13h_Achsenskalierung.png" alt="Identische Werte 90 und 100 mit Nullachse und abgeschnittener Achse" data-edit-image="material/m11.html::image-9"></p>
+<p data-edit-text="material/m11.html::text-51">Die beiden Säulendiagramme zeigen dieselben Werte. Bei einer Achse ab 85 erscheinen 100 und 90 sehr unterschiedlich, obwohl 100 nur rund 11,11 % größer als 90 ist. Säulen und Balken sollten deshalb grundsätzlich bei null beginnen. Bei Liniendiagrammen kann eine begründete, klar beschriftete andere Skalierung sinnvoll sein, um kleine Veränderungen sichtbar zu machen.</p>
+<p data-edit-text="material/m11.html::text-52">Weitere Fehlerquellen: 3D-Effekte verzerren Größenverhältnisse; ungleiche Zeitabstände werden als gleich dargestellt; Farben suggerieren eine Bewertung ohne Begründung; Summen werden neben ihren Bestandteilen als zusätzliche Kategorien aufgenommen; unterschiedliche Einheiten werden vermischt; eine abgeschnittene Zeitreihe verschweigt den Kontext.</p>
+<p data-edit-text="material/m11.html::text-53">Farben sparsam verwenden. Beschriftungen, Symbole oder unterschiedliche Linienarten ergänzen Farben, damit die Aussage nicht ausschließlich von der Farbwahrnehmung abhängt. Titel und Einheiten müssen auch im Ausdruck verständlich sein.</p>
+<h2 id="10-betriebliche-interpretation" data-edit-text="material/m11.html::text-54">10. Betriebliche Interpretation</h2>
+<p data-edit-text="material/m11.html::text-55">Eine fachliche Auswertung unterscheidet Beobachtung, Erklärung und Empfehlung. Beobachtung: Der Wert im Oktober ist höher als im September. Erklärung: Die Ursache ist aus den vier Monatswerten allein nicht bekannt. Empfehlung: Die Verwaltung sollte bei Bedarf zusätzliche Informationen zur Aufgabenmenge und Bearbeitung einholen.</p>
+<p data-edit-text="material/m11.html::text-56">Bei Kostenanteilen gilt dasselbe: Ein hoher Anteil beschreibt die Zusammensetzung, nicht die Wirtschaftlichkeit. Für Einsparentscheidungen fehlen beispielsweise Bedarf, Preisalternativen und Folgen für den Betriebsablauf.</p>
+<h2 id="11-freiwilliges-anwendungsbeispiel" data-edit-text="material/m11.html::text-57">11. Freiwilliges Anwendungsbeispiel</h2>
+<p data-edit-text="material/m11.html::text-58">Unabhängige Schulungsdaten: Für eine Besprechung werden die Zahlen interner Dokumentenprüfungen von Juli bis Oktober (8, 12, 9, 15) sowie die August-Kostenarten aus Abschnitt 6 betrachtet.</p>
+<p data-edit-text="material/m11.html::text-59">Freiwillige Erkundung: Die Monatswerte als Säulen und als Linie skizzieren oder in einer eigenen Übungsdatei darstellen. Die Kostenarten als Balken und Kreis darstellen. Jeweils vergleichen, welche Aussage schneller erkennbar ist. Die Werte bleiben bei einem Wechsel des Diagrammtyps gleich. Eine begründete Auswahl ist wichtiger als eine möglichst große Zahl von Diagrammen.</p>
+<p data-edit-text="material/m11.html::text-60">Kontrollhinweis: Für den zeitlichen Verlauf ist die Linie besonders anschaulich, für den Vergleich einzelner Monatswerte sind auch Säulen geeignet. Für die Rangfolge der Kostenarten sind Balken geeignet, für die Zusammensetzung der 300 EUR ein Kreis. Andere begründete Darstellungen sind möglich. Keine zusätzliche Abgabe.</p>
+<h2 id="12-typische-fehler-und-abhilfe" data-edit-text="material/m11.html::text-61">12. Typische Fehler und Abhilfe</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Fehler</th>
+<th>Abhilfe</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Diagramm ohne konkrete Fragestellung</td>
+<td>Aussageziel zuerst bestimmen</td>
+</tr>
+<tr class="even">
+<td>Gesamtzeile als Kreissektor</td>
+<td>Nur Bestandteile markieren</td>
+</tr>
+<tr class="odd">
+<td>Zeitwerte unsortiert</td>
+<td>Chronologisch ordnen</td>
+</tr>
+<tr class="even">
+<td>Unverbundene Kategorien als Linie</td>
+<td>Säulen oder Balken prüfen</td>
+</tr>
+<tr class="odd">
+<td>Negative Beträge im Kreis</td>
+<td>Andere Darstellung wählen</td>
+</tr>
+<tr class="even">
+<td>Fehlende Werte als null</td>
+<td>Bedeutung klären</td>
+</tr>
+<tr class="odd">
+<td>Abgeschnittene Säulenachse</td>
+<td>Nullpunkt herstellen</td>
+</tr>
+<tr class="even">
+<td>Einheit fehlt</td>
+<td>Titel oder Achsentitel ergänzen</td>
+</tr>
+<tr class="odd">
+<td>Datenreihen vertauscht</td>
+<td>Datenquelle kontrollieren</td>
+</tr>
+<tr class="even">
+<td>Zu viele Sektoren</td>
+<td>Balken oder begründete Gruppierung prüfen</td>
+</tr>
+<tr class="odd">
+<td>3D-Effekte</td>
+<td>Einfache 2D-Darstellung</td>
+</tr>
+<tr class="even">
+<td>Legende unverständlich</td>
+<td>Aussagekräftige Reihenbezeichnungen</td>
+</tr>
+<tr class="odd">
+<td>Filter unbemerkt aktiv</td>
+<td>Sichtbare Daten und Quelle prüfen</td>
+</tr>
+<tr class="even">
+<td>Ursache aus Diagramm behauptet</td>
+<td>Beobachtung und Erklärung trennen</td>
+</tr>
+</tbody>
+</table>
+<h2 id="13-qualitätskontrolle" data-edit-text="material/m11.html::text-62">13. Qualitätskontrolle</h2>
+<p><span data-edit-text="material/m11.html::segment-21">Freiwillige Prüfhilfe: Stimmen alle dargestellten Werte mit der Quelle überein? Sind Zeitraum und Einheit erkennbar? Ist der Diagrammtyp begründet? Sind Kategorien, Achsen und Datenreihen eindeutig? Sind Anteile auf das richtige Ganze bezogen? Sind Skalierung und Zeitabstände sachgerecht? Bleibt die Darstellung auch ohne Farbe verständlich? Sind Beobachtungen von Vermutungen getrennt? Wird die Quelle bei Änderungen korrekt aktualisiert? Bleibt die </span><a href="../ls-glossar.html?from=material%2Fm11.html%23wort-arbeitsmappe#arbeitsmappe" id="wort-arbeitsmappe" data-edit-text="material/m11.html::segment-23" data-edit-link="material/m11.html::link-3">Arbeitsmappe</a><span data-edit-text="material/m11.html::segment-22"> erweiterbar?</span></p>
+<p data-edit-text="material/m11.html::text-63">Die Anforderungen an Formeln und Wiederverwendbarkeit aus den Schulbuchseiten werden durch M5–M8 und M14 unterstützt. Die technische Gestaltung und die Druckaufbereitung werden in M12 und M13 vertieft.</p>
+<h2 id="14-freiwillige-selbstkontrolle" data-edit-text="material/m11.html::text-64">14. Freiwillige Selbstkontrolle</h2>
+<ol type="1">
+<li data-edit-text="material/m11.html::text-65">Warum ergänzen Diagramme eine Tabelle?</li>
+<li data-edit-text="material/m11.html::text-66">Worin unterscheiden sich Säulen und Balken?</li>
+<li data-edit-text="material/m11.html::text-67">Welcher Typ ist für lange Kategorienamen oft geeignet?</li>
+<li data-edit-text="material/m11.html::text-68">Welche Eigenschaft macht eine Linie für Zeitreihen nützlich?</li>
+<li data-edit-text="material/m11.html::text-69">Warum ist eine Linie für ungeordnete Kostenarten ungeeignet?</li>
+<li data-edit-text="material/m11.html::text-70">Welche Voraussetzungen hat ein Kreisdiagramm?</li>
+<li data-edit-text="material/m11.html::text-71">Wie groß ist der Anteil von 90 EUR an 300 EUR?</li>
+<li data-edit-text="material/m11.html::text-72">Warum darf die Gesamtzeile nicht als Kreissektor erscheinen?</li>
+<li data-edit-text="material/m11.html::text-73">Was unterscheidet Achsentitel und Achsenbeschriftung?</li>
+<li data-edit-text="material/m11.html::text-74">Welche Aufgabe hat die Legende?</li>
+<li data-edit-text="material/m11.html::text-75">Warum sollten Säulen bei null beginnen?</li>
+<li data-edit-text="material/m11.html::text-76">Sind fehlende Monatswerte automatisch null?</li>
+<li data-edit-text="material/m11.html::text-77">Wo lässt sich ein Diagrammtyp nachträglich ändern?</li>
+<li data-edit-text="material/m11.html::text-78">Warum ist ein hoher Kostenanteil kein Beweis für Einsparpotenzial?</li>
+<li data-edit-text="material/m11.html::text-79">Welche Kriterien gehören in eine Diagrammbegründung?</li>
+<li data-edit-text="material/m11.html::text-80">Kann ein Säulendiagramm für Monatswerte ebenfalls sinnvoll sein?</li>
+</ol>
+<p><strong data-edit-text="material/m11.html::segment-24">Kontrollhinweise</strong></p>
+<ol type="1">
+<li data-edit-text="material/m11.html::text-81">Muster werden sichtbar, genaue Einzelwerte bleiben in der Tabelle.</li>
+<li data-edit-text="material/m11.html::text-82">Senkrechte Säulen, waagerechte Balken.</li>
+<li data-edit-text="material/m11.html::text-83">Balkendiagramm.</li>
+<li data-edit-text="material/m11.html::text-84">Zeitlich geordnete Punkte werden verbunden.</li>
+<li data-edit-text="material/m11.html::text-85">Die Verbindung suggeriert einen Verlauf ohne sachliche Reihenfolge.</li>
+<li><span data-edit-text="material/m11.html::segment-25">Nichtnegative Bestandteile eines eindeutigen Ganzen mit positiver </span><a href="../ls-glossar.html?from=material%2Fm11.html%23wort-summe#summe" id="wort-summe" data-edit-text="material/m11.html::segment-27" data-edit-link="material/m11.html::link-4">Summe</a><span data-edit-text="material/m11.html::segment-26">.</span></li>
+<li data-edit-text="material/m11.html::text-86">30 %.</li>
+<li data-edit-text="material/m11.html::text-87">Das Ganze würde zusätzlich zu seinen Teilen gezählt.</li>
+<li data-edit-text="material/m11.html::text-88">Titel bezeichnet Größe und Einheit; Beschriftung zeigt Kategorien oder Skalenwerte.</li>
+<li data-edit-text="material/m11.html::text-89">Farben oder Symbole den Reihen bzw. Kategorien zuordnen.</li>
+<li data-edit-text="material/m11.html::text-90">Damit Längenverhältnisse nicht verzerrt werden.</li>
+<li data-edit-text="material/m11.html::text-91">Nein, fehlende Meldungen müssen geklärt werden.</li>
+<li data-edit-text="material/m11.html::text-92">Diagrammentwurf &gt; Diagrammtyp ändern.</li>
+<li data-edit-text="material/m11.html::text-93">Bedarf und Alternativen sind nicht bekannt.</li>
+<li data-edit-text="material/m11.html::text-94">Aussageziel, Daten, Zielgruppe, Vorteil und Grenze einer Alternative.</li>
+<li data-edit-text="material/m11.html::text-95">Ja, besonders für den direkten Vergleich weniger Monatswerte.</li>
+</ol>
+<p data-edit-text="material/m11.html::text-96">Keine zusätzliche Abgabe oder Bewertung.</p>
+<h2 id="15-weiterführende-materialien" data-edit-text="material/m11.html::text-97">15. Weiterführende Materialien</h2>
+<p><span data-edit-text="material/m11.html::segment-28">M4 Zahlenformate, M6 Funktionen, M7 Zellbezüge, M8 Anteile, M10 </span><a href="../ls-glossar.html?from=material%2Fm11.html%23wort-sortieren#sortieren" id="wort-sortieren" data-edit-text="material/m11.html::segment-30" data-edit-link="material/m11.html::link-5">Sortieren</a><span data-edit-text="material/m11.html::segment-29"> und Filtern. M12 Diagramme erstellen und gestalten, M13 Seitenlayout und Druck, M14 Qualitätskontrolle. M11 bleibt während der gesamten Lernsituation verfügbar.</span></p>
+</article></article></section>
+  </div>
+</div>
+</div>
+<p><a href="m11.md" download data-edit-text="material/m11.html::segment-31" data-edit-link="material/m11.html::link-6">Bearbeitbare Textfassung</a></p>
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

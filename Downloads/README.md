@@ -61,6 +61,28 @@ Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-K
 | Geschichte | Vom Mythos zum Krieg · Russland | 1.8.14 | [ZIP](GESCHICHTE-J1914-Russland/Julikrise_1914_Russland_v1.8.14_SCORM12.zip) |
 | Geschichte | Identität und Nation | 1.8.15 | [ZIP](GESCHICHTE-IDN/Identitaet_und_Nation_v1.8.15_SCORM12.zip) |
 | Vorlagen | LS-Master im BRC-Design | 1.8.13 | [ZIP](LS-MASTER/LS_Master_BRC_v1.8.13_SCORM12.zip) |
+| BFS dual | Unternehmen erkunden, vergleichen und präsentieren | 1.8.15 | [ZIP](BFSDUAL-LF01-LS01/BFSDUAL_LF01_LS01_v1.8.15_SCORM12.zip) |
+| BFS dual | Betriebliche Strukturen und Zuständigkeiten verstehen | 1.8.15 | [ZIP](BFSDUAL-LF01-LS03/BFSDUAL_LF01_LS03_v1.8.15_SCORM12.zip) |
+| BFS dual | Ein Kundenanliegen professionell bearbeiten | 1.8.14 | [ZIP](BFSDUAL-LF02-LS01/BFSDUAL_LF02_LS01_v1.8.14_SCORM12.zip) |
+| BFS dual | Kunden bedarfsgerecht beraten und Verkaufsgespräche erfolgreich führen | 1.8.14 | [ZIP](BFSDUAL-LF02-LS02/BFSDUAL_LF02_LS02_v1.8.14_SCORM12.zip) |
+| BFS dual | Dürfen wir an jeden Kunden verkaufen? | 1.8.14 | [ZIP](BFSDUAL-LF02-LS03/BFSDUAL_LF02_LS03_v1.8.14_SCORM12.zip) |
+| BFS dual | Kundenangebote erstellen und Bestellungen prüfen | 1.8.14 | [ZIP](BFSDUAL-LF02-LS04/BFSDUAL_LF02_LS04_v1.8.14_SCORM12.zip) |
+| BFS dual | Ist der Kundenauftrag wirklich abgeschlossen? | 1.8.14 | [ZIP](BFSDUAL-LF02-LS05/BFSDUAL_LF02_LS05_v1.8.14_SCORM12.zip) |
+| BFS dual | Beschaffung wirtschaftlich planen – die richtige Bestellstrategie für Global Bike | 1.8.14 | [ZIP](BFSDUAL-LF03-LS01/BFSDUAL_LF03_LS01_v1.8.14_SCORM12.zip) |
+| BFS dual | Lagerhaltung optimieren – ABC-Analyse und Entscheidung über Eigen- oder Fremdlagerung | 1.8.14 | [ZIP](BFSDUAL-LF03-LS02/BFSDUAL_LF03_LS02_v1.8.14_SCORM12.zip) |
+| BFS dual | Wenn Lieferungen nicht wie vereinbart erfolgen | 1.8.14 | [ZIP](BFSDUAL-LF03-LS03/BFSDUAL_LF03_LS03_v1.8.14_SCORM12.zip) |
+| BFS dual | Excel für Büroaufgaben – Eine digitale Büroübersicht erstellen | 1.8.14 | [ZIP](BFSDUAL-LF02-LS06A/BFSDUAL_LF02_LS06A_v1.8.14_SCORM12.zip) |
+| BFS dual | Absatzvorgänge mit SAP durchführen | 1.8.14 | [ZIP](BFSDUAL-LF02-LS06B/BFSDUAL_LF02_LS06B_v1.8.14_SCORM12.zip) |
+| BFS dual | Die Nachfrage an zwei Standorten vergleichen | 1.8.14 | [ZIP](BFSDUAL-LF06-LS01/BFSDUAL_LF06_LS01_v1.8.14_SCORM12.zip) |
+| BFS dual | Ein gemeinsames Sortiment mit lokalen Ergänzungen zusammenstellen | 1.8.14 | [ZIP](BFSDUAL-LF06-LS02/BFSDUAL_LF06_LS02_v1.8.14_SCORM12.zip) |
+| BFS dual | Waren im Fahrradfachgeschäft präsentieren | 1.8.14 | [ZIP](BFSDUAL-LF06-LS03/BFSDUAL_LF06_LS03_v1.8.14_SCORM12.zip) |
+| BFS dual | Waren auf einer Selbstbedienungsfläche präsentieren | 1.8.14 | [ZIP](BFSDUAL-LF06-LS04/BFSDUAL_LF06_LS04_v1.8.14_SCORM12.zip) |
+| BFS dual | Eine gemeinsame Werbeaktion abstimmen | 1.8.14 | [ZIP](BFSDUAL-LF06-LS05/BFSDUAL_LF06_LS05_v1.8.14_SCORM12.zip) |
+| BFS dual | Werbemittel für beide Standorte gestalten | 1.8.14 | [ZIP](BFSDUAL-LF06-LS06/BFSDUAL_LF06_LS06_v1.8.14_SCORM12.zip) |
+| BFS dual | Die Entwürfe vor der Freigabe prüfen | 1.8.14 | [ZIP](BFSDUAL-LF06-LS07/BFSDUAL_LF06_LS07_v1.8.14_SCORM12.zip) |
+| BFS dual | Über die Fortführung der Aktion entscheiden | 1.8.14 | [ZIP](BFSDUAL-LF06-LS08/BFSDUAL_LF06_LS08_v1.8.14_SCORM12.zip) |
+| BFS dual | Unternehmensziele und Zielkonflikte beurteilen | 1.8.15 | [ZIP](BFSDUAL-LF01-LS02/BFSDUAL_LF01_LS02_v1.8.15_SCORM12.zip) |
+| BFS dual | Einen Kundenauftrag abwickeln mit SAP (Praxis) | 1.8.15 | [ZIP](BFSDUAL-LF02-LS07/BFSDUAL_LF02_LS07_v1.8.15_SCORM12.zip) |
 
 Maschinenlesbare Zuordnung und Prüfsummen: [aktuell.json](aktuell.json).
 Vor einer automatischen Nutzung: `python tools/master.py check --archives`.

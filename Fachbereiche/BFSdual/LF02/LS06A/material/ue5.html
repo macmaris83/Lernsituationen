@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ü5 – Betriebliche Kosten mit Excel-Funktionen auswerten</title><link href="../assets/global-bike.css" rel="stylesheet"><style>main.excel{max-width:72rem;margin:auto;padding:1rem 3vw;background:white;font:1rem/1.55 system-ui;color:#17324b}.excel img{max-width:100%;height:auto}.excel table{display:block;overflow:auto;border-collapse:collapse}.excel td,.excel th{padding:.4rem;border:1px solid #b7c7d0}.excel a{text-decoration:underline}</style><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main class="excel">
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app onenote" data-material-view="onenote" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">N</span>
+    <strong>OneNote</strong><span class="file">ue5</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Notizen</span><span class="material-tab">Arbeitsunterlagen</span><span class="material-kind">Notiz / Arbeitsblatt</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Notizbuch</span><span class="material-rail-item is-active">Notizen</span><span class="material-rail-item">Unterlagen</span><span class="material-rail-item">Besprechungen</span></aside>
+    <section class="canvas"><article class="paper"><article><h1 id="ü5--betriebliche-kosten-mit-excel-funktionen-auswerten" data-edit-text="material/ue5.html::text-1">Ü5 – Betriebliche Kosten mit Excel-Funktionen auswerten</h1>
+<p data-edit-text="material/ue5.html::text-2">Global Bike Deutschland GmbH · Verwaltung · Löppt · freiwillig · unbenotet · keine KI · keine Pflichtabgabe</p>
+<h2 id="ausgangssituation" data-edit-text="material/ue5.html::text-3">Ausgangssituation</h2>
+<p data-edit-text="material/ue5.html::text-4">Emma Fuchs benötigt für eine interne Besprechung zur Marktbearbeitung Nordwest eine Auswertung der Nettokosten von sechs Informationsveranstaltungen. Die Übersicht soll Änderungen berücksichtigen und eine sachgerechte Einschätzung ermöglichen. Eigenständige simulierte Übungsdaten, keine SAP-Änderung, unabhängig von M1.</p>
+<h2 id="kompetenzen" data-edit-text="material/ue5.html::text-5">Kompetenzen</h2>
+<p><span data-edit-text="material/ue5.html::segment-1">F5: </span><a href="../ls-glossar.html?from=material%2Fue5.html%23wort-summe#summe" id="wort-summe" data-edit-text="material/ue5.html::segment-3" data-edit-link="material/ue5.html::link-1">SUMME</a><span data-edit-text="material/ue5.html::segment-2">, MIN, MAX und MITTELWERT auswählen, korrekt anwenden und interpretieren; F4 mitgeübt (Formeln und Zellbezüge). Zahlenformate aus M4 wiederholen. Zuordnung gemäß bestätigter Übungsübersicht, kein wörtliches Kompetenzzitat.</span></p>
+<h2 id="ausgangsdaten" data-edit-text="material/ue5.html::text-6">Ausgangsdaten</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Termin</th>
+<th style="text-align: right;">Material netto</th>
+<th style="text-align: right;">Organisation netto</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td style="text-align: right;">80 €</td>
+<td style="text-align: right;">40 €</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td style="text-align: right;">110 €</td>
+<td style="text-align: right;">70 €</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td style="text-align: right;">60 €</td>
+<td style="text-align: right;">30 €</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td style="text-align: right;">95 €</td>
+<td style="text-align: right;">55 €</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td style="text-align: right;">140 €</td>
+<td style="text-align: right;">100 €</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td style="text-align: right;">100 €</td>
+<td style="text-align: right;">80 €</td>
+</tr>
+</tbody>
+</table>
+<h2 id="arbeitsaufträge" data-edit-text="material/ue5.html::text-7">Arbeitsaufträge</h2>
+<ol type="1">
+<li data-edit-text="material/ue5.html::text-8">Öffnen Sie UE5_Arbeitsdatei.xlsx und speichern Sie eine Arbeitskopie GB_UE5_Kostenauswertung.xlsx. Erkunden Sie die drei Blätter Kosten, Funktionslabor und Fehlerlabor. Grüne Felder sind Ergebnis- bzw. Bearbeitungsfelder.</li>
+<li><span data-edit-text="material/ue5.html::segment-4">Berechnen Sie in Kosten D4 die Gesamtkosten des ersten Termins durch Addition der beiden Kostenarten mit Zellbezügen. Übertragen Sie die </span><a href="../ls-glossar.html?from=material%2Fue5.html%23wort-formel#formel" id="wort-formel" data-edit-text="material/ue5.html::segment-6" data-edit-link="material/ue5.html::link-2">Formel</a><span data-edit-text="material/ue5.html::segment-5"> bis D9. Prüfen Sie die letzte Formel. Kontrollieren Sie die Währungsdarstellung mit zwei Dezimalstellen.</span></li>
+<li data-edit-text="material/ue5.html::text-9">Wählen Sie für jede Fragestellung in A13:A16 die passende Funktion. Ermitteln Sie in B13 die Gesamtkosten mit AutoSumme. Achtung: Die Ergebniszelle liegt nicht unmittelbar unter der Datenliste. Ersetzen Sie den vorgeschlagenen Bereich durch D4:D9. Prüfen Sie die Bearbeitungsleiste. Alternativ geben Sie die Funktion direkt ein.</li>
+<li data-edit-text="material/ue5.html::text-10">Berechnen Sie in B14 und B15 den niedrigsten und höchsten Gesamtbetrag. Verwenden Sie mindestens einmal den Funktionsassistenten fx. Ermitteln Sie in B16 den Durchschnitt pro Termin durch direkte Funktionseingabe. Alle vier Funktionen beziehen sich auf dieselben sechs Gesamtbeträge. Keine Ergebniszelle oder Überschrift einbeziehen.</li>
+<li><span data-edit-text="material/ue5.html::segment-7">Prüfen Sie die Summe durch Addition und den Durchschnitt durch Division durch sechs. Suchen Sie in der Liste die zu </span><a href="../ls-glossar.html?from=material%2Fue5.html%23wort-min#min" id="wort-min" data-edit-text="material/ue5.html::segment-9" data-edit-link="material/ue5.html::link-3">MIN</a><span data-edit-text="material/ue5.html::segment-8"> und MAX gehörenden Termine. Formulieren Sie eine kurze Notiz: Wie hoch ist der Unterschied? Warum reicht der höchste Betrag allein nicht für ein Urteil über Wirtschaftlichkeit? Welche weiteren Angaben wären erforderlich?</span></li>
+<li data-edit-text="material/ue5.html::text-11">Bearbeiten Sie im Funktionslabor E4:E7 mit den vier Funktionen für B4:B8. B5 ist eine noch fehlende Angabe, B6 ist eine bestätigte Null, B8 enthält Text. Ermitteln Sie vorab die Anzahl der numerischen Werte. Vergleichen Sie Ihre Erwartung mit Excel. Testen Sie nacheinander: B5 vorübergehend 0; danach B5 wieder leeren; B8 vorübergehend numerisch 60 (nur als Simulation einer bestätigten Korrektur); danach ursprünglichen Text wiederherstellen. Notieren Sie die vier Ergebnisse jedes Tests. Fehlende Angaben nicht eigenmächtig als Null erfassen.</li>
+<li data-edit-text="material/ue5.html::text-12">Prüfen Sie im Fehlerlabor B11:B14 die vorhandenen Formeln. Korrigieren Sie jede Formel anhand des Auftrags in Spalte A. Dokumentieren Sie Ursache in C und Korrektur in D. Die Kontrollsumme in B8 ist keine zusätzliche Ausgabe. Prüfen Sie auch Ergebnisse, die keinen Fehlercode anzeigen.</li>
+<li data-edit-text="material/ue5.html::text-13">Funktionstest im Blatt Kosten: Ändern Sie C8 von 100 auf 160. Sagen Sie die Änderung aller vier Kennzahlen voraus, vergleichen Sie mit Excel und stellen Sie 100 wieder her. Prüfen Sie anschließend in einer Testkopie eine zusätzliche Veranstaltung in Zeile 10 (Material 70 €, Organisation 50 €). Berechnen Sie D10, erweitern Sie alle vier Auswertungsbereiche und prüfen Sie die Ergebnisse. Verwerfen Sie die Testkopie oder stellen Sie alle Ausgangswerte und Bereiche wieder her.</li>
+<li data-edit-text="material/ue5.html::text-14">Speichern Sie Ihre Arbeitskopie, schließen und öffnen Sie sie erneut. Nutzen Sie die Selbstkontrolle und erst danach die separate Musterlösung. Keine Abgabe.</li>
+</ol>
+<h2 id="lernhilfen" data-edit-text="material/ue5.html::text-15">Lernhilfen</h2>
+<p><img src="Grafiken/G8_Funktionsaufbau.png" alt="Funktionsaufbau" data-edit-image="material/ue5.html::image-1"></p>
+<p><img src="Grafiken/G8a_Funktionsvergleich.png" alt="Funktionsvergleich" data-edit-image="material/ue5.html::image-2"></p>
+<p><img src="Grafiken/G8b_AutoSumme.png" alt="AutoSumme" data-edit-image="material/ue5.html::image-3"></p>
+<p><img src="Grafiken/UE5_Datentypen.png" alt="Leere Zellen, Null und Text" data-edit-image="material/ue5.html::image-4"></p>
+<p data-edit-text="material/ue5.html::text-16">Schematische Lernhilfen, keine Excel-Screenshots.</p>
+<h2 id="klick-anleitungen-excel-windows-deutsch" data-edit-text="material/ue5.html::text-17">Klick-Anleitungen (Excel Windows, deutsch)</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Ziel</th>
+<th>Vorgehen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Arbeitskopie</td>
+<td>Datei → Speichern unter/Kopie speichern → XLSX</td>
+</tr>
+<tr class="even">
+<td>Addition</td>
+<td>D4 auswählen → =B4+C4 → Enter</td>
+</tr>
+<tr class="odd">
+<td>Formel übertragen</td>
+<td>Ausfüllkästchen bis D9 ziehen → letzte Formel prüfen</td>
+</tr>
+<tr class="even">
+<td>SUMME direkt</td>
+<td>Ergebniszelle → =SUMME( → Bereich markieren → ) → Enter</td>
+</tr>
+<tr class="odd">
+<td>AutoSumme</td>
+<td>Ergebniszelle → Start → Bearbeiten → Σ AutoSumme → vorgeschlagenen Bereich durch gewünschten ersetzen → Enter</td>
+</tr>
+<tr class="even">
+<td>MIN</td>
+<td>Ergebniszelle → =MIN( → Bereich markieren → ) → Enter</td>
+</tr>
+<tr class="odd">
+<td><a href="../ls-glossar.html?from=material%2Fue5.html%23wort-max#max" id="wort-max" data-edit-link="material/ue5.html::link-4">MAX</a></td>
+<td>Ergebniszelle → =MAX( → Bereich markieren → ) → Enter</td>
+</tr>
+<tr class="even">
+<td><a href="../ls-glossar.html?from=material%2Fue5.html%23wort-mittelwert#mittelwert" id="wort-mittelwert" data-edit-link="material/ue5.html::link-5">MITTELWERT</a></td>
+<td>Ergebniszelle → =MITTELWERT( → Bereich markieren → ) → Enter</td>
+</tr>
+<tr class="odd">
+<td>Funktionsassistent</td>
+<td>Ergebniszelle → fx → Funktion suchen → Argumentbereich markieren → Vorschau → OK</td>
+</tr>
+<tr class="even">
+<td>Weitere AutoSumme-Funktionen</td>
+<td>Pfeil neben Σ → Mittelwert, Min oder Max → Bereich prüfen → Enter</td>
+</tr>
+<tr class="odd">
+<td>Bereich korrigieren</td>
+<td>Ergebniszelle → F2 → Bereichsadresse ändern → Enter</td>
+</tr>
+<tr class="even">
+<td>Mehrere Argumente</td>
+<td>In deutscher Standardkonfiguration Semikolon zwischen getrennten Argumenten, Doppelpunkt innerhalb eines zusammenhängenden Bereichs</td>
+</tr>
+<tr class="odd">
+<td>Währung</td>
+<td>Strg+1 → Währung → Euro → zwei Nachkommastellen</td>
+</tr>
+<tr class="even">
+<td>Textzahl korrigieren</td>
+<td>Eingabe fachlich prüfen → Standardformat → Zahl neu eingeben</td>
+</tr>
+<tr class="odd">
+<td>Zelle leeren</td>
+<td>Zelle markieren → Entf (Inhalt löschen, nicht Zeile löschen)</td>
+</tr>
+<tr class="even">
+<td>Neuberechnung</td>
+<td>Formeln → Berechnungsoptionen → Automatisch; F9 stößt Berechnung an</td>
+</tr>
+<tr class="odd">
+<td>Speichern</td>
+<td>Strg+S</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/ue5.html::text-18">Menübezeichnungen können je nach Version abweichen.</p>
+<h2 id="fachliche-hinweise" data-edit-text="material/ue5.html::text-19">Fachliche Hinweise</h2>
+<p data-edit-text="material/ue5.html::text-20">Eine Funktion ist eine vorgefertigte Rechenvorschrift innerhalb einer Formel. Beispiel =SUMME(C2:C5): Gleichheitszeichen, Name, öffnende Klammer, Argument (vier Zellen einschließlich beider Grenzen), schließende Klammer. Ein getrenntes Argument wird in der üblichen deutschen Konfiguration mit Semikolon angeschlossen. MIN/MAX geben Beträge, keine Namen zurück. Bei Gleichständen alle zugehörigen Positionen nennen. Bei referenzierten Bereichen ignorieren die vier Funktionen leere Zellen und Text; numerische Null zählt. Fehlerwerte können die Auswertung abbrechen. Ohne numerische Werte liefern SUMME/MIN/MAX null, MITTELWERT #DIV/0!. Die vier Funktionen berücksichtigen auch ausgefilterte Zeilen. Feste Bereiche schließen neue Zeilen nicht zwangsläufig ein.</p>
+<h2 id="selbstkontrolle" data-edit-text="material/ue5.html::text-21">Selbstkontrolle</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Arbeitskopie gespeichert, Original unverändert.</label></li>
+<li><label><input type="checkbox">Sechs Gesamtbeträge sind Formeln mit passenden Bezügen.</label></li>
+<li><label><input type="checkbox">Alle vier Funktionen verwenden D4:D9.</label></li>
+<li><label><input type="checkbox">AutoSumme-Bereich kontrolliert.</label></li>
+<li><label><input type="checkbox">Funktionsassistent mindestens einmal verwendet.</label></li>
+<li><label><input type="checkbox">Durchschnitt als Kosten je Termin erklärt.</label></li>
+<li><label><input type="checkbox">MIN/MAX zu den richtigen Terminen zugeordnet.</label></li>
+<li><label><input type="checkbox">Funktionslabor: Null, leer und Text unterschieden.</label></li>
+<li><label><input type="checkbox">Vier Fehlerfälle korrigiert und dokumentiert.</label></li>
+<li><label><input type="checkbox">Beide Funktionstests erfolgreich, Ausgangszustand wiederhergestellt.</label></li>
+<li><label><input type="checkbox">Währungsformate und erneutes Öffnen geprüft.</label></li>
+</ul>
+<h2 id="freiwillige-vertiefung" data-edit-text="material/ue5.html::text-22">Freiwillige Vertiefung</h2>
+<p data-edit-text="material/ue5.html::text-23">Ermitteln Sie in einer freien Zelle die Summe der beiden Kostenarten über zwei getrennte Bereiche mit =SUMME(B4:B9;C4:C9). Vergleichen Sie mit B13. Erklären Sie, weshalb eine zusätzliche Summierung von D4:D9 die Kosten doppelt zählen würde.</p>
+<p><a href="UE5_Arbeitsdatei.xlsx" data-edit-text="material/ue5.html::segment-10" data-edit-link="material/ue5.html::link-6">Excel-Arbeitsdatei herunterladen</a></p>
+<details><summary>Freiwilliger Übungscheck · fünf Fragen</summary><fieldset style="margin:.75rem 0"><legend>Die sechs Gesamtbeträge stehen in D4:D9. Welche Formel berechnet die Gesamtkosten?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> =MITTELWERT(D4:D9)</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> =SUMME(D4;D9)</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="1"> =SUMME(D4:D9)</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> =SUMME(B4:D9)</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> =MAX(D4:D9)</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> =MIN(D4:D9)</label><button type="button" data-ue-feedback="Richtig: der Doppelpunkt umfasst alle sechs Beträge.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>Welche Funktion liefert den höchsten Gesamtbetrag der sechs Termine?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> SUMME</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> MIN</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> Division der Summe durch sechs</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> MITTELWERT</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="1"> MAX</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> Addition der ersten und letzten Zelle</label><button type="button" data-ue-feedback="Richtig: MAX liefert den größten numerischen Wert.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>Ein Bereich enthält 40, eine leere Zelle, 0 und 80. Was ergibt MITTELWERT?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> 60</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> 30</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="1"> 40</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> 0</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> 80</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> 120</label><button type="button" data-ue-feedback="Richtig: 120 geteilt durch drei numerische Werte.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>AutoSumme schlägt D4:D8 vor, die Daten reichen bis D9. Was ist zu tun?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> D9 löschen</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Ergebniszelle zusätzlich einbeziehen</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Vorschlag unverändert übernehmen</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Ergebnis als Festwert eingeben</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="1"> Bereich auf D4:D9 korrigieren und bestätigen</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> D9 als Text formatieren</label><button type="button" data-ue-feedback="Richtig: alle sechs Datenzeilen müssen einbezogen werden.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>MIN ergibt 90 €, MAX 240 €. Welche Aussage ist fachlich begründet?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Der teuerste Termin ist unwirtschaftlich.</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> MAX liefert automatisch den Namen des Termins.</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Der günstigste Termin war am erfolgreichsten.</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Die Gesamtkosten betragen 330 €.</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Der Durchschnitt beträgt zwingend 165 €.</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="1"> Die Differenz beträgt 150 €; für ein Wirtschaftlichkeitsurteil fehlen weitere Angaben.</label><button type="button" data-ue-feedback="Richtig: 240 minus 90 ergibt 150; Umfang und Nutzen müssen berücksichtigt werden.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset></details><script>for(const b of document.querySelectorAll("[data-ue-feedback]"))b.addEventListener("click",()=>{const f=b.closest("fieldset"),c=f.querySelector("input:checked");f.querySelector("[role=status]").textContent=c?((c.value==="1"?"Richtig. ":"Prüfe deine Wahl. ")+b.dataset.ueFeedback):"Wähle zuerst eine Antwort.";});</script></article></article></section>
+  </div>
+</div>
+</div>
+<p><a href="ue5.md" download data-edit-text="material/ue5.html::segment-11" data-edit-link="material/ue5.html::link-7">Bearbeitbare Textfassung</a></p>
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

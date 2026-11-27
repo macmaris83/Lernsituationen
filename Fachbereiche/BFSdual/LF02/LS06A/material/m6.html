@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>M6 – Excel-Funktionen: SUMME, MIN, MAX und MITTELWERT</title><link href="../assets/global-bike.css" rel="stylesheet"><style>main.excel{max-width:72rem;margin:auto;padding:1rem 3vw;background:white;font:1rem/1.55 system-ui;color:#17324b}.excel img{max-width:100%;height:auto}.excel table{display:block;overflow:auto;border-collapse:collapse}.excel td,.excel th{padding:.4rem;border:1px solid #b7c7d0}.excel a{text-decoration:underline}</style><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main class="excel">
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app onenote" data-material-view="onenote" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">N</span>
+    <strong>OneNote</strong><span class="file">m6</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Notizen</span><span class="material-tab">Arbeitsunterlagen</span><span class="material-kind">Notiz / Arbeitsblatt</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Notizbuch</span><span class="material-rail-item is-active">Notizen</span><span class="material-rail-item">Unterlagen</span><span class="material-rail-item">Besprechungen</span></aside>
+    <section class="canvas"><article class="paper"><article><h1 id="m6--excel-funktionen-summe-min-max-und-mittelwert" data-edit-text="material/m6.html::text-1">M6 – Excel-Funktionen: SUMME, MIN, MAX und MITTELWERT</h1>
+<p data-edit-text="material/m6.html::text-2">Global Bike Deutschland GmbH – Verwaltung</p>
+<h2 id="1-bedeutung-von-excel-funktionen-im-büroalltag" data-edit-text="material/m6.html::text-3">1. Bedeutung von Excel-Funktionen im Büroalltag</h2>
+<p data-edit-text="material/m6.html::text-4">In der Verwaltung müssen regelmäßig größere Zahlenmengen ausgewertet werden. Wie hoch sind die Gesamtausgaben? Welche Ausgabe ist besonders hoch? Wie viel wird durchschnittlich ausgegeben? Excel bietet fertige Rechenvorschriften, mit denen solche Fragen schnell beantwortet werden können. Die Ergebnisse ändern sich bei automatischer Berechnung, wenn sich die einbezogenen Ausgangswerte ändern. Die Auswahl des richtigen Datenbereichs und die Interpretation bleiben Aufgabe der Mitarbeitenden.</p>
+<h2 id="2-formeln-und-funktionen" data-edit-text="material/m6.html::text-5">2. Formeln und Funktionen</h2>
+<p><span data-edit-text="material/m6.html::segment-1">Eine </span><a href="../ls-glossar.html?from=material%2Fm6.html%23wort-formel#formel" id="wort-formel" data-edit-text="material/m6.html::segment-5" data-edit-link="material/m6.html::link-1">Formel</a><span data-edit-text="material/m6.html::segment-2"> ist eine Rechenvorschrift. Eine Funktion ist eine vorgefertigte Rechenvorschrift, die innerhalb einer Formel verwendet werden kann. </span><code>=B2+B3+B4</code><span data-edit-text="material/m6.html::segment-3"> und </span><code>=SUMME(B2:B4)</code><span data-edit-text="material/m6.html::segment-4"> liefern bei drei numerischen Werten dieselbe Summe. Die zweite Schreibweise ist bei langen zusammenhängenden Listen übersichtlicher.</span></p>
+<h2 id="3-aufbau-einer-funktion" data-edit-text="material/m6.html::text-6">3. Aufbau einer Funktion</h2>
+<p><img src="Grafiken/G8_Funktionsaufbau.png" alt="Bestandteile einer Funktion: Gleichheitszeichen, Funktionsname, Klammern und Zellbereich" data-edit-image="material/m6.html::image-1"></p>
+<p><span data-edit-text="material/m6.html::segment-6">Die Formel </span><code>=SUMME(B2:B6)</code><span data-edit-text="material/m6.html::segment-7"> beginnt mit dem Gleichheitszeichen. SUMME ist der Funktionsname. In Klammern steht das Argument, hier ein Zellbereich. Der Doppelpunkt bedeutet „von ... bis einschließlich“. B2:B6 umfasst fünf Zellen. Mehrere getrennte Argumente werden in der üblichen deutschen Excel-Konfiguration durch Semikolon getrennt, etwa </span><code>=SUMME(B2:B6;D2:D6)</code><span data-edit-text="material/m6.html::segment-8">. Ein rechteckiger Bereich wie B2:D6 umfasst alle Zellen der drei Spalten und fünf Zeilen.</span></p>
+<p data-edit-text="material/m6.html::text-7">Die Ergebniszelle muss außerhalb des eigenen ausgewerteten Bereichs liegen. Überschriften und bereits berechnete Summen sollen nicht versehentlich in den Bereich aufgenommen werden.</p>
+<h2 id="4-summe--gesamtwerte-berechnen" data-edit-text="material/m6.html::text-8">4. SUMME – Gesamtwerte berechnen</h2>
+<p><a href="../ls-glossar.html?from=material%2Fm6.html%23wort-summe#summe" id="wort-summe" data-edit-text="material/m6.html::segment-11" data-edit-link="material/m6.html::link-2">SUMME</a><span data-edit-text="material/m6.html::segment-9"> addiert die numerischen Werte eines Bereichs. Beispielsweise ergibt </span><code>=SUMME(B2:B5)</code><span data-edit-text="material/m6.html::segment-10"> bei 40, 60, 20 und 80 den Wert 200. Im Büro lassen sich damit Ausgaben, Stückzahlen oder Bearbeitungszeiten zusammenfassen. Nur Werte mit sinnvoll vergleichbaren Einheiten addieren.</span></p>
+<p><strong data-edit-text="material/m6.html::segment-12">Klick-Anleitung</strong></p>
+<ol type="1">
+<li data-edit-text="material/m6.html::text-9">Die Ergebniszelle außerhalb des Datenbereichs auswählen.</li>
+<li><code>=SUMME(</code><span data-edit-text="material/m6.html::segment-13"> eingeben.</span></li>
+<li data-edit-text="material/m6.html::text-10">Den gewünschten Bereich mit der Maus markieren.</li>
+<li data-edit-text="material/m6.html::text-11">Die schließende Klammer eingeben und Enter drücken.</li>
+<li data-edit-text="material/m6.html::text-12">Den Bereich in der Bearbeitungsleiste und das Ergebnis kontrollieren.</li>
+</ol>
+<h2 id="5-min--kleinsten-wert-ermitteln" data-edit-text="material/m6.html::text-13">5. MIN – kleinsten Wert ermitteln</h2>
+<p><code>=MIN(B2:B5)</code><span data-edit-text="material/m6.html::segment-14"> ergibt bei denselben vier Werten 20. MIN liefert den kleinsten numerischen Wert, nicht den Namen der zugehörigen Position. Um die Position zu finden, kann der Wert in der Liste gesucht oder die Liste sortiert werden (M10). Bei mehreren gleichen Minimalwerten sind alle betreffenden Positionen zu berücksichtigen.</span></p>
+<p><strong data-edit-text="material/m6.html::segment-17">Klick-Anleitung:</strong><span data-edit-text="material/m6.html::segment-15"> Ergebniszelle wählen, </span><code>=MIN(</code><span data-edit-text="material/m6.html::segment-16"> eingeben, Datenbereich markieren, Klammer schließen, Enter drücken und Ergebnis mit den Ausgangsdaten vergleichen.</span></p>
+<h2 id="6-max--größten-wert-ermitteln" data-edit-text="material/m6.html::text-14">6. MAX – größten Wert ermitteln</h2>
+<p><code>=MAX(B2:B5)</code><span data-edit-text="material/m6.html::segment-18"> ergibt 80. MAX eignet sich beispielsweise zur Ermittlung des höchsten Einzelbetrags oder der längsten Bearbeitungsdauer. Der größte Betrag ist nicht automatisch die wichtigste Aufgabe. Weitere betriebliche Kriterien können entscheidend sein.</span></p>
+<p><strong data-edit-text="material/m6.html::segment-21">Klick-Anleitung:</strong><span data-edit-text="material/m6.html::segment-19"> Ergebniszelle wählen, </span><code>=MAX(</code><span data-edit-text="material/m6.html::segment-20"> eingeben, Datenbereich markieren, Klammer schließen, Enter drücken und Ergebnis kontrollieren.</span></p>
+<h2 id="7-mittelwert--durchschnitt-berechnen" data-edit-text="material/m6.html::text-15">7. MITTELWERT – Durchschnitt berechnen</h2>
+<p><a href="../ls-glossar.html?from=material%2Fm6.html%23wort-mittelwert#mittelwert" id="wort-mittelwert" data-edit-text="material/m6.html::segment-24" data-edit-link="material/m6.html::link-3">MITTELWERT</a><span data-edit-text="material/m6.html::segment-22"> addiert die numerischen Werte und teilt die Summe durch deren Anzahl. </span><code>=MITTELWERT(B2:B5)</code><span data-edit-text="material/m6.html::segment-23"> ergibt bei den vier Beispielwerten 50, denn 200 geteilt durch 4 ergibt 50. Der Durchschnitt muss nicht als einzelner Wert in der Liste vorkommen.</span></p>
+<p><strong data-edit-text="material/m6.html::segment-27">Klick-Anleitung:</strong><span data-edit-text="material/m6.html::segment-25"> Ergebniszelle wählen, </span><code>=MITTELWERT(</code><span data-edit-text="material/m6.html::segment-26"> eingeben, Datenbereich markieren, Klammer schließen und Enter drücken. Zur Kontrolle die Summe durch die Anzahl der numerischen Werte teilen.</span></p>
+<p data-edit-text="material/m6.html::text-16">Ein Durchschnitt pro Vorgang ist etwas anderes als ein Durchschnitt pro Monat. Die Bezugsgröße muss zur Fragestellung passen. Bei unterschiedlich großen Gruppen ist der einfache Durchschnitt ihrer Durchschnittswerte nicht zwangsläufig der Gesamtdurchschnitt.</p>
+<p><img src="Grafiken/G8a_Funktionsvergleich.png" alt="Vier Funktionen im Vergleich anhand derselben vier Werte" data-edit-image="material/m6.html::image-2"></p>
+<h2 id="8-autosumme-und-funktionsassistent" data-edit-text="material/m6.html::text-17">8. AutoSumme und Funktionsassistent</h2>
+<p><img src="Grafiken/G8b_AutoSumme.png" alt="Drei Schritte zur Verwendung von AutoSumme und zur Bereichskontrolle" data-edit-image="material/m6.html::image-3"></p>
+<p><strong data-edit-text="material/m6.html::segment-28">Klick-Anleitung: AutoSumme</strong></p>
+<ol type="1">
+<li data-edit-text="material/m6.html::text-18">Die Zelle unmittelbar unter einer Zahlenliste auswählen.</li>
+<li data-edit-text="material/m6.html::text-19">Im Register Start in der Gruppe Bearbeiten auf AutoSumme (Σ) klicken.</li>
+<li data-edit-text="material/m6.html::text-20">Den von Excel vorgeschlagenen Bereich überprüfen und bei Bedarf ändern.</li>
+<li data-edit-text="material/m6.html::text-21">Mit Enter bestätigen.</li>
+<li data-edit-text="material/m6.html::text-22">Die Formel in der Bearbeitungsleiste kontrollieren.</li>
+</ol>
+<p><span data-edit-text="material/m6.html::segment-29">Über den kleinen Pfeil neben AutoSumme lassen sich auch Mittelwert, </span><a href="../ls-glossar.html?from=material%2Fm6.html%23wort-max#max" id="wort-max" data-edit-text="material/m6.html::segment-32" data-edit-link="material/m6.html::link-4">Max</a><span data-edit-text="material/m6.html::segment-30"> und </span><a href="../ls-glossar.html?from=material%2Fm6.html%23wort-min#min" id="wort-min" data-edit-text="material/m6.html::segment-33" data-edit-link="material/m6.html::link-5">Min</a><span data-edit-text="material/m6.html::segment-31"> auswählen. Die Menübezeichnungen können je nach Excel-Version leicht abweichen. Excel kann bei Lücken einen unvollständigen Bereich vorschlagen.</span></p>
+<p><strong data-edit-text="material/m6.html::segment-34">Klick-Anleitung: Funktionsassistent</strong></p>
+<ol type="1">
+<li data-edit-text="material/m6.html::text-23">Ergebniszelle auswählen und auf fx neben der Bearbeitungsleiste klicken.</li>
+<li data-edit-text="material/m6.html::text-24">Den gewünschten Funktionsnamen suchen und auswählen.</li>
+<li data-edit-text="material/m6.html::text-25">Im Argumentfenster den Datenbereich eintragen oder markieren.</li>
+<li data-edit-text="material/m6.html::text-26">Die Vorschau prüfen und mit OK bestätigen.</li>
+</ol>
+<p data-edit-text="material/m6.html::text-27">Die direkte Eingabe einer Funktion ist gleichwertig. Der Funktionsassistent hilft besonders beim Kennenlernen der Argumente.</p>
+<h2 id="9-leere-zellen-nullwerte-und-text" data-edit-text="material/m6.html::text-28">9. Leere Zellen, Nullwerte und Text</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Zellinhalt im Bereich</th>
+<th>SUMME</th>
+<th>MIN/MAX</th>
+<th>MITTELWERT</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Zahl</td>
+<td>Wird addiert</td>
+<td>Wird verglichen</td>
+<td>Wird einbezogen</td>
+</tr>
+<tr class="even">
+<td>Zahl 0</td>
+<td>Wird addiert</td>
+<td>Wird verglichen</td>
+<td>Wird mitgezählt</td>
+</tr>
+<tr class="odd">
+<td>Leere Zelle</td>
+<td>Wird ignoriert</td>
+<td>Wird ignoriert</td>
+<td>Wird ignoriert</td>
+</tr>
+<tr class="even">
+<td>Text, auch als Text gespeicherte Zahl</td>
+<td>Wird ignoriert</td>
+<td>Wird ignoriert</td>
+<td>Wird ignoriert</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m6.html::text-29">Diese Regeln gelten für Werte innerhalb referenzierter Zellbereiche. Fehlerwerte können die Auswertung mit einem Fehler abbrechen. Direkt eingegebene Funktionsargumente können sich anders verhalten.</p>
+<p data-edit-text="material/m6.html::text-30">Beispiel: B2 enthält 40, B3 ist leer, B4 enthält 0, B5 enthält 80. SUMME ergibt 120, MIN 0, MAX 80 und MITTELWERT 40 (120 geteilt durch drei). Wird B3 mit 0 gefüllt, ergibt MITTELWERT 30. Eine fehlende Angabe darf deshalb nicht ohne sachlichen Grund durch null ersetzt werden.</p>
+<p data-edit-text="material/m6.html::text-31">Enthält der Bereich überhaupt keine Zahlen, liefern SUMME, MIN und MAX null, MITTELWERT dagegen #DIV/0!. Eine angezeigte Null ist dann kein Nachweis eines tatsächlich vorhandenen Messwerts.</p>
+<h2 id="10-unabhängiges-betriebliches-anwendungsbeispiel" data-edit-text="material/m6.html::text-32">10. Unabhängiges betriebliches Anwendungsbeispiel</h2>
+<p data-edit-text="material/m6.html::text-33">Für eine interne Schulungsreihe der Global Bike Deutschland GmbH werden beispielhaft die Nettokosten von sechs Schulungsterminen ausgewertet. Die Daten sind didaktisch simuliert und gehören nicht zu M1.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Zeile</th>
+<th>A – Schulungstermin</th>
+<th style="text-align: right;">B – Kosten netto</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2</td>
+<td>Termin 1</td>
+<td style="text-align: right;">120,00 €</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Termin 2</td>
+<td style="text-align: right;">180,00 €</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Termin 3</td>
+<td style="text-align: right;">90,00 €</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Termin 4</td>
+<td style="text-align: right;">150,00 €</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>Termin 5</td>
+<td style="text-align: right;">210,00 €</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>Termin 6</td>
+<td style="text-align: right;">150,00 €</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m6.html::text-34">Die Überschriften stehen in Zeile 1. Die Auswertungsbezeichnungen stehen in A9:A12.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Ergebniszelle</th>
+<th>Formel</th>
+<th style="text-align: right;">Kontrollwert</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>B9 – Gesamtkosten</td>
+<td><code>=SUMME(B2:B7)</code></td>
+<td style="text-align: right;">900,00 €</td>
+</tr>
+<tr class="even">
+<td>B10 – niedrigste Kosten</td>
+<td><code>=MIN(B2:B7)</code></td>
+<td style="text-align: right;">90,00 €</td>
+</tr>
+<tr class="odd">
+<td>B11 – höchste Kosten</td>
+<td><code>=MAX(B2:B7)</code></td>
+<td style="text-align: right;">210,00 €</td>
+</tr>
+<tr class="even">
+<td>B12 – Durchschnitt</td>
+<td><code>=MITTELWERT(B2:B7)</code></td>
+<td style="text-align: right;">150,00 €</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m6.html::text-35">Die Ergebniszellen werden als Währung mit zwei Nachkommastellen formatiert. Die Summe lässt sich durch Addition prüfen; der Durchschnitt ergibt sich aus 900 geteilt durch 6.</p>
+<p><strong data-edit-text="material/m6.html::segment-36">Funktionsprüfung:</strong><span data-edit-text="material/m6.html::segment-35"> Wird B6 vorübergehend von 210 auf 270 geändert, steigen die Gesamtkosten auf 960 und der Durchschnitt auf 160. MAX ergibt 270; MIN bleibt 90. Anschließend den ursprünglichen Wert wiederherstellen.</span></p>
+<p data-edit-text="material/m6.html::text-36">Bei einem zusätzlichen Termin in Zeile 8 muss geprüft werden, ob die Formeln den neuen Wert einbeziehen. Ein fester Bereich B2:B7 umfasst Zeile 8 nicht automatisch. Eine als Excel-Tabelle formatierte Liste kann mit strukturierten Bezügen automatisch erweitert werden; auch dann ist eine Funktionsprüfung sinnvoll. Die Ergebniszellen bleiben außerhalb der Datenliste.</p>
+<h2 id="11-kaufmännische-interpretation" data-edit-text="material/m6.html::text-37">11. Kaufmännische Interpretation</h2>
+<p data-edit-text="material/m6.html::text-38">Die Gesamtkosten zeigen den gesamten Aufwand der sechs Termine. MIN und MAX zeigen die Spannweite der Einzelkosten. Der teuerste Termin kostet 120 Euro mehr als der günstigste. Der Durchschnitt von 150 Euro beschreibt die mittleren Kosten pro Termin, nicht die Kosten pro teilnehmender Person.</p>
+<p data-edit-text="material/m6.html::text-39">Aus den Beträgen allein lässt sich nicht ableiten, dass der teuerste Termin unwirtschaftlich war. Dazu wären beispielsweise Teilnehmerzahl, Dauer und Leistungsumfang erforderlich. Die Verwaltung kann zunächst die Ursachen der Unterschiede prüfen und erst dann eine begründete Empfehlung abgeben.</p>
+<p><span data-edit-text="material/m6.html::segment-37">Beim </span><a href="../ls-glossar.html?from=material%2Fm6.html%23wort-filtern#filtern" id="wort-filtern" data-edit-text="material/m6.html::segment-39" data-edit-link="material/m6.html::link-6">Filtern</a><span data-edit-text="material/m6.html::segment-38"> einer Liste berechnen die vier hier behandelten Standardfunktionen weiterhin die Werte des angegebenen Bereichs einschließlich ausgefilterter Zeilen. Eine Auswertung ausschließlich sichtbarer Zeilen benötigt andere Verfahren; diese sind nicht Gegenstand von M6.</span></p>
+<h2 id="12-typische-fehler-und-deren-behebung" data-edit-text="material/m6.html::text-40">12. Typische Fehler und deren Behebung</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Fehler</th>
+<th>Kontrolle und Behebung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Erste oder letzte Datenzeile fehlt</td>
+<td>Bereich in der Bearbeitungsleiste prüfen</td>
+</tr>
+<tr class="even">
+<td>Gesamtsumme wird erneut mitaddiert</td>
+<td>Nur Ausgangsdaten einbeziehen</td>
+</tr>
+<tr class="odd">
+<td>Ergebniszelle liegt im eigenen Bereich</td>
+<td>Zirkelbezug durch getrennte Ergebniszelle vermeiden</td>
+</tr>
+<tr class="even">
+<td>Falscher Funktionsname</td>
+<td>Deutsche Schreibweise prüfen</td>
+</tr>
+<tr class="odd">
+<td>Doppelpunkt und Semikolon verwechselt</td>
+<td>Zusammenhängende Bereiche mit Doppelpunkt angeben</td>
+</tr>
+<tr class="even">
+<td>Zahl als Text gespeichert</td>
+<td>Datentyp prüfen und Zahl korrekt konvertieren</td>
+</tr>
+<tr class="odd">
+<td>Fehlender Wert als null eingetragen</td>
+<td>Fehlende Angabe klären; nicht erfinden</td>
+</tr>
+<tr class="even">
+<td>Durchschnitt mit falscher Bezugsgröße</td>
+<td>Anzahl und Einheit der einbezogenen Werte prüfen</td>
+</tr>
+<tr class="odd">
+<td>Neue Zeile fehlt in der Auswertung</td>
+<td>Bereich erweitern und testen</td>
+</tr>
+<tr class="even">
+<td>Gefilterte Zeilen werden mitgerechnet</td>
+<td>Umfang der Auswertung klären</td>
+</tr>
+<tr class="odd">
+<td>MIN/MAX liefert nur einen Betrag</td>
+<td>Zugehörige Positionen anhand der Liste ermitteln</td>
+</tr>
+<tr class="even">
+<td>Fehlerwert in Ausgangsdaten</td>
+<td>Ursache der fehlerhaften Eingabe oder Formel beheben</td>
+</tr>
+</tbody>
+</table>
+<h2 id="13-freiwillige-selbstkontrolle" data-edit-text="material/m6.html::text-41">13. Freiwillige Selbstkontrolle</h2>
+<p data-edit-text="material/m6.html::text-42">Unabhängige Übungswerte in C2:C6: 30, 50, 0, leer, 80.</p>
+<ol type="1">
+<li data-edit-text="material/m6.html::text-43">Welche Funktion berechnet die Gesamtsumme?</li>
+<li data-edit-text="material/m6.html::text-44">Wie lautet die Formel für den kleinsten Wert?</li>
+<li data-edit-text="material/m6.html::text-45">Welches Ergebnis liefert MAX?</li>
+<li data-edit-text="material/m6.html::text-46">Wie hoch ist der Durchschnitt?</li>
+<li data-edit-text="material/m6.html::text-47">Wie ändert sich der Durchschnitt, wenn die leere Zelle mit null gefüllt wird?</li>
+<li data-edit-text="material/m6.html::text-48">Was bedeutet der Doppelpunkt in C2:C6?</li>
+<li data-edit-text="material/m6.html::text-49">Warum darf eine Summenzelle nicht im eigenen Summenbereich liegen?</li>
+<li data-edit-text="material/m6.html::text-50">Liefert MAX auch die Bezeichnung der teuersten Position?</li>
+<li data-edit-text="material/m6.html::text-51">Was muss nach dem Ergänzen einer neuen Datenzeile geprüft werden?</li>
+<li data-edit-text="material/m6.html::text-52">Berechnet SUMME nach dem Filtern automatisch nur sichtbare Zeilen?</li>
+</ol>
+<p><strong data-edit-text="material/m6.html::segment-40">Kontrollhinweise</strong></p>
+<ol type="1">
+<li><code>=SUMME(C2:C6)</code><span data-edit-text="material/m6.html::segment-41"> ergibt 160.</span></li>
+<li><code>=MIN(C2:C6)</code><span data-edit-text="material/m6.html::segment-42"> ergibt 0.</span></li>
+<li><ol start="80" type="1">
+<li>
+</li></ol></li>
+<li data-edit-text="material/m6.html::text-53">40 (160 geteilt durch vier numerische Werte).</li>
+<li data-edit-text="material/m6.html::text-54">32 (160 geteilt durch fünf).</li>
+<li data-edit-text="material/m6.html::text-55">Alle Zellen von C2 bis einschließlich C6.</li>
+<li data-edit-text="material/m6.html::text-56">Es entsteht ein Zirkelbezug.</li>
+<li data-edit-text="material/m6.html::text-57">Nein, nur den größten numerischen Wert.</li>
+<li data-edit-text="material/m6.html::text-58">Ob der neue Wert im Funktionsbereich enthalten ist.</li>
+<li data-edit-text="material/m6.html::text-59">Nein, SUMME berücksichtigt weiterhin den angegebenen Bereich.</li>
+</ol>
+<p data-edit-text="material/m6.html::text-60">Die Selbstkontrolle ist freiwillig und erfordert keine zusätzliche Abgabe.</p>
+<h2 id="14-weiterführende-materialien" data-edit-text="material/m6.html::text-61">14. Weiterführende Materialien</h2>
+<p><span data-edit-text="material/m6.html::segment-43">M7 vertieft relative und absolute Zellbezüge. M8 behandelt prozentuale Anteile, M10 </span><a href="../ls-glossar.html?from=material%2Fm6.html%23wort-sortieren#sortieren" id="wort-sortieren" data-edit-text="material/m6.html::segment-45" data-edit-link="material/m6.html::link-7">Sortieren</a><span data-edit-text="material/m6.html::segment-44"> und Filtern, M11 und M12 die grafische Auswertung und M14 die Funktionsprüfung. M6 bleibt während der gesamten Lernsituation als Nachschlagewerk verfügbar.</span></p>
+</article></article></section>
+  </div>
+</div>
+</div>
+<p><a href="m6.md" download data-edit-text="material/m6.html::segment-46" data-edit-link="material/m6.html::link-8">Bearbeitbare Textfassung</a></p>
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

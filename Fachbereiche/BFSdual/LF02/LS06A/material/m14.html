@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>M14 – Qualitätskontrolle und Wiederverwendbarkeit von Excel-Arbeitsmappen</title><link href="../assets/global-bike.css" rel="stylesheet"><style>main.excel{max-width:72rem;margin:auto;padding:1rem 3vw;background:white;font:1rem/1.55 system-ui;color:#17324b}.excel img{max-width:100%;height:auto}.excel table{display:block;overflow:auto;border-collapse:collapse}.excel td,.excel th{padding:.4rem;border:1px solid #b7c7d0}.excel a{text-decoration:underline}</style><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main class="excel">
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app acrobat" data-material-view="acrobat" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">PDF</span>
+    <strong>Adobe Acrobat Reader</strong><span class="file">m14</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Werkzeuge</span><span class="material-tab">Kommentieren</span><span class="material-tab">Ansicht</span><span class="material-kind">PDF-Unterlage</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Dokument</span><span class="material-rail-item is-active">Seiten</span><span class="material-rail-item">Lesezeichen</span></aside>
+    <section class="canvas"><article class="paper"><article><h1 id="m14--qualitätskontrolle-und-wiederverwendbarkeit-von-excel-arbeitsmappen" data-edit-text="material/m14.html::text-1">M14 – Qualitätskontrolle und Wiederverwendbarkeit von Excel-Arbeitsmappen</h1>
+<p data-edit-text="material/m14.html::text-2">Global Bike Deutschland GmbH – Verwaltung</p>
+<h2 id="1-warum-qualität-im-büro-wichtig-ist" data-edit-text="material/m14.html::text-3">1. Warum Qualität im Büro wichtig ist</h2>
+<p><span data-edit-text="material/m14.html::segment-1">Emma Fuchs benötigt eine zuverlässige </span><a href="../ls-glossar.html?from=material%2Fm14.html%23wort-arbeitsmappe#arbeitsmappe" id="wort-arbeitsmappe" data-edit-text="material/m14.html::segment-3" data-edit-link="material/m14.html::link-1">Arbeitsmappe</a><span data-edit-text="material/m14.html::segment-2"> für die Büroorganisation im Marktgebiet Nordwest. Eine ansprechend gestaltete Tabelle allein genügt nicht. Falsche Summen, übersehene Fristen oder unvollständige Diagramme können zu falschen betrieblichen Entscheidungen führen. Eine Arbeitsmappe muss deshalb fachlich richtig, technisch funktionsfähig, verständlich und erweiterbar sein.</span></p>
+<p><span data-edit-text="material/m14.html::segment-4">M14 verbindet M2–M13. Die verbindlichen Daten und Regeln bleiben in M1: Auswertungszeitraum 01.01.–30.06.2027, </span><a href="../ls-glossar.html?from=material%2Fm14.html%23wort-stichtag#stichtag" id="wort-stichtag" data-edit-text="material/m14.html::segment-6" data-edit-link="material/m14.html::link-2">Stichtag</a><span data-edit-text="material/m14.html::segment-5"> 01.07.2027, Halbjahresbudget 2.500 EUR netto, interne Fristen in Kalendertagen ohne Wochenendverschiebung. Keine Änderung dieser Vorgaben. Ostfriesland bleibt Marktgebiet, kein SAP-Standort.</span></p>
+<p data-edit-text="material/m14.html::text-4">Die folgenden Beispiele sind eigenständige simulierte Schulungsdaten der Global Bike Deutschland GmbH, keine SAP-Daten und keine Lösung des Hauptfalls. Klickwege beziehen sich auf deutschsprachiges Desktop-Excel unter Windows; je nach Version können Bezeichnungen abweichen.</p>
+<h2 id="2-qualitätsmerkmale-einer-arbeitsmappe" data-edit-text="material/m14.html::text-5">2. Qualitätsmerkmale einer Arbeitsmappe</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Merkmal</th>
+<th>Prüffrage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Richtigkeit</td>
+<td>Stimmen Eingaben, Formeln und Ergebnisse?</td>
+</tr>
+<tr class="even">
+<td>Vollständigkeit</td>
+<td>Sind alle benötigten Datensätze und Auswertungen enthalten?</td>
+</tr>
+<tr class="odd">
+<td>Konsistenz</td>
+<td>Stimmen Einheiten, Zeiträume und Bezugsgrößen überein?</td>
+</tr>
+<tr class="even">
+<td>Verständlichkeit</td>
+<td>Sind Überschriften, Eingabefelder und Ergebnisse eindeutig?</td>
+</tr>
+<tr class="odd">
+<td>Funktionsfähigkeit</td>
+<td>Reagieren Berechnungen auf geänderte Eingaben?</td>
+</tr>
+<tr class="even">
+<td>Erweiterbarkeit</td>
+<td>Werden neue Datensätze in Auswertungen berücksichtigt?</td>
+</tr>
+<tr class="odd">
+<td>Lesbarkeit</td>
+<td>Sind Tabellen, Diagramme und Druckausgaben verständlich?</td>
+</tr>
+<tr class="even">
+<td>Verantwortlicher Umgang</td>
+<td>Bleiben Originaldaten erhalten und Informationen geschützt?</td>
+</tr>
+</tbody>
+</table>
+<p><img src="Grafiken/G16_Qualitaetskreislauf.png" alt="Qualitätskreislauf" data-edit-image="material/m14.html::image-1"></p>
+<p><span data-edit-text="material/m14.html::segment-7">Eine Prüfung umfasst Daten, Berechnungen, Auswertungen und Ausgabe. Ein korrekt wirkendes Ergebnis ist kein Beweis für eine richtige </span><a href="../ls-glossar.html?from=material%2Fm14.html%23wort-formel#formel" id="wort-formel" data-edit-text="material/m14.html::segment-9" data-edit-link="material/m14.html::link-3">Formel</a><span data-edit-text="material/m14.html::segment-8">.</span></p>
+<h2 id="3-originaldaten-und-arbeitskopien" data-edit-text="material/m14.html::text-6">3. Originaldaten und Arbeitskopien</h2>
+<p data-edit-text="material/m14.html::text-7">Die Datei M1_Rohdaten.xlsx ist die Ausgangsquelle. Sie bleibt unverändert. Die selbst entwickelte Arbeitsmappe enthält die aufbereiteten Daten und Auswertungen. Für Funktionstests wird eine zusätzliche Kopie verwendet.</p>
+<p data-edit-text="material/m14.html::text-8">Klick-Anleitung:</p>
+<ol type="1">
+<li data-edit-text="material/m14.html::text-9">Datei &gt; Speichern unter öffnen (bei Cloud-Dateien gegebenenfalls Kopie speichern).</li>
+<li data-edit-text="material/m14.html::text-10">Einen geeigneten Ordner wählen.</li>
+<li data-edit-text="material/m14.html::text-11">Einen eindeutigen Namen vergeben, etwa GB_Bueroorganisation_Test_2027.xlsx.</li>
+<li data-edit-text="material/m14.html::text-12">Dateityp Excel-Arbeitsmappe (*.xlsx) beibehalten.</li>
+<li data-edit-text="material/m14.html::text-13">Vor Änderungen den Dateinamen in der Titelleiste prüfen.</li>
+<li data-edit-text="material/m14.html::text-14">Nach dem Test die unveränderte Arbeitsfassung wieder öffnen. Testergebnisse nicht als betriebliche Ist-Daten übernehmen.</li>
+</ol>
+<p data-edit-text="material/m14.html::text-15">Eine CSV-Datei ist kein Ersatz für eine vollständige XLSX-Arbeitsmappe: Formeln, mehrere Blätter, Diagramme und Formatierungen bleiben dort nicht als Excel-Arbeitsmappe erhalten. Eine PDF-Datei ist eine Ausgabe, keine bearbeitbare Datenbasis.</p>
+<p><img src="Grafiken/G16a_Dateien.png" alt="Original, Arbeitsfassung und Testkopie" data-edit-image="material/m14.html::image-2"></p>
+<h2 id="4-datenqualität-kontrollieren" data-edit-text="material/m14.html::text-16">4. Datenqualität kontrollieren</h2>
+<p><span data-edit-text="material/m14.html::segment-10">Vergleich mit der Ausgangsquelle: </span><a href="../ls-glossar.html?from=material%2Fm14.html%23wort-vorgangskennzeichen#vorgangskennzeichen" id="wort-vorgangskennzeichen" data-edit-text="material/m14.html::segment-12" data-edit-link="material/m14.html::link-4">Vorgangskennzeichen</a><span data-edit-text="material/m14.html::segment-11">, Datumswerte, Beträge, Status und Zuständigkeiten stichprobenartig und bei kritischen Feldern vollständig prüfen. Fehlende Angaben nicht eigenmächtig ergänzen. Leere Erledigungsdaten bedeuten im Hauptfall nicht erledigt; leere Vorgangsreferenzen bedeuten eigenständige Aufgaben.</span></p>
+<p data-edit-text="material/m14.html::text-17">Klick-Anleitung für die Sichtkontrolle:</p>
+<ol type="1">
+<li data-edit-text="material/m14.html::text-18">Datenblatt aktivieren und Überschriften prüfen.</li>
+<li data-edit-text="material/m14.html::text-19">Daten &gt; Filter aktivieren, sofern nicht bereits als Tabelle eingerichtet.</li>
+<li data-edit-text="material/m14.html::text-20">Filterpfeil einer Spalte öffnen und auf leere oder unerwartete Einträge prüfen.</li>
+<li data-edit-text="material/m14.html::text-21">Filter wieder löschen, bevor eine vollständige Übersicht beurteilt wird.</li>
+<li data-edit-text="material/m14.html::text-22">Datums- und Betragszellen auswählen und über Strg+1 das Zahlenformat kontrollieren.</li>
+<li data-edit-text="material/m14.html::text-23">Bei Verdacht auf Text statt Zahl den tatsächlichen Zellinhalt und gegebenenfalls die Excel-Fehleranzeige prüfen.</li>
+</ol>
+<p data-edit-text="material/m14.html::text-24">Eine Zahl kann wie eine Währung aussehen und trotzdem als Text gespeichert sein. Umgekehrt verändert ein Währungsformat nicht den zugrunde liegenden Wert. Ein leeres Feld ist nicht automatisch null. Doppelte Beträge oder Datumswerte sind nicht automatisch doppelte Vorgänge. Daten &gt; Duplikate entfernen löscht Datensätze; daher nur nach fachlicher Prüfung in einer Kopie verwenden. Eindeutige Vorgangskennzeichen sind geeigneter als ein bloßer Betragsvergleich.</p>
+<p data-edit-text="material/m14.html::text-25">Optionaler Prüfweg: Start &gt; Bedingte Formatierung &gt; Regeln zum Hervorheben von Zellen &gt; Doppelte Werte auf eine Kennzeichenspalte anwenden. Markierungen sind Prüfhinweise, keine Löschanweisung.</p>
+<h2 id="5-unabhängiges-schulungsbeispiel-materialkosten" data-edit-text="material/m14.html::text-26">5. Unabhängiges Schulungsbeispiel: Materialkosten</h2>
+<p data-edit-text="material/m14.html::text-27">Eine neue Testmappe enthält in A1:E5 die folgende kleine Übersicht. Sie dient ausschließlich dem Erproben von Prüfmethoden.</p>
+<table>
+<thead>
+<tr class="header">
+<th>A Material</th>
+<th style="text-align: right;">B Menge</th>
+<th style="text-align: right;">C Einzelpreis netto</th>
+<th style="text-align: right;">D Gesamt netto</th>
+<th style="text-align: right;">E Anteil am Gesamt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Versandtaschen</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">12,50 €</td>
+<td style="text-align: right;">50,00 €</td>
+<td style="text-align: right;">50 %</td>
+</tr>
+<tr class="even">
+<td>Etiketten</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">8,00 €</td>
+<td style="text-align: right;">24,00 €</td>
+<td style="text-align: right;">24 %</td>
+</tr>
+<tr class="odd">
+<td>Ordner</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">13,00 €</td>
+<td style="text-align: right;">26,00 €</td>
+<td style="text-align: right;">26 %</td>
+</tr>
+<tr class="even">
+<td>Gesamt</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">100,00 €</td>
+<td style="text-align: right;">100 %</td>
+</tr>
+</tbody>
+</table>
+<p><span data-edit-text="material/m14.html::segment-13">In D2 steht </span><code>=B2*C2</code><span data-edit-text="material/m14.html::segment-14">, kopiert bis D4. D5 enthält </span><code>=SUMME(D2:D4)</code><span data-edit-text="material/m14.html::segment-15">. E2 enthält </span><code>=D2/$D$5</code><span data-edit-text="material/m14.html::segment-16">, kopiert bis E4. E5 enthält </span><code>=SUMME(E2:E4)</code><span data-edit-text="material/m14.html::segment-17">. D und C erhalten Währungsformat, E Prozentformat. Die Schulungsbezugsgröße ist 100 EUR, nicht das Halbjahresbudget aus M1.</span></p>
+<p><span data-edit-text="material/m14.html::segment-18">In G1 steht Schulungsbudget, in G2 der unabhängige Testwert 125 EUR. G3 kann mit </span><code>=G2-D5</code><span data-edit-text="material/m14.html::segment-19"> den Restbetrag (25 EUR) berechnen; G4 mit </span><code>=D5/G2</code><span data-edit-text="material/m14.html::segment-20"> die Budgetauslastung (80 %). G4 als Prozent formatieren.</span></p>
+<p><img src="Grafiken/G16b_Formelpruefung.png" alt="Schulungsbeispiel mit Formeln und festen Bezügen" data-edit-image="material/m14.html::image-3"></p>
+<h2 id="6-formeln-und-zellbezüge-überprüfen" data-edit-text="material/m14.html::text-28">6. Formeln und Zellbezüge überprüfen</h2>
+<p><span data-edit-text="material/m14.html::segment-21">Eine Formel beginnt mit dem Gleichheitszeichen. Eingabewerte werden referenziert, nicht unnötig in Formeln festgeschrieben. </span><code>=B2*C2</code><span data-edit-text="material/m14.html::segment-22"> reagiert auf Änderungen; </span><code>=4*12,5</code><span data-edit-text="material/m14.html::segment-23"> enthält feste Zahlen und reagiert nicht auf die Zellen.</span></p>
+<p data-edit-text="material/m14.html::text-29">Klick-Anleitung:</p>
+<ol type="1">
+<li data-edit-text="material/m14.html::text-30">Ergebniszelle D2 anklicken und Bearbeitungsleiste ansehen.</li>
+<li data-edit-text="material/m14.html::text-31">F2 drücken, um die Formel und farbig markierte Bezüge zu sehen.</li>
+<li data-edit-text="material/m14.html::text-32">Mit Esc ohne Änderung beenden.</li>
+<li data-edit-text="material/m14.html::text-33">D3 und D4 kontrollieren: relative Bezüge müssen zur jeweiligen Zeile passen.</li>
+<li><span data-edit-text="material/m14.html::segment-24">E2 bis E4 prüfen: der Zähler ändert sich je Zeile, der Nenner </span><code>$D$5</code><span data-edit-text="material/m14.html::segment-25"> bleibt fest.</span></li>
+<li data-edit-text="material/m14.html::text-34">D5 prüfen: Der Summenbereich umfasst genau D2:D4, nicht die Summenzelle selbst.</li>
+<li data-edit-text="material/m14.html::text-35">Formeln &gt; Formeln anzeigen wählen, um Formeln statt Ergebnisse zu sehen; erneut wählen, um zurückzukehren.</li>
+</ol>
+<p><span data-edit-text="material/m14.html::segment-26">Eine Formel kann rechnerisch funktionieren, aber fachlich falsch sein. Beispiel </span><code>=D2/$G$2</code><span data-edit-text="material/m14.html::segment-27"> berechnet den Anteil am Schulungsbudget statt am Gesamtbetrag. Beide Ergebnisse sind mathematisch möglich, beantworten jedoch unterschiedliche Fragen.</span></p>
+<h2 id="7-formelüberwachung-und-fehlerprüfung" data-edit-text="material/m14.html::text-36">7. Formelüberwachung und Fehlerprüfung</h2>
+<p data-edit-text="material/m14.html::text-37">Formeln &gt; Formelüberwachung &gt; Spur zum Vorgänger zeigt Zellen, die in die ausgewählte Formel eingehen. Spur zum Nachfolger zeigt abhängige Formeln. Pfeile entfernen beendet die Darstellung.</p>
+<p data-edit-text="material/m14.html::text-38">Beispiel: D2 auswählen &gt; Spur zum Vorgänger. B2 und C2 sind die Eingaben. D5 auswählen &gt; Spur zum Nachfolger. Die Anteilsformeln und gegebenenfalls die Budgetauswertung hängen davon ab.</p>
+<p data-edit-text="material/m14.html::text-39">Formeln &gt; Fehlerüberprüfung sucht nach bestimmten erkennbaren Problemen. Formeln &gt; Formel auswerten zeigt bei geeigneten Formeln einzelne Berechnungsschritte. Diese Werkzeuge ersetzen keine fachliche Prüfung: Eine falsche Bezugsgröße oder ein unvollständiger, aber gültiger Summenbereich kann ohne Warnung bleiben.</p>
+<p><img src="Grafiken/G16c_Formelspur.png" alt="Formelabhängigkeiten" data-edit-image="material/m14.html::image-4"></p>
+<h2 id="8-typische-fehler-erkennen-und-beheben" data-edit-text="material/m14.html::text-40">8. Typische Fehler erkennen und beheben</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Anzeige oder Beobachtung</th>
+<th>Ursache und Prüfung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>#DIV/0!</td>
+<td>Division durch null oder leere Bezugszelle; Nenner prüfen</td>
+</tr>
+<tr class="even">
+<td>#WERT!</td>
+<td>Ungeeigneter Datentyp, etwa Text in einer Multiplikation; Eingaben prüfen</td>
+</tr>
+<tr class="odd">
+<td>#BEZUG!</td>
+<td>Ungültiger Zellbezug, etwa nach Löschen referenzierter Zellen; Quelle wiederherstellen oder Bezug fachlich korrigieren</td>
+</tr>
+<tr class="even">
+<td>#NAME?</td>
+<td>Unbekannter Funktionsname oder Name; Schreibweise prüfen</td>
+</tr>
+<tr class="odd">
+<td>#ZAHL!</td>
+<td>Unzulässiger numerischer Wert oder Berechnungsbereich; Argumente prüfen</td>
+</tr>
+<tr class="even">
+<td>#NV</td>
+<td>Gesuchter Wert nicht verfügbar; Quelle und Suchkriterium prüfen</td>
+</tr>
+<tr class="odd">
+<td>####</td>
+<td>Häufig zu schmale Spalte, auch nicht darstellbare negative Datums-/Zeitwerte; Breite und Wert prüfen</td>
+</tr>
+<tr class="even">
+<td>Formel steht als Text in der Zelle</td>
+<td>Textformat, führendes Apostroph oder Formeln-anzeigen-Modus prüfen</td>
+</tr>
+<tr class="odd">
+<td>Ergebnis bleibt unverändert</td>
+<td>Fester Zahlenwert statt Formel oder manuelle Berechnung; Formel und Berechnungsoptionen prüfen</td>
+</tr>
+<tr class="even">
+<td>Zirkelbezug</td>
+<td>Formel verweist direkt oder indirekt auf sich selbst; Abhängigkeiten korrigieren</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m14.html::text-41">Bei Textformat: Zelle auf Standard umstellen, anschließend F2 und Eingabetaste, sofern tatsächlich eine Formel eingegeben werden soll. Bei einem führenden Apostroph dieses gezielt entfernen. Keine Fehlermeldung pauschal durch null ersetzen. WENNFEHLER kann Fehler verdecken und ist hier keine notwendige Pflichtfunktion.</p>
+<p data-edit-text="material/m14.html::text-42">Formeln &gt; Berechnungsoptionen &gt; Automatisch prüfen. F9 löst eine Neuberechnung aus. Ein korrektes Ergebnis nach F9 allein beweist noch keine dauerhaft automatische Aktualisierung.</p>
+<p><img src="Grafiken/G16d_Fehler.png" alt="Fehlerdiagnose statt Fehlerverdeckung" data-edit-image="material/m14.html::image-5"></p>
+<h2 id="9-plausibilitätskontrolle" data-edit-text="material/m14.html::text-43">9. Plausibilitätskontrolle</h2>
+<p data-edit-text="material/m14.html::text-44">Plausibilität bedeutet, ein Ergebnis auf fachliche Nachvollziehbarkeit zu prüfen. Dazu gehören Überschlagsrechnung, Gegenrechnung, Vergleich mit Ausgangsdaten und Prüfung der Einheit.</p>
+<p data-edit-text="material/m14.html::text-45">Im Schulungsbeispiel: 50 + 24 + 26 = 100 EUR. Die drei Anteile ergeben zusammen 100 %. 100 von 125 EUR sind 80 %, Rest 25 EUR. Gesamtbetrag plus Rest ergeben 125 EUR.</p>
+<p><span data-edit-text="material/m14.html::segment-28">Ein Prozentwert kann über 100 % liegen, etwa bei Budgetüberschreitung. Das ist nicht automatisch ein Fehler. Bei Anteilen an einer vollständig und überschneidungsfrei aufgeteilten Gesamtheit sollte die </span><a href="../ls-glossar.html?from=material%2Fm14.html%23wort-summe#summe" id="wort-summe" data-edit-text="material/m14.html::segment-30" data-edit-link="material/m14.html::link-5">Summe</a><span data-edit-text="material/m14.html::segment-29"> dagegen ungefähr 100 % ergeben; Rundungsabweichungen der Anzeige sind möglich.</span></p>
+<p data-edit-text="material/m14.html::text-46">Für den Hauptfall gelten die Bezugsgrößen und Fristregeln aus M1. Keine gesetzlichen Aufbewahrungsfristen aus den internen Simulationsfristen ableiten. Bei Fristen insbesondere Stichtag, Ausgangstag, Fälligkeit und Erledigungsdatum auseinanderhalten. Eine erledigte Aufgabe ist nicht allein deshalb rechtzeitig erledigt.</p>
+<h2 id="10-funktionstest-mit-geänderten-eingaben" data-edit-text="material/m14.html::text-47">10. Funktionstest mit geänderten Eingaben</h2>
+<p data-edit-text="material/m14.html::text-48">Ein Funktionstest prüft, ob die Arbeitsmappe auf Änderungen wie erwartet reagiert. Zuerst den erwarteten Wert bestimmen, dann ändern, beobachten und vergleichen.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Test in der Schulungskopie</th>
+<th>Erwartung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>B2 von 4 auf 5 ändern</td>
+<td>D2 = 62,50 EUR; D5 = 112,50 EUR</td>
+</tr>
+<tr class="even">
+<td>Dieselbe Änderung</td>
+<td>G3 = 12,50 EUR; G4 = 90 %</td>
+</tr>
+<tr class="odd">
+<td>Dieselbe Änderung</td>
+<td>E2 rund 55,56 %, E3 rund 21,33 %, E4 rund 23,11 %</td>
+</tr>
+<tr class="even">
+<td>B2 auf 4 zurücksetzen</td>
+<td>Ausgangssumme 100 EUR</td>
+</tr>
+<tr class="odd">
+<td>G2 von 125 auf 80 ändern</td>
+<td>G3 = −20 EUR; G4 = 125 %</td>
+</tr>
+<tr class="even">
+<td>G2 auf 125 zurücksetzen</td>
+<td>Rest 25 EUR, Auslastung 80 %</td>
+</tr>
+<tr class="odd">
+<td>G2 in der Testkopie auf 0 setzen</td>
+<td>G4 zeigt bei einfacher Division #DIV/0!; Bezugsgröße fachlich klären</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m14.html::text-49">Ein negativer Restbetrag kennzeichnet in diesem Beispiel eine Überschreitung. Der Nulltest ist absichtlich fehlerauslösend und darf nicht in der Arbeitsfassung verbleiben. Nach jedem unabhängigen Test Ausgangswerte wiederherstellen.</p>
+<p><img src="Grafiken/G16e_Funktionstest.png" alt="Soll-Ist-Funktionstest" data-edit-image="material/m14.html::image-6"></p>
+<h2 id="11-neue-datensätze-und-wiederverwendbare-tabellen" data-edit-text="material/m14.html::text-50">11. Neue Datensätze und wiederverwendbare Tabellen</h2>
+<p data-edit-text="material/m14.html::text-51">Eine Excel-Tabelle kann sich beim Hinzufügen von Datensätzen erweitern. Eine normale formatierte Zellfläche ist nicht automatisch eine Excel-Tabelle. Auch bei einer Excel-Tabelle muss überprüft werden, ob Formeln, Diagramme und Druckbereiche tatsächlich mitwachsen.</p>
+<p data-edit-text="material/m14.html::text-52">Klick-Anleitung für eine separate Kopie des Beispiels:</p>
+<ol type="1">
+<li data-edit-text="material/m14.html::text-53">Nur A1:E4 (Überschriften und Einzelpositionen) markieren; die separate Summenzeile nicht als Datensatz übernehmen.</li>
+<li data-edit-text="material/m14.html::text-54">Start &gt; Als Tabelle formatieren oder Strg+T wählen.</li>
+<li data-edit-text="material/m14.html::text-55">Tabellenbereich und Tabelle hat Überschriften bestätigen.</li>
+<li data-edit-text="material/m14.html::text-56">Unter Tabellenentwurf einen verständlichen Tabellennamen vergeben, beispielsweise Schulung_Material.</li>
+<li data-edit-text="material/m14.html::text-57">Vor dem Erweiterungstest die separate Summenzeile und ihre Anteilsbezüge so anpassen, dass neue Datensätze nicht mit ihr kollidieren. Alternativ die Summenzeile über Tabellenentwurf &gt; Ergebniszeile einrichten und die Bezugsformeln anschließend prüfen.</li>
+<li data-edit-text="material/m14.html::text-58">Neue Tabellenzeile über Rechtsklick in der Tabelle &gt; Einfügen &gt; Tabellenzeilen beziehungsweise durch Tab in der letzten Datenzelle ohne aktive Ergebniszeile ergänzen.</li>
+<li data-edit-text="material/m14.html::text-59">Als Testposition 2 Packungen Klebeband zu 5 EUR eingeben.</li>
+<li data-edit-text="material/m14.html::text-60">Prüfen, ob die neue Zeilensumme 10 EUR beträgt und die Gesamtsumme 110 EUR erreicht. Bei unverändertem Schulungsbudget 125 EUR beträgt der Rest 15 EUR und die Auslastung 88 %.</li>
+<li data-edit-text="material/m14.html::text-61">Prüfen, ob alle Anteilsformeln, Diagramme und Druckbereiche die neue Position korrekt berücksichtigen.</li>
+</ol>
+<p><span data-edit-text="material/m14.html::segment-31">Bei strukturierten Tabellenbezügen kann beispielsweise </span><code>=SUMME(Schulung_Material[Gesamt netto])</code><span data-edit-text="material/m14.html::segment-32"> verwendet werden, wenn der Tabellenname und die Spaltenüberschrift exakt so lauten. Die Ergebniszeile einer Excel-Tabelle kann standardmäßig TEILERGEBNIS verwenden und auf Filter reagieren; eine Gesamtsumme über alle Datensätze ist davon zu unterscheiden. Strukturierte Bezüge sind eine ergänzende Lernhilfe, keine neue Pflichtkompetenz.</span></p>
+<p data-edit-text="material/m14.html::text-62">Eine Erweiterung ist erst erfolgreich, wenn die abhängigen Ergebnisse stimmen. Bei festen Zellbereichen kann eine Anpassung erforderlich sein. Neue Zeilen dürfen nicht versehentlich außerhalb der Datentabelle stehen.</p>
+<p><img src="Grafiken/G16f_Erweiterung.png" alt="Erweiterung und abhängige Auswertungen" data-edit-image="material/m14.html::image-7"></p>
+<h2 id="12-sortieren-und-filtern-kontrollieren" data-edit-text="material/m14.html::text-63">12. Sortieren und Filtern kontrollieren</h2>
+<p><a href="../ls-glossar.html?from=material%2Fm14.html%23wort-sortieren#sortieren" id="wort-sortieren" data-edit-text="material/m14.html::segment-34" data-edit-link="material/m14.html::link-6">Sortieren</a><span data-edit-text="material/m14.html::segment-33"> verändert die Reihenfolge, Filtern die Sichtbarkeit. Beides darf die Zuordnung der Werte zu ihren Vorgängen nicht zerstören.</span></p>
+<ol type="1">
+<li data-edit-text="material/m14.html::text-64">In eine Zelle der vollständigen Liste klicken.</li>
+<li data-edit-text="material/m14.html::text-65">Daten &gt; Sortieren öffnen, Überschriften und Sortierspalte prüfen.</li>
+<li data-edit-text="material/m14.html::text-66">Bei einer Aufforderung zur Bereichserweiterung den zusammengehörigen Datenbereich einbeziehen.</li>
+<li data-edit-text="material/m14.html::text-67">Nach der Sortierung stichprobenartig prüfen, ob Kennzeichen, Datum, Betrag und Status zusammengehören.</li>
+<li data-edit-text="material/m14.html::text-68">Filter auf eine fachlich sinnvolle Kategorie setzen.</li>
+<li data-edit-text="material/m14.html::text-69">Prüfen, welche Datensätze sichtbar sind und ob die Auswertung alle oder nur sichtbare Datensätze meint.</li>
+<li><span data-edit-text="material/m14.html::segment-35">Daten &gt; Löschen in der Gruppe Sortieren und </span><a href="../ls-glossar.html?from=material%2Fm14.html%23wort-filtern#filtern" id="wort-filtern" data-edit-text="material/m14.html::segment-37" data-edit-link="material/m14.html::link-7">Filtern</a><span data-edit-text="material/m14.html::segment-36"> verwenden, um Filterkriterien zu löschen; dies löscht keine Zellinhalte.</span></li>
+</ol>
+<p><span data-edit-text="material/m14.html::segment-38">SUMME umfasst auch ausgeblendete Zeilen. Für eine bewusst auf sichtbare Zeilen beschränkte Summe kann beispielsweise </span><code>=TEILERGEBNIS(109;D2:D4)</code><span data-edit-text="material/m14.html::segment-39"> verwendet werden; 109 ignoriert gefilterte und manuell ausgeblendete Zeilen. Diese Funktion ist eine freiwillige Vertiefung. Im Schulungsbeispiel ergeben Etiketten und Ordner zusammen 50 EUR, während die Gesamtsumme aller drei Positionen 100 EUR bleibt. Diagramme können gefilterte oder ausgeblendete Daten anders behandeln als die Gesamtsumme; deshalb die tatsächliche Anzeige kontrollieren.</span></p>
+<h2 id="13-diagramme-fachlich-und-technisch-überprüfen" data-edit-text="material/m14.html::text-70">13. Diagramme fachlich und technisch überprüfen</h2>
+<p data-edit-text="material/m14.html::text-71">Ein Diagramm muss zur betrieblichen Fragestellung passen. Säulen oder Balken eignen sich häufig für Kategorienvergleiche, Linien für zeitliche Entwicklungen, Kreisdiagramme für wenige nichtnegative Anteile einer vollständigen Gesamtheit.</p>
+<p data-edit-text="material/m14.html::text-72">Klick-Anleitung:</p>
+<ol type="1">
+<li data-edit-text="material/m14.html::text-73">Diagramm anklicken &gt; Diagrammentwurf &gt; Daten auswählen.</li>
+<li data-edit-text="material/m14.html::text-74">Datenbereich, Reihen und Kategorien prüfen. Im Schulungsbeispiel gehören die drei Einzelpositionen, nicht die Summenzeile, in einen Kategorienvergleich.</li>
+<li data-edit-text="material/m14.html::text-75">Diagrammentwurf &gt; Diagrammtyp ändern, wenn die Darstellung nicht zur Frage passt.</li>
+<li data-edit-text="material/m14.html::text-76">Diagrammelemente hinzufügen: verständlicher Titel, Achsentitel und Einheiten bei Achsendiagrammen, Legende soweit erforderlich; beim Kreisdiagramm stattdessen geeignete Kategorien- oder Datenbeschriftungen.</li>
+<li data-edit-text="material/m14.html::text-77">Achsenskalierung prüfen. Bei Säulen und Balken ist ein Nullbeginn für unverzerrte Längenvergleiche in der Regel sinnvoll.</li>
+<li data-edit-text="material/m14.html::text-78">In der Testkopie einen Ausgangswert ändern und die Aktualisierung beobachten.</li>
+<li data-edit-text="material/m14.html::text-79">Nach Rücksetzen der Testwerte prüfen, ob das Diagramm wieder die Ausgangsdaten zeigt.</li>
+</ol>
+<p><img src="Grafiken/G16g_Diagramm.png" alt="Diagrammprüfung" data-edit-image="material/m14.html::image-8"></p>
+<h2 id="14-druckaufbereitung-und-weitergabe" data-edit-text="material/m14.html::text-80">14. Druckaufbereitung und Weitergabe</h2>
+<p><span data-edit-text="material/m14.html::segment-40">M13 erläutert die Bedienung im Detail. Für die Abschlusskontrolle: Datei &gt; Drucken, richtige Blätter, </span><a href="../ls-glossar.html?from=material%2Fm14.html%23wort-druckbereich#druckbereich" id="wort-druckbereich" data-edit-text="material/m14.html::segment-42" data-edit-link="material/m14.html::link-8">Druckbereich</a><span data-edit-text="material/m14.html::segment-41">, Ausrichtung, Skalierung und Seitenzahl prüfen. Bei mehrseitigen Listen Drucktitel kontrollieren. Keine einseitige Ausgabe erzwingen, wenn dadurch die Schrift unlesbar wird. Ein optional exportiertes PDF separat öffnen und mit der aktuellen XLSX-Datei vergleichen. Vertrauliche Informationen nicht allein durch Ausblenden schützen.</span></p>
+<p data-edit-text="material/m14.html::text-81">Die Arbeitsmappe bleibt das bearbeitbare Handlungsergebnis beziehungsweise Bestandteil des gewählten Lernpakets. Eine PDF-Ausgabe ist keine zusätzliche Pflichtabgabe.</p>
+<h2 id="15-eingaben-und-formeln-für-andere-mitarbeitende-verständlich-machen" data-edit-text="material/m14.html::text-82">15. Eingaben und Formeln für andere Mitarbeitende verständlich machen</h2>
+<p data-edit-text="material/m14.html::text-83">Eingabezellen und berechnete Zellen können durch eindeutige Überschriften, eine kurze Legende und zurückhaltende Formatierung unterschieden werden. Farben nicht als einziges Unterscheidungsmerkmal verwenden. Blattnamen sollen den Inhalt erkennen lassen. Einheiten, Stichtag und Bezugsgrößen müssen eindeutig sein.</p>
+<p data-edit-text="material/m14.html::text-84">Optionaler Schutz vor versehentlichen Änderungen:</p>
+<ol type="1">
+<li data-edit-text="material/m14.html::text-85">In einer Testkopie die vorgesehenen Eingabezellen markieren.</li>
+<li data-edit-text="material/m14.html::text-86">Strg+1 &gt; Schutz &gt; Gesperrt deaktivieren.</li>
+<li data-edit-text="material/m14.html::text-87">Formelzellen gesperrt lassen beziehungsweise deren Einstellung prüfen.</li>
+<li data-edit-text="material/m14.html::text-88">Überprüfen &gt; Blatt schützen wählen und nur benötigte Aktionen erlauben.</li>
+<li data-edit-text="material/m14.html::text-89">Eingabeänderung und Formeländerung testen.</li>
+<li data-edit-text="material/m14.html::text-90">Prüfen, ob Sortieren, Filtern und Erweitern weiterhin wie benötigt möglich sind.</li>
+<li data-edit-text="material/m14.html::text-91">Überprüfen &gt; Blattschutz aufheben, wenn die Bearbeitung sonst behindert wird.</li>
+</ol>
+<p data-edit-text="material/m14.html::text-92">Die Einstellung Gesperrt wirkt erst bei aktivem Blattschutz. Blattschutz ist kein verlässlicher Schutz vertraulicher Daten und keine Verschlüsselung. Kein Passwort ohne vereinbarte betriebliche Regelung setzen. Schutzfunktionen sind optional; sie dürfen die Wiederverwendbarkeit und die Prüfung durch die Lehrkraft nicht behindern.</p>
+<p><img src="Grafiken/G16h_Eingaben.png" alt="Eingaben und Formeln unterscheiden" data-edit-image="material/m14.html::image-9"></p>
+<h2 id="16-freiwilliges-prüfprotokoll" data-edit-text="material/m14.html::text-93">16. Freiwilliges Prüfprotokoll</h2>
+<p data-edit-text="material/m14.html::text-94">Ein kurzes Protokoll unterstützt die selbstständige Fehlersuche. Es ist eine freiwillige Arbeitshilfe und keine zusätzliche Pflichtabgabe.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Prüfgegenstand</th>
+<th>Erwartung</th>
+<th>Beobachtung</th>
+<th>Maßnahme / erneut geprüft</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ausgangsdaten</td>
+<td>Übereinstimmung mit Quelle</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Formel und Zellbezug</td>
+<td>Fachlich richtige Berechnung</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Eingabeänderung</td>
+<td>Erwartete Aktualisierung</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Neue Zeile</td>
+<td>Vollständige Auswertung</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Filter und Diagramm</td>
+<td>Passende Bezugsgröße</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><a href="../ls-glossar.html?from=material%2Fm14.html%23wort-druckvorschau#druckvorschau" id="wort-druckvorschau" data-edit-link="material/m14.html::link-9">Druckvorschau</a></td>
+<td>Lesbare vollständige Ausgabe</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m14.html::text-95">Bei Abweichungen zunächst die Ursache suchen, dann gezielt korrigieren und erneut testen. Nicht mehrere unbekannte Änderungen gleichzeitig durchführen. Bei fehlenden betrieblichen Angaben Rücksprache mit der Lehrkraft halten.</p>
+<h2 id="17-abschlusscheck-für-das-gewählte-lernpaket" data-edit-text="material/m14.html::text-96">17. Abschlusscheck für das gewählte Lernpaket</h2>
+<p><img src="Grafiken/G16i_Abschlusscheck.png" alt="Abschlusscheck" data-edit-image="material/m14.html::image-10"></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Originaldaten erhalten; Arbeitsfassung eindeutig benannt.</label></li>
+<li><label><input type="checkbox">Daten vollständig und korrekt zugeordnet.</label></li>
+<li><label><input type="checkbox">Datums-, Währungs- und Prozentformate sachgerecht.</label></li>
+<li><label><input type="checkbox">Formeln und Funktionen statt fest eingetragener Ergebnisse verwendet.</label></li>
+<li><label><input type="checkbox">Relative und absolute Bezüge fachlich richtig.</label></li>
+<li><label><input type="checkbox">Summenbereiche und Bezugsgrößen vollständig.</label></li>
+<li><label><input type="checkbox">Ergebnisse durch Gegenrechnung oder Stichprobe plausibilisiert.</label></li>
+<li><label><input type="checkbox">Stichtag, Fristen und Status gemäß M1 berücksichtigt.</label></li>
+<li><label><input type="checkbox">Sortierung und Filter funktionieren ohne Zuordnungsfehler.</label></li>
+<li><label><input type="checkbox">Diagrammtyp, Datenquelle und Beschriftung passen zur Frage.</label></li>
+<li><label><input type="checkbox">Eingabeänderung in einer Kopie getestet.</label></li>
+<li><label><input type="checkbox">Erweiterbarkeit geprüft.</label></li>
+<li><label><input type="checkbox">Druckausgabe vollständig und lesbar, sofern vorgesehen.</label></li>
+<li><label><input type="checkbox">Keine Testwerte oder unbeabsichtigten internen Angaben in der Abgabefassung.</label></li>
+<li><label><input type="checkbox">Bearbeitbare XLSX-Datei und erforderliche Bestandteile des gewählten Lernpakets vorhanden.</label></li>
+</ul>
+<p data-edit-text="material/m14.html::text-97">Die Lernenden wählen geeignete Prüfmethoden selbstständig. Keine zusätzliche Präsentationspflicht, keine KI, keine neue Bewertung neben den vereinbarten Verfahren.</p>
+<h2 id="18-freiwillige-selbstkontrolle" data-edit-text="material/m14.html::text-98">18. Freiwillige Selbstkontrolle</h2>
+<ol type="1">
+<li data-edit-text="material/m14.html::text-99">Warum bleibt die Rohdatendatei unverändert?</li>
+<li><span data-edit-text="material/m14.html::segment-43">Worin unterscheiden sich </span><a href="../ls-glossar.html?from=material%2Fm14.html%23wort-zellwert#zellwert" id="wort-zellwert" data-edit-text="material/m14.html::segment-45" data-edit-link="material/m14.html::link-10">Zellwert</a><span data-edit-text="material/m14.html::segment-44"> und Zahlenformat?</span></li>
+<li data-edit-text="material/m14.html::text-100">Warum ist ein leerer Erledigungstermin nicht automatisch null?</li>
+<li data-edit-text="material/m14.html::text-101">Wie lässt sich eine Formel in der Bearbeitungsleiste prüfen?</li>
+<li><span data-edit-text="material/m14.html::segment-46">Was bedeutet </span><code>$D$5</code><span data-edit-text="material/m14.html::segment-47">?</span></li>
+<li data-edit-text="material/m14.html::text-102">Warum darf D5 nicht in seiner eigenen SUMME enthalten sein?</li>
+<li data-edit-text="material/m14.html::text-103">Was zeigt Spur zum Vorgänger?</li>
+<li data-edit-text="material/m14.html::text-104">Was bedeutet #DIV/0!?</li>
+<li data-edit-text="material/m14.html::text-105">Was kann #### bedeuten?</li>
+<li data-edit-text="material/m14.html::text-106">Warum ist ein Ergebnis ohne Fehlermeldung nicht automatisch richtig?</li>
+<li data-edit-text="material/m14.html::text-107">Wie wird automatische Berechnung kontrolliert?</li>
+<li data-edit-text="material/m14.html::text-108">Wie hoch ist die ursprüngliche Schulungssumme?</li>
+<li data-edit-text="material/m14.html::text-109">Welche Summe entsteht bei fünf Versandtaschen?</li>
+<li><span data-edit-text="material/m14.html::segment-48">Welche </span><a href="../ls-glossar.html?from=material%2Fm14.html%23wort-budgetauslastung#budgetauslastung" id="wort-budgetauslastung" data-edit-text="material/m14.html::segment-50" data-edit-link="material/m14.html::link-11">Budgetauslastung</a><span data-edit-text="material/m14.html::segment-49"> entsteht bei dieser Änderung?</span></li>
+<li data-edit-text="material/m14.html::text-110">Was bedeutet ein negativer Budgetrest?</li>
+<li data-edit-text="material/m14.html::text-111">Was ist nach Hinzufügen einer Tabellenzeile zu prüfen?</li>
+<li data-edit-text="material/m14.html::text-112">Was unterscheidet Sortieren von Filtern?</li>
+<li data-edit-text="material/m14.html::text-113">Warum kann SUMME mehr Werte enthalten als sichtbar sind?</li>
+<li data-edit-text="material/m14.html::text-114">Warum gehört die Summenzeile nicht in den Kategorienvergleich?</li>
+<li data-edit-text="material/m14.html::text-115">Warum genügt ein PDF nicht als bearbeitbare Arbeitsmappe?</li>
+<li data-edit-text="material/m14.html::text-116">Wann wirkt die Einstellung Gesperrt?</li>
+<li data-edit-text="material/m14.html::text-117">Warum ist Blattschutz keine Zugriffssicherung?</li>
+<li data-edit-text="material/m14.html::text-118">Warum werden Testwerte zurückgesetzt?</li>
+<li data-edit-text="material/m14.html::text-119">Was geschieht nach einer Fehlerkorrektur?</li>
+</ol>
+<h3 id="kontrollhinweise" data-edit-text="material/m14.html::text-120">Kontrollhinweise</h3>
+<ol type="1">
+<li data-edit-text="material/m14.html::text-121">Sie bleibt unveränderte Vergleichsgrundlage.</li>
+<li data-edit-text="material/m14.html::text-122">Wert ist der gespeicherte Inhalt, Format seine Darstellung.</li>
+<li data-edit-text="material/m14.html::text-123">Im Hauptfall bedeutet leer nicht erledigt.</li>
+<li data-edit-text="material/m14.html::text-124">Zelle anklicken; Bearbeitungsleiste ansehen, gegebenenfalls F2 und Esc.</li>
+<li data-edit-text="material/m14.html::text-125">Absoluter Bezug auf Spalte D und Zeile 5.</li>
+<li data-edit-text="material/m14.html::text-126">Es entsteht ein Zirkelbezug.</li>
+<li data-edit-text="material/m14.html::text-127">Zellen, von denen die ausgewählte Formel abhängt.</li>
+<li data-edit-text="material/m14.html::text-128">Division durch null beziehungsweise leeren Nenner.</li>
+<li data-edit-text="material/m14.html::text-129">Zu schmale Spalte oder nicht darstellbarer Datums-/Zeitwert.</li>
+<li data-edit-text="material/m14.html::text-130">Auch gültige Formeln können fachlich falsche Bezüge enthalten.</li>
+<li data-edit-text="material/m14.html::text-131">Formeln &gt; Berechnungsoptionen &gt; Automatisch.</li>
+<li data-edit-text="material/m14.html::text-132">100 EUR.</li>
+<li data-edit-text="material/m14.html::text-133">112,50 EUR.</li>
+<li data-edit-text="material/m14.html::text-134">90 %.</li>
+<li data-edit-text="material/m14.html::text-135">Budgetüberschreitung.</li>
+<li data-edit-text="material/m14.html::text-136">Formeln, Summen, Anteile, Diagramme und Druckbereich.</li>
+<li data-edit-text="material/m14.html::text-137">Reihenfolge ändern gegenüber Datensätze ausblenden.</li>
+<li data-edit-text="material/m14.html::text-138">SUMME berücksichtigt auch ausgeblendete Werte.</li>
+<li data-edit-text="material/m14.html::text-139">Sonst werden die Einzelwerte und ihre Summe gemeinsam dargestellt und die Aussage verzerrt.</li>
+<li data-edit-text="material/m14.html::text-140">Es enthält keine bearbeitbaren Excel-Formeln.</li>
+<li data-edit-text="material/m14.html::text-141">Bei aktivem Blattschutz.</li>
+<li data-edit-text="material/m14.html::text-142">Er verhindert vor allem versehentliche Bearbeitung, nicht zuverlässig unberechtigten Datenzugriff.</li>
+<li data-edit-text="material/m14.html::text-143">Damit die verbindlichen Ausgangsdaten und Ergebnisse erhalten bleiben.</li>
+<li data-edit-text="material/m14.html::text-144">Erneut prüfen und Ergebnis mit der Erwartung vergleichen.</li>
+</ol>
+<h2 id="19-weiterführende-materialien" data-edit-text="material/m14.html::text-145">19. Weiterführende Materialien</h2>
+<p data-edit-text="material/m14.html::text-146">M2–M13 bleiben als Nachschlagewerke verfügbar. M15 dient dem freiwilligen Fachbegriff-Check. M16 kann durch die Lehrkraft getrennt zur fachlichen Nachbereitung bereitgestellt werden, M17 das Feedback. M14 ersetzt weder die Auswahl des Lernpakets noch die vereinbarten Arbeitsaufträge der vollständigen Handlung.</p>
+</article></article></section>
+  </div>
+</div>
+</div>
+<p><a href="m14.md" download data-edit-text="material/m14.html::segment-51" data-edit-link="material/m14.html::link-12">Bearbeitbare Textfassung</a></p>
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

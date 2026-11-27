@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>M3 · Excel-Arbeitsgrundlage zur ABC-Analyse</title><link rel="stylesheet" href="leseseite.css"><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body class="gb-material"><header class="material-top"><nav><a href="../materialien.html">Zur Materialübersicht</a> </nav></header><main class="material-sheet">
+<header data-bfs-school="" class="bfs-material-brand"><div class="bfs-brand-logos"><img src="../assets/bbs1-aurich.svg" alt="BBS 1 Aurich"></div></header>
+<div data-bfs-material-slot></div>
+<p class="material-caption" data-edit-text="material/m3.html::text-1">LS 3.2 · M3 · Global Bike</p>
+<div class="source-document" data-bfs-document="">
+<div class="app onenote" data-material-view="onenote" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">N</span>
+    <strong>OneNote</strong><span class="file">Excel-Arbeitsgrundlage zur ABC-Analyse</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Notizen</span><span class="material-tab">Arbeitsunterlagen</span><span class="material-kind">Notiz / Arbeitsblatt</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Notizbuch</span><span class="material-rail-item is-active">Notizen</span><span class="material-rail-item">Unterlagen</span><span class="material-rail-item">Besprechungen</span></aside>
+    <section class="canvas"><article class="paper"><h1 data-edit-text="material/m3.html::text-2">Excel-Arbeitsgrundlage zur ABC-Analyse</h1>
+<h2 id="tabellenaufbau" data-edit-text="material/m3.html::text-3">3.1 Tabellenaufbau</h2>
+<p data-edit-text="material/m3.html::text-4">Legen Sie in Excel eine Tabelle mit folgenden Spalten an:</p>
+<div class="material-table-scroll" role="region" aria-label="Materialtabelle" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>Spalte</th>
+<th>Inhalt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>Materialnummer</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>Artikelbezeichnung</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td><a id="begriff-jahresverbrauch" href="../ls-glossar.html?from=material%2Fm3.html%23begriff-jahresverbrauch#jahresverbrauch" data-edit-link="material/m3.html::link-1">Jahresverbrauch</a></td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td><a id="begriff-stueckpreis" href="../ls-glossar.html?from=material%2Fm3.html%23begriff-stueckpreis#stueckpreis" data-edit-link="material/m3.html::link-2">Stückpreis</a></td>
+</tr>
+<tr class="odd">
+<td>E</td>
+<td><a id="begriff-verbrauchswert" href="../ls-glossar.html?from=material%2Fm3.html%23begriff-verbrauchswert#verbrauchswert" data-edit-link="material/m3.html::link-3">Verbrauchswert</a></td>
+</tr>
+<tr class="even">
+<td>F</td>
+<td>Anteil am Gesamtverbrauchswert</td>
+</tr>
+<tr class="odd">
+<td>G</td>
+<td>Kumulierte Prozentwerte</td>
+</tr>
+<tr class="even">
+<td>H</td>
+<td>ABC-Klasse</td>
+</tr>
+</tbody>
+</table></div>
+<p><span data-edit-text="material/m3.html::segment-1">Die </span><a href="ABC_Arbeitsdatei.xlsx" data-edit-text="material/m3.html::segment-3" data-edit-link="material/m3.html::link-4">Excel-Arbeitsdatei ABC_Arbeitsdatei.xlsx</a><span data-edit-text="material/m3.html::segment-2"> enthält die fünf Übungsdatensätze aus M8. Die Artikel-IDs A bis E sind reine Übungskennungen. Die Tabelle nutzt die Zeilen 2 bis 6.</span></p>
+<h2 id="formeln" data-edit-text="material/m3.html::text-5">3.2 Formeln</h2>
+<p data-edit-text="material/m3.html::text-6">Für die fünf Datensätze in den Zeilen 2 bis 6:</p>
+<p><strong data-edit-text="material/m3.html::segment-4">Verbrauchswert in E2</strong></p>
+<pre class="excel"><code>=C2*D2</code></pre>
+<p><strong data-edit-text="material/m3.html::segment-5">Gesamtverbrauchswert</strong></p>
+<pre class="excel"><code>=SUMME(E2:E6)</code></pre>
+<p><strong data-edit-text="material/m3.html::segment-6">Prozentualer Anteil in F2</strong></p>
+<pre class="excel"><code>=E2/SUMME($E$2:$E$6)</code></pre>
+<p data-edit-text="material/m3.html::text-7">Formatieren Sie die Spalte F als Prozentwert.</p>
+<p data-edit-text="material/m3.html::text-8">Sortieren Sie anschließend die gesamte Tabelle nach Spalte E absteigend. Achten Sie darauf, dass alle Spalten gemeinsam sortiert werden und die Datensätze vollständig zusammenbleiben.</p>
+<p><strong data-edit-text="material/m3.html::segment-7">Kumulierter Prozentwert in G2</strong></p>
+<pre class="excel"><code>=F2</code></pre>
+<p><strong data-edit-text="material/m3.html::segment-8">Kumulierter Prozentwert ab G3</strong></p>
+<pre class="excel"><code>=G2+F3</code></pre>
+<p data-edit-text="material/m3.html::text-9">Übernehmen Sie die Formel für die weiteren Zeilen. Die kumulierten Prozentwerte zeigen, wie viel Prozent des gesamten Verbrauchswertes bis zum jeweiligen Artikel erreicht sind.</p>
+<h2 id="abc-klasse" data-edit-text="material/m3.html::text-10">3.3 ABC-Klasse</h2>
+<p data-edit-text="material/m3.html::text-11">Verwenden Sie für jeden Artikel den kumulierten Endwert seiner Zeile. A reicht bis einschließlich 80 %, B über 80 % bis einschließlich 95 %, C über 95 %. Dokumentieren Sie, welche Grenzwerte verwendet wurden. Runden Sie erst für die Darstellung; für die kumulierte Berechnung sollten möglichst die ungerundeten Werte verwendet werden.</p>
+<p><strong data-edit-text="material/m3.html::segment-10">Arbeitsauftrag:</strong><span data-edit-text="material/m3.html::segment-9"> Erstellen Sie eine vollständige, sortierte ABC-Auswertung. Prüfen Sie, ob der letzte kumulierte Prozentwert – abgesehen von Rundungsabweichungen – 100 % ergibt.</span></p>
+<figure id="erklaerbild-ls-3-2-abc-analyse-rechenbeispiel" style="margin:1.4rem 0"><a href="erklaerbilder/LS_3_2_ABC_Analyse_Rechenbeispiel.png" data-edit-link="material/m3.html::link-5"><img src="erklaerbilder/LS_3_2_ABC_Analyse_Rechenbeispiel.png" alt="Vereinfachtes Beispiel mit drei Lagerartikeln und insgesamt 1.000 € Verbrauchswert. A. Akkus. 10 × 70 €. 700 €. 70 %. 70 B. Bremsbeläge. 40 × 5 €. 200 €. 90 %. 20 C. Ventilkappen. 100 × 1 €. 100 €. 100 %. 10 Grenzen in diesem Beispiel: A bis 80 %, B bis 95 %, C über 95 %. Maßgeblich ist der aufsummierte Anteil." width="1500" height="868" loading="lazy" style="display:block;max-width:100%;height:auto" data-edit-image="material/m3.html::image-1"></a><figcaption data-edit-text="material/m3.html::text-12">Vereinfachtes Rechenbeispiel mit drei Artikeln und 1.000 € Gesamtverbrauchswert</figcaption></figure></article></section>
+  </div>
+</div>
+</div>
+<footer class="bfs-material-footer"><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main><footer data-bfs-chrome="" class="material-bottom"><a href="../materialien.html">Zur Materialübersicht</a><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav></footer></body></html>
