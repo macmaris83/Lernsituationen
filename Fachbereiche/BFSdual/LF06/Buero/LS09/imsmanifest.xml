@@ -54,6 +54,11 @@
       <file href="assets/points-ui.js" />
       <file href="assets/progress.css" />
       <file href="lehrkraft.html" />
+      <file href="assets/glossar.css" />
+      <file href="assets/glossar.js" />
+      <file href="ls-glossar.html" />
+      <file href="assets/office-dialog.js" />
+      <file href="assets/office-dialog.css" />
     </resource>
   </resources>
 </manifest>

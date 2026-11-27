@@ -29,6 +29,14 @@ else{let b=document.createElement('button');b.type='button';b.className='primary
 function submitQuiz(){let st=state.q8;if(st.submitted||readonly)return;st.score=D.quiz8.reduce((sum,q,i)=>{let a=st.a?.[i]||[];return sum+2*Math.max(0,a.reduce((s,j)=>s+(q.k.includes(j)?1/q.k.length:q.k.length===1?0:-1/q.k.length),0))},0);st.submitted=true;save();if(page==='bewerten')quiz(8)}
 function render(){page=ids.includes(location.hash.slice(1))?location.hash.slice(1):'index';if(!state.seen.includes(page)&&!readonly)state.seen.push(page);$('#page').innerHTML=D.pages[page];window.BFS_EDITOR?.apply($('#page'));document.querySelectorAll('nav.navigation a[href^="#"]').forEach(a=>{let id=a.getAttribute('href').slice(1);if(id===page)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');let c=a.querySelector('.station-check');if(c)c.hidden=!state.seen.includes(id)});$('#bar').style.width=state.seen.length/8*100+'%';$('#progress').textContent=state.seen.length+' von 8 Stationen besucht'+(state.done?' · abgeschlossen':'');$('#prev').disabled=page===ids[0];$('#next').disabled=page===ids[7];$('#prev').onclick=()=>location.hash=ids[ids.indexOf(page)-1];$('#next').onclick=()=>location.hash=ids[ids.indexOf(page)+1];if(page==='durchfuehren'){let k=state.v.paket;$('#chosen').textContent=k?'Gewähltes Lernpaket: '+k:'Bitte wählen Sie in der Phase Entscheiden ein Lernpaket.';if(k)$('#chosen-material').innerHTML=D.materials[k]||''}bind();quiz(0);quiz(8);if($('#finish')){$('#finish').disabled=readonly||state.done;$('#finish').onclick=()=>{let missing=[];if(!state.v.paket||!state.v.grund?.trim())missing.push('Lernpaket und Begründung');if(!state.v.abgabe)missing.push('Abgabebestätigung');if(!D.quiz0.every((q,i)=>state.q0.a?.[i]?.[0]===q.k[0]))missing.push('Fachbegriffs-Check');if(!state.v.feedback)missing.push('Feedback');if(missing.length){$('#finish-msg').textContent='Noch offen: '+missing.join(', ');return}state.done=true;save();render();$('#finish-msg').textContent='Lernpaket abgeschlossen.'}}save()}
 $('#status').textContent=active?'Moodle-Verbindung aktiv.': 'Lokale Vorschau: Fortschritt wird nur in diesem Browser gespeichert.';
+function returnToGlossarySource() {
+  const target=new URLSearchParams(location.search).get('glossarStelle');
+  const anchor=target && document.getElementById(target);
+  if (!anchor) return;
+  const material=anchor.closest('details');
+  if (material) material.open=true;
+  requestAnimationFrame(()=>{anchor.focus({preventScroll:true});anchor.scrollIntoView({block:'center'});});
+}
 window.BFS_OFFICE_PATH=()=>state.v.paket;
 window.BFS_OFFICE_XP=()=>{
  const correct=D.quiz0.map((q,i)=>Boolean(state.q0[i] && q.k.every(k=>state.q0[i].includes(k)) && q.k.length===state.q0[i].length));
@@ -37,4 +45,4 @@ window.BFS_OFFICE_XP=()=>{
  return {points:Math.round((60*qOK/Math.max(1,D.quiz0.length)+40*done/10)*100)/100,maxPoints:100,correct};
 };
 if(active&&!location.hash){let loc=api.LMSGetValue('cmi.core.lesson_location');if(ids.includes(loc))location.hash=loc}
-window.addEventListener('hashchange',()=>{render();window.scrollTo(0,0)});window.addEventListener('pagehide',()=>{save();if(active){api.LMSFinish('');active=false}});setInterval(()=>{let st=state.q8;if(st.start&&!st.submitted){let sec=Math.max(0,2700-Math.floor((Date.now()-st.start)/1000));if($('#clock'))$('#clock').textContent='Restzeit: '+Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0');if(sec===0)submitQuiz()}},1000);render();
+window.addEventListener('hashchange',()=>{render();window.scrollTo(0,0)});window.addEventListener('pagehide',()=>{save();if(active){api.LMSFinish('');active=false}});setInterval(()=>{let st=state.q8;if(st.start&&!st.submitted){let sec=Math.max(0,2700-Math.floor((Date.now()-st.start)/1000));if($('#clock'))$('#clock').textContent='Restzeit: '+Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0');if(sec===0)submitQuiz()}},1000);render();returnToGlossarySource();

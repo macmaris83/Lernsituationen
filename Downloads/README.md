@@ -61,16 +61,16 @@ Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-K
 | Geschichte | Vom Mythos zum Krieg · Russland | 1.8.14 | [ZIP](GESCHICHTE-J1914-Russland/Julikrise_1914_Russland_v1.8.14_SCORM12.zip) |
 | Geschichte | Identität und Nation | 1.8.15 | [ZIP](GESCHICHTE-IDN/Identitaet_und_Nation_v1.8.15_SCORM12.zip) |
 | Vorlagen | LS-Master im BRC-Design | 1.8.13 | [ZIP](LS-MASTER/LS_Master_BRC_v1.8.13_SCORM12.zip) |
-| BFS dual | Unternehmen erkunden, vergleichen und präsentieren | 1.8.11 | [ZIP](BFSDUAL-LF01-LS01/BFSDUAL_LF01_LS01_v1.8.11_SCORM12.zip) |
-| BFS dual | Betriebliche Strukturen und Zuständigkeiten verstehen | 1.8.11 | [ZIP](BFSDUAL-LF01-LS03/BFSDUAL_LF01_LS03_v1.8.11_SCORM12.zip) |
-| BFS dual | Ein Kundenanliegen professionell bearbeiten | 1.8.11 | [ZIP](BFSDUAL-LF02-LS01/BFSDUAL_LF02_LS01_v1.8.11_SCORM12.zip) |
-| BFS dual | Kunden bedarfsgerecht beraten und Verkaufsgespräche erfolgreich führen | 1.8.11 | [ZIP](BFSDUAL-LF02-LS02/BFSDUAL_LF02_LS02_v1.8.11_SCORM12.zip) |
-| BFS dual | Dürfen wir an jeden Kunden verkaufen? | 1.8.11 | [ZIP](BFSDUAL-LF02-LS03/BFSDUAL_LF02_LS03_v1.8.11_SCORM12.zip) |
-| BFS dual | Kundenangebote erstellen und Bestellungen prüfen | 1.8.11 | [ZIP](BFSDUAL-LF02-LS04/BFSDUAL_LF02_LS04_v1.8.11_SCORM12.zip) |
-| BFS dual | Ist der Kundenauftrag wirklich abgeschlossen? | 1.8.11 | [ZIP](BFSDUAL-LF02-LS05/BFSDUAL_LF02_LS05_v1.8.11_SCORM12.zip) |
-| BFS dual | Beschaffung wirtschaftlich planen – die richtige Bestellstrategie für Global Bike | 1.8.11 | [ZIP](BFSDUAL-LF03-LS01/BFSDUAL_LF03_LS01_v1.8.11_SCORM12.zip) |
-| BFS dual | Lagerhaltung optimieren – ABC-Analyse und Entscheidung über Eigen- oder Fremdlagerung | 1.8.11 | [ZIP](BFSDUAL-LF03-LS02/BFSDUAL_LF03_LS02_v1.8.11_SCORM12.zip) |
-| BFS dual | Wenn Lieferungen nicht wie vereinbart erfolgen | 1.8.11 | [ZIP](BFSDUAL-LF03-LS03/BFSDUAL_LF03_LS03_v1.8.11_SCORM12.zip) |
+| BFS dual | Unternehmen erkunden, vergleichen und präsentieren | 1.8.12 | [ZIP](BFSDUAL-LF01-LS01/BFSDUAL_LF01_LS01_v1.8.12_SCORM12.zip) |
+| BFS dual | Betriebliche Strukturen und Zuständigkeiten verstehen | 1.8.12 | [ZIP](BFSDUAL-LF01-LS03/BFSDUAL_LF01_LS03_v1.8.12_SCORM12.zip) |
+| BFS dual | Ein Kundenanliegen professionell bearbeiten | 1.8.12 | [ZIP](BFSDUAL-LF02-LS01/BFSDUAL_LF02_LS01_v1.8.12_SCORM12.zip) |
+| BFS dual | Kunden bedarfsgerecht beraten und Verkaufsgespräche erfolgreich führen | 1.8.12 | [ZIP](BFSDUAL-LF02-LS02/BFSDUAL_LF02_LS02_v1.8.12_SCORM12.zip) |
+| BFS dual | Dürfen wir an jeden Kunden verkaufen? | 1.8.12 | [ZIP](BFSDUAL-LF02-LS03/BFSDUAL_LF02_LS03_v1.8.12_SCORM12.zip) |
+| BFS dual | Kundenangebote erstellen und Bestellungen prüfen | 1.8.12 | [ZIP](BFSDUAL-LF02-LS04/BFSDUAL_LF02_LS04_v1.8.12_SCORM12.zip) |
+| BFS dual | Ist der Kundenauftrag wirklich abgeschlossen? | 1.8.12 | [ZIP](BFSDUAL-LF02-LS05/BFSDUAL_LF02_LS05_v1.8.12_SCORM12.zip) |
+| BFS dual | Beschaffung wirtschaftlich planen – die richtige Bestellstrategie für Global Bike | 1.8.12 | [ZIP](BFSDUAL-LF03-LS01/BFSDUAL_LF03_LS01_v1.8.12_SCORM12.zip) |
+| BFS dual | Lagerhaltung optimieren – ABC-Analyse und Entscheidung über Eigen- oder Fremdlagerung | 1.8.12 | [ZIP](BFSDUAL-LF03-LS02/BFSDUAL_LF03_LS02_v1.8.12_SCORM12.zip) |
+| BFS dual | Wenn Lieferungen nicht wie vereinbart erfolgen | 1.8.12 | [ZIP](BFSDUAL-LF03-LS03/BFSDUAL_LF03_LS03_v1.8.12_SCORM12.zip) |
 
 Maschinenlesbare Zuordnung und Prüfsummen: [aktuell.json](aktuell.json).
 Vor einer automatischen Nutzung: `python tools/master.py check --archives`.

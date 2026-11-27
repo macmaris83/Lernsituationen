@@ -1,0 +1,4 @@
+.office-glossary-panel{box-sizing:border-box;padding:0;border:1px solid #8ab4c5;border-top:5px solid #1684a9;background:#fff;border-radius:1rem;overflow:hidden;width:min(calc(100% - 2rem),44rem)}
+.office-glossary-panel iframe{display:block;border:0;width:100%;height:min(58vh,25rem)}
+.office-glossary-panel::backdrop{background:#0b263950;backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}
+@media print{.office-glossary-panel{display:none!important}}

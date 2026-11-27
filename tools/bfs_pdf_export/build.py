@@ -25,7 +25,7 @@ OFFICE = BFS/'LF06/Buero/LS09'
 PHASES = dict(informieren='Informieren', planen='Planen', entscheiden='Entscheiden',
               durchfuehren='Durchführen', bewerten='Bewerten', reflektieren='Reflektieren')
 ORDER = ('index', 'handlungssituation', 'informieren', 'begriffstraining', 'planen',
-         'entscheiden', 'durchfuehren', 'bewerten', 'reflektieren', 'materialien', 'ls-glossar')
+         'entscheiden', 'durchfuehren', 'bewerten', 'reflektieren', 'materialien')
 PRINTER = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"/></svg>'
 MATH_TASKS = {
     '2.4': {'07','09','12','13A','13B','13C'},
@@ -169,7 +169,7 @@ def source_plan(d):
     index=html.parse(d/'materialien.html')
     for a in index.xpath('//a[starts-with(@href,"material/")]'):
         local=urlsplit(a.get('href')).path
-        if not local.endswith('.html') or local in seen:continue
+        if not local.endswith('.html') or local in seen or Path(local).name in ('ls-glossar.html','fachwoerter.html'):continue
         seen.add(local)
         actual=d/unquote(local)
         if not actual.is_file():continue

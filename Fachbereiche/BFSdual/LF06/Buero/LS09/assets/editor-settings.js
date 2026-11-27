@@ -42,10 +42,10 @@
     for (const node of container.querySelectorAll('img[data-edit-image]')) {
       const value = settings.images[node.dataset.editImage];
       if (!value) continue;
-      if (value.file && /^assets\/editor-images\/[a-z0-9-]+\.(png|jpg|gif|webp)$/i.test(value.file)) {
-        node.src = new URL(value.file, root);
-      } else if (/^data:image\/(png|jpeg|gif|webp);base64,[a-z0-9+/=]+$/i.test(value.src || '')) {
+      if (/^data:image\/(png|jpeg|gif|webp);base64,[a-z0-9+/=]+$/i.test(value.src || '')) {
         node.src = value.src;
+      } else if (value.file && /^assets\/editor-images\/[a-z0-9-]+\.(png|jpg|gif|webp)$/i.test(value.file)) {
+        node.src = new URL(value.file, root);
       }
       if (typeof value.alt === 'string') node.alt = value.alt;
     }
@@ -62,4 +62,14 @@
   const settings = preview ? read() : defaults;
   window.BFS_EDITOR = {root, preview, id: published.id, current:settings, read, save, defaults, safeURL, apply: container => update(container, settings)};
   if (page) update(page, settings);
+  if (preview) {
+    document.addEventListener('click', event => {
+      const anchor=event.target.closest('a[href]');
+      if (!anchor || anchor.hasAttribute('download') || anchor.getAttribute('href').startsWith('#')) return;
+      const next=new URL(anchor.href,root);
+      if (next.origin!==root.origin || !next.pathname.startsWith(root.pathname) || !next.pathname.endsWith('.html')) return;
+      next.searchParams.set('bfs-vorschau','1');
+      anchor.href=next.href;
+    },{capture:true});
+  }
 })();

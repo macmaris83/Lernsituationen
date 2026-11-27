@@ -15,7 +15,7 @@
   pin.addEventListener('keydown',event=>{if(event.key==='Enter')unlock.click();});
   const upload = $('#editor-source');
   const output = $('#editor-fields');
-  let state = api.read(), manifestText, manifest, sourceArchive, files, current;
+  let state = api.read(), sourceDefaults=api.defaults, manifestText, manifest, sourceArchive, files, current;
   const office = document.body.hasAttribute('data-office');
   const names = {
     peer: 'Peer-Check', feedback: 'Feedback', knowledge: 'Wissens-Check'
@@ -139,7 +139,7 @@
     const requested=page;
     try {
       let source;
-      if (office) {
+      if (office && page.startsWith('index.html#')) {
         const raw=(await get('data.js')).trim();
         const data=JSON.parse(raw.slice('window.LESSON='.length,-1));
         const route=page.split('#')[1];
@@ -181,8 +181,29 @@
     sourceArchive=file ? await JSZip.loadAsync(file) : null;
     manifestText=await get('imsmanifest.xml');
     manifest=manifestFiles(manifestText);
+    if (file) {
+      // Exported BFS packages store their authored content in a literal JS configuration.
+      const raw=await get('assets/editor-config.js');
+      const match=/^\s*window\.BFS_EDITOR_CONFIG=(.*);\s*$/s.exec(raw);
+      if (!match) throw new Error('Die Editor-Konfiguration im ZIP ist ungültig.');
+      const data=JSON.parse(match[1]);
+      if (data.id!==api.id) throw new Error('Die Editor-Konfiguration gehört zu einer anderen Lernsituation.');
+      sourceDefaults=Object.fromEntries(Object.keys(api.defaults).map(k=>[k,data[k] || {}]));
+      for (const entry of Object.values(sourceDefaults.images)) {
+        const filename = entry?.file || '';
+        const ext=/^assets\/editor-images\/[a-z0-9-]+\.(png|jpg|gif|webp)$/i.exec(filename)?.[1];
+        if (ext) {
+          const mime=ext.toLowerCase()==='jpg'?'jpeg':ext.toLowerCase();
+          entry.src='data:image/'+mime+';base64,'+await get(filename,'base64');
+        }
+      }
+      state=structuredClone(sourceDefaults);
+      for (const field of document.querySelectorAll('[data-moodle-fields] input')) {
+        field.value=state.links[field.dataset.moodleSetting] || '';
+      }
+    }
     files=office
-      ? ['index','handlungssituation','informieren','planen','entscheiden','durchfuehren','bewerten','reflektieren'].map(route=>'index.html#'+route)
+      ? [...['index','handlungssituation','informieren','planen','entscheiden','durchfuehren','bewerten','reflektieren'].map(route=>'index.html#'+route),'ls-glossar.html']
       : manifest.paths.filter(p=>p.endsWith('.html') && !['scorm.html','lehrkraft.html','druckansicht.html'].includes(p));
     const labels={'index':'Orientierung','handlungssituation':'Handlungssituation','informieren':'Informieren','planen':'Planen','entscheiden':'Entscheiden','durchfuehren':'Durchführen','bewerten':'Bewerten','reflektieren':'Reflektieren','begriffstraining':'Fachbegriffscheck','ls-glossar':'Glossar','materialien':'Materialübersicht'};
     sources.replaceChildren(...files.map(p=>{
@@ -194,11 +215,15 @@
     $('[data-export-ims]').disabled=false;
   }
 
-  $('[data-moodle-fields]').replaceChildren(...Object.entries(names).map(([id,label])=>input('Moodle-Aktivität '+label,state.links[id] || '',(v,el)=>{
-    const url=api.safeURL(v.trim());
-    el.setCustomValidity(v.trim()&&!url?'Bitte eine vollständige Moodle-Adresse eingeben.':'');
-    if (!v.trim()||url) {state.links[id]=url;pending();}
-  },'url')));
+  $('[data-moodle-fields]').replaceChildren(...Object.entries(names).map(([id,label])=>{
+    const row=input('Moodle-Aktivität '+label,state.links[id] || '',(v,el)=>{
+      const url=api.safeURL(v.trim());
+      el.setCustomValidity(v.trim()&&!url?'Bitte eine vollständige Moodle-Adresse eingeben.':'');
+      if (!v.trim()||url) {state.links[id]=url;pending();}
+    },'url');
+    row.querySelector('input').dataset.moodleSetting=id;
+    return row;
+  }));
   sources.addEventListener('change',()=>open(sources.value));
   upload.addEventListener('change',async ()=>{
     try { $('[data-export-ims]').disabled=true;await load(upload.files[0]);status('Paket geladen.'); }
@@ -213,7 +238,7 @@
     const prefix=decodeURIComponent(current)+'::';
     for (const group of ['texts','images','checks','references']) {
       for (const key of Object.keys(state[group])) if (key.startsWith(prefix)) {
-        if (Object.hasOwn(api.defaults[group],key)) state[group][key]=api.defaults[group][key];
+        if (Object.hasOwn(sourceDefaults[group],key)) state[group][key]=sourceDefaults[group][key];
         else delete state[group][key];
       }
     }
