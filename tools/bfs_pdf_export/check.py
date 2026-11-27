@@ -49,8 +49,8 @@ def case(d):
   for phase in phases:
    page.goto(addr(phase))
    if phase=='durchfuehren':
-    if old:page.get_by_text(re.compile('Wähle .*zuerst deinen Lernweg')).wait_for()
-    else:page.wait_for_url(addr('entscheiden')+'?wahl-erforderlich=1')
+    locked=url+('index.html?wahl-erforderlich=1#entscheiden' if old else 'entscheiden.html?wahl-erforderlich=1')
+    page.wait_for_url(locked)
     for path in 'ABC':
      page.goto(addr('entscheiden'))
      if old:page.locator('[data-save="paket"]').select_option(path)
