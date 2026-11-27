@@ -20,3 +20,40 @@
 .bfs-brand-logos img:last-child{width:min(5rem,30%);max-width:none;height:auto;max-height:2.2rem;object-fit:contain}
 .bfs-material-brand{display:flex;justify-content:flex-end;margin:0 0 .65rem}
 @media print{.bfs-material-brand{display:none}}
+
+.bfs-editor-page .editor-intro h1{margin:.55rem 0 .05rem}
+.bfs-editor-page .editor-intro p{margin:0 0 1rem;color:#405d6a}
+.bfs-editor-page #teacher-login{max-width:25rem}
+.bfs-editor-page #teacher-login label{margin-top:0}
+.bfs-editor-page #teacher-login input{max-width:10rem}
+.bfs-editor-page #teacher-login-message:empty{display:none}
+.bfs-editor-page .editor-toolbar{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:.5rem 1rem;align-items:end;padding:.7rem .85rem;background:#f6fafc;border:1px solid #c8dae3;border-radius:.65rem  .65rem 0 0}
+.bfs-editor-page .editor-source-label{display:grid;gap:.15rem;flex:1 1 15rem;min-width:0;font-weight:650}
+.bfs-editor-page .editor-primary-actions{display:flex;gap:.4rem;flex-wrap:wrap}
+.bfs-editor-page .editor-primary-actions .primary{background:#174765;color:#fff;border-color:#174765}
+.bfs-editor-page .editor-primary-actions [aria-disabled=true]{opacity:.55;cursor:default}
+.bfs-editor-page [data-teacher-status]{flex-basis:100%;font-size:.86rem;color:#405d6a;margin:0}
+.bfs-editor-page [data-teacher-status]:empty{display:none}
+.bfs-editor-page .editor-workspace{background:#fff;border:1px solid #c8dae3;border-top:0;border-radius:0 0 .65rem .65rem;padding:.75rem .9rem;min-width:0}
+.bfs-editor-page .editor-tablist{display:flex;flex-wrap:wrap;gap:.35rem;margin-bottom:.65rem;border-bottom:1px solid #d5e3ec;padding-bottom:.45rem}
+.bfs-editor-page .editor-tablist button{padding:.35rem .6rem;background:transparent;border-color:transparent}
+.bfs-editor-page .editor-tablist button[aria-selected=true]{background:#e5f3f9;border-color:#87b5c6;color:#123e57}
+.bfs-editor-page :is(#editor-fields,.editor-secondary) label{display:grid;gap:.2rem;margin:.48rem 0;min-width:0}
+.bfs-editor-page .editor-secondary details{background:#fff;margin:.55rem 0}
+.bfs-editor-page .editor-secondary p{margin:.55rem 0 .1rem;font-size:.88rem}
+.bfs-editor-page #editor-fields textarea{min-height:2.4rem;resize:vertical}
+.bfs-editor-page #editor-fields .editor-label{font-size:.87rem;font-weight:650;color:#355669;overflow-wrap:anywhere}
+.bfs-editor-page #editor-fields .editor-answer{display:grid;grid-template-columns:auto minmax(0,1fr);gap:.55rem;align-items:center;margin:.42rem 0}
+.bfs-editor-page #editor-fields .editor-answer label{margin:0}
+.bfs-editor-page #editor-fields input[type=radio]{width:auto;margin:0;accent-color:#16798c}
+.bfs-editor-page .editor-check-label{margin-top:.6rem;font-size:.85rem;color:#355669}
+.bfs-editor-page .editor-filter input{margin-bottom:.45rem}
+.bfs-editor-page #editor-fields details>summary{overflow-wrap:anywhere}
+@media(max-width:550px){.bfs-editor-page .editor-toolbar{gap:.45rem;padding:.55rem}.bfs-editor-page .editor-primary-actions .button{padding:.45rem .55rem}.bfs-editor-page .editor-workspace{padding:.55rem}}
+.bfs-editor-page [hidden]{display:none!important}
+.bfs-editor-page .shell{overflow:clip}
+.bfs-editor-page #editor-content details{padding:.45rem .6rem}
+.bfs-editor-page #editor-checks fieldset{border:0;padding:0;margin:0;min-width:0}
+.bfs-editor-page .editor-secondary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.35rem;padding:.35rem .6rem;background:#f6fafc;border-inline:1px solid #c8dae3}
+.bfs-editor-page .editor-secondary details{margin:0;padding:.3rem .45rem;min-width:0;font-size:.9rem}
+.bfs-editor-page .editor-secondary details[open]{grid-column:1/-1}

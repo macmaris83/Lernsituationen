@@ -148,12 +148,9 @@ def editor_page(title, n, office):
 <title>Editor · {title}</title><link rel="stylesheet" href="assets/{'styles.css' if office else 'global-bike.css'}"><link rel="stylesheet" href="assets/editor.css">
 <script defer src="assets/editor-config.js"></script><script defer src="assets/editor-settings.js"></script><script defer src="assets/jszip.min.js"></script><script defer src="assets/editor.js"></script></head>
 <body class="bfs-editor-page" data-teacher="true"{attr}><div class="shell"><header class="brand-header"><strong>BFS dual · Global Bike · LS {n}</strong><img src="assets/bbs1-aurich.svg" alt="BBS 1 Aurich"></header><main class="main">
-<nav aria-label="Editor"><a href="index.html">Zur Lernsituation</a></nav>
-<section class="teacher-card"><h1>Editor</h1><p>{title}</p><p>Bearbeitungen werden als Entwurf im Browser gespeichert. Die Lerngruppe erhält die bearbeitete SCORM-Datei in Moodle.</p><label>Quelle für die lokale Bearbeitung<select hidden aria-hidden="true"><option>SCORM-Paket</option></select><input type="file" accept=".zip,application/zip" id="editor-source"></label></section>
-<section class="teacher-card"><h2>Moodle-Aktivitäten verknüpfen</h2><div data-moodle-fields></div></section>
-<section class="teacher-card"><h2>Seiten, Bilder und Checks bearbeiten</h2><label>Seite<select id="editor-page" data-edit-page></select></label><div id="editor-fields"></div>
-<div class="editor-actions"><button type="button" data-save-page>Seitenänderung speichern</button><button type="button" data-reset-page>Seite zurücksetzen</button><a class="button" data-preview-page target="_blank" rel="noopener noreferrer">Vorschau öffnen</a></div></section>
-<section class="teacher-card"><h2>SCORM exportieren</h2><p>Die Druckansicht zeigt die bearbeitete Fassung. Fertige GoodNotes- und Gesamtdokument-PDFs entsprechen dem Stand der mitgelieferten Paketvorlage.</p><div class="editor-actions"><button type="button" data-export-ims disabled>Bearbeitetes SCORM herunterladen</button><a class="button" href="druckansicht.html?bfs-vorschau=1" target="_blank" rel="noopener noreferrer">Druckansicht öffnen</a></div><p data-teacher-status role="status"></p></section>
+<div class="editor-intro"><nav aria-label="Editor"><a href="index.html">Zur Lernsituation</a></nav><h1>Editor</h1><p>{title}</p></div>
+<section class="teacher-card" id="teacher-login"><label>PIN<input id="teacher-pin" type="password" inputmode="numeric" maxlength="4" autocomplete="off"></label><button id="teacher-unlock" type="button">Öffnen</button><p id="teacher-login-message" role="status"></p></section>
+{(HERE/'editor-panel.html').read_text()}
 </main></div></body></html>'''
 
 def add_progress(runtime, removed):

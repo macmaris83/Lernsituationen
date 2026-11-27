@@ -1,0 +1,38 @@
+<div id="teacher-panel" hidden>
+  <div class="editor-toolbar">
+    <label class="editor-source-label">Seite<select id="editor-page" data-edit-page disabled></select></label>
+    <div class="editor-primary-actions">
+      <a class="button" data-preview-page target="_blank" rel="noopener noreferrer" aria-disabled="true">Vorschau</a>
+      <button class="button primary" type="button" data-export-ims disabled>SCORM herunterladen</button>
+    </div>
+    <p data-teacher-status role="status"></p>
+  </div>
+  <div class="editor-secondary">
+    <details><summary>Moodle-Links</summary><div data-moodle-fields></div></details>
+    <details id="editor-options">
+      <summary>Weitere Optionen</summary>
+      <label>SCORM-ZIP öffnen<input type="file" accept=".zip,application/zip" id="editor-source"></label>
+      <div class="editor-actions">
+        <button type="button" data-reset-page disabled>Diese Seite zurücksetzen</button>
+        <a class="button" href="druckansicht.html?bfs-vorschau=1" target="_blank" rel="noopener noreferrer">Druckansicht</a>
+      </div>
+      <p>Die Druckansicht übernimmt den Entwurf. Die mitgelieferten PDFs zeigen den Stand der Paketvorlage.</p>
+    </details>
+  </div>
+  <div class="editor-workspace">
+    <div class="editor-tablist" role="tablist" aria-label="Bearbeitungsbereich" hidden>
+      <button type="button" role="tab" id="editor-tab-content" aria-controls="editor-content" aria-selected="true" data-editor-tab="content">Text</button>
+      <button type="button" role="tab" id="editor-tab-media" aria-controls="editor-media" aria-selected="false" tabindex="-1" data-editor-tab="media">Bilder</button>
+      <button type="button" role="tab" id="editor-tab-links" aria-controls="editor-links" aria-selected="false" tabindex="-1" data-editor-tab="links">Links</button>
+      <button type="button" role="tab" id="editor-tab-checks" aria-controls="editor-checks" aria-selected="false" tabindex="-1" data-editor-tab="checks">Checks</button>
+    </div>
+    <div id="editor-fields">
+      <label class="editor-filter" hidden>Textfelder filtern<input type="search" id="editor-filter" autocapitalize="none"></label>
+      <div id="editor-content" role="tabpanel" aria-labelledby="editor-tab-content"></div>
+      <div id="editor-media" role="tabpanel" aria-labelledby="editor-tab-media" hidden></div>
+      <div id="editor-links" role="tabpanel" aria-labelledby="editor-tab-links" hidden></div>
+      <div id="editor-checks" role="tabpanel" aria-labelledby="editor-tab-checks" hidden></div>
+      <p data-editor-empty hidden></p>
+    </div>
+  </div>
+</div>
