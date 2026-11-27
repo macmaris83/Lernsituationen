@@ -18,4 +18,6 @@ Dokumentieren Sie Quellen und kurze Prozessnotizen (Phase 4). Alle Materialien M
 
 **Abzugebendes Handlungsergebnis:** Vergleichstabelle mit Einordnungen und Auswertung, Betriebssteckbrief mit begründeter Empfehlung, Quellenangaben und Präsentationsstichpunkte. Jan Richter kann damit entscheiden, wie Global Bike vorgestellt werden soll.
 
-**Zugang:** analytisch-strukturierend. Die Tabelle kann frei gestaltet oder mit dem optionalen Raster in M4 begonnen werden.
+**Zugang:** Betriebe systematisch vergleichen. Die Tabelle kann frei gestaltet oder mit dem optionalen Raster in M4 begonnen werden.
+
+[Schulische KI-Lernassistenz im Aufgabenfokus](../informieren.html?aufgabe=BFSDUAL-LF01-LS01-T07) · „KI-Hilfe öffnen“ wählen.

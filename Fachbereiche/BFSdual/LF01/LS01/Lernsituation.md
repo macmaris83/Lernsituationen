@@ -315,11 +315,11 @@ Wähle einen von drei gleichwertigen Arbeitswegen. Du kannst deine Wahl begründ
 
 **Lernpaket wählen**
 
-A · Betriebsvergleich · Ordnen Sie Belege nach Kriterien in einer Tabelle. · Ein Betriebssteckbrief und eine Vergleichstabelle eignen sich, wenn Sie Unterschiede Zeile für Zeile belegen möchten.
+A · Betriebsvergleich · Betriebe systematisch vergleichen. Ordnen Sie Belege nach Kriterien in einer Tabelle. · Ein Betriebssteckbrief und eine Vergleichstabelle eignen sich, wenn Sie Unterschiede Zeile für Zeile belegen möchten.
 
-B · Unternehmensplakat · Gestalten Sie ein Plakat aus Quellen, Profil und Vergleich. · Ein gegliedertes Plakat macht die wichtigsten Aussagen für die Besucher auf einen Blick lesbar.
+B · Unternehmensplakat · Erkenntnisse sichtbar machen. Gestalten Sie ein Plakat aus Quellen, Profil und Vergleich. · Ein gegliedertes Plakat macht die wichtigsten Aussagen für die Besucher auf einen Blick lesbar.
 
-C · Unternehmensgespräch · Bereiten Sie mögliche Fragen und Antworten vor. · Ein Gesprächsleitfaden mit mindestens drei Frage-Antwort-Paaren und Vergleichsübersicht hilft Jan im direkten Austausch.
+C · Unternehmensgespräch · Informationen für ein Gespräch verbinden. Bereiten Sie mögliche Fragen und Antworten vor. · Ein Gesprächsleitfaden mit mindestens drei Frage-Antwort-Paaren und Vergleichsübersicht hilft Jan im direkten Austausch.
 
 Jan Richter erhält ein Betriebsprofil mit einem Vergleich von Global Bike und drei realen Betrieben aus der Region. Je ein regionaler Betrieb steht für Industrie, Handel und Dienstleistung. Alle Wege enthalten Quellen, eine begründete Auswahl von zwei bis drei Aussagen für das Treffen und Stichpunkte zur Kurzvorstellung.
 
@@ -483,9 +483,9 @@ Dein Feedback zum Unterricht.
 
 BFS dual · Lernfeld 1 · LS 1.1
 
-[![Fachliche Sicherung zu Betriebsarten, Global Bike, Recherche und Betriebsprofil](material/Intro_Outro/LF01_LS01_1_Outro.png)](material/Intro_Outro/LF01_LS01_1_Outro.png) 
+[![Fachliche Sicherung zu Betriebsarten, Global Bike, Recherche und Betriebsprofil.](material/Intro_Outro/LF01_LS01_1_Outro.png)](material/Intro_Outro/LF01_LS01_1_Outro.png) 
 
-Fachliche Sicherung zu Betriebsarten, Global Bike, [Recherche](#recherche) und [Betriebsprofil](#betriebsprofil) 
+Fachliche Sicherung zu Betriebsarten, Global Bike, [Recherche](#recherche) und [Betriebsprofil](#betriebsprofil). 
 
 - Industrie: industrielle Herstellung von Sachgütern oder Gewinnung von Rohstoffen. Handel: Einkauf und überwiegend unveränderter Weiterverkauf. [Dienstleistung](#dienstleistung): Leistung für andere.
 - [Unternehmen](#unternehmen) können mehrere Tätigkeiten verbinden. Für die Einordnung zählt der wirtschaftliche Schwerpunkt; alle drei Betriebsarten können zur Wertschöpfung beitragen.
@@ -621,9 +621,9 @@ Global Bike bietet eigene Erzeugnisse und eingekaufte Handelswaren an. Fertigerz
 | Mountainbikes | Wasserflaschen, Luftpumpen |
 |  | Fahrrad-Zahlenschlösser, Reparatursets |
 
- [![Beispielhafte Produktgruppen, keine authentischen SAP-Produktabbildungen und kein vollständiger Katalog.](material/Materialmedien/M1_Global_Bike/LF01_LS01_1_M1_B01_Produktcollage_GlobalBike.png)](material/Materialmedien/M1_Global_Bike/LF01_LS01_1_M1_B01_Produktcollage_GlobalBike.png) 
+ [![Beispielhafte Produktgruppen; keine authentischen Produktabbildungen und kein vollständiger Katalog.](material/Materialmedien/M1_Global_Bike/LF01_LS01_1_M1_B01_Produktcollage_GlobalBike.png)](material/Materialmedien/M1_Global_Bike/LF01_LS01_1_M1_B01_Produktcollage_GlobalBike.png) 
 
-Beispielhafte Produktgruppen, keine authentischen SAP-Produktabbildungen und kein vollständiger Katalog. 
+Beispielhafte Produktgruppen; keine authentischen Produktabbildungen und kein vollständiger Katalog. 
 
 #### 4. Standorte und Absatzregion
 
@@ -638,9 +638,9 @@ Ein [Standort](#standort) ist ein Ort, an dem betriebliche Tätigkeiten ausgefü
 
 Lieferanten liefern Materialien, Bauteile und Handelswaren. Kunden kaufen die angebotenen Produkte. Dienstleister übernehmen beispielsweise Transportleistungen. Diese Gruppen können [Geschäftspartner](#geschaeftspartner) sein: Personen oder Organisationen, mit denen das Unternehmen geschäftlich zusammenarbeitet.
 
- [![Beispielhafte Partnergruppen und Leistungsbeziehungen; keine Aussage über konkrete Verträge oder regionale Partner. Die Kundenstruktur umfasst insbesondere Groß- und Einzelhändler.](material/Materialmedien/M1_Global_Bike/LF01_LS01_1_M1_G02_GlobalBike_und_Geschaeftspartner.png)](material/Materialmedien/M1_Global_Bike/LF01_LS01_1_M1_G02_GlobalBike_und_Geschaeftspartner.png) 
+ [![Beispielhafte Geschäftspartner und Leistungsbeziehungen. Zu den Kunden gehören insbesondere Groß- und Einzelhändler.](material/Materialmedien/M1_Global_Bike/LF01_LS01_1_M1_G02_GlobalBike_und_Geschaeftspartner.png)](material/Materialmedien/M1_Global_Bike/LF01_LS01_1_M1_G02_GlobalBike_und_Geschaeftspartner.png) 
 
-Beispielhafte Partnergruppen und Leistungsbeziehungen; keine Aussage über konkrete Verträge oder regionale Partner. Die Kundenstruktur umfasst insbesondere Groß- und Einzelhändler. 
+Beispielhafte Geschäftspartner und Leistungsbeziehungen. Zu den Kunden gehören insbesondere Groß- und Einzelhändler. 
 
 #### 6. Vertiefung: Wie hängen die Tätigkeiten zusammen?
 
@@ -652,14 +652,16 @@ Der Verkauf eigener Erzeugnisse und der Weiterverkauf eingekaufter Waren untersc
 
 **Merke:** Ein Unternehmen kann verschiedene Tätigkeiten verbinden. Standort und Absatzregion sind nicht dasselbe.
 
-#### Quellen M1 (interne Unterlagen; externe Fachgrundlagen, geprüft 26.11.2026)
+#### Quellen M1
 
-- Global Bike Deutschland GmbH (1).pdf, Abschnitte 4–10; Organigramm der Global Bike Deutschland GmbH.pdf; Narrativer Rahmen für die Arbeit mit dem Modellunternehmen.pdf.
-- Stammdaten Global Bike.xlsx, Fertigwaren Stammdaten und Handelswaren Stammdaten.
+- Global Bike Deutschland GmbH, Abschnitte 4–10; Organigramm der Global Bike Deutschland GmbH; Narrativer Rahmen für die Arbeit mit dem Modellunternehmen (interne Unterlagen).
+- Stammdaten Global Bike, Fertigwaren- und Handelswarenstammdaten (interne Unterlagen).
 - Gabler Wirtschaftslexikon: [Fertigerzeugnis](https://wirtschaftslexikon.gabler.de/definition/fertigerzeugnis-33755), [Handelswaren](https://wirtschaftslexikon.gabler.de/definition/handelswaren-33567).
 - Duden Wirtschaft / bpb: [Betriebswirtschaftslehre](https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/18887/betriebswirtschaftslehre/).
 
 [Material als bearbeitbare Markdown-Datei](material/m1.md)
+
+[Schulische KI-Lernassistenz im Aufgabenfokus](informieren.html?aufgabe=BFSDUAL-LF01-LS01-T07) · „KI-Hilfe öffnen“ wählen.
 
 <a id="m2"></a>
 
@@ -675,9 +677,9 @@ Ein [Betrieb](#betrieb) ist eine organisierte Einheit, in der Güter hergestellt
 
 Ein Fahrrad wird hergestellt, verkauft und möglicherweise später repariert. An diesen Tätigkeiten können unterschiedliche Betriebe beteiligt sein.
 
- [![Drei ausgewählte Betriebsarten am Beispiel der Fahrradbranche. Die wirtschaftliche Haupttätigkeit entscheidet über die begründete Einordnung.](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G01_Drei_Betriebsarten_Ueberblick.png)](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G01_Drei_Betriebsarten_Ueberblick.png) 
+ [![Drei ausgewählte Betriebsarten am Beispiel der Fahrradbranche. Entscheidend ist die wirtschaftliche Haupttätigkeit.](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G01_Drei_Betriebsarten_Ueberblick.png)](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G01_Drei_Betriebsarten_Ueberblick.png) 
 
-Drei ausgewählte Betriebsarten am Beispiel der Fahrradbranche. Die wirtschaftliche Haupttätigkeit entscheidet über die begründete Einordnung. 
+Drei ausgewählte Betriebsarten am Beispiel der Fahrradbranche. Entscheidend ist die wirtschaftliche Haupttätigkeit. 
 
 #### 2. Industriebetrieb
 
@@ -685,9 +687,9 @@ Ein [Industriebetrieb](#industriebetrieb) stellt Sachgüter industriell her oder
 
  [![Industrielle Fahrradproduktion: Materialien, Montage, Qualitätskontrolle, Fertigerzeugnis. Allgemeines Anschauungsbild.](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_B01_Industriebetrieb_Fahrradproduktion.png)](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_B01_Industriebetrieb_Fahrradproduktion.png) 
 
-Industrielle Fahrradproduktion: Materialien, Montage, Qualitätskontrolle, Fertigerzeugnis. Allgemeines Anschauungsbild. [![Vereinfachter industrieller Herstellungsablauf. Die dargestellte Rahmenfertigung ist ein allgemeines Beispiel, kein Nachweis eines konkreten Global-Bike-Fertigungsverfahrens.](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G02_Ablauf_Industriebetrieb.png)](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G02_Ablauf_Industriebetrieb.png) 
+Industrielle Fahrradproduktion: Materialien, Montage, Qualitätskontrolle, Fertigerzeugnis. Allgemeines Anschauungsbild. [![Vereinfachtes Beispiel für die industrielle Herstellung eines Fahrrads.](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G02_Ablauf_Industriebetrieb.png)](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G02_Ablauf_Industriebetrieb.png) 
 
-Vereinfachter industrieller Herstellungsablauf. Die dargestellte Rahmenfertigung ist ein allgemeines Beispiel, kein Nachweis eines konkreten Global-Bike-Fertigungsverfahrens. 
+Vereinfachtes Beispiel für die industrielle Herstellung eines Fahrrads. 
 
 Auch Handwerksbetriebe stellen Produkte her, häufig stärker auf einzelne Kundenaufträge bezogen. Produktionsmenge und Maschineneinsatz sind Hinweise, aber keine ausnahmslosen Abgrenzungsregeln.
 
@@ -699,9 +701,9 @@ Ein [Handelsbetrieb](#handelsbetrieb) kauft Waren ein und verkauft sie überwieg
 
  [![Fahrradfachhandel: Wareneingang, Warenpräsentation, Kundenberatung und Verkauf.](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_B02_Handelsbetrieb_Fahrradfachhandel.png)](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_B02_Handelsbetrieb_Fahrradfachhandel.png) 
 
-Fahrradfachhandel: Wareneingang, Warenpräsentation, Kundenberatung und Verkauf. [![Allgemeines Beispiel aus der Fahrradbranche: Lieferant, Wareneingang, Präsentation, Beratung, Verkauf, Kunde. Das Logo dient der didaktischen Illustration; keine Einordnung von Global Bike als reiner Handelsbetrieb.](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G03_Ablauf_Handelsbetrieb.png)](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G03_Ablauf_Handelsbetrieb.png) 
+Fahrradfachhandel: Wareneingang, Warenpräsentation, Kundenberatung und Verkauf. [![Allgemeines Beispiel aus der Fahrradbranche: Einkauf, Wareneingang, Angebot mit Beratung und Verkauf.](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G03_Ablauf_Handelsbetrieb.png)](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G03_Ablauf_Handelsbetrieb.png) 
 
-Allgemeines Beispiel aus der Fahrradbranche: Lieferant, Wareneingang, Präsentation, Beratung, Verkauf, Kunde. Das Logo dient der didaktischen Illustration; keine Einordnung von Global Bike als reiner Handelsbetrieb. 
+Allgemeines Beispiel aus der Fahrradbranche: Einkauf, Wareneingang, Angebot mit Beratung und Verkauf. 
 
 Der Handel macht Waren für Kunden verfügbar. Er kann unterschiedliche Produkte zu einem Sortiment zusammenstellen und räumliche oder zeitliche Unterschiede zwischen Herstellung und Nachfrage ausgleichen. Beratung, Lieferung oder Montage können ergänzende Leistungen sein.
 
@@ -711,11 +713,11 @@ Der Handel macht Waren für Kunden verfügbar. Er kann unterschiedliche Produkte
 
 Ein [Dienstleistungsbetrieb](#dienstleistungsbetrieb) erbringt hauptsächlich Leistungen für andere Menschen oder Unternehmen. Beispiele sind Reparatur, Beratung oder Transport. Es geht vor allem um eine Tätigkeit für den Kunden, nicht um die Herstellung eines neuen Sachguts.
 
- [![Fahrradreparatur: Kundenbedarf, Ersatzteile, Reparaturleistung und angestrebtes Ergebnis. Das Foto zeigt die laufende Reparatur, nicht den Nachweis eines fertigen Ergebnisses.](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_B03_Dienstleistungsbetrieb_Fahrradreparatur.png)](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_B03_Dienstleistungsbetrieb_Fahrradreparatur.png) 
+ [![Fahrradreparatur: Kundenbedarf, Ersatzteile, Reparaturleistung und Reparaturziel. Dargestellt ist eine laufende Reparatur.](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_B03_Dienstleistungsbetrieb_Fahrradreparatur.png)](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_B03_Dienstleistungsbetrieb_Fahrradreparatur.png) 
 
-Fahrradreparatur: Kundenbedarf, Ersatzteile, Reparaturleistung und angestrebtes Ergebnis. Das Foto zeigt die laufende Reparatur, nicht den Nachweis eines fertigen Ergebnisses. [![Allgemeines Beispiel eines Reparaturauftrags. Ersatzteile werden bei Bedarf im Rahmen der Leistung eingesetzt, nicht zwingend erst danach; kein belegter eigener Reparaturbetrieb von Global Bike.](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G04_Ablauf_Dienstleistungsbetrieb.png)](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G04_Ablauf_Dienstleistungsbetrieb.png) 
+Fahrradreparatur: Kundenbedarf, Ersatzteile, Reparaturleistung und Reparaturziel. Dargestellt ist eine laufende Reparatur. [![Allgemeines Beispiel eines Reparaturauftrags. Ersatzteile werden bei Bedarf während der Leistung eingesetzt.](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G04_Ablauf_Dienstleistungsbetrieb.png)](material/Materialmedien/M2_Betriebsarten/LF01_LS01_1_M2_G04_Ablauf_Dienstleistungsbetrieb.png) 
 
-Allgemeines Beispiel eines Reparaturauftrags. Ersatzteile werden bei Bedarf im Rahmen der Leistung eingesetzt, nicht zwingend erst danach; kein belegter eigener Reparaturbetrieb von Global Bike. 
+Allgemeines Beispiel eines Reparaturauftrags. Ersatzteile werden bei Bedarf während der Leistung eingesetzt. 
 
 Bei einer Reparatur können Sachgüter wie Bremsbeläge oder Reifen eingesetzt werden. Dennoch steht die Reparaturleistung im Mittelpunkt.
 
@@ -760,7 +762,7 @@ Handel zählt hier zum tertiären Sektor. Das widerspricht der betriebswirtschaf
 
 **Merke:** Für eine begründete Zuordnung zählt die wirtschaftliche Haupttätigkeit. Mischformen sind möglich. Fehlende Daten rechtfertigen keine unbelegten Behauptungen.
 
-#### Quellen M2 (geprüft 26.11.2026)
+#### Quellen M2
 
 - Duden Wirtschaft / bpb: [Betrieb](https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/18861/betrieb/), [Unternehmen](https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/20918/unternehmen/), [Industriebetrieb](https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/19717/industriebetrieb/), [Dienstleistungsbetrieb](https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/19049/dienstleistungsbetrieb/).
 - Gabler Wirtschaftslexikon: [Handelsbetrieb](https://wirtschaftslexikon.gabler.de/definition/handelsbetrieb-32612), [Handel](https://wirtschaftslexikon.gabler.de/definition/handel-35491).
@@ -768,6 +770,8 @@ Handel zählt hier zum tertiären Sektor. Das widerspricht der betriebswirtschaf
 - bpb: [Wirtschaftssektoren](https://www.bpb.de/kurz-knapp/lexika/politiklexikon/296546/wirtschaftssektoren/).
 
 [Material als bearbeitbare Markdown-Datei](material/m2.md)
+
+[Schulische KI-Lernassistenz im Aufgabenfokus](informieren.html?aufgabe=BFSDUAL-LF01-LS01-T07) · „KI-Hilfe öffnen“ wählen.
 
 <a id="m3"></a>
 
@@ -830,13 +834,15 @@ Die schulische KI-Lernassistenz kann bei Suchbegriffen, Begriffserklärungen und
 
 **Merke:** Eine gute Recherche ist auftragsbezogen, nachvollziehbar, kritisch geprüft und verständlich dokumentiert.
 
-#### Quellen M3 (geprüft 26.11.2026)
+#### Quellen M3
 
 - Humboldt-Universität zu Berlin, LIS Study Guide: [Wissenschaftliches Arbeiten – Quellenrecherche und -bewertung](https://ibi.pages.cms.hu-berlin.de/lis-study-guide/guide/wiss_arbeiten/).
 - Unternehmensregister: [Inhalte](https://unternehmensregister.de/de/so-gehts/inhalt), [Registerinformationen](https://www.unternehmensregister.de/de/so-gehts/registerinformationen?language=de).
 - Fünf-Schritte-Modell und Quellencheck: eigene didaktische Aufbereitung.
 
 [Material als bearbeitbare Markdown-Datei](material/m3.md)
+
+[Schulische KI-Lernassistenz im Aufgabenfokus](informieren.html?aufgabe=BFSDUAL-LF01-LS01-T07) · „KI-Hilfe öffnen“ wählen.
 
 <a id="m4"></a>
 
@@ -895,12 +901,14 @@ Vergleichen zeigt Gemeinsamkeiten und Unterschiede. Bewerten geht weiter: Es beu
 
 **Merke:** Gemeinsame Kriterien, zuverlässige Informationen und begründete Schlussfolgerungen machen den Vergleich aussagekräftig.
 
-#### Quellen M4 (geprüft 26.11.2026)
+#### Quellen M4
 
 - Lehrkräftefortbildung Baden-Württemberg: [Operatorenkatalog nach Anforderungsbereichen](https://lehrerfortbildung-bw.de/u_gewi/gk/gym/bp2016/fb5/2_komp/5_operatoren/), insbesondere vergleichen, erklären und begründen.
 - Kriterienraster, Satzanfänge und Übertragung auf den betrieblichen Auftrag: eigene didaktische Aufbereitung.
 
 [Material als bearbeitbare Markdown-Datei](material/m4.md)
+
+[Schulische KI-Lernassistenz im Aufgabenfokus](informieren.html?aufgabe=BFSDUAL-LF01-LS01-T07) · „KI-Hilfe öffnen“ wählen.
 
 <a id="m5"></a>
 
@@ -957,7 +965,7 @@ Die Kurzpräsentation ist die fachliche Vorstellung des Ergebnisses. Der freiwil
 
 **Merke:** Ein gutes Betriebsprofil ist richtig, verständlich, auftragsbezogen, übersichtlich und durch Quellen nachvollziehbar.
 
-#### Quellen M5 (geprüft 26.11.2026)
+#### Quellen M5
 
 - IHK Region Stuttgart: [Hinweise zum Unternehmenskauf – Unternehmensprofil](https://www.ihk.de/stuttgart/fuer-unternehmen/nachfolge/hinweise-zum-unternehmenskauf-2744640). Die umfangreichen Anforderungen des Unternehmenskaufs werden nicht auf diese LS übertragen.
 - IHK Chemnitz: [Zielgruppe / Kundennutzen](https://www.ihk.de/chemnitz/starthilfe/gruendung/neuer-inhalt4-unternehmensgruendung-planen-channel/iv-zielgruppe-i-kundennutzen-3387222).
@@ -966,15 +974,17 @@ Die Kurzpräsentation ist die fachliche Vorstellung des Ergebnisses. Der freiwil
 
 [Material als bearbeitbare Markdown-Datei](material/m5.md)
 
+[Schulische KI-Lernassistenz im Aufgabenfokus](informieren.html?aufgabe=BFSDUAL-LF01-LS01-T07) · „KI-Hilfe öffnen“ wählen.
+
 ## Übersicht zum Fall
 
 [Digitale Fassung öffnen](material/orientierung.html)
 
 BFS dual · Lernfeld 1 · LS 1.1
 
-[![Der Advance Organizer zeigt das Fallbeispiel und die drei Wahlprodukte. Für den Ablauf und die letzten beiden Phasen gilt die Aufgabenübersicht in diesem Lernpaket.](material/Intro_Outro/LF01_LS01_1_Intro.png)](material/Intro_Outro/LF01_LS01_1_Intro.png) 
+[![Fachliche Orientierung, Auftrag, Vorgehen, Betriebsarten und Lernpakete. Im Lernpaket gelten die Zeiten der Aufgaben. In „Bewerten“ findet der Peer-Check statt.](material/Intro_Outro/LF01_LS01_1_Intro.png)](material/Intro_Outro/LF01_LS01_1_Intro.png) 
 
-Der Advance Organizer zeigt das Fallbeispiel und die drei Wahlprodukte. Für den Ablauf und die letzten beiden Phasen gilt die Aufgabenübersicht in diesem Lernpaket. 
+Fachliche Orientierung, Auftrag, Vorgehen, Betriebsarten und Lernpakete. Im Lernpaket gelten die Zeiten der Aufgaben. In „Bewerten“ findet der Peer-Check statt. 
 
 [Material als bearbeitbare Markdown-Datei](material/orientierung.md)
 
@@ -1096,9 +1106,11 @@ Dokumentieren Sie Quellen und kurze Prozessnotizen (Phase 4). Alle Materialien [
 
 **Abzugebendes Handlungsergebnis:** Vergleichstabelle mit Einordnungen und Auswertung, Betriebssteckbrief mit begründeter Empfehlung, Quellenangaben und Präsentationsstichpunkte. Jan Richter kann damit entscheiden, wie Global Bike vorgestellt werden soll.
 
-**Zugang:** analytisch-strukturierend. Die Tabelle kann frei gestaltet oder mit dem optionalen Raster in M4 begonnen werden.
+**Zugang:** Betriebe systematisch vergleichen. Die Tabelle kann frei gestaltet oder mit dem optionalen Raster in M4 begonnen werden.
 
 [Material als bearbeitbare Markdown-Datei](material/weg-a.md)
+
+[Schulische KI-Lernassistenz im Aufgabenfokus](informieren.html?aufgabe=BFSDUAL-LF01-LS01-T07) · „KI-Hilfe öffnen“ wählen.
 
 <a id="weg-b"></a>
 
@@ -1118,9 +1130,11 @@ Dokumentieren Sie Quellen und kurze Prozessnotizen (Phase 4). Alle Materialien [
 
 **Abzugebendes Handlungsergebnis:** Unternehmensplakat mit Betriebsprofil, begründeter Empfehlung und Vergleichserkenntnissen; bei Bedarf ergänzende Vergleichsübersicht; Quellenangaben und Präsentationsstichpunkte. Jan Richter kann es beim Netzwerktreffen einsetzen.
 
-**Zugang:** kreativ-entwickelnd und visuell. Handzeichnung, Textfelder oder einfache digitale Darstellung sind gleichwertig; keine aufwendige Gestaltung vorausgesetzt.
+**Zugang:** Erkenntnisse sichtbar machen. Handzeichnung, Textfelder oder einfache digitale Darstellung sind gleichwertig; keine aufwendige Gestaltung vorausgesetzt.
 
 [Material als bearbeitbare Markdown-Datei](material/weg-b.md)
+
+[Schulische KI-Lernassistenz im Aufgabenfokus](informieren.html?aufgabe=BFSDUAL-LF01-LS01-T07) · „KI-Hilfe öffnen“ wählen.
 
 <a id="weg-c"></a>
 
@@ -1140,9 +1154,11 @@ Dokumentieren Sie Quellen und kurze Prozessnotizen (Phase 4). Alle Materialien [
 
 **Abzugebendes Handlungsergebnis:** Gesprächsleitfaden mit Betriebsprofil, begründeter Empfehlung, Fragen und Antworten, Vergleichsübersicht mit Auswertung, Quellenangaben und Stichpunkten zur Kurzvorstellung (diese dürfen in den Karten enthalten sein). Jan Richter kann die Unterlagen unmittelbar zur Gesprächsvorbereitung nutzen.
 
-**Zugang:** ganzheitlich-vernetzend und sprachlich/dialogisch. Keine Videoaufnahme und kein tatsächliches Gespräch als Pflichtabgabe. Im freiwilligen Pitch kann das Gespräch simuliert werden.
+**Zugang:** Informationen für ein Gespräch verbinden. Keine Videoaufnahme und kein tatsächliches Gespräch als Pflichtabgabe. Im freiwilligen Pitch kann das Gespräch simuliert werden.
 
 [Material als bearbeitbare Markdown-Datei](material/weg-c.md)
+
+[Schulische KI-Lernassistenz im Aufgabenfokus](informieren.html?aufgabe=BFSDUAL-LF01-LS01-T07) · „KI-Hilfe öffnen“ wählen.
 
 <a id="materialien"></a>
 

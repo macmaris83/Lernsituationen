@@ -18,4 +18,6 @@ Dokumentieren Sie Quellen und kurze Prozessnotizen (Phase 4). Alle Materialien M
 
 **Abzugebendes Handlungsergebnis:** Gesprächsleitfaden mit Betriebsprofil, begründeter Empfehlung, Fragen und Antworten, Vergleichsübersicht mit Auswertung, Quellenangaben und Stichpunkten zur Kurzvorstellung (diese dürfen in den Karten enthalten sein). Jan Richter kann die Unterlagen unmittelbar zur Gesprächsvorbereitung nutzen.
 
-**Zugang:** ganzheitlich-vernetzend und sprachlich/dialogisch. Keine Videoaufnahme und kein tatsächliches Gespräch als Pflichtabgabe. Im freiwilligen Pitch kann das Gespräch simuliert werden.
+**Zugang:** Informationen für ein Gespräch verbinden. Keine Videoaufnahme und kein tatsächliches Gespräch als Pflichtabgabe. Im freiwilligen Pitch kann das Gespräch simuliert werden.
+
+[Schulische KI-Lernassistenz im Aufgabenfokus](../informieren.html?aufgabe=BFSDUAL-LF01-LS01-T07) · „KI-Hilfe öffnen“ wählen.

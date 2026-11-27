@@ -713,12 +713,12 @@
       "bereich": "BFS dual",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BFSdual/LF01/LS01",
-      "version": "1.8.14",
+      "version": "1.8.15",
       "formVersion": "1.8.8",
       "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
-      "archive": "Downloads/BFSDUAL-LF01-LS01/BFSDUAL_LF01_LS01_v1.8.14_SCORM12.zip",
-      "masterSha256": "4660d4574efe2930b5c51e0e903dac9aca644b58c313c784d2593b103786d5dc",
-      "archiveSha256": "fdc78d052335dcd444f50d21dc006c0cd38b2dc652231b0d00a73786c64d2f3d",
+      "archive": "Downloads/BFSDUAL-LF01-LS01/BFSDUAL_LF01_LS01_v1.8.15_SCORM12.zip",
+      "masterSha256": "41005ab6a2118efb538c3615617ffb24961618f278372fedb691632b446281c4",
+      "archiveSha256": "32a317ee44228c86ecd7e688f7181a52d5ca7bd5724b6a01046e1df7113f0b16",
       "files": 120
     },
     {
@@ -727,12 +727,12 @@
       "bereich": "BFS dual",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BFSdual/LF01/LS03",
-      "version": "1.8.14",
+      "version": "1.8.15",
       "formVersion": "1.8.8",
       "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
-      "archive": "Downloads/BFSDUAL-LF01-LS03/BFSDUAL_LF01_LS03_v1.8.14_SCORM12.zip",
-      "masterSha256": "5ea3527cd3870b9fdc9f73ffd011ac7e1b3586fbcc5e2d7c4d2f59bef89bcbb5",
-      "archiveSha256": "9a8d0c1d39f96be7a4530c274ca3c1ae751c35d8b8365b45211cb06d3af8cec2",
+      "archive": "Downloads/BFSDUAL-LF01-LS03/BFSDUAL_LF01_LS03_v1.8.15_SCORM12.zip",
+      "masterSha256": "f58a63b11b5d68f920e02758bc470994fc29c102a1c361590d17a4f3b0c5ba6a",
+      "archiveSha256": "3093ddb9fedf025af47a8b294e992e27108a13ae3b81f29948b51086191a7467",
       "files": 116
     },
     {
@@ -986,6 +986,34 @@
       "masterSha256": "a43c138ba1458349e8ae80839fd6a3569986820231c14abf385e4d73aa5cdd10",
       "archiveSha256": "88f8774459f7d5f504c38a745043fe712dc8460ae75cdbf9e0b29e7026515413",
       "files": 99
+    },
+    {
+      "id": "BFSDUAL-LF01-LS02",
+      "title": "Unternehmensziele und Zielkonflikte beurteilen",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF01/LS02",
+      "version": "1.8.15",
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
+      "archive": "Downloads/BFSDUAL-LF01-LS02/BFSDUAL_LF01_LS02_v1.8.15_SCORM12.zip",
+      "masterSha256": "07b50855f8ae8b4bc29dc65c8e2ad4548fc801f646fd4a1ae5b172f6269d66f2",
+      "archiveSha256": "21634e0a294ed1265d65b30b939ac577f2e24a8a311bff3536a73fc2c20f5b61",
+      "files": 109
+    },
+    {
+      "id": "BFSDUAL-LF02-LS07",
+      "title": "Einen Kundenauftrag abwickeln mit SAP (Praxis)",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF02/LS07",
+      "version": "1.8.15",
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
+      "archive": "Downloads/BFSDUAL-LF02-LS07/BFSDUAL_LF02_LS07_v1.8.15_SCORM12.zip",
+      "masterSha256": "46b4bc81708cc9b44325a3c9478963be09494b366a431a2218355222d5d436ed",
+      "archiveSha256": "b19b10055d14954a175fbf8ca75b0cefbce66ff56fc2a4d4c4093e870121189f",
+      "files": 140
     }
   ]
 }

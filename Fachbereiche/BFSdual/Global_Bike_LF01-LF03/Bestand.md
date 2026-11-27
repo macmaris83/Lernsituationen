@@ -1,10 +1,11 @@
 # Global Bike · Quellen der Moodle-Tafel
 
-Die beiden Sicherungen des Boards „Arbeitspakete (2. Halbjahr)“ enthalten zwölf ausgearbeitete Fälle für LF 1, 2 und 3. Die Zuordnung folgt den Karten-IDs und den itemid-Einträgen im Moodle-Dateiverzeichnis. Die zehn Fälle der ersten Sicherung verwenden die beschriftete Bildnachlieferung, Excel und SAP ihre Originalillustrationen.
+Die drei Sicherungen des Boards „Arbeitspakete (2. Halbjahr)“ enthalten vierzehn ausgearbeitete Fälle für LF 1, 2 und 3. Die Zuordnung folgt den Karten-IDs und den itemid-Einträgen im Moodle-Dateiverzeichnis. Der [Abgleich des Boardstands 14:02](Abgleich_1402.md) dokumentiert die neuen Fälle 1.2 und 2.7 sowie die neueren Fassungen von 1.1 und 1.3. Bei den bereits vorhandenen Fällen zeigt die Tabelle den Umfang bei der Erstübernahme.
 
 | LS | Karte | Boardtitel | MD | DOCX | PDF | PNG einschließlich Nachlieferung | Webziele ohne Zugangscode |
 | --- | ---: | --- | ---: | ---: | ---: | ---: | ---: |
 | 1.1 | 377 | LS 1.1 - Unternehmen erkunden, vergleichen und präsentieren | 2 | 0 | 1 | 13 | 27 |
+| 1.2 | 384 | LS 1.2 - Unternehmensziele und Zielkonflikte beurteilen | 4 | 0 | 1 | 9 | siehe Abgleich 14:02 |
 | 1.3 | 381 | LS 1.3. - Betriebliche Strukturen und Zuständigkeiten verstehen | 4 | 0 | 2 | 11 | 2 |
 | 2.1 | 366 | 2.1 Kommunikation und Absatz I (Theorie) | 21 | 3 | 0 | 8 | 1 |
 | 2.2 | 370 | 2.2 Kommunikation und Absatz II (Praxis) | 1 | 0 | 0 | 5 | 0 |
@@ -12,7 +13,8 @@ Die beiden Sicherungen des Boards „Arbeitspakete (2. Halbjahr)“ enthalten zw
 | 2.4 | 368 | 2.4 Angebot und Vertragsschluss (Theorie) | 44 | 4 | 0 | 10 | 11 |
 | 2.5 | 369 | 2.5 Auftrag abwickeln und auswerten (Theorie in der zweiten Sicherung) | 3 | 0 | 0 | 18 | 1 |
 | 2.6a | 380 | 2.6 Excel für Büroaufgaben | 125 | 0 | 0 | 86 | 0 |
-| 2.6b | 382 | 2.6 Absatzvorgänge mit SAP durchführen | 2 | 0 | 28 | 0 | 0 |
+| 2.6b | 382 | 2.6 Kundenanfragen bearbeiten mit SAP (Praxis) | 2 | 0 | 28 | 0 | 0 |
+| 2.7 | 383 | 2.7 Einen Kundenauftrag abwickeln mit SAP (Praxis) | 2 | 0 | 55 | 0 | siehe Abgleich 14:02 |
 | 3.1 | 371 | 3.1: Beschaffung wirtschaftlich planen – die richtige Bestellstrategie für Global Bike | 1 | 1 | 0 | 1 | 0 |
 | 3.2 | 372 | 3.2: Lagerhaltung optimieren – ABC-Analyse und Entscheidung über Eigen- oder Fremdlagerung | 1 | 1 | 0 | 1 | 0 |
 | 3.3 | 373 | 3.3: Wenn Lieferungen nicht wie vereinbart erfolgen | 0 | 1 | 0 | 1 | 0 |

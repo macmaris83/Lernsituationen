@@ -18,4 +18,6 @@ Dokumentieren Sie Quellen und kurze Prozessnotizen (Phase 4). Alle Materialien M
 
 **Abzugebendes Handlungsergebnis:** Unternehmensplakat mit Betriebsprofil, begründeter Empfehlung und Vergleichserkenntnissen; bei Bedarf ergänzende Vergleichsübersicht; Quellenangaben und Präsentationsstichpunkte. Jan Richter kann es beim Netzwerktreffen einsetzen.
 
-**Zugang:** kreativ-entwickelnd und visuell. Handzeichnung, Textfelder oder einfache digitale Darstellung sind gleichwertig; keine aufwendige Gestaltung vorausgesetzt.
+**Zugang:** Erkenntnisse sichtbar machen. Handzeichnung, Textfelder oder einfache digitale Darstellung sind gleichwertig; keine aufwendige Gestaltung vorausgesetzt.
+
+[Schulische KI-Lernassistenz im Aufgabenfokus](../informieren.html?aufgabe=BFSDUAL-LF01-LS01-T07) · „KI-Hilfe öffnen“ wählen.

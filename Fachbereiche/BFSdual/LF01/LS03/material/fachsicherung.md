@@ -21,4 +21,4 @@ Das Organigramm zeigt Stellen, Bereiche und Hierarchie; es zeigt nicht sämtlich
 
 **Anwendung bei Global Bike:** Das Marketing benötigt technische Informationen über einen Fahrradrahmen. Die Konstruktion kann die Fachinformationen liefern; das Marketing bereitet sie für die Kundenkommunikation auf. Beide stimmen sich ab. Eine verbindliche Freigabe muss bei Bedarf geklärt werden.
 
-Das Outro dient der fachlichen Sicherung, nicht einer erneuten Prozessreflexion.
+Klären Sie im Beispiel von Marketing und Konstruktion, wer die Informationen für die Kundenkommunikation verbindlich freigeben darf.

@@ -23,6 +23,7 @@ KINDS = {
  '2.5':{'m03':'sap'},
  '2.6a':{'m13':'acrobat','m14':'acrobat'},
  '2.6b':{'m1':'outlook','m2':'sap','m3':'sap','m4':'sap','m5':'acrobat','handbuch':'acrobat'},
+ '2.7':{'m1':'outlook','m2':'acrobat','m3':'sap','m4':'sap','m5':'acrobat','handbuch':'acrobat'},
  '3.1':{},'3.2':{},
  '3.3':{'m1':'sap','m2':'sap','m3':'acrobat','m4':'acrobat','m5':'acrobat','m6':'acrobat','m7':'acrobat'}
 }

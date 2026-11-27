@@ -291,11 +291,11 @@ Wähle einen von drei gleichwertigen Arbeitswegen. Du kannst deine Wahl begründ
 
 **Lernpaket wählen**
 
-A · Zuständigkeitscheck · Prüfen Sie sechs vorgeschlagene Zuordnungen auf Fehler. · Eine korrigierte Übersicht mit Begründungen und zwei Skizzen eignet sich für die systematische Prüfung eines Entwurfs.
+A · Zuständigkeitscheck · Prüfen Sie die sechs Zuordnungen im Entwurf und begründen Sie Ihre Korrekturen. · Eine korrigierte Übersicht mit Begründungen und zwei Skizzen eignet sich für die systematische Prüfung eines Entwurfs.
 
-B · Organisatorischer Wegweiser · Wählen Sie relevante Stellen aus und verbinden Sie die Aufgaben und Informationswege. · Eine auf den Auftrag reduzierte Karte mit beschrifteten Beziehungen bietet schnelle Orientierung.
+B · Organisatorischer Wegweiser · Wählen Sie die für den Auftrag wichtigen Stellen aus und verknüpfen Sie deren Aufgaben und Informationswege. · Eine auf den Auftrag reduzierte Karte mit beschrifteten Beziehungen bietet schnelle Orientierung.
 
-C · Interne Zuständigkeitsberatung · Beantworten Sie drei interne Anfragekarten aus Sicht der Beteiligten. · Drei begründete Antworten mit Skizzen und Fazit helfen bei der Beratung zu noch offenen Fragen.
+C · Interne Zuständigkeitsberatung · Klären Sie die betrieblichen Anliegen auf drei Anfragekarten und verbinden Sie die Perspektiven der Beteiligten. · Drei begründete Antworten mit Skizzen und Fazit helfen bei der Beratung zu noch offenen Fragen.
 
 Jan Richter benötigt eine begründete Zuordnung aller sechs Aufgaben. Zwei Skizzen zeigen mögliche Weisungs- und Berichtswege aus zwei Linienbereichen. Das Produkt erläutert Schnittstellen, Stabsberatung, offenen Klärungsbedarf und betrieblichen Nutzen. Stichpunkte für die kurze Vorstellung gehören zum gewählten Produkt.
 
@@ -479,7 +479,7 @@ Das [Organigramm](#organigramm) zeigt Stellen, Bereiche und [Hierarchie](#hierar
 
 **Anwendung bei Global Bike:** Das Marketing benötigt technische Informationen über einen Fahrradrahmen. Die Konstruktion kann die Fachinformationen liefern; das Marketing bereitet sie für die Kundenkommunikation auf. Beide stimmen sich ab. Eine verbindliche Freigabe muss bei Bedarf geklärt werden.
 
-Das Outro dient der fachlichen Sicherung, nicht einer erneuten Prozessreflexion.
+Klären Sie im Beispiel von Marketing und Konstruktion, wer die Informationen für die Kundenkommunikation verbindlich freigeben darf.
 
 [Material als bearbeitbare Markdown-Datei](material/fachsicherung.md)
 
@@ -674,9 +674,9 @@ Eine **Stabsstelle** unterstützt eine Leitung durch besondere Fachaufgaben oder
 
 #### Gezieltes Nachschlagen – vollständiges Organigramm
 
- [![Vollständige Organisationsstruktur; Funktionskarten je Bereich gleichgeordnet, keine Rangfolge. Betriebsrat separat. Textliche Zuordnungen folgen.](material/Materialmedien/M3/LF01_LS01_3_M3_G02_Organigramm_Global_Bike_vollstaendig.png)](material/Materialmedien/M3/LF01_LS01_3_M3_G02_Organigramm_Global_Bike_vollstaendig.png) 
+ [![Vollständiges Organigramm von Global Bike. Die Funktionskarten jedes Bereichs sind gleichgeordnet. Der Betriebsrat ist separat dargestellt.](material/Materialmedien/M3/LF01_LS01_3_M3_G02_Organigramm_Global_Bike_vollstaendig.png)](material/Materialmedien/M3/LF01_LS01_3_M3_G02_Organigramm_Global_Bike_vollstaendig.png) 
 
-Vollständige Organisationsstruktur; Funktionskarten je Bereich gleichgeordnet, keine Rangfolge. Betriebsrat separat. Textliche Zuordnungen folgen. 
+Die Funktionskarten jedes Bereichs sind gleichgeordnet. Der Betriebsrat ist separat dargestellt. Öffnen Sie das Organigramm bei Bedarf in Originalgröße. Die folgenden Listen ordnen die Stellen ihren Bereichen zu. 
 
 ##### Lager und Logistik – Leitung: Ali Gül
 
@@ -795,9 +795,9 @@ Bei unklaren Befugnissen: Welche Aufgabe liegt vor? Wer darf entscheiden? Wer mu
 
 BFS dual · Lernfeld 1 · LS 1.3
 
-[![Der Advance Organizer zeigt das Fallbeispiel und die drei Wahlprodukte. Für den Ablauf und die letzten beiden Phasen gilt die Aufgabenübersicht in diesem Lernpaket.](material/Intro_Outro/LF01_LS01_3_Intro.png)](material/Intro_Outro/LF01_LS01_3_Intro.png) 
+[![Kundenanfrage an Jan Richter, sechs Handlungsphasen, drei Wahlprodukte und ein Beispiel für Weisung und Bericht zwischen Emma Fuchs und Lina Peters.](material/Intro_Outro/LF01_LS01_3_Intro.png)](material/Intro_Outro/LF01_LS01_3_Intro.png) 
 
-Der Advance Organizer zeigt das Fallbeispiel und die drei Wahlprodukte. Für den Ablauf und die letzten beiden Phasen gilt die Aufgabenübersicht in diesem Lernpaket. 
+Die Übersicht zeigt die Kundenanfrage, die sechs Handlungsphasen und die drei Wahlprodukte. In diesem Lernpaket führen Sie beim Bewerten einen Peer-Check durch und geben beim Reflektieren Feedback. 
 
 [Material als bearbeitbare Markdown-Datei](material/orientierung.md)
 
