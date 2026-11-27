@@ -1103,3 +1103,9 @@ Jan Richter will Kunden im Nordwesten verlässlich versorgen (M1/M4).
 ## Lehrkraftmaterial und Moodle
 
 Die Lehrkraft erhält die Erwartungshinweise und Unterlagen separat. Die Aktivität *Peer-Feedback* und das abschließende *Feedback* werden im jeweiligen Moodle-Kurs eingerichtet. Für das Peer-Feedback gelten die fallbezogenen Kriterien unter „Bewerten“.
+
+
+## Erklärbilder
+
+- [Von der ABC-Analyse zur Entscheidung über die Lagerform](material/m2.html#erklaerbild-ls-3-2-abc-analyse-und-lagerentscheidung) · [Bilddatei](material/erklaerbilder/LS_3_2_ABC_Analyse_und_Lagerentscheidung.png)
+- [Vereinfachtes Rechenbeispiel mit drei Artikeln und 1.000 € Gesamtverbrauchswert](material/m3.html#erklaerbild-ls-3-2-abc-analyse-rechenbeispiel) · [Bilddatei](material/erklaerbilder/LS_3_2_ABC_Analyse_Rechenbeispiel.png)

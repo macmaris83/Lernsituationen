@@ -1865,3 +1865,8 @@ M5 und M7 unterscheiden Rücktritt und Ersatz eines nachweisbaren Schadens; die 
 ## Lehrkraftmaterial und Moodle
 
 Die Lehrkraft erhält die Erwartungshinweise und Unterlagen separat. Die Aktivität *Peer-Feedback* und das abschließende *Feedback* werden im jeweiligen Moodle-Kurs eingerichtet. Für das Peer-Feedback gelten die fallbezogenen Kriterien unter „Bewerten“.
+
+
+## Erklärbilder
+
+- [Liefertermin und Zustand der Ware getrennt prüfen](material/m4.html#erklaerbild-ls-3-3-lieferverzug-und-mangel) · [Bilddatei](material/erklaerbilder/LS_3_3_Lieferverzug_und_Mangel.png)

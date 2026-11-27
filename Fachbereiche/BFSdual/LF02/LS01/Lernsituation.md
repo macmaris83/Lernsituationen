@@ -1336,3 +1336,8 @@ Erhebung für festgelegte, eindeutige und legitime Zwecke.
 ## Lehrkraftmaterial und Moodle
 
 Die separate Lehrkraftlieferung enthält die geschützte Rollenkarte für die Kundenvertretung, die Bewertungsunterlagen und die Moodle-Datei für M6. Die Lehrkraft gibt die Rolleninformation unmittelbar vor der Simulation an die Kundenvertretung aus. Die Aktivität *Peer-Feedback* und das abschließende *Feedback* werden im jeweiligen Moodle-Kurs eingerichtet. Für das Peer-Feedback gelten die fallbezogenen Kriterien unter „Bewerten“.
+
+
+## Erklärbilder
+
+- [Vier Schritte von der Anfrage zur Rückmeldung](material/m1.html#erklaerbild-ls-2-1-kundenanfrage-bearbeiten) · [Bilddatei](material/erklaerbilder/LS_2_1_Kundenanfrage_bearbeiten.png)

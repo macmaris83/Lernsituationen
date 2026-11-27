@@ -1414,3 +1414,8 @@ Eine adressatengerechte Darstellung berücksichtigt Bedürfnisse und Voraussetzu
 ## Lehrkraftmaterial und Moodle
 
 Die Lehrkraft erhält die Erwartungshinweise und Unterlagen separat. Die Aktivität *Peer-Feedback* und das abschließende *Feedback* werden im jeweiligen Moodle-Kurs eingerichtet. Für das Peer-Feedback gelten die fallbezogenen Kriterien unter „Bewerten“.
+
+
+## Erklärbilder
+
+- [Betriebsarten nach ihrer Haupttätigkeit unterscheiden](material/m2.html#erklaerbild-ls-1-1-betriebsarten-im-vergleich) · [Bilddatei](material/erklaerbilder/LS_1_1_Betriebsarten_im_Vergleich.png)

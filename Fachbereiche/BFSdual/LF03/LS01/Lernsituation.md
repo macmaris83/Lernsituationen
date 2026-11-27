@@ -1443,3 +1443,9 @@ M3 zeigt, warum bei geringer Reserve eine zuverlässige Anlieferung besonders wi
 ## Lehrkraftmaterial und Moodle
 
 Die Lehrkraft erhält die Erwartungshinweise und Unterlagen separat. Die Aktivität *Peer-Feedback* und das abschließende *Feedback* werden im jeweiligen Moodle-Kurs eingerichtet. Für das Peer-Feedback gelten die fallbezogenen Kriterien unter „Bewerten“.
+
+
+## Erklärbilder
+
+- [Bestellstrategien anhand von Kosten, Bestand und Liefersicherheit vergleichen](material/m4.html#erklaerbild-ls-3-1-bestellstrategien-im-vergleich) · [Bilddatei](material/erklaerbilder/LS_3_1_Bestellstrategien_im_Vergleich.png)
+- [Meldebestand im Rechenbeispiel: 10 Stück pro Tag × 5 Tage + 20 Stück = 70 Stück](material/m2.html#erklaerbild-ls-3-1-meldebestand-als-bestandsdiagramm) · [Bilddatei](material/erklaerbilder/LS_3_1_Meldebestand_als_Bestandsdiagramm.png)

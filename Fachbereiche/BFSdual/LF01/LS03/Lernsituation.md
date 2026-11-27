@@ -1310,3 +1310,8 @@ Schnittstellen verbinden die Tätigkeiten unterschiedlicher Stellen. Eine gute A
 ## Lehrkraftmaterial und Moodle
 
 Die Lehrkraft erhält die Erwartungshinweise und Unterlagen separat. Die Aktivität *Peer-Feedback* und das abschließende *Feedback* werden im jeweiligen Moodle-Kurs eingerichtet. Für das Peer-Feedback gelten die fallbezogenen Kriterien unter „Bewerten“.
+
+
+## Erklärbilder
+
+- [Zuständigkeiten bei einer Kundenanfrage am Organigramm nachvollziehen](material/m4.html#erklaerbild-ls-1-3-zustaendigkeiten-und-zusammenarbeit) · [Bilddatei](material/erklaerbilder/LS_1_3_Zustaendigkeiten_und_Zusammenarbeit.png)

@@ -713,13 +713,13 @@
       "bereich": "BFS dual",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BFSdual/LF01/LS01",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "formVersion": "1.8.8",
       "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
-      "archive": "Downloads/BFSDUAL-LF01-LS01/BFSDUAL_LF01_LS01_v1.8.8_SCORM12.zip",
-      "masterSha256": "b1ecc979f46fa31deadeb1638fc4a1a84c7076f525c0dddf4124ad0a90c5c286",
-      "archiveSha256": "89b768f99fb1814e10130d02ad13554a9c391bc973c29dd3dec81fb9bd085b0e",
-      "files": 77
+      "archive": "Downloads/BFSDUAL-LF01-LS01/BFSDUAL_LF01_LS01_v1.8.9_SCORM12.zip",
+      "masterSha256": "6b6a483fd1107f46372f887ddbd5fdcc40ba11445dc5552aee7ebe91a61bdac7",
+      "archiveSha256": "059df528a3743284b89c73c148e366b65808ae91581b875a28e5cd86eefa4d2d",
+      "files": 78
     },
     {
       "id": "BFSDUAL-LF01-LS03",
@@ -727,13 +727,13 @@
       "bereich": "BFS dual",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BFSdual/LF01/LS03",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "formVersion": "1.8.8",
       "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
-      "archive": "Downloads/BFSDUAL-LF01-LS03/BFSDUAL_LF01_LS03_v1.8.8_SCORM12.zip",
-      "masterSha256": "d731bb427faf5c593525e74e0058e106d12aeb05069efb59cabe2223edcc0d0c",
-      "archiveSha256": "951877ef6eef73985cb0a634c8e4d808544d94b1410dff0148331ef1541ef8d5",
-      "files": 73
+      "archive": "Downloads/BFSDUAL-LF01-LS03/BFSDUAL_LF01_LS03_v1.8.9_SCORM12.zip",
+      "masterSha256": "cd22ca6f55a6d611532120ed14bb1ce7a86adb47d15fb350036b2ab41dddff43",
+      "archiveSha256": "fa298cda5b5f57c7e315a9509a5aea37a794ddff85c9edefc90db868a530b8b1",
+      "files": 74
     },
     {
       "id": "BFSDUAL-LF02-LS01",
@@ -741,13 +741,13 @@
       "bereich": "BFS dual",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BFSdual/LF02/LS01",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "formVersion": "1.8.8",
       "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
-      "archive": "Downloads/BFSDUAL-LF02-LS01/BFSDUAL_LF02_LS01_v1.8.8_SCORM12.zip",
-      "masterSha256": "fbf0bb5bb64b758023de642395c0144f36a7d2678aa3a816ec0e758aa7fd4f46",
-      "archiveSha256": "89263f2069735d88e3f029709b1fe4b1e71b580249beacaf779c118dcf56bb76",
-      "files": 66
+      "archive": "Downloads/BFSDUAL-LF02-LS01/BFSDUAL_LF02_LS01_v1.8.9_SCORM12.zip",
+      "masterSha256": "a73ae555b3f4fca445255a48ef294cb98f50d802802dcdbcda3dd649d54ed2d7",
+      "archiveSha256": "b9c935292c18a46814d2b602afcbc7590b8622a39470c5db5f4e6da9df9e32fb",
+      "files": 67
     },
     {
       "id": "BFSDUAL-LF02-LS02",
@@ -755,13 +755,13 @@
       "bereich": "BFS dual",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BFSdual/LF02/LS02",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "formVersion": "1.8.8",
       "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
-      "archive": "Downloads/BFSDUAL-LF02-LS02/BFSDUAL_LF02_LS02_v1.8.8_SCORM12.zip",
-      "masterSha256": "3310c0967152c65a3b8793de2f441b6a68a08fb705e0c01ee5ff92f634bacbef",
-      "archiveSha256": "b7eb3923b88372f4a86345c2314ed6c45001bea58b0c0c59578f0ee6f9e595d4",
-      "files": 63
+      "archive": "Downloads/BFSDUAL-LF02-LS02/BFSDUAL_LF02_LS02_v1.8.9_SCORM12.zip",
+      "masterSha256": "fbb3cc04eeb09c2bc5cdc8e589093964d63b394964fc41e1c72cb48a7ff13b37",
+      "archiveSha256": "dd2d16503e2a35fea0a44d1bb1da21140a5424fa06e096514218fe1cebec14c1",
+      "files": 64
     },
     {
       "id": "BFSDUAL-LF02-LS03",
@@ -769,13 +769,13 @@
       "bereich": "BFS dual",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BFSdual/LF02/LS03",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "formVersion": "1.8.8",
       "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
-      "archive": "Downloads/BFSDUAL-LF02-LS03/BFSDUAL_LF02_LS03_v1.8.8_SCORM12.zip",
-      "masterSha256": "f5dffc28340484390c4a9f8244e30122ff127620fa719245b8a3170fa7a7b93b",
-      "archiveSha256": "392c8891a044755fb3fe51745947d7857cb026448f2227fc904c65963347b283",
-      "files": 53
+      "archive": "Downloads/BFSDUAL-LF02-LS03/BFSDUAL_LF02_LS03_v1.8.9_SCORM12.zip",
+      "masterSha256": "02d06ba19e3863fb123544a3c3785765997b503ad20372e43f642935ceeef435",
+      "archiveSha256": "4cd520b81143e15988bd9de36207afb353d5eed09a2c8410491da09b52aaa843",
+      "files": 54
     },
     {
       "id": "BFSDUAL-LF02-LS04",
@@ -783,13 +783,13 @@
       "bereich": "BFS dual",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BFSdual/LF02/LS04",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "formVersion": "1.8.8",
       "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
-      "archive": "Downloads/BFSDUAL-LF02-LS04/BFSDUAL_LF02_LS04_v1.8.8_SCORM12.zip",
-      "masterSha256": "c397e046f34819ff7a272bca12aabcbb26000909dc508a5639d024936df1ecef",
-      "archiveSha256": "563bc7b95c38d3bac101629ca65b9cda85084b9b14088639491e676ea1d11422",
-      "files": 74
+      "archive": "Downloads/BFSDUAL-LF02-LS04/BFSDUAL_LF02_LS04_v1.8.9_SCORM12.zip",
+      "masterSha256": "df6bb2138d2f2d634178ec64cf752825210ccd73b76fc7f500cd7c4ea231afb0",
+      "archiveSha256": "39964e42208c68c952d83373c41f9cb1a745a5ed5872d9e215810c5315f77c87",
+      "files": 75
     },
     {
       "id": "BFSDUAL-LF02-LS05",
@@ -797,13 +797,13 @@
       "bereich": "BFS dual",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BFSdual/LF02/LS05",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "formVersion": "1.8.8",
       "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
-      "archive": "Downloads/BFSDUAL-LF02-LS05/BFSDUAL_LF02_LS05_v1.8.8_SCORM12.zip",
-      "masterSha256": "dcebf8e759d4bc26549878ae7bbbc231d2819f38b265c28f0d26a5e629520d52",
-      "archiveSha256": "e7d4563b72b49ed6df7d0d2ad05394ddd37c14c9816a456a38f28309eb3abb0a",
-      "files": 55
+      "archive": "Downloads/BFSDUAL-LF02-LS05/BFSDUAL_LF02_LS05_v1.8.9_SCORM12.zip",
+      "masterSha256": "16098fa9b55c49fa36095698a5e74386c5f048173a7d19aea0ebff5598783bf2",
+      "archiveSha256": "34b8caa72f48051798c44e3667637e68d895f21e0b4e59bdf20fe7ad6bb98ab4",
+      "files": 56
     },
     {
       "id": "BFSDUAL-LF03-LS01",
@@ -811,13 +811,13 @@
       "bereich": "BFS dual",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BFSdual/LF03/LS01",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "formVersion": "1.8.8",
       "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
-      "archive": "Downloads/BFSDUAL-LF03-LS01/BFSDUAL_LF03_LS01_v1.8.8_SCORM12.zip",
-      "masterSha256": "81374ffc31b0f6f47e7ec1cfe5b790db21274745474a97258a7cf74ae989c594",
-      "archiveSha256": "53dd7063c635c4e69d46fd12cd0b60576e26c30ee81be4e9c24aebc8677c2759",
-      "files": 53
+      "archive": "Downloads/BFSDUAL-LF03-LS01/BFSDUAL_LF03_LS01_v1.8.9_SCORM12.zip",
+      "masterSha256": "7026fefeb485a3c4222b1b26d5e5318fc533f79d53d11709ec1b74d4d2e801df",
+      "archiveSha256": "4c1c3cae6c86edb38f6ecda8f02d51dc7bca1e06f8f4350d910ef6812a5d9836",
+      "files": 55
     },
     {
       "id": "BFSDUAL-LF03-LS02",
@@ -825,13 +825,13 @@
       "bereich": "BFS dual",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BFSdual/LF03/LS02",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "formVersion": "1.8.8",
       "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
-      "archive": "Downloads/BFSDUAL-LF03-LS02/BFSDUAL_LF03_LS02_v1.8.8_SCORM12.zip",
-      "masterSha256": "8807d648db88f4da1417e9b5a329de715d6f7c2f28eee3d839b716246aab5f78",
-      "archiveSha256": "40330a8d87376ab25a0ac56d050a788a12d27ac1a1c7e7a738dd589d681c9943",
-      "files": 53
+      "archive": "Downloads/BFSDUAL-LF03-LS02/BFSDUAL_LF03_LS02_v1.8.9_SCORM12.zip",
+      "masterSha256": "f80ade1f433aa91dd3a8c9b5cf720fbf5096cd88776a8f4d680649f7977ee8e0",
+      "archiveSha256": "b8ceb5aaafdc5fb680fcb05ab4c3ad3ab99b6486baac35c52b68ecc570d022d2",
+      "files": 55
     },
     {
       "id": "BFSDUAL-LF03-LS03",
@@ -839,13 +839,13 @@
       "bereich": "BFS dual",
       "typ": "Lernsituation",
       "master": "Fachbereiche/BFSdual/LF03/LS03",
-      "version": "1.8.8",
+      "version": "1.8.9",
       "formVersion": "1.8.8",
       "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
-      "archive": "Downloads/BFSDUAL-LF03-LS03/BFSDUAL_LF03_LS03_v1.8.8_SCORM12.zip",
-      "masterSha256": "5847024262fbc1e68f6c5a3ff2a67c1c8b397d27fdac490c9d7ad5b69b8415b1",
-      "archiveSha256": "9b53becb1b4b2d9f8e78ea470d5ec794cb4c885178366e1da144a109186bf18c",
-      "files": 57
+      "archive": "Downloads/BFSDUAL-LF03-LS03/BFSDUAL_LF03_LS03_v1.8.9_SCORM12.zip",
+      "masterSha256": "35fbc4ce970b2b8b1e598cdd52135354d6d9fa5bf16477112b6992703fbe1302",
+      "archiveSha256": "e9cf2e096f6a0e42a80eba3d3857acc1c6c48eff589ee9c2567e4d5b59563b13",
+      "files": 58
     }
   ]
 }

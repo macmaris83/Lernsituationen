@@ -817,3 +817,8 @@ Die Rechnungsmenge der Helme lässt sich mit der bestätigten Liefermenge abglei
 ## Lehrkraftmaterial und Moodle
 
 Die Lehrkraft erhält die Erwartungshinweise und Unterlagen separat. Die Aktivität *Peer-Feedback* und das abschließende *Feedback* werden im jeweiligen Moodle-Kurs eingerichtet. Für das Peer-Feedback gelten die fallbezogenen Kriterien unter „Bewerten“.
+
+
+## Erklärbilder
+
+- [Auftrag, Lieferschein, Rechnung und Zahlung abgleichen](material/m02.html#erklaerbild-ls-2-5-belegkette-und-zahlungseingang) · [Bilddatei](material/erklaerbilder/LS_2_5_Belegkette_und_Zahlungseingang.png)

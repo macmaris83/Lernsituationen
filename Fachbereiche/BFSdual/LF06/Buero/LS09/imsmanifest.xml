@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="BFS_GLOBAL_BIKE_BUERO_SCORM12" version="1.0">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="ORG_MAIN">
+    <organization identifier="ORG_MAIN" structure="hierarchical">
+      <title>Büro mit Zukunft</title>
+      <item identifier="ITEM_MAIN" identifierref="RES_MAIN" isvisible="true">
+        <title>Büro mit Zukunft</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES_MAIN" type="webcontent" href="index.html" adlcp:scormtype="sco">
+      <file href="app.js" />
+      <file href="assets/adaptation.css" />
+      <file href="assets/bbs1-aurich.svg" />
+      <file href="assets/bbs1-campus-background.png" />
+      <file href="assets/loept.png" />
+      <file href="assets/styles.css" />
+      <file href="data.js" />
+      <file href="index.html" />
+      <file href="Grafiken/M04.png" />
+      <file href="Grafiken/M02.png" />
+      <file href="Grafiken/M01.png" />
+      <file href="Grafiken/M03.png" />
+      <file href="Grafiken/M05.svg" />
+      <file href="Grafiken/Erklaerbilder/LS_6_9_M01_Bueroformen_und_Arbeitsaufgaben.png" />
+      <file href="Grafiken/Erklaerbilder/LS_6_9_M02_Ergonomischer_Bildschirmarbeitsplatz.png" />
+      <file href="Grafiken/Erklaerbilder/LS_6_9_M03_M04_Buero_sicher_und_nachhaltig.png" />
+    </resource>
+  </resources>
+</manifest>

@@ -2053,3 +2053,8 @@ Die Zahlung ist nach Vertragsschluss und nach den maßgeblichen Vereinbarungen g
 ## Lehrkraftmaterial und Moodle
 
 Die Lehrkraft erhält die Erwartungshinweise und Unterlagen separat. Die Aktivität *Peer-Feedback* und das abschließende *Feedback* werden im jeweiligen Moodle-Kurs eingerichtet. Für das Peer-Feedback gelten die fallbezogenen Kriterien unter „Bewerten“.
+
+
+## Erklärbilder
+
+- [Beispiel mit fiktiven Stückzahlen: Angebot und Bestellung vergleichen](material/m7.html#erklaerbild-ls-2-4-angebot-und-bestellung-vergleichen) · [Bilddatei](material/erklaerbilder/LS_2_4_Angebot_und_Bestellung_vergleichen.png)

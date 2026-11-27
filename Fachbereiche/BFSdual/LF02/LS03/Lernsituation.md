@@ -837,3 +837,8 @@ Bei der Ratenzahlung müssen Herkunft, Zweck und bereits gezahlter Betrag geprü
 ## Lehrkraftmaterial und Moodle
 
 Die Lehrkraft erhält die Erwartungshinweise und Unterlagen separat. Die Aktivität *Peer-Feedback* und das abschließende *Feedback* werden im jeweiligen Moodle-Kurs eingerichtet. Für das Peer-Feedback gelten die fallbezogenen Kriterien unter „Bewerten“.
+
+
+## Erklärbilder
+
+- [Kauf einer Fahrradlampe durch Minderjährige](material/m02.html#erklaerbild-ls-2-3-geschaeftsfaehigkeit-und-kauf) · [Bilddatei](material/erklaerbilder/LS_2_3_Geschaeftsfaehigkeit_und_Kauf.png)

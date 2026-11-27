@@ -2485,3 +2485,8 @@ Bei offener Produktfrage können Sie zunächst die grundsätzliche Eignung der Z
 ## Lehrkraftmaterial und Moodle
 
 Die Lehrkraft erhält die Erwartungshinweise und Unterlagen separat. Die Aktivität *Peer-Feedback* und das abschließende *Feedback* werden im jeweiligen Moodle-Kurs eingerichtet. Für das Peer-Feedback gelten die fallbezogenen Kriterien unter „Bewerten“.
+
+
+## Erklärbilder
+
+- [Vom offenen Fragen zur Empfehlung und Einwandklärung](material/m4.html#erklaerbild-ls-2-2-verkaufsgespraech-und-bedarf) · [Bilddatei](material/erklaerbilder/LS_2_2_Verkaufsgespraech_und_Bedarf.png)
