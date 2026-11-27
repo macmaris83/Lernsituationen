@@ -802,6 +802,126 @@
       "masterSha256": "4e4e4c877c95c5ab0fe41ff17c273bc6be591fcf1e3db230746be27c4f71ddf6",
       "archiveSha256": "e80ba22bffe3528546a005fbe92d3b4fd7354cff1f325faeaa356ef5bcb12da7",
       "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF01-LS1_1",
+      "title": "LS 1.1 · Unternehmen erkunden, vergleichen und präsentieren",
+      "bereich": "BFS Dual · LF01",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF01/LS1_1",
+      "version": "1.0",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF01-LS1_1/BFSdual_LF01_Lernpfad_LS1_1_v1.0_SCORM12.zip",
+      "masterSha256": "467317e03392c077928ab358a0fa93c2fd5b690930f2b642157f902e7ce6fb1d",
+      "archiveSha256": "4047d929e0af9519e9a4ecde27c2bc1e84f69a1b2752ebc903dd7475ce2074d6",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF01-LS1_3",
+      "title": "LS 1.3 · Betriebliche Strukturen und Zuständigkeiten verstehen",
+      "bereich": "BFS Dual · LF01",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF01/LS1_3",
+      "version": "1.0",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF01-LS1_3/BFSdual_LF01_Lernpfad_LS1_3_v1.0_SCORM12.zip",
+      "masterSha256": "a967c3900390a3fe35dbe52f399a2fa99e719e94fce293e7325c5106f1f9faf9",
+      "archiveSha256": "5b99dbd9a0b0db01dfd6582f48885d6322eabb17015dd6d4ad139837526f0a07",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF02-LS2_1",
+      "title": "LS 2.1 · Kommunikation und Absatz I (Theorie)",
+      "bereich": "BFS Dual · LF02",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF02/LS2_1",
+      "version": "1.0",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF02-LS2_1/BFSdual_LF02_Lernpfad_LS2_1_v1.0_SCORM12.zip",
+      "masterSha256": "388ecb7478b6a70d124d57afcd923fa72e7e015a6ea5feb82a69b9c0502a4a0f",
+      "archiveSha256": "2e9e9dc0e4df1a5aa8438433fa84a28de6716c516b4076d5fe75f38fbe857841",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF02-LS2_2",
+      "title": "LS 2.2 · Kommunikation und Absatz II (Praxis)",
+      "bereich": "BFS Dual · LF02",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF02/LS2_2",
+      "version": "1.0",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF02-LS2_2/BFSdual_LF02_Lernpfad_LS2_2_v1.0_SCORM12.zip",
+      "masterSha256": "04ef89311e88492650e976ad181fc32bd277eb6c30a952e3a4c2085dbd229eba",
+      "archiveSha256": "86d33e1fb68eadc8e408d9f490ede68a3ccaeb95fb4c7eaaffaec85556ddb39e",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF02-LS2_3",
+      "title": "LS 2.3 · Rechtliche Grundlagen für Kaufverträge (Theorie)",
+      "bereich": "BFS Dual · LF02",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF02/LS2_3",
+      "version": "1.0",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF02-LS2_3/BFSdual_LF02_Lernpfad_LS2_3_v1.0_SCORM12.zip",
+      "masterSha256": "01a176baf63ab2bab500b4ebb1fb219274a74c0faae4c91591112821ad394a85",
+      "archiveSha256": "5835d0863166956b3f5d4763548f21599e2a9514f66a409a93f368f39e2de392",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF02-LS2_4",
+      "title": "LS 2.4 · Kundenangebote erstellen und Bestellungen prüfen",
+      "bereich": "BFS Dual · LF02",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF02/LS2_4",
+      "version": "1.0",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF02-LS2_4/BFSdual_LF02_Lernpfad_LS2_4_v1.0_SCORM12.zip",
+      "masterSha256": "ba01656b5c79df9dd84885c8cd37e7532d7cd6c25661da2ce2e9e1a7b20b8bb7",
+      "archiveSha256": "6a2592b9a115dc5c2519397187ddf6a3e5e970108b8d8ecd4d1c7202628198e3",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF02-LS2_5",
+      "title": "LS 2.5 · Auftrag abwickeln und auswerten",
+      "bereich": "BFS Dual · LF02",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF02/LS2_5",
+      "version": "1.0",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF02-LS2_5/BFSdual_LF02_Lernpfad_LS2_5_v1.0_SCORM12.zip",
+      "masterSha256": "25e6a9621ed5113d00a45a5ec71629012bec4b2c85beceafa974c11ba39ed5c0",
+      "archiveSha256": "02f2a2a06e13434213423637f8c69bf518cbc66bb3333f70a5ff8166e2914c41",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF03-LS3_1",
+      "title": "LS 3.1 · Beschaffung wirtschaftlich planen – die richtige Bestellstrategie für Global Bike",
+      "bereich": "BFS Dual · LF03",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF03/LS3_1",
+      "version": "1.0",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF03-LS3_1/BFSdual_LF03_Lernpfad_LS3_1_v1.0_SCORM12.zip",
+      "masterSha256": "2e9a727ca3d0c512f53ed5f93414e7ed091fe4c9768a447e19eee5fbc0cda21e",
+      "archiveSha256": "d73d329af378863f24210988f78f420f4a908fc7238fc9e63d6b8a2f697874da",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF03-LS3_2",
+      "title": "LS 3.2 · Lagerhaltung optimieren – ABC-Analyse und Entscheidung über Eigen- oder Fremdlagerung",
+      "bereich": "BFS Dual · LF03",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF03/LS3_2",
+      "version": "1.0",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF03-LS3_2/BFSdual_LF03_Lernpfad_LS3_2_v1.0_SCORM12.zip",
+      "masterSha256": "cb5c77d161eb82ead6d5c7f0aa68509a16baeb60bf3d8852c16a2a4e0f15af7e",
+      "archiveSha256": "68b11cf7899775698dd957fd341ac9311689751ae7b891aeece05de009a122bd",
+      "files": 18
+    },
+    {
+      "id": "BFSDUAL-LERNPFAD-LF03-LS3_3",
+      "title": "LS 3.3 · Wenn Lieferungen nicht wie vereinbart erfolgen",
+      "bereich": "BFS Dual · LF03",
+      "typ": "Lernpfadübung",
+      "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF03/LS3_3",
+      "version": "1.0",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF03-LS3_3/BFSdual_LF03_Lernpfad_LS3_3_v1.0_SCORM12.zip",
+      "masterSha256": "347d53751bc69c7d46276822daaa6da041a9cb2413298eeb58b41d35d51e9bf7",
+      "archiveSha256": "9998fa67d0bdef99a8423703e67c7f2cc255ff19f8f84030602048f4a218812b",
+      "files": 18
     }
   ]
 }

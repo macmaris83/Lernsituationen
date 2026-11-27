@@ -1,0 +1,5 @@
+Lernpfadübung LS 2.2
+
+Grundlage: 2.2 Kommunikation und Absatz II (Praxis).md · M4.3 Partnerübung und M4 Erarbeitungs- und Vertiefungsaufträge; 2.2 Kommunikation und Absatz II (Praxis).md · M6.3 Übungen, M6.7 Dreierübung, M6.8 Selbstkontrolle und Argumentationswerkstatt; 2.2 Kommunikation und Absatz II (Praxis).md · M7.5 Übungen, M7.7 Gesprächsvorbereitung, M7.8–M7.11 Gesprächstraining und Einwandtraining
+30 Kernaufgaben und 48 Reserveaufgaben.
+Paket und Browserablauf mit simulierter SCORM-1.2-Schnittstelle geprüft. Beide Festigungsvarianten, Stufenaufstieg, Transfer, Fortsetzen und Lehrkraft-Export geprüft.

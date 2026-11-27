@@ -1,0 +1,5 @@
+Lernpfadübung LS 3.1
+
+Grundlage: Global_Bike_Beschaffungsplanung_Lernsituation_und_Materialien_mit_Erwartungshorizont.md · Material 8 – Übungsaufgaben zur Beschaffungsplanung
+30 Kernaufgaben und 48 Reserveaufgaben.
+Paket und Browserablauf mit simulierter SCORM-1.2-Schnittstelle geprüft. Beide Festigungsvarianten, Stufenaufstieg, Transfer, Fortsetzen und Lehrkraft-Export geprüft.
