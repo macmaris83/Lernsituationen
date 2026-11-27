@@ -405,16 +405,13 @@ Dein Feedback zum Unterricht.
 
 #### Feedback zur Lernsituation abgeben
 
-**Fülle** die Aktivität „Feedback“ im Moodle-Kurs aus. Melde zurück, welches Material geholfen hat, wo ein Auftrag unklar war, wie Zeit und Wahlmöglichkeiten passten und was wir ändern sollten. Verwende alternativ den [ausfüllbaren Feedbackbogen](#feedback) und gib ihn wie vereinbart ab.
+**Fülle** die separate Aktivität „Feedback“ in deinem Moodle-Kurs aus und sende deine Rückmeldung dort ab. Falls hier kein Direktlink angezeigt wird, öffne „Feedback“ in der Kursübersicht.
 
 *Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
-[Feedbackbogen öffnen](#feedback)
 
 ## Materialien
 | Kennung | Unterlage |
 | --- | --- |
-| FEEDBACK | [Feedback zur Lernsituation](#feedback) |
 | M1 | [M1 · Gemeinsame fachliche Grundlagen: Die optimale Bestellmenge im vereinfachten Modell](#m1) |
 | M10 | [M10 · Fachbegriffsfragen: Zentrale Begriffe der Beschaffungsplanung](#m10) |
 | M2 | [M2 · Bestellzeitpunktverfahren und Bestellrhythmusverfahren](#m2) |
@@ -426,24 +423,6 @@ Dein Feedback zum Unterricht.
 | M9 | [M9 · Wissens-Check: Beschaffungsstrategien](#m9) |
 | MATERIALIEN | [Materialübersicht und Quellen](#materialien) |
 | PEER-CHECK | [Peer-Check · LS 3.1](#peer-check) |
-
-<a id="feedback"></a>
-
-## Feedback zur Lernsituation
-
-[Digitale Fassung öffnen](feedback.html)
-
-Wie lief die Arbeit an der Lernsituation „Beschaffung wirtschaftlich planen – die richtige Bestellstrategie für Global Bike“? Beschreiben Sie Ihre Erfahrungen so konkret, dass die Lehrkraft den nächsten Durchgang daran anpassen kann.
-
-Welches Material hat Ihnen an welcher Stelle geholfen?
-
-Wo war ein Auftrag oder eine Darstellung unklar?
-
-Wie passten Zeit und freie Wahl des Arbeitswegs zu Ihrem Vorgehen?
-
-Was sollten wir beim nächsten Durchgang beibehalten oder ändern?
-
-**Feedback abgeben.** Im Moodle-Kurs können Sie Ihre Antworten in die Aktivität „Feedback“ übertragen und dort abgeben. Alternativ drucken Sie den ausgefüllten Bogen ohne Namen aus und geben ihn der Lehrkraft an der vereinbarten Sammelstelle. Die Eingaben bleiben bis zum Verlassen dieser Seite im geöffneten Bogen. Für eine eigene Kopie laden Sie die Textdatei herunter.
 
 <a id="m1"></a>
 

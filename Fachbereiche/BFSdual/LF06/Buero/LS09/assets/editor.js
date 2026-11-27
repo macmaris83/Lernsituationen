@@ -259,7 +259,7 @@
         const data=JSON.parse(raw.slice('window.LESSON='.length,-1));
         const route=page.split('#')[1];
         source=data.pages[route];
-        if (route==='handlungssituation') {
+        if (route==='informieren') {
           const doc=new DOMParser().parseFromString(source,'text/html');
           data.quiz0.forEach((q,i)=>{
             const card=element('fieldset');const key='index.html#handlungssituation::office-check-'+(i+1);
@@ -407,7 +407,9 @@
     if (!current || !confirm('Lokale Änderungen dieser Seite zurücksetzen?')) return;
     const prefix=decodeURIComponent(current)+'::';
     for (const group of ['texts','images','checks','references']) {
-      for (const key of Object.keys(state[group])) if (key.startsWith(prefix)) {
+      for (const key of Object.keys(state[group])) {
+        const movedOfficeField=office && /^index\.html#handlungssituation::(?:office-check-|text-[34]$)/.test(key);
+        if (!(movedOfficeField ? current==='index.html#informieren' : key.startsWith(prefix))) continue;
         if (Object.hasOwn(sourceDefaults[group],key)) state[group][key]=sourceDefaults[group][key];
         else delete state[group][key];
       }

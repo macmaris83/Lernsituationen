@@ -120,7 +120,7 @@ def install(folder):
         entries.append((card.get('id') or card.xpath('h2/@id')[0],card))
     assert entries
     terms={key for key,_ in entries}
-    gallery=f'{int(folder.parent.name[2:])}.{int(folder.name[2:])}'
+    gallery=f'{int(folder.parent.name[2:])}.{int(folder.name[2:4])}{folder.name[4:].lower()}'
     glossary(folder,entries,gallery)
     for f in sorted(folder.rglob('*.html')):
         if f.name in ('ls-glossar.html','druckansicht.html'):continue
@@ -159,5 +159,9 @@ def office():
     print('6.9',len(entries),'Glossarbegriffe',flush=True)
 
 if __name__=='__main__':
-    for folder in sorted(BFS.glob('LF0[123]/LS*')):install(folder)
-    office()
+    import sys
+    if len(sys.argv)>1:
+        for source in sys.argv[1:]:install(Path(source).resolve())
+    else:
+        for folder in sorted(BFS.glob('LF0[123]/LS*')):install(folder)
+        office()

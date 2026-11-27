@@ -1,0 +1,1 @@
+window.BFS_MATERIAL_LIST=[];

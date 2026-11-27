@@ -52,7 +52,7 @@ def id_for(folder):
 def title_and_n(folder):
     if folder==OFFICE:return 'Büro mit Zukunft','6.9'
     t=html.parse(folder/'index.html')
-    return t.xpath('//h1')[0].text_content(),f'{int(folder.parent.name[2:])}.{int(folder.name[2:])}'
+    return t.xpath('//h1')[0].text_content(),f'{int(folder.parent.name[2:])}.{int(folder.name[2:4])}{folder.name[4:].lower()}'
 
 def slot(kind):
     title={'peer':'Peer-Check in Moodle','feedback':'Feedback in Moodle','knowledge':'Optionaler Wissens-Check in Moodle'}[kind]
@@ -225,7 +225,7 @@ window.BFS_OFFICE_XP=()=>{
     shutil.copyfile(ROOT/'Formmaster/assets/progress.css',folder/'assets/progress.css')
 
 def main():
-    for folder in [*sorted(BFS.glob('LF0[123]/LS*')),OFFICE]:
+    for folder in ([Path(v).resolve() for v in sys.argv[1:]] or [*sorted(BFS.glob('LF0[123]/LS*')),OFFICE]):
         if (folder/'lehrkraft.html').exists():raise ValueError(f'Editor already exists: {folder}')
         title,n=title_and_n(folder);ident=id_for(folder)
         for original,name in [('settings.js','editor-settings.js'),('editor.js','editor.js'),('editor.css','editor.css'),

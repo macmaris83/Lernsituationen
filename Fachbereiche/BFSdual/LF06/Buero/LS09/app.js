@@ -11,11 +11,34 @@ if(editor)D.quiz0.forEach((q,i)=>{
  if(cfg){q.k=[Number(cfg.correct)];q.f=cfg.feedback;}
 });
 let api=null,active=false,readonly=false,state={v:{},seen:[],q0:{},q8:{},done:false},page='index';
+let practiceMessage='';
+const officeId='BFS_GLOBAL_BIKE_BUERO_SCORM12';
+state.id=officeId;state.version=1;
 const storage='global-bike-buero-v1'+(window.BFS_EDITOR?.preview?':editor-preview':'');
 function find(w){for(let i=0;w&&i<50;i++){try{if(w.API&&w.API.LMSInitialize)return w.API;if(w.parent===w)break;w=w.parent}catch(e){break}}return null}
 function set(k,v){return api.LMSSetValue(k,String(v))==='true'}
-try{api=window.BFS_EDITOR?.preview ? null : (find(window)||find(window.opener));if(api){active=api.LMSInitialize('')==='true';if(active){readonly=['browse','review'].includes(api.LMSGetValue('cmi.core.lesson_mode'));let raw=api.LMSGetValue('cmi.suspend_data');if(raw)state=JSON.parse(raw);if(api.LMSGetValue('cmi.core.lesson_status')==='completed')state.done=true;if(!readonly&&!state.done)set('cmi.core.lesson_status','incomplete')}}else{let raw=localStorage.getItem(storage);if(raw)state=JSON.parse(raw)}}catch(e){$('#status').textContent='Gespeicherter Stand konnte nicht geladen werden.'}
-function save(){window.dispatchEvent(new Event('bfs-office-progress'));if(readonly)return;try{if(active){let raw=JSON.stringify(state);if(raw.length>4096){$('#status').textContent='SCORM-Speichergrenze erreicht. Bitte kürzen Sie Freitextantworten.';return}let ok=set('cmi.suspend_data',raw);set('cmi.core.lesson_location',page);if(state.done)set('cmi.core.lesson_status','completed');let committed=api.LMSCommit('')==='true';if(!ok||!committed)$('#status').textContent='Moodle hat den Speicherstand nicht bestätigt.'}else localStorage.setItem(storage,JSON.stringify(state))}catch(e){$('#status').textContent='Speichern fehlgeschlagen.'}}
+try {
+  api=window.BFS_EDITOR?.preview ? null : (find(window)||find(window.opener));
+  if(api){
+    active=String(api.LMSInitialize('')).toLowerCase()==='true';
+    if(!active) throw Error('Moodle-Verbindung nicht verfügbar.');
+    const get=key=>{
+      const value=api.LMSGetValue(key);
+      if(typeof api.LMSGetLastError==='function' && String(api.LMSGetLastError())!=='0') throw Error('Lernstand nicht verfügbar.');
+      return String(value ?? '');
+    };
+    readonly=['browse','review'].includes(get('cmi.core.lesson_mode'));
+    state=window.BFS_RESUME.office(get('cmi.suspend_data'),state,officeId,ids);
+    if(['completed','passed'].includes(get('cmi.core.lesson_status')))state.done=true;
+    if(!readonly&&!state.done)set('cmi.core.lesson_status','incomplete');
+  }else{
+    state=window.BFS_RESUME.office(localStorage.getItem(storage),state,officeId,ids);
+  }
+}catch(cause){
+  if(cause instanceof window.BFS_RESUME.StateIssue)practiceMessage=window.BFS_RESUME.practiceNotice(cause,Boolean(api));
+  else {readonly=true;practiceMessage='Der gespeicherte Lernstand ist nicht verfügbar. Öffne die Moodle-Aktivität erneut.';}
+}
+function save(){window.dispatchEvent(new Event('bfs-office-progress'));if(readonly||practiceMessage)return;try{if(active){let raw=JSON.stringify(state);if(raw.length>4096){$('#status').textContent='SCORM-Speichergrenze erreicht. Bitte kürzen Sie Freitextantworten.';return}let ok=set('cmi.suspend_data',raw);set('cmi.core.lesson_location',page);if(state.done)set('cmi.core.lesson_status','completed');let committed=api.LMSCommit('')==='true';if(!ok||!committed)$('#status').textContent='Moodle hat den Speicherstand nicht bestätigt.'}else localStorage.setItem(storage,JSON.stringify(state))}catch(e){$('#status').textContent='Speichern fehlgeschlagen.'}}
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function bind(){document.querySelectorAll('[data-save]').forEach(el=>{let k=el.dataset.save;if(el.type==='checkbox')el.checked=!!state.v[k];else el.value=state.v[k]||'';if(el.tagName==='TEXTAREA')el.maxLength=450;el.disabled=readonly||state.done;el.addEventListener('change',()=>{state.v[k]=el.type==='checkbox'?el.checked:el.value;save()})})}
 function quiz(n){let box=$('#quiz'+n);if(!box)return;let qs=D['quiz'+n],st=state['q'+n],form=document.createElement('form');box.replaceChildren(form);
@@ -28,7 +51,7 @@ else{let b=document.createElement('button');b.type='button';b.className='primary
 }
 function submitQuiz(){let st=state.q8;if(st.submitted||readonly)return;st.score=D.quiz8.reduce((sum,q,i)=>{let a=st.a?.[i]||[];return sum+2*Math.max(0,a.reduce((s,j)=>s+(q.k.includes(j)?1/q.k.length:q.k.length===1?0:-1/q.k.length),0))},0);st.submitted=true;save();if(page==='bewerten')quiz(8)}
 function render(){page=ids.includes(location.hash.slice(1))?location.hash.slice(1):'index';if(!state.seen.includes(page)&&!readonly)state.seen.push(page);$('#page').innerHTML=D.pages[page];window.BFS_EDITOR?.apply($('#page'));document.querySelectorAll('nav.navigation a[href^="#"]').forEach(a=>{let id=a.getAttribute('href').slice(1);if(id===page)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');let c=a.querySelector('.station-check');if(c)c.hidden=!state.seen.includes(id)});$('#bar').style.width=state.seen.length/8*100+'%';$('#progress').textContent=state.seen.length+' von 8 Stationen besucht'+(state.done?' · abgeschlossen':'');$('#prev').disabled=page===ids[0];$('#next').disabled=page===ids[7];$('#prev').onclick=()=>location.hash=ids[ids.indexOf(page)-1];$('#next').onclick=()=>location.hash=ids[ids.indexOf(page)+1];if(page==='durchfuehren'){let k=state.v.paket;$('#chosen').textContent=k?'Gewähltes Lernpaket: '+k:'Bitte wählen Sie in der Phase Entscheiden ein Lernpaket.';if(k)$('#chosen-material').innerHTML=D.materials[k]||''}bind();quiz(0);quiz(8);if($('#finish')){$('#finish').disabled=readonly||state.done;$('#finish').onclick=()=>{let missing=[];if(!state.v.paket||!state.v.grund?.trim())missing.push('Lernpaket und Begründung');if(!state.v.abgabe)missing.push('Abgabebestätigung');if(!D.quiz0.every((q,i)=>state.q0.a?.[i]?.[0]===q.k[0]))missing.push('Fachbegriffs-Check');if(!state.v.feedback)missing.push('Feedback');if(missing.length){$('#finish-msg').textContent='Noch offen: '+missing.join(', ');return}state.done=true;save();render();$('#finish-msg').textContent='Lernpaket abgeschlossen.'}}save()}
-$('#status').textContent=active?'Moodle-Verbindung aktiv.': 'Lokale Vorschau: Fortschritt wird nur in diesem Browser gespeichert.';
+$('#status').textContent=practiceMessage || (active?'Moodle-Verbindung aktiv.':'Lokale Vorschau: Fortschritt wird nur in diesem Browser gespeichert.');
 function returnToGlossarySource() {
   const target=new URLSearchParams(location.search).get('glossarStelle');
   const anchor=target && document.getElementById(target);
@@ -39,10 +62,10 @@ function returnToGlossarySource() {
 }
 window.BFS_OFFICE_PATH=()=>state.v.paket;
 window.BFS_OFFICE_XP=()=>{
- const correct=D.quiz0.map((q,i)=>Boolean(state.q0[i] && q.k.every(k=>state.q0[i].includes(k)) && q.k.length===state.q0[i].length));
+ const correct=D.quiz0.map((q,i)=>Boolean(state.q0.a?.[i] && q.k.every(k=>state.q0.a[i].includes(k)) && q.k.length===state.q0.a[i].length));
  const qOK=correct.filter(Boolean).length;
  const done=['paket','grund','check0','check1','check2','check3','check4','check5','abgabe','feedback'].filter(k=>state.v[k]).length;
- return {points:Math.round((60*qOK/Math.max(1,D.quiz0.length)+40*done/10)*100)/100,maxPoints:100,correct};
+ return {points:Math.round((60*qOK/Math.max(1,D.quiz0.length)+(38.08*(done-Number(Boolean(state.v.paket)))/9 + (state.v.paket?1.92:0)))*100)/100,maxPoints:100,correct};
 };
-if(active&&!location.hash){let loc=api.LMSGetValue('cmi.core.lesson_location');if(ids.includes(loc))location.hash=loc}
+if(active&&!practiceMessage&&!location.hash){let loc=api.LMSGetValue('cmi.core.lesson_location');if(ids.includes(loc))location.hash=loc}
 window.addEventListener('hashchange',()=>{render();window.scrollTo(0,0)});window.addEventListener('pagehide',()=>{save();if(active){api.LMSFinish('');active=false}});setInterval(()=>{let st=state.q8;if(st.start&&!st.submitted){let sec=Math.max(0,2700-Math.floor((Date.now()-st.start)/1000));if($('#clock'))$('#clock').textContent='Restzeit: '+Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0');if(sec===0)submitQuiz()}},1000);render();returnToGlossarySource();

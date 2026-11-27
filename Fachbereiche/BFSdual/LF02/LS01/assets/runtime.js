@@ -23,10 +23,7 @@
     return {id: packageId, v: 1, page: 'index.html', done: [], responses: {}, path: '', check: null, completed: false};
   }
   function parseState(raw) {
-    if (!raw) return fresh();
-    const state = JSON.parse(raw);
-    if (state.id !== packageId || state.v !== 1 || !Array.isArray(state.done) || !state.responses || typeof state.responses !== 'object') throw Error('Der gespeicherte Lernstand lässt sich nicht lesen.');
-    return {...fresh(), ...state, page: safePage(state.page), path: validPath(state.path) ? state.path : ''};
+    return window.BFS_RESUME.lesson(raw, fresh(), window.GB_REQUIREMENTS || {}, checkCount, safePage);
   }
   function findAPI(start) {
     let win = start;
@@ -45,6 +42,7 @@
     let initialized = false;
     let readOnly = false;
     let error = '';
+    let practiceMessage = '';
     let saving = 0;
     let dirty = false;
     let finished = false;
@@ -63,23 +61,36 @@
       if (api) {
         if (!trueResult(api.LMSInitialize(''))) throw Error('Die Verbindung zu Moodle konnte nicht geöffnet werden.');
         initialized = true;
-        state = parseState(get('cmi.suspend_data'));
+        readOnly = ['review', 'browse'].includes(get('cmi.core.lesson_mode'));
+        const saved = get('cmi.suspend_data');
+        state = parseState(saved);
         const bookmark = get('cmi.core.lesson_location');
-        if (bookmark) state.page = safePage(bookmark);
+        if (bookmark && safePage(bookmark) === bookmark) state.page = bookmark;
+        else if (validPages.has(bookmark)) state.page = bookmark+'.html';
         const status = get('cmi.core.lesson_status');
         state.completed ||= ['completed', 'passed'].includes(status);
-        readOnly = ['review', 'browse'].includes(get('cmi.core.lesson_mode'));
-        dirty = !state.completed && !readOnly;
+        // Merely viewing an older compatible attempt need not rewrite its stored bytes.
+        if (saved) sent = JSON.stringify(state);
+        dirty = !saved && !state.completed && !readOnly;
       } else {
         state = parseState(localStorage.getItem(localKey));
       }
     } catch (cause) {
-      readOnly = true;
-      error = cause.message || 'Der gespeicherte Lernstand ist nicht verfügbar.';
+      if (cause instanceof window.BFS_RESUME.StateIssue) {
+        practiceMessage = window.BFS_RESUME.practiceNotice(cause, Boolean(api));
+      } else {
+        readOnly = true;
+        error = 'Der Lernstand ist nicht verfügbar. Öffne die Moodle-Aktivität erneut.';
+      }
     }
     function flush() {
       clearTimeout(saving);
       if (!dirty || finished || readOnly) return !error;
+      if (practiceMessage) {
+        dirty = false;
+        notify();
+        return true;
+      }
       try {
         const raw = JSON.stringify(state);
         if (api) {
@@ -133,9 +144,9 @@
       read: () => clone(state), change, flush, complete,
       subscribe(fn) { observers.add(fn); return () => observers.delete(fn); },
       get locked() { return readOnly || state.completed || finished; },
-      get error() { return error; },
+      get error() { return error || practiceMessage; },
       get message() {
-        if (error) return error;
+        if (error || practiceMessage) return error || practiceMessage;
         if (state.completed) return api ? 'In Moodle abgeschlossen.' : 'In diesem Browser abgeschlossen.';
         if (readOnly) return 'Moodle zeigt den Lernstand im Ansichtsmodus.';
         return api ? 'Fortschritt wird in Moodle gespeichert.' : 'Dein Fortschritt wird in diesem Browser gespeichert.';
@@ -178,6 +189,7 @@
     return {total: ids.length, checked, ready: ids.length > 0 && validPath(state.path) && checked === ids.length && !missingResponses};
   }
   window.GB = {
+    refreshUI: render,
     getPath: () => session.read().path,
     snapshot: () => session.read(),
     answerSituation(id, choice, right) {
@@ -224,7 +236,7 @@
     doneBoxes.forEach(el => {
       el.checked = state.done.includes(el.dataset.done);
       const field = formResponses.find(item => item.dataset.response === el.dataset.done);
-      el.disabled = session.locked || (field && !field.value.trim());
+      el.disabled = session.locked || (el.dataset.done === requirements.choice && !validPath(state.path)) || Boolean(field && !field.value.trim());
     });
     pathRadios.forEach(el => { el.checked = el.value === state.path; el.disabled = session.locked; });
     document.querySelectorAll('[data-require-path]').forEach(el => { toggleSection(el, Boolean(state.path)); });
@@ -352,5 +364,5 @@ window.addEventListener('beforeprint',()=>{close(false);for(const r of records.v
 const requested=new URLSearchParams(location.search).get('aufgabe');if(requested){const r=[...records.values()].find(r=>r.card.dataset.taskId===requested);if(r)open(r);}
 window.SOZ_TASK_FOCUS={close,refresh:()=>records.forEach(refresh)};window.SOZ_SCORM?.subscribe(()=>records.forEach(refresh));
 document.body.dataset.taskFocusReady='true';
-})(/* LS_TASK_FOCUS_OPTIONS */{"aiHelpUrl":""});
+})(/* LS_TASK_FOCUS_OPTIONS */{"aiHelpUrl":"https://app.ais-chat.schule/ua/characters/2b7bdc3e-19fb-4b9d-baaf-4c17ad2b83d0/dialog?inviteCode=QLDYEBIV"});
 /* End shared task focus UI. */

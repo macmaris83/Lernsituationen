@@ -48,7 +48,7 @@ def body(node):
     return escape(node.text or '') + ''.join(html.tostring(child, encoding='unicode') for child in node)
 
 def clean(node, prefix=''):
-    for addon in node.xpath('.//*[@data-phase-exports or @data-document-pdf or @class="bfs-material-footer"]'):
+    for addon in node.xpath('.//*[@data-phase-exports or @data-document-pdf or @class="bfs-material-footer" or @data-bfs-material-menu or @data-bfs-choice-status or contains(concat(" ", normalize-space(@class), " "), " viewerbar ") or contains(concat(" ", normalize-space(@class), " "), " subbar ") or contains(concat(" ", normalize-space(@class), " "), " material-rail ")]'):
         if addon.getparent() is not None:addon.drop_tree()
     for element in node.xpath('.//script|.//style|.//noscript|.//button|.//select|.//progress|.//*[@data-completion-label or @data-finish-hint or @data-runtime-status or @data-export-pick]'):
         element.drop_tree()
@@ -133,7 +133,7 @@ def interactive_view(d,title,ls,chunks,back):
     (d/'druckansicht.html').write_text(add_page(f'{title} · Gesamtdokument',heading(title,ls)+''.join(chunks),controls=controls))
 
 def source_plan(d):
-    ls=f'{int(d.parent.name[2:])}.{int(d.name[2:])}'
+    ls=f'{int(d.parent.name[2:])}.{int(d.name[2:4])}{d.name[4:].lower()}'
     title=html.parse(d/'index.html').xpath('//h1')[0].text_content()
     chunks=[]
     phases={}
@@ -180,7 +180,7 @@ def source_plan(d):
             shortcut.drop_tree()
         cleaned=body(clean(node,str(Path(local).parent)+'/'))
         chunks.append(f'<section class="pdf-chapter" id="pdf-material-{actual.stem}">{cleaned}</section>')
-    for extra in ('peer-check','feedback'):
+    for extra in ('peer-check',):
         main=html.parse(d/(extra+'.html')).xpath('//main')[0]
         for x in main.xpath('.//*[contains(@class,"nur-bildschirm") or contains(@class,"rueckweg") or contains(@class,"wahl")]'):
             x.drop_tree()
@@ -210,7 +210,7 @@ def office_plan(d):
             for x in phase_node.xpath('.//h1|.//h2|.//article'):
                 x.drop_tree()
             phases[phase]=[(None,PHASES[phase],body(clean(phase_node)))]
-        if phase=='handlungssituation':
+        if phase=='informieren':
             check=node.xpath('.//*[@id="quiz0"]')
             if check:
                 for i,q in enumerate(content['quiz0'],1):
@@ -324,7 +324,7 @@ def main():
     builds=[]
     selected=set(os.environ.get('BFS_PDF_CASES','').split())
     for d in all_dirs:
-        case='6.9' if d==OFFICE else f'{int(d.parent.name[2:])}.{int(d.name[2:])}'
+        case='6.9' if d==OFFICE else f'{int(d.parent.name[2:])}.{int(d.name[2:4])}{d.name[4:].lower()}'
         if selected and case not in selected:continue
         ls,title,phases,chunks=(office_plan if d==OFFICE else source_plan)(d)
         for name in ('pdf-ui.js','pdf-ui.css','pdf-document.css'):

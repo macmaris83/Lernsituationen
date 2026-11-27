@@ -116,6 +116,23 @@
       <file href="lehrkraft.html" />
       <file href="assets/loept.png" />
       <file href="assets/glossar.css" />
+      <file href="assets/pako.min.js" />
+      <file href="assets/pako-LICENSE.txt" />
+      <file href="assets/bfs-resume.js" />
+      <file href="assets/bfs-chrome.css" />
+      <file href="assets/footer-0.svg" />
+      <file href="assets/footer-1.svg" />
+      <file href="assets/footer-3.svg" />
+      <file href="assets/footer-4.svg" />
+      <file href="assets/footer-5.svg" />
+      <file href="assets/footer-6.svg" />
+      <file href="assets/bfs-document-views.css" />
+      <file href="assets/bfs-document-reader.css" />
+      <file href="assets/bfs-material-access.css" />
+      <file href="assets/bfs-material-access.js" />
+      <file href="assets/bfs-materials-data.js" />
+      <file href="assets/fokus.css" />
+      <file href="assets/lernweg.js" />
     </resource>
   </resources>
 </manifest>

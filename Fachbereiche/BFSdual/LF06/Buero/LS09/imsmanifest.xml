@@ -59,6 +59,26 @@
       <file href="ls-glossar.html" />
       <file href="assets/office-dialog.js" />
       <file href="assets/office-dialog.css" />
+      <file href="assets/pako.min.js" />
+      <file href="assets/pako-LICENSE.txt" />
+      <file href="assets/bfs-resume.js" />
+      <file href="assets/bfs-chrome.css" />
+      <file href="assets/footer-0.svg" />
+      <file href="assets/footer-1.svg" />
+      <file href="assets/footer-2.svg" />
+      <file href="assets/footer-3.svg" />
+      <file href="assets/footer-4.svg" />
+      <file href="assets/footer-5.svg" />
+      <file href="assets/footer-6.svg" />
+      <file href="assets/bfs-material-access.css" />
+      <file href="assets/bfs-material-access.js" />
+      <file href="assets/bfs-materials-data.js" />
+      <file href="assets/fokus.css" />
+      <file href="assets/lernweg.js" />
+      <file href="assets/office-pilot.css" />
+      <file href="assets/office-pilot.js" />
+      <file href="assets/bfs-document-views.css" />
+      <file href="assets/bfs-document-reader.css" />
     </resource>
   </resources>
 </manifest>

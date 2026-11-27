@@ -405,39 +405,18 @@ Dein Feedback zum Unterricht.
 
 #### Feedback zur Lernsituation abgeben
 
-**Fülle** die Aktivität „Feedback“ im Moodle-Kurs aus. Melde zurück, welches Material geholfen hat, wo ein Auftrag unklar war, wie Zeit und Wahlmöglichkeiten passten und was wir ändern sollten. Verwende alternativ den [ausfüllbaren Feedbackbogen](#feedback) und gib ihn wie vereinbart ab.
+**Fülle** die separate Aktivität „Feedback“ in deinem Moodle-Kurs aus und sende deine Rückmeldung dort ab. Falls hier kein Direktlink angezeigt wird, öffne „Feedback“ in der Kursübersicht.
 
 *Fachbuchverweis · Für diesen Auftrag ist keine Buchseite hinterlegt.*
-
-[Feedbackbogen öffnen](#feedback)
 
 ## Materialien
 | Kennung | Unterlage |
 | --- | --- |
-| FEEDBACK | [Feedback zur Lernsituation](#feedback) |
 | M02 | [M02 · Vertriebsprozess und kaufmännische Prüfung](#m02) |
 | M03 | [M03 · Die Auftragsbelege für November 2026](#m03) |
 | M04 | [M04 · Das Produkt für die Verkaufsabteilung](#m04) |
 | MATERIALIEN | [Materialübersicht und Quellen](#materialien) |
 | PEER-CHECK | [Peer-Check · LS 2.5](#peer-check) |
-
-<a id="feedback"></a>
-
-## Feedback zur Lernsituation
-
-[Digitale Fassung öffnen](feedback.html)
-
-Wie lief die Arbeit an der Lernsituation „Ist der Kundenauftrag wirklich abgeschlossen?“? Beschreiben Sie Ihre Erfahrungen so konkret, dass die Lehrkraft den nächsten Durchgang daran anpassen kann.
-
-Welches Material hat Ihnen an welcher Stelle geholfen?
-
-Wo war ein Auftrag oder eine Darstellung unklar?
-
-Wie passten Zeit und freie Wahl des Arbeitswegs zu Ihrem Vorgehen?
-
-Was sollten wir beim nächsten Durchgang beibehalten oder ändern?
-
-**Feedback abgeben.** Im Moodle-Kurs können Sie Ihre Antworten in die Aktivität „Feedback“ übertragen und dort abgeben. Alternativ drucken Sie den ausgefüllten Bogen ohne Namen aus und geben ihn der Lehrkraft an der vereinbarten Sammelstelle. Die Eingaben bleiben bis zum Verlassen dieser Seite im geöffneten Bogen. Für eine eigene Kopie laden Sie die Textdatei herunter.
 
 <a id="m02"></a>
 

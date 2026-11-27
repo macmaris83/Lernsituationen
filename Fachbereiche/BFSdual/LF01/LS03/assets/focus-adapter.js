@@ -3,6 +3,12 @@
   'use strict';
   const cards = [...document.querySelectorAll('.assignment-frame')];
   if (!cards.length) return;
+  // bfs-pilot-dialog-escape
+  document.addEventListener('keydown',event=>{
+    const dialog=document.querySelector('.ais-help-dialog[open]');
+    if (event.key!=='Escape' || !dialog) return;
+    event.preventDefault();event.stopImmediatePropagation();dialog.close();
+  },true);
   function visible(card) {
     return !card.closest('[hidden]');
   }
@@ -11,7 +17,6 @@
     const title = card.querySelector('.assignment-title')?.textContent;
     if (!summary) continue;
     summary.setAttribute('aria-label', 'Aufgabe bearbeiten: ' + (title || card.dataset.taskNumber));
-    card.querySelector('.focus-ai-help')?.remove();
     // Inputs for path selection and saved responses belong to the editable
     // task only. A preview must never submit or create duplicate identifiers.
     const preview = card.querySelector('.task-original-preview');
@@ -33,4 +38,6 @@
       if (following) following.querySelector('.task-summary')?.click();
     }, true);
   }
+  window.GB?.refreshUI();
+  window.SOZ_TASK_FOCUS?.refresh();
 })();

@@ -33,7 +33,6 @@
 .gb-learning .gb-progress{display:flex;align-items:center;gap:.65rem;font-size:.85rem;font-weight:600;color:#345265;flex-wrap:wrap}
 .gb-learning .gb-progress progress{max-width:140px;accent-color:#517600}
 .gb-runtime-status:empty{display:none}
-.gb-learning .focus-ai-help{display:none}
 .gb-learning .task-original-preview details{cursor:default}
 .gb-learning .focus-suppressed{display:none!important}
 .gb-learning :is(.wahlkarten,.path-cards,.choice-grid,.choices){display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:12px}
