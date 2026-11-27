@@ -77,6 +77,20 @@
       <file href="assets/situation.css" />
       <file href="lesson-data.js" />
       <file href="material/erklaerbilder/LS_2_2_Verkaufsgespraech_und_Bedarf.png" />
+      <file href="assets/goodnotes.png" />
+      <file href="assets/pdf-document.css" />
+      <file href="assets/pdf-ui.css" />
+      <file href="assets/pdf-ui.js" />
+      <file href="druckansicht.html" />
+      <file href="pdf/Gesamtdokument-LS-2.2.pdf" />
+      <file href="pdf/GoodNotes-LS-2.2-bewerten.pdf" />
+      <file href="pdf/GoodNotes-LS-2.2-durchfuehren-A.pdf" />
+      <file href="pdf/GoodNotes-LS-2.2-durchfuehren-B.pdf" />
+      <file href="pdf/GoodNotes-LS-2.2-durchfuehren-C.pdf" />
+      <file href="pdf/GoodNotes-LS-2.2-entscheiden.pdf" />
+      <file href="pdf/GoodNotes-LS-2.2-informieren.pdf" />
+      <file href="pdf/GoodNotes-LS-2.2-planen.pdf" />
+      <file href="pdf/GoodNotes-LS-2.2-reflektieren.pdf" />
     </resource>
   </resources>
 </manifest>

@@ -68,6 +68,20 @@
       <file href="lesson-data.js" />
       <file href="material/erklaerbilder/LS_3_2_ABC_Analyse_Rechenbeispiel.png" />
       <file href="material/erklaerbilder/LS_3_2_ABC_Analyse_und_Lagerentscheidung.png" />
+      <file href="assets/goodnotes.png" />
+      <file href="assets/pdf-document.css" />
+      <file href="assets/pdf-ui.css" />
+      <file href="assets/pdf-ui.js" />
+      <file href="druckansicht.html" />
+      <file href="pdf/Gesamtdokument-LS-3.2.pdf" />
+      <file href="pdf/GoodNotes-LS-3.2-bewerten.pdf" />
+      <file href="pdf/GoodNotes-LS-3.2-durchfuehren-A.pdf" />
+      <file href="pdf/GoodNotes-LS-3.2-durchfuehren-B.pdf" />
+      <file href="pdf/GoodNotes-LS-3.2-durchfuehren-C.pdf" />
+      <file href="pdf/GoodNotes-LS-3.2-entscheiden.pdf" />
+      <file href="pdf/GoodNotes-LS-3.2-informieren.pdf" />
+      <file href="pdf/GoodNotes-LS-3.2-planen.pdf" />
+      <file href="pdf/GoodNotes-LS-3.2-reflektieren.pdf" />
     </resource>
   </resources>
 </manifest>

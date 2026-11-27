@@ -69,6 +69,20 @@
       <file href="assets/situation.css" />
       <file href="lesson-data.js" />
       <file href="material/erklaerbilder/LS_2_5_Belegkette_und_Zahlungseingang.png" />
+      <file href="assets/goodnotes.png" />
+      <file href="assets/pdf-document.css" />
+      <file href="assets/pdf-ui.css" />
+      <file href="assets/pdf-ui.js" />
+      <file href="druckansicht.html" />
+      <file href="pdf/Gesamtdokument-LS-2.5.pdf" />
+      <file href="pdf/GoodNotes-LS-2.5-bewerten.pdf" />
+      <file href="pdf/GoodNotes-LS-2.5-durchfuehren-A.pdf" />
+      <file href="pdf/GoodNotes-LS-2.5-durchfuehren-B.pdf" />
+      <file href="pdf/GoodNotes-LS-2.5-durchfuehren-C.pdf" />
+      <file href="pdf/GoodNotes-LS-2.5-entscheiden.pdf" />
+      <file href="pdf/GoodNotes-LS-2.5-informieren.pdf" />
+      <file href="pdf/GoodNotes-LS-2.5-planen.pdf" />
+      <file href="pdf/GoodNotes-LS-2.5-reflektieren.pdf" />
     </resource>
   </resources>
 </manifest>

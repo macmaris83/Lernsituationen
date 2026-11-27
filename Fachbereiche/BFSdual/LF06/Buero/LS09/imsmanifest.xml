@@ -30,6 +30,20 @@
       <file href="Grafiken/Erklaerbilder/LS_6_9_M01_Bueroformen_und_Arbeitsaufgaben.png" />
       <file href="Grafiken/Erklaerbilder/LS_6_9_M02_Ergonomischer_Bildschirmarbeitsplatz.png" />
       <file href="Grafiken/Erklaerbilder/LS_6_9_M03_M04_Buero_sicher_und_nachhaltig.png" />
+      <file href="assets/goodnotes.png" />
+      <file href="assets/pdf-document.css" />
+      <file href="assets/pdf-ui.css" />
+      <file href="assets/pdf-ui.js" />
+      <file href="druckansicht.html" />
+      <file href="pdf/Gesamtdokument-LS-6.9.pdf" />
+      <file href="pdf/GoodNotes-LS-6.9-bewerten.pdf" />
+      <file href="pdf/GoodNotes-LS-6.9-durchfuehren-A.pdf" />
+      <file href="pdf/GoodNotes-LS-6.9-durchfuehren-B.pdf" />
+      <file href="pdf/GoodNotes-LS-6.9-durchfuehren-C.pdf" />
+      <file href="pdf/GoodNotes-LS-6.9-entscheiden.pdf" />
+      <file href="pdf/GoodNotes-LS-6.9-informieren.pdf" />
+      <file href="pdf/GoodNotes-LS-6.9-planen.pdf" />
+      <file href="pdf/GoodNotes-LS-6.9-reflektieren.pdf" />
     </resource>
   </resources>
 </manifest>

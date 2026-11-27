@@ -178,6 +178,7 @@
     return {total: ids.length, checked, ready: ids.length > 0 && validPath(state.path) && checked === ids.length && !missingResponses};
   }
   window.GB = {
+    getPath: () => session.read().path,
     get readOnly() { return session.locked; },
     getCheck: () => session.read().check,
     saveCheck(value) {

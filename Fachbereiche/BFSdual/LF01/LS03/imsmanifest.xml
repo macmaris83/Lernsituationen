@@ -87,6 +87,20 @@
       <file href="assets/situation.css" />
       <file href="lesson-data.js" />
       <file href="material/erklaerbilder/LS_1_3_Zustaendigkeiten_und_Zusammenarbeit.png" />
+      <file href="assets/goodnotes.png" />
+      <file href="assets/pdf-document.css" />
+      <file href="assets/pdf-ui.css" />
+      <file href="assets/pdf-ui.js" />
+      <file href="druckansicht.html" />
+      <file href="pdf/Gesamtdokument-LS-1.3.pdf" />
+      <file href="pdf/GoodNotes-LS-1.3-bewerten.pdf" />
+      <file href="pdf/GoodNotes-LS-1.3-durchfuehren-A.pdf" />
+      <file href="pdf/GoodNotes-LS-1.3-durchfuehren-B.pdf" />
+      <file href="pdf/GoodNotes-LS-1.3-durchfuehren-C.pdf" />
+      <file href="pdf/GoodNotes-LS-1.3-entscheiden.pdf" />
+      <file href="pdf/GoodNotes-LS-1.3-informieren.pdf" />
+      <file href="pdf/GoodNotes-LS-1.3-planen.pdf" />
+      <file href="pdf/GoodNotes-LS-1.3-reflektieren.pdf" />
     </resource>
   </resources>
 </manifest>

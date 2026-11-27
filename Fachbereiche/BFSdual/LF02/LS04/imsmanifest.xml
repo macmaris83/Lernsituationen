@@ -88,6 +88,20 @@
       <file href="assets/situation.css" />
       <file href="lesson-data.js" />
       <file href="material/erklaerbilder/LS_2_4_Angebot_und_Bestellung_vergleichen.png" />
+      <file href="assets/goodnotes.png" />
+      <file href="assets/pdf-document.css" />
+      <file href="assets/pdf-ui.css" />
+      <file href="assets/pdf-ui.js" />
+      <file href="druckansicht.html" />
+      <file href="pdf/Gesamtdokument-LS-2.4.pdf" />
+      <file href="pdf/GoodNotes-LS-2.4-bewerten.pdf" />
+      <file href="pdf/GoodNotes-LS-2.4-durchfuehren-A.pdf" />
+      <file href="pdf/GoodNotes-LS-2.4-durchfuehren-B.pdf" />
+      <file href="pdf/GoodNotes-LS-2.4-durchfuehren-C.pdf" />
+      <file href="pdf/GoodNotes-LS-2.4-entscheiden.pdf" />
+      <file href="pdf/GoodNotes-LS-2.4-informieren.pdf" />
+      <file href="pdf/GoodNotes-LS-2.4-planen.pdf" />
+      <file href="pdf/GoodNotes-LS-2.4-reflektieren.pdf" />
     </resource>
   </resources>
 </manifest>

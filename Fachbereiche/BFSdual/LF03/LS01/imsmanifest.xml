@@ -68,6 +68,20 @@
       <file href="lesson-data.js" />
       <file href="material/erklaerbilder/LS_3_1_Bestellstrategien_im_Vergleich.png" />
       <file href="material/erklaerbilder/LS_3_1_Meldebestand_als_Bestandsdiagramm.png" />
+      <file href="assets/goodnotes.png" />
+      <file href="assets/pdf-document.css" />
+      <file href="assets/pdf-ui.css" />
+      <file href="assets/pdf-ui.js" />
+      <file href="druckansicht.html" />
+      <file href="pdf/Gesamtdokument-LS-3.1.pdf" />
+      <file href="pdf/GoodNotes-LS-3.1-bewerten.pdf" />
+      <file href="pdf/GoodNotes-LS-3.1-durchfuehren-A.pdf" />
+      <file href="pdf/GoodNotes-LS-3.1-durchfuehren-B.pdf" />
+      <file href="pdf/GoodNotes-LS-3.1-durchfuehren-C.pdf" />
+      <file href="pdf/GoodNotes-LS-3.1-entscheiden.pdf" />
+      <file href="pdf/GoodNotes-LS-3.1-informieren.pdf" />
+      <file href="pdf/GoodNotes-LS-3.1-planen.pdf" />
+      <file href="pdf/GoodNotes-LS-3.1-reflektieren.pdf" />
     </resource>
   </resources>
 </manifest>
