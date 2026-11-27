@@ -1,0 +1,98 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>M2 · Bestellzeitpunktverfahren und Bestellrhythmusverfahren</title><link rel="stylesheet" href="leseseite.css"></head><body class="gb-material"><header class="material-top"><nav><a href="../materialien.html">Zur Materialübersicht</a> <a href="../ls-glossar.html">Glossar</a></nav></header><main class="material-sheet"><p class="material-caption">LS 3.1 · M2 · Global Bike</p><h1>Bestellzeitpunktverfahren und Bestellrhythmusverfahren</h1><h3 id="bestellpunktverfahren">1. Bestellpunktverfahren</h3>
+<p>Beim <a id="begriff-bestellpunktverfahren" href="../ls-glossar.html?from=material%2Fm2.html%23begriff-bestellpunktverfahren#bestellpunktverfahren">Bestellpunktverfahren</a> wird der Lagerbestand laufend überwacht. Sobald der festgelegte <a id="begriff-meldebestand" href="../ls-glossar.html?from=material%2Fm2.html%23begriff-meldebestand#meldebestand">Meldebestand</a> erreicht wird, wird eine Bestellung ausgelöst.</p>
+<p>Der Meldebestand berücksichtigt:</p>
+<ul>
+<li>den Bedarf während der <a id="begriff-lieferzeit" href="../ls-glossar.html?from=material%2Fm2.html%23begriff-lieferzeit#lieferzeit">Lieferzeit</a>,</li>
+<li>den <a id="begriff-sicherheitsbestand" href="../ls-glossar.html?from=material%2Fm2.html%23begriff-sicherheitsbestand#sicherheitsbestand">Sicherheitsbestand</a>.</li>
+</ul>
+<p><strong>Vereinfachte Formel:</strong></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mi>e</mi><mi>l</mi><mi>d</mi><mi>e</mi><mi>b</mi><mi>e</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>d</mi><mo>=</mo><mi>T</mi><mi>a</mi><mi>g</mi><mi>e</mi><mi>s</mi><mi>v</mi><mi>e</mi><mi>r</mi><mi>b</mi><mi>r</mi><mi>a</mi><mi>u</mi><mi>c</mi><mi>h</mi><mo>⋅</mo><mi>L</mi><mi>i</mi><mi>e</mi><mi>f</mi><mi>e</mi><mi>r</mi><mi>z</mi><mi>e</mi><mi>i</mi><mi>t</mi><mo>+</mo><mi>S</mi><mi>i</mi><mi>c</mi><mi>h</mi><mi>e</mi><mi>r</mi><mi>h</mi><mi>e</mi><mi>i</mi><mi>t</mi><mi>s</mi><mi>b</mi><mi>e</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>d</mi></mrow><annotation encoding="application/x-tex">
+Meldebestand = Tagesverbrauch \cdot Lieferzeit + Sicherheitsbestand
+</annotation></semantics></math></p>
+<p><strong>Beispiel mit fiktiven Übungsdaten:</strong></p>
+<ul>
+<li>Tagesverbrauch: 10 Stück</li>
+<li>Lieferzeit: 5 Tage</li>
+<li>Sicherheitsbestand: 20 Stück</li>
+</ul>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>10</mn><mo>⋅</mo><mn>5</mn><mo>+</mo><mn>20</mn><mo>=</mo><mn>70</mn></mrow><annotation encoding="application/x-tex">
+10 \cdot 5 + 20 = 70
+</annotation></semantics></math></p>
+<p>Der Meldebestand beträgt 70 Stück. Sobald der Lagerbestand diesen Wert erreicht, wird eine Bestellung ausgelöst.</p>
+<h3 id="bestellrhythmusverfahren">2. Bestellrhythmusverfahren</h3>
+<p>Beim <a id="begriff-bestellrhythmusverfahren" href="../ls-glossar.html?from=material%2Fm2.html%23begriff-bestellrhythmusverfahren#bestellrhythmusverfahren">Bestellrhythmusverfahren</a> wird der Lagerbestand in festgelegten Zeitabständen überprüft, beispielsweise alle zehn Tage. Zu diesen Zeitpunkten wird ermittelt, welche Menge bestellt werden muss.</p>
+<p>Die Bestellmenge kann unterschiedlich groß sein, weil sie vom aktuellen Lagerbestand abhängt.</p>
+<p><strong>Vereinfachte Berechnung des Zielbestands:</strong></p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Z</mi><mi>i</mi><mi>e</mi><mi>l</mi><mi>b</mi><mi>e</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>d</mi><mo>=</mo><mi>T</mi><mi>a</mi><mi>g</mi><mi>e</mi><mi>s</mi><mi>v</mi><mi>e</mi><mi>r</mi><mi>b</mi><mi>r</mi><mi>a</mi><mi>u</mi><mi>c</mi><mi>h</mi><mo>⋅</mo><mrow><mo stretchy="true" form="prefix">(</mo><mi>Ü</mi><mi>b</mi><mi>e</mi><mi>r</mi><mi>p</mi><mi>r</mi><mi>ü</mi><mi>f</mi><mi>u</mi><mi>n</mi><mi>g</mi><mi>s</mi><mi>z</mi><mi>e</mi><mi>i</mi><mi>t</mi><mi>r</mi><mi>a</mi><mi>u</mi><mi>m</mi><mo>+</mo><mi>L</mi><mi>i</mi><mi>e</mi><mi>f</mi><mi>e</mi><mi>r</mi><mi>z</mi><mi>e</mi><mi>i</mi><mi>t</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>+</mo><mi>S</mi><mi>i</mi><mi>c</mi><mi>h</mi><mi>e</mi><mi>r</mi><mi>h</mi><mi>e</mi><mi>i</mi><mi>t</mi><mi>s</mi><mi>b</mi><mi>e</mi><mi>s</mi><mi>t</mi><mi>a</mi><mi>n</mi><mi>d</mi></mrow><annotation encoding="application/x-tex">
+Zielbestand = Tagesverbrauch \cdot (Überprüfungszeitraum + Lieferzeit) + Sicherheitsbestand
+</annotation></semantics></math></p>
+<p><strong>Beispiel mit fiktiven Übungsdaten:</strong></p>
+<ul>
+<li>Tagesverbrauch: 10 Stück</li>
+<li>Überprüfungszeitraum: 10 Tage</li>
+<li>Lieferzeit: 5 Tage</li>
+<li>Sicherheitsbestand: 20 Stück</li>
+</ul>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>10</mn><mo>⋅</mo><mrow><mo stretchy="true" form="prefix">(</mo><mn>10</mn><mo>+</mo><mn>5</mn><mo stretchy="true" form="postfix">)</mo></mrow><mo>+</mo><mn>20</mn><mo>=</mo><mn>170</mn></mrow><annotation encoding="application/x-tex">
+10 \cdot (10 + 5) + 20 = 170
+</annotation></semantics></math></p>
+<p>Der <a id="begriff-zielbestand" href="../ls-glossar.html?from=material%2Fm2.html%23begriff-zielbestand#zielbestand">Zielbestand</a> beträgt 170 Stück.</p>
+<p>Bei einem aktuellen Lagerbestand von 60 Stück und ohne offene Bestellungen ergibt sich:</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>170</mn><mo>−</mo><mn>60</mn><mo>=</mo><mn>110</mn></mrow><annotation encoding="application/x-tex">
+170 - 60 = 110
+</annotation></semantics></math></p>
+<p>Es müssen 110 Stück bestellt werden.</p>
+<h3 id="die-verfahren-im-vergleich">3. Die Verfahren im Vergleich</h3>
+<div class="material-table-scroll" role="region" aria-label="Materialtabelle" tabindex="0"><table>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Merkmal</th>
+<th>Bestellpunktverfahren</th>
+<th>Bestellrhythmusverfahren</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Überprüfung</td>
+<td>laufend</td>
+<td>in festgelegten Zeitabständen</td>
+</tr>
+<tr class="even">
+<td>Auslöser</td>
+<td>Erreichen des Meldebestands</td>
+<td>festgelegter Überprüfungszeitpunkt</td>
+</tr>
+<tr class="odd">
+<td>Bestellmenge</td>
+<td>abhängig von der gewählten Regelung</td>
+<td>abhängig vom aktuellen Bestand</td>
+</tr>
+<tr class="even">
+<td>Besonderheit</td>
+<td>reagiert auf Bestandsveränderungen</td>
+<td>regelmäßige Überprüfung</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="übungsaufgabe">4. Übungsaufgabe</h3>
+<p>Für einen Artikel gelten folgende <strong>fiktive Übungsdaten</strong>:</p>
+<ul>
+<li>Tagesverbrauch: 8 Stück</li>
+<li>Lieferzeit: 6 Tage</li>
+<li>Sicherheitsbestand: 25 Stück</li>
+<li>Überprüfungszeitraum: 8 Tage</li>
+<li>aktueller Lagerbestand: 45 Stück</li>
+<li>offene Bestellungen: keine</li>
+</ul>
+<ol type="1">
+<li>Berechnen Sie den Meldebestand.</li>
+<li>Berechnen Sie den Zielbestand im Bestellrhythmusverfahren.</li>
+<li>Berechnen Sie die Bestellmenge bei der nächsten Überprüfung.</li>
+<li>Erklären Sie den Unterschied zwischen Bestellpunkt- und Bestellrhythmusverfahren.</li>
+</ol>
+</main><footer class="material-bottom"><a href="../materialien.html">Zur Materialübersicht</a></footer></body></html>

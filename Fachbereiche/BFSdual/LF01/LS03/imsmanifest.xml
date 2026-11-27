@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="BFSDUAL-LF01-LS03" version="1.0">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="ORG">
+    <organization identifier="ORG">
+      <title>LS 1.3 · Betriebliche Strukturen und Zuständigkeiten verstehen</title>
+      <item identifier="ITEM" identifierref="RES">
+        <title>Betriebliche Strukturen und Zuständigkeiten verstehen</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES" type="webcontent" adlcp:scormtype="sco" href="scorm.html">
+      <file href="assets/LS_1_3_Jan_Richter_Emma_Fuchs_und_Lina_Peters_klaeren_Zustaendigkeiten.png" />
+      <file href="assets/bbs1-aurich.svg" />
+      <file href="assets/bbs1-campus-background.png" />
+      <file href="assets/begriffe.js" />
+      <file href="assets/boegen.js" />
+      <file href="assets/focus-adapter.js" />
+      <file href="assets/footer-2.svg" />
+      <file href="assets/global-bike.css" />
+      <file href="assets/glossar.js" />
+      <file href="assets/phases.css" />
+      <file href="assets/print.css" />
+      <file href="assets/progress.css" />
+      <file href="assets/requirements.js" />
+      <file href="assets/runtime.js" />
+      <file href="assets/styles.css" />
+      <file href="assets/zusatz.css" />
+      <file href="assets/zusatzzeiten.js" />
+      <file href="begriffstraining.html" />
+      <file href="bewerten.html" />
+      <file href="durchfuehren.html" />
+      <file href="entscheiden.html" />
+      <file href="feedback.html" />
+      <file href="handlungssituation.html" />
+      <file href="index.html" />
+      <file href="informieren.html" />
+      <file href="ls-glossar.html" />
+      <file href="material/Intro_Outro/LF01_LS01_3_Intro.png" />
+      <file href="material/Intro_Outro/LF01_LS01_3_Outro.png" />
+      <file href="material/Materialmedien/M1/LF01_LS01_3_M1_G01_Aufbau_und_Ablauforganisation.png" />
+      <file href="material/Materialmedien/M2/LF01_LS01_3_M2_G01_Aufgabenanalyse_und_Aufgabensynthese.png" />
+      <file href="material/Materialmedien/M2/LF01_LS01_3_M2_G02_Kongruenzprinzip.png" />
+      <file href="material/Materialmedien/M3/LF01_LS01_3_M3_G01_Organigramm_Leitungsebene.png" />
+      <file href="material/Materialmedien/M3/LF01_LS01_3_M3_G02_Organigramm_Global_Bike_vollstaendig.png" />
+      <file href="material/Materialmedien/M4/LF01_LS01_3_M4_G01_Weisungs_und_Berichtswege.png" />
+      <file href="material/Materialmedien/M4/LF01_LS01_3_M4_G02_Linien_und_Stabsstellen.png" />
+      <file href="material/Materialmedien/M4/LF01_LS01_3_M4_G03_Abteilungsuebergreifende_Zusammenarbeit.png" />
+      <file href="material/fachsicherung.html" />
+      <file href="material/fachsicherung.md" />
+      <file href="material/fachwoerter.html" />
+      <file href="material/fachwoerter.md" />
+      <file href="material/glossar.pdf" />
+      <file href="material/m1.html" />
+      <file href="material/m1.md" />
+      <file href="material/m2.html" />
+      <file href="material/m2.md" />
+      <file href="material/m3.html" />
+      <file href="material/m3.md" />
+      <file href="material/m4.html" />
+      <file href="material/m4.md" />
+      <file href="material/orientierung.html" />
+      <file href="material/orientierung.md" />
+      <file href="material/uebungen.html" />
+      <file href="material/weg-a.html" />
+      <file href="material/weg-a.md" />
+      <file href="material/weg-b.html" />
+      <file href="material/weg-b.md" />
+      <file href="material/weg-c.html" />
+      <file href="material/weg-c.md" />
+      <file href="materialien.html" />
+      <file href="peer-check.html" />
+      <file href="planen.html" />
+      <file href="reflektieren.html" />
+      <file href="scorm.html" />
+      <file href="assets/footer-version.css" />
+      <file href="assets/footer-version.js" />
+      <file href="assets/material-access.js" />
+      <file href="assets/package-completion.css" />
+      <file href="assets/package-completion.js" />
+      <file href="assets/progress-core.js" />
+      <file href="assets/review-layout.css" />
+      <file href="assets/situation.css" />
+      <file href="lesson-data.js" />
+    </resource>
+  </resources>
+</manifest>

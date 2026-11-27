@@ -1,0 +1,64 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>M3 · Excel-Arbeitsgrundlage zur ABC-Analyse</title><link rel="stylesheet" href="leseseite.css"></head><body class="gb-material"><header class="material-top"><nav><a href="../materialien.html">Zur Materialübersicht</a> <a href="../ls-glossar.html">Glossar</a></nav></header><main class="material-sheet"><p class="material-caption">LS 3.2 · M3 · Global Bike</p><h1>Excel-Arbeitsgrundlage zur ABC-Analyse</h1><h2 id="tabellenaufbau">3.1 Tabellenaufbau</h2>
+<p>Legen Sie in Excel eine Tabelle mit folgenden Spalten an:</p>
+<div class="material-table-scroll" role="region" aria-label="Materialtabelle" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>Spalte</th>
+<th>Inhalt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>Materialnummer</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>Artikelbezeichnung</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td><a id="begriff-jahresverbrauch" href="../ls-glossar.html?from=material%2Fm3.html%23begriff-jahresverbrauch#jahresverbrauch">Jahresverbrauch</a></td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td><a id="begriff-stueckpreis" href="../ls-glossar.html?from=material%2Fm3.html%23begriff-stueckpreis#stueckpreis">Stückpreis</a></td>
+</tr>
+<tr class="odd">
+<td>E</td>
+<td><a id="begriff-verbrauchswert" href="../ls-glossar.html?from=material%2Fm3.html%23begriff-verbrauchswert#verbrauchswert">Verbrauchswert</a></td>
+</tr>
+<tr class="even">
+<td>F</td>
+<td>Anteil am Gesamtverbrauchswert</td>
+</tr>
+<tr class="odd">
+<td>G</td>
+<td>Kumulierte Prozentwerte</td>
+</tr>
+<tr class="even">
+<td>H</td>
+<td>ABC-Klasse</td>
+</tr>
+</tbody>
+</table></div>
+<p>Die <a href="ABC_Arbeitsdatei.xlsx">Excel-Arbeitsdatei ABC_Arbeitsdatei.xlsx</a> enthält die fünf Übungsdatensätze aus M8. Die Artikel-IDs A bis E sind reine Übungskennungen. Die Tabelle nutzt die Zeilen 2 bis 6.</p>
+<h2 id="formeln">3.2 Formeln</h2>
+<p>Für die fünf Datensätze in den Zeilen 2 bis 6:</p>
+<p><strong>Verbrauchswert in E2</strong></p>
+<pre class="excel"><code>=C2*D2</code></pre>
+<p><strong>Gesamtverbrauchswert</strong></p>
+<pre class="excel"><code>=SUMME(E2:E6)</code></pre>
+<p><strong>Prozentualer Anteil in F2</strong></p>
+<pre class="excel"><code>=E2/SUMME($E$2:$E$6)</code></pre>
+<p>Formatieren Sie die Spalte F als Prozentwert.</p>
+<p>Sortieren Sie anschließend die gesamte Tabelle nach Spalte E absteigend. Achten Sie darauf, dass alle Spalten gemeinsam sortiert werden und die Datensätze vollständig zusammenbleiben.</p>
+<p><strong>Kumulierter Prozentwert in G2</strong></p>
+<pre class="excel"><code>=F2</code></pre>
+<p><strong>Kumulierter Prozentwert ab G3</strong></p>
+<pre class="excel"><code>=G2+F3</code></pre>
+<p>Übernehmen Sie die Formel für die weiteren Zeilen. Die kumulierten Prozentwerte zeigen, wie viel Prozent des gesamten Verbrauchswertes bis zum jeweiligen Artikel erreicht sind.</p>
+<h2 id="abc-klasse">3.3 ABC-Klasse</h2>
+<p>Verwenden Sie für jeden Artikel den kumulierten Endwert seiner Zeile. A reicht bis einschließlich 80 %, B über 80 % bis einschließlich 95 %, C über 95 %. Dokumentieren Sie, welche Grenzwerte verwendet wurden. Runden Sie erst für die Darstellung; für die kumulierte Berechnung sollten möglichst die ungerundeten Werte verwendet werden.</p>
+<p><strong>Arbeitsauftrag:</strong> Erstellen Sie eine vollständige, sortierte ABC-Auswertung. Prüfen Sie, ob der letzte kumulierte Prozentwert – abgesehen von Rundungsabweichungen – 100 % ergibt.</p>
+</main><footer class="material-bottom"><a href="../materialien.html">Zur Materialübersicht</a></footer></body></html>

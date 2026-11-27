@@ -1,0 +1,301 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>M4 – Preise und Konditionen ermitteln · LS 2.4</title><link rel="stylesheet" href="leseseite.css"></head><body class="gb-material"><header class="material-top"><nav><a href="../materialien.html">Zur Materialübersicht</a> <a href="../ls-glossar.html">Glossar</a></nav></header><main class="material-sheet"><p class="material-caption">LS 2.4 · Global Bike</p><h1>M4 – Preise und Konditionen ermitteln</h1><p>Global Bike Deutschland GmbH | Fachinformation | ab Phase 1 | bedarfsorientiert nutzbar</p>
+<h2 id="worum-geht-es">1. Worum geht es?</h2>
+<p>Ein Händler benötigt nicht nur einen Preis pro Fahrrad oder Zubehörartikel. Er möchte wissen, welchen Gesamtbetrag er zahlen muss, wann die Zahlung fällig wird und wann die Ware geliefert werden kann. In der Auftragsbearbeitung von Global Bike müssen diese Informationen zusammenpassen. Ein falscher Rabatt kann den Erlös verringern; eine ungeprüfte Lieferzusage kann zu Problemen bei der Erfüllung führen.</p>
+<p>Alle folgenden Beispiele sind unabhängige Unterrichtssimulationen mit Zubehörartikeln. Die Zahlen sind keine SAP-Preise oder betrieblichen Freigaben. Für den eigentlichen Verkaufsvorgang gilt ausschließlich M2.</p>
+<h2 id="fachbegriffe">2. Fachbegriffe</h2>
+<div class="material-table-scroll" role="region" aria-label="Materialtabelle" tabindex="0"><table>
+<colgroup>
+<col style="width: 28%">
+<col style="width: 71%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Begriff</th>
+<th>Bedeutung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nettolistenstückpreis</td>
+<td>Ausgangspreis eines Artikels ohne <a id="begriff-umsatzsteuer" href="../ls-glossar.html?from=material%2Fm4.html%23begriff-umsatzsteuer#umsatzsteuer">Umsatzsteuer</a> und vor Rabatt</td>
+</tr>
+<tr class="even">
+<td>Gesamtnettolistenpreis</td>
+<td>Menge mal Nettolistenstückpreis</td>
+</tr>
+<tr class="odd">
+<td><a id="begriff-mengenrabatt" href="../ls-glossar.html?from=material%2Fm4.html%23begriff-mengenrabatt#mengenrabatt">Mengenrabatt</a></td>
+<td>Preisnachlass abhängig von der Abnahmemenge</td>
+</tr>
+<tr class="even">
+<td>Rabattbetrag</td>
+<td>Preisnachlass in Euro</td>
+</tr>
+<tr class="odd">
+<td><a id="begriff-nettoangebotspreis" href="../ls-glossar.html?from=material%2Fm4.html%23begriff-nettoangebotspreis#nettoangebotspreis">Nettoangebotspreis</a></td>
+<td>Gesamtpreis nach unbedingten Nachlässen, ohne Umsatzsteuer</td>
+</tr>
+<tr class="even">
+<td>Nettostückpreis nach Rabatt</td>
+<td>Nettoangebotspreis geteilt durch Menge, sofern nur Warenpreis enthalten</td>
+</tr>
+<tr class="odd">
+<td>Umsatzsteuer</td>
+<td>Steuer, die beim steuerpflichtigen Verkauf zum Nettobetrag hinzukommt</td>
+</tr>
+<tr class="even">
+<td><a id="begriff-bruttoangebotspreis" href="../ls-glossar.html?from=material%2Fm4.html%23begriff-bruttoangebotspreis#bruttoangebotspreis">Bruttoangebotspreis</a></td>
+<td>Nettoangebotspreis zuzüglich Umsatzsteuer</td>
+</tr>
+<tr class="odd">
+<td><a id="begriff-skonto" href="../ls-glossar.html?from=material%2Fm4.html%23begriff-skonto#skonto">Skonto</a></td>
+<td>Bedingter Preisnachlass bei fristgerechter Zahlung</td>
+</tr>
+<tr class="even">
+<td><a id="begriff-zahlungsziel" href="../ls-glossar.html?from=material%2Fm4.html%23begriff-zahlungsziel#zahlungsziel">Zahlungsziel</a></td>
+<td>Frist für Zahlung ohne Skontoabzug</td>
+</tr>
+<tr class="odd">
+<td>Lieferbedingungen</td>
+<td>Vereinbarungen über Lieferung, Frist und Versandkosten</td>
+</tr>
+<tr class="even">
+<td>Angebotsgültigkeit</td>
+<td>Zeitraum, in dem ein befristeter <a id="begriff-antrag" href="../ls-glossar.html?from=material%2Fm4.html%23begriff-antrag#antrag">Antrag</a> angenommen werden kann</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="prozentrechnung-als-werkzeug">3. Prozentrechnung als Werkzeug</h2>
+<p>Der Grundwert ist der Betrag, auf den sich ein Prozentsatz bezieht. Der Prozentwert ist der errechnete Teilbetrag. Beispielsweise sind 6 % von 350 EUR genau 21 EUR: 350 × 6 / 100 = 21. Auf dem Taschenrechner kann auch 350 × 0,06 eingegeben werden.</p>
+<p>Ein Rabatt wird abgezogen. Umsatzsteuer wird hinzugerechnet. Der jeweilige Grundwert ist wichtig: Die Umsatzsteuer wird nach dem Rabatt auf den steuerpflichtigen Nettobetrag berechnet, nicht auf den ursprünglichen Listenwert. Skonto wird in unseren Beispielen auf den skontierfähigen Bruttobetrag berechnet.</p>
+<h2 id="allgemeines-kalkulationsschema">4. Allgemeines Kalkulationsschema</h2>
+<ol type="1">
+<li>Menge × Nettolistenstückpreis = Gesamtnettolistenpreis.</li>
+<li>Gesamtnettolistenpreis × Rabattsatz / 100 = Rabattbetrag.</li>
+<li>Gesamtnettolistenpreis − Rabattbetrag = Nettoangebotspreis (bei kostenfreier Lieferung).</li>
+<li>Nettoangebotspreis × Umsatzsteuersatz / 100 = Umsatzsteuer.</li>
+<li>Nettoangebotspreis + Umsatzsteuer = Bruttoangebotspreis.</li>
+<li>Skontierfähiger Bruttobetrag × Skontosatz / 100 = möglicher Skontoabzug.</li>
+<li>Bruttoangebotspreis − Skontoabzug = möglicher Zahlbetrag bei fristgerechter Zahlung.</li>
+</ol>
+<p>Der sechste und siebte Schritt verändern nicht den zunächst ausgewiesenen Bruttoangebotspreis. Versandkosten sind nach der jeweiligen Vereinbarung gesondert zu berücksichtigen.</p>
+<p>Schaubild G5: Kaufmännisches Kalkulationsschema (in Moodle einbetten).</p>
+<h2 id="beispiel-a-vollständige-kalkulation">5. Beispiel A – vollständige Kalkulation</h2>
+<p>Global Bike kalkuliert acht Zubehörartikel zu je 125,00 EUR netto, 4 % Rabatt, 19 % Umsatzsteuer und 3 % Skonto innerhalb von sieben Tagen ab Rechnungsdatum, sonst 21 Tage ohne Abzug. Versandkosten trägt Global Bike.</p>
+<div class="material-table-scroll" role="region" aria-label="Materialtabelle" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>Schritt</th>
+<th>Rechnung</th>
+<th style="text-align: right;">Betrag</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Listenwert</td>
+<td>8 × 125,00</td>
+<td style="text-align: right;">1.000,00 EUR</td>
+</tr>
+<tr class="even">
+<td>Rabatt</td>
+<td>1.000,00 × 0,04</td>
+<td style="text-align: right;">40,00 EUR</td>
+</tr>
+<tr class="odd">
+<td>Nettoangebot</td>
+<td>1.000,00 − 40,00</td>
+<td style="text-align: right;">960,00 EUR</td>
+</tr>
+<tr class="even">
+<td>Umsatzsteuer</td>
+<td>960,00 × 0,19</td>
+<td style="text-align: right;">182,40 EUR</td>
+</tr>
+<tr class="odd">
+<td>Bruttoangebot</td>
+<td>960,00 + 182,40</td>
+<td style="text-align: right;">1.142,40 EUR</td>
+</tr>
+<tr class="even">
+<td>Mögliches Skonto</td>
+<td>1.142,40 × 0,03</td>
+<td style="text-align: right;">34,27 EUR</td>
+</tr>
+<tr class="odd">
+<td>Möglicher Zahlbetrag</td>
+<td>1.142,40 − 34,27</td>
+<td style="text-align: right;">1.108,13 EUR</td>
+</tr>
+</tbody>
+</table></div>
+<p>Der Nettostückpreis nach Rabatt beträgt 960,00 / 8 = 120,00 EUR. Bei Zahlung nach Ablauf der Skontofrist, aber innerhalb des Zahlungsziels, sind 1.142,40 EUR zu zahlen. Die Skontonutzung ist freiwillig.</p>
+<h2 id="beispiel-b-rabattstaffel-richtig-anwenden">6. Beispiel B – Rabattstaffel richtig anwenden</h2>
+<p>Für einen unabhängigen Verkauf von Fahrradkörben gelten beispielhaft folgende Staffel und ein Nettolistenstückpreis von 32,00 EUR:</p>
+<div class="material-table-scroll" role="region" aria-label="Materialtabelle" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>Menge</th>
+<th style="text-align: right;">Rabatt auf die gesamte Menge</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1–14</td>
+<td style="text-align: right;">0 %</td>
+</tr>
+<tr class="even">
+<td>15–39</td>
+<td style="text-align: right;">6 %</td>
+</tr>
+<tr class="odd">
+<td>ab 40</td>
+<td style="text-align: right;">9 %</td>
+</tr>
+</tbody>
+</table></div>
+<p>Ein Händler fragt 18 Körbe an. Die mittlere Stufe gilt für alle 18 Stück, nicht nur für die Stücke oberhalb der Mengengrenze. Die Rabatte werden nicht addiert.</p>
+<div class="material-table-scroll" role="region" aria-label="Materialtabelle" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>Schritt</th>
+<th>Rechnung</th>
+<th style="text-align: right;">Betrag</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Listenwert</td>
+<td>18 × 32,00</td>
+<td style="text-align: right;">576,00 EUR</td>
+</tr>
+<tr class="even">
+<td>Rabatt</td>
+<td>576,00 × 0,06</td>
+<td style="text-align: right;">34,56 EUR</td>
+</tr>
+<tr class="odd">
+<td>Nettoangebot</td>
+<td>576,00 − 34,56</td>
+<td style="text-align: right;">541,44 EUR</td>
+</tr>
+<tr class="even">
+<td>Nettostückpreis</td>
+<td>541,44 / 18</td>
+<td style="text-align: right;">30,08 EUR</td>
+</tr>
+<tr class="odd">
+<td>Umsatzsteuer</td>
+<td>541,44 × 0,19</td>
+<td style="text-align: right;">102,87 EUR</td>
+</tr>
+<tr class="even">
+<td>Bruttoangebot</td>
+<td>541,44 + 102,87</td>
+<td style="text-align: right;">644,31 EUR</td>
+</tr>
+</tbody>
+</table></div>
+<p>Versandkosten übernimmt Global Bike; kein Skonto vereinbart. Bei genau 40 Stück wäre die höchste Stufe erreicht. Bei anderen Staffelmodellen können Teilmengen unterschiedlich rabattiert werden. Maßgeblich ist immer die konkrete Freigabe. Eine größere Menge bedeutet nicht automatisch, dass sie lieferbar ist.</p>
+<h2 id="beispiel-c-versandkosten-und-rundung">7. Beispiel C – Versandkosten und Rundung</h2>
+<p>Global Bike kalkuliert sieben Fahrradpflegeartikel zu je 19,95 EUR netto mit 5 % Rabatt auf die Ware. Zusätzlich sind 8,00 EUR netto Versandkosten vereinbart. Für dieses Beispiel gelten 19 % Umsatzsteuer auf Ware und Versand sowie 1,5 % Skonto auf den gesamten Bruttobetrag.</p>
+<div class="material-table-scroll" role="region" aria-label="Materialtabelle" tabindex="0"><table>
+<thead>
+<tr class="header">
+<th>Schritt</th>
+<th>Rechnung</th>
+<th style="text-align: right;">Betrag</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Listenwert</td>
+<td>7 × 19,95</td>
+<td style="text-align: right;">139,65 EUR</td>
+</tr>
+<tr class="even">
+<td>Rabatt</td>
+<td>139,65 × 0,05 = 6,9825</td>
+<td style="text-align: right;">6,98 EUR</td>
+</tr>
+<tr class="odd">
+<td>Warenwert netto</td>
+<td>139,65 − 6,98</td>
+<td style="text-align: right;">132,67 EUR</td>
+</tr>
+<tr class="even">
+<td>Gesamt netto</td>
+<td>132,67 + 8,00</td>
+<td style="text-align: right;">140,67 EUR</td>
+</tr>
+<tr class="odd">
+<td>Umsatzsteuer</td>
+<td>140,67 × 0,19 = 26,7273</td>
+<td style="text-align: right;">26,73 EUR</td>
+</tr>
+<tr class="even">
+<td>Brutto</td>
+<td>140,67 + 26,73</td>
+<td style="text-align: right;">167,40 EUR</td>
+</tr>
+<tr class="odd">
+<td>Skonto</td>
+<td>167,40 × 0,015 = 2,511</td>
+<td style="text-align: right;">2,51 EUR</td>
+</tr>
+<tr class="even">
+<td>Zahlbetrag mit Skonto</td>
+<td>167,40 − 2,51</td>
+<td style="text-align: right;">164,89 EUR</td>
+</tr>
+</tbody>
+</table></div>
+<p>Der rabattierte Warenstückpreis beträgt rechnerisch 132,67 / 7 = rund 18,95 EUR. Sieben gerundete Stückpreise ergeben 132,65 EUR. Die Differenz von zwei Cent entsteht durch Rundung. Nach der für diese Lernsituation festgelegten Gesamtbetragsmethode bleibt der nachvollziehbar ermittelte Gesamtwarenwert maßgeblich. Einen gerundeten Stückpreis als solchen kennzeichnen; bei echten Geschäftsdokumenten die betriebliche Rundungsregel beachten und Widersprüche klären.</p>
+<h2 id="rabatt-skonto-und-rundung">8. Rabatt, Skonto und Rundung</h2>
+<p>Rabatt ist ein unbedingter Nachlass, der direkt in den Angebotspreis eingeht. Skonto ist bedingt. Wird Skonto tatsächlich genutzt, ändert sich auch die Umsatzsteuerbemessungsgrundlage; die buchhalterische Behandlung wird hier nicht vertieft.</p>
+<p>Für diese Lernsituation werden Rabatt und Umsatzsteuer jeweils auf Basis des Gesamtbetrags berechnet und auf Cent gerundet. Bei Skonto zuerst den Abzugsbetrag runden, dann vom Bruttobetrag abziehen. Kaufmännisch gilt: dritte Nachkommastelle 0–4 abrunden, 5–9 aufrunden. Beispiel: 12,345 EUR wird zu 12,35 EUR. Nicht bereits den Prozentsatz oder unnötige Zwischenwerte runden.</p>
+<h2 id="liefer--und-zahlungsbedingungen">9. Liefer- und Zahlungsbedingungen</h2>
+<p>Eine klare <a id="begriff-lieferfrist" href="../ls-glossar.html?from=material%2Fm4.html%23begriff-lieferfrist#lieferfrist">Lieferfrist</a> nennt Dauer und Fristbeginn. „Innerhalb von acht Kalendertagen nach Vertragsschluss“ ist eindeutiger als „bald“. Kalendertage umfassen auch Wochenenden; bei Fristenden können gesetzliche Sonderregeln gelten. Versandkosten und Lieferfähigkeit sind getrennt zu prüfen. Die operative Abwicklung erfolgt über bestehende Standorte, insbesondere Hamburg.</p>
+<p>Ein Zahlungsziel nennt Frist und Ausgangsdatum. Beispiel: „1,5 % Skonto bei Zahlung innerhalb von sechs Tagen ab Rechnungsdatum, sonst innerhalb von 18 Tagen ohne Abzug.“ Skontofrist und Zahlungsziel laufen hier vom gleichen Ausgangsdatum, nicht nacheinander. Das Beispiel setzt rechtzeitigen Rechnungszugang voraus. Die Angebotsgültigkeit betrifft dagegen die <a id="begriff-annahme" href="../ls-glossar.html?from=material%2Fm4.html%23begriff-annahme#annahme">Annahme</a> des Angebots, nicht die Zahlung. Keine Kondition ohne Freigabe zusagen.</p>
+<h2 id="handlungshilfe-und-selbstkontrolle">10. Handlungshilfe und Selbstkontrolle</h2>
+<div class="material-table-scroll" role="region" aria-label="Materialtabelle" tabindex="0"><table>
+<colgroup>
+<col style="width: 42%">
+<col style="width: 57%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Typischer Fehler</th>
+<th>Kontrolle</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Falsche Rabattstufe</td>
+<td>Menge und Grenzwerte vergleichen</td>
+</tr>
+<tr class="even">
+<td>Rabattstufen addiert</td>
+<td>Regel zur gesamten Menge oder Teilmengen prüfen</td>
+</tr>
+<tr class="odd">
+<td>Umsatzsteuer vor Rabatt berechnet</td>
+<td>Steuerpflichtigen Nettobetrag als Basis verwenden</td>
+</tr>
+<tr class="even">
+<td>Skonto sofort vom Angebot abgezogen</td>
+<td>Brutto und bedingten Zahlbetrag trennen</td>
+</tr>
+<tr class="odd">
+<td>Versandkosten ungeprüft weggelassen</td>
+<td>Kostenregel und Steuerbasis prüfen</td>
+</tr>
+<tr class="even">
+<td>Fristen verwechselt</td>
+<td>Beginn, Dauer und Zweck jeder Frist prüfen</td>
+</tr>
+</tbody>
+</table></div>
+<p>Freiwillige Selbstkontrolle: Sind Menge, Einheit und Prozentsätze eindeutig? Ist der Nettopreis nach Rabatt höchstens so hoch wie der Listenwert (ohne zusätzliche Kosten)? Ist der Bruttobetrag bei positiver Umsatzsteuer größer als der Nettobetrag? Ist der mögliche Skontozahlbetrag kleiner als der Bruttobetrag? Stimmen die Ergebnisse mit der freigegebenen Regelung überein?</p>
+<p><strong>Merke:</strong> Erst die freigegebenen Konditionen klären, dann nachvollziehbar rechnen. Rabatt und Skonto haben unterschiedliche Funktionen. M4 ersetzt weder M2 noch M5.</p>
+<p>Freiwillige Vertiefung: M9 und Ü3; Anwendung in Ü4.</p>
+<figure style="margin:1.2rem 0"><a href="grafiken/G5.png"><img style="max-width:100%;height:auto" src="grafiken/G5.png" alt="Kaufmännisches Kalkulationsschema"></a><figcaption>Kaufmännisches Kalkulationsschema</figcaption></figure></main><footer class="material-bottom"><a href="../materialien.html">Zur Materialübersicht</a></footer></body></html>

@@ -543,6 +543,126 @@
       "archiveStem": "LS_Master_BRC",
       "formVersion": "1.8.8",
       "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF01-LS01",
+      "title": "Unternehmen erkunden, vergleichen und präsentieren",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF01/LS01",
+      "version": "1.8.8",
+      "archiveStem": "BFSDUAL_LF01_LS01",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF01-LS03",
+      "title": "Betriebliche Strukturen und Zuständigkeiten verstehen",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF01/LS03",
+      "version": "1.8.8",
+      "archiveStem": "BFSDUAL_LF01_LS03",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF02-LS01",
+      "title": "Ein Kundenanliegen professionell bearbeiten",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF02/LS01",
+      "version": "1.8.8",
+      "archiveStem": "BFSDUAL_LF02_LS01",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF02-LS02",
+      "title": "Kunden bedarfsgerecht beraten und Verkaufsgespräche erfolgreich führen",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF02/LS02",
+      "version": "1.8.8",
+      "archiveStem": "BFSDUAL_LF02_LS02",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF02-LS03",
+      "title": "Dürfen wir an jeden Kunden verkaufen?",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF02/LS03",
+      "version": "1.8.8",
+      "archiveStem": "BFSDUAL_LF02_LS03",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF02-LS04",
+      "title": "Kundenangebote erstellen und Bestellungen prüfen",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF02/LS04",
+      "version": "1.8.8",
+      "archiveStem": "BFSDUAL_LF02_LS04",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF02-LS05",
+      "title": "Ist der Kundenauftrag wirklich abgeschlossen?",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF02/LS05",
+      "version": "1.8.8",
+      "archiveStem": "BFSDUAL_LF02_LS05",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF03-LS01",
+      "title": "Beschaffung wirtschaftlich planen – die richtige Bestellstrategie für Global Bike",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF03/LS01",
+      "version": "1.8.8",
+      "archiveStem": "BFSDUAL_LF03_LS01",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF03-LS02",
+      "title": "Lagerhaltung optimieren – ABC-Analyse und Entscheidung über Eigen- oder Fremdlagerung",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF03/LS02",
+      "version": "1.8.8",
+      "archiveStem": "BFSDUAL_LF03_LS02",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF03-LS03",
+      "title": "Wenn Lieferungen nicht wie vereinbart erfolgen",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF03/LS03",
+      "version": "1.8.8",
+      "archiveStem": "BFSDUAL_LF03_LS03",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
     }
   ]
 }
