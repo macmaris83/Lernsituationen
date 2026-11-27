@@ -3,3 +3,4 @@ Lernpfadübung LS 2.4
 Grundlage: GB_Angebot_Bestellung_Gesamtpaket_Q4.zip · Übungen Ü1–Ü7, Verzeichnis 04_Uebungen und zugehörige Übungs-XML
 30 Kernaufgaben und 48 Reserveaufgaben.
 Paket und Browserablauf mit simulierter SCORM-1.2-Schnittstelle geprüft. Beide Festigungsvarianten, Stufenaufstieg, Transfer, Fortsetzen und Lehrkraft-Export geprüft.
+Antwortlängen, Formulierungen und Lösungsschlüssel geprüft. Neue Mischungen bei einem neuen Versuch und gleichbleibende Reihenfolge beim Fortsetzen im Browser geprüft.

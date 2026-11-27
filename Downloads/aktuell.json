@@ -809,10 +809,10 @@
       "bereich": "BFS Dual · LF01",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF01/LS1_1",
-      "version": "1.0",
-      "archive": "Downloads/BFSDUAL-LERNPFAD-LF01-LS1_1/BFSdual_LF01_Lernpfad_LS1_1_v1.0_SCORM12.zip",
-      "masterSha256": "467317e03392c077928ab358a0fa93c2fd5b690930f2b642157f902e7ce6fb1d",
-      "archiveSha256": "4047d929e0af9519e9a4ecde27c2bc1e84f69a1b2752ebc903dd7475ce2074d6",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF01-LS1_1/BFSdual_LF01_Lernpfad_LS1_1_v1.1_SCORM12.zip",
+      "masterSha256": "c37f33d7081e3d23e5133229b547b4ce5905650f2edf3f14f704f0bce79d83d3",
+      "archiveSha256": "6726e0cf994efa5b1b6ed26a4c8a161014da0f7906b5c751b7858d420a3dec09",
       "files": 18
     },
     {
@@ -821,10 +821,10 @@
       "bereich": "BFS Dual · LF01",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF01/LS1_3",
-      "version": "1.0",
-      "archive": "Downloads/BFSDUAL-LERNPFAD-LF01-LS1_3/BFSdual_LF01_Lernpfad_LS1_3_v1.0_SCORM12.zip",
-      "masterSha256": "a967c3900390a3fe35dbe52f399a2fa99e719e94fce293e7325c5106f1f9faf9",
-      "archiveSha256": "5b99dbd9a0b0db01dfd6582f48885d6322eabb17015dd6d4ad139837526f0a07",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF01-LS1_3/BFSdual_LF01_Lernpfad_LS1_3_v1.1_SCORM12.zip",
+      "masterSha256": "aff82ddbf0d043a97fe42f62146d67be57b96382b2bea8fcff8650cf7f6e377b",
+      "archiveSha256": "6afe531a162e02fa9a11b2f045336fff4b3b91c9fd8ead2e9d5bb3fa49799bc0",
       "files": 18
     },
     {
@@ -833,10 +833,10 @@
       "bereich": "BFS Dual · LF02",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF02/LS2_1",
-      "version": "1.0",
-      "archive": "Downloads/BFSDUAL-LERNPFAD-LF02-LS2_1/BFSdual_LF02_Lernpfad_LS2_1_v1.0_SCORM12.zip",
-      "masterSha256": "388ecb7478b6a70d124d57afcd923fa72e7e015a6ea5feb82a69b9c0502a4a0f",
-      "archiveSha256": "2e9e9dc0e4df1a5aa8438433fa84a28de6716c516b4076d5fe75f38fbe857841",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF02-LS2_1/BFSdual_LF02_Lernpfad_LS2_1_v1.1_SCORM12.zip",
+      "masterSha256": "7f85172f2034a64ff8aad2be865271288a6e3227dfb05e794d0e93bc215f8726",
+      "archiveSha256": "a8ffc4f58156685e6b166b9966698b1c947fbb5eeaf635d9a055e11a57535c87",
       "files": 18
     },
     {
@@ -845,10 +845,10 @@
       "bereich": "BFS Dual · LF02",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF02/LS2_2",
-      "version": "1.0",
-      "archive": "Downloads/BFSDUAL-LERNPFAD-LF02-LS2_2/BFSdual_LF02_Lernpfad_LS2_2_v1.0_SCORM12.zip",
-      "masterSha256": "04ef89311e88492650e976ad181fc32bd277eb6c30a952e3a4c2085dbd229eba",
-      "archiveSha256": "86d33e1fb68eadc8e408d9f490ede68a3ccaeb95fb4c7eaaffaec85556ddb39e",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF02-LS2_2/BFSdual_LF02_Lernpfad_LS2_2_v1.1_SCORM12.zip",
+      "masterSha256": "bc7b38b94c92ba7abc504c1422fd72b4ac66ede659355eea4135d081b6cff902",
+      "archiveSha256": "cf8f6a76252bb5a3184711efa7b59a6939882b574d170734ca6cd4074a500b56",
       "files": 18
     },
     {
@@ -857,10 +857,10 @@
       "bereich": "BFS Dual · LF02",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF02/LS2_3",
-      "version": "1.0",
-      "archive": "Downloads/BFSDUAL-LERNPFAD-LF02-LS2_3/BFSdual_LF02_Lernpfad_LS2_3_v1.0_SCORM12.zip",
-      "masterSha256": "01a176baf63ab2bab500b4ebb1fb219274a74c0faae4c91591112821ad394a85",
-      "archiveSha256": "5835d0863166956b3f5d4763548f21599e2a9514f66a409a93f368f39e2de392",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF02-LS2_3/BFSdual_LF02_Lernpfad_LS2_3_v1.1_SCORM12.zip",
+      "masterSha256": "4ab18cdd3a6172add6d21bdcd9fa9a3d1e24e8b92b0e5478239eb5d450b070e8",
+      "archiveSha256": "96f939eb1f7c835c75d9f026aedb844fc2c367ed5a58f43166932e14e7ac3b89",
       "files": 18
     },
     {
@@ -869,10 +869,10 @@
       "bereich": "BFS Dual · LF02",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF02/LS2_4",
-      "version": "1.0",
-      "archive": "Downloads/BFSDUAL-LERNPFAD-LF02-LS2_4/BFSdual_LF02_Lernpfad_LS2_4_v1.0_SCORM12.zip",
-      "masterSha256": "ba01656b5c79df9dd84885c8cd37e7532d7cd6c25661da2ce2e9e1a7b20b8bb7",
-      "archiveSha256": "6a2592b9a115dc5c2519397187ddf6a3e5e970108b8d8ecd4d1c7202628198e3",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF02-LS2_4/BFSdual_LF02_Lernpfad_LS2_4_v1.1_SCORM12.zip",
+      "masterSha256": "db6ced5d5ea7e16eec1b5022e8e1f0805093d7d409e137b515b8aa5ae33318bf",
+      "archiveSha256": "68a3d7b5d88f5cd33d8b7edcca69dc8d88e3fdc958f85f83ca521223ced3eaa4",
       "files": 18
     },
     {
@@ -881,10 +881,10 @@
       "bereich": "BFS Dual · LF02",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF02/LS2_5",
-      "version": "1.0",
-      "archive": "Downloads/BFSDUAL-LERNPFAD-LF02-LS2_5/BFSdual_LF02_Lernpfad_LS2_5_v1.0_SCORM12.zip",
-      "masterSha256": "25e6a9621ed5113d00a45a5ec71629012bec4b2c85beceafa974c11ba39ed5c0",
-      "archiveSha256": "02f2a2a06e13434213423637f8c69bf518cbc66bb3333f70a5ff8166e2914c41",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF02-LS2_5/BFSdual_LF02_Lernpfad_LS2_5_v1.1_SCORM12.zip",
+      "masterSha256": "641b463ac3573fb2cc5c3731b16a395ee2cfb02cc9d828cbf76abb783a591bba",
+      "archiveSha256": "656b37656c3afa076dff3cd0ca3c77c3414865b7293a456ea8db8e847e9085d1",
       "files": 18
     },
     {
@@ -893,10 +893,10 @@
       "bereich": "BFS Dual · LF03",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF03/LS3_1",
-      "version": "1.0",
-      "archive": "Downloads/BFSDUAL-LERNPFAD-LF03-LS3_1/BFSdual_LF03_Lernpfad_LS3_1_v1.0_SCORM12.zip",
-      "masterSha256": "2e9a727ca3d0c512f53ed5f93414e7ed091fe4c9768a447e19eee5fbc0cda21e",
-      "archiveSha256": "d73d329af378863f24210988f78f420f4a908fc7238fc9e63d6b8a2f697874da",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF03-LS3_1/BFSdual_LF03_Lernpfad_LS3_1_v1.1_SCORM12.zip",
+      "masterSha256": "22a987b9db23d84be82dfb78621ab08cb19805ecbda2a3ce48c62bebb6429c10",
+      "archiveSha256": "ff684a75fabcfe0a66f418fb09898093efc653d932b8ac381cd46118f4b7ac60",
       "files": 18
     },
     {
@@ -905,10 +905,10 @@
       "bereich": "BFS Dual · LF03",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF03/LS3_2",
-      "version": "1.0",
-      "archive": "Downloads/BFSDUAL-LERNPFAD-LF03-LS3_2/BFSdual_LF03_Lernpfad_LS3_2_v1.0_SCORM12.zip",
-      "masterSha256": "cb5c77d161eb82ead6d5c7f0aa68509a16baeb60bf3d8852c16a2a4e0f15af7e",
-      "archiveSha256": "68b11cf7899775698dd957fd341ac9311689751ae7b891aeece05de009a122bd",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF03-LS3_2/BFSdual_LF03_Lernpfad_LS3_2_v1.1_SCORM12.zip",
+      "masterSha256": "caf5bca424e3525f9868e34e2bae8d1eec4d307ceef3e9fa772c999a98804003",
+      "archiveSha256": "f7d92c01e3a1e9df4afa3c2c2b3c1f3440786b05f7897096b49e5541c0be4d47",
       "files": 18
     },
     {
@@ -917,10 +917,10 @@
       "bereich": "BFS Dual · LF03",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF03/LS3_3",
-      "version": "1.0",
-      "archive": "Downloads/BFSDUAL-LERNPFAD-LF03-LS3_3/BFSdual_LF03_Lernpfad_LS3_3_v1.0_SCORM12.zip",
-      "masterSha256": "347d53751bc69c7d46276822daaa6da041a9cb2413298eeb58b41d35d51e9bf7",
-      "archiveSha256": "9998fa67d0bdef99a8423703e67c7f2cc255ff19f8f84030602048f4a218812b",
+      "version": "1.1",
+      "archive": "Downloads/BFSDUAL-LERNPFAD-LF03-LS3_3/BFSdual_LF03_Lernpfad_LS3_3_v1.1_SCORM12.zip",
+      "masterSha256": "1569c76a36dd2236f4311e6d9f310aff0872bc9f823094f235b70c7ebea44d01",
+      "archiveSha256": "82abe6554942219f41cf5058e1c0a08546a5314e34b2ce65594e4583d2e345f7",
       "files": 18
     }
   ]

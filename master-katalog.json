@@ -622,7 +622,7 @@
       "bereich": "BFS Dual · LF01",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF01/LS1_1",
-      "version": "1.0",
+      "version": "1.1",
       "archiveStem": "BFSdual_LF01_Lernpfad_LS1_1"
     },
     {
@@ -631,7 +631,7 @@
       "bereich": "BFS Dual · LF01",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF01/LS1_3",
-      "version": "1.0",
+      "version": "1.1",
       "archiveStem": "BFSdual_LF01_Lernpfad_LS1_3"
     },
     {
@@ -640,7 +640,7 @@
       "bereich": "BFS Dual · LF02",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF02/LS2_1",
-      "version": "1.0",
+      "version": "1.1",
       "archiveStem": "BFSdual_LF02_Lernpfad_LS2_1"
     },
     {
@@ -649,7 +649,7 @@
       "bereich": "BFS Dual · LF02",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF02/LS2_2",
-      "version": "1.0",
+      "version": "1.1",
       "archiveStem": "BFSdual_LF02_Lernpfad_LS2_2"
     },
     {
@@ -658,7 +658,7 @@
       "bereich": "BFS Dual · LF02",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF02/LS2_3",
-      "version": "1.0",
+      "version": "1.1",
       "archiveStem": "BFSdual_LF02_Lernpfad_LS2_3"
     },
     {
@@ -667,7 +667,7 @@
       "bereich": "BFS Dual · LF02",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF02/LS2_4",
-      "version": "1.0",
+      "version": "1.1",
       "archiveStem": "BFSdual_LF02_Lernpfad_LS2_4"
     },
     {
@@ -676,7 +676,7 @@
       "bereich": "BFS Dual · LF02",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF02/LS2_5",
-      "version": "1.0",
+      "version": "1.1",
       "archiveStem": "BFSdual_LF02_Lernpfad_LS2_5"
     },
     {
@@ -685,7 +685,7 @@
       "bereich": "BFS Dual · LF03",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF03/LS3_1",
-      "version": "1.0",
+      "version": "1.1",
       "archiveStem": "BFSdual_LF03_Lernpfad_LS3_1"
     },
     {
@@ -694,7 +694,7 @@
       "bereich": "BFS Dual · LF03",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF03/LS3_2",
-      "version": "1.0",
+      "version": "1.1",
       "archiveStem": "BFSdual_LF03_Lernpfad_LS3_2"
     },
     {
@@ -703,7 +703,7 @@
       "bereich": "BFS Dual · LF03",
       "typ": "Lernpfadübung",
       "master": "Fachbereiche/BFSdual/Lernpfaduebungen/LF03/LS3_3",
-      "version": "1.0",
+      "version": "1.1",
       "archiveStem": "BFSdual_LF03_Lernpfad_LS3_3"
     }
   ]

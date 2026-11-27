@@ -69,16 +69,16 @@ Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-K
 | BFS Dual · LF06 | LS 6.6 · Werbemittel für beide Standorte gestalten | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF06-LS6_6/BFSdual_LF06_Lernpfad_LS6_6_v1.1_SCORM12.zip) |
 | BFS Dual · LF06 | LS 6.7 · Die Entwürfe vor der Freigabe prüfen | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF06-LS6_7/BFSdual_LF06_Lernpfad_LS6_7_v1.1_SCORM12.zip) |
 | BFS Dual · LF06 | LS 6.8 · Über die Fortführung der Aktion entscheiden | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF06-LS6_8/BFSdual_LF06_Lernpfad_LS6_8_v1.1_SCORM12.zip) |
-| BFS Dual · LF01 | LS 1.1 · Unternehmen erkunden, vergleichen und präsentieren | 1.0 | [ZIP](BFSDUAL-LERNPFAD-LF01-LS1_1/BFSdual_LF01_Lernpfad_LS1_1_v1.0_SCORM12.zip) |
-| BFS Dual · LF01 | LS 1.3 · Betriebliche Strukturen und Zuständigkeiten verstehen | 1.0 | [ZIP](BFSDUAL-LERNPFAD-LF01-LS1_3/BFSdual_LF01_Lernpfad_LS1_3_v1.0_SCORM12.zip) |
-| BFS Dual · LF02 | LS 2.1 · Kommunikation und Absatz I (Theorie) | 1.0 | [ZIP](BFSDUAL-LERNPFAD-LF02-LS2_1/BFSdual_LF02_Lernpfad_LS2_1_v1.0_SCORM12.zip) |
-| BFS Dual · LF02 | LS 2.2 · Kommunikation und Absatz II (Praxis) | 1.0 | [ZIP](BFSDUAL-LERNPFAD-LF02-LS2_2/BFSdual_LF02_Lernpfad_LS2_2_v1.0_SCORM12.zip) |
-| BFS Dual · LF02 | LS 2.3 · Rechtliche Grundlagen für Kaufverträge (Theorie) | 1.0 | [ZIP](BFSDUAL-LERNPFAD-LF02-LS2_3/BFSdual_LF02_Lernpfad_LS2_3_v1.0_SCORM12.zip) |
-| BFS Dual · LF02 | LS 2.4 · Kundenangebote erstellen und Bestellungen prüfen | 1.0 | [ZIP](BFSDUAL-LERNPFAD-LF02-LS2_4/BFSdual_LF02_Lernpfad_LS2_4_v1.0_SCORM12.zip) |
-| BFS Dual · LF02 | LS 2.5 · Auftrag abwickeln und auswerten | 1.0 | [ZIP](BFSDUAL-LERNPFAD-LF02-LS2_5/BFSdual_LF02_Lernpfad_LS2_5_v1.0_SCORM12.zip) |
-| BFS Dual · LF03 | LS 3.1 · Beschaffung wirtschaftlich planen – die richtige Bestellstrategie für Global Bike | 1.0 | [ZIP](BFSDUAL-LERNPFAD-LF03-LS3_1/BFSdual_LF03_Lernpfad_LS3_1_v1.0_SCORM12.zip) |
-| BFS Dual · LF03 | LS 3.2 · Lagerhaltung optimieren – ABC-Analyse und Entscheidung über Eigen- oder Fremdlagerung | 1.0 | [ZIP](BFSDUAL-LERNPFAD-LF03-LS3_2/BFSdual_LF03_Lernpfad_LS3_2_v1.0_SCORM12.zip) |
-| BFS Dual · LF03 | LS 3.3 · Wenn Lieferungen nicht wie vereinbart erfolgen | 1.0 | [ZIP](BFSDUAL-LERNPFAD-LF03-LS3_3/BFSdual_LF03_Lernpfad_LS3_3_v1.0_SCORM12.zip) |
+| BFS Dual · LF01 | LS 1.1 · Unternehmen erkunden, vergleichen und präsentieren | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF01-LS1_1/BFSdual_LF01_Lernpfad_LS1_1_v1.1_SCORM12.zip) |
+| BFS Dual · LF01 | LS 1.3 · Betriebliche Strukturen und Zuständigkeiten verstehen | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF01-LS1_3/BFSdual_LF01_Lernpfad_LS1_3_v1.1_SCORM12.zip) |
+| BFS Dual · LF02 | LS 2.1 · Kommunikation und Absatz I (Theorie) | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF02-LS2_1/BFSdual_LF02_Lernpfad_LS2_1_v1.1_SCORM12.zip) |
+| BFS Dual · LF02 | LS 2.2 · Kommunikation und Absatz II (Praxis) | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF02-LS2_2/BFSdual_LF02_Lernpfad_LS2_2_v1.1_SCORM12.zip) |
+| BFS Dual · LF02 | LS 2.3 · Rechtliche Grundlagen für Kaufverträge (Theorie) | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF02-LS2_3/BFSdual_LF02_Lernpfad_LS2_3_v1.1_SCORM12.zip) |
+| BFS Dual · LF02 | LS 2.4 · Kundenangebote erstellen und Bestellungen prüfen | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF02-LS2_4/BFSdual_LF02_Lernpfad_LS2_4_v1.1_SCORM12.zip) |
+| BFS Dual · LF02 | LS 2.5 · Auftrag abwickeln und auswerten | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF02-LS2_5/BFSdual_LF02_Lernpfad_LS2_5_v1.1_SCORM12.zip) |
+| BFS Dual · LF03 | LS 3.1 · Beschaffung wirtschaftlich planen – die richtige Bestellstrategie für Global Bike | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF03-LS3_1/BFSdual_LF03_Lernpfad_LS3_1_v1.1_SCORM12.zip) |
+| BFS Dual · LF03 | LS 3.2 · Lagerhaltung optimieren – ABC-Analyse und Entscheidung über Eigen- oder Fremdlagerung | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF03-LS3_2/BFSdual_LF03_Lernpfad_LS3_2_v1.1_SCORM12.zip) |
+| BFS Dual · LF03 | LS 3.3 · Wenn Lieferungen nicht wie vereinbart erfolgen | 1.1 | [ZIP](BFSDUAL-LERNPFAD-LF03-LS3_3/BFSdual_LF03_Lernpfad_LS3_3_v1.1_SCORM12.zip) |
 
 Maschinenlesbare Zuordnung und Prüfsummen: [aktuell.json](aktuell.json).
 Vor einer automatischen Nutzung: `python tools/master.py check --archives`.
