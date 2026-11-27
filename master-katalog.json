@@ -663,6 +663,30 @@
       "manifestOnly": true,
       "formVersion": "1.8.8",
       "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF02-LS06A",
+      "title": "Excel für Büroaufgaben – Eine digitale Büroübersicht erstellen",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF02/LS06A",
+      "version": "1.8.14",
+      "archiveStem": "BFSDUAL_LF02_LS06A",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF02-LS06B",
+      "title": "Absatzvorgänge mit SAP durchführen",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF02/LS06B",
+      "version": "1.8.14",
+      "archiveStem": "BFSDUAL_LF02_LS06B",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
     }
   ]
 }

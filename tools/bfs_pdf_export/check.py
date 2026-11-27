@@ -24,8 +24,12 @@ def inspect_pdf(data):
  assert len(d)>0
  assert all(s.get_text().strip() or s.get_images() for s in d),'Leerseite'
  return ' '.join(' '.join(s.get_text() for s in d).split())
+def lesson_number(folder):
+ if folder.name=='LS09':return '6.9'
+ match=re.fullmatch(r'LS(\d+)([A-Z]?)',folder.name)
+ return f'{int(folder.parent.name[2:])}.{int(match[1])}{match[2].lower()}'
 def case(d):
- old=d.name=='LS09';ls='6.9' if old else f'{int(d.parent.name[2:])}.{int(d.name[2:])}'
+ old=d.name=='LS09';ls=lesson_number(d)
  url=origin+quote(d.relative_to(BASE).as_posix())+'/'
  def addr(phase):return url+('index.html#'+phase if old else phase+'.html')
  with sync_playwright() as pw:
@@ -45,11 +49,15 @@ def case(d):
   for phase in phases:
    page.goto(addr(phase))
    if phase=='durchfuehren':
-    page.get_by_text(re.compile('Wähle .*zuerst deinen Lernweg')).wait_for()
+    if old:page.get_by_text(re.compile('Wähle .*zuerst deinen Lernweg')).wait_for()
+    else:page.wait_for_url(addr('entscheiden')+'?wahl-erforderlich=1')
     for path in 'ABC':
      page.goto(addr('entscheiden'))
      if old:page.locator('[data-save="paket"]').select_option(path)
-     else:page.locator(f'input[name="lernweg"][value="{path}"]').check()
+     else:
+      choice=page.locator('[data-bfs-choice]')
+      choice.locator('.task-summary').click()
+      choice.locator(f'.task-focus-panel input[name="lernweg"][value="{path}"]').check()
      page.goto(addr(phase))
      link=page.get_by_role('link',name='GoodNotes-Export')
      assert link.count()==1,(ls,phase,path)
@@ -86,6 +94,6 @@ def case(d):
 selected=set(os.environ.get('BFS_PDF_CASES','').split())
 folders=[*sorted(BFS.glob('LF0[123]/LS*')),BFS/'LF06/Buero/LS09']
 if selected:
- folders=[d for d in folders if ('6.9' if d.name=='LS09' else f'{int(d.parent.name[2:])}.{int(d.name[2:])}') in selected]
+ folders=[d for d in folders if lesson_number(d) in selected]
 with ThreadPoolExecutor(3) as pool:
  list(pool.map(case,folders))

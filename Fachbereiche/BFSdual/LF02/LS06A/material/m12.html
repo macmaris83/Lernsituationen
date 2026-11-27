@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>M12 – Diagramme in Excel erstellen, gestalten und aktualisieren</title><link href="../assets/global-bike.css" rel="stylesheet"><style>main.excel{max-width:72rem;margin:auto;padding:1rem 3vw;background:white;font:1rem/1.55 system-ui;color:#17324b}.excel img{max-width:100%;height:auto}.excel table{display:block;overflow:auto;border-collapse:collapse}.excel td,.excel th{padding:.4rem;border:1px solid #b7c7d0}.excel a{text-decoration:underline}</style><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main class="excel">
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app onenote" data-material-view="onenote" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">N</span>
+    <strong>OneNote</strong><span class="file">m12</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Notizen</span><span class="material-tab">Arbeitsunterlagen</span><span class="material-kind">Notiz / Arbeitsblatt</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Notizbuch</span><span class="material-rail-item is-active">Notizen</span><span class="material-rail-item">Unterlagen</span><span class="material-rail-item">Besprechungen</span></aside>
+    <section class="canvas"><article class="paper"><article><h1 id="m12--diagramme-in-excel-erstellen-gestalten-und-aktualisieren" data-edit-text="material/m12.html::text-1">M12 – Diagramme in Excel erstellen, gestalten und aktualisieren</h1>
+<p data-edit-text="material/m12.html::text-2">Global Bike Deutschland GmbH – Verwaltung</p>
+<h2 id="1-betrieblicher-nutzen" data-edit-text="material/m12.html::text-3">1. Betrieblicher Nutzen</h2>
+<p data-edit-text="material/m12.html::text-4">Für interne Besprechungen benötigt die Verwaltung verständliche, überprüfbare und wiederverwendbare Auswertungen. M11 unterstützt die Auswahl des Diagrammtyps. M12 erklärt die technische Umsetzung. Die verbindlichen Ausgangsdaten stehen in M1. Alle folgenden Beispiele sind davon unabhängige simulierte Schulungsdaten, keine SAP-Daten und keine Lösungen des Hauptfalls. Die Diagrammwahl für das Lernpaket bleibt offen.</p>
+<p data-edit-text="material/m12.html::text-5">Die Klickwege beziehen sich auf deutschsprachiges Desktop-Excel unter Windows. Je nach Version können Bezeichnungen und Symbole abweichen. Die Abbildungen sind schematische Lernhilfen, keine Originalscreenshots.</p>
+<h2 id="2-eine-geeignete-datenquelle-vorbereiten" data-edit-text="material/m12.html::text-6">2. Eine geeignete Datenquelle vorbereiten</h2>
+<p data-edit-text="material/m12.html::text-7">Beispiel: Die Verwaltung erfasst für eine separate interne Schulung die Anzahl geprüfter Dokumente in zwei Bearbeitungsbereichen.</p>
+<table>
+<thead>
+<tr class="header">
+<th>A: Monat</th>
+<th style="text-align: right;">B: Verkauf</th>
+<th style="text-align: right;">C: Verwaltung</th>
+<th style="text-align: right;">D: Gesamt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Juli</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td>August</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr class="odd">
+<td>September</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">13</td>
+</tr>
+<tr class="even">
+<td>Oktober</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">18</td>
+</tr>
+</tbody>
+</table>
+<p><span data-edit-text="material/m12.html::segment-1">Die Überschriften stehen in Zeile 1. In D2 steht </span><code>=SUMME(B2:C2)</code><span data-edit-text="material/m12.html::segment-2">. Die Formel wird bis D5 kopiert. Die Werte in B und C sind Eingaben, D enthält berechnete Ergebnisse. Bei einer Änderung der Eingaben muss die Summe automatisch neu berechnet werden.</span></p>
+<p data-edit-text="material/m12.html::text-8">Für den Vergleich der Bereiche eignet sich A1:C5. Die Gesamtspalte wird nicht zusätzlich als gleichwertiger Bereich dargestellt. Für eine Darstellung der Gesamtentwicklung werden Monat und Gesamt ausgewählt. Die getrennten Bereiche A1:A5 und D1:D5 können bei gedrückter Strg-Taste markiert werden; falls Excel die Zuordnung nicht richtig erkennt, hilft der Dialog Daten auswählen. Alternativ kann eine zusammenhängende, formelbasierte Auswertungstabelle mit Monat und Gesamt angelegt werden.</p>
+<p data-edit-text="material/m12.html::text-9">Keine Leerzeilen, verbundenen Zellen oder Zwischensummen im ausgewählten Datenbereich. Überschriften müssen eindeutig sein. Zahlen dürfen nicht als Text gespeichert sein. Fehlende Werte sind nicht automatisch null. Bei gefilterten Listen ist zu prüfen, welche Werte tatsächlich dargestellt werden.</p>
+<p><img src="Grafiken/G14_Datenquelle.png" alt="Auswahl der Datenbereiche und berechnete Gesamtspalte" data-edit-image="material/m12.html::image-1"></p>
+<h2 id="3-klick-anleitung-säulendiagramm-erstellen" data-edit-text="material/m12.html::text-10">3. Klick-Anleitung: Säulendiagramm erstellen</h2>
+<ol type="1">
+<li data-edit-text="material/m12.html::text-11">Übungsdaten in ein separates Arbeitsblatt eingeben und Summenformeln ergänzen.</li>
+<li data-edit-text="material/m12.html::text-12">A1:C5 markieren.</li>
+<li data-edit-text="material/m12.html::text-13">Register Einfügen öffnen.</li>
+<li data-edit-text="material/m12.html::text-14">In der Gruppe Diagramme auf Säulen- oder Balkendiagramm einfügen klicken.</li>
+<li data-edit-text="material/m12.html::text-15">Unter 2D-Säule die Variante Gruppierte Säulen wählen.</li>
+<li data-edit-text="material/m12.html::text-16">Diagramm anklicken. Die kontextbezogenen Register Diagrammentwurf und Format erscheinen.</li>
+<li data-edit-text="material/m12.html::text-17">Diagrammtitel anklicken und einen aussagekräftigen Titel eingeben.</li>
+<li data-edit-text="material/m12.html::text-18">Kategorien, Datenreihen und Werte mit der Quelle vergleichen.</li>
+<li data-edit-text="material/m12.html::text-19">Diagramm an eine freie Stelle ziehen; Größe über die Eckpunkte verändern.</li>
+<li><a href="../ls-glossar.html?from=material%2Fm12.html%23wort-arbeitsmappe#arbeitsmappe" id="wort-arbeitsmappe" data-edit-text="material/m12.html::segment-4" data-edit-link="material/m12.html::link-1">Arbeitsmappe</a><span data-edit-text="material/m12.html::segment-3"> speichern.</span></li>
+</ol>
+<p data-edit-text="material/m12.html::text-20">Erwartetes Ergebnis: vier Monatsgruppen mit je zwei Säulen. Die Reihen heißen Verkauf und Verwaltung. Die Höhen entsprechen den acht Eingabewerten. Die Werteachse beginnt bei null.</p>
+<p><img src="Grafiken/G14a_Saeulen.png" alt="Gruppierte Säulen mit zwei Datenreihen" data-edit-image="material/m12.html::image-2"></p>
+<h2 id="4-klick-anleitungen-für-weitere-diagrammtypen" data-edit-text="material/m12.html::text-21">4. Klick-Anleitungen für weitere Diagrammtypen</h2>
+<h3 id="balken" data-edit-text="material/m12.html::text-22">Balken</h3>
+<p><span data-edit-text="material/m12.html::segment-5">Für eine </span><a href="../ls-glossar.html?from=material%2Fm12.html%23wort-rangfolge#rangfolge" id="wort-rangfolge" data-edit-text="material/m12.html::segment-7" data-edit-link="material/m12.html::link-2">Rangfolge</a><span data-edit-text="material/m12.html::segment-6"> werden in einem unabhängigen Schulungsbeispiel drei Arten von Büroverbrauchsmaterial verglichen: Versandmaterial 120 EUR, Druckmaterial 80 EUR, Etiketten 40 EUR netto. Die Überschriften lauten Kostenart und Betrag netto EUR.</span></p>
+<p data-edit-text="material/m12.html::text-23">Daten samt Überschriften markieren &gt; Einfügen &gt; Säulen- oder Balkendiagramm einfügen &gt; 2D-Balken &gt; Gruppierte Balken. Die Kategorien stehen auf der senkrechten Achse. Wenn die größte Kategorie unten erscheint: Rechtsklick auf Kategorienachse &gt; Achse formatieren &gt; Kategorien in umgekehrter Reihenfolge. Anschließend die Position der Werteachse prüfen.</p>
+<h3 id="linie" data-edit-text="material/m12.html::text-24">Linie</h3>
+<p data-edit-text="material/m12.html::text-25">Für die Entwicklung der Gesamtzahl aus Abschnitt 2 Monat und Gesamt auswählen &gt; Einfügen &gt; Linien- oder Flächendiagramm einfügen &gt; 2D-Linie &gt; Linie mit Datenpunkten. Die vier Werte lauten 10, 14, 13 und 18. Zeitpunkte chronologisch anordnen. Die Linie zeigt keine durchgehend steigende Entwicklung.</p>
+<h3 id="kreis" data-edit-text="material/m12.html::text-26">Kreis</h3>
+<p data-edit-text="material/m12.html::text-27">Für die Zusammensetzung der 240 EUR aus dem Balkenbeispiel die drei Kostenarten und Beträge einschließlich Überschriften markieren &gt; Einfügen &gt; Kreis- oder Ringdiagramm einfügen &gt; 2D-Kreis. Die Gesamtzeile nicht markieren. Die Anteile betragen 50 %, rund 33,33 % und rund 16,67 %. Keine Achsentitel ergänzen, da ein Kreisdiagramm keine Achsen hat.</p>
+<p><img src="Grafiken/G14b_Varianten.png" alt="Übersicht der Daten für Linien-, Balken- und Kreisdiagramm" data-edit-image="material/m12.html::image-3"></p>
+<h2 id="5-diagrammtitel-achsentitel-und-legende" data-edit-text="material/m12.html::text-28">5. Diagrammtitel, Achsentitel und Legende</h2>
+<p data-edit-text="material/m12.html::text-29">Ein guter Titel beantwortet, was dargestellt wird und auf welchen Zeitraum sich die Werte beziehen. Beispiel: Geprüfte Dokumente nach Bearbeitungsbereich – Juli bis Oktober 2027. Eine Überschrift wie Diagramm 1 ist nicht aussagekräftig.</p>
+<p data-edit-text="material/m12.html::text-30">Klickweg: Diagramm auswählen &gt; Diagrammentwurf &gt; Diagrammelement hinzufügen &gt; Diagrammtitel &gt; Über Diagramm. Titeltext anklicken und ersetzen.</p>
+<p data-edit-text="material/m12.html::text-31">Für Achsentitel: Diagrammentwurf &gt; Diagrammelement hinzufügen &gt; Achsentitel &gt; Primär horizontal bzw. Primär vertikal. Textfelder anklicken und beschriften. Im Säulenbeispiel lautet die horizontale Achse Monat 2027, die vertikale Anzahl geprüfter Dokumente. Beim Balkendiagramm liegt die Werteachse horizontal.</p>
+<p data-edit-text="material/m12.html::text-32">Für die Legende: Diagrammentwurf &gt; Diagrammelement hinzufügen &gt; Legende &gt; geeignete Position wählen, etwa unten. Die Legende darf keine Daten verdecken. Bei mehreren Reihen sind verständliche Reihenbezeichnungen erforderlich. Eine Legende mit Reihe1 und Reihe2 deutet auf fehlende oder falsch zugeordnete Überschriften hin. Bei einem Kreisdiagramm ordnet sie Kategorien den Sektoren zu.</p>
+<p><img src="Grafiken/G14c_Elemente.png" alt="Diagrammelemente und ihre Funktionen" data-edit-image="material/m12.html::image-4"></p>
+<h2 id="6-datenbeschriftungen-und-zahlenformate" data-edit-text="material/m12.html::text-33">6. Datenbeschriftungen und Zahlenformate</h2>
+<p data-edit-text="material/m12.html::text-34">Diagramm auswählen &gt; Diagrammentwurf &gt; Diagrammelement hinzufügen &gt; Datenbeschriftungen &gt; geeignete Position. Bei Säulen eignen sich häufig Beschriftungen am äußeren Ende. Bei Linien können Werte oberhalb der Datenpunkte stehen. Bei vielen Werten kann eine Beschriftung jedes Punktes die Lesbarkeit verschlechtern.</p>
+<p data-edit-text="material/m12.html::text-35">Rechtsklick auf eine Datenbeschriftung &gt; Datenbeschriftungen formatieren &gt; Beschriftungsoptionen bzw. Zahl. Geldbeträge mit geeigneter Währungsdarstellung und Stückzahlen ohne unnötige Nachkommastellen anzeigen. Die Formatierung ändert nicht den gespeicherten Wert.</p>
+<p data-edit-text="material/m12.html::text-36">Beim Kreisdiagramm Datenbeschriftungen hinzufügen &gt; Rechtsklick &gt; Datenbeschriftungen formatieren &gt; Prozentsatz aktivieren; bei Bedarf Kategoriename aktivieren und Wert deaktivieren. Prozentwerte mit sinnvoller Genauigkeit anzeigen. Rundungsbedingt können angezeigte Anteile von 100 % geringfügig abweichen.</p>
+<h2 id="7-achsen-und-skalierung" data-edit-text="material/m12.html::text-37">7. Achsen und Skalierung</h2>
+<p data-edit-text="material/m12.html::text-38">Rechtsklick auf die Werteachse &gt; Achse formatieren &gt; Achsenoptionen. Unter Grenzen können Minimum und Maximum eingestellt werden; unter Einheiten die Hauptintervalle. Bei Säulen und Balken grundsätzlich Minimum 0 verwenden. Das Maximum muss alle Werte einschließen. Automatische Grenzen sind bei veränderlichen Daten häufig sinnvoller als feste Obergrenzen.</p>
+<p data-edit-text="material/m12.html::text-39">Für das Säulenbeispiel ist ein Maximum von 12 mit Hauptintervall 2 für die ursprünglichen Einzelwerte möglich. Bei späteren größeren Werten muss eine feste Obergrenze angepasst oder auf Automatisch zurückgesetzt werden.</p>
+<p data-edit-text="material/m12.html::text-40">Bei Linien kann eine andere klar erkennbare Skalierung begründet sein. Zeitachsen müssen die zeitlichen Abstände sachgerecht abbilden. Für Monatsnamen als Text ist eine Kategorienachse mit gleichmäßigen Monatsabständen geeignet. Bei unregelmäßigen Datumsabständen echte Datumswerte und eine geeignete Datumsachse oder ein XY-Diagramm prüfen.</p>
+<p data-edit-text="material/m12.html::text-41">Rechtsklick auf Achse &gt; Achse formatieren &gt; Zahl: passendes Zahlenformat wählen. Gitternetzlinien über Diagrammelement hinzufügen sparsam einsetzen. Keine unnötige zweite Werteachse verwenden.</p>
+<p><img src="Grafiken/G14d_Skalierung.png" alt="Klickweg zur Skalierung mit Nullpunkt und sinnvoller Hauptteilung" data-edit-image="material/m12.html::image-5"></p>
+<h2 id="8-datenreihen-bearbeiten-und-diagrammtyp-wechseln" data-edit-text="material/m12.html::text-42">8. Datenreihen bearbeiten und Diagrammtyp wechseln</h2>
+<p data-edit-text="material/m12.html::text-43">Diagramm anklicken &gt; Diagrammentwurf &gt; Daten auswählen. Im Dialog Datenquelle auswählen stehen die Legendeneinträge (Reihen) und horizontalen Achsenbeschriftungen.</p>
+<ul>
+<li data-edit-text="material/m12.html::text-44">Bearbeiten einer Reihe: Namen und Wertebereich kontrollieren. Im Beispiel Verkauf: Name B1, Werte B2:B5.</li>
+<li><span data-edit-text="material/m12.html::segment-8">Hinzufügen: eine neue zusammengehörige </span><a href="../ls-glossar.html?from=material%2Fm12.html%23wort-datenreihe#datenreihe" id="wort-datenreihe" data-edit-text="material/m12.html::segment-10" data-edit-link="material/m12.html::link-3">Datenreihe</a><span data-edit-text="material/m12.html::segment-9"> auswählen; Kategorien und Anzahl der Werte müssen passen.</span></li>
+<li data-edit-text="material/m12.html::text-45">Entfernen: überflüssige Reihe auswählen und entfernen. Dadurch werden die Quelldaten nicht gelöscht.</li>
+<li data-edit-text="material/m12.html::text-46">Horizontale Achsenbeschriftungen bearbeiten: A2:A5 für die vier Monate auswählen.</li>
+<li data-edit-text="material/m12.html::text-47">Zeile/Spalte wechseln: wenn Excel Monate und Bearbeitungsbereiche vertauscht hat. Anschließend prüfen, ob die gewünschte Aussage wiedergegeben wird.</li>
+</ul>
+<p data-edit-text="material/m12.html::text-48">Diagrammentwurf &gt; Diagrammtyp ändern &gt; geeignete Familie und Untertyp &gt; OK. Beim Wechsel zu einem Kreisdiagramm zuerst sicherstellen, dass nur eine geeignete Reihe mit Teilen eines Ganzen vorliegt. Ein Typwechsel ändert die Darstellung, nicht die zugrunde liegenden Zahlen.</p>
+<p><img src="Grafiken/G14e_Datenreihen.png" alt="Schematischer Dialog zur Datenzuordnung" data-edit-image="material/m12.html::image-6"></p>
+<h2 id="9-zweckmäßige-gestaltung" data-edit-text="material/m12.html::text-49">9. Zweckmäßige Gestaltung</h2>
+<p data-edit-text="material/m12.html::text-50">Diagramm auswählen &gt; Diagrammentwurf &gt; Diagrammformatvorlagen oder Farben ändern. Eine schlichte 2D-Darstellung bevorzugen. Farben müssen Reihen unterscheiden, dürfen aber keine unbegründete Bewertung suggerieren. Für dieselbe Datenreihe in mehreren Diagrammen möglichst dieselbe Farbe verwenden. Zusätzlich direkte Beschriftungen oder unterschiedliche Linienarten nutzen.</p>
+<p data-edit-text="material/m12.html::text-51">Einzelne Datenreihen formatieren: Reihe anklicken &gt; Rechtsklick &gt; Datenreihen formatieren &gt; Füllung und Linie. Bei Linien können Markierungen und Stricharten ergänzt werden. Bei Säulen lässt sich die Abstandsbreite anpassen; Säulen sollen weder unnötig schmal sein noch miteinander verschmelzen.</p>
+<p data-edit-text="material/m12.html::text-52">Diagrammfläche und Zeichnungsfläche unterscheiden: Die Diagrammfläche umfasst das gesamte Objekt, die Zeichnungsfläche den Bereich der dargestellten Daten. Rechtsklick auf die jeweilige Fläche &gt; formatieren. Dezenter Hintergrund, gut lesbare Schrift und ausreichender Kontrast unterstützen die Aussage. Keine 3D-Effekte, dekorativen Schatten oder unnötigen Rahmen.</p>
+<h2 id="10-diagramme-verschieben-und-für-besprechungen-vorbereiten" data-edit-text="material/m12.html::text-53">10. Diagramme verschieben und für Besprechungen vorbereiten</h2>
+<p data-edit-text="material/m12.html::text-54">Diagramm am Rand anklicken und ziehen. Eckpunkte zum Größenändern verwenden. Für ein eigenes Diagrammblatt: Diagrammentwurf &gt; Diagramm verschieben &gt; Neues Blatt &gt; Namen vergeben. Alternativ als Objekt in einem vorhandenen Arbeitsblatt platzieren.</p>
+<p><span data-edit-text="material/m12.html::segment-11">Für eine Besprechung sollen Tabelle und Diagramm gut lesbar sein. Erste Kontrolle über Datei &gt; Drucken. Bei Bedarf Seitenlayout &gt; Ausrichtung &gt; Querformat und geeigneten </span><a href="../ls-glossar.html?from=material%2Fm12.html%23wort-druckbereich#druckbereich" id="wort-druckbereich" data-edit-text="material/m12.html::segment-13" data-edit-link="material/m12.html::link-4">Druckbereich</a><span data-edit-text="material/m12.html::segment-12"> wählen. Nicht blind auf eine Seite verkleinern: Schrift und Beschriftungen müssen lesbar bleiben. M13 behandelt Druckbereich, Skalierung und Seitenaufteilung ausführlich.</span></p>
+<p data-edit-text="material/m12.html::text-55">Beim Kopieren in ein anderes Office-Dokument zwischen verknüpftem Diagramm, eingebettetem Diagramm und Bild unterscheiden. Ein Bild ist statisch. Verknüpfungen können bei verschobenen Dateien nicht mehr funktionieren. Für die wiederverwendbare Excel-Arbeitsmappe bleibt das ursprüngliche Diagramm erhalten.</p>
+<h2 id="11-automatische-aktualisierung-bestehender-werte" data-edit-text="material/m12.html::text-56">11. Automatische Aktualisierung bestehender Werte</h2>
+<p data-edit-text="material/m12.html::text-57">Ein Excel-Diagramm ist mit seinem Datenbereich verbunden. Änderungen innerhalb dieses Bereichs werden normalerweise automatisch dargestellt, sofern Formeln neu berechnet werden.</p>
+<p data-edit-text="material/m12.html::text-58">Freiwilliger Test in der separaten Übungsdatei: B3 (Verkauf im August) von 9 auf 11 ändern. D3 muss von 14 auf 16 steigen. Im Säulendiagramm muss die August-Säule Verkauf von 9 auf 11 steigen; im Diagramm der Gesamtentwicklung muss der Augustwert 16 erscheinen. Danach B3 wieder auf 9 setzen. Die Hauptfalldaten werden nicht verändert.</p>
+<p data-edit-text="material/m12.html::text-59">Wenn Formeln nicht aktualisiert werden: Formeln &gt; Berechnungsoptionen &gt; Automatisch prüfen. Gegebenenfalls F9 zur Neuberechnung verwenden. Wenn nur das Diagramm unverändert bleibt, Datenquelle, Filter und feste Achsengrenzen kontrollieren.</p>
+<p><img src="Grafiken/G14f_Aktualisierung.png" alt="Vorher-nachher-Test: Augustwert und berechnete Summe" data-edit-image="material/m12.html::image-7"></p>
+<h2 id="12-neue-zeilen-und-wiederverwendbare-datenquellen" data-edit-text="material/m12.html::text-60">12. Neue Zeilen und wiederverwendbare Datenquellen</h2>
+<p data-edit-text="material/m12.html::text-61">Eine Änderung vorhandener Werte ist nicht dasselbe wie eine Erweiterung des Datenbereichs. Ein Diagramm mit festem Bereich A1:C5 berücksichtigt eine neue Zeile 6 nicht zuverlässig automatisch.</p>
+<p data-edit-text="material/m12.html::text-62">Möglichkeit A: Diagramm auswählen &gt; Diagrammentwurf &gt; Daten auswählen &gt; Datenbereich bzw. Reihen und Kategorien bis Zeile 6 erweitern. Auch die Summenformel muss bis D6 reichen.</p>
+<p><span data-edit-text="material/m12.html::segment-14">Möglichkeit B: Ausgangsdaten A1:D5 markieren &gt; Start &gt; Als Tabelle formatieren (alternativ Strg+T) &gt; Tabelle hat Überschriften aktivieren &gt; OK. Ein Diagramm aus den benötigten Spalten dieser Excel-Tabelle erstellen. Unterhalb der Tabelle eine neue Zeile ergänzen. Excel-Tabellen erweitern sich bei entsprechender Einstellung normalerweise automatisch; berechnete Spalten übernehmen häufig die </span><a href="../ls-glossar.html?from=material%2Fm12.html%23wort-formel#formel" id="wort-formel" data-edit-text="material/m12.html::segment-16" data-edit-link="material/m12.html::link-5">Formel</a><span data-edit-text="material/m12.html::segment-15">. Diagramme auf Basis dieser Tabelle können die Erweiterung automatisch übernehmen. Das Ergebnis muss geprüft werden, insbesondere bei getrennten Auswertungsbereichen.</span></p>
+<p><span data-edit-text="material/m12.html::segment-17">Freiwilliger Erweiterungstest: November, Verkauf 8, Verwaltung 7. Erwartete </span><a href="../ls-glossar.html?from=material%2Fm12.html%23wort-summe#summe" id="wort-summe" data-edit-text="material/m12.html::segment-19" data-edit-link="material/m12.html::link-6">Summe</a><span data-edit-text="material/m12.html::segment-18"> 15. November muss in der gewünschten Darstellung erscheinen. Falls nicht, Datenquelle und Tabellengröße kontrollieren. Anschließend Testzeile entfernen und ursprünglichen Zustand prüfen.</span></p>
+<p data-edit-text="material/m12.html::text-63">Eine Excel-Tabelle ist nicht automatisch eine fertige Auswertung: Bei Rohdaten mit vielen Einzelvorgängen sind zunächst geeignete Zusammenfassungen mit den bereits erlernten Funktionen erforderlich. Diagramme sollen auf nachvollziehbaren Auswertungswerten beruhen, nicht auf manuell nachgetragenen Ergebnissen.</p>
+<p><img src="Grafiken/G14g_Erweiterung.png" alt="Fester Datenbereich und erweiterbare Excel-Tabelle" data-edit-image="material/m12.html::image-8"></p>
+<h2 id="13-fehlersuche" data-edit-text="material/m12.html::text-64">13. Fehlersuche</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Beobachtung</th>
+<th>Mögliche Ursache</th>
+<th>Abhilfe</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Reihe1 statt Verkaufsbezeichnung</td>
+<td>Überschrift nicht ausgewählt</td>
+<td>Reihenname auf B1 beziehen</td>
+</tr>
+<tr class="even">
+<td>Monate fehlen</td>
+<td>Kategorienbereich falsch</td>
+<td>A2:A5 zuordnen</td>
+</tr>
+<tr class="odd">
+<td>Gesamt erscheint als dritter Bereich</td>
+<td>Zu großer Datenbereich</td>
+<td>Gesamt aus Reihen entfernen</td>
+</tr>
+<tr class="even">
+<td>Diagramm bleibt nach Eingabe unverändert</td>
+<td>Falsche Quelle oder manuelle Berechnung</td>
+<td>Quelle und Berechnungsoptionen prüfen</td>
+</tr>
+<tr class="odd">
+<td>Neue Zeile fehlt</td>
+<td>Fester Bereich</td>
+<td>Bereich erweitern oder Tabelle prüfen</td>
+</tr>
+<tr class="even">
+<td>Werte erscheinen als null</td>
+<td>Zahl als Text oder fehlende Werte</td>
+<td>Datentyp und Bedeutung prüfen</td>
+</tr>
+<tr class="odd">
+<td>Linie unterbrochen</td>
+<td>Leere Zelle</td>
+<td>Fehlende Daten klären; Anzeigeoptionen prüfen</td>
+</tr>
+<tr class="even">
+<td>Balken abgeschnitten</td>
+<td>Festes Maximum zu klein</td>
+<td>Grenze erhöhen oder automatisch setzen</td>
+</tr>
+<tr class="odd">
+<td>Anteile unplausibel</td>
+<td>Gesamtzeile mit ausgewählt</td>
+<td>Nur Bestandteile auswählen</td>
+</tr>
+<tr class="even">
+<td>Legende verdeckt Daten</td>
+<td>Ungünstige Position</td>
+<td>Legende verschieben</td>
+</tr>
+<tr class="odd">
+<td>Beschriftungen überlappen</td>
+<td>Zu viele Elemente</td>
+<td>Größe, Position oder Auswahl anpassen</td>
+</tr>
+<tr class="even">
+<td>Filter verändert Grafik</td>
+<td>Ausgeblendete Zeilen</td>
+<td>Sichtbare Daten prüfen</td>
+</tr>
+<tr class="odd">
+<td>Geldwerte ohne Einheit</td>
+<td>Fehlender Titel oder Format</td>
+<td>Einheit ergänzen</td>
+</tr>
+<tr class="even">
+<td>Grafik im Ausdruck unlesbar</td>
+<td>Zu starke Skalierung</td>
+<td>Layout und <a href="../ls-glossar.html?from=material%2Fm12.html%23wort-druckvorschau#druckvorschau" id="wort-druckvorschau" data-edit-link="material/m12.html::link-7">Druckvorschau</a> prüfen</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m12.html::text-65">Bei leeren oder ausgeblendeten Zellen: Diagrammentwurf &gt; Daten auswählen &gt; Ausgeblendete und leere Zellen. Verfügbare Optionen hängen vom Diagrammtyp und der Excel-Version ab. Fehlende Daten nicht ohne sachlichen Grund als null darstellen.</p>
+<h2 id="14-freiwillige-praktische-erkundung" data-edit-text="material/m12.html::text-66">14. Freiwillige praktische Erkundung</h2>
+<p data-edit-text="material/m12.html::text-67">In einer separaten Übungsdatei können die Daten aus Abschnitt 2 verwendet werden. Eine mögliche Erkundungsfolge: Formeln ergänzen, zwei Diagrammtypen vergleichen, Titel und Legende gestalten, einen Wert ändern, eine Zeile ergänzen und beide Änderungen rückgängig machen. Die Wahl des geeigneten Typs ist anhand des Aussageziels zu begründen. Für den Bereichsvergleich sind gruppierte Säulen plausibel; für die Gesamtentwicklung eine Linie. Andere fachlich begründete Darstellungen sind möglich.</p>
+<p data-edit-text="material/m12.html::text-68">Eine eigene kurze Klick-Anleitung kann als persönliche Gedächtnisstütze dienen. Sie enthält Ausgangsdaten, Menüfolge, erwartetes Ergebnis und Kontrolle. Keine zusätzliche Pflichtabgabe, keine KI und keine Bewertung.</p>
+<h2 id="15-qualitätskontrolle-vor-der-betrieblichen-nutzung" data-edit-text="material/m12.html::text-69">15. Qualitätskontrolle vor der betrieblichen Nutzung</h2>
+<p><img src="Grafiken/G14h_Qualitaet.png" alt="Prüfweg für ein betriebliches Diagramm" data-edit-image="material/m12.html::image-9"></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Aussageziel und Diagrammtyp passen zusammen.</label></li>
+<li><label><input type="checkbox">Datenquelle, Zeitraum und Einheiten stimmen.</label></li>
+<li><label><input type="checkbox">Formeln berechnen die Werte nachvollziehbar.</label></li>
+<li><label><input type="checkbox">Kategorien und Datenreihen sind richtig zugeordnet.</label></li>
+<li><label><input type="checkbox">Titel, Achsentitel (falls vorhanden), Achsenbeschriftungen und Legende sind verständlich.</label></li>
+<li><label><input type="checkbox">Skalierung und Farben verzerren die Aussage nicht.</label></li>
+<li><label><input type="checkbox">Keine unbeabsichtigten Summenzeilen oder fehlenden Daten.</label></li>
+<li><label><input type="checkbox">Änderung eines Eingabewerts wirkt sich korrekt aus.</label></li>
+<li><label><input type="checkbox">Erweiterung um eine Zeile wurde geprüft.</label></li>
+<li><label><input type="checkbox">Teständerungen wurden rückgängig gemacht.</label></li>
+<li><label><input type="checkbox">Druckvorschau ist lesbar.</label></li>
+<li><label><input type="checkbox">Beobachtung, Erklärung und Empfehlung bleiben getrennt.</label></li>
+</ul>
+<h2 id="16-freiwillige-selbstkontrolle" data-edit-text="material/m12.html::text-70">16. Freiwillige Selbstkontrolle</h2>
+<ol type="1">
+<li data-edit-text="material/m12.html::text-71">Welcher Bereich zeigt im Beispiel die beiden Bearbeitungsbereiche ohne Gesamt?</li>
+<li data-edit-text="material/m12.html::text-72">Welche Formel steht in D2?</li>
+<li data-edit-text="material/m12.html::text-73">Wie wird ein gruppiertes Säulendiagramm eingefügt?</li>
+<li data-edit-text="material/m12.html::text-74">Was bedeutet eine Legende?</li>
+<li data-edit-text="material/m12.html::text-75">Wo werden Achsentitel ergänzt?</li>
+<li data-edit-text="material/m12.html::text-76">Warum hat ein Kreisdiagramm keine Achsentitel?</li>
+<li data-edit-text="material/m12.html::text-77">Wie wird ein Prozentwert am Kreissektor angezeigt?</li>
+<li data-edit-text="material/m12.html::text-78">Warum beginnt die Werteachse bei Säulen grundsätzlich bei null?</li>
+<li data-edit-text="material/m12.html::text-79">Wo werden falsche Datenreihen korrigiert?</li>
+<li data-edit-text="material/m12.html::text-80">Ändert ein Diagrammtypwechsel die Quelldaten?</li>
+<li data-edit-text="material/m12.html::text-81">Welcher August-Gesamtwert entsteht bei B3 = 11?</li>
+<li data-edit-text="material/m12.html::text-82">Warum erscheint eine neue Zeile möglicherweise nicht?</li>
+<li data-edit-text="material/m12.html::text-83">Welche Tastenkombination erstellt aus einem markierten Bereich eine Excel-Tabelle?</li>
+<li data-edit-text="material/m12.html::text-84">Welche Summe ergibt November mit 8 und 7?</li>
+<li data-edit-text="material/m12.html::text-85">Warum ist ein festes Achsenmaximum bei wachsenden Daten riskant?</li>
+<li data-edit-text="material/m12.html::text-86">Was ist bei fehlenden Werten zu beachten?</li>
+<li data-edit-text="material/m12.html::text-87">Wie wird die Drucklesbarkeit vorab geprüft?</li>
+<li data-edit-text="material/m12.html::text-88">Warum muss nach einem Aktualisierungstest der Ausgangszustand wiederhergestellt werden?</li>
+</ol>
+<h3 id="kontrollhinweise" data-edit-text="material/m12.html::text-89">Kontrollhinweise</h3>
+<ol type="1">
+<li data-edit-text="material/m12.html::text-90">A1:C5.</li>
+<li><code>=SUMME(B2:C2)</code><span data-edit-text="material/m12.html::segment-20">.</span></li>
+<li data-edit-text="material/m12.html::text-91">Einfügen &gt; Säulen- oder Balkendiagramm &gt; Gruppierte Säulen.</li>
+<li data-edit-text="material/m12.html::text-92">Zuordnung von Reihen bzw. Kategorien zu Farben oder Symbolen.</li>
+<li data-edit-text="material/m12.html::text-93">Diagrammentwurf &gt; Diagrammelement hinzufügen &gt; Achsentitel.</li>
+<li data-edit-text="material/m12.html::text-94">Es zeigt Sektoren eines Ganzen, keine Werte entlang von Achsen.</li>
+<li data-edit-text="material/m12.html::text-95">Datenbeschriftungen formatieren &gt; Prozentsatz.</li>
+<li data-edit-text="material/m12.html::text-96">Damit Höhenverhältnisse nicht verzerrt werden.</li>
+<li data-edit-text="material/m12.html::text-97">Diagrammentwurf &gt; Daten auswählen.</li>
+<li data-edit-text="material/m12.html::text-98">Nein.</li>
+<li><ol start="16" type="1">
+<li>
+</li></ol></li>
+<li data-edit-text="material/m12.html::text-99">Der feste Datenbereich endet möglicherweise in Zeile 5.</li>
+<li data-edit-text="material/m12.html::text-100">Strg+T.</li>
+<li><ol start="15" type="1">
+<li>
+</li></ol></li>
+<li data-edit-text="material/m12.html::text-101">Größere Werte können abgeschnitten werden.</li>
+<li data-edit-text="material/m12.html::text-102">Bedeutung klären; nicht automatisch null einsetzen.</li>
+<li data-edit-text="material/m12.html::text-103">Datei &gt; Drucken.</li>
+<li data-edit-text="material/m12.html::text-104">Damit die verbindliche Datengrundlage nicht unbeabsichtigt verändert wird.</li>
+</ol>
+<h2 id="17-weiterführende-materialien" data-edit-text="material/m12.html::text-105">17. Weiterführende Materialien</h2>
+<p data-edit-text="material/m12.html::text-106">M11 unterstützt die begründete Diagrammauswahl. M3, M5–M8 und M10 unterstützen Datenstruktur, Berechnungen und Auswertungen. M13 vertieft Seitenlayout und Druck, M14 Qualitätskontrolle und Wiederverwendbarkeit. M12 bleibt während der gesamten Lernsituation verfügbar.</p>
+</article></article></section>
+  </div>
+</div>
+</div>
+<p><a href="m12.md" download data-edit-text="material/m12.html::segment-21" data-edit-link="material/m12.html::link-8">Bearbeitbare Textfassung</a></p>
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

@@ -71,6 +71,8 @@ Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-K
 | BFS dual | Beschaffung wirtschaftlich planen – die richtige Bestellstrategie für Global Bike | 1.8.14 | [ZIP](BFSDUAL-LF03-LS01/BFSDUAL_LF03_LS01_v1.8.14_SCORM12.zip) |
 | BFS dual | Lagerhaltung optimieren – ABC-Analyse und Entscheidung über Eigen- oder Fremdlagerung | 1.8.14 | [ZIP](BFSDUAL-LF03-LS02/BFSDUAL_LF03_LS02_v1.8.14_SCORM12.zip) |
 | BFS dual | Wenn Lieferungen nicht wie vereinbart erfolgen | 1.8.14 | [ZIP](BFSDUAL-LF03-LS03/BFSDUAL_LF03_LS03_v1.8.14_SCORM12.zip) |
+| BFS dual | Excel für Büroaufgaben – Eine digitale Büroübersicht erstellen | 1.8.14 | [ZIP](BFSDUAL-LF02-LS06A/BFSDUAL_LF02_LS06A_v1.8.14_SCORM12.zip) |
+| BFS dual | Absatzvorgänge mit SAP durchführen | 1.8.14 | [ZIP](BFSDUAL-LF02-LS06B/BFSDUAL_LF02_LS06B_v1.8.14_SCORM12.zip) |
 
 Maschinenlesbare Zuordnung und Prüfsummen: [aktuell.json](aktuell.json).
 Vor einer automatischen Nutzung: `python tools/master.py check --archives`.

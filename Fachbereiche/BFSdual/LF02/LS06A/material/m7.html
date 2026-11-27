@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>M7 – Relative und absolute Zellbezüge in Excel</title><link href="../assets/global-bike.css" rel="stylesheet"><style>main.excel{max-width:72rem;margin:auto;padding:1rem 3vw;background:white;font:1rem/1.55 system-ui;color:#17324b}.excel img{max-width:100%;height:auto}.excel table{display:block;overflow:auto;border-collapse:collapse}.excel td,.excel th{padding:.4rem;border:1px solid #b7c7d0}.excel a{text-decoration:underline}</style><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main class="excel">
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app onenote" data-material-view="onenote" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">N</span>
+    <strong>OneNote</strong><span class="file">m7</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Notizen</span><span class="material-tab">Arbeitsunterlagen</span><span class="material-kind">Notiz / Arbeitsblatt</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Notizbuch</span><span class="material-rail-item is-active">Notizen</span><span class="material-rail-item">Unterlagen</span><span class="material-rail-item">Besprechungen</span></aside>
+    <section class="canvas"><article class="paper"><article><h1 id="m7--relative-und-absolute-zellbezüge-in-excel" data-edit-text="material/m7.html::text-1">M7 – Relative und absolute Zellbezüge in Excel</h1>
+<p data-edit-text="material/m7.html::text-2">Global Bike Deutschland GmbH – Verwaltung</p>
+<h2 id="1-bedeutung-von-zellbezügen-im-büroalltag" data-edit-text="material/m7.html::text-3">1. Bedeutung von Zellbezügen im Büroalltag</h2>
+<p><span data-edit-text="material/m7.html::segment-1">In einer betrieblichen Tabelle werden häufig viele gleichartige Berechnungen benötigt. Beispielsweise werden Mengen mit Einzelpreisen multipliziert oder einzelne Kostenbeträge mit einem gemeinsamen Planungszuschlag berechnet. Statt jede </span><a href="../ls-glossar.html?from=material%2Fm7.html%23wort-formel#formel" id="wort-formel" data-edit-text="material/m7.html::segment-3" data-edit-link="material/m7.html::link-1">Formel</a><span data-edit-text="material/m7.html::segment-2"> neu zu schreiben, lässt sie sich kopieren. Excel passt dabei relative Zellbezüge an. Manche Werte, etwa ein zentral hinterlegter Prozentsatz, sollen dagegen bei jeder Berechnung aus derselben Zelle stammen. Dafür werden absolute Zellbezüge verwendet. Die richtige Wahl verhindert Fehler und macht Arbeitsmappen wiederverwendbar.</span></p>
+<h2 id="2-aufbau-einer-zelladresse" data-edit-text="material/m7.html::text-4">2. Aufbau einer Zelladresse</h2>
+<p><span data-edit-text="material/m7.html::segment-4">B4 bezeichnet die Zelle in Spalte B und Zeile 4. In einer Formel verweist </span><code>B4</code><span data-edit-text="material/m7.html::segment-5"> auf deren Inhalt. Ein Dollarzeichen vor dem Spaltenbuchstaben fixiert die Spalte beim Kopieren; ein Dollarzeichen vor der Zeilennummer fixiert die Zeile. </span><code>$B$4</code><span data-edit-text="material/m7.html::segment-6"> fixiert beides. Das Dollarzeichen ist hier kein Währungssymbol. Ein absoluter Bezug schützt den Zellinhalt nicht vor Änderungen.</span></p>
+<h2 id="3-relative-zellbezüge" data-edit-text="material/m7.html::text-5">3. Relative Zellbezüge</h2>
+<p data-edit-text="material/m7.html::text-6">Relative Bezüge sind der Normalfall. Sie enthalten keine Dollarzeichen. Beim Kopieren einer Formel bleiben die Abstände zwischen Formelzelle und Bezugszellen erhalten.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Formelzelle</th>
+<th>Formel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>D2</td>
+<td><code>=B2*C2</code></td>
+</tr>
+<tr class="even">
+<td>D3 (eine Zeile tiefer)</td>
+<td><code>=B3*C3</code></td>
+</tr>
+<tr class="odd">
+<td>D4 (zwei Zeilen tiefer)</td>
+<td><code>=B4*C4</code></td>
+</tr>
+<tr class="even">
+<td>E2 (eine Spalte weiter rechts)</td>
+<td><code>=C2*D2</code></td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m7.html::text-7">Die letzte Zeile zeigt nur die technische Veränderung beim Kopieren nach rechts. Ob diese Formel fachlich sinnvoll ist, hängt von den Spalteninhalten ab. Relative Bezüge eignen sich besonders für zeilenweise Berechnungen mit jeweils eigenen Eingabewerten.</p>
+<p><img src="Grafiken/G9_Zellbezuege.png" alt="Relative und absolute Bezüge beim Kopieren nach unten" data-edit-image="material/m7.html::image-1"></p>
+<h2 id="4-absolute-zellbezüge" data-edit-text="material/m7.html::text-8">4. Absolute Zellbezüge</h2>
+<p><span data-edit-text="material/m7.html::segment-7">Ein absoluter Bezug bleibt beim Kopieren in andere Zellen unverändert. Steht ein gemeinsamer Zuschlagssatz in H2, kann die Formel </span><code>=D2*$H$2</code><span data-edit-text="material/m7.html::segment-8"> verwendet werden. Beim Kopieren nach unten entsteht </span><code>=D3*$H$2</code><span data-edit-text="material/m7.html::segment-9">. D2 wird angepasst, H2 bleibt fest.</span></p>
+<p data-edit-text="material/m7.html::text-9">Wird der Inhalt von H2 geändert, rechnen alle darauf bezogenen Formeln mit dem neuen Wert, sofern die automatische Berechnung aktiv ist. Absolut bedeutet also nicht, dass der Wert unveränderlich ist. Die Fixierung gilt für das Kopieren von Formeln, nicht für jede denkbare Änderung der Tabellenstruktur. Beim Einfügen, Löschen oder Verschieben von Zellen können sich auch absolute Adressen ändern.</p>
+<h2 id="5-relative-und-absolute-zellbezüge-im-vergleich" data-edit-text="material/m7.html::text-10">5. Relative und absolute Zellbezüge im Vergleich</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Merkmal</th>
+<th>Relativ</th>
+<th>Absolut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Schreibweise</td>
+<td><code>B2</code></td>
+<td><code>$B$2</code></td>
+</tr>
+<tr class="even">
+<td>Eine Zeile tiefer kopiert</td>
+<td><code>B3</code></td>
+<td><code>$B$2</code></td>
+</tr>
+<tr class="odd">
+<td>Eine Spalte weiter kopiert</td>
+<td><code>C2</code></td>
+<td><code>$B$2</code></td>
+</tr>
+<tr class="even">
+<td>Typischer Zweck</td>
+<td>Unterschiedliche Werte je Datensatz</td>
+<td>Gemeinsamer Satz oder Bezugswert</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m7.html::text-11">Entscheidend ist die fachliche Frage: Soll die nächste Formel den Wert aus der nächsten Zeile verwenden oder weiterhin denselben zentralen Wert? Nicht alle Bezüge einer Formel müssen gleichartig sein.</p>
+<h2 id="6-bedeutung-des-dollarzeichens" data-edit-text="material/m7.html::text-12">6. Bedeutung des Dollarzeichens</h2>
+<p><img src="Grafiken/G9a_Dollarzeichen.png" alt="Position und Bedeutung der Dollarzeichen" data-edit-image="material/m7.html::image-2"></p>
+<p><code>$H$2</code><span data-edit-text="material/m7.html::segment-10"> besteht aus einem fixierten Spaltenbuchstaben H und einer fixierten Zeile 2. Die Zeichen stehen jeweils unmittelbar vor dem zu fixierenden Bestandteil. Ein absoluter Bezug ist keine fest eingetragene Zahl: </span><code>=D2*0,08</code><span data-edit-text="material/m7.html::segment-11"> enthält einen festen Zahlenwert, während </span><code>=D2*$H$2</code><span data-edit-text="material/m7.html::segment-12"> auf eine veränderbare Eingabezelle verweist. Die zweite Variante erleichtert die zentrale Pflege eines gemeinsamen Satzes.</span></p>
+<h2 id="7-klick-anleitung-f4-taste-verwenden" data-edit-text="material/m7.html::text-13">7. Klick-Anleitung: F4-Taste verwenden</h2>
+<p><img src="Grafiken/G9b_F4_Klickanleitung.png" alt="Zellbezug auswählen, F4 drücken und Formel prüfen" data-edit-image="material/m7.html::image-3"></p>
+<ol type="1">
+<li><span data-edit-text="material/m7.html::segment-13">Ergebniszelle auswählen und eine Formel beginnen, beispielsweise </span><code>=D2*H2</code><span data-edit-text="material/m7.html::segment-14">.</span></li>
+<li data-edit-text="material/m7.html::text-14">Vor dem Bestätigen den Bezug H2 in der Bearbeitungsleiste markieren oder den Cursor in diesen Bezug setzen.</li>
+<li><span data-edit-text="material/m7.html::segment-15">F4 drücken. Aus H2 wird </span><code>$H$2</code><span data-edit-text="material/m7.html::segment-16">.</span></li>
+<li data-edit-text="material/m7.html::text-15">Die Dollarzeichen kontrollieren und Enter drücken.</li>
+<li data-edit-text="material/m7.html::text-16">Die Formelzelle erneut auswählen und den Bezug in der Bearbeitungsleiste prüfen.</li>
+</ol>
+<p><span data-edit-text="material/m7.html::segment-17">Beim wiederholten Drücken von F4 wechselt Excel normalerweise zwischen </span><code>H2</code><span data-edit-text="material/m7.html::segment-18">, </span><code>$H$2</code><span data-edit-text="material/m7.html::segment-19">, </span><code>H$2</code><span data-edit-text="material/m7.html::segment-20">, </span><code>$H2</code><span data-edit-text="material/m7.html::segment-21"> und wieder </span><code>H2</code><span data-edit-text="material/m7.html::segment-22">. Auf manchen Notebooks ist Fn+F4 erforderlich. Außerhalb der Formelbearbeitung hat F4 eine andere Funktion. Falls die Tastenkombination nicht funktioniert, können die Dollarzeichen direkt eingegeben werden. Die Anleitung bezieht sich auf Desktop-Excel für Windows.</span></p>
+<h2 id="8-klick-anleitung-formeln-kopieren-und-überprüfen" data-edit-text="material/m7.html::text-17">8. Klick-Anleitung: Formeln kopieren und überprüfen</h2>
+<ol type="1">
+<li data-edit-text="material/m7.html::text-18">Die erste Formel vollständig eingeben und mit Enter bestätigen.</li>
+<li data-edit-text="material/m7.html::text-19">Die Ergebniszelle anklicken.</li>
+<li data-edit-text="material/m7.html::text-20">Das Ausfüllkästchen unten rechts an der Zellmarkierung bis zur letzten Datenzeile ziehen.</li>
+<li data-edit-text="material/m7.html::text-21">Die erste, eine mittlere und die letzte kopierte Formel in der Bearbeitungsleiste prüfen.</li>
+<li data-edit-text="material/m7.html::text-22">Kontrollieren, ob die relativen Bezüge mitwandern und die absoluten Bezüge unverändert bleiben.</li>
+<li data-edit-text="material/m7.html::text-23">Mindestens ein Ergebnis unabhängig nachrechnen.</li>
+</ol>
+<p data-edit-text="material/m7.html::text-24">Alternativ lässt sich die Formel mit Strg+C und Strg+V kopieren. Beim Einfügen ausschließlich als Werte geht die Formel verloren. Das Ausschneiden und Verschieben ist nicht dasselbe wie Kopieren.</p>
+<h2 id="9-unabhängiges-betriebliches-beispiel-büromaterialkosten" data-edit-text="material/m7.html::text-25">9. Unabhängiges betriebliches Beispiel: Büromaterialkosten</h2>
+<p data-edit-text="material/m7.html::text-26">Für eine interne Schulung der Global Bike Deutschland GmbH werden beispielhafte Nettokosten mit einem einheitlichen Planungszuschlag kalkuliert. Die Werte sind didaktisch simuliert und gehören nicht zum Hauptfall M1. Der Zuschlag ist eine interne Planungsgröße, keine Steuer und kein tatsächlich angefallener Aufwand.</p>
+<p data-edit-text="material/m7.html::text-27">In H1 steht „Planungszuschlag“, in H2 wird 8 % als numerischer Prozentwert eingetragen. Die Überschriften der folgenden Liste stehen in Zeile 1.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Zeile</th>
+<th>A – Material</th>
+<th style="text-align: right;">B – Menge</th>
+<th style="text-align: right;">C – Einzelpreis netto</th>
+<th style="text-align: right;">D – Grundbetrag</th>
+<th style="text-align: right;">E – Zuschlag</th>
+<th style="text-align: right;">F – Planbetrag</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2</td>
+<td>Schreibblöcke</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">3,50 €</td>
+<td style="text-align: right;">35,00 €</td>
+<td style="text-align: right;">2,80 €</td>
+<td style="text-align: right;">37,80 €</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Ordner</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">4,00 €</td>
+<td style="text-align: right;">24,00 €</td>
+<td style="text-align: right;">1,92 €</td>
+<td style="text-align: right;">25,92 €</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Stifte</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">1,20 €</td>
+<td style="text-align: right;">24,00 €</td>
+<td style="text-align: right;">1,92 €</td>
+<td style="text-align: right;">25,92 €</td>
+</tr>
+</tbody>
+</table>
+<p><span data-edit-text="material/m7.html::segment-23">In D2 steht </span><code>=B2*C2</code><span data-edit-text="material/m7.html::segment-24">, in E2 </span><code>=D2*$H$2</code><span data-edit-text="material/m7.html::segment-25"> und in F2 </span><code>=D2+E2</code><span data-edit-text="material/m7.html::segment-26">. Die drei Formeln werden bis Zeile 4 kopiert. In E4 muss anschließend </span><code>=D4*$H$2</code><span data-edit-text="material/m7.html::segment-27"> stehen.</span></p>
+<p><img src="Grafiken/G9c_Bueromaterial.png" alt="Tabellenbeispiel mit zentralem Zuschlagssatz" data-edit-image="material/m7.html::image-4"></p>
+<p data-edit-text="material/m7.html::text-28">Die Grundbeträge ergeben zusammen 83,00 €, die Zuschläge 6,64 € und die Planbeträge 89,64 €. Wird H2 testweise auf 10 % geändert, ergeben sich Zuschläge von 3,50 €, 2,40 € und 2,40 €. Der neue Gesamtplanbetrag beträgt 91,30 €. Anschließend den ursprünglichen Satz wiederherstellen. Alle Beträge sind hier ohne zusätzliche Rundungsschritte centgenau. Bei anderen Daten ist die betriebliche Rundungsregel zu beachten (M5).</p>
+<h2 id="10-unabhängiges-beispiel-prozentuale-anteile" data-edit-text="material/m7.html::text-29">10. Unabhängiges Beispiel: Prozentuale Anteile</h2>
+<p><span data-edit-text="material/m7.html::segment-28">Eine zweite, separate Beispieltabelle enthält drei simulierte Schulungskosten: B2 = 60 €, B3 = 90 €, B4 = 150 €. In B5 steht </span><code>=SUMME(B2:B4)</code><span data-edit-text="material/m7.html::segment-29"> mit dem Ergebnis 300 €. In C2 steht </span><code>=B2/$B$5</code><span data-edit-text="material/m7.html::segment-30">. Die Formel wird bis C4 kopiert und die Ergebnisse werden als Prozentwerte formatiert.</span></p>
+<table>
+<thead>
+<tr class="header">
+<th>Zelle</th>
+<th>Formel</th>
+<th style="text-align: right;">Ergebnis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C2</td>
+<td><code>=B2/$B$5</code></td>
+<td style="text-align: right;">20 %</td>
+</tr>
+<tr class="even">
+<td>C3</td>
+<td><code>=B3/$B$5</code></td>
+<td style="text-align: right;">30 %</td>
+</tr>
+<tr class="odd">
+<td>C4</td>
+<td><code>=B4/$B$5</code></td>
+<td style="text-align: right;">50 %</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m7.html::text-30">Der Zähler verändert sich, der Nenner bleibt gleich. Die Anteile ergeben zusammen 100 %. Bei einem Gesamtbetrag von null ist die Division nicht definiert. Der Fehler #DIV/0! muss fachlich geklärt werden. Nicht zusätzlich mit 100 multiplizieren, wenn das Prozentformat verwendet wird. M8 vertieft die Berechnung und Interpretation von Anteilen.</p>
+<h2 id="11-freiwillige-vertiefung-gemischte-zellbezüge" data-edit-text="material/m7.html::text-31">11. Freiwillige Vertiefung: gemischte Zellbezüge</h2>
+<p><span data-edit-text="material/m7.html::segment-31">Gemischte Bezüge fixieren nur eine Koordinate. </span><code>$B2</code><span data-edit-text="material/m7.html::segment-32"> hält die Spalte B fest, </span><code>B$2</code><span data-edit-text="material/m7.html::segment-33"> die Zeile 2. Diese Schreibweisen sind bei zweidimensionalen Berechnungstabellen hilfreich.</span></p>
+<table>
+<thead>
+<tr class="header">
+<th>Ausgangsbezug</th>
+<th>Eine Zeile tiefer</th>
+<th>Eine Spalte weiter rechts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>B2</code></td>
+<td><code>B3</code></td>
+<td><code>C2</code></td>
+</tr>
+<tr class="even">
+<td><code>$B$2</code></td>
+<td><code>$B$2</code></td>
+<td><code>$B$2</code></td>
+</tr>
+<tr class="odd">
+<td><code>$B2</code></td>
+<td><code>$B3</code></td>
+<td><code>$B2</code></td>
+</tr>
+<tr class="even">
+<td><code>B$2</code></td>
+<td><code>B$2</code></td>
+<td><code>C$2</code></td>
+</tr>
+</tbody>
+</table>
+<p><span data-edit-text="material/m7.html::segment-34">Beispiel: Stehen Mengen in A2:A4 und verschiedene Einzelpreise in B1:D1, kann in B2 die Formel </span><code>=$A2*B$1</code><span data-edit-text="material/m7.html::segment-35"> stehen. Beim Kopieren nach rechts und unten werden jeweils die passende Menge und der passende Preis verwendet. Diese Vertiefung ist freiwillig und kein zusätzlicher verbindlicher Prüfungsinhalt.</span></p>
+<h2 id="12-typische-fehler-und-deren-behebung" data-edit-text="material/m7.html::text-32">12. Typische Fehler und deren Behebung</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Beobachtung</th>
+<th>Ursache und Abhilfe</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Zuschlag verschwindet nach dem Kopieren</td>
+<td>Satzbezug wandert in eine leere Zelle; absoluten Bezug prüfen</td>
+</tr>
+<tr class="even">
+<td>Alle Zeilen nutzen dieselbe Menge</td>
+<td>Mengenbezug versehentlich fixiert; Dollarzeichen entfernen</td>
+</tr>
+<tr class="odd">
+<td>Bezug bleibt nur in einer Richtung fest</td>
+<td>Gemischten statt absoluten Bezug verwendet; beide Dollarzeichen prüfen</td>
+</tr>
+<tr class="even">
+<td>Prozentbetrag ist hundertmal zu hoch</td>
+<td>Prozentwert falsch eingegeben oder zusätzlich mit 100 multipliziert</td>
+</tr>
+<tr class="odd">
+<td>F4 wiederholt eine Aktion</td>
+<td>Formelbearbeitung nicht aktiv; Bezug zuerst auswählen</td>
+</tr>
+<tr class="even">
+<td>Formel reagiert nicht auf Satzänderung</td>
+<td>Satz als Zahl in Formel eingetragen oder Berechnung nicht automatisch</td>
+</tr>
+<tr class="odd">
+<td>#DIV/0!</td>
+<td>Gesamtwert null oder leer; Datengrundlage klären</td>
+</tr>
+<tr class="even">
+<td>#BEZUG!</td>
+<td>Bezugszelle gelöscht; gültigen Bezug wiederherstellen</td>
+</tr>
+<tr class="odd">
+<td>Ergebnis korrekt, Formel aber falsch</td>
+<td>Zufällig gleiche Ausgangswerte; mit unterschiedlichen Werten testen</td>
+</tr>
+<tr class="even">
+<td>Kopierte Zelle enthält nur Zahl</td>
+<td>Als Werte eingefügt; Formel erneut kopieren</td>
+</tr>
+<tr class="odd">
+<td>Neue Datenzeile fehlt</td>
+<td>Formel oder Summenbereich nicht erweitert; Funktionsprüfung durchführen</td>
+</tr>
+</tbody>
+</table>
+<h2 id="13-funktionsprüfung-und-wiederverwendbarkeit" data-edit-text="material/m7.html::text-33">13. Funktionsprüfung und Wiederverwendbarkeit</h2>
+<p><span data-edit-text="material/m7.html::segment-36">Eine verlässliche </span><a href="../ls-glossar.html?from=material%2Fm7.html%23wort-arbeitsmappe#arbeitsmappe" id="wort-arbeitsmappe" data-edit-text="material/m7.html::segment-38" data-edit-link="material/m7.html::link-2">Arbeitsmappe</a><span data-edit-text="material/m7.html::segment-37"> trennt Eingaben, Berechnungen und Auswertungen. Gemeinsame Bezugsgrößen werden eindeutig beschriftet. Eine zentrale Eingabezelle vermeidet widersprüchliche Sätze in verschiedenen Formeln.</span></p>
+<p data-edit-text="material/m7.html::text-34">Zur freiwilligen Kontrolle kann eine Kopie der Arbeitsmappe genutzt werden: Einen zeilenbezogenen Eingabewert verändern und prüfen, ob die betroffenen Ergebnisse reagieren. Danach einen zentralen Satz verändern und prüfen, ob alle davon abhängigen Zeilen reagieren. Ursprüngliche Werte wiederherstellen. Bei einer zusätzlichen Zeile die Formeln und Auswertungsbereiche kontrollieren. Ein plausibles Ergebnis allein genügt nicht; auch die Formel muss stimmen.</p>
+<h2 id="14-freiwillige-selbstkontrolle" data-edit-text="material/m7.html::text-35">14. Freiwillige Selbstkontrolle</h2>
+<ol type="1">
+<li data-edit-text="material/m7.html::text-36">Was bezeichnet die Adresse C7?</li>
+<li><span data-edit-text="material/m7.html::segment-39">Wie verändert sich </span><code>=B2*C2</code><span data-edit-text="material/m7.html::segment-40"> beim Kopieren eine Zeile nach unten?</span></li>
+<li data-edit-text="material/m7.html::text-37">Wie wird H2 vollständig fixiert?</li>
+<li><span data-edit-text="material/m7.html::segment-41">Wie lautet </span><code>=D2*$H$2</code><span data-edit-text="material/m7.html::segment-42"> zwei Zeilen tiefer?</span></li>
+<li data-edit-text="material/m7.html::text-38">Bleibt der Inhalt einer absolut referenzierten Zelle unveränderlich?</li>
+<li data-edit-text="material/m7.html::text-39">Welchen Vorteil hat ein zentral hinterlegter Prozentsatz gegenüber einer Zahl in jeder Formel?</li>
+<li data-edit-text="material/m7.html::text-40">Welche Formel berechnet den Anteil von B3 an der Gesamtsumme in B8 mit kopierfähigem Nenner?</li>
+<li data-edit-text="material/m7.html::text-41">Was ist zu prüfen, wenn F4 nicht die erwarteten Dollarzeichen setzt?</li>
+<li data-edit-text="material/m7.html::text-42">Warum sollten kopierte Formeln mit unterschiedlichen Eingabewerten getestet werden?</li>
+<li data-edit-text="material/m7.html::text-43">Was ist bei einer neu ergänzten Datenzeile zu kontrollieren?</li>
+</ol>
+<p><strong data-edit-text="material/m7.html::segment-43">Kontrollhinweise</strong></p>
+<ol type="1">
+<li data-edit-text="material/m7.html::text-44">Spalte C, Zeile 7.</li>
+<li><code>=B3*C3</code><span data-edit-text="material/m7.html::segment-44">.</span></li>
+<li><code>$H$2</code><span data-edit-text="material/m7.html::segment-45">.</span></li>
+<li><code>=D4*$H$2</code><span data-edit-text="material/m7.html::segment-46">.</span></li>
+<li data-edit-text="material/m7.html::text-45">Nein, die Adresse bleibt beim Kopieren fest; der Inhalt kann geändert werden.</li>
+<li data-edit-text="material/m7.html::text-46">Eine zentrale Änderung wirkt auf alle abhängigen Formeln.</li>
+<li><code>=B3/$B$8</code><span data-edit-text="material/m7.html::segment-47">, anschließend Prozentformat wählen.</span></li>
+<li data-edit-text="material/m7.html::text-47">Formelbearbeitung, ausgewählten Bezug und gegebenenfalls Fn-Taste prüfen; alternativ Dollarzeichen eingeben.</li>
+<li data-edit-text="material/m7.html::text-48">Gleiche Eingabewerte können falsche Bezüge verdecken.</li>
+<li data-edit-text="material/m7.html::text-49">Ob die benötigten Formeln vorhanden sind und die Auswertungsbereiche die neue Zeile umfassen.</li>
+</ol>
+<p data-edit-text="material/m7.html::text-50">Keine zusätzliche Abgabe oder Bewertung.</p>
+<h2 id="15-weiterführende-materialien" data-edit-text="material/m7.html::text-51">15. Weiterführende Materialien</h2>
+<p data-edit-text="material/m7.html::text-52">M5 behandelt Formeln und Grundrechenarten, M6 die grundlegenden Funktionen. M8 vertieft prozentuale Anteile, M9 die Datums- und Fristenberechnung, M14 die Qualitätskontrolle und Wiederverwendbarkeit. M7 bleibt während der gesamten Lernsituation verfügbar.</p>
+</article></article></section>
+  </div>
+</div>
+</div>
+<p><a href="m7.md" download data-edit-text="material/m7.html::segment-48" data-edit-link="material/m7.html::link-3">Bearbeitbare Textfassung</a></p>
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

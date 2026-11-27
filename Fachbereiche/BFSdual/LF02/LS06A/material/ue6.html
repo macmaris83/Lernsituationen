@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ü6 – Relative und absolute Zellbezüge</title><link href="../assets/global-bike.css" rel="stylesheet"><style>main.excel{max-width:72rem;margin:auto;padding:1rem 3vw;background:white;font:1rem/1.55 system-ui;color:#17324b}.excel img{max-width:100%;height:auto}.excel table{display:block;overflow:auto;border-collapse:collapse}.excel td,.excel th{padding:.4rem;border:1px solid #b7c7d0}.excel a{text-decoration:underline}</style><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main class="excel">
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app onenote" data-material-view="onenote" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">N</span>
+    <strong>OneNote</strong><span class="file">ue6</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Notizen</span><span class="material-tab">Arbeitsunterlagen</span><span class="material-kind">Notiz / Arbeitsblatt</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Notizbuch</span><span class="material-rail-item is-active">Notizen</span><span class="material-rail-item">Unterlagen</span><span class="material-rail-item">Besprechungen</span></aside>
+    <section class="canvas"><article class="paper"><article><h1 id="ü6--relative-und-absolute-zellbezüge" data-edit-text="material/ue6.html::text-1">Ü6 – Relative und absolute Zellbezüge</h1>
+<p data-edit-text="material/ue6.html::text-2">Global Bike Deutschland GmbH · Verwaltung · Löppt · freiwillig · unbenotet · keine KI</p>
+<h2 id="ausgangssituation" data-edit-text="material/ue6.html::text-3">Ausgangssituation</h2>
+<p data-edit-text="material/ue6.html::text-4">Emma Fuchs plant 2027 Informationsmaßnahmen für die Region Nordwest. Auf vier unterschiedliche Nettokostenpositionen soll ein einheitlicher interner Planungszuschlag von 10 % gerechnet werden. Der Zuschlag ist eine simulierte Planungsreserve, keine Steuer und keine SAP-Kondition. Die Verwaltung benötigt eine Kalkulation, die bei einer zentralen Satzänderung alle Positionen aktualisiert. Zusätzlich sollen die Anteile an den gesamten Plankosten sichtbar werden. Die Daten sind unabhängig von M1.</p>
+<h2 id="arbeitsaufträge" data-edit-text="material/ue6.html::text-5">Arbeitsaufträge</h2>
+<ol type="1">
+<li data-edit-text="material/ue6.html::text-6">Öffnen Sie UE6_Arbeitsdatei.xlsx und speichern Sie eine Kopie als GB_UE6_Kalkulation.xlsx. Erkunden Sie Kalkulation, Bezugslabor und die freiwillige Vertiefung. Identifizieren Sie B2 als zentrale Eingabe und B4:B7 als zeilenbezogene Grundkosten.</li>
+<li><span data-edit-text="material/ue6.html::segment-1">Berechnen Sie in C4 den Zuschlag aus Grundkosten und Satz. Geben Sie zunächst beide Bezüge relativ ein. Kopieren Sie die </span><a href="../ls-glossar.html?from=material%2Fue6.html%23wort-formel#formel" id="wort-formel" data-edit-text="material/ue6.html::segment-3" data-edit-link="material/ue6.html::link-1">Formel</a><span data-edit-text="material/ue6.html::segment-2"> probeweise nach C5. Vergleichen Sie die Bearbeitungsleiste beider Zellen. Erklären Sie, warum die zweite Formel nicht mehr auf den Satz zeigt. Löschen Sie die Probeformel in C5.</span></li>
+<li data-edit-text="material/ue6.html::text-7">Bearbeiten Sie C4 mit F2. Markieren Sie ausschließlich den Bezug auf B2 und drücken Sie F4, bis beide Dollarzeichen erscheinen. Alternativ tippen Sie die Dollarzeichen. Bestätigen Sie und ziehen Sie das Ausfüllkästchen bis C7. Prüfen Sie erste und letzte Formel. Der Grundkostenbezug muss wandern, der Satzbezug muss fest bleiben.</li>
+<li><span data-edit-text="material/ue6.html::segment-4">Berechnen Sie D4 aus Grundkosten und Zuschlag mit relativen Bezügen. Kopieren Sie bis D7. Berechnen Sie in B8:D8 die jeweiligen Spaltensummen mit </span><a href="../ls-glossar.html?from=material%2Fue6.html%23wort-summe#summe" id="wort-summe" data-edit-text="material/ue6.html::segment-6" data-edit-link="material/ue6.html::link-2">SUMME</a><span data-edit-text="material/ue6.html::segment-5">. Kontrollieren Sie die Bereiche; die Summenzeile darf nicht in sich selbst eingehen.</span></li>
+<li data-edit-text="material/ue6.html::text-8">Berechnen Sie in E4 den Anteil der Plankosten der ersten Position an der Gesamtsumme D8. Fixieren Sie ausschließlich den Nenner vollständig. Kopieren Sie bis E7 und addieren Sie die Anteile in E8. Wählen Sie zwei Prozent-Nachkommastellen. Multiplizieren Sie nicht zusätzlich mit 100. Erklären Sie, weshalb die Summe der Anteile bei vollständiger Datengrundlage 100 % beträgt.</li>
+<li data-edit-text="material/ue6.html::text-9">Bearbeiten Sie das Bezugslabor: Untersuchen Sie C4:C7 und notieren Sie in D4:D7 jeweils Ursache und Korrektur. Alle vier Beträge sollen mit dem zentralen Satz B2 des Laborblatts berechnet werden. C4 simuliert einen verrutschten Bezug auf eine leere Zelle; C5 fixiert den falschen Grundbetrag; C6 enthält einen Festwert; C7 verweist auf eine falsche Zelle. Korrigieren Sie die Formeln, nicht die richtigen Eingaben. Ändern Sie anschließend den Laborsatz auf 25 %, prüfen Sie alle Ergebnisse und stellen Sie 20 % wieder her.</li>
+<li data-edit-text="material/ue6.html::text-10">Testen Sie die Kalkulation: Ändern Sie B2 von 10 % auf 15 %. Sagen Sie voraus, welche Ergebnisse sich ändern und welche Anteile gleich bleiben. Prüfen Sie Excel und stellen Sie 10 % wieder her. Ändern Sie danach B4 von 120 auf 160 Euro. Prüfen Sie Zuschlag, Plankosten, Gesamtsumme und alle Anteile. Stellen Sie 120 Euro wieder her.</li>
+<li data-edit-text="material/ue6.html::text-11">Erklären Sie in zwei bis drei Sätzen den Unterschied zwischen einer festen Adresse und einem unveränderlichen Wert. Erläutern Sie, warum eine zentrale Eingabe besser als ein in jeder Formel eingetragener Satz ist. Prüfen Sie die automatische Berechnung, speichern und öffnen Sie die Datei erneut.</li>
+<li data-edit-text="material/ue6.html::text-12">Nutzen Sie die Selbstkontrolle und erst danach die separate Musterlösung. Keine Abgabe erforderlich.</li>
+</ol>
+<h2 id="lernhilfen" data-edit-text="material/ue6.html::text-13">Lernhilfen</h2>
+<p><img src="Grafiken/G9_Zellbezuege.png" alt="Zellbezüge" data-edit-image="material/ue6.html::image-1"> <img src="Grafiken/G9a_Dollarzeichen.png" alt="Dollarzeichen" data-edit-image="material/ue6.html::image-2"> <img src="Grafiken/G9b_F4_Klickanleitung.png" alt="F4" data-edit-image="material/ue6.html::image-3"> <img src="Grafiken/UE6_Satzwechsel.png" alt="Zentrale Satzänderung" data-edit-image="material/ue6.html::image-4"></p>
+<h2 id="klick-anleitungen--excel-desktop-windows-deutsch" data-edit-text="material/ue6.html::text-14">Klick-Anleitungen – Excel Desktop Windows, deutsch</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Ziel</th>
+<th>Vorgehen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Arbeitskopie</td>
+<td>Datei → Speichern unter → XLSX</td>
+</tr>
+<tr class="even">
+<td>Formel eingeben</td>
+<td>C4 anklicken → = → B4 anklicken → * → B2 anklicken → Enter</td>
+</tr>
+<tr class="odd">
+<td>Formel prüfen</td>
+<td>Zelle anklicken → Bearbeitungsleiste</td>
+</tr>
+<tr class="even">
+<td>Bezug fixieren</td>
+<td>F2 → Bezug B2 auswählen → F4 bis <span class="math inline"><em>B</em></span>2 → Enter</td>
+</tr>
+<tr class="odd">
+<td>F4-Zyklus</td>
+<td>B2 → <span class="math inline"><em>B</em></span>2 → B$2 → $B2 → B2</td>
+</tr>
+<tr class="even">
+<td>Alternative</td>
+<td>Dollarzeichen manuell in der Bearbeitungsleiste eingeben</td>
+</tr>
+<tr class="odd">
+<td>Notebook</td>
+<td>ggf. Fn+F4; außerhalb der Formelbearbeitung kann F4 eine Aktion wiederholen</td>
+</tr>
+<tr class="even">
+<td>Kopieren</td>
+<td>Ausfüllkästchen unten rechts bis letzte Datenzeile ziehen</td>
+</tr>
+<tr class="odd">
+<td>Kopie prüfen</td>
+<td>Letzte Zelle anklicken → Formel mit erster vergleichen</td>
+</tr>
+<tr class="even">
+<td>SUMME</td>
+<td>Ergebniszelle → Start → AutoSumme → Bereich prüfen → Enter</td>
+</tr>
+<tr class="odd">
+<td>Anteil</td>
+<td>= → Einzelbetrag anklicken → / → Gesamtsumme anklicken → Nenner fixieren → Enter</td>
+</tr>
+<tr class="even">
+<td>Prozent</td>
+<td>Strg+1 → Prozent → zwei Dezimalstellen</td>
+</tr>
+<tr class="odd">
+<td>Währung</td>
+<td>Strg+1 → Währung → Euro → zwei Dezimalstellen</td>
+</tr>
+<tr class="even">
+<td>Berechnung</td>
+<td>Formeln → Berechnungsoptionen → Automatisch</td>
+</tr>
+<tr class="odd">
+<td>Neuberechnung</td>
+<td>F9</td>
+</tr>
+<tr class="even">
+<td>Formeln sichtbar</td>
+<td>Formeln → Formeln anzeigen → danach ausschalten</td>
+</tr>
+<tr class="odd">
+<td>Speichern</td>
+<td>Strg+S</td>
+</tr>
+</tbody>
+</table>
+<h2 id="fehlerdiagnose" data-edit-text="material/ue6.html::text-15">Fehlerdiagnose</h2>
+<p data-edit-text="material/ue6.html::text-16">Wandernder Satzbezug: beide Dollarzeichen prüfen. Gleiche Grundbeträge: versehentlich fixierten Zeilenbezug lösen. Festwert: durch zentralen Bezug ersetzen. #BEZUG!: gültige Adresse wiederherstellen. #DIV/0!: Gesamtsumme prüfen; keine erfundene Nullquote. 100-fach zu hoher Zuschlag: Prozent-Eingabe prüfen. Bei unverändertem Ergebnis Formel und Berechnungsoption prüfen. Bei neu ergänzten Zeilen Formeln und Summenbereiche kontrollieren. Feste Adressen beziehen sich auf das Kopieren, nicht auf unveränderliche Zellinhalte.</p>
+<h2 id="selbstkontrolle" data-edit-text="material/ue6.html::text-17">Selbstkontrolle</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Arbeitskopie gespeichert, Original unverändert.</label></li>
+<li><label><input type="checkbox">Satz B2 numerisch als Prozent gespeichert.</label></li>
+<li><label><input type="checkbox">C4:C7 verwenden relative Grundkosten und absolut fixierten Satz.</label></li>
+<li><label><input type="checkbox">D4:D7 berechnen Plankosten mit relativen Bezügen.</label></li>
+<li><label><input type="checkbox">Summenbereiche vollständig, keine Zirkelbezüge.</label></li>
+<li><label><input type="checkbox">E4:E7 verwenden den festen Nenner D8.</label></li>
+<li><label><input type="checkbox">Anteile ergeben insgesamt 100 %; Geld- und Prozentformate stimmen.</label></li>
+<li><label><input type="checkbox">Vier Fehlerfälle korrigiert und begründet.</label></li>
+<li><label><input type="checkbox">Beide Kalkulationstests und Labortest erfolgreich; Eingaben wiederhergestellt.</label></li>
+<li><label><input type="checkbox">Unterschied zwischen Adresse und Wert erklärt; Datei erneut geöffnet.</label></li>
+</ul>
+<h2 id="freiwillige-vertiefung--gemischte-zellbezüge" data-edit-text="material/ue6.html::text-18">Freiwillige Vertiefung – gemischte Zellbezüge</h2>
+<p data-edit-text="material/ue6.html::text-19">Im Blatt Vertiefung stehen Mengen in A3:A5 und Preise in B2:D2. Erstellen Sie in B3 eine Formel, die beim Kopieren nach rechts die Mengenspalte und beim Kopieren nach unten die Preiszeile festhält. Übertragen Sie nach rechts und unten. Prüfen Sie D5 und ändern Sie probeweise C2 von 3 auf 4 Euro. Stellen Sie den Ausgangswert wieder her. Keine zusätzliche Prüfungsanforderung.</p>
+<p><a href="UE6_Arbeitsdatei.xlsx" data-edit-text="material/ue6.html::segment-7" data-edit-link="material/ue6.html::link-3">Excel-Arbeitsdatei herunterladen</a></p>
+<details><summary>Freiwilliger Übungscheck · fünf Fragen</summary><fieldset style="margin:.75rem 0"><legend>Welche Formel berechnet in C4 den Zuschlag aus B4 und dem zentralen Satz B2 kopierfähig?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> =$B$4*$B$2</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> =B4/$B$2</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> =B4*10%</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="1"> =B4*$B$2</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> =B4+$B$2</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> =B4*B2</label><button type="button" data-ue-feedback="Richtig: Grundkosten wandern, Satzadresse bleibt fest.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>Wie lautet =D4/$D$8 zwei Zeilen tiefer kopiert?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="1"> =D6/$D$8</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> =D6/D10</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> =F4/$D$8</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> =D4/$D$8</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> =D6/$D$10</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> =D5/$D$8</label><button type="button" data-ue-feedback="Richtig: nur die relative Zeilennummer steigt um zwei.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>Was bewirkt F4 beim ausgewählten relativen Bezug B2 in der Formelbearbeitung beim ersten Wechsel?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> B$2</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="1"> $B$2</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> Die Zahl in B2 wird gesperrt</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> $B2</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> B2*4</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> B3</label><button type="button" data-ue-feedback="Richtig: beide Koordinaten werden fixiert.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>Warum ist ein zentraler Satz besser als 10 % in jeder Formel?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Alle Ergebnisse bleiben gleich.</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Die Grundkosten werden unveränderlich.</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Der Satz wird automatisch fachlich genehmigt.</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Die Datei benötigt keine Kontrolle mehr.</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Die Formeln werden automatisch geschützt.</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="1"> Eine Änderung der Eingabezelle aktualisiert alle abhängigen Formeln.</label><button type="button" data-ue-feedback="Richtig: die gemeinsame Berechnungsgrundlage ist zentral änderbar.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>Nach dem Kopieren nutzen alle Zuschläge denselben Grundbetrag. Welche Korrektur ist sinnvoll?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="1"> Grundkostenbezug relativ, Satzbezug absolut setzen.</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Nur das Währungsformat ändern.</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Beide Bezüge relativ setzen.</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Alle Ergebnisse als Zahlen eintragen.</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Den zentralen Satz löschen.</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Beide Bezüge absolut setzen.</label><button type="button" data-ue-feedback="Richtig: jede Zeile benötigt ihren eigenen Grundbetrag.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset></details><script>for(const b of document.querySelectorAll("[data-ue-feedback]"))b.addEventListener("click",()=>{const f=b.closest("fieldset"),c=f.querySelector("input:checked");f.querySelector("[role=status]").textContent=c?((c.value==="1"?"Richtig. ":"Prüfe deine Wahl. ")+b.dataset.ueFeedback):"Wähle zuerst eine Antwort.";});</script></article></article></section>
+  </div>
+</div>
+</div>
+<p><a href="ue6.md" download data-edit-text="material/ue6.html::segment-8" data-edit-link="material/ue6.html::link-4">Bearbeitbare Textfassung</a></p>
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

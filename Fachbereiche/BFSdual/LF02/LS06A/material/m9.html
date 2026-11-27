@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>M9 – Postorganisation, Termine und Fristen mit Excel</title><link href="../assets/global-bike.css" rel="stylesheet"><style>main.excel{max-width:72rem;margin:auto;padding:1rem 3vw;background:white;font:1rem/1.55 system-ui;color:#17324b}.excel img{max-width:100%;height:auto}.excel table{display:block;overflow:auto;border-collapse:collapse}.excel td,.excel th{padding:.4rem;border:1px solid #b7c7d0}.excel a{text-decoration:underline}</style><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main class="excel">
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app onenote" data-material-view="onenote" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">N</span>
+    <strong>OneNote</strong><span class="file">m9</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Notizen</span><span class="material-tab">Arbeitsunterlagen</span><span class="material-kind">Notiz / Arbeitsblatt</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Notizbuch</span><span class="material-rail-item is-active">Notizen</span><span class="material-rail-item">Unterlagen</span><span class="material-rail-item">Besprechungen</span></aside>
+    <section class="canvas"><article class="paper"><article><h1 id="m9--postorganisation-termine-und-fristen-mit-excel" data-edit-text="material/m9.html::text-1">M9 – Postorganisation, Termine und Fristen mit Excel</h1>
+<p data-edit-text="material/m9.html::text-2">Global Bike Deutschland GmbH – Verwaltung</p>
+<h2 id="1-bedeutung-der-digitalen-büroorganisation" data-edit-text="material/m9.html::text-3">1. Bedeutung der digitalen Büroorganisation</h2>
+<p data-edit-text="material/m9.html::text-4">Eine zuverlässige Büroorganisation sorgt dafür, dass Anfragen, Bestellungen, interne Mitteilungen und Aufgaben nicht verloren gehen. Eine gemeinsame Excel-Übersicht macht sichtbar, was eingegangen ist, wer zuständig ist, was bereits erledigt wurde und wo Handlungsbedarf besteht. Sie unterstützt die Abstimmung zwischen Verwaltung, Verkauf und Auftragsbearbeitung. Eine Tabelle ersetzt weder die tatsächliche Bearbeitung noch die Kommunikation mit den zuständigen Mitarbeitenden.</p>
+<h2 id="2-posteingang-und-postausgang" data-edit-text="material/m9.html::text-5">2. Posteingang und Postausgang</h2>
+<p data-edit-text="material/m9.html::text-6">Zum Posteingang gehören beispielsweise empfangene Kundenanfragen und Bestellungen, zum Postausgang versandte Angebote und Antworten. Auch interne Mitteilungen können in einer betrieblichen Postübersicht erfasst werden. Die Richtung wird aus Sicht des dokumentierenden Bereichs angegeben. Das Datum bezeichnet den tatsächlichen Ein- oder Ausgang, nicht automatisch das Datum auf dem Schreiben.</p>
+<p><img src="Grafiken/G11_Postorganisation.png" alt="Ablauf der Postorganisation" data-edit-image="material/m9.html::image-1"></p>
+<p data-edit-text="material/m9.html::text-7">Ein Vorgang wird erfasst, eindeutig gekennzeichnet, einer zuständigen Stelle zugeordnet, bearbeitet und mit seinem tatsächlichen Erledigungsdatum dokumentiert. Bei der Weiterleitung bleiben die Zuständigkeit und der Bearbeitungsstand nachvollziehbar. Eine versandte Nachricht ist nicht automatisch ein abgeschlossener Geschäftsvorgang.</p>
+<h2 id="3-aufbau-betrieblicher-postlisten" data-edit-text="material/m9.html::text-8">3. Aufbau betrieblicher Postlisten</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Feld</th>
+<th>Bedeutung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Vorgangs-ID</td>
+<td>Eindeutige Kennzeichnung, beispielsweise S01</td>
+</tr>
+<tr class="even">
+<td>Datum</td>
+<td>Tatsächlicher Ein- oder Ausgang</td>
+</tr>
+<tr class="odd">
+<td>Richtung</td>
+<td>Eingang oder Ausgang</td>
+</tr>
+<tr class="even">
+<td>Vorgangsart</td>
+<td>Beispielsweise Kundenanfrage</td>
+</tr>
+<tr class="odd">
+<td>Zuständigkeit</td>
+<td>Verantwortlicher betrieblicher Bereich</td>
+</tr>
+<tr class="even">
+<td>Status</td>
+<td>Offen oder Erledigt</td>
+</tr>
+<tr class="odd">
+<td>Erledigt am</td>
+<td>Tatsächliches Abschlussdatum; bei offenen Vorgängen leer</td>
+</tr>
+</tbody>
+</table>
+<p><span data-edit-text="material/m9.html::segment-1">Eine Zeile enthält einen Postvorgang, eine Spalte ein Merkmal. Überschriften sind eindeutig, Datumswerte echte Excel-Daten und Statusangaben einheitlich. Keine Leerzeilen innerhalb des Datenbereichs, keine verbundenen Zellen in der Liste. Vorgangs-IDs sind Text und bleiben auch beim </span><a href="../ls-glossar.html?from=material%2Fm9.html%23wort-sortieren#sortieren" id="wort-sortieren" data-edit-text="material/m9.html::segment-3" data-edit-link="material/m9.html::link-1">Sortieren</a><span data-edit-text="material/m9.html::segment-2"> mit ihren vollständigen Zeilen verbunden.</span></p>
+<p data-edit-text="material/m9.html::text-9">Postliste und Fristenliste erfüllen unterschiedliche Zwecke. Eine Fristenliste kann auch eigenständige Aufgaben ohne Postreferenz enthalten. Eine Postreferenz verbindet eine Aufgabe mit einem Vorgang, ohne dass die Aufgabe selbst als zusätzlicher Postvorgang gezählt wird. Nicht jeder Postvorgang benötigt eine eigene Frist. Die Ausgangsdaten M1 bleiben unverändert.</p>
+<h2 id="4-termine-und-fristen-unterscheiden" data-edit-text="material/m9.html::text-10">4. Termine und Fristen unterscheiden</h2>
+<p data-edit-text="material/m9.html::text-11">Ein Termin bezeichnet einen bestimmten Zeitpunkt, beispielsweise eine Besprechung am 15. September um 10 Uhr. Eine Frist bezeichnet einen Zeitraum, innerhalb dessen etwas erledigt werden soll. Das Fristende ist das Datum, bis zu dem die Aufgabe erledigt sein muss. Eine Besprechung kann einen festen Termin und zusätzlich eine Vorbereitungsfrist haben.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Begriff</th>
+<th>Beispiel (unabhängiger Schulungsfall)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ausgangsdatum</td>
+<td>08.09.2027</td>
+</tr>
+<tr class="even">
+<td>Fristdauer</td>
+<td>5 Kalendertage</td>
+</tr>
+<tr class="odd">
+<td>Fristende</td>
+<td>13.09.2027</td>
+</tr>
+<tr class="even">
+<td>Termin</td>
+<td>Besprechung am 15.09.2027</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m9.html::text-12">Im Hauptfall M1 gelten Kalendertage, der Ausgangstag zählt nicht mit, Wochenenden und Feiertage führen nicht zur Verschiebung. Das ist eine interne Simulationsregel und keine allgemeine Regel für gesetzliche oder vertragliche Fristen.</p>
+<h2 id="5-datumswerte-in-excel-verstehen" data-edit-text="material/m9.html::text-13">5. Datumswerte in Excel verstehen</h2>
+<p data-edit-text="material/m9.html::text-14">Excel speichert ein Datum als fortlaufende Zahl. Dadurch können Tage addiert und Datumswerte voneinander abgezogen werden. Das Datumsformat bestimmt die Anzeige. Ein als Text gespeichertes Datum kann Berechnungen und Sortierungen stören.</p>
+<p><span data-edit-text="material/m9.html::segment-4">Klick-Anleitung: Zellen markieren, Strg+1 drücken, Kategorie Datum oder Benutzerdefiniert wählen, beispielsweise TT.MM.JJJJ einstellen, bestätigen. Ein Datum wie 08.09.2027 in der deutschen Excel-Umgebung eingeben. Zur Kontrolle kann in einer freien Zelle </span><code>=ISTZAHL(B2)</code><span data-edit-text="material/m9.html::segment-5"> verwendet werden: WAHR zeigt einen numerischen Wert, beweist aber noch nicht, dass das richtige Datum eingegeben wurde. Diese Prüffunktion ist eine freiwillige Hilfe.</span></p>
+<p data-edit-text="material/m9.html::text-15">Bei importierten Textdaten zunächst eine Kopie anlegen. Über Daten &gt; Text in Spalten kann bei einer einzelnen Datumsspalte im letzten Schritt das Datenformat Datum mit Reihenfolge TMJ gewählt werden. Zielbereich und Vorschau prüfen, damit keine Nachbarspalten überschrieben werden. Alternativ einzelne Werte korrekt neu eingeben. Die Originaldaten nicht überschreiben. Bei einer Anzeige ##### zuerst die Spaltenbreite prüfen.</p>
+<h2 id="6-fälligkeitsdaten-berechnen" data-edit-text="material/m9.html::text-16">6. Fälligkeitsdaten berechnen</h2>
+<p><span data-edit-text="material/m9.html::segment-6">Steht in B2 das Ausgangsdatum und in C2 die Fristdauer in ganzen Kalendertagen, berechnet </span><code>=B2+C2</code><span data-edit-text="material/m9.html::segment-7"> das Fristende. Das Ergebnis als Datum formatieren. Die Fristdauer bleibt eine Zahl, nicht ein Datum.</span></p>
+<p><img src="Grafiken/G11a_Fristberechnung.png" alt="Kalendertage und Fristende" data-edit-image="material/m9.html::image-2"></p>
+<p data-edit-text="material/m9.html::text-17">Beispiel: 08.09.2027 plus 5 Tage ergibt 13.09.2027. Der 09.09. ist Tag 1, der 13.09. Tag 5. Auch Samstag und Sonntag zählen mit. Ein Monatswechsel wird automatisch berücksichtigt: 28.09.2027 plus 5 Tage ergibt 03.10.2027. Es wird kein zusätzlicher Tag addiert. Bei fehlendem Ausgangsdatum oder fehlender Fristdauer zuerst die Daten klären; leere Zellen können sonst wie null behandelt werden. Eine Fristdauer von null ist nur bei ausdrücklich vorgegebener taggleicher Fälligkeit sinnvoll.</p>
+<h2 id="7-einen-zentralen-stichtag-verwenden" data-edit-text="material/m9.html::text-18">7. Einen zentralen Stichtag verwenden</h2>
+<p><span data-edit-text="material/m9.html::segment-8">Ein </span><a href="../ls-glossar.html?from=material%2Fm9.html%23wort-stichtag#stichtag" id="wort-stichtag" data-edit-text="material/m9.html::segment-10" data-edit-link="material/m9.html::link-2">Stichtag</a><span data-edit-text="material/m9.html::segment-9"> ist das Datum, auf das sich die Auswertung bezieht. Für eine historische Auswertung muss er fest bleiben. In M1 ist der Stichtag 01.07.2027. Das unabhängige Schulungsbeispiel in diesem Material verwendet dagegen 15.09.2027.</span></p>
+<p><span data-edit-text="material/m9.html::segment-11">Ein zentraler Stichtag in K2 kann in allen Berechnungen mit </span><code>$K$2</code><span data-edit-text="material/m9.html::segment-12"> angesprochen werden. Der Bezug bleibt beim Kopieren unverändert, der Zellwert kann bei einer neuen Auswertung angepasst werden. </span><code>=HEUTE()</code><span data-edit-text="material/m9.html::segment-13"> liefert dagegen das aktuelle Systemdatum und verändert eine historische Auswertung bei späterem Öffnen. Deshalb ist HEUTE für den festen Hauptfall nicht geeignet.</span></p>
+<p><img src="Grafiken/G11b_Stichtag.png" alt="Zentraler Stichtag und kopierfähige Bezüge" data-edit-image="material/m9.html::image-3"></p>
+<h2 id="8-verbleibende-und-überschrittene-fristen-berechnen" data-edit-text="material/m9.html::text-19">8. Verbleibende und überschrittene Fristen berechnen</h2>
+<p><span data-edit-text="material/m9.html::segment-14">Bei offenen Aufgaben ergibt sich die Anzahl verbleibender Kalendertage aus Fristende minus Stichtag. Steht das Fristende in D2, lautet die </span><a href="../ls-glossar.html?from=material%2Fm9.html%23wort-formel#formel" id="wort-formel" data-edit-text="material/m9.html::segment-16" data-edit-link="material/m9.html::link-3">Formel</a> <code>=D2-$K$2</code><span data-edit-text="material/m9.html::segment-15">. Ergebnis als Zahl mit null Dezimalstellen formatieren.</span></p>
+<table>
+<thead>
+<tr class="header">
+<th>Ergebnis</th>
+<th>Bedeutung bei offenen Aufgaben</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>positiv</td>
+<td>Frist liegt in der Zukunft</td>
+</tr>
+<tr class="even">
+<td>null</td>
+<td>Heute fällig</td>
+</tr>
+<tr class="odd">
+<td>negativ</td>
+<td>Frist überschritten; Betrag zeigt überfällige Tage</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/m9.html::text-20">Bei erledigten Aufgaben ist dagegen das Erledigungsdatum maßgeblich. Die Differenz Fristende minus Erledigungsdatum zeigt, wie viele Tage vor dem Fristende die Aufgabe abgeschlossen wurde; null bedeutet am Fristende, ein negativer Wert verspätet. Ein erledigter Vorgang ist nicht weiterhin offen oder überfällig.</p>
+<h2 id="9-offene-und-erledigte-vorgänge-beurteilen" data-edit-text="material/m9.html::text-21">9. Offene und erledigte Vorgänge beurteilen</h2>
+<p><img src="Grafiken/G11c_Statuslogik.png" alt="Entscheidungslogik zur Fristenbeurteilung" data-edit-image="material/m9.html::image-4"></p>
+<p data-edit-text="material/m9.html::text-22">Zuerst den Bearbeitungsstatus prüfen. Bei offenen Aufgaben ohne Erledigungsdatum das Fristende mit dem Stichtag vergleichen. Bei erledigten Aufgaben das Fristende mit dem tatsächlichen Abschlussdatum vergleichen. Widersprüche, etwa Status Erledigt ohne Abschlussdatum, müssen geklärt werden. Ein Abschlussdatum nach dem Stichtag passt nicht zu einem bereits erledigten Vorgang in einer historischen Stichtagsauswertung.</p>
+<p data-edit-text="material/m9.html::text-23">Die Beurteilung kann anhand der berechneten Differenzen und einer dokumentierten Entscheidung erfolgen. Eine automatische Klassifikation mit WENN ist eine freiwillige Vertiefung, keine zusätzliche verbindliche Fachkompetenz. Für bereits geprüfte, vollständige Daten im Beispiel aus Abschnitt 13 ist folgende Formel in H2 möglich:</p>
+<p><code>=WENN(E2="Erledigt";WENN(G2&gt;=0;"Fristgerecht erledigt";"Verspätet erledigt");WENN(G2&lt;0;"Überfällig";WENN(G2=0;"Heute fällig";"Noch offen")))</code></p>
+<p data-edit-text="material/m9.html::text-24">Die Formel setzt voraus, dass E nur die gültigen Statuswerte Offen und Erledigt enthält und G korrekt berechnet wurde. Sie ist keine Datenvalidierung. Bei widersprüchlichen oder fehlenden Eingaben darf keine scheinbar sichere Einstufung erfolgen.</p>
+<h2 id="10-klick-anleitungen-zur-fristenüberwachung" data-edit-text="material/m9.html::text-25">10. Klick-Anleitungen zur Fristenüberwachung</h2>
+<p><strong data-edit-text="material/m9.html::segment-17">A – Postliste vorbereiten</strong></p>
+<ol type="1">
+<li><span data-edit-text="material/m9.html::segment-18">Neue </span><a href="../ls-glossar.html?from=material%2Fm9.html%23wort-arbeitsmappe#arbeitsmappe" id="wort-arbeitsmappe" data-edit-text="material/m9.html::segment-20" data-edit-link="material/m9.html::link-4">Arbeitsmappe</a><span data-edit-text="material/m9.html::segment-19"> oder Kopie öffnen und Tabellenblatt sinnvoll benennen.</span></li>
+<li data-edit-text="material/m9.html::text-26">Überschriften für die benötigten Merkmale eintragen.</li>
+<li data-edit-text="material/m9.html::text-27">Daten zeilenweise übernehmen, IDs als Text und Datumsfelder als Datum formatieren.</li>
+<li data-edit-text="material/m9.html::text-28">Den Datenbereich markieren und über Start &gt; Als Tabelle formatieren eine übersichtliche Tabelle anlegen. Die Option Tabelle hat Überschriften bestätigen.</li>
+<li data-edit-text="material/m9.html::text-29">Prüfen, ob jede ID eindeutig ist und alle Angaben einer Zeile zusammengehören.</li>
+</ol>
+<p><strong data-edit-text="material/m9.html::segment-21">B – Fristende und Tagesdifferenz</strong></p>
+<ol type="1">
+<li data-edit-text="material/m9.html::text-30">Ausgangsdatum und Fristdauer in getrennten Spalten erfassen.</li>
+<li data-edit-text="material/m9.html::text-31">Eine Spalte Fristende ergänzen. In der ersten Datenzeile die Additionsformel eingeben.</li>
+<li data-edit-text="material/m9.html::text-32">Enter drücken, Ergebnis als Datum formatieren und Formel über das Ausfüllkästchen nach unten kopieren. In einer formatierten Excel-Tabelle kann die Formel automatisch übernommen werden.</li>
+<li data-edit-text="material/m9.html::text-33">Den Stichtag außerhalb des Datenbereichs mit Beschriftung erfassen.</li>
+<li data-edit-text="material/m9.html::text-34">In einer weiteren Spalte für offene Aufgaben das Fristende minus den absolut referenzierten Stichtag berechnen.</li>
+<li data-edit-text="material/m9.html::text-35">Für erledigte Aufgaben stattdessen das Erledigungsdatum abziehen. Die jeweilige Formel anhand des Status auswählen. Bei einer späteren Statusänderung muss auch die Formel angepasst werden, sofern keine automatische Logik verwendet wird.</li>
+<li data-edit-text="material/m9.html::text-36">Differenzen als ganze Zahlen formatieren. Erste und letzte Formel sowie einen Monatswechsel kontrollieren.</li>
+</ol>
+<p><strong data-edit-text="material/m9.html::segment-22">C – Handlungsbedarf sichtbar machen</strong></p>
+<ol type="1">
+<li data-edit-text="material/m9.html::text-37">Die Spalte Fristenbeurteilung ergänzen und die Ergebnisse anhand der Entscheidungslogik eintragen.</li>
+<li><span data-edit-text="material/m9.html::segment-23">Über den Filterpfeil dieser Spalte gezielt Überfällig oder Heute fällig auswählen. M10 erläutert Sortieren und </span><a href="../ls-glossar.html?from=material%2Fm9.html%23wort-filtern#filtern" id="wort-filtern" data-edit-text="material/m9.html::segment-25" data-edit-link="material/m9.html::link-5">Filtern</a><span data-edit-text="material/m9.html::segment-24"> ausführlich.</span></li>
+<li data-edit-text="material/m9.html::text-38">Bei Bedarf über Start &gt; Bedingte Formatierung &gt; Regeln zum Hervorheben von Zellen &gt; Textinhalt Regeln für die Bezeichnungen anlegen, beispielsweise Überfällig rot, Heute fällig gelb.</li>
+<li data-edit-text="material/m9.html::text-39">Textbezeichnungen beibehalten: Farbe allein ist nicht ausreichend. Erledigte Aufgaben nicht als offene Fälle markieren.</li>
+<li data-edit-text="material/m9.html::text-40">Filter wieder aufheben und kontrollieren, ob alle Datensätze vorhanden sind.</li>
+</ol>
+<p><img src="Grafiken/G11d_Klickwege.png" alt="Klickwege zur Fristenübersicht" data-edit-image="material/m9.html::image-5"></p>
+<p data-edit-text="material/m9.html::text-41">Manuelle Beurteilungen müssen nach einer Änderung von Stichtag, Frist oder Status erneut überprüft werden. Wer die freiwillige automatische Variante nutzt, prüft die Eingabedaten und testet die Formel für jeden Statusfall.</p>
+<h2 id="11-interne-ablagefristen" data-edit-text="material/m9.html::text-42">11. Interne Ablagefristen</h2>
+<p data-edit-text="material/m9.html::text-43">Interne Ablagefristen legen fest, bis wann Unterlagen betrieblich geordnet und abgelegt werden sollen. Beispiele sind die Ablage von Angebotskopien oder Monatsunterlagen. Das Fristende wird aus der internen Vorgabe berechnet. Die Ablage muss tatsächlich erfolgt sein, bevor der Vorgang als erledigt gekennzeichnet wird.</p>
+<p data-edit-text="material/m9.html::text-44">Gesetzliche Aufbewahrungsfristen regeln dagegen, wie lange bestimmte Unterlagen aufzubewahren sind. Das Ende einer internen Ablagefrist ist keine Erlaubnis zur Vernichtung. M1 enthält ausschließlich interne Ablagefristen; gesetzliche Fristberechnungen sind nicht Gegenstand dieser Lernsituation.</p>
+<h2 id="12-betriebliche-prioritäten-setzen" data-edit-text="material/m9.html::text-45">12. Betriebliche Prioritäten setzen</h2>
+<p data-edit-text="material/m9.html::text-46">Überfällige offene Aufgaben benötigen eine zeitnahe Prüfung. Heute fällige Aufgaben müssen ebenfalls berücksichtigt werden. Zukünftige Fristen sind einzuplanen. Innerhalb dieser Gruppen spielen Dringlichkeit, Auswirkungen auf Kunden, Abhängigkeiten und Zuständigkeit eine Rolle. Die älteste Frist ist nicht in jedem Fall automatisch die wichtigste Aufgabe.</p>
+<p><img src="Grafiken/G11e_Prioritaeten.png" alt="Prioritäten und betriebliche Entscheidung" data-edit-image="material/m9.html::image-6"></p>
+<p data-edit-text="material/m9.html::text-47">Bei einer drohenden oder eingetretenen Überschreitung die zuständige Stelle informieren, Ursache klären und das weitere Vorgehen abstimmen. Fristen nicht eigenmächtig verlängern oder Erledigungsdaten erfinden. Die Tabelle liefert die Entscheidungsgrundlage, die Entscheidung bleibt eine betriebliche Aufgabe.</p>
+<h2 id="13-durchgängiges-betriebliches-anwendungsbeispiel" data-edit-text="material/m9.html::text-48">13. Durchgängiges betriebliches Anwendungsbeispiel</h2>
+<p data-edit-text="material/m9.html::text-49">Unabhängige simulierte Schulungsdaten der Global Bike Deutschland GmbH, keine SAP-Daten und keine Lösung zu M1. Stichtag in K2: 15.09.2027.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Zeile</th>
+<th>A – Aufgabe</th>
+<th>B – Ausgang</th>
+<th style="text-align: right;">C – Tage</th>
+<th>D – Fristende</th>
+<th>E – Status</th>
+<th>F – Erledigt am</th>
+<th style="text-align: right;">G – Differenz</th>
+<th>H – Beurteilung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2</td>
+<td>Rückmeldung</td>
+<td>08.09.2027</td>
+<td style="text-align: right;">5</td>
+<td>13.09.2027</td>
+<td>Offen</td>
+<td>leer</td>
+<td style="text-align: right;">−2</td>
+<td>Überfällig</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Unterlagen prüfen</td>
+<td>10.09.2027</td>
+<td style="text-align: right;">5</td>
+<td>15.09.2027</td>
+<td>Offen</td>
+<td>leer</td>
+<td style="text-align: right;">0</td>
+<td>Heute fällig</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Besprechung vorbereiten</td>
+<td>12.09.2027</td>
+<td style="text-align: right;">5</td>
+<td>17.09.2027</td>
+<td>Offen</td>
+<td>leer</td>
+<td style="text-align: right;">2</td>
+<td>Noch offen</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Kopien ablegen</td>
+<td>08.09.2027</td>
+<td style="text-align: right;">4</td>
+<td>12.09.2027</td>
+<td>Erledigt</td>
+<td>11.09.2027</td>
+<td style="text-align: right;">1</td>
+<td>Fristgerecht erledigt</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>Liste aktualisieren</td>
+<td>07.09.2027</td>
+<td style="text-align: right;">4</td>
+<td>11.09.2027</td>
+<td>Erledigt</td>
+<td>13.09.2027</td>
+<td style="text-align: right;">−2</td>
+<td>Verspätet erledigt</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>Unterlagen versenden</td>
+<td>09.09.2027</td>
+<td style="text-align: right;">3</td>
+<td>12.09.2027</td>
+<td>Erledigt</td>
+<td>12.09.2027</td>
+<td style="text-align: right;">0</td>
+<td>Fristgerecht erledigt</td>
+</tr>
+</tbody>
+</table>
+<p><span data-edit-text="material/m9.html::segment-26">D2: </span><code>=B2+C2</code><span data-edit-text="material/m9.html::segment-27">, bis D7 kopieren. G2: </span><code>=D2-$K$2</code><span data-edit-text="material/m9.html::segment-28">, bis G4 kopieren. G5: </span><code>=D5-F5</code><span data-edit-text="material/m9.html::segment-29">, bis G7 kopieren. Für eine automatische Auswahl der Differenzformel bei geprüften Daten kann freiwillig </span><code>=WENN(E2="Erledigt";D2-F2;D2-$K$2)</code><span data-edit-text="material/m9.html::segment-30"> in G2 eingesetzt und nach unten kopiert werden. H anhand der Entscheidungslogik beurteilen oder freiwillig die Formel aus Abschnitt 9 verwenden.</span></p>
+<p><img src="Grafiken/G11f_Beispiel.png" alt="Ausgewertete Fristenliste des Schulungsbeispiels" data-edit-image="material/m9.html::image-7"></p>
+<p data-edit-text="material/m9.html::text-50">Die Rückmeldung ist überfällig, die Unterlagenprüfung heute fällig. Beide benötigen Aufmerksamkeit. Die Besprechungsvorbereitung ist einzuplanen. Die verspätete Listenaktualisierung ist bereits erledigt; hier geht es um die Ursachenanalyse, nicht um eine erneute Bearbeitung.</p>
+<p data-edit-text="material/m9.html::text-51">Funktionsprobe in einer Kopie: Stichtag auf 17.09.2027 ändern. Die offenen Differenzen werden −4, −2 und 0. Die Differenzen der erledigten Aufgaben bleiben 1, −2 und 0. Manuelle Beurteilungen aktualisieren. Anschließend den ursprünglichen Stichtag wiederherstellen.</p>
+<h2 id="14-typische-fehler-und-deren-behebung" data-edit-text="material/m9.html::text-52">14. Typische Fehler und deren Behebung</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Fehler</th>
+<th>Abhilfe</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Datum als Text gespeichert</td>
+<td>Datentyp prüfen und korrekt umwandeln</td>
+</tr>
+<tr class="even">
+<td>Fristdauer als Datum angezeigt</td>
+<td>Zahlenformat mit null Dezimalstellen wählen</td>
+</tr>
+<tr class="odd">
+<td>Fristende um einen Tag verschoben</td>
+<td>Ausgangstag gemäß interner Regel nicht mitzählen</td>
+</tr>
+<tr class="even">
+<td>Wochenende übersprungen</td>
+<td>Kalendertage statt Arbeitstage verwenden</td>
+</tr>
+<tr class="odd">
+<td>Stichtag wandert beim Kopieren</td>
+<td>Absoluten Bezug verwenden</td>
+</tr>
+<tr class="even">
+<td>Historische Auswertung verändert sich täglich</td>
+<td>Festen Stichtag statt HEUTE verwenden</td>
+</tr>
+<tr class="odd">
+<td>Negative Tagesdifferenz als Datum angezeigt</td>
+<td>Zahlenformat verwenden</td>
+</tr>
+<tr class="even">
+<td>Erledigte Aufgabe als überfällig eingestuft</td>
+<td>Erledigungsdatum statt Stichtag vergleichen</td>
+</tr>
+<tr class="odd">
+<td>Status und Abschlussdatum widersprechen sich</td>
+<td>Originalangaben prüfen, nicht raten</td>
+</tr>
+<tr class="even">
+<td>Leeres Datum erzeugt scheinbar gültiges Ergebnis</td>
+<td>Eingaben vor Berechnung auf Vollständigkeit prüfen</td>
+</tr>
+<tr class="odd">
+<td>Nur eine Spalte sortiert</td>
+<td>Gesamten zusammenhängenden Datenbereich sortieren</td>
+</tr>
+<tr class="even">
+<td>Farbe ohne Textbezeichnung</td>
+<td>Eindeutige Statusbezeichnung ergänzen</td>
+</tr>
+<tr class="odd">
+<td>Ablagefrist als Löschfrist verstanden</td>
+<td>Interne Ablage und gesetzliche Aufbewahrung unterscheiden</td>
+</tr>
+<tr class="even">
+<td>Neue Zeile ohne Formel</td>
+<td>Berechnungsbereich erweitern und testen</td>
+</tr>
+</tbody>
+</table>
+<h2 id="15-qualitätskontrolle-und-wiederverwendbarkeit" data-edit-text="material/m9.html::text-53">15. Qualitätskontrolle und Wiederverwendbarkeit</h2>
+<p data-edit-text="material/m9.html::text-54">Freiwillige Kontrolle: Sind IDs eindeutig, Datumswerte numerisch und plausibel, Fristdauern ganze Kalendertage und Statusangaben einheitlich? Sind offene Abschlussdaten leer und erledigte Abschlussdaten vorhanden? Liegt ein Abschluss nicht vor dem Ausgangsdatum oder nach dem Stichtag? Sind Fristende und Differenz korrekt formatiert? Ist der Stichtag zentral und absolut referenziert? Bleiben erledigte Differenzen bei einer Stichtagsänderung stabil? Werden neue Zeilen vollständig berücksichtigt? Sind manuelle Beurteilungen nach Änderungen aktualisiert? Bleiben Originaldaten erhalten?</p>
+<p data-edit-text="material/m9.html::text-55">Mindestens einen offenen, einen heute fälligen, einen überfälligen und einen erledigten Fall in einer Kopie prüfen. Einen Monatswechsel testen. Nach der Funktionsprobe Ausgangswerte wiederherstellen. Die Arbeitsmappe muss nachvollziehbar und für weitere Mitarbeitende nutzbar bleiben.</p>
+<h2 id="16-freiwillige-selbstkontrolle" data-edit-text="material/m9.html::text-56">16. Freiwillige Selbstkontrolle</h2>
+<ol type="1">
+<li data-edit-text="material/m9.html::text-57">Was unterscheidet Posteingang und Postausgang?</li>
+<li data-edit-text="material/m9.html::text-58">Warum braucht jeder Postvorgang eine eindeutige ID?</li>
+<li data-edit-text="material/m9.html::text-59">Was unterscheidet Termin und Frist?</li>
+<li data-edit-text="material/m9.html::text-60">Wie lautet das Fristende bei 28.09.2027 plus fünf Kalendertagen?</li>
+<li data-edit-text="material/m9.html::text-61">Welche Formel berechnet das Fristende aus B3 und C3?</li>
+<li data-edit-text="material/m9.html::text-62">Warum ist HEUTE für eine historische Auswertung ungeeignet?</li>
+<li data-edit-text="material/m9.html::text-63">Wie lautet die kopierfähige Differenzformel für eine offene Aufgabe mit Fristende D3 und Stichtag K2?</li>
+<li data-edit-text="material/m9.html::text-64">Was bedeutet eine Differenz von −3 bei einer offenen Aufgabe?</li>
+<li data-edit-text="material/m9.html::text-65">Was bedeutet eine Differenz von null bei einer offenen Aufgabe?</li>
+<li data-edit-text="material/m9.html::text-66">Fristende 20.09., erledigt am 18.09.: Welche Differenz und Beurteilung ergeben sich?</li>
+<li data-edit-text="material/m9.html::text-67">Fristende 20.09., erledigt am 22.09.: Ist die Aufgabe noch überfällig?</li>
+<li data-edit-text="material/m9.html::text-68">Warum darf eine erledigte Aufgabe ohne Abschlussdatum nicht automatisch beurteilt werden?</li>
+<li data-edit-text="material/m9.html::text-69">Darf nach Ablauf einer internen Ablagefrist eine Unterlage vernichtet werden?</li>
+<li data-edit-text="material/m9.html::text-70">Warum reicht die Farbe Rot nicht als einzige Kennzeichnung?</li>
+<li data-edit-text="material/m9.html::text-71">Was ist bei einer Änderung des Stichtags mit manuell eingetragenen Beurteilungen zu tun?</li>
+</ol>
+<p><strong data-edit-text="material/m9.html::segment-31">Kontrollhinweise</strong></p>
+<ol type="1">
+<li data-edit-text="material/m9.html::text-72">Empfangene gegenüber versandten Vorgängen aus Sicht des dokumentierenden Bereichs.</li>
+<li data-edit-text="material/m9.html::text-73">Damit Vorgänge eindeutig zugeordnet und wiedergefunden werden.</li>
+<li data-edit-text="material/m9.html::text-74">Termin: bestimmter Zeitpunkt; Frist: Zeitraum bis zur Erledigung.</li>
+<li data-edit-text="material/m9.html::text-75">03.10.2027.</li>
+<li><code>=B3+C3</code><span data-edit-text="material/m9.html::segment-32">.</span></li>
+<li data-edit-text="material/m9.html::text-76">HEUTE liefert das aktuelle Systemdatum statt des festgelegten Auswertungsdatums.</li>
+<li><code>=D3-$K$2</code><span data-edit-text="material/m9.html::segment-33">.</span></li>
+<li data-edit-text="material/m9.html::text-77">Drei Kalendertage überfällig.</li>
+<li data-edit-text="material/m9.html::text-78">Heute fällig.</li>
+<li data-edit-text="material/m9.html::text-79">+2, fristgerecht erledigt.</li>
+<li data-edit-text="material/m9.html::text-80">Nein, sie ist verspätet erledigt; Differenz −2.</li>
+<li data-edit-text="material/m9.html::text-81">Der tatsächliche Abschlusszeitpunkt fehlt.</li>
+<li data-edit-text="material/m9.html::text-82">Nein, die interne Ablagefrist ist keine Lösch- oder Aufbewahrungsfrist.</li>
+<li data-edit-text="material/m9.html::text-83">Text ist eindeutiger und auch ohne Farbwahrnehmung verständlich.</li>
+<li data-edit-text="material/m9.html::text-84">Erneut anhand der aktualisierten Differenzen prüfen und anpassen.</li>
+</ol>
+<p data-edit-text="material/m9.html::text-85">Keine zusätzliche Abgabe oder Bewertung.</p>
+<h2 id="17-weiterführende-materialien" data-edit-text="material/m9.html::text-86">17. Weiterführende Materialien</h2>
+<p data-edit-text="material/m9.html::text-87">M3 unterstützt die Tabellenstruktur, M4 die Datumsformate, M5 die Formelerstellung und M7 die absoluten Zellbezüge. M10 vertieft Sortieren, Filtern und Rangfolgen. M14 behandelt die Qualitätskontrolle und Wiederverwendbarkeit. M9 bleibt während der gesamten Lernsituation verfügbar.</p>
+</article></article></section>
+  </div>
+</div>
+</div>
+<p><a href="m9.md" download data-edit-text="material/m9.html::segment-34" data-edit-link="material/m9.html::link-6">Bearbeitbare Textfassung</a></p>
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

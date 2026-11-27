@@ -37,6 +37,17 @@
     ["Sie muss zusätzlich prüfen, ob Skonto vereinbart war und innerhalb der Frist abgezogen wurde.","Sie muss den Verkaufsprospekt mit dem Rechnungsbetrag vergleichen.","Sie kann jede Differenz unabhängig von Vereinbarung und Frist als Skonto buchen."],
     ["Eine Arbeitshilfe für die Prüfung der Belegkette vom Kundenkontakt bis zur Zahlung.","Einen neuen Einzelhandelspreis für alle Räder.","Eine Übersicht der Lagerbestände ohne Rechnungsbezug."]
   ],
+  "2.6a":[
+    ["Emma Fuchs aus der Verwaltung braucht verlässliche Fristen- und Kostenauswertungen für die interne Besprechung.","Die Einkaufsleitung benötigt ein verbindliches Angebot für einen neuen Lieferanten in Nordwest.","Die Produktionsleitung benötigt einen Einsatzplan für die Werkstatt in Hamburg."],
+    ["1. Januar bis 30. Juni 2027; Stichtag 1. Juli 2027; Halbjahresbudget 2.500 Euro netto.","1. Januar bis 30. Juni 2027; Stichtag 30. Juni 2027; Halbjahresbudget 2.500 Euro brutto.","1. Juli bis 31. Dezember 2027; Stichtag 1. Januar 2028; Halbjahresbudget 2.500 Euro netto."],
+    ["Die Zählung beginnt am Folgetag; das Fristende bleibt auch an Wochenenden und Feiertagen bestehen.","Der Ausgangstag zählt mit; das Fristende verschiebt sich auf den nächsten Arbeitstag.","Die Zählung beginnt am Folgetag; Samstage, Sonntage und Feiertage werden ausgelassen."],
+    ["Eine bearbeitbare Excel-Arbeitsmappe mit einseitiger Besprechungsübersicht und begründeter Empfehlung.","Vier separate PDF-Ausdrucke der Rohdaten mit einem kurzen Hinweis auf die höchsten Ausgaben.","Eine Präsentation der Monatsmeldungen und eine unveränderte Kopie der Rohdatendatei."]
+  ],
+  "2.6b":[
+    ["Du ordnest die Belege, erklärst ihre Aufgaben und verschaffst dir einen Überblick über den Ablauf.","Du buchst zunächst den voraussichtlichen Erlös für alle drei Fälle.","Du legst für jeden Kunden neue Stammdaten an."],
+    ["Für Bavaria Bikes gelten DS01, EH und HD01. Bei beiden Übungen arbeitest du mit DN01, GH und HH01.","Alle drei Vorgänge verwenden DS01, EH und das Heidelberger Werk HD01.","Nur der Vertriebsweg wechselt, Verkaufsorganisation und Werk bleiben für alle drei identisch."],
+    ["Drei getrennte Laufzettel mit den tatsächlich erzeugten Belegnummern und geprüftem Zahlungsstatus.","Drei Angebote mit geschätzten Systemnummern genügen.","Ein gemeinsamer Laufzettel ohne Trennung nach Kunde und Wert."]
+  ],
   "3.1":[
     ["Birgit Horst braucht für die Geschäftsleitung eine Empfehlung zur Versorgung.","Jan Richter braucht einen Entwurf der nächsten Werbekampagne.","Die Geschäftsleitung braucht einen Entwurf für neue Arbeitsverträge."],
     ["Bestellkosten und Lagerhaltungskosten.","Ausbildungskosten und Reisekosten.","Werbekosten und Versandetiketten."],

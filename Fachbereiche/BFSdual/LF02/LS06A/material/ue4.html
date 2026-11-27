@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ü4 – Bürokosten automatisch berechnen</title><link href="../assets/global-bike.css" rel="stylesheet"><style>main.excel{max-width:72rem;margin:auto;padding:1rem 3vw;background:white;font:1rem/1.55 system-ui;color:#17324b}.excel img{max-width:100%;height:auto}.excel table{display:block;overflow:auto;border-collapse:collapse}.excel td,.excel th{padding:.4rem;border:1px solid #b7c7d0}.excel a{text-decoration:underline}</style><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main class="excel">
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app onenote" data-material-view="onenote" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">N</span>
+    <strong>OneNote</strong><span class="file">ue4</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Notizen</span><span class="material-tab">Arbeitsunterlagen</span><span class="material-kind">Notiz / Arbeitsblatt</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Notizbuch</span><span class="material-rail-item is-active">Notizen</span><span class="material-rail-item">Unterlagen</span><span class="material-rail-item">Besprechungen</span></aside>
+    <section class="canvas"><article class="paper"><article><h1 id="ü4--bürokosten-automatisch-berechnen" data-edit-text="material/ue4.html::text-1">Ü4 – Bürokosten automatisch berechnen</h1>
+<p data-edit-text="material/ue4.html::text-2">Global Bike Deutschland GmbH · Verwaltung · Löppt · freiwillig · keine KI</p>
+<h2 id="ausgangssituation" data-edit-text="material/ue4.html::text-3">Ausgangssituation</h2>
+<p data-edit-text="material/ue4.html::text-4">Emma Fuchs benötigt für eine interne Informationsveranstaltung zur Marktbearbeitung Nordwest eine wiederverwendbare Kostenkalkulation. Mengen und Preise können sich ändern. Alle Angaben sind simulierte Übungsdaten, unabhängig von M1 und SAP.</p>
+<h2 id="lernziele" data-edit-text="material/ue4.html::text-5">Lernziele</h2>
+<p data-edit-text="material/ue4.html::text-6">F4: Formeln und Grundrechenarten mit Zellbezügen anwenden, Rechenregeln beachten, Ergebnisse und Neuberechnung prüfen. F2/F3: Struktur und Zahlenformate erhalten. M4/M5.</p>
+<h2 id="ausgangsdaten" data-edit-text="material/ue4.html::text-7">Ausgangsdaten</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Position</th>
+<th style="text-align: right;">Menge</th>
+<th style="text-align: right;">Einzelpreis netto</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Infomappen</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">3,75 €</td>
+</tr>
+<tr class="even">
+<td>Namensschilder</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">1,20 €</td>
+</tr>
+<tr class="odd">
+<td>Notizblöcke</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">2,40 €</td>
+</tr>
+<tr class="even">
+<td>Versandtaschen</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">1,50 €</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/ue4.html::text-8">Genehmigter Betrag: 200 € netto; Teilnehmende: 20. Keine Umsatzsteuerberechnung. Alle Einzelpreise sind centgenau.</p>
+<h2 id="arbeitsaufträge" data-edit-text="material/ue4.html::text-9">Arbeitsaufträge</h2>
+<ol type="1">
+<li data-edit-text="material/ue4.html::text-10">Öffnen Sie UE4_Arbeitsdatei.xlsx und speichern Sie eine Kopie als GB_UE4_Buerokosten.xlsx. Prüfen Sie die drei Tabellenblätter. Eingaben und Ergebnisse sind getrennt; grüne Ergebnisfelder im Blatt Kosten sind zu bearbeiten.</li>
+<li><span data-edit-text="material/ue4.html::segment-1">Berechnen Sie in D4 den Gesamtpreis der Infomappen mit einer </span><a href="../ls-glossar.html?from=material%2Fue4.html%23wort-formel#formel" id="wort-formel" data-edit-text="material/ue4.html::segment-3" data-edit-link="material/ue4.html::link-1">Formel</a><span data-edit-text="material/ue4.html::segment-2"> aus Menge und Einzelpreis. Beginnen Sie mit dem Gleichheitszeichen, wählen Sie die passenden Zellbezüge und den Multiplikationsoperator. Kontrollieren Sie das Ergebnis durch Überschlagsrechnung.</span></li>
+<li data-edit-text="material/ue4.html::text-11">Übertragen Sie die Formel mit dem Ausfüllkästchen bis D7. Prüfen Sie die Formel in D7 auf die richtigen Zeilenbezüge. Keine fest eingetragenen Ergebnisse.</li>
+<li><span data-edit-text="material/ue4.html::segment-4">Addieren Sie in D8 die vier Gesamtpreise mit dem Plusoperator. Ermitteln Sie in D10 den verbleibenden Betrag aus genehmigtem Betrag und Gesamtkosten. Berechnen Sie in D12 die Kosten je Person. Verwenden Sie ausschließlich Zellbezüge. </span><a href="../ls-glossar.html?from=material%2Fue4.html%23wort-summe#summe" id="wort-summe" data-edit-text="material/ue4.html::segment-6" data-edit-link="material/ue4.html::link-2">SUMME</a><span data-edit-text="material/ue4.html::segment-5"> wird erst in Ü5 vertieft.</span></li>
+<li data-edit-text="material/ue4.html::text-12">Prüfen Sie die Formate: Mengen und Teilnehmende als ganze Zahlen, Preise und Ergebnisse als Euro mit zwei Nachkommastellen. Verändern Sie die gespeicherten Werte nicht durch bloße Anzeigerundung. Kosten je Person sind eine rechnerische Kennzahl, keine tatsächliche Einzelabrechnung.</li>
+<li data-edit-text="material/ue4.html::text-13">Bearbeiten Sie Rechenlabor E3:E6. Verwenden Sie die Werte in B:D und die im Auftrag beschriebene Reihenfolge. Notieren Sie zunächst Ihre erwarteten Ergebnisse auf einem Notizzettel, vergleichen Sie dann mit Excel. Erklären Sie, warum Klammern die Ergebnisse verändern.</li>
+<li data-edit-text="material/ue4.html::text-14">Bearbeiten Sie Fehlerlabor D3:D7. Prüfen Sie jede Ergebniszelle in der Bearbeitungsleiste. Dokumentieren Sie Ursache und Abhilfe in E3:E7. Kontrollnotiz: In Zeile 6 ist der richtige Teiler 6; in Zeile 7 beträgt der Preis 3 € netto. Alle übrigen Eingaben sind richtig. Korrigieren Sie nur die Fehlerursache. Keine Fehlermeldung durch einen Festwert verdecken.</li>
+<li data-edit-text="material/ue4.html::text-15">Führen Sie im Blatt Kosten einen Funktionstest durch: Ändern Sie B4 von 20 auf 24. Berechnen Sie vorher die erwarteten Änderungen in D4, D8, D10 und D12. Vergleichen Sie mit Excel und stellen Sie B4 auf 20 zurück. Ändern Sie danach C7 von 1,50 auf 2,00 und prüfen Sie erneut; stellen Sie C7 zurück. Wenn Ergebnisse unverändert bleiben, prüfen Sie Formel, Bezug und Berechnungsoptionen.</li>
+<li data-edit-text="material/ue4.html::text-16">Speichern, schließen und öffnen Sie die Arbeitskopie erneut. Führen Sie die Selbstkontrolle durch und vergleichen Sie anschließend mit der separaten Musterlösung. Keine Abgabe erforderlich.</li>
+</ol>
+<h2 id="lernhilfen" data-edit-text="material/ue4.html::text-17">Lernhilfen</h2>
+<p><img src="Grafiken/G7_Formelaufbau.png" alt="Formelaufbau" data-edit-image="material/ue4.html::image-1"></p>
+<p><img src="Grafiken/G7a_Rechenregeln.png" alt="Rechenregeln" data-edit-image="material/ue4.html::image-2"></p>
+<p><img src="Grafiken/G7b_Formeln_eingeben.png" alt="Formeln eingeben" data-edit-image="material/ue4.html::image-3"></p>
+<p><img src="Grafiken/UE4_Neuberechnung.png" alt="Neuberechnung" data-edit-image="material/ue4.html::image-4"></p>
+<p data-edit-text="material/ue4.html::text-18">Schematische Lernhilfen, keine Screenshots.</p>
+<h2 id="klick-anleitungen-excel-windows-deutsch" data-edit-text="material/ue4.html::text-19">Klick-Anleitungen (Excel Windows, deutsch)</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Ziel</th>
+<th>Klickweg</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Arbeitskopie</td>
+<td>Datei → Speichern unter/Kopie speichern → XLSX</td>
+</tr>
+<tr class="even">
+<td>Formel erstellen</td>
+<td>Ergebniszelle anklicken → = eingeben → erste Bezugszelle anklicken → Operator → zweite Bezugszelle → Enter</td>
+</tr>
+<tr class="odd">
+<td>Formel prüfen</td>
+<td>Ergebniszelle anklicken → Bearbeitungsleiste</td>
+</tr>
+<tr class="even">
+<td>Formel korrigieren</td>
+<td>F2 oder Bearbeitungsleiste → ändern → Enter; Esc bricht unbestätigte Änderung ab</td>
+</tr>
+<tr class="odd">
+<td>Formel kopieren</td>
+<td>Geprüfte Zelle markieren → Ausfüllkästchen unten rechts nach unten ziehen</td>
+</tr>
+<tr class="even">
+<td>Kopierte Bezüge prüfen</td>
+<td>Letzte Ergebniszelle anklicken → Bearbeitungsleiste</td>
+</tr>
+<tr class="odd">
+<td>Klammern setzen</td>
+<td>F2 → paarweise Klammern ergänzen → Enter</td>
+</tr>
+<tr class="even">
+<td>Währung</td>
+<td>Bereich markieren → Strg+1 → Währung → Euro → zwei Dezimalstellen</td>
+</tr>
+<tr class="odd">
+<td>Ganzzahl</td>
+<td>Strg+1 → Zahl → null Dezimalstellen</td>
+</tr>
+<tr class="even">
+<td>Textformel korrigieren</td>
+<td>Standardformat wählen → ggf. Apostroph entfernen → F2 → Enter; nötigenfalls Formel neu eingeben</td>
+</tr>
+<tr class="odd">
+<td>Textbetrag korrigieren</td>
+<td>Standardformat wählen → numerischen Betrag neu eingeben</td>
+</tr>
+<tr class="even">
+<td>Automatische Berechnung</td>
+<td>Formeln → Berechnungsoptionen → Automatisch</td>
+</tr>
+<tr class="odd">
+<td>Neuberechnung anstoßen</td>
+<td>F9</td>
+</tr>
+<tr class="even">
+<td>Formeln anzeigen</td>
+<td>Formeln → Formeln anzeigen; anschließend wieder ausschalten</td>
+</tr>
+<tr class="odd">
+<td>Eingabe zurücksetzen</td>
+<td>Ursprünglichen Wert erneut eingeben; ggf. Strg+Z unmittelbar nach Änderung</td>
+</tr>
+<tr class="even">
+<td>Speichern</td>
+<td>Strg+S</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/ue4.html::text-20">Versionsabhängige Abweichungen möglich. Multiplikation * und Division /; Doppelpunkt bezeichnet einen Bereich, kein Divisionszeichen.</p>
+<h2 id="fehlerdiagnose" data-edit-text="material/ue4.html::text-21">Fehlerdiagnose</h2>
+<p data-edit-text="material/ue4.html::text-22">Bei #DIV/0! Nenner prüfen; bei #WERT! Datentypen prüfen; bei #BEZUG! ungültige Referenz wiederherstellen; bei #NAME? Schreibweise prüfen. Bei Zirkelbezug darf die Formel nicht von ihrer eigenen Ergebniszelle abhängen. Bei Rauten Spaltenbreite und ggf. Datumswerte prüfen. Fehlende Klammern oder falsche Operatoren können bereits bei Eingabe abgewiesen werden.</p>
+<h2 id="selbstkontrolle" data-edit-text="material/ue4.html::text-23">Selbstkontrolle</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Original unverändert; Arbeitskopie gespeichert.</label></li>
+<li><label><input type="checkbox">D4:D7 enthalten Formeln mit passenden Zeilenbezügen.</label></li>
+<li><label><input type="checkbox">D8, D10 und D12 enthalten Formeln, keine Festwerte.</label></li>
+<li><label><input type="checkbox">Alle vier Grundrechenarten korrekt eingesetzt.</label></li>
+<li><label><input type="checkbox">Rechenlabor vollständig und Klammerwirkung erklärt.</label></li>
+<li><label><input type="checkbox">Fehlerlabor vollständig korrigiert und Ursachen dokumentiert.</label></li>
+<li><label><input type="checkbox">Geldbeträge mit zwei Dezimalstellen, Mengen ganzzahlig.</label></li>
+<li><label><input type="checkbox">Beide Funktionstests erfolgreich; Ausgangswerte wiederhergestellt.</label></li>
+<li><label><input type="checkbox">Keine Fehleranzeigen; Datei erneut geöffnet.</label></li>
+</ul>
+<h2 id="freiwillige-vertiefung" data-edit-text="material/ue4.html::text-24">Freiwillige Vertiefung</h2>
+<p data-edit-text="material/ue4.html::text-25">In einer Testkopie den genehmigten Betrag auf 100 € setzen und den negativen Restbetrag erklären. Anschließend den ursprünglichen Betrag wiederherstellen. Optional in einer freien Zelle 10/3 als Formel berechnen, zwei Dezimalstellen anzeigen und mit =RUNDEN(10/3;2) vergleichen. Keine zusätzliche Pflichtabgabe.</p>
+<p><a href="UE4_Arbeitsdatei.xlsx" data-edit-text="material/ue4.html::segment-7" data-edit-link="material/ue4.html::link-3">Excel-Arbeitsdatei herunterladen</a></p>
+<details><summary>Freiwilliger Übungscheck · fünf Fragen</summary><fieldset style="margin:.75rem 0"><legend>Menge steht in B4, Einzelpreis in C4. Welche Formel bleibt bei Änderungen beider Eingaben nutzbar?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> =B4-C4</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> =B4+C4</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> =20*3,75</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> 75</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="1"> =B4*C4</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> =B4/C4</label><button type="button" data-ue-feedback="Zellbezüge und Sternchen verknüpfen die aktuellen Eingaben durch Multiplikation.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>Welche Formel ergibt mit den Zahlen 12, 3 und 4 den Wert 60?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> =12+3+4</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> =12+(3*4)</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> =12+3*4</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> =12*(3+4)</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="1"> =(12+3)*4</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> =12*3+4</label><button type="button" data-ue-feedback="Klammern erzwingen zuerst 12+3, anschließend wird mit 4 multipliziert.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>Die Formel =B4*C4 wird eine Zeile nach unten kopiert. Welche Formel entsteht bei normalen relativen Bezügen?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> =B3*C3</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> =B5*C4</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="1"> =B5*C5</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> =C4*D4</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> =B4*C5</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> =B4*C4</label><button type="button" data-ue-feedback="Beim Kopieren nach unten ändern sich beide Zeilennummern um eins.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>Eine Kostenformel zeigt #DIV/0!. Welche Prüfung ist zuerst sinnvoll?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Währungsformat ändern</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Multiplikationszeichen ergänzen, ohne den Rechenweg zu prüfen</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Die Ergebniszelle mit 0 überschreiben</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Die Formel als Text formatieren</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Spalte verbreitern</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="1"> Den Nenner auf null oder fehlende Eingabe prüfen</label><button type="button" data-ue-feedback="Division durch null ist nicht definiert. Die fehlende oder falsche Eingabe muss fachlich geklärt werden.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>Nach einer Mengenänderung bleibt der Gesamtpreis unverändert. Welche Vorgehensweise ist geeignet?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Zwei Nachkommastellen entfernen</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Den alten Gesamtpreis erneut als Zahl eingeben</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Die Ergebniszelle mit der Mengenangabe verbinden</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Die Menge als Text formatieren</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Nur die Schriftfarbe ändern</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="1"> Formel, Zellbezüge und automatische Berechnung prüfen</label><button type="button" data-ue-feedback="Festwerte, falsche Bezüge oder manuelle Berechnung können die Aktualisierung verhindern.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset></details><script>for(const b of document.querySelectorAll("[data-ue-feedback]"))b.addEventListener("click",()=>{const f=b.closest("fieldset"),c=f.querySelector("input:checked");f.querySelector("[role=status]").textContent=c?((c.value==="1"?"Richtig. ":"Prüfe deine Wahl. ")+b.dataset.ueFeedback):"Wähle zuerst eine Antwort.";});</script></article></article></section>
+  </div>
+</div>
+</div>
+<p><a href="ue4.md" download data-edit-text="material/ue4.html::segment-8" data-edit-link="material/ue4.html::link-4">Bearbeitbare Textfassung</a></p>
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

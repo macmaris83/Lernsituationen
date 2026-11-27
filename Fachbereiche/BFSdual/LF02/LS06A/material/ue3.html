@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><!-- BFS-MATERIAL-ACCESS:BEGIN --><link rel="stylesheet" href="../assets/bfs-material-access.css"><script defer src="../assets/bfs-materials-data.js"></script><script defer src="../assets/bfs-material-access.js" data-material-page="material"></script><!-- BFS-MATERIAL-ACCESS:END --><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ü3 – Betriebliche Daten richtig formatieren</title><link href="../assets/global-bike.css" rel="stylesheet"><style>main.excel{max-width:72rem;margin:auto;padding:1rem 3vw;background:white;font:1rem/1.55 system-ui;color:#17324b}.excel img{max-width:100%;height:auto}.excel table{display:block;overflow:auto;border-collapse:collapse}.excel td,.excel th{padding:.4rem;border:1px solid #b7c7d0}.excel a{text-decoration:underline}</style><link rel="stylesheet" href="../assets/pdf-ui.css"><script src="../assets/editor-config.js" defer></script><script src="../assets/editor-settings.js" defer></script><script defer src="../assets/pdf-ui.js"></script><link rel="stylesheet" href="../assets/editor.css"><link rel="stylesheet" href="../assets/bfs-chrome.css"><link rel="stylesheet" href="../assets/bfs-document-views.css"><link rel="stylesheet" href="../assets/bfs-document-reader.css"><link rel="stylesheet" href="../assets/fokus.css"><script defer src="../assets/lernweg.js"></script></head><body><main class="excel">
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<div class="source-document" data-bfs-document="">
+<div class="app onenote" data-material-view="onenote" data-material-surface="v2">
+  <div class="viewerbar" aria-hidden="true">
+    <span class="dots" aria-hidden="true">•••</span>
+    <span class="material-app-icon" aria-hidden="true">N</span>
+    <strong>OneNote</strong><span class="file">ue3</span>
+    <span class="material-search" aria-hidden="true">⌕ Suchen</span>
+    <span class="grow"></span><span class="material-window-tools" aria-hidden="true">— □ ×</span>
+  </div>
+  <div class="subbar" aria-hidden="true"><span class="material-tab is-active">Notizen</span><span class="material-tab">Arbeitsunterlagen</span><span class="material-kind">Notiz / Arbeitsblatt</span></div>
+  <div class="material-workspace">
+    <aside class="material-rail" aria-hidden="true"><span class="material-rail-title">Notizbuch</span><span class="material-rail-item is-active">Notizen</span><span class="material-rail-item">Unterlagen</span><span class="material-rail-item">Besprechungen</span></aside>
+    <section class="canvas"><article class="paper"><article><h1 id="ü3--betriebliche-daten-richtig-formatieren" data-edit-text="material/ue3.html::text-1">Ü3 – Betriebliche Daten richtig formatieren</h1>
+<p data-edit-text="material/ue3.html::text-2">Global Bike Deutschland GmbH · Verwaltung · Löppt · freiwillig · keine KI</p>
+<h2 id="ausgangssituation" data-edit-text="material/ue3.html::text-3">Ausgangssituation</h2>
+<p data-edit-text="material/ue3.html::text-4">Emma Fuchs organisiert interne Informationsveranstaltungen zur Marktbearbeitung Nordwest. Die Liste enthält uneinheitliche Darstellungen und einige fehlerhafte Eingaben. Sie soll für die spätere Weiterverarbeitung zuverlässig nutzbar sein. Alle Angaben sind simulierte Übungsdaten, unabhängig von M1 und SAP.</p>
+<h2 id="lernziele" data-edit-text="material/ue3.html::text-5">Lernziele</h2>
+<p><span data-edit-text="material/ue3.html::segment-1">F3: Zahlen, Text, Währung, Prozent, Datum und Uhrzeit fachgerecht formatieren; </span><a href="../ls-glossar.html?from=material%2Fue3.html%23wort-zellwert#zellwert" id="wort-zellwert" data-edit-text="material/ue3.html::segment-3" data-edit-link="material/ue3.html::link-1">Zellwert</a><span data-edit-text="material/ue3.html::segment-2"> und Darstellung unterscheiden; Eingabefehler korrigieren. F2: lesbare Tabellenstruktur erhalten. M3 und M4.</span></p>
+<h2 id="verbindliche-betriebliche-kontrollnotiz" data-edit-text="material/ue3.html::text-6">Verbindliche betriebliche Kontrollnotiz</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Kennung</th>
+<th>Veranstaltung</th>
+<th>Datum</th>
+<th>Beginn</th>
+<th style="text-align: right;">Teilnehmende</th>
+<th style="text-align: right;">Kosten netto</th>
+<th style="text-align: right;">Anteil digital</th>
+<th style="text-align: right;">Gewicht kg</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0041</td>
+<td>Vertriebsinformation</td>
+<td>06.04.2027</td>
+<td>09:30</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">1.250,50 €</td>
+<td style="text-align: right;">75 %</td>
+<td style="text-align: right;">3,456</td>
+</tr>
+<tr class="even">
+<td>0042</td>
+<td>Kundenservice-Austausch</td>
+<td>08.04.2027</td>
+<td>10:15</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">875,25 €</td>
+<td style="text-align: right;">80 %</td>
+<td style="text-align: right;">2,125</td>
+</tr>
+<tr class="odd">
+<td>0043</td>
+<td>Sortimentsbesprechung</td>
+<td>12.04.2027</td>
+<td>13:00</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">1.480,00 €</td>
+<td style="text-align: right;">62,5 %</td>
+<td style="text-align: right;">4,789</td>
+</tr>
+<tr class="even">
+<td>0044</td>
+<td>Marketing-Abstimmung</td>
+<td>15.04.2027</td>
+<td>08:45</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">0,00 €</td>
+<td style="text-align: right;">50 %</td>
+<td style="text-align: right;">1,256</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/ue3.html::text-7">Die Kontrollnotiz enthält die fachlich richtigen Angaben. Gewichte sind mit drei Nachkommastellen erfasst; die fertige Übersicht soll zwei anzeigen, ohne die Werte zu verändern.</p>
+<h2 id="praktische-arbeitsaufträge" data-edit-text="material/ue3.html::text-8">Praktische Arbeitsaufträge</h2>
+<ol type="1">
+<li data-edit-text="material/ue3.html::text-9">Öffnen Sie UE3_Arbeitsdatei.xlsx und speichern Sie eine Kopie als GB_UE3_Veranstaltungen.xlsx. Original nicht überschreiben. Prüfen Sie die Blätter Veranstaltungen und Formatlabor.</li>
+<li data-edit-text="material/ue3.html::text-10">Vergleichen Sie A4:H7 mit der Kontrollnotiz. Untersuchen Sie die Bearbeitungsleiste und das aktuelle Format. Notieren Sie für sich, welche Fehler nur die Anzeige und welche den Wert oder Datentyp betreffen.</li>
+<li data-edit-text="material/ue3.html::text-11">Formatieren Sie A4:A7 als Text. Erfassen Sie die verlorene Kennung in A4 erneut anhand der Kontrollnotiz. Prüfen Sie alle führenden Nullen. Ändern Sie keine bereits richtigen Kennungen.</li>
+<li data-edit-text="material/ue3.html::text-12">Stellen Sie C4:C7 als Datum mit vierstelliger Jahreszahl und D4:D7 als Uhrzeit (Stunden:Minuten) dar. C5 ist Text: erfassen Sie das Datum erneut in einer Zelle mit Standardformat, kontrollieren Sie die Erkennung und wählen Sie das Datumsformat. Die übrigen Datums- und Zeitwerte sind bereits numerisch gespeichert.</li>
+<li data-edit-text="material/ue3.html::text-13">Formatieren Sie E4:E7 als Zahl ohne Nachkommastellen. F4:F7 sollen Eurobeträge mit zwei Nachkommastellen und Tausendertrennzeichen anzeigen. F5 enthält Text: erfassen Sie den Betrag ohne Währungssymbol als Zahl neu und formatieren Sie ihn anschließend. Netto bleibt durch die Überschrift eindeutig.</li>
+<li data-edit-text="material/ue3.html::text-14">Formatieren Sie G4:G7 als Prozent mit einer Nachkommastelle. Vergleichen Sie G5 mit der Kontrollnotiz und korrigieren Sie den zugrunde liegenden Wert. Prozentformat allein berechnet keinen Anteil.</li>
+<li data-edit-text="material/ue3.html::text-15">Stellen Sie H4:H7 mit zwei Nachkommastellen dar. Prüfen Sie in der Bearbeitungsleiste, dass die ursprünglichen drei Nachkommastellen erhalten sind. Erhöhen Sie testweise die Anzeige auf drei Stellen und stellen Sie danach zwei wieder her.</li>
+<li data-edit-text="material/ue3.html::text-16">Bearbeiten Sie das Formatlabor gemäß der folgenden Versuchsanleitung. Schreiben Sie Ihre Beobachtungen in Spalte D.</li>
+<li data-edit-text="material/ue3.html::text-17">Prüfen Sie Spaltenbreiten und Lesbarkeit. Bei Rauten zunächst Breite prüfen; bei Datum/Zeit gegebenenfalls auch negative Werte. Speichern, schließen und öffnen Sie die Arbeitskopie erneut. Führen Sie die Selbstkontrolle durch und vergleichen Sie danach mit der separaten Lösung. Keine Abgabe.</li>
+</ol>
+<h2 id="formatlabor" data-edit-text="material/ue3.html::text-18">Formatlabor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Zeile</th>
+<th>Auftrag</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>3</td>
+<td>B3 Standard, C3 Prozent ohne Nachkommastellen. Vergleichen Sie Anzeige und Bearbeitungsleiste.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>B4 Zahl mit zwei, C4 mit drei Nachkommastellen. Vergleichen Sie gespeicherte Werte.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>B5 Währung Euro, C5 Buchhaltung Euro, jeweils zwei Nachkommastellen. Vergleichen Sie Symbolposition und Ausrichtung.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Wiederholen Sie den Vergleich mit Nullbeträgen.</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>B7 und C7 Prozent ohne Nachkommastellen. Erklären Sie die unterschiedliche Anzeige.</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>B8 Standard, C8 Text. Erklären Sie den Unterschied zwischen Zahl und Kennung.</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>B9 Standard, C9 Datum. Erklären Sie, warum die Anzeigen verschieden sind, obwohl der Tag identisch ist.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="visuelle-lernhilfen" data-edit-text="material/ue3.html::text-19">Visuelle Lernhilfen</h2>
+<p><img src="Grafiken/G6_Zellwert_Zellformat.png" alt="Zellwert und Zellformat" data-edit-image="material/ue3.html::image-1"></p>
+<p><img src="Grafiken/G6a_Prozentformat.png" alt="Prozentformat" data-edit-image="material/ue3.html::image-2"></p>
+<p><img src="Grafiken/G6b_Zellen_formatieren.png" alt="Dialog Zellen formatieren" data-edit-image="material/ue3.html::image-3"></p>
+<p><img src="Grafiken/UE3_Wert_oder_Format.png" alt="Format oder Wert korrigieren" data-edit-image="material/ue3.html::image-4"></p>
+<p data-edit-text="material/ue3.html::text-20">Alle Grafiken sind schematisch, keine Original-Screenshots.</p>
+<h2 id="klick-anleitungen-excel-windows-deutsch" data-edit-text="material/ue3.html::text-21">Klick-Anleitungen (Excel Windows, deutsch)</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Ziel</th>
+<th>Vorgehen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Arbeitskopie</td>
+<td>Datei → Speichern unter/Kopie speichern → XLSX</td>
+</tr>
+<tr class="even">
+<td>Zellwert prüfen</td>
+<td>Zelle auswählen → Bearbeitungsleiste betrachten; bei Datum/Zeit kann Excel eine lesbare Darstellung zeigen</td>
+</tr>
+<tr class="odd">
+<td>Formatdialog</td>
+<td>Bereich markieren → Strg+1 → Zahlen</td>
+</tr>
+<tr class="even">
+<td>Textkennung</td>
+<td>Kategorie Text → OK → fehlende Kennung erneut eingeben; alternativ Apostroph voranstellen</td>
+</tr>
+<tr class="odd">
+<td>Zahl</td>
+<td>Kategorie Zahl → Dezimalstellen 0 oder 2 → ggf. Tausendertrennzeichen aktivieren</td>
+</tr>
+<tr class="even">
+<td>Währung</td>
+<td>Kategorie Währung → Symbol € → zwei Dezimalstellen</td>
+</tr>
+<tr class="odd">
+<td>Buchhaltung</td>
+<td>Kategorie Buchhaltung → Symbol € → zwei Dezimalstellen</td>
+</tr>
+<tr class="even">
+<td>Prozent</td>
+<td>Standardzelle: 0,08 oder 8 % eingeben → Prozentformat → Dezimalstellen einstellen</td>
+</tr>
+<tr class="odd">
+<td>Datum</td>
+<td>Standardzelle: Datum eingeben → Strg+1 → Datum bzw. benutzerdefiniert TT.MM.JJJJ</td>
+</tr>
+<tr class="even">
+<td>Uhrzeit</td>
+<td>Standardzelle: 09:30 eingeben → Strg+1 → Uhrzeit bzw. hh:mm (deutsche Oberfläche: ggf. hh:mm)</td>
+</tr>
+<tr class="odd">
+<td>Text in Zahl korrigieren</td>
+<td>Standardformat wählen → korrekten numerischen Wert neu eingeben; ggf. Warnsymbol → In eine Zahl umwandeln, nur bei Rechengrößen</td>
+</tr>
+<tr class="even">
+<td>Dezimalstellen ändern</td>
+<td>Start → Zahl → Dezimalstellen hinzufügen/entfernen</td>
+</tr>
+<tr class="odd">
+<td>Spaltenbreite</td>
+<td>Doppelklick auf Grenze zwischen Spaltenbuchstaben</td>
+</tr>
+<tr class="even">
+<td>Formate zurücksetzen</td>
+<td>Start → Löschen → Formate löschen (entfernt auch andere Zellgestaltung); alternativ Standardformat</td>
+</tr>
+<tr class="odd">
+<td>Werte ohne Quellformat kopieren</td>
+<td>Kopieren → Start → Einfügen → Inhalte einfügen → Werte</td>
+</tr>
+<tr class="even">
+<td>Speichern</td>
+<td>Strg+S → schließen → Datei → Öffnen</td>
+</tr>
+</tbody>
+</table>
+<p data-edit-text="material/ue3.html::text-22">Regionale Einstellungen und Excel-Versionen können abweichen. In deutscher Standardkonfiguration Dezimalkomma verwenden. Währungssymbol ändert keine Währung rechnerisch.</p>
+<h2 id="selbstkontrolle" data-edit-text="material/ue3.html::text-23">Selbstkontrolle</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Vier Kennungen vollständig mit führenden Nullen als Text.</label></li>
+<li><label><input type="checkbox">Vier echte Datumswerte und vier echte Uhrzeitwerte.</label></li>
+<li><label><input type="checkbox">Teilnehmerzahlen ohne Nachkommastellen.</label></li>
+<li><label><input type="checkbox">Alle Kosten numerisch, Euro mit zwei Nachkommastellen.</label></li>
+<li><label><input type="checkbox">Prozentwerte entsprechen der Kontrollnotiz; G5 ist korrigiert.</label></li>
+<li><label><input type="checkbox">Gewichte zeigen zwei Stellen, ursprüngliche Genauigkeit bleibt erhalten.</label></li>
+<li><label><input type="checkbox">Alle sieben Laborversuche bearbeitet und erklärt.</label></li>
+<li><label><input type="checkbox">Keine abgeschnittenen Angaben oder Rauten.</label></li>
+<li><label><input type="checkbox">Original unverändert, Arbeitskopie erneut geöffnet.</label></li>
+</ul>
+<p><span data-edit-text="material/ue3.html::segment-4">Funktionstest: In einer Testkopie G5 auf Standard stellen: der Wert muss 0,8 sein. H4 auf drei Dezimalstellen stellen: 3,456 muss erscheinen. Testkopie schließen; fertige </span><a href="../ls-glossar.html?from=material%2Fue3.html%23wort-arbeitsmappe#arbeitsmappe" id="wort-arbeitsmappe" data-edit-text="material/ue3.html::segment-6" data-edit-link="material/ue3.html::link-2">Arbeitsmappe</a><span data-edit-text="material/ue3.html::segment-5"> unverändert lassen.</span></p>
+<h2 id="freiwillige-vertiefung" data-edit-text="material/ue3.html::text-24">Freiwillige Vertiefung</h2>
+<p data-edit-text="material/ue3.html::text-25">Vergleichen Sie in einer Testkopie die Anzeige eines Datums im Standardformat, kurzen Datum und langen Datum. Vergleichen Sie außerdem eine numerische Kennung mit benutzerdefiniertem Format 0000 und eine echte Textkennung. Beide können gleich aussehen, sind aber unterschiedliche Datentypen. Keine zusätzliche Abgabe.</p>
+<p><a href="UE3_Arbeitsdatei.xlsx" data-edit-text="material/ue3.html::segment-7" data-edit-link="material/ue3.html::link-3">Excel-Arbeitsdatei herunterladen</a></p>
+<details><summary>Freiwilliger Übungscheck · fünf Fragen</summary><fieldset style="margin:.75rem 0"><legend>Ein Gewicht von 3,456 kg wird mit zwei Dezimalstellen als 3,46 angezeigt. Welcher Wert bleibt gespeichert?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> 3,46</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="1"> 3,456</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> 3,45</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> 3,456 %</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> Der Wert wird als Text gespeichert</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-1" value="0"> 346</label><button type="button" data-ue-feedback="Die Dezimalstellenformatierung ändert nur die Anzeige. Eine tatsächliche Rundung wäre eine gesonderte Berechnung.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>Ein Anteil von 80 % wurde als Zahl 80 eingegeben. Nach Prozentformatierung erscheint 8.000 %. Was ist zu tun?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> Das Währungsformat wählen</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="1"> Den Wert auf 0,8 korrigieren und Prozentformat beibehalten</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> Nur eine Dezimalstelle einstellen</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> Den Wert auf 8 ändern</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> Die Zahl als Text 80 speichern</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-2" value="0"> Die Spalte verbreitern</label><button type="button" data-ue-feedback="Das Prozentformat zeigt den gespeicherten Wert mal hundert an. 0,8 entspricht 80 %.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>Die Kennung 0041 erscheint als 41. Wie wird sie als echte Textkennung wiederhergestellt?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> Zwei Dezimalstellen einstellen</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> Die Zahl mit 100 multiplizieren</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> Die Spalte verbreitern</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> Währungsformat verwenden</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="0"> Nur das vorhandene Zahlenformat auf Text ändern</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-3" value="1"> Textformat vor der erneuten Eingabe von 0041 wählen</label><button type="button" data-ue-feedback="Bereits verlorene Nullen werden durch nachträgliches Textformat nicht wiederhergestellt. Die Kennung muss erneut erfasst werden.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>Ein importierter Betrag steht als Text „875,25 €“ in einer Zelle. Er soll später berechnet werden. Welches Vorgehen ist zuverlässig?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="1"> Den Betrag numerisch neu eingeben und anschließend als Euro formatieren</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Ein Apostroph vor den Betrag setzen</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Den Text fett darstellen</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Das Prozentformat anwenden</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Die Zelle mit der Überschrift verbinden</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-4" value="0"> Nur Währungsformat auswählen</label><button type="button" data-ue-feedback="Das Währungsformat wandelt vorhandenen Text nicht zuverlässig in eine Zahl um. Der Betrag muss numerisch vorliegen.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset><fieldset style="margin:.75rem 0"><legend>Ein echtes Datum erscheint nach Wechsel zum Standardformat als fortlaufende Zahl. Was erklärt dies?</legend><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="1"> Excel speichert Datumswerte als fortlaufende Zahlen; das Datumsformat ändert die Anzeige</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Die Spaltenbreite hat den gespeicherten Wert geändert</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Excel hat den Tag mit 100 multipliziert</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Das Datum wurde automatisch in Text umgewandelt</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Die Zahl ist immer ein Fehlercode</label><label style="display:block;margin:.3em 0"><input type="radio" name="frage-5" value="0"> Das Datum wurde gelöscht</label><button type="button" data-ue-feedback="Datumswerte sind numerisch gespeichert. Ein Datumsformat zeigt denselben Tag lesbar an.">Antwort prüfen</button><p role="status" aria-live="polite"></p></fieldset></details><script>for(const b of document.querySelectorAll("[data-ue-feedback]"))b.addEventListener("click",()=>{const f=b.closest("fieldset"),c=f.querySelector("input:checked");f.querySelector("[role=status]").textContent=c?((c.value==="1"?"Richtig. ":"Prüfe deine Wahl. ")+b.dataset.ueFeedback):"Wähle zuerst eine Antwort.";});</script></article></article></section>
+  </div>
+</div>
+</div>
+<p><a href="ue3.md" download data-edit-text="material/ue3.html::segment-8" data-edit-link="material/ue3.html::link-4">Bearbeitbare Textfassung</a></p>
+<nav><a href="../materialien.html">Zur Materialübersicht</a></nav>
+<footer data-bfs-chrome="" class="bfs-material-footer"><nav class="bfs-school-links" aria-label="Schulangebote und Social Media"><div class="bfs-school-group bfs-school-tools"><a href="https://virtuelles-klassenbuch.de/" aria-label="Virtuelles Klassenbuch" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-0.svg" alt="Virtuelles Klassenbuch"></a><a href="https://bbs1-aurich.eu/" aria-label="IServ BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-1.svg" alt="IServ BBS 1 Aurich"></a></div><div class="bfs-school-group bfs-school-loeppt"><a href="../index.html" aria-label="Löppt – zur Orientierung"><img src="../assets/footer-2.svg" alt="Löppt – zur Orientierung"></a></div><div class="bfs-school-group bfs-school-social"><a href="https://www.instagram.com/bbs1aurich/" aria-label="Instagram der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-3.svg" alt="Instagram der BBS 1 Aurich"></a><a href="https://www.facebook.com/bbs1aurich/" aria-label="Facebook der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-4.svg" alt="Facebook der BBS 1 Aurich"></a><a href="https://www.youtube.com/channel/UC0UuEZnhTVPjXVNSm3oAxOg" aria-label="YouTube der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-5.svg" alt="YouTube der BBS 1 Aurich"></a><a href="https://www.bbs1-aurich.de/" aria-label="Website der BBS 1 Aurich" target="_blank" rel="noopener noreferrer"><img src="../assets/footer-6.svg" alt="Website der BBS 1 Aurich"></a></div></nav><div class="bfs-document-footer no-print"><a class="bfs-editor-link" href="../lehrkraft.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 3-1 3-3 1-2 3 2 2-1 3 2 3 3-1 3 3 3-3 3 1 2-3-1-3 2-2-2-3-3-1-1-3z"></path><circle cx="12" cy="11" r="3"></circle></svg><span>Editor</span></a><a class="bfs-document-pdf" data-document-pdf href="../druckansicht.html"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6zM17 12h1"></path></svg>Gesamtdokument als PDF</a></div></footer>
+</main></body></html>

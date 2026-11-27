@@ -846,6 +846,34 @@
       "masterSha256": "8a6d0cf80d3e6792382996ac636384a325b31cd73508e30ec88f7d2420209fb1",
       "archiveSha256": "f4d693790eefe842772074159067d69d43d51d59cb0b7b8d9f83a93f58a5c3cf",
       "files": 100
+    },
+    {
+      "id": "BFSDUAL-LF02-LS06A",
+      "title": "Excel für Büroaufgaben – Eine digitale Büroübersicht erstellen",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF02/LS06A",
+      "version": "1.8.14",
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
+      "archive": "Downloads/BFSDUAL-LF02-LS06A/BFSDUAL_LF02_LS06A_v1.8.14_SCORM12.zip",
+      "masterSha256": "8b265c3f4efc4436eb7d732409ff040c0e87c74be8fd41e491563d9eb30e6ebd",
+      "archiveSha256": "293533f0b5007be54f292c9f783549e4c8f9a81e52c11adb7a6c4b74a6ba146a",
+      "files": 247
+    },
+    {
+      "id": "BFSDUAL-LF02-LS06B",
+      "title": "Absatzvorgänge mit SAP durchführen",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF02/LS06B",
+      "version": "1.8.14",
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152",
+      "archive": "Downloads/BFSDUAL-LF02-LS06B/BFSDUAL_LF02_LS06B_v1.8.14_SCORM12.zip",
+      "masterSha256": "03b9984b45386401670eea4c0ce6978b5955d3ecb7e35d6d0cafaaeb76f4fc31",
+      "archiveSha256": "1014a74a623504492f60ce81d73e867a6da152cf0c880d24cd4d1b6757628fd0",
+      "files": 118
     }
   ]
 }

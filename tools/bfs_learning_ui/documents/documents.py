@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 from lxml import html
 
 HERE = Path(__file__).resolve().parent
-REFERENCE = Path('/workspace/work/publish/Materialvorlagen')
+REFERENCE = HERE.parents[2] / 'Materialvorlagen'
 VOID = set('area base br col embed hr img input link meta param source track wbr'.split())
 HEADINGS = set('h1 h2 h3 h4 h5 h6'.split())
 RESOURCES = ('bfs-document-views.css','bfs-document-reader.css')
@@ -21,6 +21,8 @@ KINDS = {
  '2.3':{'m02':'acrobat','m03':'acrobat'},
  '2.4':{'m1':'outlook','m2':'sap','m3':'acrobat','m8':'acrobat'},
  '2.5':{'m03':'sap'},
+ '2.6a':{'m13':'acrobat','m14':'acrobat'},
+ '2.6b':{'m1':'outlook','m2':'sap','m3':'sap','m4':'sap','m5':'acrobat','handbuch':'acrobat'},
  '3.1':{},'3.2':{},
  '3.3':{'m1':'sap','m2':'sap','m3':'acrobat','m4':'acrobat','m5':'acrobat','m6':'acrobat','m7':'acrobat'}
 }
