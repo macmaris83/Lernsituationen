@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="804" height="490" viewBox="0 0 804 490" role="img" aria-labelledby="title description">
+<title id="title">Block · Aurich</title>
+<desc id="description">A3: Beratungsplatz Schild: Beratung. B3: Freier Gang. C3: Ablage für Vorführmuster und Minipumpe P50. A2: Wandregal Lichtset L10, Schloss S20 Schild: Zubehör. B2: Freier Gang. C2: Rahmentasche T30 und Sattelüberzug R40. A1: Schaufenster. B1: Eingang von der Straße. C1: Kasse. Die Buchstaben zeigen die Spalten. Die Zahlen zeigen die Reihen.</desc>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="1" y="1" width="802" height="488" rx="14" fill="#f5f8f5" stroke="#205e2b" stroke-width="2"/>
+<text x="26" y="44" fill="#205e2b" font-size="31" font-weight="700" text-anchor="start">Block · Aurich</text>
+<text x="26" y="76" fill="#4f5f52" font-size="20" font-weight="400" text-anchor="start">Flächenentwurf für den Test</text>
+<text x="183" y="110" fill="#17251b" font-size="23" font-weight="700" text-anchor="middle">A</text>
+<text x="421" y="110" fill="#17251b" font-size="23" font-weight="700" text-anchor="middle">B</text>
+<text x="659" y="110" fill="#17251b" font-size="23" font-weight="700" text-anchor="middle">C</text>
+<text x="35" y="182" fill="#17251b" font-size="24" font-weight="700" text-anchor="middle">3</text>
+<rect x="64" y="121" width="238" height="103" rx="0" fill="#ecf0ec" stroke="#a4b1a6" stroke-width="1"/>
+<text x="183" y="168" fill="#17251b" font-size="20" font-weight="700" text-anchor="middle">Beratungsplatz</text>
+<text x="183" y="193" fill="#17251b" font-size="18" font-weight="400" text-anchor="middle">Schild: Beratung</text>
+<rect x="302" y="121" width="238" height="103" rx="0" fill="#ffffff" stroke="#a4b1a6" stroke-width="1"/>
+<text x="421" y="180" fill="#17251b" font-size="20" font-weight="700" text-anchor="middle">Freier Gang</text>
+<rect x="540" y="121" width="238" height="103" rx="0" fill="#ecf0ec" stroke="#a4b1a6" stroke-width="1"/>
+<text x="659" y="155" fill="#17251b" font-size="20" font-weight="700" text-anchor="middle">Ablage</text>
+<text x="659" y="180" fill="#17251b" font-size="18" font-weight="400" text-anchor="middle">für Vorführmuster</text>
+<text x="659" y="205" fill="#17251b" font-size="18" font-weight="400" text-anchor="middle">und Minipumpe P50</text>
+<text x="35" y="285" fill="#17251b" font-size="24" font-weight="700" text-anchor="middle">2</text>
+<rect x="64" y="224" width="238" height="103" rx="0" fill="#ecf0ec" stroke="#a4b1a6" stroke-width="1"/>
+<text x="183" y="258" fill="#17251b" font-size="20" font-weight="700" text-anchor="middle">Wandregal</text>
+<text x="183" y="283" fill="#17251b" font-size="18" font-weight="400" text-anchor="middle">Lichtset L10, Schloss S20</text>
+<text x="183" y="308" fill="#17251b" font-size="18" font-weight="400" text-anchor="middle">Schild: Zubehör</text>
+<rect x="302" y="224" width="238" height="103" rx="0" fill="#ffffff" stroke="#a4b1a6" stroke-width="1"/>
+<text x="421" y="283" fill="#17251b" font-size="20" font-weight="700" text-anchor="middle">Freier Gang</text>
+<rect x="540" y="224" width="238" height="103" rx="0" fill="#ecf0ec" stroke="#a4b1a6" stroke-width="1"/>
+<text x="659" y="271" fill="#17251b" font-size="20" font-weight="700" text-anchor="middle">Rahmentasche T30</text>
+<text x="659" y="296" fill="#17251b" font-size="18" font-weight="400" text-anchor="middle">und Sattelüberzug R40</text>
+<text x="35" y="388" fill="#17251b" font-size="24" font-weight="700" text-anchor="middle">1</text>
+<rect x="64" y="327" width="238" height="103" rx="0" fill="#ecf0ec" stroke="#a4b1a6" stroke-width="1"/>
+<text x="183" y="386" fill="#17251b" font-size="20" font-weight="700" text-anchor="middle">Schaufenster</text>
+<rect x="302" y="327" width="238" height="103" rx="0" fill="#e7eff3" stroke="#a4b1a6" stroke-width="1"/>
+<text x="421" y="374" fill="#17251b" font-size="20" font-weight="700" text-anchor="middle">Eingang</text>
+<text x="421" y="399" fill="#17251b" font-size="18" font-weight="400" text-anchor="middle">von der Straße</text>
+<rect x="540" y="327" width="238" height="103" rx="0" fill="#ecf0ec" stroke="#a4b1a6" stroke-width="1"/>
+<text x="659" y="386" fill="#17251b" font-size="20" font-weight="700" text-anchor="middle">Kasse</text>
+<text x="64" y="468" fill="#4f5f52" font-size="18" font-weight="400" text-anchor="start">Die Buchstaben zeigen die Spalten. Die Zahlen zeigen die Reihen.</text>
+</g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 970 511" width="970" height="511" lang="de" role="img" aria-labelledby="title desc">
+  <title id="title">Warenträger bei Block</title>
+  <desc id="desc">Zwei gleiche Rollregale, jeweils 1,00 m lang und 0,40 m tief. Eine lange Seite ist als Bedienseite markiert. Ein Tisch ist 0,80 m lang und 0,55 m tief.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L12 6 L0 12 Z" fill="#226c2b"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="1" y="1" width="968" height="509" rx="20" fill="#ffffff" stroke="#b2cdb1" stroke-width="2"/>
+    <rect x="22" y="21" width="926" height="70" rx="14" fill="#edf6eb" stroke="none" stroke-width="2"/>
+    <text x="43" y="67" text-anchor="start" font-size="32" font-weight="700" fill="#143920">Warenträger bei Block</text>
+    <rect x="35" y="116" width="437" height="319" rx="14" fill="#f7faf6" stroke="#b2cdb1" stroke-width="2"/>
+    <rect x="495" y="116" width="437" height="319" rx="14" fill="#f7faf6" stroke="#b2cdb1" stroke-width="2"/>
+    <text x="59" y="158" text-anchor="start" font-size="28" font-weight="700" fill="#143920">Rollregal</text>
+    <text x="519" y="158" text-anchor="start" font-size="28" font-weight="700" fill="#143920">Tisch</text>
+    <rect x="86" y="237" width="200" height="80" rx="0" fill="#d7ead6" stroke="#226c2b" stroke-width="2"/>
+    <rect x="551" y="237" width="160" height="110" rx="0" fill="#d7ead6" stroke="#226c2b" stroke-width="2"/>
+    <line x1="86" y1="219" x2="286" y2="219" stroke="#226c2b" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+    <text x="186.0" y="207" text-anchor="middle" font-size="21" font-weight="700" fill="#143920">1,00 m</text>
+    <line x1="303" y1="237" x2="303" y2="317" stroke="#226c2b" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+    <text x="319" y="284.0" text-anchor="start" font-size="21" font-weight="700" fill="#143920">0,40 m</text>
+    <line x1="551" y1="219" x2="711" y2="219" stroke="#226c2b" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+    <text x="631.0" y="207" text-anchor="middle" font-size="21" font-weight="700" fill="#143920">0,80 m</text>
+    <line x1="728" y1="237" x2="728" y2="347" stroke="#226c2b" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+    <text x="744" y="299.0" text-anchor="start" font-size="21" font-weight="700" fill="#143920">0,55 m</text>
+    <line x1="86" y1="317" x2="286" y2="317" stroke="#226c2b" stroke-width="7"/>
+    <line x1="186" y1="374" x2="186" y2="329" stroke="#226c2b" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="186" y="404" text-anchor="middle" font-size="23" font-weight="700" fill="#143920">Bedienseite</text>
+    <text x="519" y="404" text-anchor="start" font-size="22" font-weight="500" fill="#143920">Markiert eure Bedienseite.</text>
+    <text x="57" y="480" text-anchor="start" font-size="25" font-weight="500" fill="#143920">Block hat 2 Rollregale. Die Formen zeigen die Ansicht von oben.</text>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 760" width="1240" height="760" role="img" aria-labelledby="title desc"><title id="title">Werbeplätze und ihre Fristen</title><desc id="desc">Jeweils die Frist aus der Vorwoche und den geplanten Einsatz ablesen. Alle vier möglichen Werbeplätze aus M3 stehen nebeneinander vergleichbar in vier Zeilen. Bei der Bike Arena ist beim Aufsteller auch der Liefertermin angegeben.</desc>
+<rect x="0" y="0" width="1240" height="760" rx="0" fill="#f7faf6" stroke="none" stroke-width="2"/>
+<rect x="0" y="0" width="1240" height="89" rx="0" fill="#eaf4e9" stroke="none" stroke-width="2"/>
+<text x="40" y="57" fill="#226532" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="35" text-anchor="start">Werbeplätze und ihre Fristen</text>
+<rect x="28" y="107" width="1184" height="84" rx="12" fill="#ffffff" stroke="#bdd4be" stroke-width="2"/>
+<text x="50" y="140" fill="#226532" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="23" text-anchor="start">Mittwoch in der Vorwoche</text>
+<text x="50" y="169" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="22" text-anchor="start">Global Bike</text>
+<text x="402" y="155" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="22" text-anchor="start">ab 10:00 Uhr · Bilder und Produktdaten</text>
+<path d="M 872 148 H 921 m -10 -8 l 10 8 -10 8" fill="none" stroke="#226532" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+<text x="943" y="155" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="21" text-anchor="start">bis 14:00 Uhr · Entwürfe</text>
+<text x="50" y="238" fill="#226532" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="23" text-anchor="start">Werbeplatz</text>
+<text x="390" y="238" fill="#226532" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="23" text-anchor="start">Frist in der Vorwoche</text>
+<text x="768" y="238" fill="#226532" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="23" text-anchor="start">Geplanter Einsatz</text>
+<rect x="28" y="257" width="1184" height="89" rx="12" fill="#eaf4e9" stroke="#bdd4be" stroke-width="2"/>
+<text x="50" y="291" fill="#226532" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="24" text-anchor="start">Block</text>
+<text x="50" y="320" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="22" text-anchor="start">E-Mail-Newsletter</text>
+<text x="390" y="291" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="21" text-anchor="start">bis Donnerstag · 12:00 Uhr</text>
+<text x="390" y="320" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="20" text-anchor="start">Ladenleitung gibt frei.</text>
+<path d="M 714 303 H 748 m -10 -8 l 10 8 -10 8" fill="none" stroke="#226532" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+<text x="768" y="291" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="23" text-anchor="start">Montag · 08:00 Uhr</text>
+<text x="768" y="315" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="17" text-anchor="start">Block verschickt den Newsletter.</text>
+<rect x="28" y="361" width="1184" height="89" rx="12" fill="#ffffff" stroke="#bdd4be" stroke-width="2"/>
+<text x="50" y="395" fill="#226532" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="24" text-anchor="start">Block</text>
+<text x="50" y="424" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="22" text-anchor="start">Hinweis am Schaufenster</text>
+<text x="390" y="395" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="21" text-anchor="start">bis Freitag · 14:00 Uhr</text>
+<text x="390" y="424" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="20" text-anchor="start">Freigabe und Ausdruck</text>
+<path d="M 714 407 H 748 m -10 -8 l 10 8 -10 8" fill="none" stroke="#226532" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+<text x="768" y="395" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="23" text-anchor="start">ab Dienstag zur Öffnung</text>
+<text x="768" y="419" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="17" text-anchor="start">Block bringt den Hinweis an.</text>
+<rect x="28" y="465" width="1184" height="89" rx="12" fill="#eaf4e9" stroke="#bdd4be" stroke-width="2"/>
+<text x="50" y="499" fill="#226532" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="24" text-anchor="start">Bike Arena</text>
+<text x="50" y="528" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="22" text-anchor="start">Aufsteller am Eingang</text>
+<text x="390" y="499" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="21" text-anchor="start">bis Mittwoch · 16:00 Uhr</text>
+<text x="390" y="528" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="20" text-anchor="start">Druckerei braucht die Freigabe.</text>
+<path d="M 714 511 H 748 m -10 -8 l 10 8 -10 8" fill="none" stroke="#226532" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+<text x="768" y="499" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="23" text-anchor="start">ab Freitag der Aktionswoche</text>
+<text x="768" y="520" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="17" text-anchor="start">Druckerei liefert bis Donnerstag der Aktionswoche.</text>
+<text x="768" y="539" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="17" text-anchor="start">Bike Arena stellt auf.</text>
+<rect x="28" y="569" width="1184" height="89" rx="12" fill="#ffffff" stroke="#bdd4be" stroke-width="2"/>
+<text x="50" y="603" fill="#226532" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="24" text-anchor="start">Bike Arena</text>
+<text x="50" y="632" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="22" text-anchor="start">Hinweis im Hauptgang</text>
+<text x="390" y="603" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="21" text-anchor="start">bis Freitag · 12:00 Uhr</text>
+<text x="390" y="632" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="20" text-anchor="start">Freigabe</text>
+<path d="M 714 615 H 748 m -10 -8 l 10 8 -10 8" fill="none" stroke="#226532" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+<text x="768" y="603" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="23" text-anchor="start">ab Dienstag zur Öffnung</text>
+<text x="768" y="627" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="17" text-anchor="start">Bike Arena druckt und platziert den Hinweis.</text>
+<text x="50" y="722" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="22" text-anchor="start">Die Frühjahrsaktion läuft von Dienstag bis Samstag.</text>
+</svg>

@@ -73,6 +73,14 @@ Jede ZIP einzeln als SCORM-Aktivität in Moodle importieren. Vorhandene Moodle-K
 | BFS dual | Wenn Lieferungen nicht wie vereinbart erfolgen | 1.8.14 | [ZIP](BFSDUAL-LF03-LS03/BFSDUAL_LF03_LS03_v1.8.14_SCORM12.zip) |
 | BFS dual | Excel für Büroaufgaben – Eine digitale Büroübersicht erstellen | 1.8.14 | [ZIP](BFSDUAL-LF02-LS06A/BFSDUAL_LF02_LS06A_v1.8.14_SCORM12.zip) |
 | BFS dual | Absatzvorgänge mit SAP durchführen | 1.8.14 | [ZIP](BFSDUAL-LF02-LS06B/BFSDUAL_LF02_LS06B_v1.8.14_SCORM12.zip) |
+| BFS dual | Die Nachfrage an zwei Standorten vergleichen | 1.8.14 | [ZIP](BFSDUAL-LF06-LS01/BFSDUAL_LF06_LS01_v1.8.14_SCORM12.zip) |
+| BFS dual | Ein gemeinsames Sortiment mit lokalen Ergänzungen zusammenstellen | 1.8.14 | [ZIP](BFSDUAL-LF06-LS02/BFSDUAL_LF06_LS02_v1.8.14_SCORM12.zip) |
+| BFS dual | Waren im Fahrradfachgeschäft präsentieren | 1.8.14 | [ZIP](BFSDUAL-LF06-LS03/BFSDUAL_LF06_LS03_v1.8.14_SCORM12.zip) |
+| BFS dual | Waren auf einer Selbstbedienungsfläche präsentieren | 1.8.14 | [ZIP](BFSDUAL-LF06-LS04/BFSDUAL_LF06_LS04_v1.8.14_SCORM12.zip) |
+| BFS dual | Eine gemeinsame Werbeaktion abstimmen | 1.8.14 | [ZIP](BFSDUAL-LF06-LS05/BFSDUAL_LF06_LS05_v1.8.14_SCORM12.zip) |
+| BFS dual | Werbemittel für beide Standorte gestalten | 1.8.14 | [ZIP](BFSDUAL-LF06-LS06/BFSDUAL_LF06_LS06_v1.8.14_SCORM12.zip) |
+| BFS dual | Die Entwürfe vor der Freigabe prüfen | 1.8.14 | [ZIP](BFSDUAL-LF06-LS07/BFSDUAL_LF06_LS07_v1.8.14_SCORM12.zip) |
+| BFS dual | Über die Fortführung der Aktion entscheiden | 1.8.14 | [ZIP](BFSDUAL-LF06-LS08/BFSDUAL_LF06_LS08_v1.8.14_SCORM12.zip) |
 
 Maschinenlesbare Zuordnung und Prüfsummen: [aktuell.json](aktuell.json).
 Vor einer automatischen Nutzung: `python tools/master.py check --archives`.

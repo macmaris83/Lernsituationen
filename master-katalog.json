@@ -687,6 +687,102 @@
       "manifestOnly": true,
       "formVersion": "1.8.8",
       "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF06-LS01",
+      "title": "Die Nachfrage an zwei Standorten vergleichen",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF06/LS01",
+      "version": "1.8.14",
+      "archiveStem": "BFSDUAL_LF06_LS01",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF06-LS02",
+      "title": "Ein gemeinsames Sortiment mit lokalen Ergänzungen zusammenstellen",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF06/LS02",
+      "version": "1.8.14",
+      "archiveStem": "BFSDUAL_LF06_LS02",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF06-LS03",
+      "title": "Waren im Fahrradfachgeschäft präsentieren",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF06/LS03",
+      "version": "1.8.14",
+      "archiveStem": "BFSDUAL_LF06_LS03",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF06-LS04",
+      "title": "Waren auf einer Selbstbedienungsfläche präsentieren",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF06/LS04",
+      "version": "1.8.14",
+      "archiveStem": "BFSDUAL_LF06_LS04",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF06-LS05",
+      "title": "Eine gemeinsame Werbeaktion abstimmen",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF06/LS05",
+      "version": "1.8.14",
+      "archiveStem": "BFSDUAL_LF06_LS05",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF06-LS06",
+      "title": "Werbemittel für beide Standorte gestalten",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF06/LS06",
+      "version": "1.8.14",
+      "archiveStem": "BFSDUAL_LF06_LS06",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF06-LS07",
+      "title": "Die Entwürfe vor der Freigabe prüfen",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF06/LS07",
+      "version": "1.8.14",
+      "archiveStem": "BFSDUAL_LF06_LS07",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
+    },
+    {
+      "id": "BFSDUAL-LF06-LS08",
+      "title": "Über die Fortführung der Aktion entscheiden",
+      "bereich": "BFS dual",
+      "typ": "Lernsituation",
+      "master": "Fachbereiche/BFSdual/LF06/LS08",
+      "version": "1.8.14",
+      "archiveStem": "BFSDUAL_LF06_LS08",
+      "manifestOnly": true,
+      "formVersion": "1.8.8",
+      "formSourceSha256": "ef82820421a0ae3b7a1271ca48239ad7691976eca95a8436e4775b92aaafb152"
     }
   ]
 }

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 655" width="1160" height="655" role="img" aria-labelledby="title desc"><title id="title">Bausteine für zwei Werbemittel</title><desc id="desc">Ein leerer Handyrahmen auf einem A5-Blatt, ein leeres Eingangsschild auf einem A4-Blatt sowie sechs einzelne Papierstreifen. Die Streifen sind noch nicht auf die Werbemittel verteilt.</desc>
+<rect x="0" y="0" width="1160" height="655" rx="0" fill="#f7faf6" stroke="none" stroke-width="2"/>
+<rect x="0" y="0" width="1160" height="89" rx="0" fill="#eaf4e9" stroke="none" stroke-width="2"/>
+<text x="40" y="57" fill="#226532" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="35" text-anchor="start">Bausteine für zwei Werbemittel</text>
+<rect x="39" y="180" width="236" height="338" rx="5" fill="#ffffff" stroke="#bdd4be" stroke-width="2"/>
+<rect x="316" y="140" width="300" height="427" rx="5" fill="#ffffff" stroke="#bdd4be" stroke-width="2"/>
+<text x="157" y="222" fill="#226532" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="20" text-anchor="middle">A5 · Handyrahmen</text>
+<text x="466" y="184" fill="#226532" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="23" text-anchor="middle">A4 · Eingangsschild</text>
+<rect x="98" y="248" width="118" height="239" rx="20" fill="none" stroke="#226532" stroke-width="5"/>
+<rect x="130" y="260" width="55" height="7" rx="4" fill="#226532" stroke="none" stroke-width="2"/>
+<rect x="385" y="221" width="162" height="291" rx="7" fill="none" stroke="#226532" stroke-width="5"/>
+<path d="M 417 512 l -10 26 M 515 512 l 10 26" fill="none" stroke="#226532" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+<text x="675" y="170" fill="#226532" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="26" text-anchor="start">Papierstreifen zum Verschieben</text>
+<rect x="668" y="193" width="457" height="49" rx="8" fill="#eaf4e9" stroke="#226532" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="690" y="225" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="21" text-anchor="start">Überschrift</text>
+<rect x="668" y="255" width="457" height="49" rx="8" fill="#eaf4e9" stroke="#226532" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="690" y="287" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="21" text-anchor="start">Gemeinsame Botschaft</text>
+<rect x="668" y="317" width="457" height="49" rx="8" fill="#eaf4e9" stroke="#226532" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="690" y="349" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="21" text-anchor="start">Bild oder Produktfeld</text>
+<rect x="668" y="379" width="457" height="49" rx="8" fill="#eaf4e9" stroke="#226532" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="690" y="411" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="21" text-anchor="start">Belegbare Produktaussage</text>
+<rect x="668" y="441" width="457" height="49" rx="8" fill="#eaf4e9" stroke="#226532" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="690" y="473" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="21" text-anchor="start">Aktionszeitraum</text>
+<rect x="668" y="503" width="457" height="49" rx="8" fill="#eaf4e9" stroke="#226532" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="690" y="535" fill="#183322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="18" text-anchor="start">Handlungsaufforderung mit Standort oder Weg</text>
+<text x="39" y="606" fill="#45664e" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" font-size="24" text-anchor="start">Die Rahmen bleiben frei, bis ihr die Streifen probelegt.</text>
+</svg>

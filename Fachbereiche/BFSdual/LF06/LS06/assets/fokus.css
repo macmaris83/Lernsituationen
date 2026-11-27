@@ -1,0 +1,38 @@
+.bfs-path-locked{opacity:.58;cursor:not-allowed!important}
+.bfs-path-locked:is(:hover,:focus-visible){text-decoration:none}
+.gb-learning .assignment-body .gb-choice{margin:.6rem 0 1rem}
+.gb-learning .task-focus-panel .gb-pathcard{font-size:.96rem}
+.bfs-choice-status{margin:.35rem 0;font-size:.9rem;color:#35596b}
+
+body.gb-learning.task-focus .shell{width:min(1380px,100%);max-width:1380px}
+body.gb-learning.task-focus .main{padding-inline:clamp(.45rem,1.25vw,1.3rem)}
+body.gb-learning.task-focus .task-accordion[open]{position:relative}
+body.gb-learning.task-focus .task-accordion[open]>.task-summary{margin-bottom:.55rem;padding-block:.45rem}
+body.gb-learning.task-focus .task-focus-panel{padding-inline:clamp(.7rem,1.7vw,1.4rem)}
+body.gb-learning.task-focus .focus-task-heading{grid-template-columns:minmax(0,1fr) minmax(180px,220px);gap:.65rem;margin-bottom:.85rem}
+body.gb-learning.task-focus .focus-task-heading:not(:has(.focus-timer)){grid-template-columns:minmax(0,1fr)}
+body.gb-learning.task-focus .focus-task-heading .focus-competence{margin:0;padding:.45rem .65rem}
+body.gb-learning.task-focus .focus-competence p{font-size:.9rem;line-height:1.45}
+body.gb-learning.task-focus .focus-task-heading .focus-timer{padding-block:.3rem}
+body.gb-learning.task-focus .task-focus-panel>[data-phase-points]{position:absolute;top:.55rem;right:.85rem;width:auto;margin:0;padding:0;z-index:2}
+body.gb-learning.task-focus [data-phase-points] .point-float{width:84px;filter:none}
+body.gb-learning.task-focus [data-phase-points] .points-battery{height:20px;padding:1px;border-width:1px;border-radius:4px;box-shadow:none}
+body.gb-learning.task-focus [data-phase-points] .points-battery:after{width:3px;height:8px;right:-4px;top:5px}
+body.gb-learning.task-focus [data-phase-points] .points-battery-track{inset:2px;border-radius:2px}
+body.gb-learning.task-focus [data-phase-points] .points-battery-label{font-size:10px;letter-spacing:0}
+body.gb-learning .focus-task-footer .task-completion{display:grid!important;grid-template-columns:auto minmax(0,1fr);gap:.3rem .4rem;align-items:center;justify-content:center;padding-block:.25rem}
+body.gb-learning .focus-task-footer .task-completion [data-bfs-xp]{grid-column:1/-1;justify-self:center;margin:0;pointer-events:none}
+body.gb-learning .focus-task-footer .task-completion .point-badge{padding:.18rem .4rem;font-size:.7rem}
+body.gb-learning .focus-task-footer .task-completion:has(input:disabled) [data-bfs-xp]{opacity:.72}
+body.gb-learning .focus-task-footer .task-completion .point-badge svg{width:.85rem;height:.85rem}
+body.gb-learning .assignment-frame > [data-completion-label] [data-bfs-xp]{display:none!important}
+body.gb-learning .task-original-preview [data-bfs-choice-ui]{display:none!important}
+@media(max-width:660px){
+ body.gb-learning.task-focus .focus-task-heading{grid-template-columns:minmax(0,1fr)}
+ body.gb-learning.task-focus .focus-task-heading .focus-timer-note{margin:0}
+ body.gb-learning.task-focus .task-focus-panel>[data-phase-points]{right:.7rem}
+ body.gb-learning .focus-task-footer .task-completion{font-size:.75rem}
+}
+@media print{
+ .bfs-choice-status, [data-office-pilot], .ais-help-dialog{display:none!important}
+}

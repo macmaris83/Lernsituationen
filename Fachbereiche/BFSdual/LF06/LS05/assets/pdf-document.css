@@ -1,0 +1,50 @@
+@page{size:A4;margin:16mm 14mm 16mm}
+:root{font:11pt/1.48 system-ui,sans-serif;color:#183147;background:#fff}
+*{box-sizing:border-box}
+body{margin:0}
+main{max-width:182mm;margin:auto}
+h1,h2,h3,h4{color:#173a63;line-height:1.23;break-after:avoid}
+h1{font-size:23pt;margin:4mm 0}
+h2{font-size:16pt;margin:4mm 0 2mm}
+h3{font-size:12pt;margin:4mm 0 2mm}
+p,ul,ol{margin-block:2mm;orphans:2;widows:2}
+a{color:#17566a}
+img,svg{max-width:100%;height:auto}
+img{max-height:108mm;object-fit:contain}
+figure{margin:3mm 0;break-inside:avoid}
+figcaption{font-size:9pt;color:#425d70}
+table{border-collapse:collapse;width:100%;table-layout:auto;overflow-wrap:anywhere;margin:3mm 0;font-size:9.5pt}
+th,td{border:.3mm solid #bacbd5;padding:1.7mm;text-align:left;vertical-align:top}
+th{background:#edf4f8}
+thead{display:table-header-group}
+tr{break-inside:avoid}
+blockquote{margin:3mm 0;padding:2mm 4mm;border-left:1mm solid #9ccdda;background:#f5f9fb}
+[hidden]{display:none!important}
+.pdf-controls{padding:3mm 0;border-bottom:1px solid #dae4e9;display:flex;flex-wrap:wrap;align-items:center;gap:3mm}
+.pdf-controls select,.pdf-controls button{font:inherit;padding:.25rem .45rem}
+.pdf-chapter{padding-top:2mm}
+.pdf-chapter+.pdf-chapter{margin-top:8mm;padding-top:4mm;border-top:1px solid #d2dee7}
+.pdf-heading{border-top:1.4mm solid #1889ae;padding-top:3mm;margin-bottom:5mm}
+.pdf-brand{font-size:9pt;letter-spacing:.035em;color:#355468}
+.pdf-logos{display:flex;justify-content:flex-end;align-items:center;gap:4mm;margin-bottom:2mm}.pdf-logos img:first-child{width:30mm}.pdf-logos img:last-child{width:15mm}.pdf-logos img{max-height:13mm;object-fit:contain}
+.pdf-task{break-inside:avoid;margin:3mm 0;padding:1mm 3mm 2mm;border-left:.75mm solid #8ebdcd}
+.pdf-task h3{margin:1mm 0}
+.pdf-task-meta{font-size:9pt;font-weight:600;color:#355468}
+.pdf-path-label{font-size:9pt;font-weight:700;color:#355468}
+.pdf-notes{margin:7mm 0 0;break-inside:avoid}
+.pdf-notes p{font-size:9pt;color:#355468}
+.pdf-notes .pdf-line{height:7mm;border-bottom:.28mm solid #9dabb6}
+.workbook-sheet + .workbook-sheet{break-before:page}
+.workbook-sheet{padding:1mm 0}
+.workbook-sheet .pdf-task{break-inside:auto}
+.workbook-sheet .pdf-heading{margin-bottom:9mm}
+.workbook-sheet .pdf-heading h1{font-size:19pt}
+.workbook-sheet .pdf-heading h2{font-size:15pt}
+.pdf-choice{padding:2mm 3mm;border:1px solid #c7d6de;margin:2mm 0;break-inside:avoid}
+.pdf-response{height:12mm;border-bottom:1px solid #b1c2cc}
+@media screen{body{padding:12px}.pdf-document main{box-shadow:0 4px 25px #173a631f;padding:5mm 7mm}}
+@media print{.pdf-controls{display:none!important}a{color:inherit;text-decoration:none}*{print-color-adjust:exact}}
+
+.pdf-squares{width:100%;border:0.22mm solid #7f98a5;background-image:linear-gradient(#a9bbc4 0.2mm,transparent 0.2mm),linear-gradient(90deg,#a9bbc4 0.2mm,transparent 0.2mm);background-size:5mm 5mm}
+
+.pdf-logos img:first-child{filter:brightness(0) saturate(100%) invert(17%) sepia(25%) saturate(1978%) hue-rotate(171deg);}
